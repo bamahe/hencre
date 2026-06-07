@@ -1,11 +1,21 @@
 /**
  * resend.ts
  * Resend email client for lead alerts and auto-responders.
+ * Lazy-initialized to avoid build-time crashes.
  */
 
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY!);
+let _resend: Resend | null = null;
+
+function getResend(): Resend {
+  if (!_resend) {
+    const key = process.env.RESEND_API_KEY;
+    if (!key) throw new Error('Missing RESEND_API_KEY');
+    _resend = new Resend(key);
+  }
+  return _resend;
+}
 
 /** Barrett's email — all alerts go here */
 const BARRETT_EMAIL = 'barrett@nowtb.com';
@@ -29,7 +39,7 @@ interface AlertEmailData {
  * Send Barrett an alert email about a new lead or referral.
  */
 export async function sendAlertEmail(data: AlertEmailData): Promise<{ success: boolean }> {
-  const { error } = await resend.emails.send({
+  const { error } = await getResend().emails.send({
     from: FROM_ADDRESS,
     to: BARRETT_EMAIL,
     subject: `[HenCRE] ${data.subject}`,
@@ -67,7 +77,7 @@ interface AutoResponderData {
  * Send an auto-response confirming inquiry was received.
  */
 export async function sendAutoResponder(data: AutoResponderData): Promise<{ success: boolean }> {
-  const { error } = await resend.emails.send({
+  const { error } = await getResend().emails.send({
     from: FROM_ADDRESS,
     to: data.toEmail,
     subject: 'Your Commercial Real Estate Inquiry \u2014 Barrett Henry, REALTOR\u00AE',
