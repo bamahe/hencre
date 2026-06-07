@@ -63,12 +63,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Core pages
   const corePages = [
     "", "about", "contact", "faq", "thank-you", "refer-a-deal",
-    "services", "commercial", "markets", "insights", "blog", "remax-commercial",
+    "services", "commercial", "markets", "insights", "blog",
+    "remax-commercial", "remax-commercial-florida",
   ].map((path) => ({
     url: `${BASE_URL}/${path}`,
     lastModified: now,
     changeFrequency: path === "" ? "weekly" as const : "monthly" as const,
-    priority: path === "" ? 1.0 : path === "remax-commercial" ? 0.9 : 0.8,
+    priority: path === "" ? 1.0 : (path === "remax-commercial" || path === "remax-commercial-florida") ? 0.9 : 0.8,
   }));
 
   // Service pages

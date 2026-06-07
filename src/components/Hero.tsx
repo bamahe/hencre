@@ -33,7 +33,7 @@ export default function Hero({ title, subtitle, ctaText, ctaHref }: HeroProps) {
           <div className="mt-8">
             <Link
               href={ctaHref}
-              className="inline-block rounded-lg bg-accent-blue px-8 py-3 text-base font-semibold text-white no-underline shadow-lg transition-colors hover:bg-accent-blue/90 hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 text-base font-semibold text-navy no-underline shadow-lg transition-colors hover:bg-warm-white hover:no-underline"
             >
               {ctaText}
             </Link>
