@@ -10,13 +10,13 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Florida Commercial Real Estate | HenCRE — Barrett Henry, REALTOR®",
+  title: "REMAX Commercial Florida | HenCRE — Barrett Henry, Broker Associate",
   description:
-    "Commercial real estate brokerage serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
+    "REMAX Commercial Florida — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
   openGraph: {
-    title: "Florida Commercial Real Estate | HenCRE",
+    title: "REMAX Commercial Florida | HenCRE — Barrett Henry",
     description:
-      "Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, connected across Florida. Backed by 23+ years in this market.",
+      "REMAX Commercial agent serving all 67 Florida counties. Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, backed by the global REMAX network.",
     url: "https://hencre.com",
   },
 };
@@ -138,7 +138,17 @@ const schema = {
       url: "https://hencre.com",
       logo: "https://hencre.com/logo.png",
       description:
-        "Commercial real estate brokerage serving all 67 Florida counties.",
+        "REMAX Commercial real estate brokerage serving all 67 Florida counties.",
+      parentOrganization: {
+        "@type": "Organization",
+        name: "REMAX Commercial",
+        url: "https://www.remaxcommercial.com",
+      },
+      sameAs: [
+        "https://www.remaxcommercial.com",
+        "https://nowtb.com",
+        "https://barretthenry.remax.com",
+      ],
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+1-813-733-7907",
@@ -162,9 +172,19 @@ const schema = {
         "@type": "RealEstateAgent",
         name: "REMAX Collective",
       },
+      memberOf: {
+        "@type": "Organization",
+        name: "REMAX Commercial",
+        url: "https://www.remaxcommercial.com",
+      },
       url: "https://hencre.com",
       telephone: "+1-813-733-7907",
       email: "barrett@nowtb.com",
+      sameAs: [
+        "https://www.remaxcommercial.com",
+        "https://nowtb.com",
+        "https://barretthenry.remax.com",
+      ],
       areaServed: {
         "@type": "State",
         name: "Florida",
@@ -249,6 +269,76 @@ export default function HomePage() {
           every engagement — deep market knowledge, honest guidance, and relentless
           execution. No committee. No runaround. Just results.
         </p>
+      </section>
+
+      {/* ---- REMAX Commercial Network section ---- */}
+      <section className="bg-navy px-4 py-16 text-white sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-5xl">
+          <p className="text-center text-sm font-semibold tracking-widest uppercase text-accent-blue">
+            REMAX Commercial
+          </p>
+          <h2 className="mt-2 text-center text-2xl font-bold text-white sm:text-3xl">
+            Backed by the REMAX Commercial Network
+          </h2>
+          <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-white/80">
+            &ldquo;A better way in commercial real estate.&rdquo;
+          </p>
+
+          <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {/* Stat card: Global Presence */}
+            <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
+              <p className="text-3xl font-bold text-accent-blue">110+</p>
+              <p className="mt-1 text-sm font-semibold text-white">Countries &amp; Territories</p>
+              <p className="mt-2 text-sm text-white/60">
+                REMAX operates in more countries than any other real estate brand on the planet.
+              </p>
+            </div>
+
+            {/* Stat card: Agent Network */}
+            <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
+              <p className="text-3xl font-bold text-accent-blue">140,000+</p>
+              <p className="mt-1 text-sm font-semibold text-white">Agents Worldwide</p>
+              <p className="mt-2 text-sm text-white/60">
+                The largest network of real estate professionals — including commercial specialists across every major market.
+              </p>
+            </div>
+
+            {/* Stat card: Offices */}
+            <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
+              <p className="text-3xl font-bold text-accent-blue">9,000+</p>
+              <p className="mt-1 text-sm font-semibold text-white">Offices Globally</p>
+              <p className="mt-2 text-sm text-white/60">
+                Each independently owned and operated — local expertise backed by global infrastructure.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-10 space-y-4 text-lg leading-relaxed text-white/80 max-w-3xl mx-auto">
+            <p>
+              REMAX Commercial is a division of the world&apos;s most recognized real estate
+              brand. Founded in 1973, REMAX has spent over 50 years building a network
+              that spans 110+ countries and territories — giving commercial clients access
+              to listings, market data, and referral relationships that no independent
+              brokerage can match.
+            </p>
+            <p>
+              REMAX Commercial agents specialize exclusively in commercial property —
+              office, retail, industrial, multifamily, land, hospitality, and specialty
+              assets like marinas. Barrett brings the full resources of this global network
+              to every Florida deal, including REMAX Hall of Fame recognition and access to
+              the most powerful referral system in commercial real estate.
+            </p>
+          </div>
+
+          <div className="mt-8 text-center">
+            <Link
+              href="/remax-commercial"
+              className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline"
+            >
+              Learn About REMAX Commercial
+            </Link>
+          </div>
+        </div>
       </section>
 
       {/* ---- Services overview ---- */}

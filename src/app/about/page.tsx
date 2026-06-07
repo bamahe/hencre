@@ -9,13 +9,13 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "About Barrett Henry | Commercial Real Estate Broker",
+  title: "About Barrett Henry | REMAX Commercial Florida Broker Associate",
   description:
-    "Barrett Henry — REALTOR®, Broker Associate at REMAX Collective. 23+ years of real estate experience, e-PRO, MRP, SRS designations, REMAX Hall of Fame. Commercial real estate across Florida.",
+    "Barrett Henry — REALTOR®, Broker Associate at REMAX Collective. REMAX Commercial agent with 23+ years of real estate experience, e-PRO, MRP, SRS designations, REMAX Hall of Fame. Commercial real estate across all 67 Florida counties.",
   openGraph: {
-    title: "About Barrett Henry | HenCRE",
+    title: "About Barrett Henry | REMAX Commercial Florida",
     description:
-      "23+ years of real estate experience. Broker Associate at REMAX Collective. Serving Florida commercial real estate clients with integrity and results.",
+      "REMAX Commercial Broker Associate with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
     url: "https://hencre.com/about",
   },
 };
@@ -40,6 +40,11 @@ const schema = {
         "@type": "RealEstateAgent",
         name: "REMAX Collective",
       },
+      memberOf: {
+        "@type": "Organization",
+        name: "REMAX Commercial",
+        url: "https://www.remaxcommercial.com",
+      },
       url: "https://hencre.com/about",
       telephone: "+1-813-733-7907",
       email: "barrett@nowtb.com",
@@ -58,6 +63,7 @@ const schema = {
       ],
       award: "REMAX Hall of Fame",
       sameAs: [
+        "https://www.remaxcommercial.com",
         "https://nowtb.com",
         "https://barretthenry.remax.com",
       ],
@@ -147,6 +153,53 @@ export default function AboutPage() {
                 <p className="mt-1 text-sm text-slate-brand">{d.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Why REMAX Commercial ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">
+            Why REMAX Commercial?
+          </h2>
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+            <p>
+              The REMAX name is the most recognized in real estate worldwide — and
+              REMAX Commercial is the division built specifically for commercial
+              property professionals. Founded in 1973, REMAX has spent over 50 years
+              growing into a network of 140,000+ agents across 9,000+ offices in 110+
+              countries and territories. That is not just brand recognition — it is
+              infrastructure.
+            </p>
+            <p>
+              I chose REMAX because the network gives my clients access to tools,
+              market data, and referral relationships that independent brokerages
+              simply cannot match. When you work with a REMAX Commercial agent, you
+              tap into the largest real estate referral network on the planet. That
+              means more exposure for your listings, more off-market opportunities for
+              buyers, and faster deals for everyone.
+            </p>
+            <p>
+              REMAX Commercial agents handle the full spectrum of commercial property
+              types — office, retail, industrial, multifamily, land, hospitality, and
+              specialty assets. The specialization matters. Commercial real estate is
+              not residential with bigger numbers — it requires different skills,
+              different analysis, and a different mindset.
+            </p>
+            <p>
+              Beyond business, REMAX has maintained a 32+ year partnership with
+              Children&apos;s Miracle Network Hospitals — proof that the brand stands
+              for more than transactions.
+            </p>
+          </div>
+          <div className="mt-8">
+            <Link
+              href="/remax-commercial"
+              className="text-accent-blue font-semibold no-underline hover:underline"
+            >
+              Learn more about REMAX Commercial &rarr;
+            </Link>
           </div>
         </div>
       </section>

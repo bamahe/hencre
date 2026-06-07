@@ -31,10 +31,13 @@ export default function Footer() {
 
   return (
     <footer className="bg-navy text-white">
-      {/* ---- Tagline bar ---- */}
+      {/* ---- REMAX Commercial tagline bar ---- */}
       <div className="bg-accent-blue py-4 text-center">
-        <p className="text-lg font-bold tracking-widest uppercase">
-          MOVE WITH CONFIDENCE
+        <p className="text-xs font-semibold tracking-widest uppercase text-white/80">
+          REMAX Commercial
+        </p>
+        <p className="text-lg font-bold tracking-widest uppercase mt-1">
+          A BETTER WAY IN COMMERCIAL REAL ESTATE
         </p>
       </div>
 
@@ -82,10 +85,26 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Copyright */}
+          {/* REMAX Commercial link */}
+          <a
+            href="https://www.remaxcommercial.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-white/80 no-underline hover:text-white hover:no-underline"
+          >
+            <ExternalLink className="h-4 w-4" />
+            remaxcommercial.com
+          </a>
+        </div>
+
+        {/* Copyright */}
+        <div className="mt-6 border-t border-white/10 pt-6 text-center">
           <p className="text-sm text-white/60">
             &copy; {year} HenCRE &mdash; Barrett Henry, REALTOR&reg; &amp;
-            Broker Associate at REMAX Collective. All rights reserved.
+            Broker Associate at REMAX Collective. REMAX Commercial. All rights reserved.
+          </p>
+          <p className="mt-2 text-xs text-white/40">
+            Each REMAX office is independently owned and operated.
           </p>
         </div>
       </div>

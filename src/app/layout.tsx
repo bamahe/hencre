@@ -13,11 +13,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "HenCRE | Commercial Real Estate — Barrett Henry, REALTOR\u00AE",
-    template: "%s | HenCRE",
+    default: "REMAX Commercial Florida | HenCRE — Barrett Henry, Broker Associate",
+    template: "%s | HenCRE — REMAX Commercial",
   },
   description:
-    "Commercial real estate brokerage serving all 67 Florida counties. Leasing, sales, investment, and dispositions. Barrett Henry, REALTOR\u00AE & Broker Associate at REMAX Collective.",
+    "REMAX Commercial Florida — Barrett Henry, REALTOR\u00AE & Broker Associate at REMAX Collective. Commercial real estate brokerage serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world\u2019s most recognized real estate brand.",
   metadataBase: new URL("https://hencre.com"),
   openGraph: {
     type: "website",

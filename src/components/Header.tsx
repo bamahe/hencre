@@ -25,12 +25,17 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-navy">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        {/* ---- Wordmark ---- */}
+        {/* ---- Wordmark with REMAX Commercial branding ---- */}
         <Link
           href="/"
-          className="text-2xl font-bold tracking-tight text-white no-underline hover:no-underline"
+          className="flex flex-col no-underline hover:no-underline"
         >
-          HenCRE
+          <span className="text-2xl font-bold tracking-tight text-white leading-tight">
+            HenCRE
+          </span>
+          <span className="text-[10px] font-semibold tracking-widest text-white/70 uppercase leading-tight">
+            REMAX Commercial
+          </span>
         </Link>
 
         {/* ---- Desktop nav ---- */}
