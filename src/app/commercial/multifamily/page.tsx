@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Multifamily | Apartment Investment & Sales in Florida",
+  title: "Multifamily | REMAX Commercial Florida",
   description:
     "Buy, sell, or invest in multifamily properties across Florida. Apartment complexes, garden-style, mid-rise, and value-add opportunities. Barrett Henry, REALTOR® at REMAX Collective.",
   openGraph: {
-    title: "Multifamily | HenCRE",
+    title: "Multifamily | REMAX Commercial Florida",
     description: "Multifamily investment sales and acquisitions across Florida.",
     url: "https://hencre.com/commercial/multifamily",
   },
@@ -66,7 +66,7 @@ export default function MultifamilyPage() {
             Florida adds over 300,000 new residents annually, and they all need
             somewhere to live. That population growth, combined with rising
             homeownership costs, keeps demand for rental housing high across the state.
-            Multifamily is one of the most resilient and in-demand CRE asset classes in
+            REMAX Commercial agents handle multifamily acquisitions and dispositions across all Florida markets. Multifamily is one of the most resilient and in-demand CRE asset classes in
             Florida.
           </p>
           <p>
@@ -108,7 +108,7 @@ export default function MultifamilyPage() {
             you make a data-driven decision.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">Contact Barrett</Link>
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">Contact Barrett</Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">Call (813) 733-7907</a>
           </div>
         </div>

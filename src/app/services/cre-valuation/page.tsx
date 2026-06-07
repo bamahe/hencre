@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "CRE Valuation | Broker Opinion of Value for Commercial Property",
+  title: "CRE Valuation | REMAX Commercial Florida",
   description:
     "Know what your commercial property is worth. Barrett Henry provides broker opinions of value, comparable sales analysis, and market positioning for owners, investors, and lenders across Florida.",
   openGraph: {
-    title: "CRE Valuation | HenCRE",
+    title: "CRE Valuation | REMAX Commercial Florida",
     description:
       "Broker opinion of value, comp analysis, and market positioning. Know what your commercial property is worth.",
     url: "https://hencre.com/services/cre-valuation",
@@ -66,7 +66,7 @@ export default function CREValuationPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Accurate Valuation Drives Better Decisions</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
           <p>
-            Before you sell, refinance, negotiate a lease renewal, or restructure a
+            As a REMAX Commercial broker, Barrett delivers valuations backed by market data and institutional-level analysis. Before you sell, refinance, negotiate a lease renewal, or restructure a
             partnership, you need to know what your commercial property is actually
             worth. Not what you hope it is worth. Not what Zestimate says. What a
             sophisticated buyer or lender would pay based on income, comps, and market
@@ -144,7 +144,7 @@ export default function CREValuationPage() {
             a clear, well-supported valuation.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">
               Request a BOV
             </Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">

@@ -12,11 +12,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Real Estate Markets — Tampa Bay & Central Florida",
+  title: "REMAX Commercial Markets — Tampa Bay & Central Florida CRE",
   description:
     "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights for Hillsborough, Pinellas, Pasco, Polk, Manatee, Sarasota, Citrus, and Hernando counties.",
   openGraph: {
-    title: "Commercial Real Estate Markets — Tampa Bay & Central Florida | HenCRE",
+    title: "Commercial Real Estate Markets — Tampa Bay & Central Florida | REMAX Commercial Florida",
     description:
       "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights from Barrett Henry, REALTOR® & Broker Associate.",
     url: "https://hencre.com/markets",

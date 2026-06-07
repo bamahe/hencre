@@ -31,8 +31,8 @@ export default function Footer() {
 
   return (
     <footer className="bg-navy text-white">
-      {/* ---- REMAX Commercial tagline bar ---- */}
-      <div className="bg-accent-blue py-4 text-center">
+      {/* ---- REMAX Commercial tagline bar — red accent ---- */}
+      <div className="bg-remax-red py-4 text-center">
         <p className="text-xs font-semibold tracking-widest uppercase text-white/80">
           REMAX Commercial
         </p>
@@ -100,8 +100,11 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-6 border-t border-white/10 pt-6 text-center">
           <p className="text-sm text-white/60">
-            &copy; {year} HenCRE &mdash; Barrett Henry, REALTOR&reg; &amp;
-            Broker Associate at REMAX Collective. REMAX Commercial. All rights reserved.
+            &copy; {year} REMAX Commercial Florida &mdash; Barrett Henry, REALTOR&reg; &amp;
+            Broker Associate at REMAX Collective. All rights reserved.
+          </p>
+          <p className="mt-1 text-xs text-white/50 uppercase tracking-wider">
+            Move with Confidence
           </p>
           <p className="mt-2 text-xs text-white/40">
             Each REMAX office is independently owned and operated.

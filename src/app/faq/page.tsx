@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Real Estate FAQ | Questions Answered",
+  title: "REMAX Commercial Florida FAQ | Barrett Henry",
   description:
     "Answers to the most common commercial real estate questions — leasing, investing, selling, cap rates, tenant rep, and working with Barrett Henry in Florida.",
   openGraph: {
-    title: "CRE FAQ | HenCRE",
+    title: "CRE FAQ | REMAX Commercial Florida",
     description:
       "20+ answers to common commercial real estate questions. Leasing, investment, selling, and more.",
     url: "https://hencre.com/faq",
@@ -206,7 +206,7 @@ export default function FAQPage() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline"
+              className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline"
             >
               Contact Barrett
             </Link>

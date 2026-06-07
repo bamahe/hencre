@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Industrial & Warehouse | Distribution, Flex & Manufacturing in Florida",
+  title: "Industrial & Warehouse | REMAX Commercial Florida",
   description:
     "Lease, buy, or sell industrial and warehouse space in Florida. Distribution, flex, manufacturing, and cold storage. Barrett Henry, REALTOR® at REMAX Collective.",
   openGraph: {
-    title: "Industrial & Warehouse | HenCRE",
+    title: "Industrial & Warehouse | REMAX Commercial Florida",
     description: "Industrial and warehouse leasing, sales, and investment across Florida.",
     url: "https://hencre.com/commercial/industrial-warehouse",
   },
@@ -72,7 +72,7 @@ export default function IndustrialWarehousePage() {
             Tampa Bay, Central Florida, and South Florida all see strong demand for
             distribution space, flex/warehouse, manufacturing facilities, and cold
             storage. New construction is underway, but pre-leasing rates are high and
-            existing inventory moves fast. If you need industrial space in Florida, act
+            existing inventory moves fast. REMAX Commercial agents specialize in industrial and logistics properties. If you need industrial space in Florida, act
             now.
           </p>
         </div>
@@ -107,7 +107,7 @@ export default function IndustrialWarehousePage() {
             moves fast — let us get ahead of it.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">Contact Barrett</Link>
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">Contact Barrett</Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">Call (813) 733-7907</a>
           </div>
         </div>

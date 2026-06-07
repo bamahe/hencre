@@ -10,10 +10,10 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Thank You | Your Inquiry Has Been Received",
   description:
-    "Thank you for contacting HenCRE. Barrett Henry will respond within one business day.",
+    "Thank you for contacting REMAX Commercial Florida. Barrett Henry will respond within one business day.",
   robots: { index: false, follow: true },
   openGraph: {
-    title: "Thank You | HenCRE",
+    title: "Thank You | REMAX Commercial Florida",
     url: "https://hencre.com/thank-you",
   },
 };

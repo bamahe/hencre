@@ -35,7 +35,7 @@ const articleSchema = {
     jobTitle: "REALTOR\u00AE & Broker Associate",
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
   },
-  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+  publisher: { "@type": "Organization", name: "REMAX Commercial Florida", url: "https://hencre.com" },
   url: "https://hencre.com/blog/5-mistakes-first-time-commercial-tenants-make",
 };
 

@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Insights | Florida Commercial Real Estate Market Intelligence",
+  title: "Insights | REMAX Commercial Florida — CRE Market Intelligence",
   description:
     "In-depth commercial real estate insights for Florida investors, tenants, and property owners. Market analysis, investment guides, and CRE strategy from Barrett Henry.",
   openGraph: {
-    title: "Insights | HenCRE",
+    title: "Insights | REMAX Commercial Florida",
     description: "In-depth CRE market intelligence and investment guides for Florida commercial real estate.",
     url: "https://hencre.com/insights",
   },
@@ -82,7 +82,7 @@ const schema = {
     },
     {
       "@type": "CollectionPage",
-      name: "HenCRE Insights",
+      name: "REMAX Commercial Florida Insights",
       description: "In-depth commercial real estate market intelligence and guides.",
       url: "https://hencre.com/insights",
     },
@@ -143,7 +143,7 @@ export default function InsightsIndexPage() {
             properties, submarkets, or investment strategies.
           </p>
           <div className="mt-8">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">
               Contact Barrett
             </Link>
           </div>

@@ -11,7 +11,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
   title:
-    "REMAX Commercial Florida — Barrett Henry, Broker Associate | HenCRE",
+    "REMAX Commercial Florida — Barrett Henry, Broker Associate | REMAX Commercial Florida",
   description:
     "REMAX Commercial Florida — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Access 140,000+ agents across 110+ countries. Commercial real estate services including tenant rep, landlord leasing, investment sales, and dispositions across all 67 Florida counties.",
   keywords: [
@@ -442,7 +442,7 @@ export default function RemaxCommercialPage() {
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline"
+              className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline"
             >
               Contact Barrett
             </Link>

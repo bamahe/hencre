@@ -10,11 +10,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "REMAX Commercial Florida | HenCRE — Barrett Henry, Broker Associate",
+  title: "REMAX Commercial Florida | Commercial Real Estate — Barrett Henry",
   description:
     "REMAX Commercial Florida — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
   openGraph: {
-    title: "REMAX Commercial Florida | HenCRE — Barrett Henry",
+    title: "REMAX Commercial Florida | Barrett Henry, Broker Associate",
     description:
       "REMAX Commercial agent serving all 67 Florida counties. Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, backed by the global REMAX network.",
     url: "https://hencre.com",
@@ -134,7 +134,7 @@ const schema = {
     {
       "@type": "Organization",
       "@id": "https://hencre.com/#organization",
-      name: "HenCRE",
+      name: "REMAX Commercial Florida",
       url: "https://hencre.com",
       logo: "https://hencre.com/logo.png",
       description:
@@ -160,7 +160,7 @@ const schema = {
       "@type": "WebSite",
       "@id": "https://hencre.com/#website",
       url: "https://hencre.com",
-      name: "HenCRE",
+      name: "REMAX Commercial Florida",
       publisher: { "@id": "https://hencre.com/#organization" },
     },
     {
@@ -193,7 +193,7 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://hencre.com/#tampa-office",
-      name: "HenCRE — Tampa Office",
+      name: "REMAX Commercial Florida — Tampa Office",
       address: {
         "@type": "PostalAddress",
         streetAddress: "14310 N Dale Mabry Hwy Ste 100",
@@ -206,7 +206,7 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://hencre.com/#largo-office",
-      name: "HenCRE — Largo Office",
+      name: "REMAX Commercial Florida — Largo Office",
       address: {
         "@type": "PostalAddress",
         streetAddress: "11200 Seminole Blvd Ste 202",
@@ -219,7 +219,7 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://hencre.com/#brandon-office",
-      name: "HenCRE — Brandon Office",
+      name: "REMAX Commercial Florida — Brandon Office",
       address: {
         "@type": "PostalAddress",
         streetAddress: "417 Lithia Pinecrest Rd",
@@ -252,26 +252,12 @@ export default function HomePage() {
       {/* ---- Hero ---- */}
       <Hero
         title="Florida Commercial Real Estate, Done Right."
-        subtitle="Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, connected across Florida. Backed by 23+ years in this market."
+        subtitle="REMAX Commercial — a better way in commercial real estate. Tenant rep, landlord leasing, and investment sales anchored in Tampa Bay, connected across all 67 Florida counties."
         ctaText="Get Started"
         ctaHref="/contact"
       />
 
-      {/* ---- Intro section ---- */}
-      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold sm:text-3xl">
-          Commercial Real Estate Across Florida
-        </h2>
-        <p className="mt-4 text-lg leading-relaxed text-slate-brand">
-          Whether you are leasing your first office, acquiring a multifamily portfolio,
-          or selling a retail center, the right broker makes the difference between a
-          good deal and a great one. I bring 23+ years of real estate experience to
-          every engagement — deep market knowledge, honest guidance, and relentless
-          execution. No committee. No runaround. Just results.
-        </p>
-      </section>
-
-      {/* ---- REMAX Commercial Network section ---- */}
+      {/* ---- REMAX Commercial Network section (first after hero) ---- */}
       <section className="bg-navy px-4 py-16 text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl">
           <p className="text-center text-sm font-semibold tracking-widest uppercase text-accent-blue">
@@ -333,12 +319,26 @@ export default function HomePage() {
           <div className="mt-8 text-center">
             <Link
               href="/remax-commercial"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-navy no-underline transition-colors hover:bg-warm-white hover:no-underline"
+              className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline"
             >
               Learn About REMAX Commercial
             </Link>
           </div>
         </div>
+      </section>
+
+      {/* ---- Intro section ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">
+          Commercial Real Estate Across Florida
+        </h2>
+        <p className="mt-4 text-lg leading-relaxed text-slate-brand">
+          Whether you are leasing your first office, acquiring a multifamily portfolio,
+          or selling a retail center, the right broker makes the difference between a
+          good deal and a great one. As a REMAX Commercial broker, I bring 23+ years of real estate experience to
+          every engagement — deep market knowledge, honest guidance, and relentless
+          execution backed by the world&apos;s most recognized real estate network. No committee. No runaround. Just results.
+        </p>
       </section>
 
       {/* ---- Services overview ---- */}
@@ -409,7 +409,7 @@ export default function HomePage() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-navy no-underline transition-colors hover:bg-warm-white hover:no-underline"
+              className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline"
             >
               Talk to Barrett
             </Link>
@@ -431,7 +431,7 @@ export default function HomePage() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline"
+              className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline"
             >
               Contact Me
             </Link>

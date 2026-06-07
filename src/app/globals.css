@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
-/* HenCRE Brand Colors & Theme */
+/* REMAX Commercial Brand Colors & Theme */
 :root {
   --navy: #0B2545;
   --accent-blue: #1E5AA8;
+  --remax-red: #DC1431;
   --warm-white: #F8F7F4;
   --slate: #475569;
   --soft-red: #C2410C;
@@ -12,10 +13,11 @@
   --foreground: var(--slate);
 }
 
-/* Register brand colors with Tailwind v4 */
+/* Register brand colors with Tailwind v4 — includes REMAX red for CTAs */
 @theme inline {
   --color-navy: #0B2545;
   --color-accent-blue: #1E5AA8;
+  --color-remax-red: #DC1431;
   --color-warm-white: #F8F7F4;
   --color-slate-brand: #475569;
   --color-soft-red: #C2410C;

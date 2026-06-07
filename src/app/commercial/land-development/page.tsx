@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Land & Development | Commercial Land Sales in Florida",
+  title: "Land & Development | REMAX Commercial Florida",
   description:
     "Buy or sell commercial land in Florida. Entitled, raw, and development-ready parcels for commercial, industrial, and mixed-use projects. Barrett Henry, REALTOR® at REMAX Collective.",
   openGraph: {
-    title: "Land & Development | HenCRE",
+    title: "Land & Development | REMAX Commercial Florida",
     description: "Commercial and development land across Florida. Entitled, raw, and shovel-ready parcels.",
     url: "https://hencre.com/commercial/land-development",
   },
@@ -76,7 +76,7 @@ export default function LandDevelopmentPage() {
             of thousands in avoidable costs.
           </p>
           <p>
-            I work with buyers to identify sites that match their development vision
+            REMAX Commercial agents bring development expertise and land brokerage resources to every engagement. I work with buyers to identify sites that match their development vision
             and with sellers to position land for maximum value. Whether you are
             looking for a shovel-ready outparcel or a 50-acre assemblage, I bring the
             local knowledge and network to get the deal done.
@@ -113,7 +113,7 @@ export default function LandDevelopmentPage() {
             and evaluate feasibility.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">Contact Barrett</Link>
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">Contact Barrett</Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">Call (813) 733-7907</a>
           </div>
         </div>

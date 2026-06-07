@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Landlord Leasing | Fill Vacancies with Qualified Tenants",
+  title: "Landlord Leasing | REMAX Commercial Florida",
   description:
     "Landlord leasing services across Florida. Barrett Henry markets your commercial property, screens tenants, and negotiates leases that protect your investment.",
   openGraph: {
-    title: "Landlord Leasing | HenCRE",
+    title: "Landlord Leasing | REMAX Commercial Florida",
     description:
       "Fill commercial vacancies faster with qualified tenants. Strategic marketing and lease negotiation across Florida.",
     url: "https://hencre.com/services/landlord-leasing",
@@ -66,7 +66,7 @@ export default function LandlordLeasingPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Vacancy Costs You Money Every Day</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
           <p>
-            Every month your commercial space sits empty, you are paying carrying costs
+            As a REMAX Commercial broker, Barrett leverages the largest real estate network in the world to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs
             with zero income. Taxes, insurance, maintenance, and debt service do not
             pause because the space is vacant. You need a broker who treats your
             vacancy with the same urgency you feel.
@@ -147,7 +147,7 @@ export default function LandlordLeasingPage() {
             Let me put a leasing plan together for your property. Free consultation.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">
               Contact Barrett
             </Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">

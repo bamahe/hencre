@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Dispositions | Sell Your Commercial Property for Maximum Value",
+  title: "Dispositions | REMAX Commercial Florida",
   description:
     "Maximize proceeds when selling commercial real estate in Florida. Barrett Henry provides strategic pricing, targeted marketing, and deal structuring for optimal results.",
   openGraph: {
-    title: "Dispositions | HenCRE",
+    title: "Dispositions | REMAX Commercial Florida",
     description:
       "Sell your commercial property for maximum value. Strategic pricing, marketing, and negotiation across Florida.",
     url: "https://hencre.com/services/dispositions",
@@ -66,7 +66,7 @@ export default function DispositionsPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Exit at the Right Time, at the Right Price</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
           <p>
-            Selling a commercial property is not like listing a house. The buyer pool
+            As a REMAX Commercial broker, Barrett taps the largest real estate referral network on the planet to reach qualified buyers for your asset. Selling a commercial property is not like listing a house. The buyer pool
             is smaller, more sophisticated, and more analytical. You need a broker who
             speaks their language — who can present your property with institutional-
             quality materials, price it based on real income data, and negotiate with
@@ -149,7 +149,7 @@ export default function DispositionsPage() {
             is worth before you decide.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">
               Request a BOV
             </Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">

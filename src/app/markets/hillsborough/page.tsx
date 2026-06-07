@@ -14,11 +14,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Hillsborough County Commercial Real Estate Market — Tampa CRE",
+  title: "Hillsborough County CRE | REMAX Commercial Florida — Tampa Market",
   description:
     "Deep dive into the Hillsborough County commercial real estate market. Tampa's Westshore business district, downtown mixed-use growth, I-75 industrial corridor, and more. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Hillsborough County Commercial Real Estate | HenCRE",
+    title: "Hillsborough County Commercial Real Estate | REMAX Commercial Florida",
     description:
       "Explore Tampa and Hillsborough County's commercial real estate landscape — office, industrial, retail, and investment opportunities.",
     url: "https://hencre.com/markets/hillsborough",
@@ -31,7 +31,7 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      name: "HenCRE — Barrett Henry",
+      name: "REMAX Commercial Florida — Barrett Henry",
       description:
         "Commercial real estate brokerage serving Hillsborough County and the greater Tampa Bay region.",
       telephone: "(813) 733-7907",
@@ -254,7 +254,7 @@ export default function HillsboroughMarketPage() {
           </h2>
           <div className="space-y-5 text-slate-brand leading-relaxed">
             <p>
-              Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who
+              Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective — backed by the REMAX Commercial network — who
               works with buyers, sellers, tenants, and landlords across every commercial
               property type in Hillsborough County. His approach starts with understanding
               your business objectives — whether you need to secure warehouse space near

@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Retail Space | Lease or Buy Commercial Retail in Florida",
+  title: "Retail Space | REMAX Commercial Florida",
   description:
     "Find, lease, or invest in retail space across Florida. Strip centers, standalone pads, outparcels, and mixed-use. Barrett Henry, REALTOR® at REMAX Collective.",
   openGraph: {
-    title: "Retail Space | HenCRE",
+    title: "Retail Space | REMAX Commercial Florida",
     description: "Commercial retail leasing, sales, and investment across Florida.",
     url: "https://hencre.com/commercial/retail-space",
   },
@@ -71,7 +71,7 @@ export default function RetailSpacePage() {
           <p>
             From neighborhood strip centers to regional power centers, the retail
             landscape offers diverse opportunities for tenants, landlords, and
-            investors. I work with restaurant operators, medical practices, service
+            investors. REMAX Commercial agents bring deep retail expertise to every deal. I work with restaurant operators, medical practices, service
             businesses, and national brands to secure high-visibility locations with
             strong traffic counts and favorable lease terms.
           </p>
@@ -107,7 +107,7 @@ export default function RetailSpacePage() {
             right location.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">Contact Barrett</Link>
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">Contact Barrett</Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">Call (813) 733-7907</a>
           </div>
         </div>

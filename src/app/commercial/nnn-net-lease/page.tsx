@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "NNN Net Lease | Triple-Net Investment Properties in Florida",
+  title: "NNN Net Lease | REMAX Commercial Florida",
   description:
     "Buy or sell NNN net lease properties in Florida. Triple-net investments with stable, long-term cash flow and corporate-guaranteed tenants. Barrett Henry, REALTOR® at REMAX Collective.",
   openGraph: {
-    title: "NNN / Net Lease | HenCRE",
+    title: "NNN / Net Lease | REMAX Commercial Florida",
     description: "Triple-net investment properties across Florida. Stable cash flow, minimal landlord responsibility.",
     url: "https://hencre.com/commercial/nnn-net-lease",
   },
@@ -77,7 +77,7 @@ export default function NNNNetLeasePage() {
             on long-term leases with built-in rent escalations.
           </p>
           <p>
-            Florida is one of the most active NNN markets in the country, driven by
+            REMAX Commercial agents bring specialized NNN expertise and investor relationships to every transaction. Florida is one of the most active NNN markets in the country, driven by
             population growth, strong retail fundamentals, and investor demand. I help
             buyers source quality NNN assets and sellers position properties for
             maximum value.
@@ -114,7 +114,7 @@ export default function NNNNetLeasePage() {
             preference — and I will source matching opportunities.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">Contact Barrett</Link>
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">Contact Barrett</Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">Call (813) 733-7907</a>
           </div>
         </div>

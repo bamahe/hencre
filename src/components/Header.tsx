@@ -5,13 +5,13 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 /* -------------------------------------------------------------------
- * Header — sticky navy bar with HenCRE wordmark and responsive nav.
+ * Header — sticky navy bar with REMAX Commercial wordmark and responsive nav.
  * Client component because it manages mobile menu open/close state.
  * ----------------------------------------------------------------- */
 
 const NAV_LINKS = [
   { label: "Services", href: "/services" },
-  { label: "Property Types", href: "/property-types" },
+  { label: "Property Types", href: "/commercial" },
   { label: "Markets", href: "/markets" },
   { label: "Insights", href: "/insights" },
   { label: "Blog", href: "/blog" },
@@ -24,17 +24,20 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-navy">
+      {/* ---- REMAX red accent bar at very top ---- */}
+      <div className="h-1 bg-remax-red" />
+
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        {/* ---- Wordmark with REMAX Commercial branding ---- */}
+        {/* ---- Wordmark — REMAX Commercial primary, Barrett Henry secondary ---- */}
         <Link
           href="/"
           className="flex flex-col no-underline hover:no-underline"
         >
-          <span className="text-2xl font-bold tracking-tight text-white leading-tight">
-            HenCRE
+          <span className="text-xl font-bold tracking-tight text-white leading-tight sm:text-2xl">
+            REMAX Commercial
           </span>
           <span className="text-[10px] font-semibold tracking-widest text-white/70 uppercase leading-tight">
-            REMAX Commercial
+            Barrett Henry &bull; Broker Associate
           </span>
         </Link>
 

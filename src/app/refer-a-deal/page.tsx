@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Refer a Commercial Deal | Earn a Referral Fee",
+  title: "Refer a Commercial Deal | REMAX Commercial Florida",
   description:
     "Got a commercial real estate deal outside your lane? Refer it to Barrett Henry and earn a competitive referral fee. Licensed agents across Florida welcome.",
   openGraph: {
-    title: "Refer a Deal | HenCRE",
+    title: "Refer a Deal | REMAX Commercial Florida",
     description:
       "Licensed agents: refer commercial deals to Barrett Henry and earn a referral fee. Simple process, transparent communication.",
     url: "https://hencre.com/refer-a-deal",
@@ -112,10 +112,10 @@ export default function ReferADealPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">How Referrals Work</h2>
         <p className="mt-4 text-lg leading-relaxed text-slate-brand">
           You are great at what you do — but commercial real estate is a different
-          animal. If your client needs office space, wants to sell a retail center, or
-          is looking at an investment property, you do not have to turn them away. Refer
-          the deal to me, and I will handle the heavy lifting while you earn a referral
-          fee at closing.
+          animal. Powered by the REMAX Commercial referral network — the largest in real estate — your
+          client gets institutional-quality CRE service while you earn a competitive referral
+          fee at closing. If your client needs office space, wants to sell a retail center, or
+          is looking at an investment property, you do not have to turn them away.
         </p>
 
         <ol className="mt-8 space-y-4">
@@ -127,7 +127,7 @@ export default function ReferADealPage() {
             "Referral fee is paid to you at closing.",
           ].map((step, i) => (
             <li key={i} className="flex items-start gap-3">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent-blue text-sm font-bold text-white">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-remax-red text-sm font-bold text-white">
                 {i + 1}
               </span>
               <span className="text-slate-brand">{step}</span>

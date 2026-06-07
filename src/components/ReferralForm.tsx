@@ -97,7 +97,7 @@ export default function ReferralForm() {
       <p className="mb-6 text-sm leading-relaxed text-slate-brand">
         Most residential agents don&apos;t work commercial &mdash; but you can
         still get paid for it. Refer your commercial buyer, seller, tenant, or
-        landlord to HenCRE. We handle the deal start to finish, you collect a
+        landlord to REMAX Commercial Florida. We handle the deal start to finish, you collect a
         referral fee at closing. Simple, documented, REALTOR&reg;-to-REALTOR&reg;.
       </p>
 

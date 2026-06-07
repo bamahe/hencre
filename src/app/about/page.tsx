@@ -116,49 +116,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ---- CRE expertise ---- */}
+      {/* ---- Why REMAX Commercial (moved above CRE expertise for brand prominence) ---- */}
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-4xl">
-          <h2 className="text-2xl font-bold sm:text-3xl">
-            Why Commercial Real Estate?
-          </h2>
-          <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
-            <p>
-              Commercial real estate is where strategy matters most. Residential deals
-              are emotional — commercial deals are analytical. You need a broker who
-              can read a rent roll, model cash-on-cash returns, negotiate tenant
-              improvement allowances, and still pick up the phone on a Saturday.
-            </p>
-            <p>
-              That is what I bring to every deal. I am not a big-box brokerage with
-              layers of bureaucracy. I am one broker with deep experience, modern
-              tools, and a bias toward action. When you call me, you get me — not an
-              assistant, not a junior agent, not a voicemail.
-            </p>
-          </div>
-
-          {/* Designations grid */}
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              { label: "e-PRO", desc: "Digital marketing certified" },
-              { label: "MRP", desc: "Military Relocation Professional" },
-              { label: "SRS", desc: "Seller Representative Specialist" },
-              { label: "Hall of Fame", desc: "REMAX Hall of Fame inductee" },
-            ].map((d) => (
-              <div
-                key={d.label}
-                className="rounded-lg border border-gray-200 p-4 text-center"
-              >
-                <p className="text-lg font-bold text-navy">{d.label}</p>
-                <p className="mt-1 text-sm text-slate-brand">{d.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ---- Why REMAX Commercial ---- */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">
             Why REMAX Commercial?
@@ -204,6 +163,47 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ---- CRE expertise ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">
+            Why Commercial Real Estate?
+          </h2>
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+            <p>
+              Commercial real estate is where strategy matters most. Residential deals
+              are emotional — commercial deals are analytical. You need a broker who
+              can read a rent roll, model cash-on-cash returns, negotiate tenant
+              improvement allowances, and still pick up the phone on a Saturday.
+            </p>
+            <p>
+              That is what I bring to every deal. I am not a big-box brokerage with
+              layers of bureaucracy. I am one REMAX Commercial broker with deep experience, modern
+              tools, and a bias toward action. When you call me, you get me — not an
+              assistant, not a junior agent, not a voicemail.
+            </p>
+          </div>
+
+          {/* Designations grid */}
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              { label: "e-PRO", desc: "Digital marketing certified" },
+              { label: "MRP", desc: "Military Relocation Professional" },
+              { label: "SRS", desc: "Seller Representative Specialist" },
+              { label: "Hall of Fame", desc: "REMAX Hall of Fame inductee" },
+            ].map((d) => (
+              <div
+                key={d.label}
+                className="rounded-lg border border-gray-200 p-4 text-center"
+              >
+                <p className="text-lg font-bold text-navy">{d.label}</p>
+                <p className="mt-1 text-sm text-slate-brand">{d.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ---- CTA ---- */}
       <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
@@ -217,7 +217,7 @@ export default function AboutPage() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline"
+              className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline"
             >
               Contact Barrett
             </Link>

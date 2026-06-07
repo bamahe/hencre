@@ -14,11 +14,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Manatee County Commercial Real Estate — Bradenton CRE Market",
+  title: "Manatee County CRE | REMAX Commercial Florida — Bradenton Market",
   description:
     "Manatee County CRE market insights. Bradenton's growing commercial corridors, Port Manatee industrial, I-75 interchange retail, and downtown revitalization. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Manatee County Commercial Real Estate | HenCRE",
+    title: "Manatee County Commercial Real Estate | REMAX Commercial Florida",
     description:
       "Explore Bradenton and Manatee County commercial real estate — a growing market between Tampa and Sarasota.",
     url: "https://hencre.com/markets/manatee",
@@ -30,7 +30,7 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      name: "HenCRE — Barrett Henry",
+      name: "REMAX Commercial Florida — Barrett Henry",
       description: "Commercial real estate brokerage serving Manatee County.",
       telephone: "(813) 733-7907",
       email: "barrett@nowtb.com",

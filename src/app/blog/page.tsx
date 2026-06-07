@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Commercial real estate blog by Barrett Henry. Market updates, investment analysis, leasing tips, and CRE strategy for Florida investors, tenants, and landlords.",
   openGraph: {
-    title: "Blog | HenCRE",
+    title: "Blog | REMAX Commercial Florida",
     description: "CRE market updates, investment analysis, and leasing insights from Barrett Henry.",
     url: "https://hencre.com/blog",
   },
@@ -74,7 +74,7 @@ const schema = {
     },
     {
       "@type": "Blog",
-      name: "HenCRE Blog",
+      name: "REMAX Commercial Florida Blog",
       description: "Commercial real estate insights and market updates from Barrett Henry.",
       url: "https://hencre.com/blog",
       author: {
@@ -151,7 +151,7 @@ export default function BlogIndexPage() {
             might become the next blog post.
           </p>
           <div className="mt-8">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">
               Contact Barrett
             </Link>
           </div>

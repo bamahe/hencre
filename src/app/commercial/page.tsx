@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Property Types | Office, Retail, Industrial & More",
+  title: "REMAX Commercial Florida | Property Types — Office, Retail, Industrial & More",
   description:
     "Explore commercial property types in Florida: office, retail, industrial/warehouse, multifamily, NNN net lease, and land/development. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Property Types | HenCRE",
+    title: "Property Types | REMAX Commercial Florida",
     description:
       "Office, retail, industrial, multifamily, NNN, and land — every CRE asset class across Florida.",
     url: "https://hencre.com/commercial",
@@ -71,7 +71,7 @@ const schema = {
     {
       "@type": "WebPage",
       name: "Commercial Property Types",
-      description: "Overview of commercial real estate property types served by HenCRE across Florida.",
+      description: "Overview of commercial real estate property types served by REMAX Commercial Florida across Florida.",
       url: "https://hencre.com/commercial",
     },
   ],
@@ -127,7 +127,7 @@ export default function CommercialIndexPage() {
             type and market. No obligation.
           </p>
           <div className="mt-8">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">
               Contact Barrett
             </Link>
           </div>

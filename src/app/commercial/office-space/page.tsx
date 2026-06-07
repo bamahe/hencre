@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Office Space | Lease or Buy Commercial Office in Florida",
+  title: "Office Space | REMAX Commercial Florida",
   description:
     "Find, lease, or invest in office space across Florida. Class A, B, and C office buildings. Barrett Henry provides tenant rep, landlord leasing, and investment sales.",
   openGraph: {
-    title: "Office Space | HenCRE",
+    title: "Office Space | REMAX Commercial Florida",
     description: "Commercial office leasing, sales, and investment across Florida. Class A through C.",
     url: "https://hencre.com/commercial/office-space",
   },
@@ -72,7 +72,7 @@ export default function OfficeSpacePage() {
           <p>
             Whether you need a 1,500 SF professional suite or a 50,000 SF corporate
             headquarters, the Florida office market offers options across every price
-            point and submarket. I help tenants find the right fit, landlords fill
+            point and submarket. REMAX Commercial agents specialize in office properties across every submarket. I help tenants find the right fit, landlords fill
             vacancies, and investors acquire performing office assets.
           </p>
         </div>
@@ -107,7 +107,7 @@ export default function OfficeSpacePage() {
             obligation.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">
               Contact Barrett
             </Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">
