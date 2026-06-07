@@ -24,8 +24,8 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-navy">
-      {/* ---- REMAX red accent bar at very top ---- */}
-      <div className="h-1 bg-remax-red" />
+      {/* ---- Navy accent bar at very top ---- */}
+      <div className="h-1 bg-accent-blue" />
 
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         {/* ---- Wordmark — REMAX Commercial primary, Barrett Henry secondary ---- */}

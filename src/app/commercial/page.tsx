@@ -127,7 +127,7 @@ export default function CommercialIndexPage() {
             type and market. No obligation.
           </p>
           <div className="mt-8">
-            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline">
               Contact Barrett
             </Link>
           </div>

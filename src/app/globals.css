@@ -1,25 +1,32 @@
 @import "tailwindcss";
 
-/* REMAX Commercial Brand Colors & Theme */
+/* REMAX Commercial Brand Colors & Theme
+ * Based on remaxcommercial.com — navy, white, gray. No red. */
 :root {
-  --navy: #0B2545;
+  --navy: #0a2441;
   --accent-blue: #1E5AA8;
-  --remax-red: #DC1431;
+  --remax-navy: #0a2441;
+  --remax-charcoal: #202022;
+  --remax-gray: #e2e4e4;
   --warm-white: #F8F7F4;
   --slate: #475569;
+  --soft-navy: #1a3a5c;
   --soft-red: #C2410C;
   --success-green: #15803D;
   --background: var(--warm-white);
   --foreground: var(--slate);
 }
 
-/* Register brand colors with Tailwind v4 — includes REMAX red for CTAs */
+/* Register brand colors with Tailwind v4 — REMAX Commercial navy palette */
 @theme inline {
-  --color-navy: #0B2545;
+  --color-navy: #0a2441;
   --color-accent-blue: #1E5AA8;
-  --color-remax-red: #DC1431;
+  --color-remax-navy: #0a2441;
+  --color-remax-charcoal: #202022;
+  --color-remax-gray: #e2e4e4;
   --color-warm-white: #F8F7F4;
   --color-slate-brand: #475569;
+  --color-soft-navy: #1a3a5c;
   --color-soft-red: #C2410C;
   --color-success-green: #15803D;
   --color-background: var(--warm-white);

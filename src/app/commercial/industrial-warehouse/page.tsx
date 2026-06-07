@@ -107,7 +107,7 @@ export default function IndustrialWarehousePage() {
             moves fast — let us get ahead of it.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline">Contact Barrett</Link>
+            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline">Contact Barrett</Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">Call (813) 733-7907</a>
           </div>
         </div>

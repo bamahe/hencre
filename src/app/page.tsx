@@ -319,7 +319,7 @@ export default function HomePage() {
           <div className="mt-8 text-center">
             <Link
               href="/remax-commercial"
-              className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline"
             >
               Learn About REMAX Commercial
             </Link>
@@ -409,7 +409,7 @@ export default function HomePage() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline"
             >
               Talk to Barrett
             </Link>
@@ -431,7 +431,7 @@ export default function HomePage() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-remax-red px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-remax-red/90 hover:no-underline"
+              className="inline-block rounded-lg bg-[#0a2441] px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-[#1a3a5c] hover:no-underline"
             >
               Contact Me
             </Link>

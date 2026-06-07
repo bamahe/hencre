@@ -31,8 +31,8 @@ export default function Footer() {
 
   return (
     <footer className="bg-navy text-white">
-      {/* ---- REMAX Commercial tagline bar — red accent ---- */}
-      <div className="bg-remax-red py-4 text-center">
+      {/* ---- REMAX Commercial tagline bar — navy accent ---- */}
+      <div className="bg-[#0a2441] border-t border-white/10 py-4 text-center">
         <p className="text-xs font-semibold tracking-widest uppercase text-white/80">
           REMAX Commercial
         </p>

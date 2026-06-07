@@ -22,8 +22,8 @@ export default function CTASection({
   buttonHref,
   variant = "primary",
 }: CTASectionProps) {
-  /* Pick background color based on variant — primary uses REMAX red */
-  const bgClass = variant === "urgency" ? "bg-soft-red" : "bg-remax-red";
+  /* Pick background color based on variant — primary uses REMAX Commercial navy */
+  const bgClass = variant === "urgency" ? "bg-soft-navy" : "bg-[#0a2441]";
 
   return (
     <section className={`${bgClass} px-4 py-16 text-center text-white sm:py-20`}>

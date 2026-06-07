@@ -127,7 +127,7 @@ export default function ReferADealPage() {
             "Referral fee is paid to you at closing.",
           ].map((step, i) => (
             <li key={i} className="flex items-start gap-3">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-remax-red text-sm font-bold text-white">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#0a2441] text-sm font-bold text-white">
                 {i + 1}
               </span>
               <span className="text-slate-brand">{step}</span>
