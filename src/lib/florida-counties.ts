@@ -1,0 +1,648 @@
+/**
+ * florida-counties.ts
+ * All 67 Florida counties with CRE market context.
+ * Tier 1 = Barrett's direct territory, Tier 2 = referral out.
+ * NO invented numbers — qualitative descriptions only.
+ */
+
+export interface FloridaCounty {
+  /** Display name */
+  name: string;
+  /** URL-safe slug */
+  slug: string;
+  /** 1 = Barrett direct, 2 = referral */
+  tier: 1 | 2;
+  /** Region of Florida */
+  region: string;
+  /** Major cities in the county */
+  majorCities: string[];
+  /** 2-3 sentence qualitative CRE market notes */
+  marketNotes: string;
+}
+
+export const FLORIDA_COUNTIES: FloridaCounty[] = [
+  // ─── TIER 1: Barrett's Direct Territory ─────────────────────────
+  {
+    name: 'Hillsborough',
+    slug: 'hillsborough',
+    tier: 1,
+    region: 'Tampa Bay',
+    majorCities: ['Tampa', 'Brandon', 'Plant City', 'Temple Terrace'],
+    marketNotes:
+      'Tampa Bay\'s economic hub with strong demand across office, industrial, and multifamily sectors. The Westshore business district, downtown waterfront, and I-4 corridor drive significant CRE activity. Rapid population growth fuels new mixed-use developments and last-mile logistics facilities.',
+  },
+  {
+    name: 'Pinellas',
+    slug: 'pinellas',
+    tier: 1,
+    region: 'Tampa Bay',
+    majorCities: ['St. Petersburg', 'Clearwater', 'Largo', 'Dunedin'],
+    marketNotes:
+      'A densely developed peninsula with limited land driving adaptive reuse and redevelopment opportunities. Downtown St. Petersburg has emerged as a vibrant office and mixed-use market. Coastal tourism supports strong hospitality and retail demand along the Gulf beaches.',
+  },
+  {
+    name: 'Pasco',
+    slug: 'pasco',
+    tier: 1,
+    region: 'Tampa Bay',
+    majorCities: ['New Port Richey', 'Dade City', 'Wesley Chapel', 'Zephyrhills'],
+    marketNotes:
+      'One of the fastest-growing counties in Florida with Wesley Chapel as a major retail and residential growth engine. The SR 54/56 corridors attract national retailers and medical office development. Emerging industrial parks serve distribution needs for the broader Tampa Bay region.',
+  },
+  {
+    name: 'Polk',
+    slug: 'polk',
+    tier: 1,
+    region: 'Central Florida',
+    majorCities: ['Lakeland', 'Winter Haven', 'Bartow', 'Haines City'],
+    marketNotes:
+      'Strategically positioned along the I-4 corridor between Tampa and Orlando, making it a logistics and distribution hotspot. Lakeland\'s industrial market benefits from proximity to both metros at lower land costs. Emerging mixed-use and multifamily development along the US 27 corridor.',
+  },
+  {
+    name: 'Manatee',
+    slug: 'manatee',
+    tier: 1,
+    region: 'Tampa Bay',
+    majorCities: ['Bradenton', 'Palmetto', 'Lakewood Ranch', 'Parrish'],
+    marketNotes:
+      'Lakewood Ranch continues to be one of the top-selling master-planned communities in the U.S., generating strong retail and office demand. The I-75 and US 301 corridors support growing industrial and flex space development. Port Manatee provides import/export infrastructure boosting warehouse demand.',
+  },
+  {
+    name: 'Sarasota',
+    slug: 'sarasota',
+    tier: 1,
+    region: 'Southwest Florida',
+    majorCities: ['Sarasota', 'Venice', 'North Port', 'Englewood'],
+    marketNotes:
+      'An affluent market with strong demand for Class A office and upscale retail, especially along the Tamiami Trail and downtown Sarasota. North Port and Wellen Park are emerging growth areas attracting new commercial development. Tourism and cultural amenities drive hospitality and mixed-use investment.',
+  },
+  {
+    name: 'Citrus',
+    slug: 'citrus',
+    tier: 1,
+    region: 'Nature Coast',
+    majorCities: ['Inverness', 'Crystal River', 'Homosassa', 'Lecanto'],
+    marketNotes:
+      'A growing Nature Coast market driven by retiree migration and ecotourism around Crystal River and Homosassa Springs. Commercial activity centers along US 19 and US 44 with expanding medical office and neighborhood retail. Land availability and lower basis attract investors looking for yield plays.',
+  },
+  {
+    name: 'Hernando',
+    slug: 'hernando',
+    tier: 1,
+    region: 'Tampa Bay',
+    majorCities: ['Brooksville', 'Spring Hill', 'Weeki Wachee'],
+    marketNotes:
+      'An affordable alternative to Hillsborough and Pasco counties, attracting rooftop-driven retail and medical office development along the US 19 and SR 50 corridors. The Suncoast Parkway extension improves connectivity and opens new commercial development sites. Growing population supports multifamily and self-storage demand.',
+  },
+
+  // ─── TIER 2: Referral Counties (alphabetical) ──────────────────
+  {
+    name: 'Alachua',
+    slug: 'alachua',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Gainesville', 'Alachua', 'Newberry', 'High Springs'],
+    marketNotes:
+      'Anchored by the University of Florida, driving strong multifamily, student housing, and medical office demand. Innovation districts near UF attract biotech and research tenants. Gainesville\'s downtown is experiencing mixed-use redevelopment momentum.',
+  },
+  {
+    name: 'Baker',
+    slug: 'baker',
+    tier: 2,
+    region: 'Northeast Florida',
+    majorCities: ['Macclenny', 'Glen St. Mary'],
+    marketNotes:
+      'A rural county benefiting from Jacksonville metro spillover along the US 90 and I-10 corridors. Commercial activity is limited and primarily neighborhood retail and agricultural support services. Land costs are among the lowest in Northeast Florida.',
+  },
+  {
+    name: 'Bay',
+    slug: 'bay',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Panama City', 'Panama City Beach', 'Lynn Haven', 'Callaway'],
+    marketNotes:
+      'Post-Hurricane Michael rebuilding has driven significant new construction across all asset classes. Tyndall Air Force Base expansion fuels defense contractor and workforce housing demand. Panama City Beach tourism supports a robust hospitality and retail market.',
+  },
+  {
+    name: 'Bradford',
+    slug: 'bradford',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Starke', 'Lawtey', 'Brooker'],
+    marketNotes:
+      'A small rural county with limited CRE activity concentrated along US 301. State correctional facilities are a primary economic driver. Opportunities are primarily in convenience retail and small industrial uses.',
+  },
+  {
+    name: 'Brevard',
+    slug: 'brevard',
+    tier: 2,
+    region: 'Space Coast',
+    majorCities: ['Melbourne', 'Palm Bay', 'Titusville', 'Cocoa Beach'],
+    marketNotes:
+      'The Space Coast is booming with aerospace tenants like SpaceX, Blue Origin, and L3Harris driving office and industrial demand. Port Canaveral supports logistics and cruise-related commercial development. Tech and defense employment fuel multifamily and retail growth along the I-95 corridor.',
+  },
+  {
+    name: 'Broward',
+    slug: 'broward',
+    tier: 2,
+    region: 'Southeast Florida',
+    majorCities: ['Fort Lauderdale', 'Hollywood', 'Pompano Beach', 'Coral Springs'],
+    marketNotes:
+      'A major metro market with deep institutional investor interest across office, industrial, and multifamily sectors. Port Everglades and Fort Lauderdale-Hollywood International Airport drive logistics and hospitality demand. Las Olas and Flagler Village represent vibrant mixed-use submarkets.',
+  },
+  {
+    name: 'Calhoun',
+    slug: 'calhoun',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Blountstown', 'Altha'],
+    marketNotes:
+      'One of Florida\'s most rural counties with very limited commercial real estate activity. The local economy relies on timber, agriculture, and government services. Opportunities are primarily in land and small retail or service buildings.',
+  },
+  {
+    name: 'Charlotte',
+    slug: 'charlotte',
+    tier: 2,
+    region: 'Southwest Florida',
+    majorCities: ['Punta Gorda', 'Port Charlotte', 'Englewood'],
+    marketNotes:
+      'A rapidly growing retiree-driven market with strong demand for medical office and neighborhood retail. Post-Hurricane Ian rebuilding has accelerated new commercial construction. The US 41 corridor is the primary commercial spine with expanding retail and flex space.',
+  },
+  {
+    name: 'Clay',
+    slug: 'clay',
+    tier: 2,
+    region: 'Northeast Florida',
+    majorCities: ['Green Cove Springs', 'Orange Park', 'Fleming Island', 'Middleburg'],
+    marketNotes:
+      'A suburban Jacksonville bedroom community with growing retail and medical office demand along the US 17 and Blanding Boulevard corridors. First Coast Expressway access is improving connectivity and attracting new development. Military presence at NAS Jacksonville supports stable workforce housing demand.',
+  },
+  {
+    name: 'Collier',
+    slug: 'collier',
+    tier: 2,
+    region: 'Southwest Florida',
+    majorCities: ['Naples', 'Marco Island', 'Immokalee', 'Ave Maria'],
+    marketNotes:
+      'One of Florida\'s wealthiest markets with premium office and retail rents along US 41 and Tamiami Trail. Naples attracts high-net-worth investors seeking Class A office and luxury retail. Agricultural land in eastern Collier presents long-term development opportunities.',
+  },
+  {
+    name: 'Columbia',
+    slug: 'columbia',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Lake City'],
+    marketNotes:
+      'Positioned at the intersection of I-75 and I-10, making it a natural logistics node for North Florida. Commercial activity focuses on highway retail and distribution-oriented industrial. The VA Medical Center drives medical office demand in the area.',
+  },
+  {
+    name: 'DeSoto',
+    slug: 'desoto',
+    tier: 2,
+    region: 'Southwest Florida',
+    majorCities: ['Arcadia'],
+    marketNotes:
+      'A rural county with an agricultural economy transitioning toward solar energy and rural tourism. Downtown Arcadia\'s antique district draws visitors but commercial inventory is limited. Land investment opportunities exist as the county grows gradually.',
+  },
+  {
+    name: 'Dixie',
+    slug: 'dixie',
+    tier: 2,
+    region: 'Nature Coast',
+    majorCities: ['Cross City', 'Old Town'],
+    marketNotes:
+      'One of Florida\'s least populated counties with minimal CRE activity. The economy is based on timber, fishing, and government services. Opportunities are limited to small retail and land holdings.',
+  },
+  {
+    name: 'Duval',
+    slug: 'duval',
+    tier: 2,
+    region: 'Northeast Florida',
+    majorCities: ['Jacksonville', 'Jacksonville Beach', 'Atlantic Beach', 'Neptune Beach'],
+    marketNotes:
+      'Florida\'s largest city by area with a deep and diversified CRE market spanning office, industrial, and multifamily sectors. JAXPORT is a major logistics driver supporting extensive warehouse and distribution development. Downtown Jacksonville is undergoing significant mixed-use revitalization.',
+  },
+  {
+    name: 'Escambia',
+    slug: 'escambia',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Pensacola', 'Perdido Key', 'Cantonment'],
+    marketNotes:
+      'Anchored by NAS Pensacola and a growing cybersecurity and tech sector downtown. Pensacola Beach tourism drives hospitality and retail investment. The port and industrial corridors along I-10 support logistics and manufacturing tenants.',
+  },
+  {
+    name: 'Flagler',
+    slug: 'flagler',
+    tier: 2,
+    region: 'Northeast Florida',
+    majorCities: ['Palm Coast', 'Flagler Beach', 'Bunnell'],
+    marketNotes:
+      'A fast-growing county between Jacksonville and Daytona with strong residential-driven retail demand. Palm Coast\'s Town Center is attracting new commercial and mixed-use development. The I-95 corridor provides logistics connectivity for small industrial users.',
+  },
+  {
+    name: 'Franklin',
+    slug: 'franklin',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Apalachicola', 'Carrabelle', 'Eastpoint'],
+    marketNotes:
+      'A coastal county known for its oyster industry and eco-tourism with very limited commercial inventory. Apalachicola\'s historic downtown offers small retail and hospitality opportunities. Strict environmental regulations limit new development.',
+  },
+  {
+    name: 'Gadsden',
+    slug: 'gadsden',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Quincy', 'Midway', 'Havana', 'Chattahoochee'],
+    marketNotes:
+      'A Tallahassee-adjacent county with affordable land and growing interest from capital-region spillover. I-10 access supports small industrial and distribution uses. Downtown Quincy and Havana have niche retail and adaptive reuse potential.',
+  },
+  {
+    name: 'Gilchrist',
+    slug: 'gilchrist',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Trenton', 'Bell', 'Fanning Springs'],
+    marketNotes:
+      'A rural county with minimal commercial real estate activity. The economy is primarily agricultural with some eco-tourism along the springs. CRE opportunities are limited to small retail and agricultural support.',
+  },
+  {
+    name: 'Glades',
+    slug: 'glades',
+    tier: 2,
+    region: 'Southwest Florida',
+    majorCities: ['Moore Haven', 'Buckhead Ridge'],
+    marketNotes:
+      'One of Florida\'s most rural and least populated counties centered around Lake Okeechobee. The economy is agricultural with sugar cane and cattle ranching dominating. Commercial activity is minimal, limited to small-scale retail and services.',
+  },
+  {
+    name: 'Gulf',
+    slug: 'gulf',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Port St. Joe', 'Wewahitchka'],
+    marketNotes:
+      'A small Gulf Coast county rebuilding after Hurricane Michael with emerging hospitality and retail development. Port St. Joe has attracted boutique development and eco-tourism investment. Limited inventory creates opportunities for ground-up small commercial projects.',
+  },
+  {
+    name: 'Hamilton',
+    slug: 'hamilton',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Jasper', 'White Springs', 'Jennings'],
+    marketNotes:
+      'A rural county along I-75 at the Georgia border with limited CRE activity. Phosphate mining and agriculture drive the local economy. Highway-oriented retail and truck stop services dominate the commercial landscape.',
+  },
+  {
+    name: 'Hardee',
+    slug: 'hardee',
+    tier: 2,
+    region: 'Central Florida',
+    majorCities: ['Wauchula', 'Bowling Green', 'Zolfo Springs'],
+    marketNotes:
+      'An agricultural county with citrus and cattle as primary economic drivers. Commercial real estate is limited to small-town retail and agricultural services. Phosphate mining activity provides some industrial demand.',
+  },
+  {
+    name: 'Hendry',
+    slug: 'hendry',
+    tier: 2,
+    region: 'Southwest Florida',
+    majorCities: ['LaBelle', 'Clewiston'],
+    marketNotes:
+      'An agricultural economy centered around sugar production near Lake Okeechobee. Commercial activity is limited to small retail and agricultural support services. Emerging solar energy projects are creating new land lease opportunities.',
+  },
+  {
+    name: 'Highlands',
+    slug: 'highlands',
+    tier: 2,
+    region: 'Central Florida',
+    majorCities: ['Sebring', 'Avon Park', 'Lake Placid'],
+    marketNotes:
+      'A retirement-oriented market with growing medical office and neighborhood retail demand along US 27. Sebring International Raceway draws motorsport tourism and related hospitality investment. The county offers some of the most affordable land in Central Florida.',
+  },
+  {
+    name: 'Holmes',
+    slug: 'holmes',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Bonifay', 'Ponce de Leon', 'Westville'],
+    marketNotes:
+      'A rural Panhandle county with minimal CRE activity. The economy is based on agriculture, timber, and small manufacturing. I-10 access provides some potential for highway-oriented commercial development.',
+  },
+  {
+    name: 'Indian River',
+    slug: 'indian-river',
+    tier: 2,
+    region: 'Treasure Coast',
+    majorCities: ['Vero Beach', 'Sebastian', 'Fellsmere'],
+    marketNotes:
+      'An affluent Treasure Coast market with demand for boutique retail and professional office space. Vero Beach\'s oceanside and downtown corridors attract high-end retail and hospitality investment. I-95 access supports light industrial and distribution uses.',
+  },
+  {
+    name: 'Jackson',
+    slug: 'jackson',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Marianna', 'Graceville', 'Sneads'],
+    marketNotes:
+      'A rural Panhandle county recovering from Hurricane Michael with limited CRE inventory. Federal and state correctional facilities are significant economic drivers. I-10 corridor access provides some distribution and highway retail potential.',
+  },
+  {
+    name: 'Jefferson',
+    slug: 'jefferson',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Monticello', 'Lloyd'],
+    marketNotes:
+      'A small county between Tallahassee and the Gulf with a historic downtown and limited commercial inventory. The economy relies on government, agriculture, and some tourism. Proximity to Tallahassee provides spillover potential for rural estate and small commercial uses.',
+  },
+  {
+    name: 'Lafayette',
+    slug: 'lafayette',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Mayo'],
+    marketNotes:
+      'Florida\'s least populated county with an economy based on agriculture and timber. CRE activity is extremely limited. Land is the primary investment opportunity in this rural market.',
+  },
+  {
+    name: 'Lake',
+    slug: 'lake',
+    tier: 2,
+    region: 'Central Florida',
+    majorCities: ['Clermont', 'Leesburg', 'Eustis', 'Mount Dora', 'Tavares'],
+    marketNotes:
+      'A booming Orlando-adjacent county with Clermont and Four Corners as major growth areas. US 27 and the Florida Turnpike corridors attract retail, industrial, and multifamily development. The Villages spillover into southern Lake County drives medical and retail demand.',
+  },
+  {
+    name: 'Lee',
+    slug: 'lee',
+    tier: 2,
+    region: 'Southwest Florida',
+    majorCities: ['Fort Myers', 'Cape Coral', 'Bonita Springs', 'Estero', 'Lehigh Acres'],
+    marketNotes:
+      'A major Southwest Florida metro with active CRE markets across all asset classes. Post-Hurricane Ian rebuilding is driving significant new construction and renovation activity. The I-75 and Daniels Parkway corridors are primary commercial spines with strong industrial and retail demand.',
+  },
+  {
+    name: 'Leon',
+    slug: 'leon',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Tallahassee'],
+    marketNotes:
+      'Florida\'s capital city with state government and two major universities driving stable office and multifamily demand. The Innovation Park and northeast growth corridors attract new commercial development. Student housing and state agency leasing dominate much of the market.',
+  },
+  {
+    name: 'Levy',
+    slug: 'levy',
+    tier: 2,
+    region: 'Nature Coast',
+    majorCities: ['Williston', 'Bronson', 'Chiefland', 'Cedar Key'],
+    marketNotes:
+      'A rural Nature Coast county with agricultural and timber-based economy. Cedar Key provides niche tourism and hospitality opportunities. Commercial real estate is limited to small retail and agricultural services along the US 19 and US 27 corridors.',
+  },
+  {
+    name: 'Liberty',
+    slug: 'liberty',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Bristol'],
+    marketNotes:
+      'One of Florida\'s most rural and forested counties with virtually no CRE market. The economy depends on timber, state forestry, and correctional facilities. Opportunities are limited to land and small service-oriented properties.',
+  },
+  {
+    name: 'Madison',
+    slug: 'madison',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Madison', 'Lee', 'Greenville'],
+    marketNotes:
+      'A rural county along I-10 between Tallahassee and Jacksonville with limited commercial activity. Agriculture and small manufacturing form the economic base. Highway-oriented retail and convenience services along I-10 offer the most CRE potential.',
+  },
+  {
+    name: 'Marion',
+    slug: 'marion',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Ocala', 'Belleview', 'Dunnellon'],
+    marketNotes:
+      'The "Horse Capital of the World" with a growing logistics sector along the I-75 corridor. World Equestrian Center has catalyzed hospitality and mixed-use development. Ocala\'s industrial market is expanding as companies seek alternatives to Orlando and Tampa distribution costs.',
+  },
+  {
+    name: 'Martin',
+    slug: 'martin',
+    tier: 2,
+    region: 'Treasure Coast',
+    majorCities: ['Stuart', 'Jensen Beach', 'Palm City', 'Indiantown'],
+    marketNotes:
+      'An affluent Treasure Coast county with strict growth management policies that limit supply and support values. Downtown Stuart\'s walkable district attracts boutique retail and office tenants. The county\'s anti-development stance creates constrained inventory and premium pricing.',
+  },
+  {
+    name: 'Miami-Dade',
+    slug: 'miami-dade',
+    tier: 2,
+    region: 'Southeast Florida',
+    majorCities: ['Miami', 'Miami Beach', 'Hialeah', 'Coral Gables', 'Doral'],
+    marketNotes:
+      'Florida\'s largest and most institutional CRE market with global capital flows across all asset classes. Brickell, Wynwood, and Doral are among the most active submarkets for office, industrial, and mixed-use investment. PortMiami and MIA airport drive massive logistics and hospitality demand.',
+  },
+  {
+    name: 'Monroe',
+    slug: 'monroe',
+    tier: 2,
+    region: 'Florida Keys',
+    majorCities: ['Key West', 'Marathon', 'Islamorada', 'Key Largo'],
+    marketNotes:
+      'A unique island-chain market where extremely limited land and strict building codes create premium values. Hospitality and tourism-oriented retail dominate the CRE landscape. Environmental regulations and height restrictions constrain new development, maintaining strong pricing for existing inventory.',
+  },
+  {
+    name: 'Nassau',
+    slug: 'nassau',
+    tier: 2,
+    region: 'Northeast Florida',
+    majorCities: ['Fernandina Beach', 'Yulee', 'Callahan', 'Hilliard'],
+    marketNotes:
+      'A fast-growing Jacksonville-adjacent county with Yulee emerging as a major suburban growth center. Amelia Island drives tourism and hospitality investment. New residential rooftops are generating retail and medical office demand along the A1A and US 17 corridors.',
+  },
+  {
+    name: 'Okaloosa',
+    slug: 'okaloosa',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Fort Walton Beach', 'Destin', 'Crestview', 'Niceville'],
+    marketNotes:
+      'A defense-driven market anchored by Eglin Air Force Base and Hurlburt Field, supporting strong office and industrial demand. Destin and the Emerald Coast drive premium hospitality and retail investment. Crestview is emerging as a growth corridor along I-10.',
+  },
+  {
+    name: 'Okeechobee',
+    slug: 'okeechobee',
+    tier: 2,
+    region: 'Central Florida',
+    majorCities: ['Okeechobee'],
+    marketNotes:
+      'A rural county centered around Lake Okeechobee with an agricultural economy. CRE activity is limited to small-town retail and agricultural services. Land investment and rural commercial properties are the primary opportunities.',
+  },
+  {
+    name: 'Orange',
+    slug: 'orange',
+    tier: 2,
+    region: 'Central Florida',
+    majorCities: ['Orlando', 'Winter Park', 'Windermere', 'Apopka'],
+    marketNotes:
+      'Central Florida\'s economic core with one of the deepest CRE markets in the Southeast. The I-4 corridor, International Drive, and Lake Nona are major growth engines for office, industrial, and mixed-use development. Tourism infrastructure and tech sector growth drive broad-based demand across all asset classes.',
+  },
+  {
+    name: 'Osceola',
+    slug: 'osceola',
+    tier: 2,
+    region: 'Central Florida',
+    majorCities: ['Kissimmee', 'St. Cloud', 'Celebration'],
+    marketNotes:
+      'An Orlando-adjacent county with explosive growth driven by tourism infrastructure and residential expansion. The US 192 corridor and NeoCity innovation district attract commercial and industrial development. Multifamily and workforce housing demand are particularly strong.',
+  },
+  {
+    name: 'Palm Beach',
+    slug: 'palm-beach',
+    tier: 2,
+    region: 'Southeast Florida',
+    majorCities: ['West Palm Beach', 'Boca Raton', 'Delray Beach', 'Jupiter', 'Palm Beach Gardens'],
+    marketNotes:
+      'A premier Southeast Florida market attracting significant institutional capital and financial services tenants relocating from the Northeast. Downtown West Palm Beach and Boca Raton are among the strongest office submarkets in the state. Industrial demand along I-95 and the Turnpike remains robust.',
+  },
+  {
+    name: 'Putnam',
+    slug: 'putnam',
+    tier: 2,
+    region: 'Northeast Florida',
+    majorCities: ['Palatka', 'Crescent City', 'Pomona Park'],
+    marketNotes:
+      'A rural county along the St. Johns River with limited but emerging CRE activity. Palatka\'s historic downtown offers adaptive reuse and small retail opportunities. Affordable land prices attract investors looking for value-add properties.',
+  },
+  {
+    name: 'Santa Rosa',
+    slug: 'santa-rosa',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Milton', 'Navarre', 'Gulf Breeze', 'Pace'],
+    marketNotes:
+      'A fast-growing Pensacola-adjacent county with strong residential-driven retail demand. Navarre Beach is emerging as a hospitality investment destination. The US 98 and I-10 corridors support growing commercial and light industrial development.',
+  },
+  {
+    name: 'Seminole',
+    slug: 'seminole',
+    tier: 2,
+    region: 'Central Florida',
+    majorCities: ['Sanford', 'Altamonte Springs', 'Lake Mary', 'Oviedo'],
+    marketNotes:
+      'A mature Orlando-metro county with established office parks in Lake Mary and Altamonte Springs. The I-4 and SR 417 corridors drive office and flex space demand. Sanford\'s historic downtown and waterfront are undergoing mixed-use revitalization.',
+  },
+  {
+    name: 'St. Johns',
+    slug: 'st-johns',
+    tier: 2,
+    region: 'Northeast Florida',
+    majorCities: ['St. Augustine', 'Ponte Vedra Beach', 'Nocatee', 'World Golf Village'],
+    marketNotes:
+      'One of Florida\'s wealthiest and fastest-growing counties with premium retail and office demand. Nocatee\'s master-planned growth drives commercial development. St. Augustine\'s historic district supports tourism-related hospitality and retail investment.',
+  },
+  {
+    name: 'St. Lucie',
+    slug: 'st-lucie',
+    tier: 2,
+    region: 'Treasure Coast',
+    majorCities: ['Port St. Lucie', 'Fort Pierce'],
+    marketNotes:
+      'A rapidly growing Treasure Coast market with strong demand for retail and medical office serving new residential communities. The I-95 and Tradition Parkway corridors attract commercial development. Port St. Lucie\'s growth makes it one of the fastest-expanding cities in the state.',
+  },
+  {
+    name: 'Sumter',
+    slug: 'sumter',
+    tier: 2,
+    region: 'Central Florida',
+    majorCities: ['Bushnell', 'Wildwood', 'The Villages'],
+    marketNotes:
+      'Dominated by The Villages, the largest retirement community in the U.S., driving enormous retail, medical office, and hospitality demand. Town squares and commercial centers within The Villages maintain high occupancy. The I-75 and Florida Turnpike interchange at Wildwood creates logistics potential.',
+  },
+  {
+    name: 'Suwannee',
+    slug: 'suwannee',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Live Oak', 'Branford'],
+    marketNotes:
+      'A rural county at the intersection of I-75 and I-10 with growing potential as a logistics node. The Spirit of the Suwannee Music Park draws tourism. Commercial activity is primarily small retail and highway-oriented services.',
+  },
+  {
+    name: 'Taylor',
+    slug: 'taylor',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Perry', 'Steinhatchee'],
+    marketNotes:
+      'A timber and manufacturing county on the Gulf Coast with limited commercial inventory. Recent paper mill activity changes may shift the economic base. Steinhatchee offers niche fishing tourism and hospitality opportunities.',
+  },
+  {
+    name: 'Union',
+    slug: 'union',
+    tier: 2,
+    region: 'North Central Florida',
+    majorCities: ['Lake Butler', 'Raiford'],
+    marketNotes:
+      'One of Florida\'s smallest counties with an economy heavily dependent on state correctional facilities. CRE activity is extremely limited. Small retail and services supporting the prison system workforce are the primary opportunities.',
+  },
+  {
+    name: 'Volusia',
+    slug: 'volusia',
+    tier: 2,
+    region: 'Central Florida',
+    majorCities: ['Daytona Beach', 'Deltona', 'DeLand', 'New Smyrna Beach', 'Ormond Beach'],
+    marketNotes:
+      'A diverse market spanning from the I-4 corridor to the Atlantic coast with strong automotive, tourism, and logistics sectors. Daytona International Speedway and Embry-Riddle drive hospitality and specialized CRE demand. Deltona and DeLand are growth corridors attracting retail and multifamily development.',
+  },
+  {
+    name: 'Wakulla',
+    slug: 'wakulla',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Crawfordville', 'Panacea', 'St. Marks'],
+    marketNotes:
+      'A small Tallahassee-adjacent coastal county with growing bedroom community dynamics. Commercial development is limited but expanding along the Crawfordville Highway corridor. Eco-tourism and coastal recreation drive modest hospitality demand.',
+  },
+  {
+    name: 'Walton',
+    slug: 'walton',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['DeFuniak Springs', 'Santa Rosa Beach', 'Miramar Beach', 'Freeport'],
+    marketNotes:
+      'Home to the 30A corridor, one of Florida\'s most desirable luxury coastal markets. Hospitality and premium retail drive strong CRE investment along the Emerald Coast. Inland areas along I-10 offer more affordable land for industrial and workforce-oriented development.',
+  },
+  {
+    name: 'Washington',
+    slug: 'washington',
+    tier: 2,
+    region: 'Northwest Florida',
+    majorCities: ['Chipley', 'Vernon', 'Wausau'],
+    marketNotes:
+      'A rural Panhandle county with limited CRE activity concentrated around Chipley along I-10. The economy relies on agriculture, timber, and small manufacturing. Highway-oriented commercial and small industrial properties are the primary opportunities.',
+  },
+];
+
+/** Quick lookup by slug */
+export const COUNTY_BY_SLUG = Object.fromEntries(
+  FLORIDA_COUNTIES.map((c) => [c.slug, c])
+) as Record<string, FloridaCounty>;
+
+/** Quick lookup by name (case-insensitive) */
+export function getCountyByName(name: string): FloridaCounty | undefined {
+  return FLORIDA_COUNTIES.find(
+    (c) => c.name.toLowerCase() === name.toLowerCase()
+  );
+}
+
+/** All tier-1 counties */
+export const TIER_1_COUNTIES = FLORIDA_COUNTIES.filter((c) => c.tier === 1);
+
+/** All tier-2 counties */
+export const TIER_2_COUNTIES = FLORIDA_COUNTIES.filter((c) => c.tier === 2);

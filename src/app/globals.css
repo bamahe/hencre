@@ -1,26 +1,62 @@
 @import "tailwindcss";
 
+/* HenCRE Brand Colors & Theme */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --navy: #0B2545;
+  --accent-blue: #1E5AA8;
+  --warm-white: #F8F7F4;
+  --slate: #475569;
+  --soft-red: #C2410C;
+  --success-green: #15803D;
+  --background: var(--warm-white);
+  --foreground: var(--slate);
 }
 
+/* Register brand colors with Tailwind v4 */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-navy: #0B2545;
+  --color-accent-blue: #1E5AA8;
+  --color-warm-white: #F8F7F4;
+  --color-slate-brand: #475569;
+  --color-soft-red: #C2410C;
+  --color-success-green: #15803D;
+  --color-background: var(--warm-white);
+  --color-foreground: var(--slate);
+  --font-sans: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Base styles — no dark mode */
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 2px;
+}
+
+/* Link defaults */
+a {
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Heading defaults */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--navy);
+  font-weight: 700;
 }

@@ -1,0 +1,130 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import Hero from "@/components/Hero";
+import SchemaOrg from "@/components/SchemaOrg";
+
+/* -------------------------------------------------------------------
+ * Industrial & Warehouse — property type detail page.
+ * ----------------------------------------------------------------- */
+
+export const metadata: Metadata = {
+  title: "Industrial & Warehouse | Distribution, Flex & Manufacturing in Florida",
+  description:
+    "Lease, buy, or sell industrial and warehouse space in Florida. Distribution, flex, manufacturing, and cold storage. Barrett Henry, REALTOR® at REMAX Collective.",
+  openGraph: {
+    title: "Industrial & Warehouse | HenCRE",
+    description: "Industrial and warehouse leasing, sales, and investment across Florida.",
+    url: "https://hencre.com/commercial/industrial-warehouse",
+  },
+};
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Property Types", item: "https://hencre.com/commercial" },
+        { "@type": "ListItem", position: 3, name: "Industrial & Warehouse", item: "https://hencre.com/commercial/industrial-warehouse" },
+      ],
+    },
+    {
+      "@type": "WebPage",
+      name: "Industrial & Warehouse Space in Florida",
+      url: "https://hencre.com/commercial/industrial-warehouse",
+    },
+  ],
+};
+
+export default function IndustrialWarehousePage() {
+  return (
+    <>
+      <SchemaOrg schema={schema} />
+
+      <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
+        <ol className="flex text-sm text-slate-brand">
+          <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
+          <li className="mx-2">/</li>
+          <li><Link href="/commercial" className="hover:underline no-underline">Property Types</Link></li>
+          <li className="mx-2">/</li>
+          <li className="font-semibold text-navy" aria-current="page">Industrial &amp; Warehouse</li>
+        </ol>
+      </nav>
+
+      <Hero
+        title="Industrial & Warehouse"
+        subtitle="Distribution, flex, manufacturing, and cold storage. Florida's logistics corridor is booming."
+        ctaText="Find Industrial Space"
+        ctaHref="/contact"
+      />
+
+      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">Florida Industrial Market Overview</h2>
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+          <p>
+            Industrial is the hottest commercial real estate sector in Florida — and
+            nationally. E-commerce growth, supply chain reshoring, and Florida&apos;s
+            strategic position as a distribution hub for the Southeast and Latin
+            America have driven vacancy rates to historic lows in major submarkets.
+          </p>
+          <p>
+            Tampa Bay, Central Florida, and South Florida all see strong demand for
+            distribution space, flex/warehouse, manufacturing facilities, and cold
+            storage. New construction is underway, but pre-leasing rates are high and
+            existing inventory moves fast. If you need industrial space in Florida, act
+            now.
+          </p>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">Key Considerations for Industrial</h2>
+          <div className="mt-6 grid gap-6 sm:grid-cols-2">
+            {[
+              { title: "Clear Height", desc: "Ceiling height determines racking capacity and operational efficiency. Modern distribution requires 28-36 ft clear. Older warehouses may have 18-24 ft." },
+              { title: "Dock & Grade Access", desc: "Dock-high doors for trailer loading and grade-level doors for van access. The mix depends on your operations." },
+              { title: "Power & Utilities", desc: "Manufacturing and cold storage need heavy power (3-phase, high amperage). Confirm utility capacity before signing a lease." },
+              { title: "Zoning & Use", desc: "Not all industrial zoning allows all uses. Outside storage, hazardous materials, and heavy manufacturing have specific zoning requirements I verify upfront." },
+            ].map((item) => (
+              <div key={item.title} className="rounded-lg border border-gray-200 p-6">
+                <h3 className="text-lg font-bold text-navy">{item.title}</h3>
+                <p className="mt-2 text-sm text-slate-brand">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl">
+          <h2 className="text-2xl font-bold text-white sm:text-3xl">
+            Need Industrial or Warehouse Space?
+          </h2>
+          <p className="mt-4 text-lg text-white/80">
+            Describe your operation and I will identify available options. The market
+            moves fast — let us get ahead of it.
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-4">
+            <Link href="/contact" className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline">Contact Barrett</Link>
+            <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">Call (813) 733-7907</a>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h3 className="text-lg font-bold text-navy">Explore Other Property Types</h3>
+          <div className="mt-4 flex flex-wrap gap-3">
+            <Link href="/commercial/office-space" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Office Space</Link>
+            <Link href="/commercial/retail-space" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Retail Space</Link>
+            <Link href="/commercial/multifamily" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Multifamily</Link>
+            <Link href="/commercial/nnn-net-lease" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">NNN / Net Lease</Link>
+            <Link href="/commercial/land-development" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Land &amp; Development</Link>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

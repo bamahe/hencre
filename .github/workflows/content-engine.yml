@@ -1,0 +1,49 @@
+name: HenCRE Content Engine
+
+on:
+  schedule:
+    # Run daily at 11:00 UTC (~6am ET)
+    - cron: '0 11 * * *'
+  workflow_dispatch: # Manual run button
+
+jobs:
+  publish-content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run content engine
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: npx tsx scripts/content-engine.ts
+
+      - name: Commit and push new pages
+        run: |
+          git config user.name "HenCRE Content Engine"
+          git config user.email "barrett@nowtb.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No new content to commit"
+          else
+            git commit -m "content: auto-publish $(date +%Y-%m-%d) batch
+
+            Published by HenCRE Content Engine (daily cron)"
+            git push
+          fi

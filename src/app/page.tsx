@@ -1,65 +1,378 @@
-import Image from "next/image";
+import type { Metadata } from "next";
+import Link from "next/link";
+import Hero from "@/components/Hero";
+import SchemaOrg from "@/components/SchemaOrg";
 
-export default function Home() {
+/* -------------------------------------------------------------------
+ * Home Page — hencre.com
+ * Hero, intro, services overview, property types, Tampa Bay focus,
+ * lead form placeholder, FAQ section, and structured data.
+ * ----------------------------------------------------------------- */
+
+export const metadata: Metadata = {
+  title: "Florida Commercial Real Estate | HenCRE — Barrett Henry, REALTOR®",
+  description:
+    "Commercial real estate brokerage serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
+  openGraph: {
+    title: "Florida Commercial Real Estate | HenCRE",
+    description:
+      "Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, connected across Florida. Backed by 23+ years in this market.",
+    url: "https://hencre.com",
+  },
+};
+
+/* -- Service cards data -- */
+const SERVICES = [
+  {
+    title: "Tenant Representation",
+    description:
+      "Find the right space at the right terms. I negotiate on your behalf so you can focus on running your business.",
+    href: "/services/tenant-representation",
+  },
+  {
+    title: "Landlord Leasing",
+    description:
+      "Fill vacancies faster with qualified tenants. Strategic marketing, competitive analysis, and lease negotiation.",
+    href: "/services/landlord-leasing",
+  },
+  {
+    title: "Investment Sales",
+    description:
+      "Acquire income-producing properties or sell at peak value. Data-driven analysis for confident decisions.",
+    href: "/services/investment-sales",
+  },
+  {
+    title: "Dispositions",
+    description:
+      "Maximize proceeds when it is time to exit. Positioning, marketing, and deal structuring for optimal results.",
+    href: "/services/dispositions",
+  },
+  {
+    title: "CRE Valuation",
+    description:
+      "Broker opinion of value, comp analysis, and market positioning. Know what your property is worth before you act.",
+    href: "/services/cre-valuation",
+  },
+  {
+    title: "Referral Network",
+    description:
+      "Got a commercial deal outside your lane? Refer it to me and earn a referral fee. Licensed agents welcome.",
+    href: "/refer-a-deal",
+  },
+] as const;
+
+/* -- Property type cards data -- */
+const PROPERTY_TYPES = [
+  {
+    title: "Office Space",
+    description: "Class A, B, and C office — from single-tenant to multi-story.",
+    href: "/commercial/office-space",
+  },
+  {
+    title: "Retail Space",
+    description: "Strip centers, standalone pads, and mixed-use retail.",
+    href: "/commercial/retail-space",
+  },
+  {
+    title: "Industrial & Warehouse",
+    description: "Distribution, flex, manufacturing, and cold storage.",
+    href: "/commercial/industrial-warehouse",
+  },
+  {
+    title: "Multifamily",
+    description: "Apartment complexes and multi-unit residential investments.",
+    href: "/commercial/multifamily",
+  },
+  {
+    title: "NNN / Net Lease",
+    description: "Triple-net investments with stable, long-term cash flow.",
+    href: "/commercial/nnn-net-lease",
+  },
+  {
+    title: "Land & Development",
+    description: "Entitled and raw land for commercial and mixed-use development.",
+    href: "/commercial/land-development",
+  },
+] as const;
+
+/* -- FAQ data -- */
+const FAQS = [
+  {
+    q: "What does a commercial real estate broker actually do?",
+    a: "A CRE broker represents buyers, sellers, tenants, or landlords in commercial property transactions. I handle market analysis, property search, lease and purchase negotiation, due diligence coordination, and closing — so you can make informed decisions without the guesswork.",
+  },
+  {
+    q: "How is commercial real estate different from residential?",
+    a: "Commercial deals involve income-producing properties — office, retail, industrial, multifamily, and land. Valuations are based on income (cap rates, NOI), not comparable home sales. Leases are longer, more complex, and negotiable. The stakes are higher and the process demands specialized expertise.",
+  },
+  {
+    q: "Do I pay a commission as a tenant?",
+    a: "In most commercial lease transactions, the landlord pays the commission. As your tenant rep, I negotiate on your behalf at no direct cost to you. My job is to get you the best space at the best terms.",
+  },
+  {
+    q: "What areas of Florida do you cover?",
+    a: "I am anchored in Tampa Bay but work across all 67 Florida counties. For deals outside my core market, I leverage a statewide network of trusted brokers to ensure you get local expertise wherever the deal is.",
+  },
+  {
+    q: "How long does a commercial lease negotiation take?",
+    a: "Timelines vary based on complexity, but most lease negotiations run 30 to 90 days from LOI to executed lease. Larger or build-to-suit deals can take longer. I set clear milestones so you know exactly where things stand.",
+  },
+  {
+    q: "What is a cap rate and why does it matter?",
+    a: "A capitalization rate (cap rate) is net operating income divided by purchase price. It measures the expected return on an investment property. Lower cap rates typically indicate lower risk and higher-value markets. I help you interpret cap rates in context — not all 6-caps are created equal.",
+  },
+  {
+    q: "Can you help with 1031 exchanges?",
+    a: "I am not a tax advisor, but I regularly work with investors executing 1031 exchanges. I coordinate with your qualified intermediary and identify replacement properties within the strict IRS timelines so you defer capital gains and keep your money working.",
+  },
+] as const;
+
+/* -- Schema.org structured data -- */
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://hencre.com/#organization",
+      name: "HenCRE",
+      url: "https://hencre.com",
+      logo: "https://hencre.com/logo.png",
+      description:
+        "Commercial real estate brokerage serving all 67 Florida counties.",
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+1-813-733-7907",
+        email: "barrett@nowtb.com",
+        contactType: "sales",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hencre.com/#website",
+      url: "https://hencre.com",
+      name: "HenCRE",
+      publisher: { "@id": "https://hencre.com/#organization" },
+    },
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://hencre.com/#agent",
+      name: "Barrett Henry",
+      jobTitle: "Broker Associate",
+      worksFor: {
+        "@type": "RealEstateAgent",
+        name: "REMAX Collective",
+      },
+      url: "https://hencre.com",
+      telephone: "+1-813-733-7907",
+      email: "barrett@nowtb.com",
+      areaServed: {
+        "@type": "State",
+        name: "Florida",
+      },
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://hencre.com/#tampa-office",
+      name: "HenCRE — Tampa Office",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "14310 N Dale Mabry Hwy Ste 100",
+        addressLocality: "Tampa",
+        addressRegion: "FL",
+        postalCode: "33618",
+      },
+      telephone: "+1-813-733-7907",
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://hencre.com/#largo-office",
+      name: "HenCRE — Largo Office",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "11200 Seminole Blvd Ste 202",
+        addressLocality: "Largo",
+        addressRegion: "FL",
+        postalCode: "33778",
+      },
+      telephone: "+1-813-733-7907",
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://hencre.com/#brandon-office",
+      name: "HenCRE — Brandon Office",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "417 Lithia Pinecrest Rd",
+        addressLocality: "Brandon",
+        addressRegion: "FL",
+        postalCode: "33511",
+      },
+      telephone: "+1-813-733-7907",
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://hencre.com/#faq",
+      mainEntity: FAQS.map((faq) => ({
+        "@type": "Question",
+        name: faq.q,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.a,
+        },
+      })),
+    },
+  ],
+};
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <>
+      <SchemaOrg schema={schema} />
+
+      {/* ---- Hero ---- */}
+      <Hero
+        title="Florida Commercial Real Estate, Done Right."
+        subtitle="Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, connected across Florida. Backed by 23+ years in this market."
+        ctaText="Get Started"
+        ctaHref="/contact"
+      />
+
+      {/* ---- Intro section ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">
+          Commercial Real Estate Across Florida
+        </h2>
+        <p className="mt-4 text-lg leading-relaxed text-slate-brand">
+          Whether you are leasing your first office, acquiring a multifamily portfolio,
+          or selling a retail center, the right broker makes the difference between a
+          good deal and a great one. I bring 23+ years of real estate experience to
+          every engagement — deep market knowledge, honest guidance, and relentless
+          execution. No committee. No runaround. Just results.
+        </p>
+      </section>
+
+      {/* ---- Services overview ---- */}
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <h2 className="text-center text-2xl font-bold sm:text-3xl">
+            How I Can Help
+          </h2>
+          <p className="mx-auto mt-3 max-w-2xl text-center text-slate-brand">
+            Full-service commercial real estate — from first showing to closing table.
           </p>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {SERVICES.map((svc) => (
+              <Link
+                key={svc.href}
+                href={svc.href}
+                className="group rounded-lg border border-gray-200 p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
+              >
+                <h3 className="text-lg font-bold text-navy group-hover:text-accent-blue">
+                  {svc.title}
+                </h3>
+                <p className="mt-2 text-sm text-slate-brand">{svc.description}</p>
+              </Link>
+            ))}
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* ---- Property types overview ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <h2 className="text-center text-2xl font-bold sm:text-3xl">
+            Property Types
+          </h2>
+          <p className="mx-auto mt-3 max-w-2xl text-center text-slate-brand">
+            Every asset class. One broker who knows them all.
+          </p>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {PROPERTY_TYPES.map((pt) => (
+              <Link
+                key={pt.href}
+                href={pt.href}
+                className="group rounded-lg border border-gray-200 bg-white p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
+              >
+                <h3 className="text-lg font-bold text-navy group-hover:text-accent-blue">
+                  {pt.title}
+                </h3>
+                <p className="mt-2 text-sm text-slate-brand">{pt.description}</p>
+              </Link>
+            ))}
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* ---- Tampa Bay focus ---- */}
+      <section className="bg-navy px-4 py-16 text-white sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl text-center">
+          <h2 className="text-2xl font-bold text-white sm:text-3xl">
+            Anchored in Tampa Bay
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-white/80">
+            Tampa Bay is one of the fastest-growing commercial markets in the
+            Southeast. With three REMAX Collective offices across Tampa, Largo, and
+            Brandon, I cover Hillsborough, Pinellas, Pasco, Polk, and Manatee counties
+            with boots-on-the-ground knowledge. For deals anywhere else in Florida, I
+            tap a statewide network of trusted brokers to get the job done right.
+          </p>
+          <div className="mt-8">
+            <Link
+              href="/contact"
+              className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline"
+            >
+              Talk to Barrett
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Lead form placeholder ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8" id="lead-form">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-2xl font-bold sm:text-3xl">
+            Ready to Make a Move?
+          </h2>
+          <p className="mt-3 text-slate-brand">
+            Tell me about your commercial real estate needs. I will get back to you
+            within one business day.
+          </p>
+          {/* LeadForm component will be mounted here by another agent */}
+          <div className="mt-8">
+            <Link
+              href="/contact"
+              className="inline-block rounded-lg bg-accent-blue px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-accent-blue/90 hover:no-underline"
+            >
+              Contact Me
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- FAQ section ---- */}
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="text-center text-2xl font-bold sm:text-3xl">
+            Frequently Asked Questions
+          </h2>
+          <dl className="mt-10 space-y-6">
+            {FAQS.map((faq) => (
+              <div key={faq.q} className="border-b border-gray-200 pb-6">
+                <dt className="text-lg font-semibold text-navy">{faq.q}</dt>
+                <dd className="mt-2 text-slate-brand">{faq.a}</dd>
+              </div>
+            ))}
+          </dl>
+          <div className="mt-8 text-center">
+            <Link
+              href="/faq"
+              className="text-accent-blue font-semibold no-underline hover:underline"
+            >
+              View all FAQs &rarr;
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
