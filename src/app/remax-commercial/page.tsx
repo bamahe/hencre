@@ -188,6 +188,29 @@ export default function RemaxCommercialPage() {
         ctaHref="/contact"
       />
 
+      {/* ---- REMAX Commercial Sizzle Video ---- */}
+      <section className="bg-black px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-white sm:text-3xl">
+            See REMAX Commercial in Action
+          </h2>
+          <div className="aspect-video overflow-hidden rounded-lg">
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              className="h-full w-full"
+              poster="/images/remax-commercial-black.png"
+            >
+              <source src="/remax-commercial-sizzle.webm" type="video/webm" />
+            </video>
+          </div>
+          <p className="mt-4 text-center text-sm text-white/60">
+            REMAX Commercial — A Better Way in Commercial Real Estate
+          </p>
+        </div>
+      </section>
+
       {/* ---- The REMAX Commercial Network ---- */}
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">
