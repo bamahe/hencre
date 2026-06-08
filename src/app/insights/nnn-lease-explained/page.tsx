@@ -145,59 +145,59 @@ export default function NNNLeasePage() {
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <p className="text-lg leading-relaxed text-slate-brand">
+        <p className="text-lg leading-relaxed text-[#666666]">
           Walk into any conversation about commercial real estate investing and you will hear &ldquo;NNN&rdquo; within the first five minutes. Triple net leases are one of the most popular structures in CRE, and for good reason — they create a clear division of financial responsibility between landlord and tenant. But the details matter, and I have seen both sides get surprised by what they agreed to. Let me walk you through how NNN leases actually work.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">What Is a Triple Net (NNN) Lease?</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">What Is a Triple Net (NNN) Lease?</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           In a triple net lease, the tenant pays base rent plus three categories of property expenses: property taxes, building insurance, and common area maintenance (CAM). Those are the three &ldquo;nets.&rdquo; The landlord receives the base rent as essentially net income — their costs for owning the property are passed through to the tenant.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           This is different from a gross lease, where the landlord wraps all expenses into one higher rent number. In a NNN lease, you see the base rent and the additional charges itemized separately.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">What Tenants Pay in a NNN Lease</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">What Tenants Pay in a NNN Lease</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           As a tenant in a NNN lease, your total monthly cost is base rent plus your share of the three expense categories:
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Property taxes.</strong> Your proportionate share of the building&apos;s annual tax bill.</li>
           <li><strong>Insurance.</strong> Your share of the landlord&apos;s property insurance premium (not your own business liability insurance — that is always separate).</li>
           <li><strong>CAM charges.</strong> Common area maintenance, which covers shared expenses like landscaping, parking lot upkeep, exterior lighting, and sometimes management fees.</li>
         </ul>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           In a multi-tenant building, these expenses are typically divided by square footage. If you lease 2,000 square feet in a 10,000-square-foot building, you pay 20% of the total property expenses.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Why Landlords Prefer NNN Leases</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Why Landlords Prefer NNN Leases</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           From the ownership side, NNN leases are attractive because they create predictable net income. When property taxes increase, the tenant absorbs that cost. When insurance premiums rise, same thing. The landlord&apos;s income stays consistent regardless of operating expense fluctuations.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           This is why NNN properties — especially those with strong national tenants on long-term leases — are among the most sought-after investment properties. The income stream is as close to passive as commercial real estate gets.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">NNN vs. Gross vs. Modified Gross</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">NNN vs. Gross vs. Modified Gross</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Here is a quick comparison of the three main lease structures:
         </p>
         <div className="my-6 overflow-x-auto">
-          <table className="w-full border-collapse text-sm text-slate-brand">
+          <table className="w-full border-collapse text-sm text-[#666666]">
             <thead>
-              <tr className="border-b-2 border-navy/20">
-                <th className="py-3 pr-4 text-left font-bold text-navy">Structure</th>
-                <th className="py-3 pr-4 text-left font-bold text-navy">Tenant Pays</th>
-                <th className="py-3 text-left font-bold text-navy">Landlord Pays</th>
+              <tr className="border-b-2 border-black/20">
+                <th className="py-3 pr-4 text-left font-bold text-black">Structure</th>
+                <th className="py-3 pr-4 text-left font-bold text-black">Tenant Pays</th>
+                <th className="py-3 text-left font-bold text-black">Landlord Pays</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-b border-slate-brand/10">
+              <tr className="border-b border-[#666666]/10">
                 <td className="py-3 pr-4 font-semibold">Gross</td>
                 <td className="py-3 pr-4">Base rent only</td>
                 <td className="py-3">All operating expenses</td>
               </tr>
-              <tr className="border-b border-slate-brand/10">
+              <tr className="border-b border-[#666666]/10">
                 <td className="py-3 pr-4 font-semibold">Modified Gross</td>
                 <td className="py-3 pr-4">Base rent + some expenses</td>
                 <td className="py-3">Remaining expenses</td>
@@ -210,37 +210,37 @@ export default function NNNLeasePage() {
             </tbody>
           </table>
         </div>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           The key takeaway: in a gross lease, what you see is what you pay. In a NNN lease, the base rent is just the starting point.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">What Tenants Should Watch For</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">What Tenants Should Watch For</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Not all NNN leases are created equal. Here are the details I tell every tenant client to scrutinize:
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>CAM caps.</strong> Negotiate a cap on annual CAM increases. Without one, your costs can climb unpredictably.</li>
           <li><strong>Expense exclusions.</strong> Make sure capital expenditures (roof replacement, structural repairs) stay on the landlord. Some leases try to pass these through as CAM.</li>
           <li><strong>Audit rights.</strong> Insist on the right to audit the landlord&apos;s expense records. You need to verify you are being charged accurately.</li>
           <li><strong>Expense estimates vs. actuals.</strong> Most landlords collect estimated NNN charges monthly and reconcile against actual costs annually. Understand how that reconciliation works.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Absolute NNN vs. Standard NNN</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Absolute NNN vs. Standard NNN</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           You may hear the term &ldquo;absolute NNN&rdquo; or &ldquo;bondable NNN.&rdquo; In an absolute NNN lease, the tenant is responsible for literally everything — including roof and structure repairs. These are common with freestanding buildings leased to national credit tenants (think pharmacies, fast food, dollar stores). The landlord has virtually zero management responsibility.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           In a standard NNN lease, the landlord typically retains responsibility for the roof and structural components. Always read your lease carefully to understand where that line is drawn.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Bottom Line</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           NNN leases work well for both landlords and tenants when both sides understand exactly what they are agreeing to. As a broker, my job is to make sure there are no surprises — that tenants know their total occupancy cost and landlords understand their net income. If you are negotiating a commercial lease, having an experienced broker review the terms before you sign can save you real money.
         </p>
       </article>
 
       <div className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
-        <h2 className="mb-6 text-2xl font-bold text-navy">Frequently Asked Questions</h2>
+        <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
       </div>
       <FAQAccordion items={faqItems} />
 

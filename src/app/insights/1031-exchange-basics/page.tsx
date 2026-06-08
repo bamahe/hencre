@@ -145,51 +145,51 @@ export default function ExchangeBasicsPage() {
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <p className="text-lg leading-relaxed text-slate-brand">
+        <p className="text-lg leading-relaxed text-[#666666]">
           If you own commercial real estate and have ever thought about selling, someone has probably mentioned a 1031 exchange. It is one of the most powerful wealth-building tools available to real estate investors — and one of the most misunderstood. I have guided clients through these exchanges throughout my career, and the difference between doing it right and making a costly mistake often comes down to understanding a few key rules.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">What Is a 1031 Exchange?</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">What Is a 1031 Exchange?</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Section 1031 of the Internal Revenue Code allows you to sell an investment property and defer the capital gains taxes by reinvesting the proceeds into another &ldquo;like-kind&rdquo; property. The key word is <strong>defer</strong> — you are not eliminating the tax, you are postponing it. If you eventually sell without exchanging, the accumulated gains become taxable.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           The power of this strategy is compounding. Instead of losing a significant percentage of your gain to taxes on each sale, you keep that capital working for you and can trade up into larger, more productive properties over time.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Two Critical Deadlines</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Two Critical Deadlines</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Every 1031 exchange lives and dies by two deadlines. Miss either one and the exchange fails — you owe the taxes in full.
         </p>
         <div className="my-6 space-y-4">
-          <div className="rounded-lg border-l-4 border-accent-blue bg-accent-blue/5 p-5">
-            <p className="font-bold text-navy">45-Day Identification Period</p>
-            <p className="mt-1 text-slate-brand">From the date you close on the sale of your relinquished property, you have exactly 45 calendar days to identify potential replacement properties in writing. No extensions, no exceptions.</p>
+          <div className="rounded-lg border-l-4 border-black bg-black/5 p-5">
+            <p className="font-bold text-black">45-Day Identification Period</p>
+            <p className="mt-1 text-[#666666]">From the date you close on the sale of your relinquished property, you have exactly 45 calendar days to identify potential replacement properties in writing. No extensions, no exceptions.</p>
           </div>
-          <div className="rounded-lg border-l-4 border-accent-blue bg-accent-blue/5 p-5">
-            <p className="font-bold text-navy">180-Day Exchange Period</p>
-            <p className="mt-1 text-slate-brand">You must close on at least one of your identified replacement properties within 180 calendar days of selling your relinquished property. This deadline also cannot be extended.</p>
+          <div className="rounded-lg border-l-4 border-black bg-black/5 p-5">
+            <p className="font-bold text-black">180-Day Exchange Period</p>
+            <p className="mt-1 text-[#666666]">You must close on at least one of your identified replacement properties within 180 calendar days of selling your relinquished property. This deadline also cannot be extended.</p>
           </div>
         </div>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Like-Kind Is Broader Than You Think</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Like-Kind Is Broader Than You Think</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           &ldquo;Like-kind&rdquo; sounds restrictive, but for real estate it is actually very broad. Any real property held for investment or business use can be exchanged for any other real property held for investment or business use. You can exchange a retail strip center for an apartment complex. You can exchange raw land for an office building. The properties do not need to be the same type, size, or value.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           What does not qualify: personal property, your primary residence, property held primarily for resale (like fix-and-flip projects), and — as of the Tax Cuts and Jobs Act of 2017 — personal property like equipment or vehicles.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Role of the Qualified Intermediary</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Role of the Qualified Intermediary</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           You cannot touch the money. That is the cardinal rule of a 1031 exchange. The sale proceeds from your relinquished property must be held by a Qualified Intermediary (QI) — a neutral third party who holds the funds and facilitates the exchange. If the money hits your bank account, the exchange is blown.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Choose your QI carefully. They should be bonded, insured, and experienced with commercial transactions. Your attorney, accountant, or broker cannot serve as your QI if they have acted in another capacity for you within the past two years.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Common 1031 Exchange Mistakes</h2>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <h2 className="mt-10 text-2xl font-bold text-black">Common 1031 Exchange Mistakes</h2>
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Starting too late.</strong> You need your QI in place before the sale closes. Engaging them after closing is too late.</li>
           <li><strong>Not identifying enough properties.</strong> You can identify up to three properties regardless of value (the Three-Property Rule). Having backup options is critical if your first choice falls through.</li>
           <li><strong>Taking boot.</strong> &ldquo;Boot&rdquo; is any value received that is not like-kind — such as cash back at closing or debt reduction. Boot is taxable, so structure your exchange to avoid it.</li>
@@ -197,24 +197,24 @@ export default function ExchangeBasicsPage() {
           <li><strong>Ignoring state taxes.</strong> Federal tax deferral is just part of the picture. State tax implications vary — Florida has no state income tax, which is one of the advantages of exchanging into Florida property.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Types of 1031 Exchanges</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Types of 1031 Exchanges</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           The most common is the <strong>delayed exchange</strong> — sell first, buy the replacement within 180 days. But there are other structures:
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Simultaneous exchange</strong> — both properties close on the same day. Logistically difficult.</li>
           <li><strong>Reverse exchange</strong> — buy the replacement property before selling the relinquished one. Requires an Exchange Accommodation Titleholder (EAT) to hold the new property.</li>
           <li><strong>Construction/improvement exchange</strong> — use exchange funds to improve the replacement property before taking title. Complex but powerful for value-add strategies.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Bottom Line</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           A 1031 exchange is one of the best tools available for building long-term wealth through commercial real estate. But the rules are strict, the deadlines are absolute, and the consequences of mistakes are expensive. Work with a team — your broker, a qualified intermediary, and a tax professional — to make sure the exchange is structured correctly from day one.
         </p>
       </article>
 
       <div className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
-        <h2 className="mb-6 text-2xl font-bold text-navy">Frequently Asked Questions</h2>
+        <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
       </div>
       <FAQAccordion items={faqItems} />
 

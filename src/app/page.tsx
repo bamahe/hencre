@@ -251,16 +251,16 @@ export default function HomePage() {
 
       {/* ---- Hero ---- */}
       <Hero
-        title="Florida Commercial Real Estate, Done Right."
-        subtitle="REMAX Commercial — a better way in commercial real estate. Tenant rep, landlord leasing, and investment sales anchored in Tampa Bay, connected across all 67 Florida counties."
+        title="Tampa Bay Commercial Real Estate — A Better Way"
+        subtitle="REMAX Commercial broker based in Tampa Bay, serving commercial clients across all of Florida. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world's most recognized real estate brand."
         ctaText="Get Started"
         ctaHref="/contact"
       />
 
       {/* ---- REMAX Commercial Network section (first after hero) ---- */}
-      <section className="bg-navy px-4 py-16 text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl">
-          <p className="text-center text-sm font-semibold tracking-widest uppercase text-accent-blue">
+          <p className="text-center text-sm font-semibold tracking-widest uppercase text-white/60">
             REMAX Commercial
           </p>
           <h2 className="mt-2 text-center text-2xl font-bold text-white sm:text-3xl">
@@ -273,7 +273,7 @@ export default function HomePage() {
           <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {/* Stat card: Global Presence */}
             <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
-              <p className="text-3xl font-bold text-accent-blue">110+</p>
+              <p className="text-3xl font-bold text-white">110+</p>
               <p className="mt-1 text-sm font-semibold text-white">Countries &amp; Territories</p>
               <p className="mt-2 text-sm text-white/60">
                 REMAX operates in more countries than any other real estate brand on the planet.
@@ -282,7 +282,7 @@ export default function HomePage() {
 
             {/* Stat card: Agent Network */}
             <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
-              <p className="text-3xl font-bold text-accent-blue">140,000+</p>
+              <p className="text-3xl font-bold text-white">140,000+</p>
               <p className="mt-1 text-sm font-semibold text-white">Agents Worldwide</p>
               <p className="mt-2 text-sm text-white/60">
                 The largest network of real estate professionals — including commercial specialists across every major market.
@@ -291,7 +291,7 @@ export default function HomePage() {
 
             {/* Stat card: Offices */}
             <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
-              <p className="text-3xl font-bold text-accent-blue">9,000+</p>
+              <p className="text-3xl font-bold text-white">9,000+</p>
               <p className="mt-1 text-sm font-semibold text-white">Offices Globally</p>
               <p className="mt-2 text-sm text-white/60">
                 Each independently owned and operated — local expertise backed by global infrastructure.
@@ -319,7 +319,7 @@ export default function HomePage() {
           <div className="mt-8 text-center">
             <Link
               href="/remax-commercial"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
               Learn About REMAX Commercial
             </Link>
@@ -332,7 +332,7 @@ export default function HomePage() {
         <h2 className="text-2xl font-bold sm:text-3xl">
           Commercial Real Estate Across Florida
         </h2>
-        <p className="mt-4 text-lg leading-relaxed text-slate-brand">
+        <p className="mt-4 text-lg leading-relaxed text-[#666666]">
           Whether you are leasing your first office, acquiring a multifamily portfolio,
           or selling a retail center, the right broker makes the difference between a
           good deal and a great one. As a REMAX Commercial broker, I bring 23+ years of real estate experience to
@@ -347,7 +347,7 @@ export default function HomePage() {
           <h2 className="text-center text-2xl font-bold sm:text-3xl">
             How I Can Help
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-center text-slate-brand">
+          <p className="mx-auto mt-3 max-w-2xl text-center text-[#666666]">
             Full-service commercial real estate — from first showing to closing table.
           </p>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -355,12 +355,12 @@ export default function HomePage() {
               <Link
                 key={svc.href}
                 href={svc.href}
-                className="group rounded-lg border border-gray-200 p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
+                className="group rounded-lg border border-[#E5E5E5] p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
               >
-                <h3 className="text-lg font-bold text-navy group-hover:text-accent-blue">
+                <h3 className="text-lg font-bold text-black group-hover:text-black">
                   {svc.title}
                 </h3>
-                <p className="mt-2 text-sm text-slate-brand">{svc.description}</p>
+                <p className="mt-2 text-sm text-[#666666]">{svc.description}</p>
               </Link>
             ))}
           </div>
@@ -373,7 +373,7 @@ export default function HomePage() {
           <h2 className="text-center text-2xl font-bold sm:text-3xl">
             Property Types
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-center text-slate-brand">
+          <p className="mx-auto mt-3 max-w-2xl text-center text-[#666666]">
             Every asset class. One broker who knows them all.
           </p>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -381,12 +381,12 @@ export default function HomePage() {
               <Link
                 key={pt.href}
                 href={pt.href}
-                className="group rounded-lg border border-gray-200 bg-white p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
+                className="group rounded-lg border border-[#E5E5E5] bg-white p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
               >
-                <h3 className="text-lg font-bold text-navy group-hover:text-accent-blue">
+                <h3 className="text-lg font-bold text-black group-hover:text-black">
                   {pt.title}
                 </h3>
-                <p className="mt-2 text-sm text-slate-brand">{pt.description}</p>
+                <p className="mt-2 text-sm text-[#666666]">{pt.description}</p>
               </Link>
             ))}
           </div>
@@ -394,7 +394,7 @@ export default function HomePage() {
       </section>
 
       {/* ---- Tampa Bay focus ---- */}
-      <section className="bg-navy px-4 py-16 text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Anchored in Tampa Bay
@@ -409,7 +409,7 @@ export default function HomePage() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
               Talk to Barrett
             </Link>
@@ -423,7 +423,7 @@ export default function HomePage() {
           <h2 className="text-2xl font-bold sm:text-3xl">
             Ready to Make a Move?
           </h2>
-          <p className="mt-3 text-slate-brand">
+          <p className="mt-3 text-[#666666]">
             Tell me about your commercial real estate needs. I will get back to you
             within one business day.
           </p>
@@ -431,7 +431,7 @@ export default function HomePage() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-[#0a2441] px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-[#1a3a5c] hover:no-underline"
+              className="inline-block rounded-lg bg-[#1a1a1a] px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-[#333333] hover:no-underline"
             >
               Contact Me
             </Link>
@@ -447,16 +447,16 @@ export default function HomePage() {
           </h2>
           <dl className="mt-10 space-y-6">
             {FAQS.map((faq) => (
-              <div key={faq.q} className="border-b border-gray-200 pb-6">
-                <dt className="text-lg font-semibold text-navy">{faq.q}</dt>
-                <dd className="mt-2 text-slate-brand">{faq.a}</dd>
+              <div key={faq.q} className="border-b border-[#E5E5E5] pb-6">
+                <dt className="text-lg font-semibold text-black">{faq.q}</dt>
+                <dd className="mt-2 text-[#666666]">{faq.a}</dd>
               </div>
             ))}
           </dl>
           <div className="mt-8 text-center">
             <Link
               href="/faq"
-              className="text-accent-blue font-semibold no-underline hover:underline"
+              className="text-black font-semibold no-underline hover:underline"
             >
               View all FAQs &rarr;
             </Link>

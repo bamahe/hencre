@@ -79,7 +79,7 @@ export default function IdentityPageTemplate({
 
       {/* Main content */}
       <section className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
-        <div className="prose prose-slate max-w-none [&_h2]:text-navy [&_h3]:text-navy [&_a]:text-accent-blue">
+        <div className="prose prose-slate max-w-none [&_h2]:text-black [&_h3]:text-black [&_a]:text-black">
           {children}
         </div>
       </section>
@@ -87,7 +87,7 @@ export default function IdentityPageTemplate({
       {/* Lead form */}
       <section
         id="lead-form"
-        className="bg-warm-white px-4 py-12 sm:px-6 lg:px-8"
+        className="bg-[#F5F5F5] px-4 py-12 sm:px-6 lg:px-8"
       >
         <div className="mx-auto max-w-xl">
           <LeadForm />

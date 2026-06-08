@@ -145,15 +145,15 @@ export default function DueDiligencePage() {
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <p className="text-lg leading-relaxed text-slate-brand">
+        <p className="text-lg leading-relaxed text-[#666666]">
           Due diligence is the most critical phase of any commercial real estate acquisition. It is the period where you verify every assumption, uncover every risk, and confirm that the property is actually what the seller says it is. I have seen deals saved — and deals killed — by what comes out during due diligence. Here is the comprehensive checklist I use with my buyer clients.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Financial Due Diligence</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Financial Due Diligence</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           The financial review tells you whether the property performs as advertised. Every number the seller provides should be verified independently.
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Rent roll review.</strong> Verify every tenant, their lease terms, rent amounts, escalation schedules, and lease expiration dates. Cross-reference the rent roll against actual lease documents.</li>
           <li><strong>Operating statements.</strong> Request a minimum of three years of actual operating income and expense statements. Compare year-over-year to identify trends, anomalies, and one-time items.</li>
           <li><strong>Tax returns.</strong> Ask for the property-related portions of the seller&apos;s tax returns to verify reported income.</li>
@@ -163,11 +163,11 @@ export default function DueDiligencePage() {
           <li><strong>Insurance costs.</strong> Get current premium quotes. Florida property insurance, in particular, has seen significant cost fluctuations in recent years.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Physical Due Diligence</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Physical Due Diligence</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           A commercial property inspection is far more involved than a home inspection. You need specialists for each major system.
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Building condition assessment.</strong> Hire a qualified commercial inspector to evaluate the roof, structural systems, HVAC, plumbing, electrical, and building envelope.</li>
           <li><strong>Roof inspection.</strong> Get a dedicated roof report, especially in Florida. Identify remaining useful life and any pending repair needs.</li>
           <li><strong>HVAC assessment.</strong> Document the age, condition, and remaining life of all units. Replacement costs for commercial HVAC can be substantial.</li>
@@ -176,11 +176,11 @@ export default function DueDiligencePage() {
           <li><strong>Utilities.</strong> Verify utility capacity (electrical, water, sewer, gas) is adequate for current and planned use.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Environmental Due Diligence</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Environmental Due Diligence</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Environmental issues can be deal-killers. They can also create massive unexpected costs after closing if you do not catch them up front.
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Phase I Environmental Site Assessment.</strong> This is non-negotiable for any commercial acquisition. It reviews historical site use, regulatory databases, and current conditions to identify recognized environmental conditions (RECs).</li>
           <li><strong>Phase II assessment.</strong> If the Phase I identifies potential contamination, a Phase II involves actual soil and groundwater sampling. This is when you find out if there is a real problem.</li>
           <li><strong>Flood zone verification.</strong> Confirm the property&apos;s flood zone designation. Florida properties are particularly susceptible — and flood insurance costs can be significant.</li>
@@ -188,11 +188,11 @@ export default function DueDiligencePage() {
           <li><strong>Asbestos and lead paint.</strong> For older buildings, these assessments are essential. Abatement costs can be substantial.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Legal Due Diligence</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Legal Due Diligence</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Legal due diligence protects you from title issues, zoning problems, and contractual surprises.
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Title search and title insurance.</strong> A title search reveals liens, encumbrances, easements, and any clouds on title. Title insurance protects you from defects the search missed.</li>
           <li><strong>Survey.</strong> An ALTA survey shows the property boundaries, building footprint, easements, encroachments, setback compliance, and access points. Do not skip this.</li>
           <li><strong>Zoning verification.</strong> Confirm the property is zoned for your intended use. Verify any nonconforming use status and what happens if the property is damaged or you want to change the use.</li>
@@ -201,25 +201,25 @@ export default function DueDiligencePage() {
           <li><strong>HOA/association documents.</strong> If the property is part of a commercial association, review covenants, restrictions, and association financials.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Market Due Diligence</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Market Due Diligence</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Understanding the market around the property is just as important as understanding the property itself.
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Comparable rents.</strong> Are the current rents at, above, or below market? This directly affects your valuation and investment thesis.</li>
           <li><strong>Vacancy rates.</strong> What is the vacancy rate for similar properties in the area? High area vacancy may signal risk.</li>
           <li><strong>Planned development.</strong> Check municipal planning records for upcoming projects that could compete with or complement your property.</li>
           <li><strong>Infrastructure changes.</strong> Road widening, new highway interchanges, or public transit expansions can dramatically affect commercial property value — positively or negatively.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Bottom Line</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Due diligence is not a formality — it is your protection. Every dollar you spend on inspections, assessments, and professional reviews during this period can save you tens of thousands after closing. I coordinate this entire process for my buyer clients, making sure nothing falls through the cracks and every deadline is met. If you are evaluating a commercial property, this is the process that separates informed buyers from wishful thinkers.
         </p>
       </article>
 
       <div className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
-        <h2 className="mb-6 text-2xl font-bold text-navy">Frequently Asked Questions</h2>
+        <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
       </div>
       <FAQAccordion items={faqItems} />
 

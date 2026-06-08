@@ -194,7 +194,7 @@ export default function RemaxCommercialFloridaPage() {
         aria-label="Breadcrumb"
         className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8"
       >
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li>
             <Link href="/" className="hover:underline no-underline">
               Home
@@ -207,7 +207,7 @@ export default function RemaxCommercialFloridaPage() {
             </Link>
           </li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">
+          <li className="font-semibold text-black" aria-current="page">
             Florida Agents
           </li>
         </ol>
@@ -226,7 +226,7 @@ export default function RemaxCommercialFloridaPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">
           Statewide Commercial Coverage Through REMAX Commercial
         </h2>
-        <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
             REMAX Commercial has commercial real estate agents stationed across
             every major market in Florida. From the Panhandle to South Florida,
@@ -253,7 +253,7 @@ export default function RemaxCommercialFloridaPage() {
       </section>
 
       {/* ---- Stats Bar ---- */}
-      <section className="bg-navy px-4 py-12 text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-12 text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl">
           <div className="grid gap-6 sm:grid-cols-3">
             {[
@@ -265,7 +265,7 @@ export default function RemaxCommercialFloridaPage() {
                 key={item.label}
                 className="rounded-lg border border-white/10 bg-white/5 p-6 text-center"
               >
-                <p className="text-3xl font-bold text-accent-blue">
+                <p className="text-3xl font-bold text-white">
                   {item.stat}
                 </p>
                 <p className="mt-1 text-sm font-semibold text-white">
@@ -283,7 +283,7 @@ export default function RemaxCommercialFloridaPage() {
           <h2 className="text-center text-2xl font-bold sm:text-3xl">
             REMAX Commercial Agents by Region
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-center text-slate-brand">
+          <p className="mx-auto mt-3 max-w-2xl text-center text-[#666666]">
             Six regions, 40+ cities, 78+ commercial REALTORS® ready to serve
             your Florida market.
           </p>
@@ -301,16 +301,16 @@ export default function RemaxCommercialFloridaPage() {
                   key={region.name}
                   className={`rounded-lg border p-6 ${
                     region.highlight
-                      ? "border-accent-blue bg-accent-blue/5"
-                      : "border-gray-200 bg-white"
+                      ? "border-black bg-black/5"
+                      : "border-[#E5E5E5] bg-white"
                   }`}
                 >
                   {/* Region header */}
-                  <h3 className="text-lg font-bold text-navy">
+                  <h3 className="text-lg font-bold text-black">
                     {region.name}
                   </h3>
-                  <p className="text-sm text-slate-brand">{region.subtitle}</p>
-                  <p className="mt-1 text-xs font-semibold text-accent-blue">
+                  <p className="text-sm text-[#666666]">{region.subtitle}</p>
+                  <p className="mt-1 text-xs font-semibold text-black">
                     {totalAgents} agent{totalAgents !== 1 ? "s" : ""}
                   </p>
 
@@ -319,7 +319,7 @@ export default function RemaxCommercialFloridaPage() {
                     {region.cities.map((c) => (
                       <li
                         key={c.city}
-                        className="flex items-center justify-between text-sm text-slate-brand"
+                        className="flex items-center justify-between text-sm text-[#666666]"
                       >
                         <span>{c.city}</span>
                         <span className="font-semibold">
@@ -331,7 +331,7 @@ export default function RemaxCommercialFloridaPage() {
 
                   {/* Special note for Tampa Bay */}
                   {region.highlight && (
-                    <p className="mt-4 rounded bg-navy/5 p-3 text-xs leading-relaxed text-navy">
+                    <p className="mt-4 rounded bg-[#1a1a1a]/5 p-3 text-xs leading-relaxed text-black">
                       Barrett Henry serves Tampa Bay directly with three REMAX
                       Collective offices in Tampa, Largo, and Brandon.
                     </p>
@@ -344,7 +344,7 @@ export default function RemaxCommercialFloridaPage() {
       </section>
 
       {/* ---- CTA: Need a commercial REALTOR? ---- */}
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Need a Commercial REALTOR® in Your Florida Market?
@@ -357,7 +357,7 @@ export default function RemaxCommercialFloridaPage() {
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
               Contact Barrett
             </Link>
@@ -379,9 +379,9 @@ export default function RemaxCommercialFloridaPage() {
           </h2>
           <dl className="mt-10 space-y-6">
             {FAQS.map((faq) => (
-              <div key={faq.q} className="border-b border-gray-200 pb-6">
-                <dt className="text-lg font-semibold text-navy">{faq.q}</dt>
-                <dd className="mt-2 text-slate-brand">{faq.a}</dd>
+              <div key={faq.q} className="border-b border-[#E5E5E5] pb-6">
+                <dt className="text-lg font-semibold text-black">{faq.q}</dt>
+                <dd className="mt-2 text-[#666666]">{faq.a}</dd>
               </div>
             ))}
           </dl>
@@ -394,14 +394,14 @@ export default function RemaxCommercialFloridaPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">
             Have a Commercial Deal to Refer?
           </h2>
-          <p className="mt-4 text-lg text-slate-brand">
+          <p className="mt-4 text-lg text-[#666666]">
             If you are an agent with a commercial client who needs representation
             in any Florida market, Barrett Henry can coordinate the referral
             through the REMAX Commercial network.
           </p>
           <Link
             href="/refer-a-deal"
-            className="mt-6 inline-block rounded-lg bg-navy px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-navy/90 hover:no-underline"
+            className="mt-6 inline-block rounded-lg bg-[#1a1a1a] px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-[#1a1a1a]/90 hover:no-underline"
           >
             Submit a Referral
           </Link>

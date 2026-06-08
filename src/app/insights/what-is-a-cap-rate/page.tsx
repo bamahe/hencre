@@ -156,50 +156,50 @@ export default function CapRatePage() {
 
       {/* Article body */}
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <p className="text-lg leading-relaxed text-slate-brand">
+        <p className="text-lg leading-relaxed text-[#666666]">
           If you have spent any time looking at commercial real estate, someone has thrown a cap rate at you. It is one of the first numbers investors ask about — and one of the most misunderstood. I have been working in real estate for over 23 years, and I still see experienced buyers make decisions based on cap rate alone. That is a mistake. Let me break down what this number actually tells you, how to calculate it, and — just as importantly — when to ignore it.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">What Exactly Is a Cap Rate?</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">What Exactly Is a Cap Rate?</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           The capitalization rate — or cap rate — expresses the relationship between a property&apos;s income and its value. Think of it as the rate of return you would earn on a property if you bought it with all cash. It strips out financing variables so you can compare properties on a level playing field.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           At its core, cap rate answers one question: &ldquo;For every dollar I spend on this building, how much annual income does it generate?&rdquo;
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">How to Calculate a Cap Rate</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">How to Calculate a Cap Rate</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           The formula is straightforward:
         </p>
-        <div className="my-6 rounded-lg bg-navy/5 p-6 text-center">
-          <p className="text-lg font-semibold text-navy">
+        <div className="my-6 rounded-lg bg-[#1a1a1a]/5 p-6 text-center">
+          <p className="text-lg font-semibold text-black">
             Cap Rate = Net Operating Income (NOI) &divide; Property Value &times; 100
           </p>
         </div>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Net Operating Income (NOI)</strong> is your gross rental income minus operating expenses — property taxes, insurance, maintenance, management fees, and utilities the landlord pays. It does not include mortgage payments, depreciation, or capital expenditures.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           If a retail strip center generates $150,000 in NOI and is listed at $2,000,000, the cap rate is 7.5%. That means for every dollar of purchase price, you are earning 7.5 cents per year in net income before debt service.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">What Cap Rates Tell You</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">What Cap Rates Tell You</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Cap rates are a quick snapshot of risk and return. Lower cap rates — say in the 4% to 5% range — generally signal a more stable, lower-risk property. These are typically well-located buildings with strong tenants on long-term leases. Investors accept lower returns because they expect predictable cash flow.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Higher cap rates — 8% and above — suggest the market perceives more risk. Maybe the building has shorter lease terms, a secondary location, deferred maintenance, or less creditworthy tenants. Higher cap rates can mean stronger cash flow, but they come with more headaches.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Cap rates also vary by property type. Multifamily properties often trade at lower cap rates than retail or industrial because apartment demand tends to be more resilient. Office cap rates have compressed and expanded over the years as workplace patterns shift.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">When Cap Rates Do Not Tell the Whole Story</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">When Cap Rates Do Not Tell the Whole Story</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Here is where a lot of investors get tripped up. Cap rate is a snapshot — it tells you about today&apos;s income relative to today&apos;s price. It does not account for:
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Future rent growth or decline.</strong> A building with below-market rents might have a high cap rate now but explode in value when leases renew.</li>
           <li><strong>Lease structure.</strong> Two buildings with identical cap rates can have wildly different risk profiles depending on lease term length, rent escalations, and tenant credit.</li>
           <li><strong>Physical condition.</strong> A high cap rate might just mean the roof needs replacing. That income could evaporate fast.</li>
@@ -207,31 +207,31 @@ export default function CapRatePage() {
           <li><strong>Vacancy.</strong> A vacant building technically has no cap rate. Sellers will project future income, but that is speculation, not fact.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Cap Rate vs. Cash-on-Cash Return</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Cap Rate vs. Cash-on-Cash Return</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Investors sometimes confuse cap rate with cash-on-cash return. They are related but different. Cash-on-cash measures the return on the actual cash you invested after accounting for debt service. If you buy a property with 25% down and finance the rest, your cash-on-cash return could be significantly higher — or lower — than the cap rate, depending on your interest rate and loan terms.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Use cap rate to compare properties. Use cash-on-cash to evaluate your actual investment performance.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">How I Use Cap Rates With My Clients</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">How I Use Cap Rates With My Clients</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           When I am working with investors on commercial acquisitions, cap rate is one of the first filters we apply — but never the last. I look at it as a starting point that tells me where a property fits in the risk spectrum. From there, we dig into the lease terms, tenant quality, building condition, and market trajectory.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           A property that looks expensive on a cap rate basis might actually be undervalued if rents are well below market. Conversely, a &ldquo;juicy&rdquo; cap rate might be masking deferred maintenance or a tenant about to vacate. The cap rate gets us in the door. Due diligence tells us whether to stay.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Bottom Line</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Cap rates are a valuable tool in your CRE toolkit, but they are not a decision-making shortcut. Know how to calculate them, understand what drives them up or down, and always look beyond the number to the story underneath. If you are evaluating a commercial property and want an honest assessment of the numbers, that is exactly the kind of conversation I have with investors every day.
         </p>
       </article>
 
       {/* FAQ section */}
       <div className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
-        <h2 className="mb-6 text-2xl font-bold text-navy">Frequently Asked Questions</h2>
+        <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
       </div>
       <FAQAccordion items={faqItems} />
 

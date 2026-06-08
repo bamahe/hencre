@@ -1,36 +1,30 @@
 @import "tailwindcss";
 
 /* REMAX Commercial Brand Colors & Theme
- * Based on remaxcommercial.com — navy, white, gray. No red. */
+ * Black and white — the actual REMAX Commercial brand. No navy, no blue, no red. */
 :root {
-  --navy: #0a2441;
-  --accent-blue: #1E5AA8;
-  --remax-navy: #0a2441;
-  --remax-charcoal: #202022;
-  --remax-gray: #e2e4e4;
-  --warm-white: #F8F7F4;
-  --slate: #475569;
-  --soft-navy: #1a3a5c;
-  --soft-red: #C2410C;
-  --success-green: #15803D;
-  --background: var(--warm-white);
-  --foreground: var(--slate);
+  --brand-black: #000000;
+  --brand-charcoal: #1a1a1a;
+  --brand-dark: #333333;
+  --brand-gray: #666666;
+  --brand-light: #E5E5E5;
+  --brand-off-white: #F5F5F5;
+  --brand-white: #FFFFFF;
+  --background: #FFFFFF;
+  --foreground: #333333;
 }
 
-/* Register brand colors with Tailwind v4 — REMAX Commercial navy palette */
+/* Register brand colors with Tailwind v4 — REMAX Commercial black/white palette */
 @theme inline {
-  --color-navy: #0a2441;
-  --color-accent-blue: #1E5AA8;
-  --color-remax-navy: #0a2441;
-  --color-remax-charcoal: #202022;
-  --color-remax-gray: #e2e4e4;
-  --color-warm-white: #F8F7F4;
-  --color-slate-brand: #475569;
-  --color-soft-navy: #1a3a5c;
-  --color-soft-red: #C2410C;
-  --color-success-green: #15803D;
-  --color-background: var(--warm-white);
-  --color-foreground: var(--slate);
+  --color-brand-black: #000000;
+  --color-brand-charcoal: #1a1a1a;
+  --color-brand-dark: #333333;
+  --color-brand-gray: #666666;
+  --color-brand-light: #E5E5E5;
+  --color-brand-off-white: #F5F5F5;
+  --color-brand-white: #FFFFFF;
+  --color-background: #FFFFFF;
+  --color-foreground: #333333;
   --font-sans: var(--font-inter);
 }
 
@@ -50,13 +44,13 @@ html {
 
 /* Focus styles for accessibility */
 *:focus-visible {
-  outline: 2px solid var(--accent-blue);
+  outline: 2px solid #000000;
   outline-offset: 2px;
 }
 
 /* Link defaults */
 a {
-  color: var(--accent-blue);
+  color: #000000;
   text-decoration: none;
 }
 
@@ -66,6 +60,6 @@ a:hover {
 
 /* Heading defaults */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--navy);
+  color: #000000;
   font-weight: 700;
 }

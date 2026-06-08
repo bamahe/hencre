@@ -84,10 +84,10 @@ export default function ServicesIndexPage() {
 
       {/* ---- Breadcrumbs ---- */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">Services</li>
+          <li className="font-semibold text-black" aria-current="page">Services</li>
         </ol>
       </nav>
 
@@ -105,13 +105,13 @@ export default function ServicesIndexPage() {
             <Link
               key={svc.href}
               href={svc.href}
-              className="group rounded-lg border border-gray-200 bg-white p-8 no-underline transition-shadow hover:shadow-lg hover:no-underline"
+              className="group rounded-lg border border-[#E5E5E5] bg-white p-8 no-underline transition-shadow hover:shadow-lg hover:no-underline"
             >
-              <h2 className="text-xl font-bold text-navy group-hover:text-accent-blue">
+              <h2 className="text-xl font-bold text-black group-hover:text-black">
                 {svc.title}
               </h2>
-              <p className="mt-3 text-slate-brand">{svc.description}</p>
-              <p className="mt-4 text-sm font-semibold text-accent-blue">
+              <p className="mt-3 text-[#666666]">{svc.description}</p>
+              <p className="mt-4 text-sm font-semibold text-black">
                 Best for: {svc.who}
               </p>
             </Link>
@@ -120,7 +120,7 @@ export default function ServicesIndexPage() {
       </section>
 
       {/* ---- CTA ---- */}
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Not Sure Which Service You Need?
@@ -132,7 +132,7 @@ export default function ServicesIndexPage() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
               Contact Barrett
             </Link>

@@ -75,11 +75,11 @@ export default function ArticleTemplate({
       <article className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
         {/* Header */}
         <header className="mb-8">
-          <h1 className="text-3xl font-bold leading-tight text-navy sm:text-4xl">
+          <h1 className="text-3xl font-bold leading-tight text-black sm:text-4xl">
             {title}
           </h1>
-          <p className="mt-3 text-lg text-slate-brand">{description}</p>
-          <div className="mt-4 flex flex-wrap items-center gap-4 text-sm text-slate-brand/70">
+          <p className="mt-3 text-lg text-[#666666]">{description}</p>
+          <div className="mt-4 flex flex-wrap items-center gap-4 text-sm text-[#666666]/70">
             <span>By {author}</span>
             <span aria-hidden="true">&middot;</span>
             <time dateTime={publishedDate}>{displayDate}</time>
@@ -87,7 +87,7 @@ export default function ArticleTemplate({
         </header>
 
         {/* Body — rendered from children (MDX, rich text, etc.) */}
-        <div className="prose prose-slate max-w-none [&_h2]:text-navy [&_h3]:text-navy [&_a]:text-accent-blue">
+        <div className="prose prose-slate max-w-none [&_h2]:text-black [&_h3]:text-black [&_a]:text-black">
           {children}
         </div>
       </article>

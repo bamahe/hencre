@@ -100,8 +100,8 @@ export default function CitrusMarketPage() {
       {/* ---- Market Overview ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Market Overview</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Market Overview</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Citrus County sits on Florida&apos;s Nature Coast, north of the Tampa Bay metro,
               and has long been known for its natural springs, manatee habitats, and outdoor
@@ -138,31 +138,31 @@ export default function CitrusMarketPage() {
       </section>
 
       {/* ---- Key Corridors ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Key CRE Corridors and Districts</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Key CRE Corridors and Districts</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">US-19 Corridor (Crystal River / Homosassa)</strong> — The
+              <strong className="text-black">US-19 Corridor (Crystal River / Homosassa)</strong> — The
               county&apos;s primary commercial artery. Retail centers, restaurants, hotel and motel
               properties, medical offices, and auto services line this highway from the Hernando
               County border north through Crystal River. Tourism-related businesses cluster near
               the springs and King&apos;s Bay.
             </p>
             <p>
-              <strong className="text-navy">US-41 / Inverness</strong> — The second major
+              <strong className="text-black">US-41 / Inverness</strong> — The second major
               commercial corridor, running through Inverness and connecting to the Florida Turnpike.
               Grocery-anchored centers, medical offices, and service businesses serve the Inverness
               residential base.
             </p>
             <p>
-              <strong className="text-navy">Downtown Inverness</strong> — A compact, walkable
+              <strong className="text-black">Downtown Inverness</strong> — A compact, walkable
               downtown with historic buildings that host small retail, restaurants, and professional
               offices. The courthouse square and Cooter Pond Park create a town-center feel that
               draws visitors and locals.
             </p>
             <p>
-              <strong className="text-navy">CR-486 / Lecanto</strong> — This east-west corridor
+              <strong className="text-black">CR-486 / Lecanto</strong> — This east-west corridor
               connects US-19 to US-41 and passes through Lecanto, a growing residential and
               commercial node. Medical office and neighborhood retail are the primary uses.
             </p>
@@ -173,25 +173,25 @@ export default function CitrusMarketPage() {
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Active Property Types</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Active Property Types</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Retail</strong> — Neighborhood and strip retail
+              <strong className="text-black">Retail</strong> — Neighborhood and strip retail
               along US-19 and US-41 serves the daily needs of a growing population. Tourism-adjacent
               retail near Crystal River benefits from visitor spending.
             </p>
             <p>
-              <strong className="text-navy">Medical Office</strong> — Healthcare is one of
+              <strong className="text-black">Medical Office</strong> — Healthcare is one of
               the county&apos;s largest employers. Outpatient clinics, specialty practices, and
               urgent care facilities are expanding to meet the needs of an aging population base.
             </p>
             <p>
-              <strong className="text-navy">Hospitality</strong> — Hotels, lodges, and
+              <strong className="text-black">Hospitality</strong> — Hotels, lodges, and
               vacation rentals near Crystal River and Homosassa Springs benefit from year-round
               eco-tourism activity.
             </p>
             <p>
-              <strong className="text-navy">Land</strong> — Commercial land is available at
+              <strong className="text-black">Land</strong> — Commercial land is available at
               accessible price points, making Citrus County attractive for developers and end-users
               who want to build rather than lease.
             </p>
@@ -200,12 +200,12 @@ export default function CitrusMarketPage() {
       </section>
 
       {/* ---- Services ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             How Barrett Henry Serves This Market
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who works
               with business owners, investors, and developers in Citrus County. Whether you
@@ -225,9 +225,9 @@ export default function CitrusMarketPage() {
       </section>
 
       {/* ---- FAQ ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
             Citrus County CRE — Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqs} />

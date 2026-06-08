@@ -101,8 +101,8 @@ export default function HernandoMarketPage() {
       {/* ---- Market Overview ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Market Overview</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Market Overview</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Hernando County sits between the Tampa Bay metro and the Nature Coast, occupying
               a sweet spot for residents and businesses seeking affordability without losing
@@ -136,38 +136,38 @@ export default function HernandoMarketPage() {
       </section>
 
       {/* ---- Key Corridors ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Key CRE Corridors and Districts</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Key CRE Corridors and Districts</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">US-19 / Spring Hill Drive</strong> — The busiest
+              <strong className="text-black">US-19 / Spring Hill Drive</strong> — The busiest
               commercial corridor in the county. Retail centers, restaurants, medical offices,
               auto dealerships, and banks line US-19 through Spring Hill. Spring Hill Drive,
               running east from US-19, is a secondary commercial node with grocery-anchored
               centers and service businesses.
             </p>
             <p>
-              <strong className="text-navy">Suncoast Parkway Interchanges</strong> — Each
+              <strong className="text-black">Suncoast Parkway Interchanges</strong> — Each
               interchange — at SR 50 (Cortez Boulevard), Spring Hill Drive, and points north —
               is developing into a commercial hub. Early-stage development includes gas stations,
               convenience stores, and fast-food restaurants, with larger retail and medical
               projects in the pipeline.
             </p>
             <p>
-              <strong className="text-navy">SR 50 (Cortez Boulevard)</strong> — An east-west
+              <strong className="text-black">SR 50 (Cortez Boulevard)</strong> — An east-west
               corridor connecting US-19 through Brooksville to the Florida Turnpike. The western
               portion near Spring Hill is heavily commercial, while the eastern stretch through
               Brooksville serves industrial and agricultural-related businesses.
             </p>
             <p>
-              <strong className="text-navy">Downtown Brooksville</strong> — The county seat&apos;s
+              <strong className="text-black">Downtown Brooksville</strong> — The county seat&apos;s
               historic downtown has a small but growing commercial core. Professional office,
               boutique retail, and restaurants occupy restored buildings around the courthouse
               square. The area benefits from community events and growing visitor interest.
             </p>
             <p>
-              <strong className="text-navy">US-41 / Brooksville Industrial</strong> — Light
+              <strong className="text-black">US-41 / Brooksville Industrial</strong> — Light
               industrial and flex space along US-41 and in the Brooksville area serves
               manufacturing, contractor services, and distribution users. Land availability
               makes this corridor attractive for businesses that need larger facilities at
@@ -180,26 +180,26 @@ export default function HernandoMarketPage() {
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Active Property Types</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Active Property Types</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Retail</strong> — Strip centers, outparcels,
+              <strong className="text-black">Retail</strong> — Strip centers, outparcels,
               and freestanding retail buildings along US-19 and near Suncoast Parkway
               interchanges. National and regional tenants are entering the market as
               residential density increases.
             </p>
             <p>
-              <strong className="text-navy">Medical Office</strong> — One of the strongest
+              <strong className="text-black">Medical Office</strong> — One of the strongest
               property types in the county. Hospital systems and independent practitioners
               expand to serve a growing and aging population.
             </p>
             <p>
-              <strong className="text-navy">Industrial &amp; Flex</strong> — Brooksville
+              <strong className="text-black">Industrial &amp; Flex</strong> — Brooksville
               and the US-41 corridor offer light industrial and flex space for trades,
               manufacturing, and distribution at affordable rents.
             </p>
             <p>
-              <strong className="text-navy">Land</strong> — Commercial land near Suncoast
+              <strong className="text-black">Land</strong> — Commercial land near Suncoast
               Parkway interchanges and along US-19 is actively traded by developers positioning
               for the county&apos;s next growth phase.
             </p>
@@ -208,12 +208,12 @@ export default function HernandoMarketPage() {
       </section>
 
       {/* ---- Services ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             How Barrett Henry Serves This Market
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who helps
               clients navigate Hernando County&apos;s evolving commercial real estate market.
@@ -234,9 +234,9 @@ export default function HernandoMarketPage() {
       </section>
 
       {/* ---- FAQ ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
             Hernando County CRE — Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqs} />

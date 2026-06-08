@@ -93,10 +93,10 @@ export default function ReferADealPage() {
 
       {/* ---- Breadcrumbs ---- */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">Refer a Deal</li>
+          <li className="font-semibold text-black" aria-current="page">Refer a Deal</li>
         </ol>
       </nav>
 
@@ -110,7 +110,7 @@ export default function ReferADealPage() {
       {/* ---- How it works ---- */}
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">How Referrals Work</h2>
-        <p className="mt-4 text-lg leading-relaxed text-slate-brand">
+        <p className="mt-4 text-lg leading-relaxed text-[#666666]">
           You are great at what you do — but commercial real estate is a different
           animal. Powered by the REMAX Commercial referral network — the largest in real estate — your
           client gets institutional-quality CRE service while you earn a competitive referral
@@ -127,10 +127,10 @@ export default function ReferADealPage() {
             "Referral fee is paid to you at closing.",
           ].map((step, i) => (
             <li key={i} className="flex items-start gap-3">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#0a2441] text-sm font-bold text-white">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#1a1a1a] text-sm font-bold text-white">
                 {i + 1}
               </span>
-              <span className="text-slate-brand">{step}</span>
+              <span className="text-[#666666]">{step}</span>
             </li>
           ))}
         </ol>
@@ -144,9 +144,9 @@ export default function ReferADealPage() {
           </h2>
           <div className="mt-10 grid gap-6 sm:grid-cols-2">
             {BENEFITS.map((b) => (
-              <div key={b.title} className="rounded-lg border border-gray-200 p-6">
-                <h3 className="text-lg font-bold text-navy">{b.title}</h3>
-                <p className="mt-2 text-slate-brand">{b.description}</p>
+              <div key={b.title} className="rounded-lg border border-[#E5E5E5] p-6">
+                <h3 className="text-lg font-bold text-black">{b.title}</h3>
+                <p className="mt-2 text-[#666666]">{b.description}</p>
               </div>
             ))}
           </div>
@@ -157,15 +157,15 @@ export default function ReferADealPage() {
       <section className="px-4 py-16 sm:px-6 lg:px-8" id="referral-form">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-2xl font-bold sm:text-3xl">Submit a Referral</h2>
-          <p className="mt-3 text-slate-brand">
+          <p className="mt-3 text-[#666666]">
             Fill out the form and I will reach out within one business day.
           </p>
           {/* ReferralForm component will be mounted here */}
-          <div className="mt-8 rounded-lg border border-gray-200 bg-white p-8">
-            <p className="text-slate-brand">Referral form loading...</p>
-            <p className="mt-4 text-sm text-slate-brand">
+          <div className="mt-8 rounded-lg border border-[#E5E5E5] bg-white p-8">
+            <p className="text-[#666666]">Referral form loading...</p>
+            <p className="mt-4 text-sm text-[#666666]">
               Or call{" "}
-              <a href="tel:+18137337907" className="font-semibold text-accent-blue">
+              <a href="tel:+18137337907" className="font-semibold text-black">
                 (813) 733-7907
               </a>{" "}
               directly.
@@ -182,9 +182,9 @@ export default function ReferADealPage() {
           </h2>
           <dl className="mt-10 space-y-6">
             {REFERRAL_FAQS.map((faq) => (
-              <div key={faq.q} className="border-b border-gray-200 pb-6">
-                <dt className="text-lg font-semibold text-navy">{faq.q}</dt>
-                <dd className="mt-2 text-slate-brand">{faq.a}</dd>
+              <div key={faq.q} className="border-b border-[#E5E5E5] pb-6">
+                <dt className="text-lg font-semibold text-black">{faq.q}</dt>
+                <dd className="mt-2 text-[#666666]">{faq.a}</dd>
               </div>
             ))}
           </dl>

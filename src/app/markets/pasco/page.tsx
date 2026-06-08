@@ -101,8 +101,8 @@ export default function PascoMarketPage() {
       {/* ---- Market Overview ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Market Overview</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Market Overview</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Pasco County sits on the northern edge of the Tampa Bay metro and has emerged as one
               of the most dynamic growth markets in Florida. The county&apos;s transformation from
@@ -133,26 +133,26 @@ export default function PascoMarketPage() {
       </section>
 
       {/* ---- Key Corridors ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Key CRE Corridors and Districts</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Key CRE Corridors and Districts</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">SR 54 / SR 56 Retail Corridor</strong> — This
+              <strong className="text-black">SR 54 / SR 56 Retail Corridor</strong> — This
               east-west corridor is the commercial spine of eastern Pasco. Anchored by The
               Shops at Wiregrass and the Tampa Premium Outlets, it attracts national retailers,
               quick-service restaurants, and service-oriented businesses. New retail pads near
               I-75 interchanges and along SR 56 toward Zephyrhills continue to come to market.
             </p>
             <p>
-              <strong className="text-navy">Wesley Chapel / Wiregrass</strong> — The fastest-growing
+              <strong className="text-black">Wesley Chapel / Wiregrass</strong> — The fastest-growing
               submarket in the county. Master-planned communities have created the rooftop density
               needed to support grocery-anchored centers, medical office campuses, and mixed-use
               town centers. Several new hospital and outpatient campuses have opened here,
               creating additional CRE demand in surrounding areas.
             </p>
             <p>
-              <strong className="text-navy">US-19 Corridor (West Pasco)</strong> — The
+              <strong className="text-black">US-19 Corridor (West Pasco)</strong> — The
               traditional commercial backbone of western Pasco running through New Port
               Richey, Port Richey, and Hudson. While newer than the east-side boom, this
               corridor sees steady demand from medical office users, auto-related businesses,
@@ -160,7 +160,7 @@ export default function PascoMarketPage() {
               investment strategy here.
             </p>
             <p>
-              <strong className="text-navy">I-75 Industrial Zone</strong> — Industrial parks
+              <strong className="text-black">I-75 Industrial Zone</strong> — Industrial parks
               near the I-75 / SR 52 and I-75 / SR 54 interchanges are attracting light
               manufacturing, distribution, and contractor-services tenants. The area benefits
               from proximity to both the Tampa core and the growing population centers in
@@ -173,28 +173,28 @@ export default function PascoMarketPage() {
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Active Property Types</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Active Property Types</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Retail</strong> — The dominant asset class in Pasco,
+              <strong className="text-black">Retail</strong> — The dominant asset class in Pasco,
               driven by rapid residential growth. National and regional retailers are actively
               seeking pad sites and inline space in high-traffic centers along SR 54/56 and
               near I-75 interchanges.
             </p>
             <p>
-              <strong className="text-navy">Medical Office</strong> — Healthcare systems are
+              <strong className="text-black">Medical Office</strong> — Healthcare systems are
               expanding into Pasco to serve the growing and aging population. New outpatient
               campuses, urgent care centers, and specialty medical offices are opening across
               the county.
             </p>
             <p>
-              <strong className="text-navy">Industrial &amp; Flex</strong> — Growing demand
+              <strong className="text-black">Industrial &amp; Flex</strong> — Growing demand
               from distribution, trades-oriented businesses, and light manufacturing. Available
               land near I-75 makes new development feasible, though spec construction is still
               measured.
             </p>
             <p>
-              <strong className="text-navy">Land</strong> — Entitled and pre-entitled commercial
+              <strong className="text-black">Land</strong> — Entitled and pre-entitled commercial
               land is one of the most active asset types in Pasco. Developers and end-users
               acquire parcels along growth corridors to build retail centers, medical campuses,
               and industrial facilities.
@@ -204,12 +204,12 @@ export default function PascoMarketPage() {
       </section>
 
       {/* ---- Services ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             How Barrett Henry Serves This Market
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with
               experience working growth markets where timing and positioning matter. In
@@ -234,9 +234,9 @@ export default function PascoMarketPage() {
       </section>
 
       {/* ---- FAQ ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
             Pasco County CRE — Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqs} />

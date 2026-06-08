@@ -78,10 +78,10 @@ export default function AboutPage() {
 
       {/* ---- Breadcrumbs ---- */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">About</li>
+          <li className="font-semibold text-black" aria-current="page">About</li>
         </ol>
       </nav>
 
@@ -93,7 +93,7 @@ export default function AboutPage() {
       {/* ---- Bio section ---- */}
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">Who I Am</h2>
-        <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
             I am Barrett Henry — a licensed REALTOR® and Broker Associate at REMAX
             Collective, with 23+ years of real estate experience. I hold the e-PRO,
@@ -108,10 +108,11 @@ export default function AboutPage() {
             broker opinions of value — the full spectrum of CRE services.
           </p>
           <p>
-            I am anchored in Tampa Bay with three REMAX Collective offices in Tampa,
-            Largo, and Brandon. For deals anywhere else in the state, I leverage a
-            network of trusted brokers in all 67 Florida counties. You get local
-            expertise no matter where the property sits.
+            Based in Tampa Bay, serving commercial clients across Florida through
+            the REMAX Commercial network. I operate from three REMAX Collective
+            offices in Tampa, Largo, and Brandon. For deals anywhere else in the
+            state, I leverage a network of trusted brokers in all 67 Florida
+            counties. You get local expertise no matter where the property sits.
           </p>
         </div>
       </section>
@@ -122,7 +123,7 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">
             Why REMAX Commercial?
           </h2>
-          <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
               The REMAX name is the most recognized in real estate worldwide — and
               REMAX Commercial is the division built specifically for commercial
@@ -155,7 +156,7 @@ export default function AboutPage() {
           <div className="mt-8">
             <Link
               href="/remax-commercial"
-              className="text-accent-blue font-semibold no-underline hover:underline"
+              className="text-black font-semibold no-underline hover:underline"
             >
               Learn more about REMAX Commercial &rarr;
             </Link>
@@ -169,7 +170,7 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">
             Why Commercial Real Estate?
           </h2>
-          <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
               Commercial real estate is where strategy matters most. Residential deals
               are emotional — commercial deals are analytical. You need a broker who
@@ -194,10 +195,10 @@ export default function AboutPage() {
             ].map((d) => (
               <div
                 key={d.label}
-                className="rounded-lg border border-gray-200 p-4 text-center"
+                className="rounded-lg border border-[#E5E5E5] p-4 text-center"
               >
-                <p className="text-lg font-bold text-navy">{d.label}</p>
-                <p className="mt-1 text-sm text-slate-brand">{d.desc}</p>
+                <p className="text-lg font-bold text-black">{d.label}</p>
+                <p className="mt-1 text-sm text-[#666666]">{d.desc}</p>
               </div>
             ))}
           </div>
@@ -205,7 +206,7 @@ export default function AboutPage() {
       </section>
 
       {/* ---- CTA ---- */}
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Let&apos;s Talk About Your Deal
@@ -217,7 +218,7 @@ export default function AboutPage() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
               Contact Barrett
             </Link>

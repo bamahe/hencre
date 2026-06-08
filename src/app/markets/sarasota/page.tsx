@@ -105,8 +105,8 @@ export default function SarasotaMarketPage() {
       {/* ---- Market Overview ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Market Overview</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Market Overview</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Sarasota County occupies one of the most affluent and culturally rich positions
               on Florida&apos;s Gulf Coast. The commercial real estate market here reflects that
@@ -137,12 +137,12 @@ export default function SarasotaMarketPage() {
       </section>
 
       {/* ---- Key Corridors ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Key CRE Corridors and Districts</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Key CRE Corridors and Districts</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Downtown Sarasota</strong> — The cultural
+              <strong className="text-black">Downtown Sarasota</strong> — The cultural
               and commercial heart of the county. Class A office, high-end retail,
               restaurants, and luxury condominiums create a dense, walkable urban
               environment. Professional services firms — law, financial planning,
@@ -150,7 +150,7 @@ export default function SarasotaMarketPage() {
               from a combination of resident foot traffic and tourism.
             </p>
             <p>
-              <strong className="text-navy">US-41 (Tamiami Trail)</strong> — The
+              <strong className="text-black">US-41 (Tamiami Trail)</strong> — The
               county&apos;s primary commercial corridor running north-south through Sarasota.
               It hosts the broadest mix of commercial uses: auto dealerships, strip
               retail, medical office, restaurants, and service businesses. Traffic
@@ -158,14 +158,14 @@ export default function SarasotaMarketPage() {
               tenants.
             </p>
             <p>
-              <strong className="text-navy">St. Armands Circle</strong> — One of
+              <strong className="text-black">St. Armands Circle</strong> — One of
               Florida&apos;s most iconic retail destinations. High-end boutiques,
               galleries, and restaurants serve both tourists and affluent local
               residents. Retail space here commands premium rents and has extremely
               low turnover.
             </p>
             <p>
-              <strong className="text-navy">North Port / Wellen Park</strong> — The
+              <strong className="text-black">North Port / Wellen Park</strong> — The
               county&apos;s growth frontier. New residential communities are creating
               demand for grocery-anchored retail, medical offices, and neighborhood
               services. Land is available and more affordable than in the Sarasota core.
@@ -177,26 +177,26 @@ export default function SarasotaMarketPage() {
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Active Property Types</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Active Property Types</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Retail</strong> — From St. Armands luxury
+              <strong className="text-black">Retail</strong> — From St. Armands luxury
               boutiques to North Port neighborhood centers, retail spans the full
               spectrum. Well-located space in established areas rarely stays vacant long.
             </p>
             <p>
-              <strong className="text-navy">Office</strong> — Downtown Sarasota leads
+              <strong className="text-black">Office</strong> — Downtown Sarasota leads
               with Class A professional office. Medical office is active countywide.
               The Lakewood Ranch corridor (shared with Manatee County) adds suburban
               office inventory.
             </p>
             <p>
-              <strong className="text-navy">Hospitality</strong> — Hotels and resort
+              <strong className="text-black">Hospitality</strong> — Hotels and resort
               properties on Siesta Key, Lido Key, and in downtown Sarasota benefit from
               the county&apos;s nationally ranked beaches and cultural attractions.
             </p>
             <p>
-              <strong className="text-navy">Industrial</strong> — Limited but valuable.
+              <strong className="text-black">Industrial</strong> — Limited but valuable.
               Existing warehouse and flex space in the Sarasota core is scarce and commands
               strong rents. North Port offers more land for light industrial development.
             </p>
@@ -205,12 +205,12 @@ export default function SarasotaMarketPage() {
       </section>
 
       {/* ---- Services ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             How Barrett Henry Serves This Market
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who
               helps clients navigate Sarasota County&apos;s premium commercial real estate
@@ -231,9 +231,9 @@ export default function SarasotaMarketPage() {
       </section>
 
       {/* ---- FAQ ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
             Sarasota County CRE — Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqs} />

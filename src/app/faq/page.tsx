@@ -164,10 +164,10 @@ export default function FAQPage() {
 
       {/* ---- Breadcrumbs ---- */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">FAQ</li>
+          <li className="font-semibold text-black" aria-current="page">FAQ</li>
         </ol>
       </nav>
 
@@ -180,12 +180,12 @@ export default function FAQPage() {
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         {FAQ_CATEGORIES.map((cat) => (
           <div key={cat.category} className="mb-12">
-            <h2 className="text-2xl font-bold text-navy">{cat.category}</h2>
+            <h2 className="text-2xl font-bold text-black">{cat.category}</h2>
             <dl className="mt-6 space-y-6">
               {cat.faqs.map((faq) => (
-                <div key={faq.q} className="border-b border-gray-200 pb-6">
-                  <dt className="text-lg font-semibold text-navy">{faq.q}</dt>
-                  <dd className="mt-2 text-slate-brand leading-relaxed">{faq.a}</dd>
+                <div key={faq.q} className="border-b border-[#E5E5E5] pb-6">
+                  <dt className="text-lg font-semibold text-black">{faq.q}</dt>
+                  <dd className="mt-2 text-[#666666] leading-relaxed">{faq.a}</dd>
                 </div>
               ))}
             </dl>
@@ -194,7 +194,7 @@ export default function FAQPage() {
       </section>
 
       {/* ---- CTA ---- */}
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Still Have Questions?
@@ -206,7 +206,7 @@ export default function FAQPage() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
               Contact Barrett
             </Link>

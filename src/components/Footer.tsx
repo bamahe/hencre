@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, ExternalLink } from "lucide-react";
 
 /* -------------------------------------------------------------------
- * Footer — three REMAX Collective offices, contact info, tagline,
- * cross-link to nowtb.com, and dynamic copyright year.
+ * Footer — REMAX Commercial white logo, three offices, contact info,
+ * tagline, and dynamic copyright year. Dark charcoal background.
  * Server component (no interactivity needed).
  * ----------------------------------------------------------------- */
 
@@ -30,14 +31,24 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-navy text-white">
-      {/* ---- REMAX Commercial tagline bar — navy accent ---- */}
-      <div className="bg-[#0a2441] border-t border-white/10 py-4 text-center">
-        <p className="text-xs font-semibold tracking-widest uppercase text-white/80">
-          REMAX Commercial
-        </p>
-        <p className="text-lg font-bold tracking-widest uppercase mt-1">
+    <footer className="bg-[#1a1a1a] text-white">
+      {/* ---- REMAX Commercial tagline bar ---- */}
+      <div className="border-t border-white/10 py-6 text-center">
+        {/* White REMAX Commercial logo */}
+        <div className="flex justify-center mb-3">
+          <Image
+            src="/images/remax-commercial-white.png"
+            alt="REMAX Commercial"
+            width={200}
+            height={44}
+            className="h-10 w-auto"
+          />
+        </div>
+        <p className="text-lg font-bold tracking-widest uppercase">
           A BETTER WAY IN COMMERCIAL REAL ESTATE
+        </p>
+        <p className="mt-1 text-xs text-white/60 tracking-wider uppercase">
+          Tampa Bay Based &bull; Serving All of Florida
         </p>
       </div>
 
@@ -46,7 +57,7 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {OFFICES.map((office) => (
             <div key={office.name} className="flex items-start gap-3">
-              <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-accent-blue" />
+              <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-white/60" />
               <div>
                 <p className="font-semibold">{office.name}</p>
                 <p className="text-sm text-white/70">{office.line1}</p>

@@ -101,8 +101,8 @@ export default function ManateeMarketPage() {
       {/* ---- Market Overview ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Market Overview</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Market Overview</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Manatee County has emerged from Tampa&apos;s shadow as a commercial real estate
               market in its own right. The county seat of Bradenton anchors a growing metro
@@ -132,32 +132,32 @@ export default function ManateeMarketPage() {
       </section>
 
       {/* ---- Key Corridors ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Key CRE Corridors and Districts</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Key CRE Corridors and Districts</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">I-75 Interchange Nodes</strong> — Each I-75
+              <strong className="text-black">I-75 Interchange Nodes</strong> — Each I-75
               interchange through Manatee County — at SR 64, US-301, SR 70, and University
               Parkway — creates a commercial hub. These nodes attract grocery-anchored
               retail, quick-service restaurants, gas stations, hotels, and pad-site users
               that benefit from high traffic counts and interstate visibility.
             </p>
             <p>
-              <strong className="text-navy">Port Manatee / US-41 South</strong> — The
+              <strong className="text-black">Port Manatee / US-41 South</strong> — The
               industrial zone surrounding Port Manatee extends along US-41 and into the
               Palmetto area. Warehouses, distribution centers, and manufacturing facilities
               serve both port-related and domestic logistics operations.
             </p>
             <p>
-              <strong className="text-navy">Lakewood Ranch</strong> — This large-scale
+              <strong className="text-black">Lakewood Ranch</strong> — This large-scale
               master-planned community on the Manatee-Sarasota county line has created
               its own commercial ecosystem. Office space, medical campuses, retail centers,
               and hospitality properties serve a growing population of residents and
               businesses.
             </p>
             <p>
-              <strong className="text-navy">Downtown Bradenton</strong> — A walkable
+              <strong className="text-black">Downtown Bradenton</strong> — A walkable
               downtown experiencing renewed investment. Small office, retail, and restaurant
               spaces in historic buildings attract local entrepreneurs and professional
               service firms.
@@ -169,26 +169,26 @@ export default function ManateeMarketPage() {
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Active Property Types</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Active Property Types</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Retail</strong> — Population-driven retail
+              <strong className="text-black">Retail</strong> — Population-driven retail
               demand remains strong, particularly near I-75 interchanges and in the
               Lakewood Ranch corridor. National retailers continue to enter the market.
             </p>
             <p>
-              <strong className="text-navy">Industrial</strong> — Port Manatee and
+              <strong className="text-black">Industrial</strong> — Port Manatee and
               surrounding industrial parks support distribution, manufacturing, and
               cold storage. Trades-oriented flex space is also in demand along US-301
               and in Palmetto.
             </p>
             <p>
-              <strong className="text-navy">Medical Office</strong> — Healthcare
+              <strong className="text-black">Medical Office</strong> — Healthcare
               expansion follows residential growth. New outpatient campuses and
               specialty clinics are opening in Lakewood Ranch and along SR 64.
             </p>
             <p>
-              <strong className="text-navy">Office</strong> — Lakewood Ranch leads
+              <strong className="text-black">Office</strong> — Lakewood Ranch leads
               office demand with professional and corporate tenants. Downtown Bradenton
               offers more affordable boutique office options.
             </p>
@@ -197,12 +197,12 @@ export default function ManateeMarketPage() {
       </section>
 
       {/* ---- Services ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             How Barrett Henry Serves This Market
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who
               helps buyers, sellers, tenants, and landlords navigate Manatee County&apos;s
@@ -223,9 +223,9 @@ export default function ManateeMarketPage() {
       </section>
 
       {/* ---- FAQ ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
             Manatee County CRE — Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqs} />

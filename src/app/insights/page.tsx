@@ -95,10 +95,10 @@ export default function InsightsIndexPage() {
       <SchemaOrg schema={schema} />
 
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">Insights</li>
+          <li className="font-semibold text-black" aria-current="page">Insights</li>
         </ol>
       </nav>
 
@@ -113,18 +113,18 @@ export default function InsightsIndexPage() {
           {INSIGHTS.map((insight) => (
             <div
               key={insight.href}
-              className="group flex flex-col rounded-lg border border-gray-200 bg-white p-6 transition-shadow hover:shadow-lg"
+              className="group flex flex-col rounded-lg border border-[#E5E5E5] bg-white p-6 transition-shadow hover:shadow-lg"
             >
-              <p className="text-xs font-semibold uppercase tracking-wider text-accent-blue">
+              <p className="text-xs font-semibold uppercase tracking-wider text-black">
                 {insight.category}
               </p>
-              <h2 className="mt-2 text-lg font-bold text-navy group-hover:text-accent-blue">
+              <h2 className="mt-2 text-lg font-bold text-black group-hover:text-black">
                 {insight.title}
               </h2>
-              <p className="mt-2 flex-1 text-sm text-slate-brand">
+              <p className="mt-2 flex-1 text-sm text-[#666666]">
                 {insight.description}
               </p>
-              <p className="mt-4 text-sm font-semibold text-accent-blue">
+              <p className="mt-4 text-sm font-semibold text-black">
                 Coming soon &rarr;
               </p>
             </div>
@@ -133,7 +133,7 @@ export default function InsightsIndexPage() {
       </section>
 
       {/* ---- CTA ---- */}
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Want Market Intelligence for a Specific Deal?
@@ -143,7 +143,7 @@ export default function InsightsIndexPage() {
             properties, submarkets, or investment strategies.
           </p>
           <div className="mt-8">
-            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline">
               Contact Barrett
             </Link>
           </div>

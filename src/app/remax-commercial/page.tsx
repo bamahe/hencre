@@ -167,14 +167,14 @@ export default function RemaxCommercialPage() {
         aria-label="Breadcrumb"
         className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8"
       >
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li>
             <Link href="/" className="hover:underline no-underline">
               Home
             </Link>
           </li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">
+          <li className="font-semibold text-black" aria-current="page">
             REMAX Commercial
           </li>
         </ol>
@@ -193,7 +193,7 @@ export default function RemaxCommercialPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">
           The REMAX Commercial Network
         </h2>
-        <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
             REMAX Commercial is a division of REMAX — the world&apos;s most
             recognized real estate brand. Since its founding in Denver, Colorado
@@ -228,7 +228,7 @@ export default function RemaxCommercialPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">
             Over 50 Years of Real Estate Leadership
           </h2>
-          <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
               REMAX was founded in 1973 by Dave and Gail Liniger with a simple
               idea: attract the best agents by offering them the highest possible
@@ -255,7 +255,7 @@ export default function RemaxCommercialPage() {
       </section>
 
       {/* ---- Network Stats Grid ---- */}
-      <section className="bg-navy px-4 py-16 text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl">
           <h2 className="text-center text-2xl font-bold text-white sm:text-3xl">
             REMAX Commercial by the Numbers
@@ -271,7 +271,7 @@ export default function RemaxCommercialPage() {
                 key={item.label}
                 className="rounded-lg border border-white/10 bg-white/5 p-6 text-center"
               >
-                <p className="text-3xl font-bold text-accent-blue">{item.stat}</p>
+                <p className="text-3xl font-bold text-white">{item.stat}</p>
                 <p className="mt-1 text-sm font-semibold text-white">{item.label}</p>
                 <p className="mt-1 text-xs text-white/50">{item.detail}</p>
               </div>
@@ -286,7 +286,7 @@ export default function RemaxCommercialPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">
             Why REMAX Commercial Agents Are Different
           </h2>
-          <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
               Not every agent who handles a commercial deal is a commercial real
               estate specialist. REMAX Commercial agents are. They receive
@@ -319,7 +319,7 @@ export default function RemaxCommercialPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">
             Barrett Henry — REMAX Commercial in Florida
           </h2>
-          <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
               Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX
               Collective, operating under the REMAX Commercial division for all
@@ -360,7 +360,7 @@ export default function RemaxCommercialPage() {
           <h2 className="text-center text-2xl font-bold sm:text-3xl">
             REMAX Commercial Services in Florida
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-center text-slate-brand">
+          <p className="mx-auto mt-3 max-w-2xl text-center text-[#666666]">
             Full-service commercial real estate — backed by the REMAX Commercial network.
           </p>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -399,12 +399,12 @@ export default function RemaxCommercialPage() {
               <Link
                 key={svc.href}
                 href={svc.href}
-                className="group rounded-lg border border-gray-200 p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
+                className="group rounded-lg border border-[#E5E5E5] p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
               >
-                <h3 className="text-lg font-bold text-navy group-hover:text-accent-blue">
+                <h3 className="text-lg font-bold text-black group-hover:text-black">
                   {svc.title}
                 </h3>
-                <p className="mt-2 text-sm text-slate-brand">{svc.desc}</p>
+                <p className="mt-2 text-sm text-[#666666]">{svc.desc}</p>
               </Link>
             ))}
           </div>
@@ -419,9 +419,9 @@ export default function RemaxCommercialPage() {
           </h2>
           <dl className="mt-10 space-y-6">
             {FAQS.map((faq) => (
-              <div key={faq.q} className="border-b border-gray-200 pb-6">
-                <dt className="text-lg font-semibold text-navy">{faq.q}</dt>
-                <dd className="mt-2 text-slate-brand">{faq.a}</dd>
+              <div key={faq.q} className="border-b border-[#E5E5E5] pb-6">
+                <dt className="text-lg font-semibold text-black">{faq.q}</dt>
+                <dd className="mt-2 text-[#666666]">{faq.a}</dd>
               </div>
             ))}
           </dl>
@@ -429,7 +429,7 @@ export default function RemaxCommercialPage() {
       </section>
 
       {/* ---- CTA ---- */}
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Work with a REMAX Commercial Agent in Florida
@@ -442,7 +442,7 @@ export default function RemaxCommercialPage() {
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
               Contact Barrett
             </Link>

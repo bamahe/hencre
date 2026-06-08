@@ -76,9 +76,9 @@ export default function ReferralForm() {
   if (status === "success") {
     return (
       <div className="rounded-lg bg-white p-8 text-center shadow-sm">
-        <CheckCircle className="mx-auto h-12 w-12 text-success-green" />
-        <h3 className="mt-4 text-xl font-bold text-navy">Referral received!</h3>
-        <p className="mt-2 text-slate-brand">
+        <CheckCircle className="mx-auto h-12 w-12 text-green-700" />
+        <h3 className="mt-4 text-xl font-bold text-black">Referral received!</h3>
+        <p className="mt-2 text-[#666666]">
           We&apos;ll review the details and reach out within one business day.
         </p>
       </div>
@@ -91,10 +91,10 @@ export default function ReferralForm() {
       className="rounded-lg bg-white p-6 shadow-sm sm:p-8"
     >
       {/* ---- Heading & body copy ---- */}
-      <h2 className="mb-2 text-xl font-bold text-navy sm:text-2xl">
+      <h2 className="mb-2 text-xl font-bold text-black sm:text-2xl">
         Got a commercial deal outside your lane?
       </h2>
-      <p className="mb-6 text-sm leading-relaxed text-slate-brand">
+      <p className="mb-6 text-sm leading-relaxed text-[#666666]">
         Most residential agents don&apos;t work commercial &mdash; but you can
         still get paid for it. Refer your commercial buyer, seller, tenant, or
         landlord to REMAX Commercial Florida. We handle the deal start to finish, you collect a
@@ -103,7 +103,7 @@ export default function ReferralForm() {
 
       {/* ---- Your name ---- */}
       <div className="mb-4">
-        <label htmlFor="ref-name" className="mb-1 block text-sm font-semibold text-navy">
+        <label htmlFor="ref-name" className="mb-1 block text-sm font-semibold text-black">
           Your Name
         </label>
         <input
@@ -112,13 +112,13 @@ export default function ReferralForm() {
           required
           value={yourName}
           onChange={(e) => setYourName(e.target.value)}
-          className="w-full rounded-md border border-slate-brand/20 px-3 py-2 text-sm text-navy outline-none transition-colors focus:border-accent-blue focus:ring-1 focus:ring-accent-blue"
+          className="w-full rounded-md border border-[#666666]/20 px-3 py-2 text-sm text-black outline-none transition-colors focus:border-black focus:ring-1 focus:ring-black"
         />
       </div>
 
       {/* ---- Brokerage ---- */}
       <div className="mb-4">
-        <label htmlFor="ref-brokerage" className="mb-1 block text-sm font-semibold text-navy">
+        <label htmlFor="ref-brokerage" className="mb-1 block text-sm font-semibold text-black">
           Brokerage
         </label>
         <input
@@ -127,13 +127,13 @@ export default function ReferralForm() {
           required
           value={brokerage}
           onChange={(e) => setBrokerage(e.target.value)}
-          className="w-full rounded-md border border-slate-brand/20 px-3 py-2 text-sm text-navy outline-none transition-colors focus:border-accent-blue focus:ring-1 focus:ring-accent-blue"
+          className="w-full rounded-md border border-[#666666]/20 px-3 py-2 text-sm text-black outline-none transition-colors focus:border-black focus:ring-1 focus:ring-black"
         />
       </div>
 
       {/* ---- License # ---- */}
       <div className="mb-4">
-        <label htmlFor="ref-license" className="mb-1 block text-sm font-semibold text-navy">
+        <label htmlFor="ref-license" className="mb-1 block text-sm font-semibold text-black">
           License #
         </label>
         <input
@@ -142,13 +142,13 @@ export default function ReferralForm() {
           required
           value={licenseNumber}
           onChange={(e) => setLicenseNumber(e.target.value)}
-          className="w-full rounded-md border border-slate-brand/20 px-3 py-2 text-sm text-navy outline-none transition-colors focus:border-accent-blue focus:ring-1 focus:ring-accent-blue"
+          className="w-full rounded-md border border-[#666666]/20 px-3 py-2 text-sm text-black outline-none transition-colors focus:border-black focus:ring-1 focus:ring-black"
         />
       </div>
 
       {/* ---- Email ---- */}
       <div className="mb-4">
-        <label htmlFor="ref-email" className="mb-1 block text-sm font-semibold text-navy">
+        <label htmlFor="ref-email" className="mb-1 block text-sm font-semibold text-black">
           Email
         </label>
         <input
@@ -157,13 +157,13 @@ export default function ReferralForm() {
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full rounded-md border border-slate-brand/20 px-3 py-2 text-sm text-navy outline-none transition-colors focus:border-accent-blue focus:ring-1 focus:ring-accent-blue"
+          className="w-full rounded-md border border-[#666666]/20 px-3 py-2 text-sm text-black outline-none transition-colors focus:border-black focus:ring-1 focus:ring-black"
         />
       </div>
 
       {/* ---- Phone ---- */}
       <div className="mb-4">
-        <label htmlFor="ref-phone" className="mb-1 block text-sm font-semibold text-navy">
+        <label htmlFor="ref-phone" className="mb-1 block text-sm font-semibold text-black">
           Phone
         </label>
         <input
@@ -171,13 +171,13 @@ export default function ReferralForm() {
           type="tel"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
-          className="w-full rounded-md border border-slate-brand/20 px-3 py-2 text-sm text-navy outline-none transition-colors focus:border-accent-blue focus:ring-1 focus:ring-accent-blue"
+          className="w-full rounded-md border border-[#666666]/20 px-3 py-2 text-sm text-black outline-none transition-colors focus:border-black focus:ring-1 focus:ring-black"
         />
       </div>
 
       {/* ---- Client type dropdown ---- */}
       <div className="mb-4">
-        <label htmlFor="ref-client-type" className="mb-1 block text-sm font-semibold text-navy">
+        <label htmlFor="ref-client-type" className="mb-1 block text-sm font-semibold text-black">
           Client Type
         </label>
         <select
@@ -185,7 +185,7 @@ export default function ReferralForm() {
           required
           value={clientType}
           onChange={(e) => setClientType(e.target.value)}
-          className="w-full rounded-md border border-slate-brand/20 bg-white px-3 py-2 text-sm text-navy outline-none transition-colors focus:border-accent-blue focus:ring-1 focus:ring-accent-blue"
+          className="w-full rounded-md border border-[#666666]/20 bg-white px-3 py-2 text-sm text-black outline-none transition-colors focus:border-black focus:ring-1 focus:ring-black"
         >
           <option value="">Select client type</option>
           {CLIENT_TYPES.map((type) => (
@@ -198,7 +198,7 @@ export default function ReferralForm() {
 
       {/* ---- County dropdown ---- */}
       <div className="mb-4">
-        <label htmlFor="ref-county" className="mb-1 block text-sm font-semibold text-navy">
+        <label htmlFor="ref-county" className="mb-1 block text-sm font-semibold text-black">
           County
         </label>
         <select
@@ -206,7 +206,7 @@ export default function ReferralForm() {
           required
           value={county}
           onChange={(e) => setCounty(e.target.value)}
-          className="w-full rounded-md border border-slate-brand/20 bg-white px-3 py-2 text-sm text-navy outline-none transition-colors focus:border-accent-blue focus:ring-1 focus:ring-accent-blue"
+          className="w-full rounded-md border border-[#666666]/20 bg-white px-3 py-2 text-sm text-black outline-none transition-colors focus:border-black focus:ring-1 focus:ring-black"
         >
           <option value="">Select a county</option>
           {FL_COUNTIES.map((c) => (
@@ -219,7 +219,7 @@ export default function ReferralForm() {
 
       {/* ---- Deal notes ---- */}
       <div className="mb-6">
-        <label htmlFor="ref-notes" className="mb-1 block text-sm font-semibold text-navy">
+        <label htmlFor="ref-notes" className="mb-1 block text-sm font-semibold text-black">
           Deal Notes
         </label>
         <textarea
@@ -228,7 +228,7 @@ export default function ReferralForm() {
           value={dealNotes}
           onChange={(e) => setDealNotes(e.target.value)}
           placeholder="Property type, location, budget range, timeline, or anything else we should know."
-          className="w-full rounded-md border border-slate-brand/20 px-3 py-2 text-sm text-navy outline-none transition-colors focus:border-accent-blue focus:ring-1 focus:ring-accent-blue"
+          className="w-full rounded-md border border-[#666666]/20 px-3 py-2 text-sm text-black outline-none transition-colors focus:border-black focus:ring-1 focus:ring-black"
         />
       </div>
 
@@ -237,7 +237,7 @@ export default function ReferralForm() {
 
       {/* ---- Error message ---- */}
       {status === "error" && (
-        <div className="mt-4 flex items-center gap-2 rounded-md bg-soft-red/10 px-4 py-3 text-sm text-soft-red">
+        <div className="mt-4 flex items-center gap-2 rounded-md bg-red-700/10 px-4 py-3 text-sm text-red-700">
           <AlertCircle className="h-4 w-4 shrink-0" />
           {errorMessage}
         </div>
@@ -247,7 +247,7 @@ export default function ReferralForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="mt-6 flex w-full items-center justify-center gap-2 rounded-lg bg-accent-blue px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-accent-blue/90 disabled:opacity-60"
+        className="mt-6 flex w-full items-center justify-center gap-2 rounded-lg bg-black px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-[#333333] disabled:opacity-60"
       >
         {status === "loading" ? (
           <>

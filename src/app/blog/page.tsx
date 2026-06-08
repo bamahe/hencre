@@ -91,10 +91,10 @@ export default function BlogIndexPage() {
       <SchemaOrg schema={schema} />
 
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">Blog</li>
+          <li className="font-semibold text-black" aria-current="page">Blog</li>
         </ol>
       </nav>
 
@@ -109,20 +109,20 @@ export default function BlogIndexPage() {
           {POSTS.map((post) => (
             <article
               key={post.slug}
-              className="group flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden transition-shadow hover:shadow-lg"
+              className="group flex flex-col rounded-lg border border-[#E5E5E5] bg-white overflow-hidden transition-shadow hover:shadow-lg"
             >
               {/* Placeholder hero area */}
-              <div className="h-40 bg-gradient-to-br from-navy to-accent-blue/60" />
+              <div className="h-40 bg-gradient-to-br from-[#1a1a1a] to-[#333333]" />
               <div className="flex flex-1 flex-col p-6">
-                <p className="text-xs font-semibold uppercase tracking-wider text-accent-blue">
+                <p className="text-xs font-semibold uppercase tracking-wider text-black">
                   {post.category}
                 </p>
-                <h2 className="mt-2 text-lg font-bold text-navy group-hover:text-accent-blue">
+                <h2 className="mt-2 text-lg font-bold text-black group-hover:text-black">
                   {post.title}
                 </h2>
-                <p className="mt-2 flex-1 text-sm text-slate-brand">{post.excerpt}</p>
+                <p className="mt-2 flex-1 text-sm text-[#666666]">{post.excerpt}</p>
                 <div className="mt-4 flex items-center justify-between">
-                  <time className="text-xs text-slate-brand" dateTime={post.date}>
+                  <time className="text-xs text-[#666666]" dateTime={post.date}>
                     {new Date(post.date).toLocaleDateString("en-US", {
                       month: "long",
                       day: "numeric",
@@ -130,7 +130,7 @@ export default function BlogIndexPage() {
                     })}
                   </time>
                   {/* Link to future blog post page */}
-                  <span className="text-sm font-semibold text-accent-blue">
+                  <span className="text-sm font-semibold text-black">
                     Read &rarr;
                   </span>
                 </div>
@@ -141,7 +141,7 @@ export default function BlogIndexPage() {
       </section>
 
       {/* ---- CTA ---- */}
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Have a CRE Question?
@@ -151,7 +151,7 @@ export default function BlogIndexPage() {
             might become the next blog post.
           </p>
           <div className="mt-8">
-            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline">
               Contact Barrett
             </Link>
           </div>

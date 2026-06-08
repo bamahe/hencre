@@ -89,14 +89,14 @@ export default function MarketPageTemplate({
       {propertyTypes.length > 0 && (
         <section className="bg-white px-4 py-12 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-2xl font-bold text-navy">
+            <h2 className="mb-6 text-2xl font-bold text-black">
               Property Types in {county} County
             </h2>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {propertyTypes.map((type) => (
                 <div
                   key={type}
-                  className="rounded-lg border border-slate-brand/10 px-4 py-3 text-sm font-semibold text-navy"
+                  className="rounded-lg border border-[#666666]/10 px-4 py-3 text-sm font-semibold text-black"
                 >
                   {type}
                 </div>
@@ -109,22 +109,22 @@ export default function MarketPageTemplate({
       {/* Services list (if provided) */}
       {services.length > 0 && (
         <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-          <h2 className="mb-6 text-2xl font-bold text-navy">
+          <h2 className="mb-6 text-2xl font-bold text-black">
             Our Services in {county} County
           </h2>
           <ul className="grid gap-2 sm:grid-cols-2">
             {services.map((service) => (
               <li
                 key={service}
-                className="flex items-center gap-2 text-sm text-slate-brand"
+                className="flex items-center gap-2 text-sm text-[#666666]"
               >
-                <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-accent-blue" />
+                <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-black" />
                 {service}
               </li>
             ))}
           </ul>
           {/* Show tier badge */}
-          <p className="mt-6 text-xs font-semibold uppercase tracking-wider text-slate-brand/60">
+          <p className="mt-6 text-xs font-semibold uppercase tracking-wider text-[#666666]/60">
             Service tier: {tier}
           </p>
         </section>
@@ -133,7 +133,7 @@ export default function MarketPageTemplate({
       {/* Lead form */}
       <section
         id="lead-form"
-        className="bg-warm-white px-4 py-12 sm:px-6 lg:px-8"
+        className="bg-[#F5F5F5] px-4 py-12 sm:px-6 lg:px-8"
       >
         <div className="mx-auto max-w-xl">
           <LeadForm />
@@ -143,7 +143,7 @@ export default function MarketPageTemplate({
       {/* FAQ */}
       {faqItems.length > 0 && (
         <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-          <h2 className="mb-6 text-center text-2xl font-bold text-navy">
+          <h2 className="mb-6 text-center text-2xl font-bold text-black">
             Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqItems} />

@@ -29,7 +29,7 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
   }
 
   return (
-    <div className="mx-auto max-w-3xl divide-y divide-slate-brand/10 rounded-lg border border-slate-brand/10 bg-white">
+    <div className="mx-auto max-w-3xl divide-y divide-[#666666]/10 rounded-lg border border-[#666666]/10 bg-white">
       {items.map((item, index) => {
         const isOpen = openIndex === index;
         const headingId = `${baseId}-heading-${index}`;
@@ -45,11 +45,11 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
                 aria-expanded={isOpen}
                 aria-controls={panelId}
                 onClick={() => toggle(index)}
-                className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left text-base font-semibold text-navy transition-colors hover:bg-warm-white"
+                className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left text-base font-semibold text-black transition-colors hover:bg-[#F5F5F5]"
               >
                 <span>{item.question}</span>
                 <ChevronDown
-                  className={`h-5 w-5 shrink-0 text-accent-blue transition-transform duration-200 ${
+                  className={`h-5 w-5 shrink-0 text-black transition-transform duration-200 ${
                     isOpen ? "rotate-180" : ""
                   }`}
                   aria-hidden="true"
@@ -66,7 +66,7 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
                 isOpen ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"
               }`}
             >
-              <div className="px-5 pb-4 text-sm leading-relaxed text-slate-brand">
+              <div className="px-5 pb-4 text-sm leading-relaxed text-[#666666]">
                 {item.answer}
               </div>
             </div>

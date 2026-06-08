@@ -132,26 +132,26 @@ export default function LeasingVsBuyingPage() {
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <p className="text-lg leading-relaxed text-slate-brand">
+        <p className="text-lg leading-relaxed text-[#666666]">
           &ldquo;Should I lease or buy?&rdquo; I hear this question from business owners all the time, and the honest answer is always the same: it depends. There is no universally right answer — the best choice depends on your financial position, how stable your space needs are, and what your business looks like in five to ten years. Let me give you the framework I use with my clients to work through this decision.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">When Leasing Makes Sense</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">When Leasing Makes Sense</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Leasing is often the right move when:
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>You need flexibility.</strong> If your business is growing quickly or your space needs might change, a lease lets you scale up or relocate without being locked into a property. This is especially important for businesses under five years old.</li>
           <li><strong>Capital is better deployed elsewhere.</strong> The down payment on a commercial property — typically 20% to 30% — could be working harder in your business. If that capital generates a higher return inside your business than you would earn on property appreciation, leasing may be smarter.</li>
           <li><strong>You want predictable costs.</strong> With a well-negotiated lease, your occupancy costs are defined and predictable. No surprise repair bills, no property tax reassessments to absorb out of pocket.</li>
           <li><strong>Location matters more than ownership.</strong> Sometimes the ideal location for your business is not available for purchase, or the purchase price makes no sense. Leasing gives you access to prime locations without the ownership commitment.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">When Buying Makes Sense</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">When Buying Makes Sense</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Ownership becomes compelling when:
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Your space needs are stable.</strong> If you know you will need the same type and size of space for the foreseeable future, owning locks in your location and eliminates the risk of rent increases or non-renewal.</li>
           <li><strong>You want to build equity.</strong> Every mortgage payment builds equity in a tangible asset. Over time, you end up owning a property free and clear — essentially eliminating your occupancy cost in retirement or providing a sellable asset.</li>
           <li><strong>You can benefit from tax advantages.</strong> Property owners can deduct mortgage interest, depreciation, and operating expenses. These deductions can be substantial for profitable businesses.</li>
@@ -159,36 +159,36 @@ export default function LeasingVsBuyingPage() {
           <li><strong>You can generate rental income.</strong> Buy a building larger than you need, occupy part of it, and lease the rest. Your tenants effectively help pay your mortgage.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Financial Comparison</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Financial Comparison</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           At a high level, here is how the financial picture differs:
         </p>
         <div className="my-6 overflow-x-auto">
-          <table className="w-full border-collapse text-sm text-slate-brand">
+          <table className="w-full border-collapse text-sm text-[#666666]">
             <thead>
-              <tr className="border-b-2 border-navy/20">
-                <th className="py-3 pr-4 text-left font-bold text-navy">Factor</th>
-                <th className="py-3 pr-4 text-left font-bold text-navy">Leasing</th>
-                <th className="py-3 text-left font-bold text-navy">Buying</th>
+              <tr className="border-b-2 border-black/20">
+                <th className="py-3 pr-4 text-left font-bold text-black">Factor</th>
+                <th className="py-3 pr-4 text-left font-bold text-black">Leasing</th>
+                <th className="py-3 text-left font-bold text-black">Buying</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-b border-slate-brand/10">
+              <tr className="border-b border-[#666666]/10">
                 <td className="py-3 pr-4 font-semibold">Upfront cost</td>
                 <td className="py-3 pr-4">Security deposit + first/last month</td>
                 <td className="py-3">20-30% down payment + closing costs</td>
               </tr>
-              <tr className="border-b border-slate-brand/10">
+              <tr className="border-b border-[#666666]/10">
                 <td className="py-3 pr-4 font-semibold">Monthly cost</td>
                 <td className="py-3 pr-4">Rent + NNN expenses</td>
                 <td className="py-3">Mortgage + taxes + insurance + maintenance</td>
               </tr>
-              <tr className="border-b border-slate-brand/10">
+              <tr className="border-b border-[#666666]/10">
                 <td className="py-3 pr-4 font-semibold">Equity building</td>
                 <td className="py-3 pr-4">None</td>
                 <td className="py-3">Yes — with every payment</td>
               </tr>
-              <tr className="border-b border-slate-brand/10">
+              <tr className="border-b border-[#666666]/10">
                 <td className="py-3 pr-4 font-semibold">Flexibility</td>
                 <td className="py-3 pr-4">Higher — relocate at lease end</td>
                 <td className="py-3">Lower — must sell to move</td>
@@ -202,16 +202,16 @@ export default function LeasingVsBuyingPage() {
           </table>
         </div>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Hybrid Approach: Lease With an Option to Purchase</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Hybrid Approach: Lease With an Option to Purchase</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Not ready to commit? A lease with a purchase option gives you the best of both worlds. You lease the space at market rates and lock in the right to buy at a predetermined price within a specified timeframe. This lets you test the location, stabilize your business, and decide on ownership later — without losing the opportunity.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           The option price and terms are negotiable. Some landlords will credit a portion of your rent toward the purchase price. Others will simply lock in a set price that protects you from appreciation.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Questions to Ask Yourself</h2>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <h2 className="mt-10 text-2xl font-bold text-black">Questions to Ask Yourself</h2>
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li>How long do I plan to operate in this location?</li>
           <li>Is my business model stable enough to predict space needs for the next 5-10 years?</li>
           <li>What return could I generate if I deployed my down payment capital inside my business instead?</li>
@@ -219,14 +219,14 @@ export default function LeasingVsBuyingPage() {
           <li>Does the local market favor buyers or renters right now?</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Bottom Line</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Neither leasing nor buying is inherently better — it is a strategic decision that should align with your business plan, financial position, and growth trajectory. The businesses I have seen make the best decisions are the ones that evaluate both options honestly, without emotional attachment to either path. If you are weighing this decision, I am happy to run the numbers with you and give you an honest assessment of what makes sense for your situation.
         </p>
       </article>
 
       <div className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
-        <h2 className="mb-6 text-2xl font-bold text-navy">Frequently Asked Questions</h2>
+        <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
       </div>
       <FAQAccordion items={faqItems} />
 

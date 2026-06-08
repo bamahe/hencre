@@ -34,10 +34,10 @@ export default function ThankYouPage() {
 
       {/* ---- Breadcrumbs ---- */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">Thank You</li>
+          <li className="font-semibold text-black" aria-current="page">Thank You</li>
         </ol>
       </nav>
 
@@ -45,14 +45,14 @@ export default function ThankYouPage() {
 
       <section className="mx-auto max-w-2xl px-4 py-16 text-center sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">What Happens Next</h2>
-        <div className="mt-6 space-y-4 text-lg text-slate-brand">
+        <div className="mt-6 space-y-4 text-lg text-[#666666]">
           <p>
             I review every inquiry personally. You will hear back from me within one
             business day — usually much sooner.
           </p>
           <p>
             If your matter is time-sensitive, call me directly at{" "}
-            <a href="tel:+18137337907" className="font-semibold text-accent-blue">
+            <a href="tel:+18137337907" className="font-semibold text-black">
               (813) 733-7907
             </a>.
           </p>
@@ -62,19 +62,19 @@ export default function ThankYouPage() {
         <div className="mt-12 grid gap-4 sm:grid-cols-3">
           <Link
             href="/services"
-            className="rounded-lg border border-gray-200 p-4 text-center font-semibold text-navy no-underline transition-shadow hover:shadow-md hover:no-underline"
+            className="rounded-lg border border-[#E5E5E5] p-4 text-center font-semibold text-black no-underline transition-shadow hover:shadow-md hover:no-underline"
           >
             Explore Services
           </Link>
           <Link
             href="/commercial"
-            className="rounded-lg border border-gray-200 p-4 text-center font-semibold text-navy no-underline transition-shadow hover:shadow-md hover:no-underline"
+            className="rounded-lg border border-[#E5E5E5] p-4 text-center font-semibold text-black no-underline transition-shadow hover:shadow-md hover:no-underline"
           >
             Property Types
           </Link>
           <Link
             href="/blog"
-            className="rounded-lg border border-gray-200 p-4 text-center font-semibold text-navy no-underline transition-shadow hover:shadow-md hover:no-underline"
+            className="rounded-lg border border-[#E5E5E5] p-4 text-center font-semibold text-black no-underline transition-shadow hover:shadow-md hover:no-underline"
           >
             Read the Blog
           </Link>

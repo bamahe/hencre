@@ -2,11 +2,12 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 /* -------------------------------------------------------------------
- * Header — sticky navy bar with REMAX Commercial wordmark and responsive nav.
- * Client component because it manages mobile menu open/close state.
+ * Header — sticky dark charcoal bar with REMAX Commercial logo and
+ * responsive nav. Black/white brand. Client component for mobile menu.
  * ----------------------------------------------------------------- */
 
 const NAV_LINKS = [
@@ -23,21 +24,24 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-navy">
-      {/* ---- Navy accent bar at very top ---- */}
-      <div className="h-1 bg-accent-blue" />
-
+    <header className="sticky top-0 z-50 bg-[#1a1a1a]">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        {/* ---- Wordmark — REMAX Commercial primary, Barrett Henry secondary ---- */}
+        {/* ---- REMAX Commercial logo + Barrett Henry secondary text ---- */}
         <Link
           href="/"
-          className="flex flex-col no-underline hover:no-underline"
+          className="flex items-center gap-3 no-underline hover:no-underline"
         >
-          <span className="text-xl font-bold tracking-tight text-white leading-tight sm:text-2xl">
-            REMAX Commercial
-          </span>
-          <span className="text-[10px] font-semibold tracking-widest text-white/70 uppercase leading-tight">
-            Barrett Henry &bull; Broker Associate
+          {/* Actual REMAX Commercial white logo for dark background */}
+          <Image
+            src="/images/remax-commercial-white.png"
+            alt="REMAX Commercial"
+            width={180}
+            height={40}
+            className="h-8 w-auto sm:h-10"
+            priority
+          />
+          <span className="hidden text-[10px] font-semibold tracking-widest text-white/70 uppercase leading-tight sm:block">
+            Barrett Henry | Tampa Bay
           </span>
         </Link>
 
@@ -71,7 +75,7 @@ export default function Header() {
       {mobileOpen && (
         <nav
           id="mobile-menu"
-          className="border-t border-white/10 bg-navy lg:hidden"
+          className="border-t border-white/10 bg-[#1a1a1a] lg:hidden"
           aria-label="Mobile"
         >
           <ul className="flex flex-col gap-1 px-4 py-4">

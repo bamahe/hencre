@@ -2,7 +2,7 @@ import Link from "next/link";
 
 /* -------------------------------------------------------------------
  * Hero — reusable hero section with heading, subheading, and optional
- * CTA button. Navy background with a subtle gradient.
+ * CTA button. Solid black/charcoal background. No gradients, no color.
  * Server component.
  * ----------------------------------------------------------------- */
 
@@ -19,7 +19,7 @@ interface HeroProps {
 
 export default function Hero({ title, subtitle, ctaText, ctaHref }: HeroProps) {
   return (
-    <section className="bg-gradient-to-br from-[#0a2441] via-[#0a2441] to-[#1a3a5c] px-4 py-20 text-center sm:py-28 lg:py-32">
+    <section className="bg-[#1a1a1a] px-4 py-20 text-center sm:py-28 lg:py-32">
       <div className="mx-auto max-w-3xl">
         <h1 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
           {title}
@@ -33,7 +33,7 @@ export default function Hero({ title, subtitle, ctaText, ctaHref }: HeroProps) {
           <div className="mt-8">
             <Link
               href={ctaHref}
-              className="inline-block rounded-lg bg-white px-8 py-3 text-base font-semibold text-[#0a2441] no-underline shadow-lg transition-colors hover:bg-remax-gray hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 text-base font-semibold text-black no-underline shadow-lg transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
               {ctaText}
             </Link>

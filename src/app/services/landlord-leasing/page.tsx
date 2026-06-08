@@ -46,12 +46,12 @@ export default function LandlordLeasingPage() {
       <SchemaOrg schema={schema} />
 
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
           <li><Link href="/services" className="hover:underline no-underline">Services</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">Landlord Leasing</li>
+          <li className="font-semibold text-black" aria-current="page">Landlord Leasing</li>
         </ol>
       </nav>
 
@@ -64,7 +64,7 @@ export default function LandlordLeasingPage() {
 
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">Vacancy Costs You Money Every Day</h2>
-        <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
             As a REMAX Commercial broker, Barrett leverages the largest real estate network in the world to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs
             with zero income. Taxes, insurance, maintenance, and debt service do not
@@ -94,7 +94,7 @@ export default function LandlordLeasingPage() {
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">Who This Is For</h2>
-          <ul className="mt-6 grid gap-4 text-slate-brand sm:grid-cols-2">
+          <ul className="mt-6 grid gap-4 text-[#666666] sm:grid-cols-2">
             {[
               "Commercial property owners with vacant space",
               "Investors who need professional leasing representation",
@@ -104,7 +104,7 @@ export default function LandlordLeasingPage() {
               "Developers with newly constructed commercial space",
             ].map((item) => (
               <li key={item} className="flex items-start gap-2">
-                <span className="mt-1 text-accent-blue font-bold">&#10003;</span>
+                <span className="mt-1 text-black font-bold">&#10003;</span>
                 <span>{item}</span>
               </li>
             ))}
@@ -125,12 +125,12 @@ export default function LandlordLeasingPage() {
               { step: "Lease Execution", desc: "Attorney coordination through executed lease and tenant onboarding." },
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-4">
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-navy text-sm font-bold text-white">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#1a1a1a] text-sm font-bold text-white">
                   {i + 1}
                 </span>
                 <div>
-                  <p className="font-bold text-navy">{item.step}</p>
-                  <p className="mt-1 text-slate-brand">{item.desc}</p>
+                  <p className="font-bold text-black">{item.step}</p>
+                  <p className="mt-1 text-[#666666]">{item.desc}</p>
                 </div>
               </li>
             ))}
@@ -138,7 +138,7 @@ export default function LandlordLeasingPage() {
         </div>
       </section>
 
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Stop Losing Money to Vacancy
@@ -147,7 +147,7 @@ export default function LandlordLeasingPage() {
             Let me put a leasing plan together for your property. Free consultation.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline">
               Contact Barrett
             </Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">
@@ -159,11 +159,11 @@ export default function LandlordLeasingPage() {
 
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-navy">Related Services</h3>
+          <h3 className="text-lg font-bold text-black">Related Services</h3>
           <div className="mt-4 flex flex-wrap gap-3">
-            <Link href="/services/tenant-representation" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Tenant Representation</Link>
-            <Link href="/services/dispositions" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
-            <Link href="/services/cre-valuation" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
+            <Link href="/services/tenant-representation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tenant Representation</Link>
+            <Link href="/services/dispositions" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
+            <Link href="/services/cre-valuation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
           </div>
         </div>
       </section>

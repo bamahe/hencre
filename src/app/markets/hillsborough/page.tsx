@@ -125,10 +125,10 @@ export default function HillsboroughMarketPage() {
       {/* ---- Market Overview ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             Market Overview
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Hillsborough County is the anchor of the Tampa Bay metropolitan area and
               the largest commercial real estate market on Florida&apos;s Gulf Coast. With
@@ -152,14 +152,14 @@ export default function HillsboroughMarketPage() {
       </section>
 
       {/* ---- Key CRE Corridors ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             Key CRE Corridors and Districts
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Westshore Business District</strong> — The
+              <strong className="text-black">Westshore Business District</strong> — The
               largest suburban office market on Florida&apos;s west coast. Bounded by Tampa
               International Airport to the north and the Courtney Campbell Causeway to the
               west, Westshore draws major corporate tenants in finance, insurance, legal
@@ -168,7 +168,7 @@ export default function HillsboroughMarketPage() {
               node for companies seeking Class A and B office space with walkable amenities.
             </p>
             <p>
-              <strong className="text-navy">Downtown Tampa / Water Street</strong> — The
+              <strong className="text-black">Downtown Tampa / Water Street</strong> — The
               city&apos;s central business district has transformed over the past decade. The
               Water Street Tampa development brought new Class A office towers, hotels,
               residential high-rises, and experiential retail to the waterfront. Older
@@ -178,7 +178,7 @@ export default function HillsboroughMarketPage() {
               adaptive-reuse spaces.
             </p>
             <p>
-              <strong className="text-navy">I-75 Industrial Corridor</strong> — Stretching
+              <strong className="text-black">I-75 Industrial Corridor</strong> — Stretching
               from the eastern edge of Tampa through Brandon, Riverview, and into southern
               Hillsborough, this corridor is the region&apos;s industrial backbone. Large-format
               distribution centers, cold storage facilities, and last-mile delivery hubs
@@ -188,7 +188,7 @@ export default function HillsboroughMarketPage() {
               Tampa and the I-4 corridor to Orlando.
             </p>
             <p>
-              <strong className="text-navy">North Tampa / USF Area</strong> — The corridor
+              <strong className="text-black">North Tampa / USF Area</strong> — The corridor
               surrounding the University of South Florida along Fowler Avenue and Bruce B.
               Downs Boulevard is a major retail, medical office, and multifamily hub. H. Lee
               Moffitt Cancer Center and multiple hospital systems create steady demand for
@@ -196,7 +196,7 @@ export default function HillsboroughMarketPage() {
               a dense retail environment.
             </p>
             <p>
-              <strong className="text-navy">South Tampa</strong> — Known for high
+              <strong className="text-black">South Tampa</strong> — Known for high
               household incomes and limited land, South Tampa commands premium rents for
               neighborhood retail and boutique office space. The South Howard (SoHo)
               district and the Bayshore corridor are among the most desirable retail
@@ -210,33 +210,33 @@ export default function HillsboroughMarketPage() {
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             Active Property Types
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Industrial &amp; Logistics</strong> — By far
+              <strong className="text-black">Industrial &amp; Logistics</strong> — By far
               the most active asset class. E-commerce fulfillment, third-party logistics,
               cold storage, and last-mile delivery drive demand. New speculative development
               continues in the I-75 corridor and near the Port of Tampa, though rising
               construction costs have tempered some deliveries.
             </p>
             <p>
-              <strong className="text-navy">Office</strong> — Westshore and downtown Tampa
+              <strong className="text-black">Office</strong> — Westshore and downtown Tampa
               remain the primary office markets. Demand has shifted toward higher-quality
               spaces with modern amenities as employers compete for talent. Smaller suburban
               office pockets in Carrollwood, Westchase, and Brandon serve professional
               services firms and medical practices.
             </p>
             <p>
-              <strong className="text-navy">Retail</strong> — Retail follows rooftops, and
+              <strong className="text-black">Retail</strong> — Retail follows rooftops, and
               Hillsborough County&apos;s population growth keeps leasing activity strong.
               Pad sites along major corridors command attention from national tenants, while
               neighborhood centers in high-income submarkets like South Tampa and Westchase
               maintain low vacancy through strong foot traffic.
             </p>
             <p>
-              <strong className="text-navy">Land &amp; Development</strong> — Entitled
+              <strong className="text-black">Land &amp; Development</strong> — Entitled
               commercial land is increasingly scarce inside the urban core, pushing
               developers east and south toward Riverview, FishHawk, and Wimauma. Mixed-use
               entitlements are the most sought-after as municipalities push for walkable,
@@ -247,12 +247,12 @@ export default function HillsboroughMarketPage() {
       </section>
 
       {/* ---- Services ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             How Barrett Henry Serves This Market
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective — backed by the REMAX Commercial network — who
               works with buyers, sellers, tenants, and landlords across every commercial
@@ -280,9 +280,9 @@ export default function HillsboroughMarketPage() {
       </section>
 
       {/* ---- FAQ ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
             Hillsborough County CRE — Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqs} />

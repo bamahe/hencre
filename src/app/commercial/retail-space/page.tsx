@@ -43,12 +43,12 @@ export default function RetailSpacePage() {
       <SchemaOrg schema={schema} />
 
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
           <li><Link href="/commercial" className="hover:underline no-underline">Property Types</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">Retail Space</li>
+          <li className="font-semibold text-black" aria-current="page">Retail Space</li>
         </ol>
       </nav>
 
@@ -61,7 +61,7 @@ export default function RetailSpacePage() {
 
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">Florida Retail Market Overview</h2>
-        <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
             Florida&apos;s retail market benefits from strong population growth,
             year-round tourism, and no state income tax. Retail vacancy rates in major
@@ -88,16 +88,16 @@ export default function RetailSpacePage() {
               { title: "Lease Structure", desc: "NNN is standard for retail, but percentage rent, CAM caps, and exclusivity clauses are all negotiable. I protect your interests on every point." },
               { title: "Visibility & Signage", desc: "Frontage, pylon signs, and monument signs impact your brand exposure. Zoning and landlord approval for signage should be confirmed early." },
             ].map((item) => (
-              <div key={item.title} className="rounded-lg border border-gray-200 p-6">
-                <h3 className="text-lg font-bold text-navy">{item.title}</h3>
-                <p className="mt-2 text-sm text-slate-brand">{item.desc}</p>
+              <div key={item.title} className="rounded-lg border border-[#E5E5E5] p-6">
+                <h3 className="text-lg font-bold text-black">{item.title}</h3>
+                <p className="mt-2 text-sm text-[#666666]">{item.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Need Retail Space in Florida?
@@ -107,7 +107,7 @@ export default function RetailSpacePage() {
             right location.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline">Contact Barrett</Link>
+            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline">Contact Barrett</Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">Call (813) 733-7907</a>
           </div>
         </div>
@@ -115,13 +115,13 @@ export default function RetailSpacePage() {
 
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-navy">Explore Other Property Types</h3>
+          <h3 className="text-lg font-bold text-black">Explore Other Property Types</h3>
           <div className="mt-4 flex flex-wrap gap-3">
-            <Link href="/commercial/office-space" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Office Space</Link>
-            <Link href="/commercial/industrial-warehouse" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Industrial &amp; Warehouse</Link>
-            <Link href="/commercial/multifamily" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Multifamily</Link>
-            <Link href="/commercial/nnn-net-lease" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">NNN / Net Lease</Link>
-            <Link href="/commercial/land-development" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Land &amp; Development</Link>
+            <Link href="/commercial/office-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Office Space</Link>
+            <Link href="/commercial/industrial-warehouse" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Industrial &amp; Warehouse</Link>
+            <Link href="/commercial/multifamily" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Multifamily</Link>
+            <Link href="/commercial/nnn-net-lease" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">NNN / Net Lease</Link>
+            <Link href="/commercial/land-development" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Land &amp; Development</Link>
           </div>
         </div>
       </section>

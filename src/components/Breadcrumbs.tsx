@@ -37,25 +37,25 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
 
       {/* Visual breadcrumb trail */}
       <nav aria-label="Breadcrumb" className="px-4 py-3 sm:px-6 lg:px-8">
-        <ol className="mx-auto flex max-w-7xl flex-wrap items-center gap-1 text-sm text-slate-brand">
+        <ol className="mx-auto flex max-w-7xl flex-wrap items-center gap-1 text-sm text-[#666666]">
           {items.map((item, index) => {
             const isLast = index === items.length - 1;
             return (
               <li key={item.href} className="flex items-center gap-1">
                 {/* Separator between items (not before the first) */}
                 {index > 0 && (
-                  <ChevronRight className="h-3.5 w-3.5 text-slate-brand/50" aria-hidden="true" />
+                  <ChevronRight className="h-3.5 w-3.5 text-[#666666]/50" aria-hidden="true" />
                 )}
 
                 {isLast ? (
                   /* Current page — not a link */
-                  <span aria-current="page" className="font-semibold text-navy">
+                  <span aria-current="page" className="font-semibold text-black">
                     {item.label}
                   </span>
                 ) : (
                   <Link
                     href={item.href}
-                    className="text-slate-brand no-underline hover:text-accent-blue hover:no-underline"
+                    className="text-[#666666] no-underline hover:text-black hover:no-underline"
                   >
                     {item.label}
                   </Link>

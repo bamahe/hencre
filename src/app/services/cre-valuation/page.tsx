@@ -46,12 +46,12 @@ export default function CREValuationPage() {
       <SchemaOrg schema={schema} />
 
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
           <li><Link href="/services" className="hover:underline no-underline">Services</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">CRE Valuation</li>
+          <li className="font-semibold text-black" aria-current="page">CRE Valuation</li>
         </ol>
       </nav>
 
@@ -64,7 +64,7 @@ export default function CREValuationPage() {
 
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">Accurate Valuation Drives Better Decisions</h2>
-        <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
             As a REMAX Commercial broker, Barrett delivers valuations backed by market data and institutional-level analysis. Before you sell, refinance, negotiate a lease renewal, or restructure a
             partnership, you need to know what your commercial property is actually
@@ -95,7 +95,7 @@ export default function CREValuationPage() {
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">Who This Is For</h2>
-          <ul className="mt-6 grid gap-4 text-slate-brand sm:grid-cols-2">
+          <ul className="mt-6 grid gap-4 text-[#666666] sm:grid-cols-2">
             {[
               "Property owners considering a sale or refinance",
               "Investors evaluating acquisition targets",
@@ -105,7 +105,7 @@ export default function CREValuationPage() {
               "Business owners assessing real property holdings",
             ].map((item) => (
               <li key={item} className="flex items-start gap-2">
-                <span className="mt-1 text-accent-blue font-bold">&#10003;</span>
+                <span className="mt-1 text-black font-bold">&#10003;</span>
                 <span>{item}</span>
               </li>
             ))}
@@ -116,7 +116,7 @@ export default function CREValuationPage() {
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">What a BOV Includes</h2>
-          <ul className="mt-6 space-y-3 text-lg text-slate-brand">
+          <ul className="mt-6 space-y-3 text-lg text-[#666666]">
             {[
               "Property description, photos, and site analysis",
               "Comparable sales analysis with adjustments",
@@ -126,7 +126,7 @@ export default function CREValuationPage() {
               "Executive summary suitable for lenders and attorneys",
             ].map((item) => (
               <li key={item} className="flex items-start gap-2">
-                <span className="mt-1 text-accent-blue font-bold">&#10003;</span>
+                <span className="mt-1 text-black font-bold">&#10003;</span>
                 <span>{item}</span>
               </li>
             ))}
@@ -134,7 +134,7 @@ export default function CREValuationPage() {
         </div>
       </section>
 
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Need to Know Your Property&apos;s Value?
@@ -144,7 +144,7 @@ export default function CREValuationPage() {
             a clear, well-supported valuation.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline">
+            <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline">
               Request a BOV
             </Link>
             <a href="tel:+18137337907" className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline">
@@ -156,11 +156,11 @@ export default function CREValuationPage() {
 
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-navy">Related Services</h3>
+          <h3 className="text-lg font-bold text-black">Related Services</h3>
           <div className="mt-4 flex flex-wrap gap-3">
-            <Link href="/services/dispositions" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
-            <Link href="/services/investment-sales" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Investment Sales</Link>
-            <Link href="/services/landlord-leasing" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Landlord Leasing</Link>
+            <Link href="/services/dispositions" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
+            <Link href="/services/investment-sales" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Investment Sales</Link>
+            <Link href="/services/landlord-leasing" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Landlord Leasing</Link>
           </div>
         </div>
       </section>

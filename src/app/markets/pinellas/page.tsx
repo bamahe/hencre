@@ -101,8 +101,8 @@ export default function PinellasMarketPage() {
       {/* ---- Market Overview ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Market Overview</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Market Overview</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Pinellas County occupies the peninsula between Tampa Bay and the Gulf of Mexico,
               making it one of the most geographically constrained — and therefore most valuable —
@@ -126,12 +126,12 @@ export default function PinellasMarketPage() {
       </section>
 
       {/* ---- Key Corridors ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Key CRE Corridors and Districts</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Key CRE Corridors and Districts</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Downtown St. Petersburg</strong> — The
+              <strong className="text-black">Downtown St. Petersburg</strong> — The
               Innovation District and the broader downtown core have attracted national
               attention for their concentration of tech startups, venture capital firms,
               and creative office users. New construction and major renovations have added
@@ -141,7 +141,7 @@ export default function PinellasMarketPage() {
               mixed-use development.
             </p>
             <p>
-              <strong className="text-navy">Gateway / Carillon</strong> — Located near
+              <strong className="text-black">Gateway / Carillon</strong> — Located near
               the Bayside Bridge and St. Pete-Clearwater International Airport, this
               suburban office park is one of the largest in the county. It serves national
               and regional tenants in financial services, insurance, and technology. The
@@ -149,14 +149,14 @@ export default function PinellasMarketPage() {
               Boulevard.
             </p>
             <p>
-              <strong className="text-navy">US-19 Corridor</strong> — Running the length
+              <strong className="text-black">US-19 Corridor</strong> — Running the length
               of the county from St. Petersburg north through Clearwater and Tarpon Springs,
               US-19 is the primary commercial artery for big-box retail, auto dealerships,
               and service-oriented businesses. Strip centers and outparcels along this
               corridor serve the county&apos;s dense suburban population.
             </p>
             <p>
-              <strong className="text-navy">Clearwater / Gulf-to-Bay</strong> — Downtown
+              <strong className="text-black">Clearwater / Gulf-to-Bay</strong> — Downtown
               Clearwater is seeing renewed investment driven by institutional buyers and
               redevelopment activity. The Gulf-to-Bay corridor connecting Clearwater to
               US-19 hosts a mix of medical office, retail, and flex space. The beach
@@ -170,28 +170,28 @@ export default function PinellasMarketPage() {
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Active Property Types</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Active Property Types</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Office</strong> — Downtown St. Petersburg leads
+              <strong className="text-black">Office</strong> — Downtown St. Petersburg leads
               office demand with creative, tech-oriented spaces. Gateway/Carillon handles
               traditional corporate users. Medical office is active countywide, fueled by
               the concentration of healthcare providers.
             </p>
             <p>
-              <strong className="text-navy">Retail</strong> — High population density
+              <strong className="text-black">Retail</strong> — High population density
               supports strong retail fundamentals. Well-located neighborhood centers rarely
               have extended vacancies. Tourism-adjacent retail on the beaches and in downtown
               St. Pete commands premium rents.
             </p>
             <p>
-              <strong className="text-navy">Hospitality</strong> — Hotels and hospitality
+              <strong className="text-black">Hospitality</strong> — Hotels and hospitality
               assets along Clearwater Beach and St. Pete Beach are among the highest-performing
               in Florida. Demand for boutique hotels and experiential hospitality concepts
               continues to grow in downtown St. Petersburg.
             </p>
             <p>
-              <strong className="text-navy">Industrial</strong> — Warehouse and flex space
+              <strong className="text-black">Industrial</strong> — Warehouse and flex space
               is extremely limited in Pinellas due to land constraints. Existing industrial
               buildings in areas like Pinellas Park and Largo carry significant value and
               rarely stay on the market long.
@@ -201,12 +201,12 @@ export default function PinellasMarketPage() {
       </section>
 
       {/* ---- Services ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             How Barrett Henry Serves This Market
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who
               provides commercial real estate brokerage services across Pinellas County.
@@ -232,9 +232,9 @@ export default function PinellasMarketPage() {
       </section>
 
       {/* ---- FAQ ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
             Pinellas County CRE — Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqs} />

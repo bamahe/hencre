@@ -130,10 +130,10 @@ export default function MarketsIndexPage() {
       {/* ---- Market cards grid ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-4 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-4 text-2xl font-bold text-black sm:text-3xl">
             Explore Our Markets
           </h2>
-          <p className="mb-10 max-w-3xl text-slate-brand">
+          <p className="mb-10 max-w-3xl text-[#666666]">
             Barrett Henry provides commercial real estate brokerage services
             across eight key counties in the Tampa Bay and Central Florida
             region. Each market has its own drivers, opportunities, and
@@ -146,28 +146,28 @@ export default function MarketsIndexPage() {
               <Link
                 key={market.slug}
                 href={`/markets/${market.slug}`}
-                className="group flex flex-col rounded-lg border border-slate-brand/10 bg-white p-6 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
+                className="group flex flex-col rounded-lg border border-[#666666]/10 bg-white p-6 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
               >
                 {/* Icon + county name */}
                 <div className="mb-3 flex items-center gap-2">
-                  <Building2 className="h-5 w-5 text-accent-blue" />
-                  <h3 className="text-lg font-bold text-navy group-hover:text-accent-blue">
+                  <Building2 className="h-5 w-5 text-black" />
+                  <h3 className="text-lg font-bold text-black group-hover:text-black">
                     {market.county}
                   </h3>
                 </div>
 
                 {/* City names */}
-                <p className="mb-2 text-sm font-semibold text-accent-blue">
+                <p className="mb-2 text-sm font-semibold text-black">
                   {market.city}
                 </p>
 
                 {/* Brief description */}
-                <p className="mb-4 line-clamp-3 text-sm text-slate-brand">
+                <p className="mb-4 line-clamp-3 text-sm text-[#666666]">
                   {market.description}
                 </p>
 
                 {/* Read more arrow */}
-                <span className="mt-auto flex items-center gap-1 text-sm font-semibold text-accent-blue">
+                <span className="mt-auto flex items-center gap-1 text-sm font-semibold text-black">
                   Explore market
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>

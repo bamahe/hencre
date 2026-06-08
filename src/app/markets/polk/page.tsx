@@ -101,8 +101,8 @@ export default function PolkMarketPage() {
       {/* ---- Market Overview ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Market Overview</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Market Overview</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Polk County is the geographic center of Florida and the bridge between the Tampa
               Bay and Orlando metropolitan areas. That strategic position, combined with the
@@ -133,31 +133,31 @@ export default function PolkMarketPage() {
       </section>
 
       {/* ---- Key Corridors ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Key CRE Corridors and Districts</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Key CRE Corridors and Districts</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">I-4 Industrial Corridor</strong> — The primary
+              <strong className="text-black">I-4 Industrial Corridor</strong> — The primary
               logistics artery stretching from Lakeland through Plant City and east toward
               Orlando. Large-format distribution centers, cold storage, and third-party
               logistics facilities cluster near interchanges. This corridor attracts
               national tenants who need central Florida distribution capability.
             </p>
             <p>
-              <strong className="text-navy">Downtown Lakeland</strong> — A revitalizing
+              <strong className="text-black">Downtown Lakeland</strong> — A revitalizing
               urban core with adaptive-reuse office, boutique retail, and restaurant space.
               Munn Park and the surrounding streets have become the focal point for small
               businesses and creative professionals. New mixed-use projects are adding
               density and foot traffic.
             </p>
             <p>
-              <strong className="text-navy">US-98 / Bartow Road</strong> — A busy commercial
+              <strong className="text-black">US-98 / Bartow Road</strong> — A busy commercial
               corridor connecting Lakeland to Bartow and points south. Strip retail, auto
               services, medical office, and flex/industrial space line this highway.
             </p>
             <p>
-              <strong className="text-navy">US-27 Corridor</strong> — Running north-south
+              <strong className="text-black">US-27 Corridor</strong> — Running north-south
               through the county, US-27 serves the communities of Haines City, Davenport,
               and Lake Wales. This corridor has seen growing retail and hospitality demand
               driven by tourism spillover from the theme park region to the east.
@@ -169,29 +169,29 @@ export default function PolkMarketPage() {
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">Active Property Types</h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Active Property Types</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-navy">Industrial &amp; Logistics</strong> — The
+              <strong className="text-black">Industrial &amp; Logistics</strong> — The
               dominant property type. Polk County offers the space and pricing that allow
               large-format users to build or lease facilities that would be cost-prohibitive
               in Tampa or Orlando. Distribution centers exceeding 100,000 square feet are
               common along the I-4 corridor.
             </p>
             <p>
-              <strong className="text-navy">Retail</strong> — Growth-driven retail follows
+              <strong className="text-black">Retail</strong> — Growth-driven retail follows
               the expanding residential footprint around Lakeland, Winter Haven, and the
               US-27 corridor. National credit tenants continue to enter the market as
               rooftop counts increase.
             </p>
             <p>
-              <strong className="text-navy">Office</strong> — Office demand is modest
+              <strong className="text-black">Office</strong> — Office demand is modest
               compared to the coastal markets, but downtown Lakeland&apos;s revitalization
               is creating new demand for professional and creative office space. Medical
               office is also active near hospitals and health system campuses.
             </p>
             <p>
-              <strong className="text-navy">Land</strong> — Large entitled and agricultural
+              <strong className="text-black">Land</strong> — Large entitled and agricultural
               parcels available for commercial conversion make Polk one of the most
               active land markets in Central Florida. Build-to-suit and speculative
               development opportunities abound along the interstate and major highway
@@ -202,12 +202,12 @@ export default function PolkMarketPage() {
       </section>
 
       {/* ---- Services ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             How Barrett Henry Serves This Market
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who works
               with logistics operators, retailers, investors, and developers in Polk County.
@@ -232,9 +232,9 @@ export default function PolkMarketPage() {
       </section>
 
       {/* ---- FAQ ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
             Polk County CRE — Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqs} />

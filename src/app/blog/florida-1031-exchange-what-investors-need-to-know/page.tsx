@@ -145,49 +145,49 @@ export default function Florida1031Page() {
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <p className="text-lg leading-relaxed text-slate-brand">
+        <p className="text-lg leading-relaxed text-[#666666]">
           Florida has become a magnet for real estate investors executing 1031 exchanges, and the reasons go beyond beaches and sunshine. The combination of no state income tax, strong population growth, and a diverse commercial real estate market makes Florida one of the most attractive destinations for exchange buyers nationwide. But there are Florida-specific considerations you need to understand. Here is what I tell my investor clients.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The No-Income-Tax Advantage</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The No-Income-Tax Advantage</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           This is the big one. Florida has no state income tax — and that includes no state-level capital gains tax on real estate transactions. If you are exchanging out of a state like California, New York, or New Jersey, where state capital gains rates can be substantial, moving your investment to Florida means you avoid that state tax bite entirely.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           However, be aware of &ldquo;clawback&rdquo; provisions. Some states (California is the most aggressive) may attempt to collect state capital gains tax on the deferred gain from the original property if you exchange into an out-of-state replacement. The rules are complex and state-specific, so work with a tax professional who understands multi-state exchange implications.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Exchanging Into Florida From Out of State</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Exchanging Into Florida From Out of State</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           One of the most common scenarios I work with is out-of-state investors selling property in a high-tax state and exchanging into Florida commercial real estate. The IRS does not restrict 1031 exchanges to the same state — you can sell in any state and buy in any other state, as long as both properties are held for investment or business use.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           For these buyers, I help identify replacement properties that meet their exchange criteria, investment goals, and timeline requirements. The 45-day identification window does not leave much room for leisurely property shopping — you need a broker who knows the market and can move quickly.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Florida Documentary Stamp Taxes</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Florida Documentary Stamp Taxes</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           While Florida does not have a state income tax, it does have documentary stamp taxes (&ldquo;doc stamps&rdquo;) on real estate transfers. The standard rate applies statewide, and some counties — including Miami-Dade — add a surtax. These transfer taxes apply to the replacement property purchase in a 1031 exchange just as they would in any regular purchase.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Doc stamps are a closing cost, not an income tax, so they cannot be deferred through the exchange. Budget for them when evaluating your all-in acquisition cost.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Property Tax Considerations</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Property Tax Considerations</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Florida&apos;s property tax system has some nuances that affect exchange buyers:
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>No homestead for investment property.</strong> Florida&apos;s homestead exemption and Save Our Homes cap on assessed value increases apply only to primary residences. Investment properties are assessed at fair market value, and a purchase often triggers a reassessment.</li>
           <li><strong>Tax reassessment on sale.</strong> When you buy a property, the county appraiser will likely reassess it based on the purchase price. If the property was previously assessed below market value, expect a property tax increase.</li>
           <li><strong>Tangible personal property tax.</strong> Florida taxes business tangible personal property (fixtures, equipment, furniture) separately. If your replacement property includes significant personal property, that creates an additional tax obligation.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Florida Property Types Popular for Exchanges</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Florida Property Types Popular for Exchanges</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Exchange buyers coming to Florida tend to gravitate toward certain property types:
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>NNN retail with national tenants.</strong> Freestanding buildings leased to pharmacy chains, quick-service restaurants, dollar stores, and auto parts retailers are popular because they offer predictable income with minimal management.</li>
           <li><strong>Small multi-tenant retail.</strong> Strip centers with diverse tenant mixes in growing suburban corridors.</li>
           <li><strong>Industrial and warehouse.</strong> Florida&apos;s logistics sector is strong, and industrial properties offer attractive returns with relatively low maintenance.</li>
@@ -195,8 +195,8 @@ export default function Florida1031Page() {
           <li><strong>Multifamily.</strong> While this article focuses on commercial, multifamily properties also qualify for 1031 exchanges and are extremely popular in Florida.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Timing and Strategy Tips</h2>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <h2 className="mt-10 text-2xl font-bold text-black">Timing and Strategy Tips</h2>
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Start early.</strong> Begin working with a Florida broker before you list your relinquished property. Understanding the replacement market helps you price and time your sale.</li>
           <li><strong>Identify more than one property.</strong> The Three-Property Rule lets you identify up to three replacement properties. Use all three slots — deals fall through, and you need backup options.</li>
           <li><strong>Factor in Florida insurance costs.</strong> Property insurance in Florida — especially for coastal properties — can be significantly higher than in other states. Build this into your pro forma.</li>
@@ -204,14 +204,14 @@ export default function Florida1031Page() {
           <li><strong>Coordinate your team.</strong> You need a qualified intermediary, a Florida-licensed broker, a real estate attorney familiar with Florida law, and a CPA who understands multi-state exchange implications. Get everyone on the same page early.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Bottom Line</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Florida is one of the best states in the country for 1031 exchange buyers — no state income tax, strong market fundamentals, and a deep inventory of investment-grade commercial properties. But the exchange process demands careful planning, strict adherence to deadlines, and a team that knows the Florida market. If you are considering exchanging into Florida, I can help you identify replacement properties, evaluate the numbers, and close within your timeline.
         </p>
       </article>
 
       <div className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
-        <h2 className="mb-6 text-2xl font-bold text-navy">Frequently Asked Questions</h2>
+        <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
       </div>
       <FAQAccordion items={faqItems} />
 

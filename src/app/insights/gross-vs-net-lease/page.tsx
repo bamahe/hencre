@@ -145,92 +145,92 @@ export default function GrossVsNetPage() {
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <p className="text-lg leading-relaxed text-slate-brand">
+        <p className="text-lg leading-relaxed text-[#666666]">
           When a landlord quotes you a rate on commercial space, the number itself does not tell you much unless you know the lease structure behind it. A $20 per square foot gross lease and a $12 per square foot NNN lease might result in almost the same total occupancy cost — but the risk allocation is completely different. Understanding these structures is critical for both tenants and landlords. Let me break down the differences.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Gross Lease (Full-Service Lease)</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Gross Lease (Full-Service Lease)</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           In a gross lease, you pay one all-inclusive rent amount. The landlord is responsible for all operating expenses — property taxes, insurance, maintenance, common area costs, and sometimes even utilities. What you see is what you pay.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Advantages for tenants:</strong> Simplicity and predictability. You know exactly what your monthly cost is. No surprises from tax increases or insurance premium hikes.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Disadvantages:</strong> The rent is higher because the landlord builds in a cushion for expected expenses — and often adds a margin for unexpected ones. You are paying for convenience, and you have no visibility into actual costs.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Common in:</strong> Multi-tenant office buildings, co-working spaces, and medical offices. Full-service gross is the standard for Class A office.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Net Lease</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Net Lease</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Net leases shift some or all operating expenses from the landlord to the tenant. There are several flavors:
         </p>
 
-        <h3 className="mt-6 text-xl font-bold text-navy">Single Net (N)</h3>
-        <p className="mt-3 text-slate-brand leading-relaxed">
+        <h3 className="mt-6 text-xl font-bold text-black">Single Net (N)</h3>
+        <p className="mt-3 text-[#666666] leading-relaxed">
           The tenant pays base rent plus property taxes. The landlord covers insurance and maintenance. This structure is relatively uncommon on its own.
         </p>
 
-        <h3 className="mt-6 text-xl font-bold text-navy">Double Net (NN)</h3>
-        <p className="mt-3 text-slate-brand leading-relaxed">
+        <h3 className="mt-6 text-xl font-bold text-black">Double Net (NN)</h3>
+        <p className="mt-3 text-[#666666] leading-relaxed">
           The tenant pays base rent plus property taxes and insurance. The landlord covers maintenance and common area costs. More common than single net, but still less prevalent than NNN.
         </p>
 
-        <h3 className="mt-6 text-xl font-bold text-navy">Triple Net (NNN)</h3>
-        <p className="mt-3 text-slate-brand leading-relaxed">
+        <h3 className="mt-6 text-xl font-bold text-black">Triple Net (NNN)</h3>
+        <p className="mt-3 text-[#666666] leading-relaxed">
           The tenant pays base rent plus property taxes, insurance, and common area maintenance (CAM). The landlord&apos;s responsibility is typically limited to structural and roof repairs (though absolute NNN leases shift even those to the tenant).
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Advantages for tenants:</strong> Lower base rent and full transparency into what you are paying for. If expenses decrease, you benefit directly.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Disadvantages:</strong> Expense variability. Property taxes, insurance premiums, and maintenance costs can fluctuate year to year. Without a CAM cap, your costs could rise significantly.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Common in:</strong> Retail strip centers, standalone retail, industrial/warehouse properties, and freestanding commercial buildings.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Modified Gross Lease</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Modified Gross Lease</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           The modified gross lease is the middle ground. Landlord and tenant negotiate which expenses each party covers. A typical arrangement might have the landlord pay property taxes and insurance while the tenant pays utilities, janitorial, and their share of CAM. The specifics are entirely negotiable.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Many modified gross leases include an <strong>expense stop</strong> — a base year amount for expenses. The landlord covers expenses up to that amount, and the tenant pays any increases above it. This protects both parties: the tenant has cost predictability in year one, and the landlord is protected from absorbing all future cost increases.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Side-by-Side Comparison</h2>
+        <h2 className="mt-10 text-2xl font-bold text-black">Side-by-Side Comparison</h2>
         <div className="my-6 overflow-x-auto">
-          <table className="w-full border-collapse text-sm text-slate-brand">
+          <table className="w-full border-collapse text-sm text-[#666666]">
             <thead>
-              <tr className="border-b-2 border-navy/20">
-                <th className="py-3 pr-4 text-left font-bold text-navy">Expense</th>
-                <th className="py-3 pr-4 text-left font-bold text-navy">Gross</th>
-                <th className="py-3 pr-4 text-left font-bold text-navy">Mod. Gross</th>
-                <th className="py-3 text-left font-bold text-navy">NNN</th>
+              <tr className="border-b-2 border-black/20">
+                <th className="py-3 pr-4 text-left font-bold text-black">Expense</th>
+                <th className="py-3 pr-4 text-left font-bold text-black">Gross</th>
+                <th className="py-3 pr-4 text-left font-bold text-black">Mod. Gross</th>
+                <th className="py-3 text-left font-bold text-black">NNN</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-b border-slate-brand/10">
+              <tr className="border-b border-[#666666]/10">
                 <td className="py-3 pr-4 font-semibold">Property Taxes</td>
                 <td className="py-3 pr-4">Landlord</td>
                 <td className="py-3 pr-4">Negotiated</td>
                 <td className="py-3">Tenant</td>
               </tr>
-              <tr className="border-b border-slate-brand/10">
+              <tr className="border-b border-[#666666]/10">
                 <td className="py-3 pr-4 font-semibold">Insurance</td>
                 <td className="py-3 pr-4">Landlord</td>
                 <td className="py-3 pr-4">Negotiated</td>
                 <td className="py-3">Tenant</td>
               </tr>
-              <tr className="border-b border-slate-brand/10">
+              <tr className="border-b border-[#666666]/10">
                 <td className="py-3 pr-4 font-semibold">CAM</td>
                 <td className="py-3 pr-4">Landlord</td>
                 <td className="py-3 pr-4">Negotiated</td>
                 <td className="py-3">Tenant</td>
               </tr>
-              <tr className="border-b border-slate-brand/10">
+              <tr className="border-b border-[#666666]/10">
                 <td className="py-3 pr-4 font-semibold">Utilities</td>
                 <td className="py-3 pr-4">Landlord</td>
                 <td className="py-3 pr-4">Usually Tenant</td>
@@ -246,32 +246,32 @@ export default function GrossVsNetPage() {
           </table>
         </div>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">How This Affects Your Total Cost</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">How This Affects Your Total Cost</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Here is what catches people off guard: the total occupancy cost under a gross lease and a NNN lease for the same space is often very similar. The difference is not how much you pay — it is how you pay it, who controls the costs, and how predictable your expenses are.
         </p>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <p className="mt-4 text-[#666666] leading-relaxed">
           A landlord quoting $18/SF gross is building in their estimate of operating expenses. A landlord quoting $12/SF NNN plus $6/SF in estimated expenses is giving you the same total — but with transparency into where your money goes. The NNN tenant can audit those expenses. The gross tenant cannot.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">Which Structure Should You Choose?</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">Which Structure Should You Choose?</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           The right lease structure depends on your priorities:
         </p>
-        <ul className="mt-4 list-disc pl-6 text-slate-brand leading-relaxed space-y-2">
+        <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Choose gross</strong> if you want maximum simplicity and budget certainty.</li>
           <li><strong>Choose NNN</strong> if you want cost transparency, lower base rent, and are comfortable with some variability in operating expenses.</li>
           <li><strong>Choose modified gross</strong> if you want a balance — some predictability with some transparency, and room to negotiate the split.</li>
         </ul>
 
-        <h2 className="mt-10 text-2xl font-bold text-navy">The Bottom Line</h2>
-        <p className="mt-4 text-slate-brand leading-relaxed">
+        <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
           Do not compare lease rates across different structures without understanding what is included. A $14 NNN rate is not cheaper than a $20 gross rate until you add up the total occupancy cost. I always help my clients calculate the all-in cost before making decisions — because the base rent is only part of the story.
         </p>
       </article>
 
       <div className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
-        <h2 className="mb-6 text-2xl font-bold text-navy">Frequently Asked Questions</h2>
+        <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
       </div>
       <FAQAccordion items={faqItems} />
 

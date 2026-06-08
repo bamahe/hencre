@@ -47,12 +47,12 @@ export default function TenantRepPage() {
 
       {/* ---- Breadcrumbs ---- */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-slate-brand">
+        <ol className="flex text-sm text-[#666666]">
           <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
           <li className="mx-2">/</li>
           <li><Link href="/services" className="hover:underline no-underline">Services</Link></li>
           <li className="mx-2">/</li>
-          <li className="font-semibold text-navy" aria-current="page">Tenant Representation</li>
+          <li className="font-semibold text-black" aria-current="page">Tenant Representation</li>
         </ol>
       </nav>
 
@@ -66,7 +66,7 @@ export default function TenantRepPage() {
       {/* ---- Service description ---- */}
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">Your Space, Your Terms</h2>
-        <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
             As a REMAX Commercial broker, Barrett brings global network resources to every tenant representation engagement in Florida. Finding commercial space is not like browsing Zillow. You need a broker who
             understands your business requirements, knows the local market, and can
@@ -98,7 +98,7 @@ export default function TenantRepPage() {
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">Who This Is For</h2>
-          <ul className="mt-6 grid gap-4 text-slate-brand sm:grid-cols-2">
+          <ul className="mt-6 grid gap-4 text-[#666666] sm:grid-cols-2">
             {[
               "Business owners looking for office, retail, or warehouse space",
               "Companies relocating to or within Florida",
@@ -108,7 +108,7 @@ export default function TenantRepPage() {
               "Startups looking for their first commercial location",
             ].map((item) => (
               <li key={item} className="flex items-start gap-2">
-                <span className="mt-1 text-accent-blue font-bold">&#10003;</span>
+                <span className="mt-1 text-black font-bold">&#10003;</span>
                 <span>{item}</span>
               </li>
             ))}
@@ -130,12 +130,12 @@ export default function TenantRepPage() {
               { step: "Lease Execution", desc: "Attorney coordination, final review, and execution. You move in." },
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-4">
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-navy text-sm font-bold text-white">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#1a1a1a] text-sm font-bold text-white">
                   {i + 1}
                 </span>
                 <div>
-                  <p className="font-bold text-navy">{item.step}</p>
-                  <p className="mt-1 text-slate-brand">{item.desc}</p>
+                  <p className="font-bold text-black">{item.step}</p>
+                  <p className="mt-1 text-[#666666]">{item.desc}</p>
                 </div>
               </li>
             ))}
@@ -147,7 +147,7 @@ export default function TenantRepPage() {
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">Why Work with Me</h2>
-          <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-brand">
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
               I bring 23+ years of real estate experience to every tenant engagement.
               I know what fair market rents look like across Florida, I know which
@@ -163,7 +163,7 @@ export default function TenantRepPage() {
       </section>
 
       {/* ---- CTA ---- */}
-      <section className="bg-navy px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Ready to Find Your Space?
@@ -175,7 +175,7 @@ export default function TenantRepPage() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
               href="/contact"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-[#0a2441] no-underline transition-colors hover:bg-remax-gray hover:no-underline"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
               Contact Barrett
             </Link>
@@ -192,12 +192,12 @@ export default function TenantRepPage() {
       {/* ---- Related services ---- */}
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-navy">Related Services</h3>
+          <h3 className="text-lg font-bold text-black">Related Services</h3>
           <div className="mt-4 flex flex-wrap gap-3">
-            <Link href="/services/landlord-leasing" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Landlord Leasing</Link>
-            <Link href="/services/cre-valuation" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
-            <Link href="/commercial/office-space" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Office Space</Link>
-            <Link href="/commercial/retail-space" className="rounded-lg border border-gray-200 px-4 py-2 text-sm font-semibold text-navy no-underline hover:bg-gray-50 hover:no-underline">Retail Space</Link>
+            <Link href="/services/landlord-leasing" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Landlord Leasing</Link>
+            <Link href="/services/cre-valuation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
+            <Link href="/commercial/office-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Office Space</Link>
+            <Link href="/commercial/retail-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Retail Space</Link>
           </div>
         </div>
       </section>

@@ -356,22 +356,22 @@ export default async function IdentityPage({
       {/* ---- What This Role Means ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             What Is a {role.roleTitle}?
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>{role.roleDescription}</p>
           </div>
         </div>
       </section>
 
       {/* ---- CRE Landscape in This City ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             Commercial Real Estate in {city.name}
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>{city.landscape}</p>
             <p>{city.differentiator}</p>
           </div>
@@ -381,22 +381,22 @@ export default async function IdentityPage({
       {/* ---- Key Corridors ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             Key Commercial Corridors in {city.name}
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>{city.corridors}</p>
           </div>
         </div>
       </section>
 
       {/* ---- Why Barrett ---- */}
-      <section className="bg-warm-white px-4 py-16 sm:px-6 lg:px-8">
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
             Why Work with Barrett Henry in {city.name}?
           </h2>
-          <div className="space-y-5 text-slate-brand leading-relaxed">
+          <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>{city.whyBarrett}</p>
             <p>
               Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX Collective,
@@ -421,43 +421,43 @@ export default async function IdentityPage({
       {/* ---- Related links ---- */}
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-6 text-xl font-bold text-navy sm:text-2xl">
+          <h2 className="mb-6 text-xl font-bold text-black sm:text-2xl">
             More CRE Resources
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
             <Link
               href={`/markets/${city.countySlug}`}
-              className="rounded-lg border border-slate-brand/10 bg-white p-5 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
+              className="rounded-lg border border-[#666666]/10 bg-white p-5 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
             >
-              <span className="font-semibold text-navy">{city.county} County Market</span>
-              <span className="mt-1 block text-sm text-slate-brand">
+              <span className="font-semibold text-black">{city.county} County Market</span>
+              <span className="mt-1 block text-sm text-[#666666]">
                 Full county CRE market overview
               </span>
             </Link>
             <Link
               href="/markets"
-              className="rounded-lg border border-slate-brand/10 bg-white p-5 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
+              className="rounded-lg border border-[#666666]/10 bg-white p-5 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
             >
-              <span className="font-semibold text-navy">All Markets</span>
-              <span className="mt-1 block text-sm text-slate-brand">
+              <span className="font-semibold text-black">All Markets</span>
+              <span className="mt-1 block text-sm text-[#666666]">
                 Explore all 8 county markets
               </span>
             </Link>
             <Link
               href="/services"
-              className="rounded-lg border border-slate-brand/10 bg-white p-5 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
+              className="rounded-lg border border-[#666666]/10 bg-white p-5 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
             >
-              <span className="font-semibold text-navy">Our Services</span>
-              <span className="mt-1 block text-sm text-slate-brand">
+              <span className="font-semibold text-black">Our Services</span>
+              <span className="mt-1 block text-sm text-[#666666]">
                 Leasing, sales, investment, and more
               </span>
             </Link>
             <Link
               href="/contact"
-              className="rounded-lg border border-slate-brand/10 bg-white p-5 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
+              className="rounded-lg border border-[#666666]/10 bg-white p-5 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
             >
-              <span className="font-semibold text-navy">Contact Barrett</span>
-              <span className="mt-1 block text-sm text-slate-brand">
+              <span className="font-semibold text-black">Contact Barrett</span>
+              <span className="mt-1 block text-sm text-[#666666]">
                 (813) 733-7907 or fill out the form
               </span>
             </Link>
