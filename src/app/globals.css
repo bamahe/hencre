@@ -28,38 +28,31 @@
   --font-sans: var(--font-inter);
 }
 
-/* Base styles — no dark mode */
-body {
-  background-color: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-inter), "Inter", system-ui, -apple-system, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* Base styles — using @layer so Tailwind utilities can override */
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-inter), "Inter", system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-/* Smooth scrolling for anchor links */
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-/* Focus styles for accessibility */
-*:focus-visible {
-  outline: 2px solid #000000;
-  outline-offset: 2px;
-}
+  *:focus-visible {
+    outline: 2px solid #000000;
+    outline-offset: 2px;
+  }
 
-/* Link defaults */
-a {
-  color: #000000;
-  text-decoration: none;
-}
+  /* Default link color — Tailwind text-white etc. will override on dark backgrounds */
+  a {
+    text-decoration: none;
+  }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/* Heading defaults */
-h1, h2, h3, h4, h5, h6 {
-  color: #000000;
-  font-weight: 700;
+  a:hover {
+    text-decoration: underline;
+  }
 }
