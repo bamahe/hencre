@@ -112,10 +112,14 @@ export default function ReferADealPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">How Referrals Work</h2>
         <p className="mt-4 text-lg leading-relaxed text-[#666666]">
           You are great at what you do — but commercial real estate is a different
-          animal. Powered by the REMAX Commercial referral network — the largest in real estate — your
-          client gets institutional-quality CRE service while you earn a competitive referral
-          fee at closing. If your client needs office space, wants to sell a retail center, or
-          is looking at an investment property, you do not have to turn them away.
+          animal. Powered by the REMAX Commercial referral network — the largest in
+          real estate, spanning 145,000+ agents across 120+ countries — your client
+          gets institutional-quality CRE service while you earn a competitive referral
+          fee at closing. I use MAXRefer, REMAX&apos;s AI-powered referral matching
+          platform, to ensure every referral lands with the right specialist for the
+          market and property type. If your client needs office space, wants to sell a
+          retail center, or is looking at an investment property, you do not have to
+          turn them away.
         </p>
 
         <ol className="mt-8 space-y-4">

@@ -255,6 +255,7 @@ export default function HomePage() {
         subtitle="REMAX Commercial broker based in Tampa Bay, serving commercial clients across all of Florida. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world's most recognized real estate brand."
         ctaText="Get Started"
         ctaHref="/contact"
+        showVideo
       />
 
       {/* ---- REMAX Commercial Network section (first after hero) ---- */}
@@ -273,7 +274,7 @@ export default function HomePage() {
           <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {/* Stat card: Global Presence */}
             <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
-              <p className="text-3xl font-bold text-white">110+</p>
+              <p className="text-3xl font-bold text-white">120+</p>
               <p className="mt-1 text-sm font-semibold text-white">Countries &amp; Territories</p>
               <p className="mt-2 text-sm text-white/60">
                 REMAX operates in more countries than any other real estate brand on the planet.
@@ -282,7 +283,7 @@ export default function HomePage() {
 
             {/* Stat card: Agent Network */}
             <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
-              <p className="text-3xl font-bold text-white">140,000+</p>
+              <p className="text-3xl font-bold text-white">145,000+</p>
               <p className="mt-1 text-sm font-semibold text-white">Agents Worldwide</p>
               <p className="mt-2 text-sm text-white/60">
                 The largest network of real estate professionals — including commercial specialists across every major market.
@@ -303,7 +304,7 @@ export default function HomePage() {
             <p>
               REMAX Commercial is a division of the world&apos;s most recognized real estate
               brand. Founded in 1973, REMAX has spent over 50 years building a network
-              that spans 110+ countries and territories — giving commercial clients access
+              that spans 120+ countries and territories — giving commercial clients access
               to listings, market data, and referral relationships that no independent
               brokerage can match.
             </p>
@@ -311,8 +312,10 @@ export default function HomePage() {
               REMAX Commercial agents specialize exclusively in commercial property —
               office, retail, industrial, multifamily, land, hospitality, and specialty
               assets like marinas. Barrett brings the full resources of this global network
-              to every Florida deal, including REMAX Hall of Fame recognition and access to
-              the most powerful referral system in commercial real estate.
+              to every Florida deal, including MAXRefer for AI-powered referral matching
+              across 145,000+ agents, RealNex Marketplace for commercial listing exposure,
+              and REMAX Hall of Fame recognition backed by the most powerful referral
+              system in commercial real estate.
             </p>
           </div>
 

@@ -138,7 +138,7 @@ const FAQS = [
   },
   {
     q: "How does the REMAX Commercial referral network work?",
-    a: "The REMAX referral network is the largest in real estate — connecting 140,000+ agents across 110+ countries. When you contact Barrett Henry about a commercial deal in any Florida market, he identifies the best REMAX Commercial agent for that area and property type, makes the introduction, and stays involved to ensure quality service throughout the transaction. You get local expertise backed by a global network, with Barrett as your single point of contact.",
+    a: "The REMAX referral network is the largest in real estate — connecting 145,000+ agents across 120+ countries. When you contact Barrett Henry about a commercial deal in any Florida market, he identifies the best REMAX Commercial agent for that area and property type, makes the introduction, and stays involved to ensure quality service throughout the transaction. You get local expertise backed by a global network, with Barrett as your single point of contact.",
   },
 ] as const;
 

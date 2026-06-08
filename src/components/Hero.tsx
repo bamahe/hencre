@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 /* -------------------------------------------------------------------
- * Hero — background video with dark overlay, white text, white CTA.
- * Video from collectiverr.com. Falls back to solid dark background.
- * Server component.
+ * Hero — dark background with white text.
+ * Video background only on home page (pass showVideo prop).
+ * All other pages get a clean solid dark background.
  * ----------------------------------------------------------------- */
 
 interface HeroProps {
@@ -15,27 +15,33 @@ interface HeroProps {
   ctaText?: string;
   /** CTA button destination */
   ctaHref?: string;
+  /** Show background video — only use on the home page */
+  showVideo?: boolean;
 }
 
-export default function Hero({ title, subtitle, ctaText, ctaHref }: HeroProps) {
+export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = false }: HeroProps) {
   return (
-    <section className="relative overflow-hidden bg-black">
-      {/* Background video */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 h-full w-full object-cover"
-      >
-        <source src="/hero-video.mp4" type="video/mp4" />
-      </video>
-
-      {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 bg-black/60" />
+    <section className="relative overflow-hidden bg-[#1a1a1a]">
+      {/* Background video — home page only */}
+      {showVideo && (
+        <>
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 h-full w-full object-cover"
+          >
+            <source src="/remax-commercial-sizzle.webm" type="video/webm" />
+            <source src="/hero-video.mp4" type="video/mp4" />
+          </video>
+          {/* Dark overlay for text readability */}
+          <div className="absolute inset-0 bg-black/60" />
+        </>
+      )}
 
       {/* Content */}
-      <div className="relative z-10 px-4 py-24 text-center sm:py-32 lg:py-40">
+      <div className="relative z-10 px-4 py-20 text-center sm:py-28 lg:py-32">
         <div className="mx-auto max-w-3xl">
           <h1 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
             {title}

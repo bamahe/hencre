@@ -128,24 +128,28 @@ export default function AboutPage() {
               The REMAX name is the most recognized in real estate worldwide — and
               REMAX Commercial is the division built specifically for commercial
               property professionals. Founded in 1973, REMAX has spent over 50 years
-              growing into a network of 140,000+ agents across 9,000+ offices in 110+
+              growing into a network of 145,000+ agents across 9,000+ offices in 120+
               countries and territories. That is not just brand recognition — it is
               infrastructure.
             </p>
             <p>
               I chose REMAX because the network gives my clients access to tools,
               market data, and referral relationships that independent brokerages
-              simply cannot match. When you work with a REMAX Commercial agent, you
-              tap into the largest real estate referral network on the planet. That
-              means more exposure for your listings, more off-market opportunities for
-              buyers, and faster deals for everyone.
+              simply cannot match. I use MAXRefer — an AI-powered platform that
+              matches referrals across the entire REMAX network — to connect clients
+              with the right specialist in any market. RealNex Marketplace gives my
+              listings exposure to qualified buyers and tenants nationwide. And REMAX
+              University keeps me sharp with commercial-focused training, including
+              discounted CCIM courses and monthly Commercial Pro sessions.
             </p>
             <p>
-              REMAX Commercial agents handle the full spectrum of commercial property
-              types — office, retail, industrial, multifamily, land, hospitality, and
-              specialty assets. The specialization matters. Commercial real estate is
+              Unlike traditional CRE firms that restrict brokers to a single asset
+              class, the REMAX Commercial model gives me the flexibility to handle
+              any property type — office, retail, industrial, multifamily, land,
+              hospitality, and specialty assets. Commercial real estate is
               not residential with bigger numbers — it requires different skills,
-              different analysis, and a different mindset.
+              different analysis, and a different mindset. The REMAX model attracts
+              brokers who think that way.
             </p>
             <p>
               Beyond business, REMAX has maintained a 32+ year partnership with

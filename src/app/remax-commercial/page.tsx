@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title:
     "REMAX Commercial Florida — Barrett Henry, Broker Associate | REMAX Commercial Florida",
   description:
-    "REMAX Commercial Florida — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Access 140,000+ agents across 110+ countries. Commercial real estate services including tenant rep, landlord leasing, investment sales, and dispositions across all 67 Florida counties.",
+    "REMAX Commercial Florida — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Access 145,000+ agents across 120+ countries. Commercial real estate services including tenant rep, landlord leasing, investment sales, and dispositions across all 67 Florida counties.",
   keywords: [
     "REMAX Commercial Florida",
     "REMAX Commercial",
@@ -37,11 +37,11 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "What is REMAX Commercial?",
-    a: "REMAX Commercial is the commercial real estate division of REMAX, the world's most recognized real estate brand. Founded in 1973, REMAX Commercial provides agents with specialized training, tools, and a global referral network focused exclusively on commercial property transactions — including office, retail, industrial, multifamily, land, and hospitality assets.",
+    a: "REMAX Commercial is the commercial real estate division of REMAX, the world's most recognized real estate brand. Led by Executive Director Kristie Kimnach, REMAX Commercial provides agents with specialized training, tools like MAXRefer and RealNex Marketplace, and a global referral network of 145,000+ agents across 120+ countries — focused exclusively on commercial property transactions including office, retail, industrial, multifamily, land, and hospitality assets.",
   },
   {
     q: "How is REMAX Commercial different from other commercial real estate brokerages?",
-    a: "REMAX Commercial agents operate within the largest real estate network on the planet — 140,000+ agents across 9,000+ offices in 110+ countries and territories. This gives REMAX Commercial agents access to a referral network, listing exposure, and market data that boutique or regional brokerages cannot match. Each REMAX office is independently owned and operated, which means you get local expertise backed by global infrastructure.",
+    a: "REMAX Commercial agents operate within the largest real estate network on the planet — 145,000+ agents across 9,000+ offices in 120+ countries and territories. Unlike traditional CRE firms that restrict brokers to specific asset classes, REMAX Commercial brokers are generalists who can sell or lease any property type. Each office is independently owned and operated, and REMAX does not dictate commission splits — offices have the freedom to set what works for them. Agents also get access to MAXRefer (AI-powered referral matching), RealNex Marketplace, REMAX University, and discounted CCIM courses.",
   },
   {
     q: "Does REMAX Commercial operate in Florida?",
@@ -57,7 +57,7 @@ const FAQS = [
   },
   {
     q: "What is the REMAX Commercial referral network?",
-    a: "The REMAX referral network is the largest in real estate — connecting 140,000+ agents across 110+ countries. When a REMAX Commercial agent in Florida has a client looking to buy, sell, or lease commercial property in another market, they can refer that client to a local REMAX Commercial specialist. This ensures clients get local expertise no matter where the deal is, while maintaining continuity through their trusted agent.",
+    a: "The REMAX referral network is the largest in real estate — connecting 145,000+ agents across 120+ countries. REMAX Commercial uses MAXRefer, an AI-powered platform that matches referrals across the entire network based on agent specialization and market expertise. When a REMAX Commercial agent in Florida has a client looking to buy, sell, or lease commercial property in another market, MAXRefer identifies the best local specialist. Agents also pitch listings live on the quarterly Global Deal Call — recent calls have featured opportunities like a $120M island off Tanzania. This ensures clients get local expertise no matter where the deal is.",
   },
   {
     q: "Is Barrett Henry a REMAX Commercial agent?",
@@ -93,7 +93,7 @@ const schema = {
       alternateName: "REMAX Commercial Florida",
       url: "https://www.remaxcommercial.com",
       description:
-        "REMAX Commercial is the commercial real estate division of REMAX, the world's most recognized real estate brand. Founded in 1973 with 140,000+ agents across 110+ countries.",
+        "REMAX Commercial is the commercial real estate division of REMAX, the world's most recognized real estate brand. Founded in 1973 with 145,000+ agents across 120+ countries.",
       foundingDate: "1973",
       parentOrganization: {
         "@type": "Organization",
@@ -197,9 +197,12 @@ export default function RemaxCommercialPage() {
           <p>
             REMAX Commercial is a division of REMAX — the world&apos;s most
             recognized real estate brand. Since its founding in Denver, Colorado
-            in 1973, REMAX has grown into a global powerhouse with 140,000+ agents
-            operating out of 9,000+ offices across 110+ countries and territories.
-            No other real estate brand comes close to that reach.
+            in 1973, REMAX has grown into a global powerhouse with 145,000+ agents
+            operating out of 9,000+ offices across 120+ countries and territories.
+            No other real estate brand comes close to that reach. Led by Executive
+            Director Kristie Kimnach, REMAX Commercial attracts what she calls
+            &ldquo;self-driven professionals with an entrepreneurial spirit who
+            want to be a part of a like-minded network.&rdquo;
           </p>
           <p>
             The REMAX Commercial division was created to bring that same level of
@@ -263,9 +266,9 @@ export default function RemaxCommercialPage() {
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { stat: "50+", label: "Years in Business", detail: "Founded 1973" },
-              { stat: "140,000+", label: "Agents Worldwide", detail: "Largest agent network" },
+              { stat: "145,000+", label: "Agents Worldwide", detail: "Largest agent network" },
               { stat: "9,000+", label: "Offices Globally", detail: "Independently owned" },
-              { stat: "110+", label: "Countries & Territories", detail: "Global reach" },
+              { stat: "120+", label: "Countries & Territories", detail: "Global reach" },
             ].map((item) => (
               <div
                 key={item.label}
@@ -288,27 +291,89 @@ export default function RemaxCommercialPage() {
           </h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
-              Not every agent who handles a commercial deal is a commercial real
-              estate specialist. REMAX Commercial agents are. They receive
-              commercial-specific training, have access to commercial listing
-              platforms and market analytics, and operate within a network where
-              commercial expertise is valued and rewarded.
+              At most large CRE firms, brokers are restricted to a single asset
+              class — you get an office broker or a retail broker, but not both.
+              REMAX Commercial is different. Each office is independently owned and
+              operated, which means brokers choose their own asset classes and
+              serve clients across the full spectrum of commercial property types.
+              REMAX does not dictate commission splits either — offices have the
+              freedom to set what works for them. The result is a network of
+              entrepreneurial brokers who are invested in their own success.
             </p>
             <p>
-              REMAX operates on a model that attracts top producers. Agents pay for
-              their desk and keep the highest splits in the industry — which means
-              only serious, productive agents stick around. The result is a network
-              of highly motivated professionals who treat real estate as a career,
-              not a hobby.
+              REMAX Commercial agents receive commercial-specific training through
+              REMAX University, which is adding 13 new commercial courses in 2026.
+              They also have access to discounted CCIM (Certified Commercial
+              Investment Member) courses and alignment with the Realtors Land
+              Institute (RLI). The monthly Commercial Pro series delivers live
+              educational sessions, keeping agents sharp on market trends and deal
+              structures.
             </p>
             <p>
               The referral network is where REMAX Commercial truly separates itself.
-              A traditional independent broker can only serve their local market. A
-              REMAX Commercial agent can connect clients with specialists in any
-              market, any state, any country — and maintain a relationship throughout
-              the process. That is how multi-market investors build portfolios, and
-              it is how REMAX Commercial agents deliver value that others cannot.
+              MAXRefer — an AI-powered referral matching platform — connects agents
+              across the entire 145,000+ agent network based on specialization and
+              market expertise. RealNex Marketplace gives agents a comprehensive
+              platform to search, list, and transact commercial properties. And the
+              quarterly Global Deal Call lets brokers pitch listings live to the
+              entire network — recent calls have featured everything from Florida
+              retail centers to a $120M island off Tanzania.
             </p>
+            <p>
+              REMAX Commercial agents also benefit from major industry events —
+              the annual REMAX R4 conference in Las Vegas and the REMAX Global
+              Commercial Symposium held each April bring together commercial
+              brokers from around the world to share deals, build relationships,
+              and sharpen their edge.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Tools & Resources ---- */}
+      <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="text-center text-2xl font-bold text-white sm:text-3xl">
+            REMAX Commercial Tools &amp; Resources
+          </h2>
+          <p className="mx-auto mt-3 max-w-2xl text-center text-white/60">
+            Barrett has access to every tool in the REMAX Commercial ecosystem.
+          </p>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                title: "MAXRefer",
+                desc: "AI-powered referral matching across the entire REMAX network. Connects clients with the right specialist based on market and asset class.",
+              },
+              {
+                title: "RealNex Marketplace",
+                desc: "Comprehensive commercial marketing platform for search, list, and transact — putting listings in front of qualified buyers and tenants.",
+              },
+              {
+                title: "REMAX University",
+                desc: "Commercial-focused training courses with 13 new programs launching in 2026. Continuous education that keeps agents ahead of the market.",
+              },
+              {
+                title: "Commercial Pro Series",
+                desc: "Monthly live educational sessions covering market trends, deal structures, and commercial best practices.",
+              },
+              {
+                title: "CCIM & RLI Access",
+                desc: "Discounted CCIM courses and alignment with the Realtors Land Institute — advanced commercial certifications at reduced cost.",
+              },
+              {
+                title: "Global Deal Call",
+                desc: "Quarterly live pitch sessions where brokers present listings to the entire REMAX network — from local retail to international assets.",
+              },
+            ].map((tool) => (
+              <div
+                key={tool.title}
+                className="rounded-lg border border-white/10 bg-white/5 p-6"
+              >
+                <h3 className="text-lg font-bold text-white">{tool.title}</h3>
+                <p className="mt-2 text-sm text-white/70">{tool.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -345,10 +410,14 @@ export default function RemaxCommercialPage() {
             <p>
               When you work with Barrett, you are not just hiring a broker — you
               are accessing the entire REMAX Commercial ecosystem. Listings get
-              exposure across the REMAX network. Buyers get access to off-market
-              opportunities through referral channels. And every deal benefits from
-              the tools, training, and brand recognition that only REMAX Commercial
-              can provide.
+              exposure across the REMAX network through RealNex Marketplace and
+              the quarterly Global Deal Call. Buyers get access to off-market
+              opportunities through MAXRefer&apos;s AI-powered referral matching.
+              And every deal benefits from the tools, training, and brand
+              recognition that only REMAX Commercial can provide — including
+              REMAX University courses, the Commercial Pro series, and connections
+              built at events like the R4 conference and Global Commercial
+              Symposium.
             </p>
           </div>
         </div>
