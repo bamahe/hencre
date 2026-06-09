@@ -2,12 +2,26 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
-import manifest from "@/../public/data/blog-manifest.json";
+import rawManifest from "@/../public/data/blog-manifest.json";
 
 /* -------------------------------------------------------------------
  * Blog Index — reads from blog-manifest.json at build time.
  * Auto-updated by the content engine cron.
  * ----------------------------------------------------------------- */
+
+interface ManifestPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  category: string;
+  city: string | null;
+  county: string | null;
+  businessType: string | null;
+  image: { url: string; alt: string; photographer: string; link: string } | null;
+}
+
+const manifest = rawManifest as ManifestPost[];
 
 export const metadata: Metadata = {
   title: "Blog | Commercial Real Estate Insights & Market Updates",
