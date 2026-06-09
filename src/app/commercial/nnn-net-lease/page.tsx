@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "NNN Net Lease | REMAX Commercial Florida",
+  title: "NNN Net Lease | REMAX Commercial® Florida",
   description:
     "Buy or sell NNN net lease properties in Florida. Triple-net investments with stable, long-term cash flow and corporate-guaranteed tenants. Barrett Henry, REALTOR® at REMAX Collective.",
   openGraph: {
-    title: "NNN / Net Lease | REMAX Commercial Florida",
+    title: "NNN / Net Lease | REMAX Commercial® Florida",
     description: "Triple-net investment properties across Florida. Stable cash flow, minimal landlord responsibility.",
     url: "https://hencre.com/commercial/nnn-net-lease",
   },
@@ -77,7 +77,7 @@ export default function NNNNetLeasePage() {
             on long-term leases with built-in rent escalations.
           </p>
           <p>
-            REMAX Commercial agents bring specialized NNN expertise and investor relationships to every transaction. Florida is one of the most active NNN markets in the country, driven by
+            REMAX Commercial® agents bring specialized NNN expertise and investor relationships to every transaction. Florida is one of the most active NNN markets in the country, driven by
             population growth, strong retail fundamentals, and investor demand. I help
             buyers source quality NNN assets and sellers position properties for
             maximum value.

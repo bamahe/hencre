@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Office Space | REMAX Commercial Florida",
+  title: "Office Space | REMAX Commercial® Florida",
   description:
     "Find, lease, or invest in office space across Florida. Class A, B, and C office buildings. Barrett Henry provides tenant rep, landlord leasing, and investment sales.",
   openGraph: {
-    title: "Office Space | REMAX Commercial Florida",
+    title: "Office Space | REMAX Commercial® Florida",
     description: "Commercial office leasing, sales, and investment across Florida. Class A through C.",
     url: "https://hencre.com/commercial/office-space",
   },
@@ -72,7 +72,7 @@ export default function OfficeSpacePage() {
           <p>
             Whether you need a 1,500 SF professional suite or a 50,000 SF corporate
             headquarters, the Florida office market offers options across every price
-            point and submarket. REMAX Commercial agents specialize in office properties across every submarket. I help tenants find the right fit, landlords fill
+            point and submarket. REMAX Commercial® agents specialize in office properties across every submarket. I help tenants find the right fit, landlords fill
             vacancies, and investors acquire performing office assets.
           </p>
         </div>

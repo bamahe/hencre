@@ -23,7 +23,7 @@
 
 ### 1. Google Business Profile
 - **URL:** https://business.google.com
-- **Action:** Create or update listing for "HenCRE — Barrett Henry — REMAX Commercial"
+- **Action:** Create or update listing for "HenCRE — Barrett Henry — REMAX Commercial®"
 - **Category:** Commercial Real Estate Agent
 - **Website field:** https://hencre.com
 - **Add all 3 office addresses as locations

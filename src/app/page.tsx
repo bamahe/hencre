@@ -10,13 +10,13 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "REMAX Commercial Florida | Commercial Real Estate — Barrett Henry",
+  title: "REMAX Commercial® Florida | Commercial Real Estate — Barrett Henry",
   description:
-    "REMAX Commercial Florida — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
+    "REMAX Commercial® Florida — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
   openGraph: {
-    title: "REMAX Commercial Florida | Barrett Henry, Broker Associate",
+    title: "REMAX Commercial® Florida | Barrett Henry, Broker Associate",
     description:
-      "REMAX Commercial agent serving all 67 Florida counties. Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, backed by the global REMAX network.",
+      "REMAX Commercial® agent serving all 67 Florida counties. Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, backed by the global REMAX network.",
     url: "https://hencre.com",
   },
 };
@@ -134,14 +134,14 @@ const schema = {
     {
       "@type": "Organization",
       "@id": "https://hencre.com/#organization",
-      name: "REMAX Commercial Florida",
+      name: "REMAX Commercial® Florida",
       url: "https://hencre.com",
       logo: "https://hencre.com/logo.png",
       description:
-        "REMAX Commercial real estate brokerage serving all 67 Florida counties.",
+        "REMAX Commercial® real estate brokerage serving all 67 Florida counties.",
       parentOrganization: {
         "@type": "Organization",
-        name: "REMAX Commercial",
+        name: "REMAX Commercial®",
         url: "https://www.remaxcommercial.com",
       },
       sameAs: [
@@ -160,7 +160,7 @@ const schema = {
       "@type": "WebSite",
       "@id": "https://hencre.com/#website",
       url: "https://hencre.com",
-      name: "REMAX Commercial Florida",
+      name: "REMAX Commercial® Florida",
       publisher: { "@id": "https://hencre.com/#organization" },
     },
     {
@@ -174,7 +174,7 @@ const schema = {
       },
       memberOf: {
         "@type": "Organization",
-        name: "REMAX Commercial",
+        name: "REMAX Commercial®",
         url: "https://www.remaxcommercial.com",
       },
       url: "https://hencre.com",
@@ -193,7 +193,7 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://hencre.com/#tampa-office",
-      name: "REMAX Commercial Florida — Tampa Office",
+      name: "REMAX Commercial® Florida — Tampa Office",
       address: {
         "@type": "PostalAddress",
         streetAddress: "14310 N Dale Mabry Hwy Ste 100",
@@ -206,7 +206,7 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://hencre.com/#largo-office",
-      name: "REMAX Commercial Florida — Largo Office",
+      name: "REMAX Commercial® Florida — Largo Office",
       address: {
         "@type": "PostalAddress",
         streetAddress: "11200 Seminole Blvd Ste 202",
@@ -219,7 +219,7 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://hencre.com/#brandon-office",
-      name: "REMAX Commercial Florida — Brandon Office",
+      name: "REMAX Commercial® Florida — Brandon Office",
       address: {
         "@type": "PostalAddress",
         streetAddress: "417 Lithia Pinecrest Rd",
@@ -252,20 +252,20 @@ export default function HomePage() {
       {/* ---- Hero ---- */}
       <Hero
         title="Tampa Bay Commercial Real Estate — A Better Way"
-        subtitle="REMAX Commercial broker based in Tampa Bay, serving commercial clients across all of Florida. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world's most recognized real estate brand."
+        subtitle="REMAX Commercial® broker based in Tampa Bay, serving commercial clients across all of Florida. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world's most recognized real estate brand."
         ctaText="Get Started"
         ctaHref="/contact"
         showVideo
       />
 
-      {/* ---- REMAX Commercial Network section (first after hero) ---- */}
+      {/* ---- REMAX Commercial® Network section (first after hero) ---- */}
       <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl">
           <p className="text-center text-sm font-semibold tracking-widest uppercase text-white/60">
-            REMAX Commercial
+            REMAX Commercial®
           </p>
           <h2 className="mt-2 text-center text-2xl font-bold text-white sm:text-3xl">
-            Backed by the REMAX Commercial Network
+            Backed by the REMAX Commercial® Network
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-white/80">
             &ldquo;A better way in commercial real estate.&rdquo;
@@ -302,14 +302,14 @@ export default function HomePage() {
 
           <div className="mt-10 space-y-4 text-lg leading-relaxed text-white/80 max-w-3xl mx-auto">
             <p>
-              REMAX Commercial is a division of the world&apos;s most recognized real estate
+              REMAX Commercial® is a division of the world&apos;s most recognized real estate
               brand. Founded in 1973, REMAX has spent over 50 years building a network
               that spans 120+ countries and territories — giving commercial clients access
               to listings, market data, and referral relationships that no independent
               brokerage can match.
             </p>
             <p>
-              REMAX Commercial agents specialize exclusively in commercial property —
+              REMAX Commercial® agents specialize exclusively in commercial property —
               office, retail, industrial, multifamily, land, hospitality, and specialty
               assets like marinas. Barrett brings the full resources of this global network
               to every Florida deal, including MAXRefer for AI-powered referral matching
@@ -324,7 +324,7 @@ export default function HomePage() {
               href="/remax-commercial"
               className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
-              Learn About REMAX Commercial
+              Learn About REMAX Commercial®
             </Link>
           </div>
         </div>
@@ -338,7 +338,7 @@ export default function HomePage() {
         <p className="mt-4 text-lg leading-relaxed text-[#666666]">
           Whether you are leasing your first office, acquiring a multifamily portfolio,
           or selling a retail center, the right broker makes the difference between a
-          good deal and a great one. As a REMAX Commercial broker, I bring 23+ years of real estate experience to
+          good deal and a great one. As a REMAX Commercial® broker, I bring 23+ years of real estate experience to
           every engagement — deep market knowledge, honest guidance, and relentless
           execution backed by the world&apos;s most recognized real estate network. No committee. No runaround. Just results.
         </p>

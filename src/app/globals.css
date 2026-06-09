@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-/* REMAX Commercial Brand Colors & Theme
- * Black and white — the actual REMAX Commercial brand. No navy, no blue, no red. */
+/* REMAX Commercial® Brand Colors & Theme
+ * Black and white — the actual REMAX Commercial® brand. No navy, no blue, no red. */
 :root {
   --brand-black: #000000;
   --brand-charcoal: #1a1a1a;
@@ -14,7 +14,7 @@
   --foreground: #333333;
 }
 
-/* Register brand colors with Tailwind v4 — REMAX Commercial black/white palette */
+/* Register brand colors with Tailwind v4 — REMAX Commercial® black/white palette */
 @theme inline {
   --color-brand-black: #000000;
   --color-brand-charcoal: #1a1a1a;

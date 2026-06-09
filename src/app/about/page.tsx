@@ -9,13 +9,13 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "About Barrett Henry | REMAX Commercial Florida Broker Associate",
+  title: "About Barrett Henry | REMAX Commercial® Florida Broker Associate",
   description:
-    "Barrett Henry — REALTOR®, Broker Associate at REMAX Collective. REMAX Commercial agent with 23+ years of real estate experience, e-PRO, MRP, SRS designations, REMAX Hall of Fame. Commercial real estate across all 67 Florida counties.",
+    "Barrett Henry — REALTOR®, Broker Associate at REMAX Collective. REMAX Commercial® agent with 23+ years of real estate experience, e-PRO, MRP, SRS designations, REMAX Hall of Fame. Commercial real estate across all 67 Florida counties.",
   openGraph: {
-    title: "About Barrett Henry | REMAX Commercial Florida",
+    title: "About Barrett Henry | REMAX Commercial® Florida",
     description:
-      "REMAX Commercial Broker Associate with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
+      "REMAX Commercial® Broker Associate with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
     url: "https://hencre.com/about",
   },
 };
@@ -42,7 +42,7 @@ const schema = {
       },
       memberOf: {
         "@type": "Organization",
-        name: "REMAX Commercial",
+        name: "REMAX Commercial®",
         url: "https://www.remaxcommercial.com",
       },
       url: "https://hencre.com/about",
@@ -109,7 +109,7 @@ export default function AboutPage() {
           </p>
           <p>
             Based in Tampa Bay, serving commercial clients across Florida through
-            the REMAX Commercial network. I operate from three REMAX Collective
+            the REMAX Commercial® network. I operate from three REMAX Collective
             offices in Tampa, Largo, and Brandon. For deals anywhere else in the
             state, I leverage a network of trusted brokers in all 67 Florida
             counties. You get local expertise no matter where the property sits.
@@ -117,16 +117,16 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ---- Why REMAX Commercial (moved above CRE expertise for brand prominence) ---- */}
+      {/* ---- Why REMAX Commercial® (moved above CRE expertise for brand prominence) ---- */}
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">
-            Why REMAX Commercial?
+            Why REMAX Commercial®?
           </h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
               The REMAX name is the most recognized in real estate worldwide — and
-              REMAX Commercial is the division built specifically for commercial
+              REMAX Commercial® is the division built specifically for commercial
               property professionals. Founded in 1973, REMAX has spent over 50 years
               growing into a network of 145,000+ agents across 9,000+ offices in 120+
               countries and territories. That is not just brand recognition — it is
@@ -144,7 +144,7 @@ export default function AboutPage() {
             </p>
             <p>
               Unlike traditional CRE firms that restrict brokers to a single asset
-              class, the REMAX Commercial model gives me the flexibility to handle
+              class, the REMAX Commercial® model gives me the flexibility to handle
               any property type — office, retail, industrial, multifamily, land,
               hospitality, and specialty assets. Commercial real estate is
               not residential with bigger numbers — it requires different skills,
@@ -162,7 +162,7 @@ export default function AboutPage() {
               href="/remax-commercial"
               className="text-black font-semibold no-underline hover:underline"
             >
-              Learn more about REMAX Commercial &rarr;
+              Learn more about REMAX Commercial® &rarr;
             </Link>
           </div>
         </div>
@@ -183,7 +183,7 @@ export default function AboutPage() {
             </p>
             <p>
               That is what I bring to every deal. I am not a big-box brokerage with
-              layers of bureaucracy. I am one REMAX Commercial broker with deep experience, modern
+              layers of bureaucracy. I am one REMAX Commercial® broker with deep experience, modern
               tools, and a bias toward action. When you call me, you get me — not an
               assistant, not a junior agent, not a voicemail.
             </p>

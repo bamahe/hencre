@@ -250,14 +250,14 @@ export async function generateMetadata({
   const parsed = parseSlug(identitySlug);
 
   if (!parsed) {
-    return { title: "REMAX Commercial Real Estate Florida | Barrett Henry" };
+    return { title: "REMAX Commercial® Real Estate Florida | Barrett Henry" };
   }
 
   const city = CITIES[parsed.cityKey];
   const role = ROLE_VARIANTS.find((r) => r.suffix === parsed.roleSuffix)!;
 
-  const title = `REMAX Commercial ${role.roleTitle} in ${city.name}, FL — Barrett Henry`;
-  const description = `Looking for a REMAX Commercial ${role.roleTitle.toLowerCase()} in ${city.name}, ${city.county} County? Barrett Henry is a REALTOR® & Broker Associate at REMAX Collective serving ${city.name} and all of ${city.county} County, Florida.`;
+  const title = `REMAX Commercial® ${role.roleTitle} in ${city.name}, FL — Barrett Henry`;
+  const description = `Looking for a REMAX Commercial® ${role.roleTitle.toLowerCase()} in ${city.name}, ${city.county} County? Barrett Henry is a REALTOR® & Broker Associate at REMAX Collective serving ${city.name} and all of ${city.county} County, Florida.`;
 
   return {
     title,
@@ -348,7 +348,7 @@ export default async function IdentityPage({
 
       <Hero
         title={`${role.roleTitle} in ${city.name}`}
-        subtitle={`REMAX Commercial — Barrett Henry, REALTOR\u00AE & Broker Associate at REMAX Collective, serving ${city.name} and ${city.county} County, Florida.`}
+        subtitle={`REMAX Commercial® — Barrett Henry, REALTOR\u00AE & Broker Associate at REMAX Collective, serving ${city.name} and ${city.county} County, Florida.`}
         ctaText="Contact Barrett"
         ctaHref="/contact"
       />
@@ -400,7 +400,7 @@ export default async function IdentityPage({
             <p>{city.whyBarrett}</p>
             <p>
               Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX Collective,
-              part of the REMAX Commercial network, with 23+ years of real estate experience. He provides commercial real estate
+              part of the REMAX Commercial® network, with 23+ years of real estate experience. He provides commercial real estate
               services across {city.county} County including buyer and seller representation,
               tenant and landlord lease negotiation, investment property analysis, and
               disposition strategy. Whether you need office, retail, industrial, or land

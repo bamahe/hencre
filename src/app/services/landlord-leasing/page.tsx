@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Landlord Leasing | REMAX Commercial Florida",
+  title: "Landlord Leasing | REMAX Commercial® Florida",
   description:
     "Landlord leasing services across Florida. Barrett Henry markets your commercial property, screens tenants, and negotiates leases that protect your investment.",
   openGraph: {
-    title: "Landlord Leasing | REMAX Commercial Florida",
+    title: "Landlord Leasing | REMAX Commercial® Florida",
     description:
       "Fill commercial vacancies faster with qualified tenants. Strategic marketing and lease negotiation across Florida.",
     url: "https://hencre.com/services/landlord-leasing",
@@ -66,7 +66,7 @@ export default function LandlordLeasingPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Vacancy Costs You Money Every Day</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial broker, Barrett leverages the largest real estate network in the world to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs
+            As a REMAX Commercial® broker, Barrett leverages the largest real estate network in the world to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs
             with zero income. Taxes, insurance, maintenance, and debt service do not
             pause because the space is vacant. You need a broker who treats your
             vacancy with the same urgency you feel.

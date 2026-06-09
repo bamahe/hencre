@@ -14,11 +14,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Pasco County CRE | REMAX Commercial Florida — Wesley Chapel & New Port Richey",
+  title: "Pasco County CRE | REMAX Commercial® Florida — Wesley Chapel & New Port Richey",
   description:
     "Pasco County CRE market analysis. SR 54/56 retail corridor, Wesley Chapel growth, industrial expansion near I-75, and emerging mixed-use development. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Pasco County Commercial Real Estate | REMAX Commercial Florida",
+    title: "Pasco County Commercial Real Estate | REMAX Commercial® Florida",
     description:
       "Explore Pasco County's booming CRE market — Wesley Chapel, SR 54/56 retail, and I-75 industrial growth.",
     url: "https://hencre.com/markets/pasco",
@@ -30,7 +30,7 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      name: "REMAX Commercial Florida — Barrett Henry",
+      name: "REMAX Commercial® Florida — Barrett Henry",
       description: "Commercial real estate brokerage serving Pasco County and the Tampa Bay region.",
       telephone: "(813) 733-7907",
       email: "barrett@nowtb.com",

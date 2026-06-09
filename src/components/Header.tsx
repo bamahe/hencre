@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 /* -------------------------------------------------------------------
- * Header — sticky dark charcoal bar with REMAX Commercial logo and
+ * Header — sticky dark charcoal bar with REMAX Commercial® logo and
  * responsive nav. Black/white brand. Client component for mobile menu.
  * ----------------------------------------------------------------- */
 
@@ -26,15 +26,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-[#1a1a1a]">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        {/* ---- REMAX Commercial logo + Barrett Henry secondary text ---- */}
+        {/* ---- REMAX Commercial® logo + Barrett Henry secondary text ---- */}
         <Link
           href="/"
           className="flex items-center gap-3 no-underline hover:no-underline"
         >
-          {/* Actual REMAX Commercial white logo for dark background */}
+          {/* Actual REMAX Commercial® white logo for dark background */}
           <Image
             src="/images/remax-commercial-white.png"
-            alt="REMAX Commercial"
+            alt="REMAX Commercial®"
             width={180}
             height={40}
             className="h-8 w-auto sm:h-10"

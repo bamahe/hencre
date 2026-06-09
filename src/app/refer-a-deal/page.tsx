@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Refer a Commercial Deal | REMAX Commercial Florida",
+  title: "Refer a Commercial Deal | REMAX Commercial® Florida",
   description:
     "Got a commercial real estate deal outside your lane? Refer it to Barrett Henry and earn a competitive referral fee. Licensed agents across Florida welcome.",
   openGraph: {
-    title: "Refer a Deal | REMAX Commercial Florida",
+    title: "Refer a Deal | REMAX Commercial® Florida",
     description:
       "Licensed agents: refer commercial deals to Barrett Henry and earn a referral fee. Simple process, transparent communication.",
     url: "https://hencre.com/refer-a-deal",
@@ -112,7 +112,7 @@ export default function ReferADealPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">How Referrals Work</h2>
         <p className="mt-4 text-lg leading-relaxed text-[#666666]">
           You are great at what you do — but commercial real estate is a different
-          animal. Powered by the REMAX Commercial referral network — the largest in
+          animal. Powered by the REMAX Commercial® referral network — the largest in
           real estate, spanning 145,000+ agents across 120+ countries — your client
           gets institutional-quality CRE service while you earn a competitive referral
           fee at closing. I use MAXRefer, REMAX&apos;s AI-powered referral matching

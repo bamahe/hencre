@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "CRE Valuation | REMAX Commercial Florida",
+  title: "CRE Valuation | REMAX Commercial® Florida",
   description:
     "Know what your commercial property is worth. Barrett Henry provides broker opinions of value, comparable sales analysis, and market positioning for owners, investors, and lenders across Florida.",
   openGraph: {
-    title: "CRE Valuation | REMAX Commercial Florida",
+    title: "CRE Valuation | REMAX Commercial® Florida",
     description:
       "Broker opinion of value, comp analysis, and market positioning. Know what your commercial property is worth.",
     url: "https://hencre.com/services/cre-valuation",
@@ -66,7 +66,7 @@ export default function CREValuationPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Accurate Valuation Drives Better Decisions</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial broker, Barrett delivers valuations backed by market data and institutional-level analysis. Before you sell, refinance, negotiate a lease renewal, or restructure a
+            As a REMAX Commercial® broker, Barrett delivers valuations backed by market data and institutional-level analysis. Before you sell, refinance, negotiate a lease renewal, or restructure a
             partnership, you need to know what your commercial property is actually
             worth. Not what you hope it is worth. Not what Zestimate says. What a
             sophisticated buyer or lender would pay based on income, comps, and market

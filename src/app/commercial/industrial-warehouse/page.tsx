@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Industrial & Warehouse | REMAX Commercial Florida",
+  title: "Industrial & Warehouse | REMAX Commercial® Florida",
   description:
     "Lease, buy, or sell industrial and warehouse space in Florida. Distribution, flex, manufacturing, and cold storage. Barrett Henry, REALTOR® at REMAX Collective.",
   openGraph: {
-    title: "Industrial & Warehouse | REMAX Commercial Florida",
+    title: "Industrial & Warehouse | REMAX Commercial® Florida",
     description: "Industrial and warehouse leasing, sales, and investment across Florida.",
     url: "https://hencre.com/commercial/industrial-warehouse",
   },
@@ -72,7 +72,7 @@ export default function IndustrialWarehousePage() {
             Tampa Bay, Central Florida, and South Florida all see strong demand for
             distribution space, flex/warehouse, manufacturing facilities, and cold
             storage. New construction is underway, but pre-leasing rates are high and
-            existing inventory moves fast. REMAX Commercial agents specialize in industrial and logistics properties. If you need industrial space in Florida, act
+            existing inventory moves fast. REMAX Commercial® agents specialize in industrial and logistics properties. If you need industrial space in Florida, act
             now.
           </p>
         </div>

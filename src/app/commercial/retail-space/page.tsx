@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Retail Space | REMAX Commercial Florida",
+  title: "Retail Space | REMAX Commercial® Florida",
   description:
     "Find, lease, or invest in retail space across Florida. Strip centers, standalone pads, outparcels, and mixed-use. Barrett Henry, REALTOR® at REMAX Collective.",
   openGraph: {
-    title: "Retail Space | REMAX Commercial Florida",
+    title: "Retail Space | REMAX Commercial® Florida",
     description: "Commercial retail leasing, sales, and investment across Florida.",
     url: "https://hencre.com/commercial/retail-space",
   },
@@ -71,7 +71,7 @@ export default function RetailSpacePage() {
           <p>
             From neighborhood strip centers to regional power centers, the retail
             landscape offers diverse opportunities for tenants, landlords, and
-            investors. REMAX Commercial agents bring deep retail expertise to every deal. I work with restaurant operators, medical practices, service
+            investors. REMAX Commercial® agents bring deep retail expertise to every deal. I work with restaurant operators, medical practices, service
             businesses, and national brands to secure high-visibility locations with
             strong traffic counts and favorable lease terms.
           </p>

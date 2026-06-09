@@ -14,11 +14,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Hernando County CRE | REMAX Commercial Florida — Spring Hill & Brooksville",
+  title: "Hernando County CRE | REMAX Commercial® Florida — Spring Hill & Brooksville",
   description:
     "Hernando County CRE market insights. Spring Hill retail growth, Suncoast Parkway corridor, Brooksville industrial, and expanding medical office. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Hernando County Commercial Real Estate | REMAX Commercial Florida",
+    title: "Hernando County Commercial Real Estate | REMAX Commercial® Florida",
     description:
       "Explore Spring Hill and Brooksville commercial real estate — a growing suburban market along the Suncoast Parkway.",
     url: "https://hencre.com/markets/hernando",
@@ -30,7 +30,7 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      name: "REMAX Commercial Florida — Barrett Henry",
+      name: "REMAX Commercial® Florida — Barrett Henry",
       description: "Commercial real estate brokerage serving Hernando County.",
       telephone: "(813) 733-7907",
       email: "barrett@nowtb.com",

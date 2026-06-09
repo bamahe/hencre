@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tenant Representation | REMAX Commercial Florida",
+  title: "Tenant Representation | REMAX Commercial® Florida",
   description:
     "Expert tenant representation across Florida. Barrett Henry negotiates your commercial lease so you get the right space at the best terms. Free market survey.",
   openGraph: {
-    title: "Tenant Representation | REMAX Commercial Florida",
+    title: "Tenant Representation | REMAX Commercial® Florida",
     description:
       "Find the right commercial space at the right terms. Expert tenant rep across all 67 Florida counties.",
     url: "https://hencre.com/services/tenant-representation",
@@ -68,7 +68,7 @@ export default function TenantRepPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Your Space, Your Terms</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial broker, Barrett brings global network resources to every tenant representation engagement in Florida. Finding commercial space is not like browsing Zillow. You need a broker who
+            As a REMAX Commercial® broker, Barrett brings global network resources to every tenant representation engagement in Florida. Finding commercial space is not like browsing Zillow. You need a broker who
             understands your business requirements, knows the local market, and can
             negotiate lease terms that protect your bottom line. That is tenant
             representation — and it is one of the highest-value services I offer.

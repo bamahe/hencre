@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "REMAX Commercial Services | CRE Leasing, Sales & Valuation in Florida",
+  title: "REMAX Commercial® Services | CRE Leasing, Sales & Valuation in Florida",
   description:
     "Full-service commercial real estate brokerage: tenant representation, landlord leasing, investment sales, dispositions, and CRE valuation. Barrett Henry, REALTOR® serving all 67 Florida counties.",
   openGraph: {
-    title: "CRE Services | REMAX Commercial Florida",
+    title: "CRE Services | REMAX Commercial® Florida",
     description:
       "Tenant rep, landlord leasing, investment sales, dispositions, and valuation. Full-service CRE across Florida.",
     url: "https://hencre.com/services",

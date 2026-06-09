@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "REMAX Commercial Florida | Property Types — Office, Retail, Industrial & More",
+  title: "REMAX Commercial® Florida | Property Types — Office, Retail, Industrial & More",
   description:
     "Explore commercial property types in Florida: office, retail, industrial/warehouse, multifamily, NNN net lease, and land/development. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Property Types | REMAX Commercial Florida",
+    title: "Property Types | REMAX Commercial® Florida",
     description:
       "Office, retail, industrial, multifamily, NNN, and land — every CRE asset class across Florida.",
     url: "https://hencre.com/commercial",
@@ -71,7 +71,7 @@ const schema = {
     {
       "@type": "WebPage",
       name: "Commercial Property Types",
-      description: "Overview of commercial real estate property types served by REMAX Commercial Florida across Florida.",
+      description: "Overview of commercial real estate property types served by REMAX Commercial® Florida across Florida.",
       url: "https://hencre.com/commercial",
     },
   ],

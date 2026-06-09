@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Dispositions | REMAX Commercial Florida",
+  title: "Dispositions | REMAX Commercial® Florida",
   description:
     "Maximize proceeds when selling commercial real estate in Florida. Barrett Henry provides strategic pricing, targeted marketing, and deal structuring for optimal results.",
   openGraph: {
-    title: "Dispositions | REMAX Commercial Florida",
+    title: "Dispositions | REMAX Commercial® Florida",
     description:
       "Sell your commercial property for maximum value. Strategic pricing, marketing, and negotiation across Florida.",
     url: "https://hencre.com/services/dispositions",
@@ -66,7 +66,7 @@ export default function DispositionsPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Exit at the Right Time, at the Right Price</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial broker, Barrett taps the largest real estate referral network on the planet to reach qualified buyers for your asset. Selling a commercial property is not like listing a house. The buyer pool
+            As a REMAX Commercial® broker, Barrett taps the largest real estate referral network on the planet to reach qualified buyers for your asset. Selling a commercial property is not like listing a house. The buyer pool
             is smaller, more sophisticated, and more analytical. You need a broker who
             speaks their language — who can present your property with institutional-
             quality materials, price it based on real income data, and negotiate with

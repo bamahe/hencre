@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, Mail, MapPin, ExternalLink } from "lucide-react";
 
 /* -------------------------------------------------------------------
- * Footer — REMAX Commercial white logo, three offices, contact info,
+ * Footer — REMAX Commercial® white logo, three offices, contact info,
  * tagline, and dynamic copyright year. Dark charcoal background.
  * Server component (no interactivity needed).
  * ----------------------------------------------------------------- */
@@ -32,13 +32,13 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#1a1a1a] text-white">
-      {/* ---- REMAX Commercial tagline bar ---- */}
+      {/* ---- REMAX Commercial® tagline bar ---- */}
       <div className="border-t border-white/10 py-6 text-center">
-        {/* White REMAX Commercial logo */}
+        {/* White REMAX Commercial® logo */}
         <div className="flex justify-center mb-3">
           <Image
             src="/images/remax-commercial-white.png"
-            alt="REMAX Commercial"
+            alt="REMAX Commercial®"
             width={200}
             height={44}
             className="h-10 w-auto"
@@ -96,7 +96,7 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* REMAX Commercial link */}
+          {/* REMAX Commercial® link */}
           <a
             href="https://www.remaxcommercial.com"
             target="_blank"
@@ -111,7 +111,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-6 border-t border-white/10 pt-6 text-center">
           <p className="text-sm text-white/60">
-            &copy; {year} REMAX Commercial Florida &mdash; Barrett Henry, REALTOR&reg; &amp;
+            &copy; {year} REMAX Commercial&reg; Florida &mdash; Barrett Henry, REALTOR&reg; &amp;
             Broker Associate at REMAX Collective. All rights reserved.
           </p>
           <p className="mt-1 text-xs text-white/50 uppercase tracking-wider">

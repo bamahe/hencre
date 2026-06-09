@@ -9,11 +9,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Contact REMAX Commercial Florida | Barrett Henry",
+  title: "Contact REMAX Commercial® Florida | Barrett Henry",
   description:
     "Get in touch with Barrett Henry for commercial real estate services across Florida. Three REMAX Collective offices in Tampa, Largo, and Brandon. Call (813) 733-7907.",
   openGraph: {
-    title: "Contact | REMAX Commercial Florida",
+    title: "Contact | REMAX Commercial® Florida",
     description:
       "Reach Barrett Henry for CRE leasing, sales, and investment across Florida. Tampa Bay offices in Tampa, Largo, and Brandon.",
     url: "https://hencre.com/contact",
@@ -55,7 +55,7 @@ const schema = {
     },
     ...OFFICES.map((office) => ({
       "@type": "LocalBusiness" as const,
-      name: `REMAX Commercial Florida — ${office.name}`,
+      name: `REMAX Commercial® Florida — ${office.name}`,
       image: "https://hencre.com/logo.png",
       telephone: "+1-813-733-7907",
       email: "barrett@nowtb.com",
@@ -85,8 +85,8 @@ export default function ContactPage() {
       </nav>
 
       <Hero
-        title="Contact REMAX Commercial Florida"
-        subtitle="Have a commercial real estate question? Need a broker opinion of value? Ready to make a move? Barrett Henry, REMAX Commercial Broker Associate, is here to help."
+        title="Contact REMAX Commercial® Florida"
+        subtitle="Have a commercial real estate question? Need a broker opinion of value? Ready to make a move? Barrett Henry, REMAX Commercial® Broker Associate, is here to help."
       />
 
       {/* ---- Direct contact info ---- */}
