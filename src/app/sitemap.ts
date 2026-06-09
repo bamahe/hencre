@@ -33,14 +33,9 @@ const INSIGHTS = [
   "cre-due-diligence-checklist",
 ];
 
-// Blog post slugs (seed posts — engine adds more over time)
-const BLOG_POSTS = [
-  "why-tampa-bay-cre-is-booming",
-  "5-mistakes-first-time-commercial-tenants-make",
-  "what-makes-a-good-commercial-investment",
-  "do-you-need-a-commercial-real-estate-broker",
-  "florida-1031-exchange-what-investors-need-to-know",
-];
+// Blog posts — read from manifest (auto-updated by content engine)
+import blogManifest from "@/../public/data/blog-manifest.json";
+const BLOG_POSTS = blogManifest.map((p: { slug: string }) => p.slug);
 
 // Identity page cities for Tier 1
 const IDENTITY_CITIES = [
