@@ -13,11 +13,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Sarasota County CRE | REMAX Commercial® Florida — Sarasota Market",
+  title: "Sarasota County CRE | REMAX Commercial Real Estate — Sarasota Market",
   description:
     "Sarasota County CRE market insights. Downtown Sarasota retail and office, US-41 corridor, tourism-driven hospitality, and Siesta Key beach market. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Sarasota County Commercial Real Estate | REMAX Commercial® Florida",
+    title: "Sarasota County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
       "Explore Sarasota's high-end commercial real estate market — premium retail, office, and tourism-driven CRE.",
     url: "https://hencre.com/markets/sarasota",
@@ -29,7 +29,7 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      name: "REMAX Commercial® Florida — Barrett Henry",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
       description: "Commercial real estate brokerage serving Sarasota County.",
       telephone: "(813) 733-7907",
       email: "barrett@nowtb.com",

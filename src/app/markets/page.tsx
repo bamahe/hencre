@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights for Hillsborough, Pinellas, Pasco, Polk, Manatee, Sarasota, Citrus, and Hernando counties.",
   openGraph: {
-    title: "Commercial Real Estate Markets — Tampa Bay & Central Florida | REMAX Commercial® Florida",
+    title: "Commercial Real Estate Markets — Tampa Bay & Central Florida | REMAX Commercial Real Estate",
     description:
       "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights from Barrett Henry, REALTOR® & Broker Associate.",
     url: "https://hencre.com/markets",

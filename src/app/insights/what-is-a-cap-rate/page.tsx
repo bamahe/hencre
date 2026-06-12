@@ -39,7 +39,7 @@ const articleSchema = {
   },
   publisher: {
     "@type": "Organization",
-    name: "REMAX Commercial® Florida",
+    name: "REMAX Commercial Real Estate",
     url: "https://hencre.com",
   },
   url: "https://hencre.com/insights/what-is-a-cap-rate",

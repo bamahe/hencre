@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "CRE Valuation | REMAX Commercial® Florida",
+  title: "CRE Valuation | REMAX Commercial Real Estate",
   description:
     "Know what your commercial property is worth. Barrett Henry provides broker opinions of value, comparable sales analysis, and market positioning for owners, investors, and lenders across Florida.",
   openGraph: {
-    title: "CRE Valuation | REMAX Commercial® Florida",
+    title: "CRE Valuation | REMAX Commercial Real Estate",
     description:
       "Broker opinion of value, comp analysis, and market positioning. Know what your commercial property is worth.",
     url: "https://hencre.com/services/cre-valuation",

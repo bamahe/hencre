@@ -10,13 +10,13 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "REMAX Commercial® Florida | Commercial Real Estate — Barrett Henry",
+  title: "REMAX Commercial Real Estate | Commercial Real Estate — Barrett Henry",
   description:
-    "REMAX Commercial® Florida — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
+    "REMAX Commercial Real Estate — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
   openGraph: {
-    title: "REMAX Commercial® Florida | Barrett Henry, Broker Associate",
+    title: "REMAX Commercial Real Estate | Barrett Henry, Broker Associate",
     description:
-      "REMAX Commercial® agent serving all 67 Florida counties. Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, backed by the global REMAX network.",
+      "REMAX Commercial Real Estate advisor serving all 67 Florida counties. Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, backed by the global REMAX network.",
     url: "https://hencre.com",
   },
 };
@@ -134,7 +134,7 @@ const schema = {
     {
       "@type": "Organization",
       "@id": "https://hencre.com/#organization",
-      name: "REMAX Commercial® Florida",
+      name: "REMAX Commercial Real Estate",
       url: "https://hencre.com",
       logo: "https://hencre.com/logo.png",
       description:
@@ -160,7 +160,7 @@ const schema = {
       "@type": "WebSite",
       "@id": "https://hencre.com/#website",
       url: "https://hencre.com",
-      name: "REMAX Commercial® Florida",
+      name: "REMAX Commercial Real Estate",
       publisher: { "@id": "https://hencre.com/#organization" },
     },
     {
@@ -193,7 +193,7 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://hencre.com/#tampa-office",
-      name: "REMAX Commercial® Florida — Tampa Office",
+      name: "REMAX Commercial Real Estate — Tampa Office",
       address: {
         "@type": "PostalAddress",
         streetAddress: "14310 N Dale Mabry Hwy Ste 100",
@@ -206,7 +206,7 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://hencre.com/#largo-office",
-      name: "REMAX Commercial® Florida — Largo Office",
+      name: "REMAX Commercial Real Estate — Largo Office",
       address: {
         "@type": "PostalAddress",
         streetAddress: "11200 Seminole Blvd Ste 202",
@@ -219,7 +219,7 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://hencre.com/#brandon-office",
-      name: "REMAX Commercial® Florida — Brandon Office",
+      name: "REMAX Commercial Real Estate — Brandon Office",
       address: {
         "@type": "PostalAddress",
         streetAddress: "417 Lithia Pinecrest Rd",
@@ -309,7 +309,7 @@ export default function HomePage() {
               brokerage can match.
             </p>
             <p>
-              REMAX Commercial® agents specialize exclusively in commercial property —
+              REMAX Commercial Real Estate advisors specialize exclusively in commercial property —
               office, retail, industrial, multifamily, land, hospitality, and specialty
               assets like marinas. Barrett brings the full resources of this global network
               to every Florida deal, including MAXRefer for AI-powered referral matching

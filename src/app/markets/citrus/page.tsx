@@ -14,11 +14,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Citrus County CRE | REMAX Commercial® Florida — Crystal River & Inverness",
+  title: "Citrus County CRE | REMAX Commercial Real Estate — Crystal River & Inverness",
   description:
     "Citrus County CRE market overview. Crystal River tourism corridor, US-19 retail, Inverness commercial growth, and emerging opportunities on Florida's Nature Coast. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Citrus County Commercial Real Estate | REMAX Commercial® Florida",
+    title: "Citrus County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
       "Explore Citrus County's emerging CRE market — Crystal River, Inverness, and the Nature Coast commercial corridor.",
     url: "https://hencre.com/markets/citrus",
@@ -30,7 +30,7 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      name: "REMAX Commercial® Florida — Barrett Henry",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
       description: "Commercial real estate brokerage serving Citrus County.",
       telephone: "(813) 733-7907",
       email: "barrett@nowtb.com",

@@ -4,30 +4,30 @@ import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
- * REMAX Commercial® Florida — dedicated landing page for SEO targeting.
- * Targets "REMAX Commercial® Florida" and related keyword variations.
+ * REMAX Commercial Real Estate — dedicated landing page for SEO targeting.
+ * Targets "REMAX Commercial Real Estate" and related keyword variations.
  * Includes full network writeup, stats, services, FAQ, and schema.
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
   title:
-    "REMAX Commercial® Florida — Barrett Henry, Broker Associate | REMAX Commercial® Florida",
+    "REMAX Commercial Real Estate — Barrett Henry, Broker Associate | REMAX Commercial Real Estate",
   description:
-    "REMAX Commercial® Florida — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Access 145,000+ agents across 120+ countries. Commercial real estate services including tenant rep, landlord leasing, investment sales, and dispositions across all 67 Florida counties.",
+    "REMAX Commercial Real Estate — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Access 145,000+ agents across 120+ countries. Commercial real estate services including tenant rep, landlord leasing, investment sales, and dispositions across all 67 Florida counties.",
   keywords: [
-    "REMAX Commercial® Florida",
+    "REMAX Commercial Real Estate",
     "REMAX Commercial®",
-    "REMAX Commercial® agent Florida",
-    "REMAX Commercial® broker Florida",
+    "REMAX Commercial Real Estate agent",
+    "REMAX Commercial Real Estate broker",
     "commercial real estate Florida",
     "Barrett Henry REMAX",
     "REMAX Collective commercial",
     "Florida commercial real estate broker",
   ],
   openGraph: {
-    title: "REMAX Commercial® Florida — Barrett Henry, Broker Associate",
+    title: "REMAX Commercial Real Estate — Barrett Henry, Broker Associate",
     description:
-      "REMAX Commercial® agent serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world's most recognized real estate brand.",
+      "REMAX Commercial Real Estate advisor serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world's most recognized real estate brand.",
     url: "https://hencre.com/remax-commercial",
     type: "website",
   },
@@ -41,26 +41,26 @@ const FAQS = [
   },
   {
     q: "How is REMAX Commercial® different from other commercial real estate brokerages?",
-    a: "REMAX Commercial® agents operate within the largest real estate network on the planet — 145,000+ agents across 9,000+ offices in 120+ countries and territories. Unlike traditional CRE firms that restrict brokers to specific asset classes, REMAX Commercial® brokers are generalists who can sell or lease any property type. Each office is independently owned and operated, and REMAX does not dictate commission splits — offices have the freedom to set what works for them. Agents also get access to MAXRefer (AI-powered referral matching), RealNex Marketplace, REMAX University, and discounted CCIM courses.",
+    a: "REMAX Commercial Real Estate advisors operate within the largest real estate network on the planet — 145,000+ agents across 9,000+ offices in 120+ countries and territories. Unlike traditional CRE firms that restrict brokers to specific asset classes, REMAX Commercial® brokers are generalists who can sell or lease any property type. Each office is independently owned and operated, and REMAX does not dictate commission splits — offices have the freedom to set what works for them. Agents also get access to MAXRefer (AI-powered referral matching), RealNex Marketplace, REMAX University, and discounted CCIM courses.",
   },
   {
     q: "Does REMAX Commercial® operate in Florida?",
-    a: "Yes. REMAX Commercial® agents operate across all 67 Florida counties. Barrett Henry is a REMAX Commercial® Broker Associate at REMAX Collective, with offices in Tampa, Largo, and Brandon. He handles commercial transactions throughout the state, and for markets outside his core area, he leverages the REMAX referral network to connect clients with local commercial specialists.",
+    a: "Yes. REMAX Commercial Real Estate advisors operate across all 67 Florida counties. Barrett Henry is a REMAX Commercial Real Estate Broker Associate at REMAX Collective, with offices in Tampa, Largo, and Brandon. He handles commercial transactions throughout the state, and for markets outside his core area, he leverages the REMAX referral network to connect clients with local commercial specialists.",
   },
   {
     q: "What types of properties does REMAX Commercial® handle?",
-    a: "REMAX Commercial® agents specialize in all major commercial property types: office space, retail space, industrial and warehouse properties, multifamily apartment complexes, vacant land and development sites, hospitality properties, NNN (triple-net) investments, and specialty assets such as marinas. Whatever the asset class, REMAX Commercial® has an agent who specializes in it.",
+    a: "REMAX Commercial Real Estate advisors specialize in all major commercial property types: office space, retail space, industrial and warehouse properties, multifamily apartment complexes, vacant land and development sites, hospitality properties, NNN (triple-net) investments, and specialty assets such as marinas. Whatever the asset class, REMAX Commercial® has an agent who specializes in it.",
   },
   {
-    q: "How do I find a REMAX Commercial® agent in Florida?",
-    a: "You are already in the right place. Barrett Henry is a REMAX Commercial® Broker Associate serving all 67 Florida counties from his base in Tampa Bay. Contact Barrett directly at (813) 733-7907 or barrett@nowtb.com to discuss your commercial real estate needs. For transactions outside Florida, Barrett can connect you with REMAX Commercial® agents in any state or country through the global referral network.",
+    q: "How do I find a REMAX Commercial Real Estate advisor in Florida?",
+    a: "You are already in the right place. Barrett Henry is a REMAX Commercial Real Estate Broker Associate serving all 67 Florida counties from his base in Tampa Bay. Contact Barrett directly at (813) 733-7907 or barrett@nowtb.com to discuss your commercial real estate needs. For transactions outside Florida, Barrett can connect you with REMAX Commercial Real Estate advisors in any state or country through the global referral network.",
   },
   {
     q: "What is the REMAX Commercial® referral network?",
-    a: "The REMAX referral network is the largest in real estate — connecting 145,000+ agents across 120+ countries. REMAX Commercial® uses MAXRefer, an AI-powered platform that matches referrals across the entire network based on agent specialization and market expertise. When a REMAX Commercial® agent in Florida has a client looking to buy, sell, or lease commercial property in another market, MAXRefer identifies the best local specialist. Agents also pitch listings live on the quarterly Global Deal Call — recent calls have featured opportunities like a $120M island off Tanzania. This ensures clients get local expertise no matter where the deal is.",
+    a: "The REMAX referral network is the largest in real estate — connecting 145,000+ agents across 120+ countries. REMAX Commercial® uses MAXRefer, an AI-powered platform that matches referrals across the entire network based on agent specialization and market expertise. When a REMAX Commercial Real Estate advisor in Florida has a client looking to buy, sell, or lease commercial property in another market, MAXRefer identifies the best local specialist. Agents also pitch listings live on the quarterly Global Deal Call — recent calls have featured opportunities like a $120M island off Tanzania. This ensures clients get local expertise no matter where the deal is.",
   },
   {
-    q: "Is Barrett Henry a REMAX Commercial® agent?",
+    q: "Is Barrett Henry a REMAX Commercial Real Estate advisor?",
     a: "Yes. Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX Collective, operating under the REMAX Commercial® division for commercial property transactions. He has 23+ years of real estate experience, holds e-PRO, MRP, and SRS designations, and has been inducted into the REMAX Hall of Fame. Barrett serves all 67 Florida counties with a focus on the Tampa Bay market.",
   },
 ] as const;
@@ -90,7 +90,7 @@ const schema = {
       "@type": "Organization",
       "@id": "https://hencre.com/remax-commercial/#organization",
       name: "REMAX Commercial®",
-      alternateName: "REMAX Commercial® Florida",
+      alternateName: "REMAX Commercial Real Estate",
       url: "https://www.remaxcommercial.com",
       description:
         "REMAX Commercial® is the commercial real estate division of REMAX, the world's most recognized real estate brand. Founded in 1973 with 145,000+ agents across 120+ countries.",
@@ -182,7 +182,7 @@ export default function RemaxCommercialPage() {
 
       {/* ---- Hero ---- */}
       <Hero
-        title="REMAX Commercial® Florida"
+        title="REMAX Commercial Real Estate"
         subtitle="Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Commercial real estate backed by the world's most recognized brand."
         ctaText="Contact Barrett"
         ctaHref="/contact"
@@ -230,7 +230,7 @@ export default function RemaxCommercialPage() {
           <p>
             The REMAX Commercial® division was created to bring that same level of
             brand recognition, agent quality, and network infrastructure to the
-            commercial real estate space. REMAX Commercial® agents do not dabble in
+            commercial real estate space. REMAX Commercial Real Estate advisors do not dabble in
             commercial property on the side — they specialize in it. Office space,
             retail centers, industrial warehouses, multifamily complexes, vacant
             land, hospitality assets, marinas, and NNN investments are all within
@@ -238,10 +238,10 @@ export default function RemaxCommercialPage() {
           </p>
           <p>
             The tagline says it all: &ldquo;A better way in commercial real
-            estate.&rdquo; REMAX Commercial® agents have access to proprietary
+            estate.&rdquo; REMAX Commercial Real Estate advisors have access to proprietary
             tools, global listing databases, commercial-specific training
             programs, and the most powerful referral network in the industry. When
-            a REMAX Commercial® agent in Tampa needs to place a client in a Dallas
+            a REMAX Commercial Real Estate advisor in Tampa needs to place a client in a Dallas
             industrial property, they pick up the phone and connect with a
             specialist who already knows that market.
           </p>
@@ -324,7 +324,7 @@ export default function RemaxCommercialPage() {
               entrepreneurial brokers who are invested in their own success.
             </p>
             <p>
-              REMAX Commercial® agents receive commercial-specific training through
+              REMAX Commercial Real Estate advisors receive commercial-specific training through
               REMAX University, which is adding 13 new commercial courses in 2026.
               They also have access to discounted CCIM (Certified Commercial
               Investment Member) courses and alignment with the Realtors Land
@@ -343,7 +343,7 @@ export default function RemaxCommercialPage() {
               retail centers to a $120M island off Tanzania.
             </p>
             <p>
-              REMAX Commercial® agents also benefit from major industry events —
+              REMAX Commercial Real Estate advisors also benefit from major industry events —
               the annual REMAX R4 conference in Las Vegas and the REMAX Global
               Commercial Symposium held each April bring together commercial
               brokers from around the world to share deals, build relationships,

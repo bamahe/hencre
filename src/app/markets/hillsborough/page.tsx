@@ -14,11 +14,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Hillsborough County CRE | REMAX Commercial® Florida — Tampa Market",
+  title: "Hillsborough County CRE | REMAX Commercial Real Estate — Tampa Market",
   description:
     "Deep dive into the Hillsborough County commercial real estate market. Tampa's Westshore business district, downtown mixed-use growth, I-75 industrial corridor, and more. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Hillsborough County Commercial Real Estate | REMAX Commercial® Florida",
+    title: "Hillsborough County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
       "Explore Tampa and Hillsborough County's commercial real estate landscape — office, industrial, retail, and investment opportunities.",
     url: "https://hencre.com/markets/hillsborough",
@@ -31,7 +31,7 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      name: "REMAX Commercial® Florida — Barrett Henry",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
       description:
         "Commercial real estate brokerage serving Hillsborough County and the greater Tampa Bay region.",
       telephone: "(813) 733-7907",

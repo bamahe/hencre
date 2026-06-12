@@ -9,13 +9,13 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "About Barrett Henry | REMAX Commercial® Florida Broker Associate",
+  title: "About Barrett Henry | REMAX Commercial Real Estate Broker Associate",
   description:
-    "Barrett Henry — REALTOR®, Broker Associate at REMAX Collective. REMAX Commercial® agent with 23+ years of real estate experience, e-PRO, MRP, SRS designations, REMAX Hall of Fame. Commercial real estate across all 67 Florida counties.",
+    "Barrett Henry — REALTOR®, Broker Associate at REMAX Collective. REMAX Commercial Real Estate advisor with 23+ years of real estate experience, e-PRO, MRP, SRS designations, REMAX Hall of Fame. Commercial real estate across all 67 Florida counties.",
   openGraph: {
-    title: "About Barrett Henry | REMAX Commercial® Florida",
+    title: "About Barrett Henry | REMAX Commercial Real Estate",
     description:
-      "REMAX Commercial® Broker Associate with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
+      "REMAX Commercial Real Estate Broker Associate with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
     url: "https://hencre.com/about",
   },
 };

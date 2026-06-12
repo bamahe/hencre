@@ -14,11 +14,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Polk County CRE | REMAX Commercial® Florida — Lakeland & Winter Haven",
+  title: "Polk County CRE | REMAX Commercial Real Estate — Lakeland & Winter Haven",
   description:
     "Polk County CRE market overview. I-4 corridor logistics and warehousing, Lakeland's downtown revitalization, and Winter Haven's emerging retail growth. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Polk County Commercial Real Estate | REMAX Commercial® Florida",
+    title: "Polk County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
       "Explore Polk County's CRE market — Central Florida's logistics powerhouse along the I-4 corridor.",
     url: "https://hencre.com/markets/polk",
@@ -30,7 +30,7 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      name: "REMAX Commercial® Florida — Barrett Henry",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
       description: "Commercial real estate brokerage serving Polk County.",
       telephone: "(813) 733-7907",
       email: "barrett@nowtb.com",

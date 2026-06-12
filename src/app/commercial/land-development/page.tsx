@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Land & Development | REMAX Commercial® Florida",
+  title: "Land & Development | REMAX Commercial Real Estate",
   description:
     "Buy or sell commercial land in Florida. Entitled, raw, and development-ready parcels for commercial, industrial, and mixed-use projects. Barrett Henry, REALTOR® at REMAX Collective.",
   openGraph: {
-    title: "Land & Development | REMAX Commercial® Florida",
+    title: "Land & Development | REMAX Commercial Real Estate",
     description: "Commercial and development land across Florida. Entitled, raw, and shovel-ready parcels.",
     url: "https://hencre.com/commercial/land-development",
   },
@@ -76,7 +76,7 @@ export default function LandDevelopmentPage() {
             of thousands in avoidable costs.
           </p>
           <p>
-            REMAX Commercial® agents bring development expertise and land brokerage resources to every engagement. I work with buyers to identify sites that match their development vision
+            REMAX Commercial Real Estate advisors bring development expertise and land brokerage resources to every engagement. I work with buyers to identify sites that match their development vision
             and with sellers to position land for maximum value. Whether you are
             looking for a shovel-ready outparcel or a 50-acre assemblage, I bring the
             local knowledge and network to get the deal done.

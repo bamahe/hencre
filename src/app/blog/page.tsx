@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   description:
     "Commercial real estate blog by Barrett Henry. Market updates, investment analysis, leasing tips, and CRE strategy for Florida investors, tenants, and landlords.",
   openGraph: {
-    title: "Blog | REMAX Commercial® Florida",
+    title: "Blog | REMAX Commercial Real Estate",
     description:
       "CRE market updates, investment analysis, and leasing insights from Barrett Henry.",
     url: "https://hencre.com/blog",
@@ -47,7 +47,7 @@ const schema = {
     },
     {
       "@type": "Blog",
-      name: "REMAX Commercial® Florida Blog",
+      name: "REMAX Commercial Real Estate Blog",
       description:
         "Commercial real estate insights and market updates from Barrett Henry.",
       url: "https://hencre.com/blog",

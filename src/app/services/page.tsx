@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Full-service commercial real estate brokerage: tenant representation, landlord leasing, investment sales, dispositions, and CRE valuation. Barrett Henry, REALTOR® serving all 67 Florida counties.",
   openGraph: {
-    title: "CRE Services | REMAX Commercial® Florida",
+    title: "CRE Services | REMAX Commercial Real Estate",
     description:
       "Tenant rep, landlord leasing, investment sales, dispositions, and valuation. Full-service CRE across Florida.",
     url: "https://hencre.com/services",

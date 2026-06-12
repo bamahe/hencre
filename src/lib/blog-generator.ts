@@ -65,7 +65,7 @@ function buildPrompt(
     topicInstruction = `Write an investor-focused article about commercial real estate opportunities in ${cityName}, ${countyName} County, Florida. This could cover: leasing strategies, commercial property management considerations, NNN investment opportunities, cap rate trends, what makes this submarket attractive for CRE investors, or landlord strategies for this area. Pick the angle that creates the most useful content for an investor or landlord considering ${cityName}.`;
   }
 
-  return `You are writing a blog post for hencre.com — Barrett Henry's commercial real estate website. Barrett is a REALTOR® and Broker Associate at REMAX Collective, operating under REMAX Commercial® for commercial transactions. He has 23+ years of real estate experience (NEVER tie this to Tampa Bay specifically) and serves all 67 Florida counties from three offices in Tampa, Largo, and Brandon.
+  return `You are writing a blog post for hencre.com — Barrett Henry's commercial real estate website. Barrett is a REALTOR® and Broker Associate at REMAX Collective, operating under REMAX Commercial Real Estate for commercial transactions. He has 23+ years of real estate experience (NEVER tie this to Tampa Bay specifically) and serves all 67 Florida counties from three offices in Tampa, Largo, and Brandon.
 
 ${topicInstruction}
 
@@ -75,7 +75,7 @@ CONTENT RULES:
 - First paragraph: directly answer the page's main question in 2-3 sentences
 - Include "According to [source]" citations where appropriate (Florida statutes, county records, industry reports)
 - Plain English, benefit-driven, no fluff phrases or AI-sounding transitions
-- Always say "REMAX Commercial®" (with ® after Commercial)
+- Always say "REMAX Commercial Real Estate" (with ® after Commercial)
 - Always say "REALTOR®" with ®
 - Always say "owners suite" (never "master suite")
 - Never mention mobile or manufactured homes
@@ -217,7 +217,7 @@ const articleSchema = {
     ],
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
   },
-  publisher: { "@type": "Organization", name: "REMAX Commercial\\u00AE Florida", url: "https://hencre.com" },
+  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
   url: "${url}",
 };
 

@@ -14,11 +14,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Pinellas County CRE | REMAX Commercial® Florida — St. Petersburg & Clearwater",
+  title: "Pinellas County CRE | REMAX Commercial Real Estate — St. Petersburg & Clearwater",
   description:
     "Pinellas County CRE market insights covering St. Petersburg, Clearwater, and the beaches. Office, retail, hospitality, and industrial opportunities. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
   openGraph: {
-    title: "Pinellas County Commercial Real Estate | REMAX Commercial® Florida",
+    title: "Pinellas County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
       "Explore St. Petersburg and Clearwater commercial real estate — coastal market with surging office demand and tourism-driven retail.",
     url: "https://hencre.com/markets/pinellas",
@@ -30,7 +30,7 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      name: "REMAX Commercial® Florida — Barrett Henry",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
       description: "Commercial real estate brokerage serving Pinellas County.",
       telephone: "(813) 733-7907",
       email: "barrett@nowtb.com",

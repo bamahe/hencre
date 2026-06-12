@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Multifamily | REMAX Commercial® Florida",
+  title: "Multifamily | REMAX Commercial Real Estate",
   description:
     "Buy, sell, or invest in multifamily properties across Florida. Apartment complexes, garden-style, mid-rise, and value-add opportunities. Barrett Henry, REALTOR® at REMAX Collective.",
   openGraph: {
-    title: "Multifamily | REMAX Commercial® Florida",
+    title: "Multifamily | REMAX Commercial Real Estate",
     description: "Multifamily investment sales and acquisitions across Florida.",
     url: "https://hencre.com/commercial/multifamily",
   },
@@ -66,7 +66,7 @@ export default function MultifamilyPage() {
             Florida adds over 300,000 new residents annually, and they all need
             somewhere to live. That population growth, combined with rising
             homeownership costs, keeps demand for rental housing high across the state.
-            REMAX Commercial® agents handle multifamily acquisitions and dispositions across all Florida markets. Multifamily is one of the most resilient and in-demand CRE asset classes in
+            REMAX Commercial Real Estate advisors handle multifamily acquisitions and dispositions across all Florida markets. Multifamily is one of the most resilient and in-demand CRE asset classes in
             Florida.
           </p>
           <p>

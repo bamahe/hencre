@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tenant Representation | REMAX Commercial® Florida",
+  title: "Tenant Representation | REMAX Commercial Real Estate",
   description:
     "Expert tenant representation across Florida. Barrett Henry negotiates your commercial lease so you get the right space at the best terms. Free market survey.",
   openGraph: {
-    title: "Tenant Representation | REMAX Commercial® Florida",
+    title: "Tenant Representation | REMAX Commercial Real Estate",
     description:
       "Find the right commercial space at the right terms. Expert tenant rep across all 67 Florida counties.",
     url: "https://hencre.com/services/tenant-representation",

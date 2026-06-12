@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Investment Sales | REMAX Commercial® Florida",
+  title: "Investment Sales | REMAX Commercial Real Estate",
   description:
     "Buy or sell income-producing commercial real estate in Florida. Barrett Henry provides data-driven investment analysis, deal sourcing, and negotiation for investors and family offices.",
   openGraph: {
-    title: "Investment Sales | REMAX Commercial® Florida",
+    title: "Investment Sales | REMAX Commercial Real Estate",
     description:
       "Acquire income-producing properties or sell at peak value. Data-driven CRE investment services across Florida.",
     url: "https://hencre.com/services/investment-sales",
@@ -66,7 +66,7 @@ export default function InvestmentSalesPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Smart Acquisitions. Strategic Exits.</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial® agent, Barrett brings global market reach and deep analytical expertise to every investment transaction. Commercial real estate investing is about numbers — but the right numbers
+            As a REMAX Commercial Real Estate advisor, Barrett brings global market reach and deep analytical expertise to every investment transaction. Commercial real estate investing is about numbers — but the right numbers
             require the right market intelligence. A 7% cap rate in one submarket is a
             steal; in another, it is overpriced. I bring the local context that
             spreadsheets cannot provide.

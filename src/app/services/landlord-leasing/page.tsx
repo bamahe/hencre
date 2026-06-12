@@ -8,11 +8,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Landlord Leasing | REMAX Commercial® Florida",
+  title: "Landlord Leasing | REMAX Commercial Real Estate",
   description:
     "Landlord leasing services across Florida. Barrett Henry markets your commercial property, screens tenants, and negotiates leases that protect your investment.",
   openGraph: {
-    title: "Landlord Leasing | REMAX Commercial® Florida",
+    title: "Landlord Leasing | REMAX Commercial Real Estate",
     description:
       "Fill commercial vacancies faster with qualified tenants. Strategic marketing and lease negotiation across Florida.",
     url: "https://hencre.com/services/landlord-leasing",
