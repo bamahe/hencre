@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -20,6 +21,14 @@ export const metadata: Metadata = {
       "Explore the key drivers fueling Tampa Bay's commercial real estate growth — population migration, infrastructure investment, and business climate.",
     url: "https://hencre.com/blog/why-tampa-bay-cre-is-booming",
     type: "article",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1656119337375-13bfe30f8e76?w=1200&h=630&fit=crop",
+        width: 1200,
+        height: 630,
+        alt: "a city skyline with palm trees",
+      },
+    ],
   },
 };
 
@@ -79,6 +88,13 @@ export default function TampaBayBoomingPage() {
         title="Why Tampa Bay Commercial Real Estate Is Booming"
         subtitle="Population growth, business migration, and infrastructure investment are reshaping the Tampa Bay commercial landscape. Here is what is driving it."
       />
+
+      {/* Hero image — Photo by Goji on Unsplash */}
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <div className="relative aspect-[2/1] overflow-hidden rounded-xl mb-8">
+          <Image src="https://images.unsplash.com/photo-1656119337375-13bfe30f8e76?w=1200&h=630&fit=crop" alt="a city skyline with palm trees" fill className="object-cover" sizes="(max-width: 896px) 100vw, 896px" />
+        </div>
+      </div>
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -20,6 +21,14 @@ export const metadata: Metadata = {
       "Learn what experienced investors look for in commercial real estate — tenant quality, lease terms, location fundamentals, and more.",
     url: "https://hencre.com/blog/what-makes-a-good-commercial-investment",
     type: "article",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=630&fit=crop",
+        width: 1200,
+        height: 630,
+        alt: "low angle photo of city high rise buildings during daytime",
+      },
+    ],
   },
 };
 
@@ -79,6 +88,13 @@ export default function GoodInvestmentPage() {
         title="What Makes a Good Commercial Real Estate Investment?"
         subtitle="Not every commercial property is a good investment. Here is what I look for when helping clients evaluate opportunities."
       />
+
+      {/* Hero image — Photo by Sean Pollock on Unsplash */}
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <div className="relative aspect-[2/1] overflow-hidden rounded-xl mb-8">
+          <Image src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=630&fit=crop" alt="low angle photo of city high rise buildings during daytime" fill className="object-cover" sizes="(max-width: 896px) 100vw, 896px" />
+        </div>
+      </div>
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">

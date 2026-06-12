@@ -8,7 +8,12 @@
     "city": "Tampa",
     "county": "Hillsborough",
     "businessType": null,
-    "image": null
+    "image": {
+      "url": "https://images.unsplash.com/photo-1656119337375-13bfe30f8e76?w=1200&h=630&fit=crop",
+      "alt": "a city skyline with palm trees",
+      "photographer": "Goji",
+      "link": "https://unsplash.com/@gjr_19"
+    }
   },
   {
     "slug": "5-mistakes-first-time-commercial-tenants-make",
@@ -19,7 +24,12 @@
     "city": "Tampa",
     "county": "Hillsborough",
     "businessType": null,
-    "image": null
+    "image": {
+      "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=630&fit=crop",
+      "alt": "man writing on paper",
+      "photographer": "Scott Graham",
+      "link": "https://unsplash.com/@amstram"
+    }
   },
   {
     "slug": "what-makes-a-good-commercial-investment",
@@ -30,7 +40,12 @@
     "city": "Tampa",
     "county": "Hillsborough",
     "businessType": null,
-    "image": null
+    "image": {
+      "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=630&fit=crop",
+      "alt": "low angle photo of city high rise buildings during daytime",
+      "photographer": "Sean Pollock",
+      "link": "https://unsplash.com/@seanpollock"
+    }
   },
   {
     "slug": "do-you-need-a-commercial-real-estate-broker",
@@ -41,7 +56,12 @@
     "city": "Tampa",
     "county": "Hillsborough",
     "businessType": null,
-    "image": null
+    "image": {
+      "url": "https://images.unsplash.com/photo-1672380135241-c024f7fbfa13?w=1200&h=630&fit=crop",
+      "alt": "two people shaking hands in front of a laptop",
+      "photographer": "Radission US",
+      "link": "https://unsplash.com/@radission"
+    }
   },
   {
     "slug": "florida-1031-exchange-what-investors-need-to-know",
@@ -52,6 +72,11 @@
     "city": null,
     "county": null,
     "businessType": null,
-    "image": null
+    "image": {
+      "url": "https://images.unsplash.com/flagged/photo-1558954157-aa76c0d246c6?w=1200&h=630&fit=crop",
+      "alt": "real estate letter blocks",
+      "photographer": "Precondo CA",
+      "link": "https://unsplash.com/@precondo"
+    }
   }
 ]

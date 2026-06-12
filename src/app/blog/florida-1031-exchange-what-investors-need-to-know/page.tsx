@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -21,6 +22,14 @@ export const metadata: Metadata = {
       "Florida-specific 1031 exchange considerations for commercial real estate investors — tax advantages, property flexibility, and common pitfalls.",
     url: "https://hencre.com/blog/florida-1031-exchange-what-investors-need-to-know",
     type: "article",
+    images: [
+      {
+        url: "https://images.unsplash.com/flagged/photo-1558954157-aa76c0d246c6?w=1200&h=630&fit=crop",
+        width: 1200,
+        height: 630,
+        alt: "real estate letter blocks",
+      },
+    ],
   },
 };
 
@@ -143,6 +152,13 @@ export default function Florida1031Page() {
         title="Florida 1031 Exchange: What Investors Need to Know"
         subtitle="Florida's tax-friendly environment makes it one of the best states to exchange into. Here is what you need to know about executing a 1031 exchange in the Sunshine State."
       />
+
+      {/* Hero image — Photo by Precondo CA on Unsplash */}
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <div className="relative aspect-[2/1] overflow-hidden rounded-xl mb-8">
+          <Image src="https://images.unsplash.com/flagged/photo-1558954157-aa76c0d246c6?w=1200&h=630&fit=crop" alt="real estate letter blocks" fill className="object-cover" sizes="(max-width: 896px) 100vw, 896px" />
+        </div>
+      </div>
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">

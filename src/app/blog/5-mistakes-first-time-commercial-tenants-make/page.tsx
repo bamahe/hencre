@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -20,6 +21,14 @@ export const metadata: Metadata = {
       "Avoid the most common mistakes first-time commercial tenants make — from skipping lease review to underestimating total occupancy costs.",
     url: "https://hencre.com/blog/5-mistakes-first-time-commercial-tenants-make",
     type: "article",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=630&fit=crop",
+        width: 1200,
+        height: 630,
+        alt: "man writing on paper",
+      },
+    ],
   },
 };
 
@@ -79,6 +88,13 @@ export default function TenantMistakesPage() {
         title="5 Mistakes First-Time Commercial Tenants Make"
         subtitle="Signing your first commercial lease is exciting — but these common mistakes can cost you real money. Here is how to avoid them."
       />
+
+      {/* Hero image — Photo by Scott Graham on Unsplash */}
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <div className="relative aspect-[2/1] overflow-hidden rounded-xl mb-8">
+          <Image src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=630&fit=crop" alt="man writing on paper" fill className="object-cover" sizes="(max-width: 896px) 100vw, 896px" />
+        </div>
+      </div>
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
