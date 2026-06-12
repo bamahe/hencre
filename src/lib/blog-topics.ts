@@ -80,18 +80,13 @@ export function pickBusinessType(): string {
 export type TopicCategory = "city-market" | "business-guide" | "investor";
 
 /**
- * Pick category by day of week.
- * Monday = city-market, Wednesday = business-guide, Friday = investor
- * Fallback: rotate in order.
+ * Pick category — rotate through categories evenly.
+ * Uses day-of-year mod 3 so posts cycle through all three types.
  */
 export function pickCategory(): TopicCategory {
-  const day = new Date().getDay(); // 0=Sun, 1=Mon, 3=Wed, 5=Fri
-  if (day === 1) return "city-market";
-  if (day === 3) return "business-guide";
-  if (day === 5) return "investor";
-  // Fallback for manual triggers
   const cats: TopicCategory[] = ["city-market", "business-guide", "investor"];
-  return cats[Math.floor(Math.random() * cats.length)];
+  const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000);
+  return cats[dayOfYear % 3];
 }
 
 /* ---- Existing Pages for Internal Linking ---- */
