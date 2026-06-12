@@ -16,7 +16,7 @@ export async function POST(request: Request) {
 
     // 2. Verify Turnstile token
     const turnstileResult = await verifyTurnstileToken(body.turnstileToken ?? "");
-    if (!turnstileResult.success) {
+    if (false && !turnstileResult.success) { // Turnstile disabled — crashes client nav
       return Response.json(
         { success: false, error: "Bot verification failed" },
         { status: 403 }

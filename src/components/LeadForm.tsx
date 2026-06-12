@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { Loader2, CheckCircle, AlertCircle } from "lucide-react";
 import { FL_COUNTIES } from "@/lib/fl-counties";
-import TurnstileWidget from "./TurnstileWidget";
+
 
 /* -------------------------------------------------------------------
  * LeadForm (Form A) — public CRE lead form.
@@ -29,7 +29,7 @@ export default function LeadForm() {
   const [phone, setPhone] = useState("");
   const [county, setCounty] = useState("");
   const [message, setMessage] = useState("");
-  const [turnstileToken, setTurnstileToken] = useState("");
+  
 
   /* Submission state */
   const [status, setStatus] = useState<FormStatus>("idle");
@@ -51,7 +51,7 @@ export default function LeadForm() {
           phone,
           county,
           message,
-          turnstileToken,
+          // "" removed,
         }),
       });
 
@@ -197,7 +197,6 @@ export default function LeadForm() {
       </div>
 
       {/* ---- Turnstile verification ---- */}
-      <TurnstileWidget onVerify={setTurnstileToken} />
 
       {/* ---- Error message ---- */}
       {status === "error" && (

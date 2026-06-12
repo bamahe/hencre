@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { Loader2, CheckCircle, AlertCircle } from "lucide-react";
 import { FL_COUNTIES } from "@/lib/fl-counties";
-import TurnstileWidget from "./TurnstileWidget";
+
 
 /* -------------------------------------------------------------------
  * ReferralForm (Form B) — broker-to-broker referral intake.
@@ -30,7 +30,7 @@ export default function ReferralForm() {
   const [clientType, setClientType] = useState("");
   const [county, setCounty] = useState("");
   const [dealNotes, setDealNotes] = useState("");
-  const [turnstileToken, setTurnstileToken] = useState("");
+  
 
   /* Submission state */
   const [status, setStatus] = useState<FormStatus>("idle");
@@ -54,7 +54,7 @@ export default function ReferralForm() {
           clientType,
           county,
           dealNotes,
-          turnstileToken,
+          // "" removed,
         }),
       });
 
@@ -233,7 +233,6 @@ export default function ReferralForm() {
       </div>
 
       {/* ---- Turnstile verification ---- */}
-      <TurnstileWidget onVerify={setTurnstileToken} />
 
       {/* ---- Error message ---- */}
       {status === "error" && (
