@@ -55,6 +55,13 @@ const SERVICES = [
       "Broker opinion of value, comparable sales analysis, and market positioning. Know exactly what your property is worth before you make a move.",
     who: "Owners, investors, lenders, estate planners",
   },
+  {
+    title: "Commercial Property Management",
+    href: "/services/commercial-property-management",
+    description:
+      "Full-service CRE management — tenant relations, maintenance, financial reporting, lease administration, and vacancy marketing. One point of contact for your entire operation.",
+    who: "Property owners, investors, portfolio managers",
+  },
 ] as const;
 
 const schema = {

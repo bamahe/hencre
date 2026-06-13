@@ -16,7 +16,12 @@ const TIER1_COUNTIES = [
 // Service page slugs
 const SERVICES = [
   "tenant-representation", "landlord-leasing", "investment-sales",
-  "dispositions", "cre-valuation",
+  "dispositions", "cre-valuation", "commercial-property-management",
+  "commercial-property-management/tenant-relations",
+  "commercial-property-management/maintenance-operations",
+  "commercial-property-management/financial-reporting",
+  "commercial-property-management/lease-administration",
+  "commercial-property-management/vacancy-marketing",
 ];
 
 // Property type slugs
