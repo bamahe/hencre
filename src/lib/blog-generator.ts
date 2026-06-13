@@ -83,6 +83,14 @@ CONTENT RULES:
 - Vary CTA copy — NEVER use "Ready to Make [City] Home?"
 - Never name individuals in any crime-related context
 
+CONVERSION FOCUS (THIS IS CRITICAL — every post must motivate readers to call):
+- The post must make the reader feel like they need an experienced CRE advisor NOW
+- Include a mid-article CTA: "Call Barrett directly at (813) 733-7907 to discuss [specific opportunity related to the article topic]"
+- End with urgency — why acting now matters (lease windows, market timing, competition, inventory)
+- Position Barrett as the insider who saves clients time and money — not a generic agent
+- Every post should answer: "Why should a business owner or investor call Barrett about THIS?"
+- Target these buyer/seller types: business owners looking for space, investors seeking income properties, landlords considering selling, tenants whose leases expire soon
+
 SEO/AEO RULES:
 - Title tag: keyword first, under 60 characters, include benefit or year
 - Meta description: 120-155 characters with CTA
