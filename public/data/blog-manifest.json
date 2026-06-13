@@ -78,5 +78,22 @@
       "photographer": "Precondo CA",
       "link": "https://unsplash.com/@precondo"
     }
+  },
+  {
+    "slug": "palm-harbor-commercial-real-estate-investment-opportunities",
+    "title": "Palm Harbor Commercial Real Estate Investment Guide 2024",
+    "metaDescription": "Discover Palm Harbor's commercial real estate opportunities including NNN investments, retail properties, and strategic locations. Expert CRE guidance.",
+    "excerpt": "Palm Harbor offers compelling commercial real estate investment opportunities with strong demographics, strategic location, and diverse property types from retail to NNN investments.",
+    "category": "investor",
+    "city": "Palm Harbor",
+    "county": "Pinellas",
+    "businessType": null,
+    "date": "2026-06-13",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1584677488802-c080664c7c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDM5MzB8MHwxfHNlYXJjaHwxfHxwYWxtJTIwaGFyYm9yJTIwZmxvcmlkYSUyMEZsb3JpZGElMjBjb21tZXJjaWFsJTIwcmVhbCUyMGVzdGF0ZXxlbnwwfDB8fHwxNzgxMzU5MjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "alt": "red roses near body of water and city buildings during daytime",
+      "photographer": "Richard Sagredo",
+      "link": "https://unsplash.com/photos/red-roses-near-body-of-water-and-city-buildings-during-daytime-ZwM0FtQ3zeY"
+    }
   }
 ]
