@@ -32,9 +32,9 @@ export function organizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
-    name: 'HenCRE — Barrett Henry Commercial Real Estate',
+    name: 'REMAX Commercial\u00AE | HenCRE Florida Commercial Real Estate Advisors',
     url: 'https://hencre.com',
-    logo: 'https://hencre.com/images/hencre-logo.png',
+    logo: 'https://hencre.com/icon-512.png',
     description:
       'Florida commercial real estate services by Barrett Henry, REALTOR\u00AE at REMAX Collective. Specializing in leasing, sales, investment, and valuations across Tampa Bay and all 67 Florida counties.',
     telephone: BARRETT.phone,
@@ -205,7 +205,7 @@ export function articleSchema(article: {
       name: 'HenCRE',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://hencre.com/images/hencre-logo.png',
+        url: 'https://hencre.com/icon-512.png',
       },
     },
   };
@@ -239,7 +239,7 @@ export function blogPostingSchema(post: {
       name: 'HenCRE',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://hencre.com/images/hencre-logo.png',
+        url: 'https://hencre.com/icon-512.png',
       },
     },
   };
@@ -264,7 +264,7 @@ export function webSiteSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'HenCRE — Barrett Henry Commercial Real Estate',
+    name: 'REMAX Commercial\u00AE | HenCRE Florida Commercial Real Estate Advisors',
     url: 'https://hencre.com',
     description:
       'Florida commercial real estate services — leasing, sales, investment, and valuations across all 67 counties.',

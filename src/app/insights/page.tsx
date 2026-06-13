@@ -18,55 +18,55 @@ export const metadata: Metadata = {
   },
 };
 
-/* -- Insight articles (future deep-dive content) -- */
+/* -- Insight articles (live content) -- */
 const INSIGHTS = [
   {
-    title: "Tampa Bay Office Market Report",
-    description: "Quarterly analysis of vacancy, absorption, and rental trends across Tampa Bay office submarkets.",
-    href: "/insights/tampa-bay-office-market",
-    category: "Market Report",
-  },
-  {
-    title: "Florida Industrial Market Outlook",
-    description: "Supply, demand, and development pipeline across Florida's key industrial corridors.",
-    href: "/insights/florida-industrial-outlook",
-    category: "Market Report",
-  },
-  {
-    title: "1031 Exchange Guide for Florida Investors",
-    description: "Timeline, rules, and strategies for deferring capital gains through like-kind exchanges.",
-    href: "/insights/1031-exchange-guide",
+    title: "What Is a Cap Rate? How to Calculate & Interpret Capitalization Rates",
+    description: "How to interpret and compare cap rates across property types and submarkets. The essential metric for evaluating commercial property investments.",
+    href: "/insights/what-is-a-cap-rate",
     category: "Investment Guide",
   },
   {
-    title: "Understanding Cap Rates in Florida CRE",
-    description: "How to interpret and compare cap rates across property types and submarkets.",
-    href: "/insights/cap-rates-florida",
+    title: "1031 Exchange Basics: Tax-Deferred Exchanges for CRE Investors",
+    description: "Timeline, rules, and strategies for deferring capital gains through like-kind exchanges in Florida.",
+    href: "/insights/1031-exchange-basics",
     category: "Investment Guide",
   },
   {
-    title: "Commercial Lease Types Compared",
-    description: "NNN vs. gross vs. modified gross — which lease structure is right for your situation?",
-    href: "/insights/lease-types-compared",
+    title: "Gross vs. Net Lease: Commercial Lease Structures Compared",
+    description: "NNN vs. gross vs. modified gross — which lease structure is right for your situation as a tenant or landlord?",
+    href: "/insights/gross-vs-net-lease",
     category: "Leasing Guide",
   },
   {
-    title: "Florida Retail Trends for Tenants",
-    description: "Where the opportunities are for retail tenants in Florida's evolving consumer landscape.",
-    href: "/insights/florida-retail-trends",
-    category: "Market Report",
+    title: "NNN Lease Explained: What Triple Net Means for Tenants & Landlords",
+    description: "Everything you need to know about NNN leases — who pays what, how to negotiate, and when triple net makes sense.",
+    href: "/insights/nnn-lease-explained",
+    category: "Leasing Guide",
   },
   {
-    title: "Due Diligence Checklist for CRE Buyers",
-    description: "Every item you need to verify before closing on a commercial property in Florida.",
-    href: "/insights/due-diligence-checklist",
+    title: "How to Value Commercial Property: 3 Approaches Every Investor Should Know",
+    description: "Income approach, sales comparison, and cost approach — when to use each method for Florida commercial properties.",
+    href: "/insights/how-to-value-commercial-property",
+    category: "Investment Guide",
+  },
+  {
+    title: "CRE Due Diligence Checklist: What to Inspect Before You Buy",
+    description: "Every item you need to verify before closing on a commercial property in Florida. Don't skip any of these.",
+    href: "/insights/cre-due-diligence-checklist",
     category: "Buyer Guide",
   },
   {
-    title: "Multifamily Investment in Florida: A Primer",
-    description: "Key metrics, market dynamics, and underwriting fundamentals for apartment investors.",
-    href: "/insights/multifamily-investment-primer",
-    category: "Investment Guide",
+    title: "Leasing vs. Buying Commercial Space: Decision Framework",
+    description: "A practical framework for business owners deciding whether to lease or purchase their commercial space in Florida.",
+    href: "/insights/leasing-vs-buying-commercial",
+    category: "Buyer Guide",
+  },
+  {
+    title: "CAM Charges Explained: What Commercial Tenants Need to Know",
+    description: "Common Area Maintenance charges broken down — what they cover, how to negotiate them, and red flags to watch for.",
+    href: "/insights/cam-charges-explained",
+    category: "Leasing Guide",
   },
 ] as const;
 
@@ -111,9 +111,10 @@ export default function InsightsIndexPage() {
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {INSIGHTS.map((insight) => (
-            <div
+            <Link
               key={insight.href}
-              className="group flex flex-col rounded-lg border border-[#E5E5E5] bg-white p-6 transition-shadow hover:shadow-lg"
+              href={insight.href}
+              className="group flex flex-col rounded-lg border border-[#E5E5E5] bg-white p-6 transition-shadow hover:shadow-lg no-underline"
             >
               <p className="text-xs font-semibold uppercase tracking-wider text-black">
                 {insight.category}
@@ -125,9 +126,9 @@ export default function InsightsIndexPage() {
                 {insight.description}
               </p>
               <p className="mt-4 text-sm font-semibold text-black">
-                Coming soon &rarr;
+                Read more &rarr;
               </p>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
