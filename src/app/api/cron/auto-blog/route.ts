@@ -135,6 +135,33 @@ export async function GET(request: Request) {
       await fetch(process.env.VERCEL_DEPLOY_HOOK, { method: "POST" });
     }
 
+    /* ---- Step 8: Submit URL for indexing ---- */
+    const newUrl = `https://hencre.com/blog/${postData.slug}`;
+
+    // IndexNow — instant submission to Bing, Yandex, Seznam, Naver
+    const indexNowKey = process.env.INDEXNOW_KEY;
+    if (indexNowKey) {
+      await fetch("https://api.indexnow.org/indexnow", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          host: "hencre.com",
+          key: indexNowKey,
+          urlList: [newUrl],
+        }),
+      }).catch((e) => console.error("[auto-blog] IndexNow failed:", e));
+    }
+
+    // Ping Google to recrawl sitemap (triggers discovery of new URL)
+    await fetch(
+      `https://www.google.com/ping?sitemap=https://hencre.com/sitemap.xml`
+    ).catch((e) => console.error("[auto-blog] Google sitemap ping failed:", e));
+
+    // Ping Bing sitemap as well
+    await fetch(
+      `https://www.bing.com/ping?sitemap=https://hencre.com/sitemap.xml`
+    ).catch((e) => console.error("[auto-blog] Bing sitemap ping failed:", e));
+
     return NextResponse.json({
       success: true,
       slug: postData.slug,
