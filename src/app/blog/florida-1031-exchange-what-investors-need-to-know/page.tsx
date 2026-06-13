@@ -149,6 +149,7 @@ export default function Florida1031Page() {
       />
 
       <Hero
+        backgroundImage="https://images.unsplash.com/flagged/photo-1558954157-aa76c0d246c6?w=1600&h=900&fit=crop"
         title="Florida 1031 Exchange: What Investors Need to Know"
         subtitle="Florida's tax-friendly environment makes it one of the best states to exchange into. Here is what you need to know about executing a 1031 exchange in the Sunshine State."
       />

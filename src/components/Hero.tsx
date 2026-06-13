@@ -17,11 +17,21 @@ interface HeroProps {
   ctaHref?: string;
   /** Show background video — only use on the home page */
   showVideo?: boolean;
+  /** Background image URL — used on blog posts. Image becomes the hero background with text overlay. */
+  backgroundImage?: string;
 }
 
-export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = false }: HeroProps) {
+export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = false, backgroundImage }: HeroProps) {
   return (
-    <section className="relative overflow-hidden bg-[#1a1a1a]">
+    <section
+      className="relative overflow-hidden bg-[#1a1a1a]"
+      style={backgroundImage ? { backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : undefined}
+    >
+      {/* Dark overlay for readability when image or video is present */}
+      {(backgroundImage || showVideo) && (
+        <div className="absolute inset-0 bg-black/60" />
+      )}
+
       {/* Background video — home page only */}
       {showVideo && (
         <>
@@ -34,8 +44,6 @@ export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = fa
           >
             <source src="/hero-video.mp4" type="video/mp4" />
           </video>
-          {/* Dark overlay for text readability */}
-          <div className="absolute inset-0 bg-black/60" />
         </>
       )}
 

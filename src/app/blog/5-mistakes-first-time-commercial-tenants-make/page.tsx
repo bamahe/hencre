@@ -85,6 +85,7 @@ export default function TenantMistakesPage() {
       />
 
       <Hero
+        backgroundImage="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&h=900&fit=crop"
         title="5 Mistakes First-Time Commercial Tenants Make"
         subtitle="Signing your first commercial lease is exciting — but these common mistakes can cost you real money. Here is how to avoid them."
       />

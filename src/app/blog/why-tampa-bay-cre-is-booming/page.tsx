@@ -85,6 +85,7 @@ export default function TampaBayBoomingPage() {
       />
 
       <Hero
+        backgroundImage="https://images.unsplash.com/photo-1656119337375-13bfe30f8e76?w=1600&h=900&fit=crop"
         title="Why Tampa Bay Commercial Real Estate Is Booming"
         subtitle="Population growth, business migration, and infrastructure investment are reshaping the Tampa Bay commercial landscape. Here is what is driving it."
       />

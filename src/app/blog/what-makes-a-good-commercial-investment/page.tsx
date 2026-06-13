@@ -85,6 +85,7 @@ export default function GoodInvestmentPage() {
       />
 
       <Hero
+        backgroundImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&h=900&fit=crop"
         title="What Makes a Good Commercial Real Estate Investment?"
         subtitle="Not every commercial property is a good investment. Here is what I look for when helping clients evaluate opportunities."
       />

@@ -85,6 +85,7 @@ export default function NeedABrokerPage() {
       />
 
       <Hero
+        backgroundImage="https://images.unsplash.com/photo-1672380135241-c024f7fbfa13?w=1600&h=900&fit=crop"
         title="Do You Need a Commercial Real Estate Broker?"
         subtitle="Yes, I am biased. But here is the honest case for when a broker adds value — and when you might not need one."
       />

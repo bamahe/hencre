@@ -136,22 +136,9 @@ function buildPageTsx(content: GeneratedContent, image: UnsplashPhoto | null, da
 
   const esc = (s: string) => s.replace(/\\/g, "\\\\").replace(/`/g, "\\`").replace(/\$/g, "\\$").replace(/"/g, '\\"');
 
-  const heroImageJsx = image
-    ? `
-      {/* Hero image */}
-      <div className="relative mx-auto mb-8 max-w-3xl overflow-hidden rounded-lg">
-        <img
-          src="${esc(image.url)}"
-          alt="${esc(image.alt)}"
-          width={1080}
-          height={607}
-          className="h-auto w-full"
-          loading="eager"
-        />
-        <p className="mt-2 text-center text-xs text-[#999999]">
-          Photo by <a href="${esc(image.link)}" target="_blank" rel="noopener noreferrer" className="underline">${esc(image.photographer)}</a> on Unsplash
-        </p>
-      </div>`
+  // Hero background image prop — image becomes the hero background, not a separate block
+  const heroImageProp = image
+    ? `\n        backgroundImage="${esc(image.url)}"`
     : "";
 
   const sectionJsx = sections
@@ -266,11 +253,10 @@ export default function BlogPost() {
         ]}
       />
 
-      <Hero
+      <Hero${heroImageProp}
         title="${esc(title)}"
         subtitle="${esc(metaDescription)}"
       />
-${heroImageJsx}
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
 ${sectionJsx}
