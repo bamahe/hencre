@@ -90,13 +90,6 @@ export default function NeedABrokerPage() {
         subtitle="Yes, I am biased. But here is the honest case for when a broker adds value — and when you might not need one."
       />
 
-      {/* Hero image — Photo by Radission US on Unsplash */}
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <div className="relative aspect-[2/1] overflow-hidden rounded-xl mb-8">
-          <Image src="https://images.unsplash.com/photo-1672380135241-c024f7fbfa13?w=1200&h=630&fit=crop" alt="two people shaking hands in front of a laptop" fill className="object-cover" sizes="(max-width: 896px) 100vw, 896px" />
-        </div>
-      </div>
-
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
           I am a commercial real estate broker, so you might expect me to say you always need one. The truth is more nuanced. There are situations where a broker is essential, situations where one adds significant value, and a few narrow cases where you might be fine on your own. Let me break it down honestly.

@@ -90,13 +90,6 @@ export default function GoodInvestmentPage() {
         subtitle="Not every commercial property is a good investment. Here is what I look for when helping clients evaluate opportunities."
       />
 
-      {/* Hero image — Photo by Sean Pollock on Unsplash */}
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <div className="relative aspect-[2/1] overflow-hidden rounded-xl mb-8">
-          <Image src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=630&fit=crop" alt="low angle photo of city high rise buildings during daytime" fill className="object-cover" sizes="(max-width: 896px) 100vw, 896px" />
-        </div>
-      </div>
-
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
           After working in real estate for over 23 years, I have seen plenty of deals that looked great on paper and turned into headaches — and quiet, unglamorous properties that generated steady returns for decades. The difference usually comes down to a handful of fundamentals that experienced investors evaluate before they ever make an offer. Here is what separates a good commercial investment from a bad one.

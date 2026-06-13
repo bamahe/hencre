@@ -90,13 +90,6 @@ export default function TenantMistakesPage() {
         subtitle="Signing your first commercial lease is exciting — but these common mistakes can cost you real money. Here is how to avoid them."
       />
 
-      {/* Hero image — Photo by Scott Graham on Unsplash */}
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <div className="relative aspect-[2/1] overflow-hidden rounded-xl mb-8">
-          <Image src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=630&fit=crop" alt="man writing on paper" fill className="object-cover" sizes="(max-width: 896px) 100vw, 896px" />
-        </div>
-      </div>
-
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
           Your first commercial lease is a major milestone. Whether you are opening a restaurant, a medical practice, a retail shop, or an office, the space you choose and the terms you agree to will directly impact your business&apos;s bottom line for years. I have helped dozens of first-time commercial tenants navigate this process, and I see the same mistakes come up again and again. Here are the five biggest ones — and how to sidestep them.

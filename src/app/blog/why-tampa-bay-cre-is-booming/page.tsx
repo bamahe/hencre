@@ -90,13 +90,6 @@ export default function TampaBayBoomingPage() {
         subtitle="Population growth, business migration, and infrastructure investment are reshaping the Tampa Bay commercial landscape. Here is what is driving it."
       />
 
-      {/* Hero image — Photo by Goji on Unsplash */}
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <div className="relative aspect-[2/1] overflow-hidden rounded-xl mb-8">
-          <Image src="https://images.unsplash.com/photo-1656119337375-13bfe30f8e76?w=1200&h=630&fit=crop" alt="a city skyline with palm trees" fill className="object-cover" sizes="(max-width: 896px) 100vw, 896px" />
-        </div>
-      </div>
-
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
           Tampa Bay has emerged as one of the most dynamic commercial real estate markets in the Southeast. What was once a market overshadowed by Miami and Orlando has stepped into its own, attracting national attention from investors, developers, and businesses relocating from higher-cost states. As a broker working this market, I see the momentum every day — and there are clear reasons why it is happening.

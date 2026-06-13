@@ -154,13 +154,6 @@ export default function Florida1031Page() {
         subtitle="Florida's tax-friendly environment makes it one of the best states to exchange into. Here is what you need to know about executing a 1031 exchange in the Sunshine State."
       />
 
-      {/* Hero image — Photo by Precondo CA on Unsplash */}
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <div className="relative aspect-[2/1] overflow-hidden rounded-xl mb-8">
-          <Image src="https://images.unsplash.com/flagged/photo-1558954157-aa76c0d246c6?w=1200&h=630&fit=crop" alt="real estate letter blocks" fill className="object-cover" sizes="(max-width: 896px) 100vw, 896px" />
-        </div>
-      </div>
-
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
           Florida has become a magnet for real estate investors executing 1031 exchanges, and the reasons go beyond beaches and sunshine. The combination of no state income tax, strong population growth, and a diverse commercial real estate market makes Florida one of the most attractive destinations for exchange buyers nationwide. But there are Florida-specific considerations you need to understand. Here is what I tell my investor clients.
