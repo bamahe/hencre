@@ -1,0 +1,60 @@
+# HenCRE — Florida Commercial Real Estate
+# https://hencre.com
+
+## Purpose
+HenCRE is the commercial real estate authority site for Barrett Henry, REALTOR and Broker Associate at REMAX Collective. The site provides expert CRE guidance, market insights, and brokerage services across all 67 Florida counties, anchored in Tampa Bay.
+
+## Authority & Credentials
+- Barrett Henry, REALTOR and Broker Associate
+- Licensed since 2003 — 23+ years of real estate experience
+- REMAX Commercial certified advisor
+- REMAX Hall of Fame (2024)
+- Designations: e-PRO, MRP, SRS, CRE
+- Florida Broker Associate since 2017
+- Member of National Association of REALTORS
+
+## Services
+- Tenant Representation: /services/tenant-representation
+- Landlord Leasing: /services/landlord-leasing
+- Investment Sales: /services/investment-sales
+- Dispositions: /services/dispositions
+- CRE Valuation: /services/cre-valuation
+- Commercial Property Management: /services/commercial-property-management
+
+## Property Types
+- Office Space: /commercial/office-space
+- Retail Space: /commercial/retail-space
+- Industrial & Warehouse: /commercial/industrial-warehouse
+- Multifamily: /commercial/multifamily
+- NNN / Net Lease: /commercial/nnn-net-lease
+- Land & Development: /commercial/land-development
+
+## Markets Served
+- Hillsborough County (Tampa): /markets/hillsborough
+- Pinellas County (St. Petersburg, Clearwater): /markets/pinellas
+- Pasco County (Wesley Chapel, New Port Richey): /markets/pasco
+- Polk County (Lakeland, Winter Haven): /markets/polk
+- Manatee County (Bradenton): /markets/manatee
+- Sarasota County (Sarasota): /markets/sarasota
+- Citrus County (Crystal River): /markets/citrus
+- Hernando County (Spring Hill): /markets/hernando
+- All 67 Florida counties via referral network
+
+## Content Areas
+- CRE Insights & Education: /insights
+- Blog: /blog
+- Market Reports: /markets
+- FAQ: /faq
+- REMAX Commercial Network: /remax-commercial
+
+## Contact
+- Phone: (813) 733-7907
+- Email: barrett@nowtb.com
+- Website: https://hencre.com
+- Residential site: https://nowtb.com
+- REMAX profile: https://barretthenry.remax.com
+
+## Office Locations
+- Tampa: REMAX Collective, 14310 N Dale Mabry Hwy Ste 100, Tampa, FL 33618
+- Largo: REMAX Collective, 11200 Seminole Blvd Ste 202, Largo, FL 33778
+- Brandon: REMAX Collective, 417 Lithia Pinecrest Rd, Brandon, FL 33511

@@ -1,7 +1,32 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
+
+/* -- FAQ data -- */
+const FAQS = [
+  {
+    question: "What is the average office lease rate in Florida?",
+    answer: "Office lease rates in Florida range from $18 to $45 per square foot depending on class, location, and lease structure. Class A office in Tampa's Westshore district averages $32-$38/SF full-service. Suburban Class B office runs $22-$28/SF. Barrett provides current market rates for your specific submarket.",
+  },
+  {
+    question: "What is the difference between Class A, B, and C office space?",
+    answer: "Class A buildings are premier properties with high-end finishes, modern systems, and prime locations. Class B buildings are well-maintained but may lack premium amenities. Class C buildings are functional but dated, offering the lowest rents. The right class depends on your business image and budget.",
+  },
+  {
+    question: "Should I lease or buy office space?",
+    answer: "Leasing offers flexibility, lower upfront costs, and the ability to scale. Buying builds equity and provides tax advantages. Barrett analyzes both options against your business plan, timeline, and financial position to recommend the best approach.",
+  },
+  {
+    question: "How much office space do I need per employee?",
+    answer: "According to BOMA, the industry standard ranges from 150 to 300 usable square feet per employee, depending on work style. Open office plans use less; private offices use more. Barrett helps you calculate the right amount based on your specific needs.",
+  },
+  {
+    question: "What is a full-service gross lease?",
+    answer: "In a full-service gross lease, the tenant pays one flat rental rate that includes base rent plus all operating expenses — taxes, insurance, utilities, and maintenance. This structure is most common for office space and provides predictable monthly costs.",
+  },
+];
 
 /* -------------------------------------------------------------------
  * Office Space — property type detail page.
@@ -35,6 +60,14 @@ const schema = {
       description: "Commercial office space leasing, sales, and investment across Florida.",
       url: "https://hencre.com/commercial/office-space",
     },
+    {
+      "@type": "FAQPage",
+      mainEntity: FAQS.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
   ],
 };
 
@@ -59,6 +92,16 @@ export default function OfficeSpacePage() {
         ctaText="Find Office Space"
         ctaHref="/contact"
       />
+
+      {/* ---- QuickAnswer ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
+          <p className="text-lg font-semibold text-black">Quick Answer</p>
+          <p className="mt-2 text-[#666666]">
+            Florida office space includes Class A, B, and C buildings used for professional, medical, and corporate purposes. According to CoStar, Tampa Bay office vacancy rates are approximately 12-15% in 2026, with strong absorption in Class A suburban locations as companies relocate from higher-cost states.
+          </p>
+        </div>
+      </section>
 
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">Florida Office Market Overview</h2>
@@ -117,6 +160,65 @@ export default function OfficeSpacePage() {
         </div>
       </section>
 
+      {/* ---- Office class comparison table ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">How Do Office Building Classes Compare?</h2>
+          <p className="mt-4 text-[#666666]">According to BOMA International, office buildings are classified based on quality, amenities, and location.</p>
+          <div className="mt-8 overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-black">
+                  <th className="py-3 pr-4 text-left font-bold text-black">Class</th>
+                  <th className="py-3 pr-4 text-left font-bold text-black">Typical Rent (FL)</th>
+                  <th className="py-3 pr-4 text-left font-bold text-black">Finishes</th>
+                  <th className="py-3 text-left font-bold text-black">Best For</th>
+                </tr>
+              </thead>
+              <tbody className="text-[#666666]">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Class A</td>
+                  <td className="py-3 pr-4">$30-$45/SF</td>
+                  <td className="py-3 pr-4">Premium, modern systems, high-end lobbies</td>
+                  <td className="py-3">Law firms, finance, corporate HQ</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Class B</td>
+                  <td className="py-3 pr-4">$22-$30/SF</td>
+                  <td className="py-3 pr-4">Well-maintained, functional</td>
+                  <td className="py-3">Professional services, medical, tech</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Class C</td>
+                  <td className="py-3 pr-4">$14-$22/SF</td>
+                  <td className="py-3 pr-4">Budget-friendly, may need updates</td>
+                  <td className="py-3">Startups, nonprofits, back-office</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- FAQ section ---- */}
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold sm:text-3xl">Office Space — Frequently Asked Questions</h2>
+          <FAQAccordion items={FAQS} />
+        </div>
+      </section>
+
+      {/* ---- Sources ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">Sources</h2>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-sm text-[#666666]">
+          <li>CoStar Group — Tampa Bay Office Market Report</li>
+          <li>BOMA International — Office Building Classification Standards</li>
+          <li>CBRE Research — U.S. Office Market Outlook</li>
+          <li>National Association of REALTORS — Commercial Real Estate Market Report</li>
+        </ul>
+      </section>
+
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h3 className="text-lg font-bold text-black">Explore Other Property Types</h3>
@@ -126,9 +228,15 @@ export default function OfficeSpacePage() {
             <Link href="/commercial/multifamily" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Multifamily</Link>
             <Link href="/commercial/nnn-net-lease" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">NNN / Net Lease</Link>
             <Link href="/commercial/land-development" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Land &amp; Development</Link>
+            <Link href="/services/tenant-representation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tenant Representation</Link>
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

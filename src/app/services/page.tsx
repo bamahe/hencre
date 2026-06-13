@@ -8,7 +8,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "REMAX Commercial® Services | CRE Leasing, Sales & Valuation in Florida",
+  title: "CRE Services Florida | REMAX Commercial Brokerage",
   description:
     "Full-service commercial real estate brokerage: tenant representation, landlord leasing, investment sales, dispositions, and CRE valuation. Barrett Henry, REALTOR® serving all 67 Florida counties.",
   openGraph: {
@@ -134,7 +134,8 @@ export default function ServicesIndexPage() {
           </h2>
           <p className="mt-4 text-lg text-white/80">
             Tell me about your situation and I will point you in the right direction.
-            No obligation, no pressure.
+            No obligation, no pressure. Call{" "}
+            <a href="tel:+18137337907" className="underline text-white">(813) 733-7907</a>.
           </p>
           <div className="mt-8">
             <Link
@@ -146,6 +147,11 @@ export default function ServicesIndexPage() {
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

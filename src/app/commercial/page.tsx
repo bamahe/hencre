@@ -8,7 +8,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "REMAX Commercial Real Estate | Property Types — Office, Retail, Industrial & More",
+  title: "CRE Property Types | Office, Retail, Industrial FL",
   description:
     "Explore commercial property types in Florida: office, retail, industrial/warehouse, multifamily, NNN net lease, and land/development. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
   openGraph: {
@@ -124,7 +124,9 @@ export default function CommercialIndexPage() {
           </h2>
           <p className="mt-4 text-lg text-white/80">
             Tell me what you are looking for and I will guide you to the right property
-            type and market. No obligation.
+            type and market. Call{" "}
+            <a href="tel:+18137337907" className="underline text-white">(813) 733-7907</a>{" "}
+            or use the form.
           </p>
           <div className="mt-8">
             <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline">
@@ -133,6 +135,11 @@ export default function CommercialIndexPage() {
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

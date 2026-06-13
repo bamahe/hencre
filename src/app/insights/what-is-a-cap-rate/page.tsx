@@ -12,7 +12,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "What Is a Cap Rate? How to Calculate & Interpret Capitalization Rates",
+  title: "Cap Rate Explained | How to Calculate Cap Rates 2026",
   description:
     "Learn what capitalization rates are, how to calculate them, and when they matter for commercial real estate investment decisions. Expert guidance from a licensed Florida broker.",
   openGraph: {
@@ -37,10 +37,14 @@ const articleSchema = {
     jobTitle: "Commercial Real Estate Advisor",
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
   },
+  datePublished: "2026-06-07",
+  dateModified: "2026-06-08",
+  image: "https://hencre.com/og-image.png",
   publisher: {
     "@type": "Organization",
     name: "REMAX Commercial Real Estate",
     url: "https://hencre.com",
+    logo: { "@type": "ImageObject", url: "https://hencre.com/icon-512.png" },
   },
   url: "https://hencre.com/insights/what-is-a-cap-rate",
 };
@@ -238,13 +242,29 @@ export default function CapRatePage() {
       {/* Related links */}
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
+      {/* Sources */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">Sources</h2>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-sm text-[#666666]">
+          <li>Appraisal Institute — <em>The Appraisal of Real Estate</em>, 15th Edition</li>
+          <li>National Association of REALTORS — CRE Investment Metrics Guide</li>
+          <li>CBRE Research — U.S. Cap Rate Survey</li>
+          <li>CoStar Group — Florida Market Analytics</li>
+        </ul>
+      </section>
+
       {/* CTA */}
       <CTASection
         heading="Need Help Evaluating a Commercial Property?"
-        body="I walk investors through the numbers — cap rates, lease analysis, and everything in between. Let us talk about your next deal."
+        body="I walk investors through the numbers — cap rates, lease analysis, and everything in between. Call (813) 733-7907 to talk about your next deal."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
@@ -19,6 +20,30 @@ export const metadata: Metadata = {
   },
 };
 
+/* -- FAQ data -- */
+const FAQS = [
+  {
+    question: "How long does it take to lease commercial space?",
+    answer: "Leasing timelines vary by property type and market conditions. Well-positioned retail or office space in high-demand submarkets can lease within 30 to 60 days. Specialized or larger spaces may take 90 to 180 days. Barrett's aggressive marketing approach targets the shortest possible timeline.",
+  },
+  {
+    question: "What marketing do you use to fill vacancies?",
+    answer: "Barrett uses a multi-channel approach: listings on LoopNet, CoStar, and Crexi, direct outreach to active tenant reps, broker network activation through REMAX Commercial, signage, and targeted email campaigns to qualified prospects in your submarket.",
+  },
+  {
+    question: "How do you determine the right asking rent?",
+    answer: "Barrett conducts a comparable rent analysis pulling recent lease comps from the submarket. He factors in property condition, location advantages, concession packages, and current vacancy rates to set an asking rent that maximizes income while attracting qualified tenants quickly.",
+  },
+  {
+    question: "Do you handle tenant screening?",
+    answer: "Yes. Barrett screens prospective tenants for business financial health, credit history, operational track record, and use compatibility with the property and existing tenant mix. Only qualified prospects make it to the LOI stage.",
+  },
+  {
+    question: "What types of commercial properties do you lease?",
+    answer: "Barrett leases all commercial property types — office, retail, industrial, warehouse, flex, medical office, and mixed-use — across all 67 Florida counties. He is anchored in Tampa Bay with offices in Tampa, Largo, and Brandon.",
+  },
+];
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -36,6 +61,14 @@ const schema = {
       provider: { "@id": "https://hencre.com/#agent" },
       description: "Commercial landlord leasing — property marketing, tenant screening, lease negotiation, and vacancy reduction.",
       areaServed: { "@type": "State", name: "Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: FAQS.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
   ],
 };
@@ -61,6 +94,16 @@ export default function LandlordLeasingPage() {
         ctaText="List Your Space"
         ctaHref="/contact"
       />
+
+      {/* ---- QuickAnswer ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
+          <p className="text-lg font-semibold text-black">Quick Answer</p>
+          <p className="mt-2 text-[#666666]">
+            Landlord leasing is the process of marketing vacant commercial space, qualifying tenants, and negotiating lease terms on behalf of the property owner. According to CBRE Research, vacant commercial space costs landlords an average of $5-$15 per square foot annually in carrying costs, making fast, professional leasing critical to protecting net operating income.
+          </p>
+        </div>
+      </section>
 
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">Vacancy Costs You Money Every Day</h2>
@@ -157,6 +200,66 @@ export default function LandlordLeasingPage() {
         </div>
       </section>
 
+      {/* ---- Vacancy cost comparison table ---- */}
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">What Does Vacancy Really Cost?</h2>
+          <p className="mt-4 text-[#666666]">According to the National Association of REALTORS, these are the typical carrying costs landlords face during vacancy periods.</p>
+          <div className="mt-8 overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-black">
+                  <th className="py-3 pr-4 text-left font-bold text-black">Expense Category</th>
+                  <th className="py-3 pr-4 text-left font-bold text-black">Typical Annual Cost</th>
+                  <th className="py-3 text-left font-bold text-black">Impact of Vacancy</th>
+                </tr>
+              </thead>
+              <tbody className="text-[#666666]">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Property Taxes</td>
+                  <td className="py-3 pr-4">$2-$8/SF</td>
+                  <td className="py-3">Paid regardless of occupancy</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Insurance</td>
+                  <td className="py-3 pr-4">$1-$3/SF</td>
+                  <td className="py-3">Required even when vacant</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Maintenance</td>
+                  <td className="py-3 pr-4">$1-$4/SF</td>
+                  <td className="py-3">Deferred maintenance reduces value</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Debt Service</td>
+                  <td className="py-3 pr-4">Varies</td>
+                  <td className="py-3">Mortgage payments continue regardless</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- FAQ section ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold sm:text-3xl">Landlord Leasing — Frequently Asked Questions</h2>
+          <FAQAccordion items={FAQS} />
+        </div>
+      </section>
+
+      {/* ---- Sources ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">Sources</h2>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-sm text-[#666666]">
+          <li>CBRE Research — U.S. Commercial Real Estate Vacancy and Leasing Trends</li>
+          <li>National Association of REALTORS — Commercial Real Estate Market Report</li>
+          <li>CoStar Group — Florida Market Analytics</li>
+          <li>REMAX Commercial — Leasing Services Standards</li>
+        </ul>
+      </section>
+
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h3 className="text-lg font-bold text-black">Related Services</h3>
@@ -164,9 +267,16 @@ export default function LandlordLeasingPage() {
             <Link href="/services/tenant-representation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tenant Representation</Link>
             <Link href="/services/dispositions" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
             <Link href="/services/cre-valuation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
+            <Link href="/services/commercial-property-management" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Property Management</Link>
+            <Link href="/markets/hillsborough" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Hillsborough County Market</Link>
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

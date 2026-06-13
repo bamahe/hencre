@@ -12,7 +12,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "REMAX Commercial® Markets — Tampa Bay & Central Florida CRE",
+  title: "CRE Markets | Tampa Bay & Central Florida 2026",
   description:
     "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights for Hillsborough, Pinellas, Pasco, Polk, Manatee, Sarasota, Citrus, and Hernando counties.",
   openGraph: {
@@ -181,10 +181,15 @@ export default function MarketsIndexPage() {
       {/* ---- CTA ---- */}
       <CTASection
         heading="Need Help Navigating These Markets?"
-        body="Barrett Henry brings 23+ years of real estate experience to every commercial transaction. Whether you are buying, selling, leasing, or investing, get expert guidance tailored to your target market."
+        body="Barrett Henry brings 23+ years of real estate experience to every commercial transaction. Whether you are buying, selling, leasing, or investing, get expert guidance tailored to your target market. Call (813) 733-7907."
         buttonText="Start a Conversation"
         buttonHref="/contact"
       />
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

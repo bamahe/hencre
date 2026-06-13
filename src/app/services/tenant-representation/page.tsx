@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
@@ -19,6 +20,30 @@ export const metadata: Metadata = {
   },
 };
 
+/* -- FAQ data -- */
+const FAQS = [
+  {
+    question: "How much does tenant representation cost?",
+    answer: "In most commercial lease transactions, the landlord pays the brokerage commission. Your tenant rep typically costs you nothing directly. The landlord builds this cost into the deal, so you benefit from professional representation at no out-of-pocket expense.",
+  },
+  {
+    question: "How long does it take to find commercial space?",
+    answer: "Most tenant searches take 60 to 120 days from initial requirements through lease execution. Complex searches involving build-to-suit or specialized space can take longer. Barrett sets a realistic timeline during the discovery phase so you can plan accordingly.",
+  },
+  {
+    question: "What is the difference between tenant rep and a listing agent?",
+    answer: "A tenant rep works exclusively for you, the tenant. A listing agent works for the landlord. Using a tenant rep ensures someone is negotiating on your behalf, analyzing lease economics, and protecting your interests — not the landlord's.",
+  },
+  {
+    question: "Can a tenant rep help with lease renewals?",
+    answer: "Yes. Barrett negotiates lease renewals with the same rigor as new leases. Before renewing, he analyzes current market rents to ensure you are not overpaying, and negotiates improved terms on escalations, TI allowances, and options.",
+  },
+  {
+    question: "What areas does Barrett cover for tenant representation?",
+    answer: "Barrett is anchored in Tampa Bay and covers all 67 Florida counties. For deals outside his core market, he leverages the REMAX Commercial network to connect you with a local specialist.",
+  },
+];
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -36,6 +61,14 @@ const schema = {
       provider: { "@id": "https://hencre.com/#agent" },
       description: "Commercial tenant representation — market surveys, site selection, lease negotiation, and move-in coordination across Florida.",
       areaServed: { "@type": "State", name: "Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: FAQS.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
   ],
 };
@@ -62,6 +95,16 @@ export default function TenantRepPage() {
         ctaText="Start Your Search"
         ctaHref="/contact"
       />
+
+      {/* ---- QuickAnswer ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
+          <p className="text-lg font-semibold text-black">Quick Answer</p>
+          <p className="mt-2 text-[#666666]">
+            Tenant representation is a commercial real estate service where a broker works exclusively for the tenant — finding space, analyzing lease economics, and negotiating terms. According to the Society of Industrial and Office Realtors (SIOR), tenants with professional representation save an average of 10-15% on total occupancy costs compared to those who negotiate directly with landlords.
+          </p>
+        </div>
+      </section>
 
       {/* ---- Service description ---- */}
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
@@ -189,6 +232,68 @@ export default function TenantRepPage() {
         </div>
       </section>
 
+      {/* ---- Lease type comparison table ---- */}
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">How Do Commercial Lease Types Compare?</h2>
+          <p className="mt-4 text-[#666666]">
+            According to the Building Owners and Managers Association (BOMA), understanding lease structure is critical to calculating total occupancy cost. Here is how the most common commercial lease types compare.
+          </p>
+          <div className="mt-8 overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-black">
+                  <th className="py-3 pr-4 text-left font-bold text-black">Lease Type</th>
+                  <th className="py-3 pr-4 text-left font-bold text-black">Tenant Pays</th>
+                  <th className="py-3 text-left font-bold text-black">Best For</th>
+                </tr>
+              </thead>
+              <tbody className="text-[#666666]">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Full-Service Gross</td>
+                  <td className="py-3 pr-4">Base rent only (landlord covers all expenses)</td>
+                  <td className="py-3">Office tenants seeking predictable costs</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Modified Gross</td>
+                  <td className="py-3 pr-4">Base rent + some expenses (varies by negotiation)</td>
+                  <td className="py-3">Flex/industrial tenants</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black"><Link href="/insights/nnn-lease-explained" className="underline">NNN (Triple Net)</Link></td>
+                  <td className="py-3 pr-4">Base rent + taxes + insurance + CAM</td>
+                  <td className="py-3">Retail tenants, standalone buildings</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Percentage Rent</td>
+                  <td className="py-3 pr-4">Base rent + percentage of gross sales above threshold</td>
+                  <td className="py-3">High-traffic retail locations</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- FAQ section ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold sm:text-3xl">Tenant Representation — Frequently Asked Questions</h2>
+          <FAQAccordion items={FAQS} />
+        </div>
+      </section>
+
+      {/* ---- Sources ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">Sources</h2>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-sm text-[#666666]">
+          <li>Society of Industrial and Office Realtors (SIOR) — Tenant Representation Best Practices</li>
+          <li>Building Owners and Managers Association (BOMA) — Standard Methods of Measurement</li>
+          <li>National Association of REALTORS — Commercial Real Estate Outlook Report</li>
+          <li>REMAX Commercial — Commercial Services Standards</li>
+        </ul>
+      </section>
+
       {/* ---- Related services ---- */}
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
@@ -198,9 +303,16 @@ export default function TenantRepPage() {
             <Link href="/services/cre-valuation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
             <Link href="/commercial/office-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Office Space</Link>
             <Link href="/commercial/retail-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Retail Space</Link>
+            <Link href="/insights/leasing-vs-buying-commercial" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Leasing vs. Buying</Link>
+            <Link href="/markets/hillsborough" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Hillsborough County Market</Link>
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

@@ -33,6 +33,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "REMAX Commercial\u00AE | HenCRE Florida Commercial Real Estate Advisors",
+    images: [
+      {
+        url: "https://hencre.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "HenCRE — REMAX Commercial Real Estate Florida | Barrett Henry",
+      },
+    ],
   },
 };
 

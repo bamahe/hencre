@@ -10,11 +10,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "REMAX Commercial Real Estate | Commercial Real Estate — Barrett Henry",
+  title: "REMAX Commercial Real Estate Florida | Barrett Henry",
   description:
     "REMAX Commercial Real Estate — Barrett Henry, Commercial Real Estate Advisor at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
   openGraph: {
-    title: "REMAX Commercial Real Estate | Barrett Henry, Commercial Real Estate Advisor",
+    title: "REMAX Commercial Real Estate FL | Barrett Henry",
     description:
       "REMAX Commercial Real Estate advisor serving all 67 Florida counties. Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, backed by the global REMAX network.",
     url: "https://hencre.com",
@@ -167,6 +167,7 @@ const schema = {
       "@type": "RealEstateAgent",
       "@id": "https://hencre.com/#agent",
       name: "Barrett Henry",
+      image: "https://hencre.com/images/barrett-henry-headshot.jpg",
       jobTitle: "Commercial Real Estate Advisor",
       worksFor: {
         "@type": "RealEstateAgent",
@@ -466,6 +467,11 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

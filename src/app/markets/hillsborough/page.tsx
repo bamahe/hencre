@@ -15,7 +15,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Hillsborough County CRE | REMAX Commercial Real Estate — Tampa Market",
+  title: "Hillsborough County CRE 2026 | Tampa Market Guide",
   description:
     "Deep dive into the Hillsborough County commercial real estate market. Tampa's Westshore business district, downtown mixed-use growth, I-75 industrial corridor, and more. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
   openGraph: {
@@ -26,7 +26,36 @@ export const metadata: Metadata = {
   },
 };
 
-/* JSON-LD: LocalBusiness + Service + BreadcrumbList */
+/* FAQ items specific to Hillsborough County CRE */
+const faqs = [
+  {
+    question: "What are the strongest commercial real estate submarkets in Hillsborough County?",
+    answer:
+      "The Westshore business district remains the largest suburban office market on Florida's west coast. Downtown Tampa continues to attract mixed-use and Class A office development. The I-75 corridor from Ybor City through Brandon and Riverview is one of the region's most active industrial zones, and the USF area near Fowler Avenue anchors a large retail and medical office node.",
+  },
+  {
+    question: "What types of commercial properties are most active in Tampa?",
+    answer:
+      "Industrial warehouse and distribution space leads transaction volume, driven by e-commerce fulfillment demand and supply-chain diversification. Office leasing is active in Westshore and downtown. Retail thrives in high-traffic nodes like Brandon, South Tampa, and the Wiregrass corridor in northern Hillsborough. Multifamily and mixed-use investment sales also remain a significant part of the market.",
+  },
+  {
+    question: "Is Hillsborough County a good market for commercial real estate investment?",
+    answer:
+      "Hillsborough County benefits from strong population growth, diverse industry drivers including healthcare, finance, technology, and defense, and improving infrastructure through projects like the I-275/Howard Frankland Bridge rebuild. These fundamentals support long-term demand across all property types. An experienced broker can help you identify the right submarket and asset class for your investment goals.",
+  },
+  {
+    question: "What CRE services does Barrett Henry offer in Hillsborough County?",
+    answer:
+      "Barrett provides buyer and seller representation for commercial sales, tenant and landlord representation for leasing, investment property analysis, and disposition strategy. He works across all commercial property types — office, retail, industrial, land, and special-use — throughout Hillsborough County.",
+  },
+  {
+    question: "How does the Tampa CRE market compare to other Florida metros?",
+    answer:
+      "Tampa has emerged as one of the top commercial real estate markets in the Southeast. The region draws attention from institutional and private investors alike, thanks to business-friendly policies, no state income tax, a growing tech workforce, and a geographic position that serves both East Coast and Gulf Coast distribution networks.",
+  },
+];
+
+/* JSON-LD: LocalBusiness + Service + BreadcrumbList + FAQPage */
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -62,37 +91,16 @@ const schema = {
         name: "Hillsborough County, Florida",
       },
     },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
   ],
 };
-
-/* FAQ items specific to Hillsborough County CRE */
-const faqs = [
-  {
-    question: "What are the strongest commercial real estate submarkets in Hillsborough County?",
-    answer:
-      "The Westshore business district remains the largest suburban office market on Florida's west coast. Downtown Tampa continues to attract mixed-use and Class A office development. The I-75 corridor from Ybor City through Brandon and Riverview is one of the region's most active industrial zones, and the USF area near Fowler Avenue anchors a large retail and medical office node.",
-  },
-  {
-    question: "What types of commercial properties are most active in Tampa?",
-    answer:
-      "Industrial warehouse and distribution space leads transaction volume, driven by e-commerce fulfillment demand and supply-chain diversification. Office leasing is active in Westshore and downtown. Retail thrives in high-traffic nodes like Brandon, South Tampa, and the Wiregrass corridor in northern Hillsborough. Multifamily and mixed-use investment sales also remain a significant part of the market.",
-  },
-  {
-    question: "Is Hillsborough County a good market for commercial real estate investment?",
-    answer:
-      "Hillsborough County benefits from strong population growth, diverse industry drivers including healthcare, finance, technology, and defense, and improving infrastructure through projects like the I-275/Howard Frankland Bridge rebuild. These fundamentals support long-term demand across all property types. An experienced broker can help you identify the right submarket and asset class for your investment goals.",
-  },
-  {
-    question: "What CRE services does Barrett Henry offer in Hillsborough County?",
-    answer:
-      "Barrett provides buyer and seller representation for commercial sales, tenant and landlord representation for leasing, investment property analysis, and disposition strategy. He works across all commercial property types — office, retail, industrial, land, and special-use — throughout Hillsborough County.",
-  },
-  {
-    question: "How does the Tampa CRE market compare to other Florida metros?",
-    answer:
-      "Tampa has emerged as one of the top commercial real estate markets in the Southeast. The region draws attention from institutional and private investors alike, thanks to business-friendly policies, no state income tax, a growing tech workforce, and a geographic position that serves both East Coast and Gulf Coast distribution networks.",
-  },
-];
 
 /* Links to other county market pages */
 const relatedMarkets = [
@@ -298,10 +306,15 @@ export default function HillsboroughMarketPage() {
       {/* ---- Final CTA ---- */}
       <CTASection
         heading="Ready to Move on a Hillsborough County Opportunity?"
-        body="From Westshore office suites to I-75 warehouse space, Barrett can help you find, negotiate, and close the right deal."
+        body="From Westshore office suites to I-75 warehouse space, Barrett can help you find, negotiate, and close the right deal. Call (813) 733-7907."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

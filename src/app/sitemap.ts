@@ -53,6 +53,10 @@ const IDENTITY_ROLES = [
   "commercial-realtor",
   "commercial-real-estate-broker",
   "commercial-practitioner",
+  "commercial-real-estate",
+  "cre-broker",
+  "investment-property",
+  "commercial-property",
 ];
 
 const BASE_URL = "https://hencre.com";

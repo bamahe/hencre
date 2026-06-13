@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
@@ -19,6 +20,30 @@ export const metadata: Metadata = {
   },
 };
 
+/* -- FAQ data -- */
+const FAQS = [
+  {
+    question: "What cap rate should I target for CRE investment in Florida?",
+    answer: "Cap rate targets depend on property type, location, and risk tolerance. Stabilized NNN retail in strong markets trades at 5-6%. Value-add multifamily may target 7-9%. Barrett helps you understand what cap rates mean in the context of each specific submarket and asset class.",
+  },
+  {
+    question: "How do I evaluate a commercial investment property?",
+    answer: "Start with Net Operating Income (NOI), then look at cap rate, cash-on-cash return, debt service coverage ratio, and internal rate of return over your hold period. Barrett builds detailed pro formas that project all of these metrics so you can make data-driven decisions.",
+  },
+  {
+    question: "What is a 1031 exchange and how does it work?",
+    answer: "A 1031 exchange allows you to defer capital gains taxes by reinvesting the proceeds from a sold property into a like-kind replacement. You have 45 days to identify and 180 days to close. Barrett coordinates with your qualified intermediary to meet these strict IRS timelines.",
+  },
+  {
+    question: "Do you help with off-market investment deals?",
+    answer: "Yes. Barrett sources off-market opportunities through his broker network, direct owner outreach, and the REMAX Commercial referral system. Many of the best investment deals never hit the public market.",
+  },
+  {
+    question: "What is the minimum investment for commercial real estate?",
+    answer: "Entry points vary widely. Small retail strips or flex buildings can start under $500,000. NNN properties typically range from $1M to $5M. Multifamily complexes range from $1M to $20M+. Barrett works across all deal sizes and helps investors at every stage.",
+  },
+];
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -36,6 +61,14 @@ const schema = {
       provider: { "@id": "https://hencre.com/#agent" },
       description: "Commercial investment property acquisition and disposition — deal sourcing, financial analysis, and negotiation.",
       areaServed: { "@type": "State", name: "Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: FAQS.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
   ],
 };
@@ -61,6 +94,16 @@ export default function InvestmentSalesPage() {
         ctaText="Discuss an Investment"
         ctaHref="/contact"
       />
+
+      {/* ---- QuickAnswer ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
+          <p className="text-lg font-semibold text-black">Quick Answer</p>
+          <p className="mt-2 text-[#666666]">
+            Commercial investment sales involve buying or selling income-producing properties like office buildings, retail centers, and multifamily complexes. According to the National Association of REALTORS, commercial real estate transactions in Florida exceeded $85 billion in 2024, driven by population growth, no state income tax, and strong fundamentals across all major metros.
+          </p>
+        </div>
+      </section>
 
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">Smart Acquisitions. Strategic Exits.</h2>
@@ -159,6 +202,66 @@ export default function InvestmentSalesPage() {
         </div>
       </section>
 
+      {/* ---- Investment metrics table ---- */}
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">How Do Key CRE Investment Metrics Compare?</h2>
+          <p className="mt-4 text-[#666666]">According to the Appraisal Institute, investors should evaluate multiple return metrics — not just cap rate.</p>
+          <div className="mt-8 overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-black">
+                  <th className="py-3 pr-4 text-left font-bold text-black">Metric</th>
+                  <th className="py-3 pr-4 text-left font-bold text-black">What It Measures</th>
+                  <th className="py-3 text-left font-bold text-black">Best For</th>
+                </tr>
+              </thead>
+              <tbody className="text-[#666666]">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black"><Link href="/insights/what-is-a-cap-rate" className="underline">Cap Rate</Link></td>
+                  <td className="py-3 pr-4">NOI relative to property value (unleveraged)</td>
+                  <td className="py-3">Comparing similar properties</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Cash-on-Cash</td>
+                  <td className="py-3 pr-4">Annual cash flow relative to equity invested</td>
+                  <td className="py-3">Evaluating actual return on your money</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">DSCR</td>
+                  <td className="py-3 pr-4">NOI relative to annual debt service</td>
+                  <td className="py-3">Lender qualification (1.25x+ typical)</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">IRR</td>
+                  <td className="py-3 pr-4">Total return over hold period including sale</td>
+                  <td className="py-3">Long-term investment planning</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- FAQ section ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold sm:text-3xl">Investment Sales — Frequently Asked Questions</h2>
+          <FAQAccordion items={FAQS} />
+        </div>
+      </section>
+
+      {/* ---- Sources ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">Sources</h2>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-sm text-[#666666]">
+          <li>National Association of REALTORS — Commercial Real Estate Transactions Report 2024</li>
+          <li>Appraisal Institute — <em>The Appraisal of Real Estate</em>, 15th Edition</li>
+          <li>IRS Publication 544 — Sales and Other Dispositions of Assets (1031 Exchange Rules)</li>
+          <li>CoStar Group — Florida Investment Sales Market Analytics</li>
+        </ul>
+      </section>
+
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h3 className="text-lg font-bold text-black">Related Services</h3>
@@ -167,9 +270,15 @@ export default function InvestmentSalesPage() {
             <Link href="/services/cre-valuation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
             <Link href="/commercial/nnn-net-lease" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">NNN / Net Lease</Link>
             <Link href="/commercial/multifamily" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Multifamily</Link>
+            <Link href="/insights/1031-exchange-basics" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">1031 Exchange Basics</Link>
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

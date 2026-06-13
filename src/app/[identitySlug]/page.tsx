@@ -494,9 +494,32 @@ export default async function IdentityPage({
                 (813) 733-7907 or fill out the form
               </span>
             </Link>
+            <Link
+              href="/insights"
+              className="rounded-lg border border-[#666666]/10 bg-white p-5 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
+            >
+              <span className="font-semibold text-black">CRE Insights</span>
+              <span className="mt-1 block text-sm text-[#666666]">
+                Cap rates, leasing, valuations, and more
+              </span>
+            </Link>
+            <Link
+              href="/commercial"
+              className="rounded-lg border border-[#666666]/10 bg-white p-5 no-underline shadow-sm transition-shadow hover:shadow-md hover:no-underline"
+            >
+              <span className="font-semibold text-black">Property Types</span>
+              <span className="mt-1 block text-sm text-[#666666]">
+                Office, retail, industrial, multifamily, NNN
+              </span>
+            </Link>
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

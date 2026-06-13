@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
@@ -19,6 +20,30 @@ export const metadata: Metadata = {
   },
 };
 
+/* -- FAQ data -- */
+const FAQS = [
+  {
+    question: "What is the difference between a BOV and an appraisal?",
+    answer: "A broker opinion of value (BOV) is a broker-level market assessment based on comparable sales, income analysis, and professional judgment. A formal appraisal is conducted by a licensed appraiser under USPAP standards and is required by lenders for financing. BOVs are faster, more affordable, and often more practically useful for decision-making.",
+  },
+  {
+    question: "How much does a commercial property valuation cost?",
+    answer: "BOV pricing varies by property complexity. Simple single-tenant properties may cost $500 to $1,500. Multi-tenant or complex properties may run $1,500 to $3,500. Formal appraisals typically cost $3,000 to $10,000+. Barrett provides transparent pricing before starting.",
+  },
+  {
+    question: "Which valuation approach is most important for CRE?",
+    answer: "For income-producing properties, the income capitalization approach is most important — it values the property based on NOI and cap rate. The comparable sales approach validates the number. The cost approach is used primarily for special-purpose or newer properties.",
+  },
+  {
+    question: "How often should I get my commercial property valued?",
+    answer: "At minimum, before any major financial decision — sale, refinance, partnership change, or estate planning. Barrett recommends annual valuations for active investors and whenever market conditions shift significantly.",
+  },
+  {
+    question: "Can a BOV be used for financing?",
+    answer: "Most lenders require a formal appraisal for loan origination. However, BOVs are widely accepted for preliminary decision-making, internal portfolio valuation, estate planning, partnership buyouts, and market positioning before listing.",
+  },
+];
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -36,6 +61,14 @@ const schema = {
       provider: { "@id": "https://hencre.com/#agent" },
       description: "Broker opinion of value, comparable sales analysis, and commercial property valuation.",
       areaServed: { "@type": "State", name: "Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: FAQS.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
   ],
 };
@@ -61,6 +94,16 @@ export default function CREValuationPage() {
         ctaText="Request a Valuation"
         ctaHref="/contact"
       />
+
+      {/* ---- QuickAnswer ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
+          <p className="text-lg font-semibold text-black">Quick Answer</p>
+          <p className="mt-2 text-[#666666]">
+            A CRE valuation determines what a commercial property is worth using three approaches: income capitalization, comparable sales, and replacement cost. According to the Appraisal Institute, the income approach is the most relevant for investment properties because it values the building based on its ability to generate income, not just what similar properties have sold for.
+          </p>
+        </div>
+      </section>
 
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">Accurate Valuation Drives Better Decisions</h2>
@@ -154,6 +197,61 @@ export default function CREValuationPage() {
         </div>
       </section>
 
+      {/* ---- Valuation approaches comparison table ---- */}
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">How Do CRE Valuation Approaches Compare?</h2>
+          <p className="mt-4 text-[#666666]">According to the Appraisal Institute, each valuation approach serves a different purpose. Barrett uses all three and weights them appropriately.</p>
+          <div className="mt-8 overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-black">
+                  <th className="py-3 pr-4 text-left font-bold text-black">Approach</th>
+                  <th className="py-3 pr-4 text-left font-bold text-black">Method</th>
+                  <th className="py-3 text-left font-bold text-black">Best For</th>
+                </tr>
+              </thead>
+              <tbody className="text-[#666666]">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Income Capitalization</td>
+                  <td className="py-3 pr-4">NOI divided by <Link href="/insights/what-is-a-cap-rate" className="underline">cap rate</Link></td>
+                  <td className="py-3">Income-producing properties (most CRE)</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Comparable Sales</td>
+                  <td className="py-3 pr-4">Price per SF based on recent similar sales</td>
+                  <td className="py-3">Properties with active comp markets</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold text-black">Cost Approach</td>
+                  <td className="py-3 pr-4">Land value + replacement cost minus depreciation</td>
+                  <td className="py-3">New construction, special-purpose buildings</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- FAQ section ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold sm:text-3xl">CRE Valuation — Frequently Asked Questions</h2>
+          <FAQAccordion items={FAQS} />
+        </div>
+      </section>
+
+      {/* ---- Sources ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">Sources</h2>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-sm text-[#666666]">
+          <li>Appraisal Institute — <em>The Appraisal of Real Estate</em>, 15th Edition</li>
+          <li>Uniform Standards of Professional Appraisal Practice (USPAP)</li>
+          <li>National Association of REALTORS — CRE Valuation Guidelines</li>
+          <li>CoStar Group — Florida Commercial Property Data and Analytics</li>
+        </ul>
+      </section>
+
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h3 className="text-lg font-bold text-black">Related Services</h3>
@@ -161,9 +259,15 @@ export default function CREValuationPage() {
             <Link href="/services/dispositions" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
             <Link href="/services/investment-sales" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Investment Sales</Link>
             <Link href="/services/landlord-leasing" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Landlord Leasing</Link>
+            <Link href="/insights/how-to-value-commercial-property" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">How to Value Commercial Property</Link>
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }

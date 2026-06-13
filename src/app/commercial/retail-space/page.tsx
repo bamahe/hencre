@@ -1,7 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
+
+/* -- FAQ data -- */
+const FAQS = [
+  { question: "What is a good traffic count for retail space?", answer: "According to the International Council of Shopping Centers (ICSC), retail locations along corridors with 20,000+ average daily traffic (ADT) are considered strong. Major intersections with 40,000+ ADT command premium rents. Barrett provides traffic data for every retail location he presents." },
+  { question: "What is a NNN lease for retail?", answer: "In a triple-net (NNN) lease, the tenant pays base rent plus property taxes, insurance, and common area maintenance (CAM). NNN is the standard lease structure for most retail space in Florida. Barrett negotiates CAM caps, exclusivity clauses, and other tenant protections." },
+  { question: "How long are typical retail lease terms?", answer: "Retail leases typically run 5 to 10 years with options to renew. National tenants may sign 10 to 20-year leases. Shorter terms are common for startups and pop-up concepts. Barrett structures terms that balance landlord security with tenant flexibility." },
+  { question: "What retail property types are available in Florida?", answer: "Florida retail includes strip centers, neighborhood centers, power centers, lifestyle centers, standalone pad sites, outparcels, and mixed-use ground-floor retail. Each format serves different tenant profiles and traffic patterns." },
+  { question: "How do I evaluate a retail location?", answer: "Key factors include traffic counts, demographics within a 1, 3, and 5-mile radius, co-tenancy mix, visibility, signage rights, parking ratios, and competition. Barrett provides a comprehensive site analysis for every retail opportunity." },
+];
 
 /* -------------------------------------------------------------------
  * Retail Space — property type detail page.
@@ -34,6 +44,14 @@ const schema = {
       name: "Retail Space in Florida",
       url: "https://hencre.com/commercial/retail-space",
     },
+    {
+      "@type": "FAQPage",
+      mainEntity: FAQS.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
   ],
 };
 
@@ -58,6 +76,16 @@ export default function RetailSpacePage() {
         ctaText="Find Retail Space"
         ctaHref="/contact"
       />
+
+      {/* ---- QuickAnswer ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
+          <p className="text-lg font-semibold text-black">Quick Answer</p>
+          <p className="mt-2 text-[#666666]">
+            Commercial retail space encompasses strip centers, standalone pads, outparcels, and mixed-use storefronts used by restaurants, service businesses, and retailers. According to the International Council of Shopping Centers (ICSC), Florida ranks among the top 3 states nationally for retail demand driven by population growth, tourism, and no state income tax.
+          </p>
+        </div>
+      </section>
 
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold sm:text-3xl">Florida Retail Market Overview</h2>
@@ -113,6 +141,48 @@ export default function RetailSpacePage() {
         </div>
       </section>
 
+      {/* ---- Retail format comparison table ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">How Do Retail Property Formats Compare?</h2>
+          <div className="mt-8 overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-black">
+                  <th className="py-3 pr-4 text-left font-bold text-black">Format</th>
+                  <th className="py-3 pr-4 text-left font-bold text-black">Size Range</th>
+                  <th className="py-3 text-left font-bold text-black">Typical Tenants</th>
+                </tr>
+              </thead>
+              <tbody className="text-[#666666]">
+                <tr className="border-b border-gray-200"><td className="py-3 pr-4 font-semibold text-black">Strip Center</td><td className="py-3 pr-4">10,000-30,000 SF</td><td className="py-3">Restaurants, salons, service businesses</td></tr>
+                <tr className="border-b border-gray-200"><td className="py-3 pr-4 font-semibold text-black">Neighborhood Center</td><td className="py-3 pr-4">30,000-100,000 SF</td><td className="py-3">Grocery-anchored, pharmacy, banks</td></tr>
+                <tr className="border-b border-gray-200"><td className="py-3 pr-4 font-semibold text-black">Pad Site</td><td className="py-3 pr-4">1,500-5,000 SF</td><td className="py-3">QSR, coffee, banks, auto service</td></tr>
+                <tr className="border-b border-gray-200"><td className="py-3 pr-4 font-semibold text-black">Power Center</td><td className="py-3 pr-4">250,000-600,000 SF</td><td className="py-3">Big-box retailers, category killers</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- FAQ section ---- */}
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold sm:text-3xl">Retail Space — Frequently Asked Questions</h2>
+          <FAQAccordion items={FAQS} />
+        </div>
+      </section>
+
+      {/* ---- Sources ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">Sources</h2>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-sm text-[#666666]">
+          <li>International Council of Shopping Centers (ICSC) — Retail Market Demand Report</li>
+          <li>CoStar Group — Florida Retail Market Analytics</li>
+          <li>National Association of REALTORS — Commercial Real Estate Trends</li>
+        </ul>
+      </section>
+
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h3 className="text-lg font-bold text-black">Explore Other Property Types</h3>
@@ -122,9 +192,15 @@ export default function RetailSpacePage() {
             <Link href="/commercial/multifamily" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Multifamily</Link>
             <Link href="/commercial/nnn-net-lease" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">NNN / Net Lease</Link>
             <Link href="/commercial/land-development" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Land &amp; Development</Link>
+            <Link href="/services/landlord-leasing" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Landlord Leasing</Link>
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+      </div>
     </>
   );
 }
