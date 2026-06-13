@@ -203,7 +203,14 @@ export const metadata: Metadata = {
     title: "${esc(title)}",
     description: "${esc(metaDescription)}",
     url: "${url}",
-    type: "article",
+    type: "article",${image ? `
+    images: [{ url: "${esc(image.url)}", width: 1200, height: 630, alt: "${esc(title)}" }],` : `
+    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "REMAX Commercial Real Estate — HenCRE" }],`}
+  },
+  twitter: {
+    card: "summary_large_image",${image ? `
+    images: ["${esc(image.url)}"],` : `
+    images: ["https://hencre.com/og-image.png"],`}
   },
 };
 
