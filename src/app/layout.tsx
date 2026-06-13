@@ -13,8 +13,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "REMAX Commercial Real Estate | Barrett Henry, Commercial Advisor",
-    template: "%s | REMAX Commercial Real Estate — Barrett Henry",
+    default: "REMAX Commercial\u00AE | HenCRE Florida Commercial Real Estate Advisors",
+    template: "%s | HenCRE \u2014 REMAX Commercial\u00AE Florida",
   },
   description:
     "REMAX Commercial Real Estate — A better way in commercial real estate. Barrett Henry, REALTOR\u00AE & Broker Associate at REMAX Collective. Full-service CRE brokerage serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world\u2019s most recognized real estate brand.",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "REMAX Commercial Real Estate | Barrett Henry",
+    siteName: "REMAX Commercial\u00AE | HenCRE Florida Commercial Real Estate Advisors",
   },
 };
 
