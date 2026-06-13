@@ -112,7 +112,7 @@ export default function Footer() {
         <div className="mt-6 border-t border-white/10 pt-6 text-center">
           <p className="text-sm text-white/60">
             &copy; {year} REMAX Commercial&reg; Florida &mdash; Barrett Henry, REALTOR&reg; &amp;
-            Broker Associate at REMAX Collective. All rights reserved.
+            Commercial Real Estate Advisor at REMAX Collective. All rights reserved.
           </p>
           <p className="mt-1 text-xs text-white/50 uppercase tracking-wider">
             Move with Confidence

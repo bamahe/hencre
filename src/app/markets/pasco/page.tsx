@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Pasco County CRE | REMAX Commercial Real Estate — Wesley Chapel & New Port Richey",
   description:
-    "Pasco County CRE market analysis. SR 54/56 retail corridor, Wesley Chapel growth, industrial expansion near I-75, and emerging mixed-use development. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
+    "Pasco County CRE market analysis. SR 54/56 retail corridor, Wesley Chapel growth, industrial expansion near I-75, and emerging mixed-use development. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
   openGraph: {
     title: "Pasco County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
@@ -36,7 +36,7 @@ const schema = {
       email: "barrett@nowtb.com",
       url: "https://hencre.com/markets/pasco",
       areaServed: { "@type": "AdministrativeArea", name: "Pasco County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "REALTOR® & Broker Associate" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
     },
     {
       "@type": "Service",
@@ -211,7 +211,7 @@ export default function PascoMarketPage() {
           </h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with
+              Barrett Henry is a Commercial Real Estate Advisor at REMAX Collective with
               experience working growth markets where timing and positioning matter. In
               Pasco County, he helps retailers find high-visibility pad sites, medical
               operators secure campus-ready parcels, investors identify value-add opportunities

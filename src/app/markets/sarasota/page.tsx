@@ -15,7 +15,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Sarasota County CRE | REMAX Commercial Real Estate — Sarasota Market",
   description:
-    "Sarasota County CRE market insights. Downtown Sarasota retail and office, US-41 corridor, tourism-driven hospitality, and Siesta Key beach market. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
+    "Sarasota County CRE market insights. Downtown Sarasota retail and office, US-41 corridor, tourism-driven hospitality, and Siesta Key beach market. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
   openGraph: {
     title: "Sarasota County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
@@ -35,7 +35,7 @@ const schema = {
       email: "barrett@nowtb.com",
       url: "https://hencre.com/markets/sarasota",
       areaServed: { "@type": "AdministrativeArea", name: "Sarasota County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "REALTOR® & Broker Associate" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
     },
     {
       "@type": "Service",
@@ -212,7 +212,7 @@ export default function SarasotaMarketPage() {
           </h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who
+              Barrett Henry is a Commercial Real Estate Advisor at REMAX Collective who
               helps clients navigate Sarasota County&apos;s premium commercial real estate
               market. Whether you are seeking a retail location on St. Armands Circle,
               downtown office space for a professional services firm, or an investment

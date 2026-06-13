@@ -9,13 +9,13 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "About Barrett Henry | REMAX Commercial Real Estate Broker Associate",
+  title: "About Barrett Henry | REMAX Commercial Commercial Real Estate Advisor",
   description:
-    "Barrett Henry — REALTOR®, Broker Associate at REMAX Collective. REMAX Commercial Real Estate advisor with 23+ years of real estate experience, e-PRO, MRP, SRS designations, REMAX Hall of Fame. Commercial real estate across all 67 Florida counties.",
+    "Barrett Henry — Commercial Real Estate Advisor at REMAX Collective. REMAX Commercial Real Estate advisor with 23+ years of real estate experience, e-PRO, MRP, SRS designations, REMAX Hall of Fame. Commercial real estate across all 67 Florida counties.",
   openGraph: {
     title: "About Barrett Henry | REMAX Commercial Real Estate",
     description:
-      "REMAX Commercial Real Estate Broker Associate with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
+      "REMAX Commercial Commercial Real Estate Advisor with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
     url: "https://hencre.com/about",
   },
 };
@@ -35,7 +35,7 @@ const schema = {
       "@type": "Person",
       "@id": "https://hencre.com/#person",
       name: "Barrett Henry",
-      jobTitle: "Broker Associate",
+      jobTitle: "Commercial Real Estate Advisor",
       worksFor: {
         "@type": "RealEstateAgent",
         name: "REMAX Collective",
@@ -87,7 +87,7 @@ export default function AboutPage() {
 
       <Hero
         title="About Barrett Henry"
-        subtitle="Broker Associate at REMAX Collective. REALTOR® with 23+ years of real estate experience."
+        subtitle="Commercial Real Estate Advisor at REMAX Collective. REALTOR® with 23+ years of real estate experience."
       />
 
       {/* ---- Bio section ---- */}
@@ -95,7 +95,7 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Who I Am</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            I am Barrett Henry — a licensed REALTOR® and Broker Associate at REMAX
+            I am Barrett Henry — a licensed Commercial Real Estate Advisor at REMAX
             Collective, with 23+ years of real estate experience. I hold the e-PRO,
             MRP (Military Relocation Professional), and SRS (Seller Representative
             Specialist) designations, and I have been inducted into the REMAX Hall of

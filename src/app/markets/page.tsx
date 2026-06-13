@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Commercial Real Estate Markets — Tampa Bay & Central Florida | REMAX Commercial Real Estate",
     description:
-      "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights from Barrett Henry, REALTOR® & Broker Associate.",
+      "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights from Barrett Henry, Commercial Real Estate Advisor.",
     url: "https://hencre.com/markets",
   },
 };
@@ -93,7 +93,7 @@ const serviceSchema = {
   provider: {
     "@type": "RealEstateAgent",
     name: "Barrett Henry",
-    jobTitle: "REALTOR® & Broker Associate",
+    jobTitle: "Commercial Real Estate Advisor",
     worksFor: {
       "@type": "RealEstateOrganization",
       name: "REMAX Collective",

@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Hernando County CRE | REMAX Commercial Real Estate — Spring Hill & Brooksville",
   description:
-    "Hernando County CRE market insights. Spring Hill retail growth, Suncoast Parkway corridor, Brooksville industrial, and expanding medical office. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
+    "Hernando County CRE market insights. Spring Hill retail growth, Suncoast Parkway corridor, Brooksville industrial, and expanding medical office. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
   openGraph: {
     title: "Hernando County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
@@ -36,7 +36,7 @@ const schema = {
       email: "barrett@nowtb.com",
       url: "https://hencre.com/markets/hernando",
       areaServed: { "@type": "AdministrativeArea", name: "Hernando County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "REALTOR® & Broker Associate" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
     },
     {
       "@type": "Service",
@@ -215,7 +215,7 @@ export default function HernandoMarketPage() {
           </h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who helps
+              Barrett Henry is a Commercial Real Estate Advisor at REMAX Collective who helps
               clients navigate Hernando County&apos;s evolving commercial real estate market.
               Whether you are a retailer seeking a Spring Hill storefront, a developer eyeing
               Suncoast Parkway interchange land, or an investor evaluating income properties

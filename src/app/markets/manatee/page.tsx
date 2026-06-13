@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Manatee County CRE | REMAX Commercial Real Estate — Bradenton Market",
   description:
-    "Manatee County CRE market insights. Bradenton's growing commercial corridors, Port Manatee industrial, I-75 interchange retail, and downtown revitalization. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
+    "Manatee County CRE market insights. Bradenton's growing commercial corridors, Port Manatee industrial, I-75 interchange retail, and downtown revitalization. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
   openGraph: {
     title: "Manatee County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
@@ -36,7 +36,7 @@ const schema = {
       email: "barrett@nowtb.com",
       url: "https://hencre.com/markets/manatee",
       areaServed: { "@type": "AdministrativeArea", name: "Manatee County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "REALTOR® & Broker Associate" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
     },
     {
       "@type": "Service",
@@ -204,7 +204,7 @@ export default function ManateeMarketPage() {
           </h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who
+              Barrett Henry is a Commercial Real Estate Advisor at REMAX Collective who
               helps buyers, sellers, tenants, and landlords navigate Manatee County&apos;s
               growing commercial real estate market. Whether you need retail space near
               I-75, industrial capacity near Port Manatee, or want to invest in a market

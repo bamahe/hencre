@@ -11,9 +11,9 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
   title:
-    "REMAX Commercial Real Estate — Barrett Henry, Broker Associate | REMAX Commercial Real Estate",
+    "REMAX Commercial Real Estate — Barrett Henry, Commercial Real Estate Advisor | REMAX Commercial Real Estate",
   description:
-    "REMAX Commercial Real Estate — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Access 145,000+ agents across 120+ countries. Commercial real estate services including tenant rep, landlord leasing, investment sales, and dispositions across all 67 Florida counties.",
+    "REMAX Commercial Real Estate — Barrett Henry, Commercial Real Estate Advisor at REMAX Collective. Access 145,000+ agents across 120+ countries. Commercial real estate services including tenant rep, landlord leasing, investment sales, and dispositions across all 67 Florida counties.",
   keywords: [
     "REMAX Commercial Real Estate",
     "REMAX Commercial®",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "Florida commercial real estate broker",
   ],
   openGraph: {
-    title: "REMAX Commercial Real Estate — Barrett Henry, Broker Associate",
+    title: "REMAX Commercial Real Estate — Barrett Henry, Commercial Real Estate Advisor",
     description:
       "REMAX Commercial Real Estate advisor serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world's most recognized real estate brand.",
     url: "https://hencre.com/remax-commercial",
@@ -45,7 +45,7 @@ const FAQS = [
   },
   {
     q: "Does REMAX Commercial® operate in Florida?",
-    a: "Yes. REMAX Commercial Real Estate advisors operate across all 67 Florida counties. Barrett Henry is a REMAX Commercial Real Estate Broker Associate at REMAX Collective, with offices in Tampa, Largo, and Brandon. He handles commercial transactions throughout the state, and for markets outside his core area, he leverages the REMAX referral network to connect clients with local commercial specialists.",
+    a: "Yes. REMAX Commercial Real Estate advisors operate across all 67 Florida counties. Barrett Henry is a REMAX Commercial Commercial Real Estate Advisor at REMAX Collective, with offices in Tampa, Largo, and Brandon. He handles commercial transactions throughout the state, and for markets outside his core area, he leverages the REMAX referral network to connect clients with local commercial specialists.",
   },
   {
     q: "What types of properties does REMAX Commercial® handle?",
@@ -53,7 +53,7 @@ const FAQS = [
   },
   {
     q: "How do I find a REMAX Commercial Real Estate advisor in Florida?",
-    a: "You are already in the right place. Barrett Henry is a REMAX Commercial Real Estate Broker Associate serving all 67 Florida counties from his base in Tampa Bay. Contact Barrett directly at (813) 733-7907 or barrett@nowtb.com to discuss your commercial real estate needs. For transactions outside Florida, Barrett can connect you with REMAX Commercial Real Estate advisors in any state or country through the global referral network.",
+    a: "You are already in the right place. Barrett Henry is a REMAX Commercial Commercial Real Estate Advisor serving all 67 Florida counties from his base in Tampa Bay. Contact Barrett directly at (813) 733-7907 or barrett@nowtb.com to discuss your commercial real estate needs. For transactions outside Florida, Barrett can connect you with REMAX Commercial Real Estate advisors in any state or country through the global referral network.",
   },
   {
     q: "What is the REMAX Commercial® referral network?",
@@ -61,7 +61,7 @@ const FAQS = [
   },
   {
     q: "Is Barrett Henry a REMAX Commercial Real Estate advisor?",
-    a: "Yes. Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX Collective, operating under the REMAX Commercial® division for commercial property transactions. He has 23+ years of real estate experience, holds e-PRO, MRP, and SRS designations, and has been inducted into the REMAX Hall of Fame. Barrett serves all 67 Florida counties with a focus on the Tampa Bay market.",
+    a: "Yes. Barrett Henry is a licensed Commercial Real Estate Advisor at REMAX Collective, operating under the REMAX Commercial® division for commercial property transactions. He has 23+ years of real estate experience, holds e-PRO, MRP, and SRS designations, and has been inducted into the REMAX Hall of Fame. Barrett serves all 67 Florida counties with a focus on the Tampa Bay market.",
   },
 ] as const;
 
@@ -109,7 +109,7 @@ const schema = {
       "@type": "RealEstateAgent",
       "@id": "https://hencre.com/remax-commercial/#agent",
       name: "Barrett Henry",
-      jobTitle: "Broker Associate",
+      jobTitle: "Commercial Real Estate Advisor",
       worksFor: {
         "@type": "RealEstateAgent",
         name: "REMAX Collective",
@@ -183,7 +183,7 @@ export default function RemaxCommercialPage() {
       {/* ---- Hero ---- */}
       <Hero
         title="REMAX Commercial Real Estate"
-        subtitle="Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Commercial real estate backed by the world's most recognized brand."
+        subtitle="Barrett Henry, Commercial Real Estate Advisor at REMAX Collective. Commercial real estate backed by the world's most recognized brand."
         ctaText="Contact Barrett"
         ctaHref="/contact"
       />
@@ -409,7 +409,7 @@ export default function RemaxCommercialPage() {
           </h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
-              Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX
+              Barrett Henry is a licensed Commercial Real Estate Advisor at REMAX
               Collective, operating under the REMAX Commercial® division for all
               commercial property transactions in Florida. With 23+ years of real
               estate experience, Barrett brings a depth of knowledge that covers

@@ -98,7 +98,7 @@ export async function sendAutoResponder(data: AutoResponderData): Promise<{ succ
       <p>
         Best regards,<br />
         <strong>Barrett Henry</strong><br />
-        REALTOR\u00AE | Broker Associate<br />
+        Commercial Real Estate Advisor<br />
         REMAX Collective<br />
         <a href="tel:8137337907">(813) 733-7907</a><br />
         <a href="mailto:barrett@nowtb.com">barrett@nowtb.com</a>

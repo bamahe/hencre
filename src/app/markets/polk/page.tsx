@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Polk County CRE | REMAX Commercial Real Estate — Lakeland & Winter Haven",
   description:
-    "Polk County CRE market overview. I-4 corridor logistics and warehousing, Lakeland's downtown revitalization, and Winter Haven's emerging retail growth. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
+    "Polk County CRE market overview. I-4 corridor logistics and warehousing, Lakeland's downtown revitalization, and Winter Haven's emerging retail growth. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
   openGraph: {
     title: "Polk County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
@@ -36,7 +36,7 @@ const schema = {
       email: "barrett@nowtb.com",
       url: "https://hencre.com/markets/polk",
       areaServed: { "@type": "AdministrativeArea", name: "Polk County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "REALTOR® & Broker Associate" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
     },
     {
       "@type": "Service",
@@ -209,7 +209,7 @@ export default function PolkMarketPage() {
           </h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who works
+              Barrett Henry is a Commercial Real Estate Advisor at REMAX Collective who works
               with logistics operators, retailers, investors, and developers in Polk County.
               Whether you need to secure I-4 corridor warehouse space, find a retail outparcel
               in a growth area, or evaluate a land parcel for commercial development, Barrett

@@ -17,7 +17,7 @@ const DRAFT_MODEL = 'claude-haiku-4-5-20250901';
 const OVERSEE_MODEL = 'claude-sonnet-4-20250514';
 
 /** System prompt baked into every content engine call */
-const SYSTEM_PROMPT = `You are a commercial real estate content writer for Barrett Henry, REALTOR® and Broker Associate at REMAX Collective in Tampa Bay, Florida.
+const SYSTEM_PROMPT = `You are a commercial real estate content writer for Barrett Henry, Commercial Real Estate Advisor at REMAX Collective in Tampa Bay, Florida.
 
 Key rules:
 - Always say "REMAX" (never "RE/MAX")

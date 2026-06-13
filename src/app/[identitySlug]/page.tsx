@@ -257,7 +257,7 @@ export async function generateMetadata({
   const role = ROLE_VARIANTS.find((r) => r.suffix === parsed.roleSuffix)!;
 
   const title = `REMAX Commercial® ${role.roleTitle} in ${city.name}, FL — Barrett Henry`;
-  const description = `Looking for a REMAX Commercial® ${role.roleTitle.toLowerCase()} in ${city.name}, ${city.county} County? Barrett Henry is a REALTOR® & Broker Associate at REMAX Collective serving ${city.name} and all of ${city.county} County, Florida.`;
+  const description = `Looking for a REMAX Commercial® ${role.roleTitle.toLowerCase()} in ${city.name}, ${city.county} County? Barrett Henry is a Commercial Real Estate Advisor at REMAX Collective serving ${city.name} and all of ${city.county} County, Florida.`;
 
   return {
     title,
@@ -294,7 +294,7 @@ export default async function IdentityPage({
       {
         "@type": "RealEstateAgent",
         name: "Barrett Henry",
-        jobTitle: "REALTOR\u00AE & Broker Associate",
+        jobTitle: "Commercial Real Estate Advisor",
         worksFor: {
           "@type": "RealEstateOrganization",
           name: "REMAX Collective",
@@ -348,7 +348,7 @@ export default async function IdentityPage({
 
       <Hero
         title={`${role.roleTitle} in ${city.name}`}
-        subtitle={`REMAX Commercial® — Barrett Henry, REALTOR\u00AE & Broker Associate at REMAX Collective, serving ${city.name} and ${city.county} County, Florida.`}
+        subtitle={`REMAX Commercial® — Barrett Henry, Commercial Real Estate Advisor at REMAX Collective, serving ${city.name} and ${city.county} County, Florida.`}
         ctaText="Contact Barrett"
         ctaHref="/contact"
       />
@@ -399,7 +399,7 @@ export default async function IdentityPage({
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>{city.whyBarrett}</p>
             <p>
-              Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX Collective,
+              Barrett Henry is a licensed Commercial Real Estate Advisor at REMAX Collective,
               part of the REMAX Commercial® network, with 23+ years of real estate experience. He provides commercial real estate
               services across {city.county} County including buyer and seller representation,
               tenant and landlord lease negotiation, investment property analysis, and

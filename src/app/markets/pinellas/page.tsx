@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Pinellas County CRE | REMAX Commercial Real Estate — St. Petersburg & Clearwater",
   description:
-    "Pinellas County CRE market insights covering St. Petersburg, Clearwater, and the beaches. Office, retail, hospitality, and industrial opportunities. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
+    "Pinellas County CRE market insights covering St. Petersburg, Clearwater, and the beaches. Office, retail, hospitality, and industrial opportunities. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
   openGraph: {
     title: "Pinellas County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
@@ -36,7 +36,7 @@ const schema = {
       email: "barrett@nowtb.com",
       url: "https://hencre.com/markets/pinellas",
       areaServed: { "@type": "AdministrativeArea", name: "Pinellas County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "REALTOR® & Broker Associate" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
     },
     {
       "@type": "Service",
@@ -208,7 +208,7 @@ export default function PinellasMarketPage() {
           </h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who
+              Barrett Henry is a Commercial Real Estate Advisor at REMAX Collective who
               provides commercial real estate brokerage services across Pinellas County.
               Whether you are a tech company seeking creative office space in downtown St.
               Petersburg, a retailer looking for a high-traffic US-19 location, or an

@@ -33,7 +33,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Barrett Henry",
-    jobTitle: "REALTOR\u00AE & Broker Associate",
+    jobTitle: "Commercial Real Estate Advisor",
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
   },
   publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },

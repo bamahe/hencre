@@ -86,7 +86,7 @@ export default function ContactPage() {
 
       <Hero
         title="Contact REMAX Commercial Real Estate"
-        subtitle="Have a commercial real estate question? Need a broker opinion of value? Ready to make a move? Barrett Henry, REMAX Commercial Real Estate Broker Associate, is here to help."
+        subtitle="Have a commercial real estate question? Need a broker opinion of value? Ready to make a move? Barrett Henry, REMAX Commercial Commercial Real Estate Advisor, is here to help."
       />
 
       {/* ---- Direct contact info ---- */}

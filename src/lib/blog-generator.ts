@@ -65,7 +65,7 @@ function buildPrompt(
     topicInstruction = `Write an investor-focused article about commercial real estate opportunities in ${cityName}, ${countyName} County, Florida. This could cover: leasing strategies, commercial property management considerations, NNN investment opportunities, cap rate trends, what makes this submarket attractive for CRE investors, or landlord strategies for this area. Pick the angle that creates the most useful content for an investor or landlord considering ${cityName}.`;
   }
 
-  return `You are writing a blog post for hencre.com — Barrett Henry's commercial real estate website. Barrett is a REALTOR® and Broker Associate at REMAX Collective, operating under REMAX Commercial Real Estate for commercial transactions. He has 23+ years of real estate experience (NEVER tie this to Tampa Bay specifically) and serves all 67 Florida counties from three offices in Tampa, Largo, and Brandon.
+  return `You are writing a blog post for hencre.com — Barrett Henry's commercial real estate website. Barrett is a Commercial Real Estate Advisor at REMAX Collective, operating under REMAX Commercial Real Estate for commercial transactions. He has 23+ years of real estate experience (NEVER tie this to Tampa Bay specifically) and serves all 67 Florida counties from three offices in Tampa, Largo, and Brandon.
 
 ${topicInstruction}
 
@@ -208,7 +208,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Barrett Henry",
-    jobTitle: "REALTOR\\u00AE & Broker Associate",
+    jobTitle: "Commercial Real Estate Advisor",
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
@@ -283,14 +283,14 @@ ${sectionJsx}
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
           <img
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, REALTOR® and Broker Associate"
+            alt="Barrett Henry, Commercial Real Estate Advisor"
             width={80}
             height={80}
             className="rounded-full"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR\\u00AE & Broker Associate at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">REALTOR\\u00AE & Commercial Real Estate Advisor at REMAX Collective</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>

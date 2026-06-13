@@ -12,9 +12,9 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "REMAX Commercial Real Estate | Commercial Real Estate — Barrett Henry",
   description:
-    "REMAX Commercial Real Estate — Barrett Henry, REALTOR® & Broker Associate at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
+    "REMAX Commercial Real Estate — Barrett Henry, Commercial Real Estate Advisor at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
   openGraph: {
-    title: "REMAX Commercial Real Estate | Barrett Henry, Broker Associate",
+    title: "REMAX Commercial Real Estate | Barrett Henry, Commercial Real Estate Advisor",
     description:
       "REMAX Commercial Real Estate advisor serving all 67 Florida counties. Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, backed by the global REMAX network.",
     url: "https://hencre.com",
@@ -167,7 +167,7 @@ const schema = {
       "@type": "RealEstateAgent",
       "@id": "https://hencre.com/#agent",
       name: "Barrett Henry",
-      jobTitle: "Broker Associate",
+      jobTitle: "Commercial Real Estate Advisor",
       worksFor: {
         "@type": "RealEstateAgent",
         name: "REMAX Collective",

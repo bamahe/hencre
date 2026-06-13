@@ -130,7 +130,7 @@ const FAQS = [
   },
   {
     q: "How do I connect with a REMAX Commercial Real Estate advisor in my area?",
-    a: "Contact Barrett Henry at (813) 733-7907 or barrett@nowtb.com. As a Broker Associate at REMAX Collective, Barrett coordinates commercial referrals statewide. He will connect you with the right REMAX Commercial Real Estate advisor for your market and property type — whether you need an agent in Fort Lauderdale, Orlando, Miami, or any other Florida city.",
+    a: "Contact Barrett Henry at (813) 733-7907 or barrett@nowtb.com. As a Commercial Real Estate Advisor at REMAX Collective, Barrett coordinates commercial referrals statewide. He will connect you with the right REMAX Commercial Real Estate advisor for your market and property type — whether you need an agent in Fort Lauderdale, Orlando, Miami, or any other Florida city.",
   },
   {
     q: "Can Barrett Henry help with deals outside Tampa Bay?",
@@ -216,7 +216,7 @@ export default function RemaxCommercialFloridaPage() {
       {/* ---- Hero ---- */}
       <Hero
         title="REMAX Commercial® Agents Across Florida"
-        subtitle="78+ commercial REALTORS® in 40+ cities. Barrett Henry, Broker Associate at REMAX Collective, coordinates statewide commercial referrals."
+        subtitle="78+ commercial REALTORS® in 40+ cities. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective, coordinates statewide commercial referrals."
         ctaText="Contact Barrett"
         ctaHref="/contact"
       />
@@ -235,7 +235,7 @@ export default function RemaxCommercialFloridaPage() {
             properties every day.
           </p>
           <p>
-            Barrett Henry, REALTOR® and Broker Associate at REMAX Collective,
+            Barrett Henry, Commercial Real Estate Advisor at REMAX Collective,
             serves as a coordination point for commercial deals statewide.
             Whether you need a commercial REALTOR® in Fort Lauderdale, Orlando,
             Tampa, Miami, or anywhere in between, the REMAX Commercial® network

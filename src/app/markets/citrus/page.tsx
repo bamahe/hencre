@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Citrus County CRE | REMAX Commercial Real Estate — Crystal River & Inverness",
   description:
-    "Citrus County CRE market overview. Crystal River tourism corridor, US-19 retail, Inverness commercial growth, and emerging opportunities on Florida's Nature Coast. Barrett Henry, REALTOR® & Broker Associate at REMAX Collective.",
+    "Citrus County CRE market overview. Crystal River tourism corridor, US-19 retail, Inverness commercial growth, and emerging opportunities on Florida's Nature Coast. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
   openGraph: {
     title: "Citrus County Commercial Real Estate | REMAX Commercial Real Estate",
     description:
@@ -36,7 +36,7 @@ const schema = {
       email: "barrett@nowtb.com",
       url: "https://hencre.com/markets/citrus",
       areaServed: { "@type": "AdministrativeArea", name: "Citrus County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "REALTOR® & Broker Associate" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
     },
     {
       "@type": "Service",
@@ -207,7 +207,7 @@ export default function CitrusMarketPage() {
           </h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective who works
+              Barrett Henry is a Commercial Real Estate Advisor at REMAX Collective who works
               with business owners, investors, and developers in Citrus County. Whether you
               are looking for a retail location along US-19, a medical office near Inverness,
               or investment property in an emerging growth market, Barrett provides the

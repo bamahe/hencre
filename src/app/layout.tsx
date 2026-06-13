@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | HenCRE \u2014 REMAX Commercial\u00AE Florida",
   },
   description:
-    "REMAX Commercial Real Estate — A better way in commercial real estate. Barrett Henry, REALTOR\u00AE & Broker Associate at REMAX Collective. Full-service CRE brokerage serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world\u2019s most recognized real estate brand.",
+    "REMAX Commercial Real Estate — A better way in commercial real estate. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective. Full-service CRE brokerage serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world\u2019s most recognized real estate brand.",
   metadataBase: new URL("https://hencre.com"),
   icons: {
     icon: [

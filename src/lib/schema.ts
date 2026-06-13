@@ -9,9 +9,9 @@ import { OFFICES, formatAddress, type Office } from './offices';
 /** Barrett's core details — single source of truth */
 const BARRETT = {
   name: 'Barrett Henry',
-  jobTitle: 'REALTOR\u00AE & Broker Associate',
+  jobTitle: 'Commercial Real Estate Advisor',
   description:
-    'Barrett Henry is a REALTOR\u00AE and Broker Associate at REMAX Collective with 23+ years of real estate experience, specializing in Florida commercial real estate.',
+    'Barrett Henry is a REALTOR\u00AE and Commercial Real Estate Advisor at REMAX Collective with 23+ years of real estate experience, specializing in Florida commercial real estate.',
   phone: '(813) 733-7907',
   email: 'barrett@nowtb.com',
   image: 'https://hencre.com/images/barrett-henry-headshot.jpg',
