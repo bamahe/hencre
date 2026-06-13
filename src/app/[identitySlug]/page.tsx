@@ -200,20 +200,49 @@ const ROLE_VARIANTS: RoleVariant[] = [
     roleDescription:
       "A commercial real estate practitioner is a professional who works across the full spectrum of CRE activities — leasing, sales, investment analysis, dispositions, and advisory. The term reflects hands-on deal experience across multiple property types and transaction structures.",
   },
+  {
+    suffix: "cre",
+    roleTitle: "Commercial Real Estate Advisor",
+    roleDescription:
+      "A commercial real estate advisor provides strategic guidance on buying, selling, leasing, and investing in commercial properties. Unlike a transactional agent, an advisor focuses on long-term client outcomes — aligning real estate decisions with business goals, investment objectives, and market timing.",
+  },
+  {
+    suffix: "cre-broker",
+    roleTitle: "CRE Broker",
+    roleDescription:
+      "A CRE broker specializes exclusively in commercial real estate transactions — office, retail, industrial, multifamily, and land. Working with a dedicated CRE broker means working with someone who understands commercial lease structures, investment underwriting, zoning, and the specific due diligence commercial properties require.",
+  },
+  {
+    suffix: "investment-property",
+    roleTitle: "Investment Property Specialist",
+    roleDescription:
+      "An investment property specialist helps investors identify, evaluate, and acquire income-producing commercial real estate. From NNN retail to multifamily apartments to industrial warehouse, the right specialist analyzes cap rates, NOI, tenant quality, and market fundamentals to find properties that meet your return targets.",
+  },
+  {
+    suffix: "commercial-property",
+    roleTitle: "Commercial Property Expert",
+    roleDescription:
+      "A commercial property expert provides comprehensive services for owners and buyers of commercial real estate — from market valuation and lease negotiation to disposition strategy and 1031 exchanges. Whether you are buying your first commercial building or managing a portfolio, expert guidance protects your investment.",
+  },
 ];
 
 /* ---- Slug parsing: extract city key and role suffix from the slug ---- */
 function parseSlug(slug: string): { cityKey: string; roleSuffix: string } | null {
-  /* Possible prefixes that precede the city name in the slug */
+  /* Possible prefixes that precede the city name in the slug.
+     Order matters — longer prefixes must come first to avoid partial matches. */
   const prefixes = [
     "commercial-real-estate-agent-",
-    "commercial-realtor-",
     "commercial-real-estate-broker-",
+    "commercial-real-estate-",
+    "commercial-realtor-",
     "commercial-practitioner-",
+    "commercial-property-",
+    "investment-property-",
+    "cre-broker-",
   ];
 
   /* Corresponding role suffixes */
-  const suffixes = ["agent", "realtor", "broker", "practitioner"];
+  const suffixes = ["agent", "broker", "cre", "realtor", "practitioner", "commercial-property", "investment-property", "cre-broker"];
 
   for (let i = 0; i < prefixes.length; i++) {
     if (slug.startsWith(prefixes[i])) {
@@ -235,6 +264,10 @@ export function generateStaticParams() {
     params.push({ identitySlug: `commercial-realtor-${cityKey}` });
     params.push({ identitySlug: `commercial-real-estate-broker-${cityKey}` });
     params.push({ identitySlug: `commercial-practitioner-${cityKey}` });
+    params.push({ identitySlug: `commercial-real-estate-${cityKey}` });
+    params.push({ identitySlug: `cre-broker-${cityKey}` });
+    params.push({ identitySlug: `investment-property-${cityKey}` });
+    params.push({ identitySlug: `commercial-property-${cityKey}` });
   }
 
   return params;
