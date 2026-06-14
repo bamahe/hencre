@@ -31,7 +31,7 @@ export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = fa
     >
       {/* Dark overlay for readability when image or video is present */}
       {(backgroundImage || showVideo) && (
-        <div className="absolute inset-0 bg-black/85 backdrop-blur-sm" />
+        <div className="absolute inset-0 bg-black/[0.92]" />
       )}
 
       {/* Background video — home page only */}
