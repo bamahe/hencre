@@ -91,8 +91,27 @@ export default function ContactPage() {
         subtitle="Have a commercial real estate question? Need a broker opinion of value? Ready to make a move? Barrett Henry, REMAX Commercial Real Estate Advisor, is here to help."
       />
 
+      {/* ---- Contact form — first thing after hero ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8" id="lead-form">
+        <div className="mx-auto max-w-2xl">
+          <h2 className="text-center text-2xl font-bold sm:text-3xl">
+            Send Me a Message
+          </h2>
+          <p className="mt-3 text-center text-[#666666]">
+            Tell me about your commercial real estate needs. I respond within one
+            business day — usually faster.
+          </p>
+          <div className="mt-8">
+            <ContactForm />
+          </div>
+        </div>
+      </section>
+
       {/* ---- Direct contact info ---- */}
       <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-center text-2xl font-bold sm:text-3xl mb-6">
+          Prefer to Call or Email?
+        </h2>
         <div className="flex flex-wrap justify-center gap-8">
           <a
             href="tel:+18137337907"
@@ -135,28 +154,11 @@ export default function ContactPage() {
                   <p className="text-lg font-bold text-black group-hover:text-black">
                     {office.name}
                   </p>
-                  <p className="text-sm text-[#666666]">REMAX Collective</p>
                   <p className="text-sm text-[#666666]">{office.address}</p>
                   <p className="text-sm text-[#666666]">{office.city}</p>
                 </div>
               </a>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ---- Lead form placeholder / CTA ---- */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8" id="lead-form">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-2xl font-bold sm:text-3xl">
-            Send Me a Message
-          </h2>
-          <p className="mt-3 text-[#666666]">
-            Tell me about your commercial real estate needs. I respond within one
-            business day — usually faster.
-          </p>
-          <div className="mt-8">
-            <ContactForm />
           </div>
         </div>
       </section>

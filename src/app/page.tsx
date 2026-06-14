@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
+import { ContactForm } from "./contact/ContactForm";
 
 /* -------------------------------------------------------------------
  * Home Page — hencre.com
@@ -262,7 +263,22 @@ export default function HomePage() {
         showVideo
       />
 
-      {/* ---- REMAX Commercial® Network section (first after hero) ---- */}
+      {/* ---- Lead form — right after hero ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8" id="lead-form">
+        <div className="mx-auto max-w-2xl">
+          <h2 className="text-center text-2xl font-bold sm:text-3xl">
+            Tell Me About Your Project
+          </h2>
+          <p className="mt-3 text-center text-[#666666]">
+            Commercial real estate question? Need a broker opinion of value? I respond within one business day — usually faster.
+          </p>
+          <div className="mt-8">
+            <ContactForm />
+          </div>
+        </div>
+      </section>
+
+      {/* ---- REMAX Commercial® Network section ---- */}
       <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl">
           <p className="text-center text-sm font-semibold tracking-widest uppercase text-white/60">
@@ -424,24 +440,28 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ---- Lead form placeholder ---- */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8" id="lead-form">
+      {/* ---- Bottom CTA ---- */}
+      <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-2xl font-bold sm:text-3xl">
+          <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Ready to Make a Move?
           </h2>
-          <p className="mt-3 text-[#666666]">
-            Tell me about your commercial real estate needs. I will get back to you
-            within one business day.
+          <p className="mt-3 text-white/80">
+            Whether you are leasing, buying, selling, or just exploring — the conversation starts here.
           </p>
-          {/* LeadForm component will be mounted here by another agent */}
-          <div className="mt-8">
-            <Link
-              href="/contact"
-              className="inline-block rounded-lg bg-[#1a1a1a] px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-[#333333] hover:no-underline"
+          <div className="mt-8 flex flex-wrap justify-center gap-4">
+            <a
+              href="#lead-form"
+              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
             >
-              Contact Me
-            </Link>
+              Fill Out the Form
+            </a>
+            <a
+              href="tel:+18137337907"
+              className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline"
+            >
+              Call (813) 733-7907
+            </a>
           </div>
         </div>
       </section>
