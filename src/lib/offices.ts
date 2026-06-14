@@ -28,7 +28,7 @@ export interface Office {
 
 export const OFFICES: Office[] = [
   {
-    name: 'Tampa Office',
+    name: 'REMAX Collective — Tampa',
     slug: 'tampa',
     address: '14310 N Dale Mabry Hwy Ste 100',
     city: 'Tampa',
@@ -40,7 +40,7 @@ export const OFFICES: Office[] = [
     brokerage: 'REMAX Collective',
   },
   {
-    name: 'Largo Office',
+    name: 'REMAX Collective — Largo',
     slug: 'largo',
     address: '11200 Seminole Blvd Ste 202',
     city: 'Largo',
@@ -52,7 +52,7 @@ export const OFFICES: Office[] = [
     brokerage: 'REMAX Collective',
   },
   {
-    name: 'Brandon Office',
+    name: 'REMAX Collective — Brandon',
     slug: 'brandon',
     address: '417 Lithia Pinecrest Rd',
     city: 'Brandon',

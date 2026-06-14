@@ -10,19 +10,19 @@ import { Phone, Mail, MapPin, ExternalLink } from "lucide-react";
 
 const OFFICES = [
   {
-    name: "Tampa Office",
-    line1: "REMAX Collective",
-    line2: "Tampa, FL",
+    name: "REMAX Collective — Tampa",
+    line1: "14310 N Dale Mabry Hwy Ste 100",
+    line2: "Tampa, FL 33618",
   },
   {
-    name: "Largo Office",
-    line1: "REMAX Collective",
-    line2: "Largo, FL",
+    name: "REMAX Collective — Largo",
+    line1: "11200 Seminole Blvd Ste 202",
+    line2: "Largo, FL 33778",
   },
   {
-    name: "Brandon Office",
-    line1: "REMAX Collective",
-    line2: "Brandon, FL",
+    name: "REMAX Collective — Brandon",
+    line1: "417 Lithia Pinecrest Rd",
+    line2: "Brandon, FL 33511",
   },
 ] as const;
 

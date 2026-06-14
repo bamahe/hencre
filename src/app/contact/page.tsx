@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
 import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
+import { ContactForm } from "./ContactForm";
 
 /* -------------------------------------------------------------------
  * Contact Page — three office locations, phone, email, lead form CTA.
@@ -24,19 +25,19 @@ export const metadata: Metadata = {
 /* -- Office data -- */
 const OFFICES = [
   {
-    name: "Tampa Office",
+    name: "REMAX Collective — Tampa",
     address: "14310 N Dale Mabry Hwy Ste 100",
     city: "Tampa, FL 33618",
     mapUrl: "https://maps.google.com/?q=14310+N+Dale+Mabry+Hwy+Ste+100+Tampa+FL+33618",
   },
   {
-    name: "Largo Office",
+    name: "REMAX Collective — Largo",
     address: "11200 Seminole Blvd Ste 202",
     city: "Largo, FL 33778",
     mapUrl: "https://maps.google.com/?q=11200+Seminole+Blvd+Ste+202+Largo+FL+33778",
   },
   {
-    name: "Brandon Office",
+    name: "REMAX Collective — Brandon",
     address: "417 Lithia Pinecrest Rd",
     city: "Brandon, FL 33511",
     mapUrl: "https://maps.google.com/?q=417+Lithia+Pinecrest+Rd+Brandon+FL+33511",
@@ -87,7 +88,7 @@ export default function ContactPage() {
 
       <Hero
         title="Contact REMAX Commercial Real Estate"
-        subtitle="Have a commercial real estate question? Need a broker opinion of value? Ready to make a move? Barrett Henry, REMAX Commercial Commercial Real Estate Advisor, is here to help."
+        subtitle="Have a commercial real estate question? Need a broker opinion of value? Ready to make a move? Barrett Henry, REMAX Commercial Real Estate Advisor, is here to help."
       />
 
       {/* ---- Direct contact info ---- */}
@@ -154,15 +155,8 @@ export default function ContactPage() {
             Tell me about your commercial real estate needs. I respond within one
             business day — usually faster.
           </p>
-          {/* LeadForm component will be mounted here */}
-          <div className="mt-8 rounded-lg border border-[#E5E5E5] bg-white p-8">
-            <p className="text-[#666666]">
-              Contact form loading...
-            </p>
-            <p className="mt-4 text-sm text-[#666666]">
-              Or call <a href="tel:+18137337907" className="font-semibold text-black">(813) 733-7907</a> or
-              email <a href="mailto:barrett@nowtb.com" className="font-semibold text-black">barrett@nowtb.com</a> directly.
-            </p>
+          <div className="mt-8">
+            <ContactForm />
           </div>
         </div>
       </section>
