@@ -49,34 +49,54 @@ export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = fa
         </>
       )}
 
-      {/* Content */}
-      <div className="relative z-10 px-4 py-20 text-center sm:py-28 lg:py-32">
-        <div className="mx-auto max-w-3xl">
-          <h1 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
-            {title}
-          </h1>
-
-          {subtitle && (
-            <p className="mt-4 text-lg text-white/90 sm:text-xl">{subtitle}</p>
-          )}
-
-          {ctaText && ctaHref && !children && (
-            <div className="mt-8">
-              <Link
-                href={ctaHref}
-                className="inline-block rounded-lg bg-white px-8 py-3 text-base font-semibold text-black no-underline shadow-lg transition-colors hover:bg-[#E5E5E5] hover:no-underline"
-              >
-                {ctaText}
-              </Link>
+      {/* Content — side-by-side when form is present, centered otherwise */}
+      <div className="relative z-10 px-4 py-20 sm:py-28 lg:py-32">
+        {children ? (
+          /* Two-column: text left, form right */
+          <div className="mx-auto max-w-7xl grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
+            <div className="text-left">
+              <h1 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+                {title}
+              </h1>
+              {subtitle && (
+                <p className="mt-4 text-lg text-white/90 sm:text-xl">{subtitle}</p>
+              )}
+              {ctaText && ctaHref && (
+                <div className="mt-8">
+                  <Link
+                    href={ctaHref}
+                    className="inline-block rounded-lg bg-white px-8 py-3 text-base font-semibold text-black no-underline shadow-lg transition-colors hover:bg-[#E5E5E5] hover:no-underline"
+                  >
+                    {ctaText}
+                  </Link>
+                </div>
+              )}
             </div>
-          )}
-
-          {children && (
-            <div className="mt-8 mx-auto max-w-xl">
+            <div className="max-w-lg lg:max-w-none">
               {children}
             </div>
-          )}
-        </div>
+          </div>
+        ) : (
+          /* Centered: no form */
+          <div className="mx-auto max-w-3xl text-center">
+            <h1 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+              {title}
+            </h1>
+            {subtitle && (
+              <p className="mt-4 text-lg text-white/90 sm:text-xl">{subtitle}</p>
+            )}
+            {ctaText && ctaHref && (
+              <div className="mt-8">
+                <Link
+                  href={ctaHref}
+                  className="inline-block rounded-lg bg-white px-8 py-3 text-base font-semibold text-black no-underline shadow-lg transition-colors hover:bg-[#E5E5E5] hover:no-underline"
+                >
+                  {ctaText}
+                </Link>
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </section>
   );
