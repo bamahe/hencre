@@ -14,7 +14,8 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "CRE Markets | Tampa Bay & Central Florida 2026",
   description:
-    "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights for Hillsborough, Pinellas, Pasco, Polk, Manatee, Sarasota, Citrus, and Hernando counties.",
+    "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights for Hillsborough, Pinellas, Pasco, Polk, and more. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/markets" },
   openGraph: {
     title: "Commercial Real Estate Markets — Tampa Bay & Central Florida | REMAX Commercial Real Estate",
     description:

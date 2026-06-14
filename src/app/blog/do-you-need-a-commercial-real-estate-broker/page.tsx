@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "Do You Need a Commercial Real Estate Broker?",
   description:
     "When and why to hire a commercial real estate broker — tenant representation, buyer advocacy, lease negotiation, and deal sourcing. A broker explains the value.",
+  alternates: { canonical: "https://hencre.com/blog/do-you-need-a-commercial-real-estate-broker" },
   openGraph: {
     title: "Do You Need a Commercial Real Estate Broker?",
     description:

@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "REMAX Commercial Real Estate Florida | Barrett Henry",
   description:
     "REMAX Commercial Real Estate — Barrett Henry, Commercial Real Estate Advisor at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
+  alternates: { canonical: "https://hencre.com" },
   openGraph: {
     title: "REMAX Commercial Real Estate FL | Barrett Henry",
     description:
@@ -185,6 +186,8 @@ const schema = {
         "https://www.remaxcommercial.com",
         "https://nowtb.com",
         "https://barretthenry.remax.com",
+        "https://vivipm.com",
+        "https://valricopropertymgmt.com",
       ],
       areaServed: {
         "@type": "State",

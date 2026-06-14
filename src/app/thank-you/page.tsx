@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Thank You | Your Inquiry Has Been Received",
   description:
     "Thank you for contacting REMAX Commercial Real Estate. Barrett Henry will respond within one business day.",
+  alternates: { canonical: "https://hencre.com/thank-you" },
   robots: { index: false, follow: true },
   openGraph: {
     title: "Thank You | REMAX Commercial Real Estate",

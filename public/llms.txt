@@ -52,6 +52,8 @@ HenCRE is the commercial real estate authority site for Barrett Henry, REALTOR a
 - Email: barrett@nowtb.com
 - Website: https://hencre.com
 - Residential site: https://nowtb.com
+- Property management: https://vivipm.com
+- Valrico property management: https://valricopropertymgmt.com
 - REMAX profile: https://barretthenry.remax.com
 
 ## Office Locations

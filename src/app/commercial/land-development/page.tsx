@@ -18,9 +18,10 @@ const FAQS = [
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Land & Development | REMAX Commercial Real Estate",
+  title: "Commercial Land & Development Florida | Buy or Sell",
   description:
-    "Buy or sell commercial land in Florida. Entitled, raw, and development-ready parcels for commercial, industrial, and mixed-use projects. Barrett Henry, REALTOR® at REMAX Collective.",
+    "Buy or sell commercial land in Florida. Entitled, raw, and development-ready parcels for commercial, industrial, and mixed-use projects. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/commercial/land-development" },
   openGraph: {
     title: "Land & Development | REMAX Commercial Real Estate",
     description: "Commercial and development land across Florida. Entitled, raw, and shovel-ready parcels.",

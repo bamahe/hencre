@@ -12,9 +12,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "5 Mistakes First-Time Commercial Tenants Make (and How to Avoid Them)",
+  title: "5 Mistakes First-Time Commercial Tenants Make",
   description:
     "Avoid the most common mistakes first-time commercial tenants make — from skipping lease review to underestimating total occupancy costs. Expert broker advice.",
+  alternates: { canonical: "https://hencre.com/blog/5-mistakes-first-time-commercial-tenants-make" },
   openGraph: {
     title: "5 Mistakes First-Time Commercial Tenants Make",
     description:

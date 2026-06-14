@@ -8,9 +8,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Insights | REMAX Commercial Real Estate — CRE Market Intelligence",
+  title: "CRE Insights | Market Intelligence & Investment Guides",
   description:
     "In-depth commercial real estate insights for Florida investors, tenants, and property owners. Market analysis, investment guides, and CRE strategy from Barrett Henry.",
+  alternates: { canonical: "https://hencre.com/insights" },
   openGraph: {
     title: "Insights | REMAX Commercial Real Estate",
     description: "In-depth CRE market intelligence and investment guides for Florida commercial real estate.",

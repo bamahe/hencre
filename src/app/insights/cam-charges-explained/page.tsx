@@ -12,9 +12,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "CAM Charges Explained: What Commercial Tenants Need to Know",
+  title: "CAM Charges Explained | What Tenants Need to Know",
   description:
     "Learn what CAM charges are, what they typically include, how they are calculated, and how to negotiate them in your commercial lease. Florida broker insight.",
+  alternates: { canonical: "https://hencre.com/insights/cam-charges-explained" },
   openGraph: {
     title: "CAM Charges Explained: What Commercial Tenants Need to Know",
     description:

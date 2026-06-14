@@ -12,9 +12,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "How to Value Commercial Property: 3 Approaches Every Investor Should Know",
+  title: "How to Value Commercial Property | 3 CRE Approaches",
   description:
     "Learn the three approaches to commercial real estate valuation — income, comparable sales, and cost — and when to get a formal appraisal. Expert broker guidance.",
+  alternates: { canonical: "https://hencre.com/insights/how-to-value-commercial-property" },
   openGraph: {
     title: "How to Value Commercial Property: 3 Valuation Approaches",
     description:

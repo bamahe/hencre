@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "What Makes a Good Commercial Real Estate Investment?",
   description:
     "Learn what experienced investors look for in commercial real estate — tenant quality, lease terms, location fundamentals, and more. A broker's investment criteria.",
+  alternates: { canonical: "https://hencre.com/blog/what-makes-a-good-commercial-investment" },
   openGraph: {
     title: "What Makes a Good Commercial Real Estate Investment?",
     description:

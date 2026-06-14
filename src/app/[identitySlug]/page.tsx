@@ -295,6 +295,7 @@ export async function generateMetadata({
   return {
     title,
     description,
+    alternates: { canonical: `https://hencre.com/${identitySlug}` },
     openGraph: {
       title,
       description,

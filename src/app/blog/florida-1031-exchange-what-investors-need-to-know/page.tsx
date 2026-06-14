@@ -13,9 +13,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Florida 1031 Exchange: What Investors Need to Know",
+  title: "Florida 1031 Exchange | What CRE Investors Need to Know",
   description:
     "Florida-specific 1031 exchange considerations for commercial real estate investors — no state income tax advantages, property type flexibility, and common pitfalls.",
+  alternates: { canonical: "https://hencre.com/blog/florida-1031-exchange-what-investors-need-to-know" },
   openGraph: {
     title: "Florida 1031 Exchange: What Investors Need to Know",
     description:

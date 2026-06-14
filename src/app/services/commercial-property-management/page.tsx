@@ -11,9 +11,10 @@ import CTASection from "@/components/CTASection";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Property Management Florida | Full-Service CRE Management",
+  title: "Commercial Property Management Florida | Full-Service CRE",
   description:
     "Full-service commercial property management across Florida. Tenant relations, maintenance, financial reporting, lease admin, and vacancy marketing. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/services/commercial-property-management" },
   openGraph: {
     title: "Commercial Property Management Florida | Full-Service CRE Management",
     description:

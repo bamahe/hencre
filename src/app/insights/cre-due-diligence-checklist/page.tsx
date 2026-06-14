@@ -12,9 +12,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "CRE Due Diligence Checklist: What to Inspect Before You Buy",
+  title: "CRE Due Diligence Checklist | What to Inspect Before Buy",
   description:
     "Comprehensive commercial real estate due diligence checklist covering financial, environmental, legal, and physical inspection items. Expert broker guidance.",
+  alternates: { canonical: "https://hencre.com/insights/cre-due-diligence-checklist" },
   openGraph: {
     title: "CRE Due Diligence Checklist: What to Inspect Before You Buy",
     description:

@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "Why Tampa Bay Commercial Real Estate Is Booming",
   description:
     "Explore the key drivers fueling Tampa Bay's commercial real estate growth — population migration, infrastructure investment, business climate, and more. A broker's perspective.",
+  alternates: { canonical: "https://hencre.com/blog/why-tampa-bay-cre-is-booming" },
   openGraph: {
     title: "Why Tampa Bay Commercial Real Estate Is Booming",
     description:

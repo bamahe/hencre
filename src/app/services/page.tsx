@@ -10,7 +10,8 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "CRE Services Florida | REMAX Commercial Brokerage",
   description:
-    "Full-service commercial real estate brokerage: tenant representation, landlord leasing, investment sales, dispositions, and CRE valuation. Barrett Henry, REALTOR® serving all 67 Florida counties.",
+    "Full-service commercial real estate brokerage: tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation. Barrett Henry serving all 67 FL counties. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/services" },
   openGraph: {
     title: "CRE Services | REMAX Commercial Real Estate",
     description:

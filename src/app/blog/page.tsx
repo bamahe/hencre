@@ -24,9 +24,10 @@ interface ManifestPost {
 const manifest = rawManifest as ManifestPost[];
 
 export const metadata: Metadata = {
-  title: "Blog | Commercial Real Estate Insights & Market Updates",
+  title: "CRE Blog | Market Updates & Investment Analysis FL",
   description:
     "Commercial real estate blog by Barrett Henry. Market updates, investment analysis, leasing tips, and CRE strategy for Florida investors, tenants, and landlords.",
+  alternates: { canonical: "https://hencre.com/blog" },
   openGraph: {
     title: "Blog | REMAX Commercial Real Estate",
     description:

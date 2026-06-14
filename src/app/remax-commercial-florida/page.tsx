@@ -12,9 +12,10 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
   title:
-    "REMAX Commercial Real Estate Agents | 78 Commercial REALTORS Statewide",
+    "REMAX Commercial Agents Florida | 78+ CRE REALTORS",
   description:
-    "REMAX Commercial® has 78+ agents across Florida covering Fort Lauderdale, Orlando, Tampa Bay, Miami, Jacksonville, and beyond. Barrett Henry coordinates statewide commercial referrals.",
+    "REMAX Commercial has 78+ agents across Florida covering Fort Lauderdale, Orlando, Tampa Bay, Miami, and beyond. Barrett Henry coordinates statewide commercial referrals.",
+  alternates: { canonical: "https://hencre.com/remax-commercial-florida" },
   keywords: [
     "REMAX Commercial Real Estate",
     "REMAX Commercial Real Estate advisors Florida",

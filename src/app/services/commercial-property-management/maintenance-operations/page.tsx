@@ -10,9 +10,10 @@ import CTASection from "@/components/CTASection";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Property Maintenance & Operations | Florida CRE",
+  title: "Commercial Property Maintenance & Operations FL",
   description:
     "Preventive maintenance, vendor management, and emergency repairs for commercial properties in Florida. Hurricane-ready operations. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/services/commercial-property-management/maintenance-operations" },
   openGraph: {
     title: "Commercial Property Maintenance & Operations | Florida CRE",
     description:

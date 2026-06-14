@@ -33,9 +33,10 @@ const FAQS = [
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Office Space | REMAX Commercial Real Estate",
+  title: "Office Space Florida | Class A, B, C Lease & Sale",
   description:
-    "Find, lease, or invest in office space across Florida. Class A, B, and C office buildings. Barrett Henry provides tenant rep, landlord leasing, and investment sales.",
+    "Find, lease, or invest in office space across Florida. Class A, B, and C office buildings. Tenant rep, landlord leasing, and investment sales. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/commercial/office-space" },
   openGraph: {
     title: "Office Space | REMAX Commercial Real Estate",
     description: "Commercial office leasing, sales, and investment across Florida. Class A through C.",

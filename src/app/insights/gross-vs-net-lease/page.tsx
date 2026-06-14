@@ -12,9 +12,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Gross vs. Net Lease: Commercial Lease Structures Compared",
+  title: "Gross vs. Net Lease | Commercial Lease Types Compared",
   description:
-    "Compare gross, modified gross, and net lease structures for commercial real estate. Understand how each impacts your operating costs and total occupancy expense.",
+    "Compare gross, modified gross, and net lease structures for commercial real estate. Understand how each impacts operating costs and total occupancy expense.",
+  alternates: { canonical: "https://hencre.com/insights/gross-vs-net-lease" },
   openGraph: {
     title: "Gross vs. Net Lease: Commercial Lease Structures Compared",
     description:

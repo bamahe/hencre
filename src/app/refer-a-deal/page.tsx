@@ -8,9 +8,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Refer a Commercial Deal | REMAX Commercial Real Estate",
+  title: "Refer a Commercial Deal | Earn a Referral Fee",
   description:
     "Got a commercial real estate deal outside your lane? Refer it to Barrett Henry and earn a competitive referral fee. Licensed agents across Florida welcome.",
+  alternates: { canonical: "https://hencre.com/refer-a-deal" },
   openGraph: {
     title: "Refer a Deal | REMAX Commercial Real Estate",
     description:

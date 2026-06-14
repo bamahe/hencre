@@ -14,7 +14,8 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Cap Rate Explained | How to Calculate Cap Rates 2026",
   description:
-    "Learn what capitalization rates are, how to calculate them, and when they matter for commercial real estate investment decisions. Expert guidance from a licensed Florida broker.",
+    "Learn what capitalization rates are, how to calculate them, and when they matter for CRE investment decisions. Expert guidance from a licensed Florida broker.",
+  alternates: { canonical: "https://hencre.com/insights/what-is-a-cap-rate" },
   openGraph: {
     title: "What Is a Cap Rate? How to Calculate & Interpret Capitalization Rates",
     description:

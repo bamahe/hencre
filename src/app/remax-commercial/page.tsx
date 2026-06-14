@@ -11,9 +11,10 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
   title:
-    "REMAX Commercial Real Estate — Barrett Henry, Commercial Real Estate Advisor | REMAX Commercial Real Estate",
+    "REMAX Commercial Real Estate | Barrett Henry, CRE Advisor",
   description:
-    "REMAX Commercial Real Estate — Barrett Henry, Commercial Real Estate Advisor at REMAX Collective. Access 145,000+ agents across 120+ countries. Commercial real estate services including tenant rep, landlord leasing, investment sales, and dispositions across all 67 Florida counties.",
+    "REMAX Commercial Real Estate — Barrett Henry, CRE Advisor at REMAX Collective. 145,000+ agents across 120+ countries. Tenant rep, leasing, investment sales across all 67 FL counties.",
+  alternates: { canonical: "https://hencre.com/remax-commercial" },
   keywords: [
     "REMAX Commercial Real Estate",
     "REMAX Commercial®",

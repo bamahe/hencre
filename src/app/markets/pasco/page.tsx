@@ -15,9 +15,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Pasco County CRE | REMAX Commercial Real Estate — Wesley Chapel & New Port Richey",
+  title: "Pasco County CRE 2026 | Wesley Chapel & SR 54/56",
   description:
-    "Pasco County CRE market analysis. SR 54/56 retail corridor, Wesley Chapel growth, industrial expansion near I-75, and emerging mixed-use development. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
+    "Pasco County CRE market — SR 54/56 retail corridor, Wesley Chapel growth, I-75 industrial expansion. Barrett Henry, CRE Advisor. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/markets/pasco" },
   openGraph: {
     title: "Pasco County Commercial Real Estate | REMAX Commercial Real Estate",
     description:

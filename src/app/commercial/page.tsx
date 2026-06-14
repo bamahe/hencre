@@ -10,7 +10,8 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "CRE Property Types | Office, Retail, Industrial FL",
   description:
-    "Explore commercial property types in Florida: office, retail, industrial/warehouse, multifamily, NNN net lease, and land/development. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
+    "Explore commercial property types in Florida: office, retail, industrial, multifamily, NNN net lease, and land. Barrett Henry, CRE Advisor at REMAX Collective. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/commercial" },
   openGraph: {
     title: "Property Types | REMAX Commercial Real Estate",
     description:

@@ -18,9 +18,10 @@ const FAQS = [
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "NNN Net Lease | REMAX Commercial Real Estate",
+  title: "NNN Net Lease Florida | Triple-Net Investment Properties",
   description:
-    "Buy or sell NNN net lease properties in Florida. Triple-net investments with stable, long-term cash flow and corporate-guaranteed tenants. Barrett Henry, REALTOR® at REMAX Collective.",
+    "Buy or sell NNN net lease properties in Florida. Triple-net investments with stable, long-term cash flow and corporate-guaranteed tenants. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/commercial/nnn-net-lease" },
   openGraph: {
     title: "NNN / Net Lease | REMAX Commercial Real Estate",
     description: "Triple-net investment properties across Florida. Stable cash flow, minimal landlord responsibility.",

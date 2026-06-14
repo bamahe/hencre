@@ -9,9 +9,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Investment Sales | REMAX Commercial Real Estate",
+  title: "CRE Investment Sales Florida | Buy & Sell Commercial",
   description:
-    "Buy or sell income-producing commercial real estate in Florida. Barrett Henry provides data-driven investment analysis, deal sourcing, and negotiation for investors and family offices.",
+    "Buy or sell income-producing commercial real estate in Florida. Data-driven investment analysis, deal sourcing, and negotiation for investors and family offices. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/services/investment-sales" },
   openGraph: {
     title: "Investment Sales | REMAX Commercial Real Estate",
     description:

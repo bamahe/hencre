@@ -10,9 +10,10 @@ import CTASection from "@/components/CTASection";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Lease Administration | Tracking & Compliance FL",
+  title: "Commercial Lease Administration | Tracking FL",
   description:
     "Lease abstraction, critical date tracking, compliance monitoring, and estoppel preparation for commercial properties in Florida. Call Barrett at (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/services/commercial-property-management/lease-administration" },
   openGraph: {
     title: "Commercial Lease Administration | Tracking & Compliance FL",
     description:

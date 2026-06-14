@@ -8,9 +8,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "REMAX Commercial Real Estate FAQ | Barrett Henry",
+  title: "Commercial Real Estate FAQ | Leasing, Investing, Cap Rates",
   description:
-    "Answers to the most common commercial real estate questions — leasing, investing, selling, cap rates, tenant rep, and working with Barrett Henry in Florida.",
+    "Answers to 20+ commercial real estate questions — leasing, investing, selling, cap rates, tenant rep, and working with Barrett Henry in Florida. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/faq" },
   openGraph: {
     title: "CRE FAQ | REMAX Commercial Real Estate",
     description:

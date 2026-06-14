@@ -10,9 +10,10 @@ import CTASection from "@/components/CTASection";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Property Financial Reporting | CRE Accounting FL",
+  title: "Commercial Property Financial Reporting FL",
   description:
     "Monthly owner reports, rent roll management, CAM reconciliation, and tax documentation for commercial properties in Florida. Call Barrett at (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/services/commercial-property-management/financial-reporting" },
   openGraph: {
     title: "Commercial Property Financial Reporting | CRE Accounting FL",
     description:

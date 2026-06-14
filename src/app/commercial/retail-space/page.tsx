@@ -18,9 +18,10 @@ const FAQS = [
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Retail Space | REMAX Commercial Real Estate",
+  title: "Retail Space Florida | Strip Centers, Pads, Mixed-Use",
   description:
-    "Find, lease, or invest in retail space across Florida. Strip centers, standalone pads, outparcels, and mixed-use. Barrett Henry, REALTOR® at REMAX Collective.",
+    "Find, lease, or invest in retail space across Florida. Strip centers, standalone pads, outparcels, and mixed-use. Barrett Henry at REMAX Collective. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/commercial/retail-space" },
   openGraph: {
     title: "Retail Space | REMAX Commercial Real Estate",
     description: "Commercial retail leasing, sales, and investment across Florida.",

@@ -14,9 +14,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Sarasota County CRE | REMAX Commercial Real Estate — Sarasota Market",
+  title: "Sarasota County CRE 2026 | Downtown & US-41 Market",
   description:
-    "Sarasota County CRE market insights. Downtown Sarasota retail and office, US-41 corridor, tourism-driven hospitality, and Siesta Key beach market. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
+    "Sarasota County CRE market — downtown retail and office, US-41 corridor, tourism-driven hospitality, Siesta Key. Call Barrett Henry at (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/markets/sarasota" },
   openGraph: {
     title: "Sarasota County Commercial Real Estate | REMAX Commercial Real Estate",
     description:

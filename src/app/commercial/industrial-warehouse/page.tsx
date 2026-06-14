@@ -18,9 +18,10 @@ const FAQS = [
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Industrial & Warehouse | REMAX Commercial Real Estate",
+  title: "Industrial & Warehouse Florida | Lease, Buy, Sell",
   description:
-    "Lease, buy, or sell industrial and warehouse space in Florida. Distribution, flex, manufacturing, and cold storage. Barrett Henry, REALTOR® at REMAX Collective.",
+    "Lease, buy, or sell industrial and warehouse space in Florida. Distribution, flex, manufacturing, and cold storage. Barrett Henry at REMAX Collective. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/commercial/industrial-warehouse" },
   openGraph: {
     title: "Industrial & Warehouse | REMAX Commercial Real Estate",
     description: "Industrial and warehouse leasing, sales, and investment across Florida.",

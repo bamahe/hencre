@@ -10,9 +10,10 @@ import CTASection from "@/components/CTASection";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Vacancy Marketing & Tenant Placement | Florida",
+  title: "Commercial Vacancy Marketing & Tenant Placement FL",
   description:
     "Multi-channel vacancy marketing on LoopNet, CoStar, Crexi, and broker networks. Tenant screening, LOI negotiation, and lease execution. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/services/commercial-property-management/vacancy-marketing" },
   openGraph: {
     title: "Commercial Vacancy Marketing & Tenant Placement | Florida",
     description:

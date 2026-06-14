@@ -9,9 +9,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Dispositions | REMAX Commercial Real Estate",
+  title: "Commercial Property Dispositions FL | Sell for Maximum Value",
   description:
-    "Maximize proceeds when selling commercial real estate in Florida. Barrett Henry provides strategic pricing, targeted marketing, and deal structuring for optimal results.",
+    "Maximize proceeds when selling commercial real estate in Florida. Strategic pricing, targeted marketing, and deal structuring for optimal results. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/services/dispositions" },
   openGraph: {
     title: "Dispositions | REMAX Commercial Real Estate",
     description:

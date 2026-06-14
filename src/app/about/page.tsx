@@ -9,13 +9,14 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "About Barrett Henry | REMAX Commercial Commercial Real Estate Advisor",
+  title: "About Barrett Henry | CRE Advisor, REMAX Hall of Fame",
   description:
-    "Barrett Henry — Commercial Real Estate Advisor at REMAX Collective. REMAX Commercial Real Estate advisor with 23+ years of real estate experience, e-PRO, MRP, SRS designations, REMAX Hall of Fame. Commercial real estate across all 67 Florida counties.",
+    "Barrett Henry — Commercial Real Estate Advisor at REMAX Collective with 23+ years of real estate experience. e-PRO, MRP, SRS designations, REMAX Hall of Fame. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/about" },
   openGraph: {
-    title: "About Barrett Henry | REMAX Commercial Real Estate",
+    title: "About Barrett Henry | CRE Advisor, REMAX Hall of Fame",
     description:
-      "REMAX Commercial Commercial Real Estate Advisor with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
+      "REMAX Commercial Real Estate Advisor with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
     url: "https://hencre.com/about",
   },
 };
@@ -66,6 +67,9 @@ const schema = {
         "https://www.remaxcommercial.com",
         "https://nowtb.com",
         "https://barretthenry.remax.com",
+        "https://vivipm.com",
+        "https://valricopropertymgmt.com",
+        "https://hencre.com",
       ],
     },
   ],
@@ -105,7 +109,25 @@ export default function AboutPage() {
             My career has spanned residential and commercial transactions, but my focus
             today is commercial real estate across Florida. I handle tenant
             representation, landlord leasing, investment sales, dispositions, and
-            broker opinions of value — the full spectrum of CRE services.
+            broker opinions of value — the full spectrum of CRE services. On the
+            residential side, I continue to serve Tampa Bay buyers and sellers
+            through{" "}
+            <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="font-semibold text-black underline">
+              The NOW Team at REMAX Collective
+            </a>.
+          </p>
+          <p>
+            Beyond brokerage, I also manage commercial and residential rental
+            properties through{" "}
+            <a href="https://vivipm.com" target="_blank" rel="noopener noreferrer" className="font-semibold text-black underline">
+              ViVi Property Management
+            </a>{" "}
+            and{" "}
+            <a href="https://valricopropertymgmt.com" target="_blank" rel="noopener noreferrer" className="font-semibold text-black underline">
+              Valrico Property Management
+            </a>{" "}
+            — giving investors a single point of contact from acquisition through
+            ongoing management.
           </p>
           <p>
             Based in Tampa Bay, serving commercial clients across Florida through

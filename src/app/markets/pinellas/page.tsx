@@ -15,9 +15,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Pinellas County CRE | REMAX Commercial Real Estate — St. Petersburg & Clearwater",
+  title: "Pinellas County CRE 2026 | St. Petersburg & Clearwater",
   description:
-    "Pinellas County CRE market insights covering St. Petersburg, Clearwater, and the beaches. Office, retail, hospitality, and industrial opportunities. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
+    "Pinellas County CRE market insights — St. Petersburg, Clearwater, and the beaches. Office, retail, hospitality, and industrial. Call Barrett Henry at (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/markets/pinellas" },
   openGraph: {
     title: "Pinellas County Commercial Real Estate | REMAX Commercial Real Estate",
     description:

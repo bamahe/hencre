@@ -12,9 +12,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "NNN Lease Explained: What Triple Net Means for Tenants & Landlords",
+  title: "NNN Lease Explained | Triple Net for Tenants & Landlords",
   description:
-    "Understand triple net (NNN) leases — how they work, what tenants pay, and how they compare to gross and modified gross leases. Expert CRE guidance from a Florida broker.",
+    "Understand triple net (NNN) leases — how they work, what tenants pay, and how they compare to gross and modified gross leases. Expert CRE guidance from a FL broker.",
+  alternates: { canonical: "https://hencre.com/insights/nnn-lease-explained" },
   openGraph: {
     title: "NNN Lease Explained: What Triple Net Means for Tenants & Landlords",
     description:

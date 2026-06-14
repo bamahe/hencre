@@ -15,9 +15,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Manatee County CRE | REMAX Commercial Real Estate — Bradenton Market",
+  title: "Manatee County CRE 2026 | Bradenton Market Guide",
   description:
-    "Manatee County CRE market insights. Bradenton's growing commercial corridors, Port Manatee industrial, I-75 interchange retail, and downtown revitalization. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
+    "Manatee County CRE market — Bradenton commercial corridors, Port Manatee industrial, I-75 retail, downtown revitalization. Call Barrett Henry at (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/markets/manatee" },
   openGraph: {
     title: "Manatee County Commercial Real Estate | REMAX Commercial Real Estate",
     description:

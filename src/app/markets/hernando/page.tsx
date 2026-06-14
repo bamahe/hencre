@@ -15,9 +15,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Hernando County CRE | REMAX Commercial Real Estate — Spring Hill & Brooksville",
+  title: "Hernando County CRE 2026 | Spring Hill & Brooksville",
   description:
-    "Hernando County CRE market insights. Spring Hill retail growth, Suncoast Parkway corridor, Brooksville industrial, and expanding medical office. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
+    "Hernando County CRE market — Spring Hill retail, Suncoast Parkway corridor, Brooksville industrial, medical office growth. Call Barrett Henry at (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/markets/hernando" },
   openGraph: {
     title: "Hernando County Commercial Real Estate | REMAX Commercial Real Estate",
     description:

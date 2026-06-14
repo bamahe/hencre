@@ -18,9 +18,10 @@ const FAQS = [
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Multifamily | REMAX Commercial Real Estate",
+  title: "Multifamily Investment Florida | Buy, Sell, Value-Add",
   description:
-    "Buy, sell, or invest in multifamily properties across Florida. Apartment complexes, garden-style, mid-rise, and value-add opportunities. Barrett Henry, REALTOR® at REMAX Collective.",
+    "Buy, sell, or invest in multifamily properties across Florida. Apartment complexes, garden-style, mid-rise, and value-add opportunities. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/commercial/multifamily" },
   openGraph: {
     title: "Multifamily | REMAX Commercial Real Estate",
     description: "Multifamily investment sales and acquisitions across Florida.",

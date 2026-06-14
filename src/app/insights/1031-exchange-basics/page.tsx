@@ -12,9 +12,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "1031 Exchange Basics: Tax-Deferred Exchanges for CRE Investors",
+  title: "1031 Exchange Basics | Tax-Deferred CRE Exchanges",
   description:
-    "Understand 1031 exchange fundamentals — timelines, rules, qualified intermediaries, and common mistakes. Expert guidance for commercial real estate investors.",
+    "Understand 1031 exchange fundamentals — timelines, rules, qualified intermediaries, and common mistakes. Expert guidance for CRE investors in Florida.",
+  alternates: { canonical: "https://hencre.com/insights/1031-exchange-basics" },
   openGraph: {
     title: "1031 Exchange Basics: Tax-Deferred Exchanges for CRE Investors",
     description:

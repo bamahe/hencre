@@ -10,9 +10,10 @@ import CTASection from "@/components/CTASection";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Tenant Relations & Retention | Keep Quality Tenants",
+  title: "Commercial Tenant Relations & Retention FL",
   description:
     "Tenant communication, lease renewals, dispute resolution, and retention strategies for commercial properties in Florida. Call Barrett at (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/services/commercial-property-management/tenant-relations" },
   openGraph: {
     title: "Commercial Tenant Relations & Retention | Keep Quality Tenants",
     description:

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: "Contact REMAX Commercial Real Estate | Barrett Henry",
   description:
     "Get in touch with Barrett Henry for commercial real estate services across Florida. Three REMAX Collective offices in Tampa, Largo, and Brandon. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/contact" },
   openGraph: {
     title: "Contact | REMAX Commercial Real Estate",
     description:

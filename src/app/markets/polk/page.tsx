@@ -15,9 +15,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Polk County CRE | REMAX Commercial Real Estate — Lakeland & Winter Haven",
+  title: "Polk County CRE 2026 | Lakeland & I-4 Logistics",
   description:
-    "Polk County CRE market overview. I-4 corridor logistics and warehousing, Lakeland's downtown revitalization, and Winter Haven's emerging retail growth. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective.",
+    "Polk County CRE market — I-4 corridor logistics, Lakeland downtown revitalization, Winter Haven retail growth. Barrett Henry, CRE Advisor. Call (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/markets/polk" },
   openGraph: {
     title: "Polk County Commercial Real Estate | REMAX Commercial Real Estate",
     description:

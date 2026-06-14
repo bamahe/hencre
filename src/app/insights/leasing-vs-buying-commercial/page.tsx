@@ -12,9 +12,10 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Leasing vs. Buying Commercial Space: Decision Framework for Business Owners",
+  title: "Leasing vs. Buying Commercial Space | Decision Guide",
   description:
     "Should you lease or buy your commercial space? A broker's decision framework covering financial, operational, and strategic factors for business owners.",
+  alternates: { canonical: "https://hencre.com/insights/leasing-vs-buying-commercial" },
   openGraph: {
     title: "Leasing vs. Buying Commercial Space: Decision Framework",
     description:
