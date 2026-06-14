@@ -44,7 +44,7 @@ export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = fa
 
       {/* Dark overlay — sits ABOVE video, BELOW content */}
       {(backgroundImage || showVideo) && (
-        <div className="absolute inset-0 bg-black/50 z-[1]" />
+        <div className="absolute inset-0 bg-black/[0.62] z-[1]" />
       )}
 
       {/* Content — side-by-side when form is present, centered otherwise */}
