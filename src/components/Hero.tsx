@@ -29,24 +29,22 @@ export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = fa
       className="relative overflow-hidden bg-[#1a1a1a]"
       style={backgroundImage ? { backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : undefined}
     >
-      {/* Dark overlay for readability when image or video is present */}
-      {(backgroundImage || showVideo) && (
-        <div className="absolute inset-0 bg-black/[0.92]" />
-      )}
-
       {/* Background video — home page only */}
       {showVideo && (
-        <>
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="absolute inset-0 h-full w-full object-cover"
-          >
-            <source src="/hero-video.mp4" type="video/mp4" />
-          </video>
-        </>
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover z-0"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
+      )}
+
+      {/* Dark overlay — sits ABOVE video, BELOW content */}
+      {(backgroundImage || showVideo) && (
+        <div className="absolute inset-0 bg-black/[0.85] z-[1]" />
       )}
 
       {/* Content — side-by-side when form is present, centered otherwise */}
