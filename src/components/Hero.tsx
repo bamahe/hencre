@@ -19,9 +19,11 @@ interface HeroProps {
   showVideo?: boolean;
   /** Background image URL — used on blog posts. Image becomes the hero background with text overlay. */
   backgroundImage?: string;
+  /** Optional children rendered below the subtitle (e.g., inline form) */
+  children?: React.ReactNode;
 }
 
-export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = false, backgroundImage }: HeroProps) {
+export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = false, backgroundImage, children }: HeroProps) {
   return (
     <section
       className="relative overflow-hidden bg-[#1a1a1a]"
@@ -58,7 +60,7 @@ export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = fa
             <p className="mt-4 text-lg text-white/90 sm:text-xl">{subtitle}</p>
           )}
 
-          {ctaText && ctaHref && (
+          {ctaText && ctaHref && !children && (
             <div className="mt-8">
               <Link
                 href={ctaHref}
@@ -66,6 +68,12 @@ export default function Hero({ title, subtitle, ctaText, ctaHref, showVideo = fa
               >
                 {ctaText}
               </Link>
+            </div>
+          )}
+
+          {children && (
+            <div className="mt-8 mx-auto max-w-xl">
+              {children}
             </div>
           )}
         </div>

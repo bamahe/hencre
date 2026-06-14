@@ -254,29 +254,14 @@ export default function HomePage() {
     <>
       <SchemaOrg schema={schema} />
 
-      {/* ---- Hero ---- */}
+      {/* ---- Hero with inline form ---- */}
       <Hero
         title="Tampa Bay Commercial Real Estate — A Better Way"
-        subtitle="REMAX Commercial® broker based in Tampa Bay, serving commercial clients across all of Florida. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world's most recognized real estate brand."
-        ctaText="Get Started"
-        ctaHref="/contact"
+        subtitle="REMAX Commercial® broker based in Tampa Bay, serving commercial clients across all of Florida. Tenant rep, landlord leasing, investment sales, and dispositions."
         showVideo
-      />
-
-      {/* ---- Lead form — right after hero ---- */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8" id="lead-form">
-        <div className="mx-auto max-w-2xl">
-          <h2 className="text-center text-2xl font-bold sm:text-3xl">
-            Tell Me About Your Project
-          </h2>
-          <p className="mt-3 text-center text-[#666666]">
-            Commercial real estate question? Need a broker opinion of value? I respond within one business day — usually faster.
-          </p>
-          <div className="mt-8">
-            <ContactForm />
-          </div>
-        </div>
-      </section>
+      >
+        <ContactForm />
+      </Hero>
 
       {/* ---- REMAX Commercial® Network section ---- */}
       <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
