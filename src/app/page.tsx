@@ -8,6 +8,8 @@ import { ContactForm } from "./contact/ContactForm";
  * Home Page — hencre.com
  * Hero, intro, services overview, property types, Tampa Bay focus,
  * lead form placeholder, FAQ section, and structured data.
+ * Optimized for SEO, AEO, and GEO with semantic HTML, ToC,
+ * strong/em emphasis, figure/figcaption, and BreadcrumbList schema.
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
@@ -129,7 +131,7 @@ const FAQS = [
   },
 ] as const;
 
-/* -- Schema.org structured data -- */
+/* -- Schema.org structured data (includes BreadcrumbList for homepage) -- */
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -246,6 +248,18 @@ const schema = {
         },
       })),
     },
+    /* BreadcrumbList — homepage is the root */
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://hencre.com",
+        },
+      ],
+    },
   ],
 };
 
@@ -263,218 +277,256 @@ export default function HomePage() {
         <ContactForm />
       </Hero>
 
-      {/* ---- REMAX Commercial® Network section ---- */}
-      <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-5xl">
-          <p className="text-center text-sm font-semibold tracking-widest uppercase text-white/60">
-            REMAX Commercial®
-          </p>
-          <h2 className="mt-2 text-center text-2xl font-bold text-white sm:text-3xl">
-            Backed by the REMAX Commercial® Network
-          </h2>
-          <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-white/80">
-            &ldquo;A better way in commercial real estate.&rdquo;
-          </p>
+      {/* ---- Main content wrapped in <article> for semantic structure ---- */}
+      <article>
 
-          <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {/* Stat card: Global Presence */}
-            <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
-              <p className="text-3xl font-bold text-white">120+</p>
-              <p className="mt-1 text-sm font-semibold text-white">Countries &amp; Territories</p>
-              <p className="mt-2 text-sm text-white/60">
-                REMAX operates in more countries than any other real estate brand on the planet.
-              </p>
-            </div>
+        {/* ---- Table of Contents ---- */}
+        <nav id="table-of-contents" aria-label="Table of contents" className="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#666666]">On This Page</p>
+          <ol className="list-decimal list-inside space-y-1 text-sm text-[#666666]">
+            <li><a href="#remax-commercial-network" className="hover:text-black hover:underline">REMAX Commercial Network</a></li>
+            <li><a href="#commercial-real-estate-across-florida" className="hover:text-black hover:underline">Commercial Real Estate Across Florida</a></li>
+            <li><a href="#cre-services" className="hover:text-black hover:underline">CRE Services — How I Can Help</a></li>
+            <li><a href="#commercial-property-types" className="hover:text-black hover:underline">Commercial Property Types</a></li>
+            <li><a href="#tampa-bay-commercial-market" className="hover:text-black hover:underline">Tampa Bay Commercial Market</a></li>
+            <li><a href="#get-started" className="hover:text-black hover:underline">Ready to Make a Move?</a></li>
+            <li><a href="#cre-faq" className="hover:text-black hover:underline">Frequently Asked Questions</a></li>
+          </ol>
+        </nav>
 
-            {/* Stat card: Agent Network */}
-            <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
-              <p className="text-3xl font-bold text-white">145,000+</p>
-              <p className="mt-1 text-sm font-semibold text-white">Agents Worldwide</p>
-              <p className="mt-2 text-sm text-white/60">
-                The largest network of real estate professionals — including commercial specialists across every major market.
-              </p>
-            </div>
-
-            {/* Stat card: Offices */}
-            <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
-              <p className="text-3xl font-bold text-white">9,000+</p>
-              <p className="mt-1 text-sm font-semibold text-white">Offices Globally</p>
-              <p className="mt-2 text-sm text-white/60">
-                Each independently owned and operated — local expertise backed by global infrastructure.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-10 space-y-4 text-lg leading-relaxed text-white/80 max-w-3xl mx-auto">
-            <p>
-              REMAX Commercial® is a division of the world&apos;s most recognized real estate
-              brand. Founded in 1973, REMAX has spent over 50 years building a network
-              that spans 120+ countries and territories — giving commercial clients access
-              to listings, market data, and referral relationships that no independent
-              brokerage can match.
+        {/* ---- REMAX Commercial® Network section ---- */}
+        <section id="remax-commercial-network" className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-5xl">
+            <p className="text-center text-sm font-semibold tracking-widest uppercase text-white/60">
+              REMAX Commercial®
             </p>
-            <p>
-              REMAX Commercial Real Estate advisors specialize exclusively in commercial property —
-              office, retail, industrial, multifamily, land, hospitality, and specialty
-              assets like marinas. Barrett brings the full resources of this global network
-              to every Florida deal, including MAXRefer for AI-powered referral matching
-              across 145,000+ agents, RealNex Marketplace for commercial listing exposure,
-              and REMAX Hall of Fame recognition backed by the most powerful referral
-              system in commercial real estate.
+            <h2 className="mt-2 text-center text-2xl font-bold text-white sm:text-3xl">
+              Backed by the <strong>REMAX Commercial® Network</strong>
+            </h2>
+            <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-white/80">
+              <em>&ldquo;A better way in commercial real estate.&rdquo;</em>
             </p>
-          </div>
 
-          <div className="mt-8 text-center">
-            <Link
-              href="/remax-commercial"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
-            >
-              Learn About REMAX Commercial®
-            </Link>
-          </div>
-        </div>
-      </section>
+            {/* Key stats — structured as a list for crawlers */}
+            <ul className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 list-none p-0">
+              {/* Stat card: Global Presence */}
+              <li className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
+                <p className="text-3xl font-bold text-white"><strong>120+</strong></p>
+                <p className="mt-1 text-sm font-semibold text-white">Countries &amp; Territories</p>
+                <p className="mt-2 text-sm text-white/60">
+                  REMAX operates in more countries than <em>any other real estate brand</em> on the planet.
+                </p>
+              </li>
 
-      {/* ---- Intro section ---- */}
-      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold sm:text-3xl">
-          Commercial Real Estate Across Florida
-        </h2>
-        <p className="mt-4 text-lg leading-relaxed text-[#666666]">
-          Whether you are leasing your first office, acquiring a multifamily portfolio,
-          or selling a retail center, the right broker makes the difference between a
-          good deal and a great one. As a REMAX Commercial® broker, I bring 23+ years of real estate experience to
-          every engagement — deep market knowledge, honest guidance, and relentless
-          execution backed by the world&apos;s most recognized real estate network. No committee. No runaround. Just results.
-        </p>
-      </section>
+              {/* Stat card: Agent Network */}
+              <li className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
+                <p className="text-3xl font-bold text-white"><strong>145,000+</strong></p>
+                <p className="mt-1 text-sm font-semibold text-white">Agents Worldwide</p>
+                <p className="mt-2 text-sm text-white/60">
+                  The largest network of real estate professionals — including <strong>commercial specialists</strong> across every major market.
+                </p>
+              </li>
 
-      {/* ---- Services overview ---- */}
-      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-7xl">
-          <h2 className="text-center text-2xl font-bold sm:text-3xl">
-            How I Can Help
-          </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-center text-[#666666]">
-            Full-service commercial real estate — from first showing to closing table.
-          </p>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {SERVICES.map((svc) => (
+              {/* Stat card: Offices */}
+              <li className="rounded-lg border border-white/10 bg-white/5 p-6 text-center">
+                <p className="text-3xl font-bold text-white"><strong>9,000+</strong></p>
+                <p className="mt-1 text-sm font-semibold text-white">Offices Globally</p>
+                <p className="mt-2 text-sm text-white/60">
+                  Each independently owned and operated — <em>local expertise</em> backed by global infrastructure.
+                </p>
+              </li>
+            </ul>
+
+            <div className="mt-10 space-y-4 text-lg leading-relaxed text-white/80 max-w-3xl mx-auto">
+              <p>
+                <strong>REMAX Commercial®</strong> is a division of the world&apos;s most recognized real estate
+                brand. Founded in 1973, REMAX has spent over <strong>50 years</strong> building a network
+                that spans 120+ countries and territories — giving commercial clients access
+                to listings, market data, and referral relationships that no independent
+                brokerage can match.
+              </p>
+              <p>
+                REMAX Commercial Real Estate advisors specialize exclusively in <em>commercial property</em> —
+                office, retail, industrial, multifamily, land, hospitality, and specialty
+                assets like marinas. Barrett brings the full resources of this global network
+                to every Florida deal, including <strong>MAXRefer</strong> for AI-powered referral matching
+                across 145,000+ agents, <strong>RealNex Marketplace</strong> for commercial listing exposure,
+                and <strong>REMAX Hall of Fame recognition</strong> backed by the most powerful referral
+                system in commercial real estate.
+              </p>
+            </div>
+
+            <div className="mt-8 text-center">
               <Link
-                key={svc.href}
-                href={svc.href}
-                className="group rounded-lg border border-[#E5E5E5] p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
+                href="/remax-commercial"
+                className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
               >
-                <h3 className="text-lg font-bold text-black group-hover:text-black">
-                  {svc.title}
-                </h3>
-                <p className="mt-2 text-sm text-[#666666]">{svc.description}</p>
+                Learn About REMAX Commercial®
               </Link>
-            ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* ---- Property types overview ---- */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-7xl">
-          <h2 className="text-center text-2xl font-bold sm:text-3xl">
-            Property Types
+        {/* ---- Intro section ---- */}
+        <section id="commercial-real-estate-across-florida" className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold sm:text-3xl">
+            <strong>Commercial Real Estate</strong> Across Florida
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-center text-[#666666]">
-            Every asset class. One broker who knows them all.
+          <p className="mt-4 text-lg leading-relaxed text-[#666666]">
+            Whether you are leasing your first office, acquiring a <strong>multifamily portfolio</strong>,
+            or selling a retail center, the right broker makes the difference between a
+            good deal and a great one. As a <strong>REMAX Commercial® broker</strong>, I bring 23+ years of real estate experience to
+            every engagement — <em>deep market knowledge</em>, honest guidance, and relentless
+            execution backed by the world&apos;s most recognized real estate network. No committee. No runaround. Just results.
           </p>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {PROPERTY_TYPES.map((pt) => (
+
+          {/* Additional content to strengthen thin section */}
+          <h3 className="mt-8 text-xl font-bold">What Sets a CRE Specialist Apart?</h3>
+          <p className="mt-3 text-lg leading-relaxed text-[#666666]">
+            Commercial real estate transactions are fundamentally different from residential deals. Valuations rely on <strong>net operating income</strong> and <strong>cap rates</strong>, not comparable home sales. Leases run 5 to 15 years with escalation clauses, CAM charges, and tenant improvement allowances that require specialized negotiation. A dedicated CRE advisor understands these mechanics and protects your bottom line at every stage.
+          </p>
+          <ul className="mt-4 space-y-2 text-[#666666] list-disc list-inside">
+            <li><strong>Income-based valuations</strong> — cap rate analysis, NOI projections, and market comparables</li>
+            <li><strong>Complex lease structures</strong> — NNN, modified gross, full-service, and percentage leases</li>
+            <li><strong>Due diligence coordination</strong> — environmental, zoning, title, and financial review</li>
+            <li><strong>1031 exchange navigation</strong> — strict IRS timelines and replacement property identification</li>
+          </ul>
+        </section>
+
+        {/* ---- Services overview ---- */}
+        <section id="cre-services" className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
+            <h2 className="text-center text-2xl font-bold sm:text-3xl">
+              How Can a <strong>CRE Broker</strong> Help?
+            </h2>
+            <p className="mx-auto mt-3 max-w-2xl text-center text-[#666666]">
+              Full-service <em>commercial real estate</em> — from first showing to closing table.
+            </p>
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {SERVICES.map((svc) => (
+                <Link
+                  key={svc.href}
+                  href={svc.href}
+                  className="group rounded-lg border border-[#E5E5E5] p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
+                >
+                  <h3 className="text-lg font-bold text-black group-hover:text-black">
+                    {svc.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-[#666666]">{svc.description}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ---- Property types overview ---- */}
+        <section id="commercial-property-types" className="px-4 py-16 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
+            <h2 className="text-center text-2xl font-bold sm:text-3xl">
+              What <strong>Commercial Property Types</strong> Does Barrett Handle?
+            </h2>
+            <p className="mx-auto mt-3 max-w-2xl text-center text-[#666666]">
+              Every asset class. <em>One broker who knows them all.</em>
+            </p>
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {PROPERTY_TYPES.map((pt) => (
+                <Link
+                  key={pt.href}
+                  href={pt.href}
+                  className="group rounded-lg border border-[#E5E5E5] bg-white p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
+                >
+                  <h3 className="text-lg font-bold text-black group-hover:text-black">
+                    {pt.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-[#666666]">{pt.description}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ---- Tampa Bay focus ---- */}
+        <section id="tampa-bay-commercial-market" className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl text-center">
+            <h2 className="text-2xl font-bold text-white sm:text-3xl">
+              Why Is <strong>Tampa Bay</strong> a Top CRE Market?
+            </h2>
+            <p className="mt-4 text-lg leading-relaxed text-white/80">
+              Tampa Bay is one of the <strong>fastest-growing commercial markets</strong> in the
+              Southeast. With three REMAX Collective offices across <em>Tampa, Largo, and
+              Brandon</em>, I cover Hillsborough, Pinellas, Pasco, Polk, and Manatee counties
+              with boots-on-the-ground knowledge. For deals anywhere else in Florida, I
+              tap a statewide network of trusted brokers to get the job done right.
+            </p>
+
+            {/* Additional depth for GEO — Tampa Bay market context */}
+            <p className="mt-4 text-base leading-relaxed text-white/70">
+              According to the Tampa Bay Economic Development Council, the region added over 50,000 jobs in 2024 and continues to attract corporate relocations, warehouse-distribution demand along the I-4 corridor, and multifamily investment driven by population growth. Whether you are looking at a <strong>NNN retail pad</strong> in Brandon or a <strong>Class A office lease</strong> in Westshore, local market insight matters.
+            </p>
+
+            <div className="mt-8">
               <Link
-                key={pt.href}
-                href={pt.href}
-                className="group rounded-lg border border-[#E5E5E5] bg-white p-6 no-underline transition-shadow hover:shadow-md hover:no-underline"
+                href="/contact"
+                className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
               >
-                <h3 className="text-lg font-bold text-black group-hover:text-black">
-                  {pt.title}
-                </h3>
-                <p className="mt-2 text-sm text-[#666666]">{pt.description}</p>
+                Talk to Barrett
               </Link>
-            ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* ---- Tampa Bay focus ---- */}
-      <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-2xl font-bold text-white sm:text-3xl">
-            Anchored in Tampa Bay
-          </h2>
-          <p className="mt-4 text-lg leading-relaxed text-white/80">
-            Tampa Bay is one of the fastest-growing commercial markets in the
-            Southeast. With three REMAX Collective offices across Tampa, Largo, and
-            Brandon, I cover Hillsborough, Pinellas, Pasco, Polk, and Manatee counties
-            with boots-on-the-ground knowledge. For deals anywhere else in Florida, I
-            tap a statewide network of trusted brokers to get the job done right.
-          </p>
-          <div className="mt-8">
-            <Link
-              href="/contact"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
-            >
-              Talk to Barrett
-            </Link>
+        {/* ---- Bottom CTA ---- */}
+        <section id="get-started" className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-2xl font-bold text-white sm:text-3xl">
+              Ready to Make a Move?
+            </h2>
+            <p className="mt-3 text-white/80">
+              Whether you are leasing, buying, selling, or just exploring — <em>the conversation starts here</em>.
+            </p>
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
+              <a
+                href="#lead-form"
+                className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
+              >
+                Fill Out the Form
+              </a>
+              <a
+                href="tel:+18137337907"
+                className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline"
+              >
+                Call (813) 733-7907
+              </a>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* ---- Bottom CTA ---- */}
-      <section className="bg-[#1a1a1a] px-4 py-16 text-white sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-2xl font-bold text-white sm:text-3xl">
-            Ready to Make a Move?
-          </h2>
-          <p className="mt-3 text-white/80">
-            Whether you are leasing, buying, selling, or just exploring — the conversation starts here.
-          </p>
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
-              href="#lead-form"
-              className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
-            >
-              Fill Out the Form
-            </a>
-            <a
-              href="tel:+18137337907"
-              className="inline-block rounded-lg border border-white/30 px-8 py-3 font-semibold text-white no-underline transition-colors hover:bg-white/10 hover:no-underline"
-            >
-              Call (813) 733-7907
-            </a>
+        {/* ---- FAQ section ---- */}
+        <section id="cre-faq" className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl">
+            <h2 className="text-center text-2xl font-bold sm:text-3xl">
+              Frequently Asked <strong>Commercial Real Estate</strong> Questions
+            </h2>
+            <dl className="mt-10 space-y-6">
+              {FAQS.map((faq) => (
+                <div key={faq.q} className="border-b border-[#E5E5E5] pb-6">
+                  <dt className="text-lg font-semibold text-black">{faq.q}</dt>
+                  <dd className="mt-2 text-[#666666]">{faq.a}</dd>
+                </div>
+              ))}
+            </dl>
+            <div className="mt-8 text-center">
+              <Link
+                href="/faq"
+                className="text-black font-semibold no-underline hover:underline"
+              >
+                View all FAQs &rarr;
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* ---- FAQ section ---- */}
-      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl">
-          <h2 className="text-center text-2xl font-bold sm:text-3xl">
-            Frequently Asked Questions
-          </h2>
-          <dl className="mt-10 space-y-6">
-            {FAQS.map((faq) => (
-              <div key={faq.q} className="border-b border-[#E5E5E5] pb-6">
-                <dt className="text-lg font-semibold text-black">{faq.q}</dt>
-                <dd className="mt-2 text-[#666666]">{faq.a}</dd>
-              </div>
-            ))}
-          </dl>
-          <div className="mt-8 text-center">
-            <Link
-              href="/faq"
-              className="text-black font-semibold no-underline hover:underline"
-            >
-              View all FAQs &rarr;
-            </Link>
-          </div>
-        </div>
-      </section>
+      </article>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
