@@ -408,17 +408,6 @@ export default function HomePage() {
             <li><strong>1031 exchange navigation</strong> — strict <a href="https://www.irs.gov/publications/p544" className="underline hover:text-black" target="_blank" rel="noopener">IRS timelines</a> and replacement property identification</li>
           </ul>
 
-          {/* Tampa Bay CRE image for visual depth */}
-          <figure className="mt-8">
-            <Image
-              src="https://images.unsplash.com/photo-1656119337375-13bfe30f8e76?w=1200&h=500&fit=crop"
-              alt="Tampa Bay skyline — one of Florida's fastest-growing commercial real estate markets"
-              width={1200}
-              height={500}
-              className="rounded-xl w-full"
-            />
-            <figcaption className="text-xs text-[#999] mt-2">Tampa Bay skyline. Photo: Unsplash</figcaption>
-          </figure>
         </section>
 
         {/* ---- Services overview ---- */}
