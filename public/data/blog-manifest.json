@@ -1,5 +1,15 @@
 [
   {
+    "slug": "sarasota-office-market-trends-2026",
+    "title": "Sarasota Office Market Trends 2026",
+    "excerpt": "Wealth migration, professional services growth, and limited new supply are shaping Sarasota's office market heading into the second half of 2026.",
+    "date": "2026-06-14",
+    "category": "city-market",
+    "city": "Sarasota",
+    "county": "Sarasota",
+    "businessType": null
+  },
+  {
     "slug": "why-tampa-bay-cre-is-booming",
     "title": "Why Tampa Bay Commercial Real Estate Is Booming",
     "excerpt": "Population growth, business migration, and infrastructure investment are reshaping the Tampa Bay commercial landscape.",
@@ -14,6 +24,16 @@
       "photographer": "Goji",
       "link": "https://unsplash.com/@gjr_19"
     }
+  },
+  {
+    "slug": "commercial-property-zoning-florida-basics",
+    "title": "Commercial Property Zoning Florida Basics",
+    "excerpt": "Florida commercial property zoning explained — zoning categories, permitted uses, variances, rezoning, and how zoning affects your CRE investment or business.",
+    "date": "2026-06-10",
+    "category": "business-guide",
+    "city": null,
+    "county": null,
+    "businessType": null
   },
   {
     "slug": "5-mistakes-first-time-commercial-tenants-make",
@@ -32,9 +52,29 @@
     }
   },
   {
+    "slug": "multifamily-investment-tampa-bay-guide",
+    "title": "Multifamily Investment Tampa Bay Guide",
+    "excerpt": "How to invest in Tampa Bay multifamily properties — market fundamentals, deal evaluation, financing, value-add strategies, and common mistakes to avoid.",
+    "date": "2026-06-08",
+    "category": "investor",
+    "city": "Tampa",
+    "county": "Hillsborough",
+    "businessType": null
+  },
+  {
+    "slug": "pasco-county-commercial-development-2026",
+    "title": "Pasco County Commercial Development 2026",
+    "excerpt": "Population growth and infrastructure investment are transforming Pasco County into one of Tampa Bay's most active commercial development markets.",
+    "date": "2026-06-07",
+    "category": "city-market",
+    "city": "New Port Richey",
+    "county": "Pasco",
+    "businessType": null
+  },
+  {
     "slug": "what-makes-a-good-commercial-investment",
     "title": "What Makes a Good Commercial Investment?",
-    "excerpt": "Investment criteria from a broker's perspective \u2014 what to look for, what to avoid, and how to evaluate commercial property deals.",
+    "excerpt": "Investment criteria from a broker's perspective — what to look for, what to avoid, and how to evaluate commercial property deals.",
     "date": "2026-06-05",
     "category": "investor",
     "city": "Tampa",
@@ -48,9 +88,39 @@
     }
   },
   {
+    "slug": "understanding-cam-charges-tenants-guide",
+    "title": "Understanding CAM Charges: A Tenant's Guide",
+    "excerpt": "CAM charges add thousands to your annual rent. Learn what common area maintenance fees cover, how they are calculated, and how to negotiate CAM caps.",
+    "date": "2026-06-03",
+    "category": "business-guide",
+    "city": null,
+    "county": null,
+    "businessType": null
+  },
+  {
+    "slug": "bradenton-commercial-real-estate-opportunities",
+    "title": "Bradenton Commercial Real Estate Opportunities",
+    "excerpt": "Bradenton and Manatee County commercial real estate is growing — retail, office, industrial, and multifamily opportunities for investors and business owners.",
+    "date": "2026-06-01",
+    "category": "city-market",
+    "city": "Bradenton",
+    "county": "Manatee",
+    "businessType": null
+  },
+  {
+    "slug": "how-to-calculate-commercial-property-roi",
+    "title": "How to Calculate Commercial Property ROI",
+    "excerpt": "Learn how to calculate ROI on commercial real estate — cap rate, cash-on-cash return, IRR, and total return with practical formulas and examples.",
+    "date": "2026-05-31",
+    "category": "investor",
+    "city": null,
+    "county": null,
+    "businessType": null
+  },
+  {
     "slug": "do-you-need-a-commercial-real-estate-broker",
     "title": "Do You Need a Commercial Real Estate Broker?",
-    "excerpt": "When and why to hire a CRE broker \u2014 the value proposition for tenants, landlords, and investors.",
+    "excerpt": "When and why to hire a CRE broker — the value proposition for tenants, landlords, and investors.",
     "date": "2026-05-29",
     "category": "business-guide",
     "city": "Tampa",
@@ -64,9 +134,39 @@
     }
   },
   {
+    "slug": "lakeland-warehouse-industrial-growth",
+    "title": "Lakeland Warehouse & Industrial Growth",
+    "excerpt": "Lakeland and Polk County are emerging as major industrial hubs on the I-4 corridor — warehouse development, logistics companies, and investment opportunities.",
+    "date": "2026-05-27",
+    "category": "city-market",
+    "city": "Lakeland",
+    "county": "Polk",
+    "businessType": null
+  },
+  {
+    "slug": "commercial-property-due-diligence-timeline",
+    "title": "Commercial Property Due Diligence Timeline",
+    "excerpt": "A step-by-step due diligence timeline for commercial real estate buyers — inspections, financials, environmental, title, and closing milestones.",
+    "date": "2026-05-25",
+    "category": "business-guide",
+    "city": null,
+    "county": null,
+    "businessType": null
+  },
+  {
+    "slug": "clearwater-retail-space-guide",
+    "title": "Clearwater Retail Space Guide",
+    "excerpt": "Clearwater retail space overview — top corridors, rental rate trends, tenant mix strategies, and investment opportunities in Pinellas County.",
+    "date": "2026-05-24",
+    "category": "city-market",
+    "city": "Clearwater",
+    "county": "Pinellas",
+    "businessType": null
+  },
+  {
     "slug": "florida-1031-exchange-what-investors-need-to-know",
     "title": "Florida 1031 Exchange: What Investors Need to Know",
-    "excerpt": "Florida-specific 1031 exchange considerations for commercial real estate investors \u2014 tax advantages, property flexibility, and common pitfalls.",
+    "excerpt": "Florida-specific 1031 exchange considerations for commercial real estate investors — tax advantages, property flexibility, and common pitfalls.",
     "date": "2026-05-22",
     "category": "investor",
     "city": null,
@@ -78,5 +178,35 @@
       "photographer": "Precondo CA",
       "link": "https://unsplash.com/@precondo"
     }
+  },
+  {
+    "slug": "what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    "title": "What Is a Triple Net (NNN) Lease and Why Investors Love It",
+    "excerpt": "A triple net lease shifts property taxes, insurance, and maintenance to the tenant. Learn how NNN leases work, why investors favor them, and what to watch for.",
+    "date": "2026-05-22",
+    "category": "investor",
+    "city": null,
+    "county": null,
+    "businessType": null
+  },
+  {
+    "slug": "tampa-industrial-market-outlook-2026",
+    "title": "Tampa Industrial Market Outlook 2026",
+    "excerpt": "Tampa Bay industrial real estate is surging — warehouse demand, new construction, rental rate trends, and investment opportunities for 2026.",
+    "date": "2026-05-20",
+    "category": "city-market",
+    "city": "Tampa",
+    "county": "Hillsborough",
+    "businessType": null
+  },
+  {
+    "slug": "how-commercial-leases-differ-from-residential",
+    "title": "How Commercial Leases Differ From Residential",
+    "excerpt": "Commercial leases are longer, more negotiable, and far more complex than residential leases. Key differences every business owner and investor should know.",
+    "date": "2026-05-18",
+    "category": "business-guide",
+    "city": null,
+    "county": null,
+    "businessType": null
   }
 ]
