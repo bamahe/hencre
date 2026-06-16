@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Pasco County CRE 2026 | Wesley Chapel & SR 54/56",
+  title: "Pasco County Commercial Real Estate | Barrett Henry, REMAX Collective",
   description:
     "Pasco County CRE market — SR 54/56 retail corridor, Wesley Chapel growth, I-75 industrial expansion. Barrett Henry, CRE Advisor. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/markets/pasco" },
   openGraph: {
-    title: "Pasco County Commercial Real Estate | REMAX Commercial Real Estate",
+    title: "Pasco County Commercial Real Estate | Barrett Henry, REMAX Collective",
     description:
       "Explore Pasco County's booming CRE market — Wesley Chapel, SR 54/56 retail, and I-75 industrial growth.",
     url: "https://hencre.com/markets/pasco",

@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Polk County CRE 2026 | Lakeland & I-4 Logistics",
+  title: "Polk County Commercial Real Estate | Barrett Henry, REMAX Collective",
   description:
     "Polk County CRE market — I-4 corridor logistics, Lakeland downtown revitalization, Winter Haven retail growth. Barrett Henry, CRE Advisor. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/markets/polk" },
   openGraph: {
-    title: "Polk County Commercial Real Estate | REMAX Commercial Real Estate",
+    title: "Polk County Commercial Real Estate | Barrett Henry, REMAX Collective",
     description:
       "Explore Polk County's CRE market — Central Florida's logistics powerhouse along the I-4 corridor.",
     url: "https://hencre.com/markets/polk",

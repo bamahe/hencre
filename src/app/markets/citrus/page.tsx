@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Citrus County CRE 2026 | Crystal River & Inverness",
+  title: "Citrus County Commercial Real Estate | Barrett Henry, REMAX Collective",
   description:
     "Citrus County CRE market — Crystal River tourism, US-19 retail, Inverness commercial growth, Nature Coast opportunities. Call Barrett Henry at (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/markets/citrus" },
   openGraph: {
-    title: "Citrus County Commercial Real Estate | REMAX Commercial Real Estate",
+    title: "Citrus County Commercial Real Estate | Barrett Henry, REMAX Collective",
     description:
       "Explore Citrus County's emerging CRE market — Crystal River, Inverness, and the Nature Coast commercial corridor.",
     url: "https://hencre.com/markets/citrus",

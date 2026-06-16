@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Hillsborough County CRE 2026 | Tampa Market Guide",
+  title: "Hillsborough County Commercial Real Estate | Barrett Henry, REMAX Collective",
   description:
     "Hillsborough County commercial real estate market — Tampa Westshore, downtown mixed-use, I-75 industrial corridor. Barrett Henry, CRE Advisor. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/markets/hillsborough" },
   openGraph: {
-    title: "Hillsborough County Commercial Real Estate | REMAX Commercial Real Estate",
+    title: "Hillsborough County Commercial Real Estate | Barrett Henry, REMAX Collective",
     description:
       "Explore Tampa and Hillsborough County's commercial real estate landscape — office, industrial, retail, and investment opportunities.",
     url: "https://hencre.com/markets/hillsborough",
