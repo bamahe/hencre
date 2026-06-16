@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
 import { ContactForm } from "./contact/ContactForm";
@@ -15,13 +16,14 @@ import { ContactForm } from "./contact/ContactForm";
 export const metadata: Metadata = {
   title: "REMAX Commercial Real Estate Florida | Barrett Henry",
   description:
-    "REMAX Commercial Real Estate — Barrett Henry, Commercial Real Estate Advisor at REMAX Collective. Tenant rep, landlord leasing, investment sales, dispositions, and CRE valuation across all 67 Florida counties. Backed by the world's most recognized real estate brand.",
+    "Barrett Henry — REMAX Commercial Real Estate Advisor in Tampa Bay. Tenant rep, investment sales, landlord leasing, and CRE valuation across all 67 Florida counties.",
   alternates: { canonical: "https://hencre.com" },
   openGraph: {
-    title: "REMAX Commercial Real Estate FL | Barrett Henry",
+    title: "REMAX Commercial Real Estate Florida | Barrett Henry",
     description:
-      "REMAX Commercial Real Estate advisor serving all 67 Florida counties. Tenant rep, landlord leasing, and investment sales — anchored in Tampa Bay, backed by the global REMAX network.",
+      "Barrett Henry — REMAX Commercial Real Estate Advisor in Tampa Bay. Tenant rep, investment sales, landlord leasing, and CRE valuation across all 67 Florida counties.",
     url: "https://hencre.com",
+    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "HenCRE — REMAX Commercial Real Estate Florida" }],
   },
 };
 
@@ -367,11 +369,25 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ---- Intro section ---- */}
+        {/* ---- Intro section with headshot for EEAT ---- */}
         <section id="commercial-real-estate-across-florida" className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold sm:text-3xl">
-            <strong>Commercial Real Estate</strong> Across Florida
-          </h2>
+          <div className="flex flex-col sm:flex-row items-start gap-6 mb-8">
+            <Image
+              src="/images/barrett-henry-headshot.jpg"
+              alt="Barrett Henry — REMAX Commercial Real Estate Advisor, Tampa Bay FL"
+              width={140}
+              height={140}
+              className="rounded-xl border-2 border-[#E5E5E5] shrink-0"
+            />
+            <div>
+              <h2 className="text-2xl font-bold sm:text-3xl">
+                <strong>Commercial Real Estate</strong> Across Florida
+              </h2>
+              <p className="mt-2 text-sm text-[#666666]">
+                <strong>Barrett Henry</strong> · Broker Associate, <a href="https://www.remaxcommercial.com" className="underline hover:text-black" target="_blank" rel="noopener">REMAX Commercial®</a> · <a href="https://barretthenry.remax.com" className="underline hover:text-black" target="_blank" rel="noopener">REMAX Collective</a> · REMAX Hall of Fame 2024
+              </p>
+            </div>
+          </div>
           <p className="mt-4 text-lg leading-relaxed text-[#666666]">
             Whether you are leasing your first office, acquiring a <strong>multifamily portfolio</strong>,
             or selling a retail center, the right broker makes the difference between a
@@ -389,8 +405,20 @@ export default function HomePage() {
             <li><strong>Income-based valuations</strong> — cap rate analysis, NOI projections, and market comparables</li>
             <li><strong>Complex lease structures</strong> — NNN, modified gross, full-service, and percentage leases</li>
             <li><strong>Due diligence coordination</strong> — environmental, zoning, title, and financial review</li>
-            <li><strong>1031 exchange navigation</strong> — strict IRS timelines and replacement property identification</li>
+            <li><strong>1031 exchange navigation</strong> — strict <a href="https://www.irs.gov/publications/p544" className="underline hover:text-black" target="_blank" rel="noopener">IRS timelines</a> and replacement property identification</li>
           </ul>
+
+          {/* Tampa Bay CRE image for visual depth */}
+          <figure className="mt-8">
+            <Image
+              src="https://images.unsplash.com/photo-1656119337375-13bfe30f8e76?w=1200&h=500&fit=crop"
+              alt="Tampa Bay skyline — one of Florida's fastest-growing commercial real estate markets"
+              width={1200}
+              height={500}
+              className="rounded-xl w-full"
+            />
+            <figcaption className="text-xs text-[#999] mt-2">Tampa Bay skyline. Photo: Unsplash</figcaption>
+          </figure>
         </section>
 
         {/* ---- Services overview ---- */}
@@ -461,7 +489,7 @@ export default function HomePage() {
 
             {/* Additional depth for GEO — Tampa Bay market context */}
             <p className="mt-4 text-base leading-relaxed text-white/70">
-              According to the Tampa Bay Economic Development Council, the region added over 50,000 jobs in 2024 and continues to attract corporate relocations, warehouse-distribution demand along the I-4 corridor, and multifamily investment driven by population growth. Whether you are looking at a <strong>NNN retail pad</strong> in Brandon or a <strong>Class A office lease</strong> in Westshore, local market insight matters.
+              According to the <a href="https://tampabayedc.com" className="underline text-white/90 hover:text-white" target="_blank" rel="noopener">Tampa Bay Economic Development Council</a>, the region added over 50,000 jobs in 2024 and continues to attract corporate relocations, warehouse-distribution demand along the <a href="https://www.fdot.gov" className="underline text-white/90 hover:text-white" target="_blank" rel="noopener">I-4 corridor</a>, and multifamily investment driven by population growth. Whether you are looking at a <strong>NNN retail pad</strong> in Brandon or a <strong>Class A office lease</strong> in Westshore, local market insight matters.
             </p>
 
             <div className="mt-8">

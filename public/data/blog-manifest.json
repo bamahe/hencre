@@ -7,7 +7,13 @@
     "category": "city-market",
     "city": "Sarasota",
     "county": "Sarasota",
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=500&fit=crop",
+      "alt": "Modern office building in downtown Sarasota, Florida",
+      "photographer": "Sean Pollock",
+      "link": "https://unsplash.com/@seanpollock"
+    }
   },
   {
     "slug": "why-tampa-bay-cre-is-booming",
@@ -28,12 +34,18 @@
   {
     "slug": "commercial-property-zoning-florida-basics",
     "title": "Commercial Property Zoning Florida Basics",
-    "excerpt": "Florida commercial property zoning explained — zoning categories, permitted uses, variances, rezoning, and how zoning affects your CRE investment or business.",
+    "excerpt": "Florida commercial property zoning explained \u2014 zoning categories, permitted uses, variances, rezoning, and how zoning affects your CRE investment or business.",
     "date": "2026-06-10",
     "category": "business-guide",
     "city": null,
     "county": null,
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1524813686514-a57563d77965?w=800&h=500&fit=crop",
+      "alt": "City planning map and zoning documents for commercial property",
+      "photographer": "JESHOOTS.COM",
+      "link": "https://unsplash.com/@jeshoots"
+    }
   },
   {
     "slug": "5-mistakes-first-time-commercial-tenants-make",
@@ -54,12 +66,18 @@
   {
     "slug": "multifamily-investment-tampa-bay-guide",
     "title": "Multifamily Investment Tampa Bay Guide",
-    "excerpt": "How to invest in Tampa Bay multifamily properties — market fundamentals, deal evaluation, financing, value-add strategies, and common mistakes to avoid.",
+    "excerpt": "How to invest in Tampa Bay multifamily properties \u2014 market fundamentals, deal evaluation, financing, value-add strategies, and common mistakes to avoid.",
     "date": "2026-06-08",
     "category": "investor",
     "city": "Tampa",
     "county": "Hillsborough",
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=500&fit=crop",
+      "alt": "Multifamily apartment complex in Tampa Bay, Florida",
+      "photographer": "Brandon Griggs",
+      "link": "https://unsplash.com/@brandon_griggs"
+    }
   },
   {
     "slug": "pasco-county-commercial-development-2026",
@@ -69,12 +87,18 @@
     "category": "city-market",
     "city": "New Port Richey",
     "county": "Pasco",
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=500&fit=crop",
+      "alt": "Commercial construction and development in Pasco County",
+      "photographer": "Scott Blake",
+      "link": "https://unsplash.com/@sunburstcity"
+    }
   },
   {
     "slug": "what-makes-a-good-commercial-investment",
     "title": "What Makes a Good Commercial Investment?",
-    "excerpt": "Investment criteria from a broker's perspective — what to look for, what to avoid, and how to evaluate commercial property deals.",
+    "excerpt": "Investment criteria from a broker's perspective \u2014 what to look for, what to avoid, and how to evaluate commercial property deals.",
     "date": "2026-06-05",
     "category": "investor",
     "city": "Tampa",
@@ -95,32 +119,50 @@
     "category": "business-guide",
     "city": null,
     "county": null,
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop",
+      "alt": "Commercial lease documents and calculator for CAM charges",
+      "photographer": "Towfiqu barbhuiya",
+      "link": "https://unsplash.com/@towfiqu999999"
+    }
   },
   {
     "slug": "bradenton-commercial-real-estate-opportunities",
     "title": "Bradenton Commercial Real Estate Opportunities",
-    "excerpt": "Bradenton and Manatee County commercial real estate is growing — retail, office, industrial, and multifamily opportunities for investors and business owners.",
+    "excerpt": "Bradenton and Manatee County commercial real estate is growing \u2014 retail, office, industrial, and multifamily opportunities for investors and business owners.",
     "date": "2026-06-01",
     "category": "city-market",
     "city": "Bradenton",
     "county": "Manatee",
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1582407947092-50f9e8e5d71c?w=800&h=500&fit=crop",
+      "alt": "Downtown Bradenton commercial district street view",
+      "photographer": "Lance Asper",
+      "link": "https://unsplash.com/@lanceasper"
+    }
   },
   {
     "slug": "how-to-calculate-commercial-property-roi",
     "title": "How to Calculate Commercial Property ROI",
-    "excerpt": "Learn how to calculate ROI on commercial real estate — cap rate, cash-on-cash return, IRR, and total return with practical formulas and examples.",
+    "excerpt": "Learn how to calculate ROI on commercial real estate \u2014 cap rate, cash-on-cash return, IRR, and total return with practical formulas and examples.",
     "date": "2026-05-31",
     "category": "investor",
     "city": null,
     "county": null,
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
+      "alt": "Financial charts and ROI calculations for commercial property",
+      "photographer": "Carlos Muza",
+      "link": "https://unsplash.com/@kmuza"
+    }
   },
   {
     "slug": "do-you-need-a-commercial-real-estate-broker",
     "title": "Do You Need a Commercial Real Estate Broker?",
-    "excerpt": "When and why to hire a CRE broker — the value proposition for tenants, landlords, and investors.",
+    "excerpt": "When and why to hire a CRE broker \u2014 the value proposition for tenants, landlords, and investors.",
     "date": "2026-05-29",
     "category": "business-guide",
     "city": "Tampa",
@@ -136,37 +178,55 @@
   {
     "slug": "lakeland-warehouse-industrial-growth",
     "title": "Lakeland Warehouse & Industrial Growth",
-    "excerpt": "Lakeland and Polk County are emerging as major industrial hubs on the I-4 corridor — warehouse development, logistics companies, and investment opportunities.",
+    "excerpt": "Lakeland and Polk County are emerging as major industrial hubs on the I-4 corridor \u2014 warehouse development, logistics companies, and investment opportunities.",
     "date": "2026-05-27",
     "category": "city-market",
     "city": "Lakeland",
     "county": "Polk",
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=500&fit=crop",
+      "alt": "Industrial warehouse and distribution center in Lakeland, Florida",
+      "photographer": "Ruchindra Gunasekara",
+      "link": "https://unsplash.com/@ruchindra"
+    }
   },
   {
     "slug": "commercial-property-due-diligence-timeline",
     "title": "Commercial Property Due Diligence Timeline",
-    "excerpt": "A step-by-step due diligence timeline for commercial real estate buyers — inspections, financials, environmental, title, and closing milestones.",
+    "excerpt": "A step-by-step due diligence timeline for commercial real estate buyers \u2014 inspections, financials, environmental, title, and closing milestones.",
     "date": "2026-05-25",
     "category": "business-guide",
     "city": null,
     "county": null,
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop",
+      "alt": "Business professional reviewing due diligence documents",
+      "photographer": "Scott Graham",
+      "link": "https://unsplash.com/@homajob"
+    }
   },
   {
     "slug": "clearwater-retail-space-guide",
     "title": "Clearwater Retail Space Guide",
-    "excerpt": "Clearwater retail space overview — top corridors, rental rate trends, tenant mix strategies, and investment opportunities in Pinellas County.",
+    "excerpt": "Clearwater retail space overview \u2014 top corridors, rental rate trends, tenant mix strategies, and investment opportunities in Pinellas County.",
     "date": "2026-05-24",
     "category": "city-market",
     "city": "Clearwater",
     "county": "Pinellas",
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1604754742629-3e5728249d73?w=800&h=500&fit=crop",
+      "alt": "Retail storefronts along Clearwater Beach corridor, Florida",
+      "photographer": "Dillon Shook",
+      "link": "https://unsplash.com/@dillonshook"
+    }
   },
   {
     "slug": "florida-1031-exchange-what-investors-need-to-know",
     "title": "Florida 1031 Exchange: What Investors Need to Know",
-    "excerpt": "Florida-specific 1031 exchange considerations for commercial real estate investors — tax advantages, property flexibility, and common pitfalls.",
+    "excerpt": "Florida-specific 1031 exchange considerations for commercial real estate investors \u2014 tax advantages, property flexibility, and common pitfalls.",
     "date": "2026-05-22",
     "category": "investor",
     "city": null,
@@ -187,17 +247,29 @@
     "category": "investor",
     "city": null,
     "county": null,
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=500&fit=crop",
+      "alt": "Commercial property with NNN lease investment signage",
+      "photographer": "Tierra Mallorca",
+      "link": "https://unsplash.com/@tierramallorca"
+    }
   },
   {
     "slug": "tampa-industrial-market-outlook-2026",
     "title": "Tampa Industrial Market Outlook 2026",
-    "excerpt": "Tampa Bay industrial real estate is surging — warehouse demand, new construction, rental rate trends, and investment opportunities for 2026.",
+    "excerpt": "Tampa Bay industrial real estate is surging \u2014 warehouse demand, new construction, rental rate trends, and investment opportunities for 2026.",
     "date": "2026-05-20",
     "category": "city-market",
     "city": "Tampa",
     "county": "Hillsborough",
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=500&fit=crop",
+      "alt": "Industrial logistics and warehouse facilities along Tampa I-75 corridor",
+      "photographer": "Ant Rozetsky",
+      "link": "https://unsplash.com/@rozetsky"
+    }
   },
   {
     "slug": "how-commercial-leases-differ-from-residential",
@@ -207,6 +279,12 @@
     "category": "business-guide",
     "city": null,
     "county": null,
-    "businessType": null
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=500&fit=crop",
+      "alt": "Business handshake over commercial lease agreement",
+      "photographer": "Cytonn Photography",
+      "link": "https://unsplash.com/@cytonn_photography"
+    }
   }
 ]
