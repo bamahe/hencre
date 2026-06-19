@@ -81,7 +81,6 @@ export default function SarasotaOfficeMarketPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Sarasota Office Trends 2026", href: "/blog/sarasota-office-market-trends-2026" },
         ]}

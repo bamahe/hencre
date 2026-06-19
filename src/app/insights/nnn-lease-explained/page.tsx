@@ -134,7 +134,6 @@ export default function NNNLeasePage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "NNN Lease Explained", href: "/insights/nnn-lease-explained" },
         ]}

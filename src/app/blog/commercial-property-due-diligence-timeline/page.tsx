@@ -81,7 +81,6 @@ export default function DueDiligenceTimelinePage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Due Diligence Timeline", href: "/blog/commercial-property-due-diligence-timeline" },
         ]}

@@ -134,7 +134,6 @@ export default function CAMChargesPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "CAM Charges Explained", href: "/insights/cam-charges-explained" },
         ]}

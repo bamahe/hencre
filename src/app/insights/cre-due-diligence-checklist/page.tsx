@@ -134,7 +134,6 @@ export default function DueDiligencePage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "Due Diligence Checklist", href: "/insights/cre-due-diligence-checklist" },
         ]}

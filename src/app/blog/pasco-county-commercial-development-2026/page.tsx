@@ -81,7 +81,6 @@ export default function PascoCountyDevelopmentPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Pasco County CRE 2026", href: "/blog/pasco-county-commercial-development-2026" },
         ]}

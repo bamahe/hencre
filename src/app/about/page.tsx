@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 /* -------------------------------------------------------------------
  * About Page — Barrett Henry bio, CRE expertise, designations.
@@ -80,14 +81,7 @@ export default function AboutPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      {/* ---- Breadcrumbs ---- */}
-      <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-[#666666]">
-          <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
-          <li className="mx-2">/</li>
-          <li className="font-semibold text-black" aria-current="page">About</li>
-        </ol>
-      </nav>
+      <Breadcrumbs items={[{ label: "About", href: "/about" }]} />
 
       <Hero
         title="About Barrett Henry"

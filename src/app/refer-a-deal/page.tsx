@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 /* -------------------------------------------------------------------
  * Refer a Deal Page — referral process, benefits, FAQ.
@@ -92,14 +93,7 @@ export default function ReferADealPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      {/* ---- Breadcrumbs ---- */}
-      <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-[#666666]">
-          <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
-          <li className="mx-2">/</li>
-          <li className="font-semibold text-black" aria-current="page">Refer a Deal</li>
-        </ol>
-      </nav>
+      <Breadcrumbs items={[{ label: "Refer a Deal", href: "/refer-a-deal" }]} />
 
       <Hero
         title="Got a Commercial Deal Outside Your Lane?"

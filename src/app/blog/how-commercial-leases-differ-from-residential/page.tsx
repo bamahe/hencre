@@ -81,7 +81,6 @@ export default function CommercialVsResidentialLeasePage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Commercial vs. Residential Leases", href: "/blog/how-commercial-leases-differ-from-residential" },
         ]}

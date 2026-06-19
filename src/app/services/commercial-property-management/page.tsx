@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
 import LeadForm from "@/components/LeadForm";
 import CTASection from "@/components/CTASection";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 /* -------------------------------------------------------------------
  * Commercial Property Management — pillar/hub page.
@@ -126,16 +127,7 @@ export default function CommercialPropertyManagementPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      {/* ---- Breadcrumbs ---- */}
-      <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-[#666666]">
-          <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
-          <li className="mx-2">/</li>
-          <li><Link href="/services" className="hover:underline no-underline">Services</Link></li>
-          <li className="mx-2">/</li>
-          <li className="font-semibold text-black" aria-current="page">Commercial Property Management</li>
-        </ol>
-      </nav>
+      <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "Commercial Property Management", href: "/services/commercial-property-management" }]} />
 
       <Hero
         title="Commercial Property Management in Florida"

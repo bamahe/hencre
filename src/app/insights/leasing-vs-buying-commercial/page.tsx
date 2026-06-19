@@ -121,7 +121,6 @@ export default function LeasingVsBuyingPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "Leasing vs. Buying", href: "/insights/leasing-vs-buying-commercial" },
         ]}

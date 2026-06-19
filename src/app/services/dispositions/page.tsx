@@ -3,6 +3,7 @@ import Link from "next/link";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 /* -------------------------------------------------------------------
  * Dispositions — service detail page.
@@ -79,15 +80,7 @@ export default function DispositionsPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-[#666666]">
-          <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
-          <li className="mx-2">/</li>
-          <li><Link href="/services" className="hover:underline no-underline">Services</Link></li>
-          <li className="mx-2">/</li>
-          <li className="font-semibold text-black" aria-current="page">Dispositions</li>
-        </ol>
-      </nav>
+      <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "Dispositions", href: "/services/dispositions" }]} />
 
       <Hero
         title="Dispositions"

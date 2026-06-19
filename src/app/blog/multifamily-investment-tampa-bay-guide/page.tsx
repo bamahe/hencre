@@ -81,7 +81,6 @@ export default function MultifamilyInvestmentGuidePage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Multifamily Investment Guide", href: "/blog/multifamily-investment-tampa-bay-guide" },
         ]}

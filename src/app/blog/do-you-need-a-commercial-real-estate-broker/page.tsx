@@ -79,7 +79,6 @@ export default function NeedABrokerPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Do You Need a CRE Broker?", href: "/blog/do-you-need-a-commercial-real-estate-broker" },
         ]}

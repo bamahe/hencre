@@ -81,7 +81,6 @@ export default function TampaIndustrialOutlookPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Tampa Industrial Outlook 2026", href: "/blog/tampa-industrial-market-outlook-2026" },
         ]}

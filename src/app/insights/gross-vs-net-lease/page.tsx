@@ -134,7 +134,6 @@ export default function GrossVsNetPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "Gross vs. Net Lease", href: "/insights/gross-vs-net-lease" },
         ]}

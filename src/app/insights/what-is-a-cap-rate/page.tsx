@@ -147,7 +147,6 @@ export default function CapRatePage() {
       {/* Breadcrumbs */}
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "What Is a Cap Rate?", href: "/insights/what-is-a-cap-rate" },
         ]}

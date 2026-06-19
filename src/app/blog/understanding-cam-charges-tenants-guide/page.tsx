@@ -81,7 +81,6 @@ export default function CAMChargesGuidePage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Understanding CAM Charges", href: "/blog/understanding-cam-charges-tenants-guide" },
         ]}

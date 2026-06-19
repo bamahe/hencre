@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 /* -------------------------------------------------------------------
  * REMAX Commercial Real Estate — agent coverage/directory page.
@@ -190,29 +191,7 @@ export default function RemaxCommercialFloridaPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      {/* ---- Breadcrumbs ---- */}
-      <nav
-        aria-label="Breadcrumb"
-        className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8"
-      >
-        <ol className="flex text-sm text-[#666666]">
-          <li>
-            <Link href="/" className="hover:underline no-underline">
-              Home
-            </Link>
-          </li>
-          <li className="mx-2">/</li>
-          <li>
-            <Link href="/remax-commercial" className="hover:underline no-underline">
-              REMAX Commercial®
-            </Link>
-          </li>
-          <li className="mx-2">/</li>
-          <li className="font-semibold text-black" aria-current="page">
-            Florida Agents
-          </li>
-        </ol>
-      </nav>
+      <Breadcrumbs items={[{ label: "Florida Agents", href: "/remax-commercial-florida" }]} />
 
       {/* ---- Hero ---- */}
       <Hero

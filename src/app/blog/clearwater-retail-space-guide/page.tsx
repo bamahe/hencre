@@ -81,7 +81,6 @@ export default function ClearwaterRetailGuidePage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Clearwater Retail Guide", href: "/blog/clearwater-retail-space-guide" },
         ]}

@@ -373,7 +373,6 @@ export default async function IdentityPage({
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Markets", href: "/markets" },
           { label: `${city.county} County`, href: `/markets/${city.countySlug}` },
           { label: `${role.roleTitle} in ${city.name}`, href: `/${identitySlug}` },

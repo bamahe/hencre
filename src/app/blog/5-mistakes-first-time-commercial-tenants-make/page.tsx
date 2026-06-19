@@ -79,7 +79,6 @@ export default function TenantMistakesPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "5 Mistakes First-Time Tenants Make", href: "/blog/5-mistakes-first-time-commercial-tenants-make" },
         ]}

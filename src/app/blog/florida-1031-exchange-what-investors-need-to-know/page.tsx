@@ -143,7 +143,6 @@ export default function Florida1031Page() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Florida 1031 Exchange", href: "/blog/florida-1031-exchange-what-investors-need-to-know" },
         ]}

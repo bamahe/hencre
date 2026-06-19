@@ -81,7 +81,6 @@ export default function ZoningBasicsPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Florida CRE Zoning Basics", href: "/blog/commercial-property-zoning-florida-basics" },
         ]}

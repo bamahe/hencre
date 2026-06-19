@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
 import LeadForm from "@/components/LeadForm";
 import CTASection from "@/components/CTASection";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 /* -------------------------------------------------------------------
  * Maintenance & Operations — sub-page under Commercial PM.
@@ -84,18 +85,7 @@ export default function MaintenanceOperationsPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      {/* ---- Breadcrumbs ---- */}
-      <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex flex-wrap text-sm text-[#666666]">
-          <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
-          <li className="mx-2">/</li>
-          <li><Link href="/services" className="hover:underline no-underline">Services</Link></li>
-          <li className="mx-2">/</li>
-          <li><Link href="/services/commercial-property-management" className="hover:underline no-underline">Commercial Property Management</Link></li>
-          <li className="mx-2">/</li>
-          <li className="font-semibold text-black" aria-current="page">Maintenance &amp; Operations</li>
-        </ol>
-      </nav>
+      <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "Commercial Property Management", href: "/services/commercial-property-management" }, { label: "Maintenance & Operations", href: "/services/commercial-property-management/maintenance-operations" }]} />
 
       <Hero
         title="Commercial Property Maintenance & Operations"

@@ -81,7 +81,6 @@ export default function LakelandIndustrialGrowthPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Lakeland Industrial Growth", href: "/blog/lakeland-warehouse-industrial-growth" },
         ]}

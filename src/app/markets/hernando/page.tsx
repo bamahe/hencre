@@ -85,15 +85,7 @@ export default function HernandoMarketPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <nav aria-label="Breadcrumb" className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
-        <ol className="flex text-sm text-[#666666]">
-          <li><Link href="/" className="hover:underline no-underline">Home</Link></li>
-          <li className="mx-2">/</li>
-          <li><Link href="/markets" className="hover:underline no-underline">Markets</Link></li>
-          <li className="mx-2">/</li>
-          <li className="font-semibold text-black" aria-current="page">Hernando County</li>
-        </ol>
-      </nav>
+      <Breadcrumbs items={[{ label: "Markets", href: "/markets" }, { label: "Hernando County", href: "/markets/hernando" }]} />
 
       <Hero
         title="Hernando County Commercial Real Estate"

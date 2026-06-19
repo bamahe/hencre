@@ -79,7 +79,6 @@ export default function GoodInvestmentPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "What Makes a Good Investment", href: "/blog/what-makes-a-good-commercial-investment" },
         ]}

@@ -79,7 +79,6 @@ export default function TampaBayBoomingPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Why Tampa Bay CRE Is Booming", href: "/blog/why-tampa-bay-cre-is-booming" },
         ]}

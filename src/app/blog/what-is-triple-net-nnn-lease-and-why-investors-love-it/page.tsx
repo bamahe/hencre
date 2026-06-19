@@ -81,7 +81,6 @@ export default function NNNLeasePage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "What Is a NNN Lease?", href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" },
         ]}

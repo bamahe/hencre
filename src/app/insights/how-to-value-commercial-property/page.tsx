@@ -134,7 +134,6 @@ export default function ValuationPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "How to Value Commercial Property", href: "/insights/how-to-value-commercial-property" },
         ]}

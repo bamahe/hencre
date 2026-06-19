@@ -81,7 +81,6 @@ export default function CalculateROIPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Calculate CRE ROI", href: "/blog/how-to-calculate-commercial-property-roi" },
         ]}

@@ -81,7 +81,6 @@ export default function BradentonCREPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Bradenton CRE Opportunities", href: "/blog/bradenton-commercial-real-estate-opportunities" },
         ]}

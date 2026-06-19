@@ -134,7 +134,6 @@ export default function ExchangeBasicsPage() {
 
       <Breadcrumbs
         items={[
-          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "1031 Exchange Basics", href: "/insights/1031-exchange-basics" },
         ]}
