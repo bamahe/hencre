@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* REMAX Commercial® Brand Colors & Theme
  * Black and white — the actual REMAX Commercial® brand. No navy, no blue, no red. */
