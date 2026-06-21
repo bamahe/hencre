@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
 import ConditionalAnalytics from "@/components/ConditionalAnalytics";
+import ClientWidgets from "@/components/ClientWidgets";
 import "./globals.css";
 
 /* Load Inter with the weights we need: 400 (normal), 600 (semibold), 700 (bold) */
@@ -84,6 +85,9 @@ export default function RootLayout({
 
         {/* Vercel Speed Insights — real-user performance monitoring */}
         <SpeedInsights />
+
+        {/* Client-only widgets (accessibility, etc.) */}
+        <ClientWidgets />
       </body>
     </html>
   );

@@ -83,3 +83,21 @@
   h1, h2, h3, h4 { page-break-after: avoid; }
   img, table, figure { page-break-inside: avoid; }
 }
+
+/* Accessibility widget overrides */
+html.a11y-large-text { font-size: 125% !important; }
+html.a11y-high-contrast { filter: contrast(1.4) !important; }
+html.a11y-high-contrast * { border-color: #fff !important; }
+html.a11y-reduce-motion *,
+html.a11y-reduce-motion *::before,
+html.a11y-reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+html.a11y-highlight-links a {
+  outline: 2px solid #FFD700 !important;
+  outline-offset: 2px !important;
+  text-decoration: underline !important;
+}
