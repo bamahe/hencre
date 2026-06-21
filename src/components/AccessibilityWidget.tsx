@@ -136,26 +136,15 @@ export function AccessibilityWidget() {
         aria-label="Accessibility options"
         className="fixed bottom-20 left-4 md:bottom-4 z-40 flex h-10 w-10 items-center justify-center rounded-full bg-gray-800/90 text-white shadow-lg hover:bg-gray-700 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500"
       >
-        {/* Wheelchair icon (simple inline SVG — no external dependency) */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+          viewBox="0 0 512 512"
+          fill="currentColor"
           className="h-5 w-5"
           aria-hidden="true"
         >
-          {/* Head */}
-          <circle cx="12" cy="4" r="1.5" fill="currentColor" stroke="none" />
-          {/* Body / seat */}
-          <path d="M12 7v5h4" />
-          {/* Wheel */}
-          <circle cx="10" cy="17" r="4" />
-          {/* Leg rest */}
-          <path d="M16 12v3a1 1 0 0 0 1 1h2" />
+          {/* Universal Access icon */}
+          <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm-72 152.7c0-7.4 4.8-14 11.9-16.2l44.1-14V216c0-8.8 7.2-16 16-16s16 7.2 16 16v24.5l44.1 14c7.1 2.2 11.9 8.8 11.9 16.2 0 9.5-7.7 17.2-17.2 17.2-1.6 0-3.3-.2-4.9-.7L272 278.7V328l36.5 42.6c3.5 4.1 5.5 9.3 5.5 14.7 0 12.6-10.2 22.7-22.7 22.7-6.6 0-12.8-2.8-17.2-7.8L256 378.7l-18.2 21.5c-4.3 5-10.6 7.8-17.2 7.8-12.6 0-22.7-10.2-22.7-22.7 0-5.4 1.9-10.6 5.5-14.7L240 328v-49.3l-33.9 8.5c-1.6.4-3.3.7-4.9.7-9.5 0-17.2-7.7-17.2-17.2z" />
         </svg>
       </button>
 
