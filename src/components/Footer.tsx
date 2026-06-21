@@ -69,6 +69,13 @@ export default function Footer() {
 
         {/* ---- Contact & links ---- */}
         <div className="mt-10 flex flex-col items-center gap-4 border-t border-white/10 pt-8 sm:flex-row sm:justify-between">
+          {/* Quick links */}
+          <div className="flex flex-wrap items-center gap-6 text-sm text-white/80">
+            <Link href="/blog" className="no-underline hover:text-white hover:no-underline">Blog</Link>
+            <Link href="/about" className="no-underline hover:text-white hover:no-underline">About</Link>
+            <Link href="/contact" className="no-underline hover:text-white hover:no-underline">Contact</Link>
+          </div>
+
           {/* Contact details */}
           <div className="flex flex-wrap items-center gap-6 text-sm">
             <a

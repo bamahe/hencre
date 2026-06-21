@@ -15,7 +15,6 @@ const NAV_LINKS = [
   { label: "Property Types", href: "/commercial" },
   { label: "Markets", href: "/markets" },
   { label: "Insights", href: "/insights" },
-  { label: "Blog", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ] as const;
