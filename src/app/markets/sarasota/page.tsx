@@ -26,29 +26,7 @@ export const metadata: Metadata = {
   },
 };
 
-const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "LocalBusiness",
-      name: "REMAX Commercial Real Estate — Barrett Henry",
-      description: "Commercial real estate brokerage serving Sarasota County.",
-      telephone: "(813) 733-7907",
-      email: "barrett@nowtb.com",
-      url: "https://hencre.com/markets/sarasota",
-      areaServed: { "@type": "AdministrativeArea", name: "Sarasota County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
-    },
-    {
-      "@type": "Service",
-      name: "Sarasota County Commercial Real Estate Services",
-      description: "CRE leasing, sales, investment, and dispositions in Sarasota County, Florida.",
-      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
-      areaServed: { "@type": "AdministrativeArea", name: "Sarasota County, Florida" },
-    },
-  ],
-};
-
+/* FAQ items specific to Sarasota County CRE */
 const faqs = [
   {
     question: "What defines the Sarasota County commercial real estate market?",
@@ -76,6 +54,38 @@ const faqs = [
       "North Port, in southern Sarasota County, has experienced rapid residential growth that is now driving commercial development. New retail centers, medical offices, and service businesses are following the rooftops. Land is more affordable than in the Sarasota core, making it attractive for developers and businesses that want to be in Sarasota County without paying downtown-level prices.",
   },
 ];
+
+/* JSON-LD: LocalBusiness + Service + FAQPage */
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
+      description: "Commercial real estate brokerage serving Sarasota County.",
+      telephone: "(813) 733-7907",
+      email: "barrett@nowtb.com",
+      url: "https://hencre.com/markets/sarasota",
+      areaServed: { "@type": "AdministrativeArea", name: "Sarasota County, Florida" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
+    },
+    {
+      "@type": "Service",
+      name: "Sarasota County Commercial Real Estate Services",
+      description: "CRE leasing, sales, investment, and dispositions in Sarasota County, Florida.",
+      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
+      areaServed: { "@type": "AdministrativeArea", name: "Sarasota County, Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
 
 const relatedMarkets = [
   { title: "Manatee County", href: "/markets/manatee", description: "Bradenton CRE market" },

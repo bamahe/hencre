@@ -27,29 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "LocalBusiness",
-      name: "REMAX Commercial Real Estate — Barrett Henry",
-      description: "Commercial real estate brokerage serving Hernando County.",
-      telephone: "(813) 733-7907",
-      email: "barrett@nowtb.com",
-      url: "https://hencre.com/markets/hernando",
-      areaServed: { "@type": "AdministrativeArea", name: "Hernando County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
-    },
-    {
-      "@type": "Service",
-      name: "Hernando County Commercial Real Estate Services",
-      description: "CRE leasing, sales, investment, and dispositions in Hernando County, Florida.",
-      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
-      areaServed: { "@type": "AdministrativeArea", name: "Hernando County, Florida" },
-    },
-  ],
-};
-
+/* FAQ items specific to Hernando County CRE */
 const faqs = [
   {
     question: "Why is Hernando County a growing CRE market?",
@@ -72,6 +50,38 @@ const faqs = [
       "Barrett provides buyer and seller representation, tenant and landlord lease negotiation, investment analysis, land acquisition, and disposition strategy. He works with retailers seeking high-visibility Spring Hill locations, medical operators expanding their footprint, developers acquiring Suncoast Parkway interchange sites, and investors looking for yield in an affordable growth market.",
   },
 ];
+
+/* JSON-LD: LocalBusiness + Service + FAQPage */
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
+      description: "Commercial real estate brokerage serving Hernando County.",
+      telephone: "(813) 733-7907",
+      email: "barrett@nowtb.com",
+      url: "https://hencre.com/markets/hernando",
+      areaServed: { "@type": "AdministrativeArea", name: "Hernando County, Florida" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
+    },
+    {
+      "@type": "Service",
+      name: "Hernando County Commercial Real Estate Services",
+      description: "CRE leasing, sales, investment, and dispositions in Hernando County, Florida.",
+      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
+      areaServed: { "@type": "AdministrativeArea", name: "Hernando County, Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
 
 const relatedMarkets = [
   { title: "Citrus County", href: "/markets/citrus", description: "Crystal River & Inverness CRE" },

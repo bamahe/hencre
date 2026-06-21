@@ -27,29 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "LocalBusiness",
-      name: "REMAX Commercial Real Estate — Barrett Henry",
-      description: "Commercial real estate brokerage serving Manatee County.",
-      telephone: "(813) 733-7907",
-      email: "barrett@nowtb.com",
-      url: "https://hencre.com/markets/manatee",
-      areaServed: { "@type": "AdministrativeArea", name: "Manatee County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
-    },
-    {
-      "@type": "Service",
-      name: "Manatee County Commercial Real Estate Services",
-      description: "CRE leasing, sales, investment, and dispositions in Manatee County, Florida.",
-      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
-      areaServed: { "@type": "AdministrativeArea", name: "Manatee County, Florida" },
-    },
-  ],
-};
-
+/* FAQ items specific to Manatee County CRE */
 const faqs = [
   {
     question: "What makes Manatee County an attractive CRE market?",
@@ -72,6 +50,38 @@ const faqs = [
       "Barrett provides buyer and seller representation, tenant and landlord lease negotiation, investment analysis, land acquisition, and disposition strategy across all commercial property types. He works with retailers seeking I-75 visibility, industrial users near Port Manatee, and investors looking for value in a growing market.",
   },
 ];
+
+/* JSON-LD: LocalBusiness + Service + FAQPage */
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
+      description: "Commercial real estate brokerage serving Manatee County.",
+      telephone: "(813) 733-7907",
+      email: "barrett@nowtb.com",
+      url: "https://hencre.com/markets/manatee",
+      areaServed: { "@type": "AdministrativeArea", name: "Manatee County, Florida" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
+    },
+    {
+      "@type": "Service",
+      name: "Manatee County Commercial Real Estate Services",
+      description: "CRE leasing, sales, investment, and dispositions in Manatee County, Florida.",
+      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
+      areaServed: { "@type": "AdministrativeArea", name: "Manatee County, Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
 
 const relatedMarkets = [
   { title: "Hillsborough County", href: "/markets/hillsborough", description: "Tampa CRE market" },

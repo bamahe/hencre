@@ -27,29 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "LocalBusiness",
-      name: "REMAX Commercial Real Estate — Barrett Henry",
-      description: "Commercial real estate brokerage serving Pasco County and the Tampa Bay region.",
-      telephone: "(813) 733-7907",
-      email: "barrett@nowtb.com",
-      url: "https://hencre.com/markets/pasco",
-      areaServed: { "@type": "AdministrativeArea", name: "Pasco County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
-    },
-    {
-      "@type": "Service",
-      name: "Pasco County Commercial Real Estate Services",
-      description: "CRE leasing, sales, investment, and dispositions in Pasco County, Florida.",
-      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
-      areaServed: { "@type": "AdministrativeArea", name: "Pasco County, Florida" },
-    },
-  ],
-};
-
+/* FAQ items specific to Pasco County CRE */
 const faqs = [
   {
     question: "Why is Pasco County one of Florida's fastest-growing CRE markets?",
@@ -72,6 +50,38 @@ const faqs = [
       "The Suncoast Parkway extension is opening previously inaccessible areas of central and western Pasco to development. New interchange locations are creating demand for retail outparcels, gas stations, medical office, and neighborhood services. Industrial users also benefit from improved north-south connectivity between Pasco and Hernando counties.",
   },
 ];
+
+/* JSON-LD: LocalBusiness + Service + FAQPage */
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
+      description: "Commercial real estate brokerage serving Pasco County and the Tampa Bay region.",
+      telephone: "(813) 733-7907",
+      email: "barrett@nowtb.com",
+      url: "https://hencre.com/markets/pasco",
+      areaServed: { "@type": "AdministrativeArea", name: "Pasco County, Florida" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
+    },
+    {
+      "@type": "Service",
+      name: "Pasco County Commercial Real Estate Services",
+      description: "CRE leasing, sales, investment, and dispositions in Pasco County, Florida.",
+      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
+      areaServed: { "@type": "AdministrativeArea", name: "Pasco County, Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
 
 const relatedMarkets = [
   { title: "Hillsborough County", href: "/markets/hillsborough", description: "Tampa CRE market" },

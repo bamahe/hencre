@@ -27,29 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "LocalBusiness",
-      name: "REMAX Commercial Real Estate — Barrett Henry",
-      description: "Commercial real estate brokerage serving Citrus County.",
-      telephone: "(813) 733-7907",
-      email: "barrett@nowtb.com",
-      url: "https://hencre.com/markets/citrus",
-      areaServed: { "@type": "AdministrativeArea", name: "Citrus County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
-    },
-    {
-      "@type": "Service",
-      name: "Citrus County Commercial Real Estate Services",
-      description: "CRE leasing, sales, investment, and dispositions in Citrus County, Florida.",
-      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
-      areaServed: { "@type": "AdministrativeArea", name: "Citrus County, Florida" },
-    },
-  ],
-};
-
+/* FAQ items specific to Citrus County CRE */
 const faqs = [
   {
     question: "What drives commercial real estate demand in Citrus County?",
@@ -72,6 +50,38 @@ const faqs = [
       "Barrett provides buyer and seller representation, lease negotiation, investment analysis, and disposition strategy. He helps local business owners find the right retail or office space, investors evaluate income properties, and developers identify land parcels positioned for growth along the county's commercial corridors.",
   },
 ];
+
+/* JSON-LD: LocalBusiness + Service + FAQPage */
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
+      description: "Commercial real estate brokerage serving Citrus County.",
+      telephone: "(813) 733-7907",
+      email: "barrett@nowtb.com",
+      url: "https://hencre.com/markets/citrus",
+      areaServed: { "@type": "AdministrativeArea", name: "Citrus County, Florida" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
+    },
+    {
+      "@type": "Service",
+      name: "Citrus County Commercial Real Estate Services",
+      description: "CRE leasing, sales, investment, and dispositions in Citrus County, Florida.",
+      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
+      areaServed: { "@type": "AdministrativeArea", name: "Citrus County, Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
 
 const relatedMarkets = [
   { title: "Hernando County", href: "/markets/hernando", description: "Spring Hill & Brooksville CRE" },

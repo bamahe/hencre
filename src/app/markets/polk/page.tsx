@@ -27,29 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "LocalBusiness",
-      name: "REMAX Commercial Real Estate — Barrett Henry",
-      description: "Commercial real estate brokerage serving Polk County.",
-      telephone: "(813) 733-7907",
-      email: "barrett@nowtb.com",
-      url: "https://hencre.com/markets/polk",
-      areaServed: { "@type": "AdministrativeArea", name: "Polk County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
-    },
-    {
-      "@type": "Service",
-      name: "Polk County Commercial Real Estate Services",
-      description: "CRE leasing, sales, investment, and dispositions in Polk County, Florida.",
-      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
-      areaServed: { "@type": "AdministrativeArea", name: "Polk County, Florida" },
-    },
-  ],
-};
-
+/* FAQ items specific to Polk County CRE */
 const faqs = [
   {
     question: "Why is Polk County a top market for industrial and logistics real estate?",
@@ -72,6 +50,38 @@ const faqs = [
       "Barrett provides buyer and seller representation, tenant and landlord lease negotiation, investment analysis, land acquisition for developers, and disposition strategy. He works with industrial users seeking I-4 corridor logistics space, retailers looking for outparcels in growth areas, and investors evaluating the county's value-oriented pricing compared to the Tampa and Orlando metros.",
   },
 ];
+
+/* JSON-LD: LocalBusiness + Service + FAQPage */
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
+      description: "Commercial real estate brokerage serving Polk County.",
+      telephone: "(813) 733-7907",
+      email: "barrett@nowtb.com",
+      url: "https://hencre.com/markets/polk",
+      areaServed: { "@type": "AdministrativeArea", name: "Polk County, Florida" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
+    },
+    {
+      "@type": "Service",
+      name: "Polk County Commercial Real Estate Services",
+      description: "CRE leasing, sales, investment, and dispositions in Polk County, Florida.",
+      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
+      areaServed: { "@type": "AdministrativeArea", name: "Polk County, Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
 
 const relatedMarkets = [
   { title: "Hillsborough County", href: "/markets/hillsborough", description: "Tampa CRE market" },

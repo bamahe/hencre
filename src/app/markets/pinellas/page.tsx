@@ -27,29 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "LocalBusiness",
-      name: "REMAX Commercial Real Estate — Barrett Henry",
-      description: "Commercial real estate brokerage serving Pinellas County.",
-      telephone: "(813) 733-7907",
-      email: "barrett@nowtb.com",
-      url: "https://hencre.com/markets/pinellas",
-      areaServed: { "@type": "AdministrativeArea", name: "Pinellas County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
-    },
-    {
-      "@type": "Service",
-      name: "Pinellas County Commercial Real Estate Services",
-      description: "CRE leasing, sales, investment, and dispositions in Pinellas County, Florida.",
-      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
-      areaServed: { "@type": "AdministrativeArea", name: "Pinellas County, Florida" },
-    },
-  ],
-};
-
+/* FAQ items specific to Pinellas County CRE */
 const faqs = [
   {
     question: "What makes downtown St. Petersburg attractive for commercial tenants?",
@@ -72,6 +50,38 @@ const faqs = [
       "Barrett provides buyer and seller representation, tenant and landlord lease negotiation, investment analysis, and disposition strategy across all commercial property types in Pinellas County. Whether you are looking for office space in downtown St. Pete, a retail location along US-19, or an investment property near the beaches, Barrett can guide you through the process.",
   },
 ];
+
+/* JSON-LD: LocalBusiness + Service + FAQPage */
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
+      description: "Commercial real estate brokerage serving Pinellas County.",
+      telephone: "(813) 733-7907",
+      email: "barrett@nowtb.com",
+      url: "https://hencre.com/markets/pinellas",
+      areaServed: { "@type": "AdministrativeArea", name: "Pinellas County, Florida" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
+    },
+    {
+      "@type": "Service",
+      name: "Pinellas County Commercial Real Estate Services",
+      description: "CRE leasing, sales, investment, and dispositions in Pinellas County, Florida.",
+      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
+      areaServed: { "@type": "AdministrativeArea", name: "Pinellas County, Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
 
 const relatedMarkets = [
   { title: "Hillsborough County", href: "/markets/hillsborough", description: "Tampa CRE market" },
