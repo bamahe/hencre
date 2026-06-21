@@ -57,3 +57,29 @@
     text-decoration: underline;
   }
 }
+
+/* Reduced motion: respect user preference for less animation */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Print stylesheet: clean output for printing */
+@media print {
+  header, footer, nav, .mobile-bottom-bar, [role="dialog"] { display: none !important; }
+  body { background: white; color: black; font-size: 12pt; }
+  main { padding: 0 !important; }
+  a { color: black; text-decoration: underline; }
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+  h1, h2, h3, h4 { page-break-after: avoid; }
+  img, table, figure { page-break-inside: avoid; }
+}

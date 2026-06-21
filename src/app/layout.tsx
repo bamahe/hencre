@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
+import ConditionalAnalytics from "@/components/ConditionalAnalytics";
 import "./globals.css";
 
 /* Load Inter with the weights we need: 400 (normal), 600 (semibold), 700 (bold) */
@@ -52,47 +53,37 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  /* Environment-based analytics IDs */
-  const gaId = process.env.NEXT_PUBLIC_GA_ID;
-  const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
-
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-sans">
+        {/* Skip link for keyboard/screen reader users */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[100] focus:bg-white focus:text-[#1a1a1a] focus:px-4 focus:py-2 focus:rounded focus:shadow-lg focus:text-sm focus:font-semibold"
+        >
+          Skip to main content
+        </a>
+
         {/* Sticky site header */}
         <Header />
 
         {/* Main content area — grows to fill available space */}
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">{children}</main>
 
         {/* Site footer */}
         <Footer />
+
+        {/* Cookie consent banner — stores preference in localStorage */}
+        <CookieConsent />
+
+        {/* GA4 + Clarity — only loads if user accepted tracking */}
+        <ConditionalAnalytics />
 
         {/* Vercel Analytics — tracks page views and web vitals */}
         <Analytics />
 
         {/* Vercel Speed Insights — real-user performance monitoring */}
         <SpeedInsights />
-
-        {/* Google Analytics 4 — conditional on env var */}
-        {gaId && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-              strategy="afterInteractive"
-            />
-            <Script id="ga4-init" strategy="afterInteractive">
-              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaId}');`}
-            </Script>
-          </>
-        )}
-
-        {/* Microsoft Clarity — conditional on env var */}
-        {clarityId && (
-          <Script id="clarity-init" strategy="afterInteractive">
-            {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${clarityId}");`}
-          </Script>
-        )}
       </body>
     </html>
   );
