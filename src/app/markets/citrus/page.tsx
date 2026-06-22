@@ -60,7 +60,7 @@ const schema = {
       name: "REMAX Commercial Real Estate — Barrett Henry",
       description: "Commercial real estate brokerage serving Citrus County.",
       telephone: "(813) 733-7907",
-      email: "barrett@nowtb.com",
+      email: "barrett@hencre.com",
       url: "https://hencre.com/markets/citrus",
       areaServed: { "@type": "AdministrativeArea", name: "Citrus County, Florida" },
       employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },

@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     q: "How do I find a REMAX Commercial Real Estate advisor in Florida?",
-    a: "You are already in the right place. Barrett Henry is a REMAX Commercial Commercial Real Estate Advisor serving all 67 Florida counties from his base in Tampa Bay. Contact Barrett directly at (813) 733-7907 or barrett@nowtb.com to discuss your commercial real estate needs. For transactions outside Florida, Barrett can connect you with REMAX Commercial Real Estate advisors in any state or country through the global referral network.",
+    a: "You are already in the right place. Barrett Henry is a REMAX Commercial Commercial Real Estate Advisor serving all 67 Florida counties from his base in Tampa Bay. Contact Barrett directly at (813) 733-7907 or barrett@hencre.com to discuss your commercial real estate needs. For transactions outside Florida, Barrett can connect you with REMAX Commercial Real Estate advisors in any state or country through the global referral network.",
   },
   {
     q: "What is the REMAX Commercial® referral network?",
@@ -123,7 +123,7 @@ const schema = {
       },
       url: "https://hencre.com",
       telephone: "+1-813-733-7907",
-      email: "barrett@nowtb.com",
+      email: "barrett@hencre.com",
       award: "REMAX Hall of Fame",
       sameAs: [
         "https://www.remaxcommercial.com",

@@ -13,7 +13,7 @@ const BARRETT = {
   description:
     'Barrett Henry is a REALTOR\u00AE and Commercial Real Estate Advisor at REMAX Collective with 23+ years of real estate experience, specializing in Florida commercial real estate.',
   phone: '(813) 733-7907',
-  email: 'barrett@nowtb.com',
+  email: 'barrett@hencre.com',
   image: 'https://hencre.com/images/barrett-henry-headshot.jpg',
   designations: ['e-PRO', 'MRP', 'SRS', 'Hall of Fame'],
   sameAs: [

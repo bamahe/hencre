@@ -49,7 +49,7 @@ const schema = {
       },
       url: "https://hencre.com/about",
       telephone: "+1-813-733-7907",
-      email: "barrett@nowtb.com",
+      email: "barrett@hencre.com",
       knowsAbout: [
         "Commercial Real Estate",
         "Tenant Representation",

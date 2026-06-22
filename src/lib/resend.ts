@@ -18,10 +18,10 @@ function getResend(): Resend {
 }
 
 /** Barrett's email — all alerts go here */
-const BARRETT_EMAIL = 'barrett@nowtb.com';
+const BARRETT_EMAIL = 'barrett@hencre.com';
 
 /** From address for outbound emails */
-const FROM_ADDRESS = 'Barrett Henry <barrett@nowtb.com>';
+const FROM_ADDRESS = 'Barrett Henry <barrett@hencre.com>';
 
 /** Alert data for a new CRE lead */
 interface AlertEmailData {
@@ -101,7 +101,7 @@ export async function sendAutoResponder(data: AutoResponderData): Promise<{ succ
         Commercial Real Estate Advisor<br />
         REMAX Collective<br />
         <a href="tel:8137337907">(813) 733-7907</a><br />
-        <a href="mailto:barrett@nowtb.com">barrett@nowtb.com</a>
+        <a href="mailto:barrett@hencre.com">barrett@hencre.com</a>
       </p>
     `,
   });

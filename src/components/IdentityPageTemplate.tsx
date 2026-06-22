@@ -59,7 +59,7 @@ export default function IdentityPageTemplate({
       },
     },
     telephone: "(813) 733-7907",
-    email: "barrett@nowtb.com",
+    email: "barrett@hencre.com",
   };
 
   return (

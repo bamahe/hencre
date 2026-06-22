@@ -64,7 +64,7 @@ const schema = {
       name: "REMAX Commercial Real Estate — Barrett Henry",
       description: "Commercial real estate brokerage serving Sarasota County.",
       telephone: "(813) 733-7907",
-      email: "barrett@nowtb.com",
+      email: "barrett@hencre.com",
       url: "https://hencre.com/markets/sarasota",
       areaServed: { "@type": "AdministrativeArea", name: "Sarasota County, Florida" },
       employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },

@@ -132,7 +132,7 @@ const FAQS = [
   },
   {
     q: "How do I connect with a REMAX Commercial Real Estate advisor in my area?",
-    a: "Contact Barrett Henry at (813) 733-7907 or barrett@nowtb.com. As a Commercial Real Estate Advisor at REMAX Collective, Barrett coordinates commercial referrals statewide. He will connect you with the right REMAX Commercial Real Estate advisor for your market and property type — whether you need an agent in Fort Lauderdale, Orlando, Miami, or any other Florida city.",
+    a: "Contact Barrett Henry at (813) 733-7907 or barrett@hencre.com. As a Commercial Real Estate Advisor at REMAX Collective, Barrett coordinates commercial referrals statewide. He will connect you with the right REMAX Commercial Real Estate advisor for your market and property type — whether you need an agent in Fort Lauderdale, Orlando, Miami, or any other Florida city.",
   },
   {
     q: "Can Barrett Henry help with deals outside Tampa Bay?",

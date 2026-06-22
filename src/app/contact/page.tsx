@@ -61,7 +61,7 @@ const schema = {
       name: `REMAX Commercial Real Estate — ${office.name}`,
       image: "https://hencre.com/logo.png",
       telephone: "+1-813-733-7907",
-      email: "barrett@nowtb.com",
+      email: "barrett@hencre.com",
       address: {
         "@type": "PostalAddress" as const,
         streetAddress: office.address,
@@ -115,11 +115,11 @@ export default function ContactPage() {
             (813) 733-7907
           </a>
           <a
-            href="mailto:barrett@nowtb.com"
+            href="mailto:barrett@hencre.com"
             className="inline-flex items-center gap-3 rounded-lg border border-[#E5E5E5] px-6 py-4 text-lg font-semibold text-black no-underline transition-shadow hover:shadow-md hover:no-underline"
           >
             <Mail className="h-5 w-5 text-black" />
-            barrett@nowtb.com
+            barrett@hencre.com
           </a>
         </div>
       </section>

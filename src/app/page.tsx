@@ -158,7 +158,7 @@ const schema = {
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+1-813-733-7907",
-        email: "barrett@nowtb.com",
+        email: "barrett@hencre.com",
         contactType: "sales",
       },
     },
@@ -186,7 +186,7 @@ const schema = {
       },
       url: "https://hencre.com",
       telephone: "+1-813-733-7907",
-      email: "barrett@nowtb.com",
+      email: "barrett@hencre.com",
       sameAs: [
         "https://www.remaxcommercial.com",
         "https://nowtb.com",

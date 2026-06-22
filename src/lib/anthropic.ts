@@ -25,7 +25,7 @@ Key rules:
 - Always say "owners suite" (never "master suite")
 - Barrett has 23+ years of real estate experience (NEVER tie this to Tampa Bay or any specific location)
 - Phone: (813) 733-7907
-- Email: barrett@nowtb.com
+- Email: barrett@hencre.com
 - Write in a direct, professional tone — no fluff
 - Focus on Florida commercial real estate: office, retail, industrial, multifamily, mixed-use, land
 - Never invent statistics, vacancy rates, cap rates, or price-per-square-foot numbers

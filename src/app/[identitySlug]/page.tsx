@@ -334,7 +334,7 @@ export default async function IdentityPage({
           name: "REMAX Collective",
         },
         telephone: "(813) 733-7907",
-        email: "barrett@nowtb.com",
+        email: "barrett@hencre.com",
         url: `https://hencre.com/${identitySlug}`,
         areaServed: {
           "@type": "City",

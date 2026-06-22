@@ -66,7 +66,7 @@ const schema = {
       description:
         "Commercial real estate brokerage serving Hillsborough County and the greater Tampa Bay region.",
       telephone: "(813) 733-7907",
-      email: "barrett@nowtb.com",
+      email: "barrett@hencre.com",
       url: "https://hencre.com/markets/hillsborough",
       areaServed: {
         "@type": "AdministrativeArea",

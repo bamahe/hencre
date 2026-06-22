@@ -86,11 +86,11 @@ export default function Footer() {
               (813) 733-7907
             </a>
             <a
-              href="mailto:barrett@nowtb.com"
+              href="mailto:barrett@hencre.com"
               className="inline-flex items-center gap-2 text-white/80 no-underline hover:text-white hover:no-underline"
             >
               <Mail className="h-4 w-4" />
-              barrett@nowtb.com
+              barrett@hencre.com
             </a>
             <a
               href="https://nowtb.com"
