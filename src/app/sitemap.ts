@@ -59,6 +59,11 @@ const IDENTITY_ROLES = [
   "commercial-property",
 ];
 
+// Calculator page slugs
+const CALCULATORS = [
+  "cap-rate", "commercial-mortgage", "office-space", "roi",
+];
+
 const BASE_URL = "https://hencre.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -116,6 +121,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  // Calculator hub + individual calculator pages
+  const calculatorPages = [
+    {
+      url: `${BASE_URL}/calculators`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+    ...CALCULATORS.map((slug) => ({
+      url: `${BASE_URL}/calculators/${slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+
   // Identity/keyword pages
   const identityPages = IDENTITY_CITIES.flatMap((city) =>
     IDENTITY_ROLES.map((role) => ({
@@ -133,6 +154,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...marketPages,
     ...insightPages,
     ...blogPages,
+    ...calculatorPages,
     ...identityPages,
   ];
 }
