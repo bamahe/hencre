@@ -155,7 +155,7 @@ Respond in JSON format:
     : "No verified county data for this page.";
 
   const response = await anthropic.messages.create({
-    model: "claude-sonnet-4-6-20250514",
+    model: "claude-sonnet-4-5-latest",
     max_tokens: 3000,
     system: systemPrompt,
     messages: [
