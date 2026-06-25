@@ -5,6 +5,9 @@ on:
     - cron: '0 12 */3 * *'
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   publish-content:
     runs-on: ubuntu-latest
@@ -26,6 +29,8 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
       - name: Commit and push
         run: |
