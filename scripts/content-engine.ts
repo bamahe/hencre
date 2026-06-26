@@ -23,10 +23,10 @@ const MAX_ATTEMPTS = 2;
 // --- Clients ---
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! });
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+// Supabase is optional — used for content logging but not required for generation
+const supabase = process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY
+  ? createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY)
+  : null;
 
 // --- Florida counties data (inline subset for the engine) ---
 // The engine reads the full data from the built site's florida-counties module,
@@ -155,7 +155,7 @@ Respond in JSON format:
     : "No verified county data for this page.";
 
   const response = await anthropic.messages.create({
-    model: "claude-sonnet-4-5-20250514",
+    model: "claude-sonnet-4-5",
     max_tokens: 3000,
     system: systemPrompt,
     messages: [
@@ -343,6 +343,11 @@ async function main() {
   console.log(`Loaded ${counties.length} counties`);
 
   // Pull pending items from queue
+  if (!supabase) {
+    console.log("⚠️ No Supabase configured — content engine requires a content queue. Exiting.");
+    process.exit(0);
+  }
+
   const { data: items, error } = await supabase
     .from("content_queue")
     .select("*")
@@ -432,7 +437,7 @@ async function main() {
       .eq("id", item.id);
 
     // Log to content_log
-    await supabase.from("content_log").insert({
+    if (supabase) await supabase.from("content_log").insert({
       queue_id: item.id,
       action: "publish",
       status: "success",
@@ -456,7 +461,7 @@ async function markFailed(item: QueueItem, reason: string) {
     .update({ status: "failed", updated_at: new Date().toISOString() })
     .eq("id", item.id);
 
-  await supabase.from("content_log").insert({
+  if (supabase) await supabase.from("content_log").insert({
     queue_id: item.id,
     action: "review",
     status: "failed",
