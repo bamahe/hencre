@@ -348,7 +348,7 @@ export async function generateBlogPost(
       "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model: "claude-sonnet-4-20250514",
+      model: "claude-sonnet-4-6-20250627",
       max_tokens: 4096,
       messages: [{ role: "user", content: prompt }],
     }),
@@ -357,7 +357,7 @@ export async function generateBlogPost(
   const data = await response.json();
   const raw = data.content?.[0]?.text ?? "";
 
-  if (!raw) throw new Error("Claude returned empty content");
+  if (!raw) throw new Error(`Claude returned empty content. API response: ${JSON.stringify(data).slice(0, 500)}`);
 
   const content = parseContent(raw);
   const today = new Date().toISOString().split("T")[0];
