@@ -2,35 +2,27 @@
 /**
  * HenCRE Content Engine
  *
- * Runs daily via GitHub Actions. Pulls up to 10 pending items from content_queue,
- * drafts each with Haiku (cheap/fast), reviews with Sonnet (smart gatekeeper),
- * and publishes passing pages. Self-throttling: stops at 10 or when queue is empty.
+ * Runs daily via GitHub Actions. Generates up to 3 new pages per run.
+ * Scans existing pages to avoid duplicates, picks fresh topics,
+ * drafts with Haiku (cheap/fast), reviews with Sonnet (quality gate).
  *
  * HARD RULE: Drafter may NEVER invent numbers (vacancy %, cap rates, price/SF,
  * population). Only qualitative market context from verified data.
  */
 
 import Anthropic from "@anthropic-ai/sdk";
-import { createClient } from "@supabase/supabase-js";
 import * as fs from "fs";
 import * as path from "path";
 
 // --- Config ---
-const DAILY_LIMIT = 10;
+const DAILY_LIMIT = 3; // pages per run
 const PASS_THRESHOLD = 80;
 const MAX_ATTEMPTS = 2;
 
 // --- Clients ---
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! });
 
-// Supabase is optional — used for content logging but not required for generation
-const supabase = process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY
-  ? createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY)
-  : null;
-
-// --- Florida counties data (inline subset for the engine) ---
-// The engine reads the full data from the built site's florida-counties module,
-// but for the standalone script we load a JSON export.
+// --- Florida counties data ---
 const COUNTIES_DATA_PATH = path.join(__dirname, "../src/lib/florida-counties-data.json");
 
 interface CountyData {
@@ -46,7 +38,7 @@ interface QueueItem {
   id: string;
   county: string | null;
   page_type: string;
-  page_slug: string | null;
+  page_slug: string;
   status: string;
   attempts: number;
 }
@@ -66,6 +58,115 @@ function getCountyData(counties: CountyData[], name: string): CountyData | undef
   return counties.find(
     (c) => c.name.toLowerCase() === name.toLowerCase()
   );
+}
+
+// --- Scan existing pages to avoid duplicates ---
+function getExistingSlugs(): string[] {
+  const slugs: string[] = [];
+  const appDir = path.join(__dirname, "../src/app");
+
+  // Scan blog posts
+  const blogDir = path.join(appDir, "blog");
+  if (fs.existsSync(blogDir)) {
+    for (const entry of fs.readdirSync(blogDir, { withFileTypes: true })) {
+      if (entry.isDirectory() && !entry.name.startsWith("_")) {
+        slugs.push(`blog/${entry.name}`);
+      }
+    }
+  }
+
+  // Scan market pages
+  const marketsDir = path.join(appDir, "markets");
+  if (fs.existsSync(marketsDir)) {
+    for (const entry of fs.readdirSync(marketsDir, { withFileTypes: true })) {
+      if (entry.isDirectory() && !entry.name.startsWith("_")) {
+        slugs.push(`markets/${entry.name}`);
+      }
+    }
+  }
+
+  return slugs;
+}
+
+// --- Pick topics to generate ---
+function pickTopics(counties: CountyData[], existingSlugs: string[]): QueueItem[] {
+  const items: QueueItem[] = [];
+
+  // Priority 1: Tier 1 county market pages that don't exist yet
+  for (const county of counties.filter((c) => c.tier === 1)) {
+    const slug = `markets/${county.slug}`;
+    if (!existingSlugs.includes(slug)) {
+      items.push({
+        id: `market-${county.slug}`,
+        county: county.name,
+        page_type: "market",
+        page_slug: county.slug,
+        status: "pending",
+        attempts: 0,
+      });
+    }
+  }
+
+  // Priority 2: Tier 2 county market pages
+  for (const county of counties.filter((c) => c.tier === 2)) {
+    const slug = `markets/${county.slug}`;
+    if (!existingSlugs.includes(slug)) {
+      items.push({
+        id: `market-${county.slug}`,
+        county: county.name,
+        page_type: "market",
+        page_slug: county.slug,
+        status: "pending",
+        attempts: 0,
+      });
+    }
+  }
+
+  // Priority 3: Blog posts (always room for more)
+  // These get generated with AI-picked topics
+  if (items.length < DAILY_LIMIT) {
+    items.push({
+      id: `blog-auto-${Date.now()}`,
+      county: null,
+      page_type: "blog",
+      page_slug: "", // AI will pick the slug
+      status: "pending",
+      attempts: 0,
+    });
+  }
+
+  return items.slice(0, DAILY_LIMIT);
+}
+
+// --- Generate a blog topic via AI ---
+async function pickBlogTopic(existingSlugs: string[]): Promise<{ slug: string; topic: string }> {
+  const blogSlugs = existingSlugs
+    .filter((s) => s.startsWith("blog/"))
+    .map((s) => s.replace("blog/", ""))
+    .slice(0, 40);
+
+  const response = await anthropic.messages.create({
+    model: "claude-haiku-4-5-20251001",
+    max_tokens: 500,
+    system: "You are a CRE content strategist. Respond with ONLY valid JSON, no markdown fences.",
+    messages: [
+      {
+        role: "user",
+        content: `Pick a fresh blog topic for hencre.com (Florida commercial real estate authority site).
+
+EXISTING BLOG SLUGS (do NOT duplicate): ${blogSlugs.join(", ") || "none yet"}
+
+Pick something educational about Florida CRE: market trends, property types, investment strategies, due diligence, lease structures, 1031 exchanges, cap rates explained, NNN leases, Florida-specific regulations, etc.
+
+Return JSON: {"slug": "url-friendly-slug", "topic": "Full topic title"}`,
+      },
+    ],
+  });
+
+  const text = response.content.find((b) => b.type === "text")?.text || "{}";
+  const match = text.match(/\{[\s\S]*\}/);
+  if (!match) throw new Error("Failed to pick blog topic");
+  return JSON.parse(match[0]);
 }
 
 // --- Draft with Haiku (cheap model) ---
@@ -96,8 +197,6 @@ Tier: ${countyData.tier} (${countyData.tier === 1 ? "Barrett serves directly" : 
 
   const pagePrompts: Record<string, string> = {
     market: `Write a comprehensive market overview page for ${item.county} County, Florida commercial real estate. Cover key CRE corridors, active property types, demand drivers, and why this market matters. Include what services Barrett offers here.`,
-    identity: `Write an identity/SEO page for "${item.page_slug}". This targets someone searching for a commercial real estate professional in this area. Cover Barrett's qualifications, the local CRE landscape, and why he's the right broker.`,
-    "property-type": `Write a property type page about ${item.page_slug} in Florida. Cover what this property type involves, key considerations for buyers/tenants/investors, and the Florida market for this asset class.`,
     blog: `Write a blog post about "${item.page_slug}". Make it educational, actionable, and grounded in real CRE expertise. Florida angle where relevant.`,
   };
 
@@ -176,7 +275,6 @@ ${draft}`,
   const text = textBlock?.text || "{}";
 
   try {
-    // Extract JSON from the response (may be wrapped in markdown code fences)
     const jsonMatch = text.match(/\{[\s\S]*\}/);
     if (!jsonMatch) throw new Error("No JSON found in response");
     const result = JSON.parse(jsonMatch[0]);
@@ -200,7 +298,10 @@ function generatePageFile(
 ): string {
   const title = generateTitle(item);
   const description = generateDescription(item, countyData);
-  const slug = item.page_slug || item.county || "page";
+
+  // Escape quotes in content for JSX template literal safety
+  const safeTitle = title.replace(/"/g, '\\"');
+  const safeDesc = description.replace(/"/g, '\\"');
 
   return `import type { Metadata } from "next";
 import { Hero } from "@/components/Hero";
@@ -209,11 +310,11 @@ import { SchemaOrg } from "@/components/SchemaOrg";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "${title} | HenCRE",
-  description: "${description}",
+  title: "${safeTitle} | HenCRE",
+  description: "${safeDesc}",
   openGraph: {
-    title: "${title} | HenCRE",
-    description: "${description}",
+    title: "${safeTitle} | HenCRE",
+    description: "${safeDesc}",
     url: "https://hencre.com/${getPagePath(item)}",
     siteName: "HenCRE",
     type: "article",
@@ -226,8 +327,8 @@ export default function Page() {
       <SchemaOrg schema={{
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "${title}",
-        "description": "${description}",
+        "headline": "${safeTitle}",
+        "description": "${safeDesc}",
         "author": {
           "@type": "Person",
           "name": "Barrett Henry",
@@ -238,9 +339,9 @@ export default function Page() {
       <Breadcrumbs items={[
         { label: "Home", href: "/" },
         { label: "${getBreadcrumbParent(item)}", href: "/${getBreadcrumbParentPath(item)}" },
-        { label: "${title}", href: "/${getPagePath(item)}" },
+        { label: "${safeTitle}", href: "/${getPagePath(item)}" },
       ]} />
-      <Hero title="${title}" subtitle="${description}" />
+      <Hero title="${safeTitle}" subtitle="${safeDesc}" />
       <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
         ${content}
       </main>
@@ -261,14 +362,7 @@ function generateTitle(item: QueueItem): string {
   if (item.page_type === "market" && item.county) {
     return `Commercial Real Estate in ${item.county} County, Florida`;
   }
-  if (item.page_type === "identity" && item.page_slug) {
-    // Convert slug like "commercial-real-estate-agent-tampa" to title
-    return item.page_slug
-      .split("-")
-      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-      .join(" ");
-  }
-  if (item.page_type === "blog" && item.page_slug) {
+  if (item.page_slug) {
     return item.page_slug
       .split("-")
       .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
@@ -285,8 +379,7 @@ function generateDescription(item: QueueItem, countyData: CountyData | undefined
 }
 
 function getPagePath(item: QueueItem): string {
-  if (item.page_type === "market") return `markets/${item.county?.toLowerCase()}`;
-  if (item.page_type === "identity") return item.page_slug || "";
+  if (item.page_type === "market") return `markets/${item.page_slug}`;
   if (item.page_type === "blog") return `blog/${item.page_slug}`;
   return item.page_slug || "";
 }
@@ -294,9 +387,7 @@ function getPagePath(item: QueueItem): string {
 function getBreadcrumbParent(item: QueueItem): string {
   const parents: Record<string, string> = {
     market: "Markets",
-    identity: "Services",
     blog: "Blog",
-    "property-type": "Commercial",
   };
   return parents[item.page_type] || "Home";
 }
@@ -304,80 +395,58 @@ function getBreadcrumbParent(item: QueueItem): string {
 function getBreadcrumbParentPath(item: QueueItem): string {
   const paths: Record<string, string> = {
     market: "markets",
-    identity: "services",
     blog: "blog",
-    "property-type": "commercial",
   };
   return paths[item.page_type] || "";
-}
-
-// --- Fetch Unsplash photo ---
-async function fetchPhoto(query: string): Promise<{ url: string; alt: string } | null> {
-  const key = process.env.UNSPLASH_ACCESS_KEY;
-  if (!key) return null;
-
-  try {
-    const res = await fetch(
-      `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=1&orientation=landscape`,
-      { headers: { Authorization: `Client-ID ${key}` } }
-    );
-    const data = await res.json();
-    const photo = data.results?.[0];
-    if (!photo) return null;
-    return {
-      url: photo.urls.regular,
-      alt: photo.alt_description || `${query} - Florida commercial real estate`,
-    };
-  } catch {
-    return null;
-  }
 }
 
 // --- Main engine loop ---
 async function main() {
   console.log("🏢 HenCRE Content Engine starting...");
-  console.log(`Daily limit: ${DAILY_LIMIT} pages`);
 
   // Load county data
   const counties = loadCountyData();
   console.log(`Loaded ${counties.length} counties`);
 
-  // Pull pending items from queue
-  if (!supabase) {
-    console.log("⚠️ No Supabase configured — content engine requires a content queue. Exiting.");
-    process.exit(0);
+  // Scan existing pages
+  const existingSlugs = getExistingSlugs();
+  console.log(`Found ${existingSlugs.length} existing pages`);
+
+  // Pick topics to generate
+  const items = pickTopics(counties, existingSlugs);
+
+  if (items.length === 0) {
+    console.log("✅ All county pages exist. Adding blog posts only.");
+    items.push({
+      id: `blog-auto-${Date.now()}`,
+      county: null,
+      page_type: "blog",
+      page_slug: "",
+      status: "pending",
+      attempts: 0,
+    });
   }
 
-  const { data: items, error } = await supabase
-    .from("content_queue")
-    .select("*")
-    .eq("status", "pending")
-    .order("created_at", { ascending: true })
-    .limit(DAILY_LIMIT);
-
-  if (error) {
-    console.error("Failed to fetch queue:", error.message);
-    process.exit(1);
-  }
-
-  if (!items || items.length === 0) {
-    console.log("✅ Queue is empty. Nothing to publish today.");
-    process.exit(0);
-  }
-
-  console.log(`Found ${items.length} pending items`);
+  console.log(`Generating ${items.length} pages this run`);
 
   let published = 0;
   let failed = 0;
 
-  for (const item of items as QueueItem[]) {
-    console.log(`\n--- Processing: ${item.page_type} / ${item.page_slug || item.county} ---`);
-
-    // Mark as drafting
-    await supabase
-      .from("content_queue")
-      .update({ status: "drafting", attempts: item.attempts + 1 })
-      .eq("id", item.id);
+  for (const item of items) {
+    // For blog posts, pick a topic first
+    if (item.page_type === "blog" && !item.page_slug) {
+      try {
+        const topic = await pickBlogTopic(existingSlugs);
+        item.page_slug = topic.slug;
+        console.log(`\n--- Blog topic picked: ${topic.topic} (${topic.slug}) ---`);
+      } catch (err) {
+        console.error("Failed to pick blog topic:", err);
+        failed++;
+        continue;
+      }
+    } else {
+      console.log(`\n--- Processing: ${item.page_type} / ${item.page_slug || item.county} ---`);
+    }
 
     const countyData = item.county ? getCountyData(counties, item.county) : undefined;
 
@@ -388,7 +457,6 @@ async function main() {
       draft = await draftContent(item, countyData);
     } catch (err) {
       console.error("  Draft failed:", err);
-      await markFailed(item, "Draft generation failed");
       failed++;
       continue;
     }
@@ -399,7 +467,7 @@ async function main() {
     console.log(`  Score: ${review.score} | Pass: ${review.pass}`);
 
     // One rewrite attempt if failed
-    if (!review.pass && item.attempts < MAX_ATTEMPTS) {
+    if (!review.pass) {
       console.log("  Attempting rewrite...");
       review = await reviewContent(review.revised, item, countyData);
       console.log(`  Rewrite score: ${review.score} | Pass: ${review.pass}`);
@@ -407,7 +475,6 @@ async function main() {
 
     if (!review.pass) {
       console.log("  ❌ Failed quality gate");
-      await markFailed(item, review.feedback);
       failed++;
       continue;
     }
@@ -417,7 +484,7 @@ async function main() {
     const filePath = path.join(__dirname, "../src/app", pagePath, "page.tsx");
     const fileDir = path.dirname(filePath);
 
-    // Create directory if needed
+    // Create directory
     fs.mkdirSync(fileDir, { recursive: true });
 
     // Generate and write the page
@@ -425,49 +492,22 @@ async function main() {
     fs.writeFileSync(filePath, pageContent, "utf-8");
     console.log(`  📄 Wrote: src/app/${pagePath}/page.tsx`);
 
-    // Step 4: Update queue
-    const publishedUrl = `https://hencre.com/${pagePath}`;
-    await supabase
-      .from("content_queue")
-      .update({
-        status: "published",
-        published_url: publishedUrl,
-        updated_at: new Date().toISOString(),
-      })
-      .eq("id", item.id);
-
-    // Log to content_log
-    if (supabase) await supabase.from("content_log").insert({
-      queue_id: item.id,
-      action: "publish",
-      status: "success",
-      score: review.score,
-      details: { feedback: review.feedback, page_path: pagePath },
-    });
+    // Track it so we don't duplicate next run
+    existingSlugs.push(pagePath);
 
     published++;
-    console.log(`  ✅ Published: ${publishedUrl}`);
+    console.log(`  ✅ Published: https://hencre.com/${pagePath}`);
   }
 
   console.log(`\n========================================`);
   console.log(`Content Engine Complete`);
   console.log(`Published: ${published} | Failed: ${failed} | Total: ${items.length}`);
   console.log(`========================================`);
-}
 
-async function markFailed(item: QueueItem, reason: string) {
-  await supabase
-    .from("content_queue")
-    .update({ status: "failed", updated_at: new Date().toISOString() })
-    .eq("id", item.id);
-
-  if (supabase) await supabase.from("content_log").insert({
-    queue_id: item.id,
-    action: "review",
-    status: "failed",
-    score: 0,
-    details: { reason },
-  });
+  // If we published anything, the GitHub Action workflow will commit and deploy
+  if (published === 0) {
+    console.log("No new pages generated this run.");
+  }
 }
 
 // Run
