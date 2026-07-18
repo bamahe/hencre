@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "REMAX Commercial\u00AE | HenCRE Florida Commercial Real Estate Advisors",
+    siteName: "HenCRE",
     images: [
       {
         url: "https://hencre.com/og-image.png",

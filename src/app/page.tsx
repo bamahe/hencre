@@ -166,7 +166,8 @@ const schema = {
       "@type": "WebSite",
       "@id": "https://hencre.com/#website",
       url: "https://hencre.com",
-      name: "REMAX Commercial Real Estate",
+      name: "HenCRE",
+      alternateName: "REMAX Commercial Real Estate Florida",
       publisher: { "@id": "https://hencre.com/#organization" },
     },
     {

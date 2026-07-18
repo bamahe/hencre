@@ -32,7 +32,7 @@ export function organizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
-    name: 'REMAX Commercial\u00AE | HenCRE Florida Commercial Real Estate Advisors',
+    name: 'HenCRE — REMAX Commercial Real Estate Florida',
     url: 'https://hencre.com',
     logo: 'https://hencre.com/icon-512.png',
     description:
@@ -264,7 +264,8 @@ export function webSiteSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'REMAX Commercial\u00AE | HenCRE Florida Commercial Real Estate Advisors',
+    name: 'HenCRE',
+    alternateName: 'REMAX Commercial Real Estate Florida',
     url: 'https://hencre.com',
     description:
       'Florida commercial real estate services — leasing, sales, investment, and valuations across all 67 counties.',
