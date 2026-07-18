@@ -383,5 +383,21 @@
       "photographer": null,
       "link": null
     }
+  },
+  {
+    "slug": "sarasota-warehouse-distribution-space-guide",
+    "title": "Sarasota Warehouse Space: Finding the Right Fit",
+    "excerpt": "Finding warehouse or distribution space in Sarasota takes more than a quick search. This guide covers what to look for, what to negotiate, and why Sarasota makes sense for logistics and storage operations.",
+    "date": "2026-07-18",
+    "category": "business-guide",
+    "city": "Sarasota",
+    "county": "Sarasota",
+    "businessType": "warehouse or distribution center",
+    "image": {
+      "url": "/images/blog/sarasota-warehouse-distribution-space-guide.jpg",
+      "alt": "cars parked on parking lot near building during daytime",
+      "photographer": "Daniel Holland",
+      "link": "https://unsplash.com/@ghostdasquarian"
+    }
   }
 ]
