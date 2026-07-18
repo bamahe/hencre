@@ -303,5 +303,85 @@
       "photographer": "Anita Denunzio",
       "link": "https://unsplash.com/photos/an-aerial-view-of-a-city-and-a-body-of-water-JylOa987Rwo"
     }
+  },
+  {
+    "slug": "florida-insurance-crisis-investment-properties",
+    "title": "Florida's Insurance Crisis and Your Investment Property",
+    "excerpt": "Florida property insurance premiums have doubled or tripled since 2020. Here's how the crisis is reshaping ROI for Tampa Bay landlords — and the exit options available.",
+    "date": "2026-06-17",
+    "category": "investor",
+    "city": "Tampa",
+    "county": "Hillsborough",
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=500&fit=crop",
+      "alt": "Florida property insurance and investment strategy",
+      "photographer": null,
+      "link": null
+    }
+  },
+  {
+    "slug": "selling-tenant-occupied-investment-property-florida",
+    "title": "Selling Tenant-Occupied Investment Property in Florida",
+    "excerpt": "Tenants complicate investment property sales in Florida. Compare cash buyer vs. traditional listing for tenant-occupied properties — timelines, access, lease obligations, and net proceeds.",
+    "date": "2026-06-17",
+    "category": "investor",
+    "city": null,
+    "county": null,
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=500&fit=crop",
+      "alt": "Selling tenant-occupied investment property",
+      "photographer": "Tierra Mallorca",
+      "link": "https://unsplash.com/@tierramallorca"
+    }
+  },
+  {
+    "slug": "investment-property-divorce-liquidation-florida",
+    "title": "Liquidating Florida Investment Property in a Divorce",
+    "excerpt": "Divorce-driven liquidation of Florida investment property involves court timelines, equitable distribution, and capital gains exposure that require specific planning before the sale closes.",
+    "date": "2026-06-24",
+    "category": "investor",
+    "city": null,
+    "county": null,
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=500&fit=crop",
+      "alt": "Investment property divorce liquidation documents",
+      "photographer": null,
+      "link": null
+    }
+  },
+  {
+    "slug": "tampa-bay-rental-property-exit-strategy-2026",
+    "title": "Tampa Bay Rental Property Exit Strategy: When the Numbers Say Sell in 2026",
+    "excerpt": "Rising insurance costs, uncapped investment property tax assessments, and deferred maintenance demands are compressing Tampa Bay rental yields. Here is how to evaluate your exit options.",
+    "date": "2026-06-24",
+    "category": "investor",
+    "city": "Tampa",
+    "county": "Hillsborough",
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=500&fit=crop",
+      "alt": "Tampa Bay commercial skyline",
+      "photographer": "Sean Pollock",
+      "link": "https://unsplash.com/@seanpollock"
+    }
+  },
+  {
+    "slug": "termite-damage-investment-property-florida",
+    "title": "Termite Damage in Florida Investment Property: The ROI Reality Check",
+    "excerpt": "WDO findings on Florida investment properties trigger mandatory lender repair requirements that can consume years of rental income. Here is how to evaluate the repair-vs-sell decision.",
+    "date": "2026-06-24",
+    "category": "investor",
+    "city": null,
+    "county": null,
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=500&fit=crop",
+      "alt": "Florida property inspection for termite damage",
+      "photographer": null,
+      "link": null
+    }
   }
 ]
