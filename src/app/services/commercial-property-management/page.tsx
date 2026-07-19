@@ -290,7 +290,7 @@ export default function CommercialPropertyManagementPage() {
             A competent commercial property manager in Florida should deliver transparent financial reporting on a monthly cadence, maintain a network of licensed and insured vendors, enforce lease compliance without damaging tenant relationships, and proactively communicate with owners about market conditions, capital needs, and operational issues. You should never have to chase your property manager for information.
           </p>
           <p>
-            Florida Statute 475 requires property managers to hold an active real estate license and maintain trust accounting for all funds handled on behalf of property owners. The Florida Real Estate Commission (FREC) regulates these accounts and conducts periodic audits. Working with a licensed REALTOR{"\u00AE"} like Barrett ensures your management engagement meets every legal and fiduciary standard.
+            Florida Statute 475 requires property managers to hold an active real estate license and maintain trust accounting for all funds handled on behalf of property owners. The Florida Real Estate Commission (FREC) regulates these accounts and conducts periodic audits. Working with a licensed REALTOR® like Barrett ensures your management engagement meets every legal and fiduciary standard.
           </p>
         </div>
       </section>
@@ -301,7 +301,7 @@ export default function CommercialPropertyManagementPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">How Does Barrett Henry Handle Commercial Property Management?</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
-              Barrett brings 23+ years of real estate experience to commercial property management. As a REALTOR{"\u00AE"} and Commercial Real Estate Advisor at REMAX Collective, Barrett integrates property management with REMAX Commercial&apos;s leasing and <Link href="/services/investment-sales" className="font-semibold text-black underline">investment sales</Link> services — giving owners a single point of contact for operations, leasing, and disposition strategy.
+              Barrett brings 23+ years of real estate experience to commercial property management. As a REALTOR® and Commercial Real Estate Advisor at REMAX Collective, Barrett integrates property management with REMAX Commercial&apos;s leasing and <Link href="/services/investment-sales" className="font-semibold text-black underline">investment sales</Link> services — giving owners a single point of contact for operations, leasing, and disposition strategy.
             </p>
             <p>
               This integrated approach matters. When a tenant vacates, Barrett does not just list the space and wait. He activates <Link href="/services/commercial-property-management/vacancy-marketing" className="font-semibold text-black underline">vacancy marketing</Link> through LoopNet, CoStar, Crexi, and the REMAX Commercial broker network simultaneously. When a lease renewal approaches, he combines <Link href="/services/commercial-property-management/lease-administration" className="font-semibold text-black underline">lease administration</Link> data with current market analysis from his <Link href="/services/cre-valuation" className="font-semibold text-black underline">CRE valuation</Link> practice to negotiate terms that reflect true market value.

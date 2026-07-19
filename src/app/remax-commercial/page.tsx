@@ -164,7 +164,7 @@ export default function RemaxCommercialPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "REMAX Commercial\u00AE", href: "/remax-commercial" }]} />
+      <Breadcrumbs items={[{ label: "REMAX Commercial®", href: "/remax-commercial" }]} />
 
       {/* ---- Hero ---- */}
       <Hero

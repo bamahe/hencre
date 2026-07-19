@@ -80,7 +80,7 @@ export async function sendAutoResponder(data: AutoResponderData): Promise<{ succ
   const { error } = await getResend().emails.send({
     from: FROM_ADDRESS,
     to: data.toEmail,
-    subject: 'Your Commercial Real Estate Inquiry \u2014 Barrett Henry, REALTOR\u00AE',
+    subject: 'Your Commercial Real Estate Inquiry \u2014 Barrett Henry, REALTOR®',
     html: `
       <p>Hi ${data.toName},</p>
       <p>

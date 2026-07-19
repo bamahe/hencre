@@ -18,8 +18,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "REMAX Commercial\u00AE | HenCRE Florida Commercial Real Estate Advisors",
-    template: "%s | HenCRE \u2014 REMAX Commercial\u00AE Florida",
+    default: "REMAX Commercial® | HenCRE Florida Commercial Real Estate Advisors",
+    template: "%s | HenCRE \u2014 REMAX Commercial® Florida",
   },
   description:
     "REMAX Commercial Real Estate — A better way in commercial real estate. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective. Full-service CRE brokerage serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world\u2019s most recognized real estate brand.",

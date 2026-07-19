@@ -11,7 +11,7 @@ const BARRETT = {
   name: 'Barrett Henry',
   jobTitle: 'Commercial Real Estate Advisor',
   description:
-    'Barrett Henry is a REALTOR\u00AE and Commercial Real Estate Advisor at REMAX Collective with 23+ years of real estate experience, specializing in Florida commercial real estate.',
+    'Barrett Henry is a REALTOR® and Commercial Real Estate Advisor at REMAX Collective with 23+ years of real estate experience, specializing in Florida commercial real estate.',
   phone: '(813) 733-7907',
   email: 'barrett@hencre.com',
   image: 'https://hencre.com/images/barrett-henry-headshot.jpg',
@@ -36,7 +36,7 @@ export function organizationSchema() {
     url: 'https://hencre.com',
     logo: 'https://hencre.com/icon-512.png',
     description:
-      'Florida commercial real estate services by Barrett Henry, REALTOR\u00AE at REMAX Collective. Specializing in leasing, sales, investment, and valuations across Tampa Bay and all 67 Florida counties.',
+      'Florida commercial real estate services by Barrett Henry, REALTOR® at REMAX Collective. Specializing in leasing, sales, investment, and valuations across Tampa Bay and all 67 Florida counties.',
     telephone: BARRETT.phone,
     email: BARRETT.email,
     sameAs: BARRETT.sameAs,

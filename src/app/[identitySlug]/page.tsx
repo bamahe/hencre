@@ -184,9 +184,9 @@ const ROLE_VARIANTS: RoleVariant[] = [
   },
   {
     suffix: "realtor",
-    roleTitle: "Commercial REALTOR\u00AE",
+    roleTitle: "Commercial REALTOR®",
     roleDescription:
-      "A commercial REALTOR\u00AE is a licensed real estate professional who is also a member of the National Association of REALTORS\u00AE, adhering to a strict code of ethics. This designation ensures that your broker operates under professional standards that prioritize your interests throughout the transaction.",
+      "A commercial REALTOR® is a licensed real estate professional who is also a member of the National Association of REALTORS®, adhering to a strict code of ethics. This designation ensures that your broker operates under professional standards that prioritize your interests throughout the transaction.",
   },
   {
     suffix: "broker",
