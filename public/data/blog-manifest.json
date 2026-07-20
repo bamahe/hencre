@@ -432,5 +432,16 @@
     "county": "Citrus",
     "businessType": "office space or coworking",
     "image": null
+  },
+  {
+    "slug": "brandon-commercial-real-estate-guide-2026",
+    "title": "Brandon FL Commercial Real Estate: Market Guide 2026",
+    "excerpt": "Brandon, Hillsborough County's most active suburban submarket, offers strong fundamentals for retail, office, industrial, and mixed-use investors and tenants. Here's what you need to know before you move.",
+    "date": "2026-07-20",
+    "category": "city-market",
+    "city": "Brandon",
+    "county": "Hillsborough",
+    "businessType": null,
+    "image": null
   }
 ]
