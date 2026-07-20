@@ -4,6 +4,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
 import RelatedLinks from "@/components/RelatedLinks";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
@@ -33,20 +34,67 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Do You Need a Commercial Real Estate Broker?",
-  description:
-    "When and why to hire a commercial real estate broker — tenant representation, buyer advocacy, and lease negotiation.",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
+const faqData = [
+  {
+    question: "Is tenant representation free for the tenant?",
+    answer:
+      "In most commercial lease transactions, the landlord pays both the listing broker's commission and the tenant representative's commission. As a tenant, you receive professional representation at no direct out-of-pocket cost. This is one of the most misunderstood aspects of commercial real estate — there is no reason to walk into a lease negotiation without a broker in your corner.",
   },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/do-you-need-a-commercial-real-estate-broker",
+  {
+    question: "What is the difference between a tenant rep and a listing agent?",
+    answer:
+      "A listing agent represents the seller or landlord and is legally obligated to act in their client's best interest. A tenant representative works exclusively for you and negotiates on your behalf. Using the landlord's listing agent to represent you creates a conflict of interest that disadvantages you at the negotiating table.",
+  },
+  {
+    question: "How do I know if a broker specializes in commercial real estate?",
+    answer:
+      "Look for a broker who focuses exclusively or primarily on commercial transactions. Ask about their recent deals, the property types they work with, and their geographic coverage. Commercial and residential real estate are very different specialties. A broker with deep commercial experience will provide significantly more value than a residential agent who does occasional commercial work.",
+  },
+  {
+    question: "What questions should I ask a commercial broker before hiring them?",
+    answer:
+      "Ask about their experience with your specific property type and geography, how many transactions they complete annually, whether they work with buyers, sellers, or both, and how they will communicate throughout the process. Request references from recent clients on comparable deals. A good broker will welcome these questions.",
+  },
+  {
+    question: "Can a commercial broker help with lease renewals, not just new leases?",
+    answer:
+      "Absolutely. Lease renewals are one of the highest-value situations where a broker adds ROI. The landlord knows what the market looks like — you may not. A broker analyzes current market rents, identifies leverage points, and negotiates improved renewal terms including rent reductions, TI allowances for improvements, and more favorable escalation schedules.",
+  },
+  {
+    question: "Do I need a broker if I am buying commercial property as an investment?",
+    answer:
+      "Yes. The financial analysis involved in evaluating a commercial investment — verifying NOI, assessing tenant risk, analyzing lease terms, and determining fair market value — requires specialized expertise. Errors in underwriting can cost you tens of thousands of dollars or more. A broker who understands investment analysis provides a different level of service than one who only handles leasing.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      headline: "Do You Need a Commercial Real Estate Broker?",
+      description:
+        "When and why to hire a commercial real estate broker — tenant representation, buyer advocacy, and lease negotiation.",
+      datePublished: "2026-04-28",
+      dateModified: "2026-07-20",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Commercial Real Estate Advisor",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
+      publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/do-you-need-a-commercial-real-estate-broker",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqData.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
 };
 
 const relatedLinks = [
@@ -75,7 +123,7 @@ const relatedLinks = [
 export default function NeedABrokerPage() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
@@ -101,27 +149,35 @@ export default function NeedABrokerPage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Source properties.</strong> Many commercial opportunities are not publicly listed. Brokers have networks and databases that give you access to off-market deals and properties that have not hit the open market yet.</li>
-          <li><strong>Analyze deals.</strong> We evaluate the financial performance of properties — NOI, cap rates, rent comparables, and total occupancy costs. We know what a good deal looks like in the current market.</li>
-          <li><strong>Negotiate terms.</strong> Commercial lease negotiation involves dozens of provisions beyond just rent — personal guarantees, CAM caps, tenant improvement allowances, renewal options, exclusivity clauses, and more. We know what to ask for and what to fight for.</li>
+          <li><strong>Analyze deals.</strong> We evaluate the financial performance of properties — NOI, <a href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</a>, rent comparables, and total occupancy costs. We know what a good deal looks like in the current market.</li>
+          <li><strong>Negotiate terms.</strong> Commercial lease negotiation involves dozens of provisions beyond just rent — personal guarantees, <a href="/insights/cam-charges-explained" className="text-accent underline">CAM caps</a>, tenant improvement allowances, renewal options, exclusivity clauses, and more. We know what to ask for and what to fight for.</li>
           <li><strong>Manage the process.</strong> From letter of intent through closing, there are inspections, environmental assessments, financing, legal review, and deadlines to coordinate. We keep the process on track.</li>
           <li><strong>Provide market knowledge.</strong> We know what comparable properties are renting for, what has sold recently, and what the market trajectory looks like. This intelligence informs every decision.</li>
         </ul>
+
+        <Image
+          src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=500&fit=crop"
+          alt="commercial real estate broker meeting with clients to discuss lease options"
+          width={800}
+          height={500}
+          className="my-10 w-full rounded-lg"
+        />
 
         <h2 className="mt-10 text-2xl font-bold text-black">When You Definitely Need a Broker</h2>
 
         <h3 className="mt-6 text-xl font-bold text-black">You Are a First-Time Commercial Tenant</h3>
         <p className="mt-3 text-[#666666] leading-relaxed">
-          If you have never signed a commercial lease before, going without representation is risky. Commercial leases are not standardized consumer documents — they are negotiated agreements where every clause matters. A broker protects you from signing terms that cost you money or lock you into obligations you do not understand.
+          If you have never signed a <a href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">commercial lease</a> before, going without representation is risky. Commercial leases are not standardized consumer documents — they are negotiated agreements where every clause matters. A broker protects you from signing terms that cost you money or lock you into obligations you do not understand.
         </p>
 
         <h3 className="mt-6 text-xl font-bold text-black">You Are Buying Investment Property</h3>
         <p className="mt-3 text-[#666666] leading-relaxed">
-          The financial analysis involved in evaluating a commercial investment property — verifying NOI, assessing tenant risk, analyzing lease terms, and determining fair market value — requires expertise. Mistakes in underwriting can cost you tens of thousands of dollars or more.
+          The financial analysis involved in evaluating a <a href="/services/investment-sales" className="text-accent underline">commercial investment property</a> — verifying NOI, assessing tenant risk, analyzing lease terms, and determining fair market value — requires expertise. Mistakes in underwriting can cost you tens of thousands of dollars or more.
         </p>
 
         <h3 className="mt-6 text-xl font-bold text-black">You Are Selling Commercial Property</h3>
         <p className="mt-3 text-[#666666] leading-relaxed">
-          A broker brings exposure, marketing, buyer networks, and negotiation skills. We position the property to maximize value and manage the sales process from listing through closing. The commission we earn is typically more than offset by the higher price and faster timeline.
+          A broker brings exposure, marketing, buyer networks, and negotiation skills through our <a href="/services/dispositions" className="text-accent underline">dispositions service</a>. We position the property to maximize value and manage the sales process from listing through closing. The commission we earn is typically more than offset by the higher price and faster timeline.
         </p>
 
         <h3 className="mt-6 text-xl font-bold text-black">You Are Relocating or Expanding Your Business</h3>
@@ -129,12 +185,20 @@ export default function NeedABrokerPage() {
           Site selection is more complex than finding a space with the right square footage. We evaluate zoning, parking ratios, visibility, co-tenancy, and dozens of other factors that affect whether a location will work for your business. A wrong location choice is far more expensive than a broker&apos;s fee.
         </p>
 
+        <Image
+          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=500&fit=crop"
+          alt="commercial real estate property available for lease representing opportunity for tenants"
+          width={800}
+          height={500}
+          className="my-10 w-full rounded-lg"
+        />
+
         <h2 className="mt-10 text-2xl font-bold text-black">The Cost Question: Who Pays the Broker?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           This is the part that surprises most people, especially those coming from the residential world. In commercial real estate:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Tenant representation</strong> — the landlord typically pays the commission for both the listing broker and the tenant&apos;s broker. Tenant representation is usually free to the tenant.</li>
+          <li><strong>Tenant representation</strong> — the landlord typically pays the commission for both the listing broker and the tenant&apos;s broker. <a href="/services/tenant-representation" className="text-accent underline">Tenant representation</a> is usually free to the tenant.</li>
           <li><strong>Buyer representation</strong> — the seller typically pays the commission. Buyer representation is usually free to the buyer.</li>
           <li><strong>Seller/landlord representation</strong> — the seller or landlord pays their broker directly from proceeds.</li>
         </ul>
@@ -161,16 +225,34 @@ export default function NeedABrokerPage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Commercial specialization.</strong> Residential and commercial are different industries. Make sure your broker focuses on commercial transactions.</li>
-          <li><strong>Local market knowledge.</strong> They should know the market you are looking in — comparable rents, recent transactions, and the landlord and investor landscape.</li>
-          <li><strong>Property type experience.</strong> Industrial, office, retail, and multifamily each have their own dynamics. Find someone who knows your property type.</li>
+          <li><strong>Local market knowledge.</strong> They should know the market you are looking in — comparable rents, recent transactions, and the landlord and investor landscape. Check their <a href="/markets/hillsborough" className="text-accent underline">market coverage</a>.</li>
+          <li><strong>Property type experience.</strong> <a href="/commercial/industrial-warehouse" className="text-accent underline">Industrial</a>, <a href="/commercial/office-space" className="text-accent underline">office</a>, <a href="/commercial/retail-space" className="text-accent underline">retail</a>, and <a href="/commercial/multifamily" className="text-accent underline">multifamily</a> each have their own dynamics. Find someone who knows your property type.</li>
           <li><strong>Responsiveness and communication.</strong> You want a broker who returns calls, explains things clearly, and keeps you informed throughout the process.</li>
         </ul>
+
+        <Image
+          src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop"
+          alt="reviewing a commercial lease agreement with professional guidance"
+          width={800}
+          height={500}
+          className="my-10 w-full rounded-lg"
+        />
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           A good commercial broker does more than find you a space or list your property. We protect your financial interests, uncover risks you would not see on your own, and negotiate terms that save you money. For most commercial real estate transactions, having a broker is not just helpful — it is one of the smartest moves you can make. And for tenants and buyers, it usually costs you nothing.
         </p>
       </article>
+
+      {/* ---- FAQ ---- */}
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
+            Commercial Real Estate Broker — Frequently Asked Questions
+          </h2>
+          <FAQAccordion items={faqData} />
+        </div>
+      </section>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
@@ -180,6 +262,10 @@ export default function NeedABrokerPage() {
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />
+
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
     </>
   );
 }

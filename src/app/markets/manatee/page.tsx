@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -48,6 +49,11 @@ const faqs = [
     question: "How does Barrett Henry serve CRE clients in Manatee County?",
     answer:
       "Barrett provides buyer and seller representation, tenant and landlord lease negotiation, investment analysis, land acquisition, and disposition strategy across all commercial property types. He works with retailers seeking I-75 visibility, industrial users near Port Manatee, and investors looking for value in a growing market.",
+  },
+  {
+    question: "Is Manatee County good for commercial real estate investment?",
+    answer:
+      "Manatee County offers solid investment fundamentals — population growth, diversified demand drivers, a deep-water port for industrial users, and pricing below the Tampa and Sarasota cores. The Lakewood Ranch corridor has demonstrated that high-income residential growth creates durable retail and medical office demand. Investors who entered this market early have seen both income and appreciation.",
   },
 ];
 
@@ -116,26 +122,36 @@ export default function ManateeMarketPage() {
               Ellenton, and into the master-planned community of Lakewood Ranch — one of
               the top-selling master-planned communities in the country. That residential
               growth engine has pulled commercial development along with it, creating new
-              retail nodes, medical campuses, and industrial facilities throughout the county.
+              retail nodes, medical campuses, and <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial facilities</a> throughout the county.
             </p>
             <p>
               Port Manatee gives the county something most suburban markets lack: a
               deep-water port with direct access to international shipping lanes. The port
               and its surrounding industrial parks support distribution, cold storage,
               building materials, and manufacturing operations. Combined with I-75 access
-              and proximity to both Tampa and Sarasota, Manatee County offers a logistics
+              and proximity to both <a href="/markets/hillsborough" className="text-accent underline">Tampa</a> and <a href="/markets/sarasota" className="text-accent underline">Sarasota</a>, Manatee County offers a logistics
               and commercial profile that punches above its weight.
             </p>
             <p>
               Downtown Bradenton has undergone a steady revitalization, with new restaurants,
-              galleries, and small office users bringing life to a historic core. The Riverwalk
+              galleries, and small <a href="/commercial/office-space" className="text-accent underline">office users</a> bringing life to a historic core. The Riverwalk
               and Village of the Arts districts have become draws for visitors and residents,
               creating a more vibrant commercial environment that supports ground-floor retail
-              and boutique office space.
+              and boutique office space. Read more about <a href="/blog/bradenton-commercial-real-estate-opportunities" className="text-accent underline">Bradenton commercial real estate opportunities</a>.
             </p>
           </div>
         </div>
       </section>
+
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=900&h=500&fit=crop"
+          alt="port and waterfront commercial area representing Manatee County's industrial and logistics market"
+          width={900}
+          height={500}
+          className="w-full rounded-lg"
+        />
+      </div>
 
       {/* ---- Key Corridors ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
@@ -146,31 +162,44 @@ export default function ManateeMarketPage() {
               <strong className="text-black">I-75 Interchange Nodes</strong> — Each I-75
               interchange through Manatee County — at SR 64, US-301, SR 70, and University
               Parkway — creates a commercial hub. These nodes attract grocery-anchored
-              retail, quick-service restaurants, gas stations, hotels, and pad-site users
+              <a href="/commercial/retail-space" className="text-accent underline"> retail</a>, quick-service restaurants, gas stations, hotels, and pad-site users
               that benefit from high traffic counts and interstate visibility.
             </p>
             <p>
               <strong className="text-black">Port Manatee / US-41 South</strong> — The
               industrial zone surrounding Port Manatee extends along US-41 and into the
               Palmetto area. Warehouses, distribution centers, and manufacturing facilities
-              serve both port-related and domestic logistics operations.
+              serve both port-related and domestic logistics operations. <a href="/services/investment-sales" className="text-accent underline">Investment sales</a> of
+              industrial assets near the port have attracted regional and national buyers.
             </p>
             <p>
               <strong className="text-black">Lakewood Ranch</strong> — This large-scale
               master-planned community on the Manatee-Sarasota county line has created
               its own commercial ecosystem. Office space, medical campuses, retail centers,
               and hospitality properties serve a growing population of residents and
-              businesses.
+              businesses. <a href="/services/tenant-representation" className="text-accent underline">Tenant representation</a> is particularly active in this submarket
+              as national retailers and healthcare operators seek space.
             </p>
             <p>
               <strong className="text-black">Downtown Bradenton</strong> — A walkable
               downtown experiencing renewed investment. Small office, retail, and restaurant
               spaces in historic buildings attract local entrepreneurs and professional
-              service firms.
+              service firms. <a href="/services/landlord-leasing" className="text-accent underline">Landlord leasing</a> activity here has picked up as owners
+              invest in property improvements to attract stronger tenants.
             </p>
           </div>
         </div>
       </section>
+
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-8 bg-white">
+        <Image
+          src="https://images.unsplash.com/photo-1555636222-cae831e670b3?w=900&h=500&fit=crop"
+          alt="suburban retail corridor showing I-75 interchange commercial development in Manatee County"
+          width={900}
+          height={500}
+          className="w-full rounded-lg"
+        />
+      </div>
 
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
@@ -178,15 +207,16 @@ export default function ManateeMarketPage() {
           <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Active Property Types</h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              <strong className="text-black">Retail</strong> — Population-driven retail
-              demand remains strong, particularly near I-75 interchanges and in the
+              <strong className="text-black">Retail</strong> — Population-driven <a href="/commercial/retail-space" className="text-accent underline">retail
+              demand</a> remains strong, particularly near I-75 interchanges and in the
               Lakewood Ranch corridor. National retailers continue to enter the market.
             </p>
             <p>
               <strong className="text-black">Industrial</strong> — Port Manatee and
               surrounding industrial parks support distribution, manufacturing, and
               cold storage. Trades-oriented flex space is also in demand along US-301
-              and in Palmetto.
+              and in Palmetto. Understanding <a href="/insights/nnn-lease-explained" className="text-accent underline">NNN lease structures</a> is important for
+              investors evaluating industrial assets here.
             </p>
             <p>
               <strong className="text-black">Medical Office</strong> — Healthcare
@@ -196,11 +226,27 @@ export default function ManateeMarketPage() {
             <p>
               <strong className="text-black">Office</strong> — Lakewood Ranch leads
               office demand with professional and corporate tenants. Downtown Bradenton
-              offers more affordable boutique office options.
+              offers more affordable boutique office options. Use our <a href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</a> to
+              evaluate office investment opportunities here.
+            </p>
+            <p>
+              <strong className="text-black">Land</strong> — <a href="/commercial/land-development" className="text-accent underline">Commercial land</a> in
+              growth corridors along I-75, SR 64, and SR 70 is actively sought by
+              developers building retail centers, medical campuses, and mixed-use projects.
             </p>
           </div>
         </div>
       </section>
+
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=900&h=500&fit=crop"
+          alt="warehouse and industrial park near Port Manatee representing logistics real estate demand"
+          width={900}
+          height={500}
+          className="w-full rounded-lg"
+        />
+      </div>
 
       {/* ---- Services ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
@@ -212,17 +258,23 @@ export default function ManateeMarketPage() {
             <p>
               Barrett Henry is a Commercial Real Estate Advisor at REMAX Collective who
               helps buyers, sellers, tenants, and landlords navigate Manatee County&apos;s
-              growing commercial real estate market. Whether you need retail space near
-              I-75, industrial capacity near Port Manatee, or want to invest in a market
+              growing commercial real estate market. Whether you need <a href="/commercial/retail-space" className="text-accent underline">retail space</a> near
+              I-75, <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial capacity</a> near Port Manatee, or want to invest in a market
               with strong growth fundamentals, Barrett brings the deal execution and
               market knowledge to help you succeed.
+            </p>
+            <p>
+              Services in Manatee County include <Link href="/services/investment-sales" className="text-accent underline">buyer and seller representation</Link>,
+              <Link href="/services/tenant-representation" className="text-accent underline"> tenant and landlord lease negotiation</Link>,
+              <Link href="/services/cre-valuation" className="text-accent underline"> investment property analysis</Link>, land acquisition, and
+              <Link href="/services/dispositions" className="text-accent underline"> disposition strategy</Link> across all commercial property types.
             </p>
           </div>
         </div>
       </section>
 
       {/* ---- Lead Form ---- */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8">
+      <section className="px-4 py-16 sm:px-6 lg:px-8" id="lead-form">
         <div className="mx-auto max-w-xl">
           <LeadForm />
         </div>
@@ -243,9 +295,13 @@ export default function ManateeMarketPage() {
       <CTASection
         heading="Interested in Manatee County Commercial Real Estate?"
         body="Barrett can help you find the right opportunity in this growing market between Tampa and Sarasota."
-        buttonText="Let's Connect"
+        buttonText="Let&apos;s Connect"
         buttonHref="/contact"
       />
+
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
     </>
   );
 }

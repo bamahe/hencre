@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Commercial Real Estate in Bay County, Florida | HenCRE",
@@ -38,16 +38,16 @@ export default function Page() {
       ]} />
       <Hero title="Commercial Real Estate in Bay County, Florida" subtitle="Expert guide to commercial real estate in Bay County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
       <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section class="market-overview-hero">
+        <section className="market-overview-hero">
   <h1>Bay County Commercial Real Estate Market Overview</h1>
   <p>Panama City, Panama City Beach, Lynn Haven, and Callaway form one of Northwest Florida's most dynamic commercial markets. I've watched this region transform significantly over the past decade, and right now presents real opportunities for investors and users alike.</p>
 </section>
 
-<section class="market-intro">
+<section className="market-intro">
   <p>Bay County isn't a minor-league market—it's a tier-2 player with genuine structural demand drivers. We're talking Tyndall Air Force Base expansion, post-Hurricane Michael reconstruction that's still generating activity, and a tourism and hospitality corridor anchored by Panama City Beach. If you're looking beyond Miami, Tampa, or Jacksonville, Bay County deserves serious attention.</p>
 </section>
 
-<section class="primary-corridors">
+<section className="primary-corridors">
   <h2>Key Commercial Corridors & Locations</h2>
   
   <h3>Panama City Beach Tourism Corridor</h3>
@@ -63,7 +63,7 @@ export default function Page() {
   <p>Scattered retail clusters throughout Panama City and beach areas support neighborhood and community-level retail. Quick-service restaurants, health services, and convenience-oriented tenants remain active.</p>
 </section>
 
-<section class="asset-types">
+<section className="asset-types">
   <h2>Active Asset Classes</h2>
   
   <h3>Industrial & Flex Space</h3>
@@ -82,7 +82,7 @@ export default function Page() {
   <p>Workforce housing and residential-over-retail development has emerged as a real play, especially near downtown Panama City and near the base. This trend reflects broader regional housing demand tied to Tyndall expansion.</p>
 </section>
 
-<section class="demand-drivers">
+<section className="demand-drivers">
   <h2>What's Driving Demand Right Now</h2>
   
   <ul>
@@ -94,7 +94,7 @@ export default function Page() {
   </ul>
 </section>
 
-<section class="market-positioning">
+<section className="market-positioning">
   <h2>Why This Market Matters for Your Portfolio</h2>
   
   <p>Bay County operates in the sweet spot: real, measurable demand drivers (Tyndall, tourism, reconstruction) without the supply constraints and valuation compression of tier-1 markets. You're not fighting for scraps in a saturated market. If you're an investor or user-occupant seeking secondary-market exposure with actual fundamentals, Bay County is worth the conversation.</p>
@@ -102,7 +102,7 @@ export default function Page() {
   <p>The market also offers pricing flexibility. You'll find opportunities that don't exist in Tampa or Jacksonville—both in acquisition and in operating economics. For occupants, the cost of occupancy is genuinely lower. That matters when you're scaling.</p>
 </section>
 
-<section class="my-services">
+<section className="my-services">
   <h2>How I Work in Bay County</h2>
   
   <p>Bay County is part of my referral territory, which means I work here strategically and deliberately. I don't shotgun deal flow—I focus on meaningful transactions where my expertise and network create value.</p>
@@ -121,7 +121,7 @@ export default function Page() {
   <p>I'm not the loudest voice in every market, but I'm a serious broker in the markets where I work. Bay County is one of those.</p>
 </section>
 
-<section class="cta">
+<section className="cta">
   <h2>Let's Talk Bay County</h2>
   
   <p>If you're considering a Bay County transaction—whether you're investing, expanding, or repositioning—I'm ready to have a real conversation. No generic pitches, no wasted time. Just direct market insight and broker expertise.</p>
@@ -130,30 +130,30 @@ export default function Page() {
   <strong>Email:</strong> barrett@nowtb.com</p>
 </section>
 
-<section class="faq">
+<section className="faq">
   <h2>Frequently Asked Questions</h2>
   
-  <div class="faq-item">
+  <div className="faq-item">
     <h3>Is Bay County a good investment market right now?</h3>
     <p>It depends on your thesis. If you're looking for tier-1 metro pricing or cap rates, Bay County isn't it. But if you want secondary-market exposure with real demand drivers—Tyndall expansion, tourism, reconstruction—and you're comfortable with a longer hold or smaller asset size, yes. The fundamentals are there.</p>
   </div>
   
-  <div class="faq-item">
+  <div className="faq-item">
     <h3>What's the Tyndall Air Force Base expansion impact?</h3>
     <p>Direct and measurable. Defense contractors are leasing industrial and flex space. Workforce housing demand is real. If you're looking at properties near Lynn Haven or Callaway, this expansion is the primary demand driver.</p>
   </div>
   
-  <div class="faq-item">
+  <div className="faq-item">
     <h3>Is Hurricane Michael recovery still affecting the market?</h3>
     <p>Yes. New construction across all asset classes continues. Infrastructure improvements, property repositioning, and redevelopment activity remain active. This isn't a short-term story—it's a multi-year rebuild cycle.</p>
   </div>
   
-  <div class="faq-item">
+  <div className="faq-item">
     <h3>How does Panama City Beach tourism affect commercial real estate?</h3>
     <p>It's the revenue engine. Hospitality, retail, and restaurant space near the beach stays competitive. Seasonal demand patterns influence lease negotiations and tenant mix, but the underlying tourism draw is consistent.</p>
   </div>
   
-  <div class="faq-item">
+  <div className="faq-item">
     <h3>Do you represent buyers and sellers in Bay County?</h3>
     <p>Yes. Bay County is part of my referral territory, and I work with qualified buyers, sellers, investors, and occupants. If you're serious about a transaction here, call me at (813) 733-7907.</p>
   </div>
@@ -164,7 +164,6 @@ export default function Page() {
         body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
     </>
   );

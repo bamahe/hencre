@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Commercial Real Estate in Alachua County, Florida | HenCRE",
@@ -38,7 +38,7 @@ export default function Page() {
       ]} />
       <Hero title="Commercial Real Estate in Alachua County, Florida" subtitle="Expert guide to commercial real estate in Alachua County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
       <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section class="alachua-market-overview">
+        <section className="alachua-market-overview">
   <h1>Alachua County Commercial Real Estate Market Overview</h1>
   
   <p>
@@ -169,7 +169,6 @@ export default function Page() {
         body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
     </>
   );

@@ -4,6 +4,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
 import RelatedLinks from "@/components/RelatedLinks";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
@@ -33,22 +34,67 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "How Commercial Leases Differ From Residential",
-  description:
-    "Key differences between commercial and residential leases — lease terms, negotiation, expenses, and tenant protections.",
-  datePublished: "2026-05-18",
-  dateModified: "2026-05-18",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
+const faqData = [
+  {
+    question: "Why are commercial leases so much longer than residential leases?",
+    answer:
+      "Landlords need long terms to justify the cost of tenant improvements, broker commissions, and downtime during the lease-up process. Tenants need long terms to amortize their build-out investment and secure stable occupancy costs. Both parties benefit from predictability. This mutual need for stability creates the standard 3 to 10 year terms common in commercial leasing.",
   },
-  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/how-commercial-leases-differ-from-residential",
+  {
+    question: "What happens to a commercial lease if the property is sold?",
+    answer:
+      "In most cases, the lease transfers with the property. The new owner becomes the landlord and assumes all obligations under the existing lease. This is actually a key feature in commercial real estate investing: buying a property with existing tenants provides immediate cash flow without needing to find new occupants. Always read the lease's assignment and change-of-control provisions before completing any transaction.",
+  },
+  {
+    question: "What is a co-tenancy clause and when does it matter?",
+    answer:
+      "A co-tenancy clause gives the tenant the right to reduce rent or terminate the lease if a named anchor tenant leaves the property. This is most common in retail strip centers and malls where the performance of the center depends on major anchor stores driving foot traffic. Negotiating a co-tenancy clause protects your business if the anchor that attracts your customers closes down.",
+  },
+  {
+    question: "What does 'as-is' mean in a commercial lease?",
+    answer:
+      "As-is means you are accepting the space in its current condition, with no obligation from the landlord to make improvements before your occupancy. Always inspect an as-is space thoroughly and budget for any work needed to make it functional for your use. The as-is starting point is still negotiable — you can often ask for credits or have specific conditions addressed even if the space is offered as-is.",
+  },
+  {
+    question: "What is an exclusivity clause in a commercial lease?",
+    answer:
+      "An exclusivity clause prohibits the landlord from leasing space in the same property to a direct competitor. Retailers, restaurants, and service businesses should always negotiate for exclusivity. Define the exclusivity category clearly to prevent loopholes — a fitness studio's exclusivity clause should name specific types of competing fitness businesses, not just use a broad term that landlords can work around.",
+  },
+  {
+    question: "How are rent escalations typically structured in commercial leases?",
+    answer:
+      "Most commercial leases include annual rent increases, typically 2 to 3 percent per year or tied to the Consumer Price Index (CPI). Some leases use fixed dollar-per-square-foot increases at specified intervals. In a 7-year lease, a 3 percent annual escalation means Year 7 rent is roughly 19 percent higher than Year 1. Understanding the escalation structure before signing helps you project your true long-term occupancy cost.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      headline: "How Commercial Leases Differ From Residential",
+      description:
+        "Key differences between commercial and residential leases — lease terms, negotiation, expenses, and tenant protections.",
+      datePublished: "2026-05-18",
+      dateModified: "2026-07-20",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Commercial Real Estate Advisor",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/how-commercial-leases-differ-from-residential",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqData.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
 };
 
 const relatedLinks = [
@@ -77,7 +123,7 @@ const relatedLinks = [
 export default function CommercialVsResidentialLeasePage() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
@@ -102,6 +148,14 @@ export default function CommercialVsResidentialLeasePage() {
           Residential leases are usually 12 months. Commercial leases typically run 3 to 10 years, with some retail and industrial leases extending 15 years or more. Landlords want stability, and tenants want to lock in favorable rates. This longer commitment means every clause in the lease has outsized financial impact. A bad provision in a 1-year residential lease is an annoyance. That same provision in a 7-year commercial lease is a serious liability.
         </p>
 
+        <Image
+          src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=500&fit=crop"
+          alt="commercial office building representing long-term commercial lease commitments"
+          width={800}
+          height={500}
+          className="my-10 w-full rounded-lg"
+        />
+
         <h2 className="mt-10 text-2xl font-bold text-black">Who Pays for What in a Commercial Lease?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           In a residential lease, the landlord pays for property taxes, insurance, and maintenance. The tenant pays rent and sometimes utilities. Commercial leases vary dramatically depending on the <a href="/insights/gross-vs-net-lease" className="text-accent underline">lease structure</a>:
@@ -112,13 +166,21 @@ export default function CommercialVsResidentialLeasePage() {
           <li><strong>Triple net (NNN) lease.</strong> The tenant pays base rent plus all three expense categories. This is the standard for <a href="/commercial/retail-space" className="text-accent underline">retail</a> and <a href="/commercial/nnn-net-lease" className="text-accent underline">single-tenant investment properties</a>.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Understanding which expenses you are responsible for is critical. A lease that looks affordable based on base rent can become very expensive once you factor in NNN charges.
+          Understanding which expenses you are responsible for is critical. A lease that looks affordable based on base rent can become very expensive once you factor in NNN charges. Always calculate your <a href="/blog/5-mistakes-first-time-commercial-tenants-make" className="text-accent underline">total occupancy cost</a> before comparing spaces.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Are Commercial Leases Negotiable?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Residential leases are generally take-it-or-leave-it documents. Commercial leases are almost entirely negotiable. Rent rates, lease duration, tenant improvement allowances, renewal options, exclusivity clauses, signage rights, parking ratios, CAM caps, and personal guarantee terms are all on the table. This is why having a <a href="/services/tenant-representation" className="text-accent underline">tenant representative</a> is so valuable — a broker knows which provisions matter and how to negotiate them in your favor.
         </p>
+
+        <Image
+          src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&h=500&fit=crop"
+          alt="modern office interior representing the type of commercial space covered by negotiated leases"
+          width={800}
+          height={500}
+          className="my-10 w-full rounded-lg"
+        />
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Are Tenant Improvement Allowances?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
@@ -140,16 +202,24 @@ export default function CommercialVsResidentialLeasePage() {
           No. Residential tenants benefit from consumer protection laws — habitability requirements, security deposit limits, eviction procedures, and anti-discrimination statutes. Commercial tenants have far fewer statutory protections. The lease itself is the primary source of your rights. What is not in the lease is not protected. This makes it even more important to have an experienced broker and attorney review every provision before you sign.
         </p>
 
+        <Image
+          src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=500&fit=crop"
+          alt="commercial construction representing tenant buildout and lease obligations"
+          width={800}
+          height={500}
+          className="my-10 w-full rounded-lg"
+        />
+
         <h2 className="mt-10 text-2xl font-bold text-black">What Should You Do Before Signing a Commercial Lease?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Before you commit to any commercial space in the Tampa Bay market or anywhere in Florida:
+          Before you commit to any commercial space in Florida:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li>Understand the total occupancy cost — base rent plus all additional expenses.</li>
           <li>Get a <a href="/services/tenant-representation" className="text-accent underline">tenant representative</a> who works for you, not the landlord.</li>
           <li>Negotiate TI allowances, renewal options, and exit provisions before signing.</li>
           <li>Have a real estate attorney review the lease — not your business attorney, a real estate specialist.</li>
-          <li>Compare at least 3 to 5 properties before making a decision.</li>
+          <li>Compare at least 3 to 5 properties before making a decision. Whether you are looking at <a href="/commercial/office-space" className="text-accent underline">office space</a>, <a href="/commercial/retail-space" className="text-accent underline">retail space</a>, or <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial space</a>, comparison gives you leverage.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
@@ -157,6 +227,16 @@ export default function CommercialVsResidentialLeasePage() {
           Commercial leases are complex financial agreements with long-term consequences. They are more flexible than residential leases, which is an advantage if you know how to negotiate. But that flexibility also means there are more ways to get it wrong. With 23+ years of real estate experience, I have seen businesses thrive because they negotiated smart lease terms — and I have seen businesses struggle because they signed a lease without understanding what they agreed to. Do not be the second one.
         </p>
       </article>
+
+      {/* ---- FAQ ---- */}
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
+            Commercial vs. Residential Leases — Frequently Asked Questions
+          </h2>
+          <FAQAccordion items={faqData} />
+        </div>
+      </section>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
@@ -166,6 +246,10 @@ export default function CommercialVsResidentialLeasePage() {
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />
+
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
     </>
   );
 }

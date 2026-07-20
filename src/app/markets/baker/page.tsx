@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Commercial Real Estate in Baker County, Florida | HenCRE",
@@ -131,7 +131,6 @@ export default function Page() {
         body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
     </>
   );

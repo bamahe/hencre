@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -48,6 +49,11 @@ const faqs = [
     question: "How does Barrett Henry help CRE clients in Polk County?",
     answer:
       "Barrett provides buyer and seller representation, tenant and landlord lease negotiation, investment analysis, land acquisition for developers, and disposition strategy. He works with industrial users seeking I-4 corridor logistics space, retailers looking for outparcels in growth areas, and investors evaluating the county's value-oriented pricing compared to the Tampa and Orlando metros.",
+  },
+  {
+    question: "How does Polk County industrial pricing compare to Tampa Bay?",
+    answer:
+      "Polk County typically offers lower industrial rents and land prices than the core Tampa Bay submarkets, reflecting its position as a secondary market with significant land supply. For large-footprint users who need lower occupancy costs or longer-term lease flexibility, Polk County's I-4 corridor provides a compelling value proposition while still offering excellent regional distribution reach.",
   },
 ];
 
@@ -110,11 +116,11 @@ export default function PolkMarketPage() {
           <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Market Overview</h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Polk County is the geographic center of Florida and the bridge between the Tampa
-              Bay and Orlando metropolitan areas. That strategic position, combined with the
+              Polk County is the geographic center of Florida and the bridge between the <a href="/markets/hillsborough" className="text-accent underline">Tampa
+              Bay</a> and Orlando metropolitan areas. That strategic position, combined with the
               I-4 corridor running through the county&apos;s heart, has made Polk one of the
-              state&apos;s most important commercial real estate markets for industrial and
-              logistics users. The county offers what neither Tampa nor Orlando can at scale:
+              state&apos;s most important commercial real estate markets for <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial and
+              logistics users</a>. The county offers what neither Tampa nor Orlando can at scale:
               large, affordable parcels of land with direct interstate access and a labor pool
               that draws from both metros.
             </p>
@@ -123,9 +129,9 @@ export default function PolkMarketPage() {
               Its downtown has experienced a genuine revival, with new restaurants, creative
               businesses, and mixed-use projects reshaping a core that was quiet for decades.
               Winter Haven, the county&apos;s second city, benefits from proximity to the LEGOLAND
-              Florida resort and a growing base of retail and medical office users. The southern
+              Florida resort and a growing base of <a href="/commercial/retail-space" className="text-accent underline">retail</a> and medical office users. The southern
               tier of the county around Davenport and Haines City draws tourism-adjacent commercial
-              demand from its position near Walt Disney World.
+              demand from its position near Walt Disney World. For more detail on the warehouse market, see <a href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland warehouse and industrial growth</a>.
             </p>
             <p>
               Polk County is also one of Florida&apos;s largest agricultural counties, and the
@@ -138,6 +144,16 @@ export default function PolkMarketPage() {
         </div>
       </section>
 
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=900&h=500&fit=crop"
+          alt="large warehouse and distribution facility along the I-4 corridor in Polk County Florida"
+          width={900}
+          height={500}
+          className="w-full rounded-lg"
+        />
+      </div>
+
       {/* ---- Key Corridors ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
@@ -148,11 +164,12 @@ export default function PolkMarketPage() {
               logistics artery stretching from Lakeland through Plant City and east toward
               Orlando. Large-format distribution centers, cold storage, and third-party
               logistics facilities cluster near interchanges. This corridor attracts
-              national tenants who need central Florida distribution capability.
+              national tenants who need central Florida distribution capability. <a href="/services/investment-sales" className="text-accent underline">Investment sales</a> here
+              involve some of the largest single-asset deals in the region.
             </p>
             <p>
               <strong className="text-black">Downtown Lakeland</strong> — A revitalizing
-              urban core with adaptive-reuse office, boutique retail, and restaurant space.
+              urban core with adaptive-reuse <a href="/commercial/office-space" className="text-accent underline">office</a>, boutique retail, and restaurant space.
               Munn Park and the surrounding streets have become the focal point for small
               businesses and creative professionals. New mixed-use projects are adding
               density and foot traffic.
@@ -161,6 +178,8 @@ export default function PolkMarketPage() {
               <strong className="text-black">US-98 / Bartow Road</strong> — A busy commercial
               corridor connecting Lakeland to Bartow and points south. Strip retail, auto
               services, medical office, and flex/industrial space line this highway.
+              <a href="/services/tenant-representation" className="text-accent underline"> Tenant representation</a> is active here for medical and service-oriented businesses
+              seeking well-priced corridor locations.
             </p>
             <p>
               <strong className="text-black">US-27 Corridor</strong> — Running north-south
@@ -172,6 +191,16 @@ export default function PolkMarketPage() {
         </div>
       </section>
 
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-8 bg-white">
+        <Image
+          src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=900&h=500&fit=crop"
+          alt="downtown Lakeland streetscape representing the revitalization of Polk County's urban core"
+          width={900}
+          height={500}
+          className="w-full rounded-lg"
+        />
+      </div>
+
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
@@ -182,30 +211,43 @@ export default function PolkMarketPage() {
               dominant property type. Polk County offers the space and pricing that allow
               large-format users to build or lease facilities that would be cost-prohibitive
               in Tampa or Orlando. Distribution centers exceeding 100,000 square feet are
-              common along the I-4 corridor.
+              common along the I-4 corridor. Many are structured as <a href="/insights/nnn-lease-explained" className="text-accent underline">NNN leases</a> with
+              creditworthy national tenants.
             </p>
             <p>
               <strong className="text-black">Retail</strong> — Growth-driven retail follows
               the expanding residential footprint around Lakeland, Winter Haven, and the
               US-27 corridor. National credit tenants continue to enter the market as
-              rooftop counts increase.
+              rooftop counts increase. <a href="/commercial/retail-space" className="text-accent underline">Retail space</a> along US-27 near the Orlando tourist
+              corridor sees additional demand from hospitality-adjacent uses.
             </p>
             <p>
               <strong className="text-black">Office</strong> — Office demand is modest
               compared to the coastal markets, but downtown Lakeland&apos;s revitalization
-              is creating new demand for professional and creative office space. Medical
+              is creating new demand for professional and creative <a href="/commercial/office-space" className="text-accent underline">office space</a>. Medical
               office is also active near hospitals and health system campuses.
             </p>
             <p>
               <strong className="text-black">Land</strong> — Large entitled and agricultural
               parcels available for commercial conversion make Polk one of the most
-              active land markets in Central Florida. Build-to-suit and speculative
+              active <a href="/commercial/land-development" className="text-accent underline">land markets</a> in Central Florida. Build-to-suit and speculative
               development opportunities abound along the interstate and major highway
-              corridors.
+              corridors. Use our <a href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</a> to evaluate
+              land development deals in this market.
             </p>
           </div>
         </div>
       </section>
+
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1549924231-f129b911e442?w=900&h=500&fit=crop"
+          alt="industrial and logistics facility representing the dominant CRE asset class in Polk County"
+          width={900}
+          height={500}
+          className="w-full rounded-lg"
+        />
+      </div>
 
       {/* ---- Services ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
@@ -222,16 +264,17 @@ export default function PolkMarketPage() {
               provides the analysis and negotiation expertise to get the deal done.
             </p>
             <p>
-              Services include buyer and seller representation, tenant and landlord lease
-              negotiation, investment underwriting, site selection, land acquisition, and
-              disposition strategy.
+              Services include <Link href="/services/investment-sales" className="text-accent underline">buyer and seller representation</Link>,
+              <Link href="/services/tenant-representation" className="text-accent underline"> tenant and landlord lease negotiation</Link>,
+              <Link href="/services/cre-valuation" className="text-accent underline"> investment underwriting</Link>, site selection, land acquisition, and
+              <Link href="/services/dispositions" className="text-accent underline"> disposition strategy</Link>.
             </p>
           </div>
         </div>
       </section>
 
       {/* ---- Lead Form ---- */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8">
+      <section className="px-4 py-16 sm:px-6 lg:px-8" id="lead-form">
         <div className="mx-auto max-w-xl">
           <LeadForm />
         </div>
@@ -255,6 +298,10 @@ export default function PolkMarketPage() {
         buttonText="Start a Conversation"
         buttonHref="/contact"
       />
+
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
     </>
   );
 }

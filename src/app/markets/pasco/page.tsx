@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -48,6 +49,11 @@ const faqs = [
     question: "How does the Suncoast Parkway expansion affect Pasco County CRE?",
     answer:
       "The Suncoast Parkway extension is opening previously inaccessible areas of central and western Pasco to development. New interchange locations are creating demand for retail outparcels, gas stations, medical office, and neighborhood services. Industrial users also benefit from improved north-south connectivity between Pasco and Hernando counties.",
+  },
+  {
+    question: "How does Pasco County compare to Hillsborough for commercial real estate?",
+    answer:
+      "Pasco offers lower land and lease costs than Hillsborough County, making it attractive for businesses that need large footprints or value-oriented pricing. The trade-off is a smaller, younger consumer base and a commercial market that is still maturing. For retail and medical operators following residential growth, the opportunity to establish presence early in a corridor can deliver significant long-term value.",
   },
 ];
 
@@ -110,19 +116,19 @@ export default function PascoMarketPage() {
           <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Market Overview</h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Pasco County sits on the northern edge of the Tampa Bay metro and has emerged as one
+              Pasco County sits on the northern edge of the <a href="/markets/hillsborough" className="text-accent underline">Tampa Bay metro</a> and has emerged as one
               of the most dynamic growth markets in Florida. The county&apos;s transformation from
               a largely rural area to a suburban commercial hub has been driven by massive
               residential development — particularly in the Wesley Chapel and Wiregrass corridors —
               which has pulled national retailers, restaurant groups, healthcare systems, and
-              service businesses into the market at an accelerating pace.
+              service businesses into the market at an accelerating pace. Read more about <a href="/blog/pasco-county-commercial-development-2026" className="text-accent underline">Pasco County commercial development trends</a>.
             </p>
             <p>
               Unlike the built-out, land-constrained markets to the south, Pasco still has
               significant developable acreage, particularly along the SR 54/56 corridor east
               of I-75, along the Suncoast Parkway, and in unincorporated areas between Zephyrhills
               and Dade City. That land availability, combined with lower per-acre costs than
-              Hillsborough, makes Pasco especially attractive for developers and end-users who
+              <a href="/markets/hillsborough" className="text-accent underline"> Hillsborough</a>, makes Pasco especially attractive for developers and end-users who
               need scale — whether for a 50,000-square-foot retail center or a large-format
               industrial building.
             </p>
@@ -138,6 +144,16 @@ export default function PascoMarketPage() {
         </div>
       </section>
 
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?w=900&h=500&fit=crop"
+          alt="suburban retail development and shopping center representing Pasco County growth corridors"
+          width={900}
+          height={500}
+          className="w-full rounded-lg"
+        />
+      </div>
+
       {/* ---- Key Corridors ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
@@ -146,13 +162,13 @@ export default function PascoMarketPage() {
             <p>
               <strong className="text-black">SR 54 / SR 56 Retail Corridor</strong> — This
               east-west corridor is the commercial spine of eastern Pasco. Anchored by The
-              Shops at Wiregrass and the Tampa Premium Outlets, it attracts national retailers,
+              Shops at Wiregrass and the Tampa Premium Outlets, it attracts national <a href="/commercial/retail-space" className="text-accent underline">retailers</a>,
               quick-service restaurants, and service-oriented businesses. New retail pads near
               I-75 interchanges and along SR 56 toward Zephyrhills continue to come to market.
             </p>
             <p>
               <strong className="text-black">Wesley Chapel / Wiregrass</strong> — The fastest-growing
-              submarket in the county. Master-planned communities have created the rooftop density
+              submarket in the county and one of the most active <a href="/blog/wesley-chapel-commercial-real-estate-2026" className="text-accent underline">Wesley Chapel commercial real estate</a> corridors in Florida. Master-planned communities have created the rooftop density
               needed to support grocery-anchored centers, medical office campuses, and mixed-use
               town centers. Several new hospital and outpatient campuses have opened here,
               creating additional CRE demand in surrounding areas.
@@ -163,10 +179,11 @@ export default function PascoMarketPage() {
               Richey, Port Richey, and Hudson. While newer than the east-side boom, this
               corridor sees steady demand from medical office users, auto-related businesses,
               and value-oriented retailers. Repositioning of older shopping centers is an active
-              investment strategy here.
+              investment strategy here. <a href="/services/investment-sales" className="text-accent underline">Investment sales</a> in this corridor are driven by
+              buyers seeking below-market basis with upside through repositioning.
             </p>
             <p>
-              <strong className="text-black">I-75 Industrial Zone</strong> — Industrial parks
+              <strong className="text-black">I-75 Industrial Zone</strong> — <a href="/commercial/industrial-warehouse" className="text-accent underline">Industrial parks</a>
               near the I-75 / SR 52 and I-75 / SR 54 interchanges are attracting light
               manufacturing, distribution, and contractor-services tenants. The area benefits
               from proximity to both the Tampa core and the growing population centers in
@@ -176,6 +193,16 @@ export default function PascoMarketPage() {
         </div>
       </section>
 
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-8 bg-white">
+        <Image
+          src="https://images.unsplash.com/photo-1449965408869-eaa3f722e324?w=900&h=500&fit=crop"
+          alt="highway interchange representing Pasco County's I-75 corridor commercial development"
+          width={900}
+          height={500}
+          className="w-full rounded-lg"
+        />
+      </div>
+
       {/* ---- Property Types ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
@@ -184,7 +211,7 @@ export default function PascoMarketPage() {
             <p>
               <strong className="text-black">Retail</strong> — The dominant asset class in Pasco,
               driven by rapid residential growth. National and regional retailers are actively
-              seeking pad sites and inline space in high-traffic centers along SR 54/56 and
+              seeking <a href="/commercial/retail-space" className="text-accent underline">pad sites and inline space</a> in high-traffic centers along SR 54/56 and
               near I-75 interchanges.
             </p>
             <p>
@@ -197,17 +224,28 @@ export default function PascoMarketPage() {
               <strong className="text-black">Industrial &amp; Flex</strong> — Growing demand
               from distribution, trades-oriented businesses, and light manufacturing. Available
               land near I-75 makes new development feasible, though spec construction is still
-              measured.
+              measured. Understanding <a href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</a> for industrial properties is important
+              when evaluating these opportunities.
             </p>
             <p>
-              <strong className="text-black">Land</strong> — Entitled and pre-entitled commercial
-              land is one of the most active asset types in Pasco. Developers and end-users
+              <strong className="text-black">Land</strong> — Entitled and pre-entitled <a href="/commercial/land-development" className="text-accent underline">commercial
+              land</a> is one of the most active asset types in Pasco. Developers and end-users
               acquire parcels along growth corridors to build retail centers, medical campuses,
               and industrial facilities.
             </p>
           </div>
         </div>
       </section>
+
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&h=500&fit=crop"
+          alt="commercial office and retail buildings representing Pasco County's growing commercial market"
+          width={900}
+          height={500}
+          className="w-full rounded-lg"
+        />
+      </div>
 
       {/* ---- Services ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
@@ -224,16 +262,17 @@ export default function PascoMarketPage() {
               in western Pasco, and developers acquire entitled land along active corridors.
             </p>
             <p>
-              Services include buyer and seller representation, tenant and landlord lease
-              negotiation, land acquisition, investment analysis, and disposition strategy
-              across all commercial property types.
+              Services include <Link href="/services/investment-sales" className="text-accent underline">buyer and seller representation</Link>,
+              <Link href="/services/tenant-representation" className="text-accent underline"> tenant and landlord lease negotiation</Link>,
+              land acquisition, <Link href="/services/cre-valuation" className="text-accent underline">investment analysis</Link>, and
+              <Link href="/services/dispositions" className="text-accent underline"> disposition strategy</Link> across all commercial property types.
             </p>
           </div>
         </div>
       </section>
 
       {/* ---- Lead Form ---- */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8">
+      <section className="px-4 py-16 sm:px-6 lg:px-8" id="lead-form">
         <div className="mx-auto max-w-xl">
           <LeadForm />
         </div>
@@ -257,6 +296,10 @@ export default function PascoMarketPage() {
         buttonText="Get in Touch"
         buttonHref="/contact"
       />
+
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
     </>
   );
 }
