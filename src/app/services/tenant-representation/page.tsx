@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
@@ -42,7 +43,7 @@ const FAQS = [
   },
   {
     question: "What areas does Barrett cover for tenant representation?",
-    answer: "Barrett is anchored in Tampa Bay and covers all 67 Florida counties. For deals outside his core market, he leverages the REMAX Commercial network to connect you with a local specialist.",
+    answer: "Barrett covers markets across Florida including Hillsborough, Pinellas, Pasco, Hernando, Manatee, Sarasota, and Polk counties. For deals outside his core market, he leverages the REMAX Commercial network to connect you with a local specialist.",
   },
 ];
 
@@ -104,29 +105,37 @@ export default function TenantRepPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Your Space, Your Terms</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial® broker, Barrett brings global network resources to every tenant representation engagement in Florida. Finding commercial space is not like browsing Zillow. You need a broker who
-            understands your business requirements, knows the local market, and can
-            negotiate lease terms that protect your bottom line. That is tenant
-            representation — and it is one of the highest-value services I offer.
+            As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett brings market expertise to every tenant representation engagement in Florida. Finding{" "}
+            <Link href="/commercial/office-space" className="text-accent underline">office</Link>,{" "}
+            <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, or{" "}
+            <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial space</Link>{" "}
+            is not like browsing Zillow. You need a broker who understands your business requirements, knows the local market, and can negotiate lease terms that protect your bottom line.
           </p>
           <p>
-            I start by understanding your needs: square footage, location, budget,
-            build-out requirements, timeline, and growth plans. Then I conduct a
-            comprehensive market survey, identifying on-market and off-market options
-            that fit. I schedule tours, analyze lease economics, and present you with a
-            side-by-side comparison so you can make an informed decision.
+            Barrett starts by understanding your needs: square footage, location, budget, build-out requirements, timeline, and growth plans. Then he conducts a comprehensive market survey across{" "}
+            <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>,{" "}
+            <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>,{" "}
+            <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and other Florida counties, identifying on-market and off-market options that fit. He schedules tours, analyzes lease economics including{" "}
+            <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charges</Link>{" "}
+            and total occupancy cost, and presents a side-by-side comparison for informed decision-making.
           </p>
           <p>
-            Once you pick a space, I draft and negotiate the letter of intent (LOI),
-            push for favorable terms on rent, escalations, TI allowance, and
-            concessions, and coordinate with attorneys through lease execution. You
-            sign a lease knowing you got the best deal available.
+            Once you pick a space, Barrett drafts and negotiates the letter of intent (LOI), pushes for favorable terms on rent, escalations, TI allowance, and concessions, and coordinates with attorneys through lease execution. You sign a lease knowing you got the best deal available.
           </p>
           <p>
-            The best part? In most commercial lease transactions, the landlord pays the
-            brokerage commission. My services as your tenant rep typically cost you
-            nothing directly.
+            The best part? In most commercial lease transactions, the landlord pays the brokerage commission. Barrett's services as your tenant rep typically cost you nothing directly.
           </p>
+        </div>
+
+        <div className="my-8">
+          <Image
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=600&fit=crop"
+            alt="Modern commercial office space interior representing tenant representation and site selection in Florida"
+            width={1200}
+            height={600}
+            className="rounded-lg w-full"
+          />
+          <p className="mt-2 text-sm text-[#666666] italic">Barrett evaluates office, retail, and industrial spaces to find the right fit for your business requirements, budget, and growth plans.</p>
         </div>
       </section>
 
@@ -176,24 +185,47 @@ export default function TenantRepPage() {
               </li>
             ))}
           </ol>
+
+          <div className="my-8">
+            <Image
+              src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=600&fit=crop"
+              alt="Commercial tenant and broker reviewing lease terms and negotiation strategy"
+              width={1200}
+              height={600}
+              className="rounded-lg w-full"
+            />
+            <p className="mt-2 text-sm text-[#666666] italic">Understanding{" "}
+              <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential</Link>{" "}
+              is essential — Barrett guides tenants through the economics before they sign.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* ---- Why Barrett ---- */}
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-2xl font-bold sm:text-3xl">Why Work with Me</h2>
+          <h2 className="text-2xl font-bold sm:text-3xl">Why Work with Barrett</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
-              I bring 23+ years of real estate experience to every tenant engagement.
-              I know what fair market rents look like across Florida, I know which
-              landlords negotiate and which do not, and I know how to structure terms
-              that save you real money over the life of a lease.
+              With 23+ years of real estate experience, Barrett knows what fair market rents look like across Florida, which landlords negotiate and which do not, and how to structure terms that save you real money over the life of a lease. Read the{" "}
+              <Link href="/blog/5-mistakes-first-time-commercial-tenants-make" className="text-accent underline">5 mistakes first-time commercial tenants make</Link>{" "}
+              to understand what's at stake in a lease negotiation.
             </p>
             <p>
-              When you call me, you get me — not a team of juniors. One broker, full
-              attention, from first call to move-in day.
+              When you call Barrett, you get Barrett — not a team of juniors. One broker, full attention, from first call to move-in day.
             </p>
+          </div>
+
+          <div className="my-8">
+            <Image
+              src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&h=600&fit=crop"
+              alt="Commercial real estate broker walking tenant through potential office space during site tour"
+              width={1200}
+              height={600}
+              className="rounded-lg w-full"
+            />
+            <p className="mt-2 text-sm text-[#666666] italic">Site tours are more than a walkthrough — Barrett evaluates each space against your business requirements, lease economics, and long-term growth plans.</p>
           </div>
         </div>
       </section>
@@ -205,8 +237,7 @@ export default function TenantRepPage() {
             Ready to Find Your Space?
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Tell me what you need. I will start the market survey and get back to you
-            within one business day.
+            Tell Barrett what you need. He will start the market survey and get back to you within one business day.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
@@ -253,7 +284,7 @@ export default function TenantRepPage() {
                   <td className="py-3">Flex/industrial tenants</td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="py-3 pr-4 font-semibold text-black"><Link href="/insights/nnn-lease-explained" className="underline">NNN (Triple Net)</Link></td>
+                  <td className="py-3 pr-4 font-semibold text-black"><Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="underline">NNN (Triple Net)</Link></td>
                   <td className="py-3 pr-4">Base rent + taxes + insurance + CAM</td>
                   <td className="py-3">Retail tenants, standalone buildings</td>
                 </tr>
@@ -290,13 +321,15 @@ export default function TenantRepPage() {
       {/* ---- Related services ---- */}
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-black">Related Services</h3>
+          <h3 className="text-lg font-bold text-black">Related Services and Resources</h3>
           <div className="mt-4 flex flex-wrap gap-3">
             <Link href="/services/landlord-leasing" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Landlord Leasing</Link>
             <Link href="/services/cre-valuation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
             <Link href="/commercial/office-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Office Space</Link>
             <Link href="/commercial/retail-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Retail Space</Link>
-            <Link href="/insights/leasing-vs-buying-commercial" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Leasing vs. Buying</Link>
+            <Link href="/blog/understanding-cam-charges-tenants-guide" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Understanding CAM Charges</Link>
+            <Link href="/blog/how-commercial-leases-differ-from-residential" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Commercial vs. Residential Leases</Link>
+            <Link href="/blog/5-mistakes-first-time-commercial-tenants-make" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tenant Leasing Mistakes to Avoid</Link>
             <Link href="/markets/hillsborough" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Hillsborough County Market</Link>
           </div>
         </div>
@@ -304,7 +337,7 @@ export default function TenantRepPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
       </div>
     </>
   );

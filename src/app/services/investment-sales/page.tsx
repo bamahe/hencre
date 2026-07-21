@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
@@ -103,30 +104,36 @@ export default function InvestmentSalesPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Smart Acquisitions. Strategic Exits.</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial Real Estate advisor, Barrett brings global market reach and deep analytical expertise to every investment transaction. Commercial real estate investing is about numbers — but the right numbers
-            require the right market intelligence. A 7% cap rate in one submarket is a
-            steal; in another, it is overpriced. I bring the local context that
-            spreadsheets cannot provide.
+            As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett brings market reach and deep analytical expertise to every investment transaction. Commercial real estate investing is about numbers — but the right numbers require the right market intelligence. A 7%{" "}
+            <Link href="/calculators/cap-rate" className="text-accent underline">cap rate</Link>{" "}
+            in one submarket is a steal; in another, it is overpriced. Barrett brings the local context that spreadsheets cannot provide.
           </p>
           <p>
-            For buyers, I source on-market and off-market opportunities that match your
-            investment criteria. I build detailed pro formas projecting cash flow, debt
-            service, and returns over your hold period. When we identify a target, I
-            negotiate purchase terms, coordinate due diligence, and manage the process
-            through closing.
+            For buyers, Barrett sources on-market and off-market opportunities that match your investment criteria across{" "}
+            <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>,{" "}
+            <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>,{" "}
+            <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and beyond. He builds detailed pro formas projecting cash flow, debt service, and returns over your hold period. When a target is identified, he negotiates purchase terms, coordinates{" "}
+            <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence</Link>, and manages the process through closing.
           </p>
           <p>
-            For sellers, I position your property to attract the right buyer pool. That
-            means accurate pricing based on comparable sales and income analysis,
-            professional marketing materials, and targeted outreach to active buyers
-            and brokers. I create competitive tension to drive the best possible price
-            and terms.
+            For sellers, Barrett positions your property to attract the right buyer pool. That means accurate pricing based on comparable sales and income analysis, professional marketing materials, and targeted outreach to active buyers and brokers. He creates competitive tension to drive the best possible price and terms.
           </p>
           <p>
-            Whether you are acquiring your first investment property, adding to a
-            portfolio, or executing a 1031 exchange under tight deadlines, I have the
-            experience and network to deliver results across Florida.
+            Whether you are acquiring your first investment property, adding to a portfolio, or executing a{" "}
+            <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link>{" "}
+            under tight deadlines, Barrett has the experience and network to deliver results across Florida.
           </p>
+        </div>
+
+        <div className="my-8">
+          <Image
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=600&fit=crop"
+            alt="Florida commercial real estate investment properties including office and retail buildings"
+            width={1200}
+            height={600}
+            className="rounded-lg w-full"
+          />
+          <p className="mt-2 text-sm text-[#666666] italic">Florida commercial real estate spans NNN retail, multifamily, office, and industrial — each with distinct return profiles and investment considerations.</p>
         </div>
       </section>
 
@@ -174,6 +181,17 @@ export default function InvestmentSalesPage() {
               </li>
             ))}
           </ol>
+
+          <div className="my-8">
+            <Image
+              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=600&fit=crop"
+              alt="Commercial real estate investor reviewing financial analysis and investment pro formas"
+              width={1200}
+              height={600}
+              className="rounded-lg w-full"
+            />
+            <p className="mt-2 text-sm text-[#666666] italic">Detailed financial analysis — cap rate, cash-on-cash return, and IRR projections — drives every acquisition recommendation Barrett makes.</p>
+          </div>
         </div>
       </section>
 
@@ -200,7 +218,12 @@ export default function InvestmentSalesPage() {
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">How Do Key CRE Investment Metrics Compare?</h2>
-          <p className="mt-4 text-[#666666]">According to the Appraisal Institute, investors should evaluate multiple return metrics — not just cap rate.</p>
+          <p className="mt-4 text-[#666666]">According to the Appraisal Institute, investors should evaluate multiple return metrics — not just cap rate. Use the{" "}
+            <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link>{" "}
+            and{" "}
+            <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link>{" "}
+            to benchmark properties before committing.
+          </p>
           <div className="mt-8 overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
@@ -212,7 +235,7 @@ export default function InvestmentSalesPage() {
               </thead>
               <tbody className="text-[#666666]">
                 <tr className="border-b border-gray-200">
-                  <td className="py-3 pr-4 font-semibold text-black"><Link href="/insights/what-is-a-cap-rate" className="underline">Cap Rate</Link></td>
+                  <td className="py-3 pr-4 font-semibold text-black"><Link href="/calculators/cap-rate" className="underline">Cap Rate</Link></td>
                   <td className="py-3 pr-4">NOI relative to property value (unleveraged)</td>
                   <td className="py-3">Comparing similar properties</td>
                 </tr>
@@ -233,6 +256,17 @@ export default function InvestmentSalesPage() {
                 </tr>
               </tbody>
             </table>
+          </div>
+
+          <div className="mt-8">
+            <Image
+              src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=600&fit=crop"
+              alt="Florida commercial investment property exterior representing income-producing real estate"
+              width={1200}
+              height={600}
+              className="rounded-lg w-full"
+            />
+            <p className="mt-2 text-sm text-[#666666] italic">Income-producing commercial properties in Florida benefit from the state's no-income-tax environment, making them attractive targets for investors executing 1031 exchanges.</p>
           </div>
         </div>
       </section>
@@ -258,20 +292,23 @@ export default function InvestmentSalesPage() {
 
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-black">Related Services</h3>
+          <h3 className="text-lg font-bold text-black">Related Services and Resources</h3>
           <div className="mt-4 flex flex-wrap gap-3">
             <Link href="/services/dispositions" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
             <Link href="/services/cre-valuation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
             <Link href="/commercial/nnn-net-lease" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">NNN / Net Lease</Link>
             <Link href="/commercial/multifamily" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Multifamily</Link>
-            <Link href="/insights/1031-exchange-basics" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">1031 Exchange Basics</Link>
+            <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Florida 1031 Exchange Guide</Link>
+            <Link href="/blog/what-makes-a-good-commercial-investment" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">What Makes a Good Investment</Link>
+            <Link href="/blog/commercial-property-due-diligence-timeline" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Due Diligence Timeline</Link>
+            <Link href="/markets/manatee" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Manatee County Market</Link>
           </div>
         </div>
       </section>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
       </div>
     </>
   );
