@@ -87,3 +87,89 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - `/markets/alachua` — Fixed named imports to default imports; fixed `class=` to `className=`; removed invalid `variant="primary"` prop on CTASection
 - `/markets/baker` — Fixed named imports to default imports; removed invalid `variant="primary"` prop
 - `/markets/bay` — Fixed named imports to default imports; fixed all `class=` to `className=`; removed invalid `variant="primary"` prop
+
+---
+
+## 2026-07-21 — Batch 2 (10 pages)
+
+### 1. `/markets/hillsborough`
+- Added Image import and 3 inline images (office buildings, downtown Tampa waterfront, industrial warehouse)
+- Added 10+ internal links across body text and services section
+- Added 6th FAQ about Hillsborough vs Pinellas/Pasco markets
+- Added id="lead-form" to lead form section
+- Shortened title to 51 chars (was over 70)
+- Added "Last updated: July 2026" footer
+
+### 2. `/markets/hernando`
+- Added Image import and 3 inline images (suburban retail, medical office, light industrial)
+- Added 10+ internal links across body text
+- Added 5th FAQ about comparing Hernando to Pasco and Citrus
+- Added id="lead-form" to lead form section
+- Shortened title to 47 chars (was over 70)
+- Added "Last updated: July 2026" footer
+
+### 3. `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Added Link and FAQAccordion imports
+- Added 6 faqItems with FAQAccordion section
+- Added 3 inline images (national retail storefront, property analysis documents, investor reviewing lease)
+- Upgraded schema to @graph (BlogPosting + FAQPage)
+- Added dateModified "2026-07-20"
+- Added 10+ internal links
+- Added "Last updated: July 2026" footer
+
+### 4. `/blog/commercial-property-due-diligence-timeline`
+- Added Link and FAQAccordion imports
+- Added 6 faqItems with FAQAccordion section
+- Added 3 inline images (document review, building inspection, closing documents)
+- Upgraded schema to @graph (BlogPosting + FAQPage)
+- Added dateModified "2026-07-20"
+- Added 10+ internal links
+- Added "Last updated: July 2026" footer
+
+### 5. `/blog/understanding-cam-charges-tenants-guide`
+- Added Link and FAQAccordion imports
+- Added 6 faqItems with FAQAccordion section
+- Added 3 inline images (retail center parking lot, tenant reviewing lease, commercial exterior)
+- Upgraded schema to @graph (BlogPosting + FAQPage)
+- Added dateModified "2026-07-20"
+- Added 10+ internal links
+- Added "Last updated: July 2026" footer
+
+### 6. `/blog/commercial-property-zoning-florida-basics`
+- Added Link and FAQAccordion imports
+- Added 6 faqItems with FAQAccordion section
+- Added 3 inline images (aerial zoning view, office buildings, Florida retail center)
+- Upgraded schema to @graph (BlogPosting + FAQPage)
+- Added dateModified "2026-07-20"
+- Added 10+ internal links
+- Added "Last updated: July 2026" footer
+
+### 7. `/blog/multifamily-investment-tampa-bay-guide`
+- Added Link and FAQAccordion imports
+- Added 6 faqItems with FAQAccordion section
+- Added 3 inline images (apartment building exterior, apartment complex, Tampa Bay skyline)
+- Upgraded schema to @graph (BlogPosting + FAQPage)
+- Added dateModified "2026-07-20"
+- Added 10+ internal links across markets, calculators, blog posts
+- Added "Last updated: July 2026" footer
+
+### 8. `/blog/florida-1031-exchange-what-investors-need-to-know`
+- Added Image import and 3 inline images (investment documents/calculator, Florida commercial, investor reviewing options)
+- Consolidated dual-schema (articleSchema + faqSchema) into single @graph schema
+- Added datePublished "2026-05-28" (was missing)
+- Added dateModified "2026-07-20"
+- Added 10+ internal links across markets, commercial types, calculators
+- Added "Last updated: July 2026" footer
+
+### 9. `/services/investment-sales`
+- Added Image import and 3 inline images (Florida CRE exterior, financial analysis, income-producing property)
+- Added 10+ internal links (markets, blog posts, calculators) in body text and related links
+- Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Updated footer from "June 2026" to "July 2026"
+
+### 10. `/services/tenant-representation`
+- Added Image import and 3 inline images (modern office interior, lease review, site tour)
+- Added 10+ internal links (markets, blog posts, commercial types) in body text and related links
+- Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Updated FAQ #5 to list specific Florida counties served
+- Updated footer from "June 2026" to "July 2026"
