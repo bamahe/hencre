@@ -443,5 +443,16 @@
     "county": "Hillsborough",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "new-port-richey-commercial-real-estate-investors",
+    "title": "New Port Richey CRE: Investor Opportunities 2026",
+    "excerpt": "New Port Richey is quietly becoming one of Pasco County's most compelling commercial real estate markets. Here's what investors and landlords need to know before the window closes.",
+    "date": "2026-07-22",
+    "category": "investor",
+    "city": "New Port Richey",
+    "county": "Pasco",
+    "businessType": null,
+    "image": null
   }
 ]
