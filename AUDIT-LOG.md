@@ -173,3 +173,80 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
 - Updated FAQ #5 to list specific Florida counties served
 - Updated footer from "June 2026" to "July 2026"
+
+---
+
+## 2026-07-22 — Batch 3 (10 pages)
+
+### 1. `/services/cre-valuation`
+- Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Added Image import and 3 inline images (commercial building evaluation, financial analyst comp data, institutional office buildings)
+- Added 10+ internal links to markets (hillsborough, pinellas, manatee, sarasota, pasco) and blog posts (ROI, CAM, 1031, due diligence, commercial types)
+- Expanded Related Services section with additional market and blog links
+- Updated footer from "June 2026" to "July 2026"
+
+### 2. `/services/dispositions`
+- Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Added Image import and 3 inline images (Florida commercial property, broker/investor meeting, closing documents)
+- Added 10+ internal links to markets and blog posts (1031 exchange, due diligence, ROI, CRE valuation)
+- Expanded Related Services section with cap rate calculator, ROI guide, due diligence links
+- Updated footer from "June 2026" to "July 2026"
+
+### 3. `/services/landlord-leasing`
+- Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Added Image import and 3 inline images (vacant office space, landlord reviewing applications, signed lease)
+- Added 10+ internal links to markets (hillsborough, pinellas, pasco, manatee, sarasota) and property types (office, retail, industrial-warehouse)
+- Added inline references to CAM charges and NNN lease blog posts
+- Expanded Related Services section with CAM, NNN, commercial-vs-residential, cap rate calculator
+- Updated footer from "June 2026" to "July 2026"
+
+### 4. `/blog/clearwater-retail-space-guide`
+- Added FAQAccordion import and 6-item faqItems array
+- Upgraded schema to @graph (BlogPosting + FAQPage), added dateModified "2026-07-21"
+- Added 3 inline images (retail corridor, outdoor seating storefront, strip center)
+- Added 10+ internal links: markets/pinellas, office guide, NNN, CAM, retail-space, tenant-representation, St. Pete CRE, ROI guide, due diligence, contact
+- Added FAQAccordion section after article body
+- Updated EEAT sentence with "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Added "Last updated: July 2026" footer
+
+### 5. `/blog/bradenton-commercial-real-estate-opportunities`
+- Added FAQAccordion import and 6-item faqItems array
+- Upgraded schema to @graph (BlogPosting + FAQPage), added dateModified "2026-07-21"
+- Added 3 inline images (I-75 corridor, professional office building, multifamily development)
+- Added 10+ internal links: markets/manatee, commercial types (multifamily, office, industrial), markets/sarasota, markets/hillsborough, related blog posts, investment-sales, contact
+- Added FAQAccordion section after article body
+- Updated EEAT sentence
+- Added "Last updated: July 2026" footer
+
+### 6. `/blog/sarasota-office-market-trends-2026`
+- Added FAQAccordion import and 6-item faqItems array
+- Upgraded schema to @graph (BlogPosting + FAQPage), added dateModified "2026-07-21"
+- Added 3 inline images (downtown Class A office, lease review professional, value-add office building)
+- Added 10+ internal links: markets/sarasota, commercial/office-space, CAM charges, Bradenton CRE, cap rate calculator, ROI guide, tenant-representation, landlord-leasing, contact
+- Added FAQAccordion section after article body
+- Updated EEAT sentence
+- Added "Last updated: July 2026" footer
+
+### 7. `/blog/clearwater-office-space-professional-services-firms`
+- Added Image import and 3 inline images (professional office interior, Gulf-to-Bay commercial building, attorney reviewing lease)
+- Consolidated dual-schema (articleSchema + faqSchema) into single @graph schema
+- Added dateModified "2026-07-21", updated jobTitle to "Broker Associate", publisher to "HenCRE"
+- Added "Last updated: July 2026" footer
+
+### 8. `/blog/sarasota-warehouse-distribution-space-guide`
+- Added Image import and 3 inline images (industrial warehouse facility, warehouse interior with loading dock, I-75 industrial park)
+- Consolidated dual-schema (articleSchema + faqSchema) into single @graph schema
+- Added dateModified "2026-07-21", updated jobTitle to "Broker Associate", publisher to "HenCRE"
+
+### 9. `/blog/st-petersburg-commercial-real-estate-2026`
+- Added Image import, FAQAccordion import, and new 5-item faqItems array
+- Replaced 3 separate schema variables with single @graph schema (BlogPosting + FAQPage + BreadcrumbList)
+- Added dateModified "2026-07-21", updated jobTitle to "Broker Associate"
+- Added 3 inline images (St. Pete skyline, Class A office interior, Central Avenue commercial)
+- Replaced inline h3/p FAQ sections with proper FAQAccordion component
+- Added 2 more relatedLinks (NNN lease guide, CRE due diligence timeline)
+- Updated EEAT sentence
+- Added "Last updated: July 2026" footer
+
+### 10. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Updated dateModified from "2026-07-20" to "2026-07-21"
