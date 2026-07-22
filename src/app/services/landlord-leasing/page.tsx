@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
@@ -103,33 +104,44 @@ export default function LandlordLeasingPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Vacancy Costs You Money Every Day</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial® broker, Barrett leverages the largest real estate network in the world to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs
+            As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett leverages the largest real estate network in the world to fill your vacancies faster across <Link href="/markets/hillsborough" className="underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="underline">Pinellas</Link>, <Link href="/markets/pasco" className="underline">Pasco</Link>, <Link href="/markets/manatee" className="underline">Manatee</Link>, <Link href="/markets/sarasota" className="underline">Sarasota</Link>, and all of Florida. Every month your <Link href="/commercial/office-space" className="underline">office</Link>, <Link href="/commercial/retail-space" className="underline">retail</Link>, or <Link href="/commercial/industrial-warehouse" className="underline">industrial space</Link> sits empty, you are paying carrying costs
             with zero income. Taxes, insurance, maintenance, and debt service do not
-            pause because the space is vacant. You need a broker who treats your
-            vacancy with the same urgency you feel.
+            pause because the space is vacant.
           </p>
           <p>
-            I create a leasing strategy tailored to your property — competitive pricing
+            Barrett creates a leasing strategy tailored to your property — competitive pricing
             based on real market data, professional marketing materials, and targeted
-            outreach to active tenants and tenant reps in the market. I do not just
-            post your listing and wait. I work the phones, tap my network, and drive
+            outreach to active tenants and tenant reps in the market. The work goes beyond
+            posting a listing: working the phones, tapping the REMAX Commercial network, and driving
             qualified prospects to your door.
           </p>
+
+          <Image
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+            alt="vacant commercial office space ready for landlord leasing services in Florida"
+            width={800}
+            height={500}
+            className="my-6 w-full rounded-lg"
+          />
+
           <p>
-            When prospects show interest, I handle showings, qualify tenants, negotiate
-            LOIs, and work through lease execution. I structure terms that protect your
+            When prospects show interest, Barrett handles showings, qualifies tenants, negotiates
+            LOIs, and works through lease execution. He structures terms that protect your
             interests — favorable escalations, appropriate TI exposure, personal
-            guarantees when warranted, and clear default provisions.
-          </p>
-          <p>
-            My goal is simple: get your space leased to a creditworthy tenant at market
-            rates, as fast as possible.
+            guarantees when warranted, and clear default provisions. Understanding <Link href="/blog/understanding-cam-charges-tenants-guide" className="underline">CAM charges</Link> and <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="underline">NNN lease structures</Link> is essential when setting lease terms.
           </p>
         </div>
       </section>
 
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
+          <Image
+            src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&h=450&fit=crop"
+            alt="commercial landlord reviewing tenant applications and lease proposals"
+            width={800}
+            height={450}
+            className="mb-10 w-full rounded-lg"
+          />
           <h2 className="text-2xl font-bold sm:text-3xl">Who This Is For</h2>
           <ul className="mt-6 grid gap-4 text-[#666666] sm:grid-cols-2">
             {[
@@ -151,6 +163,13 @@ export default function LandlordLeasingPage() {
 
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
+          <Image
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=450&fit=crop"
+            alt="signed commercial lease agreement between landlord and qualified Florida tenant"
+            width={800}
+            height={450}
+            className="mb-10 w-full rounded-lg"
+          />
           <h2 className="text-2xl font-bold sm:text-3xl">The Process</h2>
           <ol className="mt-8 space-y-6">
             {[
@@ -256,20 +275,25 @@ export default function LandlordLeasingPage() {
 
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-black">Related Services</h3>
+          <h3 className="text-lg font-bold text-black">Related Services &amp; Resources</h3>
           <div className="mt-4 flex flex-wrap gap-3">
             <Link href="/services/tenant-representation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tenant Representation</Link>
             <Link href="/services/dispositions" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
             <Link href="/services/cre-valuation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
             <Link href="/services/commercial-property-management" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Property Management</Link>
             <Link href="/markets/hillsborough" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Hillsborough County Market</Link>
+            <Link href="/markets/pinellas" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Pinellas County Market</Link>
+            <Link href="/blog/understanding-cam-charges-tenants-guide" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Understanding CAM Charges</Link>
+            <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">NNN Lease Guide</Link>
+            <Link href="/blog/how-commercial-leases-differ-from-residential" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Commercial vs Residential Leases</Link>
+            <Link href="/calculators/cap-rate" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Cap Rate Calculator</Link>
           </div>
         </div>
       </section>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
       </div>
     </>
   );

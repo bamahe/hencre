@@ -76,7 +76,7 @@ const schema = {
       description:
         "Commercial earnest money deposits are larger, harder to recover, and go non-refundable faster than residential deposits. Essential reading for Florida CRE investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-07-20",
+      dateModified: "2026-07-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

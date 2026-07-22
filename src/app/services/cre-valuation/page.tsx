@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
@@ -103,34 +104,47 @@ export default function CREValuationPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Accurate Valuation Drives Better Decisions</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial® broker, Barrett delivers valuations backed by market data and institutional-level analysis. Before you sell, refinance, negotiate a lease renewal, or restructure a
+            As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett delivers valuations backed by market data and institutional-level analysis. Before you sell, refinance, negotiate a lease renewal, or restructure a
             partnership, you need to know what your commercial property is actually
             worth. Not what you hope it is worth. Not what Zestimate says. What a
             sophisticated buyer or lender would pay based on income, comps, and market
             conditions.
           </p>
           <p>
-            I provide broker opinions of value (BOVs) that give you a defensible
-            market value range. My analysis considers three approaches: comparable
-            sales, income capitalization, and replacement cost. I weight each approach
+            Barrett provides broker opinions of value (BOVs) for <Link href="/markets/hillsborough" className="underline">Hillsborough County</Link>, <Link href="/markets/pinellas" className="underline">Pinellas County</Link>, <Link href="/markets/manatee" className="underline">Manatee County</Link>, <Link href="/markets/sarasota" className="underline">Sarasota County</Link>, <Link href="/markets/pasco" className="underline">Pasco County</Link>, and all 67 Florida counties. The analysis considers three approaches: comparable
+            sales, income capitalization, and replacement cost, each weighted
             based on what matters most for your specific property type and situation.
           </p>
           <p>
             A BOV is not a formal appraisal — it is a broker-level assessment based
             on real market data and professional judgment. It is faster, more
             affordable, and often more practically useful than a full appraisal. Banks,
-            attorneys, and estate planners regularly request BOVs for decision-making.
+            attorneys, and estate planners regularly request BOVs for decision-making. See how BOV figures feed into a full <Link href="/blog/how-to-calculate-commercial-property-roi" className="underline">commercial property ROI calculation</Link>.
           </p>
           <p>
-            Whether you own a single retail pad or a multi-property portfolio, I
-            deliver clear, well-supported valuations that help you make confident
+            Whether you own a single <Link href="/commercial/retail-space" className="underline">retail pad</Link>, an <Link href="/commercial/industrial-warehouse" className="underline">industrial building</Link>, or a multi-property portfolio, Barrett delivers clear, well-supported valuations that help you make confident
             decisions.
           </p>
         </div>
+
+        <Image
+          src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&h=500&fit=crop"
+          alt="Florida commercial real estate building being evaluated for broker opinion of value"
+          width={800}
+          height={500}
+          className="mt-10 w-full rounded-lg"
+        />
       </section>
 
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
+          <Image
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=450&fit=crop"
+            alt="financial analyst reviewing commercial property comparable sales data"
+            width={800}
+            height={450}
+            className="mb-10 w-full rounded-lg"
+          />
           <h2 className="text-2xl font-bold sm:text-3xl">Who This Is For</h2>
           <ul className="mt-6 grid gap-4 text-[#666666] sm:grid-cols-2">
             {[
@@ -152,6 +166,13 @@ export default function CREValuationPage() {
 
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
+          <Image
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=450&fit=crop"
+            alt="institutional-quality commercial office buildings in Florida"
+            width={800}
+            height={450}
+            className="mb-10 w-full rounded-lg"
+          />
           <h2 className="text-2xl font-bold sm:text-3xl">What a BOV Includes</h2>
           <ul className="mt-6 space-y-3 text-lg text-[#666666]">
             {[
@@ -248,19 +269,23 @@ export default function CREValuationPage() {
 
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-black">Related Services</h3>
+          <h3 className="text-lg font-bold text-black">Related Services &amp; Resources</h3>
           <div className="mt-4 flex flex-wrap gap-3">
             <Link href="/services/dispositions" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
             <Link href="/services/investment-sales" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Investment Sales</Link>
             <Link href="/services/landlord-leasing" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Landlord Leasing</Link>
-            <Link href="/insights/how-to-value-commercial-property" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">How to Value Commercial Property</Link>
+            <Link href="/services/tenant-representation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tenant Representation</Link>
+            <Link href="/blog/how-to-calculate-commercial-property-roi" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">ROI Calculator Guide</Link>
+            <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Florida 1031 Exchange</Link>
+            <Link href="/blog/commercial-property-due-diligence-timeline" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Due Diligence Timeline</Link>
+            <Link href="/markets" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Florida Markets</Link>
           </div>
         </div>
       </section>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
       </div>
     </>
   );

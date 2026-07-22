@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -27,32 +28,33 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Clearwater Office Space for Professional Services Firms",
-  description: "Find the right office space in Clearwater, FL for your law, accounting, or insurance firm. Get expert CRE guidance—call Barrett Henry today.",
-  datePublished: "2026-07-18",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-    sameAs: [
-      "https://hencre.com/about",
-      "https://nowtb.com",
-      "https://barretthenry.remax.com",
-    ],
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
-  },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/clearwater-office-space-professional-services-firms",
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      headline: "Clearwater Office Space for Professional Services Firms",
+      description: "Find the right office space in Clearwater, FL for your law, accounting, or insurance firm. Get expert CRE guidance—call Barrett Henry today.",
+      datePublished: "2026-07-18",
+      dateModified: "2026-07-21",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: [
+          "https://hencre.com/about",
+          "https://nowtb.com",
+          "https://barretthenry.remax.com",
+        ],
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/clearwater-office-space-professional-services-firms",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
     {
       "@type": "Question",
       name: "What zoning does a law firm or accounting office need in Clearwater?",
@@ -92,7 +94,9 @@ const faqSchema = {
         "@type": "Answer",
         text: "Yes. Barrett serves clients across all 67 Florida counties through REMAX Commercial Real Estate® and maintains offices in Tampa, Largo, and Brandon, giving him active coverage throughout the Tampa Bay region and statewide. If your firm is evaluating multiple Florida markets, he can help you compare opportunities across Pinellas, Hillsborough, Pasco, and other counties from a single point of contact.",
       },
-    }
+    },
+      ],
+    },
   ],
 };
 
@@ -120,8 +124,7 @@ const faqItems = [
 export default function BlogPost() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
@@ -143,6 +146,14 @@ export default function BlogPost() {
         <p className="mt-4 text-[#666666] leading-relaxed">Yes — Clearwater is one of the most practical office markets in Pinellas County for law firms, accounting practices, and insurance agencies. The city combines a dense residential population with a growing base of small businesses and healthcare employers, which creates steady, organic demand for the professional services those firms provide. For any firm that depends on walk-in clients or referral relationships with neighboring businesses, Clearwater's commercial corridors offer real advantages that generic suburban office parks do not.</p>
         <p className="mt-4 text-[#666666] leading-relaxed">Pinellas County as a whole has one of Florida's highest concentrations of residents over 45 — a demographic that actively uses estate attorneys, CPAs, and insurance advisors. That population profile is not a coincidence for professional service providers; it is a business case. If your firm's ideal client is a Florida homeowner, small business owner, or retiree, Clearwater puts you close to them. Learn more about what makes this market distinct on our <a href='/markets/pinellas'>Pinellas County commercial real estate market page</a>.</p>
 
+        <Image
+          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+          alt="professional services office space in Clearwater Florida for law and accounting firms"
+          width={800}
+          height={500}
+          className="my-10 w-full rounded-lg"
+        />
+
         <h2 className="mt-10 text-2xl font-bold text-black">What Types of Office Space Work Best for Law, Accounting, and Insurance Firms?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">Professional services firms generally need one thing above everything else: private offices or enclosed suites where client conversations remain confidential. Open-plan coworking layouts popular with tech startups rarely fit the compliance and privacy requirements of a licensed CPA, attorney, or insurance producer. You are looking at traditional <a href='/commercial/office-space'>Class A or Class B office space</a> in a low-rise or mid-rise building, medical-office conversions with strong parking ratios, or small professional office condominiums that let you own rather than lease.</p>
         <p className="mt-4 text-[#666666] leading-relaxed">In Clearwater, the corridors along US-19, Gulf-to-Bay Boulevard, and Drew Street have historically hosted this type of tenant. Standalone professional office buildings in those corridors often feature individual suite entrances, dedicated signage panels, and surface parking — all of which matter when a client is driving to your office for the first time. Multi-tenant buildings with a shared lobby also work well if they maintain a professional appearance and your suite gives you adequate acoustic separation from neighboring tenants.</p>
@@ -150,6 +161,14 @@ export default function BlogPost() {
         <h2 className="mt-10 text-2xl font-bold text-black">What Zoning and Permitting Requirements Apply in Clearwater?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">Professional offices in Clearwater typically operate under the City's Commercial General (CG) or Commercial Office (CO) zoning classifications. According to the City of Clearwater Land Development Code, professional and business offices are a permitted use in both designations without requiring a special exception, which simplifies the entitlement process considerably compared to, say, a medical clinic or a financial institution with a drive-through. That said, you still need a Business Tax Receipt (BTR) from the city before you open, and if your firm is regulated — attorneys must comply with Florida Bar advertising rules, insurance agencies with Chapter 626 of Florida Statutes — your signage and office setup need to meet those professional standards as well.</p>
         <p className="mt-4 text-[#666666] leading-relaxed">If you are taking raw or shell space and building out private offices, conference rooms, and a reception area, a building permit is required for any interior construction. According to Florida Building Code Section 105, permits are required for alterations that affect structural components, plumbing, electrical systems, or mechanical systems. A standard law firm or accounting office buildout typically triggers at minimum an electrical permit for data and lighting and a mechanical permit if HVAC distribution is modified. Budget time — usually four to six weeks in Clearwater — for permit review before you can begin construction. If you want a realistic project timeline before you sign anything, our <a href='/blog/commercial-property-due-diligence-timeline'>commercial property due diligence timeline guide</a> lays out what to expect.</p>
+
+        <Image
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=500&fit=crop"
+          alt="commercial office building on Gulf-to-Bay Boulevard corridor in Clearwater Pinellas County"
+          width={800}
+          height={500}
+          className="my-10 w-full rounded-lg"
+        />
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Lease Terms Should Professional Services Firms Negotiate in Clearwater?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">Professional service firms are valuable tenants — licensed, stable, low-turnover — and landlords know it. That gives you negotiating leverage you should use. The most important lease provisions for your firm type are: tenant improvement allowance (TI), renewal options, exclusivity clauses, and signage rights. TI dollars matter because converting a generic suite into a functional professional office with private offices, a reception counter, and a conference room costs money. According to industry data from CBRE's U.S. Office Occupier Survey, TI packages vary significantly by market conditions, but tenants who bring a REALTOR® to the table consistently negotiate higher allowances than those who approach landlords directly.</p>
@@ -159,6 +178,14 @@ export default function BlogPost() {
         <h2 className="mt-10 text-2xl font-bold text-black">What Location Factors Matter Most for Client-Facing Professional Offices?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">Visibility, parking, and proximity to your referral network are the three factors that drive location decisions for professional service firms. Visibility from a major road helps with brand recognition even if most of your clients come from referrals — a well-placed sign is advertising you do not have to pay for separately. Parking is non-negotiable: Clearwater clients expect to pull into a lot and walk straight to your door. A general rule of thumb for professional office users is a minimum parking ratio of four spaces per 1,000 square feet; anything less creates friction for clients during peak appointment hours.</p>
         <p className="mt-4 text-[#666666] leading-relaxed">Proximity to complementary businesses is often undervalued. A CPA practice located near a business law firm or a title company benefits from informal referral relationships that develop organically over time. Downtown Clearwater and the Cleveland Street corridor have seen renewed investment in recent years, bringing in financial services tenants who benefit from foot traffic and proximity to the courthouse and municipal offices — relevant for attorneys especially. If your firm serves business clients rather than primarily consumers, consider office parks near the US-19 and SR-60 interchange, where many small-to-midsize businesses in Pinellas County are headquartered. For broader context on where professional tenants are active across the region, see our <a href='/markets/pinellas'>Pinellas County market overview</a> and compare it with neighboring <a href='/markets/hillsborough'>Hillsborough County</a>.</p>
+
+        <Image
+          src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop"
+          alt="attorney reviewing commercial office lease agreement in Clearwater Florida"
+          width={800}
+          height={500}
+          className="my-10 w-full rounded-lg"
+        />
 
         <h2 className="mt-10 text-2xl font-bold text-black">Should Your Firm Lease or Buy Its Office Space in Clearwater?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">This is a question Barrett Henry fields regularly, and the answer depends on your firm's financial position, growth trajectory, and appetite for real estate as an investment. Leasing preserves capital and gives you flexibility to expand or relocate as your team grows. Buying — whether an office condominium or a small standalone building — builds equity, stabilizes your occupancy cost, and can create a separate revenue stream if you lease excess space to another professional tenant. According to Florida Realtors® market data, owner-occupied professional office condominiums in Pinellas County have historically attracted buyers from law, accounting, and financial services sectors precisely because of that dual benefit.</p>
@@ -218,6 +245,10 @@ export default function BlogPost() {
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />
+
+      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
     </>
   );
 }
