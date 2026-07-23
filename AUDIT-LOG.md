@@ -173,3 +173,91 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
 - Updated FAQ #5 to list specific Florida counties served
 - Updated footer from "June 2026" to "July 2026"
+
+---
+
+## 2026-07-23 — Batch 3 (10 pages)
+
+### 1. `/services/landlord-leasing`
+- Added Image import and 3 inline images (office building, lease meeting, Florida corridor)
+- Added 10+ internal links (services, markets, commercial types, calculators, blog posts)
+- Added 6th FAQ: "What lease terms should landlords focus on protecting?"
+- Updated EEAT: "With 23+ years of real estate experience, Barrett Henry..."
+- Updated schema Service node with full Person details; jobTitle set to "Broker Associate"
+- Updated footer from "June 2026" to "July 2026"
+
+### 2. `/services/dispositions`
+- Added Image import and 3 inline images (for sale sign, handshake, aerial)
+- Added 10+ internal links (cre-valuation, 1031 exchange blog, markets, commercial types, calculators)
+- Added 6th FAQ: "How do I know if my commercial property is priced correctly?"
+- Removed fabricated CBRE stat; replaced with factual statement
+- Updated EEAT and footer to "July 2026"
+- Shortened metadata title to under 70 chars
+
+### 3. `/services/cre-valuation`
+- Added Image import and 3 inline images (financial analysis, aerial, meeting)
+- Added 10+ internal links (insights, commercial types, services, blog posts, calculators)
+- Added 6th FAQ: "How does Barrett calculate cap rates in his valuations?"
+- Updated EEAT and footer to "July 2026"
+- Shortened metadata title to under 70 chars
+
+### 4. `/insights/what-is-a-cap-rate`
+- Added Image import and Link import (Link was missing)
+- Added 3 inline images (financial analysis, office building, Florida corridor)
+- Consolidated dual schemas (articleSchema + faqSchema) into single @graph (BreadcrumbList + Article + FAQPage)
+- Added dateModified "2026-07-23"; jobTitle set to "Broker Associate"
+- Added 5th FAQ: "How does cap rate relate to property value?"
+- Added 10+ internal links throughout article body
+- Updated footer to "July 2026"
+
+### 5. `/insights/nnn-lease-explained`
+- Added Image import and Link import (Link was missing)
+- Added 3 inline images (retail storefront, lease signing, aerial)
+- Consolidated dual schemas into single @graph (BreadcrumbList + Article + FAQPage)
+- Added datePublished "2026-06-10" and dateModified "2026-07-23" (both were missing)
+- Added 5th FAQ: "What is an absolute NNN lease?"
+- Added 10+ internal links throughout article body
+- Added "Last updated: July 2026" footer (was missing entirely)
+
+### 6. `/commercial/industrial-warehouse`
+- Added Image import and 3 inline images (warehouse exterior, warehouse interior, industrial park)
+- Added 10+ internal links (blog posts, insights, markets, commercial types, calculators)
+- Added 6th FAQ: "What zoning do I need for industrial or warehouse use in Florida?"
+- Updated EEAT in Quick Answer; updated footer to "July 2026"
+
+### 7. `/commercial/retail-space`
+- Added Image import and 3 inline images (strip center, retail interior, aerial)
+- Added 10+ internal links (markets, insights, commercial types, services, blog posts)
+- Added 6th FAQ: "What are CAM charges in a retail lease, and how do I control them?"
+- Updated EEAT ("23+ years of real estate experience"); updated footer to "July 2026"
+
+### 8. `/blog/brandon-commercial-real-estate-guide-2026`
+- Added Image import and 3 inline images (suburban commercial, meeting, analysis)
+- Merged separate articleSchema + faqSchema into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Added dateModified "2026-07-23"; jobTitle set to "Broker Associate"
+- Added 10+ internal links throughout article body
+- Added "Last updated: July 2026" footer
+
+### 9. `/blog/valrico-commercial-real-estate-guide`
+- Added Image import and Link import
+- Added 3 inline images (suburban corridor, investment analysis, broker meeting)
+- Merged separate articleSchema + faqSchema into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Added dateModified "2026-07-23"; jobTitle set to "Broker Associate"
+- Fixed 5 broken relatedLinks (added missing /blog/ prefix to all hrefs)
+- Added 6th FAQ: "What types of commercial properties perform best in Valrico, FL?"
+- Added 10+ internal links throughout article body
+- Shortened metadata title to 60 chars (was 73, over limit)
+- Added "Last updated: July 2026" footer
+
+### 10. `/markets/brevard`
+- Full rewrite to match market page pattern
+- Added Image, Link, LeadForm, FAQAccordion, RelatedLinks imports
+- Added canonical URL to metadata
+- Added @graph schema (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Added 3 inline images (aerial commercial corridor, Port Canaveral industrial, investment analysis)
+- Added 10+ internal links across all sections
+- Converted raw HTML FAQ to FAQAccordion component; expanded from 3 to 5 FAQs
+- Added id="lead-form" section with LeadForm component
+- Added RelatedLinks component (Hillsborough, Polk, industrial-warehouse, investment-sales)
+- Added "Last updated: July 2026" footer
+- Preserved all existing Space Coast/aerospace content (SpaceX, Blue Origin, L3Harris, Port Canaveral)
