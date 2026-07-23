@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
@@ -10,7 +11,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "CRE Valuation Florida | Broker Opinion of Value",
+  title: "CRE Valuation Florida | Broker Opinion of Value (BOV)",
   description:
     "Know what your commercial property is worth. Broker opinions of value, comp analysis, and market positioning for owners, investors, and lenders across Florida. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/services/cre-valuation" },
@@ -44,6 +45,10 @@ const FAQS = [
     question: "Can a BOV be used for financing?",
     answer: "Most lenders require a formal appraisal for loan origination. However, BOVs are widely accepted for preliminary decision-making, internal portfolio valuation, estate planning, partnership buyouts, and market positioning before listing.",
   },
+  {
+    question: "How does Barrett calculate cap rates in his valuations?",
+    answer: "Barrett pulls recent comparable sales from CoStar and his own transaction database, extracts the implied cap rate from each comp, and weights those rates based on similarity to your property — location, lease term, tenant credit, and building condition. He then applies market-derived cap rates to your actual or market NOI to produce a defensible value range. For a deeper explanation, see the cap rate guide on this site.",
+  },
 ];
 
 const schema = {
@@ -60,8 +65,13 @@ const schema = {
     {
       "@type": "Service",
       name: "CRE Valuation",
-      provider: { "@id": "https://hencre.com/#agent" },
-      description: "Broker opinion of value, comparable sales analysis, and commercial property valuation.",
+      provider: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
+      description: "Broker opinion of value, comparable sales analysis, and commercial property valuation across Florida.",
       areaServed: { "@type": "State", name: "Florida" },
     },
     {
@@ -94,7 +104,7 @@ export default function CREValuationPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            A CRE valuation determines what a commercial property is worth using three approaches: income capitalization, comparable sales, and replacement cost. According to the Appraisal Institute, the income approach is the most relevant for investment properties because it values the building based on its ability to generate income, not just what similar properties have sold for.
+            A CRE valuation determines what a commercial property is worth using three approaches: income capitalization, comparable sales, and replacement cost. According to the Appraisal Institute, the income approach is most relevant for investment properties because it values the building based on its ability to generate income — directly tied to the <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">capitalization rate</Link> and net operating income.
           </p>
         </div>
       </section>
@@ -103,33 +113,34 @@ export default function CREValuationPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Accurate Valuation Drives Better Decisions</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial® broker, Barrett delivers valuations backed by market data and institutional-level analysis. Before you sell, refinance, negotiate a lease renewal, or restructure a
-            partnership, you need to know what your commercial property is actually
-            worth. Not what you hope it is worth. Not what Zestimate says. What a
-            sophisticated buyer or lender would pay based on income, comps, and market
-            conditions.
+            With 23+ years of real estate experience, Barrett Henry delivers valuations backed by market data and institutional-level analysis. Before you sell, refinance, negotiate a lease renewal, or restructure a partnership, you need to know what your commercial property is actually worth. Not what you hope it is worth. Not what Zestimate says. What a sophisticated buyer or lender would pay based on income, comps, and market conditions.
           </p>
           <p>
-            I provide broker opinions of value (BOVs) that give you a defensible
-            market value range. My analysis considers three approaches: comparable
-            sales, income capitalization, and replacement cost. I weight each approach
-            based on what matters most for your specific property type and situation.
+            Barrett provides broker opinions of value (BOVs) that give you a defensible market value range. His analysis considers three approaches: comparable sales, income capitalization, and replacement cost. He weights each approach based on what matters most for your specific property type and situation. For <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN-leased investment properties</Link>, the income approach almost always drives value. For <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial and warehouse properties</Link>, recent comparable sales carry significant weight.
           </p>
           <p>
-            A BOV is not a formal appraisal — it is a broker-level assessment based
-            on real market data and professional judgment. It is faster, more
-            affordable, and often more practically useful than a full appraisal. Banks,
-            attorneys, and estate planners regularly request BOVs for decision-making.
+            A BOV is not a formal appraisal — it is a broker-level assessment based on real market data and professional judgment. It is faster, more affordable, and often more practically useful than a full appraisal. Banks, attorneys, and estate planners regularly request BOVs for decision-making.
           </p>
           <p>
-            Whether you own a single retail pad or a multi-property portfolio, I
-            deliver clear, well-supported valuations that help you make confident
-            decisions.
+            Whether you own a single retail pad or a multi-property portfolio, Barrett delivers clear, well-supported valuations that help you make confident decisions.
           </p>
         </div>
       </section>
 
-      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+      {/* ---- Image 1: Financial analysis / charts ---- */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=75"
+          alt="Commercial real estate financial analysis and valuation spreadsheets"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett uses CoStar data, recent comparables, and income analysis to produce defensible valuations for <Link href="/commercial" className="underline">all commercial property types</Link> across Florida.</p>
+      </section>
+
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8 mt-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">Who This Is For</h2>
           <ul className="mt-6 grid gap-4 text-[#666666] sm:grid-cols-2">
@@ -168,17 +179,30 @@ export default function CREValuationPage() {
               </li>
             ))}
           </ul>
+          <p className="mt-6 text-[#666666]">For sellers preparing to list, a BOV feeds directly into Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">disposition strategy</Link>. For investors evaluating acquisitions, it anchors the <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process</Link>. The <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> on this site lets you run quick checks before requesting a full BOV.</p>
         </div>
       </section>
 
-      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      {/* ---- Image 2: Commercial property being evaluated ---- */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&auto=format&fit=crop&q=75"
+          alt="Commercial real estate property under valuation analysis in Florida"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett delivers valuations for properties in <Link href="/markets/hillsborough" className="underline">Hillsborough</Link>, <Link href="/markets/sarasota" className="underline">Sarasota</Link>, <Link href="/markets/pasco" className="underline">Pasco</Link>, and all 67 Florida counties.</p>
+      </section>
+
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8 mt-16">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Need to Know Your Property&apos;s Value?
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Request a broker opinion of value. I will assess your property and deliver
-            a clear, well-supported valuation.
+            Request a broker opinion of value. Barrett will assess your property and deliver a clear, well-supported valuation.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline">
@@ -195,7 +219,7 @@ export default function CREValuationPage() {
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">How Do CRE Valuation Approaches Compare?</h2>
-          <p className="mt-4 text-[#666666]">According to the Appraisal Institute, each valuation approach serves a different purpose. Barrett uses all three and weights them appropriately.</p>
+          <p className="mt-4 text-[#666666]">According to the Appraisal Institute, each valuation approach serves a different purpose. Barrett uses all three and weights them appropriately for your property type and situation.</p>
           <div className="mt-8 overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
@@ -227,6 +251,19 @@ export default function CREValuationPage() {
         </div>
       </section>
 
+      {/* ---- Image 3: Property meeting / broker advisory ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=75"
+          alt="Barrett Henry reviewing commercial property valuation with a client"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Whether you are a first-time investor or managing a portfolio, understanding your property&apos;s value is the foundation of every smart decision. Learn <Link href="/insights/how-to-value-commercial-property" className="underline">how to value commercial property</Link> in detail.</p>
+      </section>
+
       {/* ---- FAQ section ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
@@ -248,19 +285,24 @@ export default function CREValuationPage() {
 
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-black">Related Services</h3>
+          <h3 className="text-lg font-bold text-black">Related Services &amp; Resources</h3>
           <div className="mt-4 flex flex-wrap gap-3">
+            <Link href="/services" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">All Services</Link>
             <Link href="/services/dispositions" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
             <Link href="/services/investment-sales" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Investment Sales</Link>
             <Link href="/services/landlord-leasing" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Landlord Leasing</Link>
-            <Link href="/insights/how-to-value-commercial-property" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">How to Value Commercial Property</Link>
+            <Link href="/insights/how-to-value-commercial-property" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">How to Value CRE</Link>
+            <Link href="/insights/what-is-a-cap-rate" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Cap Rate Explained</Link>
+            <Link href="/calculators/cap-rate" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Cap Rate Calculator</Link>
+            <Link href="/calculators/roi" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">ROI Calculator</Link>
+            <Link href="/blog/how-to-calculate-commercial-property-roi" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">ROI Calculation Guide</Link>
           </div>
         </div>
       </section>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
       </div>
     </>
   );

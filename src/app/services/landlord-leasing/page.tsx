@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     question: "How long does it take to lease commercial space?",
-    answer: "Leasing timelines vary by property type and market conditions. Well-positioned retail or office space in high-demand submarkets can lease within 30 to 60 days. Specialized or larger spaces may take 90 to 180 days. Barrett's aggressive marketing approach targets the shortest possible timeline.",
+    answer: "Leasing timelines vary by property type and market conditions. Well-positioned retail or office space in high-demand submarkets can lease within 30 to 60 days. Specialized or larger spaces may take 90 to 180 days. Barrett&apos;s aggressive marketing approach targets the shortest possible timeline.",
   },
   {
     question: "What marketing do you use to fill vacancies?",
@@ -44,6 +45,10 @@ const FAQS = [
     question: "What types of commercial properties do you lease?",
     answer: "Barrett leases all commercial property types — office, retail, industrial, warehouse, flex, medical office, and mixed-use — across all 67 Florida counties. He is anchored in Tampa Bay with offices in Tampa, Largo, and Brandon.",
   },
+  {
+    question: "What lease terms should landlords focus on protecting?",
+    answer: "The most important lease protections for landlords are rent escalation clauses, personal guarantees from business owners, permitted-use restrictions, early termination penalties, and clear default and cure provisions. Barrett structures leases that protect your income stream and minimize exposure if a tenant fails.",
+  },
 ];
 
 const schema = {
@@ -60,8 +65,13 @@ const schema = {
     {
       "@type": "Service",
       name: "Landlord Leasing",
-      provider: { "@id": "https://hencre.com/#agent" },
-      description: "Commercial landlord leasing — property marketing, tenant screening, lease negotiation, and vacancy reduction.",
+      provider: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
+      description: "Commercial landlord leasing — property marketing, tenant screening, lease negotiation, and vacancy reduction across Florida.",
       areaServed: { "@type": "State", name: "Florida" },
     },
     {
@@ -94,7 +104,7 @@ export default function LandlordLeasingPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Landlord leasing is the process of marketing vacant commercial space, qualifying tenants, and negotiating lease terms on behalf of the property owner. According to CBRE Research, vacant commercial space costs landlords an average of $5-$15 per square foot annually in carrying costs, making fast, professional leasing critical to protecting net operating income.
+            Landlord leasing is the process of marketing vacant commercial space, qualifying tenants, and negotiating lease terms on behalf of the property owner. Vacant commercial space costs landlords real money every month in taxes, insurance, and debt service with zero income to offset it — making fast, professional leasing critical to protecting net operating income.
           </p>
         </div>
       </section>
@@ -103,29 +113,28 @@ export default function LandlordLeasingPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Vacancy Costs You Money Every Day</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial® broker, Barrett leverages the largest real estate network in the world to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs
-            with zero income. Taxes, insurance, maintenance, and debt service do not
-            pause because the space is vacant. You need a broker who treats your
-            vacancy with the same urgency you feel.
+            With 23+ years of real estate experience, Barrett Henry knows exactly how much every vacant day costs a commercial landlord. As a REMAX Commercial broker, he leverages the largest real estate network in the world to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs with zero income. Taxes, insurance, maintenance, and debt service do not pause because the space is vacant. You need a broker who treats your vacancy with the same urgency you feel.
           </p>
           <p>
-            I create a leasing strategy tailored to your property — competitive pricing
-            based on real market data, professional marketing materials, and targeted
-            outreach to active tenants and tenant reps in the market. I do not just
-            post your listing and wait. I work the phones, tap my network, and drive
-            qualified prospects to your door.
+            Barrett creates a leasing strategy tailored to your property — competitive pricing based on real market data, professional marketing materials, and targeted outreach to active tenants and tenant reps in the market. He does not just post your listing and wait. He works the phones, taps his network, and drives qualified prospects to your door.
           </p>
           <p>
-            When prospects show interest, I handle showings, qualify tenants, negotiate
-            LOIs, and work through lease execution. I structure terms that protect your
-            interests — favorable escalations, appropriate TI exposure, personal
-            guarantees when warranted, and clear default provisions.
-          </p>
-          <p>
-            My goal is simple: get your space leased to a creditworthy tenant at market
-            rates, as fast as possible.
+            When prospects show interest, Barrett handles showings, qualifies tenants, negotiates LOIs, and works through lease execution. He structures terms that protect your interests — favorable escalations, appropriate TI exposure, personal guarantees when warranted, and clear default provisions.
           </p>
         </div>
+      </section>
+
+      {/* ---- Image 1: Commercial property ---- */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=75"
+          alt="Commercial office building available for lease in Florida"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett leases commercial properties across all Florida markets, including <Link href="/markets/hillsborough" className="underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="underline">Pinellas</Link>, and <Link href="/markets/pasco" className="underline">Pasco</Link> counties.</p>
       </section>
 
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
@@ -154,10 +163,10 @@ export default function LandlordLeasingPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">The Process</h2>
           <ol className="mt-8 space-y-6">
             {[
-              { step: "Property Assessment", desc: "I tour your property, review financials, and assess market positioning." },
+              { step: "Property Assessment", desc: "Barrett tours your property, reviews financials, and assesses market positioning." },
               { step: "Pricing Strategy", desc: "Comp analysis to set competitive asking rent and concession packages." },
               { step: "Marketing Launch", desc: "Professional materials, online listings, broker outreach, and sign installation." },
-              { step: "Prospect Qualification", desc: "I screen tenants for creditworthiness and business viability." },
+              { step: "Prospect Qualification", desc: "Barrett screens tenants for creditworthiness and business viability." },
               { step: "Negotiation", desc: "LOI drafting, term negotiation, and TI/concession structuring." },
               { step: "Lease Execution", desc: "Attorney coordination through executed lease and tenant onboarding." },
             ].map((item, i) => (
@@ -175,13 +184,26 @@ export default function LandlordLeasingPage() {
         </div>
       </section>
 
-      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      {/* ---- Image 2: Business meeting / lease signing ---- */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=75"
+          alt="Commercial lease negotiation and tenant representation meeting"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett negotiates leases for all property types — <Link href="/commercial/retail-space" className="underline">retail</Link>, <Link href="/commercial/office-space" className="underline">office</Link>, and <Link href="/commercial/industrial-warehouse" className="underline">industrial</Link> — across Florida.</p>
+      </section>
+
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8 mt-16">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Stop Losing Money to Vacancy
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Let me put a leasing plan together for your property. Free consultation.
+            Let Barrett put a leasing plan together for your property. Free consultation.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline">
@@ -198,7 +220,7 @@ export default function LandlordLeasingPage() {
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">What Does Vacancy Really Cost?</h2>
-          <p className="mt-4 text-[#666666]">According to the National Association of REALTORS, these are the typical carrying costs landlords face during vacancy periods.</p>
+          <p className="mt-4 text-[#666666]">These are the typical carrying costs landlords face during vacancy periods — costs that continue regardless of whether a tenant is paying rent.</p>
           <div className="mt-8 overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
@@ -232,7 +254,21 @@ export default function LandlordLeasingPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-6 text-[#666666]">Understanding your true vacancy cost — and understanding <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">how CAM charges and lease structures work</Link> — helps Barrett price your space competitively while protecting your net income. For <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN-leased properties</Link>, the calculation is even more direct: every vacant month is pure carrying cost with no offset.</p>
         </div>
+      </section>
+
+      {/* ---- Image 3: Florida commercial corridor ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&auto=format&fit=crop&q=75"
+          alt="Florida commercial real estate corridor showing retail and office buildings"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett serves landlords in <Link href="/markets/hillsborough" className="underline">Tampa Bay</Link>, <Link href="/markets/sarasota" className="underline">Sarasota</Link>, <Link href="/markets/manatee" className="underline">Manatee</Link>, and all 67 Florida counties.</p>
       </section>
 
       {/* ---- FAQ section ---- */}
@@ -256,20 +292,25 @@ export default function LandlordLeasingPage() {
 
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-black">Related Services</h3>
+          <h3 className="text-lg font-bold text-black">Related Services &amp; Resources</h3>
           <div className="mt-4 flex flex-wrap gap-3">
+            <Link href="/services" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">All Services</Link>
             <Link href="/services/tenant-representation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tenant Representation</Link>
             <Link href="/services/dispositions" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Dispositions</Link>
             <Link href="/services/cre-valuation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
             <Link href="/services/commercial-property-management" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Property Management</Link>
-            <Link href="/markets/hillsborough" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Hillsborough County Market</Link>
+            <Link href="/markets/hillsborough" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Hillsborough Market</Link>
+            <Link href="/markets/pinellas" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Pinellas Market</Link>
+            <Link href="/insights/nnn-lease-explained" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">NNN Lease Explained</Link>
+            <Link href="/blog/understanding-cam-charges-tenants-guide" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CAM Charges Guide</Link>
+            <Link href="/calculators/cap-rate" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Cap Rate Calculator</Link>
           </div>
         </div>
       </section>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
@@ -10,7 +11,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Property Dispositions FL | Sell for Maximum Value",
+  title: "Commercial Property Dispositions FL | Sell for Max Value",
   description:
     "Maximize proceeds when selling commercial real estate in Florida. Strategic pricing, targeted marketing, and deal structuring for optimal results. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/services/dispositions" },
@@ -44,6 +45,10 @@ const FAQS = [
     question: "What marketing do you use to sell commercial property?",
     answer: "Barrett uses institutional-quality offering memorandums, LoopNet, CoStar, and Crexi listings, direct outreach to targeted buyer pools, REMAX Commercial broker network activation, and email campaigns to qualified investors.",
   },
+  {
+    question: "How do I know if my commercial property is priced correctly?",
+    answer: "Correct pricing is the foundation of a successful disposition. Barrett performs a comprehensive broker opinion of value using comparable sales, income capitalization, and replacement cost approaches. He then recommends a pricing strategy that generates competitive buyer interest without leaving money on the table — and provides regular market feedback during the marketing period.",
+  },
 ];
 
 const schema = {
@@ -60,8 +65,13 @@ const schema = {
     {
       "@type": "Service",
       name: "Dispositions",
-      provider: { "@id": "https://hencre.com/#agent" },
-      description: "Commercial property dispositions — strategic pricing, marketing, buyer qualification, and deal structuring.",
+      provider: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
+      description: "Commercial property dispositions — strategic pricing, marketing, buyer qualification, and deal structuring across Florida.",
       areaServed: { "@type": "State", name: "Florida" },
     },
     {
@@ -94,7 +104,7 @@ export default function DispositionsPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            A disposition is the strategic sale of a commercial property to maximize proceeds. According to CBRE, sellers who work with experienced brokers typically achieve 5-12% higher sale prices compared to unrepresented sellers, thanks to competitive marketing, institutional-quality materials, and targeted buyer outreach.
+            A disposition is the strategic sale of a commercial property to maximize proceeds. Sellers who work with experienced brokers consistently achieve stronger pricing through competitive marketing, institutional-quality materials, and targeted buyer outreach — because the commercial buyer pool is smaller and more sophisticated than residential, and reaching the right buyers directly matters.
           </p>
         </div>
       </section>
@@ -103,33 +113,34 @@ export default function DispositionsPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Exit at the Right Time, at the Right Price</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a REMAX Commercial® broker, Barrett taps the largest real estate referral network on the planet to reach qualified buyers for your asset. Selling a commercial property is not like listing a house. The buyer pool
-            is smaller, more sophisticated, and more analytical. You need a broker who
-            speaks their language — who can present your property with institutional-
-            quality materials, price it based on real income data, and negotiate with
-            buyers who know exactly what they are doing.
+            With 23+ years of real estate experience, Barrett Henry brings institutional-quality discipline to every commercial sale. As a REMAX Commercial broker, he taps the largest real estate referral network on the planet to reach qualified buyers for your asset. Selling a commercial property is not like listing a house. The buyer pool is smaller, more sophisticated, and more analytical. You need a broker who speaks their language — who can present your property with institutional-quality materials, price it based on real income data, and negotiate with buyers who know exactly what they are doing.
           </p>
           <p>
-            I start with a comprehensive broker opinion of value (BOV) based on
-            comparable sales, income analysis, and market trends. From there, I develop
-            a pricing strategy designed to generate competitive interest without
-            leaving money on the table.
+            Barrett starts with a comprehensive <Link href="/services/cre-valuation" className="text-accent underline">broker opinion of value (BOV)</Link> based on comparable sales, income analysis, and market trends. From there, he develops a pricing strategy designed to generate competitive interest without leaving money on the table.
           </p>
           <p>
-            My marketing approach is targeted, not generic. I identify the most likely
-            buyer profiles for your asset — 1031 exchangers, private equity, local
-            operators, or owner-users — and reach them through direct outreach, broker
-            networks, and curated marketing campaigns. The goal is competitive tension
-            that drives best-and-final offers.
+            His marketing approach is targeted, not generic. Barrett identifies the most likely buyer profiles for your asset — 1031 exchangers, private equity, local operators, or owner-users — and reaches them through direct outreach, broker networks, and curated marketing campaigns. The goal is competitive tension that drives best-and-final offers.
           </p>
           <p>
-            Through due diligence, negotiation, and closing, I manage every detail.
-            You focus on your next move while I maximize your proceeds on this one.
+            Through due diligence, negotiation, and closing, Barrett manages every detail. You focus on your next move while he maximizes your proceeds on this one.
           </p>
         </div>
       </section>
 
-      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+      {/* ---- Image 1: Commercial for sale ---- */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=800&auto=format&fit=crop&q=75"
+          alt="Commercial property for sale sign in Florida"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett represents sellers across all Florida markets — from <Link href="/markets/hillsborough" className="underline">Hillsborough</Link> to <Link href="/markets/sarasota" className="underline">Sarasota</Link> to <Link href="/markets/brevard" className="underline">Brevard County</Link>.</p>
+      </section>
+
+      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8 mt-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">Who This Is For</h2>
           <ul className="mt-6 grid gap-4 text-[#666666] sm:grid-cols-2">
@@ -176,14 +187,26 @@ export default function DispositionsPage() {
         </div>
       </section>
 
-      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
+      {/* ---- Image 2: Business handshake / deal closing ---- */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&auto=format&fit=crop&q=75"
+          alt="Commercial real estate deal closing and buyer qualification"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett works with buyers executing <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="underline">1031 exchanges</Link>, private equity groups, and owner-users across all <Link href="/commercial" className="underline">commercial property types</Link>.</p>
+      </section>
+
+      <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8 mt-16">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Considering a Sale?
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Get a broker opinion of value with no obligation. Know what your property
-            is worth before you decide.
+            Get a broker opinion of value with no obligation. Know what your property is worth before you decide.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline">
@@ -200,6 +223,7 @@ export default function DispositionsPage() {
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">How Do Disposition Strategies Compare?</h2>
+          <p className="mt-4 text-[#666666]">The right disposition strategy depends on your timeline, tax situation, and buyer pool. Barrett advises on the best approach for your specific asset and goals.</p>
           <div className="mt-8 overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
@@ -221,7 +245,7 @@ export default function DispositionsPage() {
                   <td className="py-3">Discretion, speed, or specific buyer profiles</td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="py-3 pr-4 font-semibold text-black"><Link href="/insights/1031-exchange-basics" className="underline">1031 Exchange Sale</Link></td>
+                  <td className="py-3 pr-4 font-semibold text-black"><Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="underline">1031 Exchange Sale</Link></td>
                   <td className="py-3 pr-4">45-180 days (IRS deadlines)</td>
                   <td className="py-3">Tax deferral while reinvesting proceeds</td>
                 </tr>
@@ -233,7 +257,21 @@ export default function DispositionsPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-6 text-[#666666]">Before deciding to sell, Barrett recommends reviewing the <Link href="/blog/tampa-bay-rental-property-exit-strategy-2026" className="text-accent underline">Tampa Bay rental property exit strategy guide</Link> and understanding how <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</Link> affect your property&apos;s value to buyers. The <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> can also help you model your post-sale returns.</p>
         </div>
+      </section>
+
+      {/* ---- Image 3: Commercial property aerial / Florida market ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&auto=format&fit=crop&q=75"
+          alt="Aerial view of Florida commercial real estate portfolio"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett advises on disposition of all property types — <Link href="/commercial/retail-space" className="underline">retail</Link>, <Link href="/commercial/office-space" className="underline">office</Link>, <Link href="/commercial/industrial-warehouse" className="underline">industrial</Link>, and <Link href="/commercial/multifamily" className="underline">multifamily</Link> — statewide.</p>
       </section>
 
       {/* ---- FAQ section ---- */}
@@ -257,19 +295,24 @@ export default function DispositionsPage() {
 
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-black">Related Services</h3>
+          <h3 className="text-lg font-bold text-black">Related Services &amp; Resources</h3>
           <div className="mt-4 flex flex-wrap gap-3">
+            <Link href="/services" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">All Services</Link>
             <Link href="/services/investment-sales" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Investment Sales</Link>
             <Link href="/services/cre-valuation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">CRE Valuation</Link>
             <Link href="/services/landlord-leasing" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Landlord Leasing</Link>
             <Link href="/markets" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Florida Markets</Link>
+            <Link href="/insights/1031-exchange-basics" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">1031 Exchange Basics</Link>
+            <Link href="/insights/what-is-a-cap-rate" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Cap Rate Explained</Link>
+            <Link href="/calculators/roi" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">ROI Calculator</Link>
+            <Link href="/blog/commercial-property-due-diligence-timeline" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Due Diligence Timeline</Link>
           </div>
         </div>
       </section>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
       </div>
     </>
   );
