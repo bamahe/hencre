@@ -261,3 +261,88 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added RelatedLinks component (Hillsborough, Polk, industrial-warehouse, investment-sales)
 - Added "Last updated: July 2026" footer
 - Preserved all existing Space Coast/aerospace content (SpaceX, Blue Origin, L3Harris, Port Canaveral)
+
+---
+
+## 2026-07-24 — Batch 4 (10 pages)
+
+### 1. `/insights/how-to-value-commercial-property`
+- Consolidated dual schemas into single @graph (BreadcrumbList + Article + FAQPage)
+- Added Image and Link imports; jobTitle set to "Broker Associate"; added datePublished/dateModified
+- Added 5th FAQ: "What is the difference between NOI and cap rate in a valuation?"
+- Added 3 inline images (financial spreadsheet, office building, broker meeting)
+- Added 10+ internal links across all market, commercial, insights, and calculator pages
+- Added EEAT intro paragraph and "Last updated: July 2026" footer
+
+### 2. `/insights/cam-charges-explained`
+- Consolidated dual schemas into single @graph (BreadcrumbList + Article + FAQPage)
+- Added Image and Link imports; jobTitle set to "Broker Associate"; added datePublished/dateModified
+- Added 5th FAQ: "Are CAM charges higher in Florida than in other states?"
+- Added 3 inline images (retail parking lot, lease review, office building)
+- Added 10+ internal links (markets, commercial types, insights, blog posts)
+- Added "Last updated: July 2026" footer
+
+### 3. `/insights/gross-vs-net-lease`
+- Consolidated dual schemas into single @graph (BreadcrumbList + Article + FAQPage)
+- Added Image and Link imports; jobTitle set to "Broker Associate"; added datePublished/dateModified
+- Added 5th FAQ: "How does the lease structure affect my total occupancy cost in Florida?"
+- Added 3 inline images (office lobby, NNN retail, broker meeting)
+- Added 10+ internal links (markets, commercial types, insights, calculators, blog posts)
+- Added "Last updated: July 2026" footer
+
+### 4. `/insights/leasing-vs-buying-commercial`
+- Consolidated dual schemas into single @graph (BreadcrumbList + Article + FAQPage)
+- Added Image and Link imports; jobTitle set to "Broker Associate"; added datePublished/dateModified
+- Expanded from 3 to 5 FAQs: added "How long to stay before buying makes sense?" and "What property types work best for owner-occupants?"
+- Added 3 inline images (financial analysis, commercial for sale, broker meeting)
+- Added 10+ internal links (markets, commercial types, insights, services, calculators)
+- Added "Last updated: July 2026" footer
+
+### 5. `/insights/1031-exchange-basics`
+- Consolidated dual schemas into single @graph (BreadcrumbList + Article + FAQPage)
+- Added Image and Link imports; jobTitle set to "Broker Associate"; added datePublished/dateModified
+- Added 5th FAQ: "Why is Florida a popular destination for 1031 exchange replacement properties?"
+- Added 3 inline images (due diligence documents, office building, investor calculator)
+- Added 10+ internal links (markets, commercial types, insights, services, blog posts, calculators)
+- Added "Last updated: July 2026" footer
+
+### 6. `/insights/cre-due-diligence-checklist`
+- Consolidated dual schemas into single @graph (BreadcrumbList + Article + FAQPage)
+- Added Image and Link imports; jobTitle set to "Broker Associate"; added datePublished/dateModified
+- Added 5th FAQ: "What are the most common due diligence surprises in Florida?"
+- Added 3 inline images (due diligence documents, building inspection, broker meeting)
+- Added 10+ internal links (markets, commercial types, insights, services, calculators, blog posts)
+- Added "Last updated: July 2026" footer
+
+### 7. `/commercial/office-space`
+- Added Image import (Link was already present)
+- Updated schema from WebPage to Service type; jobTitle set to "Broker Associate"
+- Added 6th FAQ: "What submarkets have the strongest office demand in Tampa Bay right now?"
+- Added 3 inline images (Class A building, office interior, broker meeting)
+- Added 10+ internal links across market, service, insights, and commercial type pages
+- Updated EEAT in Quick Answer; updated footer to "July 2026"
+
+### 8. `/commercial/multifamily`
+- Added Image import; updated schema from WebPage to Service type; jobTitle set to "Broker Associate"
+- Added 6th FAQ: "Which Florida submarkets have the strongest multifamily demand right now?"
+- Added 3 inline images (apartment complex, financial analysis, broker meeting)
+- Added 10+ internal links (markets, commercial types, services, insights, calculators, blog)
+- Updated EEAT body text ("Broker Associate at REMAX Collective with 23+ years"); updated footer to "July 2026"
+
+### 9. `/commercial/nnn-net-lease`
+- Added Image import; updated schema from WebPage to Service type; jobTitle set to "Broker Associate"
+- Added 6th FAQ: "How does a NNN property fit into a Florida CRE investment portfolio?"
+- Added 3 inline images (freestanding NNN retail, investor reviewing lease, broker meeting)
+- Added 10+ internal links (markets, commercial types, insights, services, calculators)
+- Updated EEAT body text ("Broker Associate at REMAX Collective with 23+ years"); updated footer to "July 2026"
+
+### 10. `/markets/citrus`
+- Added Image import; updated schema jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"
+- Added BreadcrumbList to @graph schema
+- Added 5th FAQ: "Is Citrus County a good market for 1031 exchange replacement properties?"
+- Added 3 inline images (commercial corridor, investment analysis, broker meeting)
+- Added 10+ internal links (adjacent markets, commercial types, services, insights, calculators)
+- Updated body EEAT text to "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Added id="lead-form" to lead form section
+- Shortened metadata title to under 70 chars
+- Added "Last updated: July 2026" footer

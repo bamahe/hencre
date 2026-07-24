@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
@@ -12,6 +13,7 @@ const FAQS = [
   { question: "How many units qualifies as commercial multifamily?", answer: "Properties with 5 or more units are generally classified as commercial multifamily and financed with commercial loans. Properties with 1-4 units are typically classified as residential. Barrett works with 5+ unit properties across Florida." },
   { question: "What is the minimum down payment for multifamily investment?", answer: "Commercial multifamily loans typically require 20-30% down. SBA loans may allow lower down payments for owner-occupied properties. Barrett works with investors at all equity levels and can connect you with commercial lenders experienced in Florida multifamily." },
   { question: "Is Florida a good market for multifamily investment?", answer: "According to the U.S. Census Bureau, Florida adds over 300,000 residents annually. Combined with rising homeownership costs and no state income tax, these fundamentals drive sustained rental demand. Tampa Bay, Orlando, and South Florida are among the most active multifamily markets in the country." },
+  { question: "Which Florida submarkets have the strongest multifamily demand right now?", answer: "Hillsborough County (Tampa), Pasco County (Wesley Chapel / Land O&apos; Lakes), and Sarasota County consistently rank among the strongest multifamily submarkets. Polk County and Pinellas County also offer attractive value-add opportunities at lower price points. Barrett tracks submarket-level vacancy, rent growth, and cap rate trends across all of these areas." },
 ];
 
 /* -------------------------------------------------------------------
@@ -42,9 +44,16 @@ const schema = {
       ],
     },
     {
-      "@type": "WebPage",
+      "@type": "Service",
       name: "Multifamily Investment in Florida",
       url: "https://hencre.com/commercial/multifamily",
+      description: "Multifamily acquisition, disposition, and investment advisory for Florida apartment properties.",
+      provider: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
     },
     { "@type": "FAQPage", mainEntity: FAQS.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) },
   ],
@@ -69,7 +78,15 @@ export default function MultifamilyPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Multifamily real estate includes apartment complexes with 5+ units, valued as income-producing commercial assets. According to the National Apartment Association, Florida is the third-largest apartment market in the U.S. with over 1.2 million rental units, driven by population growth exceeding 300,000 residents annually.
+            Multifamily real estate includes apartment complexes with 5+ units, valued as income-producing commercial assets.
+            According to the National Apartment Association, Florida is the third-largest apartment market in the U.S. with over
+            1.2 million rental units, driven by population growth exceeding 300,000 residents annually. Barrett Henry, Broker
+            Associate at REMAX Collective with 23+ years of real estate experience, specializes in multifamily acquisitions,
+            dispositions, and value-add investments across{" "}
+            <Link href="/markets/hillsborough" className="underline">Hillsborough</Link>,{" "}
+            <Link href="/markets/pasco" className="underline">Pasco</Link>,{" "}
+            <Link href="/markets/pinellas" className="underline">Pinellas</Link>, and{" "}
+            <Link href="/markets/sarasota" className="underline">Sarasota</Link> counties.
           </p>
         </div>
       </section>
@@ -78,20 +95,46 @@ export default function MultifamilyPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Florida Multifamily Market Overview</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            Florida adds over 300,000 new residents annually, and they all need
-            somewhere to live. That population growth, combined with rising
-            homeownership costs, keeps demand for rental housing high across the state.
-            REMAX Commercial Real Estate advisors handle multifamily acquisitions and dispositions across all Florida markets. Multifamily is one of the most resilient and in-demand CRE asset classes in
-            Florida.
+            Florida adds over 300,000 new residents annually, and they all need somewhere to live. That population growth,
+            combined with rising homeownership costs, keeps demand for rental housing high across the state. Barrett Henry is a
+            Broker Associate at REMAX Collective with 23+ years of real estate experience handling multifamily acquisitions and
+            dispositions across all Florida markets. Multifamily is one of the most resilient and in-demand CRE asset classes
+            in Florida, outperforming retail and office during economic downturns.
           </p>
           <p>
-            From garden-style apartments in suburban Tampa Bay to mid-rise
-            developments in urban corridors, the multifamily market offers opportunities
-            for stabilized cash flow and value-add plays. Cap rates have compressed in
-            institutional-quality assets, but well-located properties with renovation
-            potential still offer attractive returns.
+            From garden-style apartments in suburban{" "}
+            <Link href="/markets/hillsborough" className="underline">Tampa Bay</Link> to mid-rise developments in urban
+            corridors, the multifamily market offers opportunities for stabilized cash flow and value-add plays. Cap rates have
+            compressed in institutional-quality assets, but well-located properties in{" "}
+            <Link href="/markets/pasco" className="underline">Pasco County</Link> and{" "}
+            <Link href="/markets/polk" className="underline">Polk County</Link> with renovation potential still offer
+            attractive returns. Use the{" "}
+            <Link href="/calculators/cap-rate" className="underline">cap rate calculator</Link> to model your deal before you
+            commit.
+          </p>
+          <p>
+            Investors acquiring multifamily as part of a <Link href="/insights/1031-exchange-basics" className="underline">1031 exchange</Link>{" "}
+            will find Florida particularly attractive: the state has no income tax, strong rent growth history, and multiple
+            submarkets with sub-5% vacancy. Whether you are buying your first 5-unit building or selling a 200-unit portfolio,
+            Barrett&apos;s{" "}
+            <Link href="/services/investment-sales" className="underline">investment sales</Link> and{" "}
+            <Link href="/services/dispositions" className="underline">dispositions</Link> expertise covers the full
+            transaction lifecycle.
           </p>
         </div>
+      </section>
+
+      {/* ---- Image 1 ---- */}
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&auto=format&fit=crop&q=75"
+          alt="Florida apartment complex with landscaping — multifamily investment property"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Garden-style multifamily is one of the most common investment types across Florida submarkets.</p>
       </section>
 
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
@@ -100,9 +143,9 @@ export default function MultifamilyPage() {
           <div className="mt-6 grid gap-6 sm:grid-cols-2">
             {[
               { title: "Unit Mix", desc: "Studio, 1BR, 2BR, and 3BR units serve different tenant demographics. The right mix depends on your submarket and target renter profile." },
-              { title: "Rent Growth", desc: "Historical and projected rent growth drives valuation. I analyze submarket trends to identify properties with upside potential." },
-              { title: "Operating Expenses", desc: "Insurance, property taxes, and maintenance are major line items in Florida. I help you underwrite realistic expenses, not pro forma fantasy." },
-              { title: "Value-Add Potential", desc: "Interior renovations, amenity upgrades, and operational improvements can boost NOI significantly. I identify properties where the numbers work." },
+              { title: "Rent Growth", desc: "Historical and projected rent growth drives valuation. Barrett analyzes submarket trends to identify properties with upside potential." },
+              { title: "Operating Expenses", desc: "Insurance, property taxes, and maintenance are major line items in Florida. Barrett helps you underwrite realistic expenses, not pro forma fantasy." },
+              { title: "Value-Add Potential", desc: "Interior renovations, amenity upgrades, and operational improvements can boost NOI significantly. Barrett identifies properties where the numbers work." },
             ].map((item) => (
               <div key={item.title} className="rounded-lg border border-[#E5E5E5] p-6">
                 <h3 className="text-lg font-bold text-black">{item.title}</h3>
@@ -110,7 +153,27 @@ export default function MultifamilyPage() {
               </div>
             ))}
           </div>
+          <p className="mt-8 text-[#666666]">
+            Understanding <Link href="/insights/what-is-a-cap-rate" className="underline">cap rates</Link> and{" "}
+            <Link href="/insights/how-to-value-commercial-property" className="underline">property valuation</Link> is
+            essential before making a multifamily offer. Pair that knowledge with a solid{" "}
+            <Link href="/calculators/roi" className="underline">ROI analysis</Link> to evaluate hold period returns,
+            not just in-place yield.
+          </p>
         </div>
+      </section>
+
+      {/* ---- Image 2 ---- */}
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=75"
+          alt="Multifamily investment financial analysis — cap rate and NOI spreadsheet"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Use the <Link href="/calculators/cap-rate" className="underline">cap rate calculator</Link> and <Link href="/calculators/roi" className="underline">ROI calculator</Link> to underwrite Florida multifamily deals.</p>
       </section>
 
       <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
@@ -119,7 +182,7 @@ export default function MultifamilyPage() {
             Looking at Multifamily in Florida?
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Whether you are buying, selling, or just evaluating the market, I can help
+            Whether you are buying, selling, or just evaluating the market, Barrett can help
             you make a data-driven decision.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -150,7 +213,28 @@ export default function MultifamilyPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-6 text-sm text-[#666666]">
+            Not sure which strategy fits your goals? Compare multifamily to{" "}
+            <Link href="/commercial/nnn-net-lease" className="underline">NNN net lease</Link> for passive income or{" "}
+            <Link href="/commercial/retail-space" className="underline">retail</Link> for a different risk/return profile.
+            Barrett also advises on{" "}
+            <Link href="/commercial/land-development" className="underline">land acquisitions</Link> for ground-up
+            multifamily development in high-growth corridors.
+          </p>
         </div>
+      </section>
+
+      {/* ---- Image 3 ---- */}
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=75"
+          alt="Barrett Henry, Broker Associate at REMAX Collective, consulting on a multifamily investment"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida commercial real estate experience.</p>
       </section>
 
       {/* ---- FAQ section ---- */}
@@ -174,7 +258,7 @@ export default function MultifamilyPage() {
 
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-lg font-bold text-black">Explore Other Property Types</h3>
+          <h3 className="text-lg font-bold text-black">Explore Other Property Types and Resources</h3>
           <div className="mt-4 flex flex-wrap gap-3">
             <Link href="/commercial/office-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Office Space</Link>
             <Link href="/commercial/retail-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Retail Space</Link>
@@ -182,13 +266,15 @@ export default function MultifamilyPage() {
             <Link href="/commercial/nnn-net-lease" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">NNN / Net Lease</Link>
             <Link href="/commercial/land-development" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Land &amp; Development</Link>
             <Link href="/services/investment-sales" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Investment Sales</Link>
+            <Link href="/insights/1031-exchange-basics" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">1031 Exchange Basics</Link>
+            <Link href="/calculators/cap-rate" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Cap Rate Calculator</Link>
           </div>
         </div>
       </section>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
       </div>
     </>
   );

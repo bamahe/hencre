@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -9,7 +10,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 const FAQS = [
   {
     question: "What is the average office lease rate in Florida?",
-    answer: "Office lease rates in Florida range from $18 to $45 per square foot depending on class, location, and lease structure. Class A office in Tampa's Westshore district averages $32-$38/SF full-service. Suburban Class B office runs $22-$28/SF. Barrett provides current market rates for your specific submarket.",
+    answer: "Office lease rates in Florida range from $18 to $45 per square foot depending on class, location, and lease structure. Class A office in Tampa&apos;s Westshore district averages $32-$38/SF full-service. Suburban Class B office runs $22-$28/SF. Barrett provides current market rates for your specific submarket.",
   },
   {
     question: "What is the difference between Class A, B, and C office space?",
@@ -26,6 +27,10 @@ const FAQS = [
   {
     question: "What is a full-service gross lease?",
     answer: "In a full-service gross lease, the tenant pays one flat rental rate that includes base rent plus all operating expenses — taxes, insurance, utilities, and maintenance. This structure is most common for office space and provides predictable monthly costs.",
+  },
+  {
+    question: "What submarkets have the strongest office demand in Tampa Bay right now?",
+    answer: "Westshore, Downtown Tampa, and Carrollwood have seen the strongest Class A absorption in recent years as in-migration from high-tax states continues. Suburban Class B in markets like Brandon, Wesley Chapel, and Clearwater also benefits from companies seeking lower rents without sacrificing modern amenities. Barrett tracks submarket vacancy and absorption data to help tenants and investors make data-driven decisions.",
   },
 ];
 
@@ -57,9 +62,15 @@ const schema = {
       ],
     },
     {
-      "@type": "WebPage",
-      name: "Office Space in Florida",
+      "@type": "Service",
+      name: "Office Space Leasing and Investment — Florida",
       description: "Commercial office space leasing, sales, and investment across Florida.",
+      provider: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
       url: "https://hencre.com/commercial/office-space",
     },
     {
@@ -92,7 +103,7 @@ export default function OfficeSpacePage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Florida office space includes Class A, B, and C buildings used for professional, medical, and corporate purposes. According to CoStar, Tampa Bay office vacancy rates are approximately 12-15% in 2026, with strong absorption in Class A suburban locations as companies relocate from higher-cost states.
+            Florida office space includes Class A, B, and C buildings used for professional, medical, and corporate purposes. Barrett Henry, a Broker Associate at REMAX Collective with 23+ years of real estate experience, helps tenants find office space, landlords fill vacancies, and investors acquire performing office assets across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> counties.
           </p>
         </div>
       </section>
@@ -104,15 +115,28 @@ export default function OfficeSpacePage() {
             Florida&apos;s office market continues to evolve as companies relocate from
             high-tax states and remote work reshapes demand patterns. Tampa Bay, in
             particular, has seen strong net absorption in Class A suburban office as
-            companies seek modern, amenity-rich workspaces that attract talent.
+            companies seek modern, amenity-rich workspaces that attract talent. Markets like <Link href="/markets/pasco" className="text-accent underline">Wesley Chapel</Link> and <Link href="/markets/hernando" className="text-accent underline">Spring Hill</Link> are seeing new suburban office development to serve growing residential populations.
           </p>
           <p>
             Whether you need a 1,500 SF professional suite or a 50,000 SF corporate
             headquarters, the Florida office market offers options across every price
-            point and submarket. REMAX Commercial Real Estate advisors specialize in office properties across every submarket. I help tenants find the right fit, landlords fill
-            vacancies, and investors acquire performing office assets.
+            point and submarket. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, I help tenants find the right fit through <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link>, landlords fill
+            vacancies through <Link href="/services/landlord-leasing" className="text-accent underline">landlord leasing services</Link>, and investors acquire performing office assets through <Link href="/services/investment-sales" className="text-accent underline">investment sales</Link>.
           </p>
         </div>
+      </section>
+
+      {/* ---- Image 1: Class A office building ---- */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=75"
+          alt="Class A commercial office building in Florida — premium finishes and modern systems"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Class A office buildings command premium rents but offer the amenities needed to attract and retain top talent. See our <Link href="/insights/leasing-vs-buying-commercial" className="underline">leasing vs. buying guide</Link> to evaluate both paths.</p>
       </section>
 
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
@@ -121,7 +145,7 @@ export default function OfficeSpacePage() {
           <div className="mt-6 grid gap-6 sm:grid-cols-2">
             {[
               { title: "Classification", desc: "Class A offers premium finishes and amenities. Class B is functional and well-maintained. Class C is budget-friendly but may need updates. The right class depends on your business image and budget." },
-              { title: "Lease Structure", desc: "Full-service gross, modified gross, or NNN — each shifts expenses differently between tenant and landlord. I help you understand total occupancy cost, not just asking rent." },
+              { title: "Lease Structure", desc: "Full-service gross, modified gross, or NNN — each shifts expenses differently between tenant and landlord. Understanding gross vs. net lease structures is essential to calculating true occupancy cost." },
               { title: "Location & Access", desc: "Proximity to talent, clients, and transportation matters. Consider highway access, parking ratios, walkability, and proximity to restaurants and amenities." },
               { title: "Build-Out & TI", desc: "Most office spaces require some customization. Negotiate tenant improvement allowances early — they can save tens of thousands over a lease term." },
             ].map((item) => (
@@ -132,6 +156,19 @@ export default function OfficeSpacePage() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* ---- Image 2: Office interior ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&auto=format&fit=crop&q=75"
+          alt="Modern Florida office interior with open plan layout — tenant improvement allowances help customize the space"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Tenant improvement allowances are a critical negotiation point. Read about <Link href="/insights/gross-vs-net-lease" className="underline">lease structure types</Link> and <Link href="/insights/cam-charges-explained" className="underline">CAM charges</Link> to understand your full occupancy cost.</p>
       </section>
 
       <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
@@ -194,6 +231,19 @@ export default function OfficeSpacePage() {
         </div>
       </section>
 
+      {/* ---- Image 3: Broker reviewing office deal ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=75"
+          alt="Barrett Henry reviewing Florida office lease terms with a business owner tenant"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Office lease negotiations involve more than asking rent — tenant improvement allowances, free rent periods, renewal options, and sublease rights all affect total value. <Link href="/services/tenant-representation" className="underline">Tenant representation</Link> is always provided at no cost to the tenant.</p>
+      </section>
+
       {/* ---- FAQ section ---- */}
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
@@ -223,13 +273,17 @@ export default function OfficeSpacePage() {
             <Link href="/commercial/nnn-net-lease" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">NNN / Net Lease</Link>
             <Link href="/commercial/land-development" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Land &amp; Development</Link>
             <Link href="/services/tenant-representation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tenant Representation</Link>
+            <Link href="/insights/leasing-vs-buying-commercial" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Lease vs. Buy Guide</Link>
+            <Link href="/insights/gross-vs-net-lease" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Gross vs. Net Lease</Link>
+            <Link href="/blog/tampa-bay-office-market-q2-2026" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tampa Bay Office Market Q2 2026</Link>
+            <Link href="/calculators/office-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Office Space Calculator</Link>
           </div>
         </div>
       </section>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
       </div>
     </>
   );
