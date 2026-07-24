@@ -57,6 +57,19 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-sans">
+        {/* WebSite schema — tells Google the site name to display in search results */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "HenCRE",
+              "alternateName": "HenCRE Florida Commercial Real Estate Advisors",
+              "url": "https://hencre.com",
+            }),
+          }}
+        />
         {/* Skip link for keyboard/screen reader users */}
         <a
           href="#main-content"
