@@ -470,5 +470,16 @@
     "county": "Pasco",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "land-o-lakes-fitness-gym-wellness-commercial-space",
+    "title": "Fitness Center Space in Land O' Lakes, FL",
+    "excerpt": "Land O' Lakes is one of Pasco County's fastest-growing communities — and the demand for fitness, wellness, and gym space is rising with it. Here's what operators need to know before signing a lease.",
+    "date": "2026-07-24",
+    "category": "business-guide",
+    "city": "Land O' Lakes",
+    "county": "Pasco",
+    "businessType": "fitness center, gym, or wellness studio",
+    "image": null
   }
 ]
