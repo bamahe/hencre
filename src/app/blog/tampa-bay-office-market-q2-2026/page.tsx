@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
+import FAQAccordion from "@/components/FAQAccordion";
 import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
@@ -32,82 +33,62 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Tampa Bay Office Market Q2 2026: Vacancy, Absorption & What's Next",
-  description:
-    "Tampa Bay office vacancy fell to an 18.2% four-year low in Q2 2026, with two consecutive quarters of positive absorption. What it means for tenants and investors.",
-  datePublished: "2026-07-20",
-  dateModified: "2026-07-20",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
+const faqItems = [
+  {
+    question: "What is the current office vacancy rate in Tampa Bay?",
+    answer: "The overall office vacancy rate in Tampa Bay fell to approximately 18.2% in Q1 2026, down 110 basis points from a year earlier and the lowest level since the end of 2021. Class A and Class A-plus buildings — rated 4 and 5 stars — saw their availability rate drop to 16.8% in Q2 2026, a three-year low. Vacancy is highly concentrated: 20% of office buildings account for more than 70% of the vacant space, while roughly 35% of Tampa Bay office buildings have no vacancy at all.",
   },
-  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/tampa-bay-office-market-q2-2026",
-};
+  {
+    question: "Is Tampa Bay office absorption positive in 2026?",
+    answer: "Yes. Tampa Bay recorded positive net absorption for two consecutive quarters through Q2 2026, totaling approximately 115,000 square feet. The prior year saw the market absorb 600,370 square feet — the strongest annual gain in nine years. Demand is concentrated in Class A and trophy buildings, where move-ins are consistently outpacing move-outs.",
+  },
+  {
+    question: "What are average office rental rates in Tampa Bay in 2026?",
+    answer: "Class A office space in Tampa's core submarkets — Westshore, downtown Tampa, and the Rocky Point corridor — generally ranges from $32 to $52 per square foot on a full-service gross basis. Class B suburban office runs $22 to $30 per square foot. Direct vacancy for leased space across the market fell to 13.9% in Q1 2026, down 160 basis points year-over-year, which has allowed some landlords to hold or increase asking rents on quality product.",
+  },
+  {
+    question: "What is the bifurcation in Tampa Bay's office market?",
+    answer: "Tampa Bay's office market is sharply bifurcated between premium and secondary product. Approximately 20% of office buildings account for more than 70% of the region's total vacant space. Meanwhile, roughly 35% of office buildings have zero vacancy. The market's headline vacancy rate overstates availability in quality buildings — tenants looking for Class A space will find tighter conditions and less negotiating room than the aggregate numbers suggest.",
+  },
+  {
+    question: "Should I lease office space now or wait?",
+    answer: "For Class A office in Tampa Bay's tightest submarkets, waiting carries real risk. With availability at a three-year low and absorption positive for six consecutive months, the best spaces are being claimed. Tenants who start their search 9 to 12 months early and engage a tenant representative are consistently finding better options and negotiating more favorable terms than those who move reactively. If you are flexible on Class B or suburban product, there is more selection and more leverage — but the window for favorable concessions is narrowing there too.",
+  },
+];
 
-const faqSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "What is the current office vacancy rate in Tampa Bay?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The overall office vacancy rate in Tampa Bay fell to approximately 18.2% in Q1 2026, down 110 basis points from a year earlier and the lowest level since the end of 2021. Class A and Class A-plus buildings — rated 4 and 5 stars — saw their availability rate drop to 16.8% in Q2 2026, a three-year low. Vacancy is highly concentrated: 20% of office buildings account for more than 70% of the vacant space, while roughly 35% of Tampa Bay office buildings have no vacancy at all.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Tampa Bay Office Market Q2 2026", item: "https://hencre.com/blog/tampa-bay-office-market-q2-2026" },
+      ],
     },
     {
-      "@type": "Question",
-      name: "Is Tampa Bay office absorption positive in 2026?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. Tampa Bay recorded positive net absorption for two consecutive quarters through Q2 2026, totaling approximately 115,000 square feet. The prior year saw the market absorb 600,370 square feet — the strongest annual gain in nine years. Demand is concentrated in Class A and trophy buildings, where move-ins are consistently outpacing move-outs.",
+      "@type": "BlogPosting",
+      headline: "Tampa Bay Office Market Q2 2026: Vacancy, Absorption & What's Next",
+      description: "Tampa Bay office vacancy fell to an 18.2% four-year low in Q2 2026, with two consecutive quarters of positive absorption. What it means for tenants and investors.",
+      datePublished: "2026-07-20",
+      dateModified: "2026-07-25",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/tampa-bay-office-market-q2-2026",
     },
     {
-      "@type": "Question",
-      name: "What are average office rental rates in Tampa Bay in 2026?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Class A office space in Tampa's core submarkets — Westshore, downtown Tampa, and the Rocky Point corridor — generally ranges from $32 to $52 per square foot on a full-service gross basis. Class B suburban office runs $22 to $30 per square foot. Direct vacancy for leased space across the market fell to 13.9% in Q1 2026, down 160 basis points year-over-year, which has allowed some landlords to hold or increase asking rents on quality product.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is the bifurcation in Tampa Bay's office market?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Tampa Bay's office market is sharply bifurcated between premium and secondary product. Approximately 20% of office buildings account for more than 70% of the region's total vacant space. Meanwhile, roughly 35% of office buildings have zero vacancy. The market's headline vacancy rate overstates availability in quality buildings — tenants looking for Class A space will find tighter conditions and less negotiating room than the aggregate numbers suggest.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Should I lease office space now or wait?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "For Class A office in Tampa Bay's tightest submarkets, waiting carries real risk. With availability at a three-year low and absorption positive for six consecutive months, the best spaces are being claimed. Tenants who start their search 9 to 12 months early and engage a tenant representative are consistently finding better options and negotiating more favorable terms than those who move reactively. If you are flexible on Class B or suburban product, there is more selection and more leverage — but the window for favorable concessions is narrowing there too.",
-      },
-    },
-  ],
-};
-
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
-    {
-      "@type": "ListItem",
-      position: 3,
-      name: "Tampa Bay Office Market Q2 2026",
-      item: "https://hencre.com/blog/tampa-bay-office-market-q2-2026",
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
   ],
 };
@@ -143,9 +124,7 @@ const relatedLinks = [
 export default function TampaBayOfficeMarketQ2Page() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
-      <SchemaOrg schema={breadcrumbSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
@@ -240,31 +219,11 @@ export default function TampaBayOfficeMarketQ2Page() {
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
+        <div className="mt-6">
+          <FAQAccordion items={faqItems} />
+        </div>
 
-        <h3 className="mt-6 text-xl font-semibold text-black">What is the current office vacancy rate in Tampa Bay?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          The overall office vacancy rate in Tampa Bay fell to approximately 18.2% in Q1 2026, down 110 basis points from a year earlier and the lowest level since the end of 2021. Class A and Class A-plus buildings — rated 4 and 5 stars — saw their availability rate drop to 16.8% in Q2 2026, a three-year low. Vacancy is highly concentrated: 20% of office buildings account for more than 70% of the vacant space, while roughly 35% of Tampa Bay office buildings have no vacancy at all.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">Is Tampa Bay office absorption positive in 2026?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Yes. Tampa Bay recorded positive net absorption for two consecutive quarters through Q2 2026, totaling approximately 115,000 square feet. The prior year saw the market absorb 600,370 square feet — the strongest annual gain in nine years. Demand is concentrated in Class A and trophy buildings, where move-ins are consistently outpacing move-outs.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">What are average office rental rates in Tampa Bay in 2026?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Class A office space in Tampa&apos;s core submarkets — Westshore, downtown Tampa, and the Rocky Point corridor — generally ranges from $32 to $52 per square foot on a full-service gross basis. Class B suburban office runs $22 to $30 per square foot. Direct vacancy for leased space across the market fell to 13.9% in Q1 2026, down 160 basis points year-over-year, which has allowed some landlords to hold or increase asking rents on quality product.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">What is the bifurcation in Tampa Bay&apos;s office market?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Tampa Bay&apos;s office market is sharply bifurcated between premium and secondary product. Approximately 20% of office buildings account for more than 70% of the region&apos;s total vacant space. Meanwhile, roughly 35% of office buildings have zero vacancy. The market&apos;s headline vacancy rate overstates availability in quality buildings — tenants looking for Class A space will find tighter conditions and less negotiating room than the aggregate numbers suggest.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">Should I lease office space now or wait?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          For Class A office in Tampa Bay&apos;s tightest submarkets, waiting carries real risk. With availability at a three-year low and absorption positive for six consecutive months, the best spaces are being claimed. Tenants who start their search 9 to 12 months early and engage a <a href="/services/tenant-representation" className="text-accent underline">tenant representative</a> are consistently finding better options and negotiating more favorable terms than those who move reactively. If you are flexible on Class B or suburban product, there is more selection and more leverage — but the window for favorable concessions is narrowing there too.
-        </p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

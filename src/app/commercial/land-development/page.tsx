@@ -55,7 +55,7 @@ export default function LandDevelopmentPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Property Types", href: "/commercial" }, { label: "Land & Development", href: "/commercial/land-development" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Property Types", href: "/commercial" }, { label: "Land & Development", href: "/commercial/land-development" }]} />
 
       <Hero
         title="Land & Development"
@@ -91,10 +91,7 @@ export default function LandDevelopmentPage() {
             of thousands in avoidable costs.
           </p>
           <p>
-            REMAX Commercial Real Estate advisors bring development expertise and land brokerage resources to every engagement. I work with buyers to identify sites that match their development vision
-            and with sellers to position land for maximum value. Whether you are
-            looking for a shovel-ready outparcel or a 50-acre assemblage, I bring the
-            local knowledge and network to get the deal done.
+            As a Broker Associate at REMAX Collective with 23+ years of Florida commercial real estate experience, I bring development expertise and <a href="/commercial/land-development" className="text-accent underline">land brokerage</a> resources to every engagement. I work with buyers to identify sites that match their development vision and with sellers to position land for maximum value. Whether you are looking for a shovel-ready outparcel or a 50-acre assemblage, I bring the local knowledge and network to get the deal done. Active development markets include <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County</a>, <a href="/markets/pasco" className="text-accent underline">Pasco County</a>, <a href="/markets/polk" className="text-accent underline">Polk County</a>, <a href="/markets/manatee" className="text-accent underline">Manatee County</a>, and growing corridors across <a href="/markets/hernando" className="text-accent underline">Hernando</a> and <a href="/markets/brevard" className="text-accent underline">Brevard</a>.
           </p>
         </div>
       </section>
@@ -193,7 +190,7 @@ export default function LandDevelopmentPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
       </div>
     </>
   );

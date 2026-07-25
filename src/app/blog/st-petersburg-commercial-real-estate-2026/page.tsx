@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
+import FAQAccordion from "@/components/FAQAccordion";
 import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
@@ -32,82 +33,62 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "St. Petersburg Commercial Real Estate 2026",
-  description:
-    "A market guide to office, retail, and industrial commercial real estate in St. Petersburg, FL — submarkets, rates, cap rates, and investment outlook.",
-  datePublished: "2026-07-20",
-  dateModified: "2026-07-20",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
+const faqItems = [
+  {
+    question: "What is the average commercial rental rate in St. Petersburg, FL?",
+    answer: "The overall average commercial rental rate in St. Petersburg is approximately $29 per square foot across all property types. Office space averages around $40 per square foot, while industrial space averages closer to $15 per square foot. Rates vary significantly by submarket and building quality — downtown Class A commands a premium, while secondary locations offer more modest pricing.",
   },
-  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/st-petersburg-commercial-real-estate-2026",
-};
+  {
+    question: "What is the cap rate for commercial real estate in St. Petersburg?",
+    answer: "The average cap rate for commercial real estate in St. Petersburg is approximately 6.42% as of mid-2026. Cap rates vary by property type and quality — well-leased retail and industrial assets with strong tenants may trade at lower cap rates, while value-add or repositioning opportunities carry higher yields in the 7 to 9 percent range.",
+  },
+  {
+    question: "Which St. Petersburg neighborhoods have the most commercial activity?",
+    answer: "Downtown St. Petersburg is the most active market for office and mixed-use commercial space. Brighton Bay is the primary industrial submarket. The Central Avenue corridor is a fast-growing retail and creative office market. The Gateway/US-19 corridor handles the bulk of suburban office and retail activity in the northern part of the city.",
+  },
+  {
+    question: "Is St. Petersburg a good market for commercial real estate investment?",
+    answer: "St. Petersburg offers solid commercial real estate investment fundamentals — a diversified employment base anchored by financial services, healthcare, and technology, a growing and affluent population, and limited new speculative supply across most property types. Its waterfront location and cultural amenities also support above-average quality-of-life demand from employers and workers.",
+  },
+  {
+    question: "How does St. Petersburg commercial real estate compare to Tampa?",
+    answer: "St. Petersburg is a more concentrated market than Tampa, with less large-format office and industrial supply and a stronger emphasis on retail, mixed-use, and professional services. Rental rates for office space are comparable to Tampa's suburban markets, though the downtown product mix differs. Industrial space in St. Pete is more limited given the peninsula's geography, which supports stronger rent growth for existing warehouse and flex product.",
+  },
+];
 
-const faqSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "What is the average commercial rental rate in St. Petersburg, FL?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The overall average commercial rental rate in St. Petersburg is approximately $29 per square foot across all property types. Office space averages around $40 per square foot, while industrial space averages closer to $15 per square foot. Rates vary significantly by submarket and building quality — downtown Class A commands a premium, while secondary locations offer more modest pricing.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "St. Petersburg Commercial Real Estate 2026", item: "https://hencre.com/blog/st-petersburg-commercial-real-estate-2026" },
+      ],
     },
     {
-      "@type": "Question",
-      name: "What is the cap rate for commercial real estate in St. Petersburg?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The average cap rate for commercial real estate in St. Petersburg is approximately 6.42% as of mid-2026. Cap rates vary by property type and quality — well-leased retail and industrial assets with strong tenants may trade at lower cap rates, while value-add or repositioning opportunities carry higher yields in the 7 to 9 percent range.",
+      "@type": "BlogPosting",
+      headline: "St. Petersburg Commercial Real Estate 2026",
+      description: "A market guide to office, retail, and industrial commercial real estate in St. Petersburg, FL — submarkets, rates, cap rates, and investment outlook.",
+      datePublished: "2026-07-20",
+      dateModified: "2026-07-25",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/st-petersburg-commercial-real-estate-2026",
     },
     {
-      "@type": "Question",
-      name: "Which St. Petersburg neighborhoods have the most commercial activity?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Downtown St. Petersburg is the most active market for office and mixed-use commercial space. Brighton Bay is the primary industrial submarket. The Central Avenue corridor is a fast-growing retail and creative office market. The Gateway/US-19 corridor handles the bulk of suburban office and retail activity in the northern part of the city.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Is St. Petersburg a good market for commercial real estate investment?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "St. Petersburg offers solid commercial real estate investment fundamentals — a diversified employment base anchored by financial services, healthcare, and technology, a growing and affluent population, and limited new speculative supply across most property types. Its waterfront location and cultural amenities also support above-average quality-of-life demand from employers and workers.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How does St. Petersburg commercial real estate compare to Tampa?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "St. Petersburg is a more concentrated market than Tampa, with less large-format office and industrial supply and a stronger emphasis on retail, mixed-use, and professional services. Rental rates for office space are comparable to Tampa's suburban markets, though the downtown product mix differs. Industrial space in St. Pete is more limited given the peninsula's geography, which supports stronger rent growth for existing warehouse and flex product.",
-      },
-    },
-  ],
-};
-
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
-    {
-      "@type": "ListItem",
-      position: 3,
-      name: "St. Petersburg Commercial Real Estate 2026",
-      item: "https://hencre.com/blog/st-petersburg-commercial-real-estate-2026",
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
   ],
 };
@@ -138,9 +119,7 @@ const relatedLinks = [
 export default function StPetersburgCREPage() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
-      <SchemaOrg schema={breadcrumbSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
@@ -229,31 +208,11 @@ export default function StPetersburgCREPage() {
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
+        <div className="mt-6">
+          <FAQAccordion items={faqItems} />
+        </div>
 
-        <h3 className="mt-6 text-xl font-semibold text-black">What is the average commercial rental rate in St. Petersburg, FL?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          The overall average commercial rental rate in St. Petersburg is approximately $29 per square foot across all property types. Office space averages around $40 per square foot, while industrial space averages closer to $15 per square foot. Rates vary significantly by submarket and building quality — downtown Class A commands a premium, while secondary locations offer more modest pricing.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">What is the cap rate for commercial real estate in St. Petersburg?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          The average cap rate for commercial real estate in St. Petersburg is approximately 6.42% as of mid-2026. Cap rates vary by property type and quality — well-leased retail and industrial assets with strong tenants may trade at lower cap rates, while value-add opportunities carry higher yields in the 7 to 9 percent range.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">Which St. Petersburg neighborhoods have the most commercial activity?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Downtown St. Petersburg is the most active market for office and mixed-use commercial space. Brighton Bay is the primary industrial submarket. The Central Avenue corridor is a fast-growing retail and creative office market. The Gateway/US-19 corridor handles the bulk of suburban office and retail activity in the northern part of the city.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">Is St. Petersburg a good market for commercial real estate investment?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          St. Petersburg offers solid commercial real estate investment fundamentals — a diversified employment base anchored by financial services, healthcare, and technology, a growing and affluent population, and limited new speculative supply across most property types. Its waterfront location and cultural amenities also support above-average demand from employers and workers.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">How does St. Petersburg commercial real estate compare to Tampa?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          St. Petersburg is a more concentrated market than Tampa, with less large-format office and industrial supply and a stronger emphasis on retail, mixed-use, and professional services. Rental rates for office space are comparable to Tampa&apos;s suburban markets. Industrial space in St. Pete is more limited given the peninsula&apos;s geography, which supports stronger rent growth for existing warehouse and flex product.
-        </p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

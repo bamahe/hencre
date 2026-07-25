@@ -3,6 +3,7 @@ import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
+import FAQAccordion from "@/components/FAQAccordion";
 import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
@@ -33,22 +34,64 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Tampa Industrial Market Outlook 2026",
-  description:
-    "Tampa Bay industrial real estate trends — warehouse demand, construction pipeline, and investment opportunities.",
-  datePublished: "2026-05-20",
-  dateModified: "2026-05-20",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
+const faqItems = [
+  {
+    question: "What are current industrial rental rates in Tampa Bay in 2026?",
+    answer: "Class A warehouse and distribution space in Tampa Bay is running $14 to $20 per square foot NNN for large-bay bulk distribution. Smaller multi-tenant flex industrial runs $16 to $24 per square foot. Modern facilities with 32-foot+ clear heights, cross-dock configurations, and ESFR sprinklers command the highest rents. Older, sub-20,000 square foot flex product typically ranges from $12 to $18 per square foot depending on location and building condition.",
   },
-  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/tampa-industrial-market-outlook-2026",
+  {
+    question: "Where is new industrial construction happening in Tampa Bay?",
+    answer: "The largest concentration of new spec industrial development is in eastern Hillsborough County — particularly along the I-75 and I-4 interchange near Plant City and the Seffner/Mango corridor. Pasco County is also seeing significant spec industrial activity near the Suncoast Parkway and US-41 corridor, where land costs are lower. Pinellas County has extremely limited new industrial land, which is driving redevelopment and conversion of older industrial sites.",
+  },
+  {
+    question: "Is Tampa Bay industrial real estate a good investment in 2026?",
+    answer: "Tampa Bay industrial remains one of the strongest-performing commercial property sectors in Florida. Low vacancy, rising rents, e-commerce demand, and Port Tampa Bay expansion continue to support the asset class. Investors should underwrite carefully on insurance costs, stress-test cap rate assumptions against interest rate scenarios, and focus on properties with modern features tenants demand — high clear heights, adequate truck courts, and ESFR sprinklers. Single-tenant NNN industrial leased to credit tenants is in particularly strong demand from passive income investors.",
+  },
+  {
+    question: "What clear heights do Tampa Bay warehouse buildings typically have?",
+    answer: "Modern Class A industrial buildings delivered in Tampa Bay over the past several years feature 32 to 40-foot clear heights, which is required by large e-commerce and distribution tenants. Mid-generation buildings from the 2000s and early 2010s typically have 24 to 28-foot clear heights. Older flex and light industrial from the 1990s and before often runs 16 to 22 feet, which limits the tenant pool to smaller businesses and light manufacturing operations that do not require rack storage at height.",
+  },
+  {
+    question: "How does Tampa Bay industrial compare to other Florida markets?",
+    answer: "Tampa Bay is the second-largest industrial market in Florida behind Miami/South Florida, and it has significantly more developable land than Miami and Orlando's tightest submarkets. The I-75/I-4 interchange makes it a natural distribution hub for central and western Florida. Compared to Miami, Tampa offers lower land costs, less entitlement risk, and easier permitting — though Miami's port access creates a different tenant profile. The Lakeland submarket along I-4 is increasingly positioned as a regional distribution alternative to both Tampa and Orlando for large-footprint users.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Tampa Industrial Market Outlook 2026", item: "https://hencre.com/blog/tampa-industrial-market-outlook-2026" },
+      ],
+    },
+    {
+      "@type": "BlogPosting",
+      headline: "Tampa Industrial Market Outlook 2026",
+      description: "Tampa Bay industrial real estate trends — warehouse demand, construction pipeline, and investment opportunities.",
+      datePublished: "2026-05-20",
+      dateModified: "2026-07-25",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/tampa-industrial-market-outlook-2026",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
 };
 
 const relatedLinks = [
@@ -77,10 +120,11 @@ const relatedLinks = [
 export default function TampaIndustrialOutlookPage() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Tampa Industrial Outlook 2026", href: "/blog/tampa-industrial-market-outlook-2026" },
         ]}
@@ -151,8 +195,15 @@ export default function TampaIndustrialOutlookPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Whether you are looking to invest in <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial property</a>, lease warehouse space for your business, or sell an existing industrial asset, the Tampa Bay market offers significant opportunity. With 23+ years of real estate experience, I help clients navigate this competitive sector with data-driven analysis and local market knowledge. The key is acting with good information — not just speed.
+          Whether you are looking to invest in <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial property</a>, lease warehouse space for your business, or sell an existing industrial asset, the Tampa Bay market offers significant opportunity. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I help clients navigate this competitive sector with data-driven analysis and local market knowledge. For context on adjacent markets, see our analysis of <a href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland warehouse and industrial growth</a> along the I-4 corridor. The key is acting with good information — not just speed.
         </p>
+
+        <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
+        <div className="mt-6">
+          <FAQAccordion items={faqItems} />
+        </div>
+
+        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

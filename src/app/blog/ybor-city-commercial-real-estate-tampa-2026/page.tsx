@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
+import FAQAccordion from "@/components/FAQAccordion";
 import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
@@ -33,82 +34,62 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Ybor City Commercial Real Estate 2026: Tampa's $6 Billion Transformation",
-  description:
-    "Ybor City is undergoing its biggest transformation since the cigar era — Gasworx, Ybor Harbor, Tampa General Hospital, and a new mixed-use streetcar district are reshaping one of Tampa's most storied neighborhoods into a major CRE opportunity.",
-  datePublished: "2026-07-23",
-  dateModified: "2026-07-23",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
+const faqItems = [
+  {
+    question: "What is the Gasworx development in Ybor City?",
+    answer: "Gasworx is a 50-acre mixed-use redevelopment in Ybor City led by developer Darryl Shaw in partnership with Kettler and PPF Real Estate. The project will ultimately deliver approximately 6 million square feet of development, including thousands of residential units, new office and retail space, a public park system, and a new TECO Line Streetcar stop. The first residential building — The Stevedore, a seven-story structure with 390 units and 9,700 square feet of ground-floor retail — opened to residents in April 2026. Gasworx is the largest private development in Ybor City's modern history.",
   },
-  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/ybor-city-commercial-real-estate-tampa-2026",
-};
+  {
+    question: "What is Ybor Harbor and when will it be built?",
+    answer: "Ybor Harbor is a 33-acre mixed-use development planned for the waterfront edge of Ybor City. The project calls for approximately 500,000 square feet of office space, 800 hotel rooms, nearly 5,000 residential units, and a significant retail component. It is one of several large-scale projects shaping what city planners expect to be a long-term transformation of Ybor's eastern and waterfront parcels. Timing for individual phases has not been fully announced, making early engagement with a local CRE advisor important for tenants and investors tracking specific opportunity windows.",
+  },
+  {
+    question: "Is Tampa General Hospital opening in Ybor City?",
+    answer: "Yes. Tampa General Hospital has announced plans to open a hospital in Ybor City in partnership with developer Darryl Shaw. The project includes a full hospital facility, a medical office building, and a clinic offering primary and urgent care services. This anchors a medical use case for Ybor that will attract healthcare tenants, life science companies, and medical office investors to the submarket — a dynamic similar to what USF's medical campus has done for the Fletcher Avenue corridor in North Tampa.",
+  },
+  {
+    question: "What commercial real estate opportunities exist in Ybor City right now?",
+    answer: "Current opportunities span retail, office, and land. Ground-floor retail in Gasworx's Paseo corridor is leasing now, targeting restaurants, boutique fitness, personal services, and experiential retail. Office space in converted historic brick buildings along Seventh Avenue and in emerging new-construction projects offers creative alternatives to Class A Westshore product at more competitive rents. For investors, underdeveloped parcels in East Ybor — where rezoning allows up to 2.9 million square feet of mixed-use density — represent genuine land-value upside plays if you have patience for a 5-to-10-year horizon.",
+  },
+  {
+    question: "How does Ybor City CRE compare to other Tampa Bay submarkets?",
+    answer: "Ybor City occupies a unique position in Tampa Bay's commercial real estate landscape. Unlike Westshore, which serves established corporate tenants seeking Class A office, or the Brandon corridor, which serves suburban retail and professional services, Ybor is positioned as an urban mixed-use district with walkability, character, transit access, and a residential density that most Tampa submarkets lack. For creative, tech, healthcare, and hospitality tenants, Ybor offers a product profile — historic brick buildings, active street life, proximity to downtown Tampa — that cannot be replicated elsewhere in the metro.",
+  },
+];
 
-const faqSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "What is the Gasworx development in Ybor City?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Gasworx is a 50-acre mixed-use redevelopment in Ybor City led by developer Darryl Shaw in partnership with Kettler and PPF Real Estate. The project will ultimately deliver approximately 6 million square feet of development, including thousands of residential units, new office and retail space, a public park system, and a new TECO Line Streetcar stop. The first residential building — The Stevedore, a seven-story structure with 390 units and 9,700 square feet of ground-floor retail — opened to residents in April 2026. Gasworx is the largest private development in Ybor City's modern history.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Ybor City Commercial Real Estate Tampa 2026", item: "https://hencre.com/blog/ybor-city-commercial-real-estate-tampa-2026" },
+      ],
     },
     {
-      "@type": "Question",
-      name: "What is Ybor Harbor and when will it be built?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Ybor Harbor is a 33-acre mixed-use development planned for the waterfront edge of Ybor City. The project calls for approximately 500,000 square feet of office space, 800 hotel rooms, nearly 5,000 residential units, and a significant retail component. It is one of several large-scale projects shaping what city planners expect to be a long-term transformation of Ybor's eastern and waterfront parcels. Timing for individual phases has not been fully announced, making early engagement with a local CRE advisor important for tenants and investors tracking specific opportunity windows.",
+      "@type": "BlogPosting",
+      headline: "Ybor City Commercial Real Estate 2026: Tampa's $6 Billion Transformation",
+      description: "Ybor City is undergoing its biggest transformation since the cigar era — Gasworx, Ybor Harbor, Tampa General Hospital, and a new mixed-use streetcar district are reshaping one of Tampa's most storied neighborhoods into a major CRE opportunity.",
+      datePublished: "2026-07-23",
+      dateModified: "2026-07-25",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/ybor-city-commercial-real-estate-tampa-2026",
     },
     {
-      "@type": "Question",
-      name: "Is Tampa General Hospital opening in Ybor City?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. Tampa General Hospital has announced plans to open a hospital in Ybor City in partnership with developer Darryl Shaw. The project includes a full hospital facility, a medical office building, and a clinic offering primary and urgent care services. This anchors a medical use case for Ybor that will attract healthcare tenants, life science companies, and medical office investors to the submarket — a dynamic similar to what USF's medical campus has done for the Fletcher Avenue corridor in North Tampa.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What commercial real estate opportunities exist in Ybor City right now?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Current opportunities span retail, office, and land. Ground-floor retail in Gasworx's Paseo corridor is leasing now, targeting restaurants, boutique fitness, personal services, and experiential retail. Office space in converted historic brick buildings along Seventh Avenue and in emerging new-construction projects offers creative alternatives to Class A Westshore product at more competitive rents. For investors, underdeveloped parcels in East Ybor — where rezoning allows up to 2.9 million square feet of mixed-use density — represent genuine land-value upside plays if you have patience for a 5-to-10-year horizon.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How does Ybor City CRE compare to other Tampa Bay submarkets?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Ybor City occupies a unique position in Tampa Bay's commercial real estate landscape. Unlike Westshore, which serves established corporate tenants seeking Class A office, or the Brandon corridor, which serves suburban retail and professional services, Ybor is positioned as an urban mixed-use district with walkability, character, transit access, and a residential density that most Tampa submarkets lack. For creative, tech, healthcare, and hospitality tenants, Ybor offers a product profile — historic brick buildings, active street life, proximity to downtown Tampa — that cannot be replicated elsewhere in the metro.",
-      },
-    },
-  ],
-};
-
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
-    {
-      "@type": "ListItem",
-      position: 3,
-      name: "Ybor City Commercial Real Estate Tampa 2026",
-      item: "https://hencre.com/blog/ybor-city-commercial-real-estate-tampa-2026",
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
   ],
 };
@@ -144,9 +125,7 @@ const relatedLinks = [
 export default function YborCityCommercialRealEstatePage() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
-      <SchemaOrg schema={breadcrumbSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
@@ -262,31 +241,11 @@ export default function YborCityCommercialRealEstatePage() {
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
+        <div className="mt-6">
+          <FAQAccordion items={faqItems} />
+        </div>
 
-        <h3 className="mt-6 text-xl font-semibold text-black">What is the Gasworx development in Ybor City?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Gasworx is a 50-acre mixed-use redevelopment in Ybor City led by developer Darryl Shaw in partnership with Kettler and PPF Real Estate. The project will ultimately deliver approximately 6 million square feet of development, including thousands of residential units, new office and retail space, a public park system, and a new TECO Line Streetcar stop. The first residential building — The Stevedore, a seven-story structure with 390 units and 9,700 square feet of ground-floor retail — opened to residents in April 2026. Gasworx is the largest private development in Ybor City&apos;s modern history.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">What is Ybor Harbor and when will it be built?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Ybor Harbor is a 33-acre mixed-use development planned for the waterfront edge of Ybor City. The project calls for approximately 500,000 square feet of office space, 800 hotel rooms, nearly 5,000 residential units, and a significant retail component. Timing for individual phases has not been fully announced, making early engagement with a local <a href="/services/tenant-representation" className="text-accent underline">CRE advisor</a> important for tenants and investors tracking specific opportunity windows.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">Is Tampa General Hospital opening in Ybor City?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Yes. Tampa General Hospital has announced plans to open a hospital in Ybor City in partnership with developer Darryl Shaw. The project includes a full hospital facility, a medical office building, and a clinic offering primary and urgent care services. This anchors a medical use case for Ybor that will attract healthcare tenants, life science companies, and <a href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">medical office investors</a> to the submarket — a dynamic similar to what USF&apos;s medical campus has done for the Fletcher Avenue corridor in North Tampa.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">What commercial real estate opportunities exist in Ybor City right now?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Current opportunities span retail, office, and land. Ground-floor retail in Gasworx&apos;s Paseo corridor is leasing now, targeting restaurants, boutique fitness, personal services, and experiential retail. Office space in converted historic brick buildings along Seventh Avenue and in emerging new-construction projects offers creative alternatives to Class A Westshore product at more competitive rents. For investors, underdeveloped parcels in East Ybor — where rezoning allows up to 2.9 million square feet of mixed-use density — represent genuine land-value upside plays if you have patience for a 5-to-10-year horizon.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">How does Ybor City CRE compare to other Tampa Bay submarkets?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Ybor City occupies a unique position in Tampa Bay&apos;s commercial real estate landscape. Unlike Westshore, which serves established corporate tenants seeking Class A office, or the Brandon corridor, which serves suburban retail and professional services, Ybor is positioned as an urban mixed-use district with walkability, character, transit access, and a residential density that most Tampa submarkets lack. For creative, tech, healthcare, and hospitality tenants, Ybor offers a product profile — historic brick buildings, active street life, proximity to downtown Tampa — that cannot be replicated elsewhere in the metro. For a broader look at what drives Tampa Bay&apos;s CRE fundamentals, see our overview of <a href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay commercial real estate continues to attract capital</a>.
-        </p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
