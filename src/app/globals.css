@@ -84,6 +84,83 @@
   img, table, figure { page-break-inside: avoid; }
 }
 
+/* Blog prose styling — extends @tailwindcss/typography for hencre brand */
+.prose-hencre {
+  @apply prose prose-lg max-w-none;
+  /* Headings — black, tight tracking */
+  --tw-prose-headings: #1a1a1a;
+  --tw-prose-body: #333333;
+  --tw-prose-links: #000000;
+  --tw-prose-bold: #1a1a1a;
+  --tw-prose-bullets: #666666;
+  --tw-prose-counters: #666666;
+  --tw-prose-hr: #E5E5E5;
+  --tw-prose-quotes: #1a1a1a;
+  --tw-prose-quote-borders: #000000;
+}
+.prose-hencre h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+  color: var(--tw-prose-headings);
+}
+.prose-hencre h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+  color: var(--tw-prose-headings);
+}
+.prose-hencre p {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.75;
+  color: var(--tw-prose-body);
+}
+.prose-hencre ul, .prose-hencre ol {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+.prose-hencre li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+.prose-hencre ul > li {
+  list-style-type: disc;
+}
+.prose-hencre ol > li {
+  list-style-type: decimal;
+}
+.prose-hencre a {
+  color: var(--tw-prose-links);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-hencre a:hover {
+  color: #666666;
+}
+.prose-hencre strong {
+  font-weight: 700;
+  color: var(--tw-prose-bold);
+}
+.prose-hencre blockquote {
+  border-left: 3px solid var(--tw-prose-quote-borders);
+  padding-left: 1.25rem;
+  font-style: italic;
+  color: var(--tw-prose-quotes);
+}
+.prose-hencre hr {
+  border-color: var(--tw-prose-hr);
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 /* Accessibility widget overrides */
 html.a11y-large-text { font-size: 125% !important; }
 html.a11y-high-contrast { filter: contrast(1.4) !important; }
