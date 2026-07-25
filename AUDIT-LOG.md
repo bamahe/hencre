@@ -346,3 +346,87 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added id="lead-form" to lead form section
 - Shortened metadata title to under 70 chars
 - Added "Last updated: July 2026" footer
+
+---
+
+## 2026-07-25 — Batch 5 (10 pages)
+
+### 1. `/blog/clearwater-retail-space-guide`
+- Full rewrite: added FAQAccordion, @graph schema (BreadcrumbList + BlogPosting + FAQPage)
+- Added 5 faqItems covering Clearwater retail types, rents, lease structures, CAM, investment
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-25"
+- Added 3 inline images (strip center, retail interior, investment analysis)
+- Added 10+ internal links (markets/pinellas, commercial/retail-space, insights, calculators, blog posts, services)
+- Added "Last updated: July 2026" footer
+
+### 2. `/blog/bradenton-commercial-real-estate-opportunities`
+- Full rewrite: added FAQAccordion, @graph schema (BreadcrumbList + BlogPosting + FAQPage)
+- Added 5 faqItems covering Bradenton property types, rental rates, Lakewood Ranch, Port Manatee, risks
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-25"
+- Added 3 inline images (Bradenton waterfront area, industrial warehouse, investment analysis)
+- Added 10+ internal links (markets/manatee, sarasota, hillsborough, polk, commercial types, insights, blog posts)
+- Added "Last updated: July 2026" footer
+
+### 3. `/blog/tampa-industrial-market-outlook-2026`
+- Added FAQAccordion import; created 5 faqItems array
+- Replaced separate articleSchema with @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-25"
+- Added breadcrumb Home link; added FAQ section with FAQAccordion
+- Added "Last updated: July 2026" footer
+
+### 4. `/blog/st-petersburg-commercial-real-estate-2026`
+- Added FAQAccordion import; extracted 5 existing FAQ questions into faqItems array
+- Consolidated 3 separate schemas (articleSchema + faqSchema + breadcrumbSchema) into single @graph
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-25"
+- Replaced inline h3/p FAQ section with FAQAccordion component
+- Added "Last updated: July 2026" footer
+
+### 5. `/blog/ybor-city-commercial-real-estate-tampa-2026`
+- Added FAQAccordion import; extracted 5 existing FAQ questions into faqItems array
+- Consolidated 3 separate schemas into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-25"
+- Replaced inline h3/p FAQ section with FAQAccordion component
+- Added "Last updated: July 2026" footer
+
+### 6. `/blog/tampa-bay-office-market-q2-2026`
+- Added FAQAccordion import; extracted 5 existing FAQ questions into faqItems array
+- Consolidated 3 separate schemas into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-25"
+- Replaced inline h3/p FAQ section with FAQAccordion component
+- Added "Last updated: July 2026" footer
+
+### 7. `/markets/bradford`
+- Full rewrite to match market page pattern
+- Added Link, Image, FAQAccordion, LeadForm, RelatedLinks imports; canonical URL to metadata
+- Added @graph schema (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems and converted raw HTML FAQ section to FAQAccordion
+- Added 3 inline images (highway corridor, strip center, investment analysis)
+- Added 10+ internal links (markets, commercial types, insights, services, blog posts)
+- Added id="lead-form" section with LeadForm; added RelatedLinks component
+- Added "Last updated: July 2026" footer
+
+### 8. `/markets/broward`
+- Full rewrite to match market page pattern
+- Added Link, Image, FAQAccordion, LeadForm, RelatedLinks imports; canonical URL to metadata
+- Updated title to under 70 chars; added @graph schema (BreadcrumbList + Service + FAQPage)
+- Created 5 faqItems (investment, industrial submarkets, office vs Miami, cap rates, referral structure)
+- Added 3 inline images (port/logistics, Fort Lauderdale commercial, investment analysis)
+- Added 10+ internal links (markets, commercial types, insights, services, blog posts)
+- Fixed "REALTOR with REMAX" to "Broker Associate at REMAX Collective"; fixed email to barrett@hencre.com
+- Replaced em dashes with hyphens/restructured sentences throughout
+- Added id="lead-form" section with LeadForm; added RelatedLinks component
+- Added "Last updated: July 2026" footer
+
+### 9. `/commercial/land-development`
+- Added Home to breadcrumbs (was missing)
+- Fixed body copy from "REMAX Commercial Real Estate advisors" to first-person EEAT with Broker Associate title
+- Added 6 internal links to active Florida development markets (hillsborough, pasco, polk, manatee, hernando, brevard)
+- Updated footer from "June 2026" to "July 2026"
+
+### 10. `/blog/lakeland-warehouse-industrial-growth`
+- Added FAQAccordion import; created 5 faqItems (why Lakeland, rents vs Tampa, space types, investment, vs Central FL)
+- Replaced separate articleSchema with @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-25"
+- Added breadcrumb Home link; added FAQ section with FAQAccordion
+- Added 2 additional internal links (blog/how-to-calculate-commercial-property-roi, services/investment-sales)
+- Added EEAT update in Bottom Line paragraph; added "Last updated: July 2026" footer
