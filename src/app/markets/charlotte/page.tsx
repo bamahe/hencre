@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Commercial Real Estate in Charlotte County, Florida | HenCRE",
@@ -38,8 +38,8 @@ export default function Page() {
       ]} />
       <Hero title="Commercial Real Estate in Charlotte County, Florida" subtitle="Expert guide to commercial real estate in Charlotte County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
       <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section class="charlotte-county-overview">
-  <h1>Charlotte County Commercial Real Estate Market Overview</h1>
+        <section className="charlotte-county-overview">
+  <h2>Charlotte County Commercial Real Estate Market Overview</h2>
 
   <p>
     Charlotte County is one of Southwest Florida's most underrated commercial markets. If you're looking at Punta Gorda, Port Charlotte, or Englewood for retail, office, or flex space, you're entering a market that's fundamentally shifting—and I've watched it happen in real time.
@@ -49,7 +49,7 @@ export default function Page() {
     After 23+ years in Florida commercial real estate with REMAX Collective, I can tell you that markets like Charlotte don't stay quiet for long. The combination of retiree migration, post-Hurricane Ian reconstruction, and infrastructure improvements along the US 41 corridor has created genuine opportunity for both users and investors.
   </p>
 
-  <section class="key-corridors">
+  <section className="key-corridors">
     <h2>Primary Commercial Corridors</h2>
 
     <p>
@@ -65,7 +65,7 @@ export default function Page() {
     </p>
   </section>
 
-  <section class="property-types">
+  <section className="property-types">
     <h2>Active Property Types & Demand Drivers</h2>
 
     <h3>Medical Office & Healthcare</h3>
@@ -89,7 +89,7 @@ export default function Page() {
     </p>
   </section>
 
-  <section class="demand-drivers">
+  <section className="demand-drivers">
     <h2>What's Actually Driving This Market</h2>
 
     <ul>
@@ -111,7 +111,7 @@ export default function Page() {
     </ul>
   </section>
 
-  <section class="why-it-matters">
+  <section className="why-it-matters">
     <h2>Why Charlotte County Matters Right Now</h2>
 
     <p>
@@ -127,7 +127,7 @@ export default function Page() {
     </p>
   </section>
 
-  <section class="barrett-services">
+  <section className="barrett-services">
     <h2>What I Do in Charlotte County</h2>
 
     <p>
@@ -154,24 +154,24 @@ export default function Page() {
     </p>
   </section>
 
-  <section class="faq">
+  <section className="faq">
     <h2>Frequently Asked Questions</h2>
 
-    <div class="faq-item">
+    <div className="faq-item">
       <h3>Is Charlotte County a good market for medical office investments?</h3>
       <p>
         Yes. The retiree demographic is substantial and stable, which drives consistent tenant demand for medical services. Medical office is the strongest asset class here, and it's where you see the most active leasing and sales activity. That doesn't mean every property works—location and condition matter—but the demand is real and predictable.
       </p>
     </div>
 
-    <div class="faq-item">
+    <div className="faq-item">
       <h3>What's the difference between Charlotte County and Lee County or Collier County commercial markets?</h3>
       <p>
         Charlotte County is smaller, less saturated, and less expensive. You're not competing against the same number of properties or investors. For users, that often means better lease economics. For investors, it means less noise and more straightforward fundamental analysis. Lee and Collier are larger, faster-growing metros with more institutional players. Charlotte County is more local and more relationship-driven.
       </p>
     </div>
 
-    <div class="faq-item">
+    <div className="faq-item">
       <h3>Is there enough retail demand in Charlotte County to lease retail space profitably?</h3>
       <p>
         It depends on the space type and location. Neighborhood retail anchored by grocery or serving immediate residential demand performs well. You're not going to see the same regional draw as Fort Myers or Naples, but the residential base supports consistent neighborhood retail activity. Service tenants, medical uses, and convenience-oriented businesses do well. Large-format retail or specialty retail is more selective.
@@ -185,7 +185,6 @@ export default function Page() {
         body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
     </>
   );

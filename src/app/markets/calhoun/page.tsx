@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Commercial Real Estate in Calhoun County, Florida | HenCRE",
@@ -38,8 +38,8 @@ export default function Page() {
       ]} />
       <Hero title="Commercial Real Estate in Calhoun County, Florida" subtitle="Expert guide to commercial real estate in Calhoun County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
       <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section class="market-overview">
-  <h1>Calhoun County Commercial Real Estate Market Overview</h1>
+        <section className="market-overview">
+  <h2>Calhoun County Commercial Real Estate Market Overview</h2>
   
   <p>
     I've worked commercial real estate across Florida for over two decades, and I'll be straight with you: Calhoun County is about as authentic rural Florida as it gets. This northwest county—anchored by Blountstown and Altha—operates on a fundamentally different economic model than the urban and suburban markets most people associate with Florida CRE. That's not a weakness. It's a reality that creates specific opportunities for the right investors and operators.
@@ -50,7 +50,7 @@ export default function Page() {
   </p>
 </section>
 
-<section class="economic-drivers">
+<section className="economic-drivers">
   <h2>What Actually Drives This Market</h2>
   
   <p>
@@ -74,7 +74,7 @@ export default function Page() {
   </p>
 </section>
 
-<section class="corridors-assets">
+<section className="corridors-assets">
   <h2>Corridors & Property Types That Matter</h2>
 
   <p>
@@ -109,7 +109,7 @@ export default function Page() {
   </p>
 </section>
 
-<section class="why-matters">
+<section className="why-matters">
   <h2>Why Calhoun County Matters to Smart Investors</h2>
 
   <p>
@@ -129,7 +129,7 @@ export default function Page() {
   </p>
 </section>
 
-<section class="my-services">
+<section className="my-services">
   <h2>How I Work the Calhoun Market</h2>
 
   <p>
@@ -159,7 +159,7 @@ export default function Page() {
   </p>
 </section>
 
-<section class="get-connected">
+<section className="get-connected">
   <h2>Let's Talk About Your Calhoun Opportunity</h2>
 
   <p>
@@ -176,31 +176,31 @@ export default function Page() {
   </p>
 </section>
 
-<section class="faq">
+<section className="faq">
   <h2>Calhoun County CRE FAQs</h2>
 
-  <div class="faq-item">
+  <div className="faq-item">
     <h3>Is Calhoun County a good market for real estate investment?</h3>
     <p>
       It depends entirely on your business or investment thesis. For owners and operators in timber, agriculture, or land-intensive industries, Calhoun offers genuine operational advantages: low land costs, established infrastructure for natural resource businesses, and stable demand from government and local services. For speculative retail or office development, it's not the right market. For niche industrial, agricultural operations, or long-term land holdings, it can be very effective. The key is matching your investment strategy to what Calhoun actually delivers.
     </p>
   </div>
 
-  <div class="faq-item">
+  <div className="faq-item">
     <h3>What types of commercial properties are most common in Calhoun County?</h3>
     <p>
       Land, small retail and service buildings, professional office space, and agricultural or light industrial facilities. You'll also find multi-tenant commercial strips in Blountstown serving local business needs. This is a rural, operational market—property types reflect that reality.
     </p>
   </div>
 
-  <div class="faq-item">
+  <div className="faq-item">
     <h3>Does Barrett Henry handle transactions in Calhoun County directly?</h3>
     <p>
       I work Calhoun transactions through local REALTOR® partnerships and direct client engagement. I don't maintain a dedicated office in the county, but I facilitate deals, provide market intelligence, and coordinate with local experts to execute transactions effectively. If you have Calhoun commercial real estate needs, call me at (813) 733-7907 and we'll discuss how I can help.
     </p>
   </div>
 
-  <div class="faq-item">
+  <div className="faq-item">
     <h3>What makes Calhoun County different from other Florida commercial markets?</h3>
     <p>
       It's fundamentally rural and resource-driven. Timber, agriculture, and government services anchor the economy. There's no urban growth speculation, no major retail expansion, no multifamily boom. That creates a completely different opportunity set: lower costs, operational advantages for land-intensive businesses, and stable demand from essential local services. If you understand that distinction, Calhoun makes sense. If you're looking for high-growth urban dynamics, look elsewhere.
@@ -213,7 +213,6 @@ export default function Page() {
         body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
     </>
   );

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Commercial Real Estate in Clay County, Florida | HenCRE",
@@ -38,8 +38,8 @@ export default function Page() {
       ]} />
       <Hero title="Commercial Real Estate in Clay County, Florida" subtitle="Expert guide to commercial real estate in Clay County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
       <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section class="clay-county-overview">
-  <h1>Clay County Commercial Real Estate Market Overview</h1>
+        <section className="clay-county-overview">
+  <h2>Clay County Commercial Real Estate Market Overview</h2>
   
   <p>Clay County sits at a pivotal moment in Northeast Florida's commercial real estate evolution. As a suburban Jacksonville bedroom community with strengthening retail and medical office fundamentals, this market is attracting serious investor and tenant interest—particularly along the US 17 and Blanding Boulevard corridors. I've worked this territory long enough to see the infrastructure improvements and demographic tailwinds that are reshaping how developers and users view Clay County assets.</p>
 
@@ -47,7 +47,7 @@ export default function Page() {
 
 </section>
 
-<section class="key-corridors">
+<section className="key-corridors">
   <h2>Key Commercial Corridors</h2>
   
   <p>Clay County's commercial activity concentrates along two primary spines: <strong>US 17</strong> and <strong>Blanding Boulevard</strong>. Both corridors serve as gateways between Jacksonville's core and Fleming Island's residential neighborhoods, making them ideal for retail, restaurant, and service-oriented tenants who need visibility and traffic accessibility.</p>
@@ -60,7 +60,7 @@ export default function Page() {
 
 </section>
 
-<section class="property-types">
+<section className="property-types">
   <h2>Active Property Types & Demand Drivers</h2>
 
   <h3>Medical Office & Healthcare Services</h3>
@@ -77,7 +77,7 @@ export default function Page() {
 
 </section>
 
-<section class="market-dynamics">
+<section className="market-dynamics">
   <h2>What's Driving Clay County Growth</h2>
 
   <ul>
@@ -90,7 +90,7 @@ export default function Page() {
 
 </section>
 
-<section class="why-it-matters">
+<section className="why-it-matters">
   <h2>Why Clay County Matters Now</h2>
 
   <p>Clay County is not a speculative growth story—it's a fundamentals play. The county offers:</p>
@@ -106,7 +106,7 @@ export default function Page() {
 
 </section>
 
-<section class="barrett-services">
+<section className="barrett-services">
   <h2>How I Work Clay County Deals</h2>
 
   <p>Clay County is a referral territory for me, but I don't treat it casually. I connect tenant prospects with available space, help property owners understand positioning and management strategies, and provide market intelligence for acquisitions or development feasibility. Whether you're a local owner, a Jacksonville REALTOR® working an outlying deal, or a regional investor evaluating Southeast Florida markets, I offer broker-level market perspective and transaction support.</p>
@@ -124,7 +124,7 @@ export default function Page() {
 
 </section>
 
-<section class="contact-cta">
+<section className="contact-cta">
   <h2>Get Clay County Market Intelligence</h2>
 
   <p>If you're exploring Clay County commercial real estate—whether as an owner, investor, tenant, or developer—let's talk. I've got on-the-ground market knowledge and the network to move deals efficiently in this space.</p>
@@ -136,7 +136,7 @@ export default function Page() {
 
 </section>
 
-<section class="faq">
+<section className="faq">
   <h2>Frequently Asked Questions</h2>
 
   <h3>Is Clay County experiencing significant new development?</h3>
@@ -161,7 +161,6 @@ export default function Page() {
         body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
     </>
   );

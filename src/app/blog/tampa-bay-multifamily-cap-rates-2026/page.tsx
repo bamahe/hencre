@@ -257,10 +257,10 @@ export default function TampaBayMultifamilyCapRates2026Page() {
       </article>
 
       <CTASection
-        title="Ready to Evaluate a Tampa Bay Multifamily Deal?"
-        description="Barrett Henry analyzes multifamily investments and sources off-market opportunities across Hillsborough, Pinellas, Pasco, and Manatee counties. Get deal-specific analysis before you commit."
-        primaryButton={{ label: "Contact Barrett", href: "/contact" }}
-        secondaryButton={{ label: "Multifamily Investment Guide", href: "/blog/multifamily-investment-tampa-bay-guide" }}
+        heading="Ready to Evaluate a Tampa Bay Multifamily Deal?"
+        body="Barrett Henry analyzes multifamily investments and sources off-market opportunities across Hillsborough, Pinellas, Pasco, and Manatee counties. Get deal-specific analysis before you commit."
+        primaryCta={{ label: "Contact Barrett", href: "/contact" }}
+        secondaryCta={{ label: "Multifamily Investment Guide", href: "/blog/multifamily-investment-tampa-bay-guide" }}
       />
 
       <RelatedLinks links={relatedLinks} />
