@@ -430,3 +430,92 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added breadcrumb Home link; added FAQ section with FAQAccordion
 - Added 2 additional internal links (blog/how-to-calculate-commercial-property-roi, services/investment-sales)
 - Added EEAT update in Bottom Line paragraph; added "Last updated: July 2026" footer
+
+---
+
+## 2026-07-26 — Batch 6 (10 pages)
+
+### 1. `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Consolidated dual schemas (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Added FAQAccordion import; created 5 faqItems array
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-26"
+- Added 10+ internal links (markets, commercial types, insights, calculators, services)
+- Added "Last updated: July 2026" footer
+
+### 2. `/blog/tampa-bay-multifamily-cap-rates-2026`
+- Added FAQAccordion import; created 5 faqItems (cap rate drivers, comparison to industrial, interest rate sensitivity, what to look for, market outlook)
+- Replaced articleSchema with @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-26"
+- Added FAQ section with FAQAccordion component
+- Added 10+ internal links (markets, commercial types, calculators, insights, services)
+- Added "Last updated: July 2026" footer
+
+### 3. `/markets/hernando`
+- Full rewrite to match updated market page pattern (AlternatingSection backgrounds, image, all components)
+- Added BreadcrumbList to @graph schema; added LeadForm with id="lead-form"; added Hero ctaText/ctaHref
+- Added FAQAccordion with 5 FAQs (investment appeal, primary submarkets, medical office vs retail, cap rates, Hernando vs Pasco/Citrus)
+- Added body image (Unsplash photo-1587293852726-70cdb56c2866) -- suburban commercial corridor
+- Added RelatedLinks component; added CTASection; added "Last updated: July 2026" footer
+- Added 12+ internal links (markets, commercial types, insights, calculators, services, blog posts)
+
+### 4. `/blog/pasco-county-commercial-development-2026`
+- Added FAQAccordion import; created 5 faqItems (Wesley Chapel vs New Port Richey, industrial, office, cap rates, property types)
+- Consolidated 3 separate schemas into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-26"
+- Replaced raw h3/p FAQ section with FAQAccordion component
+- Added 12+ internal links (markets, commercial types, insights, calculators, services, blog posts)
+- Added "Last updated: July 2026" footer
+
+### 5. `/blog/what-makes-a-good-commercial-investment`
+- Added FAQAccordion import; created 5 faqItems (best property types 2026, tenant vs location, time horizon, due diligence priorities, how Barrett evaluates)
+- Consolidated separate schemas into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-26"
+- Added FAQ section with FAQAccordion component
+- Added 12+ internal links (markets, commercial types, insights, calculators, services, blog posts)
+- Added EEAT update in Bottom Line paragraph; added "Last updated: July 2026" footer
+
+### 6. `/blog/tampa-bay-medical-office-real-estate-2026`
+- Consolidated dual schemas (blogSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Moved faqItems out of schema and into FAQAccordion component
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-26"
+- Added 10+ internal links (markets, commercial types, insights, services, blog posts)
+- Added "Last updated: July 2026" footer
+
+### 7. `/blog/sarasota-office-market-trends-2026`
+- Consolidated dual schemas into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Added FAQAccordion component with 6 faqItems
+- Fixed jobTitle to "Broker Associate"; added dateModified "2026-07-26"
+- Added 10+ internal links (markets/sarasota, markets/manatee, commercial/office-space, insights, calculators, services, blog posts)
+- Added "Last updated: July 2026" footer
+
+### 8. `/blog/wesley-chapel-commercial-real-estate-2026`
+- Consolidated 3 separate SchemaOrg components (articleSchema + faqSchema + breadcrumbSchema) into single @graph
+- Added Link and FAQAccordion imports; created 5 faqItems array
+- Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"; dateModified updated to "2026-07-26"
+- Replaced raw h3/p FAQ section with FAQAccordion component
+- Fixed all `<a href>` tags to `<Link href>` throughout body
+- Removed en dashes in FAQ answers; corrected email to /contact link
+- Added 12+ internal links (markets, commercial types, insights, calculators, services, blog posts)
+- Added "Last updated: July 2026" footer
+
+### 9. `/markets/charlotte`
+- Full rewrite to match market page pattern (Hernando template)
+- Added Link, Image, LeadForm, FAQAccordion, RelatedLinks, SchemaOrg imports; canonical URL to metadata
+- Added @graph schema (BreadcrumbList + LocalBusiness + Service + FAQPage) with full Person details
+- Created 5 faqItems (medical office investment, comparison to Lee/Collier, retail demand, cap rates, active areas)
+- Added body image (Unsplash photo-1558618666-fcd25c85cd64) -- commercial development aerial
+- Added 12+ internal links (markets, commercial types, insights, services, calculators, blog posts)
+- Fixed email from barrett@nowtb.com to /contact link in body; barrett@hencre.com in schema
+- Replaced em dashes throughout content; added id="lead-form"; added RelatedLinks; added CTASection
+- Added "Last updated: July 2026" footer
+
+### 10. `/markets/clay`
+- Full rewrite to match market page pattern (Hernando template)
+- Added Link, Image, LeadForm, FAQAccordion, RelatedLinks, SchemaOrg imports; canonical URL to metadata
+- Added @graph schema (BreadcrumbList + LocalBusiness + Service + FAQPage) with full Person details
+- Created 5 faqItems (new development activity, tenant profile, vs Jacksonville core, pre-purchase considerations, cap rates)
+- Added body image (Unsplash photo-1488229297570-58520851e868) -- suburban commercial corridor
+- Added 12+ internal links (markets, commercial types, insights, services, calculators, blog posts)
+- Fixed email from barrett@nowtb.com to /contact link in body; barrett@hencre.com in schema
+- Replaced em dashes throughout content; added id="lead-form"; added RelatedLinks; added CTASection
+- Added "Last updated: July 2026" footer
