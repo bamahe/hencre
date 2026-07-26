@@ -120,6 +120,13 @@
   line-height: 1.75;
   color: var(--tw-prose-body);
 }
+/* Don't override text colors inside dark CTA boxes or elements with explicit text-white */
+.prose-hencre [class*="text-white"] p,
+.prose-hencre [class*="text-white"] a,
+.prose-hencre [class*="text-center"][class*="bg-"] p,
+.prose-hencre [class*="text-center"][class*="bg-"] a {
+  color: inherit;
+}
 .prose-hencre ul, .prose-hencre ol {
   margin-top: 1rem;
   margin-bottom: 1rem;
