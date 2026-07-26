@@ -48,11 +48,24 @@ const faqs = [
     answer:
       "Hernando sits between the more developed Pasco County market to the south and the nature-tourism-driven Citrus County market to the north. Pasco offers higher population density and more established commercial corridors, while Citrus offers waterfront and recreational-related opportunities. Hernando's sweet spot is affordable land and retail-medical growth tied to residential in-migration — making it attractive for investors willing to buy ahead of the next development wave.",
   },
+  {
+    question: "What cap rates can investors expect for commercial properties in Hernando County?",
+    answer:
+      "Cap rates in Hernando County generally run 50 to 150 basis points higher than equivalent properties in core Hillsborough County submarkets, reflecting the market's earlier-stage development cycle and smaller investor pool. Retail properties with national tenants along US-19 trade in the 6.5 to 7.5 percent range. Medical office commands 6 to 7 percent, while light industrial and flex space in Brooksville can trade at 7 to 8.5 percent. For investors seeking stronger yields than Tampa Bay core markets can offer, combined with genuine population growth tailwinds, Hernando represents a compelling value proposition.",
+  },
 ];
 
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Markets", item: "https://hencre.com/markets" },
+        { "@type": "ListItem", position: 3, name: "Hernando County", item: "https://hencre.com/markets/hernando" },
+      ],
+    },
     {
       "@type": "LocalBusiness",
       name: "REMAX Commercial Real Estate — Barrett Henry",

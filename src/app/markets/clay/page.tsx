@@ -1,167 +1,321 @@
+import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
-import CTASection from "@/components/CTASection";
-import SchemaOrg from "@/components/SchemaOrg";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import LeadForm from "@/components/LeadForm";
+import FAQAccordion from "@/components/FAQAccordion";
+import CTASection from "@/components/CTASection";
+import RelatedLinks from "@/components/RelatedLinks";
+import SchemaOrg from "@/components/SchemaOrg";
+
+/* -------------------------------------------------------------------
+ * Clay County Market Page
+ * Orange Park, Fleming Island, Middleburg — suburban Jacksonville CRE.
+ * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
   title: "Commercial Real Estate in Clay County, Florida | HenCRE",
-  description: "Expert guide to commercial real estate in Clay County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+  description:
+    "Clay County CRE market — Orange Park, Fleming Island, and Middleburg retail, medical office, and professional space. Barrett Henry, REMAX Collective.",
+  alternates: { canonical: "https://hencre.com/markets/clay" },
   openGraph: {
     title: "Commercial Real Estate in Clay County, Florida | HenCRE",
-    description: "Expert guide to commercial real estate in Clay County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+    description:
+      "Explore Clay County commercial real estate — suburban Jacksonville retail, medical office, and investment opportunities along US-17 and Blanding Boulevard.",
     url: "https://hencre.com/markets/clay",
-    siteName: "HenCRE",
-    type: "article",
   },
 };
 
-export default function Page() {
+const faqs = [
+  {
+    question: "Is Clay County experiencing significant new commercial development?",
+    answer:
+      "Yes, but selectively. Medical office and mixed-use projects are being greenlit, and retail development is active in well-located corridors. The pace is measured rather than frenetic, which is actually healthy. Overbuilt markets tend to struggle; Clay County's growth feels sustainable and tenant-driven rather than spec-driven.",
+  },
+  {
+    question: "What is the typical tenant profile in Clay County commercial space?",
+    answer:
+      "Healthcare practitioners, neighborhood retail, service businesses, and professional offices. You are seeing physicians setting up satellite practices, franchise quick-service restaurants expanding into suburban markets, and professional service firms moving from Jacksonville to serve local clients at lower rent. The mix leans toward stability over high-growth speculative users.",
+  },
+  {
+    question: "How does Clay County compare to Jacksonville's urban core for commercial investors?",
+    answer:
+      "Different risk-return profile. Jacksonville's core offers more density, institutional tenants, and higher visibility — but also higher entry costs and more competition. Clay County offers lower acquisition costs, less competition, and tenant demand supported by residential migration and military employment. For investors comfortable with suburban fundamentals and patient capital, Clay County can outperform on a risk-adjusted basis.",
+  },
+  {
+    question: "What should I know before buying commercial property in Clay County?",
+    answer:
+      "Understand your tenant demand. Medical office and neighborhood retail work because they serve residential populations. Speculative office or commodity retail without strong co-tenancy or anchors struggle. Know your corridor — US-17 and Blanding Boulevard drive traffic and visibility. Evaluate infrastructure improvements, including First Coast Expressway connectivity. Work with a broker who understands local zoning, permitting, and tenant demand.",
+  },
+  {
+    question: "What cap rates can investors expect for Clay County commercial properties?",
+    answer:
+      "Cap rates in Clay County generally run higher than in downtown Jacksonville, reflecting the market's suburban character and smaller investor pool. Medical office and neighborhood retail typically trade in the 6.5 to 8 percent range. Class B office in established corridors can trade at 7 to 8.5 percent. For investors seeking stronger yields than Jacksonville's urban core can offer, combined with stable suburban demand, Clay County offers a compelling value proposition.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Markets", item: "https://hencre.com/markets" },
+        { "@type": "ListItem", position: 3, name: "Clay County", item: "https://hencre.com/markets/clay" },
+      ],
+    },
+    {
+      "@type": "LocalBusiness",
+      name: "REMAX Commercial Real Estate — Barrett Henry",
+      description: "Commercial real estate advisory and brokerage services for Clay County.",
+      telephone: "(813) 733-7907",
+      email: "barrett@hencre.com",
+      url: "https://hencre.com/markets/clay",
+      areaServed: { "@type": "AdministrativeArea", name: "Clay County, Florida" },
+      employee: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate, Commercial Real Estate",
+      },
+    },
+    {
+      "@type": "Service",
+      name: "Clay County Commercial Real Estate Services",
+      description:
+        "CRE advisory, tenant and buyer representation, and investment analysis in Clay County, Florida.",
+      provider: { "@type": "RealEstateAgent", name: "Barrett Henry" },
+      areaServed: { "@type": "AdministrativeArea", name: "Clay County, Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
+
+const relatedMarkets = [
+  { title: "All Florida Markets", href: "/markets", description: "Overview of every market Barrett Henry serves." },
+  { title: "Investment Sales Services", href: "/services/investment-sales", description: "Buyer and seller representation for CRE investment." },
+  { title: "Tenant Representation", href: "/services/tenant-representation", description: "Finding the right space for your business." },
+  { title: "What Makes a Good Commercial Investment?", href: "/blog/what-makes-a-good-commercial-investment", description: "Investment criteria from a broker's perspective." },
+  { title: "What Is a Cap Rate?", href: "/insights/what-is-a-cap-rate", description: "Understanding the core metric for CRE investment analysis." },
+];
+
+export default function ClayMarketPage() {
   return (
     <>
-      <SchemaOrg schema={{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Commercial Real Estate in Clay County, Florida",
-        "description": "Expert guide to commercial real estate in Clay County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
-        "author": {
-          "@type": "Person",
-          "name": "Barrett Henry",
-          "jobTitle": "Broker Associate",
-          "worksFor": { "@type": "Organization", "name": "REMAX Collective" }
-        }
-      }} />
-      <Breadcrumbs items={[
-        { label: "Home", href: "/" },
-        { label: "Markets", href: "/markets" },
-        { label: "Commercial Real Estate in Clay County, Florida", href: "/markets/clay" },
-      ]} />
-      <Hero title="Commercial Real Estate in Clay County, Florida" subtitle="Expert guide to commercial real estate in Clay County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
-      <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section className="clay-county-overview">
-  <h2>Clay County Commercial Real Estate Market Overview</h2>
-  
-  <p>Clay County sits at a pivotal moment in Northeast Florida's commercial real estate evolution. As a suburban Jacksonville bedroom community with strengthening retail and medical office fundamentals, this market is attracting serious investor and tenant interest—particularly along the US 17 and Blanding Boulevard corridors. I've worked this territory long enough to see the infrastructure improvements and demographic tailwinds that are reshaping how developers and users view Clay County assets.</p>
+      <SchemaOrg schema={schema} />
 
-  <p>Here's what I'm seeing on the ground, and why now matters for your commercial real estate strategy.</p>
+      <Breadcrumbs
+        items={[
+          { label: "Markets", href: "/markets" },
+          { label: "Clay County", href: "/markets/clay" },
+        ]}
+      />
 
-</section>
+      <Hero
+        title="Commercial Real Estate in Clay County, Florida"
+        subtitle="Orange Park, Fleming Island, and Middleburg offer suburban Jacksonville commercial real estate driven by residential growth, military employment, and healthcare expansion."
+        ctaText="Discuss Your CRE Goals"
+        ctaHref="#lead-form"
+      />
 
-<section className="key-corridors">
-  <h2>Key Commercial Corridors</h2>
-  
-  <p>Clay County's commercial activity concentrates along two primary spines: <strong>US 17</strong> and <strong>Blanding Boulevard</strong>. Both corridors serve as gateways between Jacksonville's core and Fleming Island's residential neighborhoods, making them ideal for retail, restaurant, and service-oriented tenants who need visibility and traffic accessibility.</p>
+      {/* ---- Market Overview ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Market Overview</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
+            <p>
+              Clay County sits at a pivotal moment in Northeast Florida&apos;s commercial real estate
+              evolution. As a suburban Jacksonville bedroom community with strengthening retail and
+              medical office fundamentals, this market is attracting serious investor and tenant interest,
+              particularly along the US-17 and Blanding Boulevard corridors. I have worked this territory
+              long enough to see the infrastructure improvements and demographic tailwinds that are
+              reshaping how developers and users view Clay County assets. For context on the full range of{" "}
+              <Link href="/markets" className="text-accent underline">Florida markets</Link> Barrett Henry serves,
+              see the markets overview.
+            </p>
+            <p>
+              Clay County is not a speculative growth story; it is a fundamentals play. The county offers
+              lower entry costs than downtown Jacksonville, stable tenant demand from healthcare and
+              military-adjacent users, and infrastructure improvements that are making the market more
+              accessible. Fleming Island and Orange Park continue attracting Jacksonville residents seeking
+              suburban schools and lower density, and that residential base sustains retail, service, and
+              medical office tenants through multiple economic cycles.
+            </p>
+            <p>
+              NAS Jacksonville provides a structural employment and housing demand that buffers against
+              broader economic volatility. Military households represent predictable users with steady
+              income profiles — a demand driver that is underappreciated in Clay County commercial
+              market discussions.
+            </p>
+          </div>
 
-  <p><strong>US 17 Corridor:</strong> This is the established retail and mixed-use spine. You'll see traditional strip centers, quick-service restaurants, and specialty retail that rely on pass-through traffic and localized residential density. The corridor has matured infrastructure, which means easier permitting and lower build-out risk for operators.</p>
+          <div className="my-8">
+            <Image
+              src="https://images.unsplash.com/photo-1488229297570-58520851e868?w=1200&h=600&fit=crop"
+              alt="Suburban commercial corridor in Orange Park, Clay County Florida"
+              width={1200}
+              height={600}
+              className="rounded-lg w-full"
+            />
+            <p className="mt-2 text-sm text-[#666666] italic">Clay County&apos;s suburban corridors serve a stable residential base anchored by Fleming Island, Orange Park, and Middleburg neighborhoods.</p>
+          </div>
+        </div>
+      </section>
 
-  <p><strong>Blanding Boulevard Corridor:</strong> This east-west artery is emerging as the growth vector for medical office and professional services. The proximity to healthcare anchors and the corridor's ability to serve both Fleming Island and Middleburg makes it attractive to health systems and physician practices expanding beyond Jacksonville proper.</p>
+      {/* ---- Key Corridors ---- */}
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Key Commercial Corridors</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
+            <p>
+              <strong className="text-black">US-17 Corridor:</strong> The established{" "}
+              <Link href="/commercial/retail-space" className="text-accent underline">retail</Link> and
+              mixed-use spine through Orange Park. Traditional strip centers, quick-service restaurants,
+              and specialty retail that rely on pass-through traffic and localized residential density.
+              The corridor has matured infrastructure, which means easier permitting and lower build-out
+              risk for operators.
+            </p>
+            <p>
+              <strong className="text-black">Blanding Boulevard:</strong> This east-west artery is
+              emerging as the growth vector for medical{" "}
+              <Link href="/commercial/office-space" className="text-accent underline">office</Link> and
+              professional services. The proximity to healthcare anchors and the corridor&apos;s ability
+              to serve both Fleming Island and Middleburg makes it attractive to health systems and
+              physician practices expanding beyond Jacksonville proper.
+            </p>
+            <p>
+              <strong className="text-black">First Coast Expressway:</strong> Ongoing connectivity
+              improvements are a significant catalyst for Clay County. Better highway access reduces
+              commute times to downtown Jacksonville and makes Clay County more competitive for both
+              office relocations and{" "}
+              <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial users</Link>{" "}
+              seeking suburban logistics proximity without downtown overhead costs.
+            </p>
+            <p>
+              <strong className="text-black">Fleming Island:</strong> The higher-income residential
+              enclave within Clay County supports demand for professional services, medical office,
+              and upscale neighborhood retail that serves that demographic. Properties near Fleming
+              Island&apos;s commercial nodes benefit from above-average household incomes relative
+              to the rest of the county.
+            </p>
+          </div>
+        </div>
+      </section>
 
-  <p><strong>First Coast Expressway Impact:</strong> The ongoing improvements to First Coast Expressway connectivity are a game-changer. Better highway access reduces commute times to downtown Jacksonville and makes Clay County more competitive for both office relocations and industrial users seeking suburban logistics proximity without downtown overhead.</p>
+      {/* ---- Property Types ---- */}
+      <section className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">Active Property Types</h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
+            <p>
+              <strong className="text-black">Medical Office and Healthcare Services:</strong> The
+              strongest tenant demand story in Clay County. Physicians and health systems are actively
+              seeking suburban medical office space to serve expanding residential populations. Clay
+              County&apos;s demographic profile — stable household formation, aging population, military
+              families — supports recurring healthcare demand. Medical office space commands stronger
+              lease rates than commodity retail, and tenant credit quality tends to be institutional.
+            </p>
+            <p>
+              <strong className="text-black">Retail and Restaurant:</strong> Conventional retail is
+              selective, but neighborhood-anchored shopping centers with strong tenant mixes continue
+              to perform. Quick-service restaurants, dental practices, and service retailers are seeking
+              Clay County locations to capture the bedroom community user base. Centers with medical or
+              grocer anchors and tight co-tenancy hold up well. Understand{" "}
+              <Link href="/insights/cam-charges-explained" className="text-accent underline">CAM charge structures</Link>{" "}
+              before comparing lease options across properties.
+            </p>
+            <p>
+              <strong className="text-black">Professional Office:</strong> Suburban office demand has
+              shifted since 2020, but service-oriented professional offices — accounting, insurance,
+              real estate, legal — continue to lease suburban space. Tenants are right-sizing from
+              downtown Jacksonville footprints and moving closer to residential populations and lower
+              occupancy costs. Class B office in Clay County is competitive against Jacksonville&apos;s
+              CBD for this tenant profile.
+            </p>
+            <p>
+              <strong className="text-black">Investment Properties:</strong> For investors evaluating
+              income-producing assets, Clay County offers{" "}
+              <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</Link>{" "}
+              that typically run higher than Jacksonville&apos;s urban core, reflecting the smaller
+              investor pool and suburban character. Use the{" "}
+              <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link>{" "}
+              to evaluate specific deal returns before committing. For guidance on what distinguishes
+              a sound acquisition, see{" "}
+              <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">what makes a good commercial investment</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
 
-</section>
+      {/* ---- Services ---- */}
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl">
+            How Barrett Henry Serves This Market
+          </h2>
+          <div className="space-y-5 text-[#666666] leading-relaxed">
+            <p>
+              Clay County is a referral territory for me, but I do not treat it casually. As a
+              Broker Associate at REMAX Collective with 23+ years of real estate experience, I connect
+              tenant prospects with available space, help property owners understand positioning and
+              management strategies, and provide market intelligence for acquisitions or development
+              feasibility.
+            </p>
+            <p>
+              Services available for Clay County include{" "}
+              <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link>{" "}
+              for healthcare, retail, and office users;{" "}
+              <Link href="/services/investment-sales" className="text-accent underline">investment acquisition support</Link>{" "}
+              for buyers evaluating medical office, retail, or flex acquisitions;{" "}
+              <Link href="/services/landlord-leasing" className="text-accent underline">landlord leasing strategy</Link>{" "}
+              and positioning for multi-tenant retail and medical office; and market intelligence
+              for corridor analysis and investment decision-making. For on-the-ground Clay County
+              execution, I coordinate with local REMAX network partners who specialize in this market.
+              Reach out through the{" "}
+              <Link href="/contact" className="text-accent underline">contact page</Link>{" "}
+              to discuss your goals.
+            </p>
+          </div>
+        </div>
+      </section>
 
-<section className="property-types">
-  <h2>Active Property Types & Demand Drivers</h2>
+      {/* ---- Lead Form ---- */}
+      <section id="lead-form" className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-xl">
+          <LeadForm />
+        </div>
+      </section>
 
-  <h3>Medical Office & Healthcare Services</h3>
-  <p>This is the strongest tenant demand story right now. Physicians and health systems are actively seeking suburban medical office space to serve expanding residential populations. Clay County's demographic profile—stable household formation, aging population cohort—supports recurring healthcare demand. Medical office space commands stronger lease rates than commodity retail, and tenant credit quality tends to be institutional.</p>
+      {/* ---- FAQ ---- */}
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
+            Clay County CRE — Frequently Asked Questions
+          </h2>
+          <FAQAccordion items={faqs} />
+        </div>
+      </section>
 
-  <h3>Retail & Restaurant</h3>
-  <p>Conventional retail is selective, but neighborhood-anchored shopping centers with strong tenant mixes continue to perform. Quick-service restaurants, dental practices, and service retailers (fitness, dry cleaning, personal services) are seeking Clay County locations to capture the bedroom community user base. The key is differentiation—boxes with weak anchors are struggling; centers with medical or grocer anchors and tight co-tenancy are holding ground.</p>
+      <RelatedLinks links={relatedMarkets} heading="Explore More Markets" />
 
-  <h3>Workforce Housing</h3>
-  <p>Military presence at NAS Jacksonville creates a stable, recurring demand pool for both residential and mixed-use development. This is an underappreciated demand driver. Military households—whether active, retired, or veteran—represent predictable renters and buyers with steady income profiles. Developers building multifamily or workforce-oriented products near military employment centers find consistent absorption.</p>
-
-  <h3>Office & Professional Services</h3>
-  <p>Suburban office demand has shifted since 2020, but service-oriented professional offices—accounting, insurance, real estate, legal—continue to lease suburban space. Tenants are right-sizing from downtown footprints and moving closer to residential populations and lower occupancy costs. Class B office in Clay County is competitive against Jacksonville's CBD for this tenant profile.</p>
-
-</section>
-
-<section className="market-dynamics">
-  <h2>What's Driving Clay County Growth</h2>
-
-  <ul>
-    <li><strong>Residential Expansion:</strong> Fleming Island and Orange Park continue attracting Jacksonville residents seeking suburban schools and lower density. That residential base sustains retail, service, and medical office tenants.</li>
-    <li><strong>Military Stability:</strong> NAS Jacksonville provides structural employment and housing demand that buffers against broader economic volatility.</li>
-    <li><strong>Infrastructure Investment:</strong> First Coast Expressway improvements and ongoing road connectivity enhancements reduce friction for both commuting and logistics operations.</li>
-    <li><strong>Healthcare System Growth:</strong> Expansion of medical services and specialist care in Clay County reduces the need for residents to commute to downtown Jacksonville for routine healthcare.</li>
-    <li><strong>Developer Interest:</strong> Regional and local developers increasingly view Clay County as having better cap rate opportunity and less competition than Jacksonville's urban core.</li>
-  </ul>
-
-</section>
-
-<section className="why-it-matters">
-  <h2>Why Clay County Matters Now</h2>
-
-  <p>Clay County is not a speculative growth story—it's a fundamentals play. The county offers:</p>
-
-  <ul>
-    <li><strong>Lower Entry Costs:</strong> Land and building costs remain below Jacksonville proper, making development economics work for operators with moderate return requirements.</li>
-    <li><strong>Tenant Stability:</strong> Healthcare, military-adjacent demand, and neighborhood retail tenants are less volatile than urban retail or speculative office.</li>
-    <li><strong>Less Competition:</strong> Fewer institutional investors focus here compared to Jacksonville's core markets, meaning less capital chasing every deal.</li>
-    <li><strong>Infrastructure Trajectory:</strong> Highway improvements and suburban densification are in early innings. Patient investors benefit from improving accessibility as projects mature.</li>
-  </ul>
-
-  <p>This is a market where owners, developers, and tenants who understand suburban Jacksonville's real estate arc can find genuine opportunity.</p>
-
-</section>
-
-<section className="barrett-services">
-  <h2>How I Work Clay County Deals</h2>
-
-  <p>Clay County is a referral territory for me, but I don't treat it casually. I connect tenant prospects with available space, help property owners understand positioning and management strategies, and provide market intelligence for acquisitions or development feasibility. Whether you're a local owner, a Jacksonville REALTOR® working an outlying deal, or a regional investor evaluating Southeast Florida markets, I offer broker-level market perspective and transaction support.</p>
-
-  <p><strong>I specialize in:</strong></p>
-  <ul>
-    <li>Tenant representation—matching healthcare, retail, and office users with appropriate sites</li>
-    <li>Listing strategy and positioning for multi-tenant retail and medical office</li>
-    <li>Land and development site consultation</li>
-    <li>Market intelligence and corridor analysis for investment decisions</li>
-    <li>Coordination with local brokers and REMAX network partners for deal execution</li>
-  </ul>
-
-  <p>My goal is straightforward: help you understand the Clay County opportunity, avoid common mistakes, and execute deals that make sense for your business or investment profile.</p>
-
-</section>
-
-<section className="contact-cta">
-  <h2>Get Clay County Market Intelligence</h2>
-
-  <p>If you're exploring Clay County commercial real estate—whether as an owner, investor, tenant, or developer—let's talk. I've got on-the-ground market knowledge and the network to move deals efficiently in this space.</p>
-
-  <p><strong>Phone:</strong> (813) 733-7907<br/>
-  <strong>Email:</strong> barrett@nowtb.com</p>
-
-  <p>I'm a Broker Associate at REMAX Collective, and I work Florida commercial real estate with the same direct, no-nonsense approach I apply to all of my business. Let's find the right strategy for your Clay County opportunity.</p>
-
-</section>
-
-<section className="faq">
-  <h2>Frequently Asked Questions</h2>
-
-  <h3>Is Clay County experiencing significant new development?</h3>
-  <p>Yes, but selectively. Medical office and mixed-use projects are being greenlit, and retail development is active in well-located corridors. The pace is measured—not frenetic—which is actually healthy. Overbuilt markets tend to struggle; Clay County's growth feels sustainable and tenant-driven rather than spec-driven.</p>
-
-  <h3>What's the typical tenant profile in Clay County commercial space?</h3>
-  <p>Healthcare practitioners, neighborhood retail, service businesses, and professional offices. You're seeing physicians setting up satellite practices, franchise quick-service restaurants expanding into suburban markets, and professional service firms (insurance, real estate, accounting) moving from Jacksonville to serve local clients at lower rent. The mix leans toward stability over high-growth speculative users.</p>
-
-  <h3>How does Clay County compare to Jacksonville's urban core for commercial investors?</h3>
-  <p>Different risk-return profile. Jacksonville's core offers more density, institutional tenants, and higher visibility—but also higher entry costs and more competition. Clay County offers lower acquisition costs, less competition, and tenant demand supported by residential migration and military employment. For investors comfortable with suburban fundamentals and patient capital, Clay County can outperform on a risk-adjusted basis.</p>
-
-  <h3>What should I know before buying commercial property in Clay County?</h3>
-  <p>Understand your tenant demand. Medical office and neighborhood retail work because they serve residential populations. Speculative office or commodity retail without strong co-tenancy or anchors struggle. Know your corridor—US 17 and Blanding Boulevard drive traffic and visibility. Evaluate infrastructure improvements (First Coast Expressway matters). Work with a broker who understands local zoning, permitting, and tenant demand. Clay County is not complicated, but it rewards operators who do the homework.</p>
-
-  <h3>Does Barrett Henry work directly in Clay County?</h3>
-  <p>Clay County is a referral territory for me. I provide market intelligence, tenant representation coordination, and transaction support, and I work closely with local brokers and REMAX network partners to execute deals. If you need on-the-ground Clay County expertise, I'll connect you with the right local operator. My value is in understanding how Clay County fits within broader Northeast Florida and statewide commercial real estate trends.</p>
-
-</section>
-      </main>
       <CTASection
-        heading="Ready to Talk Commercial Real Estate?"
-        body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
-        buttonText="Get in Touch"
+        heading="Exploring Clay County Commercial Real Estate?"
+        body="Whether you are a tenant, investor, or property owner, I provide the market perspective and professional network to help you make the right move in Clay County."
+        buttonText="Contact Barrett"
         buttonHref="/contact"
       />
+
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
     </>
   );
 }

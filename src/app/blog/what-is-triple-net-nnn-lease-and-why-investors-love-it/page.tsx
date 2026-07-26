@@ -67,6 +67,14 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "What Is a NNN Lease?", item: "https://hencre.com/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "What Is a Triple Net (NNN) Lease and Why Investors Love It",
       description:

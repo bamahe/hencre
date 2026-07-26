@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Multifamily Cap Rates 2026: When Does the Investment Math Work? | HenCRE",
+  title: "Tampa Bay Multifamily Cap Rates 2026 | HenCRE",
   description:
     "Cap rates in Tampa Bay multifamily have expanded meaningfully as financing costs rose. Here is how to evaluate whether the math works at current prices, rates, and rents.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-multifamily-cap-rates-2026" },
@@ -66,6 +66,14 @@ const faqItems = [
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Tampa Bay Multifamily Cap Rates 2026", item: "https://hencre.com/blog/tampa-bay-multifamily-cap-rates-2026" },
+      ],
+    },
     {
       "@type": "BlogPosting",
       headline: "Tampa Bay Multifamily Cap Rates 2026: When Does the Investment Math Work?",
@@ -140,7 +148,7 @@ export default function TampaBayMultifamilyCapRates2026Page() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          For two years — 2021 through mid-2023 — Tampa Bay multifamily was priced so tightly that the math rarely worked for investors using conventional leverage. Cap rates compressed to 3.5% to 4.5% while commercial borrowing costs were rising above 6%. Negative leverage was common. Buyers who modeled honest cash flows found deals that looked good on the offering memorandum were break-even or worse when financed at actual market rates.
+          For two years — 2021 through mid-2023 — <Link href="/commercial/multifamily" className="text-accent underline">Tampa Bay multifamily</Link> was priced so tightly that the math rarely worked for investors using conventional leverage. Cap rates compressed to 3.5% to 4.5% while commercial borrowing costs were rising above 6%. Negative leverage was common. Buyers who modeled honest cash flows found deals that looked good on the offering memorandum were break-even or worse when financed at actual market rates.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Mid-2026 is materially different. Cap rates have expanded 75 to 150 basis points from those peak compression levels. Commercial multifamily rates have dropped from 7%+ highs to approximately 5.25% to 5.75% for stabilized assets with strong sponsorship. The math is not back to 2019 levels, but it is workable — and improving — for investors who understand what they are buying.
@@ -213,15 +221,15 @@ export default function TampaBayMultifamilyCapRates2026Page() {
           Not all Tampa Bay submarkets are created equal for multifamily investing. The most relevant current dynamics:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Hillsborough County (Brandon, Riverview, New Tampa, Valrico).</strong> Strong employment base, lower land costs than Tampa proper, consistent demand from workforce renters. Class-B properties in this corridor trade at 5.75% to 6.5% and offer the clearest path to value-add upside through renovation. Barrett covers this market in detail in his{" "}
+          <li><strong><Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> (Brandon, Riverview, New Tampa, Valrico).</strong> Strong employment base, lower land costs than Tampa proper, consistent demand from workforce renters. Class-B properties in this corridor trade at 5.75% to 6.5% and offer the clearest path to value-add upside through renovation. Barrett covers this market in detail in his{" "}
             <Link href="/blog/brandon-commercial-real-estate-guide-2026" className="text-accent underline">Brandon CRE guide</Link>.
           </li>
-          <li><strong>Pasco County (Wesley Chapel, Land O&apos; Lakes, New Port Richey).</strong> High population growth from residential development creates sustained rental demand. Newer class-B product at lower absolute price points. See the{" "}
+          <li><strong><Link href="/markets/pasco" className="text-accent underline">Pasco County</Link> (Wesley Chapel, Land O&apos; Lakes, New Port Richey).</strong> High population growth from residential development creates sustained rental demand. Newer class-B product at lower absolute price points. See the{" "}
             <Link href="/blog/pasco-county-commercial-development-2026" className="text-accent underline">Pasco County development overview</Link>{" "}
             for growth context.
           </li>
-          <li><strong>St. Petersburg and Pinellas County.</strong> Tight supply, strong renter demographics, and walkable urban submarkets command premium pricing. Cap rates are compressed compared to Hillsborough, but rent growth has been more durable.</li>
-          <li><strong>Lakeland and Polk County.</strong> Industrial-driven employment growth is supporting housing demand. Cap rates run higher than Tampa Bay proper — class-B assets available at 6.5% to 7.5% — offering better yield for investors comfortable with a secondary market.</li>
+          <li><strong><Link href="/markets/pinellas" className="text-accent underline">St. Petersburg and Pinellas County.</Link></strong> Tight supply, strong renter demographics, and walkable urban submarkets command premium pricing. Cap rates are compressed compared to Hillsborough, but rent growth has been more durable.</li>
+          <li><strong><Link href="/markets/polk" className="text-accent underline">Lakeland and Polk County.</Link></strong> Industrial-driven employment growth is supporting housing demand. Cap rates run higher than Tampa Bay proper — class-B assets available at 6.5% to 7.5% — offering better yield for investors comfortable with a secondary market.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Risks Are Specific to Tampa Bay Multifamily in 2026?</h2>
@@ -250,10 +258,12 @@ export default function TampaBayMultifamilyCapRates2026Page() {
           to deploy, the combination of expanded cap rates, lower financing costs, and motivated sellers creates the most favorable entry window since 2019. The window is not indefinite — if commercial rates continue their gradual decline, institutional buyer demand will return and compress cap rates again.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Barrett Henry has 23+ years of experience in commercial real estate across multiple market cycles. He evaluates Tampa Bay multifamily acquisitions, sources off-market deals, and models deal-specific returns for clients at every investment level. Contact him to discuss current opportunities or to have a specific deal underwritten.
+          Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience across multiple market cycles. He evaluates Tampa Bay <Link href="/services/investment-sales" className="text-accent underline">multifamily acquisitions</Link>, sources off-market deals, and models deal-specific returns for clients at every investment level. Use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> or the <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to run your own numbers, then contact Barrett to discuss current opportunities or to have a specific deal underwritten.
         </p>
 
         <FAQAccordion items={faqItems} />
+
+        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
       </article>
 
       <CTASection
