@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
 import FAQAccordion from "@/components/FAQAccordion";
 import RelatedLinks from "@/components/RelatedLinks";
+import Image from "next/image";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
@@ -83,7 +84,7 @@ const schema = {
       description:
         "Private equity is pouring into Tampa Bay data centers as AI demand accelerates. What the data center buildout means for industrial CRE investors, tenants, and landowners across Tampa Bay.",
       datePublished: "2026-07-25",
-      dateModified: "2026-07-25",
+      dateModified: "2026-07-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -167,6 +168,17 @@ export default function TampaBayDataCenterCREPage() {
           The industry publication TBBW reported in March 2026 that private equity is turning Tampa data centers into what market observers are calling a power play — capital is reaching Tampa Bay at a pace shaped increasingly by power constraints and larger financing structures than the market has historically seen. This is a materially different demand environment from the speculative industrial development that has characterized much of Tampa Bay&apos;s warehouse market in recent years. For broader context on what is driving Tampa Bay commercial real estate across all sectors, see our overview of <a href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay CRE is booming</a>.
         </p>
 
+        <div className="my-10 overflow-hidden rounded-lg">
+          <Image
+            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=900&q=80"
+            alt="Server racks inside a modern data center facility serving Tampa Bay's AI infrastructure demand"
+            width={900}
+            height={500}
+            className="w-full object-cover"
+          />
+          <p className="mt-2 text-xs text-[#999999] text-center">Data center demand in Tampa Bay is being driven by AI infrastructure buildout -- private equity is targeting the region&apos;s industrial corridors at a pace the market has not seen before.</p>
+        </div>
+
         <h2 className="mt-10 text-2xl font-bold text-black">What Is Actually Being Built and Leased in Tampa Bay&apos;s Data Center Market?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The market activity is concrete. American Tower — a REIT that owns traditional cell tower infrastructure and has expanded aggressively into edge computing — maintains a construction-ready edge data center site in Tampa Bay, positioning the metro as a node in its distributed compute network. Edge facilities like this are smaller than hyperscale campuses but strategically located to serve the dense population corridors of the I-275, I-4, and I-75 interchange.
@@ -222,10 +234,10 @@ export default function TampaBayDataCenterCREPage() {
           Tampa Bay&apos;s data center story is not a distant technology trend that may or may not arrive. It is already here — in the private equity capital flowing into the market, in the industrial lease transactions from firms like Stonemont and GTIS, and in the edge facility infrastructure being positioned by operators like American Tower along the region&apos;s key corridors. The AI infrastructure buildout has a multi-decade runway, and Tampa Bay&apos;s position as the economic hub of Florida&apos;s I-4 corridor gives it durable strategic value in the distributed compute network that AI applications are requiring.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For commercial real estate investors and property owners in Hillsborough, Pinellas, and Pasco Counties, the actionable step is awareness. Know what you own and whether it has characteristics — power access, site size, location relative to fiber and substations — that data center developers or operators are seeking. Understand that the market values those characteristics at premiums that standard industrial analysis does not fully capture. And make sure the professionals advising you on industrial transactions are current on the data center demand layer that is reshaping how these assets are priced.
+          For commercial real estate investors and property owners in <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, and <a href="/markets/pasco" className="text-accent underline">Pasco</a> Counties, the actionable step is awareness. Know what you own and whether it has characteristics — power access, site size, location relative to fiber and substations — that data center developers or operators are seeking. Understand that the market values those characteristics at premiums that standard industrial analysis does not fully capture. And make sure the professionals advising you on industrial transactions are current on the data center demand layer that is reshaping how these assets are priced.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay, I work with industrial investors and landowners who need current, local intelligence on how macro trends are translating into real transaction activity in Hillsborough, Pinellas, and Pasco Counties. If you own industrial land or buildings and want to understand whether data center demand is relevant to what you hold, let&apos;s have that conversation.
+          With 23+ years of commercial real estate experience across Tampa Bay, I work with industrial investors and landowners who need current, local intelligence on how macro trends are translating into real transaction activity in <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, and <a href="/markets/pasco" className="text-accent underline">Pasco</a> Counties. If you own industrial land or buildings and want to understand whether data center demand is relevant to what you hold, let&apos;s have that conversation.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>

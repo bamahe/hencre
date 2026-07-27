@@ -71,16 +71,24 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Commercial Earnest Money Deposits", item: "https://hencre.com/blog/commercial-earnest-money-deposits-florida-investors" },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "Commercial Earnest Money Deposits in Florida: What Investors Need to Know",
       description:
         "Commercial earnest money deposits are larger, harder to recover, and go non-refundable faster than residential deposits. Essential reading for Florida CRE investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-07-20",
+      dateModified: "2026-07-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Commercial Real Estate Advisor",
+        jobTitle: "Broker Associate",
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -127,6 +135,7 @@ export default function CommercialEarnestMoneyPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Commercial Earnest Money Deposits", href: "/blog/commercial-earnest-money-deposits-florida-investors" },
         ]}

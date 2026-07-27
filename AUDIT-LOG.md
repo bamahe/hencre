@@ -519,3 +519,87 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Fixed email from barrett@nowtb.com to /contact link in body; barrett@hencre.com in schema
 - Replaced em dashes throughout content; added id="lead-form"; added RelatedLinks; added CTASection
 - Added "Last updated: July 2026" footer
+
+---
+
+## 2026-07-27 — Batch 7 (10 pages)
+
+### 1. `/blog/clearwater-office-space-professional-services-firms`
+- Added inline image (Unsplash photo-1497366754035-f200968a6e72 -- professional office interior)
+- Added "Last updated: July 2026" footer below disclaimer
+- Fixed faqItems declaration order (moved before schema const to resolve TDZ TypeScript error)
+
+### 2. `/blog/florida-insurance-crisis-investment-properties`
+- Full rewrite: merged 3-schema setup into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"; dateModified "2026-07-27"
+- Fixed phone number: (813) 761-0133 corrected to (813) 733-7907
+- Added Home to breadcrumbs; fixed publisher to "HenCRE"
+- Added 5 faqItems with FAQAccordion section; added Image import
+- Added inline image (photo-1560518883-ce09059eeffa -- investment property exterior)
+- Expanded relatedLinks from 4 to 8; added author bio section
+- Added "Last updated: July 2026" footer
+
+### 3. `/blog/tampa-bay-residential-slowdown-cre-opportunity-2026`
+- Full rewrite: merged separate schemas into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"; dateModified "2026-07-27"
+- Added Home to breadcrumbs; fixed publisher to "HenCRE"
+- Added FAQAccordion import; Image import; inline image (photo-1560185007-5f0bb1866cab)
+- Added mid-article CTA block; added author bio section
+- Expanded relatedLinks from 4 to 8; added links to markets/hillsborough, markets/pasco in body
+- Added "Last updated: July 2026" footer
+
+### 4. `/blog/tampa-bay-senior-housing-cre-investment-2026`
+- Merged 3 separate schemas (articleSchema + faqSchema + breadcrumbSchema) into single @graph
+- Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"; dateModified "2026-07-27"
+- Added FAQAccordion import; Image import; created 5 faqItems array from existing FAQ data
+- Removed raw h3/p FAQ section inside article; replaced with FAQAccordion section after article
+- Added inline image (photo-1559599189-fe84dea4eb79 -- senior housing/assisted living exterior)
+- Expanded relatedLinks to 8; added links to markets/hillsborough, markets/pinellas, markets/pasco in body
+- Added author bio section; added "Last updated: July 2026" footer
+
+### 5. `/markets/calhoun`
+- Full rewrite to match market page pattern (Charlotte/Hernando template)
+- Added Link, Image, LeadForm, FAQAccordion, RelatedLinks, Hero, CTASection, Breadcrumbs, SchemaOrg imports
+- Added canonical URL; OG images (Unsplash photo-1500937386664-56d1dfef3854); Twitter card to metadata
+- Added @graph schema (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems from existing FAQ content; added Image grid in Market Overview section
+- Added 6 relatedLinks; removed wrong email (barrett@nowtb.com); uses /contact + (813) 733-7907 only
+- Added id="lead-form" LeadForm; added RelatedLinks; added CTASection; added "Last updated: July 2026" footer
+
+### 6. `/blog/sarasota-warehouse-distribution-space-guide`
+- Fixed broken OG image: /images/blog/... local path replaced with Unsplash URL (photo-1553413077-190dd305871c)
+- Fixed broken Hero backgroundImage: same local path replaced with same Unsplash URL
+- Merged articleSchema + faqSchema into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"; dateModified "2026-07-27"
+- Fixed publisher from "REMAX Commercial Real Estate" to "HenCRE"
+- Added Image import; added inline image in article body
+- Added Home to breadcrumbs; reordered faqItems before schema const
+- Fixed author bio jobTitle text; added "Last updated: July 2026" footer
+
+### 7. `/blog/new-port-richey-commercial-real-estate-investors`
+- Fixed OG image: hencre.com/og-image.png placeholder replaced with Unsplash URL (photo-1486406146926-c627a92ad1ab)
+- Merged articleSchema + faqSchema into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"; dateModified "2026-07-27"
+- Added Image import; added inline image in article body
+- Added Home to breadcrumbs; reordered faqItems before schema const
+- Fixed author bio jobTitle text; added "Last updated: July 2026" footer
+
+### 8. `/blog/parrish-fl-commercial-real-estate-2026`
+- Fixed OG image: hencre.com/og-image.png placeholder replaced with Unsplash URL (photo-1448630360428-65456885c650)
+- Merged articleSchema + faqSchema into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"; dateModified "2026-07-27"
+- Added Image import; added inline image in article body (aerial suburban development)
+- Added Home to breadcrumbs; reordered faqItems before schema const
+- Fixed author bio jobTitle text; added "Last updated: July 2026" footer
+
+### 9. `/blog/tampa-bay-data-center-cre-2026`
+- Added Image import; added inline image in article body (photo-1558494949-ef010cbdcc31 -- server racks)
+- Updated dateModified from "2026-07-25" to "2026-07-27"
+- Added anchor links to /markets/hillsborough, /markets/pinellas, /markets/pasco in final paragraphs
+- Page already had correct @graph schema, "Broker Associate" jobTitle, and "Last updated: July 2026" footer
+
+### 10. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Added BreadcrumbList to @graph schema (was missing)
+- Added Home to breadcrumbs
+- Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"
+- Updated dateModified to "2026-07-27"
