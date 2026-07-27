@@ -492,5 +492,21 @@
     "county": null,
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "sarasota-fitness-gym-wellness-commercial-space",
+    "title": "Sarasota Fitness & Gym Space: Find the Right Location",
+    "excerpt": "Sarasota's health-conscious population and growing residential base make it one of Florida's strongest markets for fitness centers and wellness studios. Here's what to know before you sign a lease.",
+    "date": "2026-07-27",
+    "category": "business-guide",
+    "city": "Sarasota",
+    "county": "Sarasota",
+    "businessType": "fitness center, gym, or wellness studio",
+    "image": {
+      "url": "/images/blog/sarasota-fitness-gym-wellness-commercial-space.jpg",
+      "alt": "Modern gym with treadmills and exercise equipment",
+      "photographer": "eran design",
+      "link": "https://unsplash.com/@erandesign"
+    }
   }
 ]
