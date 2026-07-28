@@ -12,12 +12,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Water Street Tampa's New 33-Story Tower: What It Means for Downtown CRE Investors | HenCRE",
+  title: "Water Street Tampa 33-Story Tower: CRE Investor Guide 2026 | HenCRE",
   description:
     "Strategic Property Partners filed plans for a 400-foot, 33-story luxury residential tower at Water Street and Cumberland Avenue — 452 apartments above 37,000 sq ft of retail. Here is what the second phase of Water Street Tampa means for CRE investors and downtown tenants.",
   alternates: { canonical: "https://hencre.com/blog/water-street-tampa-33-story-tower-downtown-cre-2026" },
   openGraph: {
-    title: "Water Street Tampa's New 33-Story Tower: What It Means for Downtown CRE Investors",
+    title: "Water Street Tampa 33-Story Tower: CRE Investor Guide 2026",
     description:
       "A 400-foot luxury tower with 452 residences and 37,000 sq ft of retail is the next chapter at Water Street Tampa. Here is what this second-phase announcement means for downtown Tampa commercial real estate.",
     url: "https://hencre.com/blog/water-street-tampa-33-story-tower-downtown-cre-2026",
@@ -83,11 +83,13 @@ const schema = {
       description:
         "Strategic Property Partners filed plans for a 400-foot, 33-story luxury residential tower at Water Street and Cumberland Avenue — 452 apartments above 37,000 sq ft of retail. What the second phase of Water Street Tampa means for CRE investors.",
       datePublished: "2026-07-25",
-      dateModified: "2026-07-25",
+      dateModified: "2026-07-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -251,6 +253,36 @@ export default function WaterStreetTampa33StoryTowerPage() {
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
+              operating under the REMAX Commercial division. He specializes in downtown Tampa commercial
+              real estate and serves buyers, sellers, and tenants across all 67 Florida counties from
+              offices in Tampa, Largo, and Brandon.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Legal Disclaimer ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
 
       <CTASection
         heading="Exploring CRE Opportunities Near Water Street Tampa?"

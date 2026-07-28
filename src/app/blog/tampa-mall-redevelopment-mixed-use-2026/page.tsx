@@ -1,22 +1,18 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
 import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
-/* -------------------------------------------------------------------
- * Blog: Tampa Mall Redevelopment & Mixed-Use Conversions 2026
- * CRE investor's guide to Tampa's retail-to-mixed-use wave.
- * ----------------------------------------------------------------- */
-
 export const metadata: Metadata = {
-  title: "Tampa Mall Redevelopment & Mixed-Use Conversions: CRE Investor's Guide 2026 | HenCRE",
+  title: "Tampa Mall Redevelopment: Mixed-Use CRE Guide 2026 | HenCRE",
   description:
     "WestShore Plaza sold for $135M. Britton Plaza is clearing out. Tampa's mall redevelopment wave is reshaping commercial real estate. Here's what investors and tenants need to know in 2026.",
   alternates: { canonical: "https://hencre.com/blog/tampa-mall-redevelopment-mixed-use-2026" },
   openGraph: {
-    title: "Tampa Mall Redevelopment & Mixed-Use Conversions: CRE Investor's Guide 2026",
+    title: "Tampa Mall Redevelopment: Mixed-Use CRE Guide 2026",
     description:
       "Three major Tampa properties are converting to mixed-use in 2026. Learn what WestShore Plaza's $135M sale, Britton Plaza's redevelopment, and the broader conversion wave mean for commercial real estate investors.",
     url: "https://hencre.com/blog/tampa-mall-redevelopment-mixed-use-2026",
@@ -32,82 +28,70 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Tampa Mall Redevelopment & Mixed-Use Conversions: CRE Investor's Guide 2026",
-  description:
-    "A commercial real estate investor's guide to Tampa's mall-to-mixed-use conversion wave — WestShore Plaza, Britton Plaza, and what the redevelopment trend means for tenants and investors.",
-  datePublished: "2026-07-21",
-  dateModified: "2026-07-21",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
+const faqItems = [
+  {
+    question: "Why is WestShore Plaza being redeveloped?",
+    answer: "WestShore Plaza, a 57-year-old regional mall in Tampa, was acquired in July 2026 by Third Lake Partners for approximately $135 million. Tampa City Council had previously approved a mixed-use redevelopment plan for the 1.1 million-square-foot site. The redevelopment reflects a nationwide trend of underperforming enclosed malls being repositioned as mixed-use districts with residential, office, retail, and restaurant components — uses that generate stronger returns than legacy retail anchors.",
   },
-  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/tampa-mall-redevelopment-mixed-use-2026",
-};
+  {
+    question: "What other Tampa properties are undergoing mixed-use redevelopment?",
+    answer: "As of mid-2026, at least three major Tampa properties are in various stages of mixed-use conversion: WestShore Plaza (acquired July 2026 by Third Lake Partners), Britton Plaza on Dale Mabry Highway (tenants vacating in preparation for redevelopment), and Stetson University's Tampa Heights campus (partnering with Bromley Companies on a mixed-use development including a new law center, hotel, office, and residential). These projects collectively represent significant acreage and will reshape their surrounding commercial corridors.",
+  },
+  {
+    question: "Is mixed-use redevelopment a good commercial real estate investment?",
+    answer: "Mixed-use redevelopment can deliver strong long-term returns but carries significant execution risk. Investors benefit from diversified income streams — residential, office, retail, and hospitality revenue on a single property — and the potential for land value appreciation as a corridor is upgraded. However, entitlement risk, construction costs, financing complexity, and long holding periods make mixed-use projects more demanding than stabilized income properties. Most individual investors gain exposure indirectly — through adjacent commercial properties that benefit from proximity to the redevelopment — rather than through direct development.",
+  },
+  {
+    question: "What happens to existing tenants when a mall is redeveloped?",
+    answer: "Existing tenants in a mall slated for redevelopment typically receive lease termination notices when their leases expire or, in some cases, buyouts to vacate early. At WestShore Plaza, stores were closing at a ratio of about five closures for every one new opening as of mid-2026. Tenants in a redevelopment path need to plan relocation well in advance — ideally 12 to 18 months before any forced move — since demand for quality alternative space rises as displaced tenants enter the market simultaneously.",
+  },
+  {
+    question: "How does mall redevelopment affect nearby commercial property values?",
+    answer: "Mixed-use redevelopment projects typically increase property values in the surrounding area over a 3 to 7 year horizon, once construction is underway and the new uses begin attracting residents, workers, and visitors. In the short term, during the demolition and construction phase, nearby properties may experience some disruption — traffic changes, reduced foot traffic, visual impact. Investors who acquire adjacent commercial properties during the uncertainty phase and hold through the transition often capture significant appreciation once the redevelopment delivers.",
+  },
+];
 
-const faqSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "Why is WestShore Plaza being redeveloped?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "WestShore Plaza, a 57-year-old regional mall in Tampa, was acquired in July 2026 by Third Lake Partners for approximately $135 million. Tampa City Council had previously approved a mixed-use redevelopment plan for the 1.1 million-square-foot site. The redevelopment reflects a nationwide trend of underperforming enclosed malls being repositioned as mixed-use districts with residential, office, retail, and restaurant components — uses that generate stronger returns than legacy retail anchors.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Tampa Mall Redevelopment: Mixed-Use CRE Guide 2026",
+          item: "https://hencre.com/blog/tampa-mall-redevelopment-mixed-use-2026",
+        },
+      ],
     },
     {
-      "@type": "Question",
-      name: "What other Tampa properties are undergoing mixed-use redevelopment?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "As of mid-2026, at least three major Tampa properties are in various stages of mixed-use conversion: WestShore Plaza (acquired July 2026 by Third Lake Partners), Britton Plaza on Dale Mabry Highway (tenants vacating in preparation for redevelopment), and Stetson University's Tampa Heights campus (partnering with Bromley Companies on a mixed-use development including a new law center, hotel, office, and residential). These projects collectively represent significant acreage and will reshape their surrounding commercial corridors.",
+      "@type": "BlogPosting",
+      headline: "Tampa Mall Redevelopment: Mixed-Use CRE Guide 2026",
+      description:
+        "A commercial real estate investor's guide to Tampa's mall-to-mixed-use conversion wave — WestShore Plaza, Britton Plaza, and what the redevelopment trend means for tenants and investors.",
+      datePublished: "2026-07-21",
+      dateModified: "2026-07-28",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/tampa-mall-redevelopment-mixed-use-2026",
     },
     {
-      "@type": "Question",
-      name: "Is mixed-use redevelopment a good commercial real estate investment?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Mixed-use redevelopment can deliver strong long-term returns but carries significant execution risk. Investors benefit from diversified income streams — residential, office, retail, and hospitality revenue on a single property — and the potential for land value appreciation as a corridor is upgraded. However, entitlement risk, construction costs, financing complexity, and long holding periods make mixed-use projects more demanding than stabilized income properties. Most individual investors gain exposure indirectly — through adjacent commercial properties that benefit from proximity to the redevelopment — rather than through direct development.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What happens to existing tenants when a mall is redeveloped?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Existing tenants in a mall slated for redevelopment typically receive lease termination notices when their leases expire or, in some cases, buyouts to vacate early. At WestShore Plaza, stores were closing at a ratio of about five closures for every one new opening as of mid-2026. Tenants in a redevelopment path need to plan relocation well in advance — ideally 12 to 18 months before any forced move — since demand for quality alternative space rises as displaced tenants enter the market simultaneously.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How does mall redevelopment affect nearby commercial property values?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Mixed-use redevelopment projects typically increase property values in the surrounding area over a 3 to 7 year horizon, once construction is underway and the new uses begin attracting residents, workers, and visitors. In the short term, during the demolition and construction phase, nearby properties may experience some disruption — traffic changes, reduced foot traffic, visual impact. Investors who acquire adjacent commercial properties during the uncertainty phase and hold through the transition often capture significant appreciation once the redevelopment delivers.",
-      },
-    },
-  ],
-};
-
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
-    {
-      "@type": "ListItem",
-      position: 3,
-      name: "Tampa Mall Redevelopment & Mixed-Use Conversions 2026",
-      item: "https://hencre.com/blog/tampa-mall-redevelopment-mixed-use-2026",
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
   ],
 };
@@ -148,9 +132,7 @@ const relatedLinks = [
 export default function TampaMallRedevelopmentPage() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
-      <SchemaOrg schema={breadcrumbSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
@@ -264,39 +246,49 @@ export default function TampaMallRedevelopmentPage() {
           The simultaneous redevelopment of WestShore Plaza, Britton Plaza, and the Stetson University Tampa Heights campus signals something real: Tampa&apos;s commercial real estate market is undergoing a structural shift away from legacy enclosed retail toward denser, mixed-use development patterns that reflect how people actually live, work, and shop today. For investors and tenants, the opportunity is not in the projects themselves — it is in the ripple effects they create across the surrounding commercial landscape. With 23+ years in Tampa Bay commercial real estate, I have watched major redevelopment cycles reshape submarkets from the inside. The investors who position themselves thoughtfully — before the market fully prices in the change — consistently outperform those who wait for certainty. If you are considering a commercial acquisition, lease, or exit in or around any of these corridors, let&apos;s talk through the timing and strategy before the window narrows.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">Why is WestShore Plaza being redeveloped?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          WestShore Plaza, a 57-year-old regional mall in Tampa, was acquired in July 2026 by Third Lake Partners for approximately $135 million. Tampa City Council had previously approved a mixed-use redevelopment plan for the 1.1 million-square-foot site. The redevelopment reflects a nationwide trend of underperforming enclosed malls being repositioned as mixed-use districts with residential, office, retail, and restaurant components — uses that generate stronger long-term returns than legacy retail anchors.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">What other Tampa properties are undergoing mixed-use redevelopment?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          As of mid-2026, at least three major Tampa properties are in various stages of mixed-use conversion: WestShore Plaza (acquired July 2026), Britton Plaza on Dale Mabry Highway (tenants vacating), and Stetson University&apos;s Tampa Heights campus (partnering with Bromley Companies on a mixed-use development). These projects collectively represent significant acreage and will reshape their surrounding commercial corridors over the next several years.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">Is mixed-use redevelopment a good commercial real estate investment?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Mixed-use redevelopment can deliver strong long-term returns but carries significant execution risk. Most individual investors gain exposure indirectly — through adjacent commercial properties that benefit from proximity to the redevelopment — rather than through direct development. Entitlement risk, construction costs, and long holding periods make development-stage mixed-use projects more demanding than stabilized income properties.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">What happens to existing tenants when a mall is redeveloped?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Existing tenants in a mall slated for redevelopment typically receive lease termination notices when their leases expire or, in some cases, buyouts to vacate early. At WestShore Plaza, stores were closing at a ratio of about five closures for every new opening as of mid-2026. Tenants in a redevelopment path should plan relocation 12 to 18 months in advance — since displaced tenants compete for the same alternative spaces simultaneously, acting early is a real competitive advantage.
-        </p>
-
-        <h3 className="mt-6 text-xl font-semibold text-black">How does mall redevelopment affect nearby commercial property values?</h3>
-        <p className="mt-2 text-[#666666] leading-relaxed">
-          Mixed-use redevelopment projects typically increase property values in the surrounding area over a 3 to 7 year horizon, once construction is underway and new residents, workers, and visitors begin arriving. In the short term, during the transition and construction phase, nearby properties may experience some disruption. Investors who acquire adjacent commercial properties during the uncertainty phase and hold through the transition often capture significant appreciation once the redevelopment delivers.
-        </p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: July 2026</p>
       </article>
+
+      {/* ---- FAQ Section ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+        <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
+        <FAQAccordion items={faqItems} />
+      </section>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
+              operating under the REMAX Commercial division. He works with investors and tenants
+              across Tampa Bay&apos;s evolving commercial corridors from offices in Tampa, Largo, and Brandon.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Legal Disclaimer ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
+
       <CTASection
         heading="Positioned Near a Tampa Redevelopment Corridor?"
-        body="Whether you&apos;re evaluating an acquisition near WestShore, Dale Mabry, or Tampa Heights, or you&apos;re a tenant planning ahead of a forced relocation, I can help you make a well-timed, well-informed decision. Let&apos;s talk."
+        body="Whether you're evaluating an acquisition near WestShore, Dale Mabry, or Tampa Heights, or you're a tenant planning ahead of a forced relocation, I can help you make a well-timed, well-informed decision. Let's talk."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />
