@@ -603,3 +603,74 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added Home to breadcrumbs
 - Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"
 - Updated dateModified to "2026-07-27"
+
+---
+
+## 2026-07-28 — Batch 8 (10 pages)
+
+### 1. `/blog/investment-property-divorce-liquidation-florida`
+- Added @graph schema (BreadcrumbList + BlogPosting + FAQPage) with full Barrett Henry Person details
+- Created 6 faqItems with FAQAccordion section
+- Added author bio section; added "Last updated: July 2026" footer
+- Added 10+ internal Links in body text
+- Fixed broken relatedLinks (missing /blog/ prefix on multiple hrefs)
+
+### 2. `/blog/tampa-bay-rental-property-exit-strategy-2026`
+- Added @graph schema (BreadcrumbList + BlogPosting + FAQPage)
+- Created 6 faqItems with FAQAccordion section
+- Fixed 3 non-existent relatedLink URLs
+- Added author bio section; added internal Links in body
+- Added "Last updated: July 2026" footer; dateModified "2026-07-28"
+
+### 3. `/blog/termite-damage-investment-property-florida`
+- Added @graph schema (BreadcrumbList + BlogPosting + FAQPage)
+- Created 6 faqItems with FAQAccordion section
+- Fixed 2 non-existent relatedLink URLs
+- Added author bio section; added internal Links in body
+- Added "Last updated: July 2026" footer; dateModified "2026-07-28"
+
+### 4. `/blog/selling-tenant-occupied-investment-property-florida`
+- Added @graph schema (BreadcrumbList + BlogPosting + FAQPage)
+- Created 6 faqItems with FAQAccordion section
+- Added author bio section; added internal Links in body
+- Added "Last updated: July 2026" footer; dateModified "2026-07-28"
+
+### 5. `/blog/crystal-river-citrus-county-commercial-real-estate`
+- Shortened title from 82 chars to 66 chars
+- Merged dual schemas into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Moved faqItems before schema; added dateModified "2026-07-28"
+- Fixed all 5 relatedLinks (missing /blog/ prefix)
+- Fixed author: removed nowtb.com sameAs, jobTitle set to "Broker Associate", publisher set to "HenCRE"
+- Escaped all apostrophes in article body as &apos;
+- Added "Last updated: July 2026" footer
+
+### 6. `/blog/tampa-mall-redevelopment-mixed-use-2026`
+- Shortened title from 85 chars to 59 chars
+- Merged 3 separate schemas into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Added FAQAccordion import; created 5 faqItems from original inline FAQ h3 content
+- Removed inline FAQ h3 section from article; added FAQAccordion section after article
+- Added author bio section; added legal disclaimer section
+- Added dateModified "2026-07-28"; added "Last updated: July 2026" footer
+
+### 7. `/blog/water-street-tampa-33-story-tower-downtown-cre-2026`
+- Shortened title from 91 chars to 68 chars
+- Updated dateModified from "2026-07-25" to "2026-07-28"
+- Added image and sameAs fields to schema author
+- Added author bio section and legal disclaimer between RelatedLinks and CTASection
+
+### 8. `/blog/tampa-retail-storefront-space-guide`
+- Merged dual schemas (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Moved faqItems before schema (was declared after); added dateModified "2026-07-28"
+- Fixed jobTitle to "Broker Associate"; removed nowtb.com sameAs; publisher set to "HenCRE"
+- Replaced dual SchemaOrg calls with single SchemaOrg
+- Added "Last updated: July 2026" footer
+
+### 9. `/blog/land-o-lakes-fitness-gym-wellness-commercial-space`
+- Merged dual schemas (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Moved faqItems before schema; added dateModified "2026-07-28"
+- Fixed jobTitle to "Broker Associate"; removed nowtb.com sameAs; publisher set to "HenCRE"
+- Replaced dual SchemaOrg calls with single SchemaOrg
+- Added "Last updated: July 2026" footer
+
+### 10. `/services/commercial-property-management`
+- Updated "Last updated: June 2026" to "Last updated: July 2026"
