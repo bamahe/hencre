@@ -1,177 +1,325 @@
+import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import LeadForm from "@/components/LeadForm";
+import FAQAccordion from "@/components/FAQAccordion";
+import CTASection from "@/components/CTASection";
+import RelatedLinks from "@/components/RelatedLinks";
+import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Commercial Real Estate in DeSoto County, Florida | HenCRE",
-  description: "Expert guide to commercial real estate in DeSoto County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+  title: "DeSoto County Commercial Real Estate | HenCRE",
+  description:
+    "Commercial real estate in DeSoto County, FL: Arcadia downtown, agricultural land, solar transition, and rural tourism growth. Barrett Henry, Broker Associate at REMAX Collective.",
+  alternates: { canonical: "https://hencre.com/markets/desoto" },
   openGraph: {
-    title: "Commercial Real Estate in DeSoto County, Florida | HenCRE",
-    description: "Expert guide to commercial real estate in DeSoto County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+    title: "DeSoto County Commercial Real Estate | HenCRE",
+    description:
+      "DeSoto County is an emerging Southwest Florida market with agricultural land, Arcadia&apos;s historic antique district, and solar energy transition creating new commercial opportunity.",
     url: "https://hencre.com/markets/desoto",
-    siteName: "HenCRE",
-    type: "article",
   },
 };
 
-export default function Page() {
+const faqs = [
+  {
+    question: "What commercial property types are most active in DeSoto County?",
+    answer:
+      "Agricultural and land is the primary market. Improved pasture, crop land, cattle ranches, and raw acreage with infrastructure or development positioning see regular transaction activity. Downtown Arcadia retail, highway-oriented commercial along US-17 and SR-70, medical offices, and light industrial serving the farming economy round out the active asset classes.",
+  },
+  {
+    question: "How is the solar energy transition affecting commercial land in DeSoto County?",
+    answer:
+      "Agricultural land is increasingly being evaluated for utility-scale and distributed solar development. Solar leases are providing an income stream alternative to traditional agricultural uses, and some landowners are positioning acreage for sale to solar developers as a long-term exit strategy. This creates both opportunity and uncertainty for land planning -- a qualified CRE advisor can help you evaluate the trade-offs.",
+  },
+  {
+    question: "Is Arcadia&apos;s downtown a good investment for retail or office?",
+    answer:
+      "Arcadia&apos;s historic antique district has seen improved foot traffic and lease demand as rural tourism interest grows. Commercial inventory is tight -- older brick buildings with limited availability create pricing power for owners but challenges for tenants. Repositioning older buildings for mixed retail and office use is the primary play. This is not a high-velocity market, but stable demand exists for the right concept.",
+  },
+  {
+    question: "What is the investment case for DeSoto County land?",
+    answer:
+      "Land investment in DeSoto County appeals to three buyer types: agricultural operators seeking acreage at cost-effective rates, solar developers leasing land for utility-scale projects, and patient investors betting on long-term regional growth as Southwest Florida continues expanding inland. DeSoto land prices remain well below coastal Southwest Florida markets, creating a significant entry-price advantage.",
+  },
+  {
+    question: "How does Barrett Henry serve the DeSoto County market?",
+    answer:
+      "Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience. While his primary market is Tampa Bay, DeSoto County is an active referral territory where he handles deals directly -- land sales, commercial leasing, investor advisory, and market analysis. He also connects clients with specialists when dedicated local presence is needed.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Markets", item: "https://hencre.com/markets" },
+        { "@type": "ListItem", position: 3, name: "DeSoto County", item: "https://hencre.com/markets/desoto" },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "DeSoto County Commercial Real Estate",
+      provider: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        email: "barrett@hencre.com",
+        telephone: "+18137337907",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+        url: "https://hencre.com/about",
+      },
+      areaServed: { "@type": "County", name: "DeSoto County", containedIn: { "@type": "State", name: "Florida" } },
+      description:
+        "Commercial real estate advisory for DeSoto County, Florida -- serving agricultural land transactions, Arcadia commercial leasing, solar development positioning, and rural tourism-driven commercial opportunity.",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
+
+const relatedLinks = [
+  {
+    title: "Charlotte County Commercial Real Estate",
+    href: "/markets/charlotte",
+    description: "Adjacent Southwest Florida market with active retail and medical commercial development.",
+  },
+  {
+    title: "Sarasota Commercial Real Estate",
+    href: "/markets/sarasota",
+    description: "Southwest Florida growth market directly north of DeSoto with strong investor activity.",
+  },
+  {
+    title: "Land Development Advisory",
+    href: "/commercial/land-development",
+    description: "Commercial land acquisition, entitlement, and development strategy across Florida.",
+  },
+  {
+    title: "Investment Sales",
+    href: "/services/investment-sales",
+    description: "Agricultural and commercial land investment advisory across Florida markets.",
+  },
+  {
+    title: "Florida 1031 Exchange Guide",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "How 1031 exchanges work for agricultural and commercial land investors in Florida.",
+  },
+  {
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "ROI calculation framework for land and commercial acquisitions in emerging Florida markets.",
+  },
+];
+
+export default function DeSotoMarketPage() {
   return (
     <>
-      <SchemaOrg schema={{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Commercial Real Estate in DeSoto County, Florida",
-        "description": "Expert guide to commercial real estate in DeSoto County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
-        "author": {
-          "@type": "Person",
-          "name": "Barrett Henry",
-          "jobTitle": "Broker Associate",
-          "worksFor": { "@type": "Organization", "name": "REMAX Collective" }
-        }
-      }} />
-      <Breadcrumbs items={[
-        { label: "Home", href: "/" },
-        { label: "Markets", href: "/markets" },
-        { label: "Commercial Real Estate in DeSoto County, Florida", href: "/markets/desoto" },
-      ]} />
-      <Hero title="Commercial Real Estate in DeSoto County, Florida" subtitle="Expert guide to commercial real estate in DeSoto County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
-      <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section class="desoto-market-overview">
-  <h1>DeSoto County Commercial Real Estate Market Overview</h1>
-  
-  <section class="intro">
-    <p>
-      DeSoto County sits in Southwest Florida as one of the state's most underrated emerging markets. While it's rural in character and agricultural in heritage, what's happening here right now deserves your attention—especially if you're looking at land, agricultural transition plays, or early-stage commercial development in a growth corridor that hasn't yet hit peak competition.
-    </p>
-    <p>
-      I work DeSoto regularly as a referral market from my base in Tampa Bay. The fundamentals are shifting, and smart money is noticing.
-    </p>
-  </section>
+      <SchemaOrg schema={schema} />
 
-  <section class="market-character">
-    <h2>Market Character & Economy</h2>
-    <p>
-      DeSoto County's economy has long been anchored by agriculture—cattle ranching, citrus, and row crops define the landscape. That's not changing overnight, but it's evolving.
-    </p>
-    <p>
-      Two macro trends are reshaping the market:
-    </p>
-    <ul>
-      <li><strong>Solar Energy Transition:</strong> Agricultural land is increasingly being evaluated for utility-scale and distributed solar development. This creates both opportunity and uncertainty for long-term land planning.</li>
-      <li><strong>Rural Tourism Growth:</strong> Arcadia's historic downtown and antique district are becoming destination draws. This is still nascent, but it's creating demand for hospitality, retail, and experiential commercial space that didn't exist five years ago.</li>
-    </ul>
-    <p>
-      The county grows steadily but deliberately. Population pressure isn't the driver here—demographic sustainability and smart land investment are.
-    </p>
-  </section>
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Markets", href: "/markets" },
+          { label: "DeSoto County", href: "/markets/desoto" },
+        ]}
+      />
 
-  <section class="primary-corridors">
-    <h2>Primary Commercial Corridors & Activity Centers</h2>
-    
-    <h3>Downtown Arcadia – Historic Core & Antique District</h3>
-    <p>
-      Arcadia is the county seat and commercial epicenter. Its downtown antique and heritage retail district is the market's most visible asset. Older brick buildings line Main Street, and tourism interest has improved foot traffic and lease demand for both ground-floor retail and upper-floor office/mixed-use.
-    </p>
-    <p>
-      Commercial inventory here is tight. Building availability is limited, and what exists often requires repositioning. This creates pricing power for owners and landlords, but challenge for tenants seeking space.
-    </p>
+      <Hero
+        title="DeSoto County Commercial Real Estate"
+        subtitle="Agricultural land, Arcadia&apos;s historic antique district, solar energy transition, and rural tourism growth -- an emerging Southwest Florida market for patient investors and agricultural operators."
+        ctaText="Talk to Barrett Henry"
+        ctaHref="/contact"
+      />
 
-    <h3>Highway Corridors & Agricultural Support</h3>
-    <p>
-      US 17 and State Road 70 move commercial traffic through the county. These corridors host feed suppliers, equipment dealers, agricultural service providers, and light industrial uses tied to the farming economy. This is where you'll find the highest tenant density and most straightforward lease activity.
-    </p>
-    <p>
-      These aren't glamorous corridors, but they're functional, occupied, and stable—the backbone of commercial activity in the county.
-    </p>
+      {/* Quick Answer */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
+          <p className="text-lg font-semibold text-black">Quick Answer</p>
+          <p className="mt-2 text-[#666666]">
+            DeSoto County is Southwest Florida&apos;s most underrated emerging market. Agricultural land, solar development, and Arcadia&apos;s
+            rural tourism draw define the opportunity set. Commercial inventory is tight in the downtown antique district, creating
+            pricing power for existing owners. Land values remain well below coastal Southwest Florida markets. Barrett Henry,
+            Broker Associate at REMAX Collective with 23+ years of real estate experience, serves DeSoto County through direct
+            transactions and referral partnerships.
+          </p>
+        </div>
+      </section>
 
-    <h3>Land & Rural Frontage</h3>
-    <p>
-      The real opportunity set in DeSoto is land. Multi-acre parcels with highway frontage, agricultural land with development potential, and acreage positioned for solar or other alternative use represent the active deal flow. This is where I spend most of my DeSoto focus.
-    </p>
-  </section>
+      {/* Market overview */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">DeSoto County Commercial Real Estate Market Overview</h2>
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
+          <p>
+            DeSoto County sits in Southwest Florida as one of the state&apos;s most underrated emerging markets. While it is rural in
+            character and agricultural in heritage, what is happening here deserves attention -- especially if you are looking at
+            land, agricultural transition plays, or early-stage commercial development in a growth corridor that has not yet hit
+            peak competition.
+          </p>
+          <p>
+            Two macro trends are reshaping the market. First, agricultural land is increasingly being evaluated for utility-scale
+            and distributed{" "}
+            <Link href="/commercial/land-development" className="font-semibold text-black underline">solar development</Link>.
+            Second, Arcadia&apos;s historic downtown and antique district are becoming destination draws -- creating demand for hospitality,
+            retail, and experiential commercial space that did not exist five years ago.
+          </p>
+          <p>
+            For investors comparing DeSoto to adjacent coastal markets, see{" "}
+            <Link href="/markets/sarasota" className="font-semibold text-black underline">Sarasota commercial real estate</Link>{" "}
+            and{" "}
+            <Link href="/markets/charlotte" className="font-semibold text-black underline">Charlotte County CRE</Link> --
+            both offer more developed commercial infrastructure with corresponding higher entry prices.
+          </p>
+        </div>
 
-  <section class="asset-types">
-    <h2>Active Property Types</h2>
-    
-    <p><strong>Agricultural & Land:</strong> The primary market. Improved pasture, crop land, cattle ranches, and raw acreage with infrastructure or development positioning see regular transaction activity.</p>
-    
-    <p><strong>Retail:</strong> Limited modern retail footprint. Downtown Arcadia antique and specialty retail are active; highway-oriented retail is minimal but growing with tourist interest.</p>
-    
-    <p><strong>Office:</strong> Professional and medical offices cluster downtown and along commercial corridors. Demand is steady but modest. Buildings are older, often with dated finishes—repositioning opportunities exist.</p>
-    
-    <p><strong>Light Industrial & Service:</strong> Agricultural equipment storage, feed mills, equipment repair, and farm service facilities represent solid tenant base. These properties are functional, not fancy.</p>
-    
-    <p><strong>Hospitality & Tourism-Related:</strong> Emerging. Limited existing inventory, but growing interest in small lodging, farm-stay models, and dining/experience venues tied to Arcadia's antique district and rural character.</p>
-  </section>
+        <div className="mt-10 overflow-hidden rounded-lg">
+          <Image
+            src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=900&q=80"
+            alt="Rural Florida commercial corridor and agricultural land in DeSoto County"
+            width={900}
+            height={500}
+            className="w-full object-cover"
+          />
+          <p className="mt-2 text-xs text-[#999999] text-center">
+            DeSoto County&apos;s agricultural landscape is transitioning toward solar development and rural tourism, creating new commercial demand in Arcadia and surrounding corridors.
+          </p>
+        </div>
+      </section>
 
-  <section class="demand-drivers">
-    <h2>What Drives Demand in DeSoto County</h2>
-    
-    <ul>
-      <li><strong>Agricultural Sustainability:</strong> Farmers and ranchers seeking to diversify income through solar leases or operational transitions. Equipment and input suppliers supporting these shifts.</li>
-      <li><strong>Rural Tourism:</strong> Arcadia's antique district and small-town authenticity attract weekend visitors and new retailers. Hospitality and experiential retail see growing interest.</li>
-      <li><strong>Land Investment:</strong> Out-of-state and regional investors viewing DeSoto land as affordable, tillable, and positioned for long-term alternative use.</li>
-      <li><strong>Agricultural Consolidation:</strong> Larger operations acquiring or leasing acreage, driving commercial demand for equipment storage, processing, and logistics.</li>
-      <li><strong>Cost Advantage:</strong> Significantly lower commercial lease rates and land costs compared to coastal Southwest Florida markets create competitive advantage for service providers and processors.</li>
-    </ul>
-  </section>
+      {/* Primary corridors */}
+      <section className="bg-white px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">Primary Commercial Corridors</h2>
+          <div className="mt-6 space-y-8 text-lg leading-relaxed text-[#666666]">
+            <div>
+              <h3 className="text-xl font-bold text-black">Downtown Arcadia -- Historic Core and Antique District</h3>
+              <p className="mt-2">
+                Arcadia is the county seat and commercial epicenter. Its downtown antique and heritage retail district is the market&apos;s
+                most visible asset. Tourism interest has improved foot traffic and lease demand for ground-floor retail and upper-floor
+                office and mixed-use space. Commercial inventory here is tight -- building availability is limited, and what exists often
+                requires repositioning. This creates pricing power for owners and landlords.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-black">Highway Corridors and Agricultural Support</h3>
+              <p className="mt-2">
+                US 17 and State Road 70 move commercial traffic through the county. These corridors host feed suppliers, equipment dealers,
+                agricultural service providers, and light industrial uses tied to the farming economy. These are functional, occupied, and
+                stable -- the backbone of commercial activity in the county outside the downtown antique district.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-black">Land and Rural Frontage</h3>
+              <p className="mt-2">
+                The real opportunity set in DeSoto is land. Multi-acre parcels with highway frontage, agricultural land with development
+                potential, and acreage positioned for solar or alternative use represent the active deal flow. Prices remain significantly
+                below coastal Southwest Florida, which creates a meaningful entry-price advantage for investors willing to hold.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <section class="why-it-matters">
-    <h2>Why DeSoto County Matters</h2>
-    
-    <p>
-      DeSoto isn't a high-velocity market. Deal velocity is slower, and the buyer pool is more focused than in Tampa Bay or Sarasota markets. That's exactly why it matters.
-    </p>
-    <p>
-      This is a market where relationships, patience, and specialized agricultural and land knowledge pay dividends. It's not crowded with competition. Inventory constraints mean owners and operators with usable space have negotiating leverage. The transition toward solar and tourism is still in early innings—that creates asymmetric opportunity for investors and operators who move early.
-    </p>
-    <p>
-      If you're looking at Southeast Florida growth, Tampa commercial intensity, or coastal pricing, DeSoto offers an alternative: operational space at cost-effective rates, land investment positioned for long-term appreciation, and access to an economy in sustainable transition.
-    </p>
-  </section>
+      {/* Property types */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">Active Property Types</h2>
+        <div className="mt-6 grid gap-6 sm:grid-cols-2">
+          {[
+            {
+              title: "Agricultural and Land",
+              body: "The primary market. Improved pasture, crop land, cattle ranches, and raw acreage with infrastructure or development positioning see regular transaction activity. Solar lease positioning is an increasingly important consideration.",
+            },
+            {
+              title: "Retail and Antique District",
+              body: "Limited modern retail footprint. Downtown Arcadia antique and specialty retail are active. Highway-oriented retail is minimal but growing with tourist interest. Repositioning older brick buildings for mixed use is the primary play.",
+            },
+            {
+              title: "Office and Medical",
+              body: "Professional and medical offices cluster downtown and along commercial corridors. Demand is steady but modest. Buildings are older, often with dated finishes -- repositioning opportunities exist for value-add buyers.",
+            },
+            {
+              title: "Light Industrial and Service",
+              body: "Agricultural equipment storage, feed mills, equipment repair, and farm service facilities represent a solid tenant base. These properties are functional and serve essential industries underpinning DeSoto&apos;s agricultural economy.",
+            },
+          ].map((item) => (
+            <div key={item.title} className="rounded-lg border border-[#E5E5E5] p-6">
+              <p className="font-bold text-black">{item.title}</p>
+              <p className="mt-2 text-[#666666]">{item.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-  <section class="barrett-services">
-    <h2>How I Serve the DeSoto Market</h2>
-    
-    <p>
-      As a REALTOR® and Broker Associate at REMAX Collective, I bring 23+ years of commercial real estate experience to DeSoto transactions. While my primary market is Tampa Bay, DeSoto is an active referral territory where I handle deals directly.
-    </p>
-    
-    <h3>Services I provide in DeSoto County:</h3>
-    <ul>
-      <li><strong>Land Sales & Leasing:</strong> Agricultural acreage, development land, and alternative-use positioning.</li>
-      <li><strong>Commercial Leasing:</strong> Retail, office, and light industrial space in Arcadia and highway corridors.</li>
-      <li><strong>Investor Advisory:</strong> Land investment analysis, agricultural transition strategies, and long-term positioning.</li>
-      <li><strong>Property Management Consultation:</strong> Market analysis and operational guidance for existing commercial holdings.</li>
-      <li><strong>Market Intelligence:</strong> Direct insight into DeSoto trends, supply constraints, and emerging opportunity areas.</li>
-    </ul>
-    
-    <p>
-      If you're a buyer, seller, landlord, tenant, or investor evaluating DeSoto County commercial real estate, I'm here to move the deal forward with clarity and execution.
-    </p>
-  </section>
+      {/* Barrett services */}
+      <section className="bg-white px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Serves the DeSoto Market</h2>
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
+            <p>
+              As a Broker Associate at REMAX Collective with 23+ years of commercial real estate experience, Barrett brings the same
+              rigorous approach he uses in Tampa Bay markets to DeSoto transactions: no hype, grounded analysis, and a focus on what
+              actually works for your investment or operational goals.
+            </p>
+            <p>
+              Services in DeSoto County include land sales and leasing for agricultural acreage and development land, commercial leasing
+              for retail, office, and light industrial space in Arcadia and highway corridors,{" "}
+              <Link href="/services/investment-sales" className="font-semibold text-black underline">investor advisory</Link>{" "}
+              for land investment analysis and agricultural transition strategies, and{" "}
+              <Link href="/services/cre-valuation" className="font-semibold text-black underline">property valuation</Link>{" "}
+              for owners considering a disposition.
+            </p>
+            <p>
+              For investors evaluating DeSoto as part of a Florida portfolio or{" "}
+              <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="font-semibold text-black underline">1031 exchange strategy</Link>,
+              Barrett provides regional market context to help you compare DeSoto land and commercial values against alternatives
+              in{" "}
+              <Link href="/markets/polk" className="font-semibold text-black underline">Polk County</Link>{" "}
+              and neighboring Southwest Florida markets.
+            </p>
+            <p>
+              <Link href="/contact" className="font-semibold text-black underline">Contact Barrett</Link> at (813) 733-7907 to discuss
+              your DeSoto County commercial real estate needs.
+            </p>
+          </div>
+        </div>
+      </section>
 
-  <section class="contact-cta">
-    <h2>Let's Talk DeSoto</h2>
-    <p>
-      Have a DeSoto County commercial real estate question? Looking to list, lease, or invest? Reach out directly.
-    </p>
-    <p>
-      <strong>Phone:</strong> (813) 733-7907<br>
-      <strong>Email:</strong> barrett@nowtb.com
-    </p>
-  </section>
-</section>
-      </main>
+      {/* FAQ */}
+      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">Frequently Asked Questions About DeSoto County CRE</h2>
+        <div className="mt-8">
+          <FAQAccordion items={faqs} />
+        </div>
+      </section>
+
+      {/* Lead form */}
+      <section id="lead-form" className="bg-gray-50 px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-xl">
+          <LeadForm />
+        </div>
+      </section>
+
+      <RelatedLinks heading="Explore Related Markets and Services" links={relatedLinks} />
+
       <CTASection
-        heading="Ready to Talk Commercial Real Estate?"
-        body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
+        heading="Ready to Talk DeSoto County Commercial Real Estate?"
+        body="Whether you are a buyer, seller, investor, or tenant evaluating DeSoto County land, retail, or commercial property -- Barrett Henry brings 23+ years of Florida CRE experience and the REMAX Collective network to move your deal forward."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
+
+      <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
     </>
   );
 }

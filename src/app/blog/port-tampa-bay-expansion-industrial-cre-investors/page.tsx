@@ -85,7 +85,7 @@ const schema = {
       description:
         "Port Tampa Bay is adding cranes, dredging its channel, and expanding container terminals under Vision 2030. Here is what commercial real estate investors need to know about the industrial demand surge it is creating.",
       datePublished: "2026-07-26",
-      dateModified: "2026-07-26",
+      dateModified: "2026-07-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -252,6 +252,27 @@ export default function PortTampaBayExpansionCREPage() {
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of real estate experience across Tampa Bay commercial markets. He specializes in industrial investment,
+              tenant representation, and investor advisory across Hillsborough, Pinellas, and Pasco Counties.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <CTASection
         heading="Investing in Tampa Bay Industrial Real Estate?"

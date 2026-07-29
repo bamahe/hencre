@@ -1,157 +1,319 @@
+import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import LeadForm from "@/components/LeadForm";
+import FAQAccordion from "@/components/FAQAccordion";
+import CTASection from "@/components/CTASection";
+import RelatedLinks from "@/components/RelatedLinks";
+import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Commercial Real Estate in Columbia County, Florida | HenCRE",
-  description: "Expert guide to commercial real estate in Columbia County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+  title: "Columbia County Commercial Real Estate | HenCRE",
+  description:
+    "Commercial real estate in Columbia County, FL: I-75 and I-10 logistics hub, Lake City retail, VA Medical Center anchor, and distribution industrial. Barrett Henry, REMAX Collective.",
+  alternates: { canonical: "https://hencre.com/markets/columbia" },
   openGraph: {
-    title: "Commercial Real Estate in Columbia County, Florida | HenCRE",
-    description: "Expert guide to commercial real estate in Columbia County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+    title: "Columbia County Commercial Real Estate | HenCRE",
+    description:
+      "Lake City and Columbia County sit at the I-75/I-10 convergence -- a North Florida logistics hub with strong highway retail, industrial, and VA-anchored medical demand.",
     url: "https://hencre.com/markets/columbia",
-    siteName: "HenCRE",
-    type: "article",
   },
 };
 
-export default function Page() {
+const faqs = [
+  {
+    question: "What makes Columbia County a logistics node in North Florida?",
+    answer:
+      "The intersection of I-75 (north-south) and I-10 (east-west) creates a geographic advantage for distribution and cross-dock operations. Companies moving goods through the Southeast need staging points; Lake City provides efficient access to regional and through traffic. It is not about local population -- it is about interstate commerce flow.",
+  },
+  {
+    question: "How stable is medical office demand in Lake City?",
+    answer:
+      "The VA Medical Center anchors medical office demand and provides non-cyclical revenue stability. Medical practitioners, outpatient services, and ancillary healthcare businesses depend on that institutional customer base. This demand driver is not subject to retail cycles or economic volatility the way general retail is.",
+  },
+  {
+    question: "What is the difference between highway retail and downtown retail in Columbia County?",
+    answer:
+      "Highway retail along I-75 and I-10 captures through traffic and regional demand based on visibility and access. Downtown Lake City retail serves the local population and traditional main street uses. Highway retail has higher throughput but depends on traffic volume; downtown retail depends on local residential and office worker spending.",
+  },
+  {
+    question: "What industrial property types perform best in Columbia County?",
+    answer:
+      "Distribution-oriented industrial performs well due to the I-75/I-10 convergence. Warehousing, cross-dock facilities, and light industrial spaces designed for fast product movement attract tenant interest. This is not heavy manufacturing -- it is logistics infrastructure serving Southeast commerce corridors.",
+  },
+  {
+    question: "Does Barrett Henry directly broker deals in Columbia County?",
+    answer:
+      "Barrett works Columbia County through referrals and client-driven opportunities. It is not his primary market focus, but he has the relationships and market knowledge to handle transactions effectively. He also connects clients with trusted North Florida specialists when dedicated local presence is needed.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Markets", item: "https://hencre.com/markets" },
+        { "@type": "ListItem", position: 3, name: "Columbia County", item: "https://hencre.com/markets/columbia" },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "Columbia County Commercial Real Estate",
+      provider: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        email: "barrett@hencre.com",
+        telephone: "+18137337907",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+        url: "https://hencre.com/about",
+      },
+      areaServed: { "@type": "County", name: "Columbia County", containedIn: { "@type": "State", name: "Florida" } },
+      description:
+        "Commercial real estate advisory, tenant representation, and investment analysis for Columbia County, Florida -- serving Lake City, the I-75/I-10 logistics corridor, and VA Medical Center-anchored commercial demand.",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
+
+const relatedLinks = [
+  {
+    title: "Alachua County Commercial Real Estate",
+    href: "/markets/alachua",
+    description: "Gainesville market -- university-anchored commercial demand north of I-75 in North Florida.",
+  },
+  {
+    title: "Bradford County Commercial Real Estate",
+    href: "/markets/bradford",
+    description: "Adjacent rural market connecting Columbia County to Northeast Florida corridors.",
+  },
+  {
+    title: "Industrial and Warehouse Space",
+    href: "/commercial/industrial-warehouse",
+    description: "Industrial investment and leasing strategy for Florida logistics and distribution.",
+  },
+  {
+    title: "Lakeland Warehouse and Industrial Growth",
+    href: "/blog/lakeland-warehouse-industrial-growth",
+    description: "How the I-4 corridor industrial market compares to North Florida logistics hubs like Lake City.",
+  },
+  {
+    title: "Investment Sales",
+    href: "/services/investment-sales",
+    description: "Commercial investment acquisition and disposition advisory across Florida.",
+  },
+  {
+    title: "Tenant Representation",
+    href: "/services/tenant-representation",
+    description: "Lease negotiation and site selection for commercial tenants across Florida markets.",
+  },
+];
+
+export default function ColumbiaMarketPage() {
   return (
     <>
-      <SchemaOrg schema={{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Commercial Real Estate in Columbia County, Florida",
-        "description": "Expert guide to commercial real estate in Columbia County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
-        "author": {
-          "@type": "Person",
-          "name": "Barrett Henry",
-          "jobTitle": "Broker Associate",
-          "worksFor": { "@type": "Organization", "name": "REMAX Collective" }
-        }
-      }} />
-      <Breadcrumbs items={[
-        { label: "Home", href: "/" },
-        { label: "Markets", href: "/markets" },
-        { label: "Commercial Real Estate in Columbia County, Florida", href: "/markets/columbia" },
-      ]} />
-      <Hero title="Commercial Real Estate in Columbia County, Florida" subtitle="Expert guide to commercial real estate in Columbia County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
-      <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section class="market-overview">
-  <h1>Columbia County Commercial Real Estate Market Overview</h1>
-  
-  <p>Lake City and Columbia County sit at one of North Florida's most strategically valuable intersections—where I-75 and I-10 converge. That positioning isn't accidental; it's why this market has quietly become a logistics and distribution hub, and it's why I keep a close eye on opportunities here.</p>
+      <SchemaOrg schema={schema} />
 
-  <p>I work Columbia County as a REALTOR® through referral relationships and direct client requests. While it's not my primary focus area, the fundamentals here are solid—and for the right buyer or tenant, the value proposition is compelling. Let me walk you through what's actually happening in this market.</p>
-</section>
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Markets", href: "/markets" },
+          { label: "Columbia County", href: "/markets/columbia" },
+        ]}
+      />
 
-<section class="key-corridors">
-  <h2>The Corridors That Matter</h2>
-  
-  <p><strong>I-75 Corridor (North-South Trade)</strong></p>
-  <p>This is the spine of Columbia County commercial activity. Highway-oriented retail, quick-service restaurants, and gas convenience clusters follow the interstate. What drives it: traffic volume from regional and through traffic, not just local capture. You'll see established chains and regional operators competing for visibility and accessibility.</p>
+      <Hero
+        title="Columbia County Commercial Real Estate"
+        subtitle="Lake City sits at the I-75 and I-10 convergence -- North Florida&apos;s logistics crossroads, with VA-anchored medical demand and highway retail driving steady commercial activity."
+        ctaText="Talk to Barrett Henry"
+        ctaHref="/contact"
+      />
 
-  <p><strong>I-10 Corridor (East-West Distribution)</strong></p>
-  <p>Where I-10 intersects with I-75, you've got a natural point for industrial and logistics activity. The convergence creates a logistics node—companies need last-mile distribution, warehousing, and cross-dock operations in this area to serve the broader Southeast efficiently. This corridor is where real estate fundamentals show up in rental rates and occupancy.</p>
+      {/* Quick Answer */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
+          <p className="text-lg font-semibold text-black">Quick Answer</p>
+          <p className="mt-2 text-[#666666]">
+            Columbia County&apos;s commercial market is anchored by the I-75/I-10 intersection -- creating a natural logistics and
+            distribution hub -- plus the VA Medical Center, which drives stable medical office demand. Highway retail, distribution
+            industrial, and medical properties are the primary active asset classes. Barrett Henry, Broker Associate at REMAX Collective
+            with 23+ years of real estate experience, works this market through referral relationships and direct client engagements.
+          </p>
+        </div>
+      </section>
 
-  <p><strong>Downtown Lake City and Medical District</strong></p>
-  <p>Lake City's downtown has traditional main street retail and service uses. The medical office demand in the area stems from the VA Medical Center—that's a reliable, non-cyclical demand driver. Medical practitioners, outpatient services, and healthcare-adjacent businesses cluster around healthcare anchors. It's a smaller footprint than major metros, but it's stable.</p>
-</section>
+      {/* Market overview */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">Columbia County Market Overview</h2>
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
+          <p>
+            Lake City and Columbia County sit at one of North Florida&apos;s most strategically valuable intersections -- where I-75 and
+            I-10 converge. That positioning is why this market has quietly become a logistics and distribution hub, and why it warrants
+            serious attention from investors and operators looking beyond the Tampa Bay and Jacksonville cores.
+          </p>
+          <p>
+            The fundamentals here are solid. The I-75/I-10 convergence creates a genuine logistics advantage for distribution operators.
+            The VA Medical Center anchors medical office demand with non-cyclical institutional strength. Highway-oriented retail captures
+            significant through traffic volume from regional and interstate travelers. And labor costs remain reasonable compared to
+            coastal Florida markets, which matters to operators managing thin margins.
+          </p>
+          <p>
+            For investors exploring North Florida corridors, Columbia County offers a meaningful contrast to the headline growth of
+            {" "}<Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough County</Link>{" "}
+            or the resort dynamics of coastal markets -- value exists for the right buyer in the right asset type.
+          </p>
+        </div>
 
-<section class="property-types">
-  <h2>Active Property Types</h2>
-  
-  <p><strong>Highway Retail</strong></p>
-  <p>This is the dominant commercial asset class in Columbia County. Pad sites, small retail centers, and drive-through compatible spaces command consistent interest. The traffic counts and throughput justify retail investment here in ways they might not in slower secondary markets.</p>
+        <div className="mt-10 overflow-hidden rounded-lg">
+          <Image
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&q=80"
+            alt="Interstate highway logistics corridor in North Florida near Lake City"
+            width={900}
+            height={500}
+            className="w-full object-cover"
+          />
+          <p className="mt-2 text-xs text-[#999999] text-center">
+            The I-75 and I-10 convergence at Lake City creates a natural logistics node for distribution operators serving the Southeast.
+          </p>
+        </div>
+      </section>
 
-  <p><strong>Industrial and Distribution</strong></p>
-  <p>Light industrial, warehousing, and distribution facilities represent a growing segment. The I-75/I-10 intersection creates competitive advantages for logistics operators. Tenants are looking for space that's easy to access, move through quickly, and get back on the interstate. This isn't heavy manufacturing; it's efficient, fast-moving goods.</p>
+      {/* Key corridors */}
+      <section className="bg-white px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">The Corridors That Matter</h2>
+          <div className="mt-6 space-y-8 text-lg leading-relaxed text-[#666666]">
+            <div>
+              <h3 className="text-xl font-bold text-black">I-75 Corridor (North-South Trade)</h3>
+              <p className="mt-2">
+                This is the spine of Columbia County commercial activity. Highway-oriented retail, quick-service restaurants, and gas
+                convenience clusters follow the interstate. What drives it is traffic volume from regional and through traffic, not just
+                local capture. Established chains and regional operators compete for visibility and accessibility along this spine.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-black">I-10 Corridor (East-West Distribution)</h3>
+              <p className="mt-2">
+                Where I-10 intersects with I-75, you have a natural point for{" "}
+                <Link href="/commercial/industrial-warehouse" className="font-semibold text-black underline">industrial and logistics activity</Link>.
+                The convergence creates a logistics node where companies need last-mile distribution, warehousing, and cross-dock
+                operations to serve the broader Southeast efficiently. This corridor is where real estate fundamentals show up in
+                rental rates and occupancy.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-black">Downtown Lake City and Medical District</h3>
+              <p className="mt-2">
+                Lake City&apos;s downtown has traditional main street retail and service uses. The medical office demand in the area
+                stems from the VA Medical Center -- a reliable, non-cyclical demand driver. Medical practitioners, outpatient services,
+                and healthcare-adjacent businesses cluster around this anchor. It is a smaller footprint than major metros, but stable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <p><strong>Medical Office</strong></p>
-  <p>The VA Medical Center anchors medical office demand in the area. You'll see smaller medical plazas, dental offices, and outpatient facilities clustered in accessible locations. This property type has secular tailwinds—aging demographics and stable institutional demand from the VA system keep utilization steady.</p>
+      {/* Property types */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">Active Property Types</h2>
+        <div className="mt-6 grid gap-6 sm:grid-cols-2">
+          {[
+            {
+              title: "Highway Retail",
+              body: "The dominant commercial asset class in Columbia County. Pad sites, small retail centers, and drive-through compatible spaces command consistent interest. Traffic counts and throughput justify retail investment here in ways they might not in slower secondary markets.",
+            },
+            {
+              title: "Industrial and Distribution",
+              body: "Light industrial, warehousing, and distribution facilities represent a growing segment. The I-75/I-10 intersection creates competitive advantages for logistics operators. Tenants need space with direct interstate access for efficient product movement.",
+            },
+            {
+              title: "Medical Office",
+              body: "The VA Medical Center anchors medical office demand. Smaller medical plazas, dental offices, and outpatient facilities cluster in accessible locations. Secular tailwinds -- aging demographics and stable institutional demand -- keep utilization steady.",
+            },
+            {
+              title: "Multi-Tenant Retail Centers",
+              body: "Community-oriented retail centers serve the local population. These are working assets with tenant diversity that perform well when anchored by grocery, pharmacy, or healthcare uses.",
+            },
+          ].map((item) => (
+            <div key={item.title} className="rounded-lg border border-[#E5E5E5] p-6">
+              <p className="font-bold text-black">{item.title}</p>
+              <p className="mt-2 text-[#666666]">{item.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-  <p><strong>Multi-Tenant Retail Centers</strong></p>
-  <p>Community-oriented retail centers serve the local population. These are working assets with tenant diversity, and they perform well when anchored by grocery, pharmacy, or healthcare uses.</p>
-</section>
+      {/* Barrett services */}
+      <section className="bg-white px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Works Columbia County</h2>
+          <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
+            <p>
+              Columbia County is a referral territory for Barrett -- he takes on opportunities when clients ask or when deals align
+              with his portfolio approach. He does not maintain a dedicated presence the way he does in{" "}
+              <Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough</Link>{" "}
+              or the Tampa Bay area, but he has market knowledge and broker relationships to execute effectively.
+            </p>
+            <p>
+              Services Barrett provides in Columbia County include market analysis and positioning, buyer advisory for investors and
+              owner-operators, <Link href="/services/tenant-representation" className="font-semibold text-black underline">tenant representation</Link>{" "}
+              for businesses needing space, seller advisory for property owners considering disposition, and referrals to local operators
+              and service providers through REMAX Collective and regional relationships.
+            </p>
+            <p>
+              For investors considering a 1031 exchange into a North Florida distribution asset or retail property, Barrett advises on
+              {" "}<Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="font-semibold text-black underline">Florida 1031 exchange strategy</Link>{" "}
+              and{" "}
+              <Link href="/insights/what-is-a-cap-rate" className="font-semibold text-black underline">cap rate analysis</Link>{" "}
+              to help you evaluate Columbia County acquisitions in context.
+            </p>
+            <p>
+              <Link href="/contact" className="font-semibold text-black underline">Contact Barrett</Link> at (813) 733-7907 to discuss
+              your Columbia County needs.
+            </p>
+          </div>
+        </div>
+      </section>
 
-<section class="demand-drivers">
-  <h2>What's Actually Driving Demand</h2>
-  
-  <p><strong>Interstate Logistics and Distribution</strong></p>
-  <p>Companies moving goods through the Southeast need staging points. I-75/I-10 convergence gives Columbia County a legitimate logistics advantage. This isn't speculation; it's geography and infrastructure working in the market's favor.</p>
+      {/* FAQ */}
+      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">Frequently Asked Questions About Columbia County CRE</h2>
+        <div className="mt-8">
+          <FAQAccordion items={faqs} />
+        </div>
+      </section>
 
-  <p><strong>VA Medical Center</strong></p>
-  <p>Institutional anchors matter. The VA Medical Center is a stable, non-cyclical demand driver. It supports medical office, professional services, and complementary retail. As long as the facility operates, medical real estate in the area has a built-in customer base.</p>
+      {/* Lead form */}
+      <section id="lead-form" className="bg-gray-50 px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-xl">
+          <LeadForm />
+        </div>
+      </section>
 
-  <p><strong>Regional Population and Through-Traffic</strong></p>
-  <p>Lake City serves a regional population and captures through traffic on major interstates. That dual demand supports hospitality, quick-service restaurants, gas and convenience retail, and service-oriented commercial uses.</p>
+      <RelatedLinks heading="Explore Related Markets and Services" links={relatedLinks} />
 
-  <p><strong>Workforce and Labor Availability</strong></p>
-  <p>Columbia County has workforce availability for logistics, distribution, hospitality, and healthcare operations. Labor costs remain reasonable compared to coastal Florida markets, which matters to operators managing margins.</p>
-</section>
-
-<section class="my-services">
-  <h2>How I Work Columbia County</h2>
-  
-  <p>Columbia County is a referral territory for me—I take on opportunities when clients ask or when deals align with my portfolio. I don't maintain a dedicated presence the way I do in Hillsborough or the Tampa Bay area, but I have the market knowledge and the broker relationships to execute effectively.</p>
-
-  <p>If you're looking at commercial real estate in Lake City or Columbia County, here's what I can do:</p>
-
-  <ul>
-    <li><strong>Market Analysis and Positioning:</strong> I'll help you understand where value actually sits—highway visibility vs. accessibility, tenant demand by property type, and competitive positioning.</li>
-    <li><strong>Buyer Advisory:</strong> Whether you're an investor, user, or operator, I can guide you through acquisition strategy, site selection, and deal structure.</li>
-    <li><strong>Tenant Representation:</strong> If you need space in Columbia County, I'll find options that fit your operational requirements and your budget.</li>
-    <li><strong>Seller Advisory:</strong> I can help you position your property for sale, identify the right buyer pool, and structure the transaction efficiently.</li>
-    <li><strong>Broker Network:</strong> Through REMAX Collective and my regional relationships, I can connect you with local operators and service providers who know this market.</li>
-  </ul>
-
-  <p>I bring the same rigorous approach I use in Tampa Bay markets: no hype, grounded analysis, and a focus on what actually works for your investment or operational goals.</p>
-</section>
-
-<section class="market-position">
-  <h2>Why This Market Matters</h2>
-  
-  <p>Columbia County isn't a glamour market—it doesn't have the headline growth of Hillsborough County or the resort dynamics of tourism-driven areas. What it has is structural logic. I-75 and I-10 are primary commerce corridors. The convergence creates a logistics advantage. The VA Medical Center provides institutional anchor demand. The labor market supports operations.</p>
-
-  <p>That means value exists for the right buyer in the right asset type. Highway retail performs because traffic counts justify investment. Industrial performs because the location works for distribution. Medical office performs because institutional demand is stable.</p>
-
-  <p>For investors looking to build a diversified portfolio beyond coastal markets, or for operators needing distribution space or medical facilities in North Florida, Columbia County deserves serious consideration.</p>
-</section>
-
-<section class="contact">
-  <h2>Work With Me in Columbia County</h2>
-  <p>I'm Barrett Henry with REMAX Collective. I've been a commercial real estate broker for 23+ years, holding designations including e-PRO, MRP, SRS, and REMAX Hall of Fame. If you're exploring opportunities in Columbia County or need guidance on commercial real estate in North Florida, let's talk.</p>
-  <p><strong>Phone:</strong> <a href="tel:8137337907">(813) 733-7907</a><br>
-  <strong>Email:</strong> <a href="mailto:barrett@nowtb.com">barrett@nowtb.com</a></p>
-</section>
-
-<section class="faq">
-  <h2>Frequently Asked Questions</h2>
-
-  <h3>What makes Columbia County a logistics node?</h3>
-  <p>The intersection of I-75 (north-south corridor) and I-10 (east-west corridor) creates a geographic advantage for distribution and cross-dock operations. Companies moving goods through the Southeast need staging points; this location provides efficient access to regional and through traffic. It's not about local population—it's about interstate commerce flow.</p>
-
-  <h3>How stable is medical office demand in Lake City?</h3>
-  <p>The VA Medical Center anchors medical office demand and provides non-cyclical revenue stability. Medical practitioners, outpatient services, and ancillary healthcare businesses depend on that institutional customer base. This demand driver isn't subject to retail cycles or economic volatility the way general retail is.</p>
-
-  <h3>What's the difference between highway retail and downtown retail in Columbia County?</h3>
-  <p>Highway retail (along I-75 and I-10) captures through traffic and regional demand based on visibility and access. Downtown Lake City retail serves the local population and traditional main street uses. Highway retail has higher throughput but depends on traffic volume; downtown retail depends on local residential and office worker spending. They serve different customer bases.</p>
-
-  <h3>Do you actively list properties in Columbia County?</h3>
-  <p>I work Columbia County through referrals and client-driven opportunities. It's not my primary market focus, but I have the relationships and market knowledge to handle transactions effectively. If you need representation in Lake City or Columbia County, I can help—call me at (813) 733-7907.</p>
-
-  <h3>What industrial property types perform best in this market?</h3>
-  <p>Distribution-oriented industrial performs well due to the I-75/I-10 convergence. Warehousing, cross-dock facilities, and light industrial spaces designed for fast product movement attract tenant interest. This isn't heavy manufacturing—it's logistics infrastructure serving Southeast commerce corridors.</p>
-</section>
-      </main>
       <CTASection
-        heading="Ready to Talk Commercial Real Estate?"
-        body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
+        heading="Ready to Talk Columbia County Commercial Real Estate?"
+        body="Whether you are a logistics operator, investor, or retail tenant evaluating Lake City and the I-75/I-10 corridor -- Barrett Henry brings 23+ years of Florida CRE experience and the REMAX Collective network to move your deal forward."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
+
+      <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
     </>
   );
 }

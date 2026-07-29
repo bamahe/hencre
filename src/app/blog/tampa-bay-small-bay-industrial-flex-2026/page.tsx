@@ -84,7 +84,7 @@ const schema = {
       description:
         "A joint venture paid $23.15M for a 169,055-sq-ft small bay industrial portfolio in Tampa. Here is what small bay industrial is, why investors love it, and what the deal means for the market in 2026.",
       datePublished: "2026-07-27",
-      dateModified: "2026-07-27",
+      dateModified: "2026-07-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -249,6 +249,27 @@ export default function TampaBaySmallBayIndustrialFlex2026Page() {
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of commercial real estate experience across Tampa Bay. He helps tenants find industrial and flex space,
+              investors identify acquisition targets, and business owners evaluate the lease-versus-buy decision with real market data.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <CTASection
         heading="Looking for Small Bay Industrial or Flex Space in Tampa Bay?"
