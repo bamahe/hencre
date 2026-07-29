@@ -508,5 +508,21 @@
       "photographer": "eran design",
       "link": "https://unsplash.com/@erandesign"
     }
+  },
+  {
+    "slug": "tampa-hillsborough-commercial-real-estate-guide-2026",
+    "title": "Tampa Commercial Real Estate Market Guide 2026",
+    "excerpt": "Tampa's commercial real estate market is one of Florida's most active, with demand across office, industrial, retail, and multifamily sectors. Here's what businesses and investors need to know before making a move in Hillsborough County.",
+    "date": "2026-07-29",
+    "category": "city-market",
+    "city": "Tampa",
+    "county": "Hillsborough",
+    "businessType": null,
+    "image": {
+      "url": "/images/blog/tampa-hillsborough-commercial-real-estate-guide-2026.jpg",
+      "alt": "buildings near body of water",
+      "photographer": "Kody Cheyne",
+      "link": "https://unsplash.com/@kodycheyne"
+    }
   }
 ]
