@@ -674,3 +674,77 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ### 10. `/services/commercial-property-management`
 - Updated "Last updated: June 2026" to "Last updated: July 2026"
+
+---
+
+## 2026-07-29 — Batch 9 (10 pages)
+
+### 1. `/markets/collier`
+- Full rewrite to match market page pattern (Hernando/Charlotte template)
+- Fixed named imports to default imports; fixed all `class=` to `className=`; removed `variant="primary"` from CTASection
+- Added Link, Image, LeadForm, FAQAccordion, RelatedLinks, SchemaOrg imports; canonical URL to metadata
+- Upgraded schema from Article to @graph (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems from existing FAQ content; added FAQAccordion section
+- Added body image (Unsplash photo-1558618666-fcd25c85cd64 -- commercial aerial)
+- Added 12+ internal links (markets, commercial types, services, blog posts)
+- Fixed email from barrett@nowtb.com to /contact in body; barrett@hencre.com in schema
+- Added id="lead-form" section with LeadForm; added RelatedLinks; added CTASection (no variant)
+- Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Added "Last updated: July 2026" footer
+
+### 2. `/markets/columbia`
+- Full rewrite to match market page pattern
+- Fixed named imports to default imports; fixed all `class=` to `className=`; removed `variant="primary"` from CTASection
+- Added Link, Image, LeadForm, FAQAccordion, RelatedLinks, SchemaOrg imports; canonical URL to metadata
+- Upgraded schema from Article to @graph (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems from existing FAQ content; added FAQAccordion section
+- Added body image (Unsplash photo-1486406146926-c627a92ad1ab -- interstate logistics corridor)
+- Added 12+ internal links (markets, commercial types, services, blog posts, insights)
+- Fixed email from barrett@nowtb.com to /contact in body; barrett@hencre.com in schema
+- Added id="lead-form" section with LeadForm; added RelatedLinks; added CTASection
+- Updated EEAT and footer to "July 2026"
+
+### 3. `/markets/desoto`
+- Full rewrite to match market page pattern
+- Fixed named imports to default imports; fixed all `class=` to `className=`; removed `variant="primary"` from CTASection
+- Added Link, Image, LeadForm, FAQAccordion, RelatedLinks, SchemaOrg imports; canonical URL to metadata
+- Upgraded schema from Article to @graph (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems from existing FAQ content; added FAQAccordion section
+- Added body image (Unsplash photo-1500937386664-56d1dfef3854 -- rural Florida commercial corridor)
+- Added 12+ internal links (markets, commercial types, services, blog posts)
+- Fixed email from barrett@nowtb.com to /contact in body; barrett@hencre.com in schema
+- Added id="lead-form" section with LeadForm; added RelatedLinks; added CTASection
+- Updated EEAT and footer to "July 2026"
+
+### 4. `/blog/sarasota-fitness-gym-wellness-commercial-space`
+- Merged dual schemas (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed OG image from local path to Unsplash URL (photo-1534438327276-14e5300c3a48)
+- Fixed Hero backgroundImage from local path to same Unsplash URL
+- Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"
+- Fixed publisher from "REMAX Commercial Real Estate" to "HenCRE"
+- Removed nowtb.com from author sameAs
+- Added dateModified "2026-07-29"; added Home to breadcrumbs
+- Added Image import and inline image (photo-1571019614242-c5c5dee9f50b -- fitness studio)
+- Fixed en dashes to hyphens in faqItems answers
+- Added "Last updated: July 2026" footer inside article
+- Updated author bio jobTitle to "Broker Associate at REMAX Collective"
+
+### 5. `/blog/port-tampa-bay-expansion-industrial-cre-investors`
+- Updated dateModified from "2026-07-26" to "2026-07-29"
+- Added author bio section
+
+### 6. `/blog/tampa-bay-small-bay-industrial-flex-2026`
+- Updated dateModified from "2026-07-27" to "2026-07-29"
+- Added author bio section
+
+### 7. `/services/commercial-property-management/lease-administration`
+- Updated "Last updated: June 2026" to "Last updated: July 2026"
+
+### 8. `/services/commercial-property-management/maintenance-operations`
+- Updated "Last updated: June 2026" to "Last updated: July 2026"
+
+### 9. `/services/commercial-property-management/financial-reporting`
+- Updated "Last updated: June 2026" to "Last updated: July 2026"
+
+### 10. `/services/commercial-property-management/tenant-relations` and `/services/commercial-property-management/vacancy-marketing`
+- Updated "Last updated: June 2026" to "Last updated: July 2026" (both pages)
