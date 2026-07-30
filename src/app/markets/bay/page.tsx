@@ -1,168 +1,244 @@
+import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
-import CTASection from "@/components/CTASection";
-import SchemaOrg from "@/components/SchemaOrg";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import LeadForm from "@/components/LeadForm";
+import FAQAccordion from "@/components/FAQAccordion";
+import CTASection from "@/components/CTASection";
+import RelatedLinks from "@/components/RelatedLinks";
+import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Commercial Real Estate in Bay County, Florida | HenCRE",
-  description: "Expert guide to commercial real estate in Bay County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+  title: "Bay County Commercial Real Estate | HenCRE",
+  description:
+    "Panama City and Bay County CRE: Tyndall AFB expansion, beach tourism corridor, post-Hurricane Michael recovery, and Gulf Coast commercial opportunities. Call Barrett Henry (813) 733-7907.",
+  alternates: { canonical: "https://hencre.com/markets/bay" },
   openGraph: {
-    title: "Commercial Real Estate in Bay County, Florida | HenCRE",
-    description: "Expert guide to commercial real estate in Bay County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+    title: "Bay County Commercial Real Estate | HenCRE",
+    description:
+      "Northwest Florida CRE market: Tyndall Air Force Base expansion, Panama City Beach tourism, industrial and flex demand, and post-Michael reconstruction activity.",
     url: "https://hencre.com/markets/bay",
-    siteName: "HenCRE",
-    type: "article",
   },
 };
 
-export default function Page() {
+const faqItems = [
+  {
+    question: "Is Bay County a good commercial real estate investment market right now?",
+    answer:
+      "Bay County has real, measurable demand drivers that distinguish it from speculative secondary markets: the Tyndall Air Force Base expansion is actively recruiting defense contractors, tourism and hospitality on Panama City Beach remain consistent, and post-Hurricane Michael reconstruction is still generating commercial activity. Investors seeking secondary-market exposure with genuine fundamentals and pricing below Tampa or Jacksonville will find Bay County worth serious evaluation.",
+  },
+  {
+    question: "How does the Tyndall Air Force Base expansion affect Bay County CRE?",
+    answer:
+      "The Tyndall expansion is a direct commercial catalyst. Defense contractors are actively leasing industrial and flex space. Workforce housing demand is real. Commercial activity in Lynn Haven and Callaway, near the base, has accelerated. If you are evaluating industrial, flex, or workforce-housing-related retail near the base area, the expansion is the primary demand driver and it is ongoing — not theoretical.",
+  },
+  {
+    question: "What commercial property types are performing best in Bay County?",
+    answer:
+      "Industrial and flex space near the Tyndall corridor is performing well driven by defense contractor demand. Hospitality and retail near Panama City Beach benefits from consistent tourism traffic. Medical office and professional services space in Panama City proper is steady. Mixed-use and workforce housing near the base area is emerging. Traditional suburban office outside the beach and base corridors has been slower to recover.",
+  },
+  {
+    question: "Is Hurricane Michael recovery still affecting Bay County commercial real estate?",
+    answer:
+      "Yes, and it is still generating opportunity. New construction across all commercial asset classes continues. Infrastructure improvements, property repositioning, and redevelopment activity remain active. This is a multi-year rebuild cycle — not a short-term story. Investors who entered during or after Michael's aftermath have generally seen meaningful appreciation as reconstruction capital continues to flow into the market.",
+  },
+  {
+    question: "Does Barrett Henry handle commercial real estate transactions in Bay County?",
+    answer:
+      "Yes. Bay County is part of Barrett's referral territory within his statewide Florida practice. He represents buyers, sellers, investors, and occupants on Bay County CRE transactions — from industrial and flex acquisitions near Tyndall to beach-adjacent retail and hospitality properties. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, Barrett provides direct market insight and broker expertise. Call (813) 733-7907 to start a real conversation.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Markets", item: "https://hencre.com/markets" },
+        { "@type": "ListItem", position: 3, name: "Bay County", item: "https://hencre.com/markets/bay" },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "Bay County Commercial Real Estate Services",
+      description: "CRE leasing, sales, investment, and dispositions in Bay County and the Panama City market, Florida.",
+      provider: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        telephone: "(813) 733-7907",
+        email: "barrett@hencre.com",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
+      areaServed: { "@type": "AdministrativeArea", name: "Bay County, Florida" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
+
+const relatedLinks = [
+  { title: "Charlotte County CRE", href: "/markets/charlotte", description: "Punta Gorda and Port Charlotte coastal commercial market" },
+  { title: "Hernando County CRE", href: "/markets/hernando", description: "Spring Hill and Suncoast Parkway corridor" },
+  { title: "Commercial Industrial and Warehouse", href: "/commercial/industrial-warehouse", description: "Industrial and flex space investment strategy" },
+  { title: "Investment Sales Advisory", href: "/services/investment-sales", description: "Acquisition and disposition strategy for Florida CRE investors" },
+  { title: "What Makes a Good Commercial Investment", href: "/blog/what-makes-a-good-commercial-investment", description: "Framework for evaluating secondary-market CRE opportunities" },
+  { title: "Florida 1031 Exchange Guide", href: "/blog/florida-1031-exchange-what-investors-need-to-know", description: "Using 1031 exchanges to reposition Florida CRE holdings" },
+];
+
+export default function BayPage() {
   return (
     <>
-      <SchemaOrg schema={{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Commercial Real Estate in Bay County, Florida",
-        "description": "Expert guide to commercial real estate in Bay County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
-        "author": {
-          "@type": "Person",
-          "name": "Barrett Henry",
-          "jobTitle": "Broker Associate",
-          "worksFor": { "@type": "Organization", "name": "REMAX Collective" }
-        }
-      }} />
-      <Breadcrumbs items={[
-        { label: "Home", href: "/" },
-        { label: "Markets", href: "/markets" },
-        { label: "Commercial Real Estate in Bay County, Florida", href: "/markets/bay" },
-      ]} />
-      <Hero title="Commercial Real Estate in Bay County, Florida" subtitle="Expert guide to commercial real estate in Bay County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
-      <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section className="market-overview-hero">
-  <h1>Bay County Commercial Real Estate Market Overview</h1>
-  <p>Panama City, Panama City Beach, Lynn Haven, and Callaway form one of Northwest Florida's most dynamic commercial markets. I've watched this region transform significantly over the past decade, and right now presents real opportunities for investors and users alike.</p>
-</section>
+      <SchemaOrg schema={schema} />
 
-<section className="market-intro">
-  <p>Bay County isn't a minor-league market—it's a tier-2 player with genuine structural demand drivers. We're talking Tyndall Air Force Base expansion, post-Hurricane Michael reconstruction that's still generating activity, and a tourism and hospitality corridor anchored by Panama City Beach. If you're looking beyond Miami, Tampa, or Jacksonville, Bay County deserves serious attention.</p>
-</section>
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Markets", href: "/markets" },
+          { label: "Bay County", href: "/markets/bay" },
+        ]}
+      />
 
-<section className="primary-corridors">
-  <h2>Key Commercial Corridors & Locations</h2>
-  
-  <h3>Panama City Beach Tourism Corridor</h3>
-  <p>This is the market's revenue engine. The hospitality sector—hotels, resorts, vacation rental platforms—drives consistent demand for retail, restaurant space, and ancillary services. Beach-adjacent retail and dining remain resilient and competitive. Properties fronting or near the beach command premium positioning.</p>
-  
-  <h3>Panama City Central & Downtown</h3>
-  <p>The traditional downtown core has seen reinvestment tied to Hurricane Michael recovery. Office, mixed-use, and street-level retail have been repositioned. This corridor attracts professional services, medical offices, and smaller regional firms seeking alternatives to higher-cost metros.</p>
-  
-  <h3>Tyndall Air Force Base Area (Lynn Haven, Callaway)</h3>
-  <p>This is the wildcard. The base expansion has already triggered demand for defense contractor spaces, industrial properties, and workforce housing. Surrounding municipalities—Lynn Haven and Callaway—are experiencing spillover commercial activity. If you're focused on government contractors or industrial tenancy, this corridor matters.</p>
-  
-  <h3>Retail & Commercial Nodes</h3>
-  <p>Scattered retail clusters throughout Panama City and beach areas support neighborhood and community-level retail. Quick-service restaurants, health services, and convenience-oriented tenants remain active.</p>
-</section>
+      <Hero
+        title="Bay County Commercial Real Estate"
+        subtitle="Panama City, Panama City Beach, and the Tyndall AFB corridor: Northwest Florida&apos;s most dynamic commercial market, with real demand drivers and pricing below tier-1 Florida metros."
+        ctaText="Talk to Barrett"
+        ctaHref="/contact"
+      />
 
-<section className="asset-types">
-  <h2>Active Asset Classes</h2>
-  
-  <h3>Industrial & Flex Space</h3>
-  <p>Post-Michael reconstruction generated demand for industrial and flex properties. Defense contractor activity near Tyndall fuels ongoing interest in warehouse and manufacturing-adjacent space. This asset class remains solid.</p>
-  
-  <h3>Office</h3>
-  <p>Office demand is mixed. Professional services and medical offices hold steady, but traditional corporate office saw pressure post-pandemic. Secondary and tertiary markets like Bay County saw less pandemic-driven flight than major metros, so office availability exists without the crisis narratives you hear from larger cities.</p>
-  
-  <h3>Hospitality & Hotel</h3>
-  <p>The beach market never stopped moving. Hotels, motels, and resort repositioning remain active. This segment benefits directly from tourism recovery and seasonal demand patterns.</p>
-  
-  <h3>Retail</h3>
-  <p>Retail is present but selective. Experiential and restaurant-driven retail near the beach performs better than traditional strip retail. Value-oriented and service-driven tenants (hair, nails, quick service) stay busy.</p>
-  
-  <h3>Mixed-Use & Residential Investment</h3>
-  <p>Workforce housing and residential-over-retail development has emerged as a real play, especially near downtown Panama City and near the base. This trend reflects broader regional housing demand tied to Tyndall expansion.</p>
-</section>
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold text-black">Bay County CRE Market Overview</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
+          Bay County is not a minor-league market — it is a tier-2 player with genuine structural demand drivers. Panama City, Panama City Beach, Lynn Haven, and Callaway form one of Northwest Florida&apos;s most dynamic commercial markets. Tyndall Air Force Base expansion, post-Hurricane Michael reconstruction still generating activity, and a tourism and hospitality corridor anchored by Panama City Beach collectively create a market that rewards investors who understand secondary markets with real fundamentals.
+        </p>
+        <p className="mt-4 text-[#666666] leading-relaxed">
+          Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Bay County as referral territory. He understands the Tyndall dynamic, the beach tourism market, and the post-Michael reconstruction landscape — and can connect buyers, sellers, and occupants with opportunities that generic market reports miss.
+        </p>
 
-<section className="demand-drivers">
-  <h2>What's Driving Demand Right Now</h2>
-  
-  <ul>
-    <li><strong>Tyndall Air Force Base Expansion:</strong> Direct catalyst for defense contractor recruitment, industrial real estate, and workforce influx. This is not theoretical—it's happening now and creating genuine tenant and occupancy demand.</li>
-    <li><strong>Post-Hurricane Michael Reconstruction Momentum:</strong> Still ongoing. New construction across residential and commercial, infrastructure upgrades, and property repositioning continue to create activity.</li>
-    <li><strong>Tourism & Seasonality:</strong> Panama City Beach remains a consistent draw. Hospitality, retail, and restaurant sectors benefit from seasonal and year-round visitors.</li>
-    <li><strong>Regional Population Migration:</strong> Southeast Florida cost pressures drive migration, and Bay County benefits from this trend—both for residential and commercial activity.</li>
-    <li><strong>Alternative to Higher-Cost Metros:</strong> Companies and investors seeking B-market exposure without Miami or Tampa pricing find Bay County attractive.</li>
-  </ul>
-</section>
+        <h2 className="mt-10 text-2xl font-bold text-black">Key Commercial Corridors and Submarkets</h2>
 
-<section className="market-positioning">
-  <h2>Why This Market Matters for Your Portfolio</h2>
-  
-  <p>Bay County operates in the sweet spot: real, measurable demand drivers (Tyndall, tourism, reconstruction) without the supply constraints and valuation compression of tier-1 markets. You're not fighting for scraps in a saturated market. If you're an investor or user-occupant seeking secondary-market exposure with actual fundamentals, Bay County is worth the conversation.</p>
-  
-  <p>The market also offers pricing flexibility. You'll find opportunities that don't exist in Tampa or Jacksonville—both in acquisition and in operating economics. For occupants, the cost of occupancy is genuinely lower. That matters when you're scaling.</p>
-</section>
+        <div className="mt-6 space-y-6">
+          <div>
+            <h3 className="text-lg font-semibold text-black">Panama City Beach Tourism Corridor</h3>
+            <p className="mt-2 text-[#666666] leading-relaxed">
+              This is the market&apos;s revenue engine. The hospitality sector — hotels, resorts, vacation rental platforms — drives consistent demand for <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, restaurant space, and ancillary services. Beach-adjacent retail and dining remain resilient and competitive, with seasonal demand patterns that experienced landlords and investors know how to underwrite.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-black">Panama City Central and Downtown</h3>
+            <p className="mt-2 text-[#666666] leading-relaxed">
+              The traditional downtown core has seen reinvestment tied to Hurricane Michael recovery. <Link href="/commercial/office-space" className="text-accent underline">Office</Link>, mixed-use, and street-level retail have been repositioned. This corridor attracts professional services, medical offices, and smaller regional firms seeking alternatives to higher-cost markets.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-black">Tyndall Air Force Base Corridor — Lynn Haven and Callaway</h3>
+            <p className="mt-2 text-[#666666] leading-relaxed">
+              This is the Bay County wildcard. The base expansion has already triggered demand for defense contractor spaces, <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial and flex properties</Link>, and workforce housing. Surrounding municipalities — Lynn Haven and Callaway — are experiencing spillover commercial activity. For investors focused on government contractors or industrial tenancy, this corridor is one of the best emerging opportunities in Northwest Florida.
+            </p>
+          </div>
+        </div>
+      </section>
 
-<section className="my-services">
-  <h2>How I Work in Bay County</h2>
-  
-  <p>Bay County is part of my referral territory, which means I work here strategically and deliberately. I don't shotgun deal flow—I focus on meaningful transactions where my expertise and network create value.</p>
-  
-  <p>Here's what I provide:</p>
-  
-  <ul>
-    <li><strong>Off-Market & Pocket Listing Access:</strong> I have relationships with local brokers, owners, and developers. Many deals never hit the MLS. If you're serious about Bay County, I can unlock those conversations.</li>
-    <li><strong>Market-Specific Guidance:</strong> I understand the Tyndall dynamic, the beach tourism market, the post-Michael reconstruction landscape. Generic market reports don't capture nuance. I do.</li>
-    <li><strong>Investor Representation:</strong> If you're buying or selling investment property, I represent your interests—site selection, due diligence, negotiation, deal structure.</li>
-    <li><strong>Occupancy & Tenant Representation:</strong> Growing companies looking for Bay County expansion get direct, honest advice on the best neighborhoods and properties for their business.</li>
-    <li><strong>Developer & Owner Partnerships:</strong> If you're developing or repositioning property here, I can help with market strategy, leasing, and exit positioning.</li>
-    <li><strong>Network & Local Relationships:</strong> I work with local contractors, lenders, title companies, and other professionals. That network accelerates deal execution.</li>
-  </ul>
-  
-  <p>I'm not the loudest voice in every market, but I'm a serious broker in the markets where I work. Bay County is one of those.</p>
-</section>
+      {/* ---- Inline image ---- */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=75"
+          alt="Bay County Florida commercial real estate Panama City industrial and logistics corridor"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Bay County&apos;s industrial and flex market is driven by Tyndall Air Force Base expansion, defense contractor demand, and post-Hurricane Michael reconstruction activity in Lynn Haven and Callaway.</p>
+      </section>
 
-<section className="cta">
-  <h2>Let's Talk Bay County</h2>
-  
-  <p>If you're considering a Bay County transaction—whether you're investing, expanding, or repositioning—I'm ready to have a real conversation. No generic pitches, no wasted time. Just direct market insight and broker expertise.</p>
-  
-  <p><strong>Phone:</strong> (813) 733-7907<br/>
-  <strong>Email:</strong> barrett@nowtb.com</p>
-</section>
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold text-black">Active Asset Classes in Bay County</h2>
 
-<section className="faq">
-  <h2>Frequently Asked Questions</h2>
-  
-  <div className="faq-item">
-    <h3>Is Bay County a good investment market right now?</h3>
-    <p>It depends on your thesis. If you're looking for tier-1 metro pricing or cap rates, Bay County isn't it. But if you want secondary-market exposure with real demand drivers—Tyndall expansion, tourism, reconstruction—and you're comfortable with a longer hold or smaller asset size, yes. The fundamentals are there.</p>
-  </div>
-  
-  <div className="faq-item">
-    <h3>What's the Tyndall Air Force Base expansion impact?</h3>
-    <p>Direct and measurable. Defense contractors are leasing industrial and flex space. Workforce housing demand is real. If you're looking at properties near Lynn Haven or Callaway, this expansion is the primary demand driver.</p>
-  </div>
-  
-  <div className="faq-item">
-    <h3>Is Hurricane Michael recovery still affecting the market?</h3>
-    <p>Yes. New construction across all asset classes continues. Infrastructure improvements, property repositioning, and redevelopment activity remain active. This isn't a short-term story—it's a multi-year rebuild cycle.</p>
-  </div>
-  
-  <div className="faq-item">
-    <h3>How does Panama City Beach tourism affect commercial real estate?</h3>
-    <p>It's the revenue engine. Hospitality, retail, and restaurant space near the beach stays competitive. Seasonal demand patterns influence lease negotiations and tenant mix, but the underlying tourism draw is consistent.</p>
-  </div>
-  
-  <div className="faq-item">
-    <h3>Do you represent buyers and sellers in Bay County?</h3>
-    <p>Yes. Bay County is part of my referral territory, and I work with qualified buyers, sellers, investors, and occupants. If you're serious about a transaction here, call me at (813) 733-7907.</p>
-  </div>
-</section>
-      </main>
+        <div className="mt-6 space-y-5">
+          <div>
+            <h3 className="text-lg font-semibold text-black">Industrial and Flex Space</h3>
+            <p className="mt-2 text-[#666666] leading-relaxed">
+              Post-Michael reconstruction generated demand for <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial and flex properties</Link>. Defense contractor activity near Tyndall fuels ongoing interest in warehouse and manufacturing-adjacent space. Use our <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> to evaluate industrial acquisition yields before writing an offer.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-black">Hospitality and Hotel</h3>
+            <p className="mt-2 text-[#666666] leading-relaxed">
+              The beach market never stopped moving. Hotels, motels, and resort repositioning remain active. This segment benefits directly from tourism recovery and seasonal demand patterns that make Bay County one of the most consistent hospitality markets in Northwest Florida.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-black">Retail</h3>
+            <p className="mt-2 text-[#666666] leading-relaxed">
+              Experiential and restaurant-driven <Link href="/commercial/retail-space" className="text-accent underline">retail</Link> near the beach performs better than traditional strip retail. Value-oriented and service-driven tenants — hair, nails, quick service, medical — stay busy. Understanding CAM charges before leasing is essential; our <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">tenant&apos;s guide to CAM</Link> walks through what to expect.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-black">Mixed-Use and Workforce Housing</h3>
+            <p className="mt-2 text-[#666666] leading-relaxed">
+              Workforce housing and residential-over-retail development has emerged as a real opportunity, especially near downtown Panama City and near the base. This trend reflects broader regional housing demand tied to the Tyndall expansion and is attracting developer interest from outside the local market.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-black">Medical Office</h3>
+            <p className="mt-2 text-[#666666] leading-relaxed">
+              Professional services and <Link href="/commercial/office-space" className="text-accent underline">medical office</Link> hold steady in Bay County. Secondary and tertiary markets like Bay County saw less pandemic-driven office flight than major metros, so office availability exists without the crisis narratives you hear from larger cities. For the broader Florida medical office picture, see our post on <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">medical office real estate in 2026</Link>.
+            </p>
+          </div>
+        </div>
+
+        <h2 className="mt-12 text-2xl font-bold text-black">Why Bay County Matters for Your Portfolio</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
+          Bay County operates in the sweet spot: real, measurable demand drivers (Tyndall, tourism, reconstruction) without the supply constraints and valuation compression of tier-1 markets. You are not fighting for scraps in a saturated market. For investors seeking secondary-market exposure with actual fundamentals, Bay County is worth the conversation.
+        </p>
+        <p className="mt-4 text-[#666666] leading-relaxed">
+          The market also offers pricing flexibility. You will find opportunities that do not exist in Tampa or Jacksonville — both in acquisition and in operating economics. For occupants, the cost of occupancy is genuinely lower. Use the <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to model your returns and the <Link href="/calculators/commercial-mortgage" className="text-accent underline">commercial mortgage calculator</Link> to understand your debt service before submitting an offer.
+        </p>
+        <p className="mt-4 text-[#666666] leading-relaxed">
+          Before committing to any Bay County acquisition, review our <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial due diligence timeline</Link> and our post on <Link href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida&apos;s insurance crisis</Link> — insurance costs in Gulf Coast markets have risen sharply and must be underwritten carefully. Our <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">guide to evaluating commercial investments</Link> provides the full framework for comparing Bay County opportunities against other Florida markets.
+        </p>
+      </section>
+
+      <section
+        id="lead-form"
+        className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8"
+      >
+        <div className="mx-auto max-w-2xl">
+          <h2 className="text-2xl font-bold text-black">Inquire About Bay County CRE</h2>
+          <p className="mt-2 text-[#666666]">
+            Barrett Henry works Bay County transactions strategically and deliberately. Call <strong>(813) 733-7907</strong> or send a message below for direct market insight — no generic pitches, no wasted time.
+          </p>
+          <div className="mt-8">
+            <LeadForm />
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="mb-6 text-2xl font-bold text-black">Bay County CRE: Frequently Asked Questions</h2>
+        <FAQAccordion items={faqItems} />
+      </section>
+
+      <RelatedLinks heading="Explore Related Markets and Resources" links={relatedLinks} />
+
+      <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
+
       <CTASection
-        heading="Ready to Talk Commercial Real Estate?"
-        body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
-        buttonText="Get in Touch"
+        heading="Bay County CRE: Let&apos;s Talk"
+        body="If you are considering a Bay County transaction — whether investing, expanding, or repositioning — Barrett Henry at REMAX Collective is ready to have a real conversation. With 23+ years of Florida CRE experience, he brings market intelligence that generic brokers cannot. Call (813) 733-7907 today."
+        buttonText="Contact Barrett"
         buttonHref="/contact"
       />
     </>

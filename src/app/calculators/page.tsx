@@ -52,20 +52,64 @@ const CALCULATORS = [
   },
 ] as const;
 
-/* -- BreadcrumbList schema -- */
-const breadcrumbSchema = {
+/* -- Combined @graph schema -- */
+const schema = {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
-    { "@type": "ListItem", position: 2, name: "Calculators", item: "https://hencre.com/calculators" },
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Calculators", item: "https://hencre.com/calculators" },
+      ],
+    },
+    {
+      "@type": "ItemList",
+      name: "Commercial Real Estate Calculators",
+      description: "Free CRE calculators for cap rate, mortgage, office space, and ROI analysis.",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Cap Rate Calculator", url: "https://hencre.com/calculators/cap-rate" },
+        { "@type": "ListItem", position: 2, name: "Commercial Mortgage Calculator", url: "https://hencre.com/calculators/commercial-mortgage" },
+        { "@type": "ListItem", position: 3, name: "Office Space Calculator", url: "https://hencre.com/calculators/office-space" },
+        { "@type": "ListItem", position: 4, name: "Commercial Property ROI Calculator", url: "https://hencre.com/calculators/roi" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is a cap rate in commercial real estate?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Cap rate (capitalization rate) is the ratio of a property's net operating income to its purchase price. It measures the unlevered yield — what you would earn if you paid all cash. A higher cap rate indicates a higher yield but typically more risk. Cap rates in Tampa Bay typically range from 5% to 8% depending on property type and location.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How do you calculate commercial real estate ROI?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Commercial real estate ROI is most commonly measured as cash-on-cash return: annual cash flow after debt service divided by total cash invested (down payment plus closing costs). A property with $30,000 in annual cash flow on a $375,000 cash investment yields an 8% cash-on-cash return. Multi-year ROI adds appreciation and principal paydown to the calculation.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How much office space does my business need?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "As a general rule, plan for 100-150 square feet per person for open-plan offices, 150-200 square feet for hybrid layouts, and 200-300 square feet for private office environments. Add 20-30% for shared amenities such as conference rooms, break rooms, and reception areas. Growth plans over the lease term (typically 3-7 years) are equally important to factor in.",
+          },
+        },
+      ],
+    },
   ],
 };
 
 export default function CalculatorsPage() {
   return (
     <>
-      <SchemaOrg schema={breadcrumbSchema} />
+      <SchemaOrg schema={schema} />
 
       {/* Breadcrumb navigation */}
       <Breadcrumbs
@@ -115,6 +159,100 @@ export default function CalculatorsPage() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Educational content */}
+      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold">Why CRE Math Matters Before You Commit</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
+          Commercial real estate decisions involve larger sums, longer timelines, and more complex financing than residential. A miscalculation on cap rate or debt service can mean the difference between a profitable investment and a cash-flow problem. These calculators give you institutional-grade analysis in seconds — the same metrics Barrett Henry uses when advising clients on acquisition decisions across Florida.
+        </p>
+
+        <h2 className="mt-10 text-2xl font-bold">How These Tools Work Together</h2>
+        <p className="mt-4 text-[#666666] leading-relaxed">
+          Start with the <Link href="/calculators/cap-rate" className="text-black font-semibold underline">cap rate calculator</Link> to evaluate whether a property is priced fairly relative to its income. Then use the <Link href="/calculators/commercial-mortgage" className="text-black font-semibold underline">commercial mortgage calculator</Link> to model your debt service under different terms. Feed those numbers into the <Link href="/calculators/roi" className="text-black font-semibold underline">ROI calculator</Link> to see your cash-on-cash return and 5- and 10-year projections. If you are evaluating office space for your business, the <Link href="/calculators/office-space" className="text-black font-semibold underline">office space calculator</Link> helps you right-size before you ever tour a building.
+        </p>
+
+        <h2 className="mt-10 text-2xl font-bold">Commercial Real Estate FAQ</h2>
+        <dl className="mt-6 space-y-6">
+          <div className="border-b border-[#E5E5E5] pb-6">
+            <dt className="text-lg font-semibold text-black">What is a cap rate in commercial real estate?</dt>
+            <dd className="mt-2 text-[#666666]">
+              Cap rate is the ratio of a property&apos;s net operating income to its purchase price. It measures the unlevered yield — what you would earn if you paid all cash. Tampa Bay cap rates typically range from 5% to 8% depending on property type and location.
+            </dd>
+          </div>
+          <div className="border-b border-[#E5E5E5] pb-6">
+            <dt className="text-lg font-semibold text-black">How do you calculate commercial real estate ROI?</dt>
+            <dd className="mt-2 text-[#666666]">
+              Cash-on-cash return is the most practical ROI metric: annual cash flow after debt service divided by total cash invested (down payment plus closing costs). Multi-year ROI adds appreciation and principal paydown to the calculation.
+            </dd>
+          </div>
+          <div className="border-b border-[#E5E5E5] pb-6">
+            <dt className="text-lg font-semibold text-black">How much office space does my business need?</dt>
+            <dd className="mt-2 text-[#666666]">
+              Plan for 100-150 square feet per person for open-plan offices, 150-200 for hybrid, and 200-300 for private office environments. Add 20-30% for shared amenities, and factor in where your headcount will be at the end of your lease term.
+            </dd>
+          </div>
+        </dl>
+
+        {/* Internal links */}
+        <section className="mt-12">
+          <h2 className="text-xl font-bold">Related Guides and Resources</h2>
+          <ul className="mt-4 space-y-2">
+            <li>
+              <Link href="/insights/what-is-a-cap-rate" className="text-black font-semibold no-underline hover:underline">
+                What Is a Cap Rate? (Full Guide) &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/insights/how-to-value-commercial-property" className="text-black font-semibold no-underline hover:underline">
+                How to Value Commercial Property &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/insights/leasing-vs-buying-commercial" className="text-black font-semibold no-underline hover:underline">
+                Leasing vs. Buying Commercial Space &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-black font-semibold no-underline hover:underline">
+                How to Calculate Commercial Property ROI &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/what-makes-a-good-commercial-investment" className="text-black font-semibold no-underline hover:underline">
+                What Makes a Good Commercial Investment &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-black font-semibold no-underline hover:underline">
+                Understanding CAM Charges: Tenant&apos;s Guide &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/commercial-property-due-diligence-timeline" className="text-black font-semibold no-underline hover:underline">
+                Commercial Due Diligence Timeline &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/investment-sales" className="text-black font-semibold no-underline hover:underline">
+                Investment Sales Services &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/tenant-representation" className="text-black font-semibold no-underline hover:underline">
+                Tenant Representation Services &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/markets/hillsborough" className="text-black font-semibold no-underline hover:underline">
+                Hillsborough County CRE Market &rarr;
+              </Link>
+            </li>
+          </ul>
+        </section>
+
+        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
       </section>
 
       {/* CTA */}

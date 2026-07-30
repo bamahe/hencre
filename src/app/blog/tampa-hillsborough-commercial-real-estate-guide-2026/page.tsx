@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -20,76 +21,68 @@ export const metadata: Metadata = {
     description: "Tampa's CRE market is moving fast. Discover what investors and tenants need to know — then call Barrett Henry at (813) 733-7907.",
     url: "https://hencre.com/blog/tampa-hillsborough-commercial-real-estate-guide-2026",
     type: "article",
-    images: [{ url: "/images/blog/tampa-hillsborough-commercial-real-estate-guide-2026.jpg", width: 1200, height: 630, alt: "Tampa Commercial Real Estate Market Guide 2026" }],
+    images: [{ url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=75", width: 1200, height: 630, alt: "Tampa Commercial Real Estate Market Guide 2026" }],
   },
 };
 
-const articleSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Tampa Commercial Real Estate Market Guide 2026",
-  description: "Tampa's CRE market is moving fast. Discover what investors and tenants need to know — then call Barrett Henry at (813) 733-7907.",
-  datePublished: "2026-07-29",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-    sameAs: [
-      "https://hencre.com/about",
-      "https://nowtb.com",
-      "https://barretthenry.remax.com",
-    ],
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
-  },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/tampa-hillsborough-commercial-real-estate-guide-2026",
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "What types of commercial properties are available in Tampa, Florida?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Tampa offers a wide range of commercial property types including office space in the Westshore Business District and downtown, retail storefronts along major corridors like Dale Mabry and Bruce B. Downs, industrial and warehouse space near Port Tampa Bay and the I-75/I-4 interchange, multifamily investment properties, NNN net lease assets, and development land throughout Hillsborough County.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Tampa Commercial Real Estate Market Guide 2026", item: "https://hencre.com/blog/tampa-hillsborough-commercial-real-estate-guide-2026" },
+      ],
     },
     {
-      "@type": "Question",
-      name: "Is Tampa a good market for commercial real estate investment in 2026?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Tampa remains one of Florida's strongest commercial real estate investment markets in 2026, supported by population growth, a diversified economy, and consistent business relocations — though investors should carefully underwrite insurance costs, which have risen significantly across all Florida commercial asset classes.",
+      "@type": "BlogPosting",
+      headline: "Tampa Commercial Real Estate Market Guide 2026",
+      description: "Tampa&apos;s CRE market is moving fast. Discover what investors and tenants need to know about Hillsborough County commercial real estate in 2026.",
+      datePublished: "2026-07-29",
+      dateModified: "2026-07-30",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://nowtb.com", "https://barretthenry.remax.com"],
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/tampa-hillsborough-commercial-real-estate-guide-2026",
     },
     {
-      "@type": "Question",
-      name: "What is the Westshore Business District in Tampa?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The Westshore Business District is Tampa's most established office and commercial submarket, located near Tampa International Airport and offering high-visibility retail, Class A office space, hotels, and mixed-use development that consistently attracts regional and national tenants.",
-      },
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What types of commercial properties are available in Tampa, Florida?",
+          acceptedAnswer: { "@type": "Answer", text: "Tampa offers a wide range of commercial property types including office space in the Westshore Business District and downtown, retail storefronts along major corridors like Dale Mabry and Bruce B. Downs, industrial and warehouse space near Port Tampa Bay and the I-75/I-4 interchange, multifamily investment properties, NNN net lease assets, and development land throughout Hillsborough County." },
+        },
+        {
+          "@type": "Question",
+          name: "Is Tampa a good market for commercial real estate investment in 2026?",
+          acceptedAnswer: { "@type": "Answer", text: "Tampa remains one of Florida's strongest commercial real estate investment markets in 2026, supported by population growth, a diversified economy, and consistent business relocations. Investors should carefully underwrite insurance costs, which have risen significantly across all Florida commercial asset classes." },
+        },
+        {
+          "@type": "Question",
+          name: "What is the Westshore Business District in Tampa?",
+          acceptedAnswer: { "@type": "Answer", text: "The Westshore Business District is Tampa's most established office and commercial submarket, located near Tampa International Airport and offering high-visibility retail, Class A office space, hotels, and mixed-use development that consistently attracts regional and national tenants." },
+        },
+        {
+          "@type": "Question",
+          name: "How does CAM work in a Tampa commercial lease?",
+          acceptedAnswer: { "@type": "Answer", text: "CAM, or Common Area Maintenance charges, are fees passed from landlord to tenant to cover shared property expenses like parking lot maintenance, landscaping, and building common areas. In Tampa, they can add meaningful cost above base rent, making it essential to review lease terms carefully before signing." },
+        },
+        {
+          "@type": "Question",
+          name: "Do I need a commercial real estate broker to lease space in Tampa?",
+          acceptedAnswer: { "@type": "Answer", text: "Working with a commercial real estate advisor in Tampa significantly improves your negotiating position, especially in a market where landlords often have more leverage, lease structures are complex, and zoning restrictions vary widely across Hillsborough County corridors." },
+        },
+      ],
     },
-    {
-      "@type": "Question",
-      name: "How does CAM work in a Tampa commercial lease?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "CAM, or Common Area Maintenance charges, are fees passed from landlord to tenant to cover shared property expenses like parking lot maintenance, landscaping, and building common areas — and in Tampa, they can add meaningful cost above base rent, making it essential to review lease terms carefully before signing.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do I need a commercial real estate broker to lease space in Tampa?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "While it's not legally required, working with a commercial real estate advisor in Tampa significantly improves your negotiating position — especially in a market where landlords often have more leverage, lease structures are complex, and zoning restrictions vary widely across Hillsborough County corridors.",
-      },
-    }
   ],
 };
 
@@ -162,20 +155,20 @@ const faqItems = [
 export default function BlogPost() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Tampa Commercial Real Estate Market Guide 2026", href: "/blog/tampa-hillsborough-commercial-real-estate-guide-2026" },
         ]}
       />
 
       <Hero
-        backgroundImage="/images/blog/tampa-hillsborough-commercial-real-estate-guide-2026.jpg"
+        backgroundImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=75"
         title="Tampa Commercial Real Estate Market Guide 2026"
-        subtitle="Tampa's CRE market is moving fast. Discover what investors and tenants need to know — then call Barrett Henry at (813) 733-7907."
+        subtitle="Tampa&apos;s CRE market is moving fast. Discover what investors and tenants need to know about Hillsborough County commercial real estate in 2026."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
@@ -183,13 +176,26 @@ export default function BlogPost() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial\u00AE Broker</p>
+          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
           </p>
         </div>
       </article>
+
+      {/* ---- Inline image ---- */}
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&auto=format&fit=crop&q=75"
+          alt="Tampa commercial real estate investment property in Hillsborough County"
+          width={800}
+          height={500}
+          className="w-full rounded-lg"
+          unoptimized
+        />
+        <p className="mt-2 text-xs text-center text-[#666666]">Tampa&apos;s commercial real estate market spans multiple submarkets across Hillsborough County, from Westshore and downtown to Brandon, Riverview, and New Tampa.</p>
+      </section>
 
       {/* ---- FAQ Section ---- */}
       <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
@@ -211,9 +217,9 @@ export default function BlogPost() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR\u00AE & Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>
@@ -232,11 +238,16 @@ export default function BlogPost() {
       </section>
 
       {/* ---- Legal Disclaimer ---- */}
-      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
 
       <CTASection
         heading="Tampa's CRE Market Won't Wait — Neither Should You"

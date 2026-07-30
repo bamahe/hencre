@@ -22,22 +22,21 @@ export const metadata: Metadata = {
   },
 };
 
-/* -- BreadcrumbList schema -- */
-const breadcrumbSchema = {
+/* -- Combined @graph schema -- */
+const schema = {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
-    { "@type": "ListItem", position: 2, name: "Calculators", item: "https://hencre.com/calculators" },
-    { "@type": "ListItem", position: 3, name: "ROI Calculator", item: "https://hencre.com/calculators/roi" },
-  ],
-};
-
-/* -- FAQPage schema -- */
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Calculators", item: "https://hencre.com/calculators" },
+        { "@type": "ListItem", position: 3, name: "ROI Calculator", item: "https://hencre.com/calculators/roi" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
     {
       "@type": "Question",
       name: "What is cash-on-cash return in commercial real estate?",
@@ -70,14 +69,15 @@ const faqSchema = {
         text: "Cap rate is an unlevered metric — it divides NOI by the full property price regardless of how you finance it. Cash-on-cash return is a levered metric — it divides your actual cash flow (after debt service) by your actual cash invested. Leverage amplifies returns: a 7% cap rate property can deliver a 10%+ cash-on-cash return with the right financing.",
       },
     },
+      ],
+    },
   ],
 };
 
 export default function ROIPage() {
   return (
     <>
-      <SchemaOrg schema={breadcrumbSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       {/* Breadcrumbs */}
       <Breadcrumbs
@@ -180,7 +180,7 @@ export default function ROIPage() {
 
         {/* Internal links */}
         <section className="mt-12">
-          <h2 className="text-xl font-bold">More CRE Calculators</h2>
+          <h2 className="text-xl font-bold">More CRE Calculators and Resources</h2>
           <ul className="mt-4 space-y-2">
             <li>
               <Link href="/calculators/cap-rate" className="text-black font-semibold no-underline hover:underline">
@@ -203,12 +203,34 @@ export default function ROIPage() {
               </Link>
             </li>
             <li>
+              <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-black font-semibold no-underline hover:underline">
+                How to Calculate Commercial Property ROI (Full Guide) &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/what-makes-a-good-commercial-investment" className="text-black font-semibold no-underline hover:underline">
+                What Makes a Good Commercial Investment &rarr;
+              </Link>
+            </li>
+            <li>
               <Link href="/services/cre-valuation" className="text-black font-semibold no-underline hover:underline">
                 CRE Valuation Services &rarr;
               </Link>
             </li>
+            <li>
+              <Link href="/services/investment-sales" className="text-black font-semibold no-underline hover:underline">
+                Investment Sales Advisory &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/markets/hillsborough" className="text-black font-semibold no-underline hover:underline">
+                Hillsborough County CRE Market &rarr;
+              </Link>
+            </li>
           </ul>
         </section>
+
+        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
       </article>
 
       {/* CTA */}

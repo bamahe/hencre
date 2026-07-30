@@ -41,7 +41,7 @@ const schema = {
       headline: "Riverview FL Commercial Real Estate 2026: Market Guide",
       description: "Riverview is south Hillsborough's fastest-growing commercial submarket. Find out what's available, what's trading, and how Barrett Henry can help.",
       datePublished: "2026-07-29",
-      dateModified: "2026-07-29",
+      dateModified: "2026-07-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -54,7 +54,7 @@ const schema = {
         ],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
-      publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/blog/riverview-fl-commercial-real-estate-2026",
     },
     {
@@ -97,7 +97,7 @@ const schema = {
           name: "Does Barrett Henry handle commercial real estate in Riverview, FL?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Barrett Henry at REMAX Commercial Real Estate advises buyers, sellers, landlords, and tenants on commercial transactions throughout south Hillsborough County, including Riverview, Brandon, Valrico, Apollo Beach, and Sun City Center. He can be reached directly at (813) 733-7907.",
+            text: "Yes. Barrett Henry at REMAX Collective advises buyers, sellers, landlords, and tenants on commercial transactions throughout south Hillsborough County, including Riverview, Brandon, Valrico, Apollo Beach, and Sun City Center. He can be reached directly at (813) 733-7907.",
           },
         },
       ],
@@ -177,7 +177,7 @@ const faqItems = [
   },
   {
     question: "Does Barrett Henry handle commercial real estate in Riverview, FL?",
-    answer: "Yes. Barrett Henry at REMAX Commercial Real Estate advises buyers, sellers, landlords, and tenants on commercial transactions throughout south Hillsborough County, including Riverview, Brandon, Valrico, Apollo Beach, and Sun City Center. He can be reached directly at (813) 733-7907.",
+    answer: "Yes. Barrett Henry at REMAX Collective advises buyers, sellers, landlords, and tenants on commercial transactions throughout south Hillsborough County, including Riverview, Brandon, Valrico, Apollo Beach, and Sun City Center. He can be reached directly at (813) 733-7907.",
   },
 ];
 

@@ -22,45 +22,46 @@ export const metadata: Metadata = {
   },
 };
 
-/* -- BreadcrumbList schema -- */
-const breadcrumbSchema = {
+/* -- Combined @graph schema -- */
+const schema = {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
-    { "@type": "ListItem", position: 2, name: "Calculators", item: "https://hencre.com/calculators" },
-    { "@type": "ListItem", position: 3, name: "Office Space Calculator", item: "https://hencre.com/calculators/office-space" },
-  ],
-};
-
-/* -- FAQPage schema -- */
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "How much office space do I need per employee?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The general rule is 100-150 square feet per employee for open-plan offices, 200-300 square feet for private offices, and 150-200 square feet for hybrid layouts. These figures include individual workstation space but not shared amenities like conference rooms, break rooms, or reception areas.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Calculators", item: "https://hencre.com/calculators" },
+        { "@type": "ListItem", position: 3, name: "Office Space Calculator", item: "https://hencre.com/calculators/office-space" },
+      ],
     },
     {
-      "@type": "Question",
-      name: "How much does office space cost in Tampa Bay?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Tampa Bay office lease rates vary by building class and submarket. As of mid-2026, Class A office space averages around $38/SF/year, Class B around $26/SF/year, and Class C around $18/SF/year on a NNN basis. Westshore, downtown Tampa, and downtown St. Petersburg command premium rates.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is the difference between usable and rentable square footage?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Usable square footage is the actual space within your office walls. Rentable square footage includes your usable space plus a proportional share of common areas (lobbies, hallways, restrooms). The difference is the load factor, typically 10-20% in multi-tenant buildings. You pay rent on the rentable number.",
-      },
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How much office space do I need per employee?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The general rule is 100-150 square feet per employee for open-plan offices, 200-300 square feet for private offices, and 150-200 square feet for hybrid layouts. These figures include individual workstation space but not shared amenities like conference rooms, break rooms, or reception areas.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How much does office space cost in Tampa Bay?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Tampa Bay office lease rates vary by building class and submarket. As of mid-2026, Class A office space averages around $38/SF/year, Class B around $26/SF/year, and Class C around $18/SF/year on a NNN basis. Westshore, downtown Tampa, and downtown St. Petersburg command premium rates.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is the difference between usable and rentable square footage?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Usable square footage is the actual space within your office walls. Rentable square footage includes your usable space plus a proportional share of common areas (lobbies, hallways, restrooms). The difference is the load factor, typically 10-20% in multi-tenant buildings. You pay rent on the rentable number.",
+          },
+        },
+      ],
     },
   ],
 };
@@ -68,8 +69,7 @@ const faqSchema = {
 export default function OfficeSpacePage() {
   return (
     <>
-      <SchemaOrg schema={breadcrumbSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       {/* Breadcrumbs */}
       <Breadcrumbs
@@ -155,7 +155,7 @@ export default function OfficeSpacePage() {
 
         {/* Internal links */}
         <section className="mt-12">
-          <h2 className="text-xl font-bold">More CRE Calculators</h2>
+          <h2 className="text-xl font-bold">More CRE Calculators and Resources</h2>
           <ul className="mt-4 space-y-2">
             <li>
               <Link href="/calculators/cap-rate" className="text-black font-semibold no-underline hover:underline">
@@ -182,8 +182,35 @@ export default function OfficeSpacePage() {
                 Office Space in Florida &rarr;
               </Link>
             </li>
+            <li>
+              <Link href="/insights/leasing-vs-buying-commercial" className="text-black font-semibold no-underline hover:underline">
+                Leasing vs. Buying Commercial Space &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-black font-semibold no-underline hover:underline">
+                Understanding CAM Charges: Tenant&apos;s Guide &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-black font-semibold no-underline hover:underline">
+                Tampa Bay Medical Office Real Estate 2026 &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/markets/hillsborough" className="text-black font-semibold no-underline hover:underline">
+                Hillsborough County CRE Market &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/markets/pinellas" className="text-black font-semibold no-underline hover:underline">
+                Pinellas County CRE Market &rarr;
+              </Link>
+            </li>
           </ul>
         </section>
+
+        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
       </article>
 
       {/* CTA */}

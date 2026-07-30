@@ -23,45 +23,46 @@ export const metadata: Metadata = {
   },
 };
 
-/* -- BreadcrumbList schema -- */
-const breadcrumbSchema = {
+/* -- Combined @graph schema -- */
+const schema = {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
-    { "@type": "ListItem", position: 2, name: "Calculators", item: "https://hencre.com/calculators" },
-    { "@type": "ListItem", position: 3, name: "Cap Rate Calculator", item: "https://hencre.com/calculators/cap-rate" },
-  ],
-};
-
-/* -- FAQPage schema -- */
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "What is a good cap rate for commercial real estate?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "A 'good' cap rate depends on the property type, location, and risk profile. In Tampa Bay, cap rates typically range from 5% to 8% for stabilized commercial properties. Lower cap rates (4-5%) indicate premium, lower-risk assets, while higher cap rates (8%+) suggest higher yield but potentially more risk.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Calculators", item: "https://hencre.com/calculators" },
+        { "@type": "ListItem", position: 3, name: "Cap Rate Calculator", item: "https://hencre.com/calculators/cap-rate" },
+      ],
     },
     {
-      "@type": "Question",
-      name: "How do you calculate cap rate?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Cap rate is calculated by dividing the Net Operating Income (NOI) by the property purchase price, then multiplying by 100 to get a percentage. For example, a property with $100,000 NOI and a $1,500,000 purchase price has a cap rate of 6.67%.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is the difference between cap rate and ROI?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Cap rate measures the unlevered return based on property price and NOI — it ignores financing. ROI (return on investment) accounts for your actual cash invested, including leverage from a mortgage. A property can have a 6% cap rate but deliver a 12%+ cash-on-cash ROI when financed.",
-      },
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is a good cap rate for commercial real estate?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "A good cap rate depends on the property type, location, and risk profile. In Tampa Bay, cap rates typically range from 5% to 8% for stabilized commercial properties. Lower cap rates (4-5%) indicate premium, lower-risk assets, while higher cap rates (8%+) suggest higher yield but potentially more risk.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How do you calculate cap rate?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Cap rate is calculated by dividing the Net Operating Income (NOI) by the property purchase price, then multiplying by 100 to get a percentage. For example, a property with $100,000 NOI and a $1,500,000 purchase price has a cap rate of 6.67%.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is the difference between cap rate and ROI?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Cap rate measures the unlevered return based on property price and NOI — it ignores financing. ROI (return on investment) accounts for your actual cash invested, including leverage from a mortgage. A property can have a 6% cap rate but deliver a 12%+ cash-on-cash ROI when financed.",
+          },
+        },
+      ],
     },
   ],
 };
@@ -69,8 +70,7 @@ const faqSchema = {
 export default function CapRatePage() {
   return (
     <>
-      <SchemaOrg schema={breadcrumbSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       {/* Breadcrumbs */}
       <Breadcrumbs
@@ -160,7 +160,7 @@ export default function CapRatePage() {
 
         {/* Internal links */}
         <section className="mt-12">
-          <h2 className="text-xl font-bold">More CRE Calculators</h2>
+          <h2 className="text-xl font-bold">More CRE Calculators and Resources</h2>
           <ul className="mt-4 space-y-2">
             <li>
               <Link href="/calculators/commercial-mortgage" className="text-black font-semibold no-underline hover:underline">
@@ -183,12 +183,34 @@ export default function CapRatePage() {
               </Link>
             </li>
             <li>
+              <Link href="/insights/how-to-value-commercial-property" className="text-black font-semibold no-underline hover:underline">
+                How to Value Commercial Property &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/tampa-bay-multifamily-cap-rates-2026" className="text-black font-semibold no-underline hover:underline">
+                Tampa Bay Multifamily Cap Rates 2026 &rarr;
+              </Link>
+            </li>
+            <li>
               <Link href="/services/investment-sales" className="text-black font-semibold no-underline hover:underline">
                 Investment Sales Services &rarr;
               </Link>
             </li>
+            <li>
+              <Link href="/services/cre-valuation" className="text-black font-semibold no-underline hover:underline">
+                CRE Valuation Services &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/markets/hillsborough" className="text-black font-semibold no-underline hover:underline">
+                Hillsborough County CRE Market &rarr;
+              </Link>
+            </li>
           </ul>
         </section>
+
+        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
       </article>
 
       {/* CTA */}

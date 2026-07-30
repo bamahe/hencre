@@ -22,45 +22,46 @@ export const metadata: Metadata = {
   },
 };
 
-/* -- BreadcrumbList schema -- */
-const breadcrumbSchema = {
+/* -- Combined @graph schema -- */
+const schema = {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
-    { "@type": "ListItem", position: 2, name: "Calculators", item: "https://hencre.com/calculators" },
-    { "@type": "ListItem", position: 3, name: "Commercial Mortgage Calculator", item: "https://hencre.com/calculators/commercial-mortgage" },
-  ],
-};
-
-/* -- FAQPage schema -- */
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "What is a typical commercial mortgage interest rate?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "As of mid-2026, commercial mortgage rates typically range from 6% to 9% depending on loan type, property class, borrower creditworthiness, and loan-to-value ratio. SBA 504 loans and agency multifamily loans tend to offer the most competitive rates. Rates change frequently — always verify with a lender before making decisions.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Calculators", item: "https://hencre.com/calculators" },
+        { "@type": "ListItem", position: 3, name: "Commercial Mortgage Calculator", item: "https://hencre.com/calculators/commercial-mortgage" },
+      ],
     },
     {
-      "@type": "Question",
-      name: "What is the difference between loan term and amortization period?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The loan term is how long you have the loan before it matures (e.g., 10 years). The amortization period is the schedule used to calculate monthly payments (e.g., 25 years). If the term is shorter than the amortization, you will owe a balloon payment at maturity for the remaining balance.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is a balloon payment in commercial real estate?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "A balloon payment is the lump sum owed at the end of a commercial loan term when the loan has not been fully amortized. For example, a 10-year term with 25-year amortization means payments are calculated as if you had 25 years to pay, but the remaining balance comes due at year 10. Most borrowers refinance before the balloon date.",
-      },
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is a typical commercial mortgage interest rate?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "As of mid-2026, commercial mortgage rates typically range from 6% to 9% depending on loan type, property class, borrower creditworthiness, and loan-to-value ratio. SBA 504 loans and agency multifamily loans tend to offer the most competitive rates. Rates change frequently — always verify with a lender before making decisions.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is the difference between loan term and amortization period?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The loan term is how long you have the loan before it matures (e.g., 10 years). The amortization period is the schedule used to calculate monthly payments (e.g., 25 years). If the term is shorter than the amortization, you will owe a balloon payment at maturity for the remaining balance.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is a balloon payment in commercial real estate?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "A balloon payment is the lump sum owed at the end of a commercial loan term when the loan has not been fully amortized. For example, a 10-year term with 25-year amortization means payments are calculated as if you had 25 years to pay, but the remaining balance comes due at year 10. Most borrowers refinance before the balloon date.",
+          },
+        },
+      ],
     },
   ],
 };
@@ -68,8 +69,7 @@ const faqSchema = {
 export default function CommercialMortgagePage() {
   return (
     <>
-      <SchemaOrg schema={breadcrumbSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       {/* Breadcrumbs */}
       <Breadcrumbs
@@ -158,7 +158,7 @@ export default function CommercialMortgagePage() {
 
         {/* Internal links */}
         <section className="mt-12">
-          <h2 className="text-xl font-bold">More CRE Calculators</h2>
+          <h2 className="text-xl font-bold">More CRE Calculators and Resources</h2>
           <ul className="mt-4 space-y-2">
             <li>
               <Link href="/calculators/cap-rate" className="text-black font-semibold no-underline hover:underline">
@@ -181,12 +181,39 @@ export default function CommercialMortgagePage() {
               </Link>
             </li>
             <li>
+              <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-black font-semibold no-underline hover:underline">
+                Florida 1031 Exchange Guide &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/commercial-property-due-diligence-timeline" className="text-black font-semibold no-underline hover:underline">
+                Commercial Due Diligence Timeline &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/what-makes-a-good-commercial-investment" className="text-black font-semibold no-underline hover:underline">
+                What Makes a Good Commercial Investment &rarr;
+              </Link>
+            </li>
+            <li>
               <Link href="/services/investment-sales" className="text-black font-semibold no-underline hover:underline">
                 Investment Sales Services &rarr;
               </Link>
             </li>
+            <li>
+              <Link href="/services/cre-valuation" className="text-black font-semibold no-underline hover:underline">
+                CRE Valuation Services &rarr;
+              </Link>
+            </li>
+            <li>
+              <Link href="/markets/hillsborough" className="text-black font-semibold no-underline hover:underline">
+                Hillsborough County CRE Market &rarr;
+              </Link>
+            </li>
           </ul>
         </section>
+
+        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
       </article>
 
       {/* CTA */}
