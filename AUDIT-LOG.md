@@ -748,3 +748,88 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ### 10. `/services/commercial-property-management/tenant-relations` and `/services/commercial-property-management/vacancy-marketing`
 - Updated "Last updated: June 2026" to "Last updated: July 2026" (both pages)
+
+---
+
+## 2026-07-30 — Batch 10 (10 pages)
+
+### 1. `/blog/riverview-fl-commercial-real-estate-2026`
+- Fixed publisher from "REMAX Commercial Real Estate" to "HenCRE" in @graph schema
+- Fixed FAQ schema answer #5 and faqItems answer #5: "REMAX Commercial Real Estate" to "REMAX Collective"
+- Updated dateModified from "2026-07-29" to "2026-07-30"
+
+### 2. `/blog/tampa-hillsborough-commercial-real-estate-guide-2026`
+- Added Image import
+- Updated OG image from local path to Unsplash URL (photo-1486406146926-c627a92ad1ab)
+- Merged dual schemas (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle to "Broker Associate"; publisher to "HenCRE"; added dateModified "2026-07-30"
+- Updated Hero backgroundImage to same Unsplash URL
+- Replaced dual SchemaOrg calls with single call
+- Added Home to breadcrumbs
+- Added inline image (photo-1560518883-ce09059eeffa)
+- Fixed mid-article CTA: "REMAX Commercial®" to "REMAX Commercial"
+- Fixed author bio: removed REALTOR® references; updated to "Broker Associate at REMAX Collective"
+- Added "Last updated: July 2026" footer
+
+### 3. `/markets/alachua`
+- Full rewrite to match market page pattern (Hernando/Charlotte template)
+- Added Link, Image, LeadForm, FAQAccordion, RelatedLinks, Hero, CTASection, Breadcrumbs, SchemaOrg imports
+- Added canonical URL; @graph schema (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems (UF student housing, property types, research corridor, downtown redevelopment, vs Jacksonville)
+- Added body image (photo-1497366754035-f200968a6e72 -- professional office interior)
+- Added 10+ internal links (markets, commercial types, services, insights, blog posts, calculators)
+- Fixed email from barrett@nowtb.com to /contact in body; barrett@hencre.com in schema
+- Added id="lead-form" section with LeadForm; RelatedLinks; CTASection; "Last updated: July 2026" footer
+- Preserved UF anchor, medical office, student housing, Midtown, innovation districts, High Springs/Newberry content
+
+### 4. `/markets/baker`
+- Full rewrite to match market page pattern
+- Added Link, Image, LeadForm, FAQAccordion, RelatedLinks, Hero, CTASection, Breadcrumbs, SchemaOrg imports
+- Added canonical URL; @graph schema (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems (land purchase worthiness, property types, I-10 advantage, market activity, Barrett handling)
+- Added body image (photo-1500937386664-56d1dfef3854 -- rural Florida commercial corridor)
+- Added 10+ internal links (adjacent markets, commercial types, services, insights, blog posts, calculators)
+- Fixed email; added id="lead-form" with LeadForm; RelatedLinks; CTASection; "Last updated: July 2026" footer
+- Preserved Macclenny, I-10/US-90, agricultural land, light industrial, Jacksonville spillover content
+
+### 5. `/markets/bay`
+- Full rewrite to match market page pattern
+- Added Link, Image, LeadForm, FAQAccordion, RelatedLinks, Hero, CTASection, Breadcrumbs, SchemaOrg imports
+- Added canonical URL; @graph schema (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems (investment market, Tyndall impact, property types, Hurricane Michael, Barrett handling)
+- Added body image (photo-1486406146926-c627a92ad1ab -- commercial/logistics corridor)
+- Added 10+ internal links (markets, commercial types, services, insights, blog posts, calculators)
+- Fixed email; added id="lead-form" with LeadForm; RelatedLinks; CTASection; "Last updated: July 2026" footer
+- Preserved PCB tourism, Tyndall AFB expansion, post-Michael recovery, Lynn Haven/Callaway, hospitality content
+
+### 6. `/calculators/cap-rate`
+- Consolidated dual schemas (breadcrumbSchema + faqSchema) into single @graph (BreadcrumbList + FAQPage)
+- Replaced dual SchemaOrg calls with single call
+- Added 5 new internal links (how-to-value-commercial-property, tampa-bay-multifamily-cap-rates-2026, cre-valuation, investment-sales, hillsborough)
+- Added "Last updated: July 2026" footer
+
+### 7. `/calculators/roi`
+- Consolidated dual schemas into single @graph (BreadcrumbList + FAQPage)
+- Fixed malformed schema (missing closing brackets in FAQPage mainEntity)
+- Replaced dual SchemaOrg calls with single call
+- Added 4 new internal links (blog/how-to-calculate-commercial-property-roi, blog/what-makes-a-good-commercial-investment, investment-sales, hillsborough)
+- Added "Last updated: July 2026" footer
+
+### 8. `/calculators/commercial-mortgage`
+- Consolidated dual schemas into single @graph (BreadcrumbList + FAQPage)
+- Replaced dual SchemaOrg calls with single call
+- Added 5 new internal links (1031-exchange, due-diligence-timeline, what-makes-good-investment, cre-valuation, hillsborough)
+- Added "Last updated: July 2026" footer
+
+### 9. `/calculators/office-space`
+- Consolidated dual schemas (breadcrumbSchema + faqSchema) into single @graph (BreadcrumbList + FAQPage)
+- Replaced dual SchemaOrg calls with single call
+- Added 5 new internal links (leasing-vs-buying, cam-charges-guide, medical-office-2026, hillsborough, pinellas)
+- Added "Last updated: July 2026" footer
+
+### 10. `/calculators` (index)
+- Upgraded breadcrumbSchema to full @graph (BreadcrumbList + ItemList + FAQPage)
+- Added educational content section explaining how the tools work together
+- Added FAQ section with 3 CRE fundamentals questions (cap rate, ROI, office space)
+- Added 10+ internal links (insights, blog posts, services, markets)
+- Added "Last updated: July 2026" footer
