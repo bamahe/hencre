@@ -833,3 +833,66 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added FAQ section with 3 CRE fundamentals questions (cap rate, ROI, office space)
 - Added 10+ internal links (insights, blog posts, services, markets)
 - Added "Last updated: July 2026" footer
+
+---
+
+## 2026-07-31 — Batch 11 (10 pages)
+
+### 1. `/about`
+- Fixed schema jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"
+- Added dateModified: "2026-07-31" to schema
+- Updated metadata title to 42 chars (was over 70)
+- Added 12+ internal links (services, markets, commercial property types, contact)
+- Added "Services" grid section with 6 service links
+- Added "Markets Covered" section with county pills and "All Markets" link
+- Added "Last updated: July 2026" footer
+
+### 2. `/markets` (index)
+- Expanded from 8 to 20 county markets
+- Added STATEWIDE_MARKETS section: brevard, broward, collier, charlotte, alachua, clay, columbia, bay, bradford, baker, calhoun, desoto
+- Two-section layout: "Core Tampa Bay Markets" + "Statewide Coverage"
+- Updated metadata title to include "2026"
+- Added "Last updated: July 2026" footer
+
+### 3. `/services` (index)
+- Added FAQAccordion section with 6 FAQs covering: what services offered, tenant rep cost, handling both sides, markets served, property types, how to get started
+- Added intro paragraph with 10+ internal links
+- Added FAQPage to schema @graph
+- Updated schema with full provider details (jobTitle: "Broker Associate", dateModified)
+- Updated "Last updated" to July 2026
+
+### 4. `/commercial` (index)
+- Added FAQAccordion section with 6 FAQs covering: main CRE types, strongest Tampa Bay demand, how to choose investment type, NNN vs gross lease, statewide coverage, resources
+- Added intro paragraph with 10+ internal links
+- Added FAQPage to schema @graph
+- Updated dateModified: "2026-07-31"
+- Updated "Last updated" to July 2026
+
+### 5. `/faq`
+- Added intro section with links to key services and resources
+- Added "Related Resources" grid section (6 link cards: Insights, Market Analysis, Property Types, Services, Calculators, About)
+- Added "Last updated: July 2026" footer
+- Updated meta title to 50 chars
+
+### 6. `/remax-commercial`
+- Fixed schema jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"
+- Added "Last updated: July 2026" footer
+
+### 7. `/remax-commercial-florida`
+- Added "Last updated: July 2026" footer
+
+### 8. `/insights` (index)
+- Added intro paragraph with 8 internal links (cap-rate, property-valuation, nnn-lease, 1031-exchange, blog, calculators, markets, contact)
+- Updated schema with dateModified: "2026-07-31" and author (Broker Associate)
+- Updated metadata description to mention REMAX Collective
+- Added "Last updated: July 2026" footer
+
+### 9. `/blog` (index)
+- Added intro section with 10+ internal links to market pages, property types, insights hub, faq, contact
+- Added "Last updated: July 2026" footer
+
+### 10. `/blog/midtown-tampa-commercial-real-estate-2026`
+- Shortened metadata title from 87 chars to 57 chars (was over 70 limit)
+
+### Component fix
+- `FAQAccordion`: changed `items: FAQItem[]` to `items: readonly FAQItem[]` to support `as const` arrays
