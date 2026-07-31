@@ -12,7 +12,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Midtown Tampa Commercial Real Estate 2026: Office, Retail & Investment Guide | HenCRE",
+  title: "Midtown Tampa CRE 2026: Office, Retail & Investment Guide",
   description:
     "Midtown Tampa's office space is now fully leased and three new retailers — Pura Vida Miami, CorePower Yoga, and The Shade Store — are joining the district. Here is what the $1 billion Midtown Tampa development means for CRE investors and tenants in 2026.",
   alternates: { canonical: "https://hencre.com/blog/midtown-tampa-commercial-real-estate-2026" },

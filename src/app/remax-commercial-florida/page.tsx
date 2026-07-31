@@ -368,6 +368,11 @@ export default function RemaxCommercialFloridaPage() {
         </div>
       </section>
 
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
+
       {/* ---- Bottom CTA ---- */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import FAQAccordion from "@/components/FAQAccordion";
 
 /* -------------------------------------------------------------------
  * Commercial Index — overview of all 6 property types.
@@ -11,12 +12,12 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "CRE Property Types | Office, Retail, Industrial FL",
   description:
-    "Explore commercial property types in Florida: office, retail, industrial, multifamily, NNN net lease, and land. Barrett Henry, CRE Advisor at REMAX Collective. Call (813) 733-7907.",
+    "Explore commercial property types in Florida: office, retail, industrial, multifamily, NNN net lease, and land. Barrett Henry, Broker Associate at REMAX Collective. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/commercial" },
   openGraph: {
     title: "Property Types | REMAX Commercial Real Estate",
     description:
-      "Office, retail, industrial, multifamily, NNN, and land — every CRE asset class across Florida.",
+      "Office, retail, industrial, multifamily, NNN, and land: every CRE asset class across Florida.",
     url: "https://hencre.com/commercial",
   },
 };
@@ -26,7 +27,7 @@ const PROPERTY_TYPES = [
     title: "Office Space",
     href: "/commercial/office-space",
     description:
-      "Class A, B, and C office — from single-tenant buildings to multi-story towers. Leasing, sales, and investment opportunities.",
+      "Class A, B, and C office, from single-tenant buildings to multi-story towers. Leasing, sales, and investment opportunities across Tampa Bay and Florida.",
   },
   {
     title: "Retail Space",
@@ -60,6 +61,39 @@ const PROPERTY_TYPES = [
   },
 ] as const;
 
+const faqItems = [
+  {
+    question: "What are the main types of commercial real estate in Florida?",
+    answer:
+      "The six major commercial property types in Florida are: office space (Class A, B, C buildings), retail space (strip centers, pad sites, regional malls), industrial and warehouse (distribution, flex, manufacturing), multifamily (5+ unit apartment complexes), NNN net lease (single-tenant triple-net investments), and land and development sites. Each type has different valuation methods, lease structures, tenant profiles, and investment characteristics. Barrett Henry handles all six property types across Florida through the REMAX Commercial network.",
+  },
+  {
+    question: "What commercial property type has the strongest demand in Tampa Bay right now?",
+    answer:
+      "Industrial and warehouse space has posted the strongest fundamentals across Tampa Bay in recent years, driven by e-commerce logistics, population growth, and limited new supply relative to demand. Retail has also tightened considerably, with availability rates well below historical averages in quality corridors. Office is more bifurcated: Class A buildings in amenity-rich locations like Midtown Tampa are fully leased, while older Class B and C suburban product faces elevated vacancy. Multifamily fundamentals remain solid, particularly in high-growth suburban corridors like Wesley Chapel, Riverview, and Lakewood Ranch.",
+  },
+  {
+    question: "How do I decide which commercial property type to invest in?",
+    answer:
+      "The right property type depends on your investment horizon, risk tolerance, capital position, and management bandwidth. NNN net lease properties offer minimal landlord responsibilities and predictable cash flow but typically carry compressed cap rates. Industrial properties offer stronger rent growth potential in Florida's logistics-driven market. Multifamily provides inflation protection through annual lease renewals. Use our cap rate calculator and ROI calculator to model returns across property types before committing to one category. Barrett Henry provides custom investment analysis for clients evaluating specific acquisitions.",
+  },
+  {
+    question: "What is the difference between NNN and gross lease commercial property?",
+    answer:
+      "In a NNN (triple-net) lease, the tenant pays base rent plus property taxes, insurance, and common area maintenance, shifting operating expenses from the landlord to the tenant. In a gross lease, the landlord pays most operating expenses and the tenant pays a single all-inclusive rent. Modified gross leases split expenses in various ways between landlord and tenant. Most investment-grade retail and industrial properties in Florida use NNN or modified gross structures. Office buildings often use full-service gross leases in competitive submarkets.",
+  },
+  {
+    question: "Does Barrett Henry handle commercial real estate outside Tampa Bay?",
+    answer:
+      "Yes. While Barrett&apos;s core market is Tampa Bay with direct coverage of Hillsborough, Pinellas, Pasco, Polk, Manatee, Sarasota, Hernando, and Citrus counties, he coordinates commercial transactions across all 67 Florida counties through the REMAX Commercial referral network. For markets like Broward, Collier, Brevard, Alachua, and beyond, Barrett connects clients with the right local REMAX Commercial specialist, providing clients with statewide access while maintaining a single point of contact.",
+  },
+  {
+    question: "What resources does Barrett provide for commercial property investors?",
+    answer:
+      "Barrett Henry provides broker opinions of value, comparable sales analysis, investment pro formas, and market positioning reports for clients evaluating commercial acquisitions. The HenCRE website also offers free tools: a cap rate calculator, commercial ROI calculator, commercial mortgage calculator, and office space planning calculator. The CRE insights hub covers valuation methods, lease structures, due diligence checklists, and 1031 exchange strategy. Contact Barrett directly for custom analysis on a specific property or market.",
+  },
+] as const;
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -72,9 +106,19 @@ const schema = {
     },
     {
       "@type": "WebPage",
-      name: "Commercial Property Types",
-      description: "Overview of commercial real estate property types served by REMAX Commercial Real Estate across Florida.",
+      name: "Commercial Property Types, Florida",
+      description:
+        "Overview of commercial real estate property types served by Barrett Henry, Broker Associate at REMAX Collective, across Florida.",
       url: "https://hencre.com/commercial",
+      dateModified: "2026-07-31",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
   ],
 };
@@ -93,7 +137,48 @@ export default function CommercialIndexPage() {
         ctaHref="/contact"
       />
 
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      {/* ---- Intro ---- */}
+      <section className="mx-auto max-w-4xl px-4 pt-16 pb-4 sm:px-6 lg:px-8">
+        <p className="text-lg leading-relaxed text-[#666666]">
+          Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate
+          experience across all major commercial property types. Whether you are evaluating
+          an{" "}
+          <Link href="/commercial/industrial-warehouse" className="font-semibold text-black underline">
+            industrial warehouse acquisition
+          </Link>{" "}
+          in{" "}
+          <Link href="/markets/polk" className="font-semibold text-black underline">
+            Polk County
+          </Link>
+          , looking to lease{" "}
+          <Link href="/commercial/retail-space" className="font-semibold text-black underline">
+            retail space
+          </Link>{" "}
+          in{" "}
+          <Link href="/markets/hillsborough" className="font-semibold text-black underline">
+            Hillsborough County
+          </Link>
+          , or researching{" "}
+          <Link href="/commercial/nnn-net-lease" className="font-semibold text-black underline">
+            NNN net lease investments
+          </Link>{" "}
+          across Florida, I provide the analysis and market access to get the deal done.
+          Also useful:{" "}
+          <Link href="/calculators" className="font-semibold text-black underline">
+            CRE calculators
+          </Link>
+          ,{" "}
+          <Link href="/insights" className="font-semibold text-black underline">
+            investment guides
+          </Link>
+          , and{" "}
+          <Link href="/services" className="font-semibold text-black underline">
+            full brokerage services
+          </Link>.
+        </p>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {PROPERTY_TYPES.map((pt) => (
             <Link
@@ -113,6 +198,21 @@ export default function CommercialIndexPage() {
         </div>
       </section>
 
+      {/* ---- FAQ section ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-center text-2xl font-bold sm:text-3xl">
+          Commercial Property Types: FAQ
+        </h2>
+        <div className="mt-8">
+          <FAQAccordion items={faqItems} />
+        </div>
+      </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
+
       <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
@@ -131,11 +231,6 @@ export default function CommercialIndexPage() {
           </div>
         </div>
       </section>
-
-      {/* ---- Last updated ---- */}
-      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
-      </div>
     </>
   );
 }

@@ -9,9 +9,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Real Estate FAQ | Leasing, Investing, Cap Rates",
+  title: "Commercial Real Estate FAQ | CRE Questions Answered",
   description:
-    "Answers to 20+ commercial real estate questions — leasing, investing, selling, cap rates, tenant rep, and working with Barrett Henry in Florida. Call (813) 733-7907.",
+    "Answers to 20+ commercial real estate questions: leasing, investing, selling, cap rates, tenant rep, and working with Barrett Henry in Florida. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/faq" },
   openGraph: {
     title: "CRE FAQ | REMAX Commercial Real Estate",
@@ -28,11 +28,11 @@ const FAQ_CATEGORIES = [
     faqs: [
       {
         q: "What does a commercial real estate broker do?",
-        a: "A CRE broker represents clients in buying, selling, or leasing commercial properties. I handle market research, property tours, financial analysis, lease or purchase negotiation, due diligence coordination, and closing. Think of me as your deal quarterback — I manage every moving piece so you can focus on your business.",
+        a: "A CRE broker represents clients in buying, selling, or leasing commercial properties. I handle market research, property tours, financial analysis, lease or purchase negotiation, due diligence coordination, and closing. Think of me as your deal quarterback. I manage every moving piece so you can focus on your business.",
       },
       {
         q: "How is commercial real estate different from residential?",
-        a: "Commercial deals are income-driven. Properties are valued by net operating income and cap rates, not comparable home sales. Leases are longer (3-10+ years), more complex, and heavily negotiated. Due diligence is deeper — environmental reports, zoning reviews, tenant estoppels. The stakes are higher and the process demands specialized expertise.",
+        a: "Commercial deals are income-driven. Properties are valued by net operating income and cap rates, not comparable home sales. Leases are longer (3-10+ years), more complex, and heavily negotiated. Due diligence is deeper: environmental reports, zoning reviews, tenant estoppels. The stakes are higher and the process demands specialized expertise.",
       },
       {
         q: "What property types qualify as commercial real estate?",
@@ -49,7 +49,7 @@ const FAQ_CATEGORIES = [
     faqs: [
       {
         q: "Do I pay a commission as a tenant?",
-        a: "In most commercial lease transactions, the landlord pays the brokerage commission. As your tenant representative, I negotiate on your behalf at no direct cost to you. My incentive is aligned with yours — better terms for you means a better deal for everyone.",
+        a: "In most commercial lease transactions, the landlord pays the brokerage commission. As your tenant representative, I negotiate on your behalf at no direct cost to you. My incentive is aligned with yours. Better terms for you means a better deal for everyone.",
       },
       {
         q: "What is a triple-net (NNN) lease?",
@@ -61,7 +61,7 @@ const FAQ_CATEGORIES = [
       },
       {
         q: "What is a tenant improvement allowance?",
-        a: "A TI allowance is money the landlord contributes toward customizing the space for your business — think build-outs, HVAC modifications, or finish upgrades. TI is negotiable and depends on lease term, credit, and market conditions. A strong tenant rep will push for the maximum allowance.",
+        a: "A TI allowance is money the landlord contributes toward customizing the space for your business: think build-outs, HVAC modifications, or finish upgrades. TI is negotiable and depends on lease term, credit, and market conditions. A strong tenant rep will push for the maximum allowance.",
       },
     ],
   },
@@ -70,19 +70,19 @@ const FAQ_CATEGORIES = [
     faqs: [
       {
         q: "What is a cap rate and why does it matter?",
-        a: "Capitalization rate equals net operating income divided by purchase price. A 7% cap means the property generates 7% of its value in annual net income. Lower cap rates typically signal lower-risk, higher-demand markets. Cap rates are one metric — I help you evaluate the full picture including debt service, appreciation potential, and tenant quality.",
+        a: "Capitalization rate equals net operating income divided by purchase price. A 7% cap means the property generates 7% of its value in annual net income. Lower cap rates typically signal lower-risk, higher-demand markets. Cap rates are one metric. I help you evaluate the full picture including debt service, appreciation potential, and tenant quality.",
       },
       {
         q: "How do I evaluate a commercial investment property?",
-        a: "Start with the numbers: NOI, cap rate, cash-on-cash return, and debt service coverage ratio. Then look at the fundamentals — tenant creditworthiness, lease terms, location, market trends, and deferred maintenance. I build detailed pro formas so you can compare opportunities side by side.",
+        a: "Start with the numbers: NOI, cap rate, cash-on-cash return, and debt service coverage ratio. Then look at the fundamentals: tenant creditworthiness, lease terms, location, market trends, and deferred maintenance. I build detailed pro formas so you can compare opportunities side by side.",
       },
       {
         q: "Can you help with 1031 exchanges?",
-        a: "I am not a tax advisor, but I regularly work with investors executing 1031 exchanges. I coordinate with your qualified intermediary and identify replacement properties within the strict IRS timelines — 45 days to identify, 180 days to close. Timing is everything, and I keep the process on track.",
+        a: "I am not a tax advisor, but I regularly work with investors executing 1031 exchanges. I coordinate with your qualified intermediary and identify replacement properties within the strict IRS timelines: 45 days to identify, 180 days to close. Timing is everything, and I keep the process on track.",
       },
       {
         q: "What is a good cap rate for Florida commercial property?",
-        a: "Cap rates vary widely by property type, location, and tenant quality. In Tampa Bay, you might see 5-6% for stabilized NNN retail, 6-8% for office, and 4-5% for institutional multifamily. The 'right' cap rate depends on your return requirements, risk tolerance, and hold period. I help you benchmark against the market.",
+        a: "Cap rates vary widely by property type, location, and tenant quality. In Tampa Bay, you might see 5-6% for stabilized NNN retail, 6-8% for office, and 4-5% for institutional multifamily. The right cap rate depends on your return requirements, risk tolerance, and hold period. I help you benchmark against the market.",
       },
     ],
   },
@@ -108,7 +108,7 @@ const FAQ_CATEGORIES = [
     faqs: [
       {
         q: "Why should I work with you instead of a large brokerage?",
-        a: "When you call me, you get me — not an assistant, not a junior agent, not a voicemail maze. I bring 23+ years of real estate experience with the full backing of REMAX Collective, one of the largest real estate networks in the world. You get personalized service with institutional reach.",
+        a: "When you call me, you get me, not an assistant, not a junior agent, not a voicemail maze. I bring 23+ years of real estate experience with the full backing of REMAX Collective, one of the largest real estate networks in the world. You get personalized service with institutional reach.",
       },
       {
         q: "Do you handle both sides of a transaction?",
@@ -116,7 +116,7 @@ const FAQ_CATEGORIES = [
       },
       {
         q: "What is the first step to working together?",
-        a: "Call me at (813) 733-7907 or fill out the contact form. Tell me what you are looking for — lease space, sell a property, invest, whatever it is. I will respond within one business day with an honest assessment of how I can help. No hard sell, no obligation.",
+        a: "Call me at (813) 733-7907 or fill out the contact form. Tell me what you are looking for: lease space, sell a property, invest, whatever it is. I will respond within one business day with an honest assessment of how I can help. No hard sell, no obligation.",
       },
       {
         q: "Do you offer referral fees to other agents?",
@@ -124,7 +124,7 @@ const FAQ_CATEGORIES = [
       },
       {
         q: "What designations and awards do you hold?",
-        a: "I am an e-PRO certified agent, Military Relocation Professional (MRP), Seller Representative Specialist (SRS), and REMAX Hall of Fame inductee. These are not just letters — they represent specialized training and a track record of results.",
+        a: "I am an e-PRO certified agent, Military Relocation Professional (MRP), Seller Representative Specialist (SRS), and REMAX Hall of Fame inductee. These are not just letters. They represent specialized training and a track record of results.",
       },
     ],
   },
@@ -171,8 +171,40 @@ export default function FAQPage() {
         subtitle="Straight answers to common commercial real estate questions. No jargon, no runaround."
       />
 
+      {/* ---- Intro with internal links ---- */}
+      <section className="mx-auto max-w-4xl px-4 pt-16 pb-4 sm:px-6 lg:px-8">
+        <p className="text-lg leading-relaxed text-[#666666]">
+          Below you will find answers to the most common questions Barrett Henry receives from
+          Florida commercial real estate clients, covering{" "}
+          <Link href="/services/tenant-representation" className="font-semibold text-black underline">
+            tenant representation
+          </Link>
+          ,{" "}
+          <Link href="/services/investment-sales" className="font-semibold text-black underline">
+            investment sales
+          </Link>
+          ,{" "}
+          <Link href="/services/cre-valuation" className="font-semibold text-black underline">
+            property valuation
+          </Link>
+          , leasing, and more. For deeper reading, see the{" "}
+          <Link href="/insights" className="font-semibold text-black underline">
+            CRE insights hub
+          </Link>
+          , the{" "}
+          <Link href="/blog" className="font-semibold text-black underline">
+            blog
+          </Link>
+          , and the{" "}
+          <Link href="/calculators" className="font-semibold text-black underline">
+            cap rate and ROI calculators
+          </Link>
+          .
+        </p>
+      </section>
+
       {/* ---- FAQ categories ---- */}
-      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         {FAQ_CATEGORIES.map((cat) => (
           <div key={cat.category} className="mb-12">
             <h2 className="text-2xl font-bold text-black">{cat.category}</h2>
@@ -187,6 +219,35 @@ export default function FAQPage() {
           </div>
         ))}
       </section>
+
+      {/* ---- Related resources ---- */}
+      <section className="mx-auto max-w-4xl px-4 pb-16 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold text-black">Related Resources</h2>
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            { label: "CRE Insights Hub", href: "/insights", desc: "In-depth guides on cap rates, lease structures, and valuation." },
+            { label: "Market Analysis", href: "/markets", desc: "County-by-county CRE reports for Tampa Bay and Florida." },
+            { label: "Property Types", href: "/commercial", desc: "Office, retail, industrial, NNN, multifamily, and land." },
+            { label: "Services Overview", href: "/services", desc: "Full-service brokerage: tenant rep to dispositions." },
+            { label: "CRE Calculators", href: "/calculators", desc: "Cap rate, ROI, mortgage, and office space tools." },
+            { label: "About Barrett", href: "/about", desc: "23+ years of experience. Broker Associate at REMAX Collective." },
+          ].map((r) => (
+            <Link
+              key={r.href}
+              href={r.href}
+              className="rounded-lg border border-[#E5E5E5] p-4 no-underline transition-shadow hover:shadow-md hover:no-underline"
+            >
+              <p className="font-semibold text-black">{r.label}</p>
+              <p className="mt-1 text-sm text-[#666666]">{r.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
 
       {/* ---- CTA ---- */}
       <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">

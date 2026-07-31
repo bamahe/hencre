@@ -11,7 +11,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "CRE Insights | Market Intelligence & Investment Guides",
   description:
-    "In-depth commercial real estate insights for Florida investors, tenants, and property owners. Market analysis, investment guides, and CRE strategy from Barrett Henry.",
+    "In-depth commercial real estate insights for Florida investors, tenants, and property owners. Market analysis, investment guides, and CRE strategy from Barrett Henry, Broker Associate at REMAX Collective.",
   alternates: { canonical: "https://hencre.com/insights" },
   openGraph: {
     title: "Insights | REMAX Commercial Real Estate",
@@ -36,19 +36,19 @@ const INSIGHTS = [
   },
   {
     title: "Gross vs. Net Lease: Commercial Lease Structures Compared",
-    description: "NNN vs. gross vs. modified gross — which lease structure is right for your situation as a tenant or landlord?",
+    description: "NNN vs. gross vs. modified gross: which lease structure is right for your situation as a tenant or landlord?",
     href: "/insights/gross-vs-net-lease",
     category: "Leasing Guide",
   },
   {
     title: "NNN Lease Explained: What Triple Net Means for Tenants & Landlords",
-    description: "Everything you need to know about NNN leases — who pays what, how to negotiate, and when triple net makes sense.",
+    description: "Everything you need to know about NNN leases: who pays what, how to negotiate, and when triple net makes sense.",
     href: "/insights/nnn-lease-explained",
     category: "Leasing Guide",
   },
   {
     title: "How to Value Commercial Property: 3 Approaches Every Investor Should Know",
-    description: "Income approach, sales comparison, and cost approach — when to use each method for Florida commercial properties.",
+    description: "Income approach, sales comparison, and cost approach: when to use each method for Florida commercial properties.",
     href: "/insights/how-to-value-commercial-property",
     category: "Investment Guide",
   },
@@ -66,7 +66,7 @@ const INSIGHTS = [
   },
   {
     title: "CAM Charges Explained: What Commercial Tenants Need to Know",
-    description: "Common Area Maintenance charges broken down — what they cover, how to negotiate them, and red flags to watch for.",
+    description: "Common Area Maintenance charges broken down: what they cover, how to negotiate them, and red flags to watch for.",
     href: "/insights/cam-charges-explained",
     category: "Leasing Guide",
   },
@@ -84,9 +84,16 @@ const schema = {
     },
     {
       "@type": "CollectionPage",
-      name: "REMAX Commercial Real Estate Insights",
-      description: "In-depth commercial real estate market intelligence and guides.",
+      name: "HenCRE Commercial Real Estate Insights",
+      description: "In-depth commercial real estate market intelligence, investment guides, and leasing strategy from Barrett Henry, Broker Associate at REMAX Collective.",
       url: "https://hencre.com/insights",
+      dateModified: "2026-07-31",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
     },
   ],
 };
@@ -103,8 +110,49 @@ export default function InsightsIndexPage() {
         subtitle="In-depth market intelligence, investment guides, and CRE strategy. The information you need to make confident decisions."
       />
 
+      {/* ---- Intro ---- */}
+      <section className="mx-auto max-w-4xl px-4 pt-16 pb-4 sm:px-6 lg:px-8">
+        <p className="text-lg leading-relaxed text-[#666666]">
+          These guides are written by Barrett Henry, Broker Associate at REMAX Collective with 23+ years of
+          real estate experience. They cover the core concepts every Florida commercial real estate investor,
+          tenant, and landlord needs to understand, from{" "}
+          <Link href="/insights/what-is-a-cap-rate" className="font-semibold text-black underline">
+            cap rates
+          </Link>{" "}
+          and{" "}
+          <Link href="/insights/how-to-value-commercial-property" className="font-semibold text-black underline">
+            property valuation
+          </Link>{" "}
+          to{" "}
+          <Link href="/insights/nnn-lease-explained" className="font-semibold text-black underline">
+            NNN lease structures
+          </Link>{" "}
+          and{" "}
+          <Link href="/insights/1031-exchange-basics" className="font-semibold text-black underline">
+            1031 exchange strategy
+          </Link>
+          . For current market updates, see the{" "}
+          <Link href="/blog" className="font-semibold text-black underline">
+            blog
+          </Link>
+          . For quick financial modeling, use the{" "}
+          <Link href="/calculators" className="font-semibold text-black underline">
+            CRE calculators
+          </Link>
+          . To explore specific Florida markets, visit{" "}
+          <Link href="/markets" className="font-semibold text-black underline">
+            market pages
+          </Link>{" "}
+          or{" "}
+          <Link href="/contact" className="font-semibold text-black underline">
+            contact Barrett
+          </Link>{" "}
+          for custom analysis.
+        </p>
+      </section>
+
       {/* ---- Insights grid ---- */}
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {INSIGHTS.map((insight) => (
             <Link
@@ -128,6 +176,11 @@ export default function InsightsIndexPage() {
           ))}
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
 
       {/* ---- CTA ---- */}
       <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">

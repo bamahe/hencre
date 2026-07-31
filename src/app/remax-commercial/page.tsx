@@ -111,7 +111,7 @@ const schema = {
       "@type": "RealEstateAgent",
       "@id": "https://hencre.com/remax-commercial/#agent",
       name: "Barrett Henry",
-      jobTitle: "Commercial Real Estate Advisor",
+      jobTitle: "Broker Associate",
       worksFor: {
         "@type": "RealEstateAgent",
         name: "REMAX Collective",
@@ -506,11 +506,16 @@ export default function RemaxCommercialPage() {
         </div>
       </section>
 
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
+
       {/* ---- CTA ---- */}
       <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
-            Work with a REMAX Commercial® Agent in Florida
+            Work with a REMAX Commercial Agent in Florida
           </h2>
           <p className="mt-4 text-lg text-white/80">
             Whether you are buying, selling, leasing, or investing in commercial

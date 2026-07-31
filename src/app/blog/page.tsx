@@ -82,6 +82,53 @@ export default function BlogIndexPage() {
         subtitle="Market updates, investment analysis, and practical CRE insights. No fluff, no filler."
       />
 
+      {/* ---- Intro ---- */}
+      <section className="mx-auto max-w-4xl px-4 pt-12 pb-0 sm:px-6 lg:px-8">
+        <p className="text-lg leading-relaxed text-[#666666]">
+          Market updates, investment analysis, and CRE strategy by Barrett Henry, Broker Associate
+          at REMAX Collective with 23+ years of real estate experience. Topics cover{" "}
+          <Link href="/markets/hillsborough" className="font-semibold text-black underline">
+            Tampa Bay markets
+          </Link>
+          ,{" "}
+          <Link href="/commercial/industrial-warehouse" className="font-semibold text-black underline">
+            industrial and warehouse trends
+          </Link>
+          ,{" "}
+          <Link href="/commercial/office-space" className="font-semibold text-black underline">
+            office market analysis
+          </Link>
+          , investment property strategy, and local submarket reports for{" "}
+          <Link href="/markets/pasco" className="font-semibold text-black underline">
+            Pasco
+          </Link>
+          ,{" "}
+          <Link href="/markets/polk" className="font-semibold text-black underline">
+            Polk
+          </Link>
+          ,{" "}
+          <Link href="/markets/pinellas" className="font-semibold text-black underline">
+            Pinellas
+          </Link>
+          ,{" "}
+          <Link href="/markets/sarasota" className="font-semibold text-black underline">
+            Sarasota
+          </Link>
+          , and beyond. For curated educational guides, see the{" "}
+          <Link href="/insights" className="font-semibold text-black underline">
+            insights hub
+          </Link>
+          . Have a specific question?{" "}
+          <Link href="/faq" className="font-semibold text-black underline">
+            Check the FAQ
+          </Link>{" "}
+          or{" "}
+          <Link href="/contact" className="font-semibold text-black underline">
+            contact Barrett directly
+          </Link>.
+        </p>
+      </section>
+
       {/* ---- Blog grid ---- */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -129,6 +176,11 @@ export default function BlogIndexPage() {
           ))}
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+      </div>
 
       {/* ---- CTA ---- */}
       <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
