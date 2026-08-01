@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Commercial Real Estate in Franklin County, Florida | HenCRE",
@@ -38,7 +38,7 @@ export default function Page() {
       ]} />
       <Hero title="Commercial Real Estate in Franklin County, Florida" subtitle="Expert guide to commercial real estate in Franklin County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
       <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section class="market-overview">
+        <section className="market-overview">
   <h1>Franklin County Commercial Real Estate Market Overview</h1>
   
   <p>Franklin County represents one of Florida's most distinctive coastal markets. I've worked markets across the state, and what makes Franklin County different is its scarcity — limited commercial inventory, strong environmental protections, and a tight-knit business community built around heritage industries and tourism. If you're looking to invest, lease, or establish a presence here, you're operating in a market where opportunity meets genuine constraints.</p>
@@ -120,7 +120,6 @@ export default function Page() {
         body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
     </>
   );
