@@ -1,161 +1,356 @@
+import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import LeadForm from "@/components/LeadForm";
+import FAQAccordion from "@/components/FAQAccordion";
+import CTASection from "@/components/CTASection";
+import RelatedLinks from "@/components/RelatedLinks";
+import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Commercial Real Estate in Escambia County, Florida | HenCRE",
-  description: "Expert guide to commercial real estate in Escambia County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+  title: "Escambia County Commercial Real Estate | Pensacola | HenCRE",
+  description:
+    "Commercial real estate in Escambia County, FL: NAS Pensacola-anchored market, defense tech office, I-10 industrial, and Gulf Coast hospitality. Barrett Henry, Broker Associate at REMAX Collective.",
+  alternates: { canonical: "https://hencre.com/markets/escambia" },
   openGraph: {
-    title: "Commercial Real Estate in Escambia County, Florida | HenCRE",
-    description: "Expert guide to commercial real estate in Escambia County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+    title: "Escambia County Commercial Real Estate | Pensacola | HenCRE",
+    description:
+      "Pensacola CRE: NAS-anchored stability, defense tech and cybersecurity office, I-10 industrial corridor, and Gulf Coast hospitality. Expert guidance from Barrett Henry at REMAX Collective.",
     url: "https://hencre.com/markets/escambia",
-    siteName: "HenCRE",
-    type: "article",
   },
 };
 
-export default function Page() {
+const faqs = [
+  {
+    question: "How does NAS Pensacola affect the local commercial real estate market?",
+    answer:
+      "Naval Air Station Pensacola is a generational anchor employer and economic stabilizer for Escambia County. Its presence creates steady demand for office space serving defense contractors, logistics and support services, manufacturing facilities, and professional services catering to military personnel and their families. NAS demand is anti-cyclical -- when commercial markets weaken, military-adjacent demand holds. That stability makes Escambia County attractive to investors who want less exposure to economic cycles.",
+  },
+  {
+    question: "Is Pensacola&apos;s downtown and tech corridor real or just hype?",
+    answer:
+      "It is real and gaining momentum. Downtown Pensacola -- particularly the 9th Avenue and Palafox District corridor -- has seen genuine adaptive reuse activity, new creative office and startup incubator build-out, and government contractor services growth. The cybersecurity and defense tech cluster forming around NAS decision-makers is not hype -- it is active recruitment and organic cluster formation tied to federal investment. For investors and tenants, this corridor offers office with character and a growing professional tenant base.",
+  },
+  {
+    question: "What types of commercial investment perform best in Escambia County?",
+    answer:
+      "Industrial and logistics space along the I-10 corridor performs consistently, driven by port activity and military contractor demand. Office in downtown Pensacola and the NAS corridor attracts defense tech and government contractor tenants. Gulf Coast hospitality and retail along Pensacola Beach and US-98 benefit from strong tourism demand. Mixed-use in the Palafox District is gentrifying with real investment behind it. Across all types, Escambia offers less competition from institutional investors than Tampa Bay or Jacksonville, which can mean better pricing and negotiating leverage.",
+  },
+  {
+    question: "How does Escambia County compare to the Emerald Coast markets?",
+    answer:
+      "Escambia County (Pensacola) operates as a year-round, employer-anchored market -- distinct from the heavily tourism-dependent Emerald Coast markets to the east such as Walton and Okaloosa counties. Pensacola has more diversified demand anchored by NAS and the emerging defense tech sector. The Emerald Coast has higher seasonal peaks but more volatile fundamentals. For investors wanting stability over upside volatility, Escambia is the better fit.",
+  },
+  {
+    question: "How does Barrett Henry work in the Escambia County market?",
+    answer:
+      "Barrett works Escambia County through referral partnerships and direct client engagement, drawing on REMAX network connections in Pensacola and 23+ years of Florida CRE relationships. He provides corridor-by-corridor analysis, competitive positioning guidance, and connections to verified local specialists for tenant representation, landlord advisory, and investment sales. Everything is hands-on -- Barrett assesses your situation directly and connects you with the right people for execution.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Markets", item: "https://hencre.com/markets" },
+        { "@type": "ListItem", position: 3, name: "Escambia County", item: "https://hencre.com/markets/escambia" },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "Escambia County Commercial Real Estate",
+      provider: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        email: "barrett@hencre.com",
+        telephone: "+18137337907",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+        url: "https://hencre.com/about",
+      },
+      areaServed: { "@type": "County", name: "Escambia County", containedIn: { "@type": "State", name: "Florida" } },
+      description:
+        "Commercial real estate advisory, referral partnerships, and investment guidance for Escambia County, Florida -- serving Pensacola office, I-10 industrial, and Gulf Coast hospitality markets.",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
+
+const relatedLinks = [
+  {
+    title: "Bay County Commercial Real Estate",
+    href: "/markets/bay",
+    description: "Panama City and the Panhandle military/tourism market east of Escambia.",
+  },
+  {
+    title: "Duval County Commercial Real Estate",
+    href: "/markets/duval",
+    description: "Jacksonville -- Northeast Florida&apos;s commercial hub with JAXPORT industrial and downtown mixed-use.",
+  },
+  {
+    title: "Industrial and Warehouse Advisory",
+    href: "/commercial/industrial-warehouse",
+    description: "Industrial and logistics space investment across Florida&apos;s freight corridors.",
+  },
+  {
+    title: "Office Space Advisory",
+    href: "/commercial/office-space",
+    description: "Office leasing, investment, and tenant representation across Florida markets.",
+  },
+  {
+    title: "Tenant Representation",
+    href: "/services/tenant-representation",
+    description: "Expert tenant representation for businesses leasing commercial space anywhere in Florida.",
+  },
+  {
+    title: "Investment Sales",
+    href: "/services/investment-sales",
+    description: "Florida commercial investment acquisition and disposition services.",
+  },
+];
+
+export default function EscambiaMarketPage() {
   return (
     <>
-      <SchemaOrg schema={{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Commercial Real Estate in Escambia County, Florida",
-        "description": "Expert guide to commercial real estate in Escambia County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
-        "author": {
-          "@type": "Person",
-          "name": "Barrett Henry",
-          "jobTitle": "Broker Associate",
-          "worksFor": { "@type": "Organization", "name": "REMAX Collective" }
-        }
-      }} />
-      <Breadcrumbs items={[
-        { label: "Home", href: "/" },
-        { label: "Markets", href: "/markets" },
-        { label: "Commercial Real Estate in Escambia County, Florida", href: "/markets/escambia" },
-      ]} />
-      <Hero title="Commercial Real Estate in Escambia County, Florida" subtitle="Expert guide to commercial real estate in Escambia County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
-      <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
-        <section>
-  <h1>Escambia County Commercial Real Estate Market Overview</h1>
-  <p>
-    I work Escambia County through referral partnerships and direct client requests. What I've seen over my 23+ years in Florida commercial real estate is that Escambia—anchored by Pensacola and its surrounding municipalities—operates as a genuinely strategic market for the right investor or tenant. It's not oversaturated. It's not chase-heavy. But it's built on real, durable demand drivers that smart operators know how to capitalize on.
-  </p>
-</section>
+      <SchemaOrg schema={schema} />
 
-<section>
-  <h2>Market Anchors & Demand Drivers</h2>
-  <p>
-    Escambia County's commercial real estate fundamentals rest on three pillars:
-  </p>
-  <ul>
-    <li><strong>Naval Air Station Pensacola (NAS):</strong> A generational anchor employer and economic stabilizer. The presence of NAS creates steady demand for office, logistics, manufacturing support, and contractor services. It's recession-resistant and it attracts complementary tenants.</li>
-    <li><strong>Cybersecurity and Defense Tech Sector:</strong> Downtown Pensacola and surrounding corridors are seeing genuine growth in cybersecurity, tech, and defense contracting operations. This isn't hype—it's active recruitment and organic cluster formation tied to the military presence and federal investment.</li>
-    <li><strong>Hospitality, Tourism & Retail:</strong> Pensacola Beach and the coastal corridor drive seasonal and year-round hospitality demand. That translates to retail, restaurant space, and service-oriented commercial real estate in high-traffic nodes.</li>
-  </ul>
-  <p>
-    These three anchors work together. They're not competing for space; they're competing for talent and creating demand density across different property types.
-  </p>
-</section>
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Markets", href: "/markets" },
+          { label: "Escambia County", href: "/markets/escambia" },
+        ]}
+      />
 
-<section>
-  <h2>Key CRE Corridors</h2>
-  
-  <h3>Downtown Pensacola (9th Avenue Corridor & Palafox District)</h3>
-  <p>
-    This is where the tech and office action concentrates. You've got adaptive reuse conversion activity, new build-out in creative office and startup incubators, and government contractor services. It's gentrifying in the best sense—property owners are investing in infrastructure, and tenants are coming because of the talent pool and proximity to NAS decision-makers. I see activity in office leasing, small industrial-flex for tech and light manufacturing, and mixed-use development.
-  </p>
+      <Hero
+        title="Escambia County Commercial Real Estate"
+        subtitle="Pensacola -- NAS-anchored stability, defense tech and cybersecurity office, I-10 industrial, and Gulf Coast hospitality. Barrett Henry, Broker Associate at REMAX Collective."
+        ctaText="Start the Conversation"
+        ctaHref="/contact"
+      />
 
-  <h3>I-10 Industrial Corridor (Cantonment to Brent)</h3>
-  <p>
-    The spine of Escambia County's logistics and light industrial market. This corridor serves the port, the military, and regional distribution. Tenants here are seeking functional warehousing, cross-dock facilities, and manufacturing support. It's working space—no frills, reliable demand, lower lease rates than coastal Florida but solid occupancy patterns driven by port activity and contractor demand.
-  </p>
+      {/* Quick Answer */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
+          <p className="text-lg font-semibold text-black">Quick Answer</p>
+          <p className="mt-2 text-[#666666]">
+            Escambia County is anchored by Naval Air Station Pensacola -- a generational employer that provides anti-cyclical stability few Florida markets can match. Layered on top of that base is a growing defense tech and cybersecurity cluster, a consistent I-10 industrial market, and Gulf Coast tourism demand driving hospitality and retail. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Escambia County through referral partnerships and direct client engagement.
+          </p>
+        </div>
+      </section>
 
-  <h3>Pensacola Beach & US-98 Tourist Corridor</h3>
-  <p>
-    Hospitality, restaurant, and service retail dominate. Hotel development, management, F&B leasing, and tourism-support commercial space. This isn't a commercial office hub, but for investors targeting seasonal or year-round hospitality real estate, it's genuine demand with established traffic patterns.
-  </p>
+      {/* Market Overview */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">Escambia County Commercial Real Estate Market Overview</h2>
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
+          <p>
+            Escambia County&apos;s commercial real estate fundamentals rest on three pillars: Naval Air Station Pensacola, the emerging
+            cybersecurity and defense tech sector, and Gulf Coast tourism. These three anchors work together rather than competing --
+            NAS creates baseline employer demand, the tech sector adds a growing professional workforce, and the beach corridor drives
+            retail, restaurant, and hospitality investment.
+          </p>
+          <p>
+            Investors and tenants often overlook Escambia because it is not Miami, Tampa, or Orlando. That is actually an advantage.
+            Fewer institutional players, less hype-driven pricing, and clearer underwriting are characteristics of this market. For
+            investors comparing northwest Florida to other markets, see also the{" "}
+            <Link href="/markets/bay" className="font-semibold text-black underline">Bay County market</Link>{" "}
+            east along the Panhandle, and note how Escambia&apos;s year-round employer base differentiates it from the more tourism-dependent
+            Emerald Coast communities. Closer to Tampa Bay,{" "}
+            <Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough County</Link>{" "}
+            remains the region&apos;s most liquid CRE market for investors seeking higher transaction volume.
+          </p>
+        </div>
 
-  <h3>Cantonment (North of I-10)</h3>
-  <p>
-    Emerging secondary corridor. Retail, fast-casual dining, and service tenants. More suburban feel, more affordable rents, growing residential population. Good entry point for smaller investors or tenants seeking value without trading away tenant credit or visibility.
-  </p>
-</section>
+        <div className="mt-10 overflow-hidden rounded-lg">
+          <Image
+            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900&q=80"
+            alt="Professional office interior representing Pensacola defense tech and CRE market"
+            width={900}
+            height={500}
+            className="w-full object-cover"
+          />
+          <p className="mt-2 text-xs text-[#999999] text-center">
+            Downtown Pensacola&apos;s tech and defense contractor office corridor is attracting genuine tenant demand tied to NAS Pensacola and federal investment.
+          </p>
+        </div>
+      </section>
 
-<section>
-  <h2>Active Property Types & Tenant Profile</h2>
-  
-  <h3>Office</h3>
-  <p>
-    Tech startups, government contractors, engineering firms, and professional services anchor office demand. Downtown is moving upscale; outlying areas offer value-oriented flex and traditional office. NAS-related tenants drive small-to-mid-size leasing activity.
-  </p>
+      {/* Key Corridors */}
+      <section className="bg-white px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">Key Commercial Corridors in Escambia County</h2>
+          <div className="mt-6 space-y-8 text-lg leading-relaxed text-[#666666]">
+            <div>
+              <h3 className="text-xl font-bold text-black">Downtown Pensacola -- 9th Avenue and Palafox District</h3>
+              <p className="mt-2">
+                This is where the tech and{" "}
+                <Link href="/commercial/office-space" className="font-semibold text-black underline">office</Link>{" "}
+                action concentrates. Adaptive reuse conversion activity, new build-out in creative office and startup incubators, and
+                government contractor services have transformed this corridor. Property owners are investing in infrastructure and tenants
+                are coming because of the talent pool and proximity to NAS decision-makers. The Palafox District adds restaurant and
+                retail activation that sustains foot traffic and supports multifamily investment nearby.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-black">I-10 Industrial Corridor -- Cantonment to Brent</h3>
+              <p className="mt-2">
+                The spine of Escambia County&apos;s logistics and light{" "}
+                <Link href="/commercial/industrial-warehouse" className="font-semibold text-black underline">industrial market</Link>.
+                This corridor serves the port, the military, and regional distribution. Tenants seek functional warehousing, cross-dock
+                facilities, and manufacturing support. Lease rates are lower than coastal Florida but occupancy patterns are solid,
+                driven by port activity and contractor demand. For investors comparing Florida industrial markets, Escambia offers more
+                accessible entry pricing than Tampa Bay or Jacksonville at similar occupancy fundamentals.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-black">Pensacola Beach and US-98 Tourism Corridor</h3>
+              <p className="mt-2">
+                Hospitality, restaurant, and service{" "}
+                <Link href="/commercial/retail-space" className="font-semibold text-black underline">retail</Link>{" "}
+                dominate. Hotel development, F&amp;B leasing, and tourism-support commercial space drive this submarket. For investors
+                targeting seasonal or year-round hospitality real estate, this corridor offers genuine demand with established traffic
+                patterns. Pensacola Beach&apos;s location on a barrier island also constrains supply, supporting pricing power for
+                well-positioned assets.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-black">Cantonment -- Emerging Suburban Retail</h3>
+              <p className="mt-2">
+                North of I-10, Cantonment is an emerging secondary corridor. Retail, fast-casual dining, and service tenants serve a
+                growing residential population. More suburban feel, more affordable rents, and a good entry point for smaller investors
+                or tenants seeking value without sacrificing tenant credit or visibility.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <h3>Industrial & Logistics</h3>
-  <p>
-    Port-adjacent and I-10-corridor industrial is where tenant velocity concentrates. Manufacturing support, logistics, cross-dock, and contractor storage. These tenants need reliable utilities, good highway access, and reasonable rents. That's exactly what Escambia delivers.
-  </p>
+      {/* Property Types */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">Active Property Types and Demand Drivers</h2>
+        <div className="mt-6 grid gap-6 sm:grid-cols-2">
+          {[
+            {
+              title: "Office -- Tech and Defense",
+              body: "Tech startups, government contractors, engineering firms, and professional services anchor demand. Downtown is moving upscale; outlying areas offer value-oriented flex and traditional office. NAS-related tenants drive small-to-mid-size leasing activity across the corridor.",
+            },
+            {
+              title: "Industrial and Logistics",
+              body: "Port-adjacent and I-10-corridor industrial concentrates tenant velocity. Manufacturing support, logistics, cross-dock, and contractor storage all have consistent demand. Reliable utilities, good highway access, and reasonable rents make Escambia competitive against larger Florida industrial markets.",
+            },
+            {
+              title: "Retail and Hospitality",
+              body: "Coastal retail (F&B, hospitality support, tourist retail) and suburban retail (fast casual, service, convenience) perform consistently. Anchor tenants include national chains and regional operators. Less competitive bidding pressure than Tampa Bay or Jacksonville markets.",
+            },
+            {
+              title: "Mixed-Use and Medical",
+              body: "Hotel, resort, and multi-tenant hospitality development drives significant activity along the coast and downtown. Medical office near NAS healthcare facilities and the growing local population creates consistent owner-user and investment demand.",
+            },
+          ].map((item) => (
+            <div key={item.title} className="rounded-lg border border-[#E5E5E5] p-6">
+              <p className="font-bold text-black">{item.title}</p>
+              <p className="mt-2 text-[#666666]">{item.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-  <h3>Retail</h3>
-  <p>
-    Coastal retail (F&B, hospitality support, tourist retail) and suburban retail (fast casual, service, convenience). Anchor tenants include national chains and regional operators. Less competitive bidding pressure than Tampa Bay or Jacksonville markets.
-  </p>
+      {/* Why Escambia Matters */}
+      <section className="bg-white px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">Why Escambia County Matters for CRE Investors</h2>
+          <ul className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666] list-disc pl-6">
+            <li>
+              <strong className="text-black">Diversified Demand:</strong> Military, tech, tourism, logistics, and light manufacturing
+              create overlapping demand across multiple property types. You are not chasing one tenant type or one economic driver.
+            </li>
+            <li>
+              <strong className="text-black">Lower Competition:</strong> Fewer institutional players, fewer out-of-state investors,
+              less hype-driven pricing. Better negotiating position and clearer underwriting compared to Tampa Bay or Jacksonville.
+            </li>
+            <li>
+              <strong className="text-black">Strategic Geography:</strong> Escambia is the northwest anchor of Florida. Port access,
+              I-10 connectivity, and regional distribution significance matter for logistics tenants serving the Southeast.
+            </li>
+            <li>
+              <strong className="text-black">Anti-Cyclical Stability:</strong> NAS is not going anywhere. When commercial markets
+              weaken, military-adjacent demand holds. When they strengthen, you have upside from tech growth and tourism recovery.
+              That combination is rare in Florida CRE.
+            </li>
+          </ul>
+        </div>
+      </section>
 
-  <h3>Mixed-Use & Hospitality</h3>
-  <p>
-    Hotel, resort, and multi-tenant hospitality development drives significant activity along the coast and in downtown. I'm seeing genuine reinvestment in older assets and new ground-up projects targeting both leisure and military-adjacent travelers.
-  </p>
-</section>
+      {/* Barrett Services */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Works in Escambia County</h2>
+        <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
+          <p>
+            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience, holding designations
+            including e-PRO, MRP, SRS, and REMAX Hall of Fame. He works Escambia County primarily through referral relationships and
+            direct client engagement, drawing on REMAX network connections in Pensacola and decades of Florida CRE relationships.
+          </p>
+          <p>
+            Barrett handles{" "}
+            <Link href="/services/tenant-representation" className="font-semibold text-black underline">tenant representation</Link>,{" "}
+            <Link href="/services/landlord-leasing" className="font-semibold text-black underline">landlord advisory</Link>,{" "}
+            <Link href="/services/investment-sales" className="font-semibold text-black underline">investment sales</Link>,
+            and market intelligence work across office, industrial, and retail. For investors considering Escambia County as part of
+            a broader Florida strategy, he can build comparative analyses against active markets like{" "}
+            <Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough</Link>{" "}
+            or{" "}
+            <Link href="/markets/pinellas" className="font-semibold text-black underline">Pinellas</Link>{" "}
+            -- factoring cap rates, tenant profiles, and long-term demand drivers. See the{" "}
+            <Link href="/calculators/cap-rate" className="font-semibold text-black underline">cap rate calculator</Link>{" "}
+            and{" "}
+            <Link href="/blog/what-makes-a-good-commercial-investment" className="font-semibold text-black underline">commercial investment evaluation guide</Link>{" "}
+            as starting points.
+          </p>
+          <p>
+            <Link href="/contact" className="font-semibold text-black underline">Contact Barrett directly</Link> at (813) 733-7907.
+          </p>
+        </div>
+      </section>
 
-<section>
-  <h2>Why Escambia County Matters</h2>
-  <p>
-    Investors and tenants often overlook Escambia because it's not Miami, Tampa, or Orlando. That's actually an advantage if you know the market.
-  </p>
-  <ul>
-    <li><strong>Diversified Demand:</strong> You're not chasing one tenant type or one economic driver. Military, tech, tourism, logistics, and light manufacturing create overlapping demand across multiple property types.</li>
-    <li><strong>Lower Competition:</strong> Fewer institutional players, fewer out-of-state investors, less hype-driven pricing. That means better negotiating position and clearer underwriting.</li>
-    <li><strong>Strategic Geography:</strong> Escambia is the northwest anchor of Florida. Port access, I-10 connectivity, and regional distribution significance matter for logistics tenants who need to serve the Southeast.</li>
-    <li><strong>Stability:</strong> NAS isn't going anywhere. That baseline demand is anti-cyclical. When markets weaken, military-adjacent demand holds. When they strengthen, you've got upside from tech growth and tourism recovery.</li>
-  </ul>
-</section>
+      {/* FAQ */}
+      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold sm:text-3xl">Frequently Asked Questions About Escambia County CRE</h2>
+        <div className="mt-8">
+          <FAQAccordion items={faqs} />
+        </div>
+      </section>
 
-<section>
-  <h2>Services I Offer in Escambia County</h2>
-  <p>
-    I work Escambia County primarily through referral relationships and direct client engagement. Here's what I handle:
-  </p>
-  <ul>
-    <li><strong>Tenant Representation:</strong> I locate, negotiate, and place tenants across office, industrial, and retail. I know the corridors, the landlords, and the available inventory at any given time.</li>
-    <li><strong>Landlord Advisory:</strong> Market positioning, rent setting, lease structure optimization, and tenant quality assessment. I help owners maximize asset value and minimize vacancy risk.</li>
-    <li><strong>Investment Sales:</strong> I represent investors buying and selling office, industrial, hospitality, and mixed-use assets. I handle pricing analysis, buyer identification, and transaction management.</li>
-    <li><strong>Commercial Leasing Strategy:</strong> Whether you're a first-time tenant or an expanding operator, I build lease strategies that protect your interests and set you up for growth.</li>
-    <li><strong>Market Intelligence:</strong> Corridor-by-corridor analysis, competitive positioning, demand driver tracking, and long-term strategy development for clients planning multi-year expansion or investment.</li>
-  </ul>
-  <p>
-    I work through REMAX Collective. Everything is hands-on—I'm not delegating your deal to a transaction coordinator. I show property, negotiate directly, and close business the right way. I've been a licensed Florida REALTOR® since 2001 and hold e-PRO, MRP, and SRS designations. I'm also a REMAX Hall of Fame member and part of the REMAX Collective network.
-  </p>
-</section>
+      {/* Lead form */}
+      <section id="lead-form" className="bg-gray-50 px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-xl">
+          <LeadForm />
+        </div>
+      </section>
 
-<section>
-  <h2>Let's Talk Escambia County</h2>
-  <p>
-    If you're considering Escambia County for a lease, an acquisition, or a tenant placement, let's schedule a conversation. I'll walk you through the corridors, the current market state, the tenant landscape, and how to structure a deal that works.
-  </p>
-  <p>
-    <strong>Phone:</strong> (813) 733-7907<br />
-    <strong>Email:</strong> barrett@nowtb.com
-  </p>
-</section>
-      </main>
+      <RelatedLinks heading="Explore Related Markets and Services" links={relatedLinks} />
+
       <CTASection
-        heading="Ready to Talk Commercial Real Estate?"
-        body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
+        heading="Ready to Talk Escambia County Commercial Real Estate?"
+        body="Whether you are leasing office space near NAS, evaluating industrial along I-10, investing in Gulf Coast hospitality, or comparing Pensacola to other Florida markets -- Barrett Henry has the network and 23+ years of experience to help you get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
+
+      <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+      </div>
     </>
   );
 }

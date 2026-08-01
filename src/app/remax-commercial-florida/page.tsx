@@ -132,7 +132,7 @@ const FAQS = [
   },
   {
     q: "How do I connect with a REMAX Commercial Real Estate advisor in my area?",
-    a: "Contact Barrett Henry at (813) 733-7907 or barrett@hencre.com. As a Commercial Real Estate Advisor at REMAX Collective, Barrett coordinates commercial referrals statewide. He will connect you with the right REMAX Commercial Real Estate advisor for your market and property type — whether you need an agent in Fort Lauderdale, Orlando, Miami, or any other Florida city.",
+    a: "Contact Barrett Henry at (813) 733-7907 or barrett@hencre.com. As a Broker Associate at REMAX Collective, Barrett coordinates commercial referrals statewide. He will connect you with the right REMAX Commercial Real Estate advisor for your market and property type — whether you need an agent in Fort Lauderdale, Orlando, Miami, or any other Florida city.",
   },
   {
     q: "Can Barrett Henry help with deals outside Tampa Bay?",
@@ -191,12 +191,12 @@ export default function RemaxCommercialFloridaPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Florida Agents", href: "/remax-commercial-florida" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "REMAX Commercial", href: "/remax-commercial" }, { label: "Florida Agents", href: "/remax-commercial-florida" }]} />
 
       {/* ---- Hero ---- */}
       <Hero
         title="REMAX Commercial® Agents Across Florida"
-        subtitle="78+ commercial REALTORS® in 40+ cities. Barrett Henry, Commercial Real Estate Advisor at REMAX Collective, coordinates statewide commercial referrals."
+        subtitle="78+ commercial real estate agents in 40+ cities. Barrett Henry, Broker Associate at REMAX Collective, coordinates statewide commercial referrals."
         ctaText="Contact Barrett"
         ctaHref="/contact"
       />
@@ -208,26 +208,38 @@ export default function RemaxCommercialFloridaPage() {
         </h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            REMAX Commercial® has commercial real estate agents stationed across
+            REMAX Commercial has commercial real estate agents stationed across
             every major market in Florida. From the Panhandle to South Florida,
-            78+ dedicated commercial REALTORS® cover 40+ cities — handling
-            office, retail, industrial, multifamily, land, and investment
+            78+ dedicated commercial agents cover 40+ cities, handling{" "}
+            <Link href="/commercial/office-space" className="font-semibold text-black underline">office</Link>,{" "}
+            <Link href="/commercial/retail-space" className="font-semibold text-black underline">retail</Link>,{" "}
+            <Link href="/commercial/industrial-warehouse" className="font-semibold text-black underline">industrial</Link>,{" "}
+            <Link href="/commercial/multifamily" className="font-semibold text-black underline">multifamily</Link>,{" "}
+            <Link href="/commercial/land-development" className="font-semibold text-black underline">land</Link>, and investment
             properties every day.
           </p>
           <p>
-            Barrett Henry, Commercial Real Estate Advisor at REMAX Collective,
+            Barrett Henry, Broker Associate at REMAX Collective,
             serves as a coordination point for commercial deals statewide.
-            Whether you need a commercial REALTOR® in Fort Lauderdale, Orlando,
-            Tampa, Miami, or anywhere in between, the REMAX Commercial® network
+            Whether you need a commercial broker in{" "}
+            <Link href="/markets/broward" className="font-semibold text-black underline">Fort Lauderdale</Link>,{" "}
+            Tampa, Miami, or anywhere in between, the REMAX Commercial network
             has you covered. Barrett connects clients with the right agent for
             their market and property type, ensuring local expertise on every
             deal.
           </p>
           <p>
-            This page maps the REMAX Commercial® footprint across Florida by
+            This page maps the REMAX Commercial footprint across Florida by
             region and city. If you have a commercial real estate need anywhere
             in the state, Barrett is your single point of contact to access the
-            full network.
+            full network. Learn more about{" "}
+            <Link href="/services/investment-sales" className="font-semibold text-black underline">investment sales</Link>,{" "}
+            <Link href="/services/tenant-representation" className="font-semibold text-black underline">tenant representation</Link>, and{" "}
+            <Link href="/services/landlord-leasing" className="font-semibold text-black underline">landlord leasing</Link>{" "}
+            services across{" "}
+            <Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough</Link>,{" "}
+            <Link href="/markets/pinellas" className="font-semibold text-black underline">Pinellas</Link>,{" "}
+            <Link href="/markets/polk" className="font-semibold text-black underline">Polk</Link>, and all 67 Florida counties.
           </p>
         </div>
       </section>
@@ -387,6 +399,10 @@ export default function RemaxCommercialFloridaPage() {
           </Link>
         </div>
       </section>
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+      </div>
     </>
   );
 }

@@ -10,14 +10,14 @@ import Breadcrumbs from "@/components/Breadcrumbs";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "About Barrett Henry | CRE Advisor, REMAX Hall of Fame",
+  title: "About Barrett Henry | Broker Associate, REMAX Hall of Fame",
   description:
-    "Barrett Henry — Commercial Real Estate Advisor at REMAX Collective with 23+ years of real estate experience. e-PRO, MRP, SRS designations, REMAX Hall of Fame. Call (813) 733-7907.",
+    "Barrett Henry -- Broker Associate at REMAX Collective with 23+ years of real estate experience. e-PRO, MRP, SRS designations, REMAX Hall of Fame. Florida commercial real estate across all 67 counties. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/about" },
   openGraph: {
-    title: "About Barrett Henry | CRE Advisor, REMAX Hall of Fame",
+    title: "About Barrett Henry | Broker Associate, REMAX Hall of Fame",
     description:
-      "REMAX Commercial Real Estate Advisor with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
+      "Broker Associate at REMAX Collective with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
     url: "https://hencre.com/about",
   },
 };
@@ -37,14 +37,14 @@ const schema = {
       "@type": "Person",
       "@id": "https://hencre.com/#person",
       name: "Barrett Henry",
-      jobTitle: "Commercial Real Estate Advisor",
+      jobTitle: "Broker Associate",
       worksFor: {
         "@type": "RealEstateAgent",
         name: "REMAX Collective",
       },
       memberOf: {
         "@type": "Organization",
-        name: "REMAX Commercial®",
+        name: "REMAX Commercial",
         url: "https://www.remaxcommercial.com",
       },
       url: "https://hencre.com/about",
@@ -85,7 +85,7 @@ export default function AboutPage() {
 
       <Hero
         title="About Barrett Henry"
-        subtitle="Commercial Real Estate Advisor at REMAX Collective. REALTOR® with 23+ years of real estate experience."
+        subtitle="Broker Associate at REMAX Collective. 23+ years of commercial real estate experience across Florida."
       />
 
       {/* ---- Bio section ---- */}
@@ -93,18 +93,20 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Who I Am</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            I am Barrett Henry — a licensed Commercial Real Estate Advisor at REMAX
-            Collective, with 23+ years of real estate experience. I hold the e-PRO,
-            MRP (Military Relocation Professional), and SRS (Seller Representative
-            Specialist) designations, and I have been inducted into the REMAX Hall of
-            Fame.
+            I am Barrett Henry -- a Broker Associate at REMAX Collective with 23+ years of real estate experience.
+            I hold the e-PRO, MRP (Military Relocation Professional), and SRS (Seller Representative
+            Specialist) designations, and I have been inducted into the REMAX Hall of Fame.
           </p>
           <p>
             My career has spanned residential and commercial transactions, but my focus
-            today is commercial real estate across Florida. I handle tenant
-            representation, landlord leasing, investment sales, dispositions, and
-            broker opinions of value — the full spectrum of CRE services. On the
-            residential side, I continue to serve Tampa Bay buyers and sellers
+            today is commercial real estate across Florida. I handle{" "}
+            <Link href="/services/tenant-representation" className="font-semibold text-black underline">tenant representation</Link>,{" "}
+            <Link href="/services/landlord-leasing" className="font-semibold text-black underline">landlord leasing</Link>,{" "}
+            <Link href="/services/investment-sales" className="font-semibold text-black underline">investment sales</Link>,{" "}
+            <Link href="/services/dispositions" className="font-semibold text-black underline">dispositions</Link>,
+            and{" "}
+            <Link href="/services/cre-valuation" className="font-semibold text-black underline">broker opinions of value</Link>{" "}
+            -- the full spectrum of CRE services. On the residential side, I continue to serve Tampa Bay buyers and sellers
             through{" "}
             <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="font-semibold text-black underline">
               The NOW Team at REMAX Collective
@@ -124,11 +126,18 @@ export default function AboutPage() {
             ongoing management.
           </p>
           <p>
-            Based in Tampa Bay, serving commercial clients across Florida through
-            the REMAX Commercial® network. I operate from three REMAX Collective
+            Based in Tampa Bay, serving commercial clients across Florida. I operate from three REMAX Collective
             offices in Tampa, Largo, and Brandon. For deals anywhere else in the
             state, I leverage a network of trusted brokers in all 67 Florida
-            counties. You get local expertise no matter where the property sits.
+            counties -- from{" "}
+            <Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough</Link>{" "}
+            and{" "}
+            <Link href="/markets/pinellas" className="font-semibold text-black underline">Pinellas</Link>{" "}
+            to{" "}
+            <Link href="/markets/duval" className="font-semibold text-black underline">Duval</Link>{" "}
+            and{" "}
+            <Link href="/markets/broward" className="font-semibold text-black underline">Broward</Link>.
+            You get local expertise no matter where the property sits.
           </p>
         </div>
       </section>
@@ -160,10 +169,15 @@ export default function AboutPage() {
             </p>
             <p>
               Unlike traditional CRE firms that restrict brokers to a single asset
-              class, the REMAX Commercial® model gives me the flexibility to handle
-              any property type — office, retail, industrial, multifamily, land,
+              class, the REMAX Commercial model gives me the flexibility to handle
+              any property type:{" "}
+              <Link href="/commercial/office-space" className="font-semibold text-black underline">office</Link>,{" "}
+              <Link href="/commercial/retail-space" className="font-semibold text-black underline">retail</Link>,{" "}
+              <Link href="/commercial/industrial-warehouse" className="font-semibold text-black underline">industrial</Link>,{" "}
+              <Link href="/commercial/multifamily" className="font-semibold text-black underline">multifamily</Link>,{" "}
+              <Link href="/commercial/land-development" className="font-semibold text-black underline">land</Link>,
               hospitality, and specialty assets. Commercial real estate is
-              not residential with bigger numbers — it requires different skills,
+              not residential with bigger numbers; it requires different skills,
               different analysis, and a different mindset. The REMAX model attracts
               brokers who think that way.
             </p>

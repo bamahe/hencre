@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "Answers to 20+ commercial real estate questions — leasing, investing, selling, cap rates, tenant rep, and working with Barrett Henry in Florida. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/faq" },
   openGraph: {
-    title: "CRE FAQ | REMAX Commercial Real Estate",
+    title: "CRE FAQ | Barrett Henry, REMAX Collective",
     description:
       "20+ answers to common commercial real estate questions. Leasing, investment, selling, and more.",
     url: "https://hencre.com/faq",
@@ -164,7 +164,7 @@ export default function FAQPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "FAQ", href: "/faq" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "FAQ", href: "/faq" }]} />
 
       <Hero
         title="Frequently Asked Questions"
@@ -186,6 +186,37 @@ export default function FAQPage() {
             </dl>
           </div>
         ))}
+      </section>
+
+      {/* ---- Related resources ---- */}
+      <section className="bg-[#F5F5F5] px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-xl font-bold text-black">Related Resources</h2>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              { label: "Cap Rate Calculator", href: "/calculators/cap-rate" },
+              { label: "ROI Calculator", href: "/calculators/roi" },
+              { label: "Office Space Calculator", href: "/calculators/office-space" },
+              { label: "Tenant Representation", href: "/services/tenant-representation" },
+              { label: "Landlord Leasing", href: "/services/landlord-leasing" },
+              { label: "Investment Sales", href: "/services/investment-sales" },
+              { label: "CRE Valuation (BOV)", href: "/services/cre-valuation" },
+              { label: "NNN Net Lease Guide", href: "/insights/nnn-lease-explained" },
+              { label: "What Is a Cap Rate?", href: "/insights/what-is-a-cap-rate" },
+              { label: "Leasing vs. Buying", href: "/insights/leasing-vs-buying-commercial" },
+              { label: "1031 Exchange Basics", href: "/insights/1031-exchange-basics" },
+              { label: "Florida 1031 Exchange Blog", href: "/blog/florida-1031-exchange-what-investors-need-to-know" },
+            ].map((r) => (
+              <Link
+                key={r.href}
+                href={r.href}
+                className="rounded-lg border border-[#E5E5E5] bg-white px-4 py-3 text-sm font-semibold text-black no-underline transition-colors hover:bg-[#E5E5E5] hover:no-underline"
+              >
+                {r.label} &rarr;
+              </Link>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* ---- CTA ---- */}
@@ -214,6 +245,10 @@ export default function FAQPage() {
           </div>
         </div>
       </section>
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+      </div>
     </>
   );
 }

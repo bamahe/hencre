@@ -11,7 +11,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "CRE Property Types | Office, Retail, Industrial FL",
   description:
-    "Explore commercial property types in Florida: office, retail, industrial, multifamily, NNN net lease, and land. Barrett Henry, CRE Advisor at REMAX Collective. Call (813) 733-7907.",
+    "Explore commercial property types in Florida: office, retail, industrial, multifamily, NNN net lease, and land. Barrett Henry, Broker Associate at REMAX Collective. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/commercial" },
   openGraph: {
     title: "Property Types | REMAX Commercial Real Estate",
@@ -73,7 +73,7 @@ const schema = {
     {
       "@type": "WebPage",
       name: "Commercial Property Types",
-      description: "Overview of commercial real estate property types served by REMAX Commercial Real Estate across Florida.",
+      description: "Overview of commercial real estate property types served by Barrett Henry at REMAX Collective across Florida.",
       url: "https://hencre.com/commercial",
     },
   ],
@@ -134,7 +134,7 @@ export default function CommercialIndexPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );
