@@ -833,3 +833,82 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added FAQ section with 3 CRE fundamentals questions (cap rate, ROI, office space)
 - Added 10+ internal links (insights, blog posts, services, markets)
 - Added "Last updated: July 2026" footer
+
+---
+
+## 2026-08-01 — Batch 11 (10 pages)
+
+### 1. `/markets/dixie`
+- Full rewrite to match market page pattern (Collier template)
+- Fixed named imports to default imports; removed invalid `variant="primary"` from CTASection
+- Added canonical URL; @graph schema (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems (investment appeal, property types, vs Levy/Gilchrist, agricultural land, Barrett handling)
+- Added Unsplash body image (photo-1500937386664-56d1dfef3854)
+- Added 10+ internal links (markets, commercial types, services, blog posts, calculators)
+- Fixed email from barrett@nowtb.com to /contact in body; barrett@hencre.com in schema
+- Added id="lead-form" with LeadForm; RelatedLinks; CTASection; "Last updated: August 2026" footer
+
+### 2. `/markets/duval`
+- Full rewrite to match market page pattern
+- Fixed named imports to default imports; removed invalid `variant="primary"` from CTASection
+- Added canonical URL; @graph schema (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems (JAXPORT industrial, office comparison, investment types, downtown revitalization, Barrett handling)
+- Added Unsplash body image (photo-1486406146926-c627a92ad1ab)
+- Added 10+ internal links (markets, commercial types, services, blog posts, calculators)
+- Fixed email; added id="lead-form" with LeadForm; RelatedLinks; CTASection; "Last updated: August 2026" footer
+
+### 3. `/markets/escambia`
+- Full rewrite to match market page pattern
+- Fixed named imports to default imports; removed invalid `variant="primary"` from CTASection
+- Added canonical URL; @graph schema (BreadcrumbList + Service + FAQPage) with full Barrett Henry Person details
+- Created 5 faqItems (NAS Pensacola impact, downtown/tech corridor, investment types, vs Emerald Coast, Barrett handling)
+- Added Unsplash body image (photo-1497366754035-f200968a6e72)
+- Added 10+ internal links (markets, commercial types, services, insights, calculators)
+- Fixed email; added id="lead-form" with LeadForm; RelatedLinks; CTASection; "Last updated: August 2026" footer
+
+### 4. `/blog/valrico-hillsborough-county-commercial-real-estate`
+- Full rewrite with single @graph schema (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle to "Broker Associate"; publisher to "HenCRE"; dateModified "2026-08-01"
+- Fixed all 5 relatedLinks (added missing /blog/ prefix to hrefs)
+- Added Image import and Unsplash hero OG image and inline body image
+- Added Home to breadcrumbs; fixed author bio (no REALTOR unicode, Broker Associate)
+- Added 15+ internal links (markets, commercial types, insights, calculators, blog posts, services)
+- Added "Last updated: August 2026" footer
+
+### 5. `/blog/florida-business-rent-tax-repeal-tampa-bay`
+- Added Link and Image imports
+- Updated dateModified to "2026-08-01"
+- Added 15+ internal links across body text (commercial types, county markets, blog posts)
+- Updated "Last updated: July 2026" to "Last updated: August 2026"
+
+### 6. `/blog/midtown-tampa-commercial-real-estate-2026`
+- Added Link and Image imports
+- Updated dateModified to "2026-08-01"
+- Added 10+ internal links in intro and bottom paragraphs
+- Updated "Last updated: July 2026" to "Last updated: August 2026"
+
+### 7. `/about`
+- Fixed jobTitle from "CRE Advisor" / "Commercial Real Estate Advisor" to "Broker Associate" in metadata, schema, Hero, and body
+- Fixed schema memberOf name from "REMAX Commercial®" to "REMAX Commercial"
+- Added service Links in bio: /services/tenant-representation, /services/landlord-leasing, /services/investment-sales, /services/dispositions, /services/cre-valuation
+- Added market Links: /markets/hillsborough, /markets/pinellas, /markets/duval, /markets/broward
+- Added property-type Links in REMAX section: /commercial/office-space, /commercial/retail-space, /commercial/industrial-warehouse, /commercial/multifamily, /commercial/land-development
+- Removed em dashes from updated paragraph; removed stray ® from REMAX Commercial text
+
+### 8. `/faq`
+- Fixed OG title from "REMAX Commercial Real Estate" to "Barrett Henry, REMAX Collective"
+- Added Home to breadcrumbs
+- Added Related Resources section with 12 internal Links (calculators, services, insights, blog posts)
+- Added "Last updated: August 2026" footer
+
+### 9. `/commercial` (index)
+- Fixed description jobTitle from "CRE Advisor" to "Broker Associate"
+- Fixed schema WebPage description from "REMAX Commercial Real Estate" to "Barrett Henry at REMAX Collective"
+- Updated "Last updated: June 2026" to "Last updated: August 2026"
+
+### 10. `/remax-commercial-florida`
+- Fixed jobTitle from "Commercial Real Estate Advisor" to "Broker Associate" in Hero subtitle, intro paragraph, and FAQ answer
+- Added Home and REMAX Commercial breadcrumbs (was showing only Florida Agents)
+- Added 10+ internal Links in intro section (commercial types, markets, services)
+- Updated intro text from "REALTORS®" to "real estate agents" (accurate)
+- Added "Last updated: August 2026" footer
