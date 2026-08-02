@@ -96,7 +96,7 @@ export default function InsightsIndexPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Insights", href: "/insights" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Insights", href: "/insights" }]} />
 
       <Hero
         title="Insights"
@@ -129,6 +129,24 @@ export default function InsightsIndexPage() {
         </div>
       </section>
 
+      {/* ---- Related resources ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">Related CRE Resources</h2>
+        <p className="mt-2 text-[#666666]">Go deeper on specific markets, property types, and investment strategies.</p>
+        <ul className="mt-4 space-y-2 text-[#666666]">
+          <li><Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="underline hover:text-black">Florida 1031 Exchange: What Investors Need to Know</Link></li>
+          <li><Link href="/blog/how-to-calculate-commercial-property-roi" className="underline hover:text-black">How to Calculate Commercial Property ROI</Link></li>
+          <li><Link href="/blog/commercial-property-due-diligence-timeline" className="underline hover:text-black">Commercial Property Due Diligence Timeline</Link></li>
+          <li><Link href="/blog/understanding-cam-charges-tenants-guide" className="underline hover:text-black">CAM Charges: Complete Tenant Guide</Link></li>
+          <li><Link href="/calculators/cap-rate" className="underline hover:text-black">Cap Rate Calculator</Link></li>
+          <li><Link href="/calculators/roi" className="underline hover:text-black">ROI Calculator for Commercial Property</Link></li>
+          <li><Link href="/calculators/commercial-mortgage" className="underline hover:text-black">Commercial Mortgage Calculator</Link></li>
+          <li><Link href="/commercial/nnn-net-lease" className="underline hover:text-black">NNN Triple Net Lease Investment Guide</Link></li>
+          <li><Link href="/commercial/office-space" className="underline hover:text-black">Florida Office Space Commercial Real Estate</Link></li>
+          <li><Link href="/markets/hillsborough" className="underline hover:text-black">Hillsborough County Market Intelligence</Link></li>
+        </ul>
+      </section>
+
       {/* ---- CTA ---- */}
       <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
@@ -146,6 +164,11 @@ export default function InsightsIndexPage() {
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+      </div>
     </>
   );
 }

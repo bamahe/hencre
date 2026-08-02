@@ -93,7 +93,7 @@ export default function ReferADealPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Refer a Deal", href: "/refer-a-deal" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Refer a Deal", href: "/refer-a-deal" }]} />
 
       <Hero
         title="Got a Commercial Deal Outside Your Lane?"
@@ -189,6 +189,28 @@ export default function ReferADealPage() {
           </dl>
         </div>
       </section>
+
+      {/* ---- Related resources ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">CRE Resources for Referring Agents</h2>
+        <ul className="mt-4 space-y-2 text-[#666666]">
+          <li><Link href="/services/tenant-representation" className="underline hover:text-black">Tenant Representation Services</Link></li>
+          <li><Link href="/services/investment-sales" className="underline hover:text-black">Investment Sales Services</Link></li>
+          <li><Link href="/services/landlord-leasing" className="underline hover:text-black">Landlord Leasing Services</Link></li>
+          <li><Link href="/services/dispositions" className="underline hover:text-black">CRE Disposition Services</Link></li>
+          <li><Link href="/services/cre-valuation" className="underline hover:text-black">CRE Valuation (Broker Opinion of Value)</Link></li>
+          <li><Link href="/markets/hillsborough" className="underline hover:text-black">Hillsborough County (Tampa) Commercial Market</Link></li>
+          <li><Link href="/markets/pinellas" className="underline hover:text-black">Pinellas County (St. Pete / Clearwater) Commercial Market</Link></li>
+          <li><Link href="/markets/polk" className="underline hover:text-black">Polk County (Lakeland) Commercial Market</Link></li>
+          <li><Link href="/insights/what-is-a-cap-rate" className="underline hover:text-black">What Is a Cap Rate? Investment Guide</Link></li>
+          <li><Link href="/insights/1031-exchange-basics" className="underline hover:text-black">1031 Exchange Basics for CRE Investors</Link></li>
+        </ul>
+      </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+      </div>
     </>
   );
 }

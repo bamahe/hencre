@@ -91,7 +91,7 @@ export default function ServicesIndexPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Services", href: "/services" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }]} />
 
       <Hero
         title="Commercial Real Estate Services"
@@ -143,9 +143,26 @@ export default function ServicesIndexPage() {
         </div>
       </section>
 
+      {/* ---- Related resources ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">Related Resources</h2>
+        <ul className="mt-4 space-y-2 text-[#666666]">
+          <li><Link href="/insights/leasing-vs-buying-commercial" className="underline hover:text-black">Leasing vs. Buying Commercial Space: Decision Framework</Link></li>
+          <li><Link href="/insights/gross-vs-net-lease" className="underline hover:text-black">Gross vs. Net Lease: Commercial Lease Structures Compared</Link></li>
+          <li><Link href="/blog/commercial-property-due-diligence-timeline" className="underline hover:text-black">Commercial Property Due Diligence Timeline</Link></li>
+          <li><Link href="/blog/do-you-need-a-commercial-real-estate-broker" className="underline hover:text-black">Do You Need a Commercial Real Estate Broker?</Link></li>
+          <li><Link href="/calculators/cap-rate" className="underline hover:text-black">Cap Rate Calculator</Link></li>
+          <li><Link href="/calculators/roi" className="underline hover:text-black">Commercial ROI Calculator</Link></li>
+          <li><Link href="/markets/hillsborough" className="underline hover:text-black">Hillsborough County Commercial Real Estate</Link></li>
+          <li><Link href="/markets/pinellas" className="underline hover:text-black">Pinellas County Commercial Real Estate</Link></li>
+          <li><Link href="/markets/pasco" className="underline hover:text-black">Pasco County Commercial Real Estate</Link></li>
+          <li><Link href="/markets/polk" className="underline hover:text-black">Polk County Commercial Real Estate</Link></li>
+        </ul>
+      </section>
+
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

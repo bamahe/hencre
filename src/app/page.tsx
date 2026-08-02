@@ -16,12 +16,12 @@ import { ContactForm } from "./contact/ContactForm";
 export const metadata: Metadata = {
   title: "REMAX Commercial Real Estate Florida | Barrett Henry",
   description:
-    "Barrett Henry — REMAX Commercial Real Estate Advisor in Tampa Bay. Tenant rep, investment sales, landlord leasing, and CRE valuation across all 67 Florida counties.",
+    "Barrett Henry — Broker Associate at REMAX Collective, Tampa Bay. Tenant rep, investment sales, landlord leasing, and CRE valuation across all 67 Florida counties.",
   alternates: { canonical: "https://hencre.com" },
   openGraph: {
     title: "REMAX Commercial Real Estate Florida | Barrett Henry",
     description:
-      "Barrett Henry — REMAX Commercial Real Estate Advisor in Tampa Bay. Tenant rep, investment sales, landlord leasing, and CRE valuation across all 67 Florida counties.",
+      "Barrett Henry — Broker Associate at REMAX Collective, Tampa Bay. Tenant rep, investment sales, landlord leasing, and CRE valuation across all 67 Florida counties.",
     url: "https://hencre.com",
     images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "HenCRE — REMAX Commercial Real Estate Florida" }],
   },
@@ -152,7 +152,6 @@ const schema = {
       },
       sameAs: [
         "https://www.remaxcommercial.com",
-        "https://nowtb.com",
         "https://barretthenry.remax.com",
       ],
       contactPoint: {
@@ -175,14 +174,14 @@ const schema = {
       "@id": "https://hencre.com/#agent",
       name: "Barrett Henry",
       image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-      jobTitle: "Commercial Real Estate Advisor",
+      jobTitle: "Broker Associate",
       worksFor: {
         "@type": "RealEstateAgent",
         name: "REMAX Collective",
       },
       memberOf: {
         "@type": "Organization",
-        name: "REMAX Commercial®",
+        name: "REMAX Commercial",
         url: "https://www.remaxcommercial.com",
       },
       url: "https://hencre.com",
@@ -190,7 +189,6 @@ const schema = {
       email: "barrett@hencre.com",
       sameAs: [
         "https://www.remaxcommercial.com",
-        "https://nowtb.com",
         "https://barretthenry.remax.com",
         "https://vivipm.com",
         "https://valricopropertymgmt.com",
@@ -548,7 +546,7 @@ export default function HomePage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

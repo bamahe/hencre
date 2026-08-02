@@ -12,9 +12,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title:
-    "REMAX Commercial Real Estate | Barrett Henry, CRE Advisor",
+    "REMAX Commercial Real Estate | Barrett Henry, Broker Associate",
   description:
-    "REMAX Commercial Real Estate — Barrett Henry, CRE Advisor at REMAX Collective. 145,000+ agents across 120+ countries. Tenant rep, leasing, investment sales across all 67 FL counties.",
+    "REMAX Commercial Real Estate -- Barrett Henry, Broker Associate at REMAX Collective. 145,000+ agents across 120+ countries. Tenant rep, leasing, investment sales across all 67 FL counties.",
   alternates: { canonical: "https://hencre.com/remax-commercial" },
   keywords: [
     "REMAX Commercial Real Estate",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "Florida commercial real estate broker",
   ],
   openGraph: {
-    title: "REMAX Commercial Real Estate — Barrett Henry, Commercial Real Estate Advisor",
+    title: "REMAX Commercial Real Estate -- Barrett Henry, Broker Associate at REMAX Collective",
     description:
       "REMAX Commercial Real Estate advisor serving all 67 Florida counties. Tenant rep, landlord leasing, investment sales, and dispositions backed by the world's most recognized real estate brand.",
     url: "https://hencre.com/remax-commercial",
@@ -47,7 +47,7 @@ const FAQS = [
   },
   {
     q: "Does REMAX Commercial® operate in Florida?",
-    a: "Yes. REMAX Commercial Real Estate advisors operate across all 67 Florida counties. Barrett Henry is a REMAX Commercial Commercial Real Estate Advisor at REMAX Collective, with offices in Tampa, Largo, and Brandon. He handles commercial transactions throughout the state, and for markets outside his core area, he leverages the REMAX referral network to connect clients with local commercial specialists.",
+    a: "Yes. REMAX Commercial Real Estate advisors operate across all 67 Florida counties. Barrett Henry is a Broker Associate at REMAX Collective, with offices in Tampa, Largo, and Brandon. He handles commercial transactions throughout the state, and for markets outside his core area, he leverages the REMAX referral network to connect clients with local commercial specialists.",
   },
   {
     q: "What types of properties does REMAX Commercial® handle?",
@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     q: "How do I find a REMAX Commercial Real Estate advisor in Florida?",
-    a: "You are already in the right place. Barrett Henry is a REMAX Commercial Commercial Real Estate Advisor serving all 67 Florida counties from his base in Tampa Bay. Contact Barrett directly at (813) 733-7907 or barrett@hencre.com to discuss your commercial real estate needs. For transactions outside Florida, Barrett can connect you with REMAX Commercial Real Estate advisors in any state or country through the global referral network.",
+    a: "You are already in the right place. Barrett Henry is a Broker Associate at REMAX Collective serving all 67 Florida counties from his base in Tampa Bay. Contact Barrett directly at (813) 733-7907 or barrett@hencre.com to discuss your commercial real estate needs. For transactions outside Florida, Barrett can connect you with REMAX Commercial Real Estate advisors in any state or country through the global referral network.",
   },
   {
     q: "What is the REMAX Commercial® referral network?",
@@ -63,7 +63,7 @@ const FAQS = [
   },
   {
     q: "Is Barrett Henry a REMAX Commercial Real Estate advisor?",
-    a: "Yes. Barrett Henry is a licensed Commercial Real Estate Advisor at REMAX Collective, operating under the REMAX Commercial® division for commercial property transactions. He has 23+ years of real estate experience, holds e-PRO, MRP, and SRS designations, and has been inducted into the REMAX Hall of Fame. Barrett serves all 67 Florida counties with a focus on the Tampa Bay market.",
+    a: "Yes. Barrett Henry is a licensed Broker Associate at REMAX Collective, operating under the REMAX Commercial division for commercial property transactions. He has 23+ years of real estate experience, holds e-PRO, MRP, and SRS designations, and has been inducted into the REMAX Hall of Fame. Barrett serves all 67 Florida counties with a focus on the Tampa Bay market.",
   },
 ] as const;
 
@@ -111,14 +111,14 @@ const schema = {
       "@type": "RealEstateAgent",
       "@id": "https://hencre.com/remax-commercial/#agent",
       name: "Barrett Henry",
-      jobTitle: "Commercial Real Estate Advisor",
+      jobTitle: "Broker Associate",
       worksFor: {
         "@type": "RealEstateAgent",
         name: "REMAX Collective",
       },
       memberOf: {
         "@type": "Organization",
-        name: "REMAX Commercial®",
+        name: "REMAX Commercial",
         url: "https://www.remaxcommercial.com",
       },
       url: "https://hencre.com",
@@ -127,7 +127,6 @@ const schema = {
       award: "REMAX Hall of Fame",
       sameAs: [
         "https://www.remaxcommercial.com",
-        "https://nowtb.com",
         "https://barretthenry.remax.com",
       ],
       areaServed: {
@@ -164,12 +163,12 @@ export default function RemaxCommercialPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "REMAX Commercial®", href: "/remax-commercial" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "REMAX Commercial", href: "/remax-commercial" }]} />
 
       {/* ---- Hero ---- */}
       <Hero
         title="REMAX Commercial Real Estate"
-        subtitle="Barrett Henry, Commercial Real Estate Advisor at REMAX Collective. Commercial real estate backed by the world's most recognized brand."
+        subtitle="Barrett Henry, Broker Associate at REMAX Collective. Commercial real estate backed by the world&apos;s most recognized brand."
         ctaText="Contact Barrett"
         ctaHref="/contact"
       />
@@ -395,7 +394,7 @@ export default function RemaxCommercialPage() {
           </h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
-              Barrett Henry is a licensed Commercial Real Estate Advisor at REMAX
+              Barrett Henry is a licensed Broker Associate at REMAX
               Collective, operating under the REMAX Commercial® division for all
               commercial property transactions in Florida. With 23+ years of real
               estate experience, Barrett brings a depth of knowledge that covers
@@ -506,11 +505,30 @@ export default function RemaxCommercialPage() {
         </div>
       </section>
 
+      {/* ---- Related markets and services ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">Florida Markets Served Through REMAX Commercial</h2>
+        <ul className="mt-4 grid gap-2 sm:grid-cols-2 text-[#666666]">
+          <li><Link href="/markets/hillsborough" className="underline hover:text-black">Hillsborough County (Tampa)</Link></li>
+          <li><Link href="/markets/pinellas" className="underline hover:text-black">Pinellas County (St. Pete / Clearwater)</Link></li>
+          <li><Link href="/markets/pasco" className="underline hover:text-black">Pasco County (Wesley Chapel / New Port Richey)</Link></li>
+          <li><Link href="/markets/polk" className="underline hover:text-black">Polk County (Lakeland)</Link></li>
+          <li><Link href="/markets/manatee" className="underline hover:text-black">Manatee County (Bradenton)</Link></li>
+          <li><Link href="/markets/sarasota" className="underline hover:text-black">Sarasota County</Link></li>
+          <li><Link href="/markets/duval" className="underline hover:text-black">Duval County (Jacksonville)</Link></li>
+          <li><Link href="/markets/broward" className="underline hover:text-black">Broward County (Fort Lauderdale)</Link></li>
+        </ul>
+        <p className="mt-6 text-[#666666]">
+          View all <Link href="/markets" className="underline hover:text-black">Florida commercial real estate markets</Link> or explore{" "}
+          <Link href="/services" className="underline hover:text-black">CRE services</Link> available through the REMAX Collective network.
+        </p>
+      </section>
+
       {/* ---- CTA ---- */}
       <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
-            Work with a REMAX Commercial® Agent in Florida
+            Work with a REMAX Commercial Agent in Florida
           </h2>
           <p className="mt-4 text-lg text-white/80">
             Whether you are buying, selling, leasing, or investing in commercial
@@ -535,6 +553,11 @@ export default function RemaxCommercialPage() {
           </div>
         </div>
       </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+      </div>
     </>
   );
 }

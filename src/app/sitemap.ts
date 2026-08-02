@@ -11,6 +11,10 @@ import type { MetadataRoute } from "next";
 const TIER1_COUNTIES = [
   "hillsborough", "pinellas", "pasco", "polk",
   "manatee", "sarasota", "citrus", "hernando",
+  "alachua", "baker", "bay", "bradford", "brevard",
+  "broward", "calhoun", "charlotte", "clay", "collier",
+  "columbia", "desoto", "dixie", "duval", "escambia",
+  "flagler", "franklin",
 ];
 
 // Service page slugs

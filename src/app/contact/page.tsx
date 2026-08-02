@@ -78,11 +78,11 @@ export default function ContactPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Contact", href: "/contact" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }]} />
 
       <Hero
         title="Contact REMAX Commercial Real Estate"
-        subtitle="Have a commercial real estate question? Need a broker opinion of value? Ready to make a move? Barrett Henry, REMAX Commercial Real Estate Advisor, is here to help."
+        subtitle="Have a commercial real estate question? Need a broker opinion of value? Ready to make a move? Barrett Henry, Broker Associate at REMAX Collective, is here to help."
       />
 
       {/* ---- Contact form — first thing after hero ---- */}
@@ -156,6 +156,28 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* ---- Related resources ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-xl font-bold sm:text-2xl">What Can I Help With?</h2>
+        <ul className="mt-4 space-y-2 text-[#666666]">
+          <li><Link href="/services/tenant-representation" className="underline hover:text-black">Finding Commercial Space (Tenant Representation)</Link></li>
+          <li><Link href="/services/landlord-leasing" className="underline hover:text-black">Leasing Your Commercial Property (Landlord Services)</Link></li>
+          <li><Link href="/services/investment-sales" className="underline hover:text-black">Buying or Selling Investment Property</Link></li>
+          <li><Link href="/services/dispositions" className="underline hover:text-black">Selling Commercial Property (Dispositions)</Link></li>
+          <li><Link href="/services/cre-valuation" className="underline hover:text-black">Commercial Property Valuation</Link></li>
+          <li><Link href="/markets/hillsborough" className="underline hover:text-black">Hillsborough County (Tampa) Commercial Real Estate</Link></li>
+          <li><Link href="/markets/pinellas" className="underline hover:text-black">Pinellas County (St. Pete / Clearwater) Commercial Real Estate</Link></li>
+          <li><Link href="/markets/manatee" className="underline hover:text-black">Manatee County (Bradenton) Commercial Real Estate</Link></li>
+          <li><Link href="/calculators/cap-rate" className="underline hover:text-black">Cap Rate Calculator</Link></li>
+          <li><Link href="/refer-a-deal" className="underline hover:text-black">Refer a Commercial Deal</Link></li>
+        </ul>
+      </section>
+
+      {/* ---- Last updated ---- */}
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+      </div>
     </>
   );
 }
