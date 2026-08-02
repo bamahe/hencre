@@ -912,3 +912,68 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added 10+ internal Links in intro section (commercial types, markets, services)
 - Updated intro text from "REALTORS®" to "real estate agents" (accurate)
 - Added "Last updated: August 2026" footer
+
+---
+
+## 2026-08-02 — Batch 12 (10 pages)
+
+### 1. `/markets/flagler`
+- Full rewrite to match market page pattern (Dixie/Escambia template)
+- Fixed named imports to default imports; schema jobTitle to "Broker Associate"
+- Added canonical URL; @graph schema (BreadcrumbList + Service + FAQPage)
+- Created 5 faqItems (investment quality, property types, Palm Coast comparison, Barrett role, investor advice)
+- Added Unsplash body image (photo-1486406146926-c627a92ad1ab)
+- Added 6 relatedLinks; 10+ internal links in body (markets, services, commercial types)
+- Added LeadForm, FAQAccordion, RelatedLinks, CTASection; "Last updated: August 2026" footer
+
+### 2. `/markets/franklin`
+- Full rewrite to match market page pattern
+- Covers Apalachicola, Carrabelle, Eastpoint coastal Panhandle market
+- @graph schema (BreadcrumbList + Service + FAQPage); jobTitle "Broker Associate"
+- Created 5 faqItems (investment quality, property types, Apalachicola distinctiveness, Barrett role, development opportunities)
+- Key Corridors: Apalachicola Historic Downtown, Carrabelle Waterfront, Eastpoint Aquaculture
+- Added Unsplash body image (photo-1500937386664-56d1dfef3854)
+- Added LeadForm, FAQAccordion, RelatedLinks, CTASection; "Last updated: August 2026" footer
+
+### 3. `/` (home page)
+- Fixed metadata description and OG description: jobTitle to "Broker Associate at REMAX Collective"
+- Fixed schema: jobTitle "Broker Associate"; memberOf name "REMAX Commercial" (removed ®); removed nowtb.com from sameAs arrays
+- Updated "Last updated: June 2026" to "Last updated: August 2026"
+
+### 4. `/remax-commercial`
+- Fixed metadata title and description: "CRE Advisor" to "Broker Associate"
+- Fixed OG title, schema jobTitle, memberOf name (removed ®), removed nowtb.com from sameAs
+- Fixed Hero subtitle: "Commercial Real Estate Advisor" to "Broker Associate at REMAX Collective"
+- Fixed 4 FAQ answers with incorrect jobTitle references
+- Added Related Markets and Services section with 8 market links
+- Changed CTA heading (removed ® from REMAX Commercial)
+- Added "Last updated: August 2026" footer
+
+### 5. `/services`
+- Added Home to breadcrumbs
+- Added Related Resources section with 10 internal links (insights, blog posts, calculators, markets)
+- Updated "Last updated: June 2026" to "Last updated: August 2026"
+
+### 6. `/insights`
+- Added Home to breadcrumbs
+- Added Related CRE Resources section with 10 internal links (blog posts, calculators, commercial types, markets)
+- Added "Last updated: August 2026" footer
+
+### 7. `/refer-a-deal`
+- Added Home to breadcrumbs
+- Added CRE Resources section with 10 internal links (services, markets, insights)
+- Added "Last updated: August 2026" footer
+
+### 8. `/contact`
+- Added Home to breadcrumbs
+- Fixed Hero subtitle: "REMAX Commercial Real Estate Advisor" to "Broker Associate at REMAX Collective"
+- Added "What Can I Help With?" section with 10 internal links (services, markets, calculators)
+- Added "Last updated: August 2026" footer
+
+### 9. `/blog/tampa-bay-hospitality-hotel-cre-2026`
+- Updated dateModified from "2026-07-31" to "2026-08-02"
+- Updated "Last updated: July 2026" to "Last updated: August 2026"
+
+### 10. `/sitemap.ts`
+- Expanded TIER1_COUNTIES from 8 to 25 entries
+- Added 17 county market pages: alachua, baker, bay, bradford, brevard, broward, calhoun, charlotte, clay, collier, columbia, desoto, dixie, duval, escambia, flagler, franklin
