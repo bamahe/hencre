@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 import LeadForm from "@/components/LeadForm";
 import CTASection from "@/components/CTASection";
@@ -177,9 +179,21 @@ export default function TenantRelationsPage() {
             When disputes arise — noise complaints between tenants, parking conflicts, or shared utility disagreements — Barrett documents the issue, reviews the relevant lease clauses, and facilitates a resolution that protects the owner&apos;s interests while maintaining the tenant relationship. Most disputes resolve within 48 hours without legal involvement.
           </p>
           <p>
-            For lease renewals, Barrett combines <Link href="/services/commercial-property-management/financial-reporting" className="font-semibold text-black underline">financial performance data</Link> with current market analysis from his <Link href="/services/cre-valuation" className="font-semibold text-black underline">CRE valuation</Link> practice to negotiate renewal terms that reflect fair market value while retaining quality tenants. This integrated approach — available because Barrett handles both management and <Link href="/services/landlord-leasing" className="font-semibold text-black underline">leasing</Link> — is something most standalone management firms cannot offer.
+            For lease renewals, Barrett combines <Link href="/services/commercial-property-management/financial-reporting" className="font-semibold text-black underline">financial performance data</Link> with current market analysis from his <Link href="/services/cre-valuation" className="font-semibold text-black underline">CRE valuation</Link> practice to negotiate renewal terms that reflect fair market value while retaining quality tenants. This integrated approach — available because Barrett handles both management and <Link href="/services/landlord-leasing" className="font-semibold text-black underline">leasing</Link> — is something most standalone management firms cannot offer. Property owners in <Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="font-semibold text-black underline">Pinellas</Link>, and <Link href="/markets/pasco" className="font-semibold text-black underline">Pasco County</Link> benefit from this approach as those markets continue attracting quality commercial tenants.
           </p>
         </div>
+      </section>
+
+      {/* ---- Inline image ---- */}
+      <section className="mx-auto max-w-4xl px-4 pb-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&h=500&fit=crop"
+          alt="Commercial tenant relations and retention in Tampa Bay Florida"
+          width={800}
+          height={500}
+          className="rounded-lg w-full"
+        />
+        <p className="mt-2 text-sm text-[#666666] italic">Retaining a quality commercial tenant costs a fraction of replacing one. Proactive communication and early renewal outreach are the most cost-effective tools a property owner has.</p>
       </section>
 
       {/* ---- Mid-article CTA ---- */}
@@ -219,15 +233,8 @@ export default function TenantRelationsPage() {
 
       {/* ---- FAQ ---- */}
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold sm:text-3xl">Frequently Asked Questions</h2>
-        <div className="mt-8 space-y-6">
-          {FAQS.map((faq) => (
-            <div key={faq.question} className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-bold text-black">{faq.question}</h3>
-              <p className="mt-2 text-[#666666]">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
+        <h2 className="mb-6 text-2xl font-bold sm:text-3xl">Frequently Asked Questions</h2>
+        <FAQAccordion items={FAQS} />
       </section>
 
       {/* ---- Sources ---- */}
@@ -269,7 +276,7 @@ export default function TenantRelationsPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -84,7 +86,7 @@ const schema = {
       description:
         "What investors need to know about self-storage as a commercial asset class in Tampa Bay as Sunbelt oversupply pressure fades and the market stabilizes in 2026.",
       datePublished: "2026-08-02",
-      dateModified: "2026-08-02",
+      dateModified: "2026-08-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -165,15 +167,26 @@ export default function TampaBaySelfStorageCREInvestment2026Page() {
           What separates self-storage from most other commercial assets is the lease structure. Because individual storage leases are month-to-month, operators can raise rents on existing tenants with relatively short notice — typically 30 days — and reprice the entire unit mix toward market rents when conditions improve. That flexibility is the inverse of what a multi-year office or industrial tenant provides. In a rising-rent environment, self-storage operators can capture market appreciation faster than landlords locked into five- or ten-year leases. In a soft market, the same structure means operators feel downward pressure faster when tenants shop competing facilities nearby.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          National operators — Public Storage, Extra Space Storage, CubeSmart, Life Storage — dominate the institutional tier of the market. But a significant share of Tampa Bay&apos;s self-storage inventory is still owned by private operators: family businesses, individual investors who bought a single facility, or regional operators running a handful of locations. That fragmented private ownership is why self-storage has historically offered value-add and acquisition opportunities that more consolidated asset classes like net-lease retail rarely provide.
+          National operators — Public Storage, Extra Space Storage, CubeSmart, Life Storage — dominate the institutional tier of the market. But a significant share of Tampa Bay&apos;s self-storage inventory is still owned by private operators: family businesses, individual investors who bought a single facility, or regional operators running a handful of locations. That fragmented private ownership is why self-storage has historically offered value-add and acquisition opportunities that more consolidated asset classes like <Link href="/commercial/nnn-net-lease" className="text-accent underline">net-lease retail</Link> or <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial warehouse</Link> properties rarely provide.
         </p>
+
+        <div className="mt-10">
+          <Image
+            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=500&fit=crop"
+            alt="Self-storage facility in Tampa Bay commercial corridor"
+            width={800}
+            height={500}
+            className="rounded-lg w-full"
+          />
+          <p className="mt-2 text-sm text-[#666666] italic">Self-storage facilities trade on cap rates like any other commercial income property.</p>
+        </div>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Does Tampa Bay Create Unusually Strong Self-Storage Demand?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Self-storage demand is driven primarily by life transitions: moving, downsizing, divorce, death of a family member, business formation, and disaster recovery. Tampa Bay experiences all of those at elevated rates compared to slower-growth markets.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In-migration is the most powerful driver. Tampa Bay has consistently ranked among the top metros in the country for net population inflows, drawing residents from high-cost markets in the Northeast and Midwest, retirees moving toward Florida&apos;s climate and tax environment, and remote workers relocating for lower costs of living. Every person moving into the market — whether into a single-family home in Wesley Chapel, a condo in St. Petersburg, or an apartment in Channelside — generates transitional storage needs during the move and often long-term storage needs afterward, particularly when they are downsizing from a larger home to smaller Florida square footage. If you want a sense of how actively people are evaluating Tampa Bay as a place to live and buy property, the search volume coming through sites like{" "}
+          In-migration is the most powerful driver. Tampa Bay has consistently ranked among the top metros in the country for net population inflows, drawing residents from high-cost markets in the Northeast and Midwest, retirees moving toward Florida&apos;s climate and tax environment, and remote workers relocating for lower costs of living. Every person moving into the market — whether into a single-family home in <Link href="/markets/pasco" className="text-accent underline">Pasco County&apos;s Wesley Chapel corridor</Link>, a condo in <Link href="/markets/pinellas" className="text-accent underline">St. Petersburg</Link>, or an apartment in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County&apos;s Channelside district</Link> — generates transitional storage needs during the move and often long-term storage needs afterward, particularly when they are downsizing from a larger home to smaller Florida square footage. If you want a sense of how actively people are evaluating Tampa Bay as a place to live and buy property, the search volume coming through sites like{" "}
           <a href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">
             nowtb.com
           </a>{" "}
@@ -194,7 +207,7 @@ export default function TampaBaySelfStorageCREInvestment2026Page() {
           By 2025, higher interest rates had effectively ended speculative self-storage development. Projects that penciled at 3.5% financing do not pencil at 6.5% financing, and the construction pipeline nationally and in Tampa Bay thinned considerably. The consequence in 2026 is a market that is working through the tail end of that supply wave: occupancies have stabilized in most Tampa Bay submarkets, street rents have stopped falling and in some corridors are recovering, and the competitive environment — while still tighter than 2021 — is returning to a more normal equilibrium.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors, the practical implication is that acquisition opportunities look more realistic today than they did when sellers were holding firm at 4% and 5% cap rates. Owners who financed at peak pricing and face loan maturities or partnership pressures are more motivated than they were two years ago, and the denominator math on valuations has improved with cap rate expansion. Understanding how to <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">calculate commercial property ROI</a> is the essential first step in evaluating whether a specific facility offers the return profile you are targeting.
+          For investors, the practical implication is that acquisition opportunities look more realistic today than they did when sellers were holding firm at 4% and 5% cap rates. Owners who financed at peak pricing and face loan maturities or partnership pressures are more motivated than they were two years ago, and the denominator math on valuations has improved with cap rate expansion. Understanding how to <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">calculate commercial property ROI</Link> and use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> is the essential first step in evaluating whether a specific facility offers the return profile you are targeting.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Is Self-Storage Different from Other Commercial Real Estate Investments?</h2>
@@ -217,14 +230,14 @@ export default function TampaBaySelfStorageCREInvestment2026Page() {
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Comparing self-storage to a{" "}
-          <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">
+          <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">
             triple-net retail investment
-          </a>{" "}
+          </Link>{" "}
           or a{" "}
-          <a href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">
+          <Link href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">
             multifamily property
-          </a>{" "}
-          is useful context: NNN retail offers minimal management with credit-tenant income, multifamily offers income diversification with significant tenant relations obligations, and self-storage sits somewhere between the two — more management than NNN, more income resilience than a heavily concentrated multi-tenant property.
+          </Link>{" "}
+          is useful context: NNN retail offers minimal management with credit-tenant income, multifamily offers income diversification with significant tenant relations obligations, and self-storage sits somewhere between the two — more management than NNN, more income resilience than a heavily concentrated multi-tenant property. For help underwriting any commercial acquisition across these property types, the <Link href="/services/cre-valuation" className="text-accent underline">CRE valuation service</Link> can provide market-based analysis before you commit capital.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Tampa Bay Self-Storage Owners Know About Selling?</h2>
@@ -240,10 +253,10 @@ export default function TampaBaySelfStorageCREInvestment2026Page() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If you are holding a facility with a large embedded gain, a{" "}
-          <a href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">
+          <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">
             1031 exchange
-          </a>{" "}
-          into replacement property is worth evaluating before any sale closes — the tax deferral on a multi-million-dollar commercial sale can be substantial, and Florida has favorable treatment for investors navigating this process.
+          </Link>{" "}
+          into replacement property is worth evaluating before any sale closes — the tax deferral on a multi-million-dollar commercial sale can be substantial, and Florida has favorable treatment for investors navigating this process. The <Link href="/services/dispositions" className="text-accent underline">dispositions service</Link> covers all the steps from pricing and marketing to closing.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is Self-Storage the Right Commercial Investment for You in Tampa Bay?</h2>
@@ -254,7 +267,7 @@ export default function TampaBaySelfStorageCREInvestment2026Page() {
           For investors who are comfortable with that operating reality, Tampa Bay&apos;s combination of population growth, structural in-migration, small-business density, and improving supply dynamics makes the market worth serious attention in 2026. The supply wave that compressed returns between 2022 and 2025 is working its way through the system, and the buyers who move while seller expectations are still adjusting to the new financing reality tend to find better entry points than those who wait for the all-clear.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay, I help investors identify and evaluate self-storage acquisition targets alongside the full range of commercial property types — industrial, retail, office, and multifamily. If you are trying to understand whether self-storage fits your investment criteria, or if you own a facility and are exploring your options, let&apos;s have a direct conversation about what the market looks like right now.
+          With 23+ years of commercial real estate experience across Tampa Bay, I help investors identify and evaluate self-storage acquisition targets alongside the full range of <Link href="/commercial" className="text-accent underline">commercial property types</Link> — <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial</Link>, <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, <Link href="/commercial/office-space" className="text-accent underline">office</Link>, and <Link href="/commercial/multifamily" className="text-accent underline">multifamily</Link>. If you are trying to understand whether self-storage fits your investment criteria, or if you own a facility and are exploring your options, let&apos;s have a direct conversation about what the market looks like right now. You can also review the <Link href="/services/investment-sales" className="text-accent underline">investment sales process</Link> to understand how a commercial transaction comes together.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>

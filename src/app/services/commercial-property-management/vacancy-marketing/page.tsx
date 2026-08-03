@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 import LeadForm from "@/components/LeadForm";
 import CTASection from "@/components/CTASection";
@@ -115,9 +117,21 @@ export default function VacancyMarketingPage() {
             Barrett markets every commercial vacancy across all major platforms simultaneously while activating the REMAX Commercial broker network — one of the largest commercial real estate networks in the world. This multi-channel approach reaches local, regional, and national tenants, dramatically increasing the pool of qualified prospects.
           </p>
           <p>
-            Because Barrett also handles <Link href="/services/commercial-property-management" className="font-semibold text-black underline">property management</Link>, vacancy marketing begins proactively. When <Link href="/services/commercial-property-management/lease-administration" className="font-semibold text-black underline">lease administration</Link> tracking identifies an upcoming lease expiration or non-renewal, pre-marketing starts months before the space becomes vacant. This overlap between management and <Link href="/services/landlord-leasing" className="font-semibold text-black underline">landlord leasing</Link> services is a key advantage of working with Barrett.
+            Because Barrett also handles <Link href="/services/commercial-property-management" className="font-semibold text-black underline">property management</Link>, vacancy marketing begins proactively. When <Link href="/services/commercial-property-management/lease-administration" className="font-semibold text-black underline">lease administration</Link> tracking identifies an upcoming lease expiration or non-renewal, pre-marketing starts months before the space becomes vacant. This overlap between management and <Link href="/services/landlord-leasing" className="font-semibold text-black underline">landlord leasing</Link> services is a key advantage of working with Barrett. Whether you have <Link href="/commercial/office-space" className="font-semibold text-black underline">office space</Link>, <Link href="/commercial/retail-space" className="font-semibold text-black underline">retail space</Link>, or <Link href="/commercial/industrial-warehouse" className="font-semibold text-black underline">industrial warehouse</Link> vacancies in <Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough</Link> or <Link href="/markets/pinellas" className="font-semibold text-black underline">Pinellas County</Link>, the approach is the same.
           </p>
         </div>
+      </section>
+
+      {/* ---- Inline image ---- */}
+      <section className="mx-auto max-w-4xl px-4 pb-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=500&fit=crop"
+          alt="Commercial vacancy marketing and tenant placement in Tampa Bay Florida"
+          width={800}
+          height={500}
+          className="rounded-lg w-full"
+        />
+        <p className="mt-2 text-sm text-[#666666] italic">Multi-channel vacancy marketing across LoopNet, CoStar, Crexi, and the REMAX Commercial broker network reaches buyers, tenants, and their representatives simultaneously.</p>
       </section>
 
       {/* ---- Marketing channels table ---- */}
@@ -224,15 +238,8 @@ export default function VacancyMarketingPage() {
 
       {/* ---- FAQ ---- */}
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold sm:text-3xl">Frequently Asked Questions</h2>
-        <div className="mt-8 space-y-6">
-          {FAQS.map((faq) => (
-            <div key={faq.question} className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-bold text-black">{faq.question}</h3>
-              <p className="mt-2 text-[#666666]">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
+        <h2 className="mb-6 text-2xl font-bold sm:text-3xl">Frequently Asked Questions</h2>
+        <FAQAccordion items={FAQS} />
       </section>
 
       {/* ---- Sources ---- */}
@@ -275,7 +282,7 @@ export default function VacancyMarketingPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

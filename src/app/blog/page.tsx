@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     "Commercial real estate blog by Barrett Henry. Market updates, investment analysis, leasing tips, and CRE strategy for Florida investors, tenants, and landlords.",
   alternates: { canonical: "https://hencre.com/blog" },
   openGraph: {
-    title: "Blog | REMAX Commercial Real Estate",
+    title: "Blog | Barrett Henry, HenCRE",
     description:
-      "CRE market updates, investment analysis, and leasing insights from Barrett Henry.",
+      "CRE market updates, investment analysis, and leasing insights from Barrett Henry, Broker Associate at REMAX Collective.",
     url: "https://hencre.com/blog",
   },
 };
@@ -49,11 +49,16 @@ const schema = {
     },
     {
       "@type": "Blog",
-      name: "REMAX Commercial Real Estate Blog",
+      name: "HenCRE Blog",
       description:
-        "Commercial real estate insights and market updates from Barrett Henry.",
+        "Commercial real estate insights, market updates, and investment analysis from Barrett Henry, Broker Associate at REMAX Collective.",
       url: "https://hencre.com/blog",
-      author: { "@type": "Person", name: "Barrett Henry" },
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
     },
   ],
 };
@@ -75,7 +80,7 @@ export default function BlogIndexPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Blog", href: "/blog" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }]} />
 
       <Hero
         title="Blog"
@@ -130,6 +135,23 @@ export default function BlogIndexPage() {
         </div>
       </section>
 
+      {/* ---- Related Resources ---- */}
+      <section className="mx-auto max-w-7xl px-4 pb-8 sm:px-6 lg:px-8">
+        <h2 className="mb-6 text-xl font-bold text-black">Explore More CRE Resources</h2>
+        <div className="flex flex-wrap gap-3">
+          <Link href="/insights" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50">CRE Insights</Link>
+          <Link href="/calculators" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50">CRE Calculators</Link>
+          <Link href="/markets/hillsborough" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50">Hillsborough Market</Link>
+          <Link href="/markets/pinellas" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50">Pinellas Market</Link>
+          <Link href="/markets/pasco" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50">Pasco Market</Link>
+          <Link href="/markets/polk" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50">Polk Market</Link>
+          <Link href="/services/investment-sales" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50">Investment Sales</Link>
+          <Link href="/services/tenant-representation" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50">Tenant Representation</Link>
+          <Link href="/commercial/industrial-warehouse" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50">Industrial Space</Link>
+          <Link href="/commercial/office-space" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50">Office Space</Link>
+        </div>
+      </section>
+
       {/* ---- CTA ---- */}
       <section className="bg-[#1a1a1a] px-4 py-16 text-center text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
@@ -150,6 +172,10 @@ export default function BlogIndexPage() {
           </div>
         </div>
       </section>
+
+      <div className="mx-auto max-w-7xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+      </div>
     </>
   );
 }

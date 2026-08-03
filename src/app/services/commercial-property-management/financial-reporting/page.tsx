@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 import LeadForm from "@/components/LeadForm";
 import CTASection from "@/components/CTASection";
@@ -115,9 +117,21 @@ export default function FinancialReportingPage() {
             Barrett delivers comprehensive financial reporting on a monthly, quarterly, and annual cadence. Every report is delivered within 10 business days of the reporting period close. Owners receive detailed variance explanations — not just numbers, but the story behind the numbers. If HVAC expenses are 15% over budget, the report explains why (emergency compressor replacement, for example) and what steps are being taken to prevent recurrence.
           </p>
           <p>
-            This level of reporting matters especially for owners who hold multiple properties or who plan to pursue <Link href="/services/dispositions" className="font-semibold text-black underline">dispositions</Link> or <Link href="/services/investment-sales" className="font-semibold text-black underline">investment sales</Link>. Clean financial records directly impact property valuation and buyer confidence during due diligence.
+            This level of reporting matters especially for owners who hold multiple properties or who plan to pursue <Link href="/services/dispositions" className="font-semibold text-black underline">dispositions</Link> or <Link href="/services/investment-sales" className="font-semibold text-black underline">investment sales</Link>. Clean financial records directly impact property valuation and buyer confidence during due diligence. Owners in <Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="font-semibold text-black underline">Pinellas</Link>, and <Link href="/markets/pasco" className="font-semibold text-black underline">Pasco</Link> County will find that lenders and buyers increasingly expect institutional-quality reporting on any transaction over $1 million.
           </p>
         </div>
+      </section>
+
+      {/* ---- Inline image ---- */}
+      <section className="mx-auto max-w-4xl px-4 pb-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&h=500&fit=crop"
+          alt="Commercial property financial reporting and analysis review"
+          width={800}
+          height={500}
+          className="rounded-lg w-full"
+        />
+        <p className="mt-2 text-sm text-[#666666] italic">Monthly income statements, rent rolls, and CAM reconciliation are the foundation of professional commercial property management.</p>
       </section>
 
       {/* ---- Reporting schedule table ---- */}
@@ -245,15 +259,8 @@ export default function FinancialReportingPage() {
 
       {/* ---- FAQ ---- */}
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold sm:text-3xl">Frequently Asked Questions</h2>
-        <div className="mt-8 space-y-6">
-          {FAQS.map((faq) => (
-            <div key={faq.question} className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-bold text-black">{faq.question}</h3>
-              <p className="mt-2 text-[#666666]">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
+        <h2 className="mb-6 text-2xl font-bold sm:text-3xl">Frequently Asked Questions</h2>
+        <FAQAccordion items={FAQS} />
       </section>
 
       {/* ---- Sources ---- */}
@@ -296,7 +303,7 @@ export default function FinancialReportingPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

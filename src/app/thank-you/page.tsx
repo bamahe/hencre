@@ -11,11 +11,11 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Thank You | Your Inquiry Has Been Received",
   description:
-    "Thank you for contacting REMAX Commercial Real Estate. Barrett Henry will respond within one business day.",
+    "Thank you for contacting HenCRE. Barrett Henry, Broker Associate at REMAX Collective, will respond within one business day.",
   alternates: { canonical: "https://hencre.com/thank-you" },
   robots: { index: false, follow: true },
   openGraph: {
-    title: "Thank You | REMAX Commercial Real Estate",
+    title: "Thank You | HenCRE",
     url: "https://hencre.com/thank-you",
   },
 };
@@ -34,7 +34,7 @@ export default function ThankYouPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Thank You", href: "/thank-you" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Thank You", href: "/thank-you" }]} />
 
       <Hero title="Thank You — We Have Received Your Inquiry" />
 
@@ -72,6 +72,24 @@ export default function ThankYouPage() {
             className="rounded-lg border border-[#E5E5E5] p-4 text-center font-semibold text-black no-underline transition-shadow hover:shadow-md hover:no-underline"
           >
             Read the Blog
+          </Link>
+          <Link
+            href="/markets"
+            className="rounded-lg border border-[#E5E5E5] p-4 text-center font-semibold text-black no-underline transition-shadow hover:shadow-md hover:no-underline"
+          >
+            Florida Markets
+          </Link>
+          <Link
+            href="/calculators"
+            className="rounded-lg border border-[#E5E5E5] p-4 text-center font-semibold text-black no-underline transition-shadow hover:shadow-md hover:no-underline"
+          >
+            CRE Calculators
+          </Link>
+          <Link
+            href="/insights"
+            className="rounded-lg border border-[#E5E5E5] p-4 text-center font-semibold text-black no-underline transition-shadow hover:shadow-md hover:no-underline"
+          >
+            CRE Insights
           </Link>
         </div>
       </section>

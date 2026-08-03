@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 import LeadForm from "@/components/LeadForm";
 import CTASection from "@/components/CTASection";
@@ -115,9 +117,21 @@ export default function LeaseAdministrationPage() {
             According to IREM, revenue leakage from poor lease administration — missed escalations, unapplied late fees, expired insurance — averages 2% to 5% of gross revenue for self-managed commercial properties. On a $500,000 annual rent roll, that is $10,000 to $25,000 walking out the door every year.
           </p>
           <p>
-            Barrett&apos;s lease administration system tracks every critical date, compliance requirement, and financial trigger across every lease in the portfolio. Alerts fire at 120, 90, 60, and 30 days before each deadline, giving owners and tenants adequate time to review, negotiate, and act.
+            Barrett&apos;s lease administration system tracks every critical date, compliance requirement, and financial trigger across every lease in the portfolio. Alerts fire at 120, 90, 60, and 30 days before each deadline, giving owners and tenants adequate time to review, negotiate, and act. This is especially critical for multi-tenant properties in active markets like <Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="font-semibold text-black underline">Pinellas</Link>, and <Link href="/markets/polk" className="font-semibold text-black underline">Polk County</Link>, where lease terms and renewal windows directly affect property value.
           </p>
         </div>
+      </section>
+
+      {/* ---- Inline image ---- */}
+      <section className="mx-auto max-w-4xl px-4 pb-4 sm:px-6 lg:px-8">
+        <Image
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=500&fit=crop"
+          alt="Commercial lease administration and critical date tracking for Florida properties"
+          width={800}
+          height={500}
+          className="rounded-lg w-full"
+        />
+        <p className="mt-2 text-sm text-[#666666] italic">Systematic lease tracking prevents missed deadlines that can cost commercial property owners thousands of dollars in lost escalations and uncollected CAM.</p>
       </section>
 
       {/* ---- Critical dates table ---- */}
@@ -224,15 +238,8 @@ export default function LeaseAdministrationPage() {
 
       {/* ---- FAQ ---- */}
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold sm:text-3xl">Frequently Asked Questions</h2>
-        <div className="mt-8 space-y-6">
-          {FAQS.map((faq) => (
-            <div key={faq.question} className="border-b border-gray-200 pb-6">
-              <h3 className="text-lg font-bold text-black">{faq.question}</h3>
-              <p className="mt-2 text-[#666666]">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
+        <h2 className="mb-6 text-2xl font-bold sm:text-3xl">Frequently Asked Questions</h2>
+        <FAQAccordion items={FAQS} />
       </section>
 
       {/* ---- Sources ---- */}
@@ -275,7 +282,7 @@ export default function LeaseAdministrationPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

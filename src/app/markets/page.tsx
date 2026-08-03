@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights for Hillsborough, Pinellas, Pasco, Polk, and more. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/markets" },
   openGraph: {
-    title: "Commercial Real Estate Markets — Tampa Bay & Central Florida | REMAX Commercial Real Estate",
+    title: "Commercial Real Estate Markets — Florida | HenCRE",
     description:
-      "Explore commercial real estate markets across Tampa Bay and Central Florida. County-by-county CRE insights from Barrett Henry, Commercial Real Estate Advisor.",
+      "Explore commercial real estate markets across Florida. County-by-county CRE insights from Barrett Henry, Broker Associate at REMAX Collective.",
     url: "https://hencre.com/markets",
   },
 };
@@ -73,7 +73,7 @@ const MARKETS = [
     county: "Citrus County",
     city: "Crystal River & Inverness",
     description:
-      "An emerging market along the US-19 corridor with growing demand for retail, medical office, and light industrial space as the Nature Coast attracts new residents and businesses.",
+      "An emerging Nature Coast market along US-19 with growing demand for retail, medical office, and light industrial space as retirees and remote workers relocate to the corridor.",
   },
   {
     slug: "hernando",
@@ -82,31 +82,161 @@ const MARKETS = [
     description:
       "A growing suburban market fueled by the Suncoast Parkway extension. Retail pad sites, industrial land, and medical office space are in demand as population growth outpaces existing supply.",
   },
-] as const;
+  {
+    slug: "alachua",
+    county: "Alachua County",
+    city: "Gainesville",
+    description:
+      "Home to the University of Florida, driving medical office demand near UF Health, student housing conversions, and innovation district activity. Downtown Gainesville and the Midtown corridor are seeing active redevelopment.",
+  },
+  {
+    slug: "baker",
+    county: "Baker County",
+    city: "Macclenny",
+    description:
+      "A rural I-10 corridor market with highway commercial, light industrial, and agricultural land opportunities. Benefits from Jacksonville spillover activity along the US-90 and I-10 interchange.",
+  },
+  {
+    slug: "bay",
+    county: "Bay County",
+    city: "Panama City",
+    description:
+      "A recovering Gulf Coast market with ongoing Tyndall Air Force Base expansion driving defense-related industrial and office demand. Tourism and hospitality anchor the Panama City Beach corridor.",
+  },
+  {
+    slug: "bradford",
+    county: "Bradford County",
+    city: "Starke",
+    description:
+      "A small rural North Florida market along US-301. Light industrial, highway commercial, and land properties connect the growing Alachua and Duval County markets.",
+  },
+  {
+    slug: "brevard",
+    county: "Brevard County",
+    city: "Melbourne & Cocoa",
+    description:
+      "The Space Coast industrial and aerospace hub anchored by SpaceX, Blue Origin, L3Harris, and NASA. Port Canaveral adds logistics and maritime commercial activity alongside strong industrial demand.",
+  },
+  {
+    slug: "broward",
+    county: "Broward County",
+    city: "Fort Lauderdale",
+    description:
+      "South Florida's second-largest CRE market. Port Everglades drives industrial demand, Las Olas anchors office and mixed-use activity, and the I-95 corridor supports established logistics and retail.",
+  },
+  {
+    slug: "calhoun",
+    county: "Calhoun County",
+    city: "Blountstown",
+    description:
+      "A rural Panhandle market with agricultural land, highway commercial, and light industrial uses. Primarily a referral-based market for investors focused on North Florida rural commercial properties.",
+  },
+  {
+    slug: "charlotte",
+    county: "Charlotte County",
+    city: "Port Charlotte & Punta Gorda",
+    description:
+      "A growing Southwest Florida market between Sarasota and Lee County. Retiree-driven healthcare, retail, and medical office demand is reshaping this coastal market.",
+  },
+  {
+    slug: "clay",
+    county: "Clay County",
+    city: "Green Cove Springs & Fleming Island",
+    description:
+      "A fast-growing Jacksonville suburb with new commercial development along US-17 and CR-218. Retail and light industrial space in strong demand as rooftop growth draws new businesses southward.",
+  },
+  {
+    slug: "collier",
+    county: "Collier County",
+    city: "Naples",
+    description:
+      "Southwest Florida's luxury CRE market. Naples drives high-end retail and office demand while the I-75 corridor attracts industrial users seeking proximity to South Florida without Miami-level costs.",
+  },
+  {
+    slug: "columbia",
+    county: "Columbia County",
+    city: "Lake City",
+    description:
+      "The I-10/I-75 interchange at Lake City creates a natural logistics hub between Jacksonville and Tallahassee. Warehouse, distribution, and transportation-related commercial properties dominate demand.",
+  },
+  {
+    slug: "desoto",
+    county: "DeSoto County",
+    city: "Arcadia",
+    description:
+      "A rural Southwest Florida market with agricultural land and light industrial properties. Benefits from proximity to Charlotte and Sarasota counties as Southwest Florida growth radiates outward.",
+  },
+  {
+    slug: "dixie",
+    county: "Dixie County",
+    city: "Cross City",
+    description:
+      "A rural Nature Coast market along US-19. Agricultural land, light industrial, and highway commercial properties serve a growing permanent population between Gainesville and Tallahassee.",
+  },
+  {
+    slug: "duval",
+    county: "Duval County",
+    city: "Jacksonville",
+    description:
+      "North Florida's dominant CRE market. JAXPORT drives major industrial and logistics demand; downtown Jacksonville revitalization creates office and mixed-use opportunity; suburban corridors add retail and medical office.",
+  },
+  {
+    slug: "escambia",
+    county: "Escambia County",
+    city: "Pensacola",
+    description:
+      "Northwest Florida's largest market. NAS Pensacola anchors defense-related industrial demand; downtown Pensacola's tech and creative corridor adds office activity; established retail lines US-98 and Davis Highway.",
+  },
+  {
+    slug: "flagler",
+    county: "Flagler County",
+    city: "Palm Coast",
+    description:
+      "One of Florida's fastest-growing cities drives retail, medical office, and light industrial demand along the I-95 corridor between Daytona Beach and St. Augustine.",
+  },
+  {
+    slug: "franklin",
+    county: "Franklin County",
+    city: "Apalachicola & Carrabelle",
+    description:
+      "Florida's least-developed coastal Panhandle market. Apalachicola's historic downtown, Carrabelle's waterfront, and Eastpoint aquaculture operations create niche commercial and investment opportunities.",
+  },
+];
 
 /* Structured data: Service schema for the markets page */
 const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  name: "Commercial Real Estate Brokerage — Tampa Bay & Central Florida Markets",
-  description:
-    "Commercial real estate brokerage services across eight counties in the Tampa Bay and Central Florida region.",
-  provider: {
-    "@type": "RealEstateAgent",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    worksFor: {
-      "@type": "RealEstateOrganization",
-      name: "REMAX Collective",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Markets", item: "https://hencre.com/markets" },
+      ],
     },
-    telephone: "(813) 733-7907",
-    email: "barrett@hencre.com",
-    url: "https://hencre.com",
-  },
-  areaServed: MARKETS.map((m) => ({
-    "@type": "AdministrativeArea",
-    name: `${m.county}, Florida`,
-  })),
+    {
+      "@type": "Service",
+      name: "Commercial Real Estate Brokerage — Florida Markets",
+      description:
+        "Commercial real estate brokerage services across 25 Florida counties, from Tampa Bay and Central Florida to the Space Coast, Southwest Florida, and the Panhandle.",
+      provider: {
+        "@type": "RealEstateAgent",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        worksFor: {
+          "@type": "RealEstateOrganization",
+          name: "REMAX Collective",
+        },
+        telephone: "(813) 733-7907",
+        email: "barrett@hencre.com",
+        url: "https://hencre.com",
+      },
+      areaServed: MARKETS.map((m) => ({
+        "@type": "AdministrativeArea",
+        name: `${m.county}, Florida`,
+      })),
+    },
+  ],
 };
 
 export default function MarketsIndexPage() {
@@ -114,7 +244,7 @@ export default function MarketsIndexPage() {
     <>
       <SchemaOrg schema={serviceSchema} />
 
-      <Breadcrumbs items={[{ label: "Markets", href: "/markets" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Markets", href: "/markets" }]} />
 
       <Hero
         title="Commercial Real Estate Markets"
@@ -131,10 +261,10 @@ export default function MarketsIndexPage() {
           </h2>
           <p className="mb-10 max-w-3xl text-[#666666]">
             Barrett Henry provides commercial real estate brokerage services
-            across eight key counties in the Tampa Bay and Central Florida
-            region. Each market has its own drivers, opportunities, and
-            challenges. Select a county below for a deep dive into that
-            market.
+            across 25 Florida counties, from Tampa Bay and Central Florida to
+            the Space Coast, Southwest Florida, and the Panhandle. Each market
+            has its own drivers, opportunities, and challenges. Select a county
+            below for a deep dive into that market.
           </p>
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -183,7 +313,7 @@ export default function MarketsIndexPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: June 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

@@ -977,3 +977,72 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### 10. `/sitemap.ts`
 - Expanded TIER1_COUNTIES from 8 to 25 entries
 - Added 17 county market pages: alachua, baker, bay, bradford, brevard, broward, calhoun, charlotte, clay, collier, columbia, desoto, dixie, duval, escambia, flagler, franklin
+
+---
+
+## 2026-08-03 — Batch 13 (9 pages)
+
+### 1. `/blog/tampa-bay-self-storage-cre-investment-2026`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Updated dateModified to "2026-08-03"
+- Added inline image (photo-1558618666-fcd25c85cd64)
+- Added 13 internal links across body text (NNN, industrial, markets, calculators, services, commercial types)
+- Converted bare `<a>` tags to `<Link>` for internal blog references
+
+### 2. `/blog` (index)
+- Fixed OG title: "REMAX Commercial Real Estate" to "Barrett Henry, HenCRE"
+- Fixed schema Blog name: "REMAX Commercial Real Estate Blog" to "HenCRE Blog"
+- Added jobTitle "Broker Associate" and worksFor to schema author
+- Added Home to breadcrumbs
+- Added Related Resources section with 10 internal links (insights, calculators, markets, services, commercial types)
+- Added "Last updated: August 2026" footer
+
+### 3. `/markets` (index)
+- Fixed OG title: removed "REMAX Commercial Real Estate", changed to "HenCRE"
+- Fixed schema jobTitle: "Commercial Real Estate Advisor" to "Broker Associate"
+- Upgraded schema to @graph (BreadcrumbList + Service)
+- Added Home to breadcrumbs
+- Expanded MARKETS display array from 8 to 25 entries (added 17 counties: alachua, baker, bay, bradford, brevard, broward, calhoun, charlotte, clay, collier, columbia, desoto, dixie, duval, escambia, flagler, franklin)
+- Updated body copy: "eight key counties" to "25 Florida counties"
+- Updated footer: "June 2026" to "August 2026"
+
+### 4. `/services/commercial-property-management/financial-reporting`
+- Added `import Image from "next/image"` and `import FAQAccordion from "@/components/FAQAccordion"`
+- Added inline image (photo-1497366754035-f200968a6e72)
+- Added 3 internal Links to Hillsborough, Pinellas, Pasco market pages in body text
+- Replaced raw h3/p FAQ rendering with `<FAQAccordion items={FAQS} />`
+- Updated footer: "July 2026" to "August 2026"
+
+### 5. `/services/commercial-property-management/lease-administration`
+- Added `import Image from "next/image"` and `import FAQAccordion from "@/components/FAQAccordion"`
+- Added inline image (photo-1486406146926-c627a92ad1ab)
+- Added 3 internal Links to Hillsborough, Pinellas, Polk market pages in body text
+- Replaced raw h3/p FAQ rendering with `<FAQAccordion items={FAQS} />`
+- Updated footer to "August 2026"
+
+### 6. `/services/commercial-property-management/maintenance-operations`
+- Added `import Image from "next/image"` and `import FAQAccordion from "@/components/FAQAccordion"`
+- Added inline image (photo-1558618666-fcd25c85cd64)
+- Added 3 internal Links to Hillsborough, Manatee, Sarasota market pages in body text
+- Replaced raw h3/p FAQ rendering with `<FAQAccordion items={FAQS} />`
+- Updated footer to "August 2026"
+
+### 7. `/services/commercial-property-management/tenant-relations`
+- Added `import Image from "next/image"` and `import FAQAccordion from "@/components/FAQAccordion"`
+- Added inline image (photo-1488229297570-58520851e868)
+- Added 3 internal Links to Hillsborough, Pinellas, Pasco market pages in body text
+- Replaced raw h3/p FAQ rendering with `<FAQAccordion items={FAQS} />`
+- Updated footer to "August 2026"
+
+### 8. `/services/commercial-property-management/vacancy-marketing`
+- Added `import Image from "next/image"` and `import FAQAccordion from "@/components/FAQAccordion"`
+- Added inline image (photo-1560518883-ce09059eeffa)
+- Added 5 internal Links to office, retail, industrial, Hillsborough, Pinellas in body text
+- Replaced raw h3/p FAQ rendering with `<FAQAccordion items={FAQS} />`
+- Updated footer to "August 2026"
+
+### 9. `/thank-you`
+- Fixed metadata description: "contacting REMAX Commercial Real Estate" to "contacting HenCRE"
+- Fixed OG title: "Thank You | REMAX Commercial Real Estate" to "Thank You | HenCRE"
+- Added Home to breadcrumbs
+- Expanded quick links from 3 to 6 (added: Florida Markets, CRE Calculators, CRE Insights)
