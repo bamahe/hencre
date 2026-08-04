@@ -4,6 +4,75 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-04 — Batch 14 (10 pages)
+
+### 1. `/blog/riverview-hillsborough-nnn-retail-landlord-investment`
+- Fixed critical TypeScript error: faqItems was declared after schema that referenced it -- moved faqItems before schema
+- Consolidated dual SchemaOrg calls (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from sameAs array
+- Added Home as first breadcrumb item
+- Fixed author bio tagline to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed irrelevant residential resource links (HUD/FHA/HOPE hotlines)
+- Fixed CTASection body (removed em dashes, "REMAX Commercial Real Estate" -> "REMAX Collective")
+- Fixed FAQ answer to use "REMAX Collective" instead of "REMAX Commercial Real Estate"
+- Updated dateModified to 2026-08-04
+
+### 2. `/blog/multifamily-investment-tampa-bay-guide`
+- Added BreadcrumbList to @graph schema
+- Fixed jobTitle: "Broker Associate, Commercial Real Estate" -> "Broker Associate"
+- Added Home as first breadcrumb item
+- Added standard author bio section
+- Expanded relatedLinks: 4 -> 10 entries
+- Updated dateModified to 2026-08-04
+- Updated footer: "July 2026" -> "August 2026"
+- Fixed CTA body (removed em dash)
+
+### 3. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Added standard author bio section
+- Expanded relatedLinks: 4 -> 8 entries
+- Updated dateModified to 2026-08-04
+- Updated footer: "July 2026" -> "August 2026"
+
+### 4. `/blog/tampa-bay-hospitality-hotel-cre-2026`
+- Added standard author bio section
+- Updated dateModified to 2026-08-04
+- Fixed CTASection body (em dashes -> " -- ")
+
+### 5. `/blog/tampa-bay-data-center-cre-2026`
+- Updated dateModified to 2026-08-04
+- Updated footer: "July 2026" -> "August 2026"
+- Expanded relatedLinks: 5 -> 8 entries (added port-tampa-bay, markets/hillsborough, commercial-property-due-diligence-timeline)
+
+### 6. `/blog/port-tampa-bay-expansion-industrial-cre-investors`
+- Updated dateModified to 2026-08-04
+- Updated footer: "July 2026" -> "August 2026"
+
+### 7. `/blog/tampa-bay-small-bay-industrial-flex-2026`
+- Updated dateModified to 2026-08-04
+- Updated footer: "July 2026" -> "August 2026"
+
+### 8. `/blog/clearwater-office-space-professional-services-firms`
+- Fixed author bio tagline: "REALTOR® & Commercial Real Estate Advisor at REMAX Collective" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author bio img alt text
+- Replaced all "REMAX Commercial Real Estate®" references with "REMAX Collective" (body text, FAQ answer, CTASection body)
+- Updated dateModified to 2026-08-04
+- Updated footer: "July 2026" -> "August 2026"
+
+### 9. `/blog/pinellas-county-industrial-cre-2026`
+- Updated dateModified to 2026-08-04
+- Expanded relatedLinks: 5 -> 8 entries (added markets/pinellas, services/tenant-representation, how-to-calculate-commercial-property-roi)
+- Added body link to markets/pinellas in supply constraints section
+- Added body link to services/tenant-representation in tenant guidance section
+
+### 10. `/services/commercial-property-management`
+- Added Home as first breadcrumb item
+- Imported FAQAccordion and converted inline FAQ rendering to FAQAccordion component
+- Updated footer: "July 2026" -> "August 2026"
+
+---
+
 ## 2026-07-20 — Batch 1 (10 pages)
 
 ### 1. `/blog/why-tampa-bay-cre-is-booming`
