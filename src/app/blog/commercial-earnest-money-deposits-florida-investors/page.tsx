@@ -84,7 +84,7 @@ const schema = {
       description:
         "Commercial earnest money deposits are larger, harder to recover, and go non-refundable faster than residential deposits. Essential reading for Florida CRE investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-07-27",
+      dateModified: "2026-08-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -114,10 +114,10 @@ const relatedLinks = [
   {
     title: "How to Calculate Commercial Property ROI",
     href: "/blog/how-to-calculate-commercial-property-roi",
-    description: "Cap rate, cash-on-cash, and total return — the numbers that drive CRE decisions.",
+    description: "Cap rate, cash-on-cash, and total return -- the numbers that drive CRE decisions.",
   },
   {
-    title: "Buyer Representation Services",
+    title: "Investment Sales Services",
     href: "/services/investment-sales",
     description: "Representing CRE buyers in Tampa Bay and across Florida.",
   },
@@ -125,6 +125,26 @@ const relatedLinks = [
     title: "Florida 1031 Exchange Guide",
     href: "/blog/florida-1031-exchange-what-investors-need-to-know",
     description: "Defer capital gains taxes using a 1031 exchange on Florida investment property.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment?",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "A fundamental framework for evaluating commercial acquisitions before you put money at risk.",
+  },
+  {
+    title: "How Commercial Leases Differ from Residential",
+    href: "/blog/how-commercial-leases-differ-from-residential",
+    description: "Understanding commercial contract structures before you sign anything.",
+  },
+  {
+    title: "CRE Valuation Services",
+    href: "/services/cre-valuation",
+    description: "Get a professional valuation before committing earnest money on a Florida CRE acquisition.",
+  },
+  {
+    title: "Hillsborough County Commercial Market",
+    href: "/markets/hillsborough",
+    description: "Earnest money norms and deal pacing for commercial acquisitions in Tampa Bay.",
   },
 ];
 
@@ -391,6 +411,26 @@ export default function CommercialEarnestMoneyPage() {
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of real estate experience advising buyers and investors through Florida commercial transactions -- including earnest money negotiation, due diligence, and contract structuring across all property types.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <CTASection
         heading="Advising on Your Next Florida CRE Acquisition?"
         body="Commercial transactions require commercial expertise. Barrett Henry has 23+ years of real estate experience representing buyers and investors across Tampa Bay."
@@ -399,7 +439,7 @@ export default function CommercialEarnestMoneyPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

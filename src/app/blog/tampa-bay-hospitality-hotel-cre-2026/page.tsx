@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay's hotel development pipeline is the strongest in a decade. Here is what the luxury hotel boom means for commercial real estate investors across downtown Tampa, Ybor City, and St. Petersburg.",
       datePublished: "2026-07-31",
-      dateModified: "2026-08-02",
+      dateModified: "2026-08-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -290,9 +290,29 @@ export default function TampaBayHospitalityHotelCREPage() {
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of commercial real estate experience across Tampa Bay, including retail, restaurant, and mixed-use assets in submarkets shaped by the region&apos;s hospitality buildout.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <CTASection
         heading="Own Commercial Property Near a Tampa Bay Hotel Development?"
-        body="The hospitality pipeline is reshaping retail, restaurant, and mixed-use commercial real estate demand in downtown Tampa, Ybor City, and St. Pete. Barrett Henry — REMAX Collective, 23+ years in Tampa Bay CRE — can help you evaluate what it means for what you own or want to buy."
+        body="The hospitality pipeline is reshaping retail, restaurant, and mixed-use commercial real estate demand in downtown Tampa, Ybor City, and St. Pete. Barrett Henry at REMAX Collective -- 23+ years in Tampa Bay CRE -- can help you evaluate what it means for what you own or want to buy."
         buttonText="Talk to Barrett"
         buttonHref="/contact"
       />

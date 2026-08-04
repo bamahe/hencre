@@ -5,6 +5,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 import LeadForm from "@/components/LeadForm";
 import CTASection from "@/components/CTASection";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import FAQAccordion from "@/components/FAQAccordion";
 
 /* -------------------------------------------------------------------
  * Commercial Property Management — pillar/hub page.
@@ -127,7 +128,7 @@ export default function CommercialPropertyManagementPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "Commercial Property Management", href: "/services/commercial-property-management" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "Commercial Property Management", href: "/services/commercial-property-management" }]} />
 
       <Hero
         title="Commercial Property Management in Florida"
@@ -335,13 +336,8 @@ export default function CommercialPropertyManagementPage() {
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold sm:text-3xl">Frequently Asked Questions</h2>
-          <div className="mt-8 space-y-6">
-            {FAQS.map((faq) => (
-              <div key={faq.question} className="border-b border-gray-200 pb-6">
-                <h3 className="text-lg font-bold text-black">{faq.question}</h3>
-                <p className="mt-2 text-[#666666]">{faq.answer}</p>
-              </div>
-            ))}
+          <div className="mt-8">
+            <FAQAccordion items={FAQS} />
           </div>
         </div>
       </section>
@@ -390,7 +386,7 @@ export default function CommercialPropertyManagementPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

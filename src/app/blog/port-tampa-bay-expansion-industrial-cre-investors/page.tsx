@@ -85,7 +85,7 @@ const schema = {
       description:
         "Port Tampa Bay is adding cranes, dredging its channel, and expanding container terminals under Vision 2030. Here is what commercial real estate investors need to know about the industrial demand surge it is creating.",
       datePublished: "2026-07-26",
-      dateModified: "2026-07-29",
+      dateModified: "2026-08-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -248,7 +248,7 @@ export default function PortTampaBayExpansionCREPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

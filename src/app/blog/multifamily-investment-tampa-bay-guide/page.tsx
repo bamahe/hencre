@@ -67,16 +67,29 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Multifamily Investment Tampa Bay Guide",
+          item: "https://hencre.com/blog/multifamily-investment-tampa-bay-guide",
+        },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "Multifamily Investment Tampa Bay Guide",
       description:
-        "How to invest in multifamily properties in Tampa Bay — market analysis, evaluation, and strategies.",
+        "How to invest in multifamily properties in Tampa Bay -- market analysis, evaluation, and strategies.",
       datePublished: "2026-06-08",
-      dateModified: "2026-07-20",
+      dateModified: "2026-08-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate, Commercial Real Estate",
+        jobTitle: "Broker Associate",
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -97,22 +110,52 @@ const relatedLinks = [
   {
     title: "How to Calculate Commercial Property ROI",
     href: "/blog/how-to-calculate-commercial-property-roi",
-    description: "The math behind evaluating any commercial investment.",
+    description: "The math behind evaluating any commercial investment, including cap rate and cash-on-cash.",
   },
   {
     title: "What Makes a Good Commercial Investment?",
     href: "/blog/what-makes-a-good-commercial-investment",
-    description: "Investment criteria from a broker's perspective.",
+    description: "Investment criteria from a broker's perspective across all CRE asset types.",
   },
   {
     title: "Florida 1031 Exchange Guide",
     href: "/blog/florida-1031-exchange-what-investors-need-to-know",
-    description: "How to exchange into Florida multifamily properties.",
+    description: "How to exchange into Florida multifamily properties and defer capital gains taxes.",
   },
   {
     title: "Investment Sales Services",
     href: "/services/investment-sales",
-    description: "How Barrett helps investors acquire multifamily properties.",
+    description: "How Barrett helps investors acquire multifamily and commercial properties across Tampa Bay.",
+  },
+  {
+    title: "Tampa Bay Multifamily Cap Rates 2026",
+    href: "/blog/tampa-bay-multifamily-cap-rates-2026",
+    description: "Current cap rate benchmarks for multifamily investment across the Tampa Bay metro.",
+  },
+  {
+    title: "Florida Insurance Crisis & Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "How rising property insurance costs affect multifamily underwriting and net returns in Florida.",
+  },
+  {
+    title: "Hillsborough County Market Overview",
+    href: "/markets/hillsborough",
+    description: "Commercial and multifamily investment fundamentals across Tampa and Hillsborough County.",
+  },
+  {
+    title: "Selling Tenant-Occupied Investment Property in Florida",
+    href: "/blog/selling-tenant-occupied-investment-property-florida",
+    description: "What to know before selling or buying an occupied multifamily or investment property in Florida.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "What to inspect and verify before closing on any multifamily acquisition in Tampa Bay.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Calculate the cap rate on any Tampa Bay multifamily property before making an offer.",
   },
 ];
 
@@ -123,6 +166,7 @@ export default function MultifamilyInvestmentGuidePage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Multifamily Investment Guide", href: "/blog/multifamily-investment-tampa-bay-guide" },
         ]}
@@ -268,15 +312,35 @@ export default function MultifamilyInvestmentGuidePage() {
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of real estate experience helping investors acquire, evaluate, and exit multifamily and commercial properties across Tampa Bay and all 67 Florida counties.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <CTASection
         heading="Ready to Invest in Tampa Bay Multifamily?"
-        body="Barrett helps investors find and evaluate multifamily properties — from small portfolio-builders to institutional-quality apartment communities. Call (813) 733-7907."
+        body="Barrett helps investors find and evaluate multifamily properties -- from small portfolio-builders to institutional-quality apartment communities. Call (813) 733-7907."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

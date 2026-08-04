@@ -35,7 +35,7 @@ const faqItems = [
   { question: "How much office space does a small professional services firm typically need in Clearwater?", answer: "A small firm with two to five professionals — attorneys, CPAs, or agents — generally occupies between 800 and 2,500 square feet, depending on how many private offices, conference rooms, and support staff workstations are needed. Client-facing firms tend to allocate more square footage per person than back-office operations because private meeting space is a functional requirement, not a preference." },
   { question: "Is it better to lease or buy office space as a professional services firm?", answer: "Leasing offers flexibility and lower upfront capital requirements, which suits firms in growth mode or those uncertain about their long-term headcount. Buying makes sense for established firms with stable revenue that want to build equity, control their occupancy costs long-term, and potentially generate rental income from excess space. Both paths have merit, and the right answer depends on your firm's specific financial position and five-year outlook." },
   { question: "What should I look for in a Clearwater office lease as an attorney or accountant?", answer: "Focus on tenant improvement allowance, renewal option terms, rent escalation caps, and signage rights — in that order. Professional service firms are stable, creditworthy tenants, which means you have leverage to negotiate favorable TI packages and long-term renewal options that protect your investment in the space after buildout. Having a commercial REALTOR® represent you in those negotiations consistently produces better outcomes than going directly to a landlord." },
-  { question: "Does Barrett Henry work with professional services firms outside of Clearwater?", answer: "Yes. Barrett serves clients across all 67 Florida counties through REMAX Commercial Real Estate® and maintains offices in Tampa, Largo, and Brandon, giving him active coverage throughout the Tampa Bay region and statewide. If your firm is evaluating multiple Florida markets, he can help you compare opportunities across Pinellas, Hillsborough, Pasco, and other counties from a single point of contact." },
+  { question: "Does Barrett Henry work with professional services firms outside of Clearwater?", answer: "Yes. Barrett serves clients across all 67 Florida counties through REMAX Collective and maintains offices in Tampa, Largo, and Brandon, giving him active coverage throughout the Tampa Bay region and statewide. If your firm is evaluating multiple Florida markets, he can help you compare opportunities across Pinellas, Hillsborough, Pasco, and other counties from a single point of contact." },
   { question: "How do CAM charges work in a Clearwater professional office lease?", answer: "Most professional office leases in Clearwater are structured as modified gross or full-service gross, where operating expenses are partially or fully included in the base rent. Some buildings use a net structure with separate CAM, tax, and insurance pass-throughs. Always confirm what expense categories you are responsible for before comparing quoted rates, since a $22/SF full-service lease can cost less than a $17/SF NNN lease once operating expenses are factored in." },
 ];
 
@@ -55,7 +55,7 @@ const schema = {
       headline: "Clearwater Office Space for Professional Services Firms",
       description: "Find the right office space in Clearwater, FL for your law, accounting, or insurance firm. Get expert CRE guidance from Barrett Henry, Broker Associate at REMAX Collective.",
       datePublished: "2026-07-18",
-      dateModified: "2026-07-27",
+      dateModified: "2026-08-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -137,7 +137,7 @@ export default function BlogPost() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Does Timing Matter When You Are Searching for Professional Office Space in Clearwater?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">Clearwater's professional office inventory is not large. The market has a defined set of quality buildings, and well-located suites in Class B buildings on major corridors move when they are priced correctly. If your current lease expires in the next 12 to 18 months, you are already inside the window where serious operators start their search. Waiting until six months out limits your negotiating position, reduces your buildout timeline, and can force you into a space that is merely available rather than right for your firm.</p>
-        <p className="mt-4 text-[#666666] leading-relaxed">Firms that engage a commercial REALTOR® early — before a space is formally listed, or before a landlord updates their asking rate — access options that never reach public listing platforms. Barrett Henry works across all 67 Florida counties through REMAX Commercial Real Estate® with offices in Tampa, Largo, and Brandon, which means he has direct relationships with Clearwater and Pinellas County landlords, property managers, and building owners. That network is what turns a frustrating search into a focused process with real options. If you are an investor looking at the Clearwater office market from the other side, compare what this market offers against other active Florida markets like <a href='/blog/bradenton-commercial-real-estate-opportunities'>Bradenton</a> or review how office fits into a broader <a href='/blog/how-to-calculate-commercial-property-roi'>commercial property ROI calculation</a> before you commit capital.</p>
+        <p className="mt-4 text-[#666666] leading-relaxed">Firms that engage a commercial REALTOR® early — before a space is formally listed, or before a landlord updates their asking rate — access options that never reach public listing platforms. Barrett Henry works across all 67 Florida counties through REMAX Collective with offices in Tampa, Largo, and Brandon, which means he has direct relationships with Clearwater and Pinellas County landlords, property managers, and building owners. That network is what turns a frustrating search into a focused process with real options. If you are an investor looking at the Clearwater office market from the other side, compare what this market offers against other active Florida markets like <a href='/blog/bradenton-commercial-real-estate-opportunities'>Bradenton</a> or review how office fits into a broader <a href='/blog/how-to-calculate-commercial-property-roi'>commercial property ROI calculation</a> before you commit capital.</p>
 
         {/* ---- Inline image ---- */}
         <div className="my-10 overflow-hidden rounded-lg">
@@ -174,16 +174,16 @@ export default function BlogPost() {
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
           <img
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Commercial Real Estate Advisor"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR® & Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial® division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience helping professional services firms find and negotiate office space across Pinellas and Hillsborough Counties. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>
@@ -193,12 +193,12 @@ export default function BlogPost() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: July 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: August 2026</p>
       </section>
 
       <CTASection
         heading="Your Lease Window Is Shorter Than You Think — Let's Find the Right Space First"
-        body="Barrett Henry has 23+ years of real estate experience and works across all of Pinellas County through REMAX Commercial Real Estate® — call (813) 733-7907 today to get a shortlist of professional office options in Clearwater before the right space is gone."
+        body="Barrett Henry has 23+ years of real estate experience and works across all of Pinellas County through REMAX Collective -- call (813) 733-7907 today to get a shortlist of professional office options in Clearwater before the right space is gone."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

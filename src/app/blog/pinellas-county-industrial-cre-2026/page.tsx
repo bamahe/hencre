@@ -85,7 +85,7 @@ const schema = {
       description:
         "GID paid $192 million for a 10-building, 933,000-SF industrial portfolio in Pinellas County in July 2026. Here is what the deal reveals about vacancy, rents, and what tenants and investors should do next.",
       datePublished: "2026-08-02",
-      dateModified: "2026-08-02",
+      dateModified: "2026-08-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -110,7 +110,7 @@ const relatedLinks = [
   {
     title: "Tampa Bay Small Bay Industrial & Flex Space 2026",
     href: "/blog/tampa-bay-small-bay-industrial-flex-2026",
-    description: "How Tampa Bay's most undersupplied industrial niche works — and what a recent $23M deal signals for the market.",
+    description: "How Tampa Bay's most undersupplied industrial niche works -- and what a recent $23M deal signals for the market.",
   },
   {
     title: "Tampa Industrial Market Outlook 2026",
@@ -131,6 +131,21 @@ const relatedLinks = [
     title: "Clearwater Office Space for Professional Services Firms",
     href: "/blog/clearwater-office-space-professional-services-firms",
     description: "If your business needs office rather than industrial space in Pinellas County, this guide covers Clearwater's office market.",
+  },
+  {
+    title: "Pinellas County Commercial Real Estate Market",
+    href: "/markets/pinellas",
+    description: "Market overview for commercial buyers, tenants, and investors active across all of Pinellas County.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "Barrett represents industrial tenants in lease negotiations to secure better terms and protect your business.",
+  },
+  {
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "A framework for evaluating industrial acquisitions in Pinellas County using cap rate, NOI, and cash-on-cash return.",
   },
 ];
 
@@ -177,7 +192,7 @@ export default function PinellasCountyIndustrialCRE2026Page() {
           What new industrial activity does occur in Pinellas is almost entirely redevelopment — converting obsolete retail, repurposing older office buildings, or subdividing legacy industrial sites. Those projects are expensive, slow, and subject to intense community and regulatory scrutiny. They add modest square footage to a market that needs substantial new inventory to shift the supply-demand balance in tenants&apos; favor. That shift is not coming.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Meanwhile, demand from Pinellas County&apos;s business base continues to compound. The county is home to a dense concentration of trade contractors, distributors, marine businesses, healthcare supply companies, and small manufacturers — all of whom need functional industrial space within a reasonable drive of their customers in St. Petersburg, Clearwater, Largo, and Dunedin. Remote alternatives in Hillsborough or Pasco frequently do not work operationally for service businesses that need to be close to their customer base. The result is persistent demand pressure on a fixed supply base, which is the fundamental driver behind transactions like the GID portfolio acquisition.
+          Meanwhile, demand from Pinellas County&apos;s business base continues to compound. The county is home to a dense concentration of trade contractors, distributors, marine businesses, healthcare supply companies, and small manufacturers -- all of whom need functional industrial space within a reasonable drive of their customers in St. Petersburg, Clearwater, Largo, and Dunedin. Remote alternatives in Hillsborough or Pasco frequently do not work operationally for service businesses that need to be close to their customer base. The result is persistent demand pressure on a fixed supply base, which is the fundamental driver behind transactions like the GID portfolio acquisition. For a full picture of commercial activity across all property types in the county, see our <a href="/markets/pinellas" className="text-accent underline">Pinellas County commercial real estate market overview</a>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For comparison to how neighboring markets differ, our post on <a href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">Tampa Bay&apos;s broader industrial market outlook in 2026</a> covers the new supply wave hitting Hillsborough and Polk counties — a dynamic that simply does not apply in Pinellas.
@@ -224,7 +239,7 @@ export default function PinellasCountyIndustrialCRE2026Page() {
           The lease renewal conversation deserves particular attention. Because Pinellas industrial rents have moved significantly since 2021, many tenants are in the uncomfortable position of facing renewal quotes that feel out of line with their original expectations. Understanding <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">how NNN leases work</a> and what market comparables say about current rents before sitting down with your landlord is essential — without that context, you have no basis for negotiating effectively.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tenants who genuinely cannot make the renewal economics work — and some cannot, particularly if their lease was signed at pre-2022 rates in a building where the landlord now has market-rate leverage — should explore whether relocation to adjacent submarkets in Hillsborough County offers relief. East Hillsborough industrial corridors near Brandon and Seffner are accessible from most parts of Pinellas County within a practical drive time and carry meaningfully lower asking rents. For businesses that cannot operationally move, the negotiating posture is different: you are negotiating tenure and lease structure, not rate, and the tools a broker brings to that conversation are different from a straightforward space search.
+          Tenants who genuinely cannot make the renewal economics work -- and some cannot, particularly if their lease was signed at pre-2022 rates in a building where the landlord now has market-rate leverage -- should explore whether relocation to adjacent submarkets in Hillsborough County offers relief. Working with a <a href="/services/tenant-representation" className="text-accent underline">tenant representative</a> puts you in a materially stronger position when confronting a landlord who knows the market is tight. East Hillsborough industrial corridors near Brandon and Seffner are accessible from most parts of Pinellas County within a practical drive time and carry meaningfully lower asking rents. For businesses that cannot operationally move, the negotiating posture is different: you are negotiating tenure and lease structure, not rate, and the tools a broker brings to that conversation are different from a straightforward space search.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is Pinellas County Industrial a Good Investment in 2026?</h2>

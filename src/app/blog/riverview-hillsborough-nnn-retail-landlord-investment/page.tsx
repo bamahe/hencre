@@ -24,72 +24,70 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Riverview FL NNN & Retail Investment Guide 2026",
-  description: "Riverview, FL commercial real estate is outpacing expectations. Barrett Henry breaks down NNN, retail, and landlord opportunities. Call (813) 733-7907.",
-  datePublished: "2026-08-03",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-    sameAs: [
-      "https://hencre.com/about",
-      "https://nowtb.com",
-      "https://barretthenry.remax.com",
-    ],
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
+const faqItems = [
+  {
+    question: "Is Riverview a good market for NNN commercial real estate investment?",
+    answer: "Riverview is one of the stronger NNN submarket candidates in South Hillsborough County because high-traffic retail corridors along US-301 and SR-674 attract national and regional credit tenants who prefer NNN lease structures near dense, growing residential populations.",
   },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/riverview-hillsborough-nnn-retail-landlord-investment",
-};
+  {
+    question: "What types of commercial tenants are most active in Riverview right now?",
+    answer: "Medical and healthcare operators, QSR and fast-casual restaurant brands, personal service businesses, and trade/contractor users are among the most active tenant categories pursuing space in Riverview as of 2026.",
+  },
+  {
+    question: "Does Riverview fall under Tampa or Hillsborough County zoning jurisdiction?",
+    answer: "Most of Riverview is unincorporated Hillsborough County, meaning commercial properties are governed by Hillsborough County's land development code and Future Land Use Map rather than any municipal zoning authority.",
+  },
+  {
+    question: "How do I find off-market commercial properties in Riverview?",
+    answer: "Off-market commercial properties in Riverview are typically surfaced through advisor relationships, owner outreach, and local market networks -- not public listing platforms, which is why working with an experienced CRE advisor like Barrett Henry at REMAX Collective gives buyers a real sourcing advantage.",
+  },
+  {
+    question: "What is a reasonable lease term to target as a Riverview commercial landlord?",
+    answer: "For retail and medical tenants in Riverview, initial lease terms of five to seven years with renewal options tied to annual rent escalators are the most common and favorable structure for landlords looking to protect income stability and asset value.",
+  }
+];
 
-const faqSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "Is Riverview a good market for NNN commercial real estate investment?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Riverview is one of the stronger NNN submarket candidates in South Hillsborough County because high-traffic retail corridors along US-301 and SR-674 attract national and regional credit tenants who prefer NNN lease structures near dense, growing residential populations.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Riverview FL NNN & Retail Investment Guide 2026",
+          item: "https://hencre.com/blog/riverview-hillsborough-nnn-retail-landlord-investment",
+        },
+      ],
     },
     {
-      "@type": "Question",
-      name: "What types of commercial tenants are most active in Riverview right now?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Medical and healthcare operators, QSR and fast-casual restaurant brands, personal service businesses, and trade/contractor users are among the most active tenant categories pursuing space in Riverview as of 2026.",
+      "@type": "BlogPosting",
+      headline: "Riverview FL NNN & Retail Investment Guide 2026",
+      description: "Riverview, FL commercial real estate is outpacing expectations. Barrett Henry breaks down NNN, retail, and landlord opportunities.",
+      datePublished: "2026-08-03",
+      dateModified: "2026-08-04",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/riverview-hillsborough-nnn-retail-landlord-investment",
     },
     {
-      "@type": "Question",
-      name: "Does Riverview fall under Tampa or Hillsborough County zoning jurisdiction?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Most of Riverview is unincorporated Hillsborough County, meaning commercial properties are governed by Hillsborough County's land development code and Future Land Use Map rather than any municipal zoning authority.",
-      },
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
-    {
-      "@type": "Question",
-      name: "How do I find off-market commercial properties in Riverview?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Off-market commercial properties in Riverview are typically surfaced through advisor relationships, owner outreach, and local market networks — not public listing platforms, which is why working with an experienced CRE advisor like Barrett Henry at REMAX Commercial Real Estate gives buyers a real sourcing advantage.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is a reasonable lease term to target as a Riverview commercial landlord?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "For retail and medical tenants in Riverview, initial lease terms of five to seven years with renewal options tied to annual rent escalators are the most common and favorable structure for landlords looking to protect income stability and asset value.",
-      },
-    }
   ],
 };
 
@@ -146,37 +144,14 @@ const relatedLinks = [
   }
 ];
 
-const faqItems = [
-  {
-    question: "Is Riverview a good market for NNN commercial real estate investment?",
-    answer: "Riverview is one of the stronger NNN submarket candidates in South Hillsborough County because high-traffic retail corridors along US-301 and SR-674 attract national and regional credit tenants who prefer NNN lease structures near dense, growing residential populations.",
-  },
-  {
-    question: "What types of commercial tenants are most active in Riverview right now?",
-    answer: "Medical and healthcare operators, QSR and fast-casual restaurant brands, personal service businesses, and trade/contractor users are among the most active tenant categories pursuing space in Riverview as of 2026.",
-  },
-  {
-    question: "Does Riverview fall under Tampa or Hillsborough County zoning jurisdiction?",
-    answer: "Most of Riverview is unincorporated Hillsborough County, meaning commercial properties are governed by Hillsborough County's land development code and Future Land Use Map rather than any municipal zoning authority.",
-  },
-  {
-    question: "How do I find off-market commercial properties in Riverview?",
-    answer: "Off-market commercial properties in Riverview are typically surfaced through advisor relationships, owner outreach, and local market networks — not public listing platforms, which is why working with an experienced CRE advisor like Barrett Henry at REMAX Commercial Real Estate gives buyers a real sourcing advantage.",
-  },
-  {
-    question: "What is a reasonable lease term to target as a Riverview commercial landlord?",
-    answer: "For retail and medical tenants in Riverview, initial lease terms of five to seven years with renewal options tied to annual rent escalators are the most common and favorable structure for landlords looking to protect income stability and asset value.",
-  }
-];
-
 export default function BlogPost() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Riverview FL NNN & Retail Investment Guide 2026", href: "/blog/riverview-hillsborough-nnn-retail-landlord-investment" },
         ]}
@@ -220,23 +195,11 @@ export default function BlogPost() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR\u00AE & Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience advising commercial buyers, sellers, and landlords across Hillsborough County, including Riverview, Brandon, and Valrico. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* ---- Free Resources ---- */}
-      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
-        <div className="rounded-lg bg-[#F5F5F5] p-6 text-sm text-[#666666]">
-          <p className="font-semibold text-black">Free Resources</p>
-          <ul className="mt-2 space-y-1">
-            <li>HUD Housing Counseling: <a href="tel:18005694287" className="underline">1-800-569-4287</a></li>
-            <li>FHA Resource Center: <a href="tel:18002255342" className="underline">1-800-225-5342</a></li>
-            <li>HOPE Hotline: <a href="tel:18889954673" className="underline">1-888-995-4673</a></li>
-          </ul>
         </div>
       </section>
 
@@ -248,8 +211,8 @@ export default function BlogPost() {
       </section>
 
       <CTASection
-        heading="Riverview Is Moving Fast — Don't Miss the Window"
-        body="Tenant demand in South Hillsborough is outpacing quality available inventory, and the investors who close on well-positioned Riverview assets in the next 6–12 months will be ahead of the competition. Call Barrett Henry at (813) 733-7907 or reach him through REMAX Commercial Real Estate — he'll show you what's available, what's worth your time, and what to avoid."
+        heading="Riverview Is Moving Fast -- Don&apos;t Miss the Window"
+        body="Tenant demand in South Hillsborough is outpacing quality available inventory. Call Barrett Henry at REMAX Collective -- (813) 733-7907 -- he&apos;ll show you what&apos;s available, what&apos;s worth your time, and what to avoid."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

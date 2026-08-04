@@ -84,7 +84,7 @@ const schema = {
       description:
         "Private equity is pouring into Tampa Bay data centers as AI demand accelerates. What the data center buildout means for industrial CRE investors, tenants, and landowners across Tampa Bay.",
       datePublished: "2026-07-25",
-      dateModified: "2026-07-27",
+      dateModified: "2026-08-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -129,7 +129,22 @@ const relatedLinks = [
   {
     title: "Why Tampa Bay CRE Is Booming",
     href: "/blog/why-tampa-bay-cre-is-booming",
-    description: "The macro drivers — population growth, corporate relocations, and infrastructure — behind Tampa Bay's commercial real estate expansion.",
+    description: "The macro drivers -- population growth, corporate relocations, and infrastructure -- behind Tampa Bay's commercial real estate expansion.",
+  },
+  {
+    title: "Port Tampa Bay Expansion & Industrial CRE Investors",
+    href: "/blog/port-tampa-bay-expansion-industrial-cre-investors",
+    description: "How port infrastructure investment and logistics demand intersect with the data center buildout across the I-4 corridor.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "Market overview for industrial, office, and mixed-use investments across Hillsborough County.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "What to expect at each phase of a commercial transaction -- essential reading before acquiring a data center or industrial asset.",
   },
 ];
 
@@ -245,7 +260,7 @@ export default function TampaBayDataCenterCREPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
