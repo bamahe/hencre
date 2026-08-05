@@ -818,5 +818,21 @@
     "county": "Hillsborough",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "valrico-commercial-leasing-guide-hillsborough",
+    "title": "Valrico Commercial Leasing: Find the Right Space",
+    "excerpt": "Valrico's growing residential base and strong household income make it a smart target for businesses ready to lease commercial space in Hillsborough County.",
+    "date": "2026-08-05",
+    "category": "business-guide",
+    "city": "Valrico",
+    "county": "Hillsborough",
+    "businessType": "commercial leasing",
+    "image": {
+      "url": "/images/blog/valrico-commercial-leasing-guide-hillsborough.jpg",
+      "alt": "a street lined with palm trees and parked cars",
+      "photographer": "Juan Pablo Mascanfroni",
+      "link": "https://unsplash.com/@juanmascan1978"
+    }
   }
 ]
