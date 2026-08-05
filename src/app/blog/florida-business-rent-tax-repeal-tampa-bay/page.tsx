@@ -86,7 +86,7 @@ const schema = {
       description:
         "Florida eliminated its Business Rent Tax on commercial leases effective October 1, 2025. Here is exactly how much Tampa Bay tenants are saving and what to do if your landlord is still charging the tax.",
       datePublished: "2026-07-30",
-      dateModified: "2026-08-01",
+      dateModified: "2026-08-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -132,6 +132,21 @@ const relatedLinks = [
     title: "Tampa Bay Office Market Q2 2026",
     href: "/blog/tampa-bay-office-market-q2-2026",
     description: "How the office market is performing in Tampa Bay — relevant context for tenants evaluating new space.",
+  },
+  {
+    title: "Why Tampa Bay CRE Is Booming",
+    href: "/blog/why-tampa-bay-cre-is-booming",
+    description: "The macro drivers behind Tampa Bay's commercial real estate expansion — population growth, corporate relocations, and infrastructure.",
+  },
+  {
+    title: "Tampa Bay Hospitality & Hotel CRE 2026",
+    href: "/blog/tampa-bay-hospitality-hotel-cre-2026",
+    description: "Six hotel projects underway in Tampa Bay and what the hospitality pipeline means for adjacent commercial property.",
+  },
+  {
+    title: "Midtown Tampa Commercial Real Estate 2026",
+    href: "/blog/midtown-tampa-commercial-real-estate-2026",
+    description: "The North Tampa mixed-use district hitting 100% office occupancy and what it means for nearby commercial properties.",
   },
 ];
 
@@ -253,7 +268,7 @@ export default function FloridaBusinessRentTaxRepealPage() {
           The Business Rent Tax repeal is one of several factors that have shifted the buy-versus-lease calculus for Tampa Bay businesses in 2026. When leasing commercial space was more expensive on a total cost basis — taxes, CAM charges, and rising rents compounding simultaneously — the argument for purchasing your own building was easier to make. The repeal does not reverse that argument, but it does reduce one element of lease cost, which is worth incorporating into any honest comparison.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For businesses that own their commercial property and are considering whether to continue occupying it or pursue a <strong>sale-leaseback</strong> — selling the property to an investor and leasing it back to free up capital — the post-repeal environment is arguably more favorable for that strategy. The effective cost of leasing back from a new owner is now lower by 2.5% to 3.0% than it was before October 2025, which improves the net economics of a sale-leaseback for the operating business. If you are weighing that kind of transaction, the math has changed. For businesses looking to move quickly on that type of restructuring, <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fast commercial property sales</a> are one option worth understanding alongside a traditional marketed listing process.
+          For businesses that own their commercial property and are considering whether to continue occupying it or pursue a <strong>sale-leaseback</strong> — selling the property to an investor and leasing it back to free up capital — the post-repeal environment is arguably more favorable for that strategy. The effective cost of leasing back from a new owner is now lower by 2.5% to 3.0% than it was before October 2025, which improves the net economics of a sale-leaseback for the operating business. If you are weighing that kind of transaction, the math has changed. Working with a commercial broker who can move quickly on a marketed listing or an off-market introduction is the right path for businesses evaluating that kind of restructuring.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           None of this replaces the fundamental underwriting exercise: what does it cost to lease for five years versus to buy and build equity, given current rates, your capital availability, and your business&apos;s growth trajectory? But the repeal removes an argument that used to favor buying over leasing, and that is worth factoring in when the analysis is close.

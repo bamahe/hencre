@@ -1,169 +1,329 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Image from "next/image";
+import Link from "next/link";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import LeadForm from "@/components/LeadForm";
+import FAQAccordion from "@/components/FAQAccordion";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
-  title: "Commercial Real Estate in Gilchrist County, Florida | HenCRE",
-  description: "Expert guide to commercial real estate in Gilchrist County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+  title: "Gilchrist County Commercial Real Estate | HenCRE",
+  description: "Commercial real estate in Gilchrist County, FL — Trenton, Bell, and Fanning Springs. Agricultural, eco-tourism, and small-town retail opportunities. Barrett Henry, REMAX Collective.",
+  alternates: { canonical: "https://hencre.com/markets/gilchrist" },
   openGraph: {
-    title: "Commercial Real Estate in Gilchrist County, Florida | HenCRE",
-    description: "Expert guide to commercial real estate in Gilchrist County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+    title: "Gilchrist County Commercial Real Estate | HenCRE",
+    description: "Commercial real estate in Gilchrist County, FL — Trenton, Bell, and Fanning Springs. Agricultural, eco-tourism, and small-town retail opportunities. Barrett Henry, REMAX Collective.",
     url: "https://hencre.com/markets/gilchrist",
     siteName: "HenCRE",
     type: "article",
   },
 };
 
+const faqItems = [
+  {
+    question: "What is the commercial real estate market like in Gilchrist County?",
+    answer: "Gilchrist County is a rural North Central Florida market with low transaction velocity and limited commercial inventory. The economy centers on agriculture — cattle, forestry, and row crops — layered with springs-based eco-tourism around Fanning Springs. It rewards patient capital and owner-operators, not speculation or rapid appreciation.",
+  },
+  {
+    question: "What types of commercial properties are active in Gilchrist County?",
+    answer: "Active property types include small retail and service buildings in Trenton and Bell, agricultural support facilities (feed stores, equipment dealers), seasonal hospitality properties near Fanning Springs, and professional services space in Trenton. Multi-tenant office and large-format retail are essentially non-existent here.",
+  },
+  {
+    question: "Why would an investor consider Gilchrist County commercial real estate?",
+    answer: "The appeal is steady, low-turnover income in a supply-constrained market. Limited commercial inventory means less competition for quality tenants. Agricultural support tenants and local service businesses tend to stay put. Acquisition prices are typically lower than comparable assets in high-velocity Florida markets. This is a buy-and-hold play, not a flip.",
+  },
+  {
+    question: "Does Fanning Springs tourism support commercial hospitality growth?",
+    answer: "Yes, modestly. The springs draw consistent seasonal visitors — kayakers, swimmers, and nature tourists — primarily in spring and summer. Small lodging, restaurants, and outfitter operations near Fanning Springs see predictable seasonal demand. Growth is incremental, not explosive, but the tourism base is real and recurring.",
+  },
+  {
+    question: "How does Barrett Henry work Gilchrist County commercial real estate?",
+    answer: "Barrett treats Gilchrist County as a referral territory, handled through established local relationships and 23+ years of Florida commercial real estate experience. He connects buyers and sellers to qualified local brokers, provides honest market assessment, and applies statewide context to rural Florida transactions. He won&apos;t oversell this market — he&apos;ll tell you what it actually is.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hencre.com" },
+        { "@type": "ListItem", "position": 2, "name": "Markets", "item": "https://hencre.com/markets" },
+        { "@type": "ListItem", "position": 3, "name": "Gilchrist County", "item": "https://hencre.com/markets/gilchrist" },
+      ],
+    },
+    {
+      "@type": "Service",
+      "name": "Commercial Real Estate Services — Gilchrist County, FL",
+      "description": "Commercial real estate brokerage in Gilchrist County, Florida. Agricultural properties, eco-tourism hospitality, and small-town retail from Barrett Henry, REMAX Collective.",
+      "provider": {
+        "@type": "Person",
+        "name": "Barrett Henry",
+        "jobTitle": "Broker Associate",
+        "email": "barrett@hencre.com",
+        "telephone": "+18137337907",
+        "worksFor": { "@type": "Organization", "name": "REMAX Collective" },
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Gilchrist County, Florida",
+      },
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": faqItems.map((item) => ({
+        "@type": "Question",
+        "name": item.question,
+        "acceptedAnswer": { "@type": "Answer", "text": item.answer },
+      })),
+    },
+  ],
+};
+
+const relatedLinks = [
+  { href: "/markets/dixie", title: "Dixie County Commercial Real Estate" },
+  { href: "/markets/columbia", title: "Columbia County Commercial Real Estate" },
+  { href: "/markets/levy", title: "Levy County Commercial Real Estate" },
+  { href: "/services/land-development", title: "Land Development Services" },
+  { href: "/services/investment-sales", title: "Investment Property Sales" },
+  { href: "/markets", title: "All Florida Markets" },
+];
+
 export default function Page() {
   return (
     <>
-      <SchemaOrg schema={{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Commercial Real Estate in Gilchrist County, Florida",
-        "description": "Expert guide to commercial real estate in Gilchrist County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
-        "author": {
-          "@type": "Person",
-          "name": "Barrett Henry",
-          "jobTitle": "Broker Associate",
-          "worksFor": { "@type": "Organization", "name": "REMAX Collective" }
-        }
-      }} />
+      <SchemaOrg schema={schema} />
       <Breadcrumbs items={[
         { label: "Home", href: "/" },
         { label: "Markets", href: "/markets" },
-        { label: "Commercial Real Estate in Gilchrist County, Florida", href: "/markets/gilchrist" },
+        { label: "Gilchrist County", href: "/markets/gilchrist" },
       ]} />
-      <Hero title="Commercial Real Estate in Gilchrist County, Florida" subtitle="Expert guide to commercial real estate in Gilchrist County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
+      <Hero
+        title="Gilchrist County Commercial Real Estate"
+        subtitle="Rural North Central Florida — Trenton, Bell, and Fanning Springs. Agricultural, eco-tourism, and supply-constrained small-town retail."
+        ctaText="Start the Conversation"
+        ctaHref="/contact"
+      />
       <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
+
+        {/* Quick Answer */}
+        <section className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-10 not-prose">
+          <h2 className="text-lg font-semibold text-blue-900 mb-2">Quick Answer: Is Gilchrist County a good commercial real estate market?</h2>
+          <p className="text-blue-800 text-sm leading-relaxed">
+            Gilchrist County is a stable, low-velocity market best suited for owner-operators and long-term hold investors. Agricultural support properties,
+            small retail in Trenton and Bell, and seasonal hospitality near Fanning Springs represent the primary opportunity. Transaction volume is low and
+            relationships drive deals. It is not a growth market — it is a steady market with genuine supply constraints.
+          </p>
+        </section>
+
+        {/* Market Overview */}
         <section>
-  <h1>Gilchrist County Commercial Real Estate Market Overview</h1>
-  <p>
-    Gilchrist County sits in North Central Florida as a distinctly rural market—and that's exactly what makes it valuable for the right investor or operator. I work this territory as a referral market, and I'm direct about what you'll find here: this isn't a high-velocity commercial corridor. It's a county where strategic positioning around agriculture, eco-tourism infrastructure, and small-town retail creates legitimate opportunities for patient capital and owner-operators who understand rural Florida economics.
-  </p>
-</section>
+          <h2>Gilchrist County Commercial Real Estate Market Overview</h2>
+          <p>
+            Gilchrist County sits in <Link href="/markets">North Central Florida</Link> as one of the state&apos;s most rural commercial markets.
+            The county seat is Trenton, with Bell and Fanning Springs rounding out the primary commercial areas. This is agricultural country
+            — cattle, forestry, row crops — layered with a springs-based eco-tourism draw that creates a distinct seasonal hospitality niche.
+          </p>
+          <div className="my-6 rounded-lg overflow-hidden">
+            <Image
+              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
+              alt="Florida springs and forest landscape in North Central Florida"
+              width={800}
+              height={450}
+              className="w-full object-cover"
+            />
+          </div>
+          <p>
+            I work Gilchrist County as a referral territory, and I&apos;m direct about what that means: this market rewards patience and
+            relationship-building over marketing campaigns. Transaction velocity is low. Commercial inventory is limited. But for the right
+            buyer or operator, those constraints are features, not bugs. Supply scarcity supports stable occupancy, and acquisition prices
+            reflect the county&apos;s rural character rather than Southwest Florida premiums.
+          </p>
+          <p>
+            The <Link href="/services/investment-sales">investment case here</Link> is not appreciation — it&apos;s steady income, low competition for tenants,
+            and the durable demand that comes from serving genuine local needs. If you want a 200-unit apartment conversion or a ground-up
+            retail strip, look at <Link href="/markets/alachua">Alachua County</Link> or <Link href="/markets/columbia">Columbia County</Link>.
+            If you want a solid, boring, long-term hold in an underserved rural market, Gilchrist deserves a serious look.
+          </p>
+        </section>
 
-<section>
-  <h2>Market Character & Geography</h2>
-  <p>
-    Gilchrist County's commercial real estate landscape centers on three primary towns: Trenton (the county seat), Bell, and Fanning Springs. These communities form the spine of commercial activity here. What you won't find is sprawl, Class A office parks, or multi-tenant retail strips competing on density. What you will find is opportunity in underserved market gaps where supply constraints create real demand.
-  </p>
-  <p>
-    The county's economy remains rooted in agriculture—cattle, forestry, and row crops dominate land use. But overlaid on that foundation is a growing eco-tourism component driven by Florida's natural springs. That dual economy creates distinct commercial property niches that deserve serious attention.
-  </p>
-</section>
+        {/* Active Commercial Areas */}
+        <section className="bg-white rounded-lg border border-gray-200 p-6 my-8 not-prose">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Active Commercial Areas</h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-semibold text-gray-800">Trenton (County Seat)</h3>
+              <p className="text-gray-700 text-sm mt-1">
+                The primary commercial hub. Small retail, professional services (dental, medical, legal), and county government services cluster here.
+                US 129 through Trenton carries local and through traffic. This is where you find the most commercial inventory, though &quot;most&quot;
+                is relative — total supply is limited. <Link href="/services/retail-leasing" className="text-blue-700 underline">Retail space</Link> turns
+                over infrequently, and quality tenants stay put when they find a good fit.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-800">Bell</h3>
+              <p className="text-gray-700 text-sm mt-1">
+                A smaller commercial cluster along US 27. Convenience retail, agricultural supply, and basic services serving the surrounding rural
+                population. Bell is not a growth story — it&apos;s a necessity story. Tenants here fill genuine local gaps, which creates
+                stability even if it doesn&apos;t create excitement.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-800">Fanning Springs Area</h3>
+              <p className="text-gray-700 text-sm mt-1">
+                The springs corridor along the Suwannee River. Small lodging, restaurants, outfitter operations, and tourism-adjacent retail see
+                consistent seasonal demand. Peak traffic runs spring through summer. Property near spring access or the Suwannee carries a premium
+                for the tourism-dependent operator profile. This is <Link href="/services/investment-sales" className="text-blue-700 underline">a niche hospitality market</Link>,
+                not a conventional commercial real estate play.
+              </p>
+            </div>
+          </div>
+        </section>
 
-<section>
-  <h2>Active Property Types & Corridors</h2>
-  <p>
-    Commercial real estate activity in Gilchrist County breaks down into a few concentrated categories:
-  </p>
-  <ul>
-    <li>
-      <strong>Small Retail & Service</strong> — Convenience retail, restaurants, and personal services cluster in downtown Trenton and along US 27 through Bell. These are typically single-tenant or two-to-three tenant buildings. Turnover happens, inventory is limited, and tenancy quality depends heavily on local population retention.
-    </li>
-    <li>
-      <strong>Agricultural Support & Feed</strong> — Feed stores, equipment dealers, and ag-service businesses represent stable, owner-operated property types. These tenants need visibility and land access; they're not going anywhere as long as cattle ranching remains viable in the county.
-    </li>
-    <li>
-      <strong>Hospitality & Eco-Tourism Infrastructure</strong> — Fanning Springs area sees seasonal tourism pressure driven by the springs themselves. Small lodging, restaurant, and outfitter properties serve this niche. It's seasonal but consistent.
-    </li>
-    <li>
-      <strong>Medical & Professional Services</strong> — Dental, medical, and professional offices operate primarily in Trenton but with limited space availability. These tenants typically own or long-term lease, making transaction velocity low.
-    </li>
-  </ul>
-</section>
+        {/* Property Types */}
+        <section>
+          <h2>Active Property Types</h2>
+          <p>
+            Gilchrist County&apos;s commercial real estate concentrates in a focused set of categories. Understanding which asset classes actually
+            transact — and which are effectively dormant — is essential before you start looking.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose my-6">
+            {[
+              {
+                title: "Small Retail & Service",
+                desc: "Single-tenant and small multi-tenant buildings in Trenton and Bell. Convenience, food, hardware, and local personal services. Stable but slow-moving inventory.",
+              },
+              {
+                title: "Agricultural Support Facilities",
+                desc: "Feed stores, equipment dealers, and ranch supply operations. These tenants need land access and visibility. They are typically owner-operators with long local tenure.",
+              },
+              {
+                title: "Seasonal Hospitality",
+                desc: "Small lodging, restaurants, and outfitter properties near Fanning Springs. Seasonal cash flow, tourism-dependent, and suited for hands-on operators rather than passive investors.",
+              },
+              {
+                title: "Professional & Medical Office",
+                desc: "Dental, medical, and professional services in Trenton. These tenants tend to own or hold long-term leases, so availability is rare. When it does appear, demand is real.",
+              },
+            ].map((type) => (
+              <div key={type.title} className="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                <h3 className="font-semibold text-gray-900 text-sm mb-1">{type.title}</h3>
+                <p className="text-gray-600 text-sm">{type.desc}</p>
+              </div>
+            ))}
+          </div>
+          <p>
+            Multi-story office, large-format retail, and industrial parks are absent from Gilchrist County. The county&apos;s scale and population
+            base do not support those asset classes. <Link href="/services/land-development">Land development opportunities</Link> exist for
+            agricultural operations looking to add infrastructure, but not for speculative commercial construction.
+          </p>
+        </section>
 
-<section>
-  <h2>Demand Drivers & Market Dynamics</h2>
-  <p>
-    Understanding what actually drives demand in Gilchrist County is essential. This isn't a growth market in the traditional sense. It's a stability market where fundamentals are simple:
-  </p>
-  <ul>
-    <li>
-      <strong>Agricultural Continuity</strong> — Ranching and farming operations require consistent support services. As long as land-based agriculture remains economically viable in the region, demand for ag-related retail and service property stays steady.
-    </li>
-    <li>
-      <strong>Tourism Seasonality</strong> — The springs attract visitors year-round, with peaks during warm months. Property owners and operators catering to this traffic see predictable seasonal fluctuation. Small hotel and restaurant operators understand the rhythm.
-    </li>
-    <li>
-      <strong>Local Population Retention</strong> — The county's population is stable but not growing rapidly. That means new commercial development is rare. When property becomes available, competition is minimal, but so is tenant demand. Owner-operators and long-term hold investors win here; flippers don't.
-    </li>
-    <li>
-      <strong>Supply Constraints</strong> — Limited commercial inventory means less competition for quality tenants. A well-maintained, well-positioned property in Trenton or Bell can attract stable, long-term occupancy.
-    </li>
-  </ul>
-</section>
+        {/* Demand Drivers */}
+        <section>
+          <h2>What Drives Demand in Gilchrist County</h2>
 
-<section>
-  <h2>What You Need to Know About This Market</h2>
-  <p>
-    I'm going to be straightforward: Gilchrist County is a referral territory for me. It's not a primary market where I'm actively pursuing deals. But referral territory doesn't mean no opportunity—it means opportunity for a different investor profile.
-  </p>
-  <p>
-    This market rewards:
-  </p>
-  <ul>
-    <li>Owner-operators who understand agricultural or small-town hospitality businesses</li>
-    <li>Investors seeking stable, low-turnover rental income on small commercial properties</li>
-    <li>Buyers and sellers of feed stores, equipment dealers, or niche service businesses</li>
-    <li>Anyone seeking to acquire property in an area with minimal speculation and genuine supply constraints</li>
-  </ul>
-  <p>
-    This market doesn't reward speculators, institutional buyers seeking density, or anyone expecting rapid appreciation. Transaction velocity is low. Commercial real estate here moves through relationship networks, not marketing campaigns.
-  </p>
-</section>
+          <h3>Agricultural Continuity</h3>
+          <p>
+            Cattle ranching, forestry, and row crop production define the county&apos;s economic base. As long as land-based agriculture remains
+            viable in North Central Florida, demand for ag-support retail and service property stays steady. Feed stores, veterinary services,
+            and equipment dealers see consistent traffic from operations that have been here for generations. This is the kind of tenant base
+            that does not pick up and move when a shinier option appears across town — because there is no shinier option across town.
+          </p>
 
-<section>
-  <h2>How I Work Gilchrist County</h2>
-  <p>
-    As a REMAX Collective REALTOR® with 23+ years of Florida commercial real estate experience and designations including e-PRO, MRP, and SRS, I handle Gilchrist County deals through established referral relationships. If you're looking to buy or sell commercial property in Trenton, Bell, or Fanning Springs—whether it's retail, ag-support space, or small hospitality—I connect you with qualified local brokers and bring my broader Florida market knowledge to the transaction.
-  </p>
-  <p>
-    My value here is simple: I understand what makes rural Florida commercial property work. I've seen enough deals across the state to recognize when a small Gilchrist County property is fairly valued, well-positioned, and likely to perform. I won't oversell this market—it's what it is—but I will give you honest assessment and professional execution.
-  </p>
-  <p>
-    If you're considering a commercial acquisition or disposition in Gilchrist County, call me. Let's talk about your situation, your timeline, and whether this market aligns with your investment strategy.
-  </p>
-</section>
+          <h3>Springs Eco-Tourism</h3>
+          <p>
+            Fanning Springs and the Suwannee River corridor draw consistent seasonal visitors. <Link href="/services/retail-leasing">Hospitality and
+            retail operators</Link> near the springs see predictable seasonal patterns — stronger spring through summer, slower in fall and winter.
+            This is not the kind of tourism that transforms a market overnight. But it is real, recurring, and growing modestly as Florida&apos;s
+            natural springs gain broader recognition among outdoor recreation visitors from across the Southeast.
+          </p>
 
-<section>
-  <h2>FAQ: Gilchrist County Commercial Real Estate</h2>
-  
-  <h3>What's the commercial real estate market like in Gilchrist County?</h3>
-  <p>
-    It's a rural, agricultural market with minimal transaction velocity. Limited commercial inventory, stable small-town populations, and strong local relationships define it. There's opportunity here for the right buyer or seller—but only if you understand that this isn't a growth market. It's steady, relationship-driven, and best suited for owner-operators and long-term investors.
-  </p>
+          <h3>Local Population Stability</h3>
+          <p>
+            Gilchrist County&apos;s population is stable rather than rapidly growing. That means new commercial development is rare, which reinforces
+            supply constraints. A well-positioned property in Trenton or Bell faces minimal competition from new inventory. Compare that to
+            <Link href="/markets/pasco"> Pasco County</Link> or <Link href="/markets/hernando">Hernando County</Link>, where new retail and service
+            buildings regularly enter the market. Here, the existing stock is essentially what you&apos;re working with.
+          </p>
 
-  <h3>Who are the active commercial property owners and tenants in Gilchrist County?</h3>
-  <p>
-    Primarily owner-operators in agriculture, hospitality, and small retail. Feed stores, equipment dealers, ranches, restaurants, and small lodging businesses. Professional services like dental and medical offices also occupy commercial space in Trenton. Institutional investors and chains are rare.
-  </p>
+          <h3>Supply Constraints</h3>
+          <p>
+            Limited commercial inventory creates real leverage for property owners. When a tenant needs space in Trenton and the options are
+            scarce, the landlord&apos;s negotiating position is considerably stronger than in an oversupplied suburban corridor. The flip side:
+            when your property sits vacant, there are fewer replacement tenants in the pipeline. Quality matters here — a well-maintained,
+            well-positioned property commands stable occupancy; a neglected one sits longer than it would in a denser market.
+          </p>
+        </section>
 
-  <h3>Why would I invest in Gilchrist County commercial real estate?</h3>
-  <p>
-    Stable tenant bases in ag-support and local service businesses, supply constraints that minimize competition, and the possibility of acquiring property cheaper than comparable assets in high-velocity markets. It's not a play for appreciation—it's a play for steady, predictable income.
-  </p>
+        {/* How Barrett Works This Market */}
+        <section>
+          <h2>How Barrett Henry Works Gilchrist County</h2>
+          <p>
+            With 23+ years of Florida commercial real estate experience as a Broker Associate at REMAX Collective, Barrett treats Gilchrist County
+            as a referral territory handled through established local relationships. That is not a limitation — it is a feature. Referral territory
+            means he brings statewide market context and honest assessment to transactions that local brokers alone might not fully evaluate against
+            broader Florida benchmarks.
+          </p>
+          <p>
+            What that looks like in practice:
+          </p>
+          <ul>
+            <li>
+              <strong>Agricultural Property Support:</strong> Connecting ranch support facilities, feed stores, and ag-service properties with
+              qualified buyers and tenants who understand rural Florida operations. Barrett does not apply urban marketing tactics to rural assets.
+            </li>
+            <li>
+              <strong>Springs Area Hospitality:</strong> Fanning Springs hospitality properties require operators who understand seasonal cash flow
+              and the specific visitor profile. Barrett represents both landlords and operators in this niche through his <Link href="/services/investment-sales">investment
+              sales</Link> and <Link href="/services/retail-leasing">leasing services</Link>.
+            </li>
+            <li>
+              <strong>Small-Scale Retail:</strong> Trenton and Bell retail properties need realistic pricing and honest market assessment. Barrett
+              helps owners understand what their property can actually achieve in this market — and finds buyers or tenants who fit.
+            </li>
+            <li>
+              <strong>Land Positioning:</strong> Agricultural operations looking to consolidate or expand <Link href="/services/land-development">land
+              holdings</Link> get honest feasibility input without overselling Gilchrist County&apos;s growth trajectory.
+            </li>
+          </ul>
+          <p>
+            Barrett works across <Link href="/markets">Florida&apos;s commercial real estate markets</Link> from Tampa Bay to the Panhandle and into
+            rural counties where most brokers do not have relationships. His value in Gilchrist County is not transaction volume — it is perspective,
+            honesty, and the ability to connect rural property owners with a broader qualified buyer and tenant pool than a purely local operation
+            can reach. Contact him at (813) 733-7907 or through the <Link href="/contact">contact page</Link>.
+          </p>
+        </section>
 
-  <h3>Does Gilchrist County have growing tourism that would support more hospitality commercial real estate?</h3>
-  <p>
-    The springs drive consistent seasonal tourism, and there's incremental demand for small hotels, restaurants, and outfitter services. But growth is modest and seasonal. Don't expect rapid expansion in the hospitality sector—expect steady, predictable seasonal fluctuation.
-  </p>
+        {/* FAQ */}
+        <section>
+          <h2>Frequently Asked Questions: Gilchrist County Commercial Real Estate</h2>
+          <FAQAccordion items={faqItems} />
+        </section>
 
-  <h3>How do I reach Barrett about commercial property in Gilchrist County?</h3>
-  <p>
-    Call me at (813) 733-7907 or email barrett@nowtb.com.
-  </p>
-</section>
+        {/* Lead Form */}
+        <section id="lead-form" className="my-10">
+          <h2>Talk to Barrett About Gilchrist County</h2>
+          <p>
+            Whether you&apos;re evaluating a small retail acquisition in Trenton, a Fanning Springs hospitality property, or an agricultural support
+            facility, Barrett gives you honest market assessment and professional execution. Fill out the form and he&apos;ll follow up directly.
+          </p>
+          <LeadForm />
+        </section>
+
+        <RelatedLinks links={relatedLinks} />
+
+        <p className="text-sm text-gray-500 mt-8">Last updated: August 2026</p>
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate?"
-        body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
+        body="Whether you&apos;re leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
     </>
   );

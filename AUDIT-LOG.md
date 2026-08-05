@@ -4,6 +4,70 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-05 — Batch 15 (10 pages)
+
+### 1. `/markets/gadsden`
+- Full rewrite to Dixie template pattern: default imports, @graph schema (BreadcrumbList + Service + FAQPage), FAQAccordion, LeadForm, RelatedLinks, Hero with ctaText/ctaHref
+- Title: "Gadsden County Commercial Real Estate | HenCRE" (under 70 chars)
+- Added canonical URL, 5 faqItems, 6 relatedLinks with title/description
+- Unsplash image (photo-1500937386664-56d1dfef3854), 10+ internal Links throughout body
+- Sections: Quick Answer, Market Overview, Key Corridors, Property Types grid, Demand Drivers, How Barrett Works, FAQ, LeadForm, RelatedLinks
+- Last updated: August 2026 footer
+
+### 2. `/markets/gilchrist`
+- Full rewrite to Dixie template pattern: default imports, @graph schema (BreadcrumbList + Service + FAQPage), FAQAccordion, LeadForm, RelatedLinks, Hero with ctaText/ctaHref
+- Title: "Gilchrist County Commercial Real Estate | HenCRE" (under 70 chars)
+- Added canonical URL, 5 faqItems, 6 relatedLinks with title
+- Unsplash image (photo-1441974231531-c6227db76b6e) for springs/nature content
+- Sections: Quick Answer, Market Overview, Active Commercial Areas, Property Types grid, Demand Drivers, How Barrett Works, FAQ, LeadForm, RelatedLinks
+- Removed old REALTOR® reference, wrong email barrett@nowtb.com, raw h3/p FAQ, Article schema
+
+### 3. `/markets/glades`
+- Full rewrite to Dixie template pattern: fixed critical build-breaking bug (class= -> className= on all section tags)
+- Title: "Glades County Commercial Real Estate | HenCRE" (under 70 chars)
+- Added canonical URL, 5 faqItems, 6 relatedLinks with title
+- Unsplash image (photo-1509316785289-025f5b846b35) for agricultural South Florida content
+- Sections: Quick Answer, Market Overview, Active Areas, Property Types grid, Demand Drivers, How Barrett Works, FAQ, LeadForm, RelatedLinks
+- Removed old Article schema, wrong email barrett@nowtb.com
+
+### 4. `/blog/tampa-bay-cold-storage-cre-2026`
+- Fixed title from 81 chars to "Tampa Bay Cold Storage Real Estate 2026: Investment Guide | HenCRE" (67 chars)
+- Added `import Link from "next/link"`
+- Removed fastselleasysale.com paragraph entirely
+- Updated dateModified "2026-08-03" -> "2026-08-05"
+
+### 5. `/blog/tampa-bay-hospitality-hotel-cre-2026`
+- Added `import Link from "next/link"`
+- Removed fastselleasysale.com link; replaced with internal /contact reference using Link component
+- Updated dateModified "2026-08-04" -> "2026-08-05"
+- Expanded relatedLinks from 6 to 10 (added: cold-storage, port-tampa-bay, small-bay-industrial, rent-tax-repeal)
+
+### 6. `/blog/midtown-tampa-commercial-real-estate-2026`
+- Removed fastselleasysale.com link; replaced with broker engagement copy
+- Updated dateModified "2026-08-01" -> "2026-08-05"
+- Fixed author bio: "licensed Florida REALTOR and Broker Associate" -> "Broker Associate"
+
+### 7. `/blog/florida-business-rent-tax-repeal-tampa-bay`
+- Removed fastselleasysale.com link; replaced with broker-focused copy
+- Updated dateModified "2026-08-01" -> "2026-08-05"
+- Expanded relatedLinks from 5 to 8 (added: why-tampa-bay-cre-is-booming, hospitality-hotel, midtown-tampa)
+
+### 8. `/blog/port-tampa-bay-expansion-industrial-cre-investors`
+- Added `import Link from "next/link"`
+- Updated dateModified "2026-08-04" -> "2026-08-05"
+
+### 9. `/blog/tampa-bay-small-bay-industrial-flex-2026`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Removed fastselleasysale.com link; replaced with broker listing copy
+- Updated dateModified "2026-08-04" -> "2026-08-05"
+
+### 10. `/blog/pinellas-county-industrial-cre-2026`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Removed fastselleasysale.com link; replaced with plain repositioning copy
+- Updated dateModified "2026-08-04" -> "2026-08-05"
+
+---
+
 ## 2026-08-04 — Batch 14 (10 pages)
 
 ### 1. `/blog/riverview-hillsborough-nnn-retail-landlord-investment`

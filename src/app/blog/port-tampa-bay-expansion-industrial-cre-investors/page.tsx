@@ -5,6 +5,7 @@ import CTASection from "@/components/CTASection";
 import FAQAccordion from "@/components/FAQAccordion";
 import RelatedLinks from "@/components/RelatedLinks";
 import Image from "next/image";
+import Link from "next/link";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
@@ -85,7 +86,7 @@ const schema = {
       description:
         "Port Tampa Bay is adding cranes, dredging its channel, and expanding container terminals under Vision 2030. Here is what commercial real estate investors need to know about the industrial demand surge it is creating.",
       datePublished: "2026-07-26",
-      dateModified: "2026-08-04",
+      dateModified: "2026-08-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

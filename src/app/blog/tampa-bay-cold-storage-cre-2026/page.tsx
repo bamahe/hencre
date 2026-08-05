@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -13,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Cold Storage Real Estate 2026: Investment, Demand & Key Deals | HenCRE",
+  title: "Tampa Bay Cold Storage Real Estate 2026: Investment Guide | HenCRE",
   description:
     "Tampa Bay's cold storage and temperature-controlled warehouse market is drawing $40M+ in new investment. Here is what's driving demand, which submarkets are active, and what investors and tenants need to know about this specialized CRE segment in 2026.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-cold-storage-cre-2026" },
@@ -84,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay's cold storage and temperature-controlled warehouse market is drawing $40M+ in new investment. Here is what is driving demand, which submarkets are active, and what investors and tenants need to know in 2026.",
       datePublished: "2026-08-03",
-      dateModified: "2026-08-03",
+      dateModified: "2026-08-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -244,9 +245,6 @@ export default function TampaBayColdStorageCRE2026Page() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For investors interested in industrial exposure at a lower entry point, Tampa Bay&apos;s <a href="/blog/tampa-bay-small-bay-industrial-flex-2026" className="text-accent underline">small bay industrial and flex space market</a> offers strong risk-adjusted returns with more manageable capital requirements and comparable supply constraints. If you want direct cold storage exposure but are not ready to acquire a standalone facility, some private equity structures focused on industrial real estate include cold storage as part of a diversified industrial portfolio — worth exploring with a commercial broker who can connect you with appropriate capital structures.
-        </p>
-        <p className="mt-4 text-[#666666] leading-relaxed">
-          For operators or investors looking to sell an existing cold chain business or property quickly rather than through a traditional listing process, <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">cash buyer programs for commercial properties</a> can provide a faster exit path than conventional brokered sale — particularly useful in time-sensitive situations where operational continuity for a cold chain business matters.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does Tampa Bay&apos;s Cold Storage Pipeline Look Like Through 2027?</h2>

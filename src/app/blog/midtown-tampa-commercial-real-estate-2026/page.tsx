@@ -85,7 +85,7 @@ const schema = {
       description:
         "Midtown Tampa's office space is fully leased and three new retailers are joining the district. A CRE investor and tenant guide to the $1 billion mixed-use development reshaping North Tampa.",
       datePublished: "2026-07-29",
-      dateModified: "2026-08-01",
+      dateModified: "2026-08-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -225,7 +225,7 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
             <strong>Multifamily assets in the Midtown workforce corridor.</strong> The employees filling Midtown East represent a rental housing demand pool concentrated in North Tampa, Carrollwood, and Westchase. Multifamily owners and investors in these submarkets have a Midtown employment anchor they can legitimately market to residents. Our <a href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">Tampa Bay multifamily investment guide</a> covers how to evaluate these assets in the current rate environment.
           </li>
           <li>
-            <strong>Investors repositioning other assets to free up capital.</strong> Some North Tampa investors holding underperforming retail or office assets are choosing to exit those positions and redeploy into better-positioned properties benefiting from the Midtown effect. If you are evaluating a capital redeployment strategy, <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fast sale options</a> exist for investors who want to move quickly out of a current position before reinvesting in the North Tampa corridor.
+            <strong>Investors repositioning other assets to free up capital.</strong> Some North Tampa investors holding underperforming retail or office assets are choosing to exit those positions and redeploy into better-positioned properties benefiting from the Midtown effect. If you are evaluating a capital redeployment strategy, working with a commercial broker on a quickly marketed listing is the right move for investors who want to exit a current position before reinvesting in the North Tampa corridor.
           </li>
         </ul>
 
@@ -305,7 +305,7 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
+              Barrett Henry is a Broker Associate at REMAX Collective,
               operating under the REMAX Commercial division. He specializes in North Tampa and Tampa Bay
               commercial real estate and serves buyers, sellers, and tenants across all 67 Florida counties
               from offices in Tampa, Largo, and Brandon.

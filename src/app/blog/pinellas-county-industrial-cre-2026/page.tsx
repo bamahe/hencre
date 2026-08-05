@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -85,7 +87,7 @@ const schema = {
       description:
         "GID paid $192 million for a 10-building, 933,000-SF industrial portfolio in Pinellas County in July 2026. Here is what the deal reveals about vacancy, rents, and what tenants and investors should do next.",
       datePublished: "2026-08-02",
-      dateModified: "2026-08-04",
+      dateModified: "2026-08-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -253,7 +255,7 @@ export default function PinellasCountyIndustrialCRE2026Page() {
           Investors evaluating Pinellas industrial should underwrite conservatively on exit cap rates — the institutional interest GID&apos;s deal reflects could compress cap rates further on well-leased product, but assuming continued compression in your return model is aggressive underwriting. The safer view: Pinellas industrial is a hold, not a trade. Buy it, manage it, keep occupancy up, and let the structural supply dynamics do the work over time.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Business owners who currently occupy industrial space they own in Pinellas County and are considering a sale should be aware that the GID transaction has reset pricing expectations upward for the market. If you are contemplating a sale of your owned industrial building — whether as a standalone exit or as part of <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">a broader strategy to sell a business or commercial property quickly</a> — the current institutional appetite for Pinellas product means now is not a bad time to test the market.
+          Business owners who currently occupy industrial space they own in Pinellas County and are considering a sale should be aware that the GID transaction has reset pricing expectations upward for the market. If you are contemplating a sale of your owned industrial building — whether as a standalone exit or as part of a broader capital repositioning strategy — the current institutional appetite for Pinellas product means now is not a bad time to test the market.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           With 23+ years of commercial real estate experience across Tampa Bay, I work with industrial tenants navigating lease renewals in tight markets, investors sourcing and acquiring industrial assets in Pinellas and Hillsborough counties, and business owners evaluating whether owning or leasing their space makes sense at current market values. If the Pinellas industrial market is relevant to your business or investment strategy, I am glad to walk through what the current data actually means for your specific situation.

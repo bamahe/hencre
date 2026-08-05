@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -84,7 +86,7 @@ const schema = {
       description:
         "A joint venture paid $23.15M for a 169,055-sq-ft small bay industrial portfolio in Tampa. Here is what small bay industrial is, why investors love it, and what the deal means for the market in 2026.",
       datePublished: "2026-07-27",
-      dateModified: "2026-08-04",
+      dateModified: "2026-08-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -220,7 +222,7 @@ export default function TampaBaySmallBayIndustrialFlex2026Page() {
           One of the more interesting dynamics in Tampa Bay&apos;s tight small bay market is that some owner-operators are finding it advantageous to buy rather than lease — particularly if their business needs are stable and their balance sheet can support an SBA 504 loan structure. Owning your own unit or building eliminates lease renewal risk, allows you to build equity in a rising market, and gives you control over the space that leasing never provides.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For businesses that need cash out of an existing property before buying, options like <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">cash sales of commercial properties</a> have become an increasingly viable off-ramp when owners want to simplify and redeploy capital into a new location or a different investment. The current Tampa Bay market means well-located small bay units and properties are moving without the extended listing periods that characterized slower markets.
+          For businesses that need cash out of an existing property before buying, working with a commercial broker on a quickly marketed listing has become an increasingly viable off-ramp when owners want to simplify and redeploy capital into a new location or a different investment. The current Tampa Bay market means well-located small bay units and properties are moving without the extended listing periods that characterized slower markets.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The decision depends on how long your business needs the space, your capital availability, and your appetite for real estate investment risk alongside your operating business. A commercial broker with industrial expertise can model the lease-versus-buy comparison using current market rents, purchase prices, and financing terms specific to your situation.

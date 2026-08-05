@@ -5,6 +5,7 @@ import CTASection from "@/components/CTASection";
 import FAQAccordion from "@/components/FAQAccordion";
 import RelatedLinks from "@/components/RelatedLinks";
 import Image from "next/image";
+import Link from "next/link";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
@@ -85,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay's hotel development pipeline is the strongest in a decade. Here is what the luxury hotel boom means for commercial real estate investors across downtown Tampa, Ybor City, and St. Petersburg.",
       datePublished: "2026-07-31",
-      dateModified: "2026-08-04",
+      dateModified: "2026-08-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -136,6 +137,26 @@ const relatedLinks = [
     title: "What Makes a Good Commercial Investment",
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "A framework for evaluating any commercial real estate opportunity, including hospitality-adjacent assets.",
+  },
+  {
+    title: "Tampa Bay Cold Storage Real Estate 2026",
+    href: "/blog/tampa-bay-cold-storage-cre-2026",
+    description: "The other specialized industrial niche drawing institutional capital to Tampa Bay — cold storage and temperature-controlled warehouse.",
+  },
+  {
+    title: "Port Tampa Bay Expansion & Industrial CRE",
+    href: "/blog/port-tampa-bay-expansion-industrial-cre-investors",
+    description: "How Port Tampa Bay's Vision 2030 buildout is reshaping industrial demand across Hillsborough and adjacent counties.",
+  },
+  {
+    title: "Tampa Bay Small Bay Industrial Flex 2026",
+    href: "/blog/tampa-bay-small-bay-industrial-flex-2026",
+    description: "The multi-tenant industrial segment where private investors can access Tampa Bay's industrial market at a lower entry point.",
+  },
+  {
+    title: "Florida Business Rent Tax Repeal: What Tampa Bay Tenants Need to Know",
+    href: "/blog/florida-business-rent-tax-repeal-tampa-bay",
+    description: "Florida eliminated the commercial lease tax in October 2025. What it means for tenants and investors in Tampa Bay.",
   },
 ];
 
@@ -249,7 +270,7 @@ export default function TampaBayHospitalityHotelCREPage() {
           <li><strong>Adjacent commercial acquisitions.</strong> The most accessible play for most private investors is simply acquiring well-located commercial property in submarkets where hospitality development is concentrating. Retail, office, and restaurant space near the Riverwalk, in Ybor City, and around Water Street are all benefiting from hospitality-driven demand growth that is still being priced into the market.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are considering selling a hospitality-adjacent commercial property or business and want to capture the current demand premium, <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Fast Sell Easy Sale</a> is a resource for business and commercial property owners who need to move quickly and cleanly without prolonged listing processes.
+          If you are considering selling a hospitality-adjacent commercial property or business and want to capture the current demand premium, the right move is engaging a commercial broker who understands how to position the asset to hotel developers, mixed-use operators, and the institutional capital following the hospitality pipeline in Tampa Bay. Reach Barrett Henry at <Link href="/contact" className="text-accent underline">/contact</Link> to discuss your situation.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Are the Key Submarkets for Hospitality CRE in Tampa Bay?</h2>
