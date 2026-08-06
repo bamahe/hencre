@@ -4,6 +4,69 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-06 — Batch 16 (10 pages)
+
+### 1. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Added `Link` import for internal navigation
+- Added BreadcrumbList node to `@graph` schema
+- Added "Home" breadcrumb at top of list
+- Fixed author `jobTitle` to "Broker Associate"
+- Fixed publisher name to "HenCRE"
+- Updated `dateModified` to 2026-08-06
+- Added author bio section with headshot, title, and internal links
+- Updated "Last updated" footer to August 2026
+
+### 2. `/blog/how-commercial-leases-differ-from-residential`
+- Added `Link` import for internal navigation
+- Added BreadcrumbList node to `@graph` schema
+- Added "Home" breadcrumb at top of list
+- Fixed author `jobTitle` to "Broker Associate"
+- Updated `dateModified` to 2026-08-06
+- Added author bio section with headshot, title, and internal links to /about and /services/tenant-representation
+- Updated "Last updated" footer to August 2026
+
+### 3. `/blog/tampa-bay-restaurant-food-beverage-space-2026`
+- Removed fastselleasysale.com link (replaced with /services/dispositions internal link)
+- Updated dateModified to 2026-08-06
+
+### 4. `/blog/valrico-commercial-leasing-guide-hillsborough`
+- Full rewrite: replaced local image in Hero with Unsplash URL
+- Merged dual `SchemaOrg` components into single `@graph` (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed breadcrumbs to include "Home"
+- Replaced inline `<h2>/<ul>/<li>` with proper article className styling throughout
+- Added `Link` import; replaced all internal `<a>` tags with `<Link>`
+- Removed irrelevant HUD/FHA/HOPE residential hotlines section
+- Fixed author `jobTitle` to "Broker Associate"
+- Fixed "REMAX Commercial®" references to "REMAX Collective"
+- Added 6th FAQ item for available space types
+- Updated `dateModified` to 2026-08-06
+
+### 5. `/blog/tampa-bay-self-storage-cre-investment-2026`
+- Removed fastselleasysale.com link in "What Should Owners Know About Selling?" section
+- Replaced with /services/dispositions internal link
+
+### 6. `/markets/hamilton` — NEW PAGE
+- Hamilton County: Jasper county seat, I-10/I-75 dual-interstate logistics position, timber, agricultural land
+- Full template: BreadcrumbList + Service + FAQPage schema, Hero, Quick Answer, Market Overview + Image, Active Commercial Areas cards, Property Types grid, Demand Drivers, How Barrett Works This Market, FAQAccordion, LeadForm, RelatedLinks, CTASection
+
+### 7. `/markets/hardee` — NEW PAGE
+- Hardee County: Wauchula, Bowling Green, cattle ranching, citrus agriculture (greening caveat noted), rural central FL
+- Full template matching Hamilton pattern with county-specific content and accurate agricultural context
+
+### 8. `/markets/highlands` — NEW PAGE
+- Highlands County: Sebring, Avon Park, Sebring International Raceway, lake-oriented recreation, healthcare/retirement market
+- Covers: Twelve Hours of Sebring tourism, Lake Istokpoga recreation, aging retiree demographic, healthcare-anchored retail
+
+### 9. `/markets/indian-river` — NEW PAGE
+- Indian River County: Vero Beach, Sebastian, Treasure Coast, Indian River citrus heritage, Cleveland Clinic anchor
+- Covers: affluent/aging residential base, healthcare growth, Indian River citrus brand history and greening caveat, coastal tourism
+
+### 10. `/markets/lee` — NEW PAGE
+- Lee County: Fort Myers, Cape Coral, Bonita Springs, Estero, Southwest Florida International Airport (RSW)
+- Most commercially significant new page: covers 6 property types (industrial, retail, multifamily, healthcare, hospitality, office), 5 named commercial corridors, Hurricane Ian context, RSW logistics demand, Cape Coral population growth
+
+---
+
 ## 2026-08-05 — Batch 15 (10 pages)
 
 ### 1. `/markets/gadsden`
