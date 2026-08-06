@@ -246,10 +246,7 @@ export default function TampaBaySelfStorageCREInvestment2026Page() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Owners who need to move quickly — because of partnership dynamics, loan maturity, health, estate planning, or simply a desire to redeploy capital — have more options than a traditional broker listing. Direct buyers and operators looking to expand their Tampa Bay footprint have been active, and off-market transactions for well-located facilities continue to close efficiently when sellers engage the right buyers directly. For owners who want a fast, certain transaction rather than a lengthy marketing process,{" "}
-          <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">
-            selling commercial properties for cash
-          </a>{" "}
-          is an option worth understanding alongside a traditional brokered sale. The right exit depends on your timeline, your tax situation, and how much certainty matters to you relative to price optimization.
+          the <Link href="/services/dispositions" className="text-accent underline">commercial dispositions process</Link> is worth understanding alongside a traditional brokered sale. The right exit depends on your timeline, your tax situation, and how much certainty matters to you relative to price optimization.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If you are holding a facility with a large embedded gain, a{" "}

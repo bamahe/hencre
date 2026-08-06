@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -71,16 +72,24 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "How Commercial Leases Differ From Residential", item: "https://hencre.com/blog/how-commercial-leases-differ-from-residential" },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "How Commercial Leases Differ From Residential",
       description:
         "Key differences between commercial and residential leases — lease terms, negotiation, expenses, and tenant protections.",
       datePublished: "2026-05-18",
-      dateModified: "2026-07-20",
+      dateModified: "2026-08-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Commercial Real Estate Advisor",
+        jobTitle: "Broker Associate",
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -127,6 +136,7 @@ export default function CommercialVsResidentialLeasePage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Commercial vs. Residential Leases", href: "/blog/how-commercial-leases-differ-from-residential" },
         ]}
@@ -240,6 +250,27 @@ export default function CommercialVsResidentialLeasePage() {
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years Experience</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He has helped hundreds of Florida business owners and investors navigate commercial lease negotiations, from first-time tenants to multi-location portfolios. Learn more at{" "}
+              <Link href="/about" className="text-accent underline">about Barrett</Link>{" "}
+              or explore <Link href="/services/tenant-representation" className="text-accent underline">tenant representation services</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <CTASection
         heading="Need Help With a Commercial Lease?"
         body="Whether you are signing your first lease or renegotiating an existing one, I can help you understand the terms and negotiate in your favor."
@@ -248,7 +279,7 @@ export default function CommercialVsResidentialLeasePage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

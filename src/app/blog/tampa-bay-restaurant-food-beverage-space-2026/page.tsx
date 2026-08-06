@@ -244,7 +244,7 @@ export default function TampaBayRestaurantSpacePage() {
           Lease structure is critical. <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">NNN leases</a> that push operating expenses to the tenant reduce landlord exposure but require strong covenant review. Understanding <a href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charge structures</a> and how Florida&apos;s elevated insurance costs pass through to tenants is particularly important in a market where insurance premiums have risen sharply. Use the <a href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</a> to quickly benchmark any restaurant-anchored property against current market rates.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are holding a restaurant property with vacancy or nearing lease expiration and considering a sale, <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fastselleasysale.com</a> provides a fast cash-offer path for commercial and mixed-use properties where a traditional listing process is not the right fit.
+          If you are holding a restaurant property with vacancy or nearing lease expiration and considering a sale, the <a href="/services/dispositions" className="text-accent underline">commercial dispositions process</a> can help you evaluate your options — from a traditional brokered listing to off-market introductions when a faster timeline matters.
         </p>
 
         <Image
