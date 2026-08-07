@@ -4,6 +4,78 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-07 — Batch 17 (10 pages)
+
+### 1. `/blog/port-tampa-bay-fourth-cruise-terminal-channel-district-cre`
+- Shortened title from 92 chars to 70 chars: removed "What It Means for" and apostrophe
+- Removed nowtb.com external link; replaced with internal Links to /markets/hillsborough and /blog/water-street-tampa-33-story-tower-downtown-cre-2026
+- Updated dateModified from "2026-08-05" to "2026-08-07"
+
+### 2. `/markets/manatee`
+- Added BreadcrumbList to @graph schema (was missing)
+- Fixed LocalBusiness name: "REMAX Commercial Real Estate -- Barrett Henry" -> "Barrett Henry at REMAX Collective" (removed em dash)
+- Fixed employee jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Added "Home" as first JSX breadcrumb item (was starting at Markets)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 3. `/markets/pasco`
+- Fixed metadata description: "Barrett Henry, CRE Advisor" -> "Broker Associate at REMAX Collective"
+- Added BreadcrumbList to @graph schema
+- Fixed LocalBusiness name and employee jobTitle
+- Added "Home" as first JSX breadcrumb item
+- Updated footer to August 2026
+
+### 4. `/markets/polk`
+- Fixed metadata description: "Barrett Henry, CRE Advisor" -> "Broker Associate at REMAX Collective"
+- Added BreadcrumbList to @graph schema
+- Fixed LocalBusiness name and employee jobTitle
+- Added "Home" as first JSX breadcrumb item
+- Updated footer to August 2026
+
+### 5. `/markets/pinellas`
+- Added BreadcrumbList to @graph schema
+- Fixed LocalBusiness name and employee jobTitle to "Broker Associate"
+- Added "Home" as first JSX breadcrumb item
+- Updated footer to August 2026
+
+### 6. `/markets/sarasota`
+- Added BreadcrumbList to @graph schema
+- Fixed LocalBusiness name and employee jobTitle to "Broker Associate"
+- Added "Home" as first JSX breadcrumb item
+- Updated footer to August 2026
+
+### 7. `/markets/hillsborough`
+- Added BreadcrumbList to @graph schema
+- Fixed LocalBusiness name: removed em dash
+- Fixed employee jobTitle: "Broker Associate, Commercial Real Estate" -> "Broker Associate"
+- Added "Home" as first JSX breadcrumb item
+- Updated footer to August 2026
+
+### 8. `/blog/why-tampa-bay-cre-is-booming`
+- Added BreadcrumbList to @graph schema
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Updated dateModified: "2026-07-20" -> "2026-08-07"
+- Added "Home" as first JSX breadcrumb item
+- Updated footer to August 2026
+
+### 9. `/blog/5-mistakes-first-time-commercial-tenants-make`
+- Added BreadcrumbList to @graph schema
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Updated dateModified: "2026-07-20" -> "2026-08-07"
+- Added "Home" as first JSX breadcrumb item
+- Updated footer to August 2026
+
+### 10. `/blog/how-to-calculate-commercial-property-roi`
+- Added BreadcrumbList to @graph schema
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Updated dateModified: "2026-07-20" -> "2026-08-07"
+- Added "Home" as first JSX breadcrumb item
+- Updated footer to August 2026
+
+---
+
 ## 2026-08-06 — Batch 16 (10 pages)
 
 ### 1. `/blog/do-you-need-a-commercial-real-estate-broker`
