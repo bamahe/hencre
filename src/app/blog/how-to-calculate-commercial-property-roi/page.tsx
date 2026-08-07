@@ -71,16 +71,24 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "How to Calculate Commercial Property ROI", item: "https://hencre.com/blog/how-to-calculate-commercial-property-roi" },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "How to Calculate Commercial Property ROI",
       description:
         "ROI calculation methods for commercial real estate investors — cap rate, cash-on-cash, IRR, and total return.",
       datePublished: "2026-05-31",
-      dateModified: "2026-07-20",
+      dateModified: "2026-08-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Commercial Real Estate Advisor",
+        jobTitle: "Broker Associate",
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -127,6 +135,7 @@ export default function CalculateROIPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Calculate CRE ROI", href: "/blog/how-to-calculate-commercial-property-roi" },
         ]}
@@ -271,7 +280,7 @@ export default function CalculateROIPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

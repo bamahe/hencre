@@ -59,8 +59,16 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Markets", item: "https://hencre.com/markets" },
+        { "@type": "ListItem", position: 3, name: "Hillsborough County", item: "https://hencre.com/markets/hillsborough" },
+      ],
+    },
+    {
       "@type": "LocalBusiness",
-      name: "REMAX Commercial Real Estate — Barrett Henry",
+      name: "Barrett Henry at REMAX Collective",
       description:
         "Commercial real estate brokerage serving Hillsborough County and the greater Tampa Bay region.",
       telephone: "(813) 733-7907",
@@ -73,7 +81,7 @@ const schema = {
       employee: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate, Commercial Real Estate",
+        jobTitle: "Broker Associate",
       },
     },
     {
@@ -114,7 +122,7 @@ export default function HillsboroughMarketPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Markets", href: "/markets" }, { label: "Hillsborough County", href: "/markets/hillsborough" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Markets", href: "/markets" }, { label: "Hillsborough County", href: "/markets/hillsborough" }]} />
 
       <Hero
         title="Hillsborough County Commercial Real Estate"
@@ -375,7 +383,7 @@ export default function HillsboroughMarketPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

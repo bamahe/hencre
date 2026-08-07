@@ -71,19 +71,27 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "5 Mistakes First-Time Commercial Tenants Make", item: "https://hencre.com/blog/5-mistakes-first-time-commercial-tenants-make" },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "5 Mistakes First-Time Commercial Tenants Make (and How to Avoid Them)",
       description:
         "Avoid the most common mistakes first-time commercial tenants make — from skipping lease review to underestimating total occupancy costs.",
       datePublished: "2026-05-02",
-      dateModified: "2026-07-20",
+      dateModified: "2026-08-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Commercial Real Estate Advisor",
+        jobTitle: "Broker Associate",
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
-      publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/blog/5-mistakes-first-time-commercial-tenants-make",
     },
     {
@@ -127,6 +135,7 @@ export default function TenantMistakesPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "5 Mistakes First-Time Tenants Make", href: "/blog/5-mistakes-first-time-commercial-tenants-make" },
         ]}
@@ -248,7 +257,7 @@ export default function TenantMistakesPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

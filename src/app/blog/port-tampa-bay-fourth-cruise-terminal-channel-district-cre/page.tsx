@@ -14,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Port Tampa Bay's Fourth Cruise Terminal: What It Means for Channel District CRE | HenCRE",
+  title: "Port Tampa Bay Fourth Cruise Terminal: Channel District CRE | HenCRE",
   description:
     "Site work began August 2026 on Port Tampa Bay's fourth cruise terminal — the first new terminal in 25 years. The $100M annual economic impact will reshape commercial real estate demand in the Channel District and nearby waterfront submarkets. Here is what CRE investors need to know.",
   alternates: { canonical: "https://hencre.com/blog/port-tampa-bay-fourth-cruise-terminal-channel-district-cre" },
@@ -85,7 +85,7 @@ const schema = {
       description:
         "Site work began August 2026 on Port Tampa Bay's fourth cruise terminal. The projected $100M annual economic impact will reshape commercial real estate demand in the Channel District and nearby waterfront submarkets.",
       datePublished: "2026-08-05",
-      dateModified: "2026-08-05",
+      dateModified: "2026-08-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -210,11 +210,15 @@ export default function PortTampaBayFourthCruiseTerminalPage() {
           Into this maturing neighborhood, the fourth cruise terminal inserts a high-volume institutional anchor on a previously underutilized waterfront site. The combination of an established residential base, a growing office and hotel population, active waterfront public space, and a 2-million-passenger cruise operation creates a more durable commercial real estate demand environment than any single category alone could support. Investors who have been watching this submarket from the sidelines waiting for a clearer demand signal now have one.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For a broader look at the Tampa Bay real estate dynamics driving growth across residential and commercial markets simultaneously, the team at{" "}
-          <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">
-            nowtb.com
-          </a>{" "}
-          covers neighborhood-level market updates and listings across the region — useful context for anyone evaluating investment in Tampa&apos;s urban core districts.
+          For a broader look at the Tampa Bay commercial real estate dynamics driving growth across this submarket, the{" "}
+          <Link href="/markets/hillsborough" className="text-accent underline">
+            Hillsborough County commercial real estate market overview
+          </Link>{" "}
+          covers the full Hillsborough demand picture, including downtown Tampa waterfront submarkets. Investors evaluating Channel District acquisitions should also review the{" "}
+          <Link href="/blog/water-street-tampa-33-story-tower-downtown-cre-2026" className="text-accent underline">
+            Water Street Tampa downtown CRE analysis
+          </Link>{" "}
+          for context on the broader urban core transformation underway.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Are the Risks and Timing Considerations for Investors?</h2>

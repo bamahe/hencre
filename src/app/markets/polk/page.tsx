@@ -18,7 +18,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Polk County Commercial Real Estate | Barrett Henry, REMAX Collective",
   description:
-    "Polk County CRE market — I-4 corridor logistics, Lakeland downtown revitalization, Winter Haven retail growth. Barrett Henry, CRE Advisor. Call (813) 733-7907.",
+    "Polk County CRE market — I-4 corridor logistics, Lakeland downtown revitalization, Winter Haven retail growth. Barrett Henry, Broker Associate at REMAX Collective. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/markets/polk" },
   openGraph: {
     title: "Polk County Commercial Real Estate | Barrett Henry, REMAX Collective",
@@ -62,14 +62,22 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Markets", item: "https://hencre.com/markets" },
+        { "@type": "ListItem", position: 3, name: "Polk County", item: "https://hencre.com/markets/polk" },
+      ],
+    },
+    {
       "@type": "LocalBusiness",
-      name: "REMAX Commercial Real Estate — Barrett Henry",
+      name: "Barrett Henry at REMAX Collective",
       description: "Commercial real estate brokerage serving Polk County.",
       telephone: "(813) 733-7907",
       email: "barrett@hencre.com",
       url: "https://hencre.com/markets/polk",
       areaServed: { "@type": "AdministrativeArea", name: "Polk County, Florida" },
-      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Commercial Real Estate Advisor" },
+      employee: { "@type": "Person", name: "Barrett Henry", jobTitle: "Broker Associate" },
     },
     {
       "@type": "Service",
@@ -101,7 +109,7 @@ export default function PolkMarketPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Markets", href: "/markets" }, { label: "Polk County", href: "/markets/polk" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Markets", href: "/markets" }, { label: "Polk County", href: "/markets/polk" }]} />
 
       <Hero
         title="Polk County Commercial Real Estate"
@@ -300,7 +308,7 @@ export default function PolkMarketPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

@@ -71,19 +71,27 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Why Tampa Bay CRE Is Booming", item: "https://hencre.com/blog/why-tampa-bay-cre-is-booming" },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "Why Tampa Bay Commercial Real Estate Is Booming",
       description:
         "Explore the key drivers fueling Tampa Bay's commercial real estate growth — population migration, infrastructure investment, and business climate.",
       datePublished: "2026-04-15",
-      dateModified: "2026-07-20",
+      dateModified: "2026-08-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Commercial Real Estate Advisor",
+        jobTitle: "Broker Associate",
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
-      publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/blog/why-tampa-bay-cre-is-booming",
     },
     {
@@ -127,6 +135,7 @@ export default function TampaBayBoomingPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Why Tampa Bay CRE Is Booming", href: "/blog/why-tampa-bay-cre-is-booming" },
         ]}
@@ -249,7 +258,7 @@ export default function TampaBayBoomingPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );
