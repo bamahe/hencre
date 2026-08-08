@@ -1,140 +1,312 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Image from "next/image";
+import Link from "next/link";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import LeadForm from "@/components/LeadForm";
+import FAQAccordion from "@/components/FAQAccordion";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
-  title: "Commercial Real Estate in Holmes County, Florida | HenCRE",
-  description: "Expert guide to commercial real estate in Holmes County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+  title: "Holmes County Commercial Real Estate | HenCRE",
+  description:
+    "Commercial real estate in Holmes County, FL -- Bonifay, I-10 corridor, agriculture, timber, and small industrial. Barrett Henry, REMAX Collective.",
+  alternates: { canonical: "https://hencre.com/markets/holmes" },
   openGraph: {
-    title: "Commercial Real Estate in Holmes County, Florida | HenCRE",
-    description: "Expert guide to commercial real estate in Holmes County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
+    title: "Holmes County Commercial Real Estate | HenCRE",
+    description:
+      "Commercial real estate in Holmes County, FL -- Bonifay, I-10 highway commercial, agriculture, timber, and owner-occupant industrial. Barrett Henry, REMAX Collective.",
     url: "https://hencre.com/markets/holmes",
     siteName: "HenCRE",
     type: "article",
   },
 };
 
+const faqItems = [
+  {
+    question: "Why should I consider Holmes County for commercial real estate?",
+    answer:
+      "Holmes County offers underpriced commercial assets backed by stable, agricultural-based demand. Industrial and warehouse properties near I-10 trade at a fraction of comparable Tampa or Jacksonville pricing. The market rewards patient investors who understand small-market dynamics: lower competition, owner-occupant heavy transactions, long hold periods, and cash flow driven by fundamentals rather than speculation. Agricultural permanence -- cattle, peanuts, timber -- underpins a baseline of commercial activity that does not depend on economic cycles.",
+  },
+  {
+    question: "What types of commercial properties move fastest in Holmes County?",
+    answer:
+      "Owner-occupant industrial and warehouse space with I-10 access moves fastest. Farmers, equipment dealers, and small manufacturers move quickly when they find the right facility at fair pricing. Professional office space for local services -- medical, dental, legal, insurance -- also moves steadily. Big-box retail, multi-tenant Class A office, and large industrial does not exist in this market, and trying to apply urban commercial assumptions will lead to flawed underwriting.",
+  },
+  {
+    question: "How important is I-10 access for commercial property in Holmes County?",
+    answer:
+      "I-10 is the primary logistics corridor connecting the Florida Panhandle to the rest of the state and beyond. For warehouse, distribution, and industrial users, I-10 access is operational infrastructure, not a preference. Properties within reasonable proximity to I-10 interchanges in Holmes County will consistently command better pricing and tenant interest than comparable buildings on secondary roads. This is the county&apos;s strongest competitive differentiator relative to other rural Panhandle markets.",
+  },
+  {
+    question: "Is Holmes County a good market for first-time commercial investors?",
+    answer:
+      "Holmes County can work well for investors who have done their homework on small-market commercial real estate. The low purchase prices, stable tenant base, and limited competition can produce solid cash-on-cash returns. The risks are illiquidity -- exit options are limited and take time -- and property management complexity if you are not local. Investors who have done one or two larger-market deals first and understand what they are buying tend to do well. First-time investors expecting quick appreciation or easy disposition should look at more liquid markets.",
+  },
+  {
+    question: "How does Barrett Henry approach commercial real estate in Holmes County?",
+    answer:
+      "Barrett approaches Holmes County as part of his statewide Florida commercial practice, with 23+ years of experience as a Broker Associate at REMAX Collective. He covers Holmes County as a referral and advisory territory, focused on honest market assessment and connecting investors with the right opportunities. He applies the same professional standards -- market research, comparable analysis, clear negotiation -- whether the deal is in Tampa Bay or in Holmes County.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Markets", item: "https://hencre.com/markets" },
+        { "@type": "ListItem", position: 3, name: "Holmes County", item: "https://hencre.com/markets/holmes" },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "Commercial Real Estate Services -- Holmes County, FL",
+      description:
+        "Commercial real estate brokerage in Holmes County, Florida. I-10 corridor industrial, agricultural support commercial, small retail, and rural land in Bonifay from Barrett Henry, REMAX Collective.",
+      provider: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        email: "barrett@hencre.com",
+        telephone: "+18137337907",
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
+      areaServed: {
+        "@type": "AdministrativeArea",
+        name: "Holmes County, Florida",
+      },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: { "@type": "Answer", text: item.answer },
+      })),
+    },
+  ],
+};
+
+const relatedLinks = [
+  { href: "/markets/escambia", title: "Escambia County Commercial Real Estate", description: "Pensacola and the largest commercial market in northwest Florida." },
+  { href: "/markets/bay", title: "Bay County Commercial Real Estate", description: "Panama City and the Gulf Coast metro to the south of Holmes County." },
+  { href: "/markets/calhoun", title: "Calhoun County Commercial Real Estate", description: "Neighboring rural Panhandle agricultural and small commercial market." },
+  { href: "/commercial/industrial-warehouse", title: "Industrial and Warehouse Properties", description: "How Barrett approaches industrial and warehouse investment in Florida." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "Barrett Henry&apos;s approach to representing buyers and sellers of income-producing Florida commercial property." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse Barrett Henry&apos;s coverage of all 67 Florida counties." },
+];
+
 export default function Page() {
   return (
     <>
-      <SchemaOrg schema={{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Commercial Real Estate in Holmes County, Florida",
-        "description": "Expert guide to commercial real estate in Holmes County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
-        "author": {
-          "@type": "Person",
-          "name": "Barrett Henry",
-          "jobTitle": "Broker Associate",
-          "worksFor": { "@type": "Organization", "name": "REMAX Collective" }
-        }
-      }} />
-      <Breadcrumbs items={[
-        { label: "Home", href: "/" },
-        { label: "Markets", href: "/markets" },
-        { label: "Commercial Real Estate in Holmes County, Florida", href: "/markets/holmes" },
-      ]} />
-      <Hero title="Commercial Real Estate in Holmes County, Florida" subtitle="Expert guide to commercial real estate in Holmes County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective." />
+      <SchemaOrg schema={schema} />
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Markets", href: "/markets" },
+          { label: "Holmes County", href: "/markets/holmes" },
+        ]}
+      />
+      <Hero
+        title="Holmes County Commercial Real Estate"
+        subtitle="I-10 runs through Holmes County, connecting this rural Panhandle market to Florida&apos;s statewide logistics network. Underpriced assets, stable agricultural demand, and owner-occupant transactions define this market. Barrett Henry, REMAX Collective."
+        ctaText="Start the Conversation"
+        ctaHref="/contact"
+      />
       <main className="max-w-4xl mx-auto px-4 py-12 prose prose-slate">
+
+        <section className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-10 not-prose">
+          <h2 className="text-lg font-semibold text-blue-900 mb-2">Quick Answer: What is Holmes County commercial real estate about?</h2>
+          <p className="text-blue-800 text-sm leading-relaxed">
+            Holmes County sits in the heart of northwest Florida&apos;s rural Panhandle. Commercial real estate here is about I-10
+            corridor industrial and warehouse, agricultural support commercial in Bonifay, and small-scale retail and professional
+            services for the local population. It is an underpriced, owner-occupant-heavy market with stable demand from agriculture,
+            timber, and small manufacturing. The right investors -- patient, fundamentals-focused, and not requiring urban liquidity --
+            often find that the math works better than they expected.
+          </p>
+        </section>
+
         <section>
-  <h1>Holmes County Commercial Real Estate Market Overview</h1>
-  
-  <p>Holmes County sits in the heart of Northwest Florida's rural Panhandle, and I'll be straight with you—this isn't a high-volume CRE market. What it is, though, is stable, underpriced, and full of opportunity for the right investor or operator who understands small-market dynamics. After 23+ years in Florida commercial real estate, I've learned that some of the best deals happen in counties where most brokers aren't looking.</p>
+          <h2>Holmes County Commercial Real Estate Market Overview</h2>
+          <p>
+            Holmes County&apos;s commercial real estate is built on three primary pillars: agriculture, timber operations, and small
+            manufacturing. These are not trendy sectors, but they are resilient. Farmers need equipment storage, processing facilities,
+            and service infrastructure. Timber mills and forestry operations require industrial space and logistics support. Small
+            manufacturers -- who have found labor costs in this region reasonable -- need flex space and warehousing that works,
+            not trophy assets.
+          </p>
+          <div className="my-6 rounded-lg overflow-hidden">
+            <Image
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+              alt="Interstate highway corridor through rural northwest Florida with commercial properties"
+              width={800}
+              height={450}
+              className="w-full object-cover"
+            />
+          </div>
+          <p>
+            I-10 runs through the county -- and that is significant. It is the backbone of Florida&apos;s east-west interstate
+            commerce, connecting the Panhandle to Jacksonville and Tallahassee and points beyond. That corridor access makes
+            Holmes County relevant for businesses that need highway visibility and distribution capability without paying the
+            premium pricing of{" "}<Link href="/markets/escambia">Escambia County</Link> (Pensacola) to the west or larger metro
+            markets to the east. For investors comparing rural Panhandle options,{" "}
+            <Link href="/markets/calhoun">Calhoun County</Link> and{" "}
+            <Link href="/markets/bay">Bay County</Link> offer instructive contrasts.
+          </p>
+        </section>
 
-  <p>This market matters because it's real. It's not speculative. The people here buy, build, and sell based on actual business needs, not market hype. If you're looking at Holmes County, you're thinking long-term asset play, and that's exactly the kind of deal I specialize in.</p>
-</section>
+        <section className="bg-white rounded-lg border border-gray-200 p-6 my-8 not-prose">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Active Commercial Areas</h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-semibold text-gray-800">Bonifay -- County Seat and Main Street Commercial</h3>
+              <p className="text-gray-700 text-sm mt-1">
+                Bonifay is the commercial hub. Most retail and service-oriented businesses operate here -- local grocers, automotive
+                services, professional offices, and small restaurants. Main Street commercial still matters in Holmes County.
+                Ground-floor retail and professional office space moves slowly but tends to attract established local operators
+                with long-term commitments.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-800">I-10 Corridor -- Industrial and Warehouse</h3>
+              <p className="text-gray-700 text-sm mt-1">
+                The I-10 corridor is where industrial and warehouse activity concentrates. Older warehouse space, light manufacturing
+                buildings, and logistics facilities along the highway serve operators who need distribution access at pricing that
+                works. These properties are functional, accessible, and priced to allow real operating margin.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-800">Agricultural and Timber Support Operations</h3>
+              <p className="text-gray-700 text-sm mt-1">
+                Rural agricultural support -- feed storage, fertilizer distribution, equipment service bays, timber processing
+                facilities -- is ongoing across the county. These are steady, necessity-driven commercial uses with long-standing
+                operators who need reliable space at fair market rates.
+              </p>
+            </div>
+          </div>
+        </section>
 
-<section>
-  <h2>The Holmes County Economy & What Drives Demand</h2>
+        <section>
+          <h2>Active Property Types</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose my-6">
+            {[
+              {
+                title: "Industrial and Warehouse Near I-10",
+                desc: "The most actively traded commercial asset class in Holmes County. Older but functional warehouse and light manufacturing space near I-10 serves agricultural equipment dealers, small distributors, and logistics operators. Owner-occupant purchases are common.",
+              },
+              {
+                title: "Agricultural Support Commercial",
+                desc: "Feed storage, fertilizer distribution, farm equipment service, and timber processing facilities. Stable, necessity-driven demand with long-tenured operators and low vacancy in the limited available inventory.",
+              },
+              {
+                title: "Retail and Professional Service in Bonifay",
+                desc: "Main Street retail, small medical and dental offices, legal and insurance practices, and small restaurants. Modest scale but steady demand from Holmes County&apos;s permanent resident population.",
+              },
+              {
+                title: "Agricultural Land and Timber Acreage",
+                desc: "Pasture, row crop, and timber land throughout the county. Long-term land investors and agricultural operators are the primary buyers. Pricing reflects fundamentals, not speculation.",
+              },
+            ].map((type) => (
+              <div key={type.title} className="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                <h3 className="font-semibold text-gray-900 text-sm mb-1">{type.title}</h3>
+                <p className="text-gray-600 text-sm">{type.desc}</p>
+              </div>
+            ))}
+          </div>
+        </section>
 
-  <p>Holmes County's commercial real estate is built on three primary pillars: agriculture, timber operations, and small manufacturing. These aren't trendy sectors, but they're resilient. Farmers need equipment storage, processing facilities, and service infrastructure. Timber mills and forestry operations require industrial space and logistics support. Small manufacturers—who've found labor costs in this region reasonable—need flex space and warehousing.</p>
+        <section>
+          <h2>Demand Drivers</h2>
 
-  <p>I-10 runs through the county, and that's significant. It's the backbone of Florida's interstate commerce, connecting the Panhandle to Jacksonville, Tallahassee, and points west. That corridor access makes Holmes County relevant for businesses that need highway visibility and distribution capability without the premium pricing of Tampa, Jacksonville, or South Florida markets.</p>
+          <h3>I-10 Highway Access and Logistics</h3>
+          <p>
+            I-10 is Holmes County&apos;s single most important commercial asset. For warehouse, distribution, and industrial users,
+            interstate access is operational infrastructure. Holmes County&apos;s position on I-10 allows operators to reach
+            Jacksonville, Pensacola, and Tallahassee efficiently without paying metro-area commercial real estate prices.
+            For investors evaluating <Link href="/commercial/industrial-warehouse">industrial and logistics properties</Link> in
+            Florida&apos;s Panhandle, the I-10 corridor through Holmes County deserves consideration alongside more recognized
+            markets.
+          </p>
 
-  <p>Population is small and stable—which means you're not competing with speculative development or investor flipping. Your tenants are established operators with real business models. That translates to longer leases, lower turnover, and predictable cash flow.</p>
-</section>
+          <h3>Agricultural Permanence</h3>
+          <p>
+            Agriculture does not leave. The cattle operations, peanut and cotton farming, and timber management that define Holmes
+            County&apos;s economy are not temporary. They generate ongoing commercial demand for equipment, feed, supplies, and
+            services. That permanence gives commercial landlords in Holmes County a tenant base that will not vaporize if economic
+            conditions shift. Compare the more diversified demand base in <Link href="/markets/escambia">Escambia County</Link>{" "}
+            to the west if you need a market with greater commercial depth.
+          </p>
 
-<section>
-  <h2>Key Commercial Corridors & Asset Types</h2>
+          <h3>Owner-Operator Acquisitions</h3>
+          <p>
+            Most commercial transactions in Holmes County are owner-occupants buying property to operate their business from.
+            That creates a specific dynamic: buyers tend to be well-capitalized for their market segment, they are not negotiating
+            aggressively for short-term holds, and they stay put for 10 to 20 years once established. That kind of buyer profile
+            supports stable long-term income for landlords willing to lease to local operators on appropriate terms.
+            Barrett&apos;s <Link href="/services/tenant-representation">tenant representation</Link> and{" "}
+            <Link href="/services/landlord-leasing">landlord leasing</Link> services apply equally in markets like Holmes County.
+          </p>
+        </section>
 
-  <p><strong>Bonifay (County Seat)</strong></p>
-  <p>Bonifay is the commercial hub. You'll find most retail and service-oriented businesses here—local grocers, automotive services, professional offices. Main Street still matters in Holmes County. Ground-floor retail with upper-level office space moves slower than in urban markets, but when it does move, it's typically to an owner-occupant with deep local roots. That buyer isn't negotiating aggressively; they're looking for a place to run their business for the next 15 years.</p>
+        <section>
+          <h2>How Barrett Henry Works Holmes County</h2>
+          <p>
+            Barrett approaches Holmes County with the same professionalism and market rigor he applies to every Florida commercial
+            market, with 23+ years of experience as a Broker Associate at{" "}
+            <Link href="/remax-commercial-florida">REMAX Collective</Link>. He covers the county as a referral and advisory
+            territory -- focused on honest market assessment rather than a high-volume listing operation.
+          </p>
+          <ul>
+            <li>
+              <strong>Buy and Sell Representation:</strong> Whether you are a local business buying your first property or an
+              investor sourcing underpriced small industrial assets, Barrett finds the deals and negotiates terms that work through
+              his <Link href="/services/investment-sales">investment sales services</Link>.
+            </li>
+            <li>
+              <strong>Tenant Representation:</strong> If you are opening or relocating a business and need reliable, fairly-priced
+              space, Barrett knows the available inventory across Holmes County and can place you efficiently.
+            </li>
+            <li>
+              <strong>Market Analysis and Valuation:</strong> Honest <Link href="/services/cre-valuation">CRE valuation</Link> based
+              on actual comparable transactions -- not what sounds good on a listing sheet.
+            </li>
+          </ul>
+          <p>
+            Barrett works across <Link href="/markets">all of Florida&apos;s commercial real estate markets</Link> and brings
+            statewide context to every transaction. Contact him at (813) 733-7907 or through the{" "}
+            <Link href="/contact">contact page</Link>.
+          </p>
+        </section>
 
-  <p><strong>Highway-Oriented Commercial (I-10 Vicinity)</strong></p>
-  <p>The I-10 corridor is where industrial and warehouse activity concentrates. You'll see older warehouse space, some light manufacturing buildings, and logistics facilities. These properties won't win architectural awards, but they work. They're functional, accessible, and priced to allow operators real margin. If you're sourcing for a small distributor, a farm equipment dealer, or a regional manufacturing company, highway-accessible space in Holmes County makes financial sense.</p>
+        <section>
+          <h2>Frequently Asked Questions: Holmes County Commercial Real Estate</h2>
+          <FAQAccordion items={faqItems} />
+        </section>
 
-  <p><strong>Agricultural & Industrial Support Space</strong></p>
-  <p>Rural agricultural support—feed storage, fertilizer distribution, equipment service bays—is ongoing. Timber-related industrial buildings and equipment storage are constants. This isn't glamorous commercial real estate, but it's steady. These operators need reliable space at fair market rates, and they'll stay put if conditions are stable.</p>
+        <section id="lead-form" className="my-10">
+          <h2>Talk to Barrett About Holmes County</h2>
+          <p>
+            Whether you are evaluating I-10 corridor industrial space, agricultural support commercial, or rural land in Holmes
+            County, Barrett provides honest market assessment and professional execution.
+            Fill out the form and he will follow up directly.
+          </p>
+          <LeadForm />
+        </section>
 
-  <p><strong>Retail & Professional Office</strong></p>
-  <p>Professional services (medical, dental, legal, accounting) maintain steady demand. Office space is basic—nothing trophy. Retail is mainly Main Street or smaller strips. Turnover is slower, but lease rates are reasonable and credit quality tends to be solid.</p>
-</section>
+        <RelatedLinks links={relatedLinks} />
 
-<section>
-  <h2>Market Characteristics & Why It Matters</h2>
-
-  <p>Holmes County is a <strong>Tier 2 referral territory</strong> for me, and I handle it with the same professionalism and market insight I bring to high-volume markets. But here's what makes it different—and valuable:</p>
-
-  <ul>
-    <li><strong>Low Competition:</strong> Few brokers actively work Holmes County. That means deals sit longer, but when you find the right opportunity, you're often the only serious buyer at the table.</li>
-    <li><strong>Owner-Occupant Heavy:</strong> Most transactions are business owners buying property to operate from. That's more stable than investor pools chasing yield.</li>
-    <li><strong>Underpriced Relative to Fundamentals:</strong> A functional warehouse with solid tenancy will trade at a fraction of what you'd pay for the same asset 60 miles away in a metro area.</li>
-    <li><strong>Agricultural Permanence:</strong> Agriculture doesn't leave. The acreage around Holmes County that supports farming, forestry, and related businesses isn't going anywhere. That underpins a baseline of commercial activity.</li>
-    <li><strong>Owner-Financed Deals:</strong> You'll occasionally find sellers willing to finance in this market, particularly on industrial or agricultural properties. That flexibility opens doors for buyers with solid credit but limited conventional financing options.</li>
-  </ul>
-</section>
-
-<section>
-  <h2>What I Offer in Holmes County</h2>
-
-  <p>I work Holmes County CRE transactions as a REALTOR® with REMAX Collective, applying the same market analysis, negotiation skill, and deal structure expertise I've built over decades in Florida commercial real estate. Here's what I handle:</p>
-
-  <ul>
-    <li><strong>Buy/Sell Representation:</strong> Whether you're a local business buying your first property or an investor sourcing small industrial assets, I'll find deals and negotiate terms that work.</li>
-    <li><strong>Tenant Representation:</strong> If you're opening or relocating a business and need reliable, fairly-priced space, I know the available inventory and can place you efficiently.</li>
-    <li><strong>Landlord Representation:</strong> Got a property to lease? I'll help you screen tenants, structure the lease, and manage the listing process professionally.</li>
-    <li><strong>Market Analysis & Valuation:</strong> Need to understand what your property is worth or what market conditions really look like? I'll give you straight answers based on actual comparable transactions.</li>
-    <li><strong>Investment Strategy:</strong> If you're considering Holmes County as a secondary market play—agricultural support real estate, small industrial assets, or highway-adjacent properties—I'll help you evaluate opportunity and risk realistically.</li>
-  </ul>
-
-  <p>My approach in Holmes County is the same as everywhere else: no fluff, no misleading comparables, no hype. The market doesn't reward it, and neither do my clients.</p>
-</section>
-
-<section>
-  <h2>Holmes County CRE: The Bottom Line</h2>
-
-  <p>If you're looking for a hot market with daily bidding wars and celebrity brokers, Holmes County isn't it. But if you're looking for real property, real users, real deals, and below-market pricing? You should talk to me. I've spent 23+ years understanding how Florida's commercial real estate actually works—from the glitzy coastal corridors to the workaday rural counties where businesses actually operate.</p>
-
-  <p>Holmes County represents exactly that kind of opportunity: a place where cash flow works, tenants are stable, and property values reflect fundamentals rather than speculation.</p>
-</section>
-
-<section>
-  <h2>FAQ: Holmes County Commercial Real Estate</h2>
-
-  <h3>Why should I consider investing in Holmes County commercial real estate?</h3>
-  <p>Holmes County offers underpriced assets backed by stable, agricultural-based demand. You won't see appreciation like Tampa or Jacksonville, but you will get cash flow from owner-operators with real, ongoing business needs. It's a long-term play, not a flip. The math often works better than you'd expect.</p>
-
-  <h3>What kind of properties move fastest in Holmes County?</h3>
-  <p>Owner-occupant industrial and warehouse space with highway access. Farmers, equipment dealers, and small manufacturers buy and operate aggressively when they find the right facility. Professional office space for local services also moves steadily—just slower than industrial.</p>
-
-  <h3>Is I-10 access really that important for Holmes County commercial property?</h3>
-  <p>Yes. I-10 is the primary logistics corridor connecting the Florida Panhandle to the rest of the state and beyond. For warehouse, distribution, and industrial users, highway access isn't optional—it's operational infrastructure. Properties within reasonable proximity to I-10 interchanges will always command better pricing and tenant interest than comparable buildings stuck on backroads.</p>
-
-  <h3>Do you charge differently for Holmes County deals compared to major markets?</h3>
-  <p>No. My commission structure is standard and transparent regardless of market tier. I represent you with the same diligence, research, and negotiation skill whether you're buying in Tampa or Holmes County. You deserve professional representation everywhere.</p>
-
-  <h3>How do I get started exploring Holmes County commercial real estate?</h3>
-  <p>Call me at (813) 733-7907 or email <a href="mailto:barrett@nowtb.com">barrett@nowtb.com</a>. We'll discuss what you're looking for, what the market can realistically offer, and whether Holmes County makes sense for your business or investment objectives. No pressure, just straight answers.</p>
-</section>
+        <p className="text-sm text-gray-500 mt-8">Last updated: August 2026</p>
       </main>
       <CTASection
-        heading="Ready to Talk Commercial Real Estate?"
-        body="Whether you're leasing, buying, selling, or investing — Barrett Henry has the experience and local knowledge to get it done right."
+        heading="Ready to Talk Commercial Real Estate in Holmes County?"
+        body="Barrett Henry has the statewide Florida context and rural market experience to help you evaluate I-10 corridor industrial, agricultural support commercial, and land opportunities in Holmes County, FL."
         buttonText="Get in Touch"
         buttonHref="/contact"
-        variant="primary"
       />
     </>
   );

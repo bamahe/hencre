@@ -201,6 +201,27 @@ const MARKETS = [
     description:
       "Florida's least-developed coastal Panhandle market. Apalachicola's historic downtown, Carrabelle's waterfront, and Eastpoint aquaculture operations create niche commercial and investment opportunities.",
   },
+  {
+    slug: "gulf",
+    county: "Gulf County",
+    city: "Port St. Joe",
+    description:
+      "A small post-Hurricane Michael recovery market along St. Joseph Bay. Boutique hospitality, small retail, and ground-up commercial development anchor this eco-tourism and coastal relocation market.",
+  },
+  {
+    slug: "hendry",
+    county: "Hendry County",
+    city: "LaBelle & Clewiston",
+    description:
+      "Florida&apos;s primary sugarcane and agricultural production market. LaBelle anchors small commercial, while Clewiston serves the sugar industry. Solar energy land leases are an emerging demand driver.",
+  },
+  {
+    slug: "holmes",
+    county: "Holmes County",
+    city: "Bonifay",
+    description:
+      "A rural northwest Florida Panhandle market on the I-10 corridor. Industrial and warehouse properties near I-10 serve agricultural operators and small manufacturers at pricing well below metro markets.",
+  },
 ];
 
 /* Structured data: Service schema for the markets page */
@@ -218,7 +239,7 @@ const serviceSchema = {
       "@type": "Service",
       name: "Commercial Real Estate Brokerage — Florida Markets",
       description:
-        "Commercial real estate brokerage services across 25 Florida counties, from Tampa Bay and Central Florida to the Space Coast, Southwest Florida, and the Panhandle.",
+        "Commercial real estate brokerage services across 28 Florida counties, from Tampa Bay and Central Florida to the Space Coast, Southwest Florida, and the Panhandle.",
       provider: {
         "@type": "RealEstateAgent",
         name: "Barrett Henry",
@@ -261,7 +282,7 @@ export default function MarketsIndexPage() {
           </h2>
           <p className="mb-10 max-w-3xl text-[#666666]">
             Barrett Henry provides commercial real estate brokerage services
-            across 25 Florida counties, from Tampa Bay and Central Florida to
+            across 28 Florida counties, from Tampa Bay and Central Florida to
             the Space Coast, Southwest Florida, and the Panhandle. Each market
             has its own drivers, opportunities, and challenges. Select a county
             below for a deep dive into that market.

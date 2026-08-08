@@ -15,7 +15,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Port Tampa Bay Vision 2030 Expansion: What CRE Investors Need to Know | HenCRE",
+  title: "Port Tampa Bay Vision 2030: Industrial CRE Outlook | HenCRE",
   description:
     "Port Tampa Bay is adding cranes, dredging its channel, and expanding container terminals under Vision 2030. Here is what commercial real estate investors need to know about the industrial demand surge it is creating.",
   alternates: { canonical: "https://hencre.com/blog/port-tampa-bay-expansion-industrial-cre-investors" },
@@ -86,11 +86,13 @@ const schema = {
       description:
         "Port Tampa Bay is adding cranes, dredging its channel, and expanding container terminals under Vision 2030. Here is what commercial real estate investors need to know about the industrial demand surge it is creating.",
       datePublished: "2026-07-26",
-      dateModified: "2026-08-05",
+      dateModified: "2026-08-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -241,7 +243,7 @@ export default function PortTampaBayExpansionCREPage() {
           For commercial real estate investors targeting industrial product in <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County</a> and the surrounding Tampa Bay market, port-proximate assets deserve serious attention right now. The repricing of 2023 and 2024 created an entry point that is closing as volume and confidence return. The structural demand driver — more cargo, bigger ships, more throughput — is only strengthening as Vision 2030 progresses.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23 years of commercial real estate experience in Tampa Bay — and a track record working with industrial investors and tenants across <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, and <a href="/markets/pasco" className="text-accent underline">Pasco</a> Counties — I help clients identify industrial opportunities that align with real demand drivers rather than market hype. If you are evaluating industrial acquisitions in Tampa Bay or own industrial property and want to understand what the port&apos;s expansion means for its value, I would like to have that conversation.
+          With 23+ years of commercial real estate experience in Tampa Bay — and a track record working with industrial investors and tenants across <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, and <a href="/markets/pasco" className="text-accent underline">Pasco</a> Counties — I help clients identify industrial opportunities that align with real demand drivers rather than market hype. If you are evaluating industrial acquisitions in Tampa Bay or own industrial property and want to understand what the port&apos;s expansion means for its value, I would like to have that conversation.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>

@@ -14,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Midtown Tampa Commercial Real Estate 2026: Office, Retail & Investment Guide | HenCRE",
+  title: "Midtown Tampa 2026: Office, Retail & Investment Guide | HenCRE",
   description:
     "Midtown Tampa's office space is now fully leased and three new retailers — Pura Vida Miami, CorePower Yoga, and The Shade Store — are joining the district. Here is what the $1 billion Midtown Tampa development means for CRE investors and tenants in 2026.",
   alternates: { canonical: "https://hencre.com/blog/midtown-tampa-commercial-real-estate-2026" },
@@ -85,7 +85,7 @@ const schema = {
       description:
         "Midtown Tampa's office space is fully leased and three new retailers are joining the district. A CRE investor and tenant guide to the $1 billion mixed-use development reshaping North Tampa.",
       datePublished: "2026-07-29",
-      dateModified: "2026-08-05",
+      dateModified: "2026-08-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -303,12 +303,9 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a Broker Associate at REMAX Collective,
-              operating under the REMAX Commercial division. He specializes in North Tampa and Tampa Bay
-              commercial real estate and serves buyers, sellers, and tenants across all 67 Florida counties
-              from offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience and specializes in commercial real estate across all 67 Florida counties. He serves tenants, landlords, investors, and owners from offices in Tampa, Largo, and Brandon. Learn more at <a href="/about" className="underline">hencre.com/about</a>.
             </p>
           </div>
         </div>

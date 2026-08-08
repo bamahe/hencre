@@ -15,7 +15,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Florida Business Rent Tax Repealed: What Tampa Bay Commercial Tenants Save in 2026 | HenCRE",
+  title: "Florida Business Rent Tax Repealed: Tampa Bay Guide | HenCRE",
   description:
     "Florida eliminated its Business Rent Tax on commercial leases effective October 1, 2025. Here is exactly how much Tampa Bay tenants are saving, what it means for lease negotiations, and what to do if your landlord is still charging the tax.",
   alternates: { canonical: "https://hencre.com/blog/florida-business-rent-tax-repeal-tampa-bay" },
@@ -86,11 +86,13 @@ const schema = {
       description:
         "Florida eliminated its Business Rent Tax on commercial leases effective October 1, 2025. Here is exactly how much Tampa Bay tenants are saving and what to do if your landlord is still charging the tax.",
       datePublished: "2026-07-30",
-      dateModified: "2026-08-05",
+      dateModified: "2026-08-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },

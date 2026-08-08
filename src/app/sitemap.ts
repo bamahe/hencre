@@ -14,7 +14,7 @@ const TIER1_COUNTIES = [
   "alachua", "baker", "bay", "bradford", "brevard",
   "broward", "calhoun", "charlotte", "clay", "collier",
   "columbia", "desoto", "dixie", "duval", "escambia",
-  "flagler", "franklin",
+  "flagler", "franklin", "gulf", "hendry", "holmes",
 ];
 
 // Service page slugs
