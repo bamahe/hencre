@@ -4,6 +4,69 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-08 -- Batch 18 (11 files, 10 content pages + 1 index)
+
+### 1. `/markets/gulf`
+- COMPLETE REWRITE using Hamilton market template
+- Removed: old Article schema, named imports (`{ Hero }`), `class=` attributes, `variant="primary"` on CTASection, wrong email barrett@nowtb.com
+- Added: default imports, @graph schema (BreadcrumbList + Service + FAQPage), Quick Answer box, inline Image (photo-1500937386664-56d1dfef3854), Active Commercial Areas cards (Port St. Joe, St. Joseph Bay tourism, Wewahitchka), Property Types grid (boutique hospitality, small retail, ground-up commercial, adaptive reuse), Demand Drivers with Links, "How Barrett Works" section, FAQAccordion, LeadForm (id="lead-form"), RelatedLinks, "Last updated: August 2026", CTASection (no variant)
+- 5 faqItems: investment potential, property types, Hurricane Michael impact, Port St. Joe demand drivers, Barrett's approach
+- RelatedLinks: /markets/franklin, /markets/bay, /markets/calhoun, /services/investment-sales, /commercial/land-development, /markets
+
+### 2. `/markets/hendry`
+- COMPLETE REWRITE using Hamilton market template
+- Removed: old Article schema, named imports, `class=` attributes, wrong email, REALTOR® references
+- Added: default imports, @graph schema, Quick Answer box, inline Image (photo-1509316785289-025f5b846b35), Active Commercial Areas (LaBelle, Clewiston, solar development zones), Property Types grid, Demand Drivers with Links, FAQAccordion, LeadForm, RelatedLinks, CTASection
+- Content: LaBelle (county seat), Clewiston (US Sugar HQ, "Sweetest Town in America"), sugarcane agriculture, solar energy land leases, agricultural support commercial
+- RelatedLinks: /markets/collier, /markets/lee, /markets/glades, /services/investment-sales, /commercial/land-development, /markets
+
+### 3. `/markets/holmes`
+- COMPLETE REWRITE using Hamilton market template
+- Removed: old Article schema, named imports, `class=` attributes, wrong email, REALTOR® references
+- Added: default imports, @graph schema, Quick Answer box, inline Image (photo-1486406146926-c627a92ad1ab), Active Commercial Areas (Bonifay, I-10 corridor, agricultural support), Property Types grid, Demand Drivers with Links, FAQAccordion, LeadForm, RelatedLinks, CTASection
+- Content: Bonifay (county seat), I-10 corridor industrial, agriculture (cattle/peanuts/cotton/timber), small manufacturing
+- RelatedLinks: /markets/escambia, /markets/bay, /markets/calhoun, /commercial/industrial-warehouse, /services/investment-sales, /markets
+
+### 4. `/blog/riverview-fl-retail-leasing-guide`
+- Fixed CRITICAL TDZ error: `faqItems` was declared AFTER `schema` which referenced it -- moved faqItems before schema, removed duplicate faqItems declaration
+- Title shortened from 75 chars to 68 chars: removed "What Tenants and Investors Need to Know" suffix
+- (Prior session fixes retained: relatedLinks /blog/ prefixes, single @graph schema, Home in breadcrumbs, fixed jobTitle/publisher/sameAs, mid-article CTA fix, author bio fix, removed HUD/FHA/HOPE section, legal disclaimer)
+
+### 5. `/blog/tampa-bay-flex-office-coworking-2026`
+- Fixed nowtb.com external link in "Market entry without commitment" bullet (replaced with internal links to /markets/hillsborough and /markets/pinellas)
+- (Prior session fixes retained: title 54 chars, dateModified 2026-08-08)
+- Note: original text used Unicode em dashes which caused prior Edit tool failure; fixed by re-reading exact text
+
+### 6. `/blog/midtown-tampa-commercial-real-estate-2026`
+- Title shortened from 84 chars to 69 chars: "Midtown Tampa 2026: Office, Retail & Investment Guide | HenCRE"
+- dateModified updated "2026-08-05" -> "2026-08-08"
+- Author bio: fixed credentials line to "e-PRO, MRP, SRS | REMAX Hall of Fame"; removed "operating under the REMAX Commercial division" language
+- Author bio bio text: standardized to match site-wide format
+
+### 7. `/blog/tampa-bay-cold-storage-cre-2026`
+- dateModified updated "2026-08-05" -> "2026-08-08"
+- Schema author: added `image` and `sameAs` fields (were missing from BlogPosting author)
+
+### 8. `/blog/florida-business-rent-tax-repeal-tampa-bay`
+- Title shortened from 93 chars to 63 chars: "Florida Business Rent Tax Repealed: Tampa Bay Guide | HenCRE"
+- dateModified updated "2026-08-05" -> "2026-08-08"
+- Schema author: added `image` and `sameAs` fields
+
+### 9. `/blog/port-tampa-bay-expansion-industrial-cre-investors`
+- Title shortened from 79 chars to 64 chars: "Port Tampa Bay Vision 2030: Industrial CRE Outlook | HenCRE"
+- dateModified updated "2026-08-05" -> "2026-08-08"
+- Schema author: added `image` and `sameAs` fields
+- Fixed "23 years" -> "23+ years" in article body paragraph
+
+### 10. `/src/app/sitemap.ts`
+- Added "gulf", "hendry", "holmes" to TIER1_COUNTIES array (25 -> 28 counties)
+
+### 11. `/markets` (markets index page)
+- Added gulf, hendry, holmes market cards to MARKETS array
+- Updated county count from "25 Florida counties" to "28 Florida counties" (2 instances)
+
+---
+
 ## 2026-08-07 — Batch 17 (10 pages)
 
 ### 1. `/blog/port-tampa-bay-fourth-cruise-terminal-channel-district-cre`
