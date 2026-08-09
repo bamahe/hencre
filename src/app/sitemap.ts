@@ -9,12 +9,15 @@ import type { MetadataRoute } from "next";
 
 // Tier 1 counties (deep market pages)
 const TIER1_COUNTIES = [
-  "hillsborough", "pinellas", "pasco", "polk",
-  "manatee", "sarasota", "citrus", "hernando",
   "alachua", "baker", "bay", "bradford", "brevard",
-  "broward", "calhoun", "charlotte", "clay", "collier",
-  "columbia", "desoto", "dixie", "duval", "escambia",
-  "flagler", "franklin", "gulf", "hendry", "holmes",
+  "broward", "calhoun", "charlotte", "citrus", "clay",
+  "collier", "columbia", "desoto", "dixie", "duval",
+  "escambia", "flagler", "franklin", "gadsden", "gilchrist",
+  "glades", "gulf", "hamilton", "hardee", "hendry",
+  "hernando", "highlands", "hillsborough", "holmes", "indian-river",
+  "lake", "lee", "leon", "manatee", "marion",
+  "orange", "osceola", "pasco", "pinellas", "polk",
+  "sarasota", "seminole", "st-johns", "volusia",
 ];
 
 // Service page slugs

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -13,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Restaurant & Food Hall Commercial Space: 2026 Leasing Guide | HenCRE",
+  title: "Tampa Bay Restaurant & Food Hall Space: 2026 Leasing Guide | HenCRE",
   description:
     "Restaurant space leasing in Tampa Bay — current rental rates, food hall trends, Seminole Heights, downtown St. Pete, percentage-rent clauses, and build-out considerations for 2026.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-restaurant-food-beverage-space-2026" },
@@ -84,7 +85,7 @@ const schema = {
       description:
         "Restaurant space leasing in Tampa Bay — current rental rates, food hall trends, Seminole Heights, downtown St. Pete, and what operators need to know for 2026.",
       datePublished: "2026-08-04",
-      dateModified: "2026-08-04",
+      dateModified: "2026-08-09",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -125,6 +126,36 @@ const relatedLinks = [
     title: "Ybor City Commercial Real Estate",
     href: "/blog/ybor-city-commercial-real-estate-tampa-2026",
     description: "Food, entertainment, and mixed-use opportunities in Ybor City.",
+  },
+  {
+    title: "Midtown Tampa Commercial Real Estate 2026",
+    href: "/blog/midtown-tampa-commercial-real-estate-2026",
+    description: "Midtown Tampa's newest restaurant corridors and mixed-use demand in 2026.",
+  },
+  {
+    title: "St. Petersburg Commercial Real Estate 2026",
+    href: "/blog/st-petersburg-commercial-real-estate-2026",
+    description: "How St. Pete's Central Avenue and EDGE District are reshaping food-and-beverage leasing.",
+  },
+  {
+    title: "Clearwater Retail Space Guide",
+    href: "/blog/clearwater-retail-space-guide",
+    description: "Retail and restaurant space options along Clearwater's major corridors.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "Barrett negotiates restaurant leases on your behalf -- at no cost to you.",
+  },
+  {
+    title: "Commercial Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "What to complete between letter of intent and lease execution -- and how to use that window to negotiate.",
+  },
+  {
+    title: "NNN Lease Explained",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "How NNN leases work for restaurant-anchored retail investors.",
   },
 ];
 
@@ -271,15 +302,45 @@ export default function TampaBayRestaurantSpacePage() {
           Tampa Bay&apos;s restaurant and food-and-beverage commercial space market is active, competitive, and nuanced. The strongest submarkets lease quickly, percentage-rent clauses are back, and build-out costs require careful capital planning before you commit. Whether you are a first-time operator using a food hall to build proof-of-concept, an established restaurateur expanding to a new Tampa Bay location, or an investor evaluating restaurant-anchored retail assets, the decisions you make in the leasing and acquisition process directly affect your long-term economics. For additional context on the broader <a href="/blog/clearwater-retail-space-guide" className="text-accent underline">Clearwater retail market</a> and <a href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate</a>, see those guides for submarket-specific detail. As a Broker Associate at REMAX Collective with 23+ years of experience, I work with both operators and investors navigating food-and-beverage commercial real estate across Tampa Bay.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
-        <div className="mt-6">
-          <FAQAccordion items={faqItems} />
-        </div>
-
         <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
+      {/* ---- FAQ Section ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+        <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
+        <FAQAccordion items={faqItems} />
+      </section>
+
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">
+              Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame
+            </p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of real estate experience helping restaurant operators and food-and-beverage investors navigate Tampa Bay&apos;s most active retail corridors. He provides <Link href="/services/tenant-representation">tenant representation</Link> at no cost to operators and serves clients across all 67 Florida counties.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Legal Disclaimer ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Market data cited reflects publicly available sources as of mid-2026. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
 
       <CTASection
         heading="Looking for Restaurant or Food Hall Space in Tampa Bay?"

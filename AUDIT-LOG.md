@@ -4,6 +4,91 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-09 -- Batch 19 (12 files: 2 blog fixes, 8 new market pages, sitemap + markets index update)
+
+### 1. `/blog/westshore-tampa-office-market-2026`
+- Removed REALTOR® reference -- replaced with "commercial broker"
+- Removed external nowtb.com link -- replaced with internal links to /markets/hillsborough, /markets/pinellas, /markets/pasco
+- Fixed 2 em dashes to " -- " in the negotiation paragraph
+- Updated `dateModified` to "2026-08-09"
+
+### 2. `/blog/tampa-bay-restaurant-food-beverage-space-2026`
+- Added `import Link from "next/link"` (was missing)
+- Shortened title tag from 80 chars to 68 chars ("Tampa Bay Restaurant & Food Hall Space: 2026 Leasing Guide | HenCRE")
+- Updated `dateModified` to "2026-08-09"
+- Expanded relatedLinks from 4 to 10 entries (added: midtown-tampa, st-petersburg, clearwater-retail, tenant-representation, due-diligence-timeline, nnn-lease blog)
+- Moved FAQ section outside article tag to avoid nesting violation
+- Added author bio section with Barrett Henry credentials
+- Added legal disclaimer section
+
+### 3. `/markets/orange` (NEW)
+- Orange County (Orlando) -- full Hamilton market template
+- Active areas: I-Drive/International Drive, Sand Lake/Dr. Phillips, Maitland Center, Lake Nona Medical City
+- Property types: Hospitality, Medical/Life Sciences, Suburban Office, Industrial/Logistics, Retail, Land
+- Demand drivers: Tourism and Disney proximity, Healthcare (Lake Nona, OHMC, AdventHealth), Population growth
+- 5 faqItems covering demand drivers, submarkets, property types, county comparison (vs Seminole), Barrett approach
+- RelatedLinks: seminole, osceola, lake, polk, investment-sales, industrial-warehouse, office-space, markets
+
+### 4. `/markets/seminole` (NEW)
+- Seminole County (Lake Mary, Altamonte Springs) -- full template
+- Active areas: Lake Mary/Heathrow corporate corridor, Altamonte Springs SR-436, Sanford/SFB Airport, Oviedo/Winter Springs
+- Property types: Corporate/Class A Office, Retail/Restaurant, Light Industrial/Flex, Medical Office
+- Demand drivers: I-4 corridor, Corporate presence/workforce quality, SFB Airport logistics
+- RelatedLinks: orange, volusia, lake, office-space, investment-sales, markets
+
+### 5. `/markets/lake` (NEW)
+- Lake County (Clermont, Leesburg, Mount Dora) -- full template
+- Active areas: Clermont/Minneola US-27/SR-50, Leesburg/Tavares US-441, Mount Dora US-441 tourist
+- Property types: Retail/Pad Sites, Medical Office, Land Development, Light Industrial
+- Demand drivers: Orlando residential spillover, Tourism/retiree economy, Florida Turnpike/US-27 connectivity
+- RelatedLinks: orange, polk, osceola (replaced original broken /markets/sumter link), retail-space, investment-sales, land-development, markets
+- FIXED: replaced broken /markets/sumter relatedLink with /markets/osceola
+
+### 6. `/markets/osceola` (NEW)
+- Osceola County (Kissimmee, St. Cloud) -- full template
+- Active areas: US-192 Kissimmee tourist corridor, Celebration/Reunion, St. Cloud/Narcoossee Road
+- Property types: Hospitality/Hotel, Tourist Retail/Food Service, Healthcare/Medical Office, Retail/Service
+- Demand drivers: Tourism/Walt Disney World, Residential growth in St. Cloud, Florida Turnpike/I-4 connectivity
+- RelatedLinks: orange, lake, polk, nnn-net-lease, investment-sales, nnn-lease blog, markets
+
+### 7. `/markets/leon` (NEW)
+- Leon County (Tallahassee) -- full template
+- Active areas: Downtown/State Capitol Complex, Apalachee Parkway US-27, Midtown/FSU Campus Edge, Capital Circle
+- Property types: Government/Professional Office, University Retail/Food Service, Medical Office, Multifamily
+- Demand drivers: State government employment, FSU and FAMU universities, Healthcare and life sciences
+- RelatedLinks: gadsden, franklin, columbia, office-space, investment-sales, markets
+
+### 8. `/markets/volusia` (NEW)
+- Volusia County (Daytona Beach, Port Orange, DeLand, Deltona) -- full template
+- Active areas: Daytona Beach ISB/Beachside, Port Orange/Dunlawton, Deltona/I-4, DeLand US-17-92/Downtown
+- Property types: Hospitality/Tourism Retail, Suburban Retail/Medical Office, Industrial/Logistics, Mixed-Use/Downtown
+- Demand drivers: Motorsport/event tourism, I-4 corridor logistics, Healthcare/residential suburban growth
+- RelatedLinks: flagler, seminole, brevard, st-johns, industrial-warehouse, investment-sales, markets
+
+### 9. `/markets/st-johns` (NEW)
+- St. Johns County (St. Augustine, Nocatee, Ponte Vedra Beach) -- full template
+- Active areas: Nocatee/CR-210 corridor, Historic St. Augustine US-1/King Street, Ponte Vedra Beach A1A/US-1, World Golf Village SR-16
+- Property types: Retail/Service Commercial, Hospitality/Tourism Retail, Medical Office/Healthcare, Commercial Land
+- Demand drivers: Jacksonville spillover/population growth, Historic St. Augustine tourism, I-95 connectivity/logistics
+- RelatedLinks: flagler, volusia, seminole, retail-space, land-development, investment-sales, markets
+
+### 10. `/markets/marion` (NEW)
+- Marion County (Ocala) -- full template
+- Active areas: SR-200/World Equestrian Center corridor, Downtown Ocala Silver Springs Blvd, I-75 industrial corridor, US-441 south retiree corridor
+- Property types: Industrial/Logistics, Hospitality/Event Commercial, Healthcare/Medical Office, Retail/Mixed-Use
+- Demand drivers: Equestrian economy/World Equestrian Center, I-75 logistics position, Retiree population/healthcare
+- RelatedLinks: alachua, highlands, lake, industrial-warehouse, investment-sales, markets
+
+### 11. `/markets/page.tsx` (INDEX UPDATE)
+- Added 16 new market cards to MARKETS array: gadsden, gilchrist, glades, hamilton, hardee, highlands, indian-river, lee (8 from prior batches missing from index), plus orange, seminole, lake, osceola, leon, volusia, st-johns, marion (8 from this batch)
+- Updated county count from "28 Florida counties" to "44 Florida counties" (2 occurrences: schema description + body text)
+
+### 12. `/sitemap.ts`
+- Added 16 counties to TIER1_COUNTIES array (44 total): gadsden, gilchrist, glades, hamilton, hardee, highlands, indian-river, lee (prior batches), plus orange, seminole, lake, osceola, leon, volusia, st-johns, marion (this batch)
+- Sorted TIER1_COUNTIES alphabetically for maintainability
+
+---
+
 ## 2026-08-08 -- Batch 18 (11 files, 10 content pages + 1 index)
 
 ### 1. `/markets/gulf`

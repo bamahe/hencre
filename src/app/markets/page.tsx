@@ -222,6 +222,118 @@ const MARKETS = [
     description:
       "A rural northwest Florida Panhandle market on the I-10 corridor. Industrial and warehouse properties near I-10 serve agricultural operators and small manufacturers at pricing well below metro markets.",
   },
+  {
+    slug: "gadsden",
+    county: "Gadsden County",
+    city: "Quincy",
+    description:
+      "A small North Florida county west of Tallahassee with agricultural heritage and US-90 highway commercial. Rural land and light industrial properties serve operators between Tallahassee and the western Panhandle.",
+  },
+  {
+    slug: "gilchrist",
+    county: "Gilchrist County",
+    city: "Trenton",
+    description:
+      "A rural North Florida county on the Suwannee River between Gainesville and the Nature Coast. Agricultural land, rural commercial, and light industrial properties serve one of Florida&apos;s least-developed markets.",
+  },
+  {
+    slug: "glades",
+    county: "Glades County",
+    city: "Moore Haven",
+    description:
+      "A rural South Florida county on Lake Okeechobee&apos;s western shore with agricultural land, sugar industry commercial, and emerging solar energy land lease activity along the US-27 corridor.",
+  },
+  {
+    slug: "hamilton",
+    county: "Hamilton County",
+    city: "Jasper",
+    description:
+      "A small North Florida county at the Georgia border where I-75 and US-129 converge near Jasper. Highway commercial and truck stop properties serve the interstate corridor, with agricultural land as the primary commercial inventory.",
+  },
+  {
+    slug: "hardee",
+    county: "Hardee County",
+    city: "Wauchula",
+    description:
+      "A rural Central Florida agricultural county between Manatee and Highlands. Citrus and cattle operations drive land demand; US-17 commercial in Wauchula serves the county seat. An emerging market for investors tracking Central Florida rural land.",
+  },
+  {
+    slug: "highlands",
+    county: "Highlands County",
+    city: "Sebring",
+    description:
+      "A lake-region retirement and motorsport market anchored by Sebring International Raceway. Retiree-driven retail, medical office, and service commercial line US-27 through Sebring. The annual 12 Hours of Sebring race adds seasonal hospitality demand.",
+  },
+  {
+    slug: "indian-river",
+    county: "Indian River County",
+    city: "Vero Beach",
+    description:
+      "Florida&apos;s Treasure Coast citrus and coastal retirement market. Vero Beach&apos;s high-income residential base drives upscale retail, medical office, and restaurant demand along US-1 and the A1A corridor.",
+  },
+  {
+    slug: "lee",
+    county: "Lee County",
+    city: "Fort Myers & Cape Coral",
+    description:
+      "Southwest Florida&apos;s second-largest CRE market. Fort Myers&apos;s US-41 corridor anchors retail and office demand; the I-75 corridor supports industrial growth; Cape Coral&apos;s commercial formation follows rapid residential expansion.",
+  },
+  {
+    slug: "orange",
+    county: "Orange County",
+    city: "Orlando",
+    description:
+      "Central Florida&apos;s dominant commercial market. Orlando&apos;s tourism corridor, Lake Nona Medical City, Sand Lake Road office, I-Drive hospitality, and Maitland Center professional office make this one of Florida&apos;s most diverse and high-demand metros.",
+  },
+  {
+    slug: "seminole",
+    county: "Seminole County",
+    city: "Lake Mary & Altamonte Springs",
+    description:
+      "An affluent Orlando suburb with the region&apos;s most established suburban office parks in Lake Mary and Heathrow, strong retail along SR-436, and growing industrial demand near Sanford/Orlando International Airport.",
+  },
+  {
+    slug: "lake",
+    county: "Lake County",
+    city: "Clermont & Leesburg",
+    description:
+      "One of Florida&apos;s fastest-growing counties by percentage. Clermont&apos;s explosive residential formation drives the US-27/SR-50 commercial corridor, while Leesburg anchors healthcare and government services for the county&apos;s northern communities.",
+  },
+  {
+    slug: "osceola",
+    county: "Osceola County",
+    city: "Kissimmee & St. Cloud",
+    description:
+      "Walt Disney World&apos;s home county. The US-192 tourist corridor through Kissimmee is one of the world&apos;s most concentrated hospitality and tourist retail markets. St. Cloud&apos;s residential growth adds a second commercial layer driven by local population needs.",
+  },
+  {
+    slug: "leon",
+    county: "Leon County",
+    city: "Tallahassee",
+    description:
+      "Florida&apos;s state capital and home to FSU and FAMU. Government office near the State Capitol complex, university-driven retail in Midtown, and healthcare from Tallahassee Memorial make this a stable, institutionally-anchored CRE market.",
+  },
+  {
+    slug: "volusia",
+    county: "Volusia County",
+    city: "Daytona Beach & Port Orange",
+    description:
+      "A diverse coastal county combining Daytona Beach motorsport tourism, Port Orange suburban retail, Deltona I-4 logistics, and DeLand downtown redevelopment -- four distinct commercial submarkets within a single county.",
+  },
+  {
+    slug: "st-johns",
+    county: "St. Johns County",
+    city: "St. Augustine & Nocatee",
+    description:
+      "Florida&apos;s fastest-growing large county by percentage. Nocatee&apos;s master-planned residential growth drives the CR-210 retail corridor; historic St. Augustine anchors year-round tourism; Ponte Vedra Beach supports upscale coastal retail.",
+  },
+  {
+    slug: "marion",
+    county: "Marion County",
+    city: "Ocala",
+    description:
+      "The Horse Capital of the World. The World Equestrian Center drives year-round hospitality and retail demand on the SR-200 corridor. I-75 anchors industrial and logistics, while a large retiree population sustains healthcare and service commercial throughout Ocala.",
+  },
 ];
 
 /* Structured data: Service schema for the markets page */
@@ -239,7 +351,7 @@ const serviceSchema = {
       "@type": "Service",
       name: "Commercial Real Estate Brokerage — Florida Markets",
       description:
-        "Commercial real estate brokerage services across 28 Florida counties, from Tampa Bay and Central Florida to the Space Coast, Southwest Florida, and the Panhandle.",
+        "Commercial real estate brokerage services across 44 Florida counties, from Tampa Bay and Central Florida to the Space Coast, Southwest Florida, and the Panhandle.",
       provider: {
         "@type": "RealEstateAgent",
         name: "Barrett Henry",
@@ -282,7 +394,7 @@ export default function MarketsIndexPage() {
           </h2>
           <p className="mb-10 max-w-3xl text-[#666666]">
             Barrett Henry provides commercial real estate brokerage services
-            across 28 Florida counties, from Tampa Bay and Central Florida to
+            across 44 Florida counties, from Tampa Bay and Central Florida to
             the Space Coast, Southwest Florida, and the Panhandle. Each market
             has its own drivers, opportunities, and challenges. Select a county
             below for a deep dive into that market.

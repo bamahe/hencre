@@ -89,7 +89,7 @@ const schema = {
       description:
         "Westshore is Tampa Bay's largest and most active office submarket — with vacancy at 16%, rents at all-time highs, and landmark buildings nearly full.",
       datePublished: "2026-08-07",
-      dateModified: "2026-08-07",
+      dateModified: "2026-08-09",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -251,7 +251,7 @@ export default function BlogPost() {
           The negotiating environment in Westshore has shifted materially since 2023, when landlords were offering aggressive concessions to fill space. In 2026, with vacancy at multi-year lows and several buildings at or near capacity, the balance of power has moved toward landlords in the best assets. That does not mean tenants have no leverage — it means leverage is earned through preparation rather than assumed from market conditions.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In practice, tenants negotiating in the current Westshore market should focus on four areas. First, start early — 18 to 24 months before your current lease expires, not 6 months. The compression of available space in the best buildings means optionality disappears quickly. Second, understand the full cost of a lease, not just the base rent. CAM charges, insurance pass-throughs, and gross-up provisions can add meaningfully to your effective occupancy cost in a Westshore full-service or modified gross lease. Our <a href="/blog/understanding-cam-charges-tenants-guide">CAM charges guide</a> explains what to look for. Third, evaluate sublease opportunities alongside direct leases — tenants who downsized out of premium Westshore space in 2022–2024 may have released quality space at below-market rates. Fourth, use a commercial REALTOR® who represents tenants specifically, not one who has a relationship with the building you are considering. See our <a href="/blog/do-you-need-a-commercial-real-estate-broker">guide on working with a commercial broker</a> to understand how that representation works and why it costs you nothing.
+          In practice, tenants negotiating in the current Westshore market should focus on four areas. First, start early -- 18 to 24 months before your current lease expires, not 6 months. The compression of available space in the best buildings means optionality disappears quickly. Second, understand the full cost of a lease, not just the base rent. CAM charges, insurance pass-throughs, and gross-up provisions can add meaningfully to your effective occupancy cost in a Westshore full-service or modified gross lease. Our <a href="/blog/understanding-cam-charges-tenants-guide">CAM charges guide</a> explains what to look for. Third, evaluate sublease opportunities alongside direct leases -- tenants who downsized out of premium Westshore space in 2022-2024 may have released quality space at below-market rates. Fourth, use a commercial broker who represents tenants specifically, not one who has a relationship with the building you are considering. See our <a href="/blog/do-you-need-a-commercial-real-estate-broker">guide on working with a commercial broker</a> to understand how that representation works and why it costs you nothing.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is Westshore a Good Bet for Office Investors in 2026?</h2>
@@ -278,7 +278,7 @@ export default function BlogPost() {
           Second, understand your timeline. If your current lease expires in the next 12 months, you are already in a constrained position in Westshore's current market. If you have 18 to 24 months, you have the runway to tour properly, negotiate deliberately, and allow for a buildout without compressing your timeline so much that a landlord can leverage your urgency against you. Third, engage a tenant representative before you make any calls to landlords or respond to listings. Every landlord in Westshore has their own broker whose job is to maximize the landlord's outcome — you need someone in your corner whose fiduciary is exclusively to you. Barrett Henry has 23+ years of experience representing tenants across all of Tampa Bay through REMAX Collective, with offices in Tampa, Largo, and Brandon. There is no cost to you for that representation.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are relocating a business or moving a team to Tampa from out of state, the same advice applies — and you may also want to review resources on the residential side to help your employees settle in. <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer">nowtb.com</a> provides a full Tampa Bay home search with neighborhood guides for incoming employees who need to find housing as part of a corporate relocation.
+          If you are relocating a business or moving a team to Tampa from out of state, the same advice applies. Tampa Bay offers convenient access across <a href="/markets/hillsborough">Hillsborough</a>, <a href="/markets/pinellas">Pinellas</a>, and <a href="/markets/pasco">Pasco</a> counties -- so employees commuting from any direction will find Westshore genuinely accessible.
         </p>
 
         {/* ---- Mid-article CTA ---- */}
