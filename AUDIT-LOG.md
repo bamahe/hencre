@@ -4,6 +4,105 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-10 -- Batch 20 (10 blog pages: EEAT, FAQ placement, internal links, author bios)
+
+### 1. `/blog/florida-1031-exchange-what-investors-need-to-know`
+- Added `image` and `sameAs` to schema author
+- Added BreadcrumbList to schema @graph
+- Added "Home" as first item in JSX Breadcrumbs
+- Expanded relatedLinks 4 → 10
+- Added author bio section (between RelatedLinks and CTASection)
+- Updated `dateModified` to "2026-08-10"
+- Updated footer to "Last updated: August 2026"
+
+### 2. `/blog/sba-504-loan-commercial-real-estate-tampa-bay`
+- Added `image` and `sameAs` to schema author
+- Added BreadcrumbList to schema @graph
+- Added "Home" as first item in JSX Breadcrumbs
+- Removed external fastselleasysale.com link -- replaced with internal Link to /services/dispositions
+- Expanded relatedLinks 4 → 10
+- Added author bio section
+- Updated `dateModified` to "2026-08-10"
+- Updated footer to "Last updated: August 2026"
+
+### 3. `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Added `image` and `sameAs` to schema author
+- Added "Home" as first item in JSX Breadcrumbs
+- Expanded relatedLinks 4 → 10
+- Added author bio section
+- Updated `dateModified` to "2026-08-10"
+- Updated footer to "Last updated: August 2026"
+
+### 4. `/blog/commercial-property-due-diligence-timeline`
+- Added `image` and `sameAs` to schema author
+- Fixed `jobTitle` to "Broker Associate"
+- Added BreadcrumbList to schema @graph
+- Added "Home" as first item in JSX Breadcrumbs
+- Expanded relatedLinks 4 → 10
+- Added author bio section
+- Updated `dateModified` to "2026-08-10"
+- Updated footer to "Last updated: August 2026"
+
+### 5. `/blog/st-petersburg-commercial-real-estate-2026`
+- Added `import Link from "next/link"`
+- Converted all internal `<a href=` to `<Link href=`
+- Added `image` and `sameAs` to schema author
+- Updated `dateModified` to "2026-08-10"
+- Moved FAQAccordion outside article tag into dedicated section
+- Expanded relatedLinks 4 → 10
+- Added author bio section
+- Updated footer to "Last updated: August 2026"
+
+### 6. `/blog/commercial-property-zoning-florida-basics`
+- Fixed `jobTitle` from "Broker Associate, Commercial Real Estate" to "Broker Associate"
+- Added `image` and `sameAs` to schema author
+- Added BreadcrumbList to schema @graph
+- Added "Home" as first item in JSX Breadcrumbs
+- Expanded relatedLinks 4 → 10
+- Added author bio section
+- Updated `dateModified` to "2026-08-10"
+- Updated footer to "Last updated: August 2026"
+
+### 7. `/blog/sarasota-office-market-trends-2026`
+- Added `image` and `sameAs` to schema author
+- Added "Home" as first item in JSX Breadcrumbs
+- Moved FAQAccordion outside article tag into dedicated section
+- Expanded relatedLinks 5 → 10
+- Added author bio section
+- Updated `dateModified` to "2026-08-10"
+- Updated footer to "Last updated: August 2026"
+
+### 8. `/blog/tampa-bay-office-market-q2-2026`
+- Added `import Link from "next/link"`
+- Converted all internal `<a href=` to `<Link href=`
+- Added `image` and `sameAs` to schema author
+- Updated `dateModified` to "2026-08-10"
+- Moved FAQAccordion outside article tag into dedicated section
+- Expanded relatedLinks 5 → 10
+- Added author bio section
+- Updated footer to "Last updated: August 2026"
+
+### 9. `/blog/understanding-cam-charges-tenants-guide`
+- Fixed `jobTitle` from "Broker Associate, Commercial Real Estate" to "Broker Associate"
+- Added `image` and `sameAs` to schema author
+- Added BreadcrumbList to schema @graph
+- Added "Home" as first item in JSX Breadcrumbs
+- Expanded relatedLinks 4 → 10
+- Added author bio section
+- Updated `dateModified` to "2026-08-10"
+- Updated footer to "Last updated: August 2026"
+
+### 10. `/blog/what-makes-a-good-commercial-investment`
+- Added `image` and `sameAs` to schema author
+- Added "Home" as first item in JSX Breadcrumbs
+- Moved FAQAccordion outside article tag into dedicated section
+- Expanded relatedLinks 5 → 10
+- Added author bio section
+- Updated `dateModified` to "2026-08-10"
+- Updated footer to "Last updated: August 2026"
+
+---
+
 ## 2026-08-09 -- Batch 19 (12 files: 2 blog fixes, 8 new market pages, sitemap + markets index update)
 
 ### 1. `/blog/westshore-tampa-office-market-2026`
