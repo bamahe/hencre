@@ -67,16 +67,26 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Understanding CAM Charges: A Tenant's Guide", item: "https://hencre.com/blog/understanding-cam-charges-tenants-guide" },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "Understanding CAM Charges: A Tenant's Guide",
       description:
         "What CAM charges cover, how they are calculated, and how to negotiate better terms.",
       datePublished: "2026-06-03",
-      dateModified: "2026-07-20",
+      dateModified: "2026-08-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate, Commercial Real Estate",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -114,6 +124,31 @@ const relatedLinks = [
     href: "/blog/5-mistakes-first-time-commercial-tenants-make",
     description: "Common leasing mistakes and how to avoid them.",
   },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "Step-by-step due diligence checklist for CRE buyers.",
+  },
+  {
+    title: "Florida 1031 Exchange Guide",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "How to defer capital gains taxes using a 1031 exchange in Florida.",
+  },
+  {
+    title: "Hillsborough County Market",
+    href: "/markets/hillsborough",
+    description: "Commercial real estate data and trends for Hillsborough County.",
+  },
+  {
+    title: "Pinellas County Market",
+    href: "/markets/pinellas",
+    description: "Commercial real estate data and trends for Pinellas County.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett helps investors acquire the right commercial properties.",
+  },
 ];
 
 export default function CAMChargesGuidePage() {
@@ -123,6 +158,7 @@ export default function CAMChargesGuidePage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Understanding CAM Charges", href: "/blog/understanding-cam-charges-tenants-guide" },
         ]}
@@ -262,6 +298,27 @@ export default function CAMChargesGuidePage() {
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps tenants review lease terms, negotiate CAM provisions, and protect their bottom line across Florida. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or explore <Link href="/services" className="text-accent underline">his services</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <CTASection
         heading="Confused by CAM Charges on Your Lease?"
         body="Barrett reviews lease terms and negotiates CAM provisions for tenants across Florida. Tenant representation is typically free — the landlord pays the broker fee."
@@ -270,7 +327,7 @@ export default function CAMChargesGuidePage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

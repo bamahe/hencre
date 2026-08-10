@@ -62,16 +62,26 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "SBA 504 Loans Tampa Bay", item: "https://hencre.com/blog/sba-504-loan-commercial-real-estate-tampa-bay" },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "SBA 504 Loans for Commercial Real Estate in Tampa Bay",
       description:
         "How Tampa Bay business owners use SBA 504 loans to buy their own commercial space with as little as 10% down.",
       datePublished: "2026-08-09",
-      dateModified: "2026-08-09",
+      dateModified: "2026-08-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate, Commercial Real Estate",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -109,6 +119,36 @@ const relatedLinks = [
     href: "/blog/tampa-bay-office-market-q2-2026",
     description: "Current market conditions for office buyers and tenants in Tampa Bay.",
   },
+  {
+    title: "Commercial Property Zoning Florida Basics",
+    href: "/blog/commercial-property-zoning-florida-basics",
+    description: "Verify zoning allows your intended use before purchasing.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "Get real insurance quotes during due diligence -- not estimates.",
+  },
+  {
+    title: "Hillsborough County Market",
+    href: "/markets/hillsborough",
+    description: "Owner-user commercial properties across Tampa&apos;s core market.",
+  },
+  {
+    title: "Pasco County Market",
+    href: "/markets/pasco",
+    description: "High-growth market for SBA 504 owner-user purchases.",
+  },
+  {
+    title: "Office Space Listings",
+    href: "/commercial/office-space",
+    description: "Browse available office buildings for owner-user acquisition.",
+  },
+  {
+    title: "Industrial and Warehouse Listings",
+    href: "/commercial/industrial-warehouse",
+    description: "Warehouse and flex space popular among SBA 504 borrowers.",
+  },
 ];
 
 export default function Sba504LoanTampaBayPage() {
@@ -118,8 +158,9 @@ export default function Sba504LoanTampaBayPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: "SBA 504 Loans for Commercial Real Estate in Tampa Bay", href: "/blog/sba-504-loan-commercial-real-estate-tampa-bay" },
+          { label: "SBA 504 Loans Tampa Bay", href: "/blog/sba-504-loan-commercial-real-estate-tampa-bay" },
         ]}
       />
 
@@ -212,9 +253,8 @@ export default function Sba504LoanTampaBayPage() {
           <li><strong>Equity accumulation.</strong> Every mortgage payment builds equity in an asset. After 10 to 15 years, a business owner who bought is sitting on a significant asset — one that can be refinanced, sold, or leased back at retirement.</li>
           <li><strong>Operational control.</strong> Owners are not subject to landlord decisions about the property — no lease renewal uncertainty, no restrictions on signage, build-out, or hours.</li>
           <li><strong>Tax advantages.</strong> Depreciation on the building, interest deductions, and potential Section 179 deductions on equipment purchased alongside the real estate all reduce the net after-tax cost of ownership.</li>
-          <li><strong>The sale-leaseback option.</strong> Some business owners purchase a building, occupy it initially, and later sell it to an investor with a long-term leaseback — converting their equity to capital while staying put. If you&apos;re considering selling your current location quickly to access equity and then buy via SBA financing,{" "}
-            <a href="https://www.fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Fast Sell Easy Sale</a>{" "}
-            works with Tampa Bay business and property owners who need a fast, clean exit before purchasing a new owner-occupied location.</li>
+          <li><strong>The sale-leaseback option.</strong> Some business owners purchase a building, occupy it initially, and later sell it to an investor with a long-term leaseback -- converting their equity to capital while staying put. If you are considering selling your current location to access equity before purchasing a new owner-occupied building, contact Barrett to discuss your options through the{" "}
+            <Link href="/services/dispositions" className="text-accent underline">dispositions process</Link>.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does the SBA 504 Application Process Look Like?</h2>
@@ -272,6 +312,27 @@ export default function Sba504LoanTampaBayPage() {
       </section>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps Tampa Bay business owners find qualified owner-user properties and navigate SBA 504 financing from search through close. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or explore <Link href="/services" className="text-accent underline">his services</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <CTASection
         heading="Ready to Own Your Commercial Space in Tampa Bay?"

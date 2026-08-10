@@ -67,16 +67,26 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Commercial Due Diligence Timeline", item: "https://hencre.com/blog/commercial-property-due-diligence-timeline" },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "Commercial Property Due Diligence Timeline",
       description:
         "Step-by-step due diligence checklist and timeline for commercial real estate buyers.",
       datePublished: "2026-05-25",
-      dateModified: "2026-07-20",
+      dateModified: "2026-08-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate, Commercial Real Estate",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -97,7 +107,7 @@ const relatedLinks = [
   {
     title: "What Makes a Good Commercial Investment?",
     href: "/blog/what-makes-a-good-commercial-investment",
-    description: "Investment criteria from a broker's perspective.",
+    description: "Investment criteria from a broker&apos;s perspective.",
   },
   {
     title: "Cap Rate Calculator",
@@ -114,6 +124,36 @@ const relatedLinks = [
     href: "/services/cre-valuation",
     description: "Professional property valuation for informed decision-making.",
   },
+  {
+    title: "Commercial Property Zoning Florida Basics",
+    href: "/blog/commercial-property-zoning-florida-basics",
+    description: "Verify zoning as part of every due diligence review.",
+  },
+  {
+    title: "What Is a Triple Net NNN Lease?",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "Lease structure review is a key due diligence step.",
+  },
+  {
+    title: "Florida 1031 Exchange Guide",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "Due diligence timelines are compressed in 1031 exchanges.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "Get real insurance quotes as part of due diligence.",
+  },
+  {
+    title: "Hillsborough County Market",
+    href: "/markets/hillsborough",
+    description: "Active acquisition market requiring thorough due diligence.",
+  },
+  {
+    title: "Retail Space Listings",
+    href: "/commercial/retail-space",
+    description: "Browse commercial retail properties currently available.",
+  },
 ];
 
 export default function DueDiligenceTimelinePage() {
@@ -123,6 +163,7 @@ export default function DueDiligenceTimelinePage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Due Diligence Timeline", href: "/blog/commercial-property-due-diligence-timeline" },
         ]}
@@ -268,6 +309,27 @@ export default function DueDiligenceTimelinePage() {
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He manages the entire acquisition process for buyers -- from document review to inspections to closing coordination. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or explore <Link href="/services" className="text-accent underline">his services</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <CTASection
         heading="Buying Commercial Property in Florida?"
         body="Barrett manages the entire due diligence process — from document review to inspections to closing coordination. Nothing gets overlooked."
@@ -276,7 +338,7 @@ export default function DueDiligenceTimelinePage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

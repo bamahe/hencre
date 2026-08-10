@@ -85,11 +85,13 @@ const schema = {
       description:
         "Sarasota County office market trends — vacancy, rents, submarkets, and investment opportunities.",
       datePublished: "2026-06-14",
-      dateModified: "2026-07-26",
+      dateModified: "2026-08-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -132,6 +134,31 @@ const relatedLinks = [
     href: "/blog/sarasota-warehouse-distribution-space-guide",
     description: "How Sarasota industrial compares to the office market.",
   },
+  {
+    title: "What Makes a Good Commercial Investment?",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "Tenant quality, location, and lease structure criteria for CRE investors.",
+  },
+  {
+    title: "Understanding CAM Charges",
+    href: "/blog/understanding-cam-charges-tenants-guide",
+    description: "What common area maintenance fees cover and how to negotiate them.",
+  },
+  {
+    title: "What Is a Triple Net NNN Lease?",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "How NNN lease structures shift expenses and why investors favor them.",
+  },
+  {
+    title: "Manatee County Market",
+    href: "/markets/manatee",
+    description: "Commercial real estate trends for neighboring Manatee County.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett helps investors acquire the right commercial properties.",
+  },
 ];
 
 export default function SarasotaOfficeMarketPage() {
@@ -141,6 +168,7 @@ export default function SarasotaOfficeMarketPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Sarasota Office Trends 2026", href: "/blog/sarasota-office-market-trends-2026" },
         ]}
@@ -233,12 +261,39 @@ export default function SarasotaOfficeMarketPage() {
           Sarasota&apos;s office market is smaller and more specialized than Tampa&apos;s, but it offers compelling fundamentals — growing demand, limited supply, and a tenant base anchored by stable professional services and healthcare users. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett Henry helps both tenants and investors navigate the <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> and <Link href="/markets/manatee" className="text-accent underline">Manatee</Link> county office markets with local knowledge and data-driven analysis. Whether you are leasing space or evaluating an investment, understanding this market&apos;s nuances is the key to a good outcome.
         </p>
 
-        <FAQAccordion items={faqItems} />
-
-        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
+      {/* ---- FAQ ---- */}
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Sarasota Office Market -- Frequently Asked Questions</h2>
+          <FAQAccordion items={faqItems} />
+        </div>
+      </section>
+
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps tenants find office space and investors identify opportunities across Sarasota County and the broader Tampa Bay market. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or explore <Link href="/services" className="text-accent underline">his services</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <CTASection
         heading="Looking for Sarasota Office Space or Investment?"

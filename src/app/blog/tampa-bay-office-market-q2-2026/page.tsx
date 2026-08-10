@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -72,11 +73,13 @@ const schema = {
       headline: "Tampa Bay Office Market Q2 2026: Vacancy, Absorption & What's Next",
       description: "Tampa Bay office vacancy fell to an 18.2% four-year low in Q2 2026, with two consecutive quarters of positive absorption. What it means for tenants and investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-07-25",
+      dateModified: "2026-08-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -119,6 +122,31 @@ const relatedLinks = [
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "A framework for evaluating office and other CRE acquisitions in a market showing bifurcated recovery.",
   },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "Step-by-step due diligence checklist for commercial real estate buyers.",
+  },
+  {
+    title: "Understanding CAM Charges",
+    href: "/blog/understanding-cam-charges-tenants-guide",
+    description: "What common area maintenance fees cover and how to negotiate them.",
+  },
+  {
+    title: "What Is a Triple Net NNN Lease?",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "How NNN lease structures work and why investors favor them.",
+  },
+  {
+    title: "Hillsborough County Market",
+    href: "/markets/hillsborough",
+    description: "Commercial real estate data and trends for Hillsborough County.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett helps investors acquire and evaluate commercial properties.",
+  },
 ];
 
 export default function TampaBayOfficeMarketQ2Page() {
@@ -153,7 +181,7 @@ export default function TampaBayOfficeMarketQ2Page() {
           The premium segment is tighter still. Class A and Class A-plus buildings — rated 4 and 5 stars by JLL — saw their availability rate fall to 16.8% in Q2 2026, a three-year low. The direct vacancy rate across leased space in the market hit 13.9% — down 160 basis points year-over-year.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Perhaps the most telling data point is the bifurcation within the market. Approximately 20% of Tampa Bay office buildings account for more than 70% of all vacant space. Meanwhile, roughly 35% of buildings have no vacancy whatsoever. The aggregate numbers are improving, but the distribution is deeply uneven — which means the market you experience depends entirely on what class and location you are searching in. For context on what drives these dynamics across different property types, see our overview of <a href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay commercial real estate continues to attract demand</a>.
+          Perhaps the most telling data point is the bifurcation within the market. Approximately 20% of Tampa Bay office buildings account for more than 70% of all vacant space. Meanwhile, roughly 35% of buildings have no vacancy whatsoever. The aggregate numbers are improving, but the distribution is deeply uneven -- which means the market you experience depends entirely on what class and location you are searching in. For context on what drives these dynamics across different property types, see our overview of <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay commercial real estate continues to attract demand</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is Tampa Bay Office Absorption Actually Recovering?</h2>
@@ -179,7 +207,7 @@ export default function TampaBayOfficeMarketQ2Page() {
           <li><strong>Brandon / Lakeland corridor.</strong> The eastern suburbs offer affordable Class B space for businesses serving Hillsborough and Polk County populations. Rates range from $18 to $26 per square foot depending on building quality and build-out status.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Understanding <a href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential agreements</a> — including gross versus NNN structures and <a href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">how CAM charges work</a> — is essential before committing to any office lease in this market.
+          Understanding <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential agreements</Link> -- including gross versus NNN structures and <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">how CAM charges work</Link> -- is essential before committing to any office lease in this market.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does the Bifurcated Market Mean for Tenants?</h2>
@@ -193,7 +221,7 @@ export default function TampaBayOfficeMarketQ2Page() {
           <li><strong>Start your search 9 to 12 months early.</strong> Class A space in Westshore and downtown Tampa is leasing quickly. Tenants who begin planning a year before their needed move-in date consistently have more options and negotiate better concessions than those who start at 6 months.</li>
           <li><strong>Do not assume concessions will hold.</strong> Tenant improvement allowances and free rent periods — which were generous during the 2022-2023 correction — are compressing as landlords regain leverage in the top-quality buildings. If you are negotiating for Class A space, move with more urgency than you would have 18 months ago.</li>
           <li><strong>Consider Class B as a genuine alternative.</strong> The 20% of buildings driving most of the vacancy are predominantly older Class B and Class C product. If your business does not require a Class A address, this segment offers significant leverage — higher TI packages, more free rent, and lower base rents — as landlords compete aggressively for tenants who have flexibility.</li>
-          <li><strong>Use a <a href="/services/tenant-representation" className="text-accent underline">tenant representative</a>.</strong> The market bifurcation makes local expertise more valuable, not less. A tenant rep knows which buildings are actually available, which landlords are motivated, and where the off-market options are. Their commission is paid by the landlord — you get professional negotiation at no direct cost.</li>
+          <li><strong>Use a <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link>.</strong> The market bifurcation makes local expertise more valuable, not less. A tenant rep knows which buildings are actually available, which landlords are motivated, and where the off-market options are. Their commission is paid by the landlord -- you get professional negotiation at no direct cost.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does the Office Recovery Mean for CRE Investors?</h2>
@@ -202,9 +230,9 @@ export default function TampaBayOfficeMarketQ2Page() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Core Class A is compressing.</strong> Well-leased, well-located Class A office is attracting institutional capital again. Cap rates on the best product are moving toward 6 to 6.5%, reflecting the improved demand signal. For private investors without institutional capital costs, the numbers are tighter, but the risk profile of a fully leased Class A building in Westshore is genuinely lower than it was 18 months ago.</li>
-          <li><strong>Value-add opportunity in Class B.</strong> The concentration of vacancy in a small subset of buildings creates targeted opportunity. Older Class B product in strong suburban locations — particularly near the USF corridor, Wesley Chapel, and Brandon — can be repositioned with capital for HVAC, lobbies, and common areas to capture tenants who want quality but cannot afford Class A rents. This is where experienced operators are finding yield in the current market. Understanding <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate ROI on commercial property</a> and conducting thorough <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence</a> are non-negotiable before any acquisition.</li>
+          <li><strong>Value-add opportunity in Class B.</strong> The concentration of vacancy in a small subset of buildings creates targeted opportunity. Older Class B product in strong suburban locations -- particularly near the USF corridor, Wesley Chapel, and Brandon -- can be repositioned with capital for HVAC, lobbies, and common areas to capture tenants who want quality but cannot afford Class A rents. This is where experienced operators are finding yield in the current market. Understanding <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate ROI on commercial property</Link> and conducting thorough <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence</Link> are non-negotiable before any acquisition.</li>
           <li><strong>Avoid the stranded 20%.</strong> The buildings carrying most of Tampa Bay&apos;s vacant office space are not simply distressed assets waiting to recover — many face structural challenges around floor plate efficiency, parking ratios, building systems, or location that will not be resolved by market improvement. Adaptive reuse — conversion to residential, medical, or mixed-use — may be the right long-term answer for some of them, but that is a different thesis from a standard leased-office investment. Do your homework on which bucket a target property falls into.</li>
-          <li><strong>Insurance underwriting.</strong> Florida&apos;s insurance market remains a significant cost variable for investment property underwriting. Tampa Bay office buildings, depending on age and construction type, carry meaningfully different insurance cost profiles. Factor current insurance costs — not historical ones — into your cap rate analysis. Our post on <a href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida&apos;s insurance crisis and investment properties</a> covers the underwriting implications in detail.</li>
+          <li><strong>Insurance underwriting.</strong> Florida&apos;s insurance market remains a significant cost variable for investment property underwriting. Tampa Bay office buildings, depending on age and construction type, carry meaningfully different insurance cost profiles. Factor current insurance costs -- not historical ones -- into your cap rate analysis. Our post on <Link href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida&apos;s insurance crisis and investment properties</Link> covers the underwriting implications in detail.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa Bay Office in Mid-2026</h2>
@@ -218,15 +246,39 @@ export default function TampaBayOfficeMarketQ2Page() {
           With 23+ years of real estate experience across Tampa Bay&apos;s commercial market, I work with tenants identifying space and investors evaluating acquisitions across Hillsborough, Pinellas, and Pasco Counties. If you are making an office decision in the next 12 months, let&apos;s talk before the market makes it for you.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
-        <div className="mt-6">
-          <FAQAccordion items={faqItems} />
-        </div>
-
-        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
+      {/* ---- FAQ ---- */}
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Tampa Bay Office Market -- Frequently Asked Questions</h2>
+          <FAQAccordion items={faqItems} />
+        </div>
+      </section>
+
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps tenants find office space and investors evaluate acquisitions across Tampa Bay&apos;s commercial market. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or explore <Link href="/services" className="text-accent underline">his services</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <CTASection
         heading="Looking for Office Space or a CRE Investment in Tampa Bay?"

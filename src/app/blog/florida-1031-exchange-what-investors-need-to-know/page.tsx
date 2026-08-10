@@ -67,16 +67,26 @@ const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Florida 1031 Exchange Guide", item: "https://hencre.com/blog/florida-1031-exchange-what-investors-need-to-know" },
+      ],
+    },
+    {
       "@type": "BlogPosting",
       headline: "Florida 1031 Exchange: What Investors Need to Know",
       description:
         "Florida-specific 1031 exchange considerations for commercial real estate investors.",
       datePublished: "2026-05-28",
-      dateModified: "2026-07-20",
+      dateModified: "2026-08-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate, Commercial Real Estate",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -114,6 +124,36 @@ const relatedLinks = [
     href: "/blog/commercial-property-due-diligence-timeline",
     description: "What to inspect before closing on a replacement property.",
   },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "How Florida insurance costs affect replacement property underwriting.",
+  },
+  {
+    title: "Multifamily Investment Tampa Bay Guide",
+    href: "/blog/multifamily-investment-tampa-bay-guide",
+    description: "Apartment buildings are common 1031 exchange replacement targets.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment?",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "Investment criteria for evaluating replacement properties.",
+  },
+  {
+    title: "Hillsborough County Market",
+    href: "/markets/hillsborough",
+    description: "Tampa Bay&apos;s core commercial market for exchange buyers.",
+  },
+  {
+    title: "Sarasota County Market",
+    href: "/markets/sarasota",
+    description: "A popular destination for out-of-state 1031 exchange investors.",
+  },
+  {
+    title: "CRE Valuation Services",
+    href: "/services/cre-valuation",
+    description: "Professional property valuation for replacement property decisions.",
+  },
 ];
 
 export default function Florida1031Page() {
@@ -123,6 +163,7 @@ export default function Florida1031Page() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Florida 1031 Exchange", href: "/blog/florida-1031-exchange-what-investors-need-to-know" },
         ]}
@@ -262,6 +303,27 @@ export default function Florida1031Page() {
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps exchange buyers identify and close on Florida replacement properties within strict IRS deadlines. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or explore <Link href="/services" className="text-accent underline">his services</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <CTASection
         heading="Exchanging Into Florida?"
         body="Barrett helps out-of-state investors identify and close on Florida replacement properties within tight exchange deadlines. Get started before you list your relinquished property."
@@ -270,7 +332,7 @@ export default function Florida1031Page() {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

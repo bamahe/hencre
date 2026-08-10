@@ -85,11 +85,13 @@ const schema = {
       description:
         "Learn what experienced investors look for in commercial real estate — tenant quality, lease terms, location fundamentals, and more.",
       datePublished: "2026-05-15",
-      dateModified: "2026-07-26",
+      dateModified: "2026-08-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -132,6 +134,31 @@ const relatedLinks = [
     href: "/services/investment-sales",
     description: "How Barrett helps investors acquire the right commercial properties.",
   },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "Step-by-step due diligence checklist before you buy.",
+  },
+  {
+    title: "Florida 1031 Exchange Guide",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "How to defer capital gains taxes using a 1031 exchange in Florida.",
+  },
+  {
+    title: "What Is a Triple Net NNN Lease?",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "How NNN lease structures shift expenses and why investors favor them.",
+  },
+  {
+    title: "Understanding CAM Charges",
+    href: "/blog/understanding-cam-charges-tenants-guide",
+    description: "What common area maintenance fees cover and how to negotiate them.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "How Barrett helps businesses find and negotiate commercial space.",
+  },
 ];
 
 export default function GoodInvestmentPage() {
@@ -141,6 +168,7 @@ export default function GoodInvestmentPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "What Makes a Good Investment", href: "/blog/what-makes-a-good-commercial-investment" },
         ]}
@@ -243,12 +271,39 @@ export default function GoodInvestmentPage() {
           A good commercial investment is not just about the cap rate or the price per square foot. It is about the quality of the income, the strength of the location, the condition of the asset, and how it fits your strategy. When all of those align, you have a deal worth pursuing. When they do not, the best investment decision is walking away. For perspective on specific markets, see the <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/polk" className="text-accent underline">Polk</Link>, <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> county overviews. For <Link href="/services/investment-sales" className="text-accent underline">investment sales representation</Link>, contact Barrett to discuss what you are looking for.
         </p>
 
-        <FAQAccordion items={faqItems} />
-
-        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
+      {/* ---- FAQ ---- */}
+      <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Commercial Real Estate Investment -- Frequently Asked Questions</h2>
+          <FAQAccordion items={faqItems} />
+        </div>
+      </section>
+
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps investors evaluate commercial property acquisitions with honest, data-driven guidance across the Tampa Bay and Florida markets. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or explore <Link href="/services" className="text-accent underline">his services</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <CTASection
         heading="Evaluating a Commercial Investment?"

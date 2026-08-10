@@ -80,11 +80,13 @@ const schema = {
       description:
         "How NNN leases work, why investors favor them, and key risks to evaluate.",
       datePublished: "2026-05-22",
-      dateModified: "2026-07-20",
+      dateModified: "2026-08-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate, Commercial Real Estate",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -122,6 +124,36 @@ const relatedLinks = [
     href: "/services/investment-sales",
     description: "How Barrett helps investors acquire NNN properties.",
   },
+  {
+    title: "Understanding CAM Charges",
+    href: "/blog/understanding-cam-charges-tenants-guide",
+    description: "How NNN operating expenses flow through to tenants.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment?",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "Investment criteria for evaluating any commercial property.",
+  },
+  {
+    title: "Commercial Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "What to inspect before closing on any NNN property.",
+  },
+  {
+    title: "Polk County Market",
+    href: "/markets/polk",
+    description: "Active NNN retail market along Florida&apos;s I-4 corridor.",
+  },
+  {
+    title: "Sarasota County Market",
+    href: "/markets/sarasota",
+    description: "Stable NNN investment market with strong tenant demand.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Compare NNN property returns before making an offer.",
+  },
 ];
 
 export default function NNNLeasePage() {
@@ -131,6 +163,7 @@ export default function NNNLeasePage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "What Is a NNN Lease?", href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" },
         ]}
@@ -280,6 +313,27 @@ export default function NNNLeasePage() {
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He sources and evaluates NNN investment properties across Florida, helping investors find the right fit for their portfolio. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or explore <Link href="/services" className="text-accent underline">his services</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <CTASection
         heading="Looking for NNN Investment Properties?"
         body="Barrett sources and evaluates NNN properties across Florida — from single-tenant retail to credit-rated corporate tenants. Let him find the right fit for your portfolio."
@@ -288,7 +342,7 @@ export default function NNNLeasePage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );
