@@ -41,7 +41,7 @@ const schema = {
       headline: "South Tampa Commercial Real Estate: Market Guide 2026",
       description: "South Tampa commands premium rents, tight vacancy, and strong investor demand. Here is a complete market guide for office, retail, and medical commercial property in one of Tampa Bay's most affluent submarkets.",
       datePublished: "2026-08-09",
-      dateModified: "2026-08-09",
+      dateModified: "2026-08-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -54,7 +54,7 @@ const schema = {
         ],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
-      publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/blog/south-tampa-commercial-real-estate-2026",
     },
     {
@@ -217,7 +217,7 @@ export default function BlogPost() {
         <p>Three structural factors explain the premium. First, there is the supply constraint already discussed — when new commercial development is physically difficult and politically sensitive in an established residential neighborhood, existing property owners have pricing power. Second, there is the income of the surrounding residential population. South Tampa households have the disposable income to support premium tenants, and those tenants pay to be where their customers are. Third, there is the institutional anchor effect.</p>
         <p>Tampa General Hospital alone employs thousands of people and generates millions of annual patient visits. That traffic creates demand — for coffee shops, pharmacies, dry cleaners, restaurants, and specialty retail — that sustains commercial rents even through economic cycles that hurt other submarkets. MacDill Air Force Base adds a second population anchor at the southern tip of the peninsula: thousands of military personnel, family members, and support contractors who live in and around South Tampa, spending in the local economy year-round.</p>
         <p>Tampa Bay&apos;s retail vacancy sat at approximately 3.8% as of mid-2026 according to Cushman &amp; Wakefield — well below the national average of 6%. South Tampa&apos;s retail vacancy is tighter still. Investors evaluating commercial property across the Tampa Bay region should recognize that South Tampa is not representative of the broader market — it trades at a premium for durable structural reasons, not speculative enthusiasm.</p>
-        <p>If you&apos;re also exploring South Tampa as a place to live while running or building a business there, the team at <a href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</a> can help you search residential listings throughout the Tampa Bay area, including the South Tampa neighborhoods that attract business owners who want to work and live in the same community.</p>
+        <p>South Tampa&apos;s affluent residential base -- concentrated in zip codes 33606, 33609, and 33629 -- is one of the strongest consumer markets in Hillsborough County. Business owners looking to establish in a market where their clients live and work will find few better addresses in the entire Tampa Bay region.</p>
       </article>
 
       {/* ---- Image 1: Tampa waterfront / urban commercial ---- */}
@@ -272,7 +272,6 @@ export default function BlogPost() {
         <p>Net-leased properties with creditworthy tenants in South Tampa&apos;s primary corridors trade at premium prices — and hold their value through cycles. For investors who understand how triple-net structures work and why landlords and tenants both accept them, our guide to <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">why investors love NNN leases</a> explains the mechanics.</p>
         <p>One cost factor that every investor must underwrite carefully in 2026 is insurance. Florida&apos;s insurance market has not stabilized in the way many hoped, and South Tampa properties — particularly older buildings along the waterfront — carry meaningful insurance cost exposure. Our analysis of <a href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">how Florida&apos;s insurance crisis affects investment properties</a> gives buyers a realistic framework for what to expect and how to model it.</p>
         <p>Before closing on any South Tampa property, a thorough due diligence process is essential. Older buildings throughout the submarket carry environmental history, deferred maintenance, and mechanical issues that require proper evaluation. Review our <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial property due diligence timeline</a> before you waive contingencies.</p>
-        <p>If your situation involves a property you need to exit quickly — whether commercial or a mixed-use building with residential units — <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fastselleasysale.com</a> works with sellers across the Tampa Bay area who need a fast, straightforward transaction without the typical listing and showing process.</p>
         <p>Barrett Henry&apos;s <a href="/services/investment-sales" className="text-accent underline">investment sales advisory</a> services cover acquisitions, dispositions, and valuations across all of <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County</a>. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, Barrett brings the market knowledge and transaction experience that South Tampa&apos;s competitive investment market demands.</p>
 
         {/* ---- Mid-article CTA ---- */}

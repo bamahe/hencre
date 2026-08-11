@@ -24,101 +24,57 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Winter Haven, Polk County FL: A Rising Star in Central Florida Commercial Real Estate",
-  description: "Discover why Winter Haven, Polk County FL is attracting commercial real estate investors and tenants in 2026. Explore retail, office, industrial, and mixed-use opportunities in this fast-growing Central Florida market.",
-  datePublished: "2026-08-10",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-    sameAs: [
-      "https://hencre.com/about",
-      "https://nowtb.com",
-      "https://barretthenry.remax.com",
-    ],
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
-  },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/winter-haven-polk-county-commercial-real-estate",
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What types of commercial properties are available in Winter Haven, FL?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Winter Haven offers a range of commercial property types including retail strip centers, outparcels along US-27 and SR-544, medical office buildings, downtown mixed-use properties, light industrial facilities, and flex condominiums. The market has options across most major asset classes, particularly for small to mid-size users and investors.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How do commercial lease rates in Winter Haven compare to Tampa and Orlando?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Winter Haven's commercial lease rates are generally 30–50% lower than comparable space in the Tampa Bay and Orlando metro cores. Retail space that commands \$28–\$35 per square foot in major urban corridors can often be leased in Winter Haven for \$14–\$20 per square foot, making it attractive for tenants looking to manage occupancy costs while accessing a growing consumer base.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Is Winter Haven a good market for commercial real estate investment in 2026?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes, Winter Haven presents a compelling investment case in 2026. The market benefits from strong population growth along the I-4 corridor, improving infrastructure, lower entry costs compared to Tampa and Orlando, and consistent demand drivers including healthcare, logistics, and retail services. Cap rates in Winter Haven generally remain more attractive than in the primary Florida metros.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What drives commercial real estate demand in Winter Haven, Polk County?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Key demand drivers in Winter Haven include population growth from I-4 corridor migration, the presence of AdventHealth Winter Haven hospital creating medical office demand, LEGOLAND Florida Resort supporting hospitality and retail, Polk State College adding an institutional presence, and increasing logistics activity along US-27 and SR-60 connecting both coasts of Florida.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Where are the most active commercial corridors in Winter Haven?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The most active commercial corridors in Winter Haven are US-27 (a major north-south retail and logistics artery), SR-544 (Cypress Gardens Boulevard, serving growing residential areas to the southeast), and the downtown district along 6th Street NW, which has seen revitalization with restaurant, retail, and professional office tenants.",
-      },
-    }
-  ],
-};
-
 const relatedLinks = [
   {
+    title: "Polk County Commercial Real Estate Market",
+    href: "/markets/polk",
+    description: "Barrett's full coverage of commercial real estate across Polk County, FL.",
+  },
+  {
     title: "Lakeland Warehouse and Industrial Growth",
-    href: "/lakeland-warehouse-industrial-growth",
-    description: "Explore how Lakeland's industrial market is expanding and what it means for Polk County commercial real estate investors.",
+    href: "/blog/lakeland-warehouse-industrial-growth",
+    description: "How Lakeland's industrial market is expanding and what it means for Polk County commercial real estate investors.",
   },
   {
     title: "Commercial Property Zoning in Florida: The Basics",
-    href: "/commercial-property-zoning-florida-basics",
-    description: "Understand Florida's commercial zoning framework before purchasing or leasing property in Winter Haven or anywhere in the state.",
+    href: "/blog/commercial-property-zoning-florida-basics",
+    description: "Understand Florida's commercial zoning framework before purchasing or leasing property in Winter Haven.",
   },
   {
     title: "Do You Need a Commercial Real Estate Broker?",
-    href: "/do-you-need-a-commercial-real-estate-broker",
-    description: "Learn how working with a commercial real estate broker can help you navigate the Winter Haven market and avoid costly mistakes.",
+    href: "/blog/do-you-need-a-commercial-real-estate-broker",
+    description: "How working with a commercial real estate broker helps you navigate the Winter Haven market.",
   },
   {
     title: "How to Calculate Commercial Property ROI",
-    href: "/how-to-calculate-commercial-property-roi",
-    description: "Evaluate Winter Haven investment opportunities with confidence using the right return-on-investment metrics for commercial property.",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "Evaluate Winter Haven investment opportunities with the right return-on-investment metrics.",
   },
   {
     title: "Florida 1031 Exchange: What Investors Need to Know",
-    href: "/florida-1031-exchange-what-investors-need-to-know",
-    description: "Considering exchanging into a Winter Haven asset? Learn the rules and timelines for 1031 exchanges on Florida commercial property.",
-  }
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "Rules and timelines for 1031 exchanges on Florida commercial property, including Winter Haven assets.",
+  },
+  {
+    title: "NNN Net Lease Properties",
+    href: "/commercial/nnn-net-lease",
+    description: "Browse triple-net investment opportunities across Central Florida, including Polk County.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett helps buyers and sellers execute commercial investment transactions across Florida.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "The core evaluation framework for every Winter Haven commercial acquisition.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "The complete due diligence checklist before closing on any Central Florida commercial property.",
+  },
 ];
 
 const faqItems = [
@@ -144,11 +100,52 @@ const faqItems = [
   }
 ];
 
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Winter Haven, Polk County FL: A Rising Star in Central Florida Commercial Real Estate", item: "https://hencre.com/blog/winter-haven-polk-county-commercial-real-estate" },
+      ],
+    },
+    {
+      "@type": "BlogPosting",
+      headline: "Winter Haven, Polk County FL: A Rising Star in Central Florida Commercial Real Estate",
+      description: "Discover why Winter Haven, Polk County FL is attracting commercial real estate investors and tenants in 2026. Explore retail, office, industrial, and mixed-use opportunities in this fast-growing Central Florida market.",
+      datePublished: "2026-08-10",
+      dateModified: "2026-08-11",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: [
+          "https://hencre.com/about",
+          "https://barretthenry.remax.com",
+        ],
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+      },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/winter-haven-polk-county-commercial-real-estate",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    },
+  ],
+};
+
 export default function BlogPost() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
@@ -195,23 +192,11 @@ export default function BlogPost() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR\u00AE & Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* ---- Free Resources ---- */}
-      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
-        <div className="rounded-lg bg-[#F5F5F5] p-6 text-sm text-[#666666]">
-          <p className="font-semibold text-black">Free Resources</p>
-          <ul className="mt-2 space-y-1">
-            <li>HUD Housing Counseling: <a href="tel:18005694287" className="underline">1-800-569-4287</a></li>
-            <li>FHA Resource Center: <a href="tel:18002255342" className="underline">1-800-225-5342</a></li>
-            <li>HOPE Hotline: <a href="tel:18889954673" className="underline">1-888-995-4673</a></li>
-          </ul>
         </div>
       </section>
 

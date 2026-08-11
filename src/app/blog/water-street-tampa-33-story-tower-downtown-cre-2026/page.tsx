@@ -83,7 +83,7 @@ const schema = {
       description:
         "Strategic Property Partners filed plans for a 400-foot, 33-story luxury residential tower at Water Street and Cumberland Avenue — 452 apartments above 37,000 sq ft of retail. What the second phase of Water Street Tampa means for CRE investors.",
       datePublished: "2026-07-25",
-      dateModified: "2026-07-28",
+      dateModified: "2026-08-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -110,7 +110,7 @@ const relatedLinks = [
   {
     title: "Tampa Bay Office Market Q2 2026",
     href: "/blog/tampa-bay-office-market-q2-2026",
-    description: "How downtown Tampa office demand — fueled partly by the Water Street ecosystem — compares to the broader market.",
+    description: "How downtown Tampa office demand -- fueled partly by the Water Street ecosystem -- compares to the broader market.",
   },
   {
     title: "Why Tampa Bay CRE Is Booming",
@@ -120,7 +120,7 @@ const relatedLinks = [
   {
     title: "Multifamily Investment in Tampa Bay",
     href: "/blog/multifamily-investment-tampa-bay-guide",
-    description: "A guide to evaluating multifamily assets in the same market benefiting from Water Street's growth.",
+    description: "A guide to evaluating multifamily assets in the market benefiting from Water Street's growth.",
   },
   {
     title: "Tampa Retail Storefront Space Guide",
@@ -131,6 +131,31 @@ const relatedLinks = [
     title: "How to Calculate Commercial Property ROI",
     href: "/blog/how-to-calculate-commercial-property-roi",
     description: "Framework for underwriting acquisitions in downtown Tampa's compressed-cap-rate environment.",
+  },
+  {
+    title: "Ybor City Commercial Real Estate Tampa 2026",
+    href: "/blog/ybor-city-commercial-real-estate-tampa-2026",
+    description: "The adjacent Ybor City redevelopment -- the natural extension of the Water Street investment thesis.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "Barrett's full coverage of commercial real estate across Hillsborough County.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "Find and negotiate commercial space near Water Street at no cost to the tenant.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "The complete due diligence checklist before closing on any downtown Tampa acquisition.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "The evaluation framework for buying in downtown Tampa's compressed-cap-rate environment.",
   },
 ];
 

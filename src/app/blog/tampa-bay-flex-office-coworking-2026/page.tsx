@@ -83,7 +83,7 @@ const schema = {
       description:
         "Tampa Bay's coworking market surged in early 2026, with Venture X opening a 30,000-square-foot Westshore location and membership rates jumping 10%. What the flex office boom means for tenants and investors.",
       datePublished: "2026-08-06",
-      dateModified: "2026-08-08",
+      dateModified: "2026-08-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -118,17 +118,42 @@ const relatedLinks = [
   {
     title: "How Commercial Leases Differ from Residential",
     href: "/blog/how-commercial-leases-differ-from-residential",
-    description: "The key structural differences — term lengths, CAM charges, build-out obligations — before you sign anything.",
+    description: "The key structural differences -- term lengths, CAM charges, build-out obligations -- before you sign anything.",
   },
   {
     title: "Tenant Representation Services",
     href: "/services/tenant-representation",
-    description: "How we help businesses find and negotiate the right commercial space — at no cost to the tenant.",
+    description: "How Barrett helps businesses find and negotiate the right commercial space at no cost to the tenant.",
   },
   {
     title: "Sarasota Office Market Trends 2026",
     href: "/blog/sarasota-office-market-trends-2026",
     description: "How Sarasota's office market compares to Tampa Bay's flex-driven recovery.",
+  },
+  {
+    title: "Westshore Tampa Office Market 2026",
+    href: "/blog/westshore-tampa-office-market-2026",
+    description: "The Westshore submarket where Venture X opened its Tampa flagship -- and what it means for traditional office landlords.",
+  },
+  {
+    title: "Understanding CAM Charges: A Tenant's Guide",
+    href: "/blog/understanding-cam-charges-tenants-guide",
+    description: "What CAM charges mean for tenants comparing flex and traditional lease economics.",
+  },
+  {
+    title: "Pinellas County Commercial Real Estate",
+    href: "/markets/pinellas",
+    description: "Commercial real estate market overview for Pinellas County, including the St. Pete flex office sector.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "Barrett's full coverage of commercial real estate across Hillsborough County.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "The evaluation framework for investors considering leasing to flex operators as an office strategy.",
   },
 ];
 
@@ -273,6 +298,31 @@ export default function TampaBayFlexOfficeCoworkingPage() {
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
 
       <CTASection
         heading="Need Help Choosing Between Flex Office and a Traditional Lease in Tampa Bay?"

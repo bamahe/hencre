@@ -84,7 +84,7 @@ const schema = {
       description:
         "Cap rates, property types, and investment opportunities in Wesley Chapel and the broader Pasco County commercial real estate market.",
       datePublished: "2026-07-19",
-      dateModified: "2026-07-26",
+      dateModified: "2026-08-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -117,6 +117,11 @@ const relatedLinks = [
     description: "New development projects shaping Pasco County commercial real estate.",
   },
   {
+    title: "New Port Richey Commercial Real Estate",
+    href: "/blog/new-port-richey-commercial-real-estate-investors",
+    description: "How New Port Richey compares to Wesley Chapel as a Pasco County investment market.",
+  },
+  {
     title: "Industrial & Warehouse Space",
     href: "/commercial/industrial-warehouse",
     description: "Browse industrial and flex space across the Tampa Bay region.",
@@ -129,7 +134,27 @@ const relatedLinks = [
   {
     title: "Investment Sales Services",
     href: "/services/investment-sales",
-    description: "How we help buyers and sellers execute commercial investment transactions.",
+    description: "How Barrett helps buyers and sellers execute commercial investment transactions.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "Find and negotiate commercial space in Wesley Chapel at no cost to the tenant.",
+  },
+  {
+    title: "What Is a Triple-Net (NNN) Lease and Why Investors Love It",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "Understanding NNN lease mechanics before buying retail in Wesley Chapel.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "How rising insurance costs affect Wesley Chapel commercial property underwriting.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "The adjacent Hillsborough County market that borders Wesley Chapel's growth corridor.",
   },
 ];
 
@@ -234,6 +259,31 @@ export default function WesleyChapelCREPage() {
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
 
       <CTASection
         heading="Investing in Wesley Chapel Commercial Real Estate?"

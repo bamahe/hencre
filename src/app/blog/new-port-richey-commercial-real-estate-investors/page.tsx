@@ -64,7 +64,7 @@ const schema = {
       headline: "New Port Richey CRE: Investor Opportunities 2026",
       description: "Discover why investors are targeting New Port Richey commercial real estate. Cap rates, NNN deals, and landlord strategy. Call Barrett at (813) 733-7907.",
       datePublished: "2026-07-22",
-      dateModified: "2026-07-27",
+      dateModified: "2026-08-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -195,18 +195,6 @@ export default function BlogPost() {
               Barrett has 23+ years of real estate experience and operates under the REMAX Commercial® division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* ---- Free Resources ---- */}
-      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
-        <div className="rounded-lg bg-[#F5F5F5] p-6 text-sm text-[#666666]">
-          <p className="font-semibold text-black">Free Resources</p>
-          <ul className="mt-2 space-y-1">
-            <li>HUD Housing Counseling: <a href="tel:18005694287" className="underline">1-800-569-4287</a></li>
-            <li>FHA Resource Center: <a href="tel:18002255342" className="underline">1-800-225-5342</a></li>
-            <li>HOPE Hotline: <a href="tel:18889954673" className="underline">1-888-995-4673</a></li>
-          </ul>
         </div>
       </section>
 

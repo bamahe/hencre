@@ -73,7 +73,7 @@ const schema = {
       headline: "Ybor City Commercial Real Estate 2026: Tampa's $6 Billion Transformation",
       description: "Ybor City is undergoing its biggest transformation since the cigar era — Gasworx, Ybor Harbor, Tampa General Hospital, and a new mixed-use streetcar district are reshaping one of Tampa's most storied neighborhoods into a major CRE opportunity.",
       datePublished: "2026-07-23",
-      dateModified: "2026-07-25",
+      dateModified: "2026-08-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -97,7 +97,7 @@ const schema = {
 const relatedLinks = [
   {
     title: "Tampa Mall Redevelopment & Mixed-Use Trends",
-    href: "/blog/tampa-mall-redevelopment-mixed-use",
+    href: "/blog/tampa-mall-redevelopment-mixed-use-2026",
     description: "How Tampa's large-format retail sites are being repositioned as mixed-use destinations.",
   },
   {
@@ -108,7 +108,7 @@ const relatedLinks = [
   {
     title: "Tampa Bay Medical Office Real Estate 2026",
     href: "/blog/tampa-bay-medical-office-real-estate-2026",
-    description: "How healthcare expansion — including hospital campuses like Tampa General — is driving medical office demand.",
+    description: "How healthcare expansion -- including hospital campuses like Tampa General -- is driving medical office demand.",
   },
   {
     title: "St. Petersburg Commercial Real Estate 2026",
@@ -116,7 +116,32 @@ const relatedLinks = [
     description: "How Pinellas County's urban core compares to Tampa's Ybor-led redevelopment wave.",
   },
   {
-    title: "What Makes a Good Commercial Investment?",
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "Barrett's full coverage of commercial real estate across Hillsborough County, including Ybor City.",
+  },
+  {
+    title: "Water Street Tampa 33-Story Tower: Downtown CRE 2026",
+    href: "/blog/water-street-tampa-33-story-tower-downtown-cre-2026",
+    description: "The adjacent Water Street second phase and what it means for Ybor's commercial trajectory.",
+  },
+  {
+    title: "South Tampa Commercial Real Estate 2026",
+    href: "/blog/south-tampa-commercial-real-estate-2026",
+    description: "How South Tampa's constrained, high-income submarket compares to Ybor's mixed-use redevelopment.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "The complete due diligence checklist before closing on any Ybor City acquisition.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "How insurance costs affect underwriting on older Ybor City historic buildings.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment",
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "A framework for evaluating mixed-use and urban infill CRE acquisitions in emerging districts.",
   },
@@ -249,6 +274,31 @@ export default function YborCityCommercialRealEstatePage() {
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
 
       <CTASection
         heading="Looking at Ybor City for Your Business or Investment Portfolio?"
