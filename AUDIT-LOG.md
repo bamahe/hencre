@@ -4,6 +4,75 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-11 -- Batch 21 (10 pages: 3 market rewrites, 7 blog improvements)
+
+### 1. `/markets/jackson`
+- Full rewrite: default imports, @graph schema (BreadcrumbList + Article + FAQPage)
+- datePublished "2026-07-20" / dateModified "2026-08-11"
+- FAQAccordion with 5 items (county size, active areas, property types, demand drivers, investment case)
+- 10 RelatedLinks (gadsden, calhoun, leon, escambia, investment-sales, land-development, due-diligence, 1031-exchange, tenant-representation, markets)
+- Author bio section + disclaimer
+- /contact CTA (removed barrett@nowtb.com email)
+- Removed unsupported `variant="primary"` prop from CTASection
+
+### 2. `/markets/jefferson`
+- Full rewrite: default imports, @graph schema (BreadcrumbList + Article + FAQPage)
+- datePublished "2026-07-20" / dateModified "2026-08-11"
+- FAQAccordion with 5 items (county overview, active areas, property types, demand drivers, investment case)
+- 10 RelatedLinks (leon, madison, gadsden, taylor, investment-sales, land-development, due-diligence, 1031-exchange, tenant-representation, markets)
+- Author bio section + disclaimer
+- /contact CTA (removed barrett@nowtb.com email)
+- Removed unsupported `variant="primary"` prop from CTASection
+
+### 3. `/markets/lafayette`
+- Full rewrite: default imports, @graph schema (BreadcrumbList + Article + FAQPage)
+- datePublished "2026-07-20" / dateModified "2026-08-11"
+- FAQAccordion with 5 items (county profile, active areas, property types, demand drivers, investment case)
+- 10 RelatedLinks (columbia, suwannee, gilchrist, dixie, investment-sales, land-development, due-diligence, 1031-exchange, tenant-representation, markets)
+- Author bio section + disclaimer
+- /contact CTA (removed barrett@nowtb.com email)
+- Removed unsupported `variant="primary"` prop from CTASection
+
+### 4. `/blog/south-tampa-commercial-real-estate-2026`
+- Fixed publisher in schema: "REMAX Commercial Real Estate" → "HenCRE"
+- Removed paragraph containing external nowtb.com link -- replaced with neutral South Tampa demographics paragraph
+- Removed paragraph containing external fastselleasysale.com link
+- Updated `dateModified` to "2026-08-11"
+
+### 5. `/blog/winter-haven-polk-county-commercial-real-estate`
+- Fixed TypeScript ordering error: moved `schema` const to after `faqItems` declaration
+- Merged dual SchemaOrg calls into single @graph schema (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed author `jobTitle`: "Commercial Real Estate Advisor" → "Broker Associate"
+- Fixed author bio: updated to standard "Broker Associate at REMAX Collective | 23+ Years" format
+- Expanded relatedLinks 5 → 10 (fixed broken hrefs missing /blog/ prefix; added /markets/polk, /commercial/nnn-net-lease, /services/investment-sales, what-makes-good, due-diligence)
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Added `dateModified` "2026-08-11"
+
+### 6. `/blog/ybor-city-commercial-real-estate-tampa-2026`
+- Expanded relatedLinks 5 → 10 (added hillsborough market, water-street, south-tampa, due-diligence, florida-insurance; fixed broken mall-redevelopment href)
+- Added author bio section + disclaimer before CTASection
+- Updated `dateModified` to "2026-08-11"
+
+### 7. `/blog/wesley-chapel-commercial-real-estate-2026`
+- Expanded relatedLinks 5 → 10 (added new-port-richey, tenant-representation, nnn-lease, florida-insurance, hillsborough market)
+- Added author bio section + disclaimer before CTASection
+- Updated `dateModified` to "2026-08-11"
+
+### 8. `/blog/water-street-tampa-33-story-tower-downtown-cre-2026`
+- Expanded relatedLinks 5 → 10 (added ybor-city, hillsborough market, tenant-representation, due-diligence, what-makes-good)
+- Updated `dateModified` to "2026-08-11"
+
+### 9. `/blog/tampa-bay-flex-office-coworking-2026`
+- Expanded relatedLinks 5 → 10 (added westshore office, understanding-cam, pinellas market, hillsborough market, what-makes-good)
+- Added author bio section + disclaimer before CTASection
+- Updated `dateModified` to "2026-08-11"
+
+### 10. `/blog/new-port-richey-commercial-real-estate-investors`
+- Removed HUD/FHA/HOPE "Free Resources" section entirely
+- Updated `dateModified` to "2026-08-11"
+
+---
+
 ## 2026-08-10 -- Batch 20 (10 blog pages: EEAT, FAQ placement, internal links, author bios)
 
 ### 1. `/blog/florida-1031-exchange-what-investors-need-to-know`
