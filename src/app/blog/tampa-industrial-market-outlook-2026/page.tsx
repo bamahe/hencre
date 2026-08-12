@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -73,11 +74,13 @@ const schema = {
       headline: "Tampa Industrial Market Outlook 2026",
       description: "Tampa Bay industrial real estate trends — warehouse demand, construction pipeline, and investment opportunities.",
       datePublished: "2026-05-20",
-      dateModified: "2026-07-25",
+      dateModified: "2026-08-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -115,6 +118,36 @@ const relatedLinks = [
     href: "/markets/hillsborough",
     description: "Commercial real estate overview for Hillsborough County.",
   },
+  {
+    title: "Pasco County Commercial Development 2026",
+    href: "/blog/pasco-county-commercial-development-2026",
+    description: "Industrial and commercial growth in Pasco County along the Suncoast Parkway.",
+  },
+  {
+    title: "What Is a Triple Net (NNN) Lease?",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "Single-tenant NNN industrial is the most sought-after structure for passive investors.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "Industrial properties are not immune to Florida's elevated insurance environment.",
+  },
+  {
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "Cap rate, cash-on-cash, and IRR analysis for industrial property investors.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Barrett helps buyers and sellers of industrial assets across Tampa Bay.",
+  },
+  {
+    title: "Pinellas County Commercial Real Estate",
+    href: "/markets/pinellas",
+    description: "Pinellas has limited new industrial land, making existing assets more valuable.",
+  },
 ];
 
 export default function TampaIndustrialOutlookPage() {
@@ -143,13 +176,13 @@ export default function TampaIndustrialOutlookPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Is Tampa Bay Industrial Space in Such High Demand?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Several converging factors are fueling demand across <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, and <a href="/markets/pasco" className="text-accent underline">Pasco</a> counties:
+          Several converging factors are fueling demand across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco</Link> counties:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>E-commerce growth.</strong> Last-mile delivery networks need distribution centers close to population centers. Tampa Bay&apos;s 3.2 million residents create massive demand for fulfillment space.</li>
           <li><strong>Population migration.</strong> As more people and businesses relocate to Florida, demand for goods — and the warehouses that store and distribute them — follows.</li>
           <li><strong>Port Tampa Bay expansion.</strong> The port&apos;s ongoing investment in container capacity and cold storage is attracting logistics companies that need nearby warehouse space.</li>
-          <li><strong>I-4 corridor connectivity.</strong> Tampa&apos;s position on the I-4 corridor linking to Orlando, <a href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland</a>, and Central Florida makes it a natural distribution hub.</li>
+          <li><strong>I-4 corridor connectivity.</strong> Tampa&apos;s position on the I-4 corridor linking to Orlando, <Link href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland</Link>, and Central Florida makes it a natural distribution hub.</li>
           <li><strong>Nearshoring trends.</strong> Companies bringing manufacturing and distribution back from overseas are choosing Florida for its business-friendly climate and no state income tax.</li>
         </ul>
 
@@ -158,15 +191,15 @@ export default function TampaIndustrialOutlookPage() {
           Tampa Bay industrial vacancy rates have tightened significantly over the past several years. While new construction has added supply, absorption has kept pace. Average asking rents for industrial space in the Tampa MSA have climbed steadily, with Class A warehouse and distribution space commanding premium rates, particularly for properties with modern features like 32-foot clear heights, cross-dock configurations, and ESFR sprinkler systems.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Older, smaller industrial spaces — under 20,000 square feet — remain popular with local businesses and light manufacturing operations. These properties often trade at <a href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</a> that reflect their stable tenant base and limited new supply in their size range.
+          Older, smaller industrial spaces — under 20,000 square feet — remain popular with local businesses and light manufacturing operations. These properties often trade at <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</Link> that reflect their stable tenant base and limited new supply in their size range.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Where Is New Industrial Construction Happening?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The largest concentration of new industrial development is in eastern Hillsborough County — particularly along the I-75 and I-4 interchange area near Plant City and the Seffner/Mango corridor. <a href="/markets/pasco" className="text-accent underline">Pasco County</a> is also seeing significant spec industrial development, especially near the Suncoast Parkway and US-41 corridor. Land availability and lower costs are driving developers north.
+          The largest concentration of new industrial development is in eastern Hillsborough County — particularly along the I-75 and I-4 interchange area near Plant City and the Seffner/Mango corridor. <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link> is also seeing significant spec industrial development, especially near the Suncoast Parkway and US-41 corridor. Land availability and lower costs are driving developers north.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <a href="/markets/pinellas" className="text-accent underline">Pinellas County</a> has extremely limited land for new industrial development, which has pushed existing industrial property values higher and made redevelopment of older industrial sites an increasingly attractive play.
+          <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link> has extremely limited land for new industrial development, which has pushed existing industrial property values higher and made redevelopment of older industrial sites an increasingly attractive play.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Types of Industrial Properties Are Investors Targeting?</h2>
@@ -174,7 +207,7 @@ export default function TampaIndustrialOutlookPage() {
           Investor demand is strongest for:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Single-tenant NNN industrial.</strong> Properties leased to creditworthy tenants on long-term <a href="/insights/nnn-lease-explained" className="text-accent underline">triple net leases</a> are the gold standard for passive income investors.</li>
+          <li><strong>Single-tenant NNN industrial.</strong> Properties leased to creditworthy tenants on long-term <Link href="/insights/nnn-lease-explained" className="text-accent underline">triple net leases</Link> are the gold standard for passive income investors.</li>
           <li><strong>Multi-tenant flex space.</strong> Flex industrial with a mix of warehouse, office, and showroom space provides diversified income and typically higher yields.</li>
           <li><strong>Value-add warehouse.</strong> Older properties with below-market rents that can be renovated and re-leased at current market rates.</li>
           <li><strong>Last-mile distribution.</strong> Small-bay facilities close to population centers, positioned for e-commerce delivery networks.</li>
@@ -185,7 +218,7 @@ export default function TampaIndustrialOutlookPage() {
           The strong market creates challenges too. Tenants are facing limited options and rising rents, which means starting your space search earlier than you might expect — 9 to 12 months before your lease expiration is not too early. Investors need to be careful about overpaying in a competitive environment and should stress-test their underwriting assumptions against potential interest rate changes and construction deliveries.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Insurance costs in Florida remain elevated, and industrial properties are not immune. Factor in current insurance rates — not historical ones — when evaluating <a href="/services/investment-sales" className="text-accent underline">investment opportunities</a>.
+          Insurance costs in Florida remain elevated, and industrial properties are not immune. Factor in current insurance rates — not historical ones — when evaluating <Link href="/services/investment-sales" className="text-accent underline">investment opportunities</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is the Outlook for the Rest of 2026?</h2>
@@ -195,16 +228,25 @@ export default function TampaIndustrialOutlookPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Whether you are looking to invest in <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial property</a>, lease warehouse space for your business, or sell an existing industrial asset, the Tampa Bay market offers significant opportunity. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I help clients navigate this competitive sector with data-driven analysis and local market knowledge. For context on adjacent markets, see our analysis of <a href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland warehouse and industrial growth</a> along the I-4 corridor. The key is acting with good information — not just speed.
+          Whether you are looking to invest in <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial property</Link>, lease warehouse space for your business, or sell an existing industrial asset, the Tampa Bay market offers significant opportunity. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I help clients navigate this competitive sector with data-driven analysis and local market knowledge. For context on adjacent markets, see our analysis of <Link href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland warehouse and industrial growth</Link> along the I-4 corridor. The key is acting with good information — not just speed.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
-        <div className="mt-6">
-          <FAQAccordion items={faqItems} />
-        </div>
-
-        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
+
+      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+        <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
+        <FAQAccordion items={faqItems} />
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
+        <div className="rounded-lg bg-[#f5f5f5] p-6">
+          <p className="text-sm font-semibold text-black">About the Author</p>
+          <p className="mt-2 text-sm text-[#666666]">
+            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
+          </p>
+        </div>
+      </section>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 

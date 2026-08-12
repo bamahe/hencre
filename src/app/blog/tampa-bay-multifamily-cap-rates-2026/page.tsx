@@ -80,11 +80,13 @@ const schema = {
       description:
         "Cap rate expansion and lower commercial rates are improving multifamily math in Tampa Bay. Here is how to evaluate deals in the current environment.",
       datePublished: "2026-07-24",
-      dateModified: "2026-07-24",
+      dateModified: "2026-08-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate, Commercial Real Estate",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: {
@@ -126,6 +128,36 @@ const relatedLinks = [
     href: "/blog/tampa-bay-office-market-q2-2026",
     description: "How the office market compares to multifamily in terms of risk and return.",
   },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "Passive net-lease investing cap rate benchmarks for Tampa Bay.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "How rising insurance costs affect multifamily NOI and underwriting.",
+  },
+  {
+    title: "Pasco County Commercial Development 2026",
+    href: "/blog/pasco-county-commercial-development-2026",
+    description: "Growth corridors and multifamily demand drivers in Pasco County.",
+  },
+  {
+    title: "Brandon Commercial Real Estate Guide 2026",
+    href: "/blog/brandon-commercial-real-estate-guide-2026",
+    description: "Hillsborough County submarket guide including apartment investment.",
+  },
+  {
+    title: "Commercial Real Estate Investment Services",
+    href: "/services/investment-sales",
+    description: "Barrett Henry helps investors source, underwrite, and close Tampa Bay deals.",
+  },
+  {
+    title: "Tampa Bay Markets Overview",
+    href: "/markets",
+    description: "Submarket-by-submarket breakdown of Tampa Bay commercial real estate.",
+  },
 ];
 
 export default function TampaBayMultifamilyCapRates2026Page() {
@@ -135,6 +167,7 @@ export default function TampaBayMultifamilyCapRates2026Page() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Tampa Bay Multifamily Cap Rates 2026", href: "/blog/tampa-bay-multifamily-cap-rates-2026" },
         ]}
@@ -261,16 +294,27 @@ export default function TampaBayMultifamilyCapRates2026Page() {
           Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience across multiple market cycles. He evaluates Tampa Bay <Link href="/services/investment-sales" className="text-accent underline">multifamily acquisitions</Link>, sources off-market deals, and models deal-specific returns for clients at every investment level. Use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> or the <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to run your own numbers, then contact Barrett to discuss current opportunities or to have a specific deal underwritten.
         </p>
 
-        <FAQAccordion items={faqItems} />
-
-        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
+
+      <section className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
+        <div className="rounded-lg bg-[#f5f5f5] p-6">
+          <p className="text-sm font-semibold text-black">About the Author</p>
+          <p className="mt-2 text-sm text-[#666666]">
+            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
+        <FAQAccordion items={faqItems} />
+      </section>
 
       <CTASection
         heading="Ready to Evaluate a Tampa Bay Multifamily Deal?"
         body="Barrett Henry analyzes multifamily investments and sources off-market opportunities across Hillsborough, Pinellas, Pasco, and Manatee counties. Get deal-specific analysis before you commit."
-        primaryCta={{ label: "Contact Barrett", href: "/contact" }}
-        secondaryCta={{ label: "Multifamily Investment Guide", href: "/blog/multifamily-investment-tampa-bay-guide" }}
+        buttonText="Contact Barrett"
+        buttonHref="/contact"
       />
 
       <RelatedLinks links={relatedLinks} />

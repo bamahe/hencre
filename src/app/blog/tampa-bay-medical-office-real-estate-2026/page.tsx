@@ -85,11 +85,13 @@ const schema = {
       description:
         "Healthcare commercial real estate in Tampa Bay — recent transactions, submarkets, rental rates, and investment outlook for medical office properties.",
       datePublished: "2026-07-21",
-      dateModified: "2026-07-26",
+      dateModified: "2026-08-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -110,7 +112,7 @@ const relatedLinks = [
   {
     title: "Tampa Industrial Market Outlook 2026",
     href: "/blog/tampa-industrial-market-outlook-2026",
-    description: "How Tampa Bay&apos;s industrial sector compares to the healthcare real estate opportunity.",
+    description: "How Tampa Bay's industrial sector compares to the healthcare real estate opportunity.",
   },
   {
     title: "How to Calculate Commercial Property ROI",
@@ -132,6 +134,31 @@ const relatedLinks = [
     href: "/blog/st-petersburg-commercial-real-estate-2026",
     description: "St. Pete is one of the most active submarkets for medical office deals this year.",
   },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "Net-lease cap rate benchmarks — many medical tenants sign NNN leases.",
+  },
+  {
+    title: "Florida 1031 Exchange Guide",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "How to use a 1031 exchange to reposition capital into a medical office acquisition.",
+  },
+  {
+    title: "What Is a Triple Net (NNN) Lease?",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "Medical office leases often follow NNN structures — understand what that means.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "Market overview for Tampa Bay's largest commercial county.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "Barrett represents healthcare tenants searching for clinical space across Tampa Bay.",
+  },
 ];
 
 export default function TampaBayMedicalOfficeRealEstatePage() {
@@ -141,6 +168,7 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Tampa Bay Medical Office Real Estate 2026", href: "/blog/tampa-bay-medical-office-real-estate-2026" },
         ]}
@@ -258,10 +286,21 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
           As a Broker Associate at REMAX Collective with 23+ years of commercial real estate experience across Tampa Bay, Barrett Henry works with both healthcare tenants navigating their space search and investors evaluating medical office acquisitions. Whether you are looking for <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> or <Link href="/services/investment-sales" className="text-accent underline">investment acquisition support</Link>, call <a href="tel:8137337907" className="text-accent underline">(813) 733-7907</a> or <Link href="/contact" className="text-accent underline">contact Barrett here</Link>.
         </p>
 
-        <FAQAccordion items={faqItems} />
-
-        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
+
+      <section className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
+        <div className="rounded-lg bg-[#f5f5f5] p-6">
+          <p className="text-sm font-semibold text-black">About the Author</p>
+          <p className="mt-2 text-sm text-[#666666]">
+            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors and healthcare tenants across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
+        <FAQAccordion items={faqItems} />
+      </section>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 

@@ -14,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay NNN Cap Rates 2026: What Passive Investors Are Paying Right Now | HenCRE",
+  title: "Tampa Bay NNN Cap Rates 2026: Passive Investor Guide | HenCRE",
   description:
     "Tampa Bay NNN properties are trading at an average 6.1% cap rate through mid-2026. Here is a full breakdown by tenant category, lease term, and corridor — with Barrett Henry's take on where to find yield.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-nnn-cap-rates-2026" },
@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay NNN properties are trading at an average 6.1% cap rate through mid-2026. Breakdown by tenant, lease term, and corridor.",
       datePublished: "2026-08-11",
-      dateModified: "2026-08-11",
+      dateModified: "2026-08-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -309,11 +309,15 @@ export default function TampaBayNNNCapRates2026Page() {
           covers the rules, timelines, and common mistakes in detail.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors considering a broader exit from their real estate holdings — selling a business, a rental portfolio, or a commercial building — the{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">
-            fast sell, easy sale
+          For investors considering a broader exit from their real estate holdings, exploring{" "}
+          <Link href="/services/dispositions" className="text-accent underline">
+            disposition services
           </Link>{" "}
-          approach can unlock liquidity quickly, which then positions you to move into a passive NNN asset on your timeline rather than the market&apos;s.
+          or a{" "}
+          <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">
+            1031 exchange
+          </Link>{" "}
+          can position you to move into a passive NNN asset on your timeline rather than the market&apos;s.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa Bay NNN Investing in 2026</h2>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -78,11 +79,13 @@ const schema = {
       headline: "What Tampa Bay's Housing Market Slowdown Signals for CRE Investors in 2026",
       description: "Tampa Bay's residential market softening creates commercial real estate signals -- cap rate changes, multifamily dynamics, retail demand shifts, and investor reallocation.",
       datePublished: "2026-07-19",
-      dateModified: "2026-07-27",
+      dateModified: "2026-08-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -194,7 +197,7 @@ export default function ResidentialSlowdownCREOpportunityPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is Happening to Tampa Bay Multifamily Right Now?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tampa Bay&apos;s <a href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">multifamily market</a> is navigating a tension between two forces. On the demand side, the for-sale market slowdown is keeping renters in place -- people who might have purchased a home are staying in their apartments, supporting occupancy. On the supply side, a wave of new apartment construction delivered in 2024 and 2025 has created competitive pressure on rents in certain submarkets.
+          Tampa Bay&apos;s <Link href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">multifamily market</Link> is navigating a tension between two forces. On the demand side, the for-sale market slowdown is keeping renters in place -- people who might have purchased a home are staying in their apartments, supporting occupancy. On the supply side, a wave of new apartment construction delivered in 2024 and 2025 has created competitive pressure on rents in certain submarkets.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The result is a bifurcated market. Older Class B and C multifamily assets in established Tampa Bay neighborhoods -- Seminole Heights, Ybor City, Temple Terrace, parts of Pinellas -- are generally holding occupancy well, because renters who cannot afford Class A rents are staying put. Newer Class A properties in areas that received the most new supply are competing harder for tenants and offering concessions.
@@ -210,12 +213,12 @@ export default function ResidentialSlowdownCREOpportunityPage() {
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Necessity-based retail remains strong.</strong> Grocery-anchored centers, medical-adjacent retail, and service-oriented tenants (nail salons, dry cleaners, urgent care) are not meaningfully affected by the housing market. Consumers continue to need these services regardless of home value trends.</li>
           <li><strong>Discretionary retail faces more pressure.</strong> Consumers who feel less confident about their net worth -- in part because their home appreciates less than expected -- may cut discretionary spending. Lifestyle retail, home improvement, and luxury categories see more softness.</li>
-          <li><strong>New residential construction drives new retail demand.</strong> The outer <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a> and <a href="/markets/pasco" className="text-accent underline">Pasco County</a> submarkets, despite residential price pressure, continue to add population through new construction. New rooftops create new retail demand, and the commercial supply has not kept pace with residential growth in some of these markets.</li>
+          <li><strong>New residential construction drives new retail demand.</strong> The outer <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link> and <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link> submarkets, despite residential price pressure, continue to add population through new construction. New rooftops create new retail demand, and the commercial supply has not kept pace with residential growth in some of these markets.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Does the Residential Market Signal Affect Industrial Real Estate?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tampa Bay&apos;s <a href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">industrial market</a> is the CRE sector least correlated with residential trends, and it continues to be one of the strongest performers in the region. Industrial demand is driven by logistics, e-commerce fulfillment, manufacturing, and port-related activity -- none of which is primarily affected by single-family home prices.
+          Tampa Bay&apos;s <Link href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">industrial market</Link> is the CRE sector least correlated with residential trends, and it continues to be one of the strongest performers in the region. Industrial demand is driven by logistics, e-commerce fulfillment, manufacturing, and port-related activity -- none of which is primarily affected by single-family home prices.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Tampa Bay&apos;s position as a logistics hub -- served by the Port of Tampa Bay, proximity to I-75 and I-4, and a growing last-mile delivery demand base -- continues to support industrial occupancy and rental growth even as the residential market softens. Vacancy in Class A industrial remains below 5% across most Tampa Bay submarkets. Investors looking for the most insulated commercial asset class in the current environment should be looking at industrial.
@@ -223,10 +226,10 @@ export default function ResidentialSlowdownCREOpportunityPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The 1031 Exchange Reallocation Opportunity</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          One of the most tangible links between residential softening and commercial real estate is the <a href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange pipeline</a>. Residential investors who bought and are still selling -- even in a softer market -- are looking for replacement properties to defer capital gains taxes. Many of them are moving out of residential investment property and into commercial assets that offer better yield, professional management, and lower ongoing volatility.
+          One of the most tangible links between residential softening and commercial real estate is the <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange pipeline</Link>. Residential investors who bought and are still selling -- even in a softer market -- are looking for replacement properties to defer capital gains taxes. Many of them are moving out of residential investment property and into commercial assets that offer better yield, professional management, and lower ongoing volatility.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          This creates a predictable flow of capital into commercial real estate from the residential sector. Small multifamily properties (2-4 units), single-tenant net lease assets, and neighborhood retail centers are common replacement targets for residential 1031 exchangers. Commercial brokers who understand both markets can help these investors transition efficiently -- and the pool of motivated exchangers is larger when residential transaction volume is elevated even at lower prices. The <a href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida insurance crisis</a> is further accelerating this reallocation, as insurance-burdened residential landlords seek commercial properties where tenants carry insurance obligations.
+          This creates a predictable flow of capital into commercial real estate from the residential sector. Small multifamily properties (2-4 units), single-tenant net lease assets, and neighborhood retail centers are common replacement targets for residential 1031 exchangers. Commercial brokers who understand both markets can help these investors transition efficiently -- and the pool of motivated exchangers is larger when residential transaction volume is elevated even at lower prices. The <Link href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida insurance crisis</Link> is further accelerating this reallocation, as insurance-burdened residential landlords seek commercial properties where tenants carry insurance obligations.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should CRE Investors Actually Do Right Now?</h2>
@@ -238,7 +241,7 @@ export default function ResidentialSlowdownCREOpportunityPage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Prioritize cash flow over appreciation.</strong> In a correction environment, income-producing assets with strong existing tenants and stable occupancy are more valuable than value-add plays that depend on rising prices. Underwrite conservatively on the upside.</li>
-          <li><strong>Evaluate multifamily at expanded cap rates.</strong> The 5% to 6.5% <a href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rate</a> range on Tampa Bay multifamily is more investable than it was two years ago. Value-add Class B assets with renovation upside offer both income and improvement-driven return.</li>
+          <li><strong>Evaluate multifamily at expanded cap rates.</strong> The 5% to 6.5% <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rate</Link> range on Tampa Bay multifamily is more investable than it was two years ago. Value-add Class B assets with renovation upside offer both income and improvement-driven return.</li>
           <li><strong>Watch for distressed opportunities.</strong> As the residential market softens, some overleveraged investors will need to exit. Distressed sellers in commercial real estate often lag behind the residential market by 12 to 24 months -- that window may be approaching for some asset types.</li>
           <li><strong>Industrial remains a flight-to-quality sector.</strong> If you are rebalancing a portfolio in response to residential market stress, industrial is the Tampa Bay CRE sector with the strongest fundamentals and the least volatility.</li>
           <li><strong>Consider the 1031 pipeline.</strong> If you have residential assets that still have equity and you are considering selling, evaluating a 1031 exchange into commercial real estate now -- before broader market softening erodes your equity cushion -- is worth exploring.</li>
@@ -249,7 +252,7 @@ export default function ResidentialSlowdownCREOpportunityPage() {
           Tampa Bay&apos;s residential market softening is a signal to read carefully, not an alarm to react to blindly. The strongest CRE opportunities in this environment are in income-producing assets with defensible tenant bases -- multifamily where renter demand is supported by the for-sale market slowdown, industrial where logistics fundamentals are unchanged, and necessity retail where consumer spending is stable. Distressed opportunities may follow as the cycle plays out.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of real estate experience across residential and commercial markets in <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, and <a href="/markets/pasco" className="text-accent underline">Pasco Counties</a>, Barrett Henry helps Tampa Bay investors position for current conditions with data-driven analysis rather than guesswork. Whether you are evaluating your first commercial acquisition or repositioning an existing portfolio, understanding how the residential and commercial markets interact in Tampa Bay is the starting point for good decisions. Call (813) 733-7907 to talk through your situation.
+          With 23+ years of real estate experience across residential and commercial markets in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco Counties</Link>, Barrett Henry helps Tampa Bay investors position for current conditions with data-driven analysis rather than guesswork. Whether you are evaluating your first commercial acquisition or repositioning an existing portfolio, understanding how the residential and commercial markets interact in Tampa Bay is the starting point for good decisions. Call (813) 733-7907 to talk through your situation.
         </p>
 
         {/* ---- Mid-article CTA ---- */}
@@ -284,7 +287,7 @@ export default function ResidentialSlowdownCREOpportunityPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
             </p>
           </div>
         </div>
@@ -295,7 +298,7 @@ export default function ResidentialSlowdownCREOpportunityPage() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: July 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: August 2026</p>
       </section>
 
       <CTASection

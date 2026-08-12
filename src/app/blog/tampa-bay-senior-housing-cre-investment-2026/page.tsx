@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -83,11 +84,13 @@ const schema = {
       description:
         "Senior housing occupancy in Tampa Bay hit 90%+ in 2026. A guide to independent living, assisted living, and memory care as CRE investment assets in the Tampa Bay market.",
       datePublished: "2026-07-22",
-      dateModified: "2026-07-27",
+      dateModified: "2026-08-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -173,13 +176,13 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Is Senior Housing Getting So Much Attention From CRE Investors Right Now?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The short answer is demographics -- but the numbers are more striking than the generic talking point. More than 12% of Tampa&apos;s resident population is already aged 65 or older, approximately 55,000 seniors within the city proper. Across <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, <a href="/markets/pasco" className="text-accent underline">Pasco</a>, and Manatee Counties -- the wider Tampa Bay market -- the senior population runs well into six figures and is growing every year as both in-migration and age-in-place demand compound.
+          The short answer is demographics -- but the numbers are more striking than the generic talking point. More than 12% of Tampa&apos;s resident population is already aged 65 or older, approximately 55,000 seniors within the city proper. Across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and Manatee Counties -- the wider Tampa Bay market -- the senior population runs well into six figures and is growing every year as both in-migration and age-in-place demand compound.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Florida is projected to have 25% of its statewide population aged 65 or older by 2030. The 80-plus cohort -- the primary demand driver for assisted living and memory care -- is expected to grow 16% by 2028 nationally. Demand for senior housing units is projected to require approximately 806,000 new units nationally by 2030, and supply construction has not kept pace with that trajectory.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Occupancy data confirms the supply-demand imbalance. Stabilized senior housing occupancy in Florida climbed from approximately 80% in 2021 to just over 90% in Q1 2026, according to NIC MAP data. Independent living communities -- the least operationally intensive segment -- have been above 90% occupancy for several consecutive quarters. Demand has consistently outpaced new deliveries since 2021, and that gap is widening. This dynamic is broadly similar to what has driven strong fundamentals in <a href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">Tampa Bay multifamily</a>, but with the added tailwind of demographic demand that residential apartments do not enjoy at the same scale.
+          Occupancy data confirms the supply-demand imbalance. Stabilized senior housing occupancy in Florida climbed from approximately 80% in 2021 to just over 90% in Q1 2026, according to NIC MAP data. Independent living communities -- the least operationally intensive segment -- have been above 90% occupancy for several consecutive quarters. Demand has consistently outpaced new deliveries since 2021, and that gap is widening. This dynamic is broadly similar to what has driven strong fundamentals in <Link href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">Tampa Bay multifamily</Link>, but with the added tailwind of demographic demand that residential apartments do not enjoy at the same scale.
         </p>
 
         {/* ---- Inline image ---- */}
@@ -205,7 +208,7 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
           <li><strong>Skilled Nursing Facilities (SNF).</strong> Post-acute and long-term care at the highest clinical acuity. Heavily regulated, reimbursement-dependent (Medicare/Medicaid), and almost exclusively institutionally owned. Private investors without healthcare operating experience should generally avoid this segment.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For most private CRE investors in Tampa Bay, the accessible entry points are IL and AL -- either as a direct operator, as a passive investor in a senior housing fund or JV, or as a net-lease investor in a triple-net senior housing property leased to an established operator. Understanding how <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net leases work</a> is particularly relevant for the passive investment structures common in institutional senior housing portfolios.
+          For most private CRE investors in Tampa Bay, the accessible entry points are IL and AL -- either as a direct operator, as a passive investor in a senior housing fund or JV, or as a net-lease investor in a triple-net senior housing property leased to an established operator. Understanding how <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net leases work</Link> is particularly relevant for the passive investment structures common in institutional senior housing portfolios.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Are Cap Rates and Pricing for Senior Housing in Tampa Bay?</h2>
@@ -218,7 +221,7 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
           <li><strong>Assisted Living (stabilized).</strong> Stabilized AL typically trades at cap rates 50 to 100 basis points wider than comparable IL, reflecting higher operational complexity. Expect 6.5% to 8% for well-occupied, licensed AL in Tampa Bay&apos;s primary submarkets.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Per-unit pricing ranges from $150,000 to $200,000 for older suburban product requiring capital investment, to $250,000 to $350,000 for stabilized modern communities in strong locations. The Arbor Terrace deal at $276,978 per unit sits at the high end of the suburban range, reflecting institutional demand for quality, occupied product. Conducting thorough <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence before any senior housing acquisition</a> -- including review of operating performance, licensing history, staffing ratios, and survey records -- is non-negotiable. Understanding <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate ROI on commercial property</a> with senior housing&apos;s operating cost structure is a critical first step.
+          Per-unit pricing ranges from $150,000 to $200,000 for older suburban product requiring capital investment, to $250,000 to $350,000 for stabilized modern communities in strong locations. The Arbor Terrace deal at $276,978 per unit sits at the high end of the suburban range, reflecting institutional demand for quality, occupied product. Conducting thorough <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence before any senior housing acquisition</Link> -- including review of operating performance, licensing history, staffing ratios, and survey records -- is non-negotiable. Understanding <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate ROI on commercial property</Link> with senior housing&apos;s operating cost structure is a critical first step.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does Senior Housing Differ From Multifamily as a CRE Investment?</h2>
@@ -232,7 +235,7 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
           Cap rates are therefore higher than comparable multifamily to compensate for operational risk and complexity. Financing is also more nuanced -- senior housing is often treated as a healthcare asset by lenders rather than a standard real estate loan, which affects loan terms, underwriting standards, and available programs. Investors with a background in standard residential or commercial multifamily should plan for a meaningful learning curve before closing their first senior housing acquisition.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The insurance picture is also different. Florida&apos;s property insurance market -- which has created significant friction for residential and commercial investors alike -- affects senior housing too, but operational insurance (general liability, professional liability, directors and officers) adds another layer of cost that purely real estate investors may not be accustomed to modeling. Our post on <a href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida&apos;s insurance crisis and investment property underwriting</a> covers the state-level property insurance context.
+          The insurance picture is also different. Florida&apos;s property insurance market -- which has created significant friction for residential and commercial investors alike -- affects senior housing too, but operational insurance (general liability, professional liability, directors and officers) adds another layer of cost that purely real estate investors may not be accustomed to modeling. Our post on <Link href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida&apos;s insurance crisis and investment property underwriting</Link> covers the state-level property insurance context.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Tampa Bay Submarkets Are Best Positioned for Senior Housing Investment?</h2>
@@ -249,10 +252,10 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is Senior Housing a Good Fit for a 1031 Exchange or Portfolio Diversification?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors looking to deploy 1031 exchange proceeds into a higher-yield asset class, senior housing can be a compelling option -- particularly net-leased senior housing properties where a national operator holds the master lease and the investor owns the real estate. These structures offer the yield premium of senior housing with the operational simplicity of a net-lease investment. Understanding <a href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">how 1031 exchanges work in Florida</a> -- including replacement property timelines and identification rules -- is the starting point for any investor considering this strategy.
+          For investors looking to deploy 1031 exchange proceeds into a higher-yield asset class, senior housing can be a compelling option -- particularly net-leased senior housing properties where a national operator holds the master lease and the investor owns the real estate. These structures offer the yield premium of senior housing with the operational simplicity of a net-lease investment. Understanding <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">how 1031 exchanges work in Florida</Link> -- including replacement property timelines and identification rules -- is the starting point for any investor considering this strategy.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For portfolio diversification, senior housing has historically shown lower correlation to standard commercial real estate cycles than office or retail, because its demand driver -- the aging of the population -- is largely independent of economic conditions. During the 2022-2024 period when office occupancy and multifamily transaction volume fell sharply, senior housing fundamentals were recovering and institutional acquisition volume was rising. That counter-cyclical profile makes it attractive as a portfolio complement to standard income-producing commercial assets. Our overview of <a href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">what makes a good commercial investment</a> covers the portfolio-level framework for evaluating new asset classes.
+          For portfolio diversification, senior housing has historically shown lower correlation to standard commercial real estate cycles than office or retail, because its demand driver -- the aging of the population -- is largely independent of economic conditions. During the 2022-2024 period when office occupancy and multifamily transaction volume fell sharply, senior housing fundamentals were recovering and institutional acquisition volume was rising. That counter-cyclical profile makes it attractive as a portfolio complement to standard income-producing commercial assets. Our overview of <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">what makes a good commercial investment</Link> covers the portfolio-level framework for evaluating new asset classes.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa Bay Senior Housing in 2026</h2>
@@ -263,7 +266,7 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
           The execution risks are real: senior housing is an operating business, licensing and compliance add complexity, and Florida&apos;s insurance market adds cost. These are the reasons cap rates remain higher than comparable multifamily -- they are also the reasons experienced operators and investors with local market knowledge have an edge over purely transactional buyers.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay -- and specific familiarity with healthcare-adjacent and investment property sectors across <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, and <a href="/markets/pasco" className="text-accent underline">Pasco Counties</a> -- Barrett Henry works with investors evaluating senior housing acquisitions and other income-producing commercial assets throughout the region. If you are considering senior housing as part of your 2026 investment strategy, call (813) 733-7907 to discuss where the current opportunities are and whether the asset class fits your risk profile and capital structure.
+          With 23+ years of commercial real estate experience across Tampa Bay -- and specific familiarity with healthcare-adjacent and investment property sectors across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco Counties</Link> -- Barrett Henry works with investors evaluating senior housing acquisitions and other income-producing commercial assets throughout the region. If you are considering senior housing as part of your 2026 investment strategy, call (813) 733-7907 to discuss where the current opportunities are and whether the asset class fits your risk profile and capital structure.
         </p>
 
         {/* ---- Mid-article CTA ---- */}
@@ -298,7 +301,7 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
             </p>
           </div>
         </div>
@@ -309,7 +312,7 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: July 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: August 2026</p>
       </section>
 
       <CTASection

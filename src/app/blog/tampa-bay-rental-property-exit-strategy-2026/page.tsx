@@ -78,7 +78,7 @@ const schema = {
       description:
         "Rising insurance costs, uncapped investment property tax assessments, and deferred maintenance demands are compressing Tampa Bay rental yields. Here is how to evaluate your exit options.",
       datePublished: "2026-06-24",
-      dateModified: "2026-07-28",
+      dateModified: "2026-08-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -127,6 +127,31 @@ const relatedLinks = [
     href: "/blog/tampa-bay-multifamily-cap-rates-2026",
     description: "Cap rate trends for multifamily assets across the Tampa Bay market in 2026.",
   },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "How surging premiums are compressing returns for Tampa Bay landlords.",
+  },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "Passive net-lease options for investors redeploying equity from rentals.",
+  },
+  {
+    title: "CRE Valuation Services",
+    href: "/services/cre-valuation",
+    description: "Get an accurate value for your investment property before listing.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "Market context for investment properties across Hillsborough County.",
+  },
+  {
+    title: "Tampa Bay Residential Slowdown: CRE Opportunity",
+    href: "/blog/tampa-bay-residential-slowdown-cre-opportunity-2026",
+    description: "How the housing market shift affects investment property decisions in 2026.",
+  },
 ];
 
 export default function TampaBayRentalPropertyExitStrategyPage() {
@@ -135,6 +160,7 @@ export default function TampaBayRentalPropertyExitStrategyPage() {
       <SchemaOrg schema={schema} />
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Tampa Bay Rental Property Exit Strategy 2026", href: "/blog/tampa-bay-rental-property-exit-strategy-2026" },
         ]}
@@ -269,7 +295,7 @@ export default function TampaBayRentalPropertyExitStrategyPage() {
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
@@ -294,9 +320,7 @@ export default function TampaBayRentalPropertyExitStrategyPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
-              operating under the REMAX Commercial division for investment property transactions.
-              He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
             </p>
           </div>
         </div>

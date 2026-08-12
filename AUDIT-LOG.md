@@ -4,6 +4,89 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-12 -- Batch 22 (10 pages: blog SEO pass)
+
+### 1. `/blog/tampa-bay-nnn-cap-rates-2026`
+- Removed fastselleasysale.com link; replaced with internal Links to /services/dispositions and /blog/florida-1031-exchange-what-investors-need-to-know
+- Updated `dateModified` to "2026-08-12"
+
+### 2. `/blog/tampa-bay-multifamily-cap-rates-2026`
+- Added Home to breadcrumbs
+- Moved FAQAccordion outside article into own `<section>` element
+- Fixed CTASection props: replaced primaryCta/secondaryCta with buttonText/buttonHref
+- Added author bio section (standard text)
+- Expanded relatedLinks 4 → 10 (NNN cap rates, insurance crisis, Pasco County, Brandon CRE, investment sales, Tampa Bay markets)
+- Updated `dateModified` to "2026-08-12"; Last updated July → August 2026
+
+### 3. `/blog/tampa-bay-medical-office-real-estate-2026`
+- Added Home to breadcrumbs
+- Fixed author schema: added image and sameAs fields
+- Moved FAQAccordion outside article into own `<section>` element
+- Added author bio section (standard text)
+- Expanded relatedLinks 5 → 10 (NNN cap rates, 1031 exchange, triple-net lease, Hillsborough market, tenant representation)
+- Updated `dateModified` to "2026-08-12"; Last updated July → August 2026
+
+### 4. `/blog/tampa-bay-rental-property-exit-strategy-2026`
+- Added Home to breadcrumbs
+- Fixed author bio: removed "operating under the REMAX Commercial division" language; updated to standard text
+- Added author bio section (standard text)
+- Expanded relatedLinks 5 → 10 (insurance crisis, NNN cap rates, CRE valuation services, Hillsborough market, residential slowdown article)
+- Updated `dateModified` to "2026-08-12"; Last updated July → August 2026
+
+### 5. `/blog/tampa-bay-residential-slowdown-cre-opportunity-2026`
+- Added `import Link from "next/link"`
+- Fixed author schema: added image and sameAs fields
+- Converted all `<a>` tags to `<Link>` throughout article body
+- Fixed author bio: removed "operates under the REMAX Commercial division" language; updated to standard text
+- Updated `dateModified` to "2026-08-12"; Last updated July → August 2026
+
+### 6. `/blog/tampa-bay-senior-housing-cre-investment-2026`
+- Added `import Link from "next/link"`
+- Fixed author schema: added image and sameAs fields
+- Converted all `<a>` tags to `<Link>` throughout article body (10 links)
+- Fixed author bio: removed "operates under the REMAX Commercial division" language; updated to standard text
+- Updated `dateModified` to "2026-08-12"; Last updated July → August 2026
+
+### 7. `/blog/tampa-industrial-market-outlook-2026`
+- Added `import Link from "next/link"`
+- Fixed author schema: added image and sameAs fields
+- Converted all remaining `<a>` tags to `<Link>` (cap rates, Pasco County, Pinellas County, NNN lease, investment sales, industrial property, Lakeland)
+- Expanded relatedLinks 4 → 10 (Pasco County, triple-net lease, insurance crisis, commercial ROI, investment sales, Pinellas market)
+- Moved FAQAccordion outside article into own `<section>` element
+- Added author bio section (standard text)
+- Updated `dateModified` to "2026-08-12"; Last updated July → August 2026
+
+### 8. `/blog/tampa-hillsborough-commercial-real-estate-guide-2026`
+- Fixed metadata title to include "Hillsborough" keyword
+- Removed nowtb.com from author sameAs array
+- Fixed REALTOR® reference: "Barrett Henry is a REALTOR® and Commercial Real Estate Advisor at REMAX Commercial Real Estate" → "Barrett Henry is a Broker Associate at REMAX Collective"
+- Fixed author bio section: removed "operates under the REMAX Commercial division" language; updated to standard text
+- Fixed mid-article CTA heading: "Talk to a REMAX Commercial Broker" → "Talk to a Commercial Real Estate Broker"
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Updated `dateModified` to "2026-08-12"; Last updated July → August 2026
+
+### 9. `/blog/tampa-mall-redevelopment-mixed-use-2026`
+- Added `import Link from "next/link"`
+- Converted all `<a>` tags to `<Link>` throughout article body (10 links)
+- Fixed author bio: removed "licensed Florida REALTOR" and "operating under the REMAX Commercial division" language; updated to standard text
+- Expanded relatedLinks 6 → 10 (1031 exchange, insurance crisis, Hillsborough market, what makes a good commercial investment)
+- Updated `dateModified` to "2026-08-12"; Last updated July → August 2026
+
+### 10. `/blog/tampa-retail-storefront-space-guide`
+- Added `import Link from "next/link"`
+- Fixed OG image: replaced placeholder hencre.com/og-image.png with Unsplash storefront image
+- Added Home to breadcrumbs
+- Added backgroundImage prop to Hero
+- Converted all `<a>` tags to `<Link>` throughout article body (11 links)
+- Fixed Barrett bio in article body: removed "REALTOR®" and "operates under REMAX Commercial Real Estate" language
+- Fixed author bio section: "REALTOR® & Commercial Real Estate Advisor" → standard Broker Associate text
+- Fixed mid-article CTA heading: "Talk to a REMAX Commercial Broker" → "Talk to a Commercial Real Estate Broker"
+- Fixed CTA section body: removed "REMAX Commercial Real Estate advisor" language
+- Expanded relatedLinks 8 → 10 (mall redevelopment, insurance crisis)
+- Updated `dateModified` to "2026-08-12"; Last updated July → August 2026
+
+---
+
 ## 2026-08-11 -- Batch 21 (10 pages: 3 market rewrites, 7 blog improvements)
 
 ### 1. `/markets/jackson`

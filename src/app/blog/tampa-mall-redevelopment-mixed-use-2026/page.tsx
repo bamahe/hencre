@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -73,7 +74,7 @@ const schema = {
       description:
         "A commercial real estate investor's guide to Tampa's mall-to-mixed-use conversion wave — WestShore Plaza, Britton Plaza, and what the redevelopment trend means for tenants and investors.",
       datePublished: "2026-07-21",
-      dateModified: "2026-07-28",
+      dateModified: "2026-08-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -127,6 +128,26 @@ const relatedLinks = [
     href: "/services/investment-sales",
     description: "Barrett helps investors identify, underwrite, and acquire commercial real estate across Tampa Bay.",
   },
+  {
+    title: "Florida 1031 Exchange Guide",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "Use a 1031 exchange to redeploy capital into properties near Tampa's redevelopment corridors.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "How rising insurance costs affect commercial underwriting across Tampa Bay.",
+  },
+  {
+    title: "Hillsborough County Market",
+    href: "/markets/hillsborough",
+    description: "Commercial real estate overview for Hillsborough County — the heart of Tampa's CRE market.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment?",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "Investment criteria from a broker's perspective — before you buy near a redevelopment site.",
+  },
 ];
 
 export default function TampaMallRedevelopmentPage() {
@@ -150,7 +171,7 @@ export default function TampaMallRedevelopmentPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          In July 2026, Third Lake Partners acquired WestShore Plaza — a 57-year-old, 1.1-million-square-foot regional mall in Tampa — for approximately $135 million. The deal comes with Tampa City Council&apos;s blessing for a full mixed-use redevelopment: homes, shops, restaurants, and office space on a site that has been slowly losing retail tenants for years. WestShore Plaza is not alone. Britton Plaza on Dale Mabry Highway is also in the early stages of a similar transformation, and Stetson University is partnering with Bromley Companies to redevelop its Tampa Heights campus into a mixed-use district with a hotel, office, and residential uses. Three major Tampa properties, all moving toward <a href="/commercial/retail-space" className="text-accent underline">mixed-use</a> in the same calendar year, is not coincidence — it is a structural shift that every commercial real estate investor and tenant in the Tampa Bay market needs to understand.
+          In July 2026, Third Lake Partners acquired WestShore Plaza — a 57-year-old, 1.1-million-square-foot regional mall in Tampa — for approximately $135 million. The deal comes with Tampa City Council&apos;s blessing for a full mixed-use redevelopment: homes, shops, restaurants, and office space on a site that has been slowly losing retail tenants for years. WestShore Plaza is not alone. Britton Plaza on Dale Mabry Highway is also in the early stages of a similar transformation, and Stetson University is partnering with Bromley Companies to redevelop its Tampa Heights campus into a mixed-use district with a hotel, office, and residential uses. Three major Tampa properties, all moving toward <Link href="/commercial/retail-space" className="text-accent underline">mixed-use</Link> in the same calendar year, is not coincidence — it is a structural shift that every commercial real estate investor and tenant in the Tampa Bay market needs to understand.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is Driving Tampa&apos;s Mall Redevelopment Wave?</h2>
@@ -171,7 +192,7 @@ export default function TampaMallRedevelopmentPage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li>
-            <strong>WestShore Plaza (Westshore District, Tampa).</strong> The 57-year-old regional mall, located in one of Tampa&apos;s most prominent commercial corridors near Tampa International Airport, was acquired by Ybor-based Third Lake Partners in July 2026 for $135 million. Tampa City Council had already approved a redevelopment vision featuring residential units, <a href="/commercial/office-space" className="text-accent underline">office space</a>, restaurant and entertainment, and a reimagined retail component. No demolition or construction timeline has been officially announced, but tenant vacancies are accelerating as the transition approaches.
+            <strong>WestShore Plaza (Westshore District, Tampa).</strong> The 57-year-old regional mall, located in one of Tampa&apos;s most prominent commercial corridors near Tampa International Airport, was acquired by Ybor-based Third Lake Partners in July 2026 for $135 million. Tampa City Council had already approved a redevelopment vision featuring residential units, <Link href="/commercial/office-space" className="text-accent underline">office space</Link>, restaurant and entertainment, and a reimagined retail component. No demolition or construction timeline has been officially announced, but tenant vacancies are accelerating as the transition approaches.
           </li>
           <li>
             <strong>Britton Plaza (Dale Mabry Highway, South Tampa).</strong> The 30-acre Britton Plaza shopping center is in the early stages of tenant vacation ahead of a planned mixed-use redevelopment. Dale Mabry Highway is one of Tampa&apos;s most trafficked commercial corridors, and the Britton Plaza site&apos;s location near South Tampa neighborhoods gives it strong residential and walkable-retail demand from a high-income surrounding population. The redevelopment is expected to follow a similar residential-anchored, mixed-use program.
@@ -190,13 +211,13 @@ export default function TampaMallRedevelopmentPage() {
             <strong>Short-term disruption, long-term appreciation.</strong> During the transition period — when an existing mall is winding down tenants but construction has not yet started — nearby commercial properties may experience reduced foot traffic, changed access patterns, and market uncertainty. This phase is typically the best entry window for savvy buyers who are underwriting the long-term value rather than near-term cash flow.
           </li>
           <li>
-            <strong>New rooftops drive new demand.</strong> Every residential unit added by a mixed-use redevelopment is a new customer for nearby retail, restaurant, and service businesses. For <a href="/commercial/retail-space" className="text-accent underline">retail</a> and restaurant operators, proximity to a large residential development is a long-term demand catalyst. The hundreds or thousands of units planned for WestShore Plaza and Britton Plaza will generate sustained local spending for surrounding commercial corridors.
+            <strong>New rooftops drive new demand.</strong> Every residential unit added by a mixed-use redevelopment is a new customer for nearby retail, restaurant, and service businesses. For <Link href="/commercial/retail-space" className="text-accent underline">retail</Link> and restaurant operators, proximity to a large residential development is a long-term demand catalyst. The hundreds or thousands of units planned for WestShore Plaza and Britton Plaza will generate sustained local spending for surrounding commercial corridors.
           </li>
           <li>
-            <strong>Office and flex space benefits from density.</strong> Mixed-use projects often deliver new <a href="/commercial/office-space" className="text-accent underline">office</a> and flex-space supply — but they also create the walkable, amenity-rich environments that attract office tenants who want employees to actually show up. Neighboring office buildings with inferior amenity profiles may face competitive pressure from the new supply, but the broader submarket typically tightens as employers relocate toward the denser core.
+            <strong>Office and flex space benefits from density.</strong> Mixed-use projects often deliver new <Link href="/commercial/office-space" className="text-accent underline">office</Link> and flex-space supply — but they also create the walkable, amenity-rich environments that attract office tenants who want employees to actually show up. Neighboring office buildings with inferior amenity profiles may face competitive pressure from the new supply, but the broader submarket typically tightens as employers relocate toward the denser core.
           </li>
           <li>
-            <strong>Industrial and warehouse operators face displacement.</strong> As mixed-use values rise in a corridor, lower-value industrial uses become harder to justify economically and face increasing pressure to relocate. Investors in <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial and warehouse</a> properties in transitioning corridors should be alert to this dynamic — it can be a catalyst for an above-market exit before zoning pressures arrive.
+            <strong>Industrial and warehouse operators face displacement.</strong> As mixed-use values rise in a corridor, lower-value industrial uses become harder to justify economically and face increasing pressure to relocate. Investors in <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial and warehouse</Link> properties in transitioning corridors should be alert to this dynamic — it can be a catalyst for an above-market exit before zoning pressures arrive.
           </li>
         </ul>
 
@@ -209,13 +230,13 @@ export default function TampaMallRedevelopmentPage() {
             <strong>Adjacent retail and restaurant acquisition.</strong> Commercial properties — strip centers, freestanding retail, or small office buildings — within a half-mile of a major redevelopment site often trade at a discount during the transition period because buyers are uncertain. Investors who underwrite the five-to-ten year trajectory can acquire these assets at pre-uplift prices and benefit from the surrounding redevelopment without taking developer risk.
           </li>
           <li>
-            <strong>Displaced tenant relocation.</strong> As WestShore Plaza and Britton Plaza clear out existing tenants, hundreds of businesses will need to find new commercial space in the market. This creates a near-term spike in tenant demand for <a href="/commercial/retail-space" className="text-accent underline">retail</a>, <a href="/commercial/office-space" className="text-accent underline">office</a>, and <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial</a> space in the surrounding corridors. Landlords with available, well-located commercial space in the Westshore District and along Dale Mabry are positioned to lease up faster and at higher rates as displaced tenants compete for alternatives.
+            <strong>Displaced tenant relocation.</strong> As WestShore Plaza and Britton Plaza clear out existing tenants, hundreds of businesses will need to find new commercial space in the market. This creates a near-term spike in tenant demand for <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, <Link href="/commercial/office-space" className="text-accent underline">office</Link>, and <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial</Link> space in the surrounding corridors. Landlords with available, well-located commercial space in the Westshore District and along Dale Mabry are positioned to lease up faster and at higher rates as displaced tenants compete for alternatives.
           </li>
           <li>
             <strong>Land banking adjacent parcels.</strong> Smaller parcels adjacent to major redevelopment sites often become attractive to developers seeking additional land for parking, access, or project expansion. Owners of these parcels — even modest commercial lots — may find themselves with unexpectedly strong acquisition interest as projects advance toward entitlement and construction.
           </li>
           <li>
-            <strong>1031 exchange timing plays.</strong> Investors exiting other positions can use a <a href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</a> to redeploy into properties near these redevelopment corridors, gaining exposure to the long-term value uplift while deferring capital gains. The key is identifying the right exchange property before the market prices in the full redevelopment premium.
+            <strong>1031 exchange timing plays.</strong> Investors exiting other positions can use a <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link> to redeploy into properties near these redevelopment corridors, gaining exposure to the long-term value uplift while deferring capital gains. The key is identifying the right exchange property before the market prices in the full redevelopment premium.
           </li>
         </ul>
 
@@ -234,7 +255,7 @@ export default function TampaMallRedevelopmentPage() {
             <strong>New supply competition.</strong> Mixed-use projects deliver new retail, restaurant, and office square footage into the market. While the residential component drives new demand, investors in nearby commercial space should underwrite what the new supply adds to the local inventory and how it affects their competitive position.
           </li>
           <li>
-            <strong>Florida insurance and operating cost increases.</strong> Any commercial property acquisition in Tampa requires careful attention to insurance costs — particularly flood and wind coverage — which have risen sharply across coastal Florida. Properties in or near the Westshore District should be carefully underwritten for total operating cost, not just rental income. The <a href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida insurance environment</a> remains a material input in commercial underwriting.
+            <strong>Florida insurance and operating cost increases.</strong> Any commercial property acquisition in Tampa requires careful attention to insurance costs — particularly flood and wind coverage — which have risen sharply across coastal Florida. Properties in or near the Westshore District should be carefully underwritten for total operating cost, not just rental income. The <Link href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida insurance environment</Link> remains a material input in commercial underwriting.
           </li>
           <li>
             <strong>Macroeconomic sensitivity.</strong> Mixed-use projects are long-horizon investments. A recession, a financing disruption, or a demand slowdown in the residential market can push project timelines out by years and reduce the pace of commercial value uplift in the surrounding area. Investors buying near redevelopment sites are implicitly taking a view on the Tampa Bay economy over a multi-year horizon.
@@ -246,7 +267,7 @@ export default function TampaMallRedevelopmentPage() {
           The simultaneous redevelopment of WestShore Plaza, Britton Plaza, and the Stetson University Tampa Heights campus signals something real: Tampa&apos;s commercial real estate market is undergoing a structural shift away from legacy enclosed retail toward denser, mixed-use development patterns that reflect how people actually live, work, and shop today. For investors and tenants, the opportunity is not in the projects themselves — it is in the ripple effects they create across the surrounding commercial landscape. With 23+ years in Tampa Bay commercial real estate, I have watched major redevelopment cycles reshape submarkets from the inside. The investors who position themselves thoughtfully — before the market fully prices in the change — consistently outperform those who wait for certainty. If you are considering a commercial acquisition, lease, or exit in or around any of these corridors, let&apos;s talk through the timing and strategy before the window narrows.
         </p>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
@@ -271,9 +292,7 @@ export default function TampaMallRedevelopmentPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
-              operating under the REMAX Commercial division. He works with investors and tenants
-              across Tampa Bay&apos;s evolving commercial corridors from offices in Tampa, Largo, and Brandon.
+              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
             </p>
           </div>
         </div>
