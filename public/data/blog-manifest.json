@@ -856,5 +856,21 @@
     "county": "Polk",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "crystal-river-waterfront-commercial-investment-guide",
+    "title": "Crystal River Waterfront Commercial Investment: What Buyers & Tenants Need to Know in 2026",
+    "excerpt": "Crystal River's Nature Coast economy is drawing serious investor attention. From waterfront hospitality assets to retail corridors and eco-tourism-driven commercial demand, here's what buyers and tenants need to understand before entering this market.",
+    "date": "2026-08-12",
+    "category": "investor",
+    "city": "Crystal River",
+    "county": "Citrus",
+    "businessType": null,
+    "image": {
+      "url": "/images/blog/crystal-river-waterfront-commercial-investment-guide.jpg",
+      "alt": "an aerial view of a small town by the water",
+      "photographer": "Anita Denunzio",
+      "link": "https://unsplash.com/@dronepilot"
+    }
   }
 ]
