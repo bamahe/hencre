@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "South Tampa commands premium rents, tight vacancy, and strong investor demand. Explore office, retail, and medical property in one of Tampa Bay's most affluent submarkets.",
     url: "https://hencre.com/blog/south-tampa-commercial-real-estate-2026",
     type: "article",
-    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "South Tampa Commercial Real Estate: Market Guide 2026" }],
+    images: [{ url: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&h=630&fit=crop", width: 1200, height: 630, alt: "South Tampa commercial real estate market 2026" }],
   },
 };
 
@@ -41,7 +41,7 @@ const schema = {
       headline: "South Tampa Commercial Real Estate: Market Guide 2026",
       description: "South Tampa commands premium rents, tight vacancy, and strong investor demand. Here is a complete market guide for office, retail, and medical commercial property in one of Tampa Bay's most affluent submarkets.",
       datePublished: "2026-08-09",
-      dateModified: "2026-08-11",
+      dateModified: "2026-08-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -49,7 +49,6 @@ const schema = {
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: [
           "https://hencre.com/about",
-          "https://nowtb.com",
           "https://barretthenry.remax.com",
         ],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -81,7 +80,7 @@ const schema = {
           name: "How do I find commercial space for lease in South Tampa?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Working with a commercial real estate broker who knows the South Tampa submarket is the most effective approach. Much of the best South Tampa commercial space changes hands off-market or through direct relationships with property owners. Barrett Henry at REMAX Commercial Real Estate provides tenant representation services across all of Hillsborough County and can be reached directly at (813) 733-7907.",
+            text: "Working with a commercial real estate broker who knows the South Tampa submarket is the most effective approach. Much of the best South Tampa commercial space changes hands off-market or through direct relationships with property owners. Barrett Henry at REMAX Collective provides tenant representation services across all of Hillsborough County and can be reached directly at (813) 733-7907.",
           },
         },
         {
@@ -169,7 +168,7 @@ const faqItems = [
   },
   {
     question: "How do I find commercial space for lease in South Tampa?",
-    answer: "Working with a commercial real estate broker who knows the South Tampa submarket is the most effective approach. Much of the best South Tampa commercial space changes hands off-market or through direct relationships with property owners. Barrett Henry at REMAX Commercial Real Estate provides tenant representation services across all of Hillsborough County and can be reached directly at (813) 733-7907.",
+    answer: "Working with a commercial real estate broker who knows the South Tampa submarket is the most effective approach. Much of the best South Tampa commercial space changes hands off-market or through direct relationships with property owners. Barrett Henry at REMAX Collective provides tenant representation services across all of Hillsborough County and can be reached directly at (813) 733-7907.",
   },
   {
     question: "What are the main commercial corridors in South Tampa?",
@@ -188,6 +187,7 @@ export default function BlogPost() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "South Tampa Commercial Real Estate: Market Guide 2026", href: "/blog/south-tampa-commercial-real-estate-2026" },
         ]}
@@ -276,7 +276,7 @@ export default function BlogPost() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
@@ -317,9 +317,9 @@ export default function BlogPost() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate &amp; Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He specializes in commercial real estate transactions including office, retail, medical, and investment properties throughout Hillsborough County and the broader Tampa Bay market.
             </p>
           </div>
         </div>

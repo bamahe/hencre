@@ -84,11 +84,13 @@ const schema = {
       description:
         "Private equity is pouring into Tampa Bay data centers as AI demand accelerates. What the data center buildout means for industrial CRE investors, tenants, and landowners across Tampa Bay.",
       datePublished: "2026-07-25",
-      dateModified: "2026-08-04",
+      dateModified: "2026-08-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -145,6 +147,16 @@ const relatedLinks = [
     title: "Commercial Property Due Diligence Timeline",
     href: "/blog/commercial-property-due-diligence-timeline",
     description: "What to expect at each phase of a commercial transaction -- essential reading before acquiring a data center or industrial asset.",
+  },
+  {
+    title: "Pinellas County Commercial Real Estate",
+    href: "/markets/pinellas",
+    description: "Overview of the Pinellas County commercial market, including industrial and data center-adjacent opportunities.",
+  },
+  {
+    title: "Industrial & Warehouse Space in Florida",
+    href: "/commercial/industrial-warehouse",
+    description: "Explore industrial and warehouse listings across Florida&apos;s key logistics corridors.",
   },
 ];
 
@@ -264,6 +276,26 @@ export default function TampaBayDataCenterCREPage() {
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He specializes in commercial real estate transactions including industrial, investment sales, and net lease properties.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <CTASection
         heading="Own Industrial Land or Buildings in Tampa Bay?"

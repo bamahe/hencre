@@ -15,6 +15,7 @@ const TIER1_COUNTIES = [
   "escambia", "flagler", "franklin", "gadsden", "gilchrist",
   "glades", "gulf", "hamilton", "hardee", "hendry",
   "hernando", "highlands", "hillsborough", "holmes", "indian-river",
+  "jackson", "jefferson", "lafayette",
   "lake", "lee", "leon", "manatee", "marion",
   "orange", "osceola", "pasco", "pinellas", "polk",
   "sarasota", "seminole", "st-johns", "volusia",

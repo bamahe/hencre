@@ -272,6 +272,27 @@ const MARKETS = [
       "Florida&apos;s Treasure Coast citrus and coastal retirement market. Vero Beach&apos;s high-income residential base drives upscale retail, medical office, and restaurant demand along US-1 and the A1A corridor.",
   },
   {
+    slug: "jackson",
+    county: "Jackson County",
+    city: "Marianna",
+    description:
+      "A Panhandle crossroads county where I-10 meets US-231 near Marianna. Highway commercial, agricultural support, and government services anchor the local market. Florida Caverns State Park and regional healthcare add secondary demand drivers.",
+  },
+  {
+    slug: "jefferson",
+    county: "Jefferson County",
+    city: "Monticello",
+    description:
+      "A small North Florida county east of Tallahassee on US-19/US-27 where agricultural land, timber, and I-10 corridor logistics define the commercial landscape. Monticello&apos;s historic downtown supports limited retail and service commercial.",
+  },
+  {
+    slug: "lafayette",
+    county: "Lafayette County",
+    city: "Mayo",
+    description:
+      "One of Florida&apos;s smallest and most rural counties, situated on the Suwannee River. Agricultural land, timber, and limited highway commercial near Mayo characterize this market. Best suited for land investors and rural commercial buyers.",
+  },
+  {
     slug: "lee",
     county: "Lee County",
     city: "Fort Myers & Cape Coral",
@@ -351,7 +372,7 @@ const serviceSchema = {
       "@type": "Service",
       name: "Commercial Real Estate Brokerage — Florida Markets",
       description:
-        "Commercial real estate brokerage services across 44 Florida counties, from Tampa Bay and Central Florida to the Space Coast, Southwest Florida, and the Panhandle.",
+        "Commercial real estate brokerage services across 47 Florida counties, from Tampa Bay and Central Florida to the Space Coast, Southwest Florida, and the Panhandle.",
       provider: {
         "@type": "RealEstateAgent",
         name: "Barrett Henry",
@@ -394,7 +415,7 @@ export default function MarketsIndexPage() {
           </h2>
           <p className="mb-10 max-w-3xl text-[#666666]">
             Barrett Henry provides commercial real estate brokerage services
-            across 44 Florida counties, from Tampa Bay and Central Florida to
+            across 47 Florida counties, from Tampa Bay and Central Florida to
             the Space Coast, Southwest Florida, and the Panhandle. Each market
             has its own drivers, opportunities, and challenges. Select a county
             below for a deep dive into that market.

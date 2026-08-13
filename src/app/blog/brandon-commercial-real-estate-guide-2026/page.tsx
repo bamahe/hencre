@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Brandon, FL commercial real estate is moving fast. Learn what's available, who's investing, and why you need Barrett Henry in your corner. Call (813) 733-7907.",
     url: "https://hencre.com/blog/brandon-commercial-real-estate-guide-2026",
     type: "article",
-    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "Brandon FL Commercial Real Estate: Market Guide 2026" }],
+    images: [{ url: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&h=630&fit=crop", width: 1200, height: 630, alt: "Brandon FL commercial real estate market 2026" }],
   },
 };
 
@@ -41,7 +41,7 @@ const schema = {
       headline: "Brandon FL Commercial Real Estate: Market Guide 2026",
       description: "Brandon, FL commercial real estate is moving fast. Learn what's available, who's investing, and why you need Barrett Henry in your corner.",
       datePublished: "2026-07-20",
-      dateModified: "2026-07-23",
+      dateModified: "2026-08-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -49,12 +49,11 @@ const schema = {
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: [
           "https://hencre.com/about",
-          "https://nowtb.com",
           "https://barretthenry.remax.com",
         ],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
-      publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/blog/brandon-commercial-real-estate-guide-2026",
     },
     {
@@ -81,7 +80,7 @@ const schema = {
           name: "How do I find commercial space for lease in Brandon, Florida?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Working with a commercial real estate broker who operates in the Brandon submarket is the most efficient way to find available space — including off-market opportunities that never appear on public listing platforms. Barrett Henry at REMAX Commercial Real Estate provides tenant representation services across Hillsborough County and can be reached directly at (813) 733-7907.",
+            text: "Working with a commercial real estate broker who operates in the Brandon submarket is the most efficient way to find available space — including off-market opportunities that never appear on public listing platforms. Barrett Henry at REMAX Collective provides tenant representation services across Hillsborough County and can be reached directly at (813) 733-7907.",
           },
         },
         {
@@ -169,7 +168,7 @@ const faqItems = [
   },
   {
     question: "How do I find commercial space for lease in Brandon, Florida?",
-    answer: "Working with a commercial real estate broker who operates in the Brandon submarket is the most efficient way to find available space — including off-market opportunities that never appear on public listing platforms. Barrett Henry at REMAX Commercial Real Estate provides tenant representation services across Hillsborough County and can be reached directly at (813) 733-7907.",
+    answer: "Working with a commercial real estate broker who operates in the Brandon submarket is the most efficient way to find available space — including off-market opportunities that never appear on public listing platforms. Barrett Henry at REMAX Collective provides tenant representation services across Hillsborough County and can be reached directly at (813) 733-7907.",
   },
   {
     question: "What are the main commercial corridors in Brandon, FL?",
@@ -188,6 +187,7 @@ export default function BlogPost() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Brandon FL Commercial Real Estate: Market Guide 2026", href: "/blog/brandon-commercial-real-estate-guide-2026" },
         ]}
@@ -220,7 +220,7 @@ export default function BlogPost() {
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <h2>Why Are Businesses Choosing Brandon Over Other Submarkets?</h2><p>Brandon isn&apos;t a secondary choice — for many operators, it&apos;s the first choice. The eastern Hillsborough location puts businesses within reach of a large residential population without the higher occupancy costs found closer to downtown Tampa. The submarket also benefits from strong daytime traffic driven by its own commercial base, a regional hospital presence, and proximity to the Brandon Town Center, which continues to attract complementary retail and service tenants.</p><p>Businesses also appreciate the labor pool. Brandon and the surrounding communities of Valrico, Riverview, and Lithia represent one of the highest-density residential growth zones in Hillsborough County. According to the U.S. Census Bureau, Hillsborough County has consistently ranked among Florida&apos;s fastest-growing counties, and Brandon sits at the center of that residential expansion. That growth means more rooftops, more demand for local services, and more foot traffic for retail operators.</p><p>If you&apos;re also evaluating neighboring submarkets, our <a href='/blog/valrico-commercial-real-estate-guide' className='text-accent underline'>Valrico Commercial Real Estate Guide</a> covers the adjacent submarket in detail.</p>
 
-        <h2>What Should Tenants Know Before Leasing Commercial Space in Brandon?</h2><p>Lease terms in Brandon&apos;s stronger corridors favor landlords right now. Vacancy in well-located retail and medical office product has tightened, and landlords are less willing to offer aggressive concessions than they were a few years ago. That means tenants need to come to the table prepared — with financials, a clear use case, and realistic expectations about tenant improvement allowances.</p><p>One area where tenants frequently get surprised is common area maintenance charges. Before you sign anything in Brandon or anywhere else in Florida, read our breakdown of <a href='/blog/understanding-cam-charges-tenants-guide' className='text-accent underline'>what CAM charges actually mean for tenants</a>. Understanding what you&apos;re paying beyond base rent can meaningfully impact your true occupancy cost.</p><p>Barrett Henry represents tenants across Hillsborough County through <a href='/services/tenant-representation' className='text-accent underline'>tenant representation services</a> — at no cost to the tenant in most cases. Having an experienced REALTOR and advisor on your side means you&apos;re not negotiating blind against a landlord who does this every day.</p><p><strong>Call Barrett directly at (813) 733-7907 to discuss tenant representation for your Brandon commercial space search — and find out what&apos;s available before it hits public listing sites.</strong></p>
+        <h2>What Should Tenants Know Before Leasing Commercial Space in Brandon?</h2><p>Lease terms in Brandon&apos;s stronger corridors favor landlords right now. Vacancy in well-located retail and medical office product has tightened, and landlords are less willing to offer aggressive concessions than they were a few years ago. That means tenants need to come to the table prepared — with financials, a clear use case, and realistic expectations about tenant improvement allowances.</p><p>One area where tenants frequently get surprised is common area maintenance charges. Before you sign anything in Brandon or anywhere else in Florida, read our breakdown of <a href='/blog/understanding-cam-charges-tenants-guide' className='text-accent underline'>what CAM charges actually mean for tenants</a>. Understanding what you&apos;re paying beyond base rent can meaningfully impact your true occupancy cost.</p><p>Barrett Henry represents tenants across Hillsborough County through <a href='/services/tenant-representation' className='text-accent underline'>tenant representation services</a> — at no cost to the tenant in most cases. Having an experienced broker and advisor on your side means you&apos;re not negotiating blind against a landlord who does this every day.</p><p><strong>Call Barrett directly at (813) 733-7907 to discuss tenant representation for your Brandon commercial space search — and find out what&apos;s available before it hits public listing sites.</strong></p>
       </article>
 
       {/* ---- Image 2: Business meeting / tenant rep ---- */}
@@ -237,7 +237,7 @@ export default function BlogPost() {
       </section>
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <h2>What Should Investors Know About the Brandon CRE Market?</h2><p>Brandon attracts investors who want suburban Florida exposure without stepping into the more speculative pricing found in urban core markets. Retail strip centers with established tenants, small professional office buildings, and NNN-leased properties are the most commonly traded product types here. For investors unfamiliar with net lease structures, our guide on <a href='/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it' className='text-accent underline'>why investors love triple-net leases</a> explains the appeal clearly.</p><p>According to the Florida Department of Revenue, Hillsborough County commercial transactions have remained active even as residential sales velocity has shifted — a dynamic we explore in depth in our post on the <a href='/blog/tampa-bay-residential-slowdown-cre-opportunity-2026' className='text-accent underline'>residential slowdown creating CRE opportunity</a>. Investors who understand how to evaluate a commercial asset correctly — not just the sticker price — are the ones finding value in markets like Brandon. Our post on <a href='/blog/what-makes-a-good-commercial-investment' className='text-accent underline'>what makes a good commercial investment</a> is a good starting point if you&apos;re still building your evaluation framework.</p><p>Barrett&apos;s team at REMAX Commercial Real Estate provides <a href='/services/investment-sales' className='text-accent underline'>investment sales advisory</a> and <a href='/services/cre-valuation' className='text-accent underline'>commercial property valuation</a> services across all of <a href='/markets/hillsborough' className='text-accent underline'>Hillsborough County</a>. Whether you&apos;re buying your first investment property or adding to an existing portfolio, having 23+ years of real estate experience on your side matters when the numbers are this close and the inventory is this competitive.</p>
+        <h2>What Should Investors Know About the Brandon CRE Market?</h2><p>Brandon attracts investors who want suburban Florida exposure without stepping into the more speculative pricing found in urban core markets. Retail strip centers with established tenants, small professional office buildings, and NNN-leased properties are the most commonly traded product types here. For investors unfamiliar with net lease structures, our guide on <a href='/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it' className='text-accent underline'>why investors love triple-net leases</a> explains the appeal clearly.</p><p>According to the Florida Department of Revenue, Hillsborough County commercial transactions have remained active even as residential sales velocity has shifted — a dynamic we explore in depth in our post on the <a href='/blog/tampa-bay-residential-slowdown-cre-opportunity-2026' className='text-accent underline'>residential slowdown creating CRE opportunity</a>. Investors who understand how to evaluate a commercial asset correctly — not just the sticker price — are the ones finding value in markets like Brandon. Our post on <a href='/blog/what-makes-a-good-commercial-investment' className='text-accent underline'>what makes a good commercial investment</a> is a good starting point if you&apos;re still building your evaluation framework.</p><p>Barrett&apos;s team at REMAX Collective provides <a href='/services/investment-sales' className='text-accent underline'>investment sales advisory</a> and <a href='/services/cre-valuation' className='text-accent underline'>commercial property valuation</a> services across all of <a href='/markets/hillsborough' className='text-accent underline'>Hillsborough County</a>. Whether you&apos;re buying your first investment property or adding to an existing portfolio, having 23+ years of real estate experience on your side matters when the numbers are this close and the inventory is this competitive.</p>
 
         <h2>Are There Any Risks Specific to Brandon Commercial Properties?</h2><p>No submarket is without risk, and Brandon is no exception. Older commercial buildings along Brandon Boulevard carry deferred maintenance exposure that buyers need to factor into their underwriting. Florida&apos;s insurance environment has added cost pressure to investment property ownership statewide — something we cover in detail in our post on <a href='/blog/florida-insurance-crisis-investment-properties' className='text-accent underline'>how Florida&apos;s insurance crisis affects investment properties</a>. Traffic congestion on key corridors during peak hours can also affect retail performance for certain tenant types.</p><p>Buyers should also be aware that some older flex and warehouse product in the area may have environmental history worth investigating. A thorough due diligence process is non-negotiable, and working with a broker who knows the local inventory and its history is one of the best ways to avoid expensive surprises post-closing. Review our <a href='/blog/commercial-property-due-diligence-timeline' className='text-accent underline'>commercial property due diligence timeline</a> for a complete checklist.</p>
 
@@ -245,7 +245,7 @@ export default function BlogPost() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
@@ -286,9 +286,9 @@ export default function BlogPost() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate &amp; Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He specializes in commercial real estate transactions including retail, medical office, industrial, and investment properties throughout Hillsborough County.
             </p>
           </div>
         </div>
@@ -303,7 +303,7 @@ export default function BlogPost() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
 
       <CTASection
