@@ -1713,3 +1713,100 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Fixed OG title: "Thank You | REMAX Commercial Real Estate" to "Thank You | HenCRE"
 - Added Home to breadcrumbs
 - Expanded quick links from 3 to 6 (added: Florida Markets, CRE Calculators, CRE Insights)
+
+---
+
+## Batch 23 — 2026-08-13
+
+**Commit:** `671fc5b` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/crystal-river-waterfront-commercial-investment-guide`
+- Complete rewrite of auto-generated page
+- Title: 96 chars -> "Crystal River Commercial Real Estate: 2026 Guide | HenCRE" (57 chars)
+- Fixed OG image + Hero backgroundImage: local path -> Unsplash photo-1441974231531
+- Merged dual schemas (articleSchema + faqSchema) -> single @graph with BreadcrumbList
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from sameAs
+- Added "Home" as first breadcrumb item
+- Fixed relatedLinks: added /blog/ prefix to all hrefs, expanded 5 -> 10 links
+- Added inline Image component and Link components throughout article body
+- Fixed em dashes to " -- " in FAQ answers and body
+- Fixed mid-article CTA: removed "REMAX Commercial(r)"
+- Fixed author bio to standard: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Added "Last updated: August 2026" footer; updated dateModified to "2026-08-13"
+- Declared faqItems before schema to fix TypeScript TDZ error
+
+### 2. `/blog/tampa-bay-opportunity-zones-cre-2026`
+- Added `import Link from "next/link"` (needed for author bio)
+- Added standard author bio section between RelatedLinks and CTASection
+- Added legal disclaimer section
+- Schema already correct: @graph with BreadcrumbList + BlogPosting + FAQPage
+
+### 3. `src/app/sitemap.ts`
+- Added "jackson", "jefferson", "lafayette" counties to TIER1_COUNTIES array (44 -> 47)
+- Maintained alphabetical order
+
+### 4. `src/app/markets/page.tsx`
+- Added 3 county cards to MARKETS array: Jackson (Marianna), Jefferson (Monticello), Lafayette (Mayo)
+- Updated "44 Florida counties" -> "47 Florida counties" in 2 places (schema + body text)
+
+### 5. `/blog/land-o-lakes-fitness-gym-wellness-commercial-space`
+- Added `import Link from "next/link"`
+- Fixed OG image: placeholder -> Unsplash photo-1517836357463 (gym interior)
+- Added Hero backgroundImage with same Unsplash image
+- Added "Home" as first breadcrumb item
+- Fixed author bio: removed "REALTOR(r) & Commercial Real Estate Advisor" and "REMAX Commercial(r) division" language; updated to standard bio
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed mid-CTA: "REMAX Commercial Broker" -> "Commercial Real Estate Broker"
+- Expanded relatedLinks: 8 -> 10 (added Brandon CRE and Industrial Warehouse links)
+- Updated dateModified: "2026-07-28" -> "2026-08-13"
+- Updated footer: "July 2026" -> "August 2026"
+- Fixed body text: "REALTOR(r) with commercial experience" -> "commercial tenant representative"
+- Fixed body text: "Barrett Henry is a Commercial Real Estate Advisor at REMAX Commercial Real Estate" -> "Broker Associate at REMAX Collective"
+- Converted all `<a href='...'>` internal links to `<Link>` components (8 links)
+
+### 6. `/blog/tampa-bay-data-center-cre-2026`
+- Added `image` and `sameAs` fields to schema author
+- Updated dateModified: "2026-08-04" -> "2026-08-13"
+- Expanded relatedLinks: 8 -> 10 (added Pinellas County Market and Industrial Warehouse links)
+- Added standard author bio section between RelatedLinks and CTASection
+
+### 7. `/blog/south-tampa-commercial-real-estate-2026`
+- Fixed OG image: placeholder -> Unsplash photo-1480714378408
+- Removed "nowtb.com" from schema sameAs array
+- Added "Home" as first breadcrumb item
+- Updated dateModified: "2026-08-11" -> "2026-08-13"
+- Fixed mid-CTA: "REMAX Commercial Broker" -> "Commercial Real Estate Broker"
+- Fixed author bio: removed "Commercial Real Estate Advisor" subtitle and "REMAX Commercial division" language; updated to standard bio
+- Fixed FAQ answer (schema + faqItems): "REMAX Commercial Real Estate" -> "REMAX Collective"
+- Note: relatedLinks already had 10 entries; all good
+
+### 8. `/blog/brandon-commercial-real-estate-guide-2026`
+- Fixed OG image: placeholder -> Unsplash photo-1501854140801
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed "nowtb.com" from schema sameAs array
+- Added "Home" as first breadcrumb item
+- Updated dateModified: "2026-07-23" -> "2026-08-13"
+- Updated footer: "July 2026" -> "August 2026"
+- Fixed mid-CTA: "REMAX Commercial Broker" -> "Commercial Real Estate Broker"
+- Fixed author bio: removed "Commercial Real Estate Advisor" and "REMAX Commercial division" language; updated to standard bio
+- Fixed FAQ answer (schema + faqItems): "REMAX Commercial Real Estate" -> "REMAX Collective"
+- Fixed body text: "REMAX Commercial Real Estate provides" -> "REMAX Collective provides"
+- Fixed body text: "experienced REALTOR and advisor" -> "experienced broker and advisor"
+- Note: relatedLinks already had 10 entries; all good
+
+### 9. `/blog/lakeland-warehouse-industrial-growth`
+- Added `image` and `sameAs` fields to schema author
+- Updated dateModified: "2026-07-25" -> "2026-08-13"
+- Updated footer: "July 2026" -> "August 2026"
+- Expanded relatedLinks: 4 -> 10 (added 6 links: data center, ROI calculator, NNN lease, tenant rep, good investment, due diligence)
+- Added standard author bio section with legal disclaimer before CTASection
+
+### 10. `/blog/bradenton-commercial-real-estate-opportunities`
+- Added `image` and `sameAs` fields to schema author
+- Updated dateModified: "2026-07-25" -> "2026-08-13"
+- Updated footer: "July 2026" -> "August 2026"
+- Expanded relatedLinks: 4 -> 10 (added 6 links: industrial outlook, good investment, insurance crisis, ROI calc, NNN lease, due diligence)
+- Added standard author bio section with legal disclaimer before CTASection
