@@ -11,7 +11,9 @@ permissions:
 jobs:
   publish-content:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # Raised from 10: this job now runs a full production build as a gate
+    # before pushing, on top of generation.
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,6 +31,17 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+      # Gate: build the site with the newly generated pages BEFORE pushing.
+      # If a generated page doesn't compile, this step fails, the workflow
+      # stops, and nothing is committed — the runner is ephemeral so the bad
+      # pages are discarded. Previously a bad batch pushed straight through
+      # and broke production deploys until the next run happened to fix it.
+      - name: Verify generated pages compile
+        run: npm run build
+        env:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 

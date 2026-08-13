@@ -303,11 +303,15 @@ function generatePageFile(
   const safeTitle = title.replace(/"/g, '\\"');
   const safeDesc = description.replace(/"/g, '\\"');
 
+  // Hero, CTASection, SchemaOrg and Breadcrumbs are all DEFAULT exports.
+  // Emitting braced (named) imports here produced pages that failed the
+  // Vercel build with "Export SchemaOrg doesn't exist in target module",
+  // killing production deploys until the batch was regenerated.
   return `import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { CTASection } from "@/components/CTASection";
-import { SchemaOrg } from "@/components/SchemaOrg";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import SchemaOrg from "@/components/SchemaOrg";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "${safeTitle} | HenCRE",
