@@ -80,7 +80,7 @@ const schema = {
       description:
         "The US 301 corridor in East Tampa is one of Florida's fastest-growing industrial submarkets. Here's what investors need to know about the projects, rental rates, and long-term investment case.",
       datePublished: "2026-08-12",
-      dateModified: "2026-08-12",
+      dateModified: "2026-08-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -270,7 +270,7 @@ export default function EastTampaUS301IndustrialPage() {
           For individual investors, the opportunity is real but requires careful execution. The highest returns will likely come from identifying value-add opportunities — older industrial buildings with below-market rents that can be renovated and re-leased at current rates — or from purchasing well-located land ahead of a development cycle. Stabilized, Class A assets are priced efficiently and leave less margin for error.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you own industrial land or older warehouse property along the US 301 corridor and are considering a sale, institutional demand has created a strong seller&apos;s market. Our partners at <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Fast Sell Easy Sale</a> can provide a fast-close option for owners who want to move quickly without a traditional listing process.
+          If you own industrial land or older warehouse property along the US 301 corridor and are considering a sale, institutional demand has created a strong seller&apos;s market. Our <Link href="/services/dispositions" className="text-accent underline">disposition services</Link> help owners evaluate the full range of exit options, from traditional brokered sales to direct buyer introductions.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
@@ -289,13 +289,31 @@ export default function EastTampaUS301IndustrialPage() {
         <FAQAccordion items={faqItems} />
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="rounded-lg bg-[#f5f5f5] p-6">
-          <p className="text-sm font-semibold text-black">About the Author</p>
-          <p className="mt-2 text-sm text-[#666666]">
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors and tenants across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
-          </p>
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He advises industrial investors and tenants across the East Tampa and US 301 corridor.
+            </p>
+          </div>
         </div>
+      </section>
+
+      {/* ---- Legal Disclaimer ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
       </section>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

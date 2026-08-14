@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: "Discover why Crystal River and Citrus County, FL are emerging commercial real estate opportunities. From tourism-driven retail to waterfront properties, explore the market now.",
     url: "https://hencre.com/blog/crystal-river-citrus-county-commercial-real-estate",
     type: "article",
-    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "Crystal River, Citrus County FL commercial real estate guide" }],
+    images: [{ url: "https://images.unsplash.com/photo-1441974231531-c6227859aa0f?w=1200&h=630&fit=crop", width: 1200, height: 630, alt: "Crystal River, Citrus County FL commercial real estate guide" }],
   },
 };
 
@@ -63,7 +63,7 @@ const schema = {
       headline: "Crystal River Commercial Real Estate: Citrus County Guide",
       description: "Discover why Crystal River and Citrus County, FL are emerging commercial real estate opportunities. From tourism-driven retail to waterfront properties, explore the market now.",
       datePublished: "2026-07-18",
-      dateModified: "2026-07-28",
+      dateModified: "2026-08-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -112,6 +112,31 @@ const relatedLinks = [
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "Apply the fundamentals of evaluating commercial investments to emerging markets like Citrus County, FL.",
   },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "Essential due diligence steps for buying commercial property in secondary Florida markets.",
+  },
+  {
+    title: "Florida 1031 Exchange Guide for Investors",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "Defer capital gains and reinvest into Crystal River or Citrus County commercial properties.",
+  },
+  {
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "Evaluate cap rates and returns before committing to any Citrus County commercial acquisition.",
+  },
+  {
+    title: "Citrus County Market",
+    href: "/markets/citrus",
+    description: "Commercial real estate data and trends for Citrus County, FL.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Barrett represents buyers and sellers of commercial properties across all 67 Florida counties.",
+  },
 ];
 
 export default function BlogPost() {
@@ -121,12 +146,14 @@ export default function BlogPost() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Crystal River Commercial Real Estate: Citrus County Guide", href: "/blog/crystal-river-citrus-county-commercial-real-estate" },
         ]}
       />
 
       <Hero
+        backgroundImage="https://images.unsplash.com/photo-1441974231531-c6227859aa0f?w=1600&h=900&fit=crop"
         title="Crystal River Commercial Real Estate: Citrus County Guide"
         subtitle="Discover why Crystal River and Citrus County, FL are emerging commercial real estate opportunities. From tourism-driven retail to waterfront properties, explore the market now."
       />
@@ -136,14 +163,14 @@ export default function BlogPost() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
@@ -166,11 +193,9 @@ export default function BlogPost() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
-              operating under the REMAX Commercial division. He serves all 67 Florida counties from
-              offices in Tampa, Largo, and Brandon, including secondary markets like Citrus County and Crystal River.
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon, including secondary and tertiary markets like Citrus County and Crystal River.
             </p>
           </div>
         </div>

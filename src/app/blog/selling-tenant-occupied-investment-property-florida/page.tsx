@@ -83,7 +83,7 @@ const schema = {
       description:
         "Practical guide for Florida landlords navigating the sale of tenant-occupied properties.",
       datePublished: "2026-06-17",
-      dateModified: "2026-07-28",
+      dateModified: "2026-08-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -132,6 +132,31 @@ const relatedLinks = [
     href: "/blog/florida-1031-exchange-what-investors-need-to-know",
     description: "Defer capital gains when selling and reinvest into a replacement property.",
   },
+  {
+    title: "Investment Property Divorce Liquidation Florida",
+    href: "/blog/investment-property-divorce-liquidation-florida",
+    description: "How to handle the forced sale of jointly-owned investment property during divorce.",
+  },
+  {
+    title: "Termite Damage in Florida Investment Properties",
+    href: "/blog/termite-damage-investment-property-florida",
+    description: "Repair versus sell analysis for Florida investment properties with pest damage.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "What the inspection and review period looks like for Florida commercial deals.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "The fundamentals that separate good commercial real estate deals from bad ones.",
+  },
+  {
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "Cap rate, cash-on-cash, and IRR calculations explained for Florida investors.",
+  },
 ];
 
 export default function TenantOccupiedSalePage() {
@@ -141,6 +166,7 @@ export default function TenantOccupiedSalePage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Selling Tenant-Occupied Investment Property", href: "/blog/selling-tenant-occupied-investment-property-florida" },
         ]}
@@ -269,14 +295,14 @@ export default function TenantOccupiedSalePage() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
@@ -299,11 +325,11 @@ export default function TenantOccupiedSalePage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
-              specializing in investment property dispositions across Tampa Bay and all 67 Florida
-              counties. Offices in Tampa, Largo, and Brandon.
+              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate
+              experience, specializing in investment property dispositions across Tampa Bay and all 67
+              Florida counties. Offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>

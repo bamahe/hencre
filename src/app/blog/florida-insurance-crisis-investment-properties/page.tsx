@@ -77,11 +77,13 @@ const schema = {
       headline: "Florida's Insurance Crisis and Your Investment Property",
       description: "How surging property insurance premiums are reshaping ROI for Tampa Bay landlords -- and exit options.",
       datePublished: "2026-06-17",
-      dateModified: "2026-07-27",
+      dateModified: "2026-08-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -138,6 +140,16 @@ const relatedLinks = [
     title: "How to Calculate Commercial Property ROI",
     href: "/blog/how-to-calculate-commercial-property-roi",
     description: "Model your updated pro forma with current insurance, taxes, and rental data.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "What to verify before buying any Florida investment property in today's insurance environment.",
+  },
+  {
+    title: "Multifamily Investment in Tampa Bay",
+    href: "/blog/multifamily-investment-tampa-bay-guide",
+    description: "How rising insurance costs are reshaping multifamily underwriting across Tampa Bay.",
   },
 ];
 
@@ -291,9 +303,9 @@ export default function InsuranceCrisisInvestmentPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He advises investment property owners on hold-versus-sell decisions using current market data.
             </p>
           </div>
         </div>
@@ -304,7 +316,7 @@ export default function InsuranceCrisisInvestmentPage() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: July 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: August 2026</p>
       </section>
 
       <CTASection

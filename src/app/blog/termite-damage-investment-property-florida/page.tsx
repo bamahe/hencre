@@ -78,7 +78,7 @@ const schema = {
       description:
         "WDO findings on Florida investment properties trigger mandatory lender repair requirements that can consume years of rental income. Here is how to evaluate the repair-vs-sell decision.",
       datePublished: "2026-06-24",
-      dateModified: "2026-07-28",
+      dateModified: "2026-08-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -127,6 +127,31 @@ const relatedLinks = [
     href: "/blog/commercial-property-due-diligence-timeline",
     description: "What to inspect and verify before committing to any Florida investment property acquisition.",
   },
+  {
+    title: "Investment Property Divorce Liquidation Florida",
+    href: "/blog/investment-property-divorce-liquidation-florida",
+    description: "How forced sale timelines affect exit options for jointly-owned investment property.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "How surging insurance premiums are reshaping ROI and exit decisions for Tampa Bay landlords.",
+  },
+  {
+    title: "Multifamily Investment in Tampa Bay",
+    href: "/blog/multifamily-investment-tampa-bay-guide",
+    description: "What the 2026 Tampa Bay multifamily market means for buyers and sellers.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "The fundamentals that separate good commercial real estate deals from bad ones.",
+  },
+  {
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "Cap rate, cash-on-cash, and IRR calculations explained for Florida investors.",
+  },
 ];
 
 export default function TermiteDamageInvestmentPropertyPage() {
@@ -135,6 +160,7 @@ export default function TermiteDamageInvestmentPropertyPage() {
       <SchemaOrg schema={schema} />
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Termite Damage in Florida Investment Property", href: "/blog/termite-damage-investment-property-florida" },
         ]}
@@ -262,14 +288,14 @@ export default function TermiteDamageInvestmentPropertyPage() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
@@ -292,12 +318,12 @@ export default function TermiteDamageInvestmentPropertyPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
-              operating under the REMAX Commercial division. He evaluates investment property exit
-              scenarios across all 67 Florida counties, including distressed, condition-challenged,
-              and tenant-occupied situations. Offices in Tampa, Largo, and Brandon.
+              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate
+              experience. He evaluates investment property exit scenarios across all 67 Florida
+              counties, including distressed, condition-challenged, and tenant-occupied situations.
+              Offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>

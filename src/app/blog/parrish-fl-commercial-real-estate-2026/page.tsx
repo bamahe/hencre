@@ -64,11 +64,13 @@ const schema = {
       headline: "Parrish FL Commercial Real Estate 2026: Opportunity in a Boom Town",
       description: "Parrish is Manatee County's fastest-growing community. Commercial investors and tenants who move now are capturing opportunity before competition arrives. Call (813) 733-7907.",
       datePublished: "2026-07-21",
-      dateModified: "2026-07-27",
+      dateModified: "2026-08-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -121,6 +123,21 @@ const relatedLinks = [
     href: "/services/tenant-representation",
     description: "How Barrett represents commercial tenants searching for space in Parrish and across Florida.",
   },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "Key due diligence steps before acquiring land or commercial property in an emerging Manatee County market.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "Understand insurance cost exposure before committing to any Parrish commercial investment.",
+  },
+  {
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "Cap rate and return analysis for emerging Florida commercial markets like Parrish.",
+  },
 ];
 
 export default function BlogPost() {
@@ -137,8 +154,9 @@ export default function BlogPost() {
       />
 
       <Hero
+        backgroundImage="https://images.unsplash.com/photo-1448630360428-65456885c650?w=1600&h=900&fit=crop"
         title="Parrish FL Commercial Real Estate 2026: Opportunity in a Boom Town"
-        subtitle="Parrish is Manatee County's fastest-growing community. Commercial investors and tenants who move now are capturing opportunity before competition arrives. Call (813) 733-7907."
+        subtitle="Parrish is Manatee County&apos;s fastest-growing community. Commercial investors and tenants who move now are capturing opportunity before competition arrives."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
@@ -179,7 +197,7 @@ export default function BlogPost() {
 
         <h2>What Is Barrett Henry's Approach to the Parrish Market?</h2>
         <p>Barrett Henry operates across all of Manatee County and has been tracking the Parrish commercial market as the residential growth story has accelerated. His approach with Parrish clients — whether investors, tenants, or owner-users — starts with a realistic assessment of timing and risk profile. Not every client is positioned for an emerging market play. For those who are, Barrett works to identify the specific sites, corridors, and property types where the fundamentals are strongest and the competition is lightest.</p>
-        <p>REMAX Commercial Real Estate's presence across the Tampa Bay region means Barrett brings both local Manatee County market intelligence and the broader regional context that helps clients understand how Parrish fits into the overall commercial landscape. Whether you're evaluating land, a small retail strip, a ground-up development opportunity, or a flex warehouse position, the first conversation is free.</p>
+        <p>REMAX Collective&apos;s presence across the Tampa Bay region means Barrett brings both local Manatee County market intelligence and the broader regional context that helps clients understand how Parrish fits into the overall commercial landscape. Whether you're evaluating land, a small retail strip, a ground-up development opportunity, or a flex warehouse position, the first conversation is free.</p>
         <p><strong>Call Barrett directly at (813) 733-7907 to discuss what's available in Parrish and how to position ahead of the commercial wave following the residential boom.</strong></p>
 
         <div className="my-10 overflow-hidden rounded-lg">
@@ -223,9 +241,9 @@ export default function BlogPost() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR® &amp; Broker Associate at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial® division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He tracks the Parrish and northern Manatee County commercial market for tenants and investors.
             </p>
           </div>
         </div>
@@ -233,7 +251,7 @@ export default function BlogPost() {
 
       {/* ---- Legal Disclaimer ---- */}
       <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#999999]">Last updated: July 2026</p>
+        <p className="text-xs text-[#999999]">Last updated: August 2026</p>
         <p className="mt-1 text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>

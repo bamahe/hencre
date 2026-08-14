@@ -80,11 +80,13 @@ const schema = {
       description:
         "Pasco County commercial real estate growth — development trends, key corridors, and investment opportunities.",
       datePublished: "2026-06-07",
-      dateModified: "2026-07-26",
+      dateModified: "2026-08-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -115,7 +117,7 @@ const relatedLinks = [
   {
     title: "Wesley Chapel CRE Investor Guide 2026",
     href: "/blog/wesley-chapel-commercial-real-estate-2026",
-    description: "Deep dive into Wesley Chapel — Pasco County&apos;s dominant commercial node.",
+    description: "Deep dive into Wesley Chapel -- Pasco County&apos;s dominant commercial node.",
   },
   {
     title: "Retail Space Listings",
@@ -126,6 +128,31 @@ const relatedLinks = [
     title: "Investment Sales Services",
     href: "/services/investment-sales",
     description: "How we help investors acquire commercial properties.",
+  },
+  {
+    title: "Commercial Property Zoning Florida Basics",
+    href: "/blog/commercial-property-zoning-florida-basics",
+    description: "Essential zoning knowledge before acquiring land or commercial property in Pasco County.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "Flood zones, wetlands, and utility capacity -- what to verify before buying in Pasco.",
+  },
+  {
+    title: "East Tampa US 301 Industrial Corridor 2026",
+    href: "/blog/east-tampa-us-301-industrial-corridor-2026",
+    description: "How East Tampa competes with Pasco County for large industrial users.",
+  },
+  {
+    title: "Multifamily Investment in Tampa Bay",
+    href: "/blog/multifamily-investment-tampa-bay-guide",
+    description: "Multifamily demand in Pasco County is growing alongside retail and industrial.",
+  },
+  {
+    title: "Land Development Commercial",
+    href: "/commercial/land-development",
+    description: "Browse land and development opportunities across the Pasco County growth corridor.",
   },
 ];
 
@@ -225,10 +252,37 @@ export default function PascoCountyDevelopmentPage() {
 
         <FAQAccordion items={faqItems} />
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He tracks the Pasco County commercial market for investors and business owners across the full growth corridor.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Legal Disclaimer ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
 
       <CTASection
         heading="Exploring Pasco County CRE Opportunities?"

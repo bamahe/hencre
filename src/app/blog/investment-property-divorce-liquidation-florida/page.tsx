@@ -78,7 +78,7 @@ const schema = {
       description:
         "Divorce-driven liquidation of Florida investment property involves court timelines, equitable distribution, and capital gains exposure that require specific planning before the sale closes.",
       datePublished: "2026-06-24",
-      dateModified: "2026-07-28",
+      dateModified: "2026-08-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -127,6 +127,31 @@ const relatedLinks = [
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "Understand how to evaluate replacement property before redeploying divorce proceeds.",
   },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "What to inspect and verify before committing capital to any replacement property.",
+  },
+  {
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "Model returns on replacement commercial assets before the 45-day identification window closes.",
+  },
+  {
+    title: "Hillsborough County Market",
+    href: "/markets/hillsborough",
+    description: "Commercial investment opportunities in Hillsborough County for 1031 replacement buyers.",
+  },
+  {
+    title: "CRE Valuation Services",
+    href: "/services/cre-valuation",
+    description: "Get a fair market value opinion for buyout negotiations or estate planning purposes.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "Rising insurance costs are a key factor in the hold-versus-sell analysis for Florida investment property.",
+  },
 ];
 
 export default function InvestmentPropertyDivorceLiquidationPage() {
@@ -135,6 +160,7 @@ export default function InvestmentPropertyDivorceLiquidationPage() {
       <SchemaOrg schema={schema} />
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Investment Property Divorce Liquidation Florida", href: "/blog/investment-property-divorce-liquidation-florida" },
         ]}
@@ -273,14 +299,14 @@ export default function InvestmentPropertyDivorceLiquidationPage() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
@@ -303,12 +329,9 @@ export default function InvestmentPropertyDivorceLiquidationPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
-              operating under the REMAX Commercial division. He works with investment property owners,
-              estates, and legal counsel on complex disposition situations across all 67 Florida counties.
-              Offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He works with investment property owners, estates, and legal counsel on complex disposition situations.
             </p>
           </div>
         </div>

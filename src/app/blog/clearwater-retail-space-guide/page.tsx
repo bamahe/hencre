@@ -73,11 +73,13 @@ const schema = {
       headline: "Clearwater Retail Space Guide",
       description: "Clearwater retail market — top corridors, rental rate trends, and investment opportunities.",
       datePublished: "2026-05-24",
-      dateModified: "2026-07-25",
+      dateModified: "2026-08-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -114,6 +116,36 @@ const relatedLinks = [
     title: "Tenant Representation",
     href: "/services/tenant-representation",
     description: "How a broker helps you secure the right retail space.",
+  },
+  {
+    title: "What Is a Triple-Net (NNN) Lease?",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "How NNN lease structure affects retail tenant costs and investor returns.",
+  },
+  {
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "Cap rate and return analysis for Clearwater retail investment properties.",
+  },
+  {
+    title: "St. Petersburg Commercial Real Estate 2026",
+    href: "/blog/st-petersburg-commercial-real-estate-2026",
+    description: "How the neighboring Pinellas County metro compares to the Clearwater market.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Evaluating retail investment opportunities in Pinellas County.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment?",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "Key criteria for evaluating any retail or commercial property purchase.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "How rising insurance costs affect retail investment underwriting in coastal Pinellas.",
   },
 ];
 
@@ -224,10 +256,37 @@ export default function ClearwaterRetailGuidePage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <img
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He advises retail tenants and investors across Clearwater and the Pinellas County market.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Legal Disclaimer ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
 
       <CTASection
         heading="Looking for Retail Space in Clearwater?"
