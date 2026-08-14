@@ -4,6 +4,94 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-14 -- Batch 24 (10 blog pages improved)
+
+**Commit:** `6f6846a` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/clearwater-retail-space-guide`
+- Added `image` and `sameAs` to schema author
+- Updated `dateModified` to "2026-08-14"
+- Expanded relatedLinks 4 -> 10 (added: NNN Lease, ROI Calculator, St. Petersburg CRE, Investment Sales, What Makes Good Investment, Florida Insurance Crisis)
+- Added standard author bio section before CTASection
+- Added legal disclaimer section before CTASection
+- Updated footer: "July 2026" -> "August 2026"
+
+### 2. `/blog/crystal-river-citrus-county-commercial-real-estate`
+- Fixed OG image: placeholder -> Unsplash photo-1441974231531
+- Added Hero backgroundImage with same Unsplash image at w=1600
+- Added "Home" as first breadcrumb item (was missing)
+- Fixed mid-CTA: "Talk to a REMAX Commercial Broker" -> "Talk to a Commercial Real Estate Broker"
+- Fixed author bio subtitle: "23+ Years" -> "e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author bio body: removed "licensed Florida REALTOR" and "REMAX Commercial division"
+- Expanded relatedLinks 5 -> 10 (added: Due Diligence, 1031 Exchange, ROI Calculator, Citrus County Market, Investment Sales)
+- Updated `dateModified` to "2026-08-14"; footer updated to August 2026
+
+### 3. `/blog/east-tampa-us-301-industrial-corridor-2026`
+- Removed fastselleasysale.com external link; replaced with internal Link to /services/dispositions
+- Upgraded author bio from plain gray box to standard card with headshot img
+- Added legal disclaimer section (was missing)
+- Updated `dateModified` to "2026-08-14"
+
+### 4. `/blog/florida-insurance-crisis-investment-properties`
+- Added schema author `image` and `sameAs` fields
+- Updated `dateModified` to "2026-08-14"
+- Fixed author bio subtitle: added "e-PRO, MRP, SRS | REMAX Hall of Fame"; removed "Broker Associate at REMAX Collective" redundancy
+- Fixed author bio body: removed "operates under the REMAX Commercial division"
+- Expanded relatedLinks 8 -> 10 (added: Due Diligence Timeline, Multifamily Investment)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 5. `/blog/investment-property-divorce-liquidation-florida`
+- Added "Home" as first breadcrumb item
+- Fixed mid-CTA: "Talk to a REMAX Commercial Broker" -> "Talk to a Commercial Real Estate Broker"
+- Updated `dateModified` to "2026-08-14"
+- Fixed author bio subtitle and body text (removed "licensed Florida REALTOR", "REMAX Commercial division")
+- Expanded relatedLinks 5 -> 10 (added: Due Diligence, ROI Calculator, Hillsborough Market, CRE Valuation, Insurance Crisis)
+- Updated footer to August 2026
+
+### 6. `/blog/parrish-fl-commercial-real-estate-2026`
+- Added schema author `image` and `sameAs` fields
+- Added Hero backgroundImage: Unsplash photo-1448630360428
+- Fixed Hero subtitle (removed phone number; escaped apostrophe)
+- Fixed author bio subtitle: "REALTOR(r) & Broker Associate" -> "e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author bio body: removed "REMAX Commercial(r) division"
+- Fixed body text: "REMAX Commercial Real Estate's presence" -> "REMAX Collective's presence"
+- Expanded relatedLinks 7 -> 10 (added: Due Diligence, Insurance Crisis, ROI Calculator)
+- Updated `dateModified` to "2026-08-14"; footer updated to August 2026
+
+### 7. `/blog/pasco-county-commercial-development-2026`
+- Added schema author `image` and `sameAs` fields
+- Updated `dateModified` to "2026-08-14"
+- Expanded relatedLinks 5 -> 10 (added: Commercial Zoning, Due Diligence, East Tampa Industrial, Multifamily Investment, Land Development)
+- Added author bio section (was completely missing)
+- Added legal disclaimer section (was completely missing)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 8. `/blog/sarasota-warehouse-distribution-space-guide`
+- Fixed body text: "REALTOR(r) working as a tenant representative" -> "A broker working as a tenant representative"
+- Fixed body text: "under REMAX Commercial Real Estate" -> "at REMAX Collective"
+- Fixed mid-CTA: "REMAX Commercial(r) Broker" -> "Commercial Real Estate Broker"
+- Fixed author bio subtitle and body (removed "REALTOR(r) & Commercial Real Estate Advisor", "REMAX Commercial division")
+- Updated `dateModified` to "2026-08-14"; footer updated to August 2026
+- Note: relatedLinks already had 10 entries -- no expansion needed
+
+### 9. `/blog/selling-tenant-occupied-investment-property-florida`
+- Added "Home" as first breadcrumb item
+- Fixed mid-CTA: "Talk to a REMAX Commercial Broker" -> "Talk to a Commercial Real Estate Broker"
+- Fixed author bio subtitle: "23+ Years of Real Estate Experience" -> "e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author bio body: removed "licensed Florida REALTOR and"
+- Expanded relatedLinks 5 -> 10 (added: Investment Property Divorce, Termite Damage, Due Diligence Timeline, What Makes Good Investment, How to Calculate ROI)
+- Updated `dateModified` to "2026-08-14"; footer updated to August 2026
+
+### 10. `/blog/termite-damage-investment-property-florida`
+- Added "Home" as first breadcrumb item
+- Fixed mid-CTA: "Talk to a REMAX Commercial Broker" -> "Talk to a Commercial Real Estate Broker"
+- Fixed author bio subtitle: "23+ Years of Real Estate Experience" -> "e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author bio body: removed "licensed Florida REALTOR and", removed "operating under the REMAX Commercial division"
+- Expanded relatedLinks 5 -> 10 (added: Investment Property Divorce, Insurance Crisis, Multifamily Investment, What Makes Good Investment, How to Calculate ROI)
+- Updated `dateModified` to "2026-08-14"; footer updated to August 2026
+
+---
+
 ## 2026-08-12 -- Batch 22 (10 pages: blog SEO pass)
 
 ### 1. `/blog/tampa-bay-nnn-cap-rates-2026`
