@@ -4,6 +4,93 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-15 -- Batch 25 (10 pages improved)
+
+**Commit:** `9bb0631` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/bradenton-manatee-county-commercial-real-estate-2026`
+- Complete rewrite (auto-generated page had multiple structural issues)
+- Merged dual SchemaOrg components into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Added `image` and `sameAs` to schema author
+- Added "Home" as first breadcrumb item
+- Fixed relatedLinks: added missing /blog/ prefix to all hrefs, expanded to 10 items
+- Added internal Link components throughout article body
+- Removed HUD/FHA/HOPE residential "Free Resources" section (irrelevant to CRE)
+- Fixed author bio to standard: "Broker Associate at REMAX Collective"
+- Updated dateModified: "2026-08-14" -> "2026-08-15"
+
+### 2. `/blog/sale-leaseback-commercial-real-estate-tampa-bay`
+- Updated dateModified: "2026-08-13" -> "2026-08-15"
+- Expanded relatedLinks: 8 -> 10 (added SBA 504 loan guide, leasing-vs-buying-commercial)
+
+### 3. `/insights/what-is-a-cap-rate`
+- Added `image` and `sameAs` to schema author
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE" (removed logo block)
+- Updated dateModified: "2026-07-23" -> "2026-08-15"
+- Added "Home" as first breadcrumb item
+- Expanded relatedLinks: 4 -> 7 (added NNN cap rates 2026, cap rate calculator, investment sales)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 4. `/insights/nnn-lease-explained`
+- Added `image` and `sameAs` to schema author
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Updated dateModified: "2026-07-23" -> "2026-08-15"
+- Added "Home" as first breadcrumb item
+- Expanded relatedLinks: 4 -> 7 (added NNN net lease, NNN cap rates 2026, why investors love NNN)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 5. `/insights/cre-due-diligence-checklist`
+- Added `image` and `sameAs` to schema author
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE" (removed logo block)
+- Updated dateModified: "2026-07-24" -> "2026-08-15"
+- Added "Home" as first breadcrumb item
+- Expanded relatedLinks: 4 -> 7 (added earnest money deposits, insurance crisis, due diligence timeline)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 6. `/insights/how-to-value-commercial-property`
+- Added `image` and `sameAs` to schema author
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE" (removed logo block)
+- Updated dateModified: "2026-07-24" -> "2026-08-15"
+- Added "Home" as first breadcrumb item
+- Expanded relatedLinks: 4 -> 7 (added CRE valuation services, NNN cap rates 2026, ROI calculator)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 7. `/insights/1031-exchange-basics`
+- Added `image` and `sameAs` to schema author
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE" (removed logo block)
+- Updated dateModified: "2026-07-24" -> "2026-08-15"
+- Added "Home" as first breadcrumb item
+- Expanded relatedLinks: 4 -> 7 (added sale-leaseback, NNN net lease, multifamily)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 8. `/insights/leasing-vs-buying-commercial`
+- Added `image` and `sameAs` to schema author
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE" (removed logo block)
+- Updated dateModified: "2026-07-24" -> "2026-08-15"
+- Added "Home" as first breadcrumb item
+- Expanded relatedLinks: 4 -> 7 (added sale-leaseback, tenant representation, office space)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 9. `/insights/cam-charges-explained`
+- Added `image` and `sameAs` to schema author
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE" (removed logo block)
+- Updated dateModified: "2026-07-24" -> "2026-08-15"
+- Added "Home" as first breadcrumb item
+- Expanded relatedLinks: 4 -> 7 (added CAM tenants guide, commercial vs residential leases, tenant rep services)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 10. `/insights/gross-vs-net-lease`
+- Added `image` and `sameAs` to schema author
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE" (removed logo block)
+- Updated dateModified: "2026-07-24" -> "2026-08-15"
+- Added "Home" as first breadcrumb item
+- Expanded relatedLinks: 4 -> 7 (added 1031 exchange basics, CAM tenants guide, commercial vs residential leases)
+- Updated footer: "July 2026" -> "August 2026"
+
+---
+
 ## 2026-08-14 -- Batch 24 (10 blog pages improved)
 
 **Commit:** `6f6846a` | **Build:** clean (0 errors) | **Pages improved:** 10
