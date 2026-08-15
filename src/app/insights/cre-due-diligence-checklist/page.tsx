@@ -75,17 +75,14 @@ const schema = {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-07-24",
+      dateModified: "2026-08-15",
       image: "https://hencre.com/og-image.png",
-      publisher: {
-        "@type": "Organization",
-        name: "REMAX Commercial Real Estate",
-        url: "https://hencre.com",
-        logo: { "@type": "ImageObject", url: "https://hencre.com/icon-512.png" },
-      },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/cre-due-diligence-checklist",
     },
     {
@@ -120,6 +117,21 @@ const relatedLinks = [
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "Investment criteria from a broker&apos;s perspective.",
   },
+  {
+    title: "Commercial Earnest Money Deposits in Florida",
+    href: "/blog/commercial-earnest-money-deposits-florida-investors",
+    description: "What to know about earnest money before you make an offer.",
+  },
+  {
+    title: "Florida Insurance Crisis and Investment Properties",
+    href: "/blog/florida-insurance-crisis-investment-properties",
+    description: "How rising insurance costs affect commercial investment decisions.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "Week-by-week schedule for completing due diligence on time.",
+  },
 ];
 
 export default function DueDiligencePage() {
@@ -129,6 +141,7 @@ export default function DueDiligencePage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "Due Diligence Checklist", href: "/insights/cre-due-diligence-checklist" },
         ]}
@@ -271,7 +284,7 @@ export default function DueDiligencePage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

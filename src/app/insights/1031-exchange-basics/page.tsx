@@ -75,17 +75,14 @@ const schema = {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-07-24",
+      dateModified: "2026-08-15",
       image: "https://hencre.com/og-image.png",
-      publisher: {
-        "@type": "Organization",
-        name: "REMAX Commercial Real Estate",
-        url: "https://hencre.com",
-        logo: { "@type": "ImageObject", url: "https://hencre.com/icon-512.png" },
-      },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/1031-exchange-basics",
     },
     {
@@ -120,6 +117,21 @@ const relatedLinks = [
     href: "/insights/cre-due-diligence-checklist",
     description: "Comprehensive checklist for evaluating commercial properties.",
   },
+  {
+    title: "Sale-Leaseback Commercial Real Estate Tampa Bay",
+    href: "/blog/sale-leaseback-commercial-real-estate-tampa-bay",
+    description: "How sale-leasebacks can serve as 1031 replacement property.",
+  },
+  {
+    title: "NNN Net Lease Properties",
+    href: "/commercial/nnn-net-lease",
+    description: "Popular 1031 replacement property type — stable income, low management.",
+  },
+  {
+    title: "Multifamily Commercial Properties",
+    href: "/commercial/multifamily",
+    description: "Multifamily assets make strong 1031 exchange replacement candidates.",
+  },
 ];
 
 export default function ExchangeBasicsPage() {
@@ -129,6 +141,7 @@ export default function ExchangeBasicsPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "1031 Exchange Basics", href: "/insights/1031-exchange-basics" },
         ]}
@@ -264,7 +277,7 @@ export default function ExchangeBasicsPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

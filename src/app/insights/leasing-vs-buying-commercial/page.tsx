@@ -75,17 +75,14 @@ const schema = {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-07-24",
+      dateModified: "2026-08-15",
       image: "https://hencre.com/og-image.png",
-      publisher: {
-        "@type": "Organization",
-        name: "REMAX Commercial Real Estate",
-        url: "https://hencre.com",
-        logo: { "@type": "ImageObject", url: "https://hencre.com/icon-512.png" },
-      },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/leasing-vs-buying-commercial",
     },
     {
@@ -120,6 +117,21 @@ const relatedLinks = [
     href: "/blog/do-you-need-a-commercial-real-estate-broker",
     description: "When and why to hire a CRE broker.",
   },
+  {
+    title: "Sale-Leaseback Commercial Real Estate Tampa Bay",
+    href: "/blog/sale-leaseback-commercial-real-estate-tampa-bay",
+    description: "How sale-leasebacks let business owners unlock equity without relocating.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "How Barrett advocates for tenants in lease negotiations.",
+  },
+  {
+    title: "Commercial Office Space",
+    href: "/commercial/office-space",
+    description: "Available office space listings across Tampa Bay and Florida.",
+  },
 ];
 
 export default function LeasingVsBuyingPage() {
@@ -129,6 +141,7 @@ export default function LeasingVsBuyingPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "Leasing vs. Buying", href: "/insights/leasing-vs-buying-commercial" },
         ]}
@@ -289,7 +302,7 @@ export default function LeasingVsBuyingPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

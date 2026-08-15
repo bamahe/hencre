@@ -75,17 +75,14 @@ const schema = {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-07-24",
+      dateModified: "2026-08-15",
       image: "https://hencre.com/og-image.png",
-      publisher: {
-        "@type": "Organization",
-        name: "REMAX Commercial Real Estate",
-        url: "https://hencre.com",
-        logo: { "@type": "ImageObject", url: "https://hencre.com/icon-512.png" },
-      },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/gross-vs-net-lease",
     },
     {
@@ -120,6 +117,21 @@ const relatedLinks = [
     href: "/blog/5-mistakes-first-time-commercial-tenants-make",
     description: "Common tenant missteps and how to avoid them.",
   },
+  {
+    title: "1031 Exchange Basics",
+    href: "/insights/1031-exchange-basics",
+    description: "Tax-deferred exchanges for commercial real estate investors.",
+  },
+  {
+    title: "Understanding CAM Charges: Tenants Guide",
+    href: "/blog/understanding-cam-charges-tenants-guide",
+    description: "Detailed guide to reading and disputing CAM reconciliations.",
+  },
+  {
+    title: "How Commercial Leases Differ from Residential",
+    href: "/blog/how-commercial-leases-differ-from-residential",
+    description: "Key differences every new commercial tenant should know.",
+  },
 ];
 
 export default function GrossVsNetPage() {
@@ -129,6 +141,7 @@ export default function GrossVsNetPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "Gross vs. Net Lease", href: "/insights/gross-vs-net-lease" },
         ]}
@@ -321,7 +334,7 @@ export default function GrossVsNetPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

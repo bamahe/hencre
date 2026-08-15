@@ -47,11 +47,13 @@ const schema = {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-07-23",
-      publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+      dateModified: "2026-08-15",
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/nnn-lease-explained",
     },
     {
@@ -151,6 +153,21 @@ const relatedLinks = [
     href: "/blog/5-mistakes-first-time-commercial-tenants-make",
     description: "Common tenant pitfalls and how to sidestep them.",
   },
+  {
+    title: "NNN Net Lease Properties",
+    href: "/commercial/nnn-net-lease",
+    description: "Browse available NNN investment properties in Florida.",
+  },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "Current cap rate benchmarks for net-lease investments across Tampa Bay.",
+  },
+  {
+    title: "Why Investors Love NNN Properties",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "The case for NNN investments from an investor's perspective.",
+  },
 ];
 
 export default function NNNLeasePage() {
@@ -160,6 +177,7 @@ export default function NNNLeasePage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "NNN Lease Explained", href: "/insights/nnn-lease-explained" },
         ]}
@@ -327,7 +345,7 @@ export default function NNNLeasePage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

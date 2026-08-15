@@ -75,17 +75,14 @@ const schema = {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-07-24",
+      dateModified: "2026-08-15",
       image: "https://hencre.com/og-image.png",
-      publisher: {
-        "@type": "Organization",
-        name: "REMAX Commercial Real Estate",
-        url: "https://hencre.com",
-        logo: { "@type": "ImageObject", url: "https://hencre.com/icon-512.png" },
-      },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/how-to-value-commercial-property",
     },
     {
@@ -120,6 +117,21 @@ const relatedLinks = [
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "Investment criteria from a broker&apos;s perspective.",
   },
+  {
+    title: "CRE Valuation Services",
+    href: "/services/cre-valuation",
+    description: "Broker&apos;s opinions of value for acquisitions, dispositions, and refinancing.",
+  },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "Current cap rate benchmarks for net-lease investments across Tampa Bay.",
+  },
+  {
+    title: "ROI Calculator",
+    href: "/calculators/roi",
+    description: "Model commercial real estate returns with your own numbers.",
+  },
 ];
 
 export default function ValuationPage() {
@@ -129,6 +141,7 @@ export default function ValuationPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "How to Value Commercial Property", href: "/insights/how-to-value-commercial-property" },
         ]}
@@ -283,7 +296,7 @@ export default function ValuationPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

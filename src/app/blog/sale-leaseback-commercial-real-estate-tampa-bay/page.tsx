@@ -86,7 +86,7 @@ const schema = {
       description:
         "How sale-leaseback transactions work in Tampa Bay — for business owners seeking capital and investors seeking tenant-occupied assets.",
       datePublished: "2026-08-13",
-      dateModified: "2026-08-13",
+      dateModified: "2026-08-15",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -149,6 +149,16 @@ const relatedLinks = [
     title: "What Makes a Good Commercial Investment?",
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "Tenant quality, lease structure, and location criteria for CRE investors.",
+  },
+  {
+    title: "SBA 504 Loan for Commercial Real Estate Tampa Bay",
+    href: "/blog/sba-504-loan-commercial-real-estate-tampa-bay",
+    description: "SBA 504 financing for owner-occupied commercial properties in Tampa Bay.",
+  },
+  {
+    title: "Leasing vs. Buying Commercial Space",
+    href: "/insights/leasing-vs-buying-commercial",
+    description: "Decision framework for business owners weighing lease vs. ownership.",
   },
 ];
 

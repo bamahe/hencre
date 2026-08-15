@@ -76,17 +76,14 @@ const schema = {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-07",
-      dateModified: "2026-07-23",
+      dateModified: "2026-08-15",
       image: "https://hencre.com/og-image.png",
-      publisher: {
-        "@type": "Organization",
-        name: "REMAX Commercial Real Estate",
-        url: "https://hencre.com",
-        logo: { "@type": "ImageObject", url: "https://hencre.com/icon-512.png" },
-      },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/what-is-a-cap-rate",
     },
     {
@@ -122,6 +119,21 @@ const relatedLinks = [
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "Investment criteria from a broker's perspective.",
   },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "Current cap rate benchmarks for net-lease investments across Tampa Bay.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Calculate cap rates instantly for any commercial property.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett structures commercial investment transactions for buyers and sellers.",
+  },
 ];
 
 export default function CapRatePage() {
@@ -131,6 +143,7 @@ export default function CapRatePage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Insights", href: "/insights" },
           { label: "What Is a Cap Rate?", href: "/insights/what-is-a-cap-rate" },
         ]}
@@ -288,7 +301,7 @@ export default function CapRatePage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );
