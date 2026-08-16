@@ -41,7 +41,7 @@ const schema = {
       headline: "Riverview FL Commercial Real Estate 2026: Market Guide",
       description: "Riverview is south Hillsborough's fastest-growing commercial submarket. Find out what's available, what's trading, and how Barrett Henry can help.",
       datePublished: "2026-07-29",
-      dateModified: "2026-07-30",
+      dateModified: "2026-08-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -49,7 +49,6 @@ const schema = {
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: [
           "https://hencre.com/about",
-          "https://nowtb.com",
           "https://barretthenry.remax.com",
         ],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -188,6 +187,7 @@ export default function BlogPost() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Riverview FL Commercial Real Estate 2026", href: "/blog/riverview-fl-commercial-real-estate-2026" },
         ]}
@@ -267,7 +267,7 @@ export default function BlogPost() {
           <li><strong>Land banking and development:</strong> Investors with a longer time horizon and appetite for entitlement risk are acquiring commercial parcels ahead of further residential density, positioning for either development or sale to end users. This strategy has rewarded early movers in Riverview significantly over the past five years.</li>
         </ul>
         <p>Before you commit to any commercial acquisition in Riverview, conduct thorough due diligence. Florida&apos;s insurance market remains a cost factor for investment property owners statewide, as we detail in our post on <a href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">how Florida&apos;s insurance crisis affects investment properties</a>. Our <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial due diligence timeline</a> lays out what to check and how long each phase takes. And our post on <a href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">what makes a good commercial investment</a> provides the evaluation framework for comparing competing opportunities.</p>
-        <p>Barrett&apos;s team at REMAX Commercial Real Estate provides <a href="/services/investment-sales" className="text-accent underline">investment sales advisory</a> and <a href="/services/cre-valuation" className="text-accent underline">commercial property valuation</a> services throughout <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County</a>. Whether you&apos;re acquiring your first Riverview commercial property or adding to an established portfolio, 23+ years of real estate experience translates directly into better deal outcomes. Call <strong>(813) 733-7907</strong> to start that conversation.</p>
+        <p>Barrett&apos;s team at REMAX Collective provides <a href="/services/investment-sales" className="text-accent underline">investment sales advisory</a> and <a href="/services/cre-valuation" className="text-accent underline">commercial property valuation</a> services throughout <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County</a>. Whether you&apos;re acquiring your first Riverview commercial property or adding to an established portfolio, 23+ years of real estate experience translates directly into better deal outcomes. Call <strong>(813) 733-7907</strong> to start that conversation.</p>
         <p>If you&apos;re an investor looking to sell quickly or liquidate commercial land in south Hillsborough, <a href="https://fastselleasysale.com" className="text-accent underline">FastSellEasySale.com</a> offers a direct path to buyers for properties in Riverview and surrounding areas.</p>
 
         {/* ---- Mid-article CTA ---- */}
@@ -319,7 +319,7 @@ export default function BlogPost() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate &amp; Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett has 23+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
@@ -336,7 +336,7 @@ export default function BlogPost() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
 
       <CTASection

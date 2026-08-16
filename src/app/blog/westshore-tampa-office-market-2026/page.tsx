@@ -89,11 +89,13 @@ const schema = {
       description:
         "Westshore is Tampa Bay's largest and most active office submarket — with vacancy at 16%, rents at all-time highs, and landmark buildings nearly full.",
       datePublished: "2026-08-07",
-      dateModified: "2026-08-09",
+      dateModified: "2026-08-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },

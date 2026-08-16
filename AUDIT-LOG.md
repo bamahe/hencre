@@ -4,6 +4,56 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-16 -- Batch 26 (10 pages improved)
+
+**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-retail-market-q2-2026`
+- Updated dateModified: "2026-08-14" -> "2026-08-16"
+
+### 2. `/blog/riverview-fl-commercial-real-estate-2026`
+- Updated dateModified: "2026-07-30" -> "2026-08-16"
+- Removed "https://nowtb.com" from schema author sameAs array
+- Added "Home" as first breadcrumb item
+- Updated footer: "July 2026" -> "August 2026"
+- Fixed author bio: "Barrett's team at REMAX Commercial Real Estate" -> "Barrett's team at REMAX Collective"
+
+### 3. `/blog/crystal-river-waterfront-commercial-investment-guide`
+- Updated dateModified: "2026-08-13" -> "2026-08-16"
+
+### 4. `/blog/sba-504-loan-commercial-real-estate-tampa-bay`
+- Updated dateModified: "2026-08-10" -> "2026-08-16"
+
+### 5. `/blog/tampa-bay-opportunity-zones-cre-2026`
+- Updated dateModified: "2026-08-12" -> "2026-08-16"
+- Added `image` and `sameAs` to schema author (were missing)
+- Expanded relatedLinks: 8 -> 10 (added Investment Sales, Hillsborough County Market)
+
+### 6. `/blog/valrico-commercial-real-estate-guide`
+- Updated dateModified: "2026-07-23" -> "2026-08-16"
+- Removed "https://nowtb.com" from schema author sameAs array
+- Added "Home" as first breadcrumb item
+- Expanded relatedLinks: 5 -> 10 (added Riverview 2026, Brandon 2026, Hillsborough Market, Investment Sales, Tenant Representation)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 7. `/blog/riverview-hillsborough-nnn-retail-landlord-investment`
+- Updated dateModified: "2026-08-04" -> "2026-08-16"
+- Fixed relatedLinks description: "REMAX Commercial Real Estate" -> "REMAX Collective"
+- Added "Last updated: August 2026" footer
+
+### 8. `/blog/westshore-tampa-office-market-2026`
+- Updated dateModified: "2026-08-09" -> "2026-08-16"
+- Added `image` and `sameAs` to schema author (were missing)
+
+### 9. `/blog/brandon-commercial-real-estate-guide-2026`
+- Updated dateModified: "2026-08-13" -> "2026-08-16"
+- Fixed relatedLinks description: "REMAX Commercial Real Estate" -> "REMAX Collective"
+
+### 10. `/blog/bradenton-commercial-real-estate-opportunities`
+- Updated dateModified: "2026-08-13" -> "2026-08-16"
+
+---
+
 ## 2026-08-15 -- Batch 25 (10 pages improved)
 
 **Commit:** `9bb0631` | **Build:** clean (0 errors) | **Pages improved:** 10

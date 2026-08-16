@@ -80,7 +80,7 @@ const schema = {
       description:
         "Tampa Bay retail vacancy held at 3.8% in Q2 2026 — well below the national average and near historic lows for strip centers and grocery-anchored properties. What that means if you are leasing or investing.",
       datePublished: "2026-08-14",
-      dateModified: "2026-08-14",
+      dateModified: "2026-08-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

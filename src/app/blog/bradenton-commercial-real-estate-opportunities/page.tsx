@@ -73,7 +73,7 @@ const schema = {
       headline: "Bradenton Commercial Real Estate Opportunities",
       description: "Bradenton and Manatee County commercial real estate market overview — sectors, trends, and opportunities.",
       datePublished: "2026-06-01",
-      dateModified: "2026-08-13",
+      dateModified: "2026-08-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

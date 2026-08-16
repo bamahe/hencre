@@ -80,7 +80,7 @@ const schema = {
       description:
         "Explore commercial real estate opportunities in Crystal River, Citrus County FL. Medical office, hospitality, marine retail, and waterfront investment along Florida's Nature Coast.",
       datePublished: "2026-08-12",
-      dateModified: "2026-08-13",
+      dateModified: "2026-08-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

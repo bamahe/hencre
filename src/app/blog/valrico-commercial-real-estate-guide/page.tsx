@@ -37,7 +37,7 @@ const schema = {
       headline: "Valrico, FL Commercial Real Estate: The Hidden Gem of Hillsborough County",
       description: "Discover why Valrico, FL is emerging as a smart target for commercial real estate investors and business owners in Hillsborough County. Explore market trends, property types, and growth drivers.",
       datePublished: "2026-07-18",
-      dateModified: "2026-07-23",
+      dateModified: "2026-08-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -45,7 +45,6 @@ const schema = {
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: [
           "https://hencre.com/about",
-          "https://nowtb.com",
           "https://barretthenry.remax.com",
         ],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -135,6 +134,31 @@ const relatedLinks = [
     href: "/blog/pasco-county-commercial-development-2026",
     description: "Compare Valrico's growth story with what's happening in another fast-expanding Hillsborough County neighbor to the north.",
   },
+  {
+    title: "Riverview FL Commercial Real Estate 2026",
+    href: "/blog/riverview-fl-commercial-real-estate-2026",
+    description: "South Hillsborough's fastest-growing commercial submarket — complementary reading for investors eyeing the eastern corridor.",
+  },
+  {
+    title: "Brandon FL Commercial Real Estate: Market Guide 2026",
+    href: "/blog/brandon-commercial-real-estate-guide-2026",
+    description: "Valrico's western neighbor — how the more established Brandon submarket compares for tenants and investors.",
+  },
+  {
+    title: "Hillsborough County Commercial Market Overview",
+    href: "/markets/hillsborough",
+    description: "Full Hillsborough County commercial real estate coverage including Valrico, Brandon, Riverview, and Tampa.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Barrett Henry's commercial investment property sales and acquisition brokerage across Hillsborough County.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "How Barrett represents commercial tenants in Valrico and eastern Hillsborough County — at no cost to the tenant.",
+  },
 ];
 
 const faqItems = [
@@ -171,8 +195,9 @@ export default function BlogPost() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: "Valrico, FL Commercial Real Estate: The Hidden Gem of Hillsborough County", href: "/blog/valrico-commercial-real-estate-guide" },
+          { label: "Valrico FL Commercial Real Estate", href: "/blog/valrico-commercial-real-estate-guide" },
         ]}
       />
 
@@ -355,7 +380,7 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

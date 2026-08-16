@@ -75,7 +75,7 @@ const schema = {
       description:
         "How Tampa Bay business owners use SBA 504 loans to buy their own commercial space with as little as 10% down.",
       datePublished: "2026-08-09",
-      dateModified: "2026-08-10",
+      dateModified: "2026-08-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

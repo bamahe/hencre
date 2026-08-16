@@ -85,11 +85,13 @@ const schema = {
       description:
         "Tampa Bay has Qualified Opportunity Zones in Ybor City, East Tampa, West Tampa, Port of Tampa, and near USF. A complete guide to CRE investing in Tampa Bay's designated OZ tracts.",
       datePublished: "2026-08-12",
-      dateModified: "2026-08-12",
+      dateModified: "2026-08-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -146,6 +148,16 @@ const relatedLinks = [
     title: "Why Tampa Bay CRE Is Booming",
     href: "/blog/why-tampa-bay-cre-is-booming",
     description: "The macro drivers behind Tampa Bay&apos;s commercial real estate expansion — the same fundamentals that make OZ neighborhoods attractive for long-term holds.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Barrett Henry&apos;s commercial investment property sales and acquisition brokerage services across Tampa Bay.",
+  },
+  {
+    title: "Hillsborough County Market",
+    href: "/markets/hillsborough",
+    description: "Full Hillsborough County commercial real estate overview — covering East Tampa, Ybor City, and West Tampa OZ corridors.",
   },
 ];
 

@@ -68,7 +68,7 @@ const schema = {
       headline: "Riverview FL NNN & Retail Investment Guide 2026",
       description: "Riverview, FL commercial real estate is outpacing expectations. Barrett Henry breaks down NNN, retail, and landlord opportunities.",
       datePublished: "2026-08-03",
-      dateModified: "2026-08-04",
+      dateModified: "2026-08-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -125,7 +125,7 @@ const relatedLinks = [
   {
     title: "NNN Net Lease Properties",
     href: "/commercial/nnn-net-lease",
-    description: "Active NNN investment opportunities across Florida represented by Barrett Henry at REMAX Commercial Real Estate.",
+    description: "Active NNN investment opportunities across Florida represented by Barrett Henry at REMAX Collective.",
   },
   {
     title: "Landlord Leasing Services",
@@ -201,6 +201,11 @@ export default function BlogPost() {
             </p>
           </div>
         </div>
+      </section>
+
+      {/* ---- Last updated ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-2 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">Last updated: August 2026</p>
       </section>
 
       {/* ---- Legal Disclaimer ---- */}

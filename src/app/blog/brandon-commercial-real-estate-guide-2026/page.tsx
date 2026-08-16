@@ -41,7 +41,7 @@ const schema = {
       headline: "Brandon FL Commercial Real Estate: Market Guide 2026",
       description: "Brandon, FL commercial real estate is moving fast. Learn what's available, who's investing, and why you need Barrett Henry in your corner.",
       datePublished: "2026-07-20",
-      dateModified: "2026-08-13",
+      dateModified: "2026-08-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -143,7 +143,7 @@ const relatedLinks = [
   {
     title: "Commercial Investment Sales",
     href: "/services/investment-sales",
-    description: "Buy or sell commercial investment property in Brandon with an experienced REMAX Commercial Real Estate advisor.",
+    description: "Buy or sell commercial investment property in Brandon with an experienced REMAX Collective advisor.",
   },
   {
     title: "Why Tampa Bay CRE Is Booming",
