@@ -6,7 +6,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ## 2026-08-16 -- Batch 26 (10 pages improved)
 
-**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+**Commit:** `f66c5ae` | **Build:** clean (0 errors) | **Pages improved:** 10
 
 ### 1. `/blog/tampa-bay-retail-market-q2-2026`
 - Updated dateModified: "2026-08-14" -> "2026-08-16"
