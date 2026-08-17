@@ -936,5 +936,16 @@
       "photographer": "Ryan Thorpe",
       "link": "https://unsplash.com/@tylilo"
     }
+  },
+  {
+    "slug": "land-o-lakes-pasco-county-commercial-real-estate",
+    "title": "Land O' Lakes, FL: A Commercial Real Estate Hotspot in Pasco County",
+    "excerpt": "Land O' Lakes has transformed from a quiet bedroom community into one of Pasco County's most dynamic commercial real estate markets. Here's what investors and business owners need to know.",
+    "date": "2026-08-17",
+    "category": "business-guide",
+    "city": "Land O' Lakes",
+    "county": "Pasco",
+    "businessType": "warehouse or distribution center",
+    "image": null
   }
 ]
