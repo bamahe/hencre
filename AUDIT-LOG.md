@@ -4,6 +4,64 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-17 -- Batch 27 (10 pages improved)
+
+**Commit:** `f595135` | **Build:** clean (253 pages, 0 errors) | **Pages improved:** 10
+
+### 1. `/blog/gasworx-tampa-ybor-office-commercial-2026`
+- Title shortened from 96 to 67 chars: "Gasworx Tampa 2026: Office, Retail & CRE Investment Guide | HenCRE"
+- Changed raw `<img>` tag to Next.js `<Image>` component in author bio
+- Removed prohibited external link fastselleasysale.com; replaced with `/services/dispositions`
+- Removed prohibited external link nowtb.com; replaced with `/markets/hillsborough`
+- Added legal disclaimer section before CTASection
+- Fixed CTASection heading apostrophe: `"Let's Talk."` -> `"Let&apos;s Talk."`
+- Updated dateModified: "2026-08-15" -> "2026-08-17"
+
+### 2. `/blog/jacksonville-duval-county-commercial-real-estate-2026` (NEW)
+- New blog post: Jacksonville/Duval County CRE 2026 guide
+- Title: "Jacksonville Commercial Real Estate 2026: Duval County Guide | HenCRE" (70 chars)
+- Full @graph schema: BreadcrumbList + BlogPosting + FAQPage
+- 5 FAQs: industrial CRE, office submarkets, retail leasing, Jacksonville vs Tampa, Barrett's approach
+- 10 relatedLinks: /markets/duval, /markets/st-johns, /markets/clay + blog posts
+- Covers: JAXPORT industrial, Southside/Deerwood office, downtown revitalization, NNN retail, St. Johns/Clay adjacencies
+
+### 3. `/blog/naples-collier-county-commercial-real-estate-2026` (NEW)
+- New blog post: Naples/Collier County CRE 2026 guide
+- Title: "Naples Commercial Real Estate 2026: Collier County Guide | HenCRE" (67 chars)
+- Full @graph schema: BreadcrumbList + BlogPosting + FAQPage
+- 5 FAQs: Naples market distinctiveness, Fifth Avenue South retail, eastern Collier land, medical RE, Barrett's approach
+- 10 relatedLinks: /markets/collier, /markets/lee, /markets/charlotte + blog posts
+- Covers: Fifth Avenue South, US 41 office, NCH/HCA healthcare, Ave Maria/Immokalee land, Marco Island seasonality
+
+### 4. `/markets/collier`
+- Added link to new Naples CRE 2026 blog post in "How Barrett Henry Works" section
+- Updated footer: "Last updated: July 2026" -> "Last updated: August 2026"
+
+### 5. `/markets/hernando`
+- Updated footer: "Last updated: July 2026" -> "Last updated: August 2026"
+
+### 6. `/markets/brevard`
+- Removed prohibited nowtb.com from schema author sameAs array
+- Added link to Jacksonville CRE 2026 blog post in "Why Brevard Matters" section
+- Updated footer: "Last updated: July 2026" -> "Last updated: August 2026"
+
+### 7. `/markets/charlotte`
+- Added link to Naples CRE 2026 blog post in market overview section
+- Updated footer: "Last updated: July 2026" -> "Last updated: August 2026"
+
+### 8. `/markets/citrus`
+- Updated footer: "Last updated: July 2026" -> "Last updated: August 2026"
+
+### 9. `public/data/blog-manifest.json`
+- Added 3 new blog post entries: naples-collier-county-commercial-real-estate-2026, jacksonville-duval-county-commercial-real-estate-2026, gasworx-tampa-ybor-office-commercial-2026
+
+### 10. Git branch repair + push
+- Recovered detached HEAD state from previous sessions (batches 21-26 were committed to detached HEAD, not pushed to origin)
+- Reset local main to detached HEAD (fast-forward, linear ancestry confirmed)
+- Pushed all 22 pending commits (batches 21-27) to origin/main
+
+---
+
 ## 2026-08-16 -- Batch 26 (10 pages improved)
 
 **Commit:** `f66c5ae` | **Build:** clean (0 errors) | **Pages improved:** 10
