@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -15,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Gasworx Tampa 2026: What the Ferguson Lease Means for Office Tenants and CRE Investors | HenCRE",
+  title: "Gasworx Tampa 2026: Office, Retail & CRE Investment Guide | HenCRE",
   description:
     "Fortune 500 Ferguson signed a 50,570-square-foot office lease at Gasworx in Ybor City, filling the development's first Class A office building to 100% occupancy. What Tampa Bay tenants and commercial real estate investors need to know about Gasworx in 2026.",
   alternates: { canonical: "https://hencre.com/blog/gasworx-tampa-ybor-office-commercial-2026" },
@@ -87,7 +88,7 @@ const schema = {
       description:
         "Fortune 500 Ferguson signed a 50,570-square-foot office lease at Gasworx in Ybor City, filling the first Class A office building to 100% occupancy. What Tampa Bay tenants and commercial real estate investors need to know.",
       datePublished: "2026-08-15",
-      dateModified: "2026-08-15",
+      dateModified: "2026-08-17",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -260,7 +261,7 @@ export default function GasworxTampaCommercialPage() {
           For investors evaluating any commercial acquisition in or around this corridor, running a full <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial due diligence process</Link> and stress-testing your <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">return on investment assumptions</Link> against realistic absorption scenarios is essential. The Gasworx story is a genuine demand catalyst — it is not a guarantee of any specific outcome on any specific property.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Investors or owners near the Gasworx corridor who are considering a sale may find that the current momentum represents a favorable exit environment. Properties that benefit from the neighborhood&apos;s rising profile can attract strong buyer interest — including cash buyers through platforms like <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fastselleasysale.com</Link> for owners who want a straightforward transaction.
+          Investors or owners near the Gasworx corridor who are considering a sale may find that the current momentum represents a favorable exit environment. Properties that benefit from the neighborhood&apos;s rising profile can attract strong buyer interest. If you are evaluating an exit, <Link href="/services/dispositions" className="text-accent underline">Barrett&apos;s commercial disposition services</Link> include market valuation, buyer outreach, and confidential listing strategies designed for investment properties.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does Gasworx Compare to Water Street and Midtown Tampa?</h2>
@@ -288,10 +289,10 @@ export default function GasworxTampaCommercialPage() {
           With 23+ years of commercial real estate experience across Tampa Bay, I work with office tenants, retail operators, and commercial investors throughout Hillsborough, Pinellas, Pasco, and Manatee Counties. The Gasworx story is one I am tracking closely — if you want to understand what it means for a specific leasing or investment decision, that is exactly the conversation I am built for. Let&apos;s talk.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Buyers and renters relocating to Tampa Bay who want to understand the neighborhoods taking shape around Gasworx, Water Street, and the Channel District can explore the region&apos;s communities at <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>, which covers Tampa Bay neighborhoods and home search from a local perspective.
+          For those exploring the broader Tampa Bay commercial market, the <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County market page</Link> covers investment fundamentals, active corridors, and property types across the metro.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026 | Barrett Henry, Broker Associate at REMAX Collective</p>
       </article>
 
       {/* ---- FAQ ---- */}
@@ -308,7 +309,7 @@ export default function GasworxTampaCommercialPage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
@@ -333,8 +334,14 @@ export default function GasworxTampaCommercialPage() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999] leading-relaxed">
+          <strong>Disclaimer:</strong> This article is for informational purposes only and does not constitute legal, tax, or investment advice. Market conditions, development timelines, and leasing availability change. Consult a licensed attorney, CPA, and commercial real estate professional before making any investment or leasing decision.
+        </p>
+      </section>
+
       <CTASection
-        heading="Evaluating Office or Retail Space Near Gasworx? Let's Talk."
+        heading="Evaluating Office or Retail Space Near Gasworx? Let&apos;s Talk."
         body="Whether you are a tenant tracking Gasworx future phases, a retail operator interested in the Ybor City corridor, or an investor evaluating commercial acquisitions near the project, I can help you understand the market and position your decision well."
         buttonText="Contact Barrett"
         buttonHref="/contact"

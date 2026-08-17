@@ -144,7 +144,9 @@ export default function CharlotteMarketPage() {
               stream of residents seeking lower-density alternatives to{" "}
               <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> or Lee and
               Collier counties. This drives medical office, pharmacy, and personal services demand
-              consistently — the kind of tenant base that does not evaporate when the economic cycle turns.
+              consistently -- the kind of tenant base that does not evaporate when the economic cycle turns.
+              For investors comparing Charlotte County to the premium end of Southwest Florida, see the{" "}
+              <Link href="/blog/naples-collier-county-commercial-real-estate-2026" className="text-accent underline">Naples Collier County CRE guide</Link>.
             </p>
             <p>
               Hurricane Ian&apos;s impact on Charlotte County accelerated commercial rebuilding and brought
@@ -340,7 +342,7 @@ export default function CharlotteMarketPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

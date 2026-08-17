@@ -73,7 +73,7 @@ const schema = {
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-        sameAs: ["https://hencre.com/about", "https://nowtb.com", "https://barretthenry.remax.com"],
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       areaServed: { "@type": "AdministrativeArea", name: "Brevard County, Florida" },
@@ -349,7 +349,10 @@ export default function BrevardMarketPage() {
               </Link>{" "}
               industrial or who are familiar with the I-4 logistics corridor, Brevard offers a complementary exposure
               point: aerospace-driven rather than e-commerce-driven, coastal rather than inland, but equally compelling
-              on fundamentals. Consider a{" "}
+              on fundamentals. For a view of how Jacksonville&apos;s JAXPORT-driven industrial market compares, read the{" "}
+              <Link href="/blog/jacksonville-duval-county-commercial-real-estate-2026" className="text-accent underline">
+                Jacksonville CRE 2026 guide
+              </Link>. Consider a{" "}
               <Link href="/services/cre-valuation" className="text-accent underline">
                 broker opinion of value
               </Link>{" "}
@@ -472,7 +475,7 @@ export default function BrevardMarketPage() {
       <RelatedLinks heading="More Florida Markets and Resources" links={relatedMarkets} />
 
       <section className="mx-auto max-w-4xl px-4 pb-6 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </section>
 
       <CTASection

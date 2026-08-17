@@ -316,6 +316,11 @@ export default function CollierMarketPage() {
             to help you evaluate acquisitions with clarity.
           </p>
           <p>
+            For a comprehensive look at Naples and Collier County market conditions, property types, and investment
+            strategy, read the{" "}
+            <Link href="/blog/naples-collier-county-commercial-real-estate-2026" className="font-semibold text-black underline">Naples CRE 2026 market guide</Link>.
+          </p>
+          <p>
             <Link href="/contact" className="font-semibold text-black underline">Contact Barrett directly</Link> at (813) 733-7907.
             He will assess your situation and make the right introduction.
           </p>
@@ -347,7 +352,7 @@ export default function CollierMarketPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

@@ -1,5 +1,53 @@
 [
   {
+    "slug": "naples-collier-county-commercial-real-estate-2026",
+    "title": "Naples Commercial Real Estate 2026: Collier County Guide",
+    "excerpt": "Naples anchors one of Florida's most selective and resilient commercial real estate markets. Affluent demand, limited supply, and trophy assets define Collier County CRE -- from Fifth Avenue South luxury retail to eastern Collier development land.",
+    "date": "2026-08-17",
+    "category": "city-market",
+    "city": "Naples",
+    "county": "Collier",
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=500&fit=crop",
+      "alt": "Upscale commercial real estate and retail corridor in Southwest Florida",
+      "photographer": "Rodrigo Kugnharski",
+      "link": "https://unsplash.com"
+    }
+  },
+  {
+    "slug": "jacksonville-duval-county-commercial-real-estate-2026",
+    "title": "Jacksonville Commercial Real Estate 2026: Duval County Guide",
+    "excerpt": "Jacksonville is Florida's largest city by land area and one of its most underrated CRE markets. JAXPORT industrial demand, downtown revitalization, and Southside office growth are reshaping Duval County commercial real estate strategy.",
+    "date": "2026-08-17",
+    "category": "city-market",
+    "city": "Jacksonville",
+    "county": "Duval",
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=500&fit=crop",
+      "alt": "Commercial real estate and logistics corridor in Jacksonville, Florida",
+      "photographer": "Sean Pollock",
+      "link": "https://unsplash.com/@seanpollock"
+    }
+  },
+  {
+    "slug": "gasworx-tampa-ybor-office-commercial-2026",
+    "title": "Gasworx Tampa 2026: Office, Retail & CRE Investment Guide",
+    "excerpt": "Fortune 500 Ferguson signed a 50,570-square-foot office lease at Gasworx in Ybor City, filling the development's first Class A office building to 100% occupancy. What Tampa Bay tenants and investors need to know about the corridor.",
+    "date": "2026-08-17",
+    "category": "city-market",
+    "city": "Tampa",
+    "county": "Hillsborough",
+    "businessType": null,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=500&fit=crop",
+      "alt": "Ybor City Tampa redevelopment corridor with mixed-use buildings",
+      "photographer": "JESHOOTS.COM",
+      "link": "https://unsplash.com/@jeshoots"
+    }
+  },
+  {
     "slug": "valrico-hillsborough-county-commercial-real-estate",
     "title": "Valrico, FL Commercial Real Estate: Opportunities in Hillsborough County's Growing Suburban Corridor",
     "excerpt": "Valrico is quietly becoming one of Hillsborough County's most compelling commercial real estate markets. Learn what's driving demand, which property types are thriving, and how to position yourself in this suburban growth corridor.",
