@@ -85,7 +85,7 @@ const schema = {
       description:
         "Key differences between commercial and residential leases — lease terms, negotiation, expenses, and tenant protections.",
       datePublished: "2026-05-18",
-      dateModified: "2026-08-06",
+      dateModified: "2026-08-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -126,6 +126,36 @@ const relatedLinks = [
     title: "Tenant Representation Services",
     href: "/services/tenant-representation",
     description: "How a broker protects your interests in lease negotiations.",
+  },
+  {
+    title: "5 Mistakes First-Time Commercial Tenants Make",
+    href: "/blog/5-mistakes-first-time-commercial-tenants-make",
+    description: "Common pitfalls first-time commercial tenants fall into -- and how to avoid them.",
+  },
+  {
+    title: "Leasing vs. Buying Commercial Space",
+    href: "/insights/leasing-vs-buying-commercial",
+    description: "Should your business lease or purchase its commercial space? A framework for the decision.",
+  },
+  {
+    title: "Commercial Property Due Diligence Checklist",
+    href: "/insights/cre-due-diligence-checklist",
+    description: "What to inspect and verify before committing to any commercial property.",
+  },
+  {
+    title: "Do You Need a Commercial Real Estate Broker?",
+    href: "/blog/do-you-need-a-commercial-real-estate-broker",
+    description: "When and why to hire a CRE broker -- and what they actually do for you.",
+  },
+  {
+    title: "Florida Business Rent Tax Repeal",
+    href: "/blog/florida-business-rent-tax-repeal-tampa-bay",
+    description: "Florida eliminated its commercial lease sales tax in 2025. What Tampa Bay tenants are saving.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "Lease market overview for Tampa and Hillsborough County commercial tenants and investors.",
   },
 ];
 

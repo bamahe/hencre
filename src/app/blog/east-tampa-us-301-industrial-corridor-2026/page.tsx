@@ -14,12 +14,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "East Tampa US 301 Industrial Corridor: Why Investors Are Betting Big | HenCRE",
+  title: "East Tampa US-301 Industrial Corridor 2026: Investor Guide | HenCRE",
   description:
-    "The US 301 corridor in East Tampa is one of Florida's fastest-growing industrial submarkets. GTIS, Trammell Crow, and Constellation are all building here — here's what investors need to know.",
+    "The US 301 corridor in East Tampa is one of Florida's fastest-growing industrial submarkets. GTIS, Trammell Crow, and Constellation are all building here -- here's what investors need to know.",
   alternates: { canonical: "https://hencre.com/blog/east-tampa-us-301-industrial-corridor-2026" },
   openGraph: {
-    title: "East Tampa US 301 Industrial Corridor: Why Investors Are Betting Big",
+    title: "East Tampa US-301 Industrial Corridor 2026: Investor Guide | HenCRE",
     description:
       "Institutional capital is flooding into East Tampa's US 301 corridor. Learn about the projects, rental rates, and investment thesis behind this emerging industrial submarket.",
     url: "https://hencre.com/blog/east-tampa-us-301-industrial-corridor-2026",
@@ -80,7 +80,7 @@ const schema = {
       description:
         "The US 301 corridor in East Tampa is one of Florida's fastest-growing industrial submarkets. Here's what investors need to know about the projects, rental rates, and long-term investment case.",
       datePublished: "2026-08-12",
-      dateModified: "2026-08-14",
+      dateModified: "2026-08-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

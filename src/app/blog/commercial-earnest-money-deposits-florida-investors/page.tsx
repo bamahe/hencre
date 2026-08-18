@@ -13,12 +13,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Earnest Money Deposits in Florida: What Investors Need to Know | HenCRE",
+  title: "Commercial Earnest Money Deposits: Florida Investor Guide | HenCRE",
   description:
     "Commercial earnest money deposits work very differently from residential EMDs. Larger amounts, shorter feasibility windows, and going-hard clauses that make your deposit non-refundable — here is what every Florida CRE investor needs to know.",
   alternates: { canonical: "https://hencre.com/blog/commercial-earnest-money-deposits-florida-investors" },
   openGraph: {
-    title: "Commercial Earnest Money Deposits in Florida: What Investors Need to Know",
+    title: "Commercial Earnest Money Deposits: Florida Investor Guide | HenCRE",
     description:
       "Commercial EMDs are larger, harder to get back, and go non-refundable much faster than residential deposits. Learn the rules before you sign.",
     url: "https://hencre.com/blog/commercial-earnest-money-deposits-florida-investors",
@@ -84,7 +84,7 @@ const schema = {
       description:
         "Commercial earnest money deposits are larger, harder to recover, and go non-refundable faster than residential deposits. Essential reading for Florida CRE investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-08-04",
+      dateModified: "2026-08-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

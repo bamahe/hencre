@@ -73,7 +73,7 @@ const schema = {
       headline: "Clearwater Retail Space Guide",
       description: "Clearwater retail market — top corridors, rental rate trends, and investment opportunities.",
       datePublished: "2026-05-24",
-      dateModified: "2026-08-14",
+      dateModified: "2026-08-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

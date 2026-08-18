@@ -86,7 +86,7 @@ const schema = {
       description:
         "Florida eliminated its Business Rent Tax on commercial leases effective October 1, 2025. Here is exactly how much Tampa Bay tenants are saving and what to do if your landlord is still charging the tax.",
       datePublished: "2026-07-30",
-      dateModified: "2026-08-08",
+      dateModified: "2026-08-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -149,6 +149,16 @@ const relatedLinks = [
     title: "Midtown Tampa Commercial Real Estate 2026",
     href: "/blog/midtown-tampa-commercial-real-estate-2026",
     description: "The North Tampa mixed-use district hitting 100% office occupancy and what it means for nearby commercial properties.",
+  },
+  {
+    title: "Clearwater Office Space for Professional Services Firms",
+    href: "/blog/clearwater-office-space-professional-services-firms",
+    description: "Office lease guide for law, accounting, and insurance firms in Clearwater and Pinellas County.",
+  },
+  {
+    title: "Pinellas County Commercial Real Estate",
+    href: "/markets/pinellas",
+    description: "Pinellas County market overview -- where tenants are saving the most from the rent tax repeal.",
   },
 ];
 

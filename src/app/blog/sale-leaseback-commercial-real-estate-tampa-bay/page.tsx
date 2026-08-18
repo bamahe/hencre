@@ -86,7 +86,7 @@ const schema = {
       description:
         "How sale-leaseback transactions work in Tampa Bay — for business owners seeking capital and investors seeking tenant-occupied assets.",
       datePublished: "2026-08-13",
-      dateModified: "2026-08-15",
+      dateModified: "2026-08-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -297,7 +297,7 @@ export default function SaleLeasebackPage() {
           Tampa Bay&apos;s diverse business base — <Link href="/blog/east-tampa-us-301-industrial-corridor-2026" className="text-accent underline">industrial operators</Link>, healthcare providers, professional services firms, restaurant and retail chains — generates a consistent pipeline of sale-leaseback opportunities across every price point and property type. With cap rates stabilizing in 2026 and Florida&apos;s commercial lease tax eliminated, the transaction economics for both sides have improved meaningfully from where they were two years ago.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett Henry structures and closes commercial investment transactions across the Tampa Bay market. Whether you are a business owner evaluating a sale-leaseback as a capital strategy, or an investor seeking net-lease assets, understanding the deal structure is the first step. Call 813-785-6098 or <Link href="/contact" className="text-accent underline">contact Barrett</Link> to talk through your specific situation.
+          As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett Henry structures and closes commercial investment transactions across the Tampa Bay market. Whether you are a business owner evaluating a sale-leaseback as a capital strategy, or an investor seeking net-lease assets, understanding the deal structure is the first step. Call (813) 733-7907 or <Link href="/contact" className="text-accent underline">contact Barrett</Link> to talk through your specific situation.
         </p>
 
         <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
@@ -317,7 +317,7 @@ export default function SaleLeasebackPage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

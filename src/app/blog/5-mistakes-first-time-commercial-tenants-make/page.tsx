@@ -84,7 +84,7 @@ const schema = {
       description:
         "Avoid the most common mistakes first-time commercial tenants make — from skipping lease review to underestimating total occupancy costs.",
       datePublished: "2026-05-02",
-      dateModified: "2026-08-07",
+      dateModified: "2026-08-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -125,6 +125,36 @@ const relatedLinks = [
     title: "Do You Need a Commercial Real Estate Broker?",
     href: "/blog/do-you-need-a-commercial-real-estate-broker",
     description: "When and why to hire a CRE broker for your lease.",
+  },
+  {
+    title: "How Commercial Leases Differ from Residential",
+    href: "/blog/how-commercial-leases-differ-from-residential",
+    description: "Key differences between commercial and residential leases every first-timer should know.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "Barrett represents tenants in negotiations -- at no cost to the tenant.",
+  },
+  {
+    title: "Florida Business Rent Tax Repeal",
+    href: "/blog/florida-business-rent-tax-repeal-tampa-bay",
+    description: "How Florida eliminating its commercial lease sales tax affects your occupancy cost.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "How long each phase of a commercial transaction takes -- plan your move accordingly.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "Market context for commercial tenants searching in Tampa and Hillsborough County.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment?",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "If you're leasing now but considering buying later, here's what to evaluate.",
   },
 ];
 

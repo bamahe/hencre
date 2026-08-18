@@ -14,12 +14,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Do You Need a Commercial Real Estate Broker?",
+  title: "Do You Need a Commercial Real Estate Broker? | HenCRE",
   description:
-    "When and why to hire a commercial real estate broker — tenant representation, buyer advocacy, lease negotiation, and deal sourcing. A broker explains the value.",
+    "When and why to hire a commercial real estate broker -- tenant representation, buyer advocacy, lease negotiation, and deal sourcing. A broker explains the value.",
   alternates: { canonical: "https://hencre.com/blog/do-you-need-a-commercial-real-estate-broker" },
   openGraph: {
-    title: "Do You Need a Commercial Real Estate Broker?",
+    title: "Do You Need a Commercial Real Estate Broker? | HenCRE",
     description:
       "When and why to hire a commercial real estate broker — tenant representation, buyer advocacy, and lease negotiation.",
     url: "https://hencre.com/blog/do-you-need-a-commercial-real-estate-broker",
@@ -85,7 +85,7 @@ const schema = {
       description:
         "When and why to hire a commercial real estate broker — tenant representation, buyer advocacy, and lease negotiation.",
       datePublished: "2026-04-28",
-      dateModified: "2026-08-06",
+      dateModified: "2026-08-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -126,6 +126,36 @@ const relatedLinks = [
     title: "What Makes a Good Commercial Investment?",
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "Investment criteria from a broker's perspective.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "How Barrett represents tenants in lease negotiations -- at no cost to the tenant.",
+  },
+  {
+    title: "How Commercial Leases Differ from Residential",
+    href: "/blog/how-commercial-leases-differ-from-residential",
+    description: "A primer on commercial lease terms, structures, and what to negotiate before signing.",
+  },
+  {
+    title: "Understanding CAM Charges",
+    href: "/insights/cam-charges-explained",
+    description: "CAM charges are one of the most misunderstood parts of any commercial lease.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "For investors buying or selling commercial properties -- how Barrett structures transactions.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "Market overview for Tampa and Hillsborough County -- office, retail, industrial, and multifamily.",
+  },
+  {
+    title: "Pinellas County Commercial Real Estate",
+    href: "/markets/pinellas",
+    description: "Commercial market coverage for Clearwater, St. Pete, and all of Pinellas County.",
   },
 ];
 
