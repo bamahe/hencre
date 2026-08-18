@@ -4,6 +4,58 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-18 -- Batch 28 (10 pages improved)
+
+**Commit:** `b2ba6a7` | **Build:** clean (255 pages, 0 errors) | **Pages improved:** 10
+
+### 1. `/blog/clearwater-office-space-professional-services-firms`
+- Added "| HenCRE" brand suffix to title tag and OG title
+- Fixed REALTOR(r) -> "commercial real estate broker" in 3 places (FAQ answer, 2 body paragraphs)
+- Fixed mid-article CTA: "Talk to a REMAX Commercial(r) Broker" -> "Talk to a REMAX Collective Broker"
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated dateModified: "2026-08-04" -> "2026-08-18"
+
+### 2. `/blog/east-tampa-us-301-industrial-corridor-2026`
+- Shortened title from 78 chars to 67 chars: "East Tampa US-301 Industrial Corridor 2026: Investor Guide | HenCRE"
+- Fixed OG description: removed em dash, switched to "--"
+- Updated dateModified: "2026-08-14" -> "2026-08-18"
+
+### 3. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Shortened title from 82 chars to 65 chars: "Commercial Earnest Money Deposits: Florida Investor Guide | HenCRE"
+- Updated OG title to match
+- Updated dateModified: "2026-08-04" -> "2026-08-18"
+
+### 4. `/blog/how-commercial-leases-differ-from-residential`
+- Expanded relatedLinks: 4 -> 10 (added: 5 Mistakes, Leasing vs Buying, Due Diligence, Do You Need a Broker, FL Business Rent Tax, Hillsborough Market)
+- Updated dateModified: "2026-08-06" -> "2026-08-18"
+
+### 5. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Added "| HenCRE" brand suffix to title tag and OG title
+- Fixed description em dash -> "--"
+- Expanded relatedLinks: 4 -> 10 (added: Tenant Representation, How Leases Differ, CAM Charges, Investment Sales, Hillsborough Market, Pinellas Market)
+- Updated dateModified: "2026-08-06" -> "2026-08-18"
+
+### 6. `/blog/5-mistakes-first-time-commercial-tenants-make`
+- Expanded relatedLinks: 4 -> 10 (added: How Leases Differ, Tenant Representation, FL Business Rent Tax, Due Diligence Timeline, Hillsborough Market, Good Commercial Investment)
+- Updated dateModified: "2026-08-07" -> "2026-08-18"
+
+### 7. `/blog/florida-business-rent-tax-repeal-tampa-bay`
+- Expanded relatedLinks: 8 -> 10 (added: Clearwater Office Space, Pinellas County Market)
+- Updated dateModified: "2026-08-08" -> "2026-08-18"
+
+### 8. `/blog/multifamily-investment-tampa-bay-guide`
+- Updated dateModified: "2026-08-04" -> "2026-08-18"
+
+### 9. `/blog/sale-leaseback-commercial-real-estate-tampa-bay`
+- Fixed wrong phone number: 813-785-6098 -> (813) 733-7907 in body text
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated dateModified: "2026-08-15" -> "2026-08-18"
+
+### 10. `/blog/clearwater-retail-space-guide`
+- Updated dateModified: "2026-08-14" -> "2026-08-18"
+
+---
+
 ## 2026-08-17 -- Batch 27 (10 pages improved)
 
 **Commit:** `f595135` | **Build:** clean (253 pages, 0 errors) | **Pages improved:** 10
