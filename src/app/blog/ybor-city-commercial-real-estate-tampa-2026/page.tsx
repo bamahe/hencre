@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -73,7 +75,7 @@ const schema = {
       headline: "Ybor City Commercial Real Estate 2026: Tampa's $6 Billion Transformation",
       description: "Ybor City is undergoing its biggest transformation since the cigar era — Gasworx, Ybor Harbor, Tampa General Hospital, and a new mixed-use streetcar district are reshaping one of Tampa's most storied neighborhoods into a major CRE opportunity.",
       datePublished: "2026-07-23",
-      dateModified: "2026-08-11",
+      dateModified: "2026-08-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -270,33 +272,38 @@ export default function YborCityCommercialRealEstatePage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
-      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
-            src="/images/barrett-henry-headshot.jpg"
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-2xl border border-[#E5E5E5] bg-white p-6">
+          <Image
+            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&h=80&fit=crop"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
-            className="rounded-full"
+            className="rounded-full shrink-0"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He works with tenants and investors across Tampa Bay&apos;s evolving commercial market, including Ybor City&apos;s fast-moving development pipeline. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or{" "}
+              <Link href="/contact" className="text-accent underline">contact him directly</Link>.
             </p>
           </div>
         </div>
       </section>
 
+      {/* ---- Disclaimer ---- */}
       <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
         <p className="text-xs text-[#999999]">
-          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
+          This article is for informational purposes only and does not constitute legal, tax, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
       </section>
 

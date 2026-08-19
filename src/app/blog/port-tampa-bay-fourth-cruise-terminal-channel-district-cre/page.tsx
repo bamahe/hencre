@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -85,7 +86,7 @@ const schema = {
       description:
         "Site work began August 2026 on Port Tampa Bay's fourth cruise terminal. The projected $100M annual economic impact will reshape commercial real estate demand in the Channel District and nearby waterfront submarkets.",
       datePublished: "2026-08-05",
-      dateModified: "2026-08-07",
+      dateModified: "2026-08-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -278,6 +279,36 @@ export default function PortTampaBayFourthCruiseTerminalPage() {
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-2xl border border-[#E5E5E5] bg-white p-6">
+          <Image
+            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&h=80&fit=crop"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full shrink-0"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He works with investors identifying commercial acquisitions in Tampa Bay&apos;s highest-momentum submarkets, including the Channel District and downtown waterfront. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or{" "}
+              <Link href="/contact" className="text-accent underline">contact him directly</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Disclaimer ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          This article is for informational purposes only and does not constitute legal, tax, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
 
       <CTASection
         heading="Evaluating Commercial Real Estate in Tampa Bay's Waterfront Districts?"

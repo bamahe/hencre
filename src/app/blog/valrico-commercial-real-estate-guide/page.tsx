@@ -37,16 +37,11 @@ const schema = {
       headline: "Valrico, FL Commercial Real Estate: The Hidden Gem of Hillsborough County",
       description: "Discover why Valrico, FL is emerging as a smart target for commercial real estate investors and business owners in Hillsborough County. Explore market trends, property types, and growth drivers.",
       datePublished: "2026-07-18",
-      dateModified: "2026-08-16",
+      dateModified: "2026-08-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
-        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-        sameAs: [
-          "https://hencre.com/about",
-          "https://barretthenry.remax.com",
-        ],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -373,7 +368,7 @@ export default function BlogPost() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
@@ -392,31 +387,32 @@ export default function BlogPost() {
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
       {/* ---- Author Bio ---- */}
-      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
-            src="/images/barrett-henry-headshot.jpg"
+      <section className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-2xl border border-[#E5E5E5] bg-white p-6">
+          <Image
+            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&h=80&fit=crop"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
-            className="rounded-full"
+            className="rounded-full shrink-0"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              With 23+ years of real estate experience, Barrett Henry advises business owners and investors across all 67
-              Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He advises business owners and investors across the eastern Hillsborough County corridor, including Valrico, Brandon, and Riverview. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or{" "}
+              <Link href="/contact" className="text-accent underline">contact him directly</Link>.
             </p>
           </div>
         </div>
       </section>
 
-      {/* ---- Legal Disclaimer ---- */}
-      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
+      {/* ---- Disclaimer ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
         <p className="text-xs text-[#999999]">
-          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment
-          advice. Consult qualified professionals before making real estate decisions.
+          This article is for informational purposes only and does not constitute legal, tax, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
       </section>
 

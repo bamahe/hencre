@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -84,7 +85,7 @@ const schema = {
       description:
         "Avoid the most common mistakes first-time commercial tenants make — from skipping lease review to underestimating total occupancy costs.",
       datePublished: "2026-05-02",
-      dateModified: "2026-08-18",
+      dateModified: "2026-08-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -278,6 +279,36 @@ export default function TenantMistakesPage() {
       </section>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
+
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-2xl border border-[#E5E5E5] bg-white p-6">
+          <Image
+            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&h=80&fit=crop"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full shrink-0"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps first-time commercial tenants find the right space, negotiate fair terms, and avoid costly lease mistakes. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or{" "}
+              <Link href="/contact" className="text-accent underline">contact him directly</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Disclaimer ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          This article is for informational purposes only and does not constitute legal, tax, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
 
       <CTASection
         heading="Looking for Your First Commercial Space?"
