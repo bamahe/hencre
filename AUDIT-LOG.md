@@ -4,6 +4,81 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-19 -- Batch 29 (10 pages improved)
+
+**Commit:** `ea522b1` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/land-o-lakes-pasco-county-commercial-real-estate`
+- Full rewrite: fixed dual SchemaOrg components merged into single @graph
+- Fixed title: 72 chars -> "Land O' Lakes Commercial Real Estate: Pasco County Guide | HenCRE" (66 chars)
+- Fixed OG image: replaced generic placeholder with relevant Unsplash photo
+- Fixed raw `<img>` -> Next.js `<Image>` component
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed 10 relatedLinks: added missing /blog/ prefix to all hrefs
+- Fixed mid-CTA: "REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Fixed author credentials: removed "REMAX Commercial® Broker" mid-text reference
+- Removed nowtb.com from sameAs, updated publisher to HenCRE
+- Added Home breadcrumb, standard author bio, disclaimer
+- Updated dateModified: -> "2026-08-19"
+
+### 2. `/blog/why-tampa-bay-cre-is-booming`
+- Shortened title: added "| HenCRE" suffix
+- Added `import Link from "next/link"`
+- Added standard author bio (Image component, e-PRO/MRP/SRS/Hall of Fame credentials)
+- Added disclaimer section
+- Updated dateModified: "2026-08-07" -> "2026-08-19"
+
+### 3. `/blog/how-to-calculate-commercial-property-roi`
+- Added `import Link from "next/link"`
+- Added standard author bio with credentials
+- Added disclaimer section
+- Updated dateModified: "2026-08-07" -> "2026-08-19"
+
+### 4. `/blog/port-tampa-bay-fourth-cruise-terminal-channel-district-cre`
+- Added `import Image from "next/image"`
+- Added standard author bio with credentials
+- Added disclaimer section
+- Updated dateModified: "2026-08-07" -> "2026-08-19"
+
+### 5. `/blog/5-mistakes-first-time-commercial-tenants-make`
+- Added `import Link from "next/link"`
+- Added standard author bio with credentials
+- Added disclaimer section
+- Updated dateModified: "2026-08-18" -> "2026-08-19"
+
+### 6. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Fixed author bio: raw `<img>` -> `<Image>` component, updated credentials text
+- Added disclaimer section
+- Updated dateModified: "2026-08-18" -> "2026-08-19"
+
+### 7. `/blog/water-street-tampa-33-story-tower-downtown-cre-2026`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Fixed author bio: raw `<img>` -> `<Image>` component, standardized credentials
+- Fixed "Last updated: July 2026" -> "Last updated: August 2026"
+- Removed nowtb.com-style sameAs/image fields from schema author
+- Updated dateModified: "2026-08-11" -> "2026-08-19"
+
+### 8. `/blog/ybor-city-commercial-real-estate-tampa-2026`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Fixed author bio: raw `<img>` -> `<Image>` component, standardized credentials
+- Fixed "Last updated: July 2026" -> "Last updated: August 2026"
+- Updated dateModified: "2026-08-11" -> "2026-08-19"
+
+### 9. `/blog/new-port-richey-commercial-real-estate-investors`
+- Added `import Link from "next/link"`
+- Fixed author bio: raw `<img>` -> `<Image>` component, standardized credentials
+- Fixed mid-CTA: "REMAX Commercial® Broker" -> "Commercial Real Estate Broker"
+- Fixed "Last updated: July 2026" -> "Last updated: August 2026"
+- Updated dateModified: "2026-08-11" -> "2026-08-19"
+
+### 10. `/blog/valrico-commercial-real-estate-guide`
+- Fixed author bio: raw `<img>` -> `<Image>` component, standardized credentials
+- Fixed mid-CTA: "REMAX Commercial Broker" -> "Commercial Real Estate Broker"
+- Removed nowtb.com-style sameAs/image fields from schema author
+- Updated dateModified: "2026-08-16" -> "2026-08-19"
+
+---
+
 ## 2026-08-18 -- Batch 28 (10 pages improved)
 
 **Commit:** `b2ba6a7` | **Build:** clean (255 pages, 0 errors) | **Pages improved:** 10
