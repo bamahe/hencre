@@ -947,5 +947,21 @@
     "county": "Pasco",
     "businessType": "warehouse or distribution center",
     "image": null
+  },
+  {
+    "slug": "largo-pinellas-county-commercial-real-estate-2026",
+    "title": "Largo, FL Commercial Real Estate: Why Pinellas County's Hidden Gem Is Turning Investor Heads in 2026",
+    "excerpt": "Largo sits at the geographic and economic heart of Pinellas County — and savvy commercial real estate investors are taking notice. Here's what you need to know about buying, leasing, or investing in Largo's growing CRE market.",
+    "date": "2026-08-19",
+    "category": "city-market",
+    "city": "Largo",
+    "county": "Pinellas",
+    "businessType": null,
+    "image": {
+      "url": "/images/blog/largo-pinellas-county-commercial-real-estate-2026.jpg",
+      "alt": "a bird's eye view of a large body of water",
+      "photographer": "Baron Alloway",
+      "link": "https://unsplash.com/@baronalloway"
+    }
   }
 ]
