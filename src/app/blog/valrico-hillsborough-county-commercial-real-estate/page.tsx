@@ -70,7 +70,7 @@ const schema = {
       headline: "Valrico, FL Commercial Real Estate: Opportunities in Hillsborough County&apos;s Growing Suburban Corridor",
       description: "Explore commercial real estate opportunities in Valrico, Hillsborough County FL. From retail to flex space, discover why investors and tenants are eyeing this fast-growing suburban market.",
       datePublished: "2026-07-31",
-      dateModified: "2026-08-01",
+      dateModified: "2026-08-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -118,7 +118,32 @@ const relatedLinks = [
     title: "Commercial Property Due Diligence Timeline",
     href: "/blog/commercial-property-due-diligence-timeline",
     description: "A step-by-step guide to due diligence for Florida commercial properties -- essential reading before closing on any Valrico asset.",
-  }
+  },
+  {
+    title: "Understanding CAM Charges: A Tenant's Guide",
+    href: "/blog/understanding-cam-charges-tenants-guide",
+    description: "Break down common area maintenance fees before signing any Valrico retail or office lease.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "Core evaluation principles for investors evaluating Valrico and Hillsborough County commercial assets.",
+  },
+  {
+    title: "Hillsborough County Market Overview",
+    href: "/markets/hillsborough",
+    description: "Broader context on commercial real estate trends across Hillsborough County, including Valrico.",
+  },
+  {
+    title: "Westshore Tampa Office Market 2026",
+    href: "/blog/westshore-tampa-office-market-2026",
+    description: "Compare Valrico office rents and demand against Tampa Bay's premier office submarket.",
+  },
+  {
+    title: "Tampa Hillsborough Commercial Real Estate Guide 2026",
+    href: "/blog/tampa-hillsborough-commercial-real-estate-guide-2026",
+    description: "The full picture of commercial real estate across Hillsborough County for investors and tenants.",
+  },
 ];
 
 export default function BlogPost() {
@@ -259,7 +284,7 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import SchemaOrg from "@/components/SchemaOrg";
@@ -146,6 +147,14 @@ const schema = {
       ],
     },
     {
+      "@type": "Person",
+      name: "Barrett Henry",
+      jobTitle: "Broker Associate",
+      image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+      sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
+      worksFor: { "@type": "Organization", name: "REMAX Collective" },
+    },
+    {
       "@type": "FAQPage",
       mainEntity: allFaqs.map((faq) => ({
         "@type": "Question",
@@ -215,6 +224,26 @@ export default function FAQPage() {
                 {r.label} &rarr;
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---- Author Bio ---- */}
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <Image
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett has 23+ years of real estate experience serving investors, tenants, and property owners across all 67 Florida counties from offices in Tampa, Largo, and Brandon. These answers are based on real transactions and direct market experience in Florida commercial real estate.
+            </p>
           </div>
         </div>
       </section>

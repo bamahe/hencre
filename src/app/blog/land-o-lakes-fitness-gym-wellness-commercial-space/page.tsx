@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -13,11 +14,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Fitness Center Space in Land O' Lakes, FL",
+  title: "Fitness Center Space in Land O' Lakes, FL | HenCRE",
   description: "Find the right gym or wellness studio space in Land O' Lakes, FL. Learn zoning, lease tips, and market factors. Call Barrett Henry at (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/blog/land-o-lakes-fitness-gym-wellness-commercial-space" },
   openGraph: {
-    title: "Fitness Center Space in Land O' Lakes, FL",
+    title: "Fitness Center Space in Land O' Lakes, FL | HenCRE",
     description: "Find the right gym or wellness studio space in Land O' Lakes, FL. Learn zoning, lease tips, and market factors. Call Barrett Henry at (813) 733-7907.",
     url: "https://hencre.com/blog/land-o-lakes-fitness-gym-wellness-commercial-space",
     type: "article",
@@ -69,7 +70,7 @@ const schema = {
       headline: "Fitness Center Space in Land O' Lakes, FL",
       description: "Find the right gym or wellness studio space in Land O' Lakes, FL. Learn zoning, lease tips, and market factors. Call Barrett Henry at (813) 733-7907.",
       datePublished: "2026-07-24",
-      dateModified: "2026-08-13",
+      dateModified: "2026-08-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -190,7 +191,7 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate"
             width={80}

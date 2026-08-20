@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "Buy or sell NNN net lease properties in Florida. Triple-net investments with stable, long-term cash flow and corporate-guaranteed tenants. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/commercial/nnn-net-lease" },
   openGraph: {
-    title: "NNN / Net Lease | REMAX Commercial Real Estate",
+    title: "NNN Net Lease Florida | HenCRE",
     description: "Triple-net investment properties across Florida. Stable cash flow, minimal landlord responsibility.",
     url: "https://hencre.com/commercial/nnn-net-lease",
   },
@@ -273,7 +273,7 @@ export default function NNNNetLeasePage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

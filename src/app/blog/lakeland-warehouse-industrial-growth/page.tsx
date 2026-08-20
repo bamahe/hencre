@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -73,7 +74,7 @@ const schema = {
       headline: "Lakeland Warehouse & Industrial Growth",
       description: "Lakeland and Polk County industrial market trends — warehouse development, logistics, and investment.",
       datePublished: "2026-05-27",
-      dateModified: "2026-08-13",
+      dateModified: "2026-08-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -231,7 +232,7 @@ export default function LakelandIndustrialGrowthPage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate"
             width={80}

@@ -13,11 +13,11 @@ import Link from "next/link";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Sarasota Fitness & Gym Space: Find the Right Location",
+  title: "Sarasota Fitness & Gym Space: Find the Right Location | HenCRE",
   description: "Opening a gym or wellness studio in Sarasota? Learn what spaces work, what leases require, and why this market is booming. Call Barrett at (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/blog/sarasota-fitness-gym-wellness-commercial-space" },
   openGraph: {
-    title: "Sarasota Fitness & Gym Space: Find the Right Location",
+    title: "Sarasota Fitness & Gym Space: Find the Right Location | HenCRE",
     description: "Opening a gym or wellness studio in Sarasota? Learn what spaces work, what leases require, and why this market is booming. Call Barrett at (813) 733-7907.",
     url: "https://hencre.com/blog/sarasota-fitness-gym-wellness-commercial-space",
     type: "article",
@@ -64,7 +64,7 @@ const schema = {
       headline: "Sarasota Fitness & Gym Space: Find the Right Location",
       description: "Opening a gym or wellness studio in Sarasota? Learn what spaces work, what leases require, and why this market is booming.",
       datePublished: "2026-07-27",
-      dateModified: "2026-07-29",
+      dateModified: "2026-08-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -235,14 +235,14 @@ export default function BlogPost() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
           </p>
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
@@ -256,7 +256,7 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

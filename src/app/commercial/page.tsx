@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "Explore commercial property types in Florida: office, retail, industrial, multifamily, NNN net lease, and land. Barrett Henry, Broker Associate at REMAX Collective. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/commercial" },
   openGraph: {
-    title: "Property Types | REMAX Commercial Real Estate",
+    title: "Property Types | HenCRE",
     description:
       "Office, retail, industrial, multifamily, NNN, and land — every CRE asset class across Florida.",
     url: "https://hencre.com/commercial",

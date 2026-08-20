@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     "Find, lease, or invest in office space across Florida. Class A, B, and C office buildings. Tenant rep, landlord leasing, and investment sales. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/commercial/office-space" },
   openGraph: {
-    title: "Office Space | REMAX Commercial Real Estate",
+    title: "Florida Office Space | Lease, Buy & Invest | HenCRE",
     description: "Commercial office leasing, sales, and investment across Florida. Class A through C.",
     url: "https://hencre.com/commercial/office-space",
   },
@@ -89,7 +89,7 @@ export default function OfficeSpacePage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Property Types", href: "/commercial" }, { label: "Office Space", href: "/commercial/office-space" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Property Types", href: "/commercial" }, { label: "Office Space", href: "/commercial/office-space" }]} />
 
       <Hero
         title="Office Space"
@@ -283,7 +283,7 @@ export default function OfficeSpacePage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

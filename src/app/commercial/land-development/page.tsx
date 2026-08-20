@@ -19,12 +19,12 @@ const FAQS = [
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Commercial Land & Development Florida | Buy or Sell",
+  title: "Commercial Land & Development Florida | HenCRE",
   description:
     "Buy or sell commercial land in Florida. Entitled, raw, and development-ready parcels for commercial, industrial, and mixed-use projects. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/commercial/land-development" },
   openGraph: {
-    title: "Land & Development | REMAX Commercial Real Estate",
+    title: "Land & Development in Florida | HenCRE",
     description: "Commercial and development land across Florida. Entitled, raw, and shovel-ready parcels.",
     url: "https://hencre.com/commercial/land-development",
   },
@@ -190,7 +190,7 @@ export default function LandDevelopmentPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

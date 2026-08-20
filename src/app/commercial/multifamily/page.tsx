@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "Buy, sell, or invest in multifamily properties across Florida. Apartment complexes, garden-style, mid-rise, and value-add opportunities. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/commercial/multifamily" },
   openGraph: {
-    title: "Multifamily | REMAX Commercial Real Estate",
+    title: "Multifamily Investment Florida | HenCRE",
     description: "Multifamily investment sales and acquisitions across Florida.",
     url: "https://hencre.com/commercial/multifamily",
   },
@@ -274,7 +274,7 @@ export default function MultifamilyPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );
