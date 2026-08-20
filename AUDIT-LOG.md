@@ -4,6 +4,61 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-20 -- Batch 30 (10 pages improved)
+
+**Commit:** `d2a3b8c` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/land-o-lakes-fitness-gym-wellness-commercial-space`
+- Added `import Image from "next/image"`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Added "| HenCRE" suffix to metadata title and OG title
+- Updated dateModified: "2026-08-13" -> "2026-08-20"
+
+### 2. `/blog/lakeland-warehouse-industrial-growth`
+- Added `import Link from "next/link"`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Updated dateModified: "2026-08-13" -> "2026-08-20"
+
+### 3. `/blog/sarasota-fitness-gym-wellness-commercial-space`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Fixed mid-article CTA: "Talk to a REMAX Commercial Broker" -> "Talk to a Commercial Real Estate Broker"
+- Added "| HenCRE" suffix to metadata title and OG title
+- Updated "Last updated: July 2026" -> "August 2026"
+- Updated dateModified: "2026-07-29" -> "2026-08-20"
+
+### 4. `/blog/valrico-hillsborough-county-commercial-real-estate`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Expanded relatedLinks from 5 to 10 (added hillsborough market, CAM guide, westshore office, tampa-hillsborough guide, what-makes-a-good-investment)
+- Updated dateModified: "2026-08-01" -> "2026-08-20"
+
+### 5. `/commercial/land-development`
+- Fixed metadata title: "| Buy or Sell" -> "| HenCRE"
+- Fixed OG title: "REMAX Commercial Real Estate" -> "HenCRE"
+- Updated "Last updated: July 2026" -> "August 2026"
+
+### 6. `/commercial/office-space`
+- Fixed OG title: "Office Space | REMAX Commercial Real Estate" -> "Florida Office Space | Lease, Buy & Invest | HenCRE"
+- Added "Home" link as first breadcrumb item (was missing)
+- Updated "Last updated: July 2026" -> "August 2026"
+
+### 7. `/commercial/multifamily`
+- Fixed OG title: "Multifamily | REMAX Commercial Real Estate" -> "Multifamily Investment Florida | HenCRE"
+- Updated "Last updated: July 2026" -> "August 2026"
+
+### 8. `/commercial/nnn-net-lease`
+- Fixed OG title: "NNN / Net Lease | REMAX Commercial Real Estate" -> "NNN Net Lease Florida | HenCRE"
+- Updated "Last updated: July 2026" -> "August 2026"
+
+### 9. `/commercial`
+- Fixed OG title: "Property Types | REMAX Commercial Real Estate" -> "Property Types | HenCRE"
+
+### 10. `/faq`
+- Added `import Image from "next/image"`
+- Added Person schema node to @graph (EEAT signal)
+- Added author bio section (Barrett Henry credentials) before CTA
+
+---
+
 ## 2026-08-19 -- Batch 29 (10 pages improved)
 
 **Commit:** `ea522b1` | **Build:** clean (0 errors) | **Pages improved:** 10
