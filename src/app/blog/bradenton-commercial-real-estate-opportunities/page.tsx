@@ -73,7 +73,7 @@ const schema = {
       headline: "Bradenton Commercial Real Estate Opportunities",
       description: "Bradenton and Manatee County commercial real estate market overview — sectors, trends, and opportunities.",
       datePublished: "2026-06-01",
-      dateModified: "2026-08-16",
+      dateModified: "2026-08-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -243,7 +243,7 @@ export default function BradentonCREPage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate"
             width={80}

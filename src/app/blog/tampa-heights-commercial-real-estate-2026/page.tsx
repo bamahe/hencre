@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -14,7 +15,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Heights Commercial Real Estate 2026: Stetson Development, Office & Investment | HenCRE",
+  title: "Tampa Heights CRE 2026: Stetson Development & Office Market | HenCRE",
   description:
     "Tampa Heights is emerging as one of Tampa Bay's most active CRE corridors. The Stetson–Bromley mixed-use project adds 440,000 sq ft of office and 37,500 sq ft of retail to a district already home to Heights Union and Armature Works. Here is what it means for tenants and investors.",
   alternates: { canonical: "https://hencre.com/blog/tampa-heights-commercial-real-estate-2026" },
@@ -85,7 +86,7 @@ const schema = {
       description:
         "Tampa Heights is emerging as one of Tampa Bay's most active CRE corridors. The Stetson–Bromley mixed-use project adds 440,000 sq ft of office and 37,500 sq ft of retail to a district already home to Heights Union and Armature Works.",
       datePublished: "2026-08-16",
-      dateModified: "2026-08-16",
+      dateModified: "2026-08-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -287,7 +288,7 @@ export default function TampaHeightsCREPage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

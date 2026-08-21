@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -15,12 +16,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Historic Gas Plant District: Rays-Hines $6.5B Redevelopment & St. Pete CRE | HenCRE",
+  title: "Historic Gas Plant District: St. Pete CRE 2026 | HenCRE",
   description:
     "The Rays and Hines are transforming 86 acres at Tropicana Field into 8 million sq ft of office, retail, hotel, and apartments. Here is what St. Petersburg CRE investors and tenants need to know about the most consequential mixed-use project in Tampa Bay history.",
   alternates: { canonical: "https://hencre.com/blog/historic-gas-plant-district-st-pete-cre-2026" },
   openGraph: {
-    title: "Historic Gas Plant District: Rays-Hines $6.5B Redevelopment & St. Pete CRE",
+    title: "Historic Gas Plant District: St. Pete CRE 2026",
     description:
       "86 acres, $6.5B in investment, 8 million sq ft of mixed-use development — the Historic Gas Plant District is the biggest CRE story in St. Petersburg's history. What investors and tenants need to know.",
     url: "https://hencre.com/blog/historic-gas-plant-district-st-pete-cre-2026",
@@ -87,7 +88,7 @@ const schema = {
       description:
         "The Rays and Hines are transforming 86 acres at Tropicana Field into 8 million sq ft of office, retail, hotel, and apartments. What St. Petersburg CRE investors and tenants need to know.",
       datePublished: "2026-08-17",
-      dateModified: "2026-08-17",
+      dateModified: "2026-08-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -311,7 +312,7 @@ export default function HistoricGasPlantDistrictCREPage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

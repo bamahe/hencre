@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -8,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Termite Damage in Florida Investment Property: The ROI Reality Check",
+  title: "Termite Damage in Florida Investment Property | HenCRE",
   description:
     "WDO findings on Florida investment properties trigger mandatory lender repair requirements that can consume years of rental income. Here is how to evaluate the repair-vs-sell decision.",
   alternates: { canonical: "https://hencre.com/blog/termite-damage-investment-property-florida" },
@@ -78,7 +79,7 @@ const schema = {
       description:
         "WDO findings on Florida investment properties trigger mandatory lender repair requirements that can consume years of rental income. Here is how to evaluate the repair-vs-sell decision.",
       datePublished: "2026-06-24",
-      dateModified: "2026-08-14",
+      dateModified: "2026-08-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -309,7 +310,7 @@ export default function TermiteDamageInvestmentPropertyPage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

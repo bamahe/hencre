@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -78,7 +79,7 @@ const schema = {
       description:
         "Divorce-driven liquidation of Florida investment property involves court timelines, equitable distribution, and capital gains exposure that require specific planning before the sale closes.",
       datePublished: "2026-06-24",
-      dateModified: "2026-08-14",
+      dateModified: "2026-08-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -320,7 +321,7 @@ export default function InvestmentPropertyDivorceLiquidationPage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

@@ -13,7 +13,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "South Tampa Commercial Real Estate: Market Guide 2026",
+  title: "South Tampa Commercial Real Estate: Market Guide 2026 | HenCRE",
   description: "South Tampa commands premium rents, tight vacancy, and strong investor demand. Explore office, retail, and medical property in one of Tampa Bay's most affluent submarkets. Call Barrett Henry at (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/blog/south-tampa-commercial-real-estate-2026" },
   openGraph: {
@@ -41,7 +41,7 @@ const schema = {
       headline: "South Tampa Commercial Real Estate: Market Guide 2026",
       description: "South Tampa commands premium rents, tight vacancy, and strong investor demand. Here is a complete market guide for office, retail, and medical commercial property in one of Tampa Bay's most affluent submarkets.",
       datePublished: "2026-08-09",
-      dateModified: "2026-08-13",
+      dateModified: "2026-08-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -308,7 +308,7 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Commercial Real Estate Advisor"
             width={80}

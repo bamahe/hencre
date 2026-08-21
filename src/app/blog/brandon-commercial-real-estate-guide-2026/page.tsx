@@ -13,7 +13,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Brandon FL Commercial Real Estate: Market Guide 2026",
+  title: "Brandon FL Commercial Real Estate: Market Guide 2026 | HenCRE",
   description: "Brandon, FL commercial real estate is moving fast. Learn what's available, who's investing, and why you need Barrett Henry in your corner. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/blog/brandon-commercial-real-estate-guide-2026" },
   openGraph: {
@@ -41,7 +41,7 @@ const schema = {
       headline: "Brandon FL Commercial Real Estate: Market Guide 2026",
       description: "Brandon, FL commercial real estate is moving fast. Learn what's available, who's investing, and why you need Barrett Henry in your corner.",
       datePublished: "2026-07-20",
-      dateModified: "2026-08-16",
+      dateModified: "2026-08-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -277,7 +277,7 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Commercial Real Estate Advisor"
             width={80}

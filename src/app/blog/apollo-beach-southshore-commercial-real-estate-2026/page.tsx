@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -14,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Apollo Beach & SouthShore Commercial Real Estate 2026: South Hillsborough's Emerging Market | HenCRE",
+  title: "Apollo Beach & SouthShore Commercial Real Estate 2026 | HenCRE",
   description:
     "Apollo Beach, Ruskin, and the SouthShore corridor are among the fastest-growing areas in Hillsborough County — and commercial real estate is still catching up. Here is what tenants and investors need to know in 2026.",
   alternates: { canonical: "https://hencre.com/blog/apollo-beach-southshore-commercial-real-estate-2026" },
   openGraph: {
-    title: "Apollo Beach & SouthShore Commercial Real Estate 2026: South Hillsborough's Emerging Market",
+    title: "Apollo Beach & SouthShore Commercial Real Estate 2026",
     description:
       "South Hillsborough County — Apollo Beach, Ruskin, Sun City Center, Gibsonton — is growing faster than its commercial supply can keep up. Retail, medical office, and industrial opportunities in 2026.",
     url: "https://hencre.com/blog/apollo-beach-southshore-commercial-real-estate-2026",
@@ -86,7 +87,7 @@ const schema = {
       description:
         "Apollo Beach, Ruskin, and the SouthShore corridor are among the fastest-growing areas in Hillsborough County — and commercial real estate is still catching up. Here is what tenants and investors need to know in 2026.",
       datePublished: "2026-08-20",
-      dateModified: "2026-08-20",
+      dateModified: "2026-08-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -361,7 +362,7 @@ export default function ApolloBeachSouthShoreCommercialRealEstatePage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
