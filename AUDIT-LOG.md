@@ -4,6 +4,66 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-21 -- Batch 31 (10 pages improved)
+
+**Commit:** `04eda88` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-heights-commercial-real-estate-2026`
+- Added `import Image from "next/image"`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Shortened metadata title: 92 chars -> "Tampa Heights CRE 2026: Stetson Development & Office Market | HenCRE" (68 chars)
+- Updated dateModified: "2026-08-16" -> "2026-08-21"
+
+### 2. `/blog/apollo-beach-southshore-commercial-real-estate-2026`
+- Added `import Image from "next/image"`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Shortened metadata title: 100 chars -> "Apollo Beach & SouthShore Commercial Real Estate 2026 | HenCRE" (62 chars)
+- Shortened OG title to match
+- Updated dateModified: "2026-08-20" -> "2026-08-21"
+
+### 3. `/blog/historic-gas-plant-district-st-pete-cre-2026`
+- Added `import Image from "next/image"`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Shortened metadata title: 85 chars -> "Historic Gas Plant District: St. Pete CRE 2026 | HenCRE" (56 chars)
+- Shortened OG title to match
+- Updated dateModified: "2026-08-17" -> "2026-08-21"
+
+### 4. `/blog/brandon-commercial-real-estate-guide-2026`
+- Fixed author bio: raw `<img>` -> `<Image>` component (Image import already present)
+- Added "| HenCRE" suffix to metadata title: 52 chars -> 62 chars
+- Updated dateModified: "2026-08-16" -> "2026-08-21"
+
+### 5. `/blog/crystal-river-citrus-county-commercial-real-estate`
+- Added `import Image from "next/image"`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Updated dateModified: "2026-08-14" -> "2026-08-21"
+
+### 6. `/blog/investment-property-divorce-liquidation-florida`
+- Added `import Image from "next/image"`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Updated dateModified: "2026-08-14" -> "2026-08-21"
+
+### 7. `/blog/south-tampa-commercial-real-estate-2026`
+- Fixed author bio: raw `<img>` -> `<Image>` component (Image import already present)
+- Added "| HenCRE" suffix to metadata title: 53 chars -> 63 chars
+- Updated dateModified: "2026-08-13" -> "2026-08-21"
+
+### 8. `/blog/termite-damage-investment-property-florida`
+- Added `import Image from "next/image"`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Shortened metadata title: 68 chars -> "Termite Damage in Florida Investment Property | HenCRE" (54 chars)
+- Updated dateModified: "2026-08-14" -> "2026-08-21"
+
+### 9. `/blog/bradenton-commercial-real-estate-opportunities`
+- Fixed author bio: raw `<img>` -> `<Image>` component (Image import already present)
+- Updated dateModified: "2026-08-16" -> "2026-08-21"
+
+### 10. `/blog/florida-insurance-crisis-investment-properties`
+- Fixed author bio: raw `<img>` -> `<Image>` component (Image import already present)
+- Updated dateModified: "2026-08-14" -> "2026-08-21"
+
+---
+
 ## 2026-08-20 -- Batch 30 (10 pages improved)
 
 **Commit:** `d2a3b8c` | **Build:** clean (0 errors) | **Pages improved:** 10
