@@ -4,6 +4,90 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-22 -- Batch 32 (10 pages improved)
+
+**Commit:** `7190af8` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/largo-pinellas-county-commercial-real-estate-2026`
+- Full rewrite: shortened title from 103 chars -> "Largo FL Commercial Real Estate 2026 | Pinellas County" (54 chars)
+- Merged dual schemas (articleSchema + faqSchema) into single @graph schema
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Removed nowtb.com from sameAs array
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Added Home as first breadcrumb item
+- Fixed raw `<img>` in author bio -> `<Image>` component
+- Fixed raw `<a>` in mid-CTA -> `<Link>` component
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed relatedLinks hrefs: added /blog/ prefix to all links
+- Fixed mid-CTA text: "REMAX Commercial® Broker" -> "Commercial Real Estate Broker"
+- Added dateModified: "2026-08-22"
+- Fixed OG image to use public hencre.com/og-image.png URL
+- Fixed author bio credentials: Broker Associate | e-PRO, MRP, SRS | REMAX Hall of Fame
+- Added 8+ internal links throughout article body
+
+### 2. `/blog/wesley-chapel-pasco-county-commercial-real-estate-2026`
+- Full rewrite: shortened title from 82 chars -> "Wesley Chapel Commercial Real Estate 2026 | Pasco County" (56 chars)
+- Merged dual schemas into single @graph schema
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Removed nowtb.com from sameAs array
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Added Home as first breadcrumb item
+- Fixed raw `<img>` in author bio -> `<Image>` component
+- Fixed raw `<a>` in mid-CTA -> `<Link>` component
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed relatedLinks hrefs: added /blog/ prefix to all links
+- Fixed mid-CTA text: "REMAX Commercial® Broker" -> "Commercial Real Estate Broker"
+- Fixed OG image: generic local path -> Unsplash commercial building URL
+- Added dateModified: "2026-08-22"
+- Fixed author bio credentials: Broker Associate | e-PRO, MRP, SRS | REMAX Hall of Fame
+- Added 8+ internal links throughout article body
+
+### 3. `/blog/tampa-bay-industrial-market-q2-2026`
+- Added `import Image from "next/image"`
+- Fixed author bio: raw `<img>` -> `<Image>` component
+- Fixed wrong phone number in CTASection body: "(813) 555-0100" -> "(813) 733-7907"
+
+### 4. `/services/investment-sales`
+- Fixed OG title: "Investment Sales | REMAX Commercial Real Estate" -> "Investment Sales | HenCRE"
+- Added Home as first breadcrumb item
+- Fixed FAQ answer: "REMAX Commercial referral system" -> "REMAX Collective referral system"
+- Updated "Last updated: July 2026" -> "Last updated: August 2026"
+
+### 5. `/services/dispositions`
+- Fixed OG title: "Dispositions | REMAX Commercial Real Estate" -> "Dispositions | HenCRE"
+- Added Home as first breadcrumb item
+- Fixed body text: "As a REMAX Commercial broker" -> "As a Broker Associate at REMAX Collective"
+- Fixed FAQ answer: "REMAX Commercial broker network activation" -> "REMAX Collective broker network activation"
+- Updated "Last updated: July 2026" -> "Last updated: August 2026"
+
+### 6. `/services/tenant-representation`
+- Fixed OG title: "Tenant Representation | REMAX Commercial Real Estate" -> "Tenant Representation | HenCRE"
+- Added Home as first breadcrumb item
+- Fixed FAQ answer: "REMAX Commercial network" -> "REMAX Collective network"
+- Updated "Last updated: July 2026" -> "Last updated: August 2026"
+
+### 7. `/services/cre-valuation`
+- Fixed OG title: "CRE Valuation | REMAX Commercial Real Estate" -> "CRE Valuation | HenCRE"
+- Added Home as first breadcrumb item
+- Updated "Last updated: July 2026" -> "Last updated: August 2026"
+
+### 8. `/services/landlord-leasing`
+- Fixed OG title: "Landlord Leasing | REMAX Commercial Real Estate" -> "Landlord Leasing | HenCRE"
+- Added Home as first breadcrumb item
+- Fixed FAQ answer: "broker network activation through REMAX Commercial" -> "REMAX Collective"
+- Fixed body: "As a REMAX Commercial broker" -> "As a Broker Associate at REMAX Collective"
+- Updated "Last updated: July 2026" -> "Last updated: August 2026"
+
+### 9. `/commercial/industrial-warehouse`
+- Fixed OG title: "Industrial & Warehouse | REMAX Commercial Real Estate" -> "Industrial & Warehouse | HenCRE"
+
+### 10. `/commercial/retail-space`
+- Fixed OG title: "Retail Space | REMAX Commercial Real Estate" -> "Retail Space | HenCRE"
+
+---
+
 ## 2026-08-21 -- Batch 31 (10 pages improved)
 
 **Commit:** `04eda88` | **Build:** clean (0 errors) | **Pages improved:** 10
