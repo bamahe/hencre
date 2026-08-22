@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -316,7 +317,7 @@ export default function TampaBayIndustrialMarketQ2Page() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
@@ -337,7 +338,7 @@ export default function TampaBayIndustrialMarketQ2Page() {
 
       <CTASection
         heading="Looking for Industrial Space or a Warehouse Investment in Tampa Bay?"
-        body="I help tenants secure industrial and flex space and help investors evaluate acquisitions across Tampa Bay&apos;s warehouse market. Call (813) 555-0100 or reach out below — let&apos;s talk before the vacancy window closes."
+        body="I help tenants secure industrial and flex space and help investors evaluate acquisitions across Tampa Bay&apos;s warehouse market. Call (813) 733-7907 or reach out below — let&apos;s talk before the vacancy window closes."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

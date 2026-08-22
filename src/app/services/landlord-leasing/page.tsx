@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Landlord leasing services across Florida. Barrett Henry markets your commercial property, screens tenants, and negotiates leases that protect your investment. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/services/landlord-leasing" },
   openGraph: {
-    title: "Landlord Leasing | REMAX Commercial Real Estate",
+    title: "Landlord Leasing | HenCRE",
     description:
       "Fill commercial vacancies faster with qualified tenants. Strategic marketing and lease negotiation across Florida.",
     url: "https://hencre.com/services/landlord-leasing",
@@ -31,7 +31,7 @@ const FAQS = [
   },
   {
     question: "What marketing do you use to fill vacancies?",
-    answer: "Barrett uses a multi-channel approach: listings on LoopNet, CoStar, and Crexi, direct outreach to active tenant reps, broker network activation through REMAX Commercial, signage, and targeted email campaigns to qualified prospects in your submarket.",
+    answer: "Barrett uses a multi-channel approach: listings on LoopNet, CoStar, and Crexi, direct outreach to active tenant reps, broker network activation through REMAX Collective, signage, and targeted email campaigns to qualified prospects in your submarket.",
   },
   {
     question: "How do you determine the right asking rent?",
@@ -90,7 +90,7 @@ export default function LandlordLeasingPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "Landlord Leasing", href: "/services/landlord-leasing" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "Landlord Leasing", href: "/services/landlord-leasing" }]} />
 
       <Hero
         title="Landlord Leasing"
@@ -113,7 +113,7 @@ export default function LandlordLeasingPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Vacancy Costs You Money Every Day</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            With 23+ years of real estate experience, Barrett Henry knows exactly how much every vacant day costs a commercial landlord. As a REMAX Commercial broker, he leverages the largest real estate network in the world to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs with zero income. Taxes, insurance, maintenance, and debt service do not pause because the space is vacant. You need a broker who treats your vacancy with the same urgency you feel.
+            With 23+ years of real estate experience, Barrett Henry knows exactly how much every vacant day costs a commercial landlord. As a Broker Associate at REMAX Collective, he leverages a strong commercial network to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs with zero income. Taxes, insurance, maintenance, and debt service do not pause because the space is vacant. You need a broker who treats your vacancy with the same urgency you feel.
           </p>
           <p>
             Barrett creates a leasing strategy tailored to your property — competitive pricing based on real market data, professional marketing materials, and targeted outreach to active tenants and tenant reps in the market. He does not just post your listing and wait. He works the phones, taps his network, and drives qualified prospects to your door.
@@ -310,7 +310,7 @@ export default function LandlordLeasingPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

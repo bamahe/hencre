@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Maximize proceeds when selling commercial real estate in Florida. Strategic pricing, targeted marketing, and deal structuring for optimal results. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/services/dispositions" },
   openGraph: {
-    title: "Dispositions | REMAX Commercial Real Estate",
+    title: "Dispositions | HenCRE",
     description:
       "Sell your commercial property for maximum value. Strategic pricing, marketing, and negotiation across Florida.",
     url: "https://hencre.com/services/dispositions",
@@ -43,7 +43,7 @@ const FAQS = [
   },
   {
     question: "What marketing do you use to sell commercial property?",
-    answer: "Barrett uses institutional-quality offering memorandums, LoopNet, CoStar, and Crexi listings, direct outreach to targeted buyer pools, REMAX Commercial broker network activation, and email campaigns to qualified investors.",
+    answer: "Barrett uses institutional-quality offering memorandums, LoopNet, CoStar, and Crexi listings, direct outreach to targeted buyer pools, REMAX Collective broker network activation, and email campaigns to qualified investors.",
   },
   {
     question: "How do I know if my commercial property is priced correctly?",
@@ -90,7 +90,7 @@ export default function DispositionsPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "Dispositions", href: "/services/dispositions" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "Dispositions", href: "/services/dispositions" }]} />
 
       <Hero
         title="Dispositions"
@@ -113,7 +113,7 @@ export default function DispositionsPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Exit at the Right Time, at the Right Price</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            With 23+ years of real estate experience, Barrett Henry brings institutional-quality discipline to every commercial sale. As a REMAX Commercial broker, he taps the largest real estate referral network on the planet to reach qualified buyers for your asset. Selling a commercial property is not like listing a house. The buyer pool is smaller, more sophisticated, and more analytical. You need a broker who speaks their language — who can present your property with institutional-quality materials, price it based on real income data, and negotiate with buyers who know exactly what they are doing.
+            With 23+ years of real estate experience, Barrett Henry brings institutional-quality discipline to every commercial sale. As a Broker Associate at REMAX Collective, he taps the largest real estate referral network on the planet to reach qualified buyers for your asset. Selling a commercial property is not like listing a house. The buyer pool is smaller, more sophisticated, and more analytical. You need a broker who speaks their language — who can present your property with institutional-quality materials, price it based on real income data, and negotiate with buyers who know exactly what they are doing.
           </p>
           <p>
             Barrett starts with a comprehensive <Link href="/services/cre-valuation" className="text-accent underline">broker opinion of value (BOV)</Link> based on comparable sales, income analysis, and market trends. From there, he develops a pricing strategy designed to generate competitive interest without leaving money on the table.
@@ -312,7 +312,7 @@ export default function DispositionsPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

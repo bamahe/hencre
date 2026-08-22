@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Expert tenant representation across Florida. Barrett Henry negotiates your commercial lease so you get the right space at the best terms. Free market survey. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/services/tenant-representation" },
   openGraph: {
-    title: "Tenant Representation | REMAX Commercial Real Estate",
+    title: "Tenant Representation | HenCRE",
     description:
       "Find the right commercial space at the right terms. Expert tenant rep across all 67 Florida counties.",
     url: "https://hencre.com/services/tenant-representation",
@@ -43,7 +43,7 @@ const FAQS = [
   },
   {
     question: "What areas does Barrett cover for tenant representation?",
-    answer: "Barrett covers markets across Florida including Hillsborough, Pinellas, Pasco, Hernando, Manatee, Sarasota, and Polk counties. For deals outside his core market, he leverages the REMAX Commercial network to connect you with a local specialist.",
+    answer: "Barrett covers markets across Florida including Hillsborough, Pinellas, Pasco, Hernando, Manatee, Sarasota, and Polk counties. For deals outside his core market, he leverages the REMAX Collective network to connect you with a local specialist.",
   },
 ];
 
@@ -81,7 +81,7 @@ export default function TenantRepPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "Tenant Representation", href: "/services/tenant-representation" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "Tenant Representation", href: "/services/tenant-representation" }]} />
 
       <Hero
         title="Tenant Representation"
@@ -337,7 +337,7 @@ export default function TenantRepPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

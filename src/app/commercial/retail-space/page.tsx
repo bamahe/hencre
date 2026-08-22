@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "Find, lease, or invest in retail space across Florida. Strip centers, standalone pads, outparcels, and mixed-use. Barrett Henry at REMAX Collective. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/commercial/retail-space" },
   openGraph: {
-    title: "Retail Space | REMAX Commercial Real Estate",
+    title: "Retail Space | HenCRE",
     description: "Commercial retail leasing, sales, and investment across Florida.",
     url: "https://hencre.com/commercial/retail-space",
   },

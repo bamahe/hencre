@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Know what your commercial property is worth. Broker opinions of value, comp analysis, and market positioning for owners, investors, and lenders across Florida. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/services/cre-valuation" },
   openGraph: {
-    title: "CRE Valuation | REMAX Commercial Real Estate",
+    title: "CRE Valuation | HenCRE",
     description:
       "Broker opinion of value, comp analysis, and market positioning. Know what your commercial property is worth.",
     url: "https://hencre.com/services/cre-valuation",
@@ -90,7 +90,7 @@ export default function CREValuationPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "CRE Valuation", href: "/services/cre-valuation" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "CRE Valuation", href: "/services/cre-valuation" }]} />
 
       <Hero
         title="CRE Valuation"
@@ -302,7 +302,7 @@ export default function CREValuationPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

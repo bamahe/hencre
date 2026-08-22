@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Buy or sell income-producing commercial real estate in Florida. Data-driven investment analysis, deal sourcing, and negotiation for investors and family offices. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/services/investment-sales" },
   openGraph: {
-    title: "Investment Sales | REMAX Commercial Real Estate",
+    title: "Investment Sales | HenCRE",
     description:
       "Acquire income-producing properties or sell at peak value. Data-driven CRE investment services across Florida.",
     url: "https://hencre.com/services/investment-sales",
@@ -39,7 +39,7 @@ const FAQS = [
   },
   {
     question: "Do you help with off-market investment deals?",
-    answer: "Yes. Barrett sources off-market opportunities through his broker network, direct owner outreach, and the REMAX Commercial referral system. Many of the best investment deals never hit the public market.",
+    answer: "Yes. Barrett sources off-market opportunities through his broker network, direct owner outreach, and the REMAX Collective referral system. Many of the best investment deals never hit the public market.",
   },
   {
     question: "What is the minimum investment for commercial real estate?",
@@ -81,7 +81,7 @@ export default function InvestmentSalesPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "Investment Sales", href: "/services/investment-sales" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "Investment Sales", href: "/services/investment-sales" }]} />
 
       <Hero
         title="Investment Sales"
@@ -308,7 +308,7 @@ export default function InvestmentSalesPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );
