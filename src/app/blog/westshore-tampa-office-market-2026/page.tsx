@@ -14,12 +14,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Westshore Tampa Office Market 2026: Vacancy, Rents & Where Space Is Tightening | HenCRE",
+  title: "Westshore Tampa Office Market 2026 | HenCRE",
   description:
     "Westshore is Tampa Bay's largest and most active office submarket — with vacancy at 16%, rents at all-time highs, and landmark buildings nearly full. Here's what tenants and investors need to know in 2026.",
   alternates: { canonical: "https://hencre.com/blog/westshore-tampa-office-market-2026" },
   openGraph: {
-    title: "Westshore Tampa Office Market 2026: Vacancy, Rents & Where Space Is Tightening",
+    title: "Westshore Tampa Office Market 2026",
     description:
       "Vacancy down to 16%, asking rents at an all-time high, and several Class A towers with under 20,000 SF remaining — the Westshore office submarket is the tightest it has been since before the pandemic.",
     url: "https://hencre.com/blog/westshore-tampa-office-market-2026",
@@ -85,11 +85,11 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline: "Westshore Tampa Office Market 2026: Vacancy, Rents & Where Space Is Tightening",
+      headline: "Westshore Tampa Office Market 2026",
       description:
         "Westshore is Tampa Bay's largest and most active office submarket — with vacancy at 16%, rents at all-time highs, and landmark buildings nearly full.",
       datePublished: "2026-08-07",
-      dateModified: "2026-08-16",
+      dateModified: "2026-08-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

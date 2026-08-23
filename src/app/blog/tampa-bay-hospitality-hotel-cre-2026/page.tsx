@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Hotel & Hospitality CRE 2026: New Projects, Investment Trends | HenCRE",
+  title: "Tampa Bay Hotel & Hospitality CRE 2026 | HenCRE",
   description:
     "Tampa Bay's hotel development pipeline is the strongest in a decade. Luxury flags, adaptive reuse of historic buildings, and mixed-use hospitality projects are reshaping downtown Tampa, Ybor City, and St. Pete. Here is what CRE investors need to know.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-hospitality-hotel-cre-2026" },
   openGraph: {
-    title: "Tampa Bay Hotel & Hospitality CRE 2026: New Projects, Investment Trends",
+    title: "Tampa Bay Hotel & Hospitality CRE 2026",
     description:
       "From Pendry Tampa to Hotel ORA to boutique Ybor City conversions, Tampa Bay's hospitality pipeline is transforming the commercial real estate landscape. Barrett Henry breaks down what it means for investors.",
     url: "https://hencre.com/blog/tampa-bay-hospitality-hotel-cre-2026",
@@ -82,11 +82,11 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline: "Tampa Bay Hotel & Hospitality CRE 2026: New Projects, Investment Trends",
+      headline: "Tampa Bay Hotel & Hospitality CRE 2026",
       description:
         "Tampa Bay's hotel development pipeline is the strongest in a decade. Here is what the luxury hotel boom means for commercial real estate investors across downtown Tampa, Ybor City, and St. Petersburg.",
       datePublished: "2026-07-31",
-      dateModified: "2026-08-05",
+      dateModified: "2026-08-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

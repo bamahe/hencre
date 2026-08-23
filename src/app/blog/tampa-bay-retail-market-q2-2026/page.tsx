@@ -14,12 +14,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Retail Market Q2 2026: 3.8% Vacancy and What It Means for Tenants & Investors | HenCRE",
+  title: "Tampa Bay Retail Market Q2 2026 | HenCRE",
   description:
     "Tampa Bay retail vacancy held at 3.8% in Q2 2026 — well below the national average of 6.0% and near historic lows for strip centers and grocery-anchored properties. Here is what that means if you are leasing or investing.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-retail-market-q2-2026" },
   openGraph: {
-    title: "Tampa Bay Retail Market Q2 2026: 3.8% Vacancy and What It Means for Tenants & Investors",
+    title: "Tampa Bay Retail Market Q2 2026",
     description:
       "Tampa Bay retail vacancy is 3.8% vs. a 6.0% national average — strip centers and grocery-anchored centers are near historic lows. What the tight market means for tenants and CRE investors.",
     url: "https://hencre.com/blog/tampa-bay-retail-market-q2-2026",
@@ -76,11 +76,11 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline: "Tampa Bay Retail Market Q2 2026: 3.8% Vacancy and What It Means for Tenants & Investors",
+      headline: "Tampa Bay Retail Market Q2 2026",
       description:
         "Tampa Bay retail vacancy held at 3.8% in Q2 2026 — well below the national average and near historic lows for strip centers and grocery-anchored properties. What that means if you are leasing or investing.",
       datePublished: "2026-08-14",
-      dateModified: "2026-08-16",
+      dateModified: "2026-08-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

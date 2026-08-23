@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Self-Storage Commercial Real Estate in Tampa Bay: Investor Guide 2026 | HenCRE",
+  title: "Tampa Bay Self-Storage CRE Investment Guide 2026 | HenCRE",
   description:
     "Self-storage is one of the most resilient commercial real estate asset classes — and Tampa Bay's population growth keeps demand structurally strong. Here is what investors need to know in 2026 as Sunbelt oversupply fades.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-self-storage-cre-investment-2026" },
   openGraph: {
-    title: "Self-Storage Commercial Real Estate in Tampa Bay: Investor Guide 2026",
+    title: "Tampa Bay Self-Storage CRE Investment Guide 2026",
     description:
       "Tampa Bay's self-storage market is stabilizing after Sunbelt oversupply pressure. Here is what the asset class is, why it performs so consistently, and what investors should know before buying in 2026.",
     url: "https://hencre.com/blog/tampa-bay-self-storage-cre-investment-2026",
@@ -82,11 +82,11 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline: "Self-Storage Commercial Real Estate in Tampa Bay: Investor Guide 2026",
+      headline: "Tampa Bay Self-Storage CRE Investment Guide 2026",
       description:
         "What investors need to know about self-storage as a commercial asset class in Tampa Bay as Sunbelt oversupply pressure fades and the market stabilizes in 2026.",
       datePublished: "2026-08-02",
-      dateModified: "2026-08-03",
+      dateModified: "2026-08-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -132,6 +132,31 @@ const relatedLinks = [
     title: "Commercial Property Due Diligence Timeline",
     href: "/blog/commercial-property-due-diligence-timeline",
     description: "Step-by-step guide to what due diligence looks like on a commercial acquisition in Florida.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett Henry helps buyers and sellers execute commercial investment transactions across Tampa Bay.",
+  },
+  {
+    title: "SBA 504 Loan for Commercial Real Estate",
+    href: "/blog/sba-504-loan-commercial-real-estate-tampa-bay",
+    description: "Owner-users can finance a self-storage acquisition with below-market fixed rates through SBA 504.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "The core evaluation framework for any income-producing commercial property in Florida.",
+  },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "How self-storage cap rates compare to single-tenant net lease yields across Tampa Bay.",
+  },
+  {
+    title: "Selling Tenant-Occupied Investment Property in Florida",
+    href: "/blog/selling-tenant-occupied-investment-property-florida",
+    description: "Key considerations when marketing a leased or occupied self-storage facility for sale.",
   },
 ];
 

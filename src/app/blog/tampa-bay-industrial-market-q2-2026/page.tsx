@@ -14,12 +14,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Industrial Market Q2 2026: Vacancy, Leasing & What Comes Next | HenCRE",
+  title: "Tampa Bay Industrial Market Q2 2026 | HenCRE",
   description:
     "Tampa Bay industrial vacancy held flat in Q2 2026 for the first time since mid-2023, with leasing topping 2.9 million square feet and sales volume nearly doubling. Here is what the data means for tenants and investors.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-industrial-market-q2-2026" },
   openGraph: {
-    title: "Tampa Bay Industrial Market Q2 2026: Vacancy, Leasing & What Comes Next",
+    title: "Tampa Bay Industrial Market Q2 2026",
     description:
       "Industrial vacancy stabilized in Q2 2026 — the first flat quarter since mid-2023. Leasing hit 2.9M SF, sales topped $210M, and rents held near all-time highs. Here is what it means for Tampa Bay tenants and investors.",
     url: "https://hencre.com/blog/tampa-bay-industrial-market-q2-2026",
@@ -81,12 +81,11 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline:
-        "Tampa Bay Industrial Market Q2 2026: Vacancy, Leasing & What Comes Next",
+      headline: "Tampa Bay Industrial Market Q2 2026",
       description:
         "Tampa Bay industrial vacancy held flat in Q2 2026 for the first time since mid-2023, with leasing topping 2.9 million square feet and sales volume nearly doubling. What it means for tenants and investors.",
       datePublished: "2026-08-18",
-      dateModified: "2026-08-18",
+      dateModified: "2026-08-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

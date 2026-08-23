@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Small Bay Industrial & Flex Space: Why Investors Are Paying $23M | HenCRE",
+  title: "Tampa Bay Small-Bay Industrial Flex 2026 | HenCRE",
   description:
     "A joint venture just paid $23.15M for a 169,000-sq-ft small bay industrial portfolio in Tampa. Here is what small bay industrial is, why investors love it, and what tenants need to know about this undersupplied CRE niche in 2026.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-small-bay-industrial-flex-2026" },
   openGraph: {
-    title: "Tampa Bay Small Bay Industrial & Flex Space: Why Investors Are Paying $23M",
+    title: "Tampa Bay Small-Bay Industrial Flex 2026",
     description:
       "The $23.15M Pioneer Park acquisition spotlights Tampa Bay's most undersupplied industrial niche. Here is what small bay flex space is, who it serves, and what the deal means for tenants and investors in 2026.",
     url: "https://hencre.com/blog/tampa-bay-small-bay-industrial-flex-2026",
@@ -86,7 +86,7 @@ const schema = {
       description:
         "A joint venture paid $23.15M for a 169,055-sq-ft small bay industrial portfolio in Tampa. Here is what small bay industrial is, why investors love it, and what the deal means for the market in 2026.",
       datePublished: "2026-07-27",
-      dateModified: "2026-08-05",
+      dateModified: "2026-08-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -132,6 +132,31 @@ const relatedLinks = [
     title: "Lakeland Warehouse & Industrial Growth",
     href: "/blog/lakeland-warehouse-industrial-growth",
     description: "How Lakeland's I-4 corridor compares to Tampa's supply-constrained industrial submarkets.",
+  },
+  {
+    title: "Plant City Commercial Real Estate 2026",
+    href: "/blog/plant-city-commercial-real-estate-2026",
+    description: "I-4 corridor industrial market with Stalwart Business Park and lower rents than core Tampa.",
+  },
+  {
+    title: "East Tampa US-301 Industrial Corridor 2026",
+    href: "/blog/east-tampa-us-301-industrial-corridor-2026",
+    description: "Tampa Bay's most active large-format industrial submarket and current rent trends.",
+  },
+  {
+    title: "Tampa Bay Industrial Market Q2 2026",
+    href: "/blog/tampa-bay-industrial-market-q2-2026",
+    description: "Vacancy, leasing velocity, and what comes next for Tampa Bay warehouse and industrial.",
+  },
+  {
+    title: "SBA 504 Loan for Commercial Real Estate",
+    href: "/blog/sba-504-loan-commercial-real-estate-tampa-bay",
+    description: "How owner-users can finance a small-bay flex purchase with below-market fixed rates.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "Step-by-step checklist before closing on any Tampa Bay industrial or flex acquisition.",
   },
 ];
 

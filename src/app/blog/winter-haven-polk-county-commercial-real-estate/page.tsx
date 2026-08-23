@@ -12,15 +12,15 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Winter Haven, Polk County FL: A Rising Star in Central Florida Commercial Real Estate",
+  title: "Winter Haven Polk County Commercial Real Estate 2026 | HenCRE",
   description: "Discover why Winter Haven, Polk County FL is attracting commercial real estate investors and tenants in 2026. Explore retail, office, industrial, and mixed-use opportunities in this fast-growing Central Florida market.",
   alternates: { canonical: "https://hencre.com/blog/winter-haven-polk-county-commercial-real-estate" },
   openGraph: {
-    title: "Winter Haven, Polk County FL: A Rising Star in Central Florida Commercial Real Estate",
+    title: "Winter Haven Polk County Commercial Real Estate 2026",
     description: "Discover why Winter Haven, Polk County FL is attracting commercial real estate investors and tenants in 2026. Explore retail, office, industrial, and mixed-use opportunities in this fast-growing Central Florida market.",
     url: "https://hencre.com/blog/winter-haven-polk-county-commercial-real-estate",
     type: "article",
-    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "Winter Haven, Polk County FL: A Rising Star in Central Florida Commercial Real Estate" }],
+    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "Winter Haven Polk County commercial real estate 2026" }],
   },
 };
 
@@ -113,10 +113,10 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline: "Winter Haven, Polk County FL: A Rising Star in Central Florida Commercial Real Estate",
+      headline: "Winter Haven Polk County Commercial Real Estate 2026",
       description: "Discover why Winter Haven, Polk County FL is attracting commercial real estate investors and tenants in 2026. Explore retail, office, industrial, and mixed-use opportunities in this fast-growing Central Florida market.",
       datePublished: "2026-08-10",
-      dateModified: "2026-08-11",
+      dateModified: "2026-08-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Ybor City Commercial Real Estate 2026: Tampa's $6 Billion Transformation | HenCRE",
+  title: "Ybor City Commercial Real Estate 2026 | HenCRE",
   description:
     "Ybor City is undergoing its biggest transformation since the cigar era — 6 million square feet of mixed-use development, a new hospital, thousands of residential units, and a redesigned streetcar line. Here is what it means for commercial tenants and investors.",
   alternates: { canonical: "https://hencre.com/blog/ybor-city-commercial-real-estate-tampa-2026" },
   openGraph: {
-    title: "Ybor City Commercial Real Estate 2026: Tampa's $6 Billion Transformation",
+    title: "Ybor City Commercial Real Estate 2026",
     description:
       "Gasworx, Ybor Harbor, Tampa General Hospital, and the Kettler-Shaw 50-acre mixed-use campus are reshaping Ybor City into one of the most active CRE markets in Tampa Bay.",
     url: "https://hencre.com/blog/ybor-city-commercial-real-estate-tampa-2026",
@@ -72,10 +72,10 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline: "Ybor City Commercial Real Estate 2026: Tampa's $6 Billion Transformation",
+      headline: "Ybor City Commercial Real Estate 2026",
       description: "Ybor City is undergoing its biggest transformation since the cigar era — Gasworx, Ybor Harbor, Tampa General Hospital, and a new mixed-use streetcar district are reshaping one of Tampa's most storied neighborhoods into a major CRE opportunity.",
       datePublished: "2026-07-23",
-      dateModified: "2026-08-19",
+      dateModified: "2026-08-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

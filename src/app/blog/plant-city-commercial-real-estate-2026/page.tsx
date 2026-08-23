@@ -14,12 +14,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Plant City Commercial Real Estate 2026: Industrial, Retail & Investment | HenCRE",
+  title: "Plant City Commercial Real Estate 2026 | HenCRE",
   description:
     "Plant City is emerging as one of Tampa Bay's most active commercial real estate markets in 2026, anchored by the 3.4 million square foot Stalwart Business Park. Here is what investors, tenants, and developers need to know.",
   alternates: { canonical: "https://hencre.com/blog/plant-city-commercial-real-estate-2026" },
   openGraph: {
-    title: "Plant City Commercial Real Estate 2026: Industrial, Retail & Investment",
+    title: "Plant City Commercial Real Estate 2026",
     description:
       "Plant City's 410-acre Stalwart Business Park anchors a wave of I-4 corridor industrial investment in 2026. Rents run $1–3 below Tampa prices while logistics access rivals anything in the metro. Here is the full picture.",
     url: "https://hencre.com/blog/plant-city-commercial-real-estate-2026",
@@ -81,11 +81,11 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline: "Plant City Commercial Real Estate 2026: Industrial, Retail & Investment",
+      headline: "Plant City Commercial Real Estate 2026",
       description:
         "Plant City is emerging as one of Tampa Bay's most active commercial real estate markets in 2026, anchored by the 3.4 million square foot Stalwart Business Park and I-4 corridor logistics demand.",
       datePublished: "2026-08-21",
-      dateModified: "2026-08-21",
+      dateModified: "2026-08-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

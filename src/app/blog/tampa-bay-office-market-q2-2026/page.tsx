@@ -13,12 +13,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Office Market Q2 2026: Vacancy, Absorption & What's Next | HenCRE",
+  title: "Tampa Bay Office Market Q2 2026 | HenCRE",
   description:
     "Tampa Bay office vacancy fell to an 18.2% four-year low in Q2 2026, with two consecutive quarters of positive absorption. Here is what the numbers mean for tenants leasing space and investors buying assets.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-office-market-q2-2026" },
   openGraph: {
-    title: "Tampa Bay Office Market Q2 2026: Vacancy, Absorption & What's Next",
+    title: "Tampa Bay Office Market Q2 2026",
     description:
       "Office vacancy at a four-year low, Class A demand driving positive absorption for two straight quarters — here is what Tampa Bay's Q2 2026 office market data means for tenants and CRE investors.",
     url: "https://hencre.com/blog/tampa-bay-office-market-q2-2026",
@@ -70,10 +70,10 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline: "Tampa Bay Office Market Q2 2026: Vacancy, Absorption & What's Next",
+      headline: "Tampa Bay Office Market Q2 2026",
       description: "Tampa Bay office vacancy fell to an 18.2% four-year low in Q2 2026, with two consecutive quarters of positive absorption. What it means for tenants and investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-08-10",
+      dateModified: "2026-08-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
