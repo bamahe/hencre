@@ -4,6 +4,65 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-23 -- Batch 33 (10 pages improved)
+
+**Commit:** `46a9520` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/plant-city-commercial-real-estate-2026`
+- Shortened metadata title: 80 chars -> "Plant City Commercial Real Estate 2026 | HenCRE" (47 chars)
+- Updated OG title to match shortened title
+- Shortened schema headline to match
+- Updated dateModified: "2026-08-21" -> "2026-08-23"
+
+### 2. `/blog/tampa-bay-retail-market-q2-2026`
+- Shortened metadata title: 96 chars -> "Tampa Bay Retail Market Q2 2026 | HenCRE" (40 chars)
+- Updated OG title and schema headline to match
+- Updated dateModified: "2026-08-16" -> "2026-08-23"
+
+### 3. `/blog/westshore-tampa-office-market-2026`
+- Shortened metadata title: 87 chars -> "Westshore Tampa Office Market 2026 | HenCRE" (44 chars)
+- Updated OG title and schema headline to match
+- Updated dateModified: "2026-08-16" -> "2026-08-23"
+
+### 4. `/blog/tampa-bay-small-bay-industrial-flex-2026`
+- Shortened metadata title: 83 chars -> "Tampa Bay Small-Bay Industrial Flex 2026 | HenCRE" (49 chars)
+- Updated OG title and schema headline to match
+- Expanded relatedLinks: 5 -> 11 (added Plant City CRE, East Tampa US-301, Industrial Market Q2, SBA 504, Due Diligence)
+- Updated dateModified: "2026-08-05" -> "2026-08-23"
+
+### 5. `/blog/winter-haven-polk-county-commercial-real-estate`
+- Shortened metadata title: 84 chars, no HenCRE -> "Winter Haven Polk County Commercial Real Estate 2026 | HenCRE" (60 chars)
+- Updated OG title, schema headline, and OG image alt text to match
+- Updated dateModified: "2026-08-11" -> "2026-08-23"
+
+### 6. `/blog/ybor-city-commercial-real-estate-tampa-2026`
+- Shortened metadata title: 80 chars -> "Ybor City Commercial Real Estate 2026 | HenCRE" (46 chars)
+- Updated OG title and schema headline to match
+- Updated dateModified: "2026-08-19" -> "2026-08-23"
+
+### 7. `/blog/tampa-bay-hospitality-hotel-cre-2026`
+- Shortened metadata title: 79 chars -> "Tampa Bay Hotel & Hospitality CRE 2026 | HenCRE" (47 chars)
+- Updated OG title and schema headline to match
+- Updated dateModified: "2026-08-05" -> "2026-08-23"
+
+### 8. `/blog/tampa-bay-industrial-market-q2-2026`
+- Shortened metadata title: 79 chars -> "Tampa Bay Industrial Market Q2 2026 | HenCRE" (44 chars)
+- Updated OG title and schema headline to match
+- Updated dateModified: "2026-08-18" -> "2026-08-23"
+
+### 9. `/blog/tampa-bay-self-storage-cre-investment-2026`
+- Shortened metadata title: 78 chars -> "Tampa Bay Self-Storage CRE Investment Guide 2026 | HenCRE" (57 chars)
+- Updated OG title and schema headline to match
+- Expanded relatedLinks: 5 -> 11 (added Investment Sales, SBA 504, What Makes Good Investment, NNN Cap Rates, Selling Tenant-Occupied)
+- Updated dateModified: "2026-08-03" -> "2026-08-23"
+
+### 10. `/blog/tampa-bay-office-market-q2-2026`
+- Shortened metadata title: 73 chars -> "Tampa Bay Office Market Q2 2026 | HenCRE" (40 chars)
+- Updated OG title and schema headline to match
+- Updated dateModified: "2026-08-10" -> "2026-08-23"
+
+---
+
 ## 2026-08-22 -- Batch 32 (10 pages improved)
 
 **Commit:** `7190af8` | **Build:** clean (0 errors) | **Pages improved:** 10
