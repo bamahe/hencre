@@ -4,6 +4,47 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-24 -- Batch 34 (9 pages improved)
+
+**Commit:** `f930189` | **Build:** clean (0 errors) | **Pages improved:** 9
+
+### 1. `/markets/baker`
+- Updated date: July 2026 -> August 2026
+
+### 2. `/markets/bay`
+- Updated date: July 2026 -> August 2026
+
+### 3. `/markets/bradford`
+- Removed extraneous OG fields: siteName and type: "article"
+- Expanded relatedLinks from 4 to 6 (added Columbia County, 1031 Exchange Guide)
+- Updated date: July 2026 -> August 2026
+
+### 4. `/markets/calhoun`
+- Added 6 inline internal links: /calculators/cap-rate, /commercial/retail-space, /blog/commercial-property-due-diligence-timeline, /blog/florida-insurance-crisis-investment-properties, /services/tenant-representation
+- Updated date: July 2026 -> August 2026
+
+### 5. `/markets/clay`
+- Fixed missing Home breadcrumb (was starting at Markets)
+- Updated date: July 2026 -> August 2026
+
+### 6. `/markets/columbia`
+- Added 3 inline internal links: /blog/what-makes-a-good-commercial-investment, /calculators/cap-rate, /blog/commercial-property-due-diligence-timeline
+- Updated date: July 2026 -> August 2026
+
+### 7. `/markets/desoto`
+- Added 2 inline internal links: /calculators/cap-rate, /blog/commercial-property-due-diligence-timeline
+- Updated date: July 2026 -> August 2026
+
+### 8. `/markets/franklin`
+- Added 2 inline internal links: /blog/commercial-property-due-diligence-timeline, /services/investment-sales
+- Date was already August 2026
+
+### 9. `/blog/tampa-bay-life-sciences-cre-2026`
+- Shortened metadata title: 71 chars -> "Tampa Bay Life Sciences CRE 2026 | HenCRE" (41 chars)
+- Updated OG title to match
+
+---
+
 ## 2026-08-23 -- Batch 33 (10 pages improved)
 
 **Commit:** `46a9520` | **Build:** clean (0 errors) | **Pages improved:** 10
