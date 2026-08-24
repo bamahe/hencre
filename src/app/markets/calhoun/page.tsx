@@ -157,7 +157,7 @@ export default function CalhounPage() {
               Calhoun isn&apos;t a growth corridor by conventional metrics. There&apos;s no sprawling residential explosion, no tech hub, no mega-retail development pipeline. What you have instead is a stable, land-rich county with deep roots in natural resource industries and a steady government presence. If you understand that distinction, there&apos;s money to be made here.
             </p>
             <p className="mt-4 text-[#666666] leading-relaxed">
-              For investors considering Calhoun as part of a larger Florida strategy -- or as a 1031 exchange replacement property -- see how the county&apos;s profile compares against other northwest Florida markets and the <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">criteria for evaluating a commercial investment</Link> in any market.
+              For investors considering Calhoun as part of a larger Florida strategy -- or as a 1031 exchange replacement property -- see how the county&apos;s profile compares against other northwest Florida markets and the <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">criteria for evaluating a commercial investment</Link> in any market. Use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> to evaluate yield expectations before committing to any acquisition.
             </p>
           </div>
           <div className="overflow-hidden rounded-lg">
@@ -211,7 +211,7 @@ export default function CalhounPage() {
           <div>
             <h3 className="text-lg font-bold text-black">Blountstown -- The County Hub</h3>
             <p className="mt-2 text-[#666666] leading-relaxed">
-              This is where commercial activity concentrates. You&apos;ll find small retail storefronts, professional offices, light service buildings, and some mixed-use properties. The town center and approaches support local businesses that service county residents and workers. Retail and service space here is functional, affordable, and tenant-occupied by necessity rather than by choice competition.
+              This is where commercial activity concentrates. You&apos;ll find small <Link href="/commercial/retail-space" className="text-accent underline">retail storefronts</Link>, professional offices, light service buildings, and some mixed-use properties. The town center and approaches support local businesses that service county residents and workers. Retail and service space here is functional, affordable, and tenant-occupied by necessity rather than by choice competition.
             </p>
           </div>
           <div>
@@ -256,7 +256,7 @@ export default function CalhounPage() {
             The county&apos;s stability -- rooted in natural resources and government presence -- means property doesn&apos;t sit vacant waiting for speculative end-users. Tenants and operators here are there because they have legitimate business reasons. That translates to predictable lease performance and utilization.
           </p>
           <p className="mt-4 text-[#666666] leading-relaxed">
-            For institutional or sophisticated buyers, Calhoun offers niche opportunities: agricultural operations with defensible revenue streams, timberland and related facilities, or land with operational or development potential at rural market pricing. Our <Link href="/services/investment-sales" className="text-accent underline">investment sales advisory services</Link> team works these transactions across all of rural Florida.
+            For institutional or sophisticated buyers, Calhoun offers niche opportunities: agricultural operations with defensible revenue streams, timberland and related facilities, or land with operational or development potential at rural market pricing. Our <Link href="/services/investment-sales" className="text-accent underline">investment sales advisory services</Link> team works these transactions across all of rural Florida. Before closing, review our <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial due diligence timeline</Link> to understand what to verify in thin-data rural markets. Florida&apos;s <Link href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">insurance environment</Link> also deserves careful underwriting for rural commercial and agricultural properties.
           </p>
         </div>
       </section>
@@ -274,7 +274,7 @@ export default function CalhounPage() {
           </div>
           <div className="rounded-lg border border-[#E5E5E5] p-6">
             <h3 className="font-bold text-black">Small Commercial and Retail</h3>
-            <p className="mt-2 text-sm text-[#666666] leading-relaxed">Barrett facilitates transactions for office, retail, and service properties in Blountstown and surrounding areas, working with local brokers and principals to close deals efficiently.</p>
+            <p className="mt-2 text-sm text-[#666666] leading-relaxed">Barrett facilitates transactions for office, retail, and service properties in Blountstown and surrounding areas, working with local brokers and principals to close deals efficiently. For tenants seeking space, <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> services are available.</p>
           </div>
           <div className="rounded-lg border border-[#E5E5E5] p-6">
             <h3 className="font-bold text-black">Agricultural and Operational Property</h3>
@@ -306,7 +306,7 @@ export default function CalhounPage() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This page is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: July 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: August 2026</p>
       </section>
 
       <CTASection

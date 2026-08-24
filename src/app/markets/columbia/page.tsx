@@ -172,7 +172,7 @@ export default function ColumbiaMarketPage() {
           <p>
             For investors exploring North Florida corridors, Columbia County offers a meaningful contrast to the headline growth of
             {" "}<Link href="/markets/hillsborough" className="font-semibold text-black underline">Hillsborough County</Link>{" "}
-            or the resort dynamics of coastal markets -- value exists for the right buyer in the right asset type.
+            or the resort dynamics of coastal markets -- value exists for the right buyer in the right asset type. Our <Link href="/blog/what-makes-a-good-commercial-investment" className="font-semibold text-black underline">framework for evaluating commercial investments</Link> applies directly to North Florida secondary markets like Lake City.
           </p>
         </div>
 
@@ -277,7 +277,7 @@ export default function ColumbiaMarketPage() {
               {" "}<Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="font-semibold text-black underline">Florida 1031 exchange strategy</Link>{" "}
               and{" "}
               <Link href="/insights/what-is-a-cap-rate" className="font-semibold text-black underline">cap rate analysis</Link>{" "}
-              to help you evaluate Columbia County acquisitions in context.
+              to help you evaluate Columbia County acquisitions in context. Use the <Link href="/calculators/cap-rate" className="font-semibold text-black underline">cap rate calculator</Link> to run the numbers on specific properties, and review the <Link href="/blog/commercial-property-due-diligence-timeline" className="font-semibold text-black underline">commercial due diligence timeline</Link> before closing on any North Florida asset.
             </p>
             <p>
               <Link href="/contact" className="font-semibold text-black underline">Contact Barrett</Link> at (813) 733-7907 to discuss
@@ -312,7 +312,7 @@ export default function ColumbiaMarketPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

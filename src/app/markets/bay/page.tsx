@@ -232,7 +232,7 @@ export default function BayPage() {
       <RelatedLinks heading="Explore Related Markets and Resources" links={relatedLinks} />
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
 
       <CTASection

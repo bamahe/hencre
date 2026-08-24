@@ -19,8 +19,6 @@ export const metadata: Metadata = {
     description:
       "Expert guide to commercial real estate in Bradford County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.",
     url: "https://hencre.com/markets/bradford",
-    siteName: "HenCRE",
-    type: "article",
   },
 };
 
@@ -89,6 +87,8 @@ const relatedLinks = [
   { title: "Commercial Land & Development", href: "/commercial/land-development", description: "Buy or sell commercial land in Florida." },
   { title: "Investment Sales Services", href: "/services/investment-sales", description: "Barrett Henry's approach to commercial investment sales." },
   { title: "Baker County Market", href: "/markets/baker", description: "Commercial real estate in Baker County, FL." },
+  { title: "Columbia County Market", href: "/markets/columbia", description: "Lake City and the I-75 logistics corridor in North Florida." },
+  { title: "Florida 1031 Exchange Guide", href: "/blog/florida-1031-exchange-what-investors-need-to-know", description: "Using 1031 exchanges to reposition North Florida commercial holdings." },
 ];
 
 export default function Page() {
@@ -228,7 +228,7 @@ export default function Page() {
           </div>
         </section>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
       </main>
 
       <RelatedLinks heading="Explore Related Markets &amp; Services" links={relatedLinks} />

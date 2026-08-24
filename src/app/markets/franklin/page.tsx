@@ -271,7 +271,7 @@ export default function FranklinMarketPage() {
           <p>
             For buyers evaluating Franklin County commercial property, Barrett provides market guidance and realistic expectation-setting for this thin-data market, where{" "}
             <Link href="/services/cre-valuation" className="font-semibold text-black underline">comparable sales analysis</Link>{" "}
-            requires extra care. For sellers, Barrett positions your property accurately for the buyer pool that makes sense -- hospitality entrepreneurs, specialty retail operators, local owner-users -- and manages realistic expectations about Franklin County&apos;s unique value proposition and market pace.
+            requires extra care. Review our <Link href="/blog/commercial-property-due-diligence-timeline" className="font-semibold text-black underline">commercial due diligence timeline</Link> before closing on any Franklin County asset, and our <Link href="/services/investment-sales" className="font-semibold text-black underline">investment sales advisory</Link> for acquisition strategy guidance. For sellers, Barrett positions your property accurately for the buyer pool that makes sense -- hospitality entrepreneurs, specialty retail operators, local owner-users -- and manages realistic expectations about Franklin County&apos;s unique value proposition and market pace.
           </p>
           <p>
             For investors considering Franklin County as part of a broader Florida coastal strategy, Barrett can help you understand how this market compares to more active Gulf Coast markets like{" "}

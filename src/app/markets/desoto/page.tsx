@@ -283,7 +283,7 @@ export default function DeSotoMarketPage() {
               Barrett provides regional market context to help you compare DeSoto land and commercial values against alternatives
               in{" "}
               <Link href="/markets/polk" className="font-semibold text-black underline">Polk County</Link>{" "}
-              and neighboring Southwest Florida markets.
+              and neighboring Southwest Florida markets. Use the <Link href="/calculators/cap-rate" className="font-semibold text-black underline">cap rate calculator</Link> to evaluate yield expectations, and review the <Link href="/blog/commercial-property-due-diligence-timeline" className="font-semibold text-black underline">commercial due diligence timeline</Link> before closing on any DeSoto acquisition.
             </p>
             <p>
               <Link href="/contact" className="font-semibold text-black underline">Contact Barrett</Link> at (813) 733-7907 to discuss
@@ -318,7 +318,7 @@ export default function DeSotoMarketPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );

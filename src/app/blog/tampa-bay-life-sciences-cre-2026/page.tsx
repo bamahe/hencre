@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Life Sciences & Biotech Commercial Real Estate 2026 | HenCRE",
+  title: "Tampa Bay Life Sciences CRE 2026 | HenCRE",
   description:
     "Tampa Bay's life sciences commercial real estate market is accelerating in 2026, driven by the Tampa Medical & Research District, USF Research Park, and growing biotech demand for lab and R&D space. Here is what tenants and investors need to know.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-life-sciences-cre-2026" },
   openGraph: {
-    title: "Tampa Bay Life Sciences & Biotech Commercial Real Estate 2026",
+    title: "Tampa Bay Life Sciences CRE 2026 | HenCRE",
     description:
       "The Tampa Medical & Research District projects an $8.3B economic impact, USF Research Park anchors 4,000+ innovation jobs, and biotech demand for lab and R&D space is rising. Here is the full picture for Tampa Bay life sciences CRE in 2026.",
     url: "https://hencre.com/blog/tampa-bay-life-sciences-cre-2026",
