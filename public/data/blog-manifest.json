@@ -974,5 +974,21 @@
     "county": "Pasco",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "plant-city-hillsborough-county-commercial-real-estate-2026",
+    "title": "Plant City Commercial Real Estate: Hillsborough County's Hidden Growth Market in 2026",
+    "excerpt": "Nestled in eastern Hillsborough County, Plant City is shedding its small-town image and emerging as a serious commercial real estate destination. From industrial expansion along I-4 to a revitalizing downtown, here's why investors and business owners are paying attention.",
+    "date": "2026-08-24",
+    "category": "investor",
+    "city": "Plant City",
+    "county": "Hillsborough",
+    "businessType": null,
+    "image": {
+      "url": "/images/blog/plant-city-hillsborough-county-commercial-real-estate-2026.jpg",
+      "alt": "Gift citrus from florida on a building",
+      "photographer": "Brooke Balentine",
+      "link": "https://unsplash.com/@brookebalentine"
+    }
   }
 ]
