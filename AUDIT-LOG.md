@@ -4,6 +4,47 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-25 -- Batch 35 (10 pages improved)
+
+**Commit:** `001976f` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/markets/broward`
+- Expanded relatedLinks: 4 -> 10 (added NNN Net Lease, Cap Rate Calculator, Due Diligence Timeline, Florida 1031 Exchange, Tampa Bay Industrial Q2 2026, Florida Markets Overview)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 2. `/markets/alachua`
+- Expanded relatedLinks: 6 -> 10 (added Cap Rate Calculator, Due Diligence Timeline, What Makes Good Investment, Florida Markets Overview)
+- Updated footer: "July 2026" -> "August 2026"
+
+### 3. `/blog/wesley-chapel-commercial-real-estate-2026`
+- Updated dateModified: "2026-08-11" -> "2026-08-25"
+- Updated footer: "July 2026" -> "August 2026"
+
+### 4. `/commercial/retail-space`
+- Added "Home" as first breadcrumb item (was starting at "Property Types")
+- Updated footer: "July 2026" -> "August 2026"
+
+### 5. `/commercial/industrial-warehouse`
+- Added "Home" as first breadcrumb item (was starting at "Property Types")
+- Updated footer: "July 2026" -> "August 2026"
+
+### 6. `/calculators/cap-rate`
+- Updated footer: "July 2026" -> "August 2026"
+
+### 7. `/calculators/commercial-mortgage`
+- Updated footer: "July 2026" -> "August 2026"
+
+### 8. `/calculators/office-space`
+- Updated footer: "July 2026" -> "August 2026"
+
+### 9. `/calculators/page`
+- Updated footer: "July 2026" -> "August 2026"
+
+### 10. `/calculators/roi`
+- Updated footer: "July 2026" -> "August 2026"
+
+---
+
 ## 2026-08-24 -- Batch 34 (9 pages improved)
 
 **Commit:** `f930189` | **Build:** clean (0 errors) | **Pages improved:** 9
