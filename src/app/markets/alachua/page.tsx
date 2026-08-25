@@ -93,6 +93,10 @@ const relatedLinks = [
   { title: "Multifamily Investment in Tampa Bay", href: "/blog/multifamily-investment-tampa-bay-guide", description: "Multifamily investment fundamentals applicable to university markets" },
   { title: "Tenant Representation Services", href: "/services/tenant-representation", description: "Barrett advocates for tenants in lease negotiations statewide" },
   { title: "Investment Sales Advisory", href: "/services/investment-sales", description: "Acquisition and disposition strategy for Florida CRE investors" },
+  { title: "Cap Rate Calculator", href: "/calculators/cap-rate", description: "Free tool to analyze cap rates on Florida commercial properties." },
+  { title: "Commercial Due Diligence Timeline", href: "/blog/commercial-property-due-diligence-timeline", description: "Step-by-step due diligence process for commercial real estate buyers." },
+  { title: "What Makes a Good Commercial Investment?", href: "/blog/what-makes-a-good-commercial-investment", description: "Investment criteria and how to evaluate CRE opportunities." },
+  { title: "Florida Markets Overview", href: "/markets", description: "Browse all Florida commercial real estate markets Barrett Henry covers." },
 ];
 
 export default function AlachiuaPage() {
@@ -238,7 +242,7 @@ export default function AlachiuaPage() {
       <RelatedLinks heading="Explore Related Markets and Resources" links={relatedLinks} />
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
 
       <CTASection

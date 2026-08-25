@@ -89,6 +89,12 @@ const relatedLinks = [
   { title: "Investment Sales Services", href: "/services/investment-sales", description: "Barrett Henry&apos;s approach to commercial investment sales." },
   { title: "Tenant Representation", href: "/services/tenant-representation", description: "Expert tenant representation for commercial lease negotiations." },
   { title: "What Makes a Good Commercial Investment?", href: "/blog/what-makes-a-good-commercial-investment", description: "Investment criteria from a broker&apos;s perspective." },
+  { title: "NNN Net Lease Florida", href: "/commercial/nnn-net-lease", description: "Triple-net leased assets for passive income investors." },
+  { title: "Cap Rate Calculator", href: "/calculators/cap-rate", description: "Free tool to analyze cap rates on Florida commercial properties." },
+  { title: "Commercial Due Diligence Timeline", href: "/blog/commercial-property-due-diligence-timeline", description: "Step-by-step due diligence guide for commercial buyers." },
+  { title: "Florida 1031 Exchange Guide", href: "/blog/florida-1031-exchange-what-investors-need-to-know", description: "Defer capital gains taxes with a 1031 exchange in Florida." },
+  { title: "Tampa Bay Industrial Market Q2 2026", href: "/blog/tampa-bay-industrial-market-q2-2026", description: "Current state of the Tampa Bay industrial and logistics market." },
+  { title: "Florida Markets Overview", href: "/markets", description: "Browse Barrett Henry&apos;s Florida commercial real estate market coverage." },
 ];
 
 export default function Page() {
@@ -277,7 +283,7 @@ export default function Page() {
           </div>
         </section>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
       </main>
 
       <RelatedLinks heading="Explore Related Markets &amp; Services" links={relatedLinks} />

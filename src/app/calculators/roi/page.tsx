@@ -230,7 +230,7 @@ export default function ROIPage() {
           </ul>
         </section>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       {/* CTA */}

@@ -84,7 +84,7 @@ const schema = {
       description:
         "Cap rates, property types, and investment opportunities in Wesley Chapel and the broader Pasco County commercial real estate market.",
       datePublished: "2026-07-19",
-      dateModified: "2026-08-11",
+      dateModified: "2026-08-25",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -255,7 +255,7 @@ export default function WesleyChapelCREPage() {
 
         <FAQAccordion items={faqItems} />
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

@@ -57,7 +57,7 @@ export default function IndustrialWarehousePage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Property Types", href: "/commercial" }, { label: "Industrial & Warehouse", href: "/commercial/industrial-warehouse" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Property Types", href: "/commercial" }, { label: "Industrial & Warehouse", href: "/commercial/industrial-warehouse" }]} />
 
       <Hero
         title="Industrial & Warehouse"
@@ -229,7 +229,7 @@ export default function IndustrialWarehousePage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: July 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
       </div>
     </>
   );
