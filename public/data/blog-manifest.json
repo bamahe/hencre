@@ -990,5 +990,21 @@
       "photographer": "Brooke Balentine",
       "link": "https://unsplash.com/@brookebalentine"
     }
+  },
+  {
+    "slug": "tampa-hillsborough-county-commercial-real-estate-2026",
+    "title": "Tampa & Hillsborough County Commercial Real Estate: 2026 Market Guide",
+    "excerpt": "Tampa and Hillsborough County continue to rank among the most dynamic commercial real estate markets in the Southeast. From downtown high-rises to suburban retail corridors, here's what investors, tenants, and developers need to know heading into 2026.",
+    "date": "2026-08-26",
+    "category": "business-guide",
+    "city": "Tampa",
+    "county": "Hillsborough",
+    "businessType": "retail storefront",
+    "image": {
+      "url": "/images/blog/tampa-hillsborough-county-commercial-real-estate-2026.jpg",
+      "alt": "Modern cityscape with tall buildings by the water",
+      "photographer": "𝕡𝕒𝕨𝕤 𝕒𝕟𝕕 𝕡𝕣𝕚𝕟𝕥𝕤",
+      "link": "https://unsplash.com/@paws_and_prints"
+    }
   }
 ]
