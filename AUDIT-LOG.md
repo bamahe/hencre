@@ -4,6 +4,63 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-26 -- Batch 36 (10 pages improved)
+
+**Commit:** `2ae7614` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/plant-city-hillsborough-county-commercial-real-estate-2026`
+- Added `import Link from "next/link"`
+- Shortened title from 85 chars to "Plant City Commercial Real Estate | Hillsborough County 2026" (60 chars)
+- Fixed OG image: local path -> Unsplash photo-1565538810643
+- Merged dual schemas (articleSchema + faqSchema) -> single @graph with BreadcrumbList + BlogPosting + FAQPage
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from sameAs array
+- Added dateModified: "2026-08-26"
+- Added "Home" as first breadcrumb item
+- Fixed Hero backgroundImage: local path -> Unsplash photo-1565538810643
+- Expanded relatedLinks: 5 -> 10 with correct /blog/ prefix on all hrefs
+- Fixed mid-CTA: "Talk to a REMAX Commercial(r) Broker" -> "Talk to a Commercial Real Estate Broker"
+- Fixed author bio: removed "REALTOR(r) & Commercial Real Estate Advisor" and "REMAX Commercial(r) division" language
+- Removed HUD/FHA/HOPE free resources section
+- Added "Last updated: August 2026" footer
+- Added inline Link components in body text (industrial, retail, cap rate calculator, due diligence, ROI)
+
+### 2. `/markets/charlotte`
+- Fixed LocalBusiness schema name: "REMAX Commercial Real Estate -- Barrett Henry" -> "Barrett Henry at REMAX Collective"
+
+### 3. `/markets/clay`
+- Fixed LocalBusiness schema name: "REMAX Commercial Real Estate -- Barrett Henry" -> "Barrett Henry at REMAX Collective"
+
+### 4. `/markets/hernando`
+- Fixed LocalBusiness schema name: "REMAX Commercial Real Estate -- Barrett Henry" -> "Barrett Henry at REMAX Collective"
+
+### 5. `/markets/citrus`
+- Fixed LocalBusiness schema name: "REMAX Commercial Real Estate -- Barrett Henry" -> "Barrett Henry at REMAX Collective"
+
+### 6. `/blog/tampa-heights-commercial-real-estate-2026`
+- Replaced nowtb.com body link with internal links to /markets/hillsborough and /blog/south-tampa-commercial-real-estate-2026
+- Updated dateModified: "2026-08-21" -> "2026-08-26"
+
+### 7. `/blog/st-petersburg-office-market-2026`
+- Replaced nowtb.com body link with internal links to /markets/pinellas and /blog/st-petersburg-commercial-real-estate-2026
+- Updated dateModified: "2026-08-25" -> "2026-08-26"
+
+### 8. `/blog/riverview-fl-commercial-real-estate-2026`
+- Added `import Link from "next/link"`
+- Replaced nowtb.com body link with internal links to /markets/hillsborough and /blog/brandon-commercial-real-estate-guide-2026
+- Updated dateModified: "2026-08-16" -> "2026-08-26"
+
+### 9. `/blog/historic-gas-plant-district-st-pete-cre-2026`
+- Replaced nowtb.com body link with internal links to /blog/st-petersburg-commercial-real-estate-2026 and /markets/pinellas
+- Updated dateModified: "2026-08-21" -> "2026-08-26"
+
+### 10. `/blog/apollo-beach-southshore-commercial-real-estate-2026`
+- Replaced nowtb.com body link with internal links to /markets/hillsborough and /blog/riverview-fl-commercial-real-estate-2026
+- Updated dateModified: "2026-08-21" -> "2026-08-26"
+
+---
+
 ## 2026-08-25 -- Batch 35 (10 pages improved)
 
 **Commit:** `001976f` | **Build:** clean (0 errors) | **Pages improved:** 10
