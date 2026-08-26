@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -41,7 +42,7 @@ const schema = {
       headline: "Riverview FL Commercial Real Estate 2026: Market Guide",
       description: "Riverview is south Hillsborough's fastest-growing commercial submarket. Find out what's available, what's trading, and how Barrett Henry can help.",
       datePublished: "2026-07-29",
-      dateModified: "2026-08-16",
+      dateModified: "2026-08-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -240,7 +241,7 @@ export default function BlogPost() {
         <p>Tenants who are serious about securing quality space in Riverview need to move with a sense of urgency. The window between identifying a target space and having a signed lease can be short in an active submarket, and being unprepared with financials or having unclear use plans can cost you a deal in favor of a more ready tenant. Engaging a tenant representative before you start your search — not after — gives you the best chance of identifying and closing on the right space at the right terms.</p>
         <p>Lease structures in Riverview are predominantly triple-net or modified-gross depending on the property type. Medical office and retail spaces typically involve NNN structures where the tenant is responsible for a proportionate share of property taxes, insurance, and maintenance. Understanding what those charges actually cost you is essential before you sign. Our guide on <a href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charges for commercial tenants</a> walks through exactly what you&apos;re paying beyond base rent. For an explanation of how NNN leases work at a structural level, see our post on <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">why investors love triple-net leases</a>.</p>
         <p>Barrett Henry provides <a href="/services/tenant-representation" className="text-accent underline">commercial tenant representation services</a> across south Hillsborough County at no cost to the tenant in most cases. Call <strong>(813) 733-7907</strong> to discuss what&apos;s available in Riverview and how to position your business for the best lease terms.</p>
-        <p>One more resource worth bookmarking: the <a href="https://nowtb.com/riverview-housing-market-update/" className="text-accent underline">Riverview housing market update at nowtb.com</a> tracks the residential side of the market — useful context for understanding the consumer base your commercial business will serve.</p>
+        <p>For a broader view of Hillsborough County commercial real estate activity, explore our <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County market guide</Link> or the <Link href="/blog/brandon-commercial-real-estate-guide-2026" className="text-accent underline">Brandon commercial real estate guide</Link> for the adjacent submarket.</p>
       </article>
 
       {/* ---- Image 2: Business tenant / leasing ---- */}

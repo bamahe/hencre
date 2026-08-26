@@ -68,7 +68,7 @@ const schema = {
     },
     {
       "@type": "LocalBusiness",
-      name: "REMAX Commercial Real Estate — Barrett Henry",
+      name: "Barrett Henry at REMAX Collective",
       description: "Commercial real estate advisory and brokerage services for Clay County.",
       telephone: "(813) 733-7907",
       email: "barrett@hencre.com",

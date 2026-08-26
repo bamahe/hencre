@@ -85,7 +85,7 @@ const schema = {
       description:
         "Downtown St. Pete office vacancy at 9.5% with Class A rents at $42/sqft. ESN Group paid $19.5M for the Carillon campus. What the data means for office tenants and investors in Pinellas County.",
       datePublished: "2026-08-25",
-      dateModified: "2026-08-25",
+      dateModified: "2026-08-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -260,7 +260,7 @@ export default function StPetersburgOfficeMarket2026Page() {
           <strong>Suburban Carillon or Gateway makes sense if:</strong> Your operations need 10,000 to 40,000 square feet or more of contiguous space. Your team is dispersed across Pinellas and Hillsborough County and car commutes are the norm — Carillon&apos;s I-275 access is a genuine advantage for a workforce coming from multiple directions. Your budget is constrained and the $11 to $16 per square foot per year cost differential between downtown Class A and suburban Class A is material to your financial model. And if your clients are institutional or government rather than individual consumers, the downtown address premium may not be worth the cost.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Residents relocating to the St. Petersburg area who want to understand the residential markets near these office submarkets can explore neighborhood data at <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link> — the site profiles the communities closest to both downtown and suburban office corridors with home search tools and neighborhood guides.
+          For a full picture of Pinellas County commercial real estate, explore the <Link href="/markets/pinellas" className="text-accent underline">Pinellas County market guide</Link> or review our analysis of <Link href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate</Link> across all property types.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Office Tenants Know About Leasing in St. Petersburg?</h2>

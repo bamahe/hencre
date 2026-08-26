@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Heights is emerging as one of Tampa Bay's most active CRE corridors. The Stetson–Bromley mixed-use project adds 440,000 sq ft of office and 37,500 sq ft of retail to a district already home to Heights Union and Armature Works.",
       datePublished: "2026-08-16",
-      dateModified: "2026-08-21",
+      dateModified: "2026-08-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -246,7 +246,7 @@ export default function TampaHeightsCREPage() {
           For investors comparing Tampa Heights to other active Tampa Bay urban markets, our guides to <Link href="/blog/gasworx-tampa-ybor-office-commercial-2026" className="text-accent underline">the Gasworx/Ybor corridor</Link> and <Link href="/blog/water-street-tampa-33-story-tower-downtown-cre-2026" className="text-accent underline">downtown Water Street</Link> provide useful benchmarks. Tampa Heights generally offers a lower entry price point than Water Street and a more established neighborhood identity than Gasworx — occupying a middle position in the risk-return spectrum of Tampa&apos;s urban CRE submarkets.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are also exploring residential opportunities in the area or want context on Tampa Bay neighborhoods more broadly, the team at <a href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">NowTB.com</a> maintains neighborhood guides and market updates for the greater Tampa Bay area, including coverage of urban neighborhoods like Tampa Heights and South Tampa.
+          For a broader view of commercial real estate throughout Tampa, explore our <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County commercial real estate guide</Link> or read our overview of <Link href="/blog/south-tampa-commercial-real-estate-2026" className="text-accent underline">South Tampa commercial real estate</Link> for the adjacent submarket.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does Tampa Heights Compare to Other Urban Tampa Bay CRE Markets?</h2>

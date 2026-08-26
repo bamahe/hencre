@@ -88,7 +88,7 @@ const schema = {
       description:
         "The Rays and Hines are transforming 86 acres at Tropicana Field into 8 million sq ft of office, retail, hotel, and apartments. What St. Petersburg CRE investors and tenants need to know.",
       datePublished: "2026-08-17",
-      dateModified: "2026-08-21",
+      dateModified: "2026-08-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -278,7 +278,7 @@ export default function HistoricGasPlantDistrictCREPage() {
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are relocating your business to St. Petersburg or searching for commercial space in Pinellas County, understanding how the Gas Plant District will reshape the submarket over the coming decade is essential context for any lease decision you make today. Employees and principals who will be working at or near the district will also be looking for housing — <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">nowtb.com</a> provides full neighborhood guides and listing search across St. Petersburg and the surrounding Tampa Bay area to help your team find homes close to work.
+          If you are relocating your business to St. Petersburg or searching for commercial space in Pinellas County, understanding how the Gas Plant District will reshape the submarket over the coming decade is essential context for any lease decision you make today. Employees and principals relocating to the district can explore the full submarket context in our <Link href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate overview</Link> and the <Link href="/markets/pinellas" className="text-accent underline">Pinellas County market guide</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line: Why the Gas Plant District Is the Most Important CRE Story in Tampa Bay</h2>

@@ -87,7 +87,7 @@ const schema = {
       description:
         "Apollo Beach, Ruskin, and the SouthShore corridor are among the fastest-growing areas in Hillsborough County — and commercial real estate is still catching up. Here is what tenants and investors need to know in 2026.",
       datePublished: "2026-08-20",
-      dateModified: "2026-08-21",
+      dateModified: "2026-08-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -338,11 +338,15 @@ export default function ApolloBeachSouthShoreCommercialRealEstatePage() {
           Understanding which specific parcels, corridors, and product types represent the strongest risk-adjusted opportunity in SouthShore requires current market knowledge and relationships with the landlords and property owners who are not always visible on the public listing platforms. That is where local expertise adds the most value in a market like this.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Buyers and renters relocating to the SouthShore area can explore Apollo Beach, Ruskin, and Sun City Center neighborhood guides and home search tools at{" "}
-          <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">
-            nowtb.com
+          For a full picture of commercial real estate across south Hillsborough County, explore the{" "}
+          <Link href="/markets/hillsborough" className="text-accent underline">
+            Hillsborough County market guide
           </Link>{" "}
-          — the residential growth data there is the clearest picture of why commercial demand in this corridor is only going to increase.
+          or read the{" "}
+          <Link href="/blog/riverview-fl-commercial-real-estate-2026" className="text-accent underline">
+            Riverview commercial real estate guide
+          </Link>{" "}
+          for the neighboring SouthShore submarket context.
         </p>
 
         <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
