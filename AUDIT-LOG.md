@@ -4,6 +4,58 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-27 -- Batch 37 (10 pages improved)
+
+**Commit:** `3690953` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/riverview-fl-retail-leasing-guide`
+- Added `import Link from "next/link"`
+- Expanded relatedLinks: 8 -> 10 (added Riverview FL Commercial Real Estate 2026 and Grocery-Anchored Retail Investment Guide)
+- Updated dateModified: "2026-08-08" -> "2026-08-27"
+- Converted bare `<a href="/contact">` in mid-CTA to `<Link href="/contact">`
+
+### 2. `/blog/tampa-bay-cold-storage-cre-2026`
+- Expanded relatedLinks: 5 -> 10 (added East Tampa US-301 Industrial Corridor, Hillsborough County Market, Pinellas County Industrial CRE, Investment Sales Services, SBA 504 Loan)
+- Updated dateModified: "2026-08-08" -> "2026-08-27"
+
+### 3. `/blog/pinellas-county-industrial-cre-2026`
+- Added `image` and `sameAs` fields to schema author
+- Expanded relatedLinks: 8 -> 10 (added Tampa Bay Cold Storage Real Estate 2026, SBA 504 Loan)
+- Updated dateModified: "2026-08-05" -> "2026-08-27"
+
+### 4. `/blog/valrico-commercial-leasing-guide-hillsborough`
+- Added `image` and `sameAs` fields to schema author
+- Expanded relatedLinks: 8 -> 10 (added 5 Mistakes First-Time Commercial Tenants Make, Commercial Property Zoning in Florida)
+- Updated dateModified: "2026-08-06" -> "2026-08-27"
+
+### 5. `/blog/tampa-bay-build-to-rent-cre-2026`
+- Expanded relatedLinks: 9 -> 10 (added Tampa Bay Rental Property Exit Strategy 2026)
+- Updated dateModified: "2026-08-24" -> "2026-08-27"
+
+### 6. `/blog/tampa-bay-grocery-anchored-retail-investment-2026`
+- Updated dateModified: "2026-08-25" -> "2026-08-27"
+
+### 7. `/markets/highlands`
+- Expanded relatedLinks: 7 -> 10 (added Florida 1031 Exchange Guide, What Makes a Good Commercial Investment, How to Calculate Commercial Property ROI)
+- Added description fields to all relatedLink entries
+
+### 8. `/markets/holmes`
+- Expanded relatedLinks: 6 -> 10 (added Gadsden County Market, Commercial Due Diligence Timeline, What Makes a Good Commercial Investment, How to Calculate Commercial Property ROI)
+- Fixed apostrophe escaping in description strings
+
+### 9. `/markets/gilchrist`
+- Fixed broken link: `/markets/levy` -> `/markets/alachua` (Levy County has no market page)
+- Fixed broken link: `/services/land-development` -> `/commercial/land-development` (no such service page)
+- Expanded relatedLinks: 6 -> 10 (added Lafayette County Market, Commercial Due Diligence Timeline, What Makes a Good Commercial Investment, Florida 1031 Exchange Guide)
+- Added description fields to all relatedLink entries
+
+### 10. `/markets/hamilton`
+- Fixed broken links: `/markets/suwannee` -> `/markets/jefferson` and `/markets/madison` -> `/markets/lafayette` (no market pages exist for Suwannee or Madison counties)
+- Expanded relatedLinks: 6 -> 10 (added Gadsden County Market, Commercial Due Diligence Timeline, What Makes a Good Commercial Investment, How to Calculate Commercial Property ROI)
+- Added description fields to all relatedLink entries
+
+---
+
 ## 2026-08-26 -- Batch 36 (10 pages improved)
 
 **Commit:** `2ae7614` | **Build:** clean (0 errors) | **Pages improved:** 10
