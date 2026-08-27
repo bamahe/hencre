@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay ranks 6th in the nation for build-to-rent homes under construction, with 156% supply growth in five years and 1,400+ units in the active pipeline. What BTR means for commercial real estate investors in 2026.",
       datePublished: "2026-08-24",
-      dateModified: "2026-08-24",
+      dateModified: "2026-08-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -153,6 +153,11 @@ const relatedLinks = [
     title: "Investment Sales Services",
     href: "/services/investment-sales",
     description: "How Barrett helps investors identify and acquire income-producing properties across Tampa Bay.",
+  },
+  {
+    title: "Tampa Bay Rental Property Exit Strategy 2026",
+    href: "/blog/tampa-bay-rental-property-exit-strategy-2026",
+    description: "Exit strategies for BTR and residential rental property investors in the Tampa Bay market.",
   },
 ];
 

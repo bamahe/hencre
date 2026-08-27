@@ -84,11 +84,13 @@ const schema = {
       description:
         "Commercial leasing in Valrico, FL — location strategy, zoning, CAM charges, and lease negotiation for east Hillsborough County.",
       datePublished: "2026-08-05",
-      dateModified: "2026-08-06",
+      dateModified: "2026-08-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -145,6 +147,16 @@ const relatedLinks = [
     title: "Riverview FL Commercial Real Estate 2026",
     href: "/blog/riverview-fl-commercial-real-estate-2026",
     description: "What&apos;s happening in the neighboring Riverview submarket and how it affects east Hillsborough leasing.",
+  },
+  {
+    title: "5 Mistakes First-Time Commercial Tenants Make",
+    href: "/blog/5-mistakes-first-time-commercial-tenants-make",
+    description: "Common pitfalls for new tenants signing commercial leases in Hillsborough County markets like Valrico.",
+  },
+  {
+    title: "Commercial Property Zoning in Florida",
+    href: "/blog/commercial-property-zoning-florida-basics",
+    description: "How Florida zoning classifications affect what business uses are permitted before signing a lease.",
   },
 ];
 

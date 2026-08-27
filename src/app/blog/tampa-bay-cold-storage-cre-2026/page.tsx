@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay's cold storage and temperature-controlled warehouse market is drawing $40M+ in new investment. Here is what is driving demand, which submarkets are active, and what investors and tenants need to know in 2026.",
       datePublished: "2026-08-03",
-      dateModified: "2026-08-08",
+      dateModified: "2026-08-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -132,7 +132,32 @@ const relatedLinks = [
   {
     title: "What Is a Triple-Net (NNN) Lease?",
     href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
-    description: "Cold storage leases are almost always NNN — here is what that means for tenants and owners.",
+    description: "Cold storage leases are almost always NNN -- here is what that means for tenants and owners.",
+  },
+  {
+    title: "East Tampa US-301 Industrial Corridor 2026",
+    href: "/blog/east-tampa-us-301-industrial-corridor-2026",
+    description: "How the US-301 corridor shapes industrial and logistics demand near key cold storage development sites.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate",
+    href: "/markets/hillsborough",
+    description: "Market overview for the county where most of Tampa Bay's cold storage investment is concentrated.",
+  },
+  {
+    title: "Pinellas County Industrial CRE 2026",
+    href: "/blog/pinellas-county-industrial-cre-2026",
+    description: "Supply constraints in Pinellas County and how they compare to Tampa's industrial submarkets.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett helps investors evaluate and acquire industrial assets including cold storage facilities.",
+  },
+  {
+    title: "SBA 504 Loan for Commercial Real Estate",
+    href: "/blog/sba-504-loan-commercial-real-estate-tampa-bay",
+    description: "Owner-occupant financing options for cold storage and industrial property purchases in Tampa Bay.",
   },
 ];
 

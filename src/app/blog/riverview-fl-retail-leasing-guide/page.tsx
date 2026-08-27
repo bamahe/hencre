@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -63,7 +64,7 @@ const schema = {
       headline: "Riverview, FL Retail Leasing Guide for Tenants & Investors",
       description: "Thinking about leasing or investing in retail space in Riverview, FL? Discover the market drivers, hottest corridors, and smart strategies for commercial success in Hillsborough County's fastest-growing suburb.",
       datePublished: "2026-08-07",
-      dateModified: "2026-08-08",
+      dateModified: "2026-08-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -127,6 +128,16 @@ const relatedLinks = [
     href: "/services/tenant-representation",
     description: "How Barrett Henry helps tenants find and negotiate retail space in Hillsborough County at no cost to the tenant.",
   },
+  {
+    title: "Riverview FL Commercial Real Estate 2026",
+    href: "/blog/riverview-fl-commercial-real-estate-2026",
+    description: "Broader look at all commercial property types in Riverview -- offices, industrial, mixed-use, and investment opportunities.",
+  },
+  {
+    title: "Grocery-Anchored Retail Investment Guide 2026",
+    href: "/blog/tampa-bay-grocery-anchored-retail-investment-2026",
+    description: "Why grocery-anchored centers in Tampa Bay command premium pricing and attract strong investor interest.",
+  },
 ];
 
 export default function BlogPost() {
@@ -155,7 +166,7 @@ export default function BlogPost() {
           <p className="text-lg font-bold">Talk to Barrett Henry -- REMAX Collective Broker Associate</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
-            <a href="/contact" className="underline">send a message</a>.
+            <Link href="/contact" className="underline">send a message</Link>.
           </p>
         </div>
       </article>

@@ -85,12 +85,16 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/markets/dixie", title: "Dixie County Commercial Real Estate" },
-  { href: "/markets/columbia", title: "Columbia County Commercial Real Estate" },
-  { href: "/markets/levy", title: "Levy County Commercial Real Estate" },
-  { href: "/services/land-development", title: "Land Development Services" },
-  { href: "/services/investment-sales", title: "Investment Property Sales" },
-  { href: "/markets", title: "All Florida Markets" },
+  { href: "/markets/dixie", title: "Dixie County Commercial Real Estate", description: "Neighboring rural Gulf County to the west of Gilchrist." },
+  { href: "/markets/columbia", title: "Columbia County Commercial Real Estate", description: "Lake City and the nearest larger commercial market north of Gilchrist County." },
+  { href: "/markets/alachua", title: "Alachua County Commercial Real Estate", description: "Gainesville metro — the regional commercial hub adjacent to Gilchrist County." },
+  { href: "/commercial/land-development", title: "Land & Development", description: "Agricultural and development land opportunities across rural North Central Florida." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "How Barrett evaluates and transacts income-producing properties across rural Florida." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse commercial coverage across all 47 Florida counties Barrett serves." },
+  { href: "/markets/lafayette", title: "Lafayette County Commercial Real Estate", description: "Another rural North Central Florida market adjacent to Gilchrist County." },
+  { href: "/blog/commercial-property-due-diligence-timeline", title: "Commercial Property Due Diligence Timeline", description: "What to inspect before closing on rural Florida commercial or agricultural property." },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment?", description: "Core criteria for evaluating agricultural and rural Florida commercial property." },
+  { href: "/blog/florida-1031-exchange-what-investors-need-to-know", title: "Florida 1031 Exchange Guide", description: "How to defer capital gains taxes when repositioning Gilchrist County investment properties." },
 ];
 
 export default function Page() {

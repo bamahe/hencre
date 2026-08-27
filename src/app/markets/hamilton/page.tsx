@@ -93,12 +93,16 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/markets/columbia", title: "Columbia County Commercial Real Estate" },
-  { href: "/markets/suwannee", title: "Suwannee County Commercial Real Estate" },
-  { href: "/markets/madison", title: "Madison County Commercial Real Estate" },
-  { href: "/services/investment-sales", title: "Investment Property Sales" },
-  { href: "/commercial/land-development", title: "Land Development" },
-  { href: "/markets", title: "All Florida Markets" },
+  { href: "/markets/columbia", title: "Columbia County Commercial Real Estate", description: "Lake City and the nearest larger commercial market south of Hamilton County." },
+  { href: "/markets/jefferson", title: "Jefferson County Commercial Real Estate", description: "Rural North Florida market to the east, sharing agricultural and timber economic characteristics." },
+  { href: "/markets/lafayette", title: "Lafayette County Commercial Real Estate", description: "Small rural market to the southeast with similar agricultural and forestry-based commercial activity." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "How Barrett evaluates and transacts income-producing properties and agricultural land across Florida." },
+  { href: "/commercial/land-development", title: "Land & Development", description: "Agricultural, timber, and development land opportunities in rural North Florida." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse commercial coverage across all 47 Florida counties Barrett serves." },
+  { href: "/markets/gadsden", title: "Gadsden County Commercial Real Estate", description: "Another North Florida market with agricultural and I-10 corridor commercial activity." },
+  { href: "/blog/commercial-property-due-diligence-timeline", title: "Commercial Property Due Diligence Timeline", description: "What to inspect before closing on rural Florida commercial or agricultural property." },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment?", description: "Core criteria for evaluating Hamilton County commercial and agricultural acquisitions." },
+  { href: "/blog/how-to-calculate-commercial-property-roi", title: "How to Calculate Commercial Property ROI", description: "Underwriting metrics for commercial property in smaller Florida markets." },
 ];
 
 export default function Page() {

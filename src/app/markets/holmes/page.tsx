@@ -97,8 +97,12 @@ const relatedLinks = [
   { href: "/markets/bay", title: "Bay County Commercial Real Estate", description: "Panama City and the Gulf Coast metro to the south of Holmes County." },
   { href: "/markets/calhoun", title: "Calhoun County Commercial Real Estate", description: "Neighboring rural Panhandle agricultural and small commercial market." },
   { href: "/commercial/industrial-warehouse", title: "Industrial and Warehouse Properties", description: "How Barrett approaches industrial and warehouse investment in Florida." },
-  { href: "/services/investment-sales", title: "Investment Property Sales", description: "Barrett Henry&apos;s approach to representing buyers and sellers of income-producing Florida commercial property." },
-  { href: "/markets", title: "All Florida Markets", description: "Browse Barrett Henry&apos;s coverage of all 67 Florida counties." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "Barrett Henry's approach to representing buyers and sellers of income-producing Florida commercial property." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse Barrett Henry's coverage of all 47 Florida counties." },
+  { href: "/markets/gadsden", title: "Gadsden County Commercial Real Estate", description: "Another rural Panhandle market with agricultural and I-10 corridor commercial activity." },
+  { href: "/blog/commercial-property-due-diligence-timeline", title: "Commercial Property Due Diligence Timeline", description: "What to inspect before closing on any commercial property in rural Florida." },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment?", description: "Core criteria for evaluating rural Florida commercial property acquisitions." },
+  { href: "/blog/how-to-calculate-commercial-property-roi", title: "How to Calculate Commercial Property ROI", description: "Cap rate and cash flow metrics for evaluating commercial deals in smaller Florida markets." },
 ];
 
 export default function Page() {

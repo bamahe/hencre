@@ -93,13 +93,16 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/markets/polk", title: "Polk County Commercial Real Estate" },
-  { href: "/markets/glades", title: "Glades County Commercial Real Estate" },
-  { href: "/markets/hardee", title: "Hardee County Commercial Real Estate" },
-  { href: "/markets/desoto", title: "DeSoto County Commercial Real Estate" },
-  { href: "/services/investment-sales", title: "Investment Property Sales" },
-  { href: "/blog/tampa-bay-medical-office-real-estate-2026", title: "Medical Office CRE 2026" },
-  { href: "/markets", title: "All Florida Markets" },
+  { href: "/markets/polk", title: "Polk County Commercial Real Estate", description: "Lakeland and Winter Haven — the nearest major commercial market to Highlands County." },
+  { href: "/markets/glades", title: "Glades County Commercial Real Estate", description: "Rural agricultural market south of Highlands County along Lake Okeechobee." },
+  { href: "/markets/hardee", title: "Hardee County Commercial Real Estate", description: "Agricultural and light-industrial market to the west of Highlands County." },
+  { href: "/markets/desoto", title: "DeSoto County Commercial Real Estate", description: "Another central Florida agricultural county with comparable commercial investment characteristics." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "How Barrett helps investors evaluate and acquire income-producing properties across Florida." },
+  { href: "/blog/tampa-bay-medical-office-real-estate-2026", title: "Medical Office CRE 2026", description: "Healthcare real estate trends across Florida — directly relevant to Highlands County's retirement demographic." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse Barrett Henry's commercial coverage across all 47 Florida counties." },
+  { href: "/blog/florida-1031-exchange-what-investors-need-to-know", title: "Florida 1031 Exchange Guide", description: "How to defer capital gains taxes when repositioning Highlands County investment properties." },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment?", description: "Core criteria for evaluating any Florida commercial property acquisition." },
+  { href: "/blog/how-to-calculate-commercial-property-roi", title: "How to Calculate Commercial Property ROI", description: "Cap rate, cash-on-cash, and total return metrics for Highlands County acquisitions." },
 ];
 
 export default function Page() {

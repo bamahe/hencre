@@ -83,7 +83,7 @@ const schema = {
       description:
         "Cap rates, anchor operators, and acquisition criteria for grocery-anchored shopping centers across Tampa Bay's tight retail market.",
       datePublished: "2026-08-25",
-      dateModified: "2026-08-25",
+      dateModified: "2026-08-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

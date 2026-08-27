@@ -87,11 +87,13 @@ const schema = {
       description:
         "GID paid $192 million for a 10-building, 933,000-SF industrial portfolio in Pinellas County in July 2026. Here is what the deal reveals about vacancy, rents, and what tenants and investors should do next.",
       datePublished: "2026-08-02",
-      dateModified: "2026-08-05",
+      dateModified: "2026-08-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -148,6 +150,16 @@ const relatedLinks = [
     title: "How to Calculate Commercial Property ROI",
     href: "/blog/how-to-calculate-commercial-property-roi",
     description: "A framework for evaluating industrial acquisitions in Pinellas County using cap rate, NOI, and cash-on-cash return.",
+  },
+  {
+    title: "Tampa Bay Cold Storage Real Estate 2026",
+    href: "/blog/tampa-bay-cold-storage-cre-2026",
+    description: "Cold storage and temperature-controlled warehouse market activity across Tampa Bay -- a specialized industrial niche.",
+  },
+  {
+    title: "SBA 504 Loan for Commercial Real Estate",
+    href: "/blog/sba-504-loan-commercial-real-estate-tampa-bay",
+    description: "Owner-occupant financing options for industrial property buyers in Pinellas County.",
   },
 ];
 
