@@ -1006,5 +1006,16 @@
       "photographer": "𝕡𝕒𝕨𝕤 𝕒𝕟𝕕 𝕡𝕣𝕚𝕟𝕥𝕤",
       "link": "https://unsplash.com/@paws_and_prints"
     }
+  },
+  {
+    "slug": "largo-fl-commercial-real-estate-hidden-gem-pinellas",
+    "title": "Largo, FL: Pinellas County's Commercial Real Estate Hidden Gem",
+    "excerpt": "Largo sits at the geographic heart of Pinellas County, offering businesses and investors access to dense population corridors, mature infrastructure, and competitive lease rates compared to Clearwater and St. Petersburg.",
+    "date": "2026-08-28",
+    "category": "city-market",
+    "city": "Largo",
+    "county": "Pinellas",
+    "businessType": null,
+    "image": null
   }
 ]
