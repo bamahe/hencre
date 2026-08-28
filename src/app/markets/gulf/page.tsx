@@ -99,6 +99,10 @@ const relatedLinks = [
   { href: "/services/investment-sales", title: "Investment Property Sales", description: "Barrett Henry&apos;s approach to representing buyers and sellers of income-producing Florida commercial property." },
   { href: "/commercial/land-development", title: "Land Development", description: "Evaluating raw land and development opportunity across Florida&apos;s coastal and rural markets." },
   { href: "/markets", title: "All Florida Markets", description: "Browse Barrett Henry&apos;s coverage of all 67 Florida counties." },
+  { href: "/markets/escambia", title: "Escambia County Commercial Real Estate", description: "Pensacola metro -- the largest commercial market in the Florida Panhandle." },
+  { href: "/markets/gadsden", title: "Gadsden County Commercial Real Estate", description: "Capital-region spillover, I-10 logistics, and adaptive reuse opportunity near Tallahassee." },
+  { href: "/commercial/retail-space", title: "Retail Space in Florida", description: "Commercial retail strategy for coastal and rural Florida markets." },
+  { href: "/blog/florida-1031-exchange-what-investors-need-to-know", title: "1031 Exchange in Florida", description: "How Florida commercial investors can defer capital gains and reposition into coastal or rural assets." },
 ];
 
 export default function Page() {

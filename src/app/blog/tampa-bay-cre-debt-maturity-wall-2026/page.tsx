@@ -315,11 +315,9 @@ export default function TampaBayCREDebtMaturityWall2026Page() {
           For owners who cannot refinance conventionally, cannot inject equity, and are not receiving lender flexibility, a controlled sale — selling the property on the open market before the lender forces a resolution — almost always produces a better outcome than waiting. A proactive sale lets the owner control timing, marketing, and price discovery. A lender-driven sale (foreclosure, deed in lieu, note sale) happens on the lender&apos;s terms and timeline, typically at a steep discount.
         </p>
         <p className="mt-2 text-[#666666] leading-relaxed">
-          The Tampa Bay market has a population of buyers who specifically seek commercial assets being sold due to financing pressure — they know the seller has motivation and they compete for that deal flow. Pricing a property correctly and marketing it to that buyer population is a different process than a traditional listing, and it moves faster. Barrett has helped owners navigate exactly this situation and can coordinate a fast, confidential process when needed. For owners who need to move quickly, resources like{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">
-            FastSellEasySale.com
-          </a>{" "}
-          are also an option for commercial property and land.
+          The Tampa Bay market has a population of buyers who specifically seek commercial assets being sold due to financing pressure -- they know the seller has motivation and they compete for that deal flow. Pricing a property correctly and marketing it to that buyer population is a different process than a traditional listing, and it moves faster. Barrett has helped owners navigate exactly this situation and can coordinate a fast, confidential process when needed. For owners who need to move quickly, his{" "}
+          <Link href="/services/dispositions" className="text-accent underline">disposition services</Link>{" "}
+          provide the structure to execute a fast, confidential commercial sale.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Opportunities Is the Maturity Wall Creating for Tampa Bay Buyers?</h2>

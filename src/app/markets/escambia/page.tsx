@@ -119,6 +119,26 @@ const relatedLinks = [
     href: "/services/investment-sales",
     description: "Florida commercial investment acquisition and disposition services.",
   },
+  {
+    title: "Gadsden County Commercial Real Estate",
+    href: "/markets/gadsden",
+    description: "Capital-region spillover, I-10 logistics, and adaptive reuse near Tallahassee -- north of Escambia County.",
+  },
+  {
+    title: "Gulf County Commercial Real Estate",
+    href: "/markets/gulf",
+    description: "Coastal Panhandle market in Port St. Joe -- boutique hospitality and small commercial.",
+  },
+  {
+    title: "Holmes County Commercial Real Estate",
+    href: "/markets/holmes",
+    description: "Rural Panhandle county with agricultural and small commercial opportunities.",
+  },
+  {
+    title: "1031 Exchange in Florida",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "How Florida commercial investors can defer capital gains and reposition into Pensacola metro assets.",
+  },
 ];
 
 export default function EscambiaMarketPage() {

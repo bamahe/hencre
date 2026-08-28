@@ -5,6 +5,7 @@ import CTASection from "@/components/CTASection";
 import FAQAccordion from "@/components/FAQAccordion";
 import RelatedLinks from "@/components/RelatedLinks";
 import Image from "next/image";
+import Link from "next/link";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
@@ -13,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Data Center Real Estate 2026: AI Boom Drives CRE Demand | HenCRE",
+  title: "Tampa Bay Data Center Real Estate 2026 | HenCRE",
   description:
     "Private equity is pouring into Tampa Bay data centers as AI demand accelerates. Here is what the data center buildout means for industrial CRE investors, tenants, and landowners across Hillsborough and Pinellas Counties.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-data-center-cre-2026" },
@@ -84,7 +85,7 @@ const schema = {
       description:
         "Private equity is pouring into Tampa Bay data centers as AI demand accelerates. What the data center buildout means for industrial CRE investors, tenants, and landowners across Tampa Bay.",
       datePublished: "2026-07-25",
-      dateModified: "2026-08-13",
+      dateModified: "2026-08-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -192,7 +193,7 @@ export default function TampaBayDataCenterCREPage() {
           For years, that demand concentrated almost entirely in a handful of hyperscale markets: Ashburn, Virginia; Phoenix; Chicago; Dallas. But as AI applications move closer to the end user — reducing latency for real-time AI responses, autonomous systems, and consumer applications — operators need compute capacity distributed across mid-tier metros. Tampa Bay, with its large and rapidly growing population, strong fiber infrastructure, and geographic position as the logical hub for the I-4 corridor&apos;s eight-million-plus residents, is now on the map in a way it was not even three years ago.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The industry publication TBBW reported in March 2026 that private equity is turning Tampa data centers into what market observers are calling a power play — capital is reaching Tampa Bay at a pace shaped increasingly by power constraints and larger financing structures than the market has historically seen. This is a materially different demand environment from the speculative industrial development that has characterized much of Tampa Bay&apos;s warehouse market in recent years. For broader context on what is driving Tampa Bay commercial real estate across all sectors, see our overview of <a href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay CRE is booming</a>.
+          The industry publication TBBW reported in March 2026 that private equity is turning Tampa data centers into what market observers are calling a power play — capital is reaching Tampa Bay at a pace shaped increasingly by power constraints and larger financing structures than the market has historically seen. This is a materially different demand environment from the speculative industrial development that has characterized much of Tampa Bay&apos;s warehouse market in recent years. For broader context on what is driving Tampa Bay commercial real estate across all sectors, see our overview of <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay CRE is booming</Link>.
         </p>
 
         <div className="my-10 overflow-hidden rounded-lg">
@@ -214,7 +215,7 @@ export default function TampaBayDataCenterCREPage() {
           In the broader East Tampa industrial corridor, GTIS Partners is developing 4Ward Logistics Center — a new Class A industrial project capitalized through the GTIS Opportunity Zone Fund II — with JLL tapped to handle leasing. Separately, Stonemont Financial, an Atlanta-based firm specializing in industrial development and net lease investment, signed a full-building 100,698-square-foot net lease at TIA Executive Center. These transactions reflect an industrial market that is not just active but attracting sophisticated institutional operators making long-duration bets on Tampa Bay&apos;s infrastructure.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The underlying industrial metrics support the investment thesis. Tampa&apos;s industrial market recorded leasing activity surpassing 2.9 million square feet in Q2 2026, with sales volume topping $210 million — nearly double the prior quarter. Asking rents held at $9.63 per square foot on a NNN basis, near recent highs. For a full picture of the broader industrial market, see our <a href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">Tampa industrial market outlook for 2026</a>.
+          The underlying industrial metrics support the investment thesis. Tampa&apos;s industrial market recorded leasing activity surpassing 2.9 million square feet in Q2 2026, with sales volume topping $210 million — nearly double the prior quarter. Asking rents held at $9.63 per square foot on a NNN basis, near recent highs. For a full picture of the broader industrial market, see our <Link href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">Tampa industrial market outlook for 2026</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does Data Center Demand Mean for Industrial Land in Tampa Bay?</h2>
@@ -225,7 +226,7 @@ export default function TampaBayDataCenterCREPage() {
           That economics gap is showing up in the land market. Sites with the right combination of acreage, power substation proximity, fiber connectivity, and zoning compatibility are attracting interest from data center acquisition teams, often proactively and at prices that surprise sellers who were thinking in conventional industrial terms. The I-4 corridor — connecting Tampa&apos;s port and intermodal infrastructure to Lakeland and Orlando&apos;s logistics network — and the US-301 and I-75 south corridors are the primary zones seeing this elevated interest.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors already active in the industrial market, the data center layer is also driving valuation premiums on existing industrial assets with heavy-power capability. Flex industrial buildings that were designed for light manufacturing or distribution — with 200- or 400-amp service and clear heights above 24 feet — are candidates for repositioning as colocation or edge facilities with targeted capital investment. Understanding <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate ROI on commercial property</a> and the nuances of <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">net lease structures</a> is essential groundwork before evaluating any data center acquisition or development thesis.
+          For investors already active in the industrial market, the data center layer is also driving valuation premiums on existing industrial assets with heavy-power capability. Flex industrial buildings that were designed for light manufacturing or distribution — with 200- or 400-amp service and clear heights above 24 feet — are candidates for repositioning as colocation or edge facilities with targeted capital investment. Understanding <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate ROI on commercial property</Link> and the nuances of <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">net lease structures</Link> is essential groundwork before evaluating any data center acquisition or development thesis.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do Data Center Leases Differ from Standard Industrial Leases?</h2>
@@ -239,7 +240,7 @@ export default function TampaBayDataCenterCREPage() {
           <li><strong>Sale-leaseback opportunities.</strong> Corporations with owned data center facilities are active sellers in the current market, preferring to monetize real estate and redeploy capital into their core technology business while retaining long-term operational control through a leaseback. For investors, these transactions offer stabilized, creditworthy income at pricing that reflects the data center sector&apos;s current favor with institutional capital.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process</a> for data center acquisitions extends into technical domains — power capacity, generator redundancy, cooling efficiency, fiber path diversity — that go beyond standard commercial property inspection. Assembling the right team of advisors before entering a transaction is not optional; it is the difference between a successful acquisition and an expensive miscalculation.
+          The <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process</Link> for data center acquisitions extends into technical domains — power capacity, generator redundancy, cooling efficiency, fiber path diversity — that go beyond standard commercial property inspection. Assembling the right team of advisors before entering a transaction is not optional; it is the difference between a successful acquisition and an expensive miscalculation.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is Tampa Bay&apos;s Data Center Market a Realistic Opportunity for Private Investors?</h2>
@@ -261,10 +262,10 @@ export default function TampaBayDataCenterCREPage() {
           Tampa Bay&apos;s data center story is not a distant technology trend that may or may not arrive. It is already here — in the private equity capital flowing into the market, in the industrial lease transactions from firms like Stonemont and GTIS, and in the edge facility infrastructure being positioned by operators like American Tower along the region&apos;s key corridors. The AI infrastructure buildout has a multi-decade runway, and Tampa Bay&apos;s position as the economic hub of Florida&apos;s I-4 corridor gives it durable strategic value in the distributed compute network that AI applications are requiring.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For commercial real estate investors and property owners in <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, and <a href="/markets/pasco" className="text-accent underline">Pasco</a> Counties, the actionable step is awareness. Know what you own and whether it has characteristics — power access, site size, location relative to fiber and substations — that data center developers or operators are seeking. Understand that the market values those characteristics at premiums that standard industrial analysis does not fully capture. And make sure the professionals advising you on industrial transactions are current on the data center demand layer that is reshaping how these assets are priced.
+          For commercial real estate investors and property owners in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco</Link> Counties, the actionable step is awareness. Know what you own and whether it has characteristics — power access, site size, location relative to fiber and substations — that data center developers or operators are seeking. Understand that the market values those characteristics at premiums that standard industrial analysis does not fully capture. And make sure the professionals advising you on industrial transactions are current on the data center demand layer that is reshaping how these assets are priced.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay, I work with industrial investors and landowners who need current, local intelligence on how macro trends are translating into real transaction activity in <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, and <a href="/markets/pasco" className="text-accent underline">Pasco</a> Counties. If you own industrial land or buildings and want to understand whether data center demand is relevant to what you hold, let&apos;s have that conversation.
+          With 23+ years of commercial real estate experience across Tampa Bay, I work with industrial investors and landowners who need current, local intelligence on how macro trends are translating into real transaction activity in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco</Link> Counties. If you own industrial land or buildings and want to understand whether data center demand is relevant to what you hold, let&apos;s have that conversation.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -280,9 +281,9 @@ export default function TampaBayDataCenterCREPage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Broker Associate"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"

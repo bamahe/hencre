@@ -119,6 +119,26 @@ const relatedLinks = [
     href: "/insights/cre-due-diligence-checklist",
     description: "Step-by-step due diligence for Florida commercial property acquisitions.",
   },
+  {
+    title: "Flagler County Commercial Real Estate",
+    href: "/markets/flagler",
+    description: "Palm Coast and the I-95 corridor -- secondary Northeast Florida market driven by residential growth.",
+  },
+  {
+    title: "St. Johns County Commercial Real Estate",
+    href: "/markets/st-johns",
+    description: "Northeast Florida&apos;s fastest-growing county with expanding retail and mixed-use corridors.",
+  },
+  {
+    title: "1031 Exchange in Florida",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "How Florida commercial investors can defer capital gains and reposition into Jacksonville metro assets.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Calculate capitalization rates for Duval County and Northeast Florida commercial investment properties.",
+  },
 ];
 
 export default function DuvalMarketPage() {

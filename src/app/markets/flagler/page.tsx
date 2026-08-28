@@ -96,8 +96,8 @@ const relatedLinks = [
   },
   {
     title: "Volusia County CRE (Daytona Beach Area)",
-    href: "/markets/broward",
-    description: "Secondary Florida markets with I-95 access and strong retail and industrial demand.",
+    href: "/markets/volusia",
+    description: "The Daytona Beach metro and I-95 corridor south of Flagler County.",
   },
   {
     title: "Clay County Commercial Real Estate",
@@ -118,6 +118,26 @@ const relatedLinks = [
     title: "Tenant Representation",
     href: "/services/tenant-representation",
     description: "Find the right commercial space at the right terms in Flagler County and across Florida.",
+  },
+  {
+    title: "St. Johns County Commercial Real Estate",
+    href: "/markets/st-johns",
+    description: "Northeast Florida&apos;s fastest-growing county with I-95 access, strong demographics, and expanding commercial corridors.",
+  },
+  {
+    title: "1031 Exchange in Florida",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "How Florida commercial investors can defer capital gains using 1031 exchange strategies.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Calculate capitalization rates for Flagler County and Florida commercial investment properties.",
+  },
+  {
+    title: "Investment Sales",
+    href: "/services/investment-sales",
+    description: "Florida commercial investment acquisition and disposition services.",
   },
 ];
 

@@ -123,6 +123,26 @@ const relatedLinks = [
     href: "/services/investment-sales",
     description: "Florida commercial investment acquisition and disposition services.",
   },
+  {
+    title: "Leon County Commercial Real Estate",
+    href: "/markets/leon",
+    description: "Tallahassee metro -- the adjacent capital-region market that drives spillover demand into Gadsden County.",
+  },
+  {
+    title: "Gulf County Commercial Real Estate",
+    href: "/markets/gulf",
+    description: "Coastal Panhandle market in Port St. Joe -- boutique hospitality and small commercial.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Calculate capitalization rates for North Florida and Gadsden County commercial investment properties.",
+  },
+  {
+    title: "Tenant Representation",
+    href: "/services/tenant-representation",
+    description: "Expert tenant representation for businesses leasing commercial space in Gadsden County and across Florida.",
+  },
 ];
 
 export default function GadsdenMarketPage() {
