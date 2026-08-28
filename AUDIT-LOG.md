@@ -2669,3 +2669,54 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Updated footer: "July 2026" -> "August 2026"
 - Expanded relatedLinks: 4 -> 10 (added 6 links: industrial outlook, good investment, insurance crisis, ROI calc, NNN lease, due diligence)
 - Added standard author bio section with legal disclaimer before CTASection
+
+---
+
+## Batch 38 — 2026-08-28
+
+### 1. `/blog/tampa-hillsborough-county-commercial-real-estate-2026`
+- Full rewrite: merged dual SchemaOrg calls into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed schema author jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Removed "nowtb.com" from schema sameAs array
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Added "Home" as first breadcrumb item
+- Added dateModified: "2026-08-28"
+- Shortened metadata title to under 70 chars: "Tampa & Hillsborough County CRE 2026 | HenCRE"
+- Fixed relatedLinks: added /blog/ prefix to all hrefs, expanded 6 -> 10 items
+- Fixed mid-CTA text: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Fixed author bio: img -> Image component, credentials updated to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Added Image and Link imports
+- Escaped apostrophes in JSX text, replaced em dashes with --
+- Added internal Link components throughout article body
+
+### 2. `/blog/tampa-bay-cre-debt-maturity-wall-2026`
+- Replaced fastselleasysale.com external link with /services/dispositions internal Link
+- Removed em dash in paragraph; replaced with --
+
+### 3. `/blog/tampa-bay-data-center-cre-2026`
+- Shortened metadata title from 75 chars to "Tampa Bay Data Center Real Estate 2026 | HenCRE" (47 chars)
+- Added `import Link from "next/link"`
+- Fixed author bio: img -> Image component
+- Updated dateModified: "2026-08-13" -> "2026-08-28"
+- Converted all raw <a> tags in article body to <Link> components (7 instances)
+
+### 4. `/blog/tampa-bay-life-sciences-cre-2026`
+- Updated dateModified: "2026-08-23" -> "2026-08-28"
+
+### 5. `/markets/flagler`
+- Fixed broken relatedLink: href="/markets/broward" -> "/markets/volusia" for Volusia County entry
+- Updated description for Volusia County link to be accurate
+- Expanded relatedLinks: 6 -> 10 (added st-johns, 1031 exchange, cap rate calculator, investment sales)
+
+### 6. `/markets/duval`
+- Expanded relatedLinks: 6 -> 10 (added flagler, st-johns, 1031 exchange, cap rate calculator)
+
+### 7. `/markets/escambia`
+- Expanded relatedLinks: 6 -> 10 (added gadsden, gulf, holmes, 1031 exchange)
+
+### 8. `/markets/gulf`
+- Expanded relatedLinks: 6 -> 10 (added escambia, gadsden, retail space, 1031 exchange)
+
+### 9. `/markets/gadsden`
+- Expanded relatedLinks: 6 -> 10 (added leon, gulf, cap rate calculator, tenant representation)
