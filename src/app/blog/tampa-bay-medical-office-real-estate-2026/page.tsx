@@ -85,7 +85,7 @@ const schema = {
       description:
         "Healthcare commercial real estate in Tampa Bay — recent transactions, submarkets, rental rates, and investment outlook for medical office properties.",
       datePublished: "2026-07-21",
-      dateModified: "2026-08-12",
+      dateModified: "2026-08-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

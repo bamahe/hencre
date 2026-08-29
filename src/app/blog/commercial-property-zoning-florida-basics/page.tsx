@@ -80,7 +80,7 @@ const schema = {
       description:
         "Florida commercial zoning explained — categories, uses, variances, and impact on CRE decisions.",
       datePublished: "2026-06-10",
-      dateModified: "2026-08-10",
+      dateModified: "2026-08-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

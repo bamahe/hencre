@@ -85,7 +85,7 @@ const schema = {
       description:
         "Sarasota County office market trends — vacancy, rents, submarkets, and investment opportunities.",
       datePublished: "2026-06-14",
-      dateModified: "2026-08-10",
+      dateModified: "2026-08-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

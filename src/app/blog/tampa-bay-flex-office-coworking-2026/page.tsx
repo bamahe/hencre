@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay has reached 2.5% flex office penetration and is one of the fastest-growing coworking markets in the U.S. in 2026. Here's how to evaluate flexible workspace options versus traditional leases.",
       datePublished: "2026-08-21",
-      dateModified: "2026-08-21",
+      dateModified: "2026-08-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -138,6 +138,31 @@ const relatedLinks = [
     href: "/blog/do-you-need-a-commercial-real-estate-broker",
     description:
       "What tenant representation actually means, how it's compensated, and why it costs you nothing to have an expert in your corner.",
+  },
+  {
+    title: "Office Space Listings",
+    href: "/commercial/office-space",
+    description: "Browse available traditional office space across Tampa Bay when you are ready to commit.",
+  },
+  {
+    title: "Understanding CAM Charges",
+    href: "/blog/understanding-cam-charges-tenants-guide",
+    description: "What common area maintenance fees cover in a traditional office lease and how to negotiate them.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "How Barrett represents office tenants at no cost in Tampa Bay lease negotiations.",
+  },
+  {
+    title: "Sarasota Office Market Trends 2026",
+    href: "/blog/sarasota-office-market-trends-2026",
+    description: "How flex and traditional office demand is shaping the Sarasota market in 2026.",
+  },
+  {
+    title: "Midtown Tampa Commercial Real Estate 2026",
+    href: "/blog/midtown-tampa-commercial-real-estate-2026",
+    description: "Midtown Tampa is fully leased -- the North Tampa node that drove flex demand in this corridor.",
   },
 ];
 

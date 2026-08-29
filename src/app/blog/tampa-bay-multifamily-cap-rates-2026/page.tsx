@@ -80,7 +80,7 @@ const schema = {
       description:
         "Cap rate expansion and lower commercial rates are improving multifamily math in Tampa Bay. Here is how to evaluate deals in the current environment.",
       datePublished: "2026-07-24",
-      dateModified: "2026-08-12",
+      dateModified: "2026-08-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

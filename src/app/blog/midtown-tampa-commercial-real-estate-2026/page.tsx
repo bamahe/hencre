@@ -85,7 +85,7 @@ const schema = {
       description:
         "Midtown Tampa's office space is fully leased and three new retailers are joining the district. A CRE investor and tenant guide to the $1 billion mixed-use development reshaping North Tampa.",
       datePublished: "2026-07-29",
-      dateModified: "2026-08-08",
+      dateModified: "2026-08-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -133,6 +133,31 @@ const relatedLinks = [
     title: "What Makes a Good Commercial Investment?",
     href: "/blog/what-makes-a-good-commercial-investment",
     description: "The core criteria for evaluating CRE acquisitions in Tampa Bay's competitive market.",
+  },
+  {
+    title: "Westshore Tampa Office Market 2026",
+    href: "/blog/westshore-tampa-office-market-2026",
+    description: "How Westshore compares to Midtown Tampa as a North Tampa office alternative.",
+  },
+  {
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "Cap rate, cash-on-cash, and IRR frameworks for evaluating Midtown-adjacent investments.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Barrett helps investors source and acquire properties in North Tampa submarkets.",
+  },
+  {
+    title: "Hillsborough County Market",
+    href: "/markets/hillsborough",
+    description: "Commercial real estate data and submarket trends across Hillsborough County.",
+  },
+  {
+    title: "CRE Valuation Services",
+    href: "/services/cre-valuation",
+    description: "Professional commercial property valuation for acquisitions near Midtown Tampa.",
   },
 ];
 

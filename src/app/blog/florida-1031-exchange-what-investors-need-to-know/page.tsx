@@ -80,7 +80,7 @@ const schema = {
       description:
         "Florida-specific 1031 exchange considerations for commercial real estate investors.",
       datePublished: "2026-05-28",
-      dateModified: "2026-08-10",
+      dateModified: "2026-08-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

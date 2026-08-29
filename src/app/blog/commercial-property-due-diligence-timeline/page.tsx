@@ -80,7 +80,7 @@ const schema = {
       description:
         "Step-by-step due diligence checklist and timeline for commercial real estate buyers.",
       datePublished: "2026-05-25",
-      dateModified: "2026-08-10",
+      dateModified: "2026-08-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
