@@ -4,6 +4,46 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-29 -- Batch 38 (10 pages improved)
+
+**Commit:** `441b5ba` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/commercial-property-due-diligence-timeline`
+- Updated dateModified: "2026-08-10" -> "2026-08-29"
+
+### 2. `/blog/commercial-property-zoning-florida-basics`
+- Updated dateModified: "2026-08-10" -> "2026-08-29"
+
+### 3. `/blog/florida-1031-exchange-what-investors-need-to-know`
+- Updated dateModified: "2026-08-10" -> "2026-08-29"
+
+### 4. `/blog/midtown-tampa-commercial-real-estate-2026`
+- Expanded relatedLinks: 5 -> 10 (added Westshore Tampa Office Market 2026, How to Calculate Commercial Property ROI, Investment Sales Services, Hillsborough County Market, CRE Valuation Services)
+- Updated dateModified: "2026-08-08" -> "2026-08-29"
+
+### 5. `/blog/sarasota-office-market-trends-2026`
+- Updated dateModified: "2026-08-10" -> "2026-08-29"
+
+### 6. `/blog/sarasota-warehouse-distribution-space-guide`
+- Added `import Link from "next/link"`
+- Converted all internal `<a href='...'>` tags to `<Link href="...">` in article body (10 links)
+- Updated dateModified: "2026-08-14" -> "2026-08-29"
+
+### 7. `/blog/selling-tenant-occupied-investment-property-florida`
+- Updated dateModified: "2026-08-14" -> "2026-08-29"
+
+### 8. `/blog/tampa-bay-flex-office-coworking-2026`
+- Expanded relatedLinks: 5 -> 10 (added Office Space Listings, Understanding CAM Charges, Tenant Representation Services, Sarasota Office Market Trends 2026, Midtown Tampa Commercial Real Estate 2026)
+- Updated dateModified: "2026-08-21" -> "2026-08-29"
+
+### 9. `/blog/tampa-bay-medical-office-real-estate-2026`
+- Updated dateModified: "2026-08-12" -> "2026-08-29"
+
+### 10. `/blog/tampa-bay-multifamily-cap-rates-2026`
+- Updated dateModified: "2026-08-12" -> "2026-08-29"
+
+---
+
 ## 2026-08-27 -- Batch 37 (10 pages improved)
 
 **Commit:** `3690953` | **Build:** clean (0 errors) | **Pages improved:** 10
