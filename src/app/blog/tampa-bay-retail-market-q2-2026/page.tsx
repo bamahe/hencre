@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -80,7 +81,7 @@ const schema = {
       description:
         "Tampa Bay retail vacancy held at 3.8% in Q2 2026 — well below the national average and near historic lows for strip centers and grocery-anchored properties. What that means if you are leasing or investing.",
       datePublished: "2026-08-14",
-      dateModified: "2026-08-23",
+      dateModified: "2026-08-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -288,7 +289,7 @@ export default function TampaBayRetailMarketQ2Page() {
           Before any acquisition, run a full <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process</Link> and model your <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">return on investment</Link> with current insurance costs, not trailing data. Florida insurance premiums are a material variable in retail underwriting that surprises investors who rely on historical figures.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Investors holding retail assets they no longer wish to operate may find current demand levels favorable for a sale or <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fast cash sale</Link> given active buyer interest in well-located Tampa Bay retail.
+          Investors holding retail assets they no longer wish to operate may find current demand levels favorable for a <Link href="/services/dispositions" className="text-accent underline">disposition</Link> through HenCRE, given active buyer interest in well-located Tampa Bay retail.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Types of Retailers Are Winning in Tampa Bay in 2026?</h2>
@@ -335,7 +336,7 @@ export default function TampaBayRetailMarketQ2Page() {
           With 23+ years of real estate experience across Tampa Bay, I work with retail tenants finding space and investors evaluating retail acquisitions throughout Hillsborough, Pinellas, Pasco, and Manatee Counties. Whether you are opening a first location, expanding a concept, or evaluating a strip center purchase, local market knowledge makes the difference in a 3.8% vacancy environment. Let&apos;s talk about what fits your situation.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Homebuyers and renters moving to the region who want to understand where retail demand is growing can explore neighborhood data at <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>, where Tampa Bay&apos;s fastest-growing communities are profiled alongside home search tools.
+          Investors and tenants can learn more about Tampa Bay&apos;s fastest-growing communities and retail demand drivers in our <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County market guide</Link> and <Link href="/markets/pinellas" className="text-accent underline">Pinellas County market guide</Link>.
         </p>
 
         <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
@@ -355,7 +356,7 @@ export default function TampaBayRetailMarketQ2Page() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

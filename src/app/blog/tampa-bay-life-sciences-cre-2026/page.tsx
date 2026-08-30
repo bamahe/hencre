@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay's life sciences CRE market is accelerating in 2026, driven by the Tampa Medical & Research District, USF Research Park, and rising biotech demand for specialized lab and R&D space.",
       datePublished: "2026-08-23",
-      dateModified: "2026-08-28",
+      dateModified: "2026-08-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

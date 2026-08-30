@@ -86,7 +86,7 @@ const schema = {
       description:
         "How sale-leaseback transactions work in Tampa Bay — for business owners seeking capital and investors seeking tenant-occupied assets.",
       datePublished: "2026-08-13",
-      dateModified: "2026-08-18",
+      dateModified: "2026-08-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

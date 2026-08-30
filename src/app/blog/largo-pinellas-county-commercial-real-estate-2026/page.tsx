@@ -65,7 +65,7 @@ const schema = {
       headline: "Largo FL Commercial Real Estate 2026 | Pinellas County",
       description: "Discover why Largo, FL is one of Pinellas County's top commercial real estate markets in 2026. Explore retail, office, industrial, and mixed-use opportunities in this thriving mid-county hub.",
       datePublished: "2026-08-19",
-      dateModified: "2026-08-22",
+      dateModified: "2026-08-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -116,6 +116,31 @@ const relatedLinks = [
     title: "Florida Business Rent Tax Repeal: What It Means for Tampa Bay",
     href: "/blog/florida-business-rent-tax-repeal-tampa-bay",
     description: "Learn how Florida's business rent tax changes impact commercial tenants and investors across Tampa Bay.",
+  },
+  {
+    title: "Pinellas County Commercial Real Estate Market",
+    href: "/markets/pinellas",
+    description: "County-wide market overview with data on vacancy, rents, and investment activity across Pinellas.",
+  },
+  {
+    title: "Largo, FL: Pinellas County's Commercial Real Estate Hidden Gem",
+    href: "/blog/largo-fl-commercial-real-estate-hidden-gem-pinellas",
+    description: "Why Largo stands out as one of the most overlooked CRE opportunities in Pinellas County.",
+  },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "Current cap rate data for NNN retail and commercial investments across Tampa Bay submarkets.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment?",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "Key fundamentals for evaluating commercial real estate acquisitions in Florida markets.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett helps investors acquire and dispose of income-producing commercial properties.",
   },
 ];
 
@@ -214,6 +239,13 @@ export default function BlogPost() {
       <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
+        </p>
+      </section>
+
+      {/* ---- Legal Disclaimer ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#999999]">
+          Last updated: August 2026 | Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
       </section>
 

@@ -89,7 +89,7 @@ const schema = {
       description:
         "Westshore is Tampa Bay's largest and most active office submarket — with vacancy at 16%, rents at all-time highs, and landmark buildings nearly full.",
       datePublished: "2026-08-07",
-      dateModified: "2026-08-23",
+      dateModified: "2026-08-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -311,7 +311,7 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

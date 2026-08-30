@@ -88,7 +88,7 @@ const schema = {
       description:
         "Fortune 500 Ferguson signed a 50,570-square-foot office lease at Gasworx in Ybor City, filling the first Class A office building to 100% occupancy. What Tampa Bay tenants and commercial real estate investors need to know.",
       datePublished: "2026-08-15",
-      dateModified: "2026-08-17",
+      dateModified: "2026-08-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

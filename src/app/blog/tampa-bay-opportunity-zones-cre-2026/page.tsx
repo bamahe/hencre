@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay has Qualified Opportunity Zones in Ybor City, East Tampa, West Tampa, Port of Tampa, and near USF. A complete guide to CRE investing in Tampa Bay's designated OZ tracts.",
       datePublished: "2026-08-12",
-      dateModified: "2026-08-16",
+      dateModified: "2026-08-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -295,7 +295,7 @@ export default function TampaBayOpportunityZonesCREPage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
