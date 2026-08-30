@@ -4,6 +4,63 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-30 -- Batch 39 (10 pages improved)
+
+**Commit:** `d494861` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/largo-fl-commercial-real-estate-hidden-gem-pinellas`
+- Full fix: merged dual SchemaOrg components (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from author sameAs array
+- Added dateModified: "2026-08-30"
+- Added "Home" as first breadcrumb item (was missing -- started at "Blog")
+- Fixed mid-CTA: "Talk to a REMAX Commercial(r) Broker" -> "Talk to a Commercial Real Estate Broker"
+- Fixed author bio: img -> Image, removed "REALTOR(r) & Commercial Real Estate Advisor" and "REMAX Commercial(r) division" language
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Added "Last updated: August 2026" footer
+- Expanded relatedLinks: 5 -> 10 with correct /blog/ prefix on all hrefs (were missing /blog/ prefix on all 5 hrefs)
+- Added Image and Link imports
+
+### 2. `/blog/tampa-bay-retail-market-q2-2026`
+- Removed fastselleasysale.com external link (line 291) -- replaced with /services/dispositions internal link
+- Removed nowtb.com external link (line 338) -- replaced with internal /markets/hillsborough and /markets/pinellas links
+- Fixed author bio: img -> Image component
+- Added `import Image from "next/image"`
+- Updated dateModified: "2026-08-23" -> "2026-08-30"
+
+### 3. `/blog/largo-pinellas-county-commercial-real-estate-2026`
+- Expanded relatedLinks: 5 -> 10 (added Pinellas County Market, Largo Hidden Gem post, Tampa Bay NNN Cap Rates, What Makes Good Investment, Investment Sales Services)
+- Added "Last updated: August 2026" disclaimer footer section (was completely missing)
+- Updated dateModified: "2026-08-22" -> "2026-08-30"
+
+### 4. `/blog/tampa-bay-opportunity-zones-cre-2026`
+- Fixed author bio: img -> Image component
+- Updated dateModified: "2026-08-16" -> "2026-08-30"
+
+### 5. `/blog/westshore-tampa-office-market-2026`
+- Fixed author bio: img -> Image component
+- Updated dateModified: "2026-08-23" -> "2026-08-30"
+
+### 6. `/blog/crystal-river-waterfront-commercial-investment-guide`
+- Fixed author bio: img -> Image component
+- Updated dateModified: "2026-08-16" -> "2026-08-30"
+
+### 7. `/blog/tampa-bay-cre-debt-maturity-wall-2026`
+- Upgraded author bio from plain gray text box to standard flex card with Image headshot component
+- Updated dateModified: "2026-08-27" -> "2026-08-30"
+
+### 8. `/blog/sale-leaseback-commercial-real-estate-tampa-bay`
+- Updated dateModified: "2026-08-18" -> "2026-08-30"
+
+### 9. `/blog/tampa-bay-life-sciences-cre-2026`
+- Updated dateModified: "2026-08-28" -> "2026-08-30"
+
+### 10. `/blog/gasworx-tampa-ybor-office-commercial-2026`
+- Updated dateModified: "2026-08-17" -> "2026-08-30"
+
+---
+
 ## 2026-08-29 -- Batch 38 (10 pages improved)
 
 **Commit:** `441b5ba` | **Build:** clean (0 errors) | **Pages improved:** 10
