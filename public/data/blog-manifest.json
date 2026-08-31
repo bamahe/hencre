@@ -1017,5 +1017,16 @@
     "county": "Pinellas",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "brandon-hillsborough-commercial-real-estate-market-2026",
+    "title": "Brandon FL Commercial Real Estate: 2026 Market Guide",
+    "excerpt": "Brandon, Florida is one of Hillsborough County's most active commercial submarkets, drawing retailers, service businesses, and investors with its dense population base, major corridor access, and steady economic growth.",
+    "date": "2026-08-31",
+    "category": "city-market",
+    "city": "Brandon",
+    "county": "Hillsborough",
+    "businessType": null,
+    "image": null
   }
 ]
