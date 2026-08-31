@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -85,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay NNN properties are trading at an average 6.1% cap rate through mid-2026. Breakdown by tenant, lease term, and corridor.",
       datePublished: "2026-08-11",
-      dateModified: "2026-08-12",
+      dateModified: "2026-08-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -352,7 +353,7 @@ export default function TampaBayNNNCapRates2026Page() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -85,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay apartment vacancy hit a 25-year high of 10.7%. Rents fell 2.6% year-over-year. New supply is still delivering. What multifamily investors need to know — and what the recovery looks like.",
       datePublished: "2026-08-28",
-      dateModified: "2026-08-28",
+      dateModified: "2026-08-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -153,6 +154,11 @@ const relatedLinks = [
     title: "Investment Sales Services",
     href: "/services/investment-sales",
     description: "How Barrett helps multifamily investors acquire and divest income-producing properties across Tampa Bay.",
+  },
+  {
+    title: "Tampa Bay Senior Housing CRE Investment 2026",
+    href: "/blog/tampa-bay-senior-housing-cre-investment-2026",
+    description: "How Florida's aging demographics are shaping senior housing investment alongside the multifamily cycle.",
   },
 ];
 
@@ -243,7 +249,7 @@ export default function TampaBayMultifamilyMarketMid2026Page() {
           For investors with dry powder and patience, this is a potentially meaningful window. The key discipline is not buying the headline distress — it is underwriting the recovery. A 10.7% vacant building bought at a distressed price is still a bad investment if it takes five years to stabilize and you underwrite a two-year recovery. The investors who will do well in this cycle are those who model realistic absorption timelines, conservative rent growth assumptions (3% to 4% annually, not the 10% per year of 2021), and fully loaded expense structures that include current Florida insurance costs.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Owners navigating financial distress who need to exit quickly may also find options through cash-sale channels. <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Fast cash sale options</Link> exist for multifamily owners who cannot wait for the traditional listing and marketing process.
+          Owners navigating financial distress who need to exit quickly may also find options through cash-sale channels. Barrett Henry works directly with multifamily owners who need a faster exit path — <Link href="/services/dispositions" className="text-accent underline">explore disposition services</Link> for a direct assessment of your options.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is the New Development Pipeline Doing?</h2>
@@ -293,7 +299,7 @@ export default function TampaBayMultifamilyMarketMid2026Page() {
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Homebuyers weighing an apartment versus a purchase decision in the current market can explore Tampa Bay&apos;s residential market conditions and neighborhood data at <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>. First-time buyers in particular may find the current environment — with seller concessions in some submarkets — favorable for a purchase rather than continued renting.
+          Homebuyers weighing an apartment versus a purchase decision in the current market should evaluate current conditions carefully. First-time buyers may find the current environment favorable for a purchase rather than continued renting. For insights on Tampa Bay&apos;s broader market, see our overview of <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County commercial real estate</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa Bay Multifamily in Mid-2026</h2>
@@ -324,7 +330,7 @@ export default function TampaBayMultifamilyMarketMid2026Page() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

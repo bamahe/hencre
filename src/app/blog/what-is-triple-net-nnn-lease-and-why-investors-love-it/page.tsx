@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "What Is a Triple Net (NNN) Lease and Why Investors Love It",
+  title: "What Is a Triple Net (NNN) Lease and Why Investors Love It | HenCRE",
   description:
     "A triple net lease shifts property taxes, insurance, and maintenance to the tenant. Learn how NNN leases work, why investors favor them, and what to watch for.",
   alternates: { canonical: "https://hencre.com/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" },
@@ -76,11 +76,11 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline: "What Is a Triple Net (NNN) Lease and Why Investors Love It",
+      headline: "What Is a Triple Net (NNN) Lease and Why Investors Love It | HenCRE",
       description:
         "How NNN leases work, why investors favor them, and key risks to evaluate.",
       datePublished: "2026-05-22",
-      dateModified: "2026-08-10",
+      dateModified: "2026-08-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -315,7 +315,7 @@ export default function NNNLeasePage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

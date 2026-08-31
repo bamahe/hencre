@@ -85,11 +85,13 @@ const schema = {
       description:
         "Restaurant space leasing in Tampa Bay — current rental rates, food hall trends, Seminole Heights, downtown St. Pete, and what operators need to know for 2026.",
       datePublished: "2026-08-04",
-      dateModified: "2026-08-09",
+      dateModified: "2026-08-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -186,7 +188,7 @@ export default function TampaBayRestaurantSpacePage() {
         <h2 className="mt-10 text-2xl font-bold text-black">Why Is Tampa Bay One of the Strongest Restaurant Markets in Florida?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Tampa Bay&apos;s restaurant market benefits from the same fundamentals driving the broader{" "}
-          <a href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">Tampa Bay CRE boom</a>: population inflow, a younger demographic mix, and rising household incomes. The region added more than 50,000 new residents in 2024 and 2025, and those households eat out. Consumer spending on food and beverage in Hillsborough and Pinellas counties has outpaced national averages for three consecutive years, and the Tampa retail market overall is posting its highest tenant demand since 2021 according to Colliers&apos; mid-year 2026 data.
+          <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">Tampa Bay CRE boom</Link>: population inflow, a younger demographic mix, and rising household incomes. The region added more than 50,000 new residents in 2024 and 2025, and those households eat out. Consumer spending on food and beverage in Hillsborough and Pinellas counties has outpaced national averages for three consecutive years, and the Tampa retail market overall is posting its highest tenant demand since 2021 according to Colliers&apos; mid-year 2026 data.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The practical result for landlords: well-located restaurant spaces lease quickly. In high-demand corridors like South Tampa&apos;s Howard Avenue, Seminole Heights, and St. Pete&apos;s Central Avenue, quality second-generation restaurant spaces often go under letter of intent within days of becoming available, frequently without ever reaching public listing platforms like LoopNet. For operators, that means speed and broker access matter enormously.
@@ -213,19 +215,19 @@ export default function TampaBayRestaurantSpacePage() {
           </li>
           <li>
             <strong>Ybor City / Channel District.</strong> Entertainment-driven dining and nightlife corridor. The{" "}
-            <a href="/blog/ybor-city-commercial-real-estate-tampa-2026" className="text-accent underline">Ybor City CRE market</a> has matured considerably, with a mix of historic brick-and-mortar spaces and newer Channel District developments. Rates range from $26 to $42 per square foot, and the corridor benefits from both local and event-driven traffic.
+            <Link href="/blog/ybor-city-commercial-real-estate-tampa-2026" className="text-accent underline">Ybor City CRE market</Link> has matured considerably, with a mix of historic brick-and-mortar spaces and newer Channel District developments. Rates range from $26 to $42 per square foot, and the corridor benefits from both local and event-driven traffic.
           </li>
           <li>
             <strong>Midtown Tampa / Water Street.</strong> The newer urban mixed-use districts draw full-service dining, fast casual, and café concepts. Midtown Tampa and the{" "}
-            <a href="/blog/midtown-tampa-commercial-real-estate-2026" className="text-accent underline">Water Street development</a> represent Tampa&apos;s highest-profile restaurant real estate, with rents at the top of the market and foot traffic still building as residential density increases.
+            <Link href="/blog/midtown-tampa-commercial-real-estate-2026" className="text-accent underline">Water Street development</Link> represent Tampa&apos;s highest-profile restaurant real estate, with rents at the top of the market and foot traffic still building as residential density increases.
           </li>
           <li>
             <strong>St. Petersburg (Central Avenue / EDGE District).</strong> St. Pete has arguably the most walkable and food-forward urban core in the region. Central Avenue from downtown through the EDGE District is fully saturated with dining, and rents reflect it — $30 to $48 per square foot NNN for prime positions. The opening of a new 27,700-square-foot food hall at 551 Central Avenue in early 2026 has added a different leasing tier for smaller-concept operators.
           </li>
           <li>
             <strong>Suburban corridors (Wesley Chapel, Riverview, Brandon).</strong> Suburban growth markets support quick-service, fast-casual, and casual dining in pad sites, strip centers, and new mixed-use developments. Rents are lower ($18 to $28 per square foot) but build-out costs are similar and foot traffic is car-dependent. The{" "}
-            <a href="/blog/wesley-chapel-commercial-real-estate-2026" className="text-accent underline">Wesley Chapel</a> and{" "}
-            <a href="/blog/riverview-fl-commercial-real-estate-2026" className="text-accent underline">Riverview</a> markets have seen significant restaurant leasing activity alongside their residential booms.
+            <Link href="/blog/wesley-chapel-commercial-real-estate-2026" className="text-accent underline">Wesley Chapel</Link> and{" "}
+            <Link href="/blog/riverview-fl-commercial-real-estate-2026" className="text-accent underline">Riverview</Link> markets have seen significant restaurant leasing activity alongside their residential booms.
           </li>
         </ul>
 
@@ -272,10 +274,10 @@ export default function TampaBayRestaurantSpacePage() {
           Investors evaluating restaurant-anchored retail properties in Tampa Bay should focus on several key factors. Tenant credit quality matters most — a single-tenant restaurant pad site NNN-leased to a national QSR operator trades at very different cap rates than a multi-tenant strip center with independent restaurant tenants. National credit tenants in strong locations are trading in the 5.0 to 6.5 percent cap rate range; multi-tenant food-and-beverage properties with shorter lease terms and independent operators reflect higher cap rates in the 6.5 to 8.0 percent range, reflecting the higher rollover and credit risk.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Lease structure is critical. <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">NNN leases</a> that push operating expenses to the tenant reduce landlord exposure but require strong covenant review. Understanding <a href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charge structures</a> and how Florida&apos;s elevated insurance costs pass through to tenants is particularly important in a market where insurance premiums have risen sharply. Use the <a href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</a> to quickly benchmark any restaurant-anchored property against current market rates.
+          Lease structure is critical. <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">NNN leases</Link> that push operating expenses to the tenant reduce landlord exposure but require strong covenant review. Understanding <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charge structures</Link> and how Florida&apos;s elevated insurance costs pass through to tenants is particularly important in a market where insurance premiums have risen sharply. Use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> to quickly benchmark any restaurant-anchored property against current market rates.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are holding a restaurant property with vacancy or nearing lease expiration and considering a sale, the <a href="/services/dispositions" className="text-accent underline">commercial dispositions process</a> can help you evaluate your options — from a traditional brokered listing to off-market introductions when a faster timeline matters.
+          If you are holding a restaurant property with vacancy or nearing lease expiration and considering a sale, the <Link href="/services/dispositions" className="text-accent underline">commercial dispositions process</Link> can help you evaluate your options — from a traditional brokered listing to off-market introductions when a faster timeline matters.
         </p>
 
         <Image
@@ -291,15 +293,15 @@ export default function TampaBayRestaurantSpacePage() {
           Before executing a restaurant lease in Tampa Bay, operators should work through a structured pre-leasing checklist. First, confirm the zoning — not every commercial retail space is approved for restaurant use, and obtaining a use permit or conditional use approval takes time and money. Second, commission a pre-lease inspection that specifically evaluates HVAC tonnage and ventilation capacity, electrical service (commercial kitchens are power-intensive), existing grease trap capacity, and the structural loading capacity of the floor if you are installing heavy equipment. Third, get a rough build-out estimate before finalizing lease economics — many operators sign leases based on favorable rent without fully modeling the capital required to open the doors.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If the space needs pre-opening repairs or improvements beyond the standard build-out scope, <a href="https://bestbayservices.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Best Bay Services</a> handles commercial handyman and HVAC work across the Tampa Bay area and can assess mechanical systems before you sign. Getting eyes on the HVAC, plumbing, and electrical infrastructure before lease execution can prevent expensive surprises during build-out.
+          If the space needs pre-opening repairs or improvements beyond the standard build-out scope, commissioning a licensed mechanical contractor to assess the HVAC, plumbing, and electrical infrastructure before lease execution can prevent expensive surprises during build-out. This is a standard part of the{" "}<Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial due diligence process</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Finally, review the <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial due diligence timeline</a> so you understand what you need to complete between letter of intent and lease execution — and how to use that window to negotiate rather than simply accept the landlord&apos;s initial offer.
+          Finally, review the <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial due diligence timeline</Link> so you understand what you need to complete between letter of intent and lease execution — and how to use that window to negotiate rather than simply accept the landlord&apos;s initial offer.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tampa Bay&apos;s restaurant and food-and-beverage commercial space market is active, competitive, and nuanced. The strongest submarkets lease quickly, percentage-rent clauses are back, and build-out costs require careful capital planning before you commit. Whether you are a first-time operator using a food hall to build proof-of-concept, an established restaurateur expanding to a new Tampa Bay location, or an investor evaluating restaurant-anchored retail assets, the decisions you make in the leasing and acquisition process directly affect your long-term economics. For additional context on the broader <a href="/blog/clearwater-retail-space-guide" className="text-accent underline">Clearwater retail market</a> and <a href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate</a>, see those guides for submarket-specific detail. As a Broker Associate at REMAX Collective with 23+ years of experience, I work with both operators and investors navigating food-and-beverage commercial real estate across Tampa Bay.
+          Tampa Bay&apos;s restaurant and food-and-beverage commercial space market is active, competitive, and nuanced. The strongest submarkets lease quickly, percentage-rent clauses are back, and build-out costs require careful capital planning before you commit. Whether you are a first-time operator using a food hall to build proof-of-concept, an established restaurateur expanding to a new Tampa Bay location, or an investor evaluating restaurant-anchored retail assets, the decisions you make in the leasing and acquisition process directly affect your long-term economics. For additional context on the broader <Link href="/blog/clearwater-retail-space-guide" className="text-accent underline">Clearwater retail market</Link> and <Link href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate</Link>, see those guides for submarket-specific detail. As a Broker Associate at REMAX Collective with 23+ years of experience, I work with both operators and investors navigating food-and-beverage commercial real estate across Tampa Bay.
         </p>
 
         <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
@@ -316,7 +318,7 @@ export default function TampaBayRestaurantSpacePage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

@@ -85,7 +85,7 @@ const schema = {
       description:
         "Private equity is pouring into Tampa Bay data centers as AI demand accelerates. What the data center buildout means for industrial CRE investors, tenants, and landowners across Tampa Bay.",
       datePublished: "2026-07-25",
-      dateModified: "2026-08-28",
+      dateModified: "2026-08-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

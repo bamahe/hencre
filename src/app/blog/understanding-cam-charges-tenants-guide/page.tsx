@@ -80,7 +80,7 @@ const schema = {
       description:
         "What CAM charges cover, how they are calculated, and how to negotiate better terms.",
       datePublished: "2026-06-03",
-      dateModified: "2026-08-10",
+      dateModified: "2026-08-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -148,6 +148,11 @@ const relatedLinks = [
     title: "Investment Sales Services",
     href: "/services/investment-sales",
     description: "How Barrett helps investors acquire the right commercial properties.",
+  },
+  {
+    title: "Tampa Retail Storefront Space Guide",
+    href: "/blog/tampa-retail-storefront-space-guide",
+    description: "CAM charge structures for retail tenants and what to watch in Tampa Bay strip centers.",
   },
 ];
 
@@ -300,7 +305,7 @@ export default function CAMChargesGuidePage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

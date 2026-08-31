@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -78,7 +79,7 @@ const schema = {
       description:
         "Rising insurance costs, uncapped investment property tax assessments, and deferred maintenance demands are compressing Tampa Bay rental yields. Here is how to evaluate your exit options.",
       datePublished: "2026-06-24",
-      dateModified: "2026-08-12",
+      dateModified: "2026-08-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -288,7 +289,7 @@ export default function TampaBayRentalPropertyExitStrategyPage() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
@@ -309,7 +310,7 @@ export default function TampaBayRentalPropertyExitStrategyPage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
@@ -318,7 +319,7 @@ export default function TampaBayRentalPropertyExitStrategyPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
             </p>

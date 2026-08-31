@@ -74,7 +74,7 @@ const schema = {
       headline: "Tampa Industrial Market Outlook 2026",
       description: "Tampa Bay industrial real estate trends — warehouse demand, construction pipeline, and investment opportunities.",
       datePublished: "2026-05-20",
-      dateModified: "2026-08-12",
+      dateModified: "2026-08-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -239,12 +239,30 @@ export default function TampaIndustrialOutlookPage() {
         <FAQAccordion items={faqItems} />
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="rounded-lg bg-[#f5f5f5] p-6">
-          <p className="text-sm font-semibold text-black">About the Author</p>
-          <p className="mt-2 text-sm text-[#666666]">
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
-          </p>
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <Image
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps investors and tenants navigate Tampa Bay&apos;s industrial and warehouse market across Hillsborough, Pinellas, and Pasco Counties. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">
+                Barrett&apos;s background
+              </Link>{" "}
+              or explore{" "}
+              <Link href="/services" className="text-accent underline">
+                his services
+              </Link>
+              .
+            </p>
+          </div>
         </div>
       </section>
 
