@@ -4,6 +4,64 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-08-31 -- Batch 40 (10 pages improved)
+
+**Commit:** `27387c0` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-nnn-cap-rates-2026`
+- Updated dateModified: "2026-08-12" -> "2026-08-31"
+- Fixed author bio: img -> Image component
+
+### 2. `/blog/tampa-bay-multifamily-market-mid-2026`
+- Updated dateModified: "2026-08-28" -> "2026-08-31"
+- Removed fastselleasysale.com external link -- replaced with /services/dispositions internal link
+- Removed nowtb.com external link -- replaced with /markets/hillsborough internal link
+- Added 10th relatedLink: Tampa Bay Senior Housing CRE Investment 2026
+- Fixed author bio: img -> Image component
+
+### 3. `/blog/tampa-bay-data-center-cre-2026`
+- Updated dateModified: "2026-08-28" -> "2026-08-31"
+
+### 4. `/blog/tampa-bay-restaurant-food-beverage-space-2026`
+- Updated dateModified: "2026-08-09" -> "2026-08-31"
+- Removed bestbayservices.com external link -- replaced with /blog/commercial-property-due-diligence-timeline internal link
+- Converted all bare `<a>` tags in JSX body to `<Link>` components (12 conversions)
+- Fixed author bio: img -> Image component
+- Schema author: added image and sameAs EEAT fields
+
+### 5. `/blog/tampa-bay-senior-housing-cre-investment-2026`
+- Updated dateModified: "2026-08-12" -> "2026-08-31"
+- Added 2 relatedLinks to reach 10 total (NNN cap rates, commercial property ROI)
+- Fixed author bio: img -> Image component
+- Full credentials line: added "| e-PRO, MRP, SRS | REMAX Hall of Fame"
+
+### 6. `/blog/tampa-bay-rental-property-exit-strategy-2026`
+- Updated dateModified: "2026-08-12" -> "2026-08-31"
+- Fixed mid-CTA: "Talk to a REMAX Commercial Broker" -> "Talk to a Commercial Real Estate Broker"
+- Fixed author bio: img -> Image component
+- Full credentials line: added "| e-PRO, MRP, SRS | REMAX Hall of Fame"
+
+### 7. `/blog/north-tampa-usf-corridor-commercial-real-estate-2026`
+- Updated dateModified: "2026-08-29" -> "2026-08-31"
+- Removed fastselleasysale.com external link -- replaced with /services/investment-sales internal link
+- Converted 5 bare `<a>` tags in JSX body to `<Link>` components
+
+### 8. `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Added "| HenCRE" to metadata title and schema headline
+- Updated dateModified: "2026-08-10" -> "2026-08-31"
+- Fixed author bio: img -> Image component
+
+### 9. `/blog/understanding-cam-charges-tenants-guide`
+- Updated dateModified: "2026-08-10" -> "2026-08-31"
+- Fixed author bio: img -> Image component
+- Added 10th relatedLink: Tampa Retail Storefront Space Guide
+
+### 10. `/blog/tampa-industrial-market-outlook-2026`
+- Updated dateModified: "2026-08-12" -> "2026-08-31"
+- Upgraded author bio from plain text block to standard flex card with Image headshot
+
+---
+
 ## 2026-08-30 -- Batch 39 (10 pages improved)
 
 **Commit:** `d494861` | **Build:** clean (0 errors) | **Pages improved:** 10
