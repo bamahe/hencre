@@ -4,6 +4,66 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-01 -- Batch 41 (10 pages improved)
+
+**Commit:** `974eabb` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/brandon-hillsborough-commercial-real-estate-market-2026`
+- Full fix: merged dual schemas (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from sameAs array
+- Added dateModified: "2026-09-01"
+- Added "Home" as first breadcrumb item (was missing -- started at "Blog")
+- Fixed mid-CTA: "Talk to a REMAX Commercial(r) Broker" -> "Talk to a Commercial Real Estate Broker"
+- Upgraded author bio from img -> Image component; removed "REALTOR(r) & Commercial Real Estate Advisor" and "REMAX Commercial(r) division" language; added credentials line with e-PRO, MRP, SRS, REMAX Hall of Fame
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Added "Last updated: September 2026" footer
+- Added Image and Link imports
+- Converted all bare `<a>` tags in JSX body to `<Link>` components (12 conversions)
+
+### 2. `/blog/tampa-bay-car-wash-cre-investment-2026`
+- Replaced fastselleasysale.com external link with /services/dispositions internal link
+- Added 10th relatedLink: "Commercial Property Dispositions" -> /services/dispositions
+- Updated dateModified: "2026-08-31" -> "2026-09-01"
+- Added "Last updated: September 2026" footer
+
+### 3. `/blog/tampa-bay-office-to-residential-conversion-2026`
+- Replaced fastselleasysale.com external link with /services/dispositions internal link
+- Replaced nowtb.com external link with /markets/hillsborough + /markets/pinellas internal links
+- Updated dateModified: "2026-08-28" -> "2026-09-01"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 4. `/blog/florida-1031-exchange-what-investors-need-to-know`
+- Updated dateModified: "2026-08-29" -> "2026-09-01"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 5. `/blog/sarasota-office-market-trends-2026`
+- Updated dateModified: "2026-08-29" -> "2026-09-01"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 6. `/blog/commercial-property-due-diligence-timeline`
+- Updated dateModified: "2026-08-29" -> "2026-09-01"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 7. `/blog/tampa-bay-medical-office-real-estate-2026`
+- Updated dateModified: "2026-08-29" -> "2026-09-01"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 8. `/blog/tampa-bay-life-sciences-cre-2026`
+- Updated dateModified: "2026-08-30" -> "2026-09-01"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 9. `/blog/selling-tenant-occupied-investment-property-florida`
+- Updated dateModified: "2026-08-29" -> "2026-09-01"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 10. `/blog/sale-leaseback-commercial-real-estate-tampa-bay`
+- Updated dateModified: "2026-08-30" -> "2026-09-01"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+---
+
 ## 2026-08-31 -- Batch 40 (10 pages improved)
 
 **Commit:** `27387c0` | **Build:** clean (0 errors) | **Pages improved:** 10
