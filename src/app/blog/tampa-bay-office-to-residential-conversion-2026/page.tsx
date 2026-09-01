@@ -85,7 +85,7 @@ const schema = {
       description:
         "Office-to-residential conversions hit a national record in 2026. Tampa Bay's elevated office vacancy is creating adaptive reuse opportunities — here is the investor's guide to office conversions in the Tampa Bay market.",
       datePublished: "2026-08-28",
-      dateModified: "2026-08-28",
+      dateModified: "2026-09-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -278,9 +278,9 @@ export default function TampaBayOfficeToResidentialConversionPage() {
           to defer capital gains while reinvesting into a conversion or other commercial property.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For office building owners who would rather sell than convert, the team at{" "}
-          <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Fast Sell Easy Sale</a>{" "}
-          specializes in helping commercial property owners exit quickly for cash — a useful option when a conversion project is not feasible but holding a vacant office building is no longer sustainable.
+          For office building owners who would rather sell than convert, Barrett&apos;s{" "}
+          <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link>{" "}
+          help owners exit strategically — a useful path when a conversion project is not feasible but holding a vacant office building is no longer sustainable.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does the Residential Demand Side Look Like for Tampa Bay Conversions?</h2>
@@ -292,8 +292,9 @@ export default function TampaBayOfficeToResidentialConversionPage() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For a full picture of Tampa Bay&apos;s multifamily demand dynamics — including current vacancy, effective rent trends, and the neighborhoods where absorption is strongest — see our{" "}
-          <Link href="/blog/tampa-bay-multifamily-market-mid-2026" className="text-accent underline">Tampa Bay multifamily market mid-2026 update</Link>. Buyers who will ultimately purchase units in a conversion project — or in the broader market that conversions serve — can explore current Tampa Bay residential inventory at{" "}
-          <a href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">NowTB.com</a>.
+          <Link href="/blog/tampa-bay-multifamily-market-mid-2026" className="text-accent underline">Tampa Bay multifamily market mid-2026 update</Link>. Investors interested in the broader Tampa Bay residential picture can also explore our{" "}
+          <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County market overview</Link>{" "}
+          and <Link href="/markets/pinellas" className="text-accent underline">Pinellas County market page</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Investors Know Before Pursuing a Tampa Bay Office Conversion?</h2>
@@ -321,7 +322,7 @@ export default function TampaBayOfficeToResidentialConversionPage() {
           With 23+ years of real estate experience across Tampa Bay&apos;s commercial and investment markets, I help investors identify office building acquisition candidates, evaluate conversion feasibility, and navigate the brokerage side of these transactions from acquisition through repositioning. Whether you are a first-time adaptive reuse investor or an experienced developer expanding into the Tampa Bay market, the office conversion opportunity in 2026 is real — but it rewards disciplined underwriting and deep local market knowledge.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

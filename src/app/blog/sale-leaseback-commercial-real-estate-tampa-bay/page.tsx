@@ -86,7 +86,7 @@ const schema = {
       description:
         "How sale-leaseback transactions work in Tampa Bay — for business owners seeking capital and investors seeking tenant-occupied assets.",
       datePublished: "2026-08-13",
-      dateModified: "2026-08-30",
+      dateModified: "2026-09-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -300,7 +300,7 @@ export default function SaleLeasebackPage() {
           As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett Henry structures and closes commercial investment transactions across the Tampa Bay market. Whether you are a business owner evaluating a sale-leaseback as a capital strategy, or an investor seeking net-lease assets, understanding the deal structure is the first step. Call (813) 733-7907 or <Link href="/contact" className="text-accent underline">contact Barrett</Link> to talk through your specific situation.
         </p>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

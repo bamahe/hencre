@@ -85,7 +85,7 @@ const schema = {
       description:
         "Sarasota County office market trends — vacancy, rents, submarkets, and investment opportunities.",
       datePublished: "2026-06-14",
-      dateModified: "2026-08-29",
+      dateModified: "2026-09-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -261,7 +261,7 @@ export default function SarasotaOfficeMarketPage() {
           Sarasota&apos;s office market is smaller and more specialized than Tampa&apos;s, but it offers compelling fundamentals — growing demand, limited supply, and a tenant base anchored by stable professional services and healthcare users. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett Henry helps both tenants and investors navigate the <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> and <Link href="/markets/manatee" className="text-accent underline">Manatee</Link> county office markets with local knowledge and data-driven analysis. Whether you are leasing space or evaluating an investment, understanding this market&apos;s nuances is the key to a good outcome.
         </p>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay's life sciences CRE market is accelerating in 2026, driven by the Tampa Medical & Research District, USF Research Park, and rising biotech demand for specialized lab and R&D space.",
       datePublished: "2026-08-23",
-      dateModified: "2026-08-30",
+      dateModified: "2026-09-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -317,7 +317,7 @@ export default function TampaBayLifeSciencesCREPage() {
           With 23+ years of commercial real estate experience and deep knowledge of Tampa Bay&apos;s specialized commercial markets, I help life sciences tenants find the right space and investors evaluate acquisitions across Hillsborough, Pinellas, Pasco, and Polk Counties. If you are a biotech company planning your next facility move or an investor evaluating life sciences commercial real estate in Tampa Bay, let&apos;s talk.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

@@ -85,7 +85,7 @@ const schema = {
       description:
         "Healthcare commercial real estate in Tampa Bay — recent transactions, submarkets, rental rates, and investment outlook for medical office properties.",
       datePublished: "2026-07-21",
-      dateModified: "2026-08-29",
+      dateModified: "2026-09-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -286,7 +286,7 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
           As a Broker Associate at REMAX Collective with 23+ years of commercial real estate experience across Tampa Bay, Barrett Henry works with both healthcare tenants navigating their space search and investors evaluating medical office acquisitions. Whether you are looking for <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> or <Link href="/services/investment-sales" className="text-accent underline">investment acquisition support</Link>, call <a href="tel:8137337907" className="text-accent underline">(813) 733-7907</a> or <Link href="/contact" className="text-accent underline">contact Barrett here</Link>.
         </p>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <section className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">

@@ -80,7 +80,7 @@ const schema = {
       description:
         "Step-by-step due diligence checklist and timeline for commercial real estate buyers.",
       datePublished: "2026-05-25",
-      dateModified: "2026-08-29",
+      dateModified: "2026-09-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -338,7 +338,7 @@ export default function DueDiligenceTimelinePage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

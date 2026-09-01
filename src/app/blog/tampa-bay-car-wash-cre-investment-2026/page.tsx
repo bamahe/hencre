@@ -86,7 +86,7 @@ const schema = {
       description:
         "Car wash properties have become one of the most sought-after NNN asset classes in Tampa Bay. Cap rates, site selection, tenant credit, and the express tunnel boom reshaping the market.",
       datePublished: "2026-08-31",
-      dateModified: "2026-08-31",
+      dateModified: "2026-09-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -154,6 +154,11 @@ const relatedLinks = [
     title: "Investment Sales Services",
     href: "/services/investment-sales",
     description: "How Barrett helps investors identify and acquire commercial properties throughout Tampa Bay.",
+  },
+  {
+    title: "Commercial Property Dispositions",
+    href: "/services/dispositions",
+    description: "Exiting a car wash or other specialty asset? Barrett helps owners execute a strategic sale.",
   },
 ];
 
@@ -242,7 +247,7 @@ export default function TampaBayCarWashCREInvestmentPage() {
           For real estate investors, the ZIPS bankruptcy created situations where NNN landlords holding what appeared to be long-term, creditworthy leases suddenly had a tenant in bankruptcy proceedings, negotiating lease modifications or walking away entirely from underperforming locations. The lesson is not that car wash investments are unsafe — it is that the apparent simplicity of a NNN lease should not substitute for genuine diligence on the operating business behind it.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Investors acquiring car wash properties through <Link href="/blog/sale-leaseback-commercial-real-estate-tampa-bay" className="text-accent underline">sale-leaseback structures</Link> should request location-level financial statements, not consolidated company financials. A corporate guarantee from a multi-unit operator is only as valuable as the weakest locations in that portfolio. If your specific site is among the underperformers but the guarantor&apos;s stronger locations are subsidizing the obligation, a bankruptcy or restructuring can still leave you negotiating rather than collecting. Operators who are transparent about unit-level economics deserve more trust than those who deflect to aggregate metrics. If you&apos;re ever looking to exit an investment that&apos;s underperforming, resources like <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Fast Sell Easy Sale</a> specialize in helping Tampa Bay property owners sell commercial properties and businesses quickly.
+          Investors acquiring car wash properties through <Link href="/blog/sale-leaseback-commercial-real-estate-tampa-bay" className="text-accent underline">sale-leaseback structures</Link> should request location-level financial statements, not consolidated company financials. A corporate guarantee from a multi-unit operator is only as valuable as the weakest locations in that portfolio. If your specific site is among the underperformers but the guarantor&apos;s stronger locations are subsidizing the obligation, a bankruptcy or restructuring can still leave you negotiating rather than collecting. Operators who are transparent about unit-level economics deserve more trust than those who deflect to aggregate metrics. If you&apos;re ever looking to exit an underperforming investment, our <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> can help you move quickly and strategically.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">
@@ -261,6 +266,8 @@ export default function TampaBayCarWashCREInvestmentPage() {
           Investors evaluating car wash real estate alongside other income properties in Tampa Bay should weigh it against self-storage — another <Link href="/blog/tampa-bay-self-storage-cre-investment-2026" className="text-accent underline">essential-service asset class with strong Tampa Bay fundamentals</Link> — as well as traditional NNN retail. The risk-return profiles overlap meaningfully, but the operational complexity on the tenant side and the site-selection criticality make car wash underwriting more intensive than a typical dollar store acquisition. Getting the diligence right is where a commercial real estate broker with deep local market knowledge earns the difference.
         </p>
       </article>
+
+      <p className="mx-auto max-w-3xl px-4 pt-2 pb-6 text-xs text-[#666666] sm:px-6 lg:px-8">Last updated: September 2026</p>
 
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">

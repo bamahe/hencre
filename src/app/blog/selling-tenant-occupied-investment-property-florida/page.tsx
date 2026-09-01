@@ -83,7 +83,7 @@ const schema = {
       description:
         "Practical guide for Florida landlords navigating the sale of tenant-occupied properties.",
       datePublished: "2026-06-17",
-      dateModified: "2026-08-29",
+      dateModified: "2026-09-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -302,7 +302,7 @@ export default function TenantOccupiedSalePage() {
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
