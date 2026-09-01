@@ -88,7 +88,7 @@ const relatedLinks = [
   { href: "/markets/hendry", title: "Hendry County Commercial Real Estate" },
   { href: "/markets/highlands", title: "Highlands County Commercial Real Estate" },
   { href: "/markets/charlotte", title: "Charlotte County Commercial Real Estate" },
-  { href: "/services/land-development", title: "Land Development Services" },
+  { href: "/commercial/land-development", title: "Land Development Services" },
   { href: "/services/investment-sales", title: "Investment Property Sales" },
   { href: "/markets", title: "All Florida Markets" },
 ];
@@ -142,7 +142,7 @@ export default function Page() {
           <p>
             If you are operating in Glades County, you are either serving the agricultural backbone or capturing the seasonal and transient
             traffic around the lake. That is your actual demand. I work this market carefully because it requires a different lens than
-            <Link href="/markets/hillsborough"> Tampa Bay</Link> or <Link href="/markets/miami-dade">Miami-Dade</Link> — and frankly, most
+            <Link href="/markets/hillsborough"> Tampa Bay</Link> or <Link href="/markets">Miami-Dade</Link> — and frankly, most
             brokers do not understand it. The county&apos;s remoteness is both limitation and advantage. Land is abundant and affordable.
             Competition from national operators is minimal. But your tenant pool and buyer profile are deeply local or agricultural-focused.
           </p>
@@ -162,7 +162,7 @@ export default function Page() {
               <p className="text-gray-700 text-sm mt-1">
                 The county seat and primary commercial center. Retail, services, and small commercial along the main thoroughfares. Gas stations,
                 restaurants, hardware suppliers, and general retail serving the local population and through traffic. This is where you find the
-                highest concentration of <Link href="/services/retail-leasing" className="text-blue-700 underline">small commercial retail</Link> inventory
+                highest concentration of <Link href="/services/landlord-leasing" className="text-blue-700 underline">small commercial retail</Link> inventory
                 in the county.
               </p>
             </div>
@@ -227,7 +227,7 @@ export default function Page() {
           <p>
             Cattle ranching and sugar cane dominate the economic landscape. Property demand flows from operational need — land, equipment storage,
             processing facilities, supply distribution. When agricultural commodity prices shift, investment appetite changes. But the structural
-            demand for <Link href="/services/land-development">agricultural land and support facilities</Link> is durable — these operations have
+            demand for <Link href="/commercial/land-development">agricultural land and support facilities</Link> is durable — these operations have
             been here for generations and are not relocating.
           </p>
 
@@ -280,7 +280,7 @@ export default function Page() {
             </li>
             <li>
               <strong>Networking & Introductions:</strong> His value here is often relationship-building — connecting buyers, tenants, or
-              operators who understand rural Florida agriculture and <Link href="/services/land-development">land-based investment</Link>.
+              operators who understand rural Florida agriculture and <Link href="/commercial/land-development">land-based investment</Link>.
             </li>
           </ul>
           <p>

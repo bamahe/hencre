@@ -157,7 +157,7 @@ export default function Page() {
             cattle operations, and row crop production form the county&apos;s economic foundation. This is authentic rural Florida
             — a market that rewards operators who understand the pace, the relationships, and the specific demand drivers here.
             Compare it to the more developed corridor in <Link href="/markets/columbia">Columbia County</Link> to the south, or the
-            agricultural character of <Link href="/markets/suwannee">Suwannee County</Link> to the west, and you get a sense
+            agricultural character of <Link href="/markets">Suwannee County</Link> to the west, and you get a sense
             of Hamilton&apos;s place in north Florida&apos;s commercial landscape.
           </p>
         </section>

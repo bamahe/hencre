@@ -164,7 +164,7 @@ export default function Page() {
               <p className="text-gray-700 text-sm mt-1">
                 The primary commercial hub. Small retail, professional services (dental, medical, legal), and county government services cluster here.
                 US 129 through Trenton carries local and through traffic. This is where you find the most commercial inventory, though &quot;most&quot;
-                is relative — total supply is limited. <Link href="/services/retail-leasing" className="text-blue-700 underline">Retail space</Link> turns
+                is relative — total supply is limited. <Link href="/services/landlord-leasing" className="text-blue-700 underline">Retail space</Link> turns
                 over infrequently, and quality tenants stay put when they find a good fit.
               </p>
             </div>
@@ -222,7 +222,7 @@ export default function Page() {
           </div>
           <p>
             Multi-story office, large-format retail, and industrial parks are absent from Gilchrist County. The county&apos;s scale and population
-            base do not support those asset classes. <Link href="/services/land-development">Land development opportunities</Link> exist for
+            base do not support those asset classes. <Link href="/commercial/land-development">Land development opportunities</Link> exist for
             agricultural operations looking to add infrastructure, but not for speculative commercial construction.
           </p>
         </section>
@@ -241,7 +241,7 @@ export default function Page() {
 
           <h3>Springs Eco-Tourism</h3>
           <p>
-            Fanning Springs and the Suwannee River corridor draw consistent seasonal visitors. <Link href="/services/retail-leasing">Hospitality and
+            Fanning Springs and the Suwannee River corridor draw consistent seasonal visitors. <Link href="/services/landlord-leasing">Hospitality and
             retail operators</Link> near the springs see predictable seasonal patterns — stronger spring through summer, slower in fall and winter.
             This is not the kind of tourism that transforms a market overnight. But it is real, recurring, and growing modestly as Florida&apos;s
             natural springs gain broader recognition among outdoor recreation visitors from across the Southeast.
@@ -284,14 +284,14 @@ export default function Page() {
             <li>
               <strong>Springs Area Hospitality:</strong> Fanning Springs hospitality properties require operators who understand seasonal cash flow
               and the specific visitor profile. Barrett represents both landlords and operators in this niche through his <Link href="/services/investment-sales">investment
-              sales</Link> and <Link href="/services/retail-leasing">leasing services</Link>.
+              sales</Link> and <Link href="/services/landlord-leasing">leasing services</Link>.
             </li>
             <li>
               <strong>Small-Scale Retail:</strong> Trenton and Bell retail properties need realistic pricing and honest market assessment. Barrett
               helps owners understand what their property can actually achieve in this market — and finds buyers or tenants who fit.
             </li>
             <li>
-              <strong>Land Positioning:</strong> Agricultural operations looking to consolidate or expand <Link href="/services/land-development">land
+              <strong>Land Positioning:</strong> Agricultural operations looking to consolidate or expand <Link href="/commercial/land-development">land
               holdings</Link> get honest feasibility input without overselling Gilchrist County&apos;s growth trajectory.
             </li>
           </ul>
