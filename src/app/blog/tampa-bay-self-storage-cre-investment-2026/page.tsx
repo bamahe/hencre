@@ -86,7 +86,7 @@ const schema = {
       description:
         "What investors need to know about self-storage as a commercial asset class in Tampa Bay as Sunbelt oversupply pressure fades and the market stabilizes in 2026.",
       datePublished: "2026-08-02",
-      dateModified: "2026-08-23",
+      dateModified: "2026-09-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -211,11 +211,7 @@ export default function TampaBaySelfStorageCREInvestment2026Page() {
           Self-storage demand is driven primarily by life transitions: moving, downsizing, divorce, death of a family member, business formation, and disaster recovery. Tampa Bay experiences all of those at elevated rates compared to slower-growth markets.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In-migration is the most powerful driver. Tampa Bay has consistently ranked among the top metros in the country for net population inflows, drawing residents from high-cost markets in the Northeast and Midwest, retirees moving toward Florida&apos;s climate and tax environment, and remote workers relocating for lower costs of living. Every person moving into the market — whether into a single-family home in <Link href="/markets/pasco" className="text-accent underline">Pasco County&apos;s Wesley Chapel corridor</Link>, a condo in <Link href="/markets/pinellas" className="text-accent underline">St. Petersburg</Link>, or an apartment in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County&apos;s Channelside district</Link> — generates transitional storage needs during the move and often long-term storage needs afterward, particularly when they are downsizing from a larger home to smaller Florida square footage. If you want a sense of how actively people are evaluating Tampa Bay as a place to live and buy property, the search volume coming through sites like{" "}
-          <a href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">
-            nowtb.com
-          </a>{" "}
-          reflects a market where in-migration is not slowing.
+          In-migration is the most powerful driver. Tampa Bay has consistently ranked among the top metros in the country for net population inflows, drawing residents from high-cost markets in the Northeast and Midwest, retirees moving toward Florida&apos;s climate and tax environment, and remote workers relocating for lower costs of living. Every person moving into the market — whether into a single-family home in <Link href="/markets/pasco" className="text-accent underline">Pasco County&apos;s Wesley Chapel corridor</Link>, a condo in <Link href="/markets/pinellas" className="text-accent underline">St. Petersburg</Link>, or an apartment in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County&apos;s Channelside district</Link> — generates transitional storage needs during the move and often long-term storage needs afterward, particularly when they are downsizing from a larger home to smaller Florida square footage. For an overview of how strong this growth momentum has been across the region, see our analysis of <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay commercial real estate is booming</Link> and what the population data means for investors across asset classes.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Florida&apos;s hurricane history adds a demand driver that most other self-storage markets do not have: disaster-related storage. When storms damage homes, insurance claims take months to settle and reconstruction takes longer. Displaced families need storage for salvageable belongings during that period, generating temporary but substantial demand spikes across the region. Facilities near coastal submarkets — Pinellas County, Hillsborough&apos;s flood-prone areas, Pasco County — benefit from this demand pattern in ways that inland Midwest markets simply do not see.
@@ -297,7 +293,7 @@ export default function TampaBaySelfStorageCREInvestment2026Page() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
@@ -305,7 +301,7 @@ export default function TampaBaySelfStorageCREInvestment2026Page() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

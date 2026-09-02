@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -83,7 +84,7 @@ const schema = {
       description:
         "Cap rates, anchor operators, and acquisition criteria for grocery-anchored shopping centers across Tampa Bay's tight retail market.",
       datePublished: "2026-08-25",
-      dateModified: "2026-08-27",
+      dateModified: "2026-09-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -277,7 +278,7 @@ export default function GroceryAnchoredRetailPage() {
           Many investors arrive at grocery-anchored centers through a <a href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</a>, having sold an appreciated asset — a multifamily property, a warehouse, a development site — and seeking a more passive, income-stable replacement property. Grocery-anchored retail fits that profile well: strong in-place income, NNN or modified gross leases that minimize landlord management intensity, and durable long-term fundamentals.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The challenge is the 45-day identification window and 180-day closing deadline. Quality grocery-anchored centers in Tampa Bay do not sit on the market long, and many trade off-market entirely. If you are planning a 1031 exchange and have this asset class in your replacement property criteria, engage your broker before your relinquished property closes — not after. Pre-identifying a pipeline of potential acquisitions is the only reliable way to hit the identification deadline on assets that require real analysis. If you&apos;re also looking to liquidate a property quickly to position capital, the team at <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">FastSellEasySale.com</a> can help close commercial, land, and residential dispositions on your timeline.
+          The challenge is the 45-day identification window and 180-day closing deadline. Quality grocery-anchored centers in Tampa Bay do not sit on the market long, and many trade off-market entirely. If you are planning a 1031 exchange and have this asset class in your replacement property criteria, engage your broker before your relinquished property closes — not after. Pre-identifying a pipeline of potential acquisitions is the only reliable way to hit the identification deadline on assets that require real analysis. If you need to liquidate a property quickly to position capital for a 1031, Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> are designed to close commercial, land, and investment dispositions on your timeline.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa Bay Grocery-Anchored Retail</h2>
@@ -290,7 +291,7 @@ export default function GroceryAnchoredRetailPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <CTASection
@@ -305,9 +306,9 @@ export default function GroceryAnchoredRetailPage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Broker Associate"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"

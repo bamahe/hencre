@@ -87,7 +87,7 @@ const schema = {
       description:
         "Apollo Beach, Ruskin, and the SouthShore corridor are among the fastest-growing areas in Hillsborough County — and commercial real estate is still catching up. Here is what tenants and investors need to know in 2026.",
       datePublished: "2026-08-20",
-      dateModified: "2026-08-26",
+      dateModified: "2026-09-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -301,11 +301,7 @@ export default function ApolloBeachSouthShoreCommercialRealEstatePage() {
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Investors holding existing SouthShore assets who are considering an exit will find that current demand from private and regional investors — attracted by cap rates wider than mature Tampa Bay markets — is generating reasonable liquidity for well-leased product. A{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">
-            fast cash sale
-          </Link>{" "}
-          is also an option for commercial land, retail, or mixed-use properties where a traditional listing process is not the right fit.
+          Investors holding existing SouthShore assets who are considering an exit will find that current demand from private and regional investors — attracted by cap rates wider than mature Tampa Bay markets — is generating reasonable liquidity for well-leased product. Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> are designed for commercial land, retail, and mixed-use properties where a structured, efficient exit is the priority.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Industrial and Flex Space Exists Along the US-301 and I-75 Corridors in SouthShore?</h2>
@@ -349,7 +345,7 @@ export default function ApolloBeachSouthShoreCommercialRealEstatePage() {
           for the neighboring SouthShore submarket context.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

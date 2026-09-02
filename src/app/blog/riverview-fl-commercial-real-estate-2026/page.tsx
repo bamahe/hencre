@@ -42,7 +42,7 @@ const schema = {
       headline: "Riverview FL Commercial Real Estate 2026: Market Guide",
       description: "Riverview is south Hillsborough's fastest-growing commercial submarket. Find out what's available, what's trading, and how Barrett Henry can help.",
       datePublished: "2026-07-29",
-      dateModified: "2026-08-26",
+      dateModified: "2026-09-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -269,7 +269,7 @@ export default function BlogPost() {
         </ul>
         <p>Before you commit to any commercial acquisition in Riverview, conduct thorough due diligence. Florida&apos;s insurance market remains a cost factor for investment property owners statewide, as we detail in our post on <a href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">how Florida&apos;s insurance crisis affects investment properties</a>. Our <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial due diligence timeline</a> lays out what to check and how long each phase takes. And our post on <a href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">what makes a good commercial investment</a> provides the evaluation framework for comparing competing opportunities.</p>
         <p>Barrett&apos;s team at REMAX Collective provides <a href="/services/investment-sales" className="text-accent underline">investment sales advisory</a> and <a href="/services/cre-valuation" className="text-accent underline">commercial property valuation</a> services throughout <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County</a>. Whether you&apos;re acquiring your first Riverview commercial property or adding to an established portfolio, 23+ years of real estate experience translates directly into better deal outcomes. Call <strong>(813) 733-7907</strong> to start that conversation.</p>
-        <p>If you&apos;re an investor looking to sell quickly or liquidate commercial land in south Hillsborough, <a href="https://fastselleasysale.com" className="text-accent underline">FastSellEasySale.com</a> offers a direct path to buyers for properties in Riverview and surrounding areas.</p>
+        <p>If you&apos;re an investor looking to sell or liquidate commercial land in south Hillsborough, Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> offer a direct path for properties in Riverview and surrounding areas.</p>
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
@@ -311,9 +311,9 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Commercial Real Estate Advisor"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"
@@ -337,7 +337,7 @@ export default function BlogPost() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
 
       <CTASection

@@ -75,7 +75,7 @@ const schema = {
       description:
         "How Tampa Bay business owners use SBA 504 loans to buy their own commercial space with as little as 10% down.",
       datePublished: "2026-08-09",
-      dateModified: "2026-08-16",
+      dateModified: "2026-09-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -315,7 +315,7 @@ export default function Sba504LoanTampaBayPage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
@@ -342,7 +342,7 @@ export default function Sba504LoanTampaBayPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

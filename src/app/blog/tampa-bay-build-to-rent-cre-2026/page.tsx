@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -85,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay ranks 6th in the nation for build-to-rent homes under construction, with 156% supply growth in five years and 1,400+ units in the active pipeline. What BTR means for commercial real estate investors in 2026.",
       datePublished: "2026-08-24",
-      dateModified: "2026-08-27",
+      dateModified: "2026-09-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -307,7 +308,7 @@ export default function TampaBayBuildToRentCRE2026Page() {
           This is part of <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay&apos;s broader commercial real estate market continues to expand</Link> even as some national markets soften — the population growth that drives residential demand creates lagged but durable demand for the entire commercial stack that serves a growing community.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Buyers and renters relocating to Tampa Bay who want to understand which communities are growing fastest — and where BTR and new residential development is concentrating — can explore neighborhood guides and home search tools at <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>, which tracks the region&apos;s fastest-growing communities alongside market data.
+          Buyers and renters relocating to Tampa Bay who want to understand which communities are growing fastest — and where BTR and new residential development is concentrating — can explore county-level market data across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and <Link href="/markets/manatee" className="text-accent underline">Manatee County</Link> to understand where population growth is driving the most new housing demand.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">
@@ -331,7 +332,7 @@ export default function TampaBayBuildToRentCRE2026Page() {
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Investors with existing real estate portfolios — residential or commercial — who are considering repositioning into BTR or related growth-corridor assets may find it useful to explore options through <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fastselleasysale.com</Link> for properties they want to liquidate quickly to deploy capital into higher-yield opportunities.
+          Investors with existing real estate portfolios — residential or commercial — who are considering repositioning into BTR or related growth-corridor assets can explore Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> for properties they want to liquidate efficiently to deploy capital into higher-yield opportunities.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">
@@ -350,7 +351,7 @@ export default function TampaBayBuildToRentCRE2026Page() {
           With 23+ years of commercial real estate experience across Tampa Bay, I work with investors evaluating income-producing properties across all asset classes — including multifamily-adjacent opportunities in the region&apos;s highest-growth corridors. Whether you are evaluating a BTR acquisition, exploring the retail demand implications of new residential development, or looking to redeploy capital from one asset class to another, local market knowledge shapes the quality of that decision. Let&apos;s talk about what fits your situation.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
@@ -367,7 +368,7 @@ export default function TampaBayBuildToRentCRE2026Page() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

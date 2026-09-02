@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay has reached 2.5% flex office penetration and is one of the fastest-growing coworking markets in the U.S. in 2026. Here's how to evaluate flexible workspace options versus traditional leases.",
       datePublished: "2026-08-21",
-      dateModified: "2026-08-29",
+      dateModified: "2026-09-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -285,7 +285,7 @@ export default function BlogPost() {
           The investment case is mixed. Flex office can generate meaningfully higher gross revenue per square foot than a traditional lease if occupancy runs consistently at 75% or above. The operational costs — staffing, services, furniture, technology, marketing, and churn management — are also substantially higher than a passive NNN or modified gross lease. Building owners that have tried to operate flex space without a dedicated management infrastructure often find that the revenue upside does not offset the operational complexity. The more defensible route is a revenue-share arrangement with an established operator, which takes some upside off the table but transfers the operational risk.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you own commercial office property in Tampa Bay and are evaluating a flex conversion as a vacancy solution, that is a conversation worth having with a broker who understands both the investment side and the leasing market. Our <a href="/blog/how-to-calculate-commercial-property-roi">commercial property ROI guide</a> and the <a href="/services/investment-sales">investment sales and advisory services page</a> are the right starting points. For Tampa Bay homeowners considering a move tied to a business relocation — perhaps selling a home to fund a commercial lease — the team at <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer">Fast Sell Easy Sale</a> can help structure a fast residential transaction alongside the commercial decision.
+          If you own commercial office property in Tampa Bay and are evaluating a flex conversion as a vacancy solution, that is a conversation worth having with a broker who understands both the investment side and the leasing market. Our <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">commercial property ROI guide</Link> and the <Link href="/services/investment-sales" className="text-accent underline">investment sales and advisory services page</Link> are the right starting points. For property owners considering a disposition rather than a conversion, Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> can help structure a clean exit on your timeline.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do You Negotiate a Flex Office Membership — and What Terms Actually Matter?</h2>
@@ -358,7 +358,7 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
@@ -382,7 +382,7 @@ export default function BlogPost() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Market data cited reflects publicly available sources as of Q1–Q2 2026. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: August 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: September 2026</p>
       </section>
 
       <CTASection

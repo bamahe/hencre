@@ -85,7 +85,7 @@ const schema = {
       description:
         "Plant City is emerging as one of Tampa Bay's most active commercial real estate markets in 2026, anchored by the 3.4 million square foot Stalwart Business Park and I-4 corridor logistics demand.",
       datePublished: "2026-08-21",
-      dateModified: "2026-08-23",
+      dateModified: "2026-09-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -299,8 +299,7 @@ export default function PlantCityCommercialRealEstate2026Page() {
           <Link href="/blog/sba-504-loan-commercial-real-estate-tampa-bay" className="text-accent underline">SBA 504 loans for Tampa Bay commercial real estate</Link> explains how this works in practice.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For owners of Plant City commercial properties or land who are considering a sale, the current demand environment — particularly from industrial developers and investors who are actively seeking I-4 corridor opportunities — means there are real buyers in the market. If a quick, straightforward transaction is the priority,{" "}
-          <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Fast Sell Easy Sale</a> specializes in buying commercial properties, businesses, and land for cash throughout the Tampa Bay region.
+          For owners of Plant City commercial properties or land who are considering a sale, the current demand environment — particularly from industrial developers and investors who are actively seeking I-4 corridor opportunities — means there are real buyers in the market. If a structured, efficient exit is the priority, Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> are designed for exactly that scenario across Plant City and the broader Hillsborough County market.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Plant City in 2026</h2>
@@ -314,7 +313,7 @@ export default function PlantCityCommercialRealEstate2026Page() {
           With 23+ years of real estate experience and deep knowledge of Tampa Bay and the I-4 corridor, I work with investors, developers, and owner-users evaluating commercial opportunities across Hillsborough, Polk, Pasco, and Pinellas Counties. Whether you are looking at a Plant City industrial acquisition, need help sourcing flex space for your business, or want to understand how the Stalwart Business Park fits your investment thesis, let&apos;s talk.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

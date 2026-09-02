@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -14,7 +15,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Should Tampa Bay Businesses Buy or Lease Commercial Space in 2026? | HenCRE",
+  title: "Tampa Bay Owner-User CRE: Buy vs. Lease Guide 2026 | HenCRE",
   description:
     "Rents are climbing, SBA 504 rates are still below historical averages, and Tampa Bay commercial inventory is tight. Here is a practical buy-vs-lease framework for Tampa Bay business owners in 2026.",
   alternates: {
@@ -89,7 +90,7 @@ const schema = {
       description:
         "A practical buy-vs-lease decision framework for Tampa Bay business owners, with current market data on industrial, office, and retail rents and SBA 504 financing terms.",
       datePublished: "2026-08-31",
-      dateModified: "2026-08-31",
+      dateModified: "2026-09-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -301,7 +302,7 @@ export default function TampaBayOwnerUserBuyVsLeasePage() {
           If you are currently in a lease with a renewal coming up in 12 to 18 months, now is the time to run the buy-versus-lease analysis — not in six months when the renewal notice deadline is approaching. The due diligence, financing, and closing timeline for a commercial purchase typically runs 60 to 90 days for a straightforward transaction and longer for SBA-financed deals, which carry additional approval steps. Starting the process with adequate runway gives you the leverage to be selective rather than reactive.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For business owners who need to sell a current commercial property before or alongside a purchase — perhaps relocating to a larger facility — working with a broker who can move the existing property quickly is a material advantage. The team at <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Fast Sell Easy Sale</a> specializes in moving commercial properties and businesses quickly for owners who need to redeploy capital into their next location or investment without a protracted listing process.
+          For business owners who need to sell a current commercial property before or alongside a purchase — perhaps relocating to a larger facility — working with a broker who can move the existing property quickly is a material advantage. Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> are designed for exactly this scenario: structured exits that close on your timeline so capital is available when the right owner-user opportunity appears.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">
@@ -352,7 +353,7 @@ export default function TampaBayOwnerUserBuyVsLeasePage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
@@ -360,7 +361,7 @@ export default function TampaBayOwnerUserBuyVsLeasePage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

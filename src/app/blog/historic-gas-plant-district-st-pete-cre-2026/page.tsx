@@ -88,7 +88,7 @@ const schema = {
       description:
         "The Rays and Hines are transforming 86 acres at Tropicana Field into 8 million sq ft of office, retail, hotel, and apartments. What St. Petersburg CRE investors and tenants need to know.",
       datePublished: "2026-08-17",
-      dateModified: "2026-08-26",
+      dateModified: "2026-09-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -252,7 +252,7 @@ export default function HistoricGasPlantDistrictCREPage() {
             <strong>Watch the hotel sector carefully.</strong> The 750-room hotel component of the Gas Plant District will take several years to deliver. Investors in existing St. Pete hotel product near the site should account for new competitive supply in their long-range NOI projections, while those considering acquiring hotel assets further from the site may benefit from the district&apos;s overall boost to St. Pete tourism without facing direct new supply competition.
           </li>
           <li>
-            <strong>Selling land or buildings near the site.</strong> If you own commercial or mixed-use land within a half-mile of the Gas Plant District, the period during active construction and pre-opening hype is historically the window of strongest buyer demand. Institutional and regional developers will be actively underwriting assemblages in this zone through 2027–2028. Property owners who have been waiting for the right moment to exit should consider their options now. <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Fast Sell Easy Sale</a> works with landowners and commercial property owners across Tampa Bay who want to move quickly and cleanly.
+            <strong>Selling land or buildings near the site.</strong> If you own commercial or mixed-use land within a half-mile of the Gas Plant District, the period during active construction and pre-opening hype is historically the window of strongest buyer demand. Institutional and regional developers will be actively underwriting assemblages in this zone through 2027 and 2028. Property owners who have been waiting for the right moment to exit should consider their options now. Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> are built for landowners and commercial property owners who want to move efficiently and close on their timeline.
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
@@ -295,7 +295,7 @@ export default function HistoricGasPlantDistrictCREPage() {
           With 23+ years of real estate experience across Tampa Bay&apos;s commercial market, I work with investors evaluating acquisitions and businesses finding commercial space across Hillsborough, Pinellas, and Pasco Counties. If you are thinking about a real estate decision in the Gas Plant District&apos;s orbit, let&apos;s talk while the best positions are still available.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
