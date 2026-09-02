@@ -4,6 +4,75 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-02 -- Batch 42 (10 pages improved)
+
+**Commit:** `e589ee0` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-owner-user-commercial-real-estate-buy-vs-lease`
+- First full improvement pass (page was previously unimproved)
+- Fixed title: 76 chars -> 62 chars ("Tampa Bay Owner-User CRE: Buy vs. Lease Guide 2026 | HenCRE")
+- Added Image import; converted bare `<img>` -> `<Image>` in author bio
+- Replaced fastselleasysale.com external link with /services/dispositions internal link
+- Updated dateModified: "2026-08-31" -> "2026-09-02"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 2. `/blog/apollo-beach-southshore-commercial-real-estate-2026`
+- Replaced fastselleasysale.com external link with /services/dispositions internal link
+- Updated dateModified: "2026-08-26" -> "2026-09-02"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 3. `/blog/historic-gas-plant-district-st-pete-cre-2026`
+- Replaced fastselleasysale.com external link with /services/dispositions internal link
+- Removed em dash ("2027–2028") -- replaced with "2027 and 2028"
+- Updated dateModified: "2026-08-26" -> "2026-09-02"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 4. `/blog/plant-city-commercial-real-estate-2026`
+- Replaced fastselleasysale.com external link with /services/dispositions internal link
+- Updated dateModified: "2026-08-23" -> "2026-09-02"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 5. `/blog/riverview-fl-commercial-real-estate-2026`
+- Replaced fastselleasysale.com external link with /services/dispositions internal link
+- Converted bare `<img>` -> `<Image>` in author bio; fixed alt text to "Broker Associate at REMAX Collective"
+- Updated dateModified: "2026-08-26" -> "2026-09-02"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 6. `/blog/tampa-bay-build-to-rent-cre-2026`
+- Added Image import (was missing)
+- Replaced nowtb.com link with internal links to /markets/hillsborough, /markets/pasco, /markets/manatee
+- Replaced fastselleasysale.com link with /services/dispositions internal link
+- Converted bare `<img>` -> `<Image>` in author bio
+- Updated dateModified: "2026-08-27" -> "2026-09-02"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 7. `/blog/tampa-bay-flex-office-coworking-2026`
+- Replaced fastselleasysale.com link with /services/dispositions internal link
+- Converted bare `<img>` -> `<Image>` in author bio
+- Upgraded bare `<a>` tags in same paragraph to `<Link>` components
+- Updated dateModified: "2026-08-29" -> "2026-09-02"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 8. `/blog/tampa-bay-grocery-anchored-retail-investment-2026`
+- Added missing Link import
+- Replaced fastselleasysale.com link with /services/dispositions internal link
+- Converted bare `<img>` -> `<Image>` in author bio; fixed alt text
+- Updated dateModified: "2026-08-27" -> "2026-09-02"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 9. `/blog/tampa-bay-self-storage-cre-investment-2026`
+- Replaced nowtb.com link with /blog/why-tampa-bay-cre-is-booming internal link
+- Converted bare `<img>` -> `<Image>` in author bio
+- Updated dateModified: "2026-08-23" -> "2026-09-02"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 10. `/blog/sba-504-loan-commercial-real-estate-tampa-bay`
+- Converted bare `<img>` -> `<Image>` in author bio
+- Updated dateModified: "2026-08-16" -> "2026-09-02"
+- Updated "Last updated: August 2026" -> "Last updated: September 2026"
+
+---
+
 ## 2026-09-01 -- Batch 41 (10 pages improved)
 
 **Commit:** `974eabb` | **Build:** clean (0 errors) | **Pages improved:** 10
