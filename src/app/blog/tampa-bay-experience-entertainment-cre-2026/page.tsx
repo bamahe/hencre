@@ -86,7 +86,7 @@ const schema = {
       description:
         "Pickleball clubs, food halls, escape rooms, and indoor sports venues are reshaping Tampa Bay CRE in 2026. Here is what landlords, investors, and entertainment tenants need to know.",
       datePublished: "2026-09-01",
-      dateModified: "2026-09-01",
+      dateModified: "2026-09-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -302,11 +302,11 @@ export default function TampaBayExperienceEntertainmentCREPage() {
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are an entertainment business owner evaluating a commercial lease — or an owner-operator considering buying your facility outright — reaching out to{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">fastselleasysale.com</a>{" "}
-          is a resource for operators who need to move quickly on a real estate transition, whether you are acquiring, selling, or repositioning a commercial asset as part of your business strategy. And if your venue needs pre-opening renovations, HVAC upgrades, or maintenance work before launch,{" "}
-          <a href="https://bestbayservices.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Best Bay Services</a>{" "}
-          provides handyman and HVAC services across Tampa Bay that entertainment operators use to get commercial spaces ready for occupancy.
+          If you are an entertainment business owner evaluating a commercial lease -- or an owner-operator considering buying your facility outright -- working with an experienced{" "}
+          <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link>{" "}
+          is the fastest way to identify suitable space, negotiate favorable lease terms, and avoid the structural pitfalls that sink entertainment concepts before they open. For owners ready to exit an entertainment property or reposition a large-format commercial asset,{" "}
+          <Link href="/services/dispositions" className="text-accent underline">disposition services</Link>{" "}
+          provide targeted buyer outreach and exit strategy support across Tampa Bay.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa Bay Experience and Entertainment CRE in 2026</h2>

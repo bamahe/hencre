@@ -87,7 +87,7 @@ const schema = {
       description:
         "GID paid $192 million for a 10-building, 933,000-SF industrial portfolio in Pinellas County in July 2026. Here is what the deal reveals about vacancy, rents, and what tenants and investors should do next.",
       datePublished: "2026-08-02",
-      dateModified: "2026-08-27",
+      dateModified: "2026-09-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -278,7 +278,7 @@ export default function PinellasCountyIndustrialCRE2026Page() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

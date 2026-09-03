@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -85,7 +86,7 @@ const schema = {
       description:
         "Downtown St. Pete office vacancy at 9.5% with Class A rents at $42/sqft. ESN Group paid $19.5M for the Carillon campus. What the data means for office tenants and investors in Pinellas County.",
       datePublished: "2026-08-25",
-      dateModified: "2026-08-26",
+      dateModified: "2026-09-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -315,7 +316,7 @@ export default function StPetersburgOfficeMarket2026Page() {
           With 23+ years of real estate experience across Tampa Bay, I represent office tenants and investors throughout Hillsborough, Pinellas, Pasco, and Manatee Counties. Whether you are evaluating a lease in downtown St. Pete, assessing a suburban acquisition in the Carillon corridor, or trying to understand how the St. Pete office market fits into a broader investment strategy, local knowledge makes the difference. Let&apos;s talk about your situation.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
@@ -332,7 +333,7 @@ export default function StPetersburgOfficeMarket2026Page() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

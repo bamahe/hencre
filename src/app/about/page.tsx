@@ -66,7 +66,6 @@ const schema = {
       award: "REMAX Hall of Fame",
       sameAs: [
         "https://www.remaxcommercial.com",
-        "https://nowtb.com",
         "https://barretthenry.remax.com",
         "https://vivipm.com",
         "https://valricopropertymgmt.com",
@@ -81,7 +80,7 @@ export default function AboutPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "About", href: "/about" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "About", href: "/about" }]} />
 
       <Hero
         title="About Barrett Henry"
@@ -107,10 +106,7 @@ export default function AboutPage() {
             and{" "}
             <Link href="/services/cre-valuation" className="font-semibold text-black underline">broker opinions of value</Link>{" "}
             -- the full spectrum of CRE services. On the residential side, I continue to serve Tampa Bay buyers and sellers
-            through{" "}
-            <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="font-semibold text-black underline">
-              The NOW Team at REMAX Collective
-            </a>.
+            through The NOW Team at REMAX Collective.
           </p>
           <p>
             Beyond brokerage, I also manage commercial and residential rental

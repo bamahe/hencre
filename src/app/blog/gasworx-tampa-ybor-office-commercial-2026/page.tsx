@@ -88,7 +88,7 @@ const schema = {
       description:
         "Fortune 500 Ferguson signed a 50,570-square-foot office lease at Gasworx in Ybor City, filling the first Class A office building to 100% occupancy. What Tampa Bay tenants and commercial real estate investors need to know.",
       datePublished: "2026-08-15",
-      dateModified: "2026-08-30",
+      dateModified: "2026-09-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -292,7 +292,7 @@ export default function GasworxTampaCommercialPage() {
           For those exploring the broader Tampa Bay commercial market, the <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County market page</Link> covers investment fundamentals, active corridors, and property types across the metro.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026 | Barrett Henry, Broker Associate at REMAX Collective</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026 | Barrett Henry, Broker Associate at REMAX Collective</p>
       </article>
 
       {/* ---- FAQ ---- */}
