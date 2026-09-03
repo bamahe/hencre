@@ -4,6 +4,51 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-03 -- Batch 43 (10 pages improved)
+
+**Commit:** `f75a1dd` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-experience-entertainment-cre-2026`
+- Replaced paragraph linking to fastselleasysale.com and bestbayservices.com with internal links to /services/tenant-representation and /services/dispositions
+- Updated dateModified: "2026-09-01" -> "2026-09-03"
+
+### 2. `/about`
+- Removed "https://nowtb.com" from schema Person sameAs array
+- Removed nowtb.com hyperlink from body text ("The NOW Team at REMAX Collective" now appears as plain text)
+- Added "Home" as first breadcrumb item (was missing)
+
+### 3. `/blog/st-petersburg-office-market-2026`
+- Added `import Image from "next/image"` (was missing)
+- Converted bare `<img>` to `<Image>` component in author bio section
+- Updated dateModified: "2026-08-26" -> "2026-09-03"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 4. `/blog/ybor-city-commercial-real-estate-tampa-2026`
+- Updated dateModified: "2026-08-23" -> "2026-09-03"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 5. `/blog/gasworx-tampa-ybor-office-commercial-2026`
+- Updated dateModified: "2026-08-30" -> "2026-09-03"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 6. `/blog/pinellas-county-industrial-cre-2026`
+- Updated dateModified: "2026-08-27" -> "2026-09-03"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 7. `/services/cre-valuation`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 8. `/services/investment-sales`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 9. `/services/dispositions`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 10. `/services/landlord-leasing`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+---
+
 ## 2026-09-02 -- Batch 42 (10 pages improved)
 
 **Commit:** `e589ee0` | **Build:** clean (0 errors) | **Pages improved:** 10
