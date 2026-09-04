@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay industrial vacancy held flat in Q2 2026 for the first time since mid-2023, with leasing topping 2.9 million square feet and sales volume nearly doubling. What it means for tenants and investors.",
       datePublished: "2026-08-18",
-      dateModified: "2026-08-23",
+      dateModified: "2026-09-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -299,7 +299,7 @@ export default function TampaBayIndustrialMarketQ2Page() {
           With 23+ years of real estate experience and deep knowledge of Tampa Bay&apos;s commercial market, I work with industrial tenants finding space and investors evaluating acquisitions across Hillsborough, Pinellas, Pasco, and Polk Counties. Whether you are looking for your first warehouse or expanding a regional distribution footprint, let&apos;s talk about what the Q2 data means for your specific situation.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

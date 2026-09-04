@@ -80,7 +80,7 @@ const schema = {
       description:
         "Naples and Collier County commercial real estate in 2026 -- Fifth Avenue South retail, Class A office, medical real estate, Marco Island, and eastern Collier development land.",
       datePublished: "2026-08-17",
-      dateModified: "2026-08-17",
+      dateModified: "2026-09-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -264,7 +264,7 @@ export default function NaplesCollierCommercialPage() {
           My <Link href="/services/investment-sales" className="text-accent underline">investment sales services</Link> include market analysis, deal sourcing strategy, broker introductions, and transaction facilitation across Florida&apos;s major commercial markets. If you are evaluating a Naples or Collier County commercial real estate acquisition or lease in 2026, let&apos;s discuss what the market can offer and what the right approach looks like for your specific situation.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026 | Barrett Henry, Broker Associate at REMAX Collective</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026 | Barrett Henry, Broker Associate at REMAX Collective</p>
       </article>
 
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">

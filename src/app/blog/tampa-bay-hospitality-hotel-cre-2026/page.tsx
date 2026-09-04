@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay's hotel development pipeline is the strongest in a decade. Here is what the luxury hotel boom means for commercial real estate investors across downtown Tampa, Ybor City, and St. Petersburg.",
       datePublished: "2026-07-31",
-      dateModified: "2026-08-23",
+      dateModified: "2026-09-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -306,7 +306,7 @@ export default function TampaBayHospitalityHotelCREPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

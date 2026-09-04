@@ -74,7 +74,7 @@ const schema = {
       description:
         "A commercial real estate investor's guide to Tampa's mall-to-mixed-use conversion wave — WestShore Plaza, Britton Plaza, and what the redevelopment trend means for tenants and investors.",
       datePublished: "2026-07-21",
-      dateModified: "2026-08-12",
+      dateModified: "2026-09-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -267,7 +267,7 @@ export default function TampaMallRedevelopmentPage() {
           The simultaneous redevelopment of WestShore Plaza, Britton Plaza, and the Stetson University Tampa Heights campus signals something real: Tampa&apos;s commercial real estate market is undergoing a structural shift away from legacy enclosed retail toward denser, mixed-use development patterns that reflect how people actually live, work, and shop today. For investors and tenants, the opportunity is not in the projects themselves — it is in the ripple effects they create across the surrounding commercial landscape. With 23+ years in Tampa Bay commercial real estate, I have watched major redevelopment cycles reshape submarkets from the inside. The investors who position themselves thoughtfully — before the market fully prices in the change — consistently outperform those who wait for certainty. If you are considering a commercial acquisition, lease, or exit in or around any of these corridors, let&apos;s talk through the timing and strategy before the window narrows.
         </p>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

@@ -73,7 +73,7 @@ const schema = {
       headline: "Tampa Bay Office Market Q2 2026",
       description: "Tampa Bay office vacancy fell to an 18.2% four-year low in Q2 2026, with two consecutive quarters of positive absorption. What it means for tenants and investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-08-23",
+      dateModified: "2026-09-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -246,7 +246,7 @@ export default function TampaBayOfficeMarketQ2Page() {
           With 23+ years of real estate experience across Tampa Bay&apos;s commercial market, I work with tenants identifying space and investors evaluating acquisitions across Hillsborough, Pinellas, and Pasco Counties. If you are making an office decision in the next 12 months, let&apos;s talk before the market makes it for you.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

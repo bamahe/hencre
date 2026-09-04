@@ -288,11 +288,11 @@ export default function NorthPinellasCommercialRealEstatePage() {
           works particularly well in owner-user industrial markets like this one.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          North Pinellas County is also a practical option for businesses relocating from the Tampa or Hillsborough markets who want to reduce occupancy costs without moving their workforce further than they can tolerate. For residential buyers considering a move to the area alongside a business relocation, the{" "}
-          <a href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">
-            nowtb.com Tampa Bay home search
-          </a>{" "}
-          covers neighborhoods across North Pinellas, with market data and listings throughout the Dunedin, Safety Harbor, and Tarpon Springs areas.
+          North Pinellas County is also a practical option for businesses relocating from the Tampa or Hillsborough markets who want to reduce occupancy costs without moving their workforce further than they can tolerate. For context on the broader Pinellas County market, explore the{" "}
+          <Link href="/markets/pinellas" className="text-accent underline">
+            Pinellas County commercial real estate overview
+          </Link>{" "}
+          for market data and submarket comparisons across the full county.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Tenants Know About Leasing Commercial Space in North Pinellas?</h2>
@@ -318,10 +318,10 @@ export default function NorthPinellasCommercialRealEstatePage() {
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are evaluating commercial space in North Pinellas as part of a broader business transition — including selling an existing business location to free up capital — Barrett also works with business owners considering a{" "}
-          <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">
-            fast, structured sale of commercial or business real estate
-          </a>
+          If you are evaluating commercial space in North Pinellas as part of a broader business transition — including selling an existing business location to free up capital — Barrett also works with business owners through his{" "}
+          <Link href="/services/dispositions" className="text-accent underline">
+            commercial property dispositions services
+          </Link>
           .
         </p>
 

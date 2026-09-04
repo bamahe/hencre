@@ -80,7 +80,7 @@ const schema = {
       description:
         "Jacksonville and Duval County commercial real estate guide for 2026 -- industrial demand from JAXPORT, suburban office, retail investment, and how Jacksonville compares to Tampa Bay.",
       datePublished: "2026-08-17",
-      dateModified: "2026-08-17",
+      dateModified: "2026-09-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -276,7 +276,7 @@ export default function JacksonvilleDuvalCommercialPage() {
           If you are evaluating a Jacksonville commercial real estate acquisition or lease in 2026, I can help you think through the market fundamentals and connect you with the right local specialists to execute the deal.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026 | Barrett Henry, Broker Associate at REMAX Collective</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026 | Barrett Henry, Broker Associate at REMAX Collective</p>
       </article>
 
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
