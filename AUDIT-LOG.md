@@ -4,6 +4,52 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-04 -- Batch 44 (10 pages improved)
+
+**Commit:** `3d2ba11` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/north-pinellas-dunedin-tarpon-springs-commercial-real-estate-2026`
+- Replaced nowtb.com external link with internal /markets/pinellas link
+- Replaced fastselleasysale.com external link with /services/dispositions internal link
+
+### 2. `/blog/jacksonville-duval-county-commercial-real-estate-2026`
+- Updated dateModified: "2026-08-17" -> "2026-09-04"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 3. `/blog/naples-collier-county-commercial-real-estate-2026`
+- Updated dateModified: "2026-08-17" -> "2026-09-04"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 4. `/blog/tampa-bay-hospitality-hotel-cre-2026`
+- Updated dateModified: "2026-08-23" -> "2026-09-04"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 5. `/blog/tampa-bay-industrial-market-q2-2026`
+- Updated dateModified: "2026-08-23" -> "2026-09-04"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 6. `/blog/tampa-bay-office-market-q2-2026`
+- Updated dateModified: "2026-08-23" -> "2026-09-04"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 7. `/blog/tampa-bay-small-bay-industrial-flex-2026`
+- Updated dateModified: "2026-08-23" -> "2026-09-04"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 8. `/blog/tampa-mall-redevelopment-mixed-use-2026`
+- Updated dateModified: "2026-08-12" -> "2026-09-04"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 9. `/blog/water-street-tampa-33-story-tower-downtown-cre-2026`
+- Updated dateModified: "2026-08-19" -> "2026-09-04"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 10. `/blog/tampa-bay-residential-slowdown-cre-opportunity-2026`
+- Updated dateModified: "2026-08-12" -> "2026-09-04"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+---
+
 ## 2026-09-03 -- Batch 43 (10 pages improved)
 
 **Commit:** `f75a1dd` | **Build:** clean (0 errors) | **Pages improved:** 10
