@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -7,118 +9,134 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
- * Auto-generated blog post — 2026-09-04
- * Inverness, Citrus County FL: Commercial Real Estate Opportunities in 2026
+ * Blog: Inverness, Citrus County FL Commercial Real Estate 2026
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Inverness, Citrus County FL: Commercial Real Estate Opportunities in 2026",
+  title: "Inverness FL Commercial Real Estate 2026 | HenCRE",
   description: "Explore commercial real estate opportunities in Inverness, Citrus County FL. Discover retail, office, and investment property trends driving growth in this emerging Central Florida market.",
   alternates: { canonical: "https://hencre.com/blog/inverness-citrus-county-commercial-real-estate-2026" },
   openGraph: {
-    title: "Inverness, Citrus County FL: Commercial Real Estate Opportunities in 2026",
+    title: "Inverness FL Commercial Real Estate 2026 | HenCRE",
     description: "Explore commercial real estate opportunities in Inverness, Citrus County FL. Discover retail, office, and investment property trends driving growth in this emerging Central Florida market.",
     url: "https://hencre.com/blog/inverness-citrus-county-commercial-real-estate-2026",
     type: "article",
-    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "Inverness, Citrus County FL: Commercial Real Estate Opportunities in 2026" }],
+    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "Inverness FL Commercial Real Estate 2026" }],
   },
 };
 
-const articleSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Inverness, Citrus County FL: Commercial Real Estate Opportunities in 2026",
-  description: "Explore commercial real estate opportunities in Inverness, Citrus County FL. Discover retail, office, and investment property trends driving growth in this emerging Central Florida market.",
-  datePublished: "2026-09-04",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-    sameAs: [
-      "https://hencre.com/about",
-      "https://nowtb.com",
-      "https://barretthenry.remax.com",
-    ],
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
-  },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/inverness-citrus-county-commercial-real-estate-2026",
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "What types of commercial properties are available in Inverness, FL?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Inverness offers a range of commercial property types including retail storefronts, medical office suites, professional office space, flex buildings, and commercial land parcels. The downtown district and US-41 corridor are the primary commercial areas, with options ranging from small-bay retail suites to larger standalone commercial buildings.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Inverness FL Commercial Real Estate 2026", item: "https://hencre.com/blog/inverness-citrus-county-commercial-real-estate-2026" },
+      ],
     },
     {
-      "@type": "Question",
-      name: "Is Inverness, Citrus County a good market for commercial real estate investment?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Inverness can be a strong market for investors seeking value relative to Florida's larger metros. The area benefits from consistent population growth, lower acquisition costs, and demand for service-oriented commercial space. Cap rates tend to be more favorable than coastal markets, particularly for well-located retail and medical office properties.",
+      "@type": "BlogPosting",
+      headline: "Inverness FL Commercial Real Estate 2026",
+      description: "Explore commercial real estate opportunities in Inverness, Citrus County FL. Discover retail, office, and investment property trends driving growth in this emerging Central Florida market.",
+      datePublished: "2026-09-04",
+      dateModified: "2026-09-05",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/inverness-citrus-county-commercial-real-estate-2026",
     },
     {
-      "@type": "Question",
-      name: "What industries are driving commercial demand in Inverness, FL?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Healthcare and medical services are the dominant demand drivers given Citrus County's aging population profile. Additionally, professional services, specialty retail, dining, and home services businesses are all expanding in Inverness to serve a growing residential base that includes retirees and relocated remote workers.",
-      },
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What types of commercial properties are available in Inverness, FL?",
+          acceptedAnswer: { "@type": "Answer", text: "Inverness offers a range of commercial property types including retail storefronts, medical office suites, professional office space, flex buildings, and commercial land parcels. The downtown district and US-41 corridor are the primary commercial areas, with options ranging from small-bay retail suites to larger standalone commercial buildings." },
+        },
+        {
+          "@type": "Question",
+          name: "Is Inverness, Citrus County a good market for commercial real estate investment?",
+          acceptedAnswer: { "@type": "Answer", text: "Inverness can be a strong market for investors seeking value relative to Florida's larger metros. The area benefits from consistent population growth, lower acquisition costs, and demand for service-oriented commercial space. Cap rates tend to be more favorable than coastal markets, particularly for well-located retail and medical office properties." },
+        },
+        {
+          "@type": "Question",
+          name: "What industries are driving commercial demand in Inverness, FL?",
+          acceptedAnswer: { "@type": "Answer", text: "Healthcare and medical services are the dominant demand drivers given Citrus County&apos;s aging population profile. Additionally, professional services, specialty retail, dining, and home services businesses are all expanding in Inverness to serve a growing residential base that includes retirees and relocated remote workers." },
+        },
+        {
+          "@type": "Question",
+          name: "How does Inverness compare to Crystal River for commercial real estate in Citrus County?",
+          acceptedAnswer: { "@type": "Answer", text: "Inverness and Crystal River serve different commercial niches within Citrus County. Crystal River benefits from waterfront tourism and Nature Coast visitor traffic, while Inverness functions as the county seat with stronger government, legal, and professional services concentration. Both markets offer investment opportunity but attract different tenant profiles." },
+        },
+        {
+          "@type": "Question",
+          name: "What should I know before leasing commercial space in Inverness, FL?",
+          acceptedAnswer: { "@type": "Answer", text: "Prospective tenants should review local zoning classifications to confirm their intended use is permitted, understand the lease structure (gross, NNN, or modified gross), and assess parking availability and traffic counts on their target corridor. Partnering with a local commercial real estate broker familiar with Citrus County can help you avoid common pitfalls and negotiate more effectively." },
+        },
+      ],
     },
-    {
-      "@type": "Question",
-      name: "How does Inverness compare to Crystal River for commercial real estate in Citrus County?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Inverness and Crystal River serve different commercial niches within Citrus County. Crystal River benefits from waterfront tourism and Nature Coast visitor traffic, while Inverness functions as the county seat with stronger government, legal, and professional services concentration. Both markets offer investment opportunity but attract different tenant profiles.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What should I know before leasing commercial space in Inverness, FL?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Prospective tenants should review local zoning classifications to confirm their intended use is permitted, understand the lease structure (gross, NNN, or modified gross), and assess parking availability and traffic counts on their target corridor. Partnering with a local commercial real estate broker familiar with Citrus County can help you avoid common pitfalls and negotiate more effectively.",
-      },
-    }
   ],
 };
 
 const relatedLinks = [
   {
     title: "Crystal River, Citrus County Commercial Real Estate",
-    href: "/crystal-river-citrus-county-commercial-real-estate",
-    description: "Explore the commercial real estate landscape in Crystal River, Inverness's Citrus County neighbor and Nature Coast tourism hub.",
+    href: "/blog/crystal-river-citrus-county-commercial-real-estate",
+    description: "Explore the commercial real estate landscape in Crystal River, Inverness&apos;s Citrus County neighbor and Nature Coast tourism hub.",
   },
   {
     title: "Crystal River Waterfront Commercial Investment Guide",
-    href: "/crystal-river-waterfront-commercial-investment-guide",
-    description: "A deep dive into waterfront commercial investment opportunities along Citrus County's scenic Gulf Coast corridors.",
+    href: "/blog/crystal-river-waterfront-commercial-investment-guide",
+    description: "A deep dive into waterfront commercial investment opportunities along Citrus County&apos;s scenic Gulf Coast corridors.",
   },
   {
     title: "Do You Need a Commercial Real Estate Broker?",
-    href: "/do-you-need-a-commercial-real-estate-broker",
+    href: "/blog/do-you-need-a-commercial-real-estate-broker",
     description: "Understand the value a commercial real estate broker provides when buying, selling, or leasing in markets like Inverness, FL.",
   },
   {
     title: "Commercial Property Zoning in Florida: The Basics",
-    href: "/commercial-property-zoning-florida-basics",
-    description: "Learn how Florida's commercial zoning classifications work and what to look for when evaluating properties in Citrus County.",
+    href: "/blog/commercial-property-zoning-florida-basics",
+    description: "Learn how Florida&apos;s commercial zoning classifications work and what to look for when evaluating properties in Citrus County.",
   },
   {
     title: "How to Calculate Commercial Property ROI",
-    href: "/how-to-calculate-commercial-property-roi",
+    href: "/blog/how-to-calculate-commercial-property-roi",
     description: "A practical guide to evaluating the return on investment for commercial properties, including those in smaller Florida markets like Inverness.",
-  }
+  },
+  {
+    title: "Citrus County Commercial Real Estate Market",
+    href: "/markets/citrus",
+    description: "Market overview for Citrus County commercial real estate, covering all major property types and investment opportunities.",
+  },
+  {
+    title: "Florida 1031 Exchange: What Investors Need to Know",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "How to defer capital gains taxes when selling a Citrus County commercial property and reinvesting in Florida.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Barrett Henry represents buyers and sellers of investment properties across all 67 Florida counties, including Citrus County.",
+  },
+  {
+    title: "What Makes a Good Commercial Real Estate Investment?",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "Tenant quality, lease terms, and location fundamentals that determine whether a Citrus County acquisition performs.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Calculate the capitalization rate on an Inverness or Citrus County commercial property acquisition.",
+  },
 ];
 
 const faqItems = [
@@ -147,18 +165,18 @@ const faqItems = [
 export default function BlogPost() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: "Inverness, Citrus County FL: Commercial Real Estate Opportunities in 2026", href: "/blog/inverness-citrus-county-commercial-real-estate-2026" },
+          { label: "Inverness FL Commercial Real Estate 2026", href: "/blog/inverness-citrus-county-commercial-real-estate-2026" },
         ]}
       />
 
       <Hero
-        title="Inverness, Citrus County FL: Commercial Real Estate Opportunities in 2026"
+        title="Inverness FL Commercial Real Estate 2026"
         subtitle="Explore commercial real estate opportunities in Inverness, Citrus County FL. Discover retail, office, and investment property trends driving growth in this emerging Central Florida market."
       />
 
@@ -186,32 +204,20 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Commercial Real Estate Advisor"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR\u00AE & Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He specializes in commercial real estate investment sales, tenant representation, and market analysis across Florida&apos;s emerging and established markets.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* ---- Free Resources ---- */}
-      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
-        <div className="rounded-lg bg-[#F5F5F5] p-6 text-sm text-[#666666]">
-          <p className="font-semibold text-black">Free Resources</p>
-          <ul className="mt-2 space-y-1">
-            <li>HUD Housing Counseling: <a href="tel:18005694287" className="underline">1-800-569-4287</a></li>
-            <li>FHA Resource Center: <a href="tel:18002255342" className="underline">1-800-225-5342</a></li>
-            <li>HOPE Hotline: <a href="tel:18889954673" className="underline">1-888-995-4673</a></li>
-          </ul>
         </div>
       </section>
 
@@ -224,7 +230,7 @@ export default function BlogPost() {
 
       <CTASection
         heading="Ready to Explore Commercial Real Estate in Inverness, FL?"
-        body="Whether you're an investor seeking value-add opportunities or a business owner looking for the right space to grow, the Inverness and Citrus County market offers compelling options that fly under the radar of most Florida CRE buyers. The HenCRE team specializes in helping clients find and evaluate commercial properties across Florida's emerging and established markets. Contact us today to start a conversation about your goals in Inverness or anywhere across the Sunshine State."
+        body="Whether you&apos;re an investor seeking value-add opportunities or a business owner looking for the right space to grow, the Inverness and Citrus County market offers compelling options that fly under the radar of most Florida CRE buyers. Barrett Henry, Broker Associate at REMAX Collective, specializes in helping clients find and evaluate commercial properties across all 67 Florida counties. Contact us today to start a conversation about your goals in Inverness or anywhere across the Sunshine State."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

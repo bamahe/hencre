@@ -84,11 +84,13 @@ const schema = {
       description:
         "Commercial earnest money deposits are larger, harder to recover, and go non-refundable faster than residential deposits. Essential reading for Florida CRE investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-08-18",
+      dateModified: "2026-09-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -145,6 +147,16 @@ const relatedLinks = [
     title: "Hillsborough County Commercial Market",
     href: "/markets/hillsborough",
     description: "Earnest money norms and deal pacing for commercial acquisitions in Tampa Bay.",
+  },
+  {
+    title: "What Makes a Good Commercial Real Estate Investment?",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "The tenant quality, lease, and location fundamentals that determine if a CRE acquisition is worth your earnest money.",
+  },
+  {
+    title: "Commercial Earnest Money and SBA 504 Loans",
+    href: "/blog/sba-504-loan-commercial-real-estate-tampa-bay",
+    description: "How SBA 504 financing affects earnest money requirements and due diligence timelines in Tampa Bay.",
   },
 ];
 

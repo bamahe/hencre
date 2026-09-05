@@ -522,6 +522,17 @@ export default function RemaxCommercialPage() {
           View all <Link href="/markets" className="underline hover:text-black">Florida commercial real estate markets</Link> or explore{" "}
           <Link href="/services" className="underline hover:text-black">CRE services</Link> available through the REMAX Collective network.
         </p>
+        <h3 className="mt-8 text-lg font-bold text-black">Related Resources</h3>
+        <ul className="mt-3 grid gap-2 sm:grid-cols-2 text-[#666666]">
+          <li><Link href="/blog/why-tampa-bay-cre-is-booming" className="underline hover:text-black">Why Tampa Bay CRE Is Booming</Link></li>
+          <li><Link href="/blog/tampa-bay-nnn-cap-rates-2026" className="underline hover:text-black">Tampa Bay NNN Cap Rates 2026</Link></li>
+          <li><Link href="/blog/tampa-bay-retail-market-q2-2026" className="underline hover:text-black">Tampa Bay Retail Market Q2 2026</Link></li>
+          <li><Link href="/blog/tampa-bay-industrial-market-q2-2026" className="underline hover:text-black">Tampa Bay Industrial Market Q2 2026</Link></li>
+          <li><Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="underline hover:text-black">Florida 1031 Exchange Guide</Link></li>
+          <li><Link href="/insights/what-is-a-cap-rate" className="underline hover:text-black">What Is a Cap Rate?</Link></li>
+          <li><Link href="/remax-commercial-florida" className="underline hover:text-black">REMAX Commercial Agents Across Florida</Link></li>
+          <li><Link href="/refer-a-deal" className="underline hover:text-black">Refer a Commercial Deal</Link></li>
+        </ul>
       </section>
 
       {/* ---- CTA ---- */}
@@ -556,7 +567,7 @@ export default function RemaxCommercialPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

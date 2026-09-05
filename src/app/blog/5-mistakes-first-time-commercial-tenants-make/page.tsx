@@ -85,11 +85,13 @@ const schema = {
       description:
         "Avoid the most common mistakes first-time commercial tenants make — from skipping lease review to underestimating total occupancy costs.",
       datePublished: "2026-05-02",
-      dateModified: "2026-08-19",
+      dateModified: "2026-09-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },

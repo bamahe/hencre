@@ -85,11 +85,13 @@ const schema = {
       description:
         "Key differences between commercial and residential leases — lease terms, negotiation, expenses, and tenant protections.",
       datePublished: "2026-05-18",
-      dateModified: "2026-08-18",
+      dateModified: "2026-09-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },

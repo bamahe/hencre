@@ -193,23 +193,31 @@ export default function ReferADealPage() {
       {/* ---- Related resources ---- */}
       <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <h2 className="text-xl font-bold sm:text-2xl">CRE Resources for Referring Agents</h2>
-        <ul className="mt-4 space-y-2 text-[#666666]">
+        <ul className="mt-4 grid gap-2 sm:grid-cols-2 text-[#666666]">
           <li><Link href="/services/tenant-representation" className="underline hover:text-black">Tenant Representation Services</Link></li>
           <li><Link href="/services/investment-sales" className="underline hover:text-black">Investment Sales Services</Link></li>
           <li><Link href="/services/landlord-leasing" className="underline hover:text-black">Landlord Leasing Services</Link></li>
           <li><Link href="/services/dispositions" className="underline hover:text-black">CRE Disposition Services</Link></li>
           <li><Link href="/services/cre-valuation" className="underline hover:text-black">CRE Valuation (Broker Opinion of Value)</Link></li>
+          <li><Link href="/services/commercial-property-management" className="underline hover:text-black">Commercial Property Management</Link></li>
           <li><Link href="/markets/hillsborough" className="underline hover:text-black">Hillsborough County (Tampa) Commercial Market</Link></li>
           <li><Link href="/markets/pinellas" className="underline hover:text-black">Pinellas County (St. Pete / Clearwater) Commercial Market</Link></li>
           <li><Link href="/markets/polk" className="underline hover:text-black">Polk County (Lakeland) Commercial Market</Link></li>
+          <li><Link href="/markets/pasco" className="underline hover:text-black">Pasco County (Wesley Chapel) Commercial Market</Link></li>
+          <li><Link href="/markets/manatee" className="underline hover:text-black">Manatee County (Bradenton) Commercial Market</Link></li>
+          <li><Link href="/markets/sarasota" className="underline hover:text-black">Sarasota County Commercial Market</Link></li>
           <li><Link href="/insights/what-is-a-cap-rate" className="underline hover:text-black">What Is a Cap Rate? Investment Guide</Link></li>
           <li><Link href="/insights/1031-exchange-basics" className="underline hover:text-black">1031 Exchange Basics for CRE Investors</Link></li>
+          <li><Link href="/blog/do-you-need-a-commercial-real-estate-broker" className="underline hover:text-black">Do You Need a Commercial Real Estate Broker?</Link></li>
+          <li><Link href="/remax-commercial" className="underline hover:text-black">About REMAX Commercial Real Estate</Link></li>
+          <li><Link href="/remax-commercial-florida" className="underline hover:text-black">REMAX Commercial Agents Across Florida</Link></li>
+          <li><Link href="/about" className="underline hover:text-black">About Barrett Henry</Link></li>
         </ul>
       </section>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

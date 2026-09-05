@@ -86,7 +86,7 @@ const schema = {
       description:
         "Fast food and drive-thru net lease properties are among the most popular passive investments in Tampa Bay. What investors need to know about cap rates, brand quality, and selecting the right QSR NNN deal.",
       datePublished: "2026-09-03",
-      dateModified: "2026-09-03",
+      dateModified: "2026-09-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -248,7 +248,7 @@ export default function TampaBayQSRDriveThruNNNPage() {
           For investors, the strategic value of Tampa Bay QSR assets is not just current income — it is the long-term traffic growth at these locations as the surrounding residential base continues to build out. A drive-thru on a corner that serves 20,000 vehicles per day today may serve 35,000 in ten years as master-planned communities reach full build-out. That trajectory is reflected in renewal probability and rent escalation leverage at the end of the initial lease term.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are considering selling an existing commercial property or business to fund a QSR NNN acquisition, resources like <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Fast Sell Easy Sale</a> provide options for expedited transactions — including commercial real estate and business sales — that can help you move capital into a net lease replacement on your timeline.
+          If you are considering selling an existing commercial property to fund a QSR NNN acquisition, a <Link href="/blog/sale-leaseback-commercial-real-estate-tampa-bay" className="text-accent underline">sale-leaseback</Link> or direct disposition through a commercial broker can help you move capital into a net lease replacement on your timeline. For a framework on evaluating the exit, see the <Link href="/blog/tampa-bay-rental-property-exit-strategy-2026" className="text-accent underline">Tampa Bay rental property exit strategy guide</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Investors Scrutinize Before Buying a QSR NNN Property?</h2>
