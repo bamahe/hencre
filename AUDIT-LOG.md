@@ -4,6 +4,57 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-05 -- Batch 45 (9 pages improved)
+
+**Commit:** `9a871f6` | **Build:** clean (0 errors) | **Pages improved:** 9
+
+### 1. `/blog/inverness-citrus-county-commercial-real-estate-2026`
+- Shortened title from 73 chars to 49 chars: "Inverness FL Commercial Real Estate 2026 | HenCRE"
+- Merged dual SchemaOrg calls (articleSchema + faqSchema) into single @graph with BreadcrumbList + BlogPosting + FAQPage
+- Fixed publisher name: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from author sameAs; added barretthenry.remax.com and author image field
+- Added dateModified: "2026-09-05"
+- Added Home item to breadcrumbs (was missing)
+- Converted `<img>` to Next.js `<Image>` in author bio
+- Fixed author title: "REALTOR & Commercial Real Estate Advisor" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed HUD/FHA/HOPE section (irrelevant to commercial CRE)
+- Expanded relatedLinks from 5 to 10 (added: /markets/citrus, florida-1031-exchange, investment-sales, what-makes-a-good-commercial-investment, cap-rate calculator)
+- Fixed relatedLinks hrefs (had missing /blog/ prefix on internal links)
+
+### 2. `/blog/tampa-bay-qsr-drive-thru-nnn-investment-2026`
+- Removed fastselleasysale.com external link; replaced with internal links to sale-leaseback and rental-property-exit-strategy blog posts
+- Updated dateModified: "2026-09-03" -> "2026-09-05"
+
+### 3. `/remax-commercial`
+- Updated date footer: "August 2026" -> "September 2026"
+- Added "Related Resources" section with 8 internal links to blog posts, insights, and sibling pages
+
+### 4. `/remax-commercial-florida`
+- Updated date footer: "August 2026" -> "September 2026"
+
+### 5. `/refer-a-deal`
+- Updated date footer: "August 2026" -> "September 2026"
+- Expanded internal links from 10 to 18 (added markets, services, about, remax-commercial pages)
+- Converted links to 2-column grid layout for better UX
+
+### 6. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Expanded relatedLinks from 8 to 10 (added: what-makes-a-good-commercial-investment, sba-504-loan)
+- Added author image and sameAs EEAT fields to BlogPosting schema
+- Updated dateModified: "2026-08-18" -> "2026-09-05"
+
+### 7. `/blog/5-mistakes-first-time-commercial-tenants-make`
+- Added author image and sameAs EEAT fields to BlogPosting schema
+- Updated dateModified: "2026-08-19" -> "2026-09-05"
+
+### 8. `/blog/how-commercial-leases-differ-from-residential`
+- Added author image and sameAs EEAT fields to BlogPosting schema
+- Updated dateModified: "2026-08-18" -> "2026-09-05"
+
+### 9. `/blog/what-makes-a-good-commercial-investment`
+- Updated dateModified: "2026-08-10" -> "2026-09-05"
+
+---
+
 ## 2026-09-04 -- Batch 44 (10 pages improved)
 
 **Commit:** `3d2ba11` | **Build:** clean (0 errors) | **Pages improved:** 10
