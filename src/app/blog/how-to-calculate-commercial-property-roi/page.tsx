@@ -85,11 +85,13 @@ const schema = {
       description:
         "ROI calculation methods for commercial real estate investors — cap rate, cash-on-cash, IRR, and total return.",
       datePublished: "2026-05-31",
-      dateModified: "2026-08-19",
+      dateModified: "2026-09-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -126,6 +128,36 @@ const relatedLinks = [
     title: "CRE Valuation Services",
     href: "/services/cre-valuation",
     description: "Professional property valuation for investment decisions.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Free tool to calculate cap rates for any commercial property.",
+  },
+  {
+    title: "Florida 1031 Exchange Guide",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "Defer capital gains taxes by reinvesting in Florida commercial property.",
+  },
+  {
+    title: "CRE Due Diligence Checklist",
+    href: "/insights/cre-due-diligence-checklist",
+    description: "What to inspect before closing on any commercial property purchase.",
+  },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "Current NNN cap rate benchmarks for Tampa Bay commercial investors.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett structures commercial acquisitions and exits for investors.",
+  },
+  {
+    title: "Multifamily Investment Tampa Bay Guide",
+    href: "/blog/multifamily-investment-tampa-bay-guide",
+    description: "Apply ROI analysis to Tampa Bay multifamily acquisitions.",
   },
 ];
 
@@ -311,7 +343,7 @@ export default function CalculateROIPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

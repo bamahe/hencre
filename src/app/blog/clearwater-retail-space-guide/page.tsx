@@ -73,7 +73,7 @@ const schema = {
       headline: "Clearwater Retail Space Guide",
       description: "Clearwater retail market — top corridors, rental rate trends, and investment opportunities.",
       datePublished: "2026-05-24",
-      dateModified: "2026-08-18",
+      dateModified: "2026-09-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -256,7 +256,7 @@ export default function ClearwaterRetailGuidePage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

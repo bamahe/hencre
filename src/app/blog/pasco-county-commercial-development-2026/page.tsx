@@ -80,7 +80,7 @@ const schema = {
       description:
         "Pasco County commercial real estate growth — development trends, key corridors, and investment opportunities.",
       datePublished: "2026-06-07",
-      dateModified: "2026-08-14",
+      dateModified: "2026-09-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -252,7 +252,7 @@ export default function PascoCountyDevelopmentPage() {
 
         <FAQAccordion items={faqItems} />
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
@@ -260,9 +260,9 @@ export default function PascoCountyDevelopmentPage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Broker Associate"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"
