@@ -4,6 +4,73 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-06 -- Batch 46 (10 pages improved)
+
+**Commit:** `1532f8c` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Added `image` and `sameAs` to BlogPosting schema author (EEAT)
+- Updated dateModified: "2026-08-19" -> "2026-09-06"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 2. `/blog/how-to-calculate-commercial-property-roi`
+- Added `image` and `sameAs` to schema author (EEAT)
+- Expanded relatedLinks from 4 to 10 (added cap rate calculator, 1031 exchange, due diligence, NNN cap rates, investment sales, multifamily guide)
+- Updated dateModified: "2026-08-18" -> "2026-09-06"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 3. `/blog/parrish-fl-commercial-real-estate-2026`
+- Added `import Link from "next/link"` (was missing)
+- Shortened metadata title from 71 chars to 47 chars: "Parrish FL Commercial Real Estate 2026 | HenCRE"
+- Fixed OG title and description (removed phone number)
+- Converted 5 raw `<a href>` body links to `<Link>` components with &apos; escaping
+- Fixed author bio: `<img>` -> `<Image>`
+- Updated dateModified: "2026-08-14" -> "2026-09-06"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 4. `/blog/pasco-county-commercial-development-2026`
+- Fixed author bio: `<img>` -> `<Image>`
+- Updated dateModified: "2026-08-14" -> "2026-09-06"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 5. `/blog/multifamily-investment-tampa-bay-guide`
+- Added `image` and `sameAs` to schema author (EEAT)
+- Fixed author bio: `<img>` -> `<Image>`
+- Updated dateModified: "2026-08-18" -> "2026-09-06"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 6. `/blog/clearwater-office-space-professional-services-firms`
+- Added `image` and `sameAs` to schema author (EEAT)
+- Converted 7 raw `<a href>` tags to `<Link>` components
+- Fixed em dash to ` -- `
+- Updated dateModified: "2026-08-18" -> "2026-09-06"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 7. `/blog/florida-business-rent-tax-repeal-tampa-bay`
+- Fixed author bio: `<img>` -> `<Image>`
+- Updated dateModified: "2026-08-18" -> "2026-09-06"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 8. `/blog/new-port-richey-commercial-real-estate-investors`
+- Added "| HenCRE" suffix to metadata title
+- Fixed OG description (removed phone number)
+- Added `image` and `sameAs` to schema author (EEAT)
+- Expanded relatedLinks from 8 to 10 (added ROI calculator and due diligence timeline)
+- Fixed brand: "REMAX Commercial Real Estate" -> "REMAX Collective" in FAQ, body, and CTA
+- Updated dateModified: "2026-08-19" -> "2026-09-06"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 9. `/blog/port-tampa-bay-expansion-industrial-cre-investors`
+- Expanded relatedLinks from 6 to 10 (added east-tampa-us-301, small-bay industrial, investment-sales, industrial-warehouse)
+- Updated dateModified: "2026-08-08" -> "2026-09-06"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 10. `/blog/clearwater-retail-space-guide`
+- Updated dateModified: "2026-08-18" -> "2026-09-06"
+- Updated footer: "August 2026" -> "September 2026"
+
+---
+
 ## 2026-09-05 -- Batch 45 (9 pages improved)
 
 **Commit:** `9a871f6` | **Build:** clean (0 errors) | **Pages improved:** 9
