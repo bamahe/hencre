@@ -73,7 +73,7 @@ const schema = {
       headline: "St. Petersburg Commercial Real Estate 2026",
       description: "A market guide to office, retail, and industrial commercial real estate in St. Petersburg, FL -- submarkets, rates, cap rates, and investment outlook.",
       datePublished: "2026-07-20",
-      dateModified: "2026-08-10",
+      dateModified: "2026-09-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -240,7 +240,7 @@ export default function StPetersburgCREPage() {
           St. Petersburg is a market defined by its strengths: a diversified and resilient employment base, geographic supply constraints that protect existing owners, and a quality-of-life profile that attracts tenants and workers from across the country. Whether you are leasing <Link href="/commercial/office-space" className="text-accent underline">office space</Link>, evaluating a retail investment, or exploring industrial acquisition, St. Pete&apos;s fundamentals reward careful, well-informed decisions. With 23+ years of real estate experience, I help clients across the Tampa Bay region -- including St. Petersburg -- find, lease, and invest in commercial properties that match their goals. The market is active and opportunities exist, but execution matters.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

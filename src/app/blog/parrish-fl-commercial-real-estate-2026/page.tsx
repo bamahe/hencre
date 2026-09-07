@@ -64,7 +64,7 @@ const schema = {
       headline: "Parrish FL Commercial Real Estate 2026: Opportunity in a Boom Town",
       description: "Parrish is Manatee County's fastest-growing community. Commercial investors and tenants who move now are capturing opportunity before competition arrives. Call (813) 733-7907.",
       datePublished: "2026-07-21",
-      dateModified: "2026-08-14",
+      dateModified: "2026-09-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -251,7 +251,7 @@ export default function BlogPost() {
 
       {/* ---- Legal Disclaimer ---- */}
       <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#999999]">Last updated: August 2026</p>
+        <p className="text-xs text-[#999999]">Last updated: September 2026</p>
         <p className="mt-1 text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>

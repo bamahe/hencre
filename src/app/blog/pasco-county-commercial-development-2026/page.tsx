@@ -80,7 +80,7 @@ const schema = {
       description:
         "Pasco County commercial real estate growth — development trends, key corridors, and investment opportunities.",
       datePublished: "2026-06-07",
-      dateModified: "2026-08-14",
+      dateModified: "2026-09-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -252,7 +252,7 @@ export default function PascoCountyDevelopmentPage() {
 
         <FAQAccordion items={faqItems} />
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

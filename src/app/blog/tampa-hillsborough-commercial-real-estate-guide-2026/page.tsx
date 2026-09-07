@@ -41,7 +41,7 @@ const schema = {
       headline: "Tampa Commercial Real Estate Market Guide 2026",
       description: "Tampa&apos;s CRE market is moving fast. Discover what investors and tenants need to know about Hillsborough County commercial real estate in 2026.",
       datePublished: "2026-07-29",
-      dateModified: "2026-08-12",
+      dateModified: "2026-09-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -234,7 +234,7 @@ export default function BlogPost() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
 
       <CTASection

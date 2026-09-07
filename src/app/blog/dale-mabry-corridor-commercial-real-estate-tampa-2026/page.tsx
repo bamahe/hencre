@@ -85,7 +85,7 @@ const schema = {
       description:
         "Britton Plaza is clearing out. WestShore Plaza sold for $135M. Dale Mabry Highway — Tampa's primary commercial spine — is in the middle of a generational redevelopment cycle. Here is what investors and tenants need to know.",
       datePublished: "2026-09-05",
-      dateModified: "2026-09-05",
+      dateModified: "2026-09-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -230,7 +230,7 @@ export default function DaleMabryCorridorCRE2026Page() {
           <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">Tampa Bay medical office market</Link> remains one of the most supply-constrained segments of commercial real estate regionally, and Dale Mabry&apos;s South Tampa segment is at the center of that demand.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Land and redevelopment play.</strong> Properties with older improvements on large lots along the Westshore and mid-corridor segments are attracting developer interest as the mixed-use redevelopment thesis for the corridor solidifies. Owners of 30,000 to 100,000 square foot parcels with aging commercial improvements should evaluate whether their highest-and-best use is continued operation of the existing building or a sale to a developer who will pursue entitlements for a higher-density mixed-use project. If you own a commercial property on Dale Mabry and are curious about what it could be worth in the current redevelopment environment, <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fastselleasysale.com</Link> offers a direct path to evaluating a cash sale without the complexity of a traditional listing.
+          <strong>Land and redevelopment play.</strong> Properties with older improvements on large lots along the Westshore and mid-corridor segments are attracting developer interest as the mixed-use redevelopment thesis for the corridor solidifies. Owners of 30,000 to 100,000 square foot parcels with aging commercial improvements should evaluate whether their highest-and-best use is continued operation of the existing building or a sale to a developer who will pursue entitlements for a higher-density mixed-use project. If you own a commercial property on Dale Mabry and are curious about what it could be worth in the current redevelopment environment, Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> offer a direct path to evaluating your options -- from a quiet off-market sale to a fully marketed listing -- without leaving money on the table.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Before any acquisition, investors should understand{" "}
@@ -268,8 +268,7 @@ export default function DaleMabryCorridorCRE2026Page() {
           The five-year trajectory of the Dale Mabry corridor is one of densification and upgrading. If Britton Plaza delivers a mixed-use project with residential units, and WestShore Plaza delivers its planned 1,765 homes over the next several years, the permanent residential population density along the southern half of the corridor will increase materially. More residents living walkable distance to Dale Mabry means stronger demand for the restaurants, medical offices, personal services, fitness studios, and neighborhood retail that line the corridor.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The South Tampa housing market adjacent to Dale Mabry has already been one of the most competitive in the Tampa Bay area, and the addition of new walkable, amenity-rich residential product will make the area even more attractive to buyers and renters. If you are thinking about buying or selling residential property in the neighborhoods surrounding Dale Mabry&apos;s South Tampa segment, the{" "}
-          <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link> home search covers South Tampa neighborhoods with up-to-date listings and market data.
+          The South Tampa housing market adjacent to Dale Mabry has already been one of the most competitive in the Tampa Bay area, and the addition of new walkable, amenity-rich residential product will make the area even more attractive to buyers and renters. Commercial owners along the corridor can explore the broader <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County commercial market</Link> for context on how the corridor fits into the region&apos;s overall CRE landscape, or review the <Link href="/blog/south-tampa-commercial-real-estate-2026" className="text-accent underline">South Tampa commercial real estate overview</Link> for neighborhood-specific data.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For the commercial corridor itself, the medium-term outlook is positive — higher residential density raises the ceiling on retail and restaurant rents, creates demand for additional medical and professional services, and makes Dale Mabry addresses more valuable. Investors who acquire today, during the uncertainty of two simultaneous major-center redevelopments, are positioned to benefit from the appreciation that follows when the mixed-use projects deliver and the corridor&apos;s transformation becomes visible.

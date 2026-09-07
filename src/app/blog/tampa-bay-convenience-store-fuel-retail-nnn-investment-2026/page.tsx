@@ -89,7 +89,7 @@ const schema = {
       description:
         "Wawa, Circle K, and next-generation fuel-retail centers as NNN investment assets in Tampa Bay. Cap rates, tenant credit, EV transition risk, and site selection.",
       datePublished: "2026-09-04",
-      dateModified: "2026-09-04",
+      dateModified: "2026-09-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -298,7 +298,7 @@ export default function TampaBayConvenienceStoreFuelRetailNNNPage() {
           Investors evaluating fuel-retail alongside <Link href="/blog/tampa-bay-car-wash-cre-investment-2026" className="text-accent underline">car wash investments</Link> and <Link href="/blog/tampa-bay-qsr-drive-thru-nnn-investment-2026" className="text-accent underline">QSR drive-throughs</Link> will find that the risk-return profiles overlap meaningfully, with fuel-retail typically offering longer lease terms and lower cap rates than QSR and comparable or slightly tighter pricing than car washes with institutional operators. The specific investment that makes sense depends on your basis, your hold period, your tax situation, and what the market is offering at the moment you are buying.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are selling an investment property and considering a fuel-retail NNN as a 1031 exchange replacement, <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">fast-close disposition options</a> can help you control your sale timeline precisely enough to meet exchange deadlines without compromising your negotiating position on the acquisition side.
+          If you are selling an investment property and considering a fuel-retail NNN as a 1031 exchange replacement, Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> can help you control your sale timeline precisely enough to meet exchange deadlines without compromising your negotiating position on the acquisition side.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Getting the diligence right on a fuel-retail acquisition — understanding the operator&apos;s unit-level economics, evaluating the site&apos;s traffic and competitive position, and structuring the purchase to reflect both current market conditions and long-term risks — is where an experienced commercial real estate broker with deep Tampa Bay knowledge earns the difference between a sound passive income investment and an overpriced one.

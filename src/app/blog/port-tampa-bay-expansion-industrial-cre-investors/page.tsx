@@ -86,7 +86,7 @@ const schema = {
       description:
         "Port Tampa Bay is adding cranes, dredging its channel, and expanding container terminals under Vision 2030. Here is what commercial real estate investors need to know about the industrial demand surge it is creating.",
       datePublished: "2026-07-26",
-      dateModified: "2026-08-08",
+      dateModified: "2026-09-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -139,6 +139,26 @@ const relatedLinks = [
     title: "Commercial Property Due Diligence Timeline",
     href: "/blog/commercial-property-due-diligence-timeline",
     description: "What environmental, title, and physical due diligence looks like for industrial acquisitions near active port facilities.",
+  },
+  {
+    title: "Tampa Bay Industrial Market Q2 2026",
+    href: "/blog/tampa-bay-industrial-market-q2-2026",
+    description: "Vacancy rates, rental trends, and absorption data for Tampa Bay's broader industrial market in mid-2026.",
+  },
+  {
+    title: "East Tampa US-301 Industrial Corridor 2026",
+    href: "/blog/east-tampa-us-301-industrial-corridor-2026",
+    description: "The US-301 corridor's role as Tampa's inland industrial spine -- complementary to the port's waterfront logistics activity.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett Henry helps investors acquire and sell industrial properties in the Tampa Bay port corridor.",
+  },
+  {
+    title: "Florida 1031 Exchange Guide",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "Using a 1031 exchange to roll equity from one industrial asset into a Tampa Bay port-corridor acquisition.",
   },
 ];
 
@@ -251,7 +271,7 @@ export default function PortTampaBayExpansionCREPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
