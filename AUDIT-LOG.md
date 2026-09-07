@@ -4,6 +4,54 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-07 -- Batch 46 (10 pages improved)
+
+**Commit:** `fcd0ee8` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/dale-mabry-corridor-commercial-real-estate-tampa-2026`
+- Replaced fastselleasysale.com external link with /services/dispositions internal Link
+- Replaced nowtb.com external link with /markets/hillsborough and /blog/south-tampa-commercial-real-estate-2026 internal Links
+- Updated dateModified: "2026-09-05" -> "2026-09-07"
+
+### 2. `/blog/tampa-bay-convenience-store-fuel-retail-nnn-investment-2026`
+- Replaced fastselleasysale.com external `<a>` tag with /services/dispositions `<Link>` component
+- Updated dateModified: "2026-09-04" -> "2026-09-07"
+
+### 3. `/blog/port-tampa-bay-expansion-industrial-cre-investors`
+- Expanded relatedLinks: 6 -> 10 (added Tampa Bay Industrial Market Q2 2026, East Tampa US-301 Industrial Corridor, Investment Sales Services, Florida 1031 Exchange Guide)
+- Updated dateModified: "2026-08-08" -> "2026-09-07"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 4. `/blog/st-petersburg-commercial-real-estate-2026`
+- Updated dateModified: "2026-08-10" -> "2026-09-07"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 5. `/blog/tampa-hillsborough-commercial-real-estate-guide-2026`
+- Updated dateModified: "2026-08-12" -> "2026-09-07"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 6. `/blog/tampa-retail-storefront-space-guide`
+- Updated dateModified: "2026-08-12" -> "2026-09-07"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 7. `/blog/parrish-fl-commercial-real-estate-2026`
+- Updated dateModified: "2026-08-14" -> "2026-09-07"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 8. `/blog/pasco-county-commercial-development-2026`
+- Updated dateModified: "2026-08-14" -> "2026-09-07"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 9. `/blog/multifamily-investment-tampa-bay-guide`
+- Updated dateModified: "2026-08-18" -> "2026-09-07"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 10. `/blog/clearwater-office-space-professional-services-firms`
+- Updated dateModified: "2026-08-18" -> "2026-09-07"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+---
+
 ## 2026-09-05 -- Batch 45 (9 pages improved)
 
 **Commit:** `9a871f6` | **Build:** clean (0 errors) | **Pages improved:** 9
