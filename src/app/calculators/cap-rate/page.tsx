@@ -207,10 +207,15 @@ export default function CapRatePage() {
                 Hillsborough County CRE Market &rarr;
               </Link>
             </li>
+            <li>
+              <Link href="/blog/tampa-bay-nnn-cap-rates-2026" className="text-black font-semibold no-underline hover:underline">
+                Tampa Bay NNN Cap Rates 2026 &rarr;
+              </Link>
+            </li>
           </ul>
         </section>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* CTA */}

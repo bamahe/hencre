@@ -64,7 +64,7 @@ export default function MultifamilyPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Property Types", href: "/commercial" }, { label: "Multifamily", href: "/commercial/multifamily" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Property Types", href: "/commercial" }, { label: "Multifamily", href: "/commercial/multifamily" }]} />
 
       <Hero
         title="Multifamily"
@@ -268,13 +268,15 @@ export default function MultifamilyPage() {
             <Link href="/services/investment-sales" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Investment Sales</Link>
             <Link href="/insights/1031-exchange-basics" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">1031 Exchange Basics</Link>
             <Link href="/calculators/cap-rate" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Cap Rate Calculator</Link>
+            <Link href="/blog/multifamily-investment-tampa-bay-guide" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tampa Bay Multifamily Guide</Link>
+            <Link href="/blog/tampa-bay-multifamily-cap-rates-2026" className="rounded-lg border border-[#E5E5E5] px-4 py-2 text-sm font-semibold text-black no-underline hover:bg-gray-50 hover:no-underline">Tampa Bay Multifamily Cap Rates</Link>
           </div>
         </div>
       </section>
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

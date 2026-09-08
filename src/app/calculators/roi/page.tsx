@@ -227,10 +227,15 @@ export default function ROIPage() {
                 Hillsborough County CRE Market &rarr;
               </Link>
             </li>
+            <li>
+              <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-black font-semibold no-underline hover:underline">
+                Florida 1031 Exchange Guide &rarr;
+              </Link>
+            </li>
           </ul>
         </section>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* CTA */}
