@@ -4,6 +4,53 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-08 -- Batch 47 (10 pages improved)
+
+**Commit:** `a874ad7` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/commercial/multifamily`
+- Added "Home" as first breadcrumb item (was missing -- only had "Property Types")
+- Expanded "Explore Other Property Types and Resources": 8 -> 10 links (added: /blog/multifamily-investment-tampa-bay-guide, /blog/tampa-bay-multifamily-cap-rates-2026)
+- Updated footer: "August 2026" -> "September 2026"
+
+### 2. `/commercial/land-development`
+- Expanded "Explore Other Property Types": 6 -> 10 links (added: /blog/commercial-property-zoning-florida-basics, /insights/cre-due-diligence-checklist, /markets/hillsborough, /markets/pasco)
+- Updated footer: "August 2026" -> "September 2026"
+
+### 3. `/commercial/retail-space`
+- Updated footer: "August 2026" -> "September 2026"
+- Note: already had 10 related resource links, breadcrumbs correct
+
+### 4. `/commercial/industrial-warehouse`
+- Updated footer: "August 2026" -> "September 2026"
+- Note: already had 10 related resource links
+
+### 5. `/commercial/nnn-net-lease`
+- Expanded "Explore Other Property Types and Resources": 8 -> 10 links (added: /services/investment-sales, /blog/what-is-triple-net-nnn-lease-and-why-investors-love-it)
+- Updated footer: "August 2026" -> "September 2026"
+
+### 6. `/commercial/office-space`
+- Updated footer: "August 2026" -> "September 2026"
+- Note: already had 10 related resource links
+
+### 7. `/calculators/cap-rate`
+- Added /blog/tampa-bay-nnn-cap-rates-2026 link to reach 10 internal links
+- Updated footer: "August 2026" -> "September 2026"
+
+### 8. `/calculators/roi`
+- Added /blog/florida-1031-exchange-what-investors-need-to-know link to reach 10 internal links
+- Updated footer: "August 2026" -> "September 2026"
+
+### 9. `/calculators/commercial-mortgage`
+- Updated footer: "August 2026" -> "September 2026"
+- Note: already had 10 internal links
+
+### 10. `/calculators/office-space`
+- Updated footer: "August 2026" -> "September 2026"
+- Note: already had 10 internal links
+
+---
+
 ## 2026-09-07 -- Batch 46 (10 pages improved)
 
 **Commit:** `fcd0ee8` | **Build:** clean (0 errors) | **Pages improved:** 10
