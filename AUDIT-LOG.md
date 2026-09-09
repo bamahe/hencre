@@ -3241,3 +3241,60 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ### 9. `/markets/gadsden`
 - Expanded relatedLinks: 6 -> 10 (added leon, gulf, cap rate calculator, tenant representation)
+
+---
+
+## Batch 39 — 2026-09-09
+
+**Commit:** `69ab847` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/insights/1031-exchange-basics`
+- Expanded relatedLinks: 7 -> 10 (added Investment Sales, SBA 504 Loan, Tampa Bay Opportunity Zones)
+- Updated dateModified: "2026-08-15" -> "2026-09-09"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 2. `/insights/cam-charges-explained`
+- Expanded relatedLinks: 7 -> 10 (added Commercial Retail Space, Cap Rate Calculator, Landlord Leasing Services)
+- Updated dateModified: "2026-08-15" -> "2026-09-09"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 3. `/insights/cre-due-diligence-checklist`
+- Expanded relatedLinks: 7 -> 10 (added Investment Sales, CRE Valuation, Commercial Property Zoning)
+- Updated dateModified: "2026-08-15" -> "2026-09-09"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 4. `/insights/gross-vs-net-lease`
+- Expanded relatedLinks: 7 -> 10 (added NNN Net Lease, Tenant Representation, Commercial Office Space)
+- Updated dateModified: "2026-08-15" -> "2026-09-09"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 5. `/insights/how-to-value-commercial-property`
+- Expanded relatedLinks: 7 -> 10 (added Cap Rate Calculator, Commercial Mortgage Calculator, Multifamily Investment Tampa Bay Guide)
+- Updated dateModified: "2026-08-15" -> "2026-09-09"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 6. `/insights/leasing-vs-buying-commercial`
+- Expanded relatedLinks: 7 -> 10 (added Investment Sales, SBA 504 Loan, Tampa Bay Owner-User CRE Buy vs Lease)
+- Updated dateModified: "2026-08-15" -> "2026-09-09"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 7. `/insights/nnn-lease-explained`
+- Expanded relatedLinks: 7 -> 10 (added Landlord Leasing, Tenant Representation, Tampa Bay Retail Market Q2 2026)
+- Added missing `image` field to Article schema: "https://hencre.com/og-image.png"
+- Updated dateModified: "2026-08-15" -> "2026-09-09"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 8. `/insights/what-is-a-cap-rate`
+- Expanded relatedLinks: 7 -> 10 (added ROI Calculator, Tampa Bay Multifamily Cap Rates 2026, CRE Valuation Services)
+- Updated dateModified: "2026-08-15" -> "2026-09-09"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 9. `/services/commercial-property-management`
+- Fixed author role: "REALTOR and Commercial Real Estate Advisor at REMAX Collective" -> "Broker Associate at REMAX Collective"
+- Fixed: "REMAX Commercial broker network" -> "REMAX Collective broker network"
+- Fixed em dash -> " -- " in broker bio paragraph
+- Updated footer: "August 2026" -> "September 2026"
+
+### 10. `/services/commercial-property-management/financial-reporting`
+- Added "Home" as first breadcrumb item (was missing; started with "Services")
+- Updated footer: "August 2026" -> "September 2026"
