@@ -87,7 +87,7 @@ export default function FinancialReportingPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "Commercial Property Management", href: "/services/commercial-property-management" }, { label: "Financial Reporting", href: "/services/commercial-property-management/financial-reporting" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "Commercial Property Management", href: "/services/commercial-property-management" }, { label: "Financial Reporting", href: "/services/commercial-property-management/financial-reporting" }]} />
 
       <Hero
         title="Commercial Property Financial Reporting"
@@ -303,7 +303,7 @@ export default function FinancialReportingPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

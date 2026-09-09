@@ -80,7 +80,7 @@ const schema = {
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-08-15",
+      dateModified: "2026-09-09",
       image: "https://hencre.com/og-image.png",
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/1031-exchange-basics",
@@ -131,6 +131,21 @@ const relatedLinks = [
     title: "Multifamily Commercial Properties",
     href: "/commercial/multifamily",
     description: "Multifamily assets make strong 1031 exchange replacement candidates.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Acquisition and disposition support for Florida commercial investors.",
+  },
+  {
+    title: "SBA 504 Loan Guide Tampa Bay",
+    href: "/blog/sba-504-loan-commercial-real-estate-tampa-bay",
+    description: "SBA financing options for owner-occupied commercial properties in Florida.",
+  },
+  {
+    title: "Tampa Bay Opportunity Zones 2026",
+    href: "/blog/tampa-bay-opportunity-zones-cre-2026",
+    description: "Tax-advantaged investment zones that pair well with 1031 exchange strategy.",
   },
 ];
 
@@ -277,7 +292,7 @@ export default function ExchangeBasicsPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

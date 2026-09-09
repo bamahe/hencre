@@ -80,7 +80,7 @@ const schema = {
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-08-15",
+      dateModified: "2026-09-09",
       image: "https://hencre.com/og-image.png",
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/leasing-vs-buying-commercial",
@@ -131,6 +131,21 @@ const relatedLinks = [
     title: "Commercial Office Space",
     href: "/commercial/office-space",
     description: "Available office space listings across Tampa Bay and Florida.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Buyer representation for commercial property acquisitions across Florida.",
+  },
+  {
+    title: "SBA 504 Loan Guide Tampa Bay",
+    href: "/blog/sba-504-loan-commercial-real-estate-tampa-bay",
+    description: "SBA financing that makes commercial property ownership accessible for small businesses.",
+  },
+  {
+    title: "Tampa Bay Owner-User CRE: Buy vs. Lease",
+    href: "/blog/tampa-bay-owner-user-commercial-real-estate-buy-vs-lease",
+    description: "Deep dive into the buy vs. lease decision specific to Tampa Bay market conditions.",
   },
 ];
 
@@ -302,7 +317,7 @@ export default function LeasingVsBuyingPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

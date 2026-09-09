@@ -80,7 +80,7 @@ const schema = {
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-08-15",
+      dateModified: "2026-09-09",
       image: "https://hencre.com/og-image.png",
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/gross-vs-net-lease",
@@ -131,6 +131,21 @@ const relatedLinks = [
     title: "How Commercial Leases Differ from Residential",
     href: "/blog/how-commercial-leases-differ-from-residential",
     description: "Key differences every new commercial tenant should know.",
+  },
+  {
+    title: "NNN Net Lease Investment Properties",
+    href: "/commercial/nnn-net-lease",
+    description: "Browse NNN investment opportunities across Florida.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "Barrett negotiates lease structures that protect tenants on every point.",
+  },
+  {
+    title: "Commercial Office Space",
+    href: "/commercial/office-space",
+    description: "Full-service gross leases dominate Class A office -- know what is included.",
   },
 ];
 
@@ -334,7 +349,7 @@ export default function GrossVsNetPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

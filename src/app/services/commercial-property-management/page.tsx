@@ -302,10 +302,10 @@ export default function CommercialPropertyManagementPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">How Does Barrett Henry Handle Commercial Property Management?</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
-              Barrett brings 23+ years of real estate experience to commercial property management. As a REALTOR® and Commercial Real Estate Advisor at REMAX Collective, Barrett integrates property management with REMAX Commercial&apos;s leasing and <Link href="/services/investment-sales" className="font-semibold text-black underline">investment sales</Link> services — giving owners a single point of contact for operations, leasing, and disposition strategy.
+              Barrett brings 23+ years of real estate experience to commercial property management. As a Broker Associate at REMAX Collective, Barrett integrates property management with leasing and <Link href="/services/investment-sales" className="font-semibold text-black underline">investment sales</Link> services -- giving owners a single point of contact for operations, leasing, and disposition strategy.
             </p>
             <p>
-              This integrated approach matters. When a tenant vacates, Barrett does not just list the space and wait. He activates <Link href="/services/commercial-property-management/vacancy-marketing" className="font-semibold text-black underline">vacancy marketing</Link> through LoopNet, CoStar, Crexi, and the REMAX Commercial broker network simultaneously. When a lease renewal approaches, he combines <Link href="/services/commercial-property-management/lease-administration" className="font-semibold text-black underline">lease administration</Link> data with current market analysis from his <Link href="/services/cre-valuation" className="font-semibold text-black underline">CRE valuation</Link> practice to negotiate terms that reflect true market value.
+              This integrated approach matters. When a tenant vacates, Barrett does not just list the space and wait. He activates <Link href="/services/commercial-property-management/vacancy-marketing" className="font-semibold text-black underline">vacancy marketing</Link> through LoopNet, CoStar, Crexi, and the REMAX Collective broker network simultaneously. When a lease renewal approaches, he combines <Link href="/services/commercial-property-management/lease-administration" className="font-semibold text-black underline">lease administration</Link> data with current market analysis from his <Link href="/services/cre-valuation" className="font-semibold text-black underline">CRE valuation</Link> practice to negotiate terms that reflect true market value.
             </p>
             <p>
               Barrett serves property owners across all 67 Florida counties, with offices in Tampa, Largo, and Brandon. Whether you own a single retail pad or a portfolio of office buildings, you get direct access to Barrett — not a call center, not a junior associate.
@@ -386,7 +386,7 @@ export default function CommercialPropertyManagementPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

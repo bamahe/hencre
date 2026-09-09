@@ -81,7 +81,7 @@ const schema = {
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-07",
-      dateModified: "2026-08-15",
+      dateModified: "2026-09-09",
       image: "https://hencre.com/og-image.png",
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/what-is-a-cap-rate",
@@ -133,6 +133,21 @@ const relatedLinks = [
     title: "Investment Sales Services",
     href: "/services/investment-sales",
     description: "How Barrett structures commercial investment transactions for buyers and sellers.",
+  },
+  {
+    title: "ROI Calculator",
+    href: "/calculators/roi",
+    description: "Model commercial real estate returns including leverage effect beyond cap rate.",
+  },
+  {
+    title: "Tampa Bay Multifamily Cap Rates 2026",
+    href: "/blog/tampa-bay-multifamily-cap-rates-2026",
+    description: "Current multifamily capitalization rate benchmarks across Tampa Bay submarkets.",
+  },
+  {
+    title: "CRE Valuation Services",
+    href: "/services/cre-valuation",
+    description: "Broker opinions of value grounded in local market cap rate data.",
   },
 ];
 
@@ -301,7 +316,7 @@ export default function CapRatePage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

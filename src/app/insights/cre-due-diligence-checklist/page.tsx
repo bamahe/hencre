@@ -80,7 +80,7 @@ const schema = {
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-08-15",
+      dateModified: "2026-09-09",
       image: "https://hencre.com/og-image.png",
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/cre-due-diligence-checklist",
@@ -131,6 +131,21 @@ const relatedLinks = [
     title: "Commercial Property Due Diligence Timeline",
     href: "/blog/commercial-property-due-diligence-timeline",
     description: "Week-by-week schedule for completing due diligence on time.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Barrett guides commercial acquisitions from letter of intent through closing.",
+  },
+  {
+    title: "CRE Valuation Services",
+    href: "/services/cre-valuation",
+    description: "Broker opinions of value to confirm asking price before entering due diligence.",
+  },
+  {
+    title: "Commercial Property Zoning Florida Basics",
+    href: "/blog/commercial-property-zoning-florida-basics",
+    description: "Verify zoning and permitted uses during due diligence -- essential in Florida.",
   },
 ];
 
@@ -284,7 +299,7 @@ export default function DueDiligencePage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

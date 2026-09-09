@@ -52,7 +52,8 @@ const schema = {
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-08-15",
+      dateModified: "2026-09-09",
+      image: "https://hencre.com/og-image.png",
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/nnn-lease-explained",
     },
@@ -167,6 +168,21 @@ const relatedLinks = [
     title: "Why Investors Love NNN Properties",
     href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
     description: "The case for NNN investments from an investor's perspective.",
+  },
+  {
+    title: "Landlord Leasing Services",
+    href: "/services/landlord-leasing",
+    description: "Landlord representation including NNN lease structuring and tenant procurement.",
+  },
+  {
+    title: "Tenant Representation Services",
+    href: "/services/tenant-representation",
+    description: "Protect your interests as a NNN tenant before signing any lease.",
+  },
+  {
+    title: "Tampa Bay Retail Market Q2 2026",
+    href: "/blog/tampa-bay-retail-market-q2-2026",
+    description: "Current NNN retail market conditions across Tampa Bay.",
   },
 ];
 
@@ -345,7 +361,7 @@ export default function NNNLeasePage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

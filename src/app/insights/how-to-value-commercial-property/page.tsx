@@ -80,7 +80,7 @@ const schema = {
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-08-15",
+      dateModified: "2026-09-09",
       image: "https://hencre.com/og-image.png",
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/how-to-value-commercial-property",
@@ -131,6 +131,21 @@ const relatedLinks = [
     title: "ROI Calculator",
     href: "/calculators/roi",
     description: "Model commercial real estate returns with your own numbers.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Verify your income approach valuation instantly with this free tool.",
+  },
+  {
+    title: "Commercial Mortgage Calculator",
+    href: "/calculators/commercial-mortgage",
+    description: "Model loan amounts and payments to inform your acquisition budget.",
+  },
+  {
+    title: "Multifamily Investment Tampa Bay Guide",
+    href: "/blog/multifamily-investment-tampa-bay-guide",
+    description: "Valuation considerations specific to Tampa Bay multifamily acquisitions.",
   },
 ];
 
@@ -296,7 +311,7 @@ export default function ValuationPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

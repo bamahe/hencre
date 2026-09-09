@@ -80,7 +80,7 @@ const schema = {
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-10",
-      dateModified: "2026-08-15",
+      dateModified: "2026-09-09",
       image: "https://hencre.com/og-image.png",
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/cam-charges-explained",
@@ -131,6 +131,21 @@ const relatedLinks = [
     title: "Tenant Representation Services",
     href: "/services/tenant-representation",
     description: "How Barrett negotiates lease terms that protect tenants.",
+  },
+  {
+    title: "Commercial Retail Space",
+    href: "/commercial/retail-space",
+    description: "CAM charges are most common in multi-tenant retail centers -- understand your costs before signing.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Factor CAM expenses into your NOI analysis before buying or leasing.",
+  },
+  {
+    title: "Landlord Leasing Services",
+    href: "/services/landlord-leasing",
+    description: "Landlord representation including guidance on competitive CAM structures.",
   },
 ];
 
@@ -278,7 +293,7 @@ export default function CAMChargesPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );
