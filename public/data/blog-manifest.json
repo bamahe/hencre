@@ -1429,5 +1429,21 @@
     "county": "Pinellas",
     "businessType": "land development or new construction",
     "image": null
+  },
+  {
+    "slug": "winter-haven-polk-county-cre-market-guide-2026",
+    "title": "Winter Haven CRE: Polk County Market Guide 2026",
+    "excerpt": "Winter Haven is no longer just a lakeside bedroom community — it's a legitimate commercial real estate submarket drawing investors, retailers, and industrial users across Polk County.",
+    "date": "2026-09-09",
+    "category": "city-market",
+    "city": "Winter Haven",
+    "county": "Polk",
+    "businessType": null,
+    "image": {
+      "url": "/images/blog/winter-haven-polk-county-cre-market-guide-2026.jpg",
+      "alt": "a street with cars parked on the side of it",
+      "photographer": "Asafh Kalebe",
+      "link": "https://unsplash.com/@asafhkalebe"
+    }
   }
 ]
