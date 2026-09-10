@@ -4,6 +4,55 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-10 -- Batch 48 (10 pages improved)
+
+**Commit:** `d0d6933` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/bradenton-manatee-county-commercial-real-estate-2026`
+- Updated dateModified: "2026-08-15" -> "2026-09-10"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 2. `/blog/riverview-hillsborough-nnn-retail-landlord-investment`
+- Updated dateModified: "2026-08-16" -> "2026-09-10"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 3. `/blog/clearwater-retail-space-guide`
+- Updated dateModified: "2026-08-18" -> "2026-09-10"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 4. `/blog/east-tampa-us-301-industrial-corridor-2026`
+- Updated dateModified: "2026-08-18" -> "2026-09-10"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 5. `/blog/florida-business-rent-tax-repeal-tampa-bay`
+- Updated dateModified: "2026-08-18" -> "2026-09-10"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 6. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Updated dateModified: "2026-08-19" -> "2026-09-10"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 7. `/blog/how-to-calculate-commercial-property-roi`
+- Updated dateModified: "2026-08-19" -> "2026-09-10"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+- Expanded relatedLinks: 4 -> 10 (added: Cap Rate Calculator, ROI Calculator, Investment Sales, Florida 1031 Exchange, Tampa Bay NNN Cap Rates 2026, Hillsborough County Market)
+
+### 8. `/blog/land-o-lakes-pasco-county-commercial-real-estate`
+- Updated dateModified: "2026-08-19" -> "2026-09-10"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 9. `/blog/new-port-richey-commercial-real-estate-investors`
+- Updated dateModified: "2026-08-19" -> "2026-09-10"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+- Expanded relatedLinks: 8 -> 10 (added: Land O&apos; Lakes CRE guide, Cap Rate Calculator)
+
+### 10. `/blog/port-tampa-bay-fourth-cruise-terminal-channel-district-cre`
+- Updated dateModified: "2026-08-19" -> "2026-09-10"
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+- Expanded relatedLinks: 5 -> 10 (added: Gasworx Tampa 2026, Historic Gas Plant District St. Pete, Investment Sales, Hillsborough County Market, Tampa Bay Retail Market Q2 2026)
+
+---
+
 ## 2026-09-08 -- Batch 47 (10 pages improved)
 
 **Commit:** `a874ad7` | **Build:** clean (0 errors) | **Pages improved:** 10
