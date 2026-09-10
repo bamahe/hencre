@@ -85,7 +85,7 @@ const schema = {
       description:
         "When and why to hire a commercial real estate broker — tenant representation, buyer advocacy, and lease negotiation.",
       datePublished: "2026-04-28",
-      dateModified: "2026-08-19",
+      dateModified: "2026-09-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -334,7 +334,7 @@ export default function NeedABrokerPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

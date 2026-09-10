@@ -86,7 +86,7 @@ const schema = {
       description:
         "Site work began August 2026 on Port Tampa Bay's fourth cruise terminal. The projected $100M annual economic impact will reshape commercial real estate demand in the Channel District and nearby waterfront submarkets.",
       datePublished: "2026-08-05",
-      dateModified: "2026-08-19",
+      dateModified: "2026-09-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -132,6 +132,31 @@ const relatedLinks = [
     title: "Tampa Bay Restaurant & Food-and-Beverage Space 2026",
     href: "/blog/tampa-bay-restaurant-food-beverage-space-2026",
     description: "How hospitality-driven foot traffic translates into F&B commercial real estate demand.",
+  },
+  {
+    title: "Gasworx Tampa 2026: Office, Retail & CRE Investment Guide",
+    href: "/blog/gasworx-tampa-ybor-office-commercial-2026",
+    description: "The mixed-use development reshaping the Ybor City and Channel District boundary.",
+  },
+  {
+    title: "GreenGas Plant District St. Pete CRE 2026",
+    href: "/blog/historic-gas-plant-district-st-pete-cre-2026",
+    description: "How stadium-anchored redevelopment across the bay compares with Tampa&apos;s Channel District trajectory.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett Henry helps investors acquire and exit commercial assets in waterfront-adjacent Tampa submarkets.",
+  },
+  {
+    title: "Hillsborough County Commercial Market",
+    href: "/markets/hillsborough",
+    description: "County-level context for Channel District commercial real estate in the broader Hillsborough market.",
+  },
+  {
+    title: "Tampa Bay Mixed-Use and Retail Market Q2 2026",
+    href: "/blog/tampa-bay-retail-market-q2-2026",
+    description: "How hospitality and retail vacancy trends are shaping opportunities in Tampa&apos;s waterfront submarkets.",
   },
 ];
 
@@ -275,7 +300,7 @@ export default function PortTampaBayFourthCruiseTerminalPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

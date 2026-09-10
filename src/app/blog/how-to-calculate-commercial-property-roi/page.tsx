@@ -85,7 +85,7 @@ const schema = {
       description:
         "ROI calculation methods for commercial real estate investors — cap rate, cash-on-cash, IRR, and total return.",
       datePublished: "2026-05-31",
-      dateModified: "2026-08-19",
+      dateModified: "2026-09-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -126,6 +126,36 @@ const relatedLinks = [
     title: "CRE Valuation Services",
     href: "/services/cre-valuation",
     description: "Professional property valuation for investment decisions.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Run your own cap rate and net operating income calculations instantly.",
+  },
+  {
+    title: "ROI Calculator",
+    href: "/calculators/roi",
+    description: "Estimate total return on investment for commercial acquisitions.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett Henry helps investors buy and sell income-producing commercial property across Florida.",
+  },
+  {
+    title: "Florida 1031 Exchange: What Investors Need to Know",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "Defer capital gains by reinvesting proceeds from a Florida commercial property sale.",
+  },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "Current cap rate benchmarks for net lease properties across the Tampa Bay region.",
+  },
+  {
+    title: "Hillsborough County Commercial Market",
+    href: "/markets/hillsborough",
+    description: "County-level market data, active listings, and investment context for Hillsborough County.",
   },
 ];
 
@@ -311,7 +341,7 @@ export default function CalculateROIPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

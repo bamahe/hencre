@@ -79,7 +79,7 @@ const schema = {
       description:
         "Explore Bradenton and Manatee County commercial real estate in 2026. Discover top submarkets, investment opportunities, and why this Gulf Coast county is attracting serious CRE attention.",
       datePublished: "2026-08-14",
-      dateModified: "2026-08-15",
+      dateModified: "2026-09-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -244,7 +244,7 @@ export default function BlogPost() {
           For tenants, 2026 may represent one of the last windows to lock in favorable lease terms in submarkets that are rapidly tightening. A clear site selection strategy and experienced local <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> will be critical to securing the right space at the right economics. For sellers, the current market supports strong pricing on well-located assets, particularly <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial</Link> and <Link href="/commercial/nnn-net-lease" className="text-accent underline">net-lease retail</Link>.
         </p>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* FAQ Section */}

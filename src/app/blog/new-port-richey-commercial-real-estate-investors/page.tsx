@@ -65,7 +65,7 @@ const schema = {
       headline: "New Port Richey CRE: Investor Opportunities 2026",
       description: "Discover why investors are targeting New Port Richey commercial real estate. Cap rates, NNN deals, and landlord strategy. Call Barrett at (813) 733-7907.",
       datePublished: "2026-07-22",
-      dateModified: "2026-08-19",
+      dateModified: "2026-09-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -126,7 +126,17 @@ const relatedLinks = [
     title: "Investment Sales Services",
     href: "/services/investment-sales",
     description: "How Barrett helps investors acquire and exit commercial assets across Florida.",
-  }
+  },
+  {
+    title: "Land O&apos; Lakes Commercial Real Estate: Pasco County Guide",
+    href: "/blog/land-o-lakes-pasco-county-commercial-real-estate",
+    description: "Adjacent Pasco submarket context for investors evaluating New Port Richey versus Land O&apos; Lakes.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Quickly calculate capitalization rates for commercial properties across Pasco County.",
+  },
 ];
 
 export default function BlogPost() {
@@ -204,7 +214,7 @@ export default function BlogPost() {
 
       {/* ---- Disclaimer ---- */}
       <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#999999]">Last updated: August 2026</p>
+        <p className="text-xs text-[#999999]">Last updated: September 2026</p>
         <p className="mt-1 text-xs text-[#999999]">
           This article is for informational purposes only and does not constitute legal, tax, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>

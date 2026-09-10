@@ -86,7 +86,7 @@ const schema = {
       description:
         "Florida eliminated its Business Rent Tax on commercial leases effective October 1, 2025. Here is exactly how much Tampa Bay tenants are saving and what to do if your landlord is still charging the tax.",
       datePublished: "2026-07-30",
-      dateModified: "2026-08-18",
+      dateModified: "2026-09-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -309,7 +309,7 @@ export default function FloridaBusinessRentTaxRepealPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

@@ -80,7 +80,7 @@ const schema = {
       description:
         "The US 301 corridor in East Tampa is one of Florida's fastest-growing industrial submarkets. Here's what investors need to know about the projects, rental rates, and long-term investment case.",
       datePublished: "2026-08-12",
-      dateModified: "2026-08-18",
+      dateModified: "2026-09-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -281,7 +281,7 @@ export default function EastTampaUS301IndustrialPage() {
           With 23+ years of commercial real estate experience as a Broker Associate at REMAX Collective, I help investors and tenants navigate Tampa Bay&apos;s industrial market with data-driven analysis and relationships with the developers and owners shaping this submarket. Call me at <a href="tel:+18139502111" className="text-accent underline">813-950-2111</a> to discuss what&apos;s available and what fits your goals.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
