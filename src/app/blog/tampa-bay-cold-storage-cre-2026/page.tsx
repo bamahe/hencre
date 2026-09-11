@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -85,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay's cold storage and temperature-controlled warehouse market is drawing $40M+ in new investment. Here is what is driving demand, which submarkets are active, and what investors and tenants need to know in 2026.",
       datePublished: "2026-08-03",
-      dateModified: "2026-08-27",
+      dateModified: "2026-09-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -210,7 +211,7 @@ export default function TampaBayColdStorageCRE2026Page() {
           Meanwhile, a St. Louis-based developer through the Sansone Group has broken ground on a speculative cold storage facility in the Tampa market — a signal that outside capital has enough conviction in Tampa&apos;s food distribution demand to build without a pre-leased anchor tenant in place. Speculative cold storage development is relatively rare nationally, making Tampa&apos;s emergence as a spec-development target a meaningful data point about where institutional underwriters see the rent and occupancy trajectory.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For context on how Port Tampa Bay&apos;s expansion is creating the logistics demand that drives these investments, see our post on <a href="/blog/port-tampa-bay-expansion-industrial-cre-investors" className="text-accent underline">Port Tampa Bay and industrial CRE investors</a>.
+          For context on how Port Tampa Bay&apos;s expansion is creating the logistics demand that drives these investments, see our post on <Link href="/blog/port-tampa-bay-expansion-industrial-cre-investors" className="text-accent underline">Port Tampa Bay and industrial CRE investors</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Is Tampa Bay Specifically Positioned for Cold Storage Growth?</h2>
@@ -227,7 +228,7 @@ export default function TampaBayColdStorageCRE2026Page() {
           <strong>Interstate corridor position.</strong> Tampa Bay sits at the intersection of I-4, I-75, and I-275, giving cold storage operators convenient access to Orlando (90 minutes), Miami (four hours), and the entire Gulf Coast corridor. For food distributors servicing multi-market territories in Florida — and Florida&apos;s food service industry is among the largest in the country given tourism volume — Tampa is a natural central distribution point that avoids the congestion of Miami while maintaining Southeastern reach.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors looking at Tampa Bay&apos;s broader industrial picture, our <a href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">Tampa industrial market outlook</a> covers the wider warehouse and distribution landscape.
+          For investors looking at Tampa Bay&apos;s broader industrial picture, our <Link href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">Tampa industrial market outlook</Link> covers the wider warehouse and distribution landscape.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do Cold Storage Cap Rates Compare to Other Industrial Product Types?</h2>
@@ -238,7 +239,7 @@ export default function TampaBayColdStorageCRE2026Page() {
           The pricing premium for cold storage versus dry warehouse reflects several factors. First, replacement cost is higher — you cannot build a comparable cold storage building at the same price as a dry warehouse, so replacement cost support puts a floor under values. Second, cold storage tenants tend to sign longer leases and renew at higher rates because the cost and operational disruption of moving a cold chain operation is substantial — a tenant who has invested in racking, refrigeration connections, and process integration has a high effective switching cost. Third, the limited supply of purpose-built cold storage in most markets means that well-located facilities rarely see extended vacancy.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Understanding how to underwrite these properties accurately — accounting for the refrigeration equipment lifecycle, the higher NNN charges associated with energy-intensive operations, and the tenant credit quality of food distribution companies versus conventional industrial users — is essential before making acquisition decisions. Our guide on <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">calculating commercial property ROI</a> covers the framework that applies here.
+          Understanding how to underwrite these properties accurately — accounting for the refrigeration equipment lifecycle, the higher NNN charges associated with energy-intensive operations, and the tenant credit quality of food distribution companies versus conventional industrial users — is essential before making acquisition decisions. Our guide on <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">calculating commercial property ROI</Link> covers the framework that applies here.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Cold Chain Tenants Know Before Leasing Tampa Bay Cold Storage Space?</h2>
@@ -253,7 +254,7 @@ export default function TampaBayColdStorageCRE2026Page() {
             <strong>Lease terms are longer than dry warehouse.</strong> Expect five to ten year initial terms to be the landlord&apos;s preference. Landlords have spent significantly more per square foot to deliver cold storage, and they need longer lease security to justify the investment and satisfy their lenders. Shorter initial terms are sometimes negotiable if you are a credit tenant with an established operating history — but the rent premium for a three-year cold storage lease versus a seven-year lease can be meaningful.
           </li>
           <li>
-            <strong>Understand what NNN includes.</strong> Cold storage <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net leases</a> often include a refrigeration energy passthrough that conventional warehouse NNN does not have. Before signing, understand exactly what goes into your CAM and utility reconciliation — refrigeration energy costs can be $2 to $4 per square foot annually in addition to base rent and standard <a href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charges</a>.
+            <strong>Understand what NNN includes.</strong> Cold storage <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net leases</Link> often include a refrigeration energy passthrough that conventional warehouse NNN does not have. Before signing, understand exactly what goes into your CAM and utility reconciliation -- refrigeration energy costs can be $2 to $4 per square foot annually in addition to base rent and standard <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charges</Link>.
           </li>
           <li>
             <strong>Verify temperature specifications carefully.</strong> Not all cold storage is created equal. A building rated for 34°F refrigerated storage may not be capable of maintaining -10°F frozen zones without significant infrastructure investment. Confirm the building&apos;s temperature envelope, insulation specifications, and refrigeration equipment capacity matches your operational requirements before any letter of intent is executed — retrofitting inadequate cold storage infrastructure mid-lease is expensive and disruptive.
@@ -268,10 +269,10 @@ export default function TampaBayColdStorageCRE2026Page() {
           Cold storage has historically been dominated by institutional investors and specialized REITs — companies like Americold and Lineage Logistics — because the asset class requires specialized property management expertise and higher capital thresholds. A purpose-built cold storage facility in Tampa Bay today costs $18 to $25 million to construct, which puts ground-up development beyond the reach of most private investors.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          That said, the market is not closed to private capital. Existing cold storage facilities that come to market — through owner-user sales, estate situations, or value-add repositioning opportunities — offer a path for private investors who can underwrite the operational complexity and secure appropriate financing. The <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process for cold storage</a> is more intensive than for dry warehouse: refrigeration equipment condition and remaining useful life, utility capacity and contracts, environmental history of prior refrigerant use (older facilities may have used R-22 or other legacy refrigerants), and fire suppression system compatibility all require specialized review.
+          That said, the market is not closed to private capital. Existing cold storage facilities that come to market -- through owner-user sales, estate situations, or value-add repositioning opportunities -- offer a path for private investors who can underwrite the operational complexity and secure appropriate financing. The <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process for cold storage</Link> is more intensive than for dry warehouse: refrigeration equipment condition and remaining useful life, utility capacity and contracts, environmental history of prior refrigerant use (older facilities may have used R-22 or other legacy refrigerants), and fire suppression system compatibility all require specialized review.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors interested in industrial exposure at a lower entry point, Tampa Bay&apos;s <a href="/blog/tampa-bay-small-bay-industrial-flex-2026" className="text-accent underline">small bay industrial and flex space market</a> offers strong risk-adjusted returns with more manageable capital requirements and comparable supply constraints. If you want direct cold storage exposure but are not ready to acquire a standalone facility, some private equity structures focused on industrial real estate include cold storage as part of a diversified industrial portfolio — worth exploring with a commercial broker who can connect you with appropriate capital structures.
+          For investors interested in industrial exposure at a lower entry point, Tampa Bay&apos;s <Link href="/blog/tampa-bay-small-bay-industrial-flex-2026" className="text-accent underline">small bay industrial and flex space market</Link> offers strong risk-adjusted returns with more manageable capital requirements and comparable supply constraints. If you want direct cold storage exposure but are not ready to acquire a standalone facility, some private equity structures focused on industrial real estate include cold storage as part of a diversified industrial portfolio — worth exploring with a commercial broker who can connect you with appropriate capital structures.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does Tampa Bay&apos;s Cold Storage Pipeline Look Like Through 2027?</h2>
@@ -293,7 +294,7 @@ export default function TampaBayColdStorageCRE2026Page() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
@@ -301,7 +302,7 @@ export default function TampaBayColdStorageCRE2026Page() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

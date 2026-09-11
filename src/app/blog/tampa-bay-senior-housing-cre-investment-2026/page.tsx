@@ -84,7 +84,7 @@ const schema = {
       description:
         "Senior housing occupancy in Tampa Bay hit 90%+ in 2026. A guide to independent living, assisted living, and memory care as CRE investment assets in the Tampa Bay market.",
       datePublished: "2026-07-22",
-      dateModified: "2026-08-31",
+      dateModified: "2026-09-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -322,7 +322,7 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: August 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: September 2026</p>
       </section>
 
       <CTASection
