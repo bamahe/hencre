@@ -3347,3 +3347,45 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### 10. `/services/commercial-property-management/financial-reporting`
 - Added "Home" as first breadcrumb item (was missing; started with "Services")
 - Updated footer: "August 2026" -> "September 2026"
+
+---
+
+## Batch 49 — 2026-09-11
+
+**Commit:** `562493e` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-cold-storage-cre-2026`
+- Added missing `import Image from "next/image"`
+- Fixed author bio: `<img>` -> `<Image>` component
+- Converted 5 raw `<a>` tags in article body to `<Link>` components
+- Updated dateModified: "2026-08-27" -> "2026-09-11"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 2. `/blog/tampa-bay-hospitality-hotel-cre-2026`
+- Converted 6 raw `<a>` tags in article body to `<Link>` components
+- Updated dateModified: "2026-09-04" -> "2026-09-11"
+
+### 3. `/blog/tampa-bay-senior-housing-cre-investment-2026`
+- Updated dateModified: "2026-08-31" -> "2026-09-11"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 4. `/services/page.tsx`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 5. `/services/tenant-representation`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 6. `/services/commercial-property-management/tenant-relations`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 7. `/services/commercial-property-management/lease-administration`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 8. `/services/commercial-property-management/maintenance-operations`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 9. `/services/commercial-property-management/vacancy-marketing`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 10. `/calculators/page.tsx`
+- Updated footer: "August 2026" -> "September 2026"
