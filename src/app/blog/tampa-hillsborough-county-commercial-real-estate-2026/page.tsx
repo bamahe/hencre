@@ -83,7 +83,7 @@ const schema = {
       description:
         "Explore Tampa and Hillsborough County commercial real estate in 2026. Office, retail, industrial, and investment opportunities across one of Florida's fastest-growing metros.",
       datePublished: "2026-08-26",
-      dateModified: "2026-08-28",
+      dateModified: "2026-09-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -290,6 +290,7 @@ export default function BlogPost() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
+        <p className="text-xs text-[#666666] mt-2">Last updated: September 2026</p>
       </section>
 
       <CTASection

@@ -289,7 +289,7 @@ export default function Page() {
 
         <RelatedLinks links={relatedLinks} />
 
-        <p className="text-sm text-gray-500 mt-8">Last updated: August 2026</p>
+        <p className="text-sm text-gray-500 mt-8">Last updated: September 2026</p>
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Hardee County?"
