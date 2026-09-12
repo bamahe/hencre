@@ -4,6 +4,86 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-12 -- Batch 50 (10 pages improved)
+
+**Commit:** `708b5c8` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-hillsborough-county-commercial-real-estate-2026`
+- Updated dateModified: "2026-08-28" -> "2026-09-12"
+- Added "Last updated: September 2026" footer (was missing)
+
+### 2. `/blog/winter-haven-polk-county-cre-market-guide-2026`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Merged dual SchemaOrg calls (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Added dateModified: "2026-09-12"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Removed nowtb.com from author sameAs array
+- Added "Home" as first breadcrumb item (was missing)
+- Converted `<img>` -> `<Image>` in author bio
+- Fixed author bio credentials: added "| e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted mid-CTA `<a href="/contact">` -> `<Link>`
+- Fixed body text: "REALTOR® and Commercial Real Estate Advisor at REMAX Commercial Real Estate" -> "Broker Associate at REMAX Collective"
+- Fixed CTASection body: "REMAX Commercial Real Estate" -> "REMAX Collective"
+- Added "Last updated: September 2026" footer
+
+### 3. `/blog/brandon-nnn-landlord-investment-strategy-hillsborough`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Merged dual SchemaOrg calls into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Added dateModified: "2026-09-12"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Removed nowtb.com from author sameAs array
+- Added "Home" as first breadcrumb item (was missing)
+- Converted `<img>` -> `<Image>` in author bio
+- Fixed author bio credentials: added "| e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted mid-CTA `<a href="/contact">` -> `<Link>`
+- Fixed body text: "REMAX Commercial Real Estate" -> "REMAX Collective" (2 instances)
+- Added "Last updated: September 2026" footer
+
+### 4. `/blog/dunedin-pinellas-county-commercial-real-estate-2026`
+- Shortened title from 96 chars -> "Dunedin FL Commercial Real Estate 2026 | HenCRE" (47 chars)
+- Updated OG title to match
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Merged dual SchemaOrg calls into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Added dateModified: "2026-09-12"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Removed nowtb.com from author sameAs array
+- Added "Home" as first breadcrumb item (was missing)
+- Fixed relatedLinks: added missing /blog/ prefix to all 5 hrefs
+- Expanded relatedLinks: 5 -> 10 (added Pinellas County Market, North Pinellas CRE 2026, What Makes Good Investment, Investment Sales, Tenant Representation)
+- Converted `<img>` -> `<Image>` in author bio
+- Fixed author bio credentials: added "| e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted mid-CTA `<a href="/contact">` -> `<Link>`
+- Added "Last updated: September 2026" footer
+
+### 5. `/markets/dixie`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 6. `/markets/escambia`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 7. `/markets/flagler`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 8. `/markets/glades`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 9. `/markets/gulf`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 10. `/markets/hardee`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+---
+
 ## 2026-09-10 -- Batch 48 (10 pages improved)
 
 **Commit:** `d0d6933` | **Build:** clean (0 errors) | **Pages improved:** 10
