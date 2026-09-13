@@ -4,6 +4,50 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-13 -- Batch 51 (10 pages improved)
+
+**Commit:** `0845972` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/clearwater-beach-commercial-real-estate-2026`
+- Replaced nowtb.com external link with internal Links to /markets/pinellas and /blog/st-petersburg-commercial-real-estate-2026
+- Replaced fastselleasysale.com external link with internal Link to /services/dispositions
+- Updated dateModified: "2026-09-09" -> "2026-09-13"
+
+### 2. `/blog/florida-live-local-act-tampa-bay-cre-2026`
+- Replaced fastselleasysale.com external link with internal Link to /services/dispositions
+- Replaced nowtb.com external link with internal Links to /markets/hillsborough and /markets/pinellas
+- Updated dateModified: "2026-09-10" -> "2026-09-13"
+
+### 3. `/blog/seminole-heights-commercial-real-estate-2026`
+- Replaced fastselleasysale.com external link with internal Link to /services/dispositions
+- Updated dateModified: "2026-09-06" -> "2026-09-13"
+
+### 4. `/blog/tampa-bay-childcare-nnn-investment-2026`
+- Replaced fastselleasysale.com external link with internal Link to /services/dispositions
+- Updated dateModified: "2026-09-11" -> "2026-09-13"
+
+### 5. `/blog/tampa-bay-commercial-mortgage-rates-2026`
+- Replaced fastselleasysale.com external link with internal Link to /services/dispositions
+- Updated dateModified: "2026-09-07" -> "2026-09-13"
+
+### 6. `/blog/tampa-bay-pharmacy-drugstore-nnn-investment-2026`
+- Replaced fastselleasysale.com external link with internal Link to /services/dispositions
+- Updated dateModified: "2026-09-08" -> "2026-09-13"
+
+### 7. `/markets/hillsborough`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 8. `/markets/pinellas`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 9. `/markets/pasco`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+### 10. `/markets/sarasota`
+- Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
+
+---
+
 ## 2026-09-12 -- Batch 50 (10 pages improved)
 
 **Commit:** `708b5c8` | **Build:** clean (0 errors) | **Pages improved:** 10
