@@ -86,7 +86,7 @@ const schema = {
       description:
         "A guide to commercial real estate investment on Clearwater Beach — hospitality, beachfront retail, cap rates, insurance considerations, and the Pelican Walk Plaza listing.",
       datePublished: "2026-09-09",
-      dateModified: "2026-09-09",
+      dateModified: "2026-09-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -290,11 +290,12 @@ export default function ClearwaterBeachCREPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           Buyers who want to evaluate the Clearwater Beach market alongside the broader Pinellas County investment picture should also look at the{" "}
           <Link href="/blog/north-pinellas-dunedin-tarpon-springs-commercial-real-estate-2026" className="text-accent underline">northern Pinellas beach communities</Link> including Dunedin and Tarpon Springs, where the tourism CRE market has different characteristics and supply constraints. For a full picture of the Tampa Bay area&apos;s residential and commercial market dynamics,{" "}
-          <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">nowtb.com</a> covers neighborhood-level market data across the entire region.
+          <Link href="/markets/pinellas" className="text-accent underline">Pinellas County commercial real estate market</Link> page covers the broader county investment landscape, and the{" "}
+          <Link href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate guide</Link> provides a complementary mainland market perspective.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If you are a current owner of a Clearwater Beach commercial property looking to sell quickly — whether a small hotel, a restaurant building, or a retail storefront —{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">fastselleasysale.com</a> offers a direct cash purchase option for commercial and investment properties throughout Florida.
+          our <Link href="/services/dispositions" className="text-accent underline">commercial property dispositions</Link> service can help you evaluate exit strategies and connect with qualified buyers for Clearwater Beach commercial assets.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Investors Know Before Buying on Clearwater Beach?</h2>

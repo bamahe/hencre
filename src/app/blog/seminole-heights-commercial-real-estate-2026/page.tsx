@@ -86,7 +86,7 @@ const schema = {
       description:
         "Seminole Heights is Tampa's most authentic neighborhood commercial district — walkable storefronts, independent restaurants, breweries, and rising investor interest along N Florida Avenue. A complete guide for tenants and investors in 2026.",
       datePublished: "2026-09-06",
-      dateModified: "2026-09-06",
+      dateModified: "2026-09-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -290,7 +290,7 @@ export default function SeminoleHeightsCREPage() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If you are a seller of a Seminole Heights commercial building who wants to move quickly — particularly a property that needs work or is currently vacant — a direct-sale approach through{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Fast Sell Easy Sale</a> may be worth exploring alongside a traditional listing process, depending on your timeline and condition.
+          our <Link href="/services/dispositions" className="text-accent underline">commercial property dispositions</Link> service may be worth exploring alongside a traditional listing process, depending on your timeline and condition.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Tenants Know Before Leasing in Seminole Heights?</h2>

@@ -89,7 +89,7 @@ const schema = {
       description:
         "Walgreens went private in August 2025 and CVS is now the only investment-grade pharmacy NNN option. What Tampa Bay investors holding or buying drug store net lease properties need to know in 2026.",
       datePublished: "2026-09-08",
-      dateModified: "2026-09-08",
+      dateModified: "2026-09-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -224,16 +224,11 @@ export default function TampaBayPharmacyNNNPage() {
           <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">
             1031 exchange into a higher-credit NNN property
           </Link>{" "}
-          is often the most tax-efficient path. You can also explore a cash sale and reinvestment option through{" "}
-          <a
-            href="https://fastselleasysale.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent underline"
-          >
-            Fast Sell Easy Sale
-          </a>{" "}
-          if speed of execution matters more than maximizing net proceeds.
+          is often the most tax-efficient path. You can also explore a structured exit through our{" "}
+          <Link href="/services/dispositions" className="text-accent underline">
+            commercial property dispositions
+          </Link>{" "}
+          service if speed of execution matters more than maximizing net proceeds.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">

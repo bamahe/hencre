@@ -85,7 +85,7 @@ const schema = {
       description:
         "Childcare centers are one of the fastest-growing NNN investment categories in Tampa Bay. With KinderCare public, Bright Horizons expanding, and Tampa Bay adding 270,000 residents in five years, here is what investors need to know.",
       datePublished: "2026-09-11",
-      dateModified: "2026-09-11",
+      dateModified: "2026-09-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -291,8 +291,8 @@ export default function TampaBayChildcareNNNPage() {
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For investors considering a childcare NNN acquisition while simultaneously selling another property, exploring a fast-sale option on the departing asset can simplify the exchange timeline.{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">FastSellEasySale.com</a>{" "}
-          offers Tampa Bay sellers an expedited cash-offer path for commercial and investment properties when exchange timing requires it.
+          our <Link href="/services/dispositions" className="text-accent underline">commercial property dispositions</Link>{" "}
+          service provides Tampa Bay sellers a structured exit path for commercial and investment properties when exchange timing requires it.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Childcare NNN Investing in Tampa Bay</h2>

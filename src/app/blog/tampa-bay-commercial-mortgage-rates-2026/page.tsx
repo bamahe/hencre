@@ -86,7 +86,7 @@ const schema = {
       description:
         "Commercial mortgage rates in Tampa Bay range from 5.41% to 7%+ depending on loan type, property, and borrower. What investors and owner-users need to know about financing CRE in today's rate environment.",
       datePublished: "2026-09-07",
-      dateModified: "2026-09-07",
+      dateModified: "2026-09-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -266,7 +266,7 @@ export default function TampaBayCommercialMortgageRates2026Page() {
           The <Link href="/blog/tampa-bay-cre-debt-maturity-wall-2026" className="text-accent underline">commercial debt maturity wall</Link> is also a factor in Tampa Bay&apos;s pricing. Loans originated in 2019 through 2022 at low rates are coming due and being refinanced at materially higher rates — which is squeezing cash flow for some property owners and creating motivated sellers. For buyers with access to capital, the distress in refinancing situations can create acquisition opportunities at prices that would not have been available in a looser lending environment.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Owners who need to exit — whether because of refinancing pressure, portfolio rebalancing, or a change in business circumstances — may want to explore options for a <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">fast sale of commercial property</a>, including structures where timing and certainty of close matter more than maximizing list price.
+          Owners who need to exit — whether because of refinancing pressure, portfolio rebalancing, or a change in business circumstances — may want to explore options through our <Link href="/services/dispositions" className="text-accent underline">commercial property dispositions</Link> service, including structures where timing and certainty of close matter more than maximizing list price.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Can You Get the Best Commercial Mortgage Rate in Tampa Bay?</h2>

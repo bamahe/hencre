@@ -85,7 +85,7 @@ const schema = {
       description:
         "Florida's Live Local Act 4.0 took effect July 1, 2026, allowing multifamily housing on commercially and industrially zoned land across Tampa Bay. What commercial property owners, industrial landowners, and CRE investors need to know.",
       datePublished: "2026-09-10",
-      dateModified: "2026-09-10",
+      dateModified: "2026-09-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -229,8 +229,8 @@ export default function FloridaLiveLocalActTampaBayCRE2026Page() {
             <strong>Selling to a developer versus operating the existing use.</strong> For industrial landowners who are also owner-users, the question is whether a Live Local-driven land premium is large enough to justify selling and relocating. That decision is different for every operator and involves factors beyond land value — lease rates for alternative space, relocation costs, business disruption, and tax treatment of the gain. A{" "}
             <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link>{" "}
             can defer the capital gains tax from a commercial land sale, which changes the net economics significantly for long-held properties. Industrial owners who want to explore what their property might be worth to a residential developer should also explore options through{" "}
-            <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fastselleasysale.com</a>{" "}
-            — where commercial properties and land can be evaluated for a fast-sale option.
+            our <Link href="/services/dispositions" className="text-accent underline">commercial property dispositions</Link>{" "}
+            service, where commercial properties and land can be evaluated for a structured exit.
           </li>
         </ul>
 
@@ -257,8 +257,8 @@ export default function FloridaLiveLocalActTampaBayCRE2026Page() {
           and the current{" "}
           <Link href="/blog/tampa-bay-multifamily-cap-rates-2026" className="text-accent underline">multifamily cap rate environment</Link>{" "}
           provide the broader context for evaluating acquisitions alongside the Live Local Act supply dynamic. For Tampa Bay residents and new residents exploring the area, full neighborhood and market information is available at{" "}
-          <a href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</a>{" "}
-          — a resource for understanding Tampa Bay neighborhoods, pricing, and what to expect across the region&apos;s diverse submarkets.
+          our <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> and{" "}
+          <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link> market pages for neighborhood-level data across the region&apos;s core submarkets.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Live Local Act 4.0 for Tampa Bay CRE</h2>
