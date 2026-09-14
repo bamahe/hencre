@@ -80,7 +80,7 @@ const schema = {
       description:
         "What CAM charges cover, how they are calculated, and how to negotiate better terms.",
       datePublished: "2026-06-03",
-      dateModified: "2026-08-31",
+      dateModified: "2026-09-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -332,7 +332,7 @@ export default function CAMChargesGuidePage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

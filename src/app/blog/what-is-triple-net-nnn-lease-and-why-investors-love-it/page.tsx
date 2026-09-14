@@ -80,7 +80,7 @@ const schema = {
       description:
         "How NNN leases work, why investors favor them, and key risks to evaluate.",
       datePublished: "2026-05-22",
-      dateModified: "2026-08-31",
+      dateModified: "2026-09-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -342,7 +342,7 @@ export default function NNNLeasePage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

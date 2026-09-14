@@ -80,7 +80,7 @@ const schema = {
       description:
         "Florida commercial zoning explained — categories, uses, variances, and impact on CRE decisions.",
       datePublished: "2026-06-10",
-      dateModified: "2026-08-29",
+      dateModified: "2026-09-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -342,7 +342,7 @@ export default function ZoningBasicsPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

@@ -14,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "5 Mistakes First-Time Commercial Tenants Make",
+  title: "5 Mistakes First-Time Commercial Tenants Make | HenCRE",
   description:
     "Avoid the most common mistakes first-time commercial tenants make — from skipping lease review to underestimating total occupancy costs. Expert broker advice.",
   alternates: { canonical: "https://hencre.com/blog/5-mistakes-first-time-commercial-tenants-make" },
@@ -320,7 +320,7 @@ export default function TenantMistakesPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

@@ -64,7 +64,7 @@ export default function NNNNetLeasePage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Property Types", href: "/commercial" }, { label: "NNN / Net Lease", href: "/commercial/nnn-net-lease" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Property Types", href: "/commercial" }, { label: "NNN / Net Lease", href: "/commercial/nnn-net-lease" }]} />
 
       <Hero
         title="NNN / Net Lease"
