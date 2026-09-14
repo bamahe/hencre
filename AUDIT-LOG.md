@@ -4,6 +4,46 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-14 -- Batch 52 (10 pages improved)
+
+**Commit:** `eaf97c4` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/commercial/nnn-net-lease`
+- Added "Home" as first breadcrumb item (was missing -- only had "Property Types")
+
+### 2. `/blog/5-mistakes-first-time-commercial-tenants-make`
+- Added "| HenCRE" suffix to metadata title: "5 Mistakes First-Time Commercial Tenants Make" -> "5 Mistakes First-Time Commercial Tenants Make | HenCRE"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 3. `/blog/how-commercial-leases-differ-from-residential`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 4. `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Updated dateModified: "2026-08-31" -> "2026-09-14"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 5. `/blog/commercial-property-zoning-florida-basics`
+- Updated dateModified: "2026-08-29" -> "2026-09-14"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 6. `/blog/understanding-cam-charges-tenants-guide`
+- Updated dateModified: "2026-08-31" -> "2026-09-14"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 7. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 8. `/markets/manatee`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 9. `/markets/polk`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 10. `/markets/brevard`
+- Updated footer: "August 2026" -> "September 2026"
+
+---
+
 ## 2026-09-13 -- Batch 51 (10 pages improved)
 
 **Commit:** `0845972` | **Build:** clean (0 errors) | **Pages improved:** 10
