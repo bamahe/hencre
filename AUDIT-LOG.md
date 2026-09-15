@@ -4,6 +4,61 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-15 -- Batch 53 (10 pages improved)
+
+**Commit:** `e5b25f7` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/brooksville-hernando-county-commercial-real-estate-2026`
+- Added `import Link from "next/link"` and `import Image from "next/image"`
+- Added "| HenCRE" suffix to metadata title (56 chars -> 62 chars)
+- Merged dual SchemaOrg calls (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from author sameAs array
+- Added dateModified: "2026-09-15"
+- Added "Home" as first breadcrumb item (was missing -- started at "Blog")
+- Converted `<img>` -> `<Image>` in author bio
+- Fixed author bio credentials: "REALTOR® & Commercial Real Estate Advisor at REMAX Collective" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author bio body text: removed "REMAX Commercial® division" language
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted mid-CTA `<a href="/contact">` -> `<Link href="/contact">`
+- Converted all bare `<a>` tags in article body to `<Link>` components
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed FAQ answer: "Commercial Real Estate Advisor at REMAX Commercial Real Estate" -> "Broker Associate at REMAX Collective"
+- Reformatted article body from single-line blob to proper multi-line JSX
+- Added "Last updated: September 2026" footer
+
+### 2. `/blog/tampa-bay-brewery-taproom-cre-2026`
+- Replaced fastselleasysale.com external link with /services/dispositions internal Link
+- Updated dateModified: "2026-09-13" -> "2026-09-15"
+
+### 3. `/blog/tampa-bay-hotel-hospitality-cre-2026`
+- Replaced fastselleasysale.com external link with /services/dispositions internal Link
+- Updated dateModified: "2026-09-12" -> "2026-09-15"
+
+### 4. `/insights/1031-exchange-basics`
+- Updated dateModified: "2026-09-09" -> "2026-09-15"
+
+### 5. `/insights/cam-charges-explained`
+- Updated dateModified: "2026-09-09" -> "2026-09-15"
+
+### 6. `/insights/cre-due-diligence-checklist`
+- Updated dateModified: "2026-09-09" -> "2026-09-15"
+
+### 7. `/insights/gross-vs-net-lease`
+- Updated dateModified: "2026-09-09" -> "2026-09-15"
+
+### 8. `/insights/how-to-value-commercial-property`
+- Updated dateModified: "2026-09-09" -> "2026-09-15"
+
+### 9. `/insights/leasing-vs-buying-commercial`
+- Updated dateModified: "2026-09-09" -> "2026-09-15"
+
+### 10. `/insights/nnn-lease-explained`
+- Updated dateModified: "2026-09-09" -> "2026-09-15"
+
+---
+
 ## 2026-09-14 -- Batch 52 (10 pages improved)
 
 **Commit:** `eaf97c4` | **Build:** clean (0 errors) | **Pages improved:** 10
