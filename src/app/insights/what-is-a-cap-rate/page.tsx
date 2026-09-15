@@ -81,7 +81,7 @@ const schema = {
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       datePublished: "2026-06-07",
-      dateModified: "2026-09-09",
+      dateModified: "2026-09-15",
       image: "https://hencre.com/og-image.png",
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/insights/what-is-a-cap-rate",

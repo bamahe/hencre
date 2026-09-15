@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay hotel transactions surged in 2026. Here is what investors need to know about buying, valuing, and selling hospitality real estate across the Tampa Bay market.",
       datePublished: "2026-09-12",
-      dateModified: "2026-09-12",
+      dateModified: "2026-09-15",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -276,9 +276,9 @@ export default function TampaBayHotelHospitalityCREPage() {
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are considering selling an existing hospitality or commercial property in Tampa Bay, understanding your{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">options for a fast, direct sale</Link>{" "}
-          — including cash buyers who specialize in operating assets — can be a valuable exit strategy alongside a traditional listed sale process.
+          If you are considering selling an existing hospitality or commercial property in Tampa Bay, explore{" "}
+          <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link>{" "}
+          — including strategies for operating assets — as a complement to a traditional listed sale process.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does a Hotel Acquisition Look Like Step by Step?</h2>

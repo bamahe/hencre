@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay has Florida's highest concentration of craft breweries and a 43-acre Yuengling campus redevelopment underway. What brewery operators and CRE investors need to know about production space, taproom leasing, and entertainment district impacts.",
       datePublished: "2026-09-13",
-      dateModified: "2026-09-13",
+      dateModified: "2026-09-15",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -304,11 +304,11 @@ export default function TampaBayBreweryTaproomCREPage() {
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are considering selling an existing brewery property or a commercial building near one of Tampa Bay&apos;s entertainment corridors, current buyer interest in well-positioned food-and-beverage and entertainment-adjacent commercial real estate may make this a favorable time to explore a sale. Resources like{" "}
-          <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">
-            Fast Sell Easy Sale
-          </a>{" "}
-          provide another avenue for owners looking to sell commercial properties and businesses quickly.
+          If you are considering selling an existing brewery property or a commercial building near one of Tampa Bay&apos;s entertainment corridors, current buyer interest in well-positioned food-and-beverage and entertainment-adjacent commercial real estate may make this a favorable time to explore a sale. Explore{" "}
+          <Link href="/services/dispositions" className="text-accent underline">
+            commercial property disposition services
+          </Link>{" "}
+          to understand your options for maximizing sale proceeds.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa Bay Brewery &amp; Taproom CRE</h2>
