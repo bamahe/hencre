@@ -1472,5 +1472,21 @@
     "county": "Hernando",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "riverview-restaurant-food-service-commercial-space-guide",
+    "title": "Riverview Restaurant Space: Find the Right Spot",
+    "excerpt": "Finding the right commercial space for a restaurant or food service concept in Riverview, FL takes more than a good location — it requires understanding zoning, lease structure, and what this fast-growing market actually offers operators.",
+    "date": "2026-09-16",
+    "category": "business-guide",
+    "city": "Riverview",
+    "county": "Hillsborough",
+    "businessType": "restaurant or food service",
+    "image": {
+      "url": "/images/blog/riverview-restaurant-food-service-commercial-space-guide.jpg",
+      "alt": "a rainbow food market on a street corner",
+      "photographer": "Sean Foster",
+      "link": "https://unsplash.com/@fosterious"
+    }
   }
 ]
