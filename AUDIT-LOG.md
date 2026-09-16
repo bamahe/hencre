@@ -6,7 +6,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ## 2026-09-16 -- Batch 54 (10 pages improved)
 
-**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+**Commit:** `8d2a00f` | **Build:** clean (0 errors) | **Pages improved:** 10
 
 ### 1. `/markets/orange`
 - Updated footer: "Last updated: August 2026" -> "Last updated: September 2026"
