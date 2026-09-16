@@ -85,7 +85,7 @@ const schema = {
       description:
         "Midtown Tampa's office space is fully leased and three new retailers are joining the district. A CRE investor and tenant guide to the $1 billion mixed-use development reshaping North Tampa.",
       datePublished: "2026-07-29",
-      dateModified: "2026-08-29",
+      dateModified: "2026-09-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -311,7 +311,7 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
           <Link href="/contact" className="text-accent underline">Contact Barrett</Link>{" "}
           at (813) 733-7907.
         </p>
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

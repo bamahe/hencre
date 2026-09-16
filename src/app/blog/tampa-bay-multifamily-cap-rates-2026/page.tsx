@@ -80,7 +80,7 @@ const schema = {
       description:
         "Cap rate expansion and lower commercial rates are improving multifamily math in Tampa Bay. Here is how to evaluate deals in the current environment.",
       datePublished: "2026-07-24",
-      dateModified: "2026-08-29",
+      dateModified: "2026-09-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -294,7 +294,7 @@ export default function TampaBayMultifamilyCapRates2026Page() {
           Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience across multiple market cycles. He evaluates Tampa Bay <Link href="/services/investment-sales" className="text-accent underline">multifamily acquisitions</Link>, sources off-market deals, and models deal-specific returns for clients at every investment level. Use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> or the <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to run your own numbers, then contact Barrett to discuss current opportunities or to have a specific deal underwritten.
         </p>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <section className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
