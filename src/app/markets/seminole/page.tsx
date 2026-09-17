@@ -90,12 +90,16 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/markets/orange", title: "Orange County Commercial Real Estate" },
-  { href: "/markets/volusia", title: "Volusia County Commercial Real Estate" },
-  { href: "/markets/lake", title: "Lake County Commercial Real Estate" },
-  { href: "/commercial/office-space", title: "Office Space" },
-  { href: "/services/investment-sales", title: "Investment Property Sales" },
-  { href: "/markets", title: "All Florida Markets" },
+  { href: "/markets/orange", title: "Orange County Commercial Real Estate", description: "Explore the Orlando metro CRE market including Lake Nona, International Drive, and Maitland Center." },
+  { href: "/markets/volusia", title: "Volusia County Commercial Real Estate", description: "Daytona Beach and the I-4/I-95 corridor: industrial, retail, and coastal commercial markets." },
+  { href: "/markets/lake", title: "Lake County Commercial Real Estate", description: "Leesburg, Clermont, and The Villages trade area: retail and mixed-use growth along US-27." },
+  { href: "/markets/osceola", title: "Osceola County Commercial Real Estate", description: "Kissimmee and St. Cloud: hospitality-driven and expanding suburban commercial corridors." },
+  { href: "/commercial/office-space", title: "Office Space", description: "Office listings and market insights for Lake Mary, Maitland, and Central Florida business parks." },
+  { href: "/commercial/retail-space", title: "Retail Space", description: "Retail listings along SR-436, US-17-92, and Seminole County's primary commercial corridors." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "Sell or acquire investment property in Seminole County with Barrett Henry&apos;s statewide network." },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment", description: "Core factors that separate strong commercial locations from mediocre ones in any Florida market." },
+  { href: "/blog/florida-1031-exchange-what-investors-need-to-know", title: "Florida 1031 Exchange Guide", description: "How to defer capital gains on Florida commercial property sales using a 1031 like-kind exchange." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse commercial real estate market guides for all 67 Florida counties." },
 ];
 
 export default function Page() {

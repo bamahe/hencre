@@ -90,14 +90,16 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/markets/seminole", title: "Seminole County Commercial Real Estate" },
-  { href: "/markets/osceola", title: "Osceola County Commercial Real Estate" },
-  { href: "/markets/lake", title: "Lake County Commercial Real Estate" },
-  { href: "/markets/polk", title: "Polk County Commercial Real Estate" },
-  { href: "/services/investment-sales", title: "Investment Property Sales" },
-  { href: "/commercial/industrial-warehouse", title: "Industrial & Warehouse Properties" },
-  { href: "/commercial/office-space", title: "Office Space" },
-  { href: "/markets", title: "All Florida Markets" },
+  { href: "/markets/seminole", title: "Seminole County Commercial Real Estate", description: "Lake Mary, Heathrow, and Altamonte Springs: Central Florida&apos;s premier suburban office market." },
+  { href: "/markets/osceola", title: "Osceola County Commercial Real Estate", description: "Kissimmee and the Disney corridor: hospitality, tourism, and fast-growing suburban commercial." },
+  { href: "/markets/lake", title: "Lake County Commercial Real Estate", description: "Clermont, Leesburg, and The Villages trade area along US-27 and SR-50." },
+  { href: "/markets/polk", title: "Polk County Commercial Real Estate", description: "Lakeland and Winter Haven: logistics, industrial, and warehouse demand along the I-4 corridor." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "Buy or sell investment property in Orange County and across the Florida CRE market." },
+  { href: "/commercial/industrial-warehouse", title: "Industrial & Warehouse Properties", description: "Industrial and logistics listings near MCO and along the Beachline/SR-528 corridor." },
+  { href: "/commercial/office-space", title: "Office Space", description: "Office space options from Downtown Orlando and Sand Lake Road to Maitland Center." },
+  { href: "/blog/florida-1031-exchange-what-investors-need-to-know", title: "Florida 1031 Exchange Guide", description: "Defer capital gains on Orlando-area commercial property sales with a 1031 like-kind exchange." },
+  { href: "/calculators/cap-rate", title: "Cap Rate Calculator", description: "Calculate capitalization rates on Orange County commercial property investments." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse commercial real estate market guides for all 67 Florida counties." },
 ];
 
 export default function Page() {

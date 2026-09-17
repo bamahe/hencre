@@ -14,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Retail Space Shortage: A Tenant's Guide to Leasing in a Sub-4% Market (2026) | HenCRE",
+  title: "Tampa Bay Retail Space Shortage: Tenant's Guide 2026 | HenCRE",
   description:
     "Tampa Bay retail vacancy sits at 3.8% — well below the national 6% average — and sub-2% in South Tampa and Westshore. This guide shows retail tenants how to find space, negotiate leases, and compete in one of Florida's tightest retail markets.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-retail-space-shortage-tenants-2026" },
@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay retail vacancy is 3.8%, far below the national 6% average, and under 2% in South Tampa and Westshore. This guide explains how retail tenants find space, compete, and negotiate in one of Florida's most undersupplied retail markets.",
       datePublished: "2026-09-14",
-      dateModified: "2026-09-14",
+      dateModified: "2026-09-17",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -267,8 +267,8 @@ export default function TampaBayRetailSpaceShortageTenantsPage() {
             <strong>Permitted use and exclusivity.</strong> Define your permitted use broadly enough to accommodate concept evolution, and push for an exclusivity clause that prevents the landlord from leasing adjacent space to a direct competitor. In tight centers with full occupancy, landlords have less incentive to grant these protections — but a skilled negotiator can often secure them.
           </li>
           <li>
-            <strong>Buildout responsibility and TI allowance.</strong> In a tight market, tenant improvement allowances have compressed. Understand clearly what the landlord will deliver (warm shell, cold dark shell, or turn-key) and what buildout costs fall to you. Before finalizing a lease, it is worth getting repair and renovation estimates from a qualified contractor. For clients who need pre-opening repairs or HVAC servicing on their new space,{" "}
-            <a href="https://bestbayservices.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Best Bay Services</a> provides handyman and HVAC work across Tampa Bay — the kind of vendor coordination that prevents opening delays.
+            <strong>Buildout responsibility and TI allowance.</strong> In a tight market, tenant improvement allowances have compressed. Understand clearly what the landlord will deliver (warm shell, cold dark shell, or turn-key) and what buildout costs fall to you. Before finalizing a lease, it is worth getting repair and renovation estimates from a qualified contractor and reviewing the{" "}
+            <Link href="/insights/cre-due-diligence-checklist" className="text-accent underline">commercial real estate due diligence checklist</Link> to avoid costly surprises after signing.
           </li>
           <li>
             <strong>Renewal options and rent escalations.</strong> Lock in below-market renewal options now, before rents move higher. A five-year lease with two five-year renewal options at fixed or capped increases provides long-term occupancy security in a market where rents are likely to continue rising as vacancy stays tight.

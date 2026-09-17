@@ -119,6 +119,26 @@ const relatedLinks = [
     href: "/services/cre-valuation",
     description: "Commercial property valuation and cap rate analysis for Florida investors.",
   },
+  {
+    title: "Lee County Commercial Real Estate",
+    href: "/markets/lee",
+    description: "Fort Myers and Cape Coral: industrial, retail, and medical commercial growth along US-41 and I-75.",
+  },
+  {
+    title: "What Makes a Good Commercial Investment",
+    href: "/blog/what-makes-a-good-commercial-investment",
+    description: "Evaluation framework for luxury-market retail, office, and NNN investments like those in Naples.",
+  },
+  {
+    title: "Florida 1031 Exchange Guide",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "Defer capital gains on Collier County commercial property sales with a 1031 like-kind exchange.",
+  },
+  {
+    title: "All Florida Markets",
+    href: "/markets",
+    description: "Browse commercial real estate guides for all 67 Florida counties.",
+  },
 ];
 
 export default function CollierMarketPage() {

@@ -90,13 +90,16 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/markets/flagler", title: "Flagler County Commercial Real Estate" },
-  { href: "/markets/seminole", title: "Seminole County Commercial Real Estate" },
-  { href: "/markets/brevard", title: "Brevard County Commercial Real Estate" },
-  { href: "/markets/st-johns", title: "St. Johns County Commercial Real Estate" },
-  { href: "/commercial/industrial-warehouse", title: "Industrial & Warehouse Properties" },
-  { href: "/services/investment-sales", title: "Investment Property Sales" },
-  { href: "/markets", title: "All Florida Markets" },
+  { href: "/markets/flagler", title: "Flagler County Commercial Real Estate", description: "Palm Coast and the I-95/US-1 corridor: fast-growing industrial, retail, and logistics market." },
+  { href: "/markets/seminole", title: "Seminole County Commercial Real Estate", description: "Lake Mary and Altamonte Springs: established suburban office parks north of Orlando." },
+  { href: "/markets/brevard", title: "Brevard County Commercial Real Estate", description: "Melbourne and the Space Coast: aerospace-driven industrial, office, and commercial growth." },
+  { href: "/markets/st-johns", title: "St. Johns County Commercial Real Estate", description: "St. Augustine and Ponte Vedra: fast-growing retail and office demand south of Jacksonville." },
+  { href: "/commercial/industrial-warehouse", title: "Industrial & Warehouse Properties", description: "Industrial listings along the I-4/I-95 interchange and Daytona Beach International Airport area." },
+  { href: "/commercial/retail-space", title: "Retail Space", description: "Retail listings on US-92, ISB, and the Daytona Beach area&apos;s primary commercial corridors." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "Acquire or sell investment property in Volusia County with a statewide Florida CRE advisor." },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment", description: "Core principles for evaluating retail, office, and industrial investments in coastal Florida markets." },
+  { href: "/calculators/cap-rate", title: "Cap Rate Calculator", description: "Estimate returns on Volusia County commercial property acquisitions." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse commercial real estate guides for all 67 Florida counties." },
 ];
 
 export default function Page() {

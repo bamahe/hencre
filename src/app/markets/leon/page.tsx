@@ -90,12 +90,16 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/markets/gadsden", title: "Gadsden County Commercial Real Estate" },
-  { href: "/markets/franklin", title: "Franklin County Commercial Real Estate" },
-  { href: "/markets/columbia", title: "Columbia County Commercial Real Estate" },
-  { href: "/commercial/office-space", title: "Office Space" },
-  { href: "/services/investment-sales", title: "Investment Property Sales" },
-  { href: "/markets", title: "All Florida Markets" },
+  { href: "/markets/gadsden", title: "Gadsden County Commercial Real Estate", description: "Quincy and the I-10 corridor west of Tallahassee: agricultural, industrial, and distribution uses." },
+  { href: "/markets/franklin", title: "Franklin County Commercial Real Estate", description: "Apalachicola and the Forgotten Coast: waterfront commercial, tourism, and coastal retail." },
+  { href: "/markets/columbia", title: "Columbia County Commercial Real Estate", description: "Lake City and the I-75/US-90 interchange: logistics, distribution, and truck stop retail." },
+  { href: "/markets/jefferson", title: "Jefferson County Commercial Real Estate", description: "Monticello and rural North Florida: agricultural land and highway commercial along US-19." },
+  { href: "/commercial/office-space", title: "Office Space", description: "Office listings in the Capitol Complex corridor and Tallahassee&apos;s suburban office parks." },
+  { href: "/commercial/land-development", title: "Land Development", description: "Development sites and land parcels in Leon County and the Tallahassee metro area." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "Acquire or sell commercial investment property in Tallahassee with a Florida-wide advisor." },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment", description: "Evaluation framework for office, retail, and mixed-use investments in college markets like Tallahassee." },
+  { href: "/blog/florida-1031-exchange-what-investors-need-to-know", title: "Florida 1031 Exchange Guide", description: "Defer capital gains on Leon County commercial property sales using a 1031 exchange." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse commercial real estate guides for all 67 Florida counties." },
 ];
 
 export default function Page() {

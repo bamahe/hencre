@@ -90,13 +90,16 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/markets/orange", title: "Orange County Commercial Real Estate" },
-  { href: "/markets/lake", title: "Lake County Commercial Real Estate" },
-  { href: "/markets/polk", title: "Polk County Commercial Real Estate" },
-  { href: "/commercial/nnn-net-lease", title: "NNN Net Lease Properties" },
-  { href: "/services/investment-sales", title: "Investment Property Sales" },
-  { href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it", title: "NNN Lease Guide for Investors" },
-  { href: "/markets", title: "All Florida Markets" },
+  { href: "/markets/orange", title: "Orange County Commercial Real Estate", description: "The Orlando metro CRE market: Lake Nona, I-Drive, Maitland Center, and Sand Lake Road office." },
+  { href: "/markets/lake", title: "Lake County Commercial Real Estate", description: "Clermont and Leesburg along the US-27 and SR-50 growth corridors west of Orlando." },
+  { href: "/markets/polk", title: "Polk County Commercial Real Estate", description: "Lakeland and Winter Haven: industrial, logistics, and distribution serving I-4 demand." },
+  { href: "/markets/seminole", title: "Seminole County Commercial Real Estate", description: "Lake Mary and Heathrow: Class A office parks and suburban retail north of Orlando." },
+  { href: "/commercial/nnn-net-lease", title: "NNN Net Lease Properties", description: "Net-leased retail and hospitality properties along the US-192 and I-Drive corridors." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "Acquire or sell Osceola County commercial property with a statewide Florida advisor." },
+  { href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it", title: "NNN Lease Guide for Investors", description: "How NNN leases work, what investors pay for them, and what to negotiate before signing." },
+  { href: "/blog/tampa-bay-nnn-cap-rates-2026", title: "Florida NNN Cap Rates 2026", description: "Current cap rate ranges for net-leased retail and QSR properties across Florida." },
+  { href: "/calculators/cap-rate", title: "Cap Rate Calculator", description: "Estimate returns on Osceola County commercial property acquisitions." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse commercial real estate guides for all 67 Florida counties." },
 ];
 
 export default function Page() {

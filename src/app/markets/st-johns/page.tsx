@@ -90,13 +90,16 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/markets/flagler", title: "Flagler County Commercial Real Estate" },
-  { href: "/markets/volusia", title: "Volusia County Commercial Real Estate" },
-  { href: "/markets/seminole", title: "Seminole County Commercial Real Estate" },
-  { href: "/commercial/retail-space", title: "Retail Space" },
-  { href: "/commercial/land-development", title: "Land Development" },
-  { href: "/services/investment-sales", title: "Investment Property Sales" },
-  { href: "/markets", title: "All Florida Markets" },
+  { href: "/markets/flagler", title: "Flagler County Commercial Real Estate", description: "Palm Coast and I-95: fast-growing industrial, retail, and logistics market just north of St. Johns." },
+  { href: "/markets/volusia", title: "Volusia County Commercial Real Estate", description: "Daytona Beach and the I-4/I-95 junction: industrial, retail, and coastal commercial markets." },
+  { href: "/markets/duval", title: "Duval County Commercial Real Estate", description: "Jacksonville CRE market: industrial, office, retail, and port-driven logistics opportunities." },
+  { href: "/markets/seminole", title: "Seminole County Commercial Real Estate", description: "Lake Mary and Heathrow: established suburban office parks in Central Florida." },
+  { href: "/commercial/retail-space", title: "Retail Space", description: "Retail listings on CR-210, SR-16, and US-1 serving the St. Johns County growth corridors." },
+  { href: "/commercial/land-development", title: "Land Development", description: "Development land and parcels in St. Johns County&apos;s fast-growing residential and commercial zones." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "Acquire or sell commercial investment property in St. Johns County with a Florida-wide advisor." },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment", description: "Evaluate retail, land, and commercial opportunities in Florida&apos;s fastest-growing coastal counties." },
+  { href: "/blog/florida-1031-exchange-what-investors-need-to-know", title: "Florida 1031 Exchange Guide", description: "Defer capital gains on St. Johns County property sales using a 1031 like-kind exchange." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse commercial real estate guides for all 67 Florida counties." },
 ];
 
 export default function Page() {

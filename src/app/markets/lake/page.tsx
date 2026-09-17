@@ -90,14 +90,16 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/markets/orange", title: "Orange County Commercial Real Estate" },
-  { href: "/markets/polk", title: "Polk County Commercial Real Estate" },
-  { href: "/markets/osceola", title: "Osceola County Commercial Real Estate" },
-  { href: "/markets/osceola", title: "Osceola County Commercial Real Estate" },
-  { href: "/commercial/retail-space", title: "Retail Space" },
-  { href: "/services/investment-sales", title: "Investment Property Sales" },
-  { href: "/commercial/land-development", title: "Land Development" },
-  { href: "/markets", title: "All Florida Markets" },
+  { href: "/markets/orange", title: "Orange County Commercial Real Estate", description: "The Orlando metro CRE market: Lake Nona, International Drive, Maitland Center, and Sand Lake Road." },
+  { href: "/markets/polk", title: "Polk County Commercial Real Estate", description: "Lakeland and Winter Haven: industrial, warehouse, and distribution along the I-4 corridor." },
+  { href: "/markets/osceola", title: "Osceola County Commercial Real Estate", description: "Kissimmee and the Disney corridor: tourism, hospitality, and suburban commercial growth." },
+  { href: "/markets/seminole", title: "Seminole County Commercial Real Estate", description: "Lake Mary, Heathrow, and Altamonte Springs: established office parks north of Orlando." },
+  { href: "/commercial/retail-space", title: "Retail Space", description: "Retail listings in the US-27 and SR-50 corridors serving Clermont, Leesburg, and The Villages." },
+  { href: "/services/investment-sales", title: "Investment Property Sales", description: "Sell or acquire investment property in Lake County with a statewide Florida CRE advisor." },
+  { href: "/commercial/land-development", title: "Land Development", description: "Raw land and development sites in Lake County&apos;s fast-growing western Orange County fringe." },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment", description: "Core evaluation factors that apply to Lake County retail, industrial, and office assets." },
+  { href: "/calculators/cap-rate", title: "Cap Rate Calculator", description: "Estimate capitalization rates on Lake County commercial property purchases." },
+  { href: "/markets", title: "All Florida Markets", description: "Browse commercial real estate guides for all 67 Florida counties." },
 ];
 
 export default function Page() {
