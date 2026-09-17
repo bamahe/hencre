@@ -4,6 +4,60 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-17 -- Batch 55 (10 pages improved)
+
+**Commit:** `8720b57` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/riverview-restaurant-food-service-commercial-space-guide`
+- Full fix pass: consolidated dual schemas into single @graph pattern (BreadcrumbList + BlogPosting + FAQPage)
+- Title shortened to 56 chars: "Riverview Restaurant Space: Find the Right Spot | HenCRE"
+- Added dateModified: "2026-09-17"; fixed jobTitle to "Broker Associate"; removed nowtb.com from sameAs
+- Added `{ label: "Home", href: "/" }` as first Breadcrumbs item
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Converted 8 bare `<a>` tags to `<Link>` components; `<img>` author photo -> `<Image>`
+- Removed HUD/FHA/HOPE Free Resources section
+- Added "Last updated: September 2026" footer
+- Fixed declaration order: relatedLinks -> faqItems -> schema (resolved TypeScript TDZ error)
+
+### 2. `/blog/tampa-bay-retail-space-shortage-tenants-2026`
+- Title shortened to 62 chars: "Tampa Bay Retail Space Shortage: Tenant's Guide 2026 | HenCRE"
+- Updated dateModified: "2026-09-14" -> "2026-09-17"
+- Replaced external bestbayservices.com link with internal link to /insights/cre-due-diligence-checklist
+
+### 3. `/markets/seminole`
+- Expanded relatedLinks from 6 to 10 entries; added descriptions to all links
+- Added: osceola market, retail-space, what-makes-a-good-commercial-investment, florida-1031-exchange
+
+### 4. `/markets/orange`
+- Expanded relatedLinks from 8 to 10 entries; added descriptions to all links
+- Added: florida-1031-exchange, cap-rate calculator
+
+### 5. `/markets/lake`
+- Fixed duplicate osceola link; expanded to 10 unique relatedLinks with descriptions
+- Added: seminole market, what-makes-a-good-commercial-investment, cap-rate calculator
+
+### 6. `/markets/osceola`
+- Expanded relatedLinks from 7 to 10 entries with descriptions
+- Added: seminole market, tampa-bay-nnn-cap-rates-2026, cap-rate calculator
+
+### 7. `/markets/leon`
+- Expanded relatedLinks from 6 to 10 entries with descriptions
+- Added: jefferson market, land-development, what-makes-a-good-commercial-investment, florida-1031-exchange
+
+### 8. `/markets/volusia`
+- Expanded relatedLinks from 7 to 10 entries with descriptions
+- Added: retail-space, what-makes-a-good-commercial-investment, cap-rate calculator
+
+### 9. `/markets/st-johns`
+- Expanded relatedLinks from 7 to 10 entries with descriptions
+- Added: duval market, what-makes-a-good-commercial-investment, florida-1031-exchange
+
+### 10. `/markets/collier`
+- Expanded relatedLinks from 6 to 10 entries with descriptions
+- Added: lee market, what-makes-a-good-commercial-investment, florida-1031-exchange, markets (all Florida)
+
+---
+
 ## 2026-09-16 -- Batch 54 (10 pages improved)
 
 **Commit:** `8d2a00f` | **Build:** clean (0 errors) | **Pages improved:** 10
