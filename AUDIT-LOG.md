@@ -4,6 +4,53 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-18 -- Batch 56 (10 pages improved)
+
+**Commit:** `bbb23f9` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/5-mistakes-first-time-commercial-tenants-make`
+- Updated dateModified: "2026-09-05" -> "2026-09-18"
+
+### 2. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Updated dateModified: "2026-09-10" -> "2026-09-18"
+
+### 3. `/blog/how-to-calculate-commercial-property-roi`
+- Updated dateModified: "2026-09-10" -> "2026-09-18"
+
+### 4. `/blog/how-commercial-leases-differ-from-residential`
+- Updated dateModified: "2026-09-05" -> "2026-09-18"
+- Converted bare `<img>` to `<Image>` in author bio (added `shrink-0`)
+
+### 5. `/blog/commercial-property-zoning-florida-basics`
+- Updated dateModified: "2026-09-14" -> "2026-09-18"
+- Converted bare `<img>` to `<Image>` in author bio (added `shrink-0`)
+
+### 6. `/blog/commercial-property-due-diligence-timeline`
+- Updated dateModified: "2026-09-01" -> "2026-09-18"
+- Converted bare `<img>` to `<Image>` in author bio (added `shrink-0`)
+
+### 7. `/blog/selling-tenant-occupied-investment-property-florida`
+- Updated dateModified: "2026-09-01" -> "2026-09-18"
+- Added `import Image from "next/image"`; converted bare `<img>` to `<Image>` in author bio
+- Converted 2 bare `<a href="/contact">` to `<Link>` components
+
+### 8. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Updated dateModified: "2026-09-05" -> "2026-09-18"
+- Added `import Link from "next/link"`; converted bare `<img>` to `<Image>` in author bio
+- Converted 5 bare `<a>` internal links to `<Link>` components
+
+### 9. `/blog/investment-property-divorce-liquidation-florida`
+- Updated dateModified: "2026-08-21" -> "2026-09-18"
+- Updated "Last updated: August 2026" -> "September 2026"
+- Converted 1 bare `<a href="/contact">` to `<Link>` component
+
+### 10. `/blog/florida-insurance-crisis-investment-properties`
+- Updated dateModified: "2026-08-21" -> "2026-09-18"
+- Updated "Last updated: August 2026" -> "September 2026"
+- Added `import Link from "next/link"`; converted 8 bare `<a>` internal links to `<Link>` components
+
+---
+
 ## 2026-09-17 -- Batch 55 (10 pages improved)
 
 **Commit:** `8720b57` | **Build:** clean (0 errors) | **Pages improved:** 10
