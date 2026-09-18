@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -77,7 +78,7 @@ const schema = {
       headline: "Florida's Insurance Crisis and Your Investment Property",
       description: "How surging property insurance premiums are reshaping ROI for Tampa Bay landlords -- and exit options.",
       datePublished: "2026-06-17",
-      dateModified: "2026-08-21",
+      dateModified: "2026-09-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -175,7 +176,7 @@ export default function InsuranceCrisisInvestmentPage() {
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
           Florida&apos;s property insurance market has undergone a structural shift that is directly
-          eroding investment property returns across <a href="/markets/hillsborough" className="text-accent underline">Hillsborough</a>, <a href="/markets/pinellas" className="text-accent underline">Pinellas</a>, Manatee, and Sarasota
+          eroding investment property returns across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, Manatee, and Sarasota
           counties. Premiums that were manageable three years ago have doubled or tripled for many
           investors -- and several major carriers have exited Florida entirely, pushing property owners
           into the state-backed Citizens Insurance at higher rates and restricted coverage. For
@@ -231,17 +232,17 @@ export default function InsuranceCrisisInvestmentPage() {
           For multi-unit properties, the amplification is proportional. A 4-unit coastal Pinellas
           County property that insured for $6,000/year may now cost $18,000 to $22,000 annually.
           Those numbers materially change what the property is worth to a long-term hold investor
-          -- and whether the <a href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rate</a> still justifies the equity locked in the asset. Use our <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">commercial property ROI calculator guide</a> to model your updated pro forma with current insurance costs.
+          -- and whether the <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rate</Link> still justifies the equity locked in the asset. Use our <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">commercial property ROI calculator guide</Link> to model your updated pro forma with current insurance costs.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Exit Options for Florida Investment Property Owners</h2>
 
         <h3 className="mt-8 text-xl font-bold text-black">1031 Exchange Into Lower-Insurance-Risk Assets</h3>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          A <a href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</a> allows
+          A <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link> allows
           you to defer capital gains taxes by reinvesting proceeds into a like-kind property. This
           can be used to reposition from a Florida residential rental -- where you carry all insurance
-          obligations -- into a <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net commercial property</a> where
+          obligations -- into a <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net commercial property</Link> where
           tenants carry property insurance as part of their lease obligations.
         </p>
 
@@ -251,14 +252,14 @@ export default function InsuranceCrisisInvestmentPage() {
           capital into commercial investments -- industrial, NNN retail, or self-storage -- can
           generate better risk-adjusted returns without insurance exposure at the owner level.
           Barrett Henry at REMAX Collective specializes in evaluating this trade-off for Tampa
-          Bay investment property owners. Our <a href="/services/investment-sales" className="text-accent underline">investment sales services</a> team helps you model both paths with current market data.
+          Bay investment property owners. Our <Link href="/services/investment-sales" className="text-accent underline">investment sales services</Link> team helps you model both paths with current market data.
         </p>
 
         <h3 className="mt-8 text-xl font-bold text-black">Hold and Optimize</h3>
         <p className="mt-4 text-[#666666] leading-relaxed">
           In some cases -- newer construction, properties not in flood zones, or assets with
           below-market rents that can be adjusted -- holding still makes financial sense. The
-          key is running current numbers, not 2021 assumptions. Review our <a href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">framework for evaluating commercial investments</a> to stress-test your hold thesis against today&apos;s insurance environment.
+          key is running current numbers, not 2021 assumptions. Review our <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">framework for evaluating commercial investments</Link> to stress-test your hold thesis against today&apos;s insurance environment.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Run the Current Numbers</h2>
@@ -266,7 +267,7 @@ export default function InsuranceCrisisInvestmentPage() {
           Before deciding to hold or sell, update your pro forma with current insurance costs,
           current comparable sales, and current rental rates. Contact Barrett Henry at{" "}
           <a href="tel:+18137337907" className="text-accent underline">(813) 733-7907</a> or{" "}
-          <a href="/contact" className="text-accent underline">request a free property analysis</a>.
+          <Link href="/contact" className="text-accent underline">request a free property analysis</Link>.
           He works with investment property owners across Hillsborough, Pinellas, Manatee, and
           Sarasota counties to evaluate the hold-versus-sell decision using actual current data.
           With 23+ years of real estate experience and offices in Tampa, Largo, and Brandon,
@@ -278,7 +279,7 @@ export default function InsuranceCrisisInvestmentPage() {
           <p className="text-lg font-bold">Get a Current Hold-vs-Sell Analysis</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
-            <a href="/contact" className="underline">send a message</a>.
+            <Link href="/contact" className="underline">send a message</Link>.
           </p>
         </div>
       </article>
@@ -316,7 +317,7 @@ export default function InsuranceCrisisInvestmentPage() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: August 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: September 2026</p>
       </section>
 
       <CTASection

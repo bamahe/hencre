@@ -85,7 +85,7 @@ const schema = {
       description:
         "Avoid the most common mistakes first-time commercial tenants make — from skipping lease review to underestimating total occupancy costs.",
       datePublished: "2026-05-02",
-      dateModified: "2026-09-05",
+      dateModified: "2026-09-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

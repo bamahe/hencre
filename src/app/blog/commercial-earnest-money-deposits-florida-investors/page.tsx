@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -84,7 +85,7 @@ const schema = {
       description:
         "Commercial earnest money deposits are larger, harder to recover, and go non-refundable faster than residential deposits. Essential reading for Florida CRE investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-09-05",
+      dateModified: "2026-09-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -232,9 +233,9 @@ export default function CommercialEarnestMoneyPage() {
           During the due diligence period — typically 30 to 60 days in commercial deals, though
           it can be longer for complex properties — the buyer can cancel for virtually any reason
           and recover the earnest money. This window is when all the critical{' '}
-          <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">
+          <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">
             commercial due diligence
-          </a>{' '}
+          </Link>{' '}
           happens: environmental assessments, roof and structural inspections, title searches,
           lease audits, financial review of rent rolls and operating statements, zoning
           confirmation, and lender due diligence.
@@ -307,9 +308,9 @@ export default function CommercialEarnestMoneyPage() {
           Not every seller accepts staged deposits — particularly in a competitive market where
           other buyers are willing to commit full deposits upfront. But in Tampa Bay&apos;s 2026
           commercial market, where{' '}
-          <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">
+          <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">
             cap rates have expanded
-          </a>{' '}
+          </Link>{' '}
           and some property categories have more inventory than buyers, staged structures are
           more negotiable than they were two or three years ago.
         </p>
@@ -358,9 +359,9 @@ export default function CommercialEarnestMoneyPage() {
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For a detailed phase-by-phase breakdown, see the full{' '}
-          <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">
+          <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">
             commercial due diligence timeline guide
-          </a>
+          </Link>
           .
         </p>
 
@@ -381,9 +382,9 @@ export default function CommercialEarnestMoneyPage() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For more on 1031 exchanges in Florida, see the{' '}
-          <a href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">
+          <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">
             Florida 1031 exchange guide
-          </a>
+          </Link>
           .
         </p>
 
@@ -404,9 +405,9 @@ export default function CommercialEarnestMoneyPage() {
           REMAX Collective has guided investors through the full spectrum of commercial transactions —
           from first acquisitions to complex multi-property portfolios. Call (813) 733-7907
           or visit the{' '}
-          <a href="/contact" className="text-accent underline">
+          <Link href="/contact" className="text-accent underline">
             contact page
-          </a>{' '}
+          </Link>{' '}
           to discuss your next acquisition.
         </p>
       </article>
@@ -426,12 +427,12 @@ export default function CommercialEarnestMoneyPage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
-            className="rounded-full"
+            className="rounded-full shrink-0"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>

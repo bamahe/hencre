@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -83,7 +84,7 @@ const schema = {
       description:
         "Practical guide for Florida landlords navigating the sale of tenant-occupied properties.",
       datePublished: "2026-06-17",
-      dateModified: "2026-09-01",
+      dateModified: "2026-09-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -290,7 +291,7 @@ export default function TenantOccupiedSalePage() {
           </Link>{" "}
           makes sense for your specific situation. Contact Barrett at{" "}
           <a href="tel:+18137337907" className="text-accent underline">(813) 733-7907</a> or{" "}
-          <a href="/contact" className="text-accent underline">request a free consultation</a>.
+          <Link href="/contact" className="text-accent underline">request a free consultation</Link>.
         </p>
 
         {/* ---- Mid-article CTA ---- */}
@@ -298,7 +299,7 @@ export default function TenantOccupiedSalePage() {
           <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
-            <a href="/contact" className="underline">send a message</a>.
+            <Link href="/contact" className="underline">send a message</Link>.
           </p>
         </div>
 
@@ -316,12 +317,12 @@ export default function TenantOccupiedSalePage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
-            className="rounded-full"
+            className="rounded-full shrink-0"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>

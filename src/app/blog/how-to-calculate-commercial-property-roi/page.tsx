@@ -85,7 +85,7 @@ const schema = {
       description:
         "ROI calculation methods for commercial real estate investors — cap rate, cash-on-cash, IRR, and total return.",
       datePublished: "2026-05-31",
-      dateModified: "2026-09-10",
+      dateModified: "2026-09-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

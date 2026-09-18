@@ -80,7 +80,7 @@ const schema = {
       description:
         "Florida commercial zoning explained — categories, uses, variances, and impact on CRE decisions.",
       datePublished: "2026-06-10",
-      dateModified: "2026-09-14",
+      dateModified: "2026-09-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -315,12 +315,12 @@ export default function ZoningBasicsPage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
-            className="rounded-full"
+            className="rounded-full shrink-0"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>

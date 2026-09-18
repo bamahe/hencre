@@ -80,7 +80,7 @@ const schema = {
       description:
         "Step-by-step due diligence checklist and timeline for commercial real estate buyers.",
       datePublished: "2026-05-25",
-      dateModified: "2026-09-01",
+      dateModified: "2026-09-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -311,12 +311,12 @@ export default function DueDiligenceTimelinePage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
-            className="rounded-full"
+            className="rounded-full shrink-0"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>

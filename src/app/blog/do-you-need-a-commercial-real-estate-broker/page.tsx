@@ -85,7 +85,7 @@ const schema = {
       description:
         "When and why to hire a commercial real estate broker — tenant representation, buyer advocacy, and lease negotiation.",
       datePublished: "2026-04-28",
-      dateModified: "2026-09-10",
+      dateModified: "2026-09-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
