@@ -3748,3 +3748,56 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ### 10. `/calculators/page.tsx`
 - Updated footer: "August 2026" -> "September 2026"
+
+## Batch 57 — 2026-09-19
+
+### 1. `/blog/bradenton-commercial-real-estate-opportunities`
+- Updated dateModified: "2026-08-21" -> "2026-09-19"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 2. `/blog/crystal-river-citrus-county-commercial-real-estate`
+- Updated dateModified: "2026-08-21" -> "2026-09-19"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 3. `/blog/florida-property-insurance-tampa-bay-cre-2026`
+- Updated dateModified: "2026-09-17" -> "2026-09-19"
+- Removed external link to bestbayservices.com; replaced with inline text about well-maintained assets
+- Replaced external link to fastselleasysale.com with internal link to /services/dispositions
+
+### 4. `/blog/land-o-lakes-fitness-gym-wellness-commercial-space`
+- Updated dateModified: "2026-08-20" -> "2026-09-19"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 5. `/blog/sarasota-fitness-gym-wellness-commercial-space`
+- Updated dateModified: "2026-08-20" -> "2026-09-19"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 6. `/blog/tampa-bay-hotel-hospitality-cre-2026`
+- Updated dateModified: "2026-09-15" -> "2026-09-19"
+
+### 7. `/blog/tampa-bay-spec-suites-office-2026`
+- Updated dateModified: "2026-09-17" -> "2026-09-19"
+
+### 8. `/blog/valrico-commercial-real-estate-guide`
+- Added "| HenCRE" to page title
+- Added EEAT fields to author schema: image, sameAs
+- Updated dateModified: "2026-08-19" -> "2026-09-19"
+- Fixed author bio headshot: replaced random Unsplash photo with /images/barrett-henry-headshot.jpg
+- Updated footer: "August 2026" -> "September 2026"
+
+### 9. `/blog/valrico-hillsborough-county-commercial-real-estate`
+- Fixed HTML entity &apos; in schema JSON headline string (invalid in JSON)
+- Updated dateModified: "2026-08-20" -> "2026-09-19"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 10. `/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide`
+- Added Image import from next/image
+- Added "| HenCRE" to page title
+- Consolidated dual schema (articleSchema + faqSchema) into single @graph schema
+- Added EEAT author fields: jobTitle, image, sameAs, worksFor
+- Updated dateModified to "2026-09-19"
+- Fixed Breadcrumbs: added Home as first item
+- Fixed mid-article CTA: removed "REMAX Commercial®" branding
+- Fixed author bio: replaced bare <img> with <Image>, updated credentials and bio text
+- Removed HUD/FHA/HOPE "Free Resources" section (irrelevant to commercial CRE)
+- Fixed duplicate faqItems declaration causing TypeScript build error
