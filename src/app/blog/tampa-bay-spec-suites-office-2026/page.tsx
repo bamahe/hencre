@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay landlords are pre-building finished office suites to fill vacancy and attract tenants who need fast occupancy. What tenants need to know about finding, evaluating, and negotiating spec suites in 2026.",
       datePublished: "2026-09-17",
-      dateModified: "2026-09-17",
+      dateModified: "2026-09-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

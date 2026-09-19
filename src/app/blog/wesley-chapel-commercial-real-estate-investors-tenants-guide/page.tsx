@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -12,7 +13,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Wesley Chapel CRE: What Investors & Tenants Must Know",
+  title: "Wesley Chapel CRE: What Investors & Tenants Must Know | HenCRE",
   description: "Wesley Chapel commercial real estate is moving fast. Learn what's driving demand and call Barrett Henry at (813) 733-7907 to find your space or investment.",
   alternates: { canonical: "https://hencre.com/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide" },
   openGraph: {
@@ -24,72 +25,65 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Wesley Chapel CRE: What Investors & Tenants Must Know",
-  description: "Wesley Chapel commercial real estate is moving fast. Learn what's driving demand and call Barrett Henry at (813) 733-7907 to find your space or investment.",
-  datePublished: "2026-09-18",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-    sameAs: [
-      "https://hencre.com/about",
-      "https://nowtb.com",
-      "https://barretthenry.remax.com",
-    ],
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
+const faqItems = [
+  {
+    question: "What corridors in Wesley Chapel have the most commercial real estate activity?",
+    answer: "SR-54, SR-56, and Bruce B. Downs Boulevard are the primary commercial corridors in Wesley Chapel, with the highest concentration of retail, medical office, and restaurant activity. The area near the Wiregrass Mall and the I-75/SR-56 interchange also draws strong investor and tenant interest due to traffic volumes and surrounding residential density.",
   },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide",
-};
+  {
+    question: "Is Wesley Chapel a good market for commercial real estate investors in 2026?",
+    answer: "Wesley Chapel remains one of the stronger growth submarkets in the Tampa metro area for commercial investment, supported by continued population growth, infrastructure investment, and tenant demand across retail, medical, and industrial categories. Investors should focus on corridor positioning and lease structure to maximize long-term performance.",
+  },
+  {
+    question: "What types of businesses are relocating to or opening in Wesley Chapel?",
+    answer: "Healthcare operators, QSR and fast-casual restaurant franchises, fitness and wellness businesses, professional service firms, and light industrial and contractor users are among the most active business categories entering Wesley Chapel right now, driven by the growing residential base and favorable access to I-75.",
+  },
+  {
+    question: "How does Pasco County zoning affect commercial development in Wesley Chapel?",
+    answer: "Pasco County requires commercial projects to complete land use compatibility reviews, transportation concurrency assessments, and impact fee calculations before permits are issued, according to Pasco County Development Services. Working with an experienced CRE advisor before going under contract can prevent costly delays and protect your earnest money deposit.",
+  },
+  {
+    question: "Does Barrett Henry serve Wesley Chapel and Pasco County?",
+    answer: "Yes. Barrett Henry is a Broker Associate at REMAX Collective and serves all 67 Florida counties, including Wesley Chapel and the full Pasco County market, operating from offices in Tampa, Largo, and Brandon.",
+  }
+];
 
-const faqSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "What corridors in Wesley Chapel have the most commercial real estate activity?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "SR-54, SR-56, and Bruce B. Downs Boulevard are the primary commercial corridors in Wesley Chapel, with the highest concentration of retail, medical office, and restaurant activity. The area near the Wiregrass Mall and the I-75/SR-56 interchange also draws strong investor and tenant interest due to traffic volumes and surrounding residential density.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Wesley Chapel CRE: What Investors & Tenants Must Know", item: "https://hencre.com/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide" },
+      ],
     },
     {
-      "@type": "Question",
-      name: "Is Wesley Chapel a good market for commercial real estate investors in 2026?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Wesley Chapel remains one of the stronger growth submarkets in the Tampa metro area for commercial investment, supported by continued population growth, infrastructure investment, and tenant demand across retail, medical, and industrial categories. Investors should focus on corridor positioning and lease structure to maximize long-term performance.",
+      "@type": "BlogPosting",
+      headline: "Wesley Chapel CRE: What Investors & Tenants Must Know",
+      description: "Wesley Chapel commercial real estate is moving fast. Learn what's driving demand and call Barrett Henry at (813) 733-7907 to find your space or investment.",
+      datePublished: "2026-09-18",
+      dateModified: "2026-09-19",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide",
     },
     {
-      "@type": "Question",
-      name: "What types of businesses are relocating to or opening in Wesley Chapel?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Healthcare operators, QSR and fast-casual restaurant franchises, fitness and wellness businesses, professional service firms, and light industrial and contractor users are among the most active business categories entering Wesley Chapel right now, driven by the growing residential base and favorable access to I-75.",
-      },
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
-    {
-      "@type": "Question",
-      name: "How does Pasco County zoning affect commercial development in Wesley Chapel?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Pasco County requires commercial projects to complete land use compatibility reviews, transportation concurrency assessments, and impact fee calculations before permits are issued, according to Pasco County Development Services. Working with an experienced CRE advisor before going under contract can prevent costly delays and protect your earnest money deposit.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Does Barrett Henry serve Wesley Chapel and Pasco County?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. Barrett Henry is a Commercial Real Estate Advisor at REMAX Commercial Real Estate and serves all 67 Florida counties, including Wesley Chapel and the full Pasco County market, operating from offices in Tampa, Largo, and Brandon.",
-      },
-    }
   ],
 };
 
@@ -146,39 +140,16 @@ const relatedLinks = [
   }
 ];
 
-const faqItems = [
-  {
-    question: "What corridors in Wesley Chapel have the most commercial real estate activity?",
-    answer: "SR-54, SR-56, and Bruce B. Downs Boulevard are the primary commercial corridors in Wesley Chapel, with the highest concentration of retail, medical office, and restaurant activity. The area near the Wiregrass Mall and the I-75/SR-56 interchange also draws strong investor and tenant interest due to traffic volumes and surrounding residential density.",
-  },
-  {
-    question: "Is Wesley Chapel a good market for commercial real estate investors in 2026?",
-    answer: "Wesley Chapel remains one of the stronger growth submarkets in the Tampa metro area for commercial investment, supported by continued population growth, infrastructure investment, and tenant demand across retail, medical, and industrial categories. Investors should focus on corridor positioning and lease structure to maximize long-term performance.",
-  },
-  {
-    question: "What types of businesses are relocating to or opening in Wesley Chapel?",
-    answer: "Healthcare operators, QSR and fast-casual restaurant franchises, fitness and wellness businesses, professional service firms, and light industrial and contractor users are among the most active business categories entering Wesley Chapel right now, driven by the growing residential base and favorable access to I-75.",
-  },
-  {
-    question: "How does Pasco County zoning affect commercial development in Wesley Chapel?",
-    answer: "Pasco County requires commercial projects to complete land use compatibility reviews, transportation concurrency assessments, and impact fee calculations before permits are issued, according to Pasco County Development Services. Working with an experienced CRE advisor before going under contract can prevent costly delays and protect your earnest money deposit.",
-  },
-  {
-    question: "Does Barrett Henry serve Wesley Chapel and Pasco County?",
-    answer: "Yes. Barrett Henry is a Commercial Real Estate Advisor at REMAX Commercial Real Estate and serves all 67 Florida counties, including Wesley Chapel and the full Pasco County market, operating from offices in Tampa, Largo, and Brandon.",
-  }
-];
-
 export default function BlogPost() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: "Wesley Chapel CRE: What Investors & Tenants Must Know", href: "/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide" },
+          { label: "Wesley Chapel CRE: Investors & Tenants Guide", href: "/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide" },
         ]}
       />
 
@@ -193,7 +164,7 @@ export default function BlogPost() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial\u00AE Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
             <a href="/contact" className="underline">send a message</a>.
@@ -212,32 +183,20 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Commercial Real Estate Advisor"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR\u00AE & Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 23+ years of real estate experience serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. He works with investors, tenants, and business owners across Wesley Chapel, Pasco County, and the greater Tampa Bay region.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* ---- Free Resources ---- */}
-      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
-        <div className="rounded-lg bg-[#F5F5F5] p-6 text-sm text-[#666666]">
-          <p className="font-semibold text-black">Free Resources</p>
-          <ul className="mt-2 space-y-1">
-            <li>HUD Housing Counseling: <a href="tel:18005694287" className="underline">1-800-569-4287</a></li>
-            <li>FHA Resource Center: <a href="tel:18002255342" className="underline">1-800-225-5342</a></li>
-            <li>HOPE Hotline: <a href="tel:18889954673" className="underline">1-888-995-4673</a></li>
-          </ul>
         </div>
       </section>
 

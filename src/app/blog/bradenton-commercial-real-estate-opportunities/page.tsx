@@ -73,7 +73,7 @@ const schema = {
       headline: "Bradenton Commercial Real Estate Opportunities",
       description: "Bradenton and Manatee County commercial real estate market overview — sectors, trends, and opportunities.",
       datePublished: "2026-06-01",
-      dateModified: "2026-08-21",
+      dateModified: "2026-09-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -235,7 +235,7 @@ export default function BradentonCREPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

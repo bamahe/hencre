@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Valrico FL Commercial Real Estate: Hillsborough County Guide",
+  title: "Valrico FL Commercial Real Estate: Hillsborough County Guide | HenCRE",
   description: "Discover why Valrico, FL is emerging as a smart target for commercial real estate investors and business owners in Hillsborough County. Explore market trends, property types, and growth drivers.",
   alternates: { canonical: "https://hencre.com/blog/valrico-commercial-real-estate-guide" },
   openGraph: {
@@ -37,11 +37,13 @@ const schema = {
       headline: "Valrico, FL Commercial Real Estate: The Hidden Gem of Hillsborough County",
       description: "Discover why Valrico, FL is emerging as a smart target for commercial real estate investors and business owners in Hillsborough County. Explore market trends, property types, and growth drivers.",
       datePublished: "2026-07-18",
-      dateModified: "2026-08-19",
+      dateModified: "2026-09-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -197,6 +199,7 @@ export default function BlogPost() {
       />
 
       <Hero
+        backgroundImage="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1600&h=900&fit=crop"
         title="Valrico, FL Commercial Real Estate: The Hidden Gem of Hillsborough County"
         subtitle="Discover why Valrico, FL is emerging as a smart target for commercial real estate investors and business owners in Hillsborough County. Explore market trends, property types, and growth drivers."
       />
@@ -375,7 +378,7 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
@@ -390,7 +393,7 @@ export default function BlogPost() {
       <section className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-2xl border border-[#E5E5E5] bg-white p-6">
           <Image
-            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&h=80&fit=crop"
+            src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}

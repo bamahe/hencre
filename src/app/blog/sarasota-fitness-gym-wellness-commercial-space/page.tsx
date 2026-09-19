@@ -64,7 +64,7 @@ const schema = {
       headline: "Sarasota Fitness & Gym Space: Find the Right Location",
       description: "Opening a gym or wellness studio in Sarasota? Learn what spaces work, what leases require, and why this market is booming.",
       datePublished: "2026-07-27",
-      dateModified: "2026-08-20",
+      dateModified: "2026-09-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -242,7 +242,7 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

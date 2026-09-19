@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay hotel transactions surged in 2026. Here is what investors need to know about buying, valuing, and selling hospitality real estate across the Tampa Bay market.",
       datePublished: "2026-09-12",
-      dateModified: "2026-09-15",
+      dateModified: "2026-09-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
