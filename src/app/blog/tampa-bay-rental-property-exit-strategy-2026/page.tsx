@@ -79,7 +79,7 @@ const schema = {
       description:
         "Rising insurance costs, uncapped investment property tax assessments, and deferred maintenance demands are compressing Tampa Bay rental yields. Here is how to evaluate your exit options.",
       datePublished: "2026-06-24",
-      dateModified: "2026-08-31",
+      dateModified: "2026-09-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -292,11 +292,11 @@ export default function TampaBayRentalPropertyExitStrategyPage() {
           <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
-            <a href="/contact" className="underline">send a message</a>.
+            <Link href="/contact" className="underline">send a message</Link>.
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay NNN properties are trading at an average 6.1% cap rate through mid-2026. Breakdown by tenant, lease term, and corridor.",
       datePublished: "2026-08-11",
-      dateModified: "2026-08-31",
+      dateModified: "2026-09-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -336,7 +336,7 @@ export default function TampaBayNNNCapRates2026Page() {
           — I can help you price it, position it, or find the right deal.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay apartment vacancy hit a 25-year high of 10.7%. Rents fell 2.6% year-over-year. New supply is still delivering. What multifamily investors need to know — and what the recovery looks like.",
       datePublished: "2026-08-28",
-      dateModified: "2026-08-31",
+      dateModified: "2026-09-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -313,7 +313,7 @@ export default function TampaBayMultifamilyMarketMid2026Page() {
           With 23+ years of real estate experience across Tampa Bay, I work with multifamily investors evaluating acquisitions, existing owners navigating the current cycle, and clients considering whether to hold, sell, or exchange into alternative investments. Whether you own a small apartment building in Hillsborough County or are evaluating a larger acquisition in the current distressed environment, local market knowledge and realistic underwriting make the difference. Let&apos;s talk about your specific situation.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

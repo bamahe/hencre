@@ -68,7 +68,7 @@ const schema = {
       headline: "Plant City Commercial Real Estate | Hillsborough County 2026",
       description: "Plant City, FL is emerging as one of Hillsborough County's top commercial real estate opportunities in 2026. Industrial, retail, and investment trends in this growing I-4 corridor market.",
       datePublished: "2026-08-24",
-      dateModified: "2026-08-26",
+      dateModified: "2026-09-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -195,11 +195,11 @@ export default function BlogPost() {
           <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
-            <a href="/contact" className="underline">send a message</a>.
+            <Link href="/contact" className="underline">send a message</Link>.
           </p>
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

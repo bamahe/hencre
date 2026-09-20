@@ -58,7 +58,7 @@ const faqItems = [
   {
     question: "How does Moffitt Cancer Center's growth affect the North Tampa CRE market?",
     answer:
-      "Moffitt Cancer Center, one of the nation's premier cancer research and treatment facilities, anchors the USF Health corridor on Bruce B. Downs Boulevard adjacent to the main USF campus. Moffitt's continued expansion and research program creates a sustained draw of medical professionals, researchers, clinical trial patients, and biotech/pharmaceutical spinout activity. That healthcare anchor drives demand for medical office space, lab and life sciences facilities, extended-stay hotel rooms, and the full ecosystem of services that follows a major academic medical center. The North Tampa corridor already has a meaningful concentration of medical office along Bearss Avenue and Bruce B. Downs; Moffitt's growth trajectory makes that a long-term structural demand driver. For a broader view of the life sciences opportunity in Tampa Bay, see our guide to <a href='/blog/tampa-bay-life-sciences-cre-2026'>Tampa Bay life sciences commercial real estate in 2026</a>.",
+      "Moffitt Cancer Center, one of the nation's premier cancer research and treatment facilities, anchors the USF Health corridor on Bruce B. Downs Boulevard adjacent to the main USF campus. Moffitt's continued expansion and research program creates a sustained draw of medical professionals, researchers, clinical trial patients, and biotech/pharmaceutical spinout activity. That healthcare anchor drives demand for medical office space, lab and life sciences facilities, extended-stay hotel rooms, and the full ecosystem of services that follows a major academic medical center. The North Tampa corridor already has a meaningful concentration of medical office along Bearss Avenue and Bruce B. Downs; Moffitt's growth trajectory makes that a long-term structural demand driver. For a broader view of the life sciences opportunity in Tampa Bay, see our guide to <Link href='/blog/tampa-bay-life-sciences-cre-2026'>Tampa Bay life sciences commercial real estate in 2026</Link>.",
   },
   {
     question: "What types of commercial properties are available in the North Tampa / USF area?",
@@ -89,7 +89,7 @@ const schema = {
       description:
         "The North Tampa / USF corridor is undergoing a generational transformation — Fletcher District, Tampa Rithm, and Moffitt's expansion are reshaping the market for investors and tenants in 2026.",
       datePublished: "2026-08-29",
-      dateModified: "2026-08-31",
+      dateModified: "2026-09-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -296,9 +296,9 @@ export default function BlogPost() {
               (813) 733-7907
             </a>{" "}
             or{" "}
-            <a href="/contact" className="underline">
+            <Link href="/contact" className="underline">
               send a message
-            </a>
+            </Link>
             . Tenant representation costs you nothing.
           </p>
         </div>
@@ -339,7 +339,7 @@ export default function BlogPost() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Market data cited reflects publicly available sources as of mid-2026. Project timelines and program details are subject to change. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: August 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: September 2026</p>
       </section>
 
       <CTASection

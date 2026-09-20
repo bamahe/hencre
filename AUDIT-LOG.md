@@ -4,6 +4,62 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-20 -- Batch 57 (10 pages improved)
+
+**Commit:** pending | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/bradenton-commercial-real-estate-opportunities`
+- Added `import Link from "next/link"`
+- Converted 10 bare `<a href="/...">` tags to `<Link>` components
+- Updated dateModified: "2026-08-21" -> "2026-09-20"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 2. `/blog/brandon-commercial-real-estate-guide-2026`
+- Added `import Link from "next/link"`
+- Converted 10 bare `<a href="/...">` internal tags to `<Link>` components
+- Updated dateModified: "2026-08-21" -> "2026-09-20"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 3. `/blog/north-tampa-usf-corridor-commercial-real-estate-2026`
+- Converted 3 bare internal `<a href="/...">` to `<Link>` components (preserved tel: links as `<a>`)
+- Fixed mismatched `</a>` -> `</Link>` on multi-line Link elements
+- Updated dateModified: "2026-08-31" -> "2026-09-20"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 4. `/blog/plant-city-hillsborough-county-commercial-real-estate-2026`
+- Converted 2 bare internal `<a href="/...">` to `<Link>` components
+- Updated dateModified: "2026-08-26" -> "2026-09-20"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 5. `/blog/tampa-bay-multifamily-market-mid-2026`
+- Updated dateModified: "2026-08-31" -> "2026-09-20"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 6. `/blog/tampa-bay-nnn-cap-rates-2026`
+- Updated dateModified: "2026-08-31" -> "2026-09-20"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 7. `/blog/tampa-bay-opportunity-zones-cre-2026`
+- Converted 6 bare internal `<a href="/...">` to `<Link>` components (preserved tel: and contact links as `<a>`)
+- Updated dateModified: "2026-08-30" -> "2026-09-20"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 8. `/blog/tampa-bay-rental-property-exit-strategy-2026`
+- Converted 2 bare internal `<a href="/...">` to `<Link>` components
+- Updated dateModified: "2026-08-31" -> "2026-09-20"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 9. `/blog/tampa-heights-commercial-real-estate-2026`
+- Updated dateModified: "2026-08-26" -> "2026-09-20"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+### 10. `/blog/why-tampa-bay-cre-is-booming`
+- Converted 10 bare internal `<a href="/...">` to `<Link>` components
+- Updated dateModified: "2026-08-19" -> "2026-09-20"
+- Updated footer: "Last updated: August 2026" -> "September 2026"
+
+---
+
 ## 2026-09-18 -- Batch 56 (10 pages improved)
 
 **Commit:** `bbb23f9` | **Build:** clean (0 errors) | **Pages improved:** 10

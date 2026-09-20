@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Heights is emerging as one of Tampa Bay's most active CRE corridors. The Stetson–Bromley mixed-use project adds 440,000 sq ft of office and 37,500 sq ft of retail to a district already home to Heights Union and Armature Works.",
       datePublished: "2026-08-16",
-      dateModified: "2026-08-26",
+      dateModified: "2026-09-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -271,7 +271,7 @@ export default function TampaHeightsCREPage() {
           I am a Broker Associate at REMAX Collective with 23+ years of real estate experience across Tampa Bay. I help tenants find office and retail space in Tampa Heights and across the region, and I work with investors evaluating urban CRE acquisitions across Hillsborough, Pinellas, and Pasco Counties. If you are making a commercial real estate decision in Tampa Heights in the next 12 months, let&apos;s talk before the market moves ahead of you.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
