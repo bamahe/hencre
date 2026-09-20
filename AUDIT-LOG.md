@@ -6,7 +6,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ## 2026-09-20 -- Batch 57 (10 pages improved)
 
-**Commit:** pending | **Build:** clean (0 errors) | **Pages improved:** 10
+**Commit:** `d9ad00d` | **Build:** clean (0 errors) | **Pages improved:** 10
 
 ### 1. `/blog/bradenton-commercial-real-estate-opportunities`
 - Added `import Link from "next/link"`
