@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay boat and RV storage facilities trade at 6–8% cap rates with expense ratios 15–20 points below traditional self-storage. The investment case, demand drivers, and what buyers need to know.",
       datePublished: "2026-09-19",
-      dateModified: "2026-09-19",
+      dateModified: "2026-09-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -154,6 +154,11 @@ const relatedLinks = [
     title: "Investment Sales Services",
     href: "/services/investment-sales",
     description: "How Barrett helps investors acquire and sell commercial properties including storage facilities across Tampa Bay.",
+  },
+  {
+    title: "Why Tampa Bay CRE Is Booming",
+    href: "/blog/why-tampa-bay-cre-is-booming",
+    description: "The macro population and economic forces driving demand for alternative commercial assets including boat and RV storage.",
   },
 ];
 
@@ -262,7 +267,7 @@ export default function TampaBayBoatRVStorageInvestmentPage() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           On the exit side, boat and RV storage facilities in Tampa Bay have a liquid buyer pool. Institutional consolidators — regional and national storage operators who are rolling up smaller facilities — are active in the Florida market. Private investors and 1031 exchange buyers represent additional demand, particularly for stabilized assets that require minimal management involvement. If you own a storage facility and are evaluating a sale, a{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fast-sale or cash-offer process</Link>{" "}
+          <Link href="/services/dispositions" className="text-accent underline">disposition or off-market sale process</Link>{" "}
           can make sense when a quick close or certainty of execution matters more than maximizing marketed price — worth understanding as one option alongside a full brokered sale.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">

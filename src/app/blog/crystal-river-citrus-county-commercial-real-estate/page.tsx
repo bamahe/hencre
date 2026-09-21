@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -64,7 +65,7 @@ const schema = {
       headline: "Crystal River Commercial Real Estate: Citrus County Guide",
       description: "Discover why Crystal River and Citrus County, FL are emerging commercial real estate opportunities. From tourism-driven retail to waterfront properties, explore the market now.",
       datePublished: "2026-07-18",
-      dateModified: "2026-08-21",
+      dateModified: "2026-09-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -167,11 +168,11 @@ export default function BlogPost() {
           <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
-            <a href="/contact" className="underline">send a message</a>.
+            <Link href="/contact" className="underline">send a message</Link>.
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

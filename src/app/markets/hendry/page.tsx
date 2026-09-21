@@ -99,6 +99,10 @@ const relatedLinks = [
   { href: "/services/investment-sales", title: "Investment Property Sales", description: "Barrett Henry&apos;s approach to representing buyers and sellers of income-producing Florida commercial property." },
   { href: "/commercial/land-development", title: "Land Development", description: "Evaluating raw land, agricultural parcels, and development opportunity across Florida." },
   { href: "/markets", title: "All Florida Markets", description: "Browse Barrett Henry&apos;s coverage of all 67 Florida counties." },
+  { href: "/markets/charlotte", title: "Charlotte County Commercial Real Estate", description: "Neighboring Southwest Florida market connecting Hendry County to the coast." },
+  { href: "/blog/florida-1031-exchange-what-investors-need-to-know", title: "Florida 1031 Exchange Guide for Investors", description: "Defer capital gains when selling agricultural land or solar lease parcels in Hendry County." },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment", description: "Core evaluation principles for agricultural and rural commercial real estate." },
+  { href: "/services/cre-valuation", title: "CRE Valuation Services", description: "Honest market assessment for agricultural land, solar lease parcels, and rural commercial in Hendry County." },
 ];
 
 export default function Page() {
@@ -297,7 +301,7 @@ export default function Page() {
 
         <RelatedLinks links={relatedLinks} />
 
-        <p className="text-sm text-gray-500 mt-8">Last updated: August 2026</p>
+        <p className="text-sm text-gray-500 mt-8">Last updated: September 2026</p>
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Hendry County?"

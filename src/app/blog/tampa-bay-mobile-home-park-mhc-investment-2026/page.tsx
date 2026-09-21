@@ -86,7 +86,7 @@ const schema = {
       description:
         "Manufactured housing communities are delivering 5.5%–11% annual lot rent growth in Florida and trading at 4.5%–6% cap rates. Here is what Tampa Bay investors need to know about MHC commercial real estate in 2026.",
       datePublished: "2026-09-19",
-      dateModified: "2026-09-19",
+      dateModified: "2026-09-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -250,7 +250,7 @@ export default function TampaBayMobileHomeParkMHCPage() {
           For buyers, this means that waiting for marketed listings is rarely the best strategy. Building direct relationships with community owners — through targeted outreach, referrals from Florida commercial real estate attorneys and accountants who serve MHC owners, and networking within the manufactured housing industry — is how most successful acquisitions are sourced in this market. A commercial broker with active relationships in the Tampa Bay MHC community can accelerate that process significantly.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For sellers who own a manufactured housing community in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, or <Link href="/markets/pasco" className="text-accent underline">Pasco</Link> County and are considering an exit, the current buyer competition means you may have more leverage than you realize — but only if your property is positioned correctly and marketed to the right buyer pool. Owners who want to sell quickly and without the complexity of a formal listing process may also find value in exploring off-market cash purchase options through services like <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Fast Sell Easy Sale</a>, which connects sellers of commercial real estate and land with cash buyers across Tampa Bay.
+          For sellers who own a manufactured housing community in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, or <Link href="/markets/pasco" className="text-accent underline">Pasco</Link> County and are considering an exit, the current buyer competition means you may have more leverage than you realize — but only if your property is positioned correctly and marketed to the right buyer pool. Owners who want to sell quickly and without the complexity of a formal listing process may also find value in exploring off-market cash purchase options through <Link href="/services/dispositions" className="text-accent underline">HenCRE&apos;s disposition services</Link>, which connect sellers of commercial real estate and land with qualified buyers across Tampa Bay.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For sellers who want to maximize proceeds and preserve tax efficiency, a <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link> can allow you to defer capital gains on an MHC sale and reinvest into a different commercial property — an option worth exploring with your tax advisor well before you execute any sale agreement.
