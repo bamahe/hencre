@@ -1520,5 +1520,21 @@
       "photographer": "Travis Walser",
       "link": "https://unsplash.com/@traviswalser"
     }
+  },
+  {
+    "slug": "lakeland-polk-county-commercial-real-estate-2026",
+    "title": "Lakeland FL Commercial Real Estate Market 2026",
+    "excerpt": "Lakeland, Florida has become one of Central Florida's most active commercial real estate markets, drawing logistics operators, retailers, medical tenants, and investors who want Polk County exposure without Orlando or Tampa pricing.",
+    "date": "2026-09-21",
+    "category": "city-market",
+    "city": "Lakeland",
+    "county": "Polk",
+    "businessType": null,
+    "image": {
+      "url": "/images/blog/lakeland-polk-county-commercial-real-estate-2026.jpg",
+      "alt": "a street lined with palm trees and parked cars",
+      "photographer": "Juan Pablo Mascanfroni",
+      "link": "https://unsplash.com/@juanmascan1978"
+    }
   }
 ]
