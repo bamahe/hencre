@@ -4,6 +4,60 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-21 -- Batch 58 (10 pages improved)
+
+**Commit:** `b7e66d0` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/crystal-river-citrus-county-commercial-real-estate`
+- Added `import Link from "next/link"`
+- Converted mid-CTA `/contact` bare `<a>` to `<Link>` component
+- Updated footer: "August 2026" -> "September 2026"
+- Updated dateModified: "2026-08-21" -> "2026-09-21"
+
+### 2. `/blog/florida-property-insurance-tampa-bay-cre-2026`
+- Replaced external `bestbayservices.com` link with plain text (qualified property maintenance contractors)
+- Replaced external `fastselleasysale.com` link with internal `/services/dispositions` link
+- Updated dateModified: "2026-09-17" -> "2026-09-21"
+
+### 3. `/blog/lakeland-warehouse-industrial-growth`
+- Updated footer: "August 2026" -> "September 2026"
+- Converted 11 bare `<a>` tags to `<Link>` components (Polk County, Hillsborough, Pinellas, cap rates, NNN-leased, industrial investment, ROI, investment sales, warehouse space, tenant representation, Tampa industrial outlook)
+- Updated dateModified: "2026-08-20" -> "2026-09-21"
+
+### 4. `/blog/land-o-lakes-fitness-gym-wellness-commercial-space`
+- Updated footer: "August 2026" -> "September 2026"
+- Converted mid-CTA `/contact` bare `<a>` to `<Link>` component
+- Updated dateModified: "2026-08-20" -> "2026-09-21"
+
+### 5. `/blog/sarasota-fitness-gym-wellness-commercial-space`
+- Updated footer: "August 2026" -> "September 2026"
+- Converted mid-CTA `/contact` bare `<a>` to `<Link>` component
+- Updated dateModified: "2026-08-20" -> "2026-09-21"
+
+### 6. `/blog/south-tampa-commercial-real-estate-2026`
+- Added `import Link from "next/link"`
+- Updated footer: "August 2026" -> "September 2026"
+- Converted mid-CTA `/contact` bare `<a>` to `<Link>` component
+- Updated dateModified: "2026-08-21" -> "2026-09-21"
+
+### 7. `/blog/tampa-bay-boat-rv-storage-cre-investment-2026`
+- Replaced external `fastselleasysale.com` link with internal `/services/dispositions` link
+- Expanded relatedLinks from 9 to 10 (added: Why Tampa Bay CRE Is Booming)
+- Updated dateModified: "2026-09-19" -> "2026-09-21"
+
+### 8. `/blog/tampa-bay-mobile-home-park-mhc-investment-2026`
+- Replaced external `fastselleasysale.com` bare `<a>` with internal `<Link>` to `/services/dispositions`
+- Updated dateModified: "2026-09-19" -> "2026-09-21"
+
+### 9. `/markets/duval`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 10. `/markets/hendry`
+- Updated footer: "August 2026" -> "September 2026"
+- Expanded relatedLinks from 6 to 10 (added: charlotte market, florida-1031-exchange, what-makes-a-good-commercial-investment, cre-valuation)
+
+---
+
 ## 2026-09-20 -- Batch 57 (10 pages improved)
 
 **Commit:** `d9ad00d` | **Build:** clean (0 errors) | **Pages improved:** 10
