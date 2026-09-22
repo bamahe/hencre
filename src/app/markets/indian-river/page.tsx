@@ -100,6 +100,9 @@ const relatedLinks = [
   { href: "/blog/tampa-bay-medical-office-real-estate-2026", title: "Medical Office CRE 2026" },
   { href: "/commercial/retail-space", title: "Retail Space" },
   { href: "/markets", title: "All Florida Markets" },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment", description: "Key criteria for evaluating commercial real estate opportunities in Florida." },
+  { href: "/blog/florida-1031-exchange-what-investors-need-to-know", title: "Florida 1031 Exchange Guide", description: "How to defer capital gains taxes when selling and reinvesting in Florida commercial property." },
+  { href: "/calculators/cap-rate", title: "Cap Rate Calculator", description: "Calculate capitalization rates on potential investment properties in Indian River County." },
 ];
 
 export default function Page() {
@@ -289,7 +292,7 @@ export default function Page() {
 
         <RelatedLinks links={relatedLinks} />
 
-        <p className="text-sm text-gray-500 mt-8">Last updated: August 2026</p>
+        <p className="text-sm text-gray-500 mt-8">Last updated: September 2026</p>
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Indian River County?"

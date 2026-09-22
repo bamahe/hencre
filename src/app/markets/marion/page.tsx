@@ -96,6 +96,10 @@ const relatedLinks = [
   { href: "/commercial/industrial-warehouse", title: "Industrial & Warehouse Properties" },
   { href: "/services/investment-sales", title: "Investment Property Sales" },
   { href: "/markets", title: "All Florida Markets" },
+  { href: "/blog/what-makes-a-good-commercial-investment", title: "What Makes a Good Commercial Investment", description: "Key criteria investors use to evaluate commercial opportunities in Central Florida." },
+  { href: "/blog/florida-1031-exchange-what-investors-need-to-know", title: "Florida 1031 Exchange Guide", description: "Defer capital gains taxes when selling and reinvesting in Marion County commercial property." },
+  { href: "/calculators/cap-rate", title: "Cap Rate Calculator", description: "Calculate capitalization rates on potential investment properties in Marion County." },
+  { href: "/blog/commercial-property-due-diligence-timeline", title: "Commercial Due Diligence Timeline", description: "A step-by-step guide to what investors must review before closing on Florida commercial property." },
 ];
 
 export default function Page() {
@@ -308,7 +312,7 @@ export default function Page() {
 
         <RelatedLinks links={relatedLinks} />
 
-        <p className="text-sm text-gray-500 mt-8">Last updated: August 2026</p>
+        <p className="text-sm text-gray-500 mt-8">Last updated: September 2026</p>
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Marion County?"

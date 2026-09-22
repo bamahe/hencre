@@ -86,7 +86,7 @@ const schema = {
       description:
         "Dollar General and Dollar Tree NNN properties in Tampa Bay are trading at 6.75–7.05% cap rates in 2026. Here is what passive investors need to know about lease structure, due diligence, and which corridors are most active.",
       datePublished: "2026-09-20",
-      dateModified: "2026-09-20",
+      dateModified: "2026-09-22",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -266,7 +266,9 @@ export default function TampaBayDollarStoreNNNInvestment2026Page() {
           The 45-day identification window and 180-day closing requirement for a 1031 exchange can be tight for some net-lease acquisitions if the deal is competitive, but dollar store NNN deals close on relatively predictable timelines — typically 30 to 45 days for a cash buyer and 45 to 60 days with financing. Working with a broker who has current inventory and understands the net-lease market before you start the clock on your exchange is essential. If you are selling a residential investment property in Tampa Bay and want to identify replacement dollar store NNN properties before closing your sale, I can help you build a shortlist. For a full explanation of how the Florida 1031 exchange process works, see our <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">Florida 1031 exchange guide</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors who need to move quickly on a sale before identifying a replacement — or who have decided not to exchange and want a fast, clean disposition — <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">FastSellEasySale</a> specializes in buying commercial properties, investment properties, and land for cash with a straightforward process and no listing period.
+          For investors who need to move quickly on a sale before identifying a replacement -- or who have decided not to exchange and want a fast, clean disposition -- our{" "}
+          <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link>{" "}
+          can help you execute a fast, straightforward sale of your investment property or land.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do Dollar Store NNN Deals Compare to Other Passive NNN Options in Tampa Bay?</h2>
