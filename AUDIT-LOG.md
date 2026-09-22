@@ -4,6 +4,57 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-22 -- Batch 59 (10 pages improved)
+
+**Commit:** `2b2ca43` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/lakeland-polk-county-commercial-real-estate-2026`
+- Full fix pass: merged dual schemas (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from sameAs array
+- Added dateModified: "2026-09-22"
+- Added "Home" as first breadcrumb item (was missing)
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Converted bare `<img>` -> `<Image>` in author bio
+- Fixed author bio credentials to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted all bare `<a>` tags in JSX body to `<Link>` components
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Added "Last updated: September 2026" footer
+- Fixed title: added "| HenCRE" suffix
+- Removed em dashes from description and body text
+
+### 2. `/blog/tampa-bay-dollar-store-nnn-investment-2026`
+- Replaced external fastselleasysale.com link with internal `/services/dispositions` Link
+- Updated dateModified: "2026-09-20" -> "2026-09-22"
+
+### 3. `/blog/tampa-bay-spec-suites-office-2026`
+- Updated dateModified: "2026-09-17" -> "2026-09-22"
+
+### 4. `/markets/gadsden`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 5. `/markets/indian-river`
+- Updated footer: "August 2026" -> "September 2026"
+- Expanded relatedLinks from 7 to 10 (added: what-makes-a-good-commercial-investment, florida-1031-exchange, cap-rate calculator)
+
+### 6. `/markets/jackson`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 7. `/markets/jefferson`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 8. `/markets/lee`
+- Updated footer: "August 2026" -> "September 2026"
+- Expanded relatedLinks from 8 to 10 (added: what-makes-a-good-commercial-investment, florida-1031-exchange)
+
+### 9. `/markets/marion`
+- Updated footer: "August 2026" -> "September 2026"
+- Expanded relatedLinks from 6 to 10 (added: what-makes-a-good-commercial-investment, florida-1031-exchange, cap-rate calculator, commercial-property-due-diligence-timeline)
+
+---
+
 ## 2026-09-21 -- Batch 58 (10 pages improved)
 
 **Commit:** `b7e66d0` | **Build:** clean (0 errors) | **Pages improved:** 10
