@@ -80,7 +80,7 @@ const schema = {
       description:
         "Explore commercial real estate opportunities in Crystal River, Citrus County FL. Medical office, hospitality, marine retail, and waterfront investment along Florida's Nature Coast.",
       datePublished: "2026-08-12",
-      dateModified: "2026-08-30",
+      dateModified: "2026-09-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -262,7 +262,7 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

@@ -85,7 +85,7 @@ const schema = {
       description:
         "Learn what experienced investors look for in commercial real estate — tenant quality, lease terms, location fundamentals, and more.",
       datePublished: "2026-05-15",
-      dateModified: "2026-09-05",
+      dateModified: "2026-09-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -271,7 +271,7 @@ export default function GoodInvestmentPage() {
           A good commercial investment is not just about the cap rate or the price per square foot. It is about the quality of the income, the strength of the location, the condition of the asset, and how it fits your strategy. When all of those align, you have a deal worth pursuing. When they do not, the best investment decision is walking away. For perspective on specific markets, see the <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/polk" className="text-accent underline">Polk</Link>, <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> county overviews. For <Link href="/services/investment-sales" className="text-accent underline">investment sales representation</Link>, contact Barrett to discuss what you are looking for.
         </p>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

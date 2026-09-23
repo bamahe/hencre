@@ -180,11 +180,7 @@ export default function LakelandWarehouseIndustrialGrowthPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-<<<<<<< HEAD
-          Lakeland and the greater <Link href="/markets/polk" className="text-accent underline">Polk County</Link> area have transformed from a quiet agricultural region into one of Florida&apos;s most active industrial corridors. Sitting at the midpoint of the I-4 between Tampa and Orlando, Lakeland offers something both metro areas are running out of: affordable land with direct interstate access and a growing labor force. For industrial tenants and investors, the numbers are compelling.
-=======
-          When MDH Partners closed on 557,100 square feet at Lakeland Commerce Center in July 2026 for $67.7 million, it was the latest signal that institutional industrial capital has moved well past Tampa Bay&apos;s core submarkets and is underwriting the I-4 corridor with conviction. The deal — three newly built Class A buildings at 3490 County Line Road in Polk County, acquired from Stonemont Financial Group with JLL Capital Markets arranging the sale — arrived just months after LG Electronics USA paid $50 million for a fourth building at the same complex. In less than a year, a single Polk County industrial park attracted over $117 million from two separate institutional buyers. That is not a coincidence. It is a thesis.
->>>>>>> f1ce637 (blog: Lakeland warehouse & industrial growth 2026 deep-dive)
+          When MDH Partners closed on 557,100 square feet at Lakeland Commerce Center in July 2026 for $67.7 million, it was the latest signal that institutional industrial capital has moved well past Tampa Bay&apos;s core submarkets and is underwriting the I-4 corridor with conviction. The deal — three newly built Class A buildings at 3490 County Line Road in <Link href="/markets/polk" className="text-accent underline">Polk County</Link>, acquired from Stonemont Financial Group with JLL Capital Markets arranging the sale — arrived just months after LG Electronics USA paid $50 million for a fourth building at the same complex. In less than a year, a single Polk County industrial park attracted over $117 million from two separate institutional buyers. That is not a coincidence. It is a thesis.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Is the I-4 Corridor Becoming Florida&apos;s Industrial Spine?</h2>
@@ -253,13 +249,6 @@ export default function LakelandWarehouseIndustrialGrowthPage() {
           Mid-size industrial space — 30,000 to 150,000 square feet — is tighter. Multi-tenant buildings and smaller bay product in Lakeland face the same structural supply gap that <a href="/blog/tampa-bay-small-bay-industrial-flex-2026" className="text-accent underline">characterizes Tampa Bay&apos;s small bay market</a>: demand from small and mid-size businesses is growing, but developers prefer large-format projects. Tenants in this size range should begin their search at least six months before their target date.
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-<<<<<<< HEAD
-          <li><strong>Central location.</strong> Lakeland sits roughly equidistant between Tampa and Orlando on I-4, giving distributors access to both metro areas — and their combined 6+ million residents — within an hour&apos;s drive.</li>
-          <li><strong>Available land.</strong> Unlike Tampa&apos;s <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> or <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>, Polk County has large tracts of developable land suitable for modern warehouse and distribution facilities.</li>
-          <li><strong>Lower costs.</strong> Land prices, construction costs, and property taxes are significantly lower than in Tampa or Orlando. This translates to lower rents for tenants and higher yields for investors.</li>
-          <li><strong>Labor pool.</strong> Polk County&apos;s growing population — driven by residential migration from higher-cost coastal areas — provides an expanding workforce for logistics and manufacturing operations.</li>
-          <li><strong>Infrastructure investment.</strong> Highway improvements, including the Polk Parkway and I-4 expansion projects, have improved access and reduced transit times.</li>
-=======
           <li>
             <strong>Lease structure.</strong> Nearly all Lakeland industrial leases are triple-net, with annual escalations of 3 to 4 percent. Budget for NNN charges — typically $2 to $3 per square foot annually — on top of base rent when modeling total occupancy cost.
           </li>
@@ -272,51 +261,20 @@ export default function LakelandWarehouseIndustrialGrowthPage() {
           <li>
             <strong>Electrical capacity.</strong> E-commerce fulfillment and automated distribution operations have dramatically increased electrical demand per square foot. Confirm available power capacity — ideally 2,000 to 4,000 amps at 480V — before committing to any building.
           </li>
->>>>>>> f1ce637 (blog: Lakeland warehouse & industrial growth 2026 deep-dive)
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Outlook: Why Lakeland&apos;s Industrial Momentum Is Structural, Not Cyclical</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-<<<<<<< HEAD
-          The tenant profile in Lakeland&apos;s industrial market has evolved rapidly. Major logistics and e-commerce companies have established large distribution centers, attracted by the central location and modern facility specifications. Third-party logistics (3PL) providers have expanded operations to serve the growing Tampa and Orlando markets. Food and beverage distributors take advantage of the region&apos;s cold storage infrastructure. And light manufacturing operations are attracted by the lower cost structure compared to coastal markets.
-        </p>
-
-        <h2 className="mt-10 text-2xl font-bold text-black">What Does the Construction Pipeline Look Like?</h2>
-        <p className="mt-4 text-[#666666] leading-relaxed">
-          Speculative industrial construction in the Lakeland area has been robust, with several large-scale developments delivering hundreds of thousands of square feet of new Class A warehouse space. These facilities feature modern specifications — 36-foot clear heights, extensive trailer parking, LED lighting, and ESFR sprinkler systems — that meet the requirements of national logistics tenants. Despite the new supply, pre-leasing activity has been strong, and vacancy rates have remained manageable.
-        </p>
-
-        <h2 className="mt-10 text-2xl font-bold text-black">How Do Lakeland Industrial Rents Compare to Tampa?</h2>
-        <p className="mt-4 text-[#666666] leading-relaxed">
-          Lakeland industrial rents are typically 15 to 30 percent below comparable Tampa Bay properties, depending on building class and size. This discount is a major draw for cost-sensitive tenants. However, the gap has been narrowing as demand in Lakeland increases and new construction delivers at higher price points. For investors, this convergence creates opportunity — properties purchased at Lakeland pricing may appreciate as the market matures and rents continue to rise.
-        </p>
-
-        <h2 className="mt-10 text-2xl font-bold text-black">Is Lakeland Industrial a Good Investment?</h2>
-        <p className="mt-4 text-[#666666] leading-relaxed">
-          Lakeland industrial investment offers several advantages. <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">Cap rates</Link> tend to be slightly higher than in Tampa — meaning better initial yields — while the growth trajectory suggests strong appreciation potential. <Link href="/insights/nnn-lease-explained" className="text-accent underline">NNN-leased</Link> industrial properties with creditworthy tenants on long-term leases are available at attractive price points. And the market&apos;s fundamentals — population growth, location advantages, and infrastructure investment — support continued demand.
-        </p>
-        <p className="mt-4 text-[#666666] leading-relaxed">
-          Risks to monitor include the pace of new construction — if supply outpaces demand, vacancy could rise and rent growth could stall. Investors should also evaluate tenant concentration and lease term remaining, as they would with any <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial investment</Link>. Understanding how to <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">calculate commercial property ROI</Link> before committing is essential, and our <Link href="/services/investment-sales" className="text-accent underline">investment sales</Link> process can help you evaluate Lakeland opportunities alongside other Florida markets.
-=======
-          The MDH Partners and LG Electronics acquisitions at Lakeland Commerce Center are not outliers. They reflect a durable shift in how national logistics capital thinks about Florida. The state&apos;s population growth — Florida added more residents than any other state in both 2023 and 2024 — translates directly into warehouse demand, and much of that growth is occurring within a two-hour radius of Lakeland. The shift toward shorter, more resilient supply chains following the post-pandemic inventory crisis has made mid-continent distribution points like Polk County more strategically valuable than they were when just-in-time logistics from coastal ports dominated the calculus.
+          The MDH Partners and LG Electronics acquisitions at Lakeland Commerce Center are not outliers. They reflect a durable shift in how national logistics capital thinks about Florida. The state&apos;s population growth — Florida added more residents than any other state in both 2023 and 2024 — translates directly into warehouse demand, and much of that growth is occurring within a two-hour radius of Lakeland. The shift toward shorter, more resilient supply chains following the post-pandemic inventory crisis has made mid-continent distribution points like <Link href="/markets/polk" className="text-accent underline">Polk County</Link> more strategically valuable than they were when just-in-time logistics from coastal ports dominated the calculus.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Lakeland Linder International Airport — a cargo-capable facility adjacent to Lakeland Commerce Center — adds a dimension that most inland industrial markets lack: the ability to handle time-sensitive freight by air alongside ground distribution. As e-commerce brands continue raising consumer expectations for delivery speed, proximity to a functional cargo airport is becoming a meaningful differentiator in site selection.
->>>>>>> f1ce637 (blog: Lakeland warehouse & industrial growth 2026 deep-dive)
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-<<<<<<< HEAD
-          If you are looking for <Link href="/commercial/industrial-warehouse" className="text-accent underline">warehouse or distribution space</Link>, Lakeland should be on your shortlist if your operations can serve the Tampa and Orlando markets from a central location. Start your search early — the best new construction spaces are being pre-leased before delivery. Work with a <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link> who knows the Polk County market to compare options and negotiate favorable lease terms.
-=======
-          For investors, the narrative is straightforward. Lakeland offers a yield premium over Tampa Bay&apos;s tightest submarkets, strong absorption fundamentals, a growing institutional tenant base, and more land for development-focused strategies — all within the same Florida Sun Belt thesis that has driven capital into Tampa Bay industrial for the past decade. The $117 million that traded at Lakeland Commerce Center in 2026 is a leading indicator, not a lagging one.
->>>>>>> f1ce637 (blog: Lakeland warehouse & industrial growth 2026 deep-dive)
+          For investors, the narrative is straightforward. Lakeland offers a yield premium over Tampa Bay&apos;s tightest submarkets, strong absorption fundamentals, a growing institutional tenant base, and more land for development-focused strategies — all within the same Florida Sun Belt thesis that has driven capital into <Link href="/commercial/industrial-warehouse" className="text-accent underline">Tampa Bay industrial</Link> for the past decade. The $117 million that traded at Lakeland Commerce Center in 2026 is a leading indicator, not a lagging one.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-<<<<<<< HEAD
-          Lakeland&apos;s industrial market has moved from emerging to established. The fundamentals are strong, the infrastructure is improving, and the cost advantages remain significant compared to coastal markets. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I help tenants find the right space and investors identify opportunities across the I-4 corridor and greater Tampa Bay region. For broader context on the Tampa Bay industrial picture, see the <Link href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">Tampa industrial market outlook 2026</Link>. The Lakeland industrial story is still being written, and the next few years look promising.
-=======
-          With 23+ years of commercial real estate experience across Tampa Bay and the I-4 corridor, I help investors identify industrial acquisitions, owner-users evaluate buy-versus-lease decisions, and tenants navigate a market where the best space moves before it ever gets formally listed. If Lakeland or Polk County is on your radar, let&apos;s talk about what the current market actually looks like — not just what the headline numbers say.
->>>>>>> f1ce637 (blog: Lakeland warehouse & industrial growth 2026 deep-dive)
+          With 23+ years of commercial real estate experience across Tampa Bay and the I-4 corridor, I help investors identify <Link href="/services/investment-sales" className="text-accent underline">industrial acquisitions</Link>, owner-users evaluate buy-versus-lease decisions, and tenants navigate a market where the best space moves before it ever gets formally listed. If Lakeland or Polk County is on your radar, let&apos;s talk about what the current market actually looks like — not just what the headline numbers say.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>

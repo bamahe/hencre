@@ -81,7 +81,7 @@ const schema = {
       description:
         "Tampa Bay retail vacancy held at 3.8% in Q2 2026 — well below the national average and near historic lows for strip centers and grocery-anchored properties. What that means if you are leasing or investing.",
       datePublished: "2026-08-14",
-      dateModified: "2026-08-30",
+      dateModified: "2026-09-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -339,7 +339,7 @@ export default function TampaBayRetailMarketQ2Page() {
           Investors and tenants can learn more about Tampa Bay&apos;s fastest-growing communities and retail demand drivers in our <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County market guide</Link> and <Link href="/markets/pinellas" className="text-accent underline">Pinellas County market guide</Link>.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

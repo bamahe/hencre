@@ -80,7 +80,7 @@ const schema = {
       description:
         "Nearly $875 billion in commercial mortgages mature nationally in 2026. Tampa Bay property owners facing loan maturities need to understand their options before time runs out.",
       datePublished: "2026-08-27",
-      dateModified: "2026-08-30",
+      dateModified: "2026-09-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -353,7 +353,7 @@ export default function TampaBayCREDebtMaturityWall2026Page() {
           Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of commercial real estate experience across multiple market cycles. He works with Tampa Bay property owners facing loan maturity to evaluate options, model outcomes, and execute the appropriate strategy — whether that is a conventional refinancing, a quiet sale to a motivated buyer, or a recapitalization that lets the owner retain the asset. Call Barrett at <a href="tel:+18138801220" className="text-accent underline">(813) 880-1220</a> to discuss your specific situation.
         </p>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       <section className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
