@@ -4,6 +4,62 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-23 -- Batch 60 (11 pages improved)
+
+**Commit:** `2d251ec` | **Build:** clean (0 errors) | **Pages improved:** 11
+
+### 1. `/blog/tampa-bay-data-center-cre-2026`
+- Updated dateModified: "2026-08-31" -> "2026-09-23"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 2. `/blog/tampa-bay-retail-market-q2-2026`
+- Updated dateModified: "2026-08-30" -> "2026-09-23"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 3. `/blog/what-makes-a-good-commercial-investment`
+- Updated dateModified: "2026-09-05" -> "2026-09-23"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 4. `/blog/crystal-river-waterfront-commercial-investment-guide`
+- Updated dateModified: "2026-08-30" -> "2026-09-23"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 5. `/blog/tampa-bay-cre-debt-maturity-wall-2026`
+- Updated dateModified: "2026-08-30" -> "2026-09-23"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 6. `/blog/termite-damage-investment-property-florida`
+- Updated dateModified: "2026-08-21" -> "2026-09-23"
+- Updated footer: "August 2026" -> "September 2026"
+- Converted `/contact` bare `<a>` -> `<Link>` component
+
+### 7. `/blog/sarasota-warehouse-distribution-space-guide`
+- Updated dateModified: "2026-08-29" -> "2026-09-23"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 8. `/blog/riverview-fl-retail-leasing-guide`
+- Converted `/about` bare `<a>` -> `<Link>` component in author bio
+
+### 9. `/blog/tampa-retail-storefront-space-guide`
+- Updated dateModified: "2026-09-07" -> "2026-09-23"
+- Added `import Image from "next/image"`
+- Converted bare `<img>` -> `<Image>` in author bio
+- Fixed alt text: "Commercial Real Estate Advisor" -> "Broker Associate at REMAX Collective"
+- Converted `/contact` bare `<a>` -> `<Link>` component
+
+### 10. `/blog/riverview-hillsborough-nnn-retail-landlord-investment`
+- Added `import Link from "next/link"` and `import Image from "next/image"`
+- Fixed CTA text: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted bare `<img>` -> `<Image>` in author bio
+- Fixed alt text: "Commercial Real Estate Advisor" -> "Broker Associate at REMAX Collective"
+- Converted `/contact` bare `<a>` -> `<Link>` component
+
+### 11. `/blog/lakeland-warehouse-industrial-growth`
+- Resolved git merge conflict (kept f1ce637 deep-dive content with MDH Partners deal)
+- Integrated `<Link>` components from HEAD into merged content (Polk County, industrial-warehouse, investment-sales links)
+
+---
+
 ## 2026-09-22 -- Batch 59 (10 pages improved)
 
 **Commit:** `2b2ca43` | **Build:** clean (0 errors) | **Pages improved:** 10
