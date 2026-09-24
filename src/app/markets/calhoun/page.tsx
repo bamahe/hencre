@@ -122,8 +122,12 @@ const relatedLinks = [
   {
     title: "Do You Need a Commercial Real Estate Broker?",
     href: "/blog/do-you-need-a-commercial-real-estate-broker",
-    description: "What a commercial REALTOR does and when engaging one protects your interests in rural markets.",
+    description: "What a commercial broker does and when engaging one protects your interests in rural markets.",
   },
+  { title: "What Makes a Good Commercial Investment?", href: "/blog/what-makes-a-good-commercial-investment", description: "Investment criteria for evaluating rural and secondary-market properties." },
+  { title: "Cap Rate Calculator", href: "/calculators/cap-rate", description: "Free tool to analyze cap rates on Florida commercial properties." },
+  { title: "Tenant Representation Services", href: "/services/tenant-representation", description: "Barrett advocates for tenants in lease negotiations statewide." },
+  { title: "Florida Markets Overview", href: "/markets", description: "Browse all Florida commercial real estate markets Barrett Henry covers." },
 ];
 
 export default function CalhounPage() {
@@ -306,7 +310,7 @@ export default function CalhounPage() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This page is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: August 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: September 2026</p>
       </section>
 
       <CTASection

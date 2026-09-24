@@ -105,6 +105,11 @@ const relatedMarkets = [
   { title: "Tenant Representation", href: "/services/tenant-representation", description: "Finding the right space for your business." },
   { title: "What Makes a Good Commercial Investment?", href: "/blog/what-makes-a-good-commercial-investment", description: "Investment criteria from a broker's perspective." },
   { title: "What Is a Cap Rate?", href: "/insights/what-is-a-cap-rate", description: "Understanding the core metric for CRE investment analysis." },
+  { title: "Baker County CRE", href: "/markets/baker", description: "Rural northeast Florida market adjacent to Clay County." },
+  { title: "Bradford County CRE", href: "/markets/bradford", description: "Starke and rural North Florida commercial opportunities." },
+  { title: "Cap Rate Calculator", href: "/calculators/cap-rate", description: "Free tool to analyze cap rates on Florida commercial properties." },
+  { title: "1031 Exchange Basics", href: "/insights/1031-exchange-basics", description: "Using 1031 exchanges to transition Florida commercial holdings." },
+  { title: "Florida Markets Overview", href: "/markets", description: "Browse all Florida commercial real estate markets Barrett Henry covers." },
 ];
 
 export default function ClayMarketPage() {
@@ -315,7 +320,7 @@ export default function ClayMarketPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

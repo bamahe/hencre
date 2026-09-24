@@ -93,6 +93,10 @@ const relatedLinks = [
   { title: "Commercial Land and Development", href: "/commercial/land-development", description: "Florida land acquisition and development strategy with Barrett" },
   { title: "1031 Exchange Basics", href: "/insights/1031-exchange-basics", description: "Using 1031 exchanges to transition rural land holdings" },
   { title: "Investment Sales Advisory", href: "/services/investment-sales", description: "Buyer and seller representation for Florida commercial properties" },
+  { title: "What Makes a Good Commercial Investment?", href: "/blog/what-makes-a-good-commercial-investment", description: "Investment criteria for evaluating rural and secondary-market properties." },
+  { title: "Cap Rate Calculator", href: "/calculators/cap-rate", description: "Free tool to analyze cap rates on Florida commercial properties." },
+  { title: "Tenant Representation Services", href: "/services/tenant-representation", description: "Barrett advocates for tenants in lease negotiations statewide." },
+  { title: "Florida Markets Overview", href: "/markets", description: "Browse all Florida commercial real estate markets Barrett Henry covers." },
 ];
 
 export default function BakerPage() {
@@ -223,7 +227,7 @@ export default function BakerPage() {
       <RelatedLinks heading="Explore Related Markets and Resources" links={relatedLinks} />
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
 
       <CTASection

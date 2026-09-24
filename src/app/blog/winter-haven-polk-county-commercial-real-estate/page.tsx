@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -116,7 +118,7 @@ const schema = {
       headline: "Winter Haven Polk County Commercial Real Estate 2026",
       description: "Discover why Winter Haven, Polk County FL is attracting commercial real estate investors and tenants in 2026. Explore retail, office, industrial, and mixed-use opportunities in this fast-growing Central Florida market.",
       datePublished: "2026-08-10",
-      dateModified: "2026-08-23",
+      dateModified: "2026-09-24",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -149,6 +151,7 @@ export default function BlogPost() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Winter Haven, Polk County FL: A Rising Star in Central Florida Commercial Real Estate", href: "/blog/winter-haven-polk-county-commercial-real-estate" },
         ]}
@@ -164,10 +167,10 @@ export default function BlogPost() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial\u00AE Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
-            <a href="/contact" className="underline">send a message</a>.
+            <Link href="/contact" className="underline">send a message</Link>.
           </p>
         </div>
       </article>
@@ -183,18 +186,18 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Commercial Real Estate Advisor"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He serves buyers, sellers, landlords, and tenants across all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>
@@ -205,6 +208,7 @@ export default function BlogPost() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
+        <p className="mt-4 text-xs text-[#666666]">Last updated: September 2026</p>
       </section>
 
       <CTASection

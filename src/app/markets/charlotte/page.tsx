@@ -105,6 +105,11 @@ const relatedMarkets = [
   { title: "All Florida Markets", href: "/markets", description: "Overview of every market Barrett Henry serves." },
   { title: "Investment Sales Services", href: "/services/investment-sales", description: "Buyer and seller representation for CRE investment." },
   { title: "What Makes a Good Commercial Investment?", href: "/blog/what-makes-a-good-commercial-investment", description: "Investment criteria from a broker's perspective." },
+  { title: "Cap Rate Calculator", href: "/calculators/cap-rate", description: "Free tool to analyze cap rates on Florida commercial properties." },
+  { title: "Tenant Representation Services", href: "/services/tenant-representation", description: "Barrett advocates for tenants in lease negotiations statewide." },
+  { title: "NNN Net Lease Properties", href: "/commercial/nnn-net-lease", description: "Triple-net investment opportunities across Florida, including Charlotte County." },
+  { title: "Commercial Due Diligence Timeline", href: "/blog/commercial-property-due-diligence-timeline", description: "Step-by-step due diligence process for commercial real estate buyers." },
+  { title: "Florida 1031 Exchange Guide", href: "/blog/florida-1031-exchange-what-investors-need-to-know", description: "Using 1031 exchanges to reposition Florida CRE holdings." },
 ];
 
 export default function CharlotteMarketPage() {
@@ -342,7 +347,7 @@ export default function CharlotteMarketPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

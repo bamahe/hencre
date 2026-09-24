@@ -101,6 +101,13 @@ const relatedMarkets = [
   { title: "Hernando County", href: "/markets/hernando", description: "Spring Hill & Brooksville CRE" },
   { title: "Pasco County", href: "/markets/pasco", description: "Wesley Chapel growth corridor" },
   { title: "Hillsborough County", href: "/markets/hillsborough", description: "Tampa CRE market" },
+  { title: "Investment Sales Advisory", href: "/services/investment-sales", description: "Buyer and seller representation for Florida CRE investors." },
+  { title: "What Makes a Good Commercial Investment?", href: "/blog/what-makes-a-good-commercial-investment", description: "Investment criteria from a broker's perspective." },
+  { title: "Cap Rate Calculator", href: "/calculators/cap-rate", description: "Free tool to analyze cap rates on Florida commercial properties." },
+  { title: "Florida 1031 Exchange Guide", href: "/blog/florida-1031-exchange-what-investors-need-to-know", description: "Using 1031 exchanges to reposition Florida CRE holdings." },
+  { title: "Tenant Representation Services", href: "/services/tenant-representation", description: "Barrett advocates for tenants in lease negotiations statewide." },
+  { title: "Commercial Due Diligence Timeline", href: "/blog/commercial-property-due-diligence-timeline", description: "Step-by-step due diligence process for commercial real estate buyers." },
+  { title: "Florida Markets Overview", href: "/markets", description: "Browse all Florida commercial real estate markets Barrett Henry covers." },
 ];
 
 export default function CitrusMarketPage() {
@@ -108,7 +115,7 @@ export default function CitrusMarketPage() {
     <>
       <SchemaOrg schema={schema} />
 
-      <Breadcrumbs items={[{ label: "Markets", href: "/markets" }, { label: "Citrus County", href: "/markets/citrus" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Markets", href: "/markets" }, { label: "Citrus County", href: "/markets/citrus" }]} />
 
       <Hero
         title="Citrus County Commercial Real Estate"
@@ -325,7 +332,7 @@ export default function CitrusMarketPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

@@ -283,7 +283,7 @@ export default function Page() {
           </div>
         </section>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </main>
 
       <RelatedLinks heading="Explore Related Markets &amp; Services" links={relatedLinks} />

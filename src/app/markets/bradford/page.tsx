@@ -89,6 +89,10 @@ const relatedLinks = [
   { title: "Baker County Market", href: "/markets/baker", description: "Commercial real estate in Baker County, FL." },
   { title: "Columbia County Market", href: "/markets/columbia", description: "Lake City and the I-75 logistics corridor in North Florida." },
   { title: "Florida 1031 Exchange Guide", href: "/blog/florida-1031-exchange-what-investors-need-to-know", description: "Using 1031 exchanges to reposition North Florida commercial holdings." },
+  { title: "Cap Rate Calculator", href: "/calculators/cap-rate", description: "Free tool to analyze cap rates on Florida commercial properties." },
+  { title: "What Makes a Good Commercial Investment?", href: "/blog/what-makes-a-good-commercial-investment", description: "Investment criteria for evaluating rural North Florida properties." },
+  { title: "Tenant Representation Services", href: "/services/tenant-representation", description: "Barrett advocates for tenants in lease negotiations statewide." },
+  { title: "Florida Markets Overview", href: "/markets", description: "Browse all Florida commercial real estate markets Barrett Henry covers." },
 ];
 
 export default function Page() {
@@ -228,7 +232,7 @@ export default function Page() {
           </div>
         </section>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </main>
 
       <RelatedLinks heading="Explore Related Markets &amp; Services" links={relatedLinks} />
