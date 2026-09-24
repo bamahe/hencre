@@ -4,6 +4,60 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-24 -- Batch 61 (10 pages improved)
+
+**Commit:** `00eeb7c` | **Build:** clean (0 errors, 303/303 pages) | **Pages improved:** 10
+
+### 1. `/markets/alachua`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 2. `/markets/baker`
+- Expanded relatedLinks: 6 -> 10 (added What Makes a Good Commercial Investment, Cap Rate Calculator, Tenant Representation, Florida Markets Overview)
+- Updated footer: "August 2026" -> "September 2026"
+
+### 3. `/markets/bay`
+- Expanded relatedLinks: 6 -> 10 (added Cap Rate Calculator, Tenant Representation, Commercial Due Diligence Timeline, Florida Markets Overview)
+- Updated footer: "August 2026" -> "September 2026"
+
+### 4. `/markets/bradford`
+- Expanded relatedLinks: 6 -> 10 (added Cap Rate Calculator, What Makes a Good Commercial Investment, Tenant Representation, Florida Markets Overview)
+- Updated footer: "August 2026" -> "September 2026"
+
+### 5. `/markets/broward`
+- Updated footer: "August 2026" -> "September 2026"
+
+### 6. `/markets/calhoun`
+- Expanded relatedLinks: 6 -> 10 (added What Makes a Good Commercial Investment, Cap Rate Calculator, Tenant Representation, Florida Markets Overview)
+- Fixed link description: "commercial REALTOR" -> "commercial broker"
+- Updated footer: "August 2026" -> "September 2026"
+
+### 7. `/markets/charlotte`
+- Expanded relatedLinks: 5 -> 10 (added Cap Rate Calculator, Tenant Representation, NNN Net Lease, Commercial Due Diligence Timeline, Florida 1031 Exchange Guide)
+- Updated footer: "August 2026" -> "September 2026"
+
+### 8. `/markets/citrus`
+- Expanded relatedLinks: 3 -> 10 (added Investment Sales, What Makes a Good Commercial Investment, Cap Rate Calculator, Florida 1031 Exchange, Tenant Representation, Commercial Due Diligence, Florida Markets Overview)
+- Fixed breadcrumbs: added "Home" as first item
+- Updated footer: "August 2026" -> "September 2026"
+
+### 9. `/markets/clay`
+- Expanded relatedLinks: 5 -> 10 (added Baker County, Bradford County, Cap Rate Calculator, 1031 Exchange Basics, Florida Markets Overview)
+- Updated footer: "August 2026" -> "September 2026"
+
+### 10. `/blog/winter-haven-polk-county-commercial-real-estate`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Updated dateModified: "2026-08-23" -> "2026-09-24"
+- Fixed breadcrumbs: added "Home" as first item
+- Fixed mid-CTA text: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted `/contact` bare `<a>` -> `<Link>` component in CTA
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated author bio alt text: "Commercial Real Estate Advisor" -> "Broker Associate at REMAX Collective"
+- Updated author bio credentials to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Updated author bio text: removed "REMAX Commercial division" language
+- Added "Last updated: September 2026" footer
+
+---
+
 ## 2026-09-23 -- Batch 60 (11 pages improved)
 
 **Commit:** `2d251ec` | **Build:** clean (0 errors) | **Pages improved:** 11
