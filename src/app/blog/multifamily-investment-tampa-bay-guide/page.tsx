@@ -85,7 +85,7 @@ const schema = {
       description:
         "How to invest in multifamily properties in Tampa Bay -- market analysis, evaluation, and strategies.",
       datePublished: "2026-06-08",
-      dateModified: "2026-09-07",
+      dateModified: "2026-09-25",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -315,7 +315,7 @@ export default function MultifamilyInvestmentGuidePage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

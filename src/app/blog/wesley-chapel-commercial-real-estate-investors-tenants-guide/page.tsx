@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -30,10 +32,11 @@ const articleSchema = {
   headline: "Wesley Chapel CRE: What Investors & Tenants Must Know",
   description: "Wesley Chapel commercial real estate is moving fast. Learn what's driving demand and call Barrett Henry at (813) 733-7907 to find your space or investment.",
   datePublished: "2026-09-18",
+  dateModified: "2026-09-25",
   author: {
     "@type": "Person",
     name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
+    jobTitle: "Broker Associate",
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
@@ -42,7 +45,7 @@ const articleSchema = {
     ],
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
   },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
   url: "https://hencre.com/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide",
 };
 
@@ -177,6 +180,7 @@ export default function BlogPost() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Wesley Chapel CRE: What Investors & Tenants Must Know", href: "/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide" },
         ]}
@@ -191,12 +195,14 @@ export default function BlogPost() {
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <h2>Why Is Wesley Chapel One of Florida's Hottest Commercial Real Estate Markets?</h2><p>Wesley Chapel has shifted from a bedroom community into a fully functioning economic hub in less than a decade. Pasco County's fastest-growing submarket now draws national retailers, regional healthcare operators, restaurant franchisees, and industrial users who need proximity to I-75, SR-54, and the growing rooftop density that comes with it. If you are an investor or a business owner evaluating where to plant a flag in the Tampa metro region, Wesley Chapel deserves serious attention — and fast.</p><p>For a broader look at what is driving commercial activity across the region, see our overview of <a href='/markets/pasco' className='text-accent underline'>Pasco County commercial real estate</a>.</p><h2>What Types of Commercial Properties Are in Demand in Wesley Chapel?</h2><p>Demand cuts across nearly every category right now, but a few property types are under the most pressure.</p><ul><li><strong>Retail and Restaurant Space:</strong> The SR-54 and SR-56 corridors are the central commercial spines of Wesley Chapel. Strip centers, inline retail, and pad sites along these corridors are absorbing tenants quickly as the surrounding residential base continues to expand. National QSR brands, fitness operators, and medical-adjacent retailers are especially active.</li><li><strong>Medical Office:</strong> Healthcare demand in Wesley Chapel is climbing alongside its population. AdventHealth's presence in the area has anchored a cluster of medical office, urgent care, and specialty clinic users who need visibility and access near the hospital campus on Bruce B. Downs Boulevard.</li><li><strong>Industrial and Flex Space:</strong> Light industrial and small-bay flex buildings are tight throughout Pasco County. Contractors, distributors, and service businesses serving the construction boom in Epperson, Mirada, and Wiregrass Ranch need functional space close to their job sites. <a href='/commercial/industrial-warehouse' className='text-accent underline'>Industrial and warehouse space</a> in this submarket is leasing at a pace that surprises first-time investors.</li><li><strong>NNN Investment Properties:</strong> Single-tenant net lease assets along SR-54 and near the Wiregrass Mall corridor are attracting out-of-state investors who want passive income tied to strong trade-area fundamentals. If you are new to this structure, our post on <a href='/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it' className='text-accent underline'>what makes a triple-net lease attractive to investors</a> is a useful starting point.</li><li><strong>Land and Ground Leases:</strong> Developable commercial land along Bruce B. Downs, SR-54, and near the intersection of I-75 and SR-56 is still available but thinning. Developers and owner-users looking at <a href='/commercial/land-development' className='text-accent underline'>land for commercial development</a> should move with a clear understanding of Pasco County's zoning and entitlement process.</li></ul><h2>Why Are Businesses Choosing Wesley Chapel Over Other Submarkets?</h2><p>The answer comes down to rooftops and infrastructure. According to the U.S. Census Bureau, Pasco County has been among the fastest-growing counties in Florida for several consecutive years. That population growth translates directly into consumer spending, labor availability, and demand for every service category. Wesley Chapel specifically captures high-income households relocating from Hillsborough County and other parts of Florida who are drawn to communities like Epperson, Mirada, Estancia, and Wiregrass Ranch.</p><p>Beyond demographics, the SR-54/SR-56 extension and continued improvements to the I-75 interchange have made Wesley Chapel a logistics-friendly location without the congestion costs associated with urban Tampa. Businesses can reach Tampa International Airport in under 45 minutes while paying lease rates that are often materially lower than comparable space in Hillsborough County. That cost-to-access equation is hard to replicate anywhere else in the metro area right now.</p><p>Retailers and franchise operators also recognize that new residential communities in Wesley Chapel are built with above-average household incomes, which drives strong per-capita spending at food, fitness, healthcare, and service businesses. This is not a market where tenants are chasing population — they are positioning ahead of what is still coming.</p><h2>What Should Investors Know Before Buying Commercial Property in Wesley Chapel?</h2><p>Wesley Chapel rewards buyers who understand submarket geography. Not all corridors perform equally. Properties with direct SR-54 frontage or hard-corner positioning near major intersections command premium pricing for good reason — traffic counts support it. Properties set back from primary corridors or embedded in emerging residential areas may offer better yield but require patience as surrounding density fills in.</p><p>Pasco County's permitting and zoning processes move on their own timeline. According to Pasco County Development Services, commercial projects must navigate land use compatibility reviews, concurrency requirements, and transportation impact fee assessments that can affect project timelines and total development costs. Working with an advisor who knows Pasco County's entitlement environment before you are under contract is not optional — it protects your earnest money and your project schedule.</p><p>Investors should also evaluate how Wesley Chapel fits into a broader Florida portfolio strategy. If you are comparing this market to others in the region, our posts on <a href='/blog/why-tampa-bay-cre-is-booming' className='text-accent underline'>why Tampa Bay CRE continues to outperform</a> and <a href='/blog/what-makes-a-good-commercial-investment' className='text-accent underline'>what makes a strong commercial investment</a> provide useful context for benchmarking opportunity.</p><p>For those considering NNN assets specifically, cap rate compression has been real but deal flow is active. Understanding how to evaluate yield against rent escalations, lease term, and tenant credit is essential before making an offer. Barrett works with investors across all <a href='/markets/pasco' className='text-accent underline'>Pasco County commercial corridors</a> and can help you filter the noise quickly.</p><p><strong>Call Barrett directly at (813) 733-7907 to discuss specific investment or leasing opportunities along the SR-54 and Bruce B. Downs corridors in Wesley Chapel.</strong></p><h2>What Should Tenants Know Before Signing a Lease in Wesley Chapel?</h2><p>Lease rates in Wesley Chapel have increased alongside demand, and available inventory in prime retail and medical office locations is limited. Tenants who approach this market without a clear site selection strategy often find themselves settling for second-best locations or signing leases with unfavorable terms because they ran out of options.</p><p>A few things matter most for tenants evaluating Wesley Chapel space. First, understand your traffic and visibility requirements before you start touring. SR-54 and SR-56 deliver high counts, but rent reflects that. If your business model supports a second-generation or inline location, the economics can look significantly different. Second, know your lease structure. Many Wesley Chapel landlords are pushing NNN and modified gross structures that shift operating cost risk to tenants. Understanding what you are actually paying per square foot all-in is critical. Our <a href='/services/tenant-representation' className='text-accent underline'>tenant representation services</a> are designed specifically to protect you in those negotiations.</p><p>Third, co-tenancy and exclusivity clauses matter more in high-growth suburban markets. If you are a retailer or restaurant operator, having the right protections in your lease now saves significant money later when the center fills and competition moves in adjacent to you.</p><h2>How Does Wesley Chapel Compare to Surrounding Markets?</h2><p>Wesley Chapel sits between Land O' Lakes to the west and Zephyrhills to the east, and it functions as the commercial center of the SR-54 corridor in ways that neither of those communities fully replicates. To the south, you have the North Tampa and USF corridor in Hillsborough County, which offers denser office and medical infrastructure but less affordable retail positioning. Wesley Chapel currently threads a useful needle — it has the scale to attract national tenants while still offering room for regional operators and investors who are priced out of core Hillsborough locations.</p><p>If you are evaluating the broader market landscape, our coverage of <a href='/markets/hillsborough' className='text-accent underline'>Hillsborough County commercial real estate</a> and the <a href='/blog/pasco-county-commercial-development-2026' className='text-accent underline'>Pasco County commercial development outlook</a> give you a fuller picture of where this submarket sits relative to its neighbors.</p>
 
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial\u00AE Broker</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
-            <a href="/contact" className="underline">send a message</a>.
+            <Link href="/contact" className="underline">send a message</Link>.
           </p>
         </div>
       </article>
@@ -212,18 +218,18 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Commercial Real Estate Advisor"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR\u00AE & Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He serves investors and tenants across Wesley Chapel, Pasco County, and all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>
@@ -250,7 +256,7 @@ export default function BlogPost() {
 
       <CTASection
         heading="Wesley Chapel Deals Move Before They Hit the Open Market"
-        body="Barrett Henry has 23+ years of commercial real estate experience and works the Pasco County market from the inside. Call (813) 733-7907 now — the best spaces and investment opportunities along SR-54 and Bruce B. Downs do not stay available long."
+        body="Barrett Henry at REMAX Collective has 23+ years of commercial real estate experience and works the Pasco County market from the inside. Call (813) 733-7907 now — the best spaces and investment opportunities along SR-54 and Bruce B. Downs do not stay available long."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

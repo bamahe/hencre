@@ -87,7 +87,7 @@ const schema = {
       description:
         "GID paid $192 million for a 10-building, 933,000-SF industrial portfolio in Pinellas County in July 2026. Here is what the deal reveals about vacancy, rents, and what tenants and investors should do next.",
       datePublished: "2026-08-02",
-      dateModified: "2026-09-03",
+      dateModified: "2026-09-25",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -286,7 +286,7 @@ export default function PinellasCountyIndustrialCRE2026Page() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

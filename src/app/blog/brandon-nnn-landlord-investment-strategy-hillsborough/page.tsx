@@ -159,7 +159,7 @@ const faqItems = [
   },
   {
     question: "Does Barrett Henry represent landlords and investors in Brandon?",
-    answer: "Yes — Barrett Henry at REMAX Commercial Real Estate works with landlords, investors, and buyers throughout Brandon and all of Hillsborough County, with offices in Tampa, Largo, and Brandon and coverage across all 67 Florida counties.",
+    answer: "Yes — Barrett Henry at REMAX Collective works with landlords, investors, and buyers throughout Brandon and all of Hillsborough County, with offices in Tampa, Largo, and Brandon and coverage across all 67 Florida counties.",
   }
 ];
 
