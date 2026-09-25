@@ -1547,5 +1547,21 @@
     "county": "Pinellas",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "sarasota-fitness-gym-wellness-studio-tenant-guide",
+    "title": "Fitness & Gym Space in Sarasota, FL: Tenant Guide",
+    "excerpt": "Sarasota's health-conscious population and growing year-round residency make it one of Florida's strongest markets for fitness centers, gyms, and wellness studios. Here's what tenants need to know before signing a lease.",
+    "date": "2026-09-25",
+    "category": "business-guide",
+    "city": "Sarasota",
+    "county": "Sarasota",
+    "businessType": "fitness center, gym, or wellness studio",
+    "image": {
+      "url": "/images/blog/sarasota-fitness-gym-wellness-studio-tenant-guide.jpg",
+      "alt": "a gym filled with lots of machines and weights",
+      "photographer": "Ambitious Studio* | Rick Barrett",
+      "link": "https://unsplash.com/@weareambitious"
+    }
   }
 ]
