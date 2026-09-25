@@ -4,6 +4,72 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-25 -- Batch 62 (10 pages improved)
+
+**Commit:** `88c2835` | **Build:** clean (0 errors, 304/304 pages) | **Pages improved:** 10
+
+### 1. `/blog/dunedin-commercial-real-estate-landlord-investment-guide`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Fixed breadcrumbs: added "Home" as first item
+- Added `dateModified: "2026-09-25"` to article schema
+- Updated jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Updated publisher name: "REMAX Commercial Real Estate" -> "HenCRE"
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted bare `<a href="/contact">` -> `<Link>` in mid-CTA
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated author bio credentials to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Updated author bio text: removed "REMAX Commercial® division" language
+- Added "Last updated: September 2026" footer
+- Fixed CTA body: "REMAX Commercial Real Estate" -> "REMAX Collective"
+
+### 2. `/blog/pinellas-park-commercial-real-estate-2026`
+- Updated dateModified: "2026-09-23" -> "2026-09-25"
+
+### 3. `/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Fixed breadcrumbs: added "Home" as first item
+- Added `dateModified: "2026-09-25"` to article schema
+- Updated jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Updated publisher name: "REMAX Commercial Real Estate" -> "HenCRE"
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted bare `<a href="/contact">` -> `<Link>` in mid-CTA
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated author bio credentials to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Updated author bio text: removed "REMAX Commercial® division" language
+- Added "Last updated: September 2026" footer
+- Fixed CTA body: "Barrett Henry has 23+" -> "Barrett Henry at REMAX Collective has 23+"
+
+### 4. `/blog/new-port-richey-commercial-real-estate-investors`
+- Fixed FAQ answer: "REMAX Commercial Real Estate" -> "REMAX Collective"
+- Fixed article body: removed "According to REMAX Commercial Real Estate transaction data" attribution
+- Fixed CTA body: "REMAX Commercial Real Estate" -> "REMAX Collective"
+
+### 5. `/blog/brandon-nnn-landlord-investment-strategy-hillsborough`
+- Fixed FAQ answer: "Barrett Henry at REMAX Commercial Real Estate" -> "Barrett Henry at REMAX Collective"
+
+### 6. `/blog/riverview-restaurant-food-service-commercial-space-guide`
+- Fixed Hero subtitle: "Barrett Henry at REMAX Commercial Real Estate" -> "Barrett Henry, Broker Associate at REMAX Collective"
+- Fixed article text: "REMAX Commercial Real Estate" -> "Broker Associate at REMAX Collective"
+
+### 7. `/blog/east-tampa-us-301-industrial-corridor-2026`
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated author bio alt text to include "REMAX Collective"
+- Updated dateModified: "2026-09-10" -> "2026-09-25"
+
+### 8. `/blog/florida-business-rent-tax-repeal-tampa-bay`
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated dateModified: "2026-09-10" -> "2026-09-25"
+
+### 9. `/blog/pinellas-county-industrial-cre-2026`
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated dateModified: "2026-09-03" -> "2026-09-25"
+
+### 10. `/blog/multifamily-investment-tampa-bay-guide`
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated dateModified: "2026-09-07" -> "2026-09-25"
+
+---
+
 ## 2026-09-24 -- Batch 61 (10 pages improved)
 
 **Commit:** `00eeb7c` | **Build:** clean (0 errors, 303/303 pages) | **Pages improved:** 10
