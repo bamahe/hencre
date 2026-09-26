@@ -4,6 +4,64 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-26 -- Batch 63 (10 pages improved)
+
+**Commit:** `4923a7b` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/sarasota-fitness-gym-wellness-studio-tenant-guide`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Replaced dual schemas (articleSchema + faqSchema) with single @graph schema
+- Removed nowtb.com from sameAs array
+- Added `dateModified: "2026-09-26"` to schema
+- Fixed breadcrumbs: added "Home" as first item
+- Updated jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Updated publisher name: "REMAX Commercial Real Estate" -> "HenCRE"
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted bare `<a href="/contact">` -> `<Link>` in mid-CTA
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated author bio credentials to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Updated author bio text: removed "REMAX Commercial® division" language
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Added "Last updated: September 2026" footer
+
+### 2. `/blog/dunedin-commercial-real-estate-landlord-investment-guide`
+- Removed nowtb.com from sameAs array
+- Updated dateModified: "2026-09-25" -> "2026-09-26"
+
+### 3. `/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide`
+- Removed nowtb.com from sameAs array
+- Updated dateModified: "2026-09-25" -> "2026-09-26"
+
+### 4. `/blog/seminole-heights-commercial-real-estate-2026`
+- Replaced external bestbayservices.com link with internal `/insights/cre-due-diligence-checklist` Link
+- Updated dateModified: "2026-09-13" -> "2026-09-26"
+
+### 5. `/blog/tampa-bay-data-center-cre-2026`
+- Replaced external fastselleasysale.com link with internal `/services/dispositions` Link
+- Updated dateModified: "2026-09-22" -> "2026-09-26"
+
+### 6. `/blog/pinellas-park-commercial-real-estate-2026`
+- Replaced external bestbayservices.com link with internal `/insights/cre-due-diligence-checklist` Link
+- Replaced external fastselleasysale.com link with internal `/services/dispositions` Link
+- Updated dateModified: "2026-09-25" -> "2026-09-26"
+
+### 7. `/blog/tampa-bay-senior-housing-cre-investment-2026`
+- Replaced external fastselleasysale.com link with internal `/services/dispositions` Link
+- Updated dateModified: "2026-09-15" -> "2026-09-26"
+
+### 8. `/markets/brevard`
+- Added "Home" as first breadcrumb item (was missing, started with "Markets")
+- Expanded relatedLinks: 4 -> 10 (added Tenant Representation, Landlord Leasing, Dispositions, Cap Rate Calculator, CRE Valuation, Jacksonville CRE 2026 Guide)
+
+### 9. `/markets/columbia`
+- Expanded relatedLinks: 6 -> 10 (added Hillsborough County, Florida 1031 Exchange Guide, Dispositions, Cap Rate Calculator)
+- Updated footer: "August 2026" -> "September 2026"
+
+### 10. `/markets/highlands`
+- Updated footer: "August 2026" -> "September 2026"
+
+---
+
 ## 2026-09-25 -- Batch 62 (10 pages improved)
 
 **Commit:** `88c2835` | **Build:** clean (0 errors, 304/304 pages) | **Pages improved:** 10
