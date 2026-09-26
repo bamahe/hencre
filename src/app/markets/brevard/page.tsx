@@ -111,6 +111,36 @@ const relatedMarkets = [
     href: "/services/investment-sales",
     description: "Barrett Henry&apos;s investment acquisition and disposition advisory.",
   },
+  {
+    title: "Tenant Representation",
+    href: "/services/tenant-representation",
+    description: "Lease negotiation and site selection for commercial tenants across Florida.",
+  },
+  {
+    title: "Landlord Leasing",
+    href: "/services/landlord-leasing",
+    description: "Leasing advisory and landlord representation for Florida commercial properties.",
+  },
+  {
+    title: "Dispositions",
+    href: "/services/dispositions",
+    description: "Structured disposition services for commercial and investment property owners.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Model return assumptions on Florida commercial acquisitions.",
+  },
+  {
+    title: "CRE Valuation",
+    href: "/services/cre-valuation",
+    description: "Broker opinion of value for commercial properties throughout Florida.",
+  },
+  {
+    title: "Jacksonville CRE 2026 Guide",
+    href: "/blog/jacksonville-duval-county-commercial-real-estate-2026",
+    description: "How JAXPORT-driven industrial demand compares to Brevard&apos;s aerospace market.",
+  },
 ];
 
 export default function BrevardMarketPage() {
@@ -120,6 +150,7 @@ export default function BrevardMarketPage() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Markets", href: "/markets" },
           { label: "Brevard County", href: "/markets/brevard" },
         ]}

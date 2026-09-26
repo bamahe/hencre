@@ -86,7 +86,7 @@ const schema = {
       description:
         "Private equity and hyperscalers are pouring billions into Tampa Bay data center and AI infrastructure projects in 2026. What it means for commercial real estate owners, investors, and landowners.",
       datePublished: "2026-09-22",
-      dateModified: "2026-09-22",
+      dateModified: "2026-09-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -231,7 +231,7 @@ export default function TampaBayDataCenterCREPage() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Landowners in this situation should engage a commercial broker before responding to any developer inquiry. If you are considering a sale and want to move quickly, options like a{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">fast sale to a qualified buyer</a>{" "}
+          <Link href="/services/dispositions" className="text-accent underline">structured disposition to a qualified buyer</Link>{" "}
           exist — but any transaction involving land that may have data center development potential warrants market exposure to ensure you are not leaving value on the table. Older industrial buildings on large sites in the right corridors are also candidates for data center redevelopment and may command significant premiums over their value as traditional industrial properties.
         </p>
 

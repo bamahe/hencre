@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay senior housing is attracting major institutional capital in 2026. Here is what the transactions tell us and what private investors need to know about entering this asset class.",
       datePublished: "2026-09-15",
-      dateModified: "2026-09-15",
+      dateModified: "2026-09-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -281,8 +281,8 @@ export default function TampaBaySeniorHousingCREPage() {
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Investors looking to reposition capital from residential or conventional commercial assets into senior housing often find that a{" "}
-          <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link> is the most tax-efficient vehicle for making this move. Senior housing properties qualify as like-kind property for 1031 purposes when they are structured as a real property interest, though the operational components of some going-concern structures can complicate the analysis. Some investors selling residential portfolios before transitioning to senior housing also find that services like{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Fast Sell Easy Sale</a> can accelerate the disposition of existing properties to free up capital for larger acquisitions.
+          <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link> is the most tax-efficient vehicle for making this move. Senior housing properties qualify as like-kind property for 1031 purposes when they are structured as a real property interest, though the operational components of some going-concern structures can complicate the analysis. Some investors selling residential portfolios before transitioning to senior housing also benefit from a{" "}
+          <Link href="/services/dispositions" className="text-accent underline">structured disposition</Link> to accelerate the sale of existing properties and free up capital for larger acquisitions.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do Institutional Buyers Structure Tampa Bay Senior Housing Acquisitions?</h2>

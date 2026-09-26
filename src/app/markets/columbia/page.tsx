@@ -119,6 +119,26 @@ const relatedLinks = [
     href: "/services/tenant-representation",
     description: "Lease negotiation and site selection for commercial tenants across Florida markets.",
   },
+  {
+    title: "Hillsborough County",
+    href: "/markets/hillsborough",
+    description: "Tampa Bay&apos;s primary commercial market -- a benchmark for Florida CRE values.",
+  },
+  {
+    title: "Florida 1031 Exchange Guide",
+    href: "/blog/florida-1031-exchange-what-investors-need-to-know",
+    description: "Tax-deferred exchange strategy for repositioning capital into Florida CRE.",
+  },
+  {
+    title: "Dispositions",
+    href: "/services/dispositions",
+    description: "Structured disposition advisory for commercial and investment property owners.",
+  },
+  {
+    title: "Cap Rate Calculator",
+    href: "/calculators/cap-rate",
+    description: "Model return assumptions on North Florida commercial acquisitions.",
+  },
 ];
 
 export default function ColumbiaMarketPage() {
@@ -312,7 +332,7 @@ export default function ColumbiaMarketPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
       </div>
     </>
   );

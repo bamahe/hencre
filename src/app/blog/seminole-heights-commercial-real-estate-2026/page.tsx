@@ -86,7 +86,7 @@ const schema = {
       description:
         "Seminole Heights is Tampa's most authentic neighborhood commercial district — walkable storefronts, independent restaurants, breweries, and rising investor interest along N Florida Avenue. A complete guide for tenants and investors in 2026.",
       datePublished: "2026-09-06",
-      dateModified: "2026-09-13",
+      dateModified: "2026-09-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -253,8 +253,8 @@ export default function SeminoleHeightsCREPage() {
           Pricing for small commercial buildings in Seminole Heights — typically single-tenant or two-tenant retail buildings ranging from 1,500 to 6,000 square feet on lots with surface parking — has moved up materially over the past five years. Price per square foot for well-located improved property now ranges from approximately $200 to $375, depending on building condition, lease structure, and lot size. Vacant or functionally obsolete buildings available for renovation trade at the lower end of that range and require significant capital but offer the highest upside for buyers who can manage the renovation and re-leasing process.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors considering a renovation project, having the building in good shape before pursuing tenants matters significantly in Seminole Heights. The operators who lease here — independent restaurateurs, boutique retailers — are evaluating the space&apos;s condition and infrastructure carefully. Working with a reliable contractor before marketing a renovation is important; for investors who need pre-leasing repairs or want to assess a building&apos;s condition, local services like{" "}
-          <a href="https://bestbayservices.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Best Bay Services</a> provide handyman and inspection support that can help identify issues before they become deal-killers with prospective tenants.
+          For investors considering a renovation project, having the building in good shape before pursuing tenants matters significantly in Seminole Heights. The operators who lease here — independent restaurateurs, boutique retailers — are evaluating the space&apos;s condition and infrastructure carefully. Working with a reliable contractor before marketing a renovation is important; for investors who need pre-leasing repairs or want to assess a building&apos;s condition, working with qualified local contractors for handyman and inspection support can help identify issues before they become deal-killers with prospective tenants. Review the{" "}
+          <Link href="/insights/cre-due-diligence-checklist" className="text-accent underline">commercial due diligence checklist</Link> for a full pre-listing inspection framework.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The cap rate environment for Seminole Heights commercial property in 2026 reflects the competing pressures of neighborhood demand and small-building illiquidity:
