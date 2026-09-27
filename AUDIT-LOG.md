@@ -4,6 +4,65 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-27 -- Batch 63 (10 pages improved)
+
+**Commit:** `bfc75bf` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/sarasota-fitness-gym-wellness-studio-tenant-guide`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Fixed breadcrumbs: added "Home" as first item
+- Fixed schema jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed schema publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Added `dateModified: "2026-09-27"` to schema
+- Fixed author bio: `<img>` -> `<Image>` component
+- Updated author bio alt text to include "REMAX Collective"
+- Updated author bio credentials: "REALTOR & Commercial Real Estate Advisor at REMAX Collective" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author bio text: removed "REMAX Commercial division" language -> "Broker Associate at REMAX Collective"
+- Fixed mid-CTA: "Talk to a REMAX Commercial Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted article body bare `<a href='...'>` internal links -> `<Link>` components
+- Fixed article body: "Commercial Real Estate Advisor at REMAX Commercial Real Estate" -> "Broker Associate at REMAX Collective"
+- Added "Last updated: September 2026" footer
+- Fixed em dashes throughout (— -> -)
+
+### 2. `/blog/tampa-bay-office-market-q3-2026`
+- Fixed em/en dashes throughout file (replaced — and – with -)
+- Fixed OG description: en dash in "$60-66/SF", em dash "a decade, but"
+
+### 3. `/blog/tampa-bay-retail-market-q3-2026`
+- Fixed em/en dashes throughout file (replaced — and – with -)
+
+### 4. `/blog/clearwater-beach-commercial-real-estate-2026`
+- Fixed metadata description: removed `&apos;` entity in JS string (Florida's -> Florida's plain apostrophe)
+- Fixed OG description: removed em dashes, fixed `&apos;` entities
+- Updated `dateModified`: "2026-09-13" -> "2026-09-27"
+
+### 5. `/blog/dale-mabry-corridor-commercial-real-estate-tampa-2026`
+- Fixed em dashes in metadata description (— -> -)
+- Updated `dateModified`: "2026-09-07" -> "2026-09-27"
+
+### 6. `/blog/florida-live-local-act-tampa-bay-cre-2026`
+- Shortened metadata title from 75 chars to 57 chars (under 70-char limit): "Florida Live Local Act 4.0: Tampa Bay CRE Guide | HenCRE"
+- Updated OG title to match
+- Updated `dateModified`: "2026-09-13" -> "2026-09-27"
+
+### 7. `/blog/largo-fl-commercial-real-estate-hidden-gem-pinellas`
+- Fixed metadata title: removed `&apos;` entity in JS string ("Pinellas County's" plain apostrophe)
+- Updated `dateModified`: "2026-08-30" -> "2026-09-27"
+
+### 8. `/blog/brandon-hillsborough-commercial-real-estate-market-2026`
+- Fixed metadata description: removed `&apos;` entity, fixed em dash
+- Updated `dateModified`: "2026-09-01" -> "2026-09-27"
+
+### 9. `/blog/brooksville-hernando-county-commercial-real-estate-2026`
+- Fixed em/en dashes throughout
+- Updated `dateModified`: "2026-09-15" -> "2026-09-27"
+
+### 10. `/blog/dunedin-pinellas-county-commercial-real-estate-2026`
+- Fixed em/en dashes throughout
+- Updated `dateModified`: "2026-09-12" -> "2026-09-27"
+
+---
+
 ## 2026-09-25 -- Batch 62 (10 pages improved)
 
 **Commit:** `88c2835` | **Build:** clean (0 errors, 304/304 pages) | **Pages improved:** 10
