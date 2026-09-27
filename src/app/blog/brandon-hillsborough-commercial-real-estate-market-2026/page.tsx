@@ -14,11 +14,11 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
   title: "Brandon FL Commercial Real Estate: 2026 Market Guide | HenCRE",
-  description: "Brandon&apos;s CRE market is moving fast. Discover what investors and tenants need to know — then call Barrett Henry at (813) 733-7907.",
+  description: "Brandon CRE market is moving fast. Discover what investors and tenants need to know - then call Barrett Henry at (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/blog/brandon-hillsborough-commercial-real-estate-market-2026" },
   openGraph: {
     title: "Brandon FL Commercial Real Estate: 2026 Market Guide",
-    description: "Brandon&apos;s CRE market is moving fast. Discover what investors and tenants need to know — then call Barrett Henry at (813) 733-7907.",
+    description: "Brandon CRE market is moving fast. Discover what investors and tenants need to know - then call Barrett Henry at (813) 733-7907.",
     url: "https://hencre.com/blog/brandon-hillsborough-commercial-real-estate-market-2026",
     type: "article",
     images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "Brandon FL Commercial Real Estate: 2026 Market Guide" }],
@@ -46,7 +46,7 @@ const schema = {
       headline: "Brandon FL Commercial Real Estate: 2026 Market Guide",
       description: "Brandon&apos;s CRE market is moving fast. Discover what investors and tenants need to know about retail, medical office, industrial, and NNN investment in this established Hillsborough County submarket.",
       datePublished: "2026-08-31",
-      dateModified: "2026-09-01",
+      dateModified: "2026-09-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Largo, FL: Pinellas County&apos;s Commercial Real Estate Hidden Gem",
+  title: "Largo, FL: Pinellas County's Commercial Real Estate Hidden Gem",
   description: "Discover why Largo, FL is one of Pinellas County's most overlooked commercial real estate opportunities. Explore retail, office, and industrial markets with HenCRE.",
   alternates: { canonical: "https://hencre.com/blog/largo-fl-commercial-real-estate-hidden-gem-pinellas" },
   openGraph: {
@@ -65,7 +65,7 @@ const schema = {
       headline: "Largo, FL: Pinellas County's Commercial Real Estate Hidden Gem",
       description: "Discover why Largo, FL is one of Pinellas County's most overlooked commercial real estate opportunities. Explore retail, office, and industrial markets with HenCRE.",
       datePublished: "2026-08-28",
-      dateModified: "2026-08-30",
+      dateModified: "2026-09-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -150,12 +150,12 @@ export default function BlogPost() {
         items={[
           { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: "Largo, FL: Pinellas County&apos;s Commercial Real Estate Hidden Gem", href: "/blog/largo-fl-commercial-real-estate-hidden-gem-pinellas" },
+          { label: "Largo, FL: Pinellas County's Commercial Real Estate Hidden Gem", href: "/blog/largo-fl-commercial-real-estate-hidden-gem-pinellas" },
         ]}
       />
 
       <Hero
-        title="Largo, FL: Pinellas County&apos;s Commercial Real Estate Hidden Gem"
+        title="Largo, FL: Pinellas County's Commercial Real Estate Hidden Gem"
         subtitle="Discover why Largo, FL is one of Pinellas County&apos;s most overlooked commercial real estate opportunities. Explore retail, office, and industrial markets with HenCRE."
       />
 

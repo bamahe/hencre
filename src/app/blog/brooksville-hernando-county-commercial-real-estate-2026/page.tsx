@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     question: "Is Brooksville a good market for NNN commercial real estate investment?",
-    answer: "Brooksville offers NNN investment opportunities along high-traffic corridors like US-19 and SR-50, where service-based retail tenants serve a large, underretailed trade area — often at cap rates wider than Tampa&apos;s urban core.",
+    answer: "Brooksville offers NNN investment opportunities along high-traffic corridors like US-19 and SR-50, where service-based retail tenants serve a large, underretailed trade area - often at cap rates wider than Tampa&apos;s urban core.",
   },
   {
     question: "What commercial property types are most in demand in Hernando County?",
@@ -36,11 +36,11 @@ const faqItems = [
   },
   {
     question: "How do I find a commercial real estate broker who works in Brooksville?",
-    answer: "Barrett Henry is a Broker Associate at REMAX Collective who serves all 67 Florida counties, including Hernando County, from offices in Tampa, Largo, and Brandon — reachable directly at (813) 733-7907.",
+    answer: "Barrett Henry is a Broker Associate at REMAX Collective who serves all 67 Florida counties, including Hernando County, from offices in Tampa, Largo, and Brandon - reachable directly at (813) 733-7907.",
   },
   {
     question: "What cap rates can investors expect in Brooksville compared to Tampa?",
-    answer: "Secondary markets like Brooksville typically offer wider cap rates than Tampa&apos;s core submarkets, reflecting lower liquidity and smaller tenant pools — which creates a yield advantage for investors who underwrite deals conservatively and buy at the right basis.",
+    answer: "Secondary markets like Brooksville typically offer wider cap rates than Tampa&apos;s core submarkets, reflecting lower liquidity and smaller tenant pools - which creates a yield advantage for investors who underwrite deals conservatively and buy at the right basis.",
   },
   {
     question: "What should landlords know before leasing commercial space in Brooksville?",
@@ -64,7 +64,7 @@ const schema = {
       headline: "Brooksville Hernando County CRE Investment Guide 2026",
       description: "Brooksville commercial real estate offers NNN deals, retail growth, and low competition. Call Barrett Henry at (813) 733-7907 to find your next investment.",
       datePublished: "2026-09-14",
-      dateModified: "2026-09-15",
+      dateModified: "2026-09-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -173,7 +173,7 @@ export default function BlogPost() {
         <p>
           Brooksville&apos;s commercial inventory is a mix of older strip retail, professional office product,
           medical office space, light industrial, and significant developable land along its primary arterials.
-          The market is not saturated with institutional-grade product — which is exactly what creates opportunity
+          The market is not saturated with institutional-grade product - which is exactly what creates opportunity
           for private investors and owner-users who want to buy below replacement cost or lease space in an
           undersupplied environment. Commercial land values along key corridors have been trending upward as
           residential growth continues pushing northward from Pasco County into Hernando. For context on what&apos;s
@@ -185,7 +185,7 @@ export default function BlogPost() {
           <Link href="/blog/pasco-county-commercial-development-2026" className="text-accent underline">
             Pasco County&apos;s commercial development trends
           </Link>{" "}
-          — the ripple effect is real.
+          - the ripple effect is real.
         </p>
 
         <h2>What Types of Commercial Investment Work Best in Brooksville?</h2>
@@ -197,8 +197,8 @@ export default function BlogPost() {
           <li>
             <strong>NNN Retail on Major Corridors:</strong> US-19, SR-50, and Cortez Boulevard carry solid daily
             traffic counts and are home to a mix of national and regional tenants. Single-tenant NNN
-            properties — particularly service-based retail like medical, dental, insurance, and quick-service
-            restaurants — are performing well because Brooksville&apos;s trade area serves a large, underretailed
+            properties - particularly service-based retail like medical, dental, insurance, and quick-service
+            restaurants - are performing well because Brooksville&apos;s trade area serves a large, underretailed
             population. Our guide on{" "}
             <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">
               why investors love triple-net leases
@@ -241,7 +241,7 @@ export default function BlogPost() {
         <h2>What Cap Rate Environment Should Investors Expect in Brooksville?</h2>
         <p>
           Secondary and tertiary Florida markets like Brooksville generally offer wider cap rates than Tampa&apos;s
-          urban core — which is the primary draw for yield-focused investors. Investors who use a proper{" "}
+          urban core - which is the primary draw for yield-focused investors. Investors who use a proper{" "}
           <Link href="/services/cre-valuation" className="text-accent underline">
             CRE valuation process
           </Link>{" "}
@@ -373,8 +373,8 @@ export default function BlogPost() {
       </section>
 
       <CTASection
-        heading="Brooksville Has Your Attention — Now Let&apos;s Find the Right Asset"
-        body="The investors who win in emerging markets like Brooksville are the ones who move before pricing catches up to the opportunity. Call Barrett Henry at (813) 733-7907 or visit hencre.com — he covers all of Hernando County and can tell you exactly which deals are worth your time right now."
+        heading="Brooksville Has Your Attention - Now Let&apos;s Find the Right Asset"
+        body="The investors who win in emerging markets like Brooksville are the ones who move before pricing catches up to the opportunity. Call Barrett Henry at (813) 733-7907 or visit hencre.com - he covers all of Hernando County and can tell you exactly which deals are worth your time right now."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

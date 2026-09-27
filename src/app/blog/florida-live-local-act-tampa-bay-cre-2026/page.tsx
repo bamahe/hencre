@@ -14,12 +14,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Florida Live Local Act 4.0: What Tampa Bay CRE Owners Need to Know | HenCRE",
+  title: "Florida Live Local Act 4.0: Tampa Bay CRE Guide | HenCRE",
   description:
     "Florida's Live Local Act 4.0 took effect July 1, 2026, allowing multifamily housing on commercially and industrially zoned land across Tampa Bay. Here is what commercial property owners, industrial landowners, and CRE investors need to know.",
   alternates: { canonical: "https://hencre.com/blog/florida-live-local-act-tampa-bay-cre-2026" },
   openGraph: {
-    title: "Florida Live Local Act 4.0: What Tampa Bay CRE Owners Need to Know",
+    title: "Florida Live Local Act 4.0: Tampa Bay CRE Guide",
     description:
       "Live Local Act 4.0 took effect July 1, 2026, unlocking multifamily development on commercial and industrial parcels across Tampa Bay. What it means for landowners, developers, and CRE investors.",
     url: "https://hencre.com/blog/florida-live-local-act-tampa-bay-cre-2026",
@@ -81,11 +81,11 @@ const schema = {
     },
     {
       "@type": "BlogPosting",
-      headline: "Florida Live Local Act 4.0: What Tampa Bay CRE Owners Need to Know",
+      headline: "Florida Live Local Act 4.0: Tampa Bay CRE Guide",
       description:
         "Florida's Live Local Act 4.0 took effect July 1, 2026, allowing multifamily housing on commercially and industrially zoned land across Tampa Bay. What commercial property owners, industrial landowners, and CRE investors need to know.",
       datePublished: "2026-09-10",
-      dateModified: "2026-09-13",
+      dateModified: "2026-09-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -176,7 +176,7 @@ export default function FloridaLiveLocalActTampaBayCRE2026Page() {
 
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&h=900&fit=crop"
-        title="Florida Live Local Act 4.0: What Tampa Bay CRE Owners Need to Know"
+        title="Florida Live Local Act 4.0: Tampa Bay CRE Guide"
         subtitle="Effective July 1, 2026, multifamily housing is now a legal use on commercial and industrial land across Tampa Bay — regardless of what local zoning says. Here is what property owners, developers, and investors need to understand."
       />
 
