@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
- * Auto-generated blog post — 2026-07-29
+ * Auto-generated blog post - 2026-07-29
  * Riverview FL Commercial Real Estate 2026: Market Guide
  * ----------------------------------------------------------------- */
 
@@ -42,7 +42,7 @@ const schema = {
       headline: "Riverview FL Commercial Real Estate 2026: Market Guide",
       description: "Riverview is south Hillsborough's fastest-growing commercial submarket. Find out what's available, what's trading, and how Barrett Henry can help.",
       datePublished: "2026-07-29",
-      dateModified: "2026-09-02",
+      dateModified: "2026-09-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -114,7 +114,7 @@ const relatedLinks = [
   {
     title: "Valrico Commercial Real Estate Guide",
     href: "/blog/valrico-commercial-real-estate-guide",
-    description: "The neighboring Valrico submarket north of Riverview — a complementary perspective for investors building a south Hillsborough portfolio.",
+    description: "The neighboring Valrico submarket north of Riverview - a complementary perspective for investors building a south Hillsborough portfolio.",
   },
   {
     title: "Tampa Industrial Market Outlook 2026",
@@ -124,7 +124,7 @@ const relatedLinks = [
   {
     title: "Tampa Bay Medical Office Real Estate 2026",
     href: "/blog/tampa-bay-medical-office-real-estate-2026",
-    description: "Medical office demand is one of Riverview's strongest growth drivers — here's the regional context.",
+    description: "Medical office demand is one of Riverview's strongest growth drivers - here's the regional context.",
   },
   {
     title: "Understanding CAM Charges: Tenant's Guide",
@@ -201,17 +201,17 @@ export default function BlogPost() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <h2>Why Is Riverview, FL Getting So Much Commercial Real Estate Attention?</h2>
-        <p>Riverview has been one of the fastest-growing communities in Florida for more than a decade, and the commercial real estate market is finally catching up to the residential expansion that preceded it. For years, south Hillsborough County was overwhelmingly a bedroom community — tens of thousands of households with relatively limited local retail, medical, and service infrastructure nearby. That imbalance is resolving itself now, and it&apos;s creating real opportunity for commercial tenants and investors who understand the timing.</p>
-        <p>The numbers tell the story clearly. According to market data from multiple commercial real estate platforms, the median list price of commercial property in Riverview climbed from approximately $1.1 million in June 2025 to $1.55 million in June 2026 — a year-over-year increase approaching 40 percent. That is not the behavior of a quiet, overlooked submarket. It reflects a market where buyers are competing for a limited supply of well-located commercial inventory in a community that keeps adding rooftops at a pace few Florida suburbs can match.</p>
-        <p>Population growth driven by master-planned communities like Triple Creek along US-301, Cedarbrook, and South Fork has created a consumer base that demands more — more medical care, more neighborhood retail, more service businesses, more restaurant options — and the commercial real estate market is the vehicle through which that demand gets served. For a broader picture of the macro forces driving this across the entire Tampa Bay region, see our post on <a href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay commercial real estate is booming</a>.</p>
+        <p>Riverview has been one of the fastest-growing communities in Florida for more than a decade, and the commercial real estate market is finally catching up to the residential expansion that preceded it. For years, south Hillsborough County was overwhelmingly a bedroom community - tens of thousands of households with relatively limited local retail, medical, and service infrastructure nearby. That imbalance is resolving itself now, and it&apos;s creating real opportunity for commercial tenants and investors who understand the timing.</p>
+        <p>The numbers tell the story clearly. According to market data from multiple commercial real estate platforms, the median list price of commercial property in Riverview climbed from approximately $1.1 million in June 2025 to $1.55 million in June 2026 - a year-over-year increase approaching 40 percent. That is not the behavior of a quiet, overlooked submarket. It reflects a market where buyers are competing for a limited supply of well-located commercial inventory in a community that keeps adding rooftops at a pace few Florida suburbs can match.</p>
+        <p>Population growth driven by master-planned communities like Triple Creek along US-301, Cedarbrook, and South Fork has created a consumer base that demands more - more medical care, more neighborhood retail, more service businesses, more restaurant options - and the commercial real estate market is the vehicle through which that demand gets served. For a broader picture of the macro forces driving this across the entire Tampa Bay region, see our post on <a href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay commercial real estate is booming</a>.</p>
 
         <h2>What Commercial Property Types Are Most Active in Riverview?</h2>
         <p>Riverview&apos;s commercial inventory is growing, but it remains concentrated in a few categories driven directly by the area&apos;s demographics and location:</p>
         <ul>
-          <li><strong>Neighborhood and community retail:</strong> Service-oriented retail — dental, medical, veterinary, fitness, quick-service restaurant, childcare, personal care — is the dominant demand driver in Riverview. Strip centers and inline spaces on US-301 and the Big Bend Road corridor are performing well, with limited vacancy in well-maintained centers. <a href="/commercial/retail-space" className="text-accent underline">View available retail space</a> to see current listings in the area.</li>
+          <li><strong>Neighborhood and community retail:</strong> Service-oriented retail - dental, medical, veterinary, fitness, quick-service restaurant, childcare, personal care - is the dominant demand driver in Riverview. Strip centers and inline spaces on US-301 and the Big Bend Road corridor are performing well, with limited vacancy in well-maintained centers. <a href="/commercial/retail-space" className="text-accent underline">View available retail space</a> to see current listings in the area.</li>
           <li><strong>Medical office:</strong> Healthcare operators are expanding aggressively in south Hillsborough County to serve a large and growing patient base that has historically driven to Brandon or Tampa for routine care. Urgent care, primary care, behavioral health, and outpatient specialty practices are all actively seeking space. Our post on <a href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">Tampa Bay medical office real estate in 2026</a> covers the regional dynamics in depth.</li>
           <li><strong>Small-bay flex and light industrial:</strong> Contractor space, last-mile distribution, and light manufacturing operators are finding Riverview attractive because of its I-75 access and relatively lower occupancy costs compared to established industrial corridors closer to Port Tampa Bay. For the regional backdrop, see our <a href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">Tampa industrial market outlook</a>.</li>
-          <li><strong>Professional office:</strong> Smaller office suites serving the professional services market — insurance, financial planning, legal, accounting — are in demand as the local residential population generates more need for those services without wanting to commute into Tampa for them.</li>
+          <li><strong>Professional office:</strong> Smaller office suites serving the professional services market - insurance, financial planning, legal, accounting - are in demand as the local residential population generates more need for those services without wanting to commute into Tampa for them.</li>
           <li><strong>Commercial land:</strong> Entitled or rezoned commercial parcels along the major corridors are some of the most competed-for assets in Riverview. Infill opportunities are shrinking, and developers who locked in sites three to five years ago are now seeing those bets pay off significantly. <a href="/commercial/land-development" className="text-accent underline">Explore land and development opportunities</a> in Hillsborough County.</li>
         </ul>
       </article>
@@ -233,12 +233,12 @@ export default function BlogPost() {
         <h2>What Makes Riverview&apos;s Location Strategically Important for Commercial Users?</h2>
         <p>Riverview sits at a genuine transportation crossroads that matters for commercial real estate. Interstate 75 bisects the community with multiple interchanges, connecting it to downtown Tampa in under 30 minutes during off-peak hours and putting it within reach of the broader Tampa-St. Pete-Sarasota corridor. US Highway 301 runs the length of the community, carrying high daily traffic counts through an increasingly dense corridor of residential development. The ongoing widening of Big Bend Road has meaningfully improved east-west connectivity, addressing one of the area&apos;s historically cited friction points and making industrial and distribution uses more viable along the southern portions of the community.</p>
         <p>That infrastructure improvement is worth noting for commercial real estate decision-makers. Prior to the Big Bend Road widening, congestion at key intersections was a legitimate deterrent for some tenants evaluating Riverview versus Brandon. That argument is weakening as the road network improves, and investors who understood that trajectory early have been rewarded with price appreciation on commercial parcels in the Big Bend corridor.</p>
-        <p>Riverview also benefits from proximity to the South Hillsborough Expressway (the Selmon Extension), which connects it to the Crosstown Expressway system and ultimately to downtown Tampa — an important consideration for businesses that need reliable access to the urban core without the overhead of urban-core rents.</p>
+        <p>Riverview also benefits from proximity to the South Hillsborough Expressway (the Selmon Extension), which connects it to the Crosstown Expressway system and ultimately to downtown Tampa - an important consideration for businesses that need reliable access to the urban core without the overhead of urban-core rents.</p>
         <p>If you are evaluating Riverview against neighboring submarkets, our <a href="/blog/brandon-commercial-real-estate-guide-2026" className="text-accent underline">Brandon commercial real estate guide</a> provides a direct comparison with the area&apos;s more established northern neighbor. For even broader south Hillsborough context, the <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County commercial market overview</a> covers the full county.</p>
 
         <h2>What Should Commercial Tenants Know Before Leasing in Riverview?</h2>
         <p>The Riverview leasing market has tightened considerably over the past two years, particularly for medical office and service retail in high-traffic locations along US-301. Vacancy in the best-positioned centers is limited, and landlords negotiating from a position of strength are offering fewer concessions on tenant improvement allowances and shorter free-rent periods than were available during the post-pandemic lease-up cycle.</p>
-        <p>Tenants who are serious about securing quality space in Riverview need to move with a sense of urgency. The window between identifying a target space and having a signed lease can be short in an active submarket, and being unprepared with financials or having unclear use plans can cost you a deal in favor of a more ready tenant. Engaging a tenant representative before you start your search — not after — gives you the best chance of identifying and closing on the right space at the right terms.</p>
+        <p>Tenants who are serious about securing quality space in Riverview need to move with a sense of urgency. The window between identifying a target space and having a signed lease can be short in an active submarket, and being unprepared with financials or having unclear use plans can cost you a deal in favor of a more ready tenant. Engaging a tenant representative before you start your search - not after - gives you the best chance of identifying and closing on the right space at the right terms.</p>
         <p>Lease structures in Riverview are predominantly triple-net or modified-gross depending on the property type. Medical office and retail spaces typically involve NNN structures where the tenant is responsible for a proportionate share of property taxes, insurance, and maintenance. Understanding what those charges actually cost you is essential before you sign. Our guide on <a href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charges for commercial tenants</a> walks through exactly what you&apos;re paying beyond base rent. For an explanation of how NNN leases work at a structural level, see our post on <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">why investors love triple-net leases</a>.</p>
         <p>Barrett Henry provides <a href="/services/tenant-representation" className="text-accent underline">commercial tenant representation services</a> across south Hillsborough County at no cost to the tenant in most cases. Call <strong>(813) 733-7907</strong> to discuss what&apos;s available in Riverview and how to position your business for the best lease terms.</p>
         <p>For a broader view of Hillsborough County commercial real estate activity, explore our <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County market guide</Link> or the <Link href="/blog/brandon-commercial-real-estate-guide-2026" className="text-accent underline">Brandon commercial real estate guide</Link> for the adjacent submarket.</p>
@@ -260,7 +260,7 @@ export default function BlogPost() {
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <h2>What Do Commercial Real Estate Investors Need to Know About Riverview?</h2>
         <p>Riverview presents a compelling growth story for commercial real estate investors, but it requires a different underwriting lens than a fully mature submarket. You are largely investing in what the community is becoming rather than what it already is, which means your return depends on the continued execution of the residential and infrastructure growth that has defined south Hillsborough County for the past decade.</p>
-        <p>The data supports continued optimism. Hillsborough County has ranked among Florida&apos;s fastest-growing counties by raw population growth for years, and Riverview&apos;s ZIP codes consistently show up among the highest-growth areas within the county. That household formation creates predictable downstream demand for commercial services — and the commercial real estate assets that serve those households tend to hold value well because supply of well-located commercial land is finite and controlled by zoning.</p>
+        <p>The data supports continued optimism. Hillsborough County has ranked among Florida&apos;s fastest-growing counties by raw population growth for years, and Riverview&apos;s ZIP codes consistently show up among the highest-growth areas within the county. That household formation creates predictable downstream demand for commercial services - and the commercial real estate assets that serve those households tend to hold value well because supply of well-located commercial land is finite and controlled by zoning.</p>
         <p>Investors in Riverview are typically targeting one of three strategies:</p>
         <ul>
           <li><strong>Income-producing retail:</strong> Strip centers and NNN-leased pad sites with established tenants offer current yield with the upside of continued population growth improving the trade area over time. Our post on <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net lease investing</a> covers the mechanics investors need to understand before pursuing this strategy.</li>
@@ -273,17 +273,17 @@ export default function BlogPost() {
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
-          <p className="text-lg font-bold">Talk to a REMAX Commercial Broker About Riverview</p>
+          <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker About Riverview</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
-            <a href="/contact" className="underline">send a message</a>.
+            <Link href="/contact" className="underline">send a message</Link>.
           </p>
         </div>
 
         <h2>How Does Riverview Compare to Other South Hillsborough Submarkets?</h2>
         <p>South Hillsborough County is a diverse commercial real estate landscape, and Riverview sits at the northern end of a corridor that extends south through Gibsonton, Apollo Beach, and Sun City Center. Each of these communities has distinct commercial characteristics driven by demographics, infrastructure, and existing development patterns.</p>
         <p>Riverview is the most commercially active of the south county submarkets by transaction volume, driven by its larger residential population and better highway access. Apollo Beach is primarily a residential community with limited commercial inventory and high barriers to entry. Sun City Center, further south, is an age-restricted retirement community with a very specific retail and medical tenant profile oriented around seniors.</p>
-        <p>To the north, the <a href="/blog/brandon-commercial-real-estate-guide-2026" className="text-accent underline">Brandon submarket</a> offers a more established commercial inventory with tighter vacancy in the best corridors and less raw land for development. Many commercial real estate strategies in south Hillsborough involve assets in both Riverview and Brandon simultaneously — capturing both the growth upside of the former and the stability of the latter.</p>
+        <p>To the north, the <a href="/blog/brandon-commercial-real-estate-guide-2026" className="text-accent underline">Brandon submarket</a> offers a more established commercial inventory with tighter vacancy in the best corridors and less raw land for development. Many commercial real estate strategies in south Hillsborough involve assets in both Riverview and Brandon simultaneously - capturing both the growth upside of the former and the stability of the latter.</p>
         <p>For investors building a Hillsborough County commercial portfolio, Riverview offers the growth component that more established submarkets can&apos;t provide. Barrett Henry advises clients across all of these markets and can help you understand how a specific property or opportunity fits into the broader south county picture. The <a href="/blog/valrico-commercial-real-estate-guide" className="text-accent underline">Valrico commercial real estate guide</a> is another useful reference for the eastern Hillsborough corridor adjacent to Riverview.</p>
       </article>
 
@@ -322,7 +322,7 @@ export default function BlogPost() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He serves tenants and investors across all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>
@@ -341,8 +341,8 @@ export default function BlogPost() {
       </div>
 
       <CTASection
-        heading="Riverview Commercial Real Estate Is Moving — Don&apos;t Get Left Behind"
-        body="South Hillsborough County&apos;s fastest-growing commercial submarket moves quickly and rewards informed buyers, tenants, and investors. Call Barrett Henry at (813) 733-7907 or reach out through hencre.com to get a real conversation — not a form letter — about what&apos;s available in Riverview and what it&apos;s actually worth."
+        heading="Riverview Commercial Real Estate Is Moving - Don&apos;t Get Left Behind"
+        body="South Hillsborough County&apos;s fastest-growing commercial submarket moves quickly and rewards informed buyers, tenants, and investors. Call Barrett Henry at (813) 733-7907 or reach out through hencre.com to get a real conversation - not a form letter - about what&apos;s available in Riverview and what it&apos;s actually worth."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

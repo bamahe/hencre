@@ -34,7 +34,7 @@ const faqItems = [
   {
     question: "What is a cap rate and how is it calculated?",
     answer:
-      "A capitalization rate (cap rate) is the ratio of a property's net operating income (NOI) to its current market value or purchase price. It is calculated by dividing NOI by price. A $1.8 million apartment building generating $108,000 in NOI has a cap rate of 6.0%. Cap rates function as a shorthand for investor return expectations and risk tolerance — higher cap rates imply higher perceived risk or lower investor demand for that asset type; lower cap rates reflect premium assets or strong investor competition.",
+      "A capitalization rate (cap rate) is the ratio of a property's net operating income (NOI) to its current market value or purchase price. It is calculated by dividing NOI by price. A $1.8 million apartment building generating $108,000 in NOI has a cap rate of 6.0%. Cap rates function as a shorthand for investor return expectations and risk tolerance - higher cap rates imply higher perceived risk or lower investor demand for that asset type; lower cap rates reflect premium assets or strong investor competition.",
   },
   {
     question: "What are cap rates for Tampa Bay multifamily in mid-2026?",
@@ -44,7 +44,7 @@ const faqItems = [
   {
     question: "What commercial mortgage rates are available for Tampa Bay multifamily in 2026?",
     answer:
-      "As of July 2026, Tampa Bay commercial mortgage rates for multifamily acquisitions are running approximately 5.25% to 5.75% for stabilized properties with strong sponsorship — meaningful improvement from the 7%+ levels seen in 2023. Agency debt (Fannie Mae, Freddie Mac) remains the most competitive financing for properties with 5 or more units, typically offering 5-year and 10-year fixed terms. Bridge loans for value-add properties run higher, typically 6.5% to 8%, depending on leverage and property condition.",
+      "As of July 2026, Tampa Bay commercial mortgage rates for multifamily acquisitions are running approximately 5.25% to 5.75% for stabilized properties with strong sponsorship - meaningful improvement from the 7%+ levels seen in 2023. Agency debt (Fannie Mae, Freddie Mac) remains the most competitive financing for properties with 5 or more units, typically offering 5-year and 10-year fixed terms. Bridge loans for value-add properties run higher, typically 6.5% to 8%, depending on leverage and property condition.",
   },
   {
     question: "How do you calculate cash-on-cash return at current Tampa Bay rates?",
@@ -54,7 +54,7 @@ const faqItems = [
   {
     question: "Is Tampa Bay multifamily still a good investment in 2026?",
     answer:
-      "Fundamentals remain constructive: Tampa Bay's population continues to grow, vacancy rates are below the national average in most submarkets, and rent growth has moderated but not reversed. The math works better today than it did at 2022 peak pricing because both cap rates have expanded and commercial borrowing rates have come down from their 2023 highs. The best opportunities are in well-located class-B value-add assets where execution can drive NOI growth through rent increases and expense management. Barrett evaluates Tampa Bay multifamily deals on an ongoing basis for clients — contact him to discuss current off-market opportunities.",
+      "Fundamentals remain constructive: Tampa Bay's population continues to grow, vacancy rates are below the national average in most submarkets, and rent growth has moderated but not reversed. The math works better today than it did at 2022 peak pricing because both cap rates have expanded and commercial borrowing rates have come down from their 2023 highs. The best opportunities are in well-located class-B value-add assets where execution can drive NOI growth through rent increases and expense management. Barrett evaluates Tampa Bay multifamily deals on an ongoing basis for clients - contact him to discuss current off-market opportunities.",
   },
   {
     question: "What is the difference between a stabilized and value-add multifamily investment?",
@@ -80,7 +80,7 @@ const schema = {
       description:
         "Cap rate expansion and lower commercial rates are improving multifamily math in Tampa Bay. Here is how to evaluate deals in the current environment.",
       datePublished: "2026-07-24",
-      dateModified: "2026-09-16",
+      dateModified: "2026-09-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -116,7 +116,7 @@ const relatedLinks = [
   {
     title: "How to Calculate Commercial Property ROI",
     href: "/blog/how-to-calculate-commercial-property-roi",
-    description: "Cash-on-cash, cap rate, IRR — the key metrics explained.",
+    description: "Cash-on-cash, cap rate, IRR - the key metrics explained.",
   },
   {
     title: "Florida 1031 Exchange Guide",
@@ -181,10 +181,10 @@ export default function TampaBayMultifamilyCapRates2026Page() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          For two years — 2021 through mid-2023 — <Link href="/commercial/multifamily" className="text-accent underline">Tampa Bay multifamily</Link> was priced so tightly that the math rarely worked for investors using conventional leverage. Cap rates compressed to 3.5% to 4.5% while commercial borrowing costs were rising above 6%. Negative leverage was common. Buyers who modeled honest cash flows found deals that looked good on the offering memorandum were break-even or worse when financed at actual market rates.
+          For two years - 2021 through mid-2023 - <Link href="/commercial/multifamily" className="text-accent underline">Tampa Bay multifamily</Link> was priced so tightly that the math rarely worked for investors using conventional leverage. Cap rates compressed to 3.5% to 4.5% while commercial borrowing costs were rising above 6%. Negative leverage was common. Buyers who modeled honest cash flows found deals that looked good on the offering memorandum were break-even or worse when financed at actual market rates.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Mid-2026 is materially different. Cap rates have expanded 75 to 150 basis points from those peak compression levels. Commercial multifamily rates have dropped from 7%+ highs to approximately 5.25% to 5.75% for stabilized assets with strong sponsorship. The math is not back to 2019 levels, but it is workable — and improving — for investors who understand what they are buying.
+          Mid-2026 is materially different. Cap rates have expanded 75 to 150 basis points from those peak compression levels. Commercial multifamily rates have dropped from 7%+ highs to approximately 5.25% to 5.75% for stabilized assets with strong sponsorship. The math is not back to 2019 levels, but it is workable - and improving - for investors who understand what they are buying.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           This analysis walks through how to evaluate Tampa Bay multifamily deals in the current environment, where cap rates are trading, and what the actual cash-on-cash numbers look like at today&apos;s financing costs.
@@ -197,7 +197,7 @@ export default function TampaBayMultifamilyCapRates2026Page() {
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Class-A stabilized (post-2015 construction, strong locations).</strong> Trading at 4.75% to 5.5% in core submarkets like downtown St. Pete, South Tampa, and New Tampa. These properties attract institutional and REIT buyers; individual investor pricing power is limited unless the property has a specific issue the market has discounted.</li>
           <li><strong>Class-B stabilized (1990-2015 construction, good locations).</strong> Trading at 5.5% to 6.5%. This is the most active segment for private investors in Tampa Bay. Properties that have been partially renovated but still have upside represent the most viable value-add opportunities at current prices.</li>
-          <li><strong>Class-C value-add (pre-1990 construction, secondary locations).</strong> Trading at 7.0% to 8.5%+ depending on condition and location. These carry meaningful execution risk — deferred maintenance, older mechanical systems, and a lower-income tenant base — but offer the highest potential total return for investors with capital and management experience.</li>
+          <li><strong>Class-C value-add (pre-1990 construction, secondary locations).</strong> Trading at 7.0% to 8.5%+ depending on condition and location. These carry meaningful execution risk - deferred maintenance, older mechanical systems, and a lower-income tenant base - but offer the highest potential total return for investors with capital and management experience.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
           These ranges represent a meaningful improvement from the 2021-2022 market, when class-A properties routinely traded at 3.5% to 4.0% and class-B assets cleared at 4.5% to 5.0%. The expansion reflects both the recalibration of investor expectations and slower institutional buyer demand as borrowing costs rose and then only partially recovered.
@@ -216,7 +216,7 @@ export default function TampaBayMultifamilyCapRates2026Page() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do You Model Cash Flow at Current Commercial Rates?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The cash-on-cash return — annual pre-tax cash flow divided by total equity invested — is the number that tells you whether a leveraged multifamily investment actually generates income. Here is a concrete example using mid-2026 market inputs:
+          The cash-on-cash return - annual pre-tax cash flow divided by total equity invested - is the number that tells you whether a leveraged multifamily investment actually generates income. Here is a concrete example using mid-2026 market inputs:
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Scenario: 12-unit class-B apartment building, Hillsborough County</strong>
@@ -233,7 +233,7 @@ export default function TampaBayMultifamilyCapRates2026Page() {
           <li>Cash-on-cash return: $14,100 / $475,000 = <strong>2.97%</strong></li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          That cash-on-cash return is modest, but it is positive leverage — the cap rate (6.0%) exceeds the interest rate (5.5%). In 2023, when commercial rates were at 7% and cap rates sat at 5.0%, many deals ran negative leverage, meaning the financing cost exceeded the property&apos;s income yield. Investors were banking entirely on appreciation, which did not materialize as expected.
+          That cash-on-cash return is modest, but it is positive leverage - the cap rate (6.0%) exceeds the interest rate (5.5%). In 2023, when commercial rates were at 7% and cap rates sat at 5.0%, many deals ran negative leverage, meaning the financing cost exceeded the property&apos;s income yield. Investors were banking entirely on appreciation, which did not materialize as expected.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The same property modeled as a value-add at a 7.0% pro forma cap rate (achievable after renovation and re-leasing) changes the picture substantially:
@@ -245,7 +245,7 @@ export default function TampaBayMultifamilyCapRates2026Page() {
           <li>Value at 6.0% exit cap rate: $1,750,000 (versus $1,500,000 purchase)</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The value-add execution — rental increases, expense management, improved occupancy — generates both current income and an exit at a meaningful premium to basis. This is the deal structure that makes sense in Tampa Bay&apos;s mid-2026 market. Barrett evaluates this math on specific deals for clients and can run sensitivity analysis against different exit cap rate and rent growth assumptions. See the framework in his{" "}
+          The value-add execution - rental increases, expense management, improved occupancy - generates both current income and an exit at a meaningful premium to basis. This is the deal structure that makes sense in Tampa Bay&apos;s mid-2026 market. Barrett evaluates this math on specific deals for clients and can run sensitivity analysis against different exit cap rate and rent growth assumptions. See the framework in his{" "}
           <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">commercial ROI guide</Link>.
         </p>
 
@@ -262,7 +262,7 @@ export default function TampaBayMultifamilyCapRates2026Page() {
             for growth context.
           </li>
           <li><strong><Link href="/markets/pinellas" className="text-accent underline">St. Petersburg and Pinellas County.</Link></strong> Tight supply, strong renter demographics, and walkable urban submarkets command premium pricing. Cap rates are compressed compared to Hillsborough, but rent growth has been more durable.</li>
-          <li><strong><Link href="/markets/polk" className="text-accent underline">Lakeland and Polk County.</Link></strong> Industrial-driven employment growth is supporting housing demand. Cap rates run higher than Tampa Bay proper — class-B assets available at 6.5% to 7.5% — offering better yield for investors comfortable with a secondary market.</li>
+          <li><strong><Link href="/markets/polk" className="text-accent underline">Lakeland and Polk County.</Link></strong> Industrial-driven employment growth is supporting housing demand. Cap rates run higher than Tampa Bay proper - class-B assets available at 6.5% to 7.5% - offering better yield for investors comfortable with a secondary market.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Risks Are Specific to Tampa Bay Multifamily in 2026?</h2>
@@ -270,11 +270,11 @@ export default function TampaBayMultifamilyCapRates2026Page() {
           The improving math does not eliminate real risks. Every Tampa Bay multifamily underwriting should stress-test three specific variables:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Insurance costs.</strong> Florida property insurance remains one of the most significant risk factors in any investment property underwriting. Do not use the seller&apos;s historical insurance figures — obtain current quotes for the specific property and factor them into your pro forma. The{" "}
+          <li><strong>Insurance costs.</strong> Florida property insurance remains one of the most significant risk factors in any investment property underwriting. Do not use the seller&apos;s historical insurance figures - obtain current quotes for the specific property and factor them into your pro forma. The{" "}
             <Link href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida insurance crisis</Link>{" "}
             has materially affected NOI for many owners who purchased with lower pre-crisis insurance premiums.
           </li>
-          <li><strong>Property tax reassessment.</strong> Florida&apos;s Save Our Homes cap applies only to homesteaded properties — not investment properties. After you purchase, the property is reassessed at market value, which can increase your property tax burden significantly above what the seller was paying. Model the post-purchase tax figure, not the seller&apos;s, in your NOI.</li>
+          <li><strong>Property tax reassessment.</strong> Florida&apos;s Save Our Homes cap applies only to homesteaded properties - not investment properties. After you purchase, the property is reassessed at market value, which can increase your property tax burden significantly above what the seller was paying. Model the post-purchase tax figure, not the seller&apos;s, in your NOI.</li>
           <li><strong>New supply.</strong> Multifamily construction in Pasco and eastern Hillsborough has added significant new supply over the past three years. In submarkets where new class-A units are competing with existing class-B stock, rent growth and occupancy for unrenovated class-B may be slower than historical patterns suggest. Underwrite conservatively on lease-up assumptions.</li>
         </ul>
 
@@ -283,12 +283,12 @@ export default function TampaBayMultifamilyCapRates2026Page() {
           For investors who were priced out or uncomfortable with the math in 2021 and 2022, mid-2026 represents a genuine repricing of Tampa Bay multifamily that was not available for four years. Cap rates are higher, commercial financing costs have come down meaningfully from their 2023 peaks, and seller motivation has increased in certain segments.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The opportunity is concentrated in the class-B value-add segment — properties that require execution but reward it with both income improvement and exit value creation. For passive investors seeking stabilized income with minimal management, the math works at current cap rates only with careful submarket selection and realistic insurance and tax modeling.
+          The opportunity is concentrated in the class-B value-add segment - properties that require execution but reward it with both income improvement and exit value creation. For passive investors seeking stabilized income with minimal management, the math works at current cap rates only with careful submarket selection and realistic insurance and tax modeling.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For investors with{" "}
           <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange capital</Link>{" "}
-          to deploy, the combination of expanded cap rates, lower financing costs, and motivated sellers creates the most favorable entry window since 2019. The window is not indefinite — if commercial rates continue their gradual decline, institutional buyer demand will return and compress cap rates again.
+          to deploy, the combination of expanded cap rates, lower financing costs, and motivated sellers creates the most favorable entry window since 2019. The window is not indefinite - if commercial rates continue their gradual decline, institutional buyer demand will return and compress cap rates again.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience across multiple market cycles. He evaluates Tampa Bay <Link href="/services/investment-sales" className="text-accent underline">multifamily acquisitions</Link>, sources off-market deals, and models deal-specific returns for clients at every investment level. Use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> or the <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to run your own numbers, then contact Barrett to discuss current opportunities or to have a specific deal underwritten.

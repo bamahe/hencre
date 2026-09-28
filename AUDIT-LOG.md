@@ -4,6 +4,62 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-28 -- Batch 64 (10 pages improved)
+
+**Commit:** pending | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/ybor-city-commercial-real-estate-tampa-2026`
+- Fixed 27 em/en dashes throughout file (— and - with -)
+- Updated `dateModified`: "2026-09-03" -> "2026-09-28"
+
+### 2. `/blog/inverness-citrus-county-commercial-real-estate-2026`
+- Fixed 1 en dash
+- Updated `dateModified`: "2026-09-05" -> "2026-09-28"
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted bare `<a href="/contact">` -> `<Link>` in mid-CTA
+- Added "Last updated: September 2026" footer
+
+### 3. `/blog/tampa-hillsborough-commercial-real-estate-guide-2026`
+- Fixed 9 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-07" -> "2026-09-28"
+- Added `import Link from "next/link"`
+- Converted bare `<a href="/contact">` -> `<Link>` in mid-CTA
+
+### 4. `/blog/st-petersburg-office-market-2026`
+- Fixed 29 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-03" -> "2026-09-28"
+
+### 5. `/blog/gasworx-tampa-ybor-office-commercial-2026`
+- Fixed 32 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-03" -> "2026-09-28"
+
+### 6. `/blog/tampa-bay-experience-entertainment-cre-2026`
+- Fixed 34 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-03" -> "2026-09-28"
+
+### 7. `/blog/tampa-bay-multifamily-cap-rates-2026`
+- Fixed 15 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-16" -> "2026-09-28"
+
+### 8. `/blog/westshore-tampa-office-market-2026`
+- Fixed 33 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-16" -> "2026-09-28"
+- Converted bare `<a href="/contact">` -> `<Link>` in mid-CTA
+
+### 9. `/blog/riverview-fl-commercial-real-estate-2026`
+- Fixed 14 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-02" -> "2026-09-28"
+- Fixed mid-CTA: "Talk to a REMAX Commercial Broker About Riverview" -> "Talk to a Commercial Real Estate Broker About Riverview"
+- Converted bare `<a href="/contact">` -> `<Link>` in mid-CTA
+- Fixed author bio: "REMAX Commercial division" -> "Broker Associate at REMAX Collective"
+
+### 10. `/blog/winter-haven-polk-county-cre-market-guide-2026`
+- Fixed 8 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-12" -> "2026-09-28"
+- Added " | HenCRE" branding to metadata title
+
+---
+
 ## 2026-09-27 -- Batch 63 (10 pages improved)
 
 **Commit:** `bfc75bf` | **Build:** clean (0 errors) | **Pages improved:** 10
