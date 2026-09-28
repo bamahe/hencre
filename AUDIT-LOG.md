@@ -6,7 +6,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ## 2026-09-28 -- Batch 64 (10 pages improved)
 
-**Commit:** pending | **Build:** clean (0 errors) | **Pages improved:** 10
+**Commit:** `e20c6a3` | **Build:** clean (0 errors) | **Pages improved:** 10
 
 ### 1. `/blog/ybor-city-commercial-real-estate-tampa-2026`
 - Fixed 27 em/en dashes throughout file (— and - with -)
