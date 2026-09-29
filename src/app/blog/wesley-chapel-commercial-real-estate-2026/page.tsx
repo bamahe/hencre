@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -8,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
- * Blog: Wesley Chapel Commercial Real Estate — Investor Guide 2026
+ * Blog: Wesley Chapel Commercial Real Estate - Investor Guide 2026
  * Investment opportunities in Pasco County's fastest-growing market.
  * ----------------------------------------------------------------- */
 
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Wesley Chapel Commercial Real Estate: Investor Guide 2026",
     description:
-      "Cap rates, property types, and investment opportunities in Wesley Chapel — Pasco County's fastest-growing commercial market.",
+      "Cap rates, property types, and investment opportunities in Wesley Chapel - Pasco County's fastest-growing commercial market.",
     url: "https://hencre.com/blog/wesley-chapel-commercial-real-estate-2026",
     type: "article",
     images: [
@@ -38,7 +39,7 @@ const faqItems = [
   {
     question: "Is Wesley Chapel a good place to invest in commercial real estate?",
     answer:
-      "Yes — Wesley Chapel offers strong fundamentals for commercial investors: rapid population growth, rising household incomes, limited older competing inventory, and continued infrastructure investment. Retail, medical office, and light industrial are the most active sectors. Cap rates are generally in the 5.5 to 7.5 percent range depending on property type and tenant quality.",
+      "Yes - Wesley Chapel offers strong fundamentals for commercial investors: rapid population growth, rising household incomes, limited older competing inventory, and continued infrastructure investment. Retail, medical office, and light industrial are the most active sectors. Cap rates are generally in the 5.5 to 7.5 percent range depending on property type and tenant quality.",
   },
   {
     question: "What types of commercial properties are in demand in Wesley Chapel?",
@@ -84,7 +85,7 @@ const schema = {
       description:
         "Cap rates, property types, and investment opportunities in Wesley Chapel and the broader Pasco County commercial real estate market.",
       datePublished: "2026-07-19",
-      dateModified: "2026-08-25",
+      dateModified: "2026-09-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -178,7 +179,7 @@ export default function WesleyChapelCREPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          <Link href="/markets/pasco" className="text-accent underline">Wesley Chapel</Link> has transformed from a rural Pasco County outpost into one of Florida&apos;s fastest-growing commercial real estate markets. Anchored by Wiregrass Ranch, The Shops at Wiregrass, and an expanding spine of development along SR-56 and Bruce B. Downs Boulevard, the market is attracting national retailers, healthcare systems, and institutional investors who once focused exclusively on Hillsborough County. For commercial real estate investors, the question is no longer whether Wesley Chapel is worth watching — it is how to position before the next wave of growth prices out the value.
+          <Link href="/markets/pasco" className="text-accent underline">Wesley Chapel</Link> has transformed from a rural Pasco County outpost into one of Florida&apos;s fastest-growing commercial real estate markets. Anchored by Wiregrass Ranch, The Shops at Wiregrass, and an expanding spine of development along SR-56 and Bruce B. Downs Boulevard, the market is attracting national retailers, healthcare systems, and institutional investors who once focused exclusively on Hillsborough County. For commercial real estate investors, the question is no longer whether Wesley Chapel is worth watching - it is how to position before the next wave of growth prices out the value.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Is Wesley Chapel Growing So Fast?</h2>
@@ -186,11 +187,11 @@ export default function WesleyChapelCREPage() {
           The drivers behind Wesley Chapel&apos;s growth are structural, not cyclical. Several forces are compounding simultaneously:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Population explosion.</strong> Pasco County is among the fastest-growing counties in the United States. New master-planned communities — Epperson, Mirada, Persimmon Park, and others — are adding tens of thousands of rooftops within a short drive of Wesley Chapel&apos;s commercial corridors.</li>
+          <li><strong>Population explosion.</strong> Pasco County is among the fastest-growing counties in the United States. New master-planned communities - Epperson, Mirada, Persimmon Park, and others - are adding tens of thousands of rooftops within a short drive of Wesley Chapel&apos;s commercial corridors.</li>
           <li><strong>Rising household incomes.</strong> The new residential base is not retirees on fixed incomes. Young professionals and families relocating from higher-cost metros are bringing spending power that supports premium retail, restaurant, and service demand.</li>
           <li><strong>Infrastructure investment.</strong> The Suncoast Parkway extension, continued expansion of I-75, and improvements to SR-56 are making Wesley Chapel more accessible from across the region, expanding the trade area for every commercial tenant.</li>
           <li><strong>Healthcare expansion.</strong> AdventHealth and BayCare have both made major investments in Wesley Chapel, anchoring medical office demand and drawing specialty practices into the market.</li>
-          <li><strong>Education.</strong> The University of South Florida is establishing a presence in Pasco County, and the market already has a strong K-12 school pipeline — a major driver of family residential demand.</li>
+          <li><strong>Education.</strong> The University of South Florida is establishing a presence in Pasco County, and the market already has a strong K-12 school pipeline - a major driver of family residential demand.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Commercial Property Types Are Performing Best?</h2>
@@ -198,9 +199,9 @@ export default function WesleyChapelCREPage() {
           Not all commercial sectors are performing equally in Wesley Chapel. Here is where the demand is concentrated:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong><Link href="/commercial/retail-space" className="text-accent underline">Retail and restaurant outparcels.</Link></strong> The strongest demand in the market. National QSR and fast-casual operators are actively seeking drive-through pads along SR-56 and Bruce B. Downs. Inline retail in well-anchored centers is also absorbing quickly, particularly service-oriented tenants — nail salons, urgent care, fitness, and insurance.</li>
+          <li><strong><Link href="/commercial/retail-space" className="text-accent underline">Retail and restaurant outparcels.</Link></strong> The strongest demand in the market. National QSR and fast-casual operators are actively seeking drive-through pads along SR-56 and Bruce B. Downs. Inline retail in well-anchored centers is also absorbing quickly, particularly service-oriented tenants - nail salons, urgent care, fitness, and insurance.</li>
           <li><strong>Medical office.</strong> Healthcare is arguably the most durable commercial category in a growing suburban market. AdventHealth and BayCare have both established hospital campuses that create a gravity effect for specialty practices, outpatient surgery, imaging, and therapy providers.</li>
-          <li><strong><Link href="/commercial/industrial-warehouse" className="text-accent underline">Light industrial and flex space.</Link></strong> Last-mile logistics and service contractors need space close to the residential base. Light industrial product — flex buildings in the 5,000 to 30,000 square foot range — is in short supply in Wesley Chapel and increasingly scarce throughout Pasco County. See the <Link href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland industrial market</Link> for a preview of what tight supply does to rents.</li>
+          <li><strong><Link href="/commercial/industrial-warehouse" className="text-accent underline">Light industrial and flex space.</Link></strong> Last-mile logistics and service contractors need space close to the residential base. Light industrial product - flex buildings in the 5,000 to 30,000 square foot range - is in short supply in Wesley Chapel and increasingly scarce throughout Pasco County. See the <Link href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland industrial market</Link> for a preview of what tight supply does to rents.</li>
           <li><strong><Link href="/commercial/office-space" className="text-accent underline">Office space.</Link></strong> More selective than retail or industrial, but regional headquarters and professional services firms are establishing outposts to serve the growing resident base. Suburban office has outperformed urban in the post-pandemic environment, and Wesley Chapel&apos;s demographics support continued demand.</li>
         </ul>
 
@@ -235,22 +236,22 @@ export default function WesleyChapelCREPage() {
           <li><strong>Traffic counts matter more than the address.</strong> Two retail sites a half mile apart on SR-56 can have dramatically different values based on median dividers, deceleration lanes, and signal placement. Verify access and egress before signing any contract.</li>
           <li><strong>Understand the development pipeline.</strong> Wesley Chapel has an active development pipeline. A retail center that looks well-positioned today may face new competition within two to three years. Understand what is planned and permitted in the trade area.</li>
           <li><strong>Zoning and entitlements are not always straightforward.</strong> Pasco County&apos;s zoning code is evolving alongside rapid growth. Confirm that your intended use is permitted and that the site is properly entitled. Environmental reviews, stormwater requirements, and concurrency issues can delay or derail projects.</li>
-          <li><strong><Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">Due diligence is non-negotiable.</Link></strong> Review the lease abstracts, tenant financials, CAM reconciliation history, and property condition report before closing. Fast-growing markets attract optimistic underwriting — verify the numbers.</li>
+          <li><strong><Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">Due diligence is non-negotiable.</Link></strong> Review the lease abstracts, tenant financials, CAM reconciliation history, and property condition report before closing. Fast-growing markets attract optimistic underwriting - verify the numbers.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does Wesley Chapel Compare to Other Tampa Bay Suburban Markets?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Wesley Chapel occupies a unique position in the Tampa Bay commercial landscape. Unlike <Link href="/blog/clearwater-retail-space-guide" className="text-accent underline">Clearwater</Link> or St. Pete, which are established markets with limited land, Wesley Chapel has room to grow. Unlike <Link href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland</Link>, which is primarily an industrial market, Wesley Chapel supports a full range of commercial uses. The closest comparable is Brandon, which went through a similar rapid-growth phase two decades earlier and is now a mature, established market. Wesley Chapel is where Brandon was in the early 2000s — still early enough to find value, but far enough along that the growth story is well-established rather than speculative.
+          Wesley Chapel occupies a unique position in the Tampa Bay commercial landscape. Unlike <Link href="/blog/clearwater-retail-space-guide" className="text-accent underline">Clearwater</Link> or St. Pete, which are established markets with limited land, Wesley Chapel has room to grow. Unlike <Link href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland</Link>, which is primarily an industrial market, Wesley Chapel supports a full range of commercial uses. The closest comparable is Brandon, which went through a similar rapid-growth phase two decades earlier and is now a mature, established market. Wesley Chapel is where Brandon was in the early 2000s - still early enough to find value, but far enough along that the growth story is well-established rather than speculative.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is the Outlook for Wesley Chapel Commercial Real Estate?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The medium-term outlook for Wesley Chapel commercial real estate is positive. Population growth is not slowing — it is accelerating as master-planned communities complete their residential buildout. Infrastructure investment will continue as the county works to keep pace with growth. Healthcare systems and national retailers who have already committed to the market will anchor tenant demand for years. The risk is not market softening; it is overpaying at entry or buying a property with tenant or location weaknesses that growth will not overcome. Discipline on underwriting is what separates successful investors from those who chased a good market and still underperformed.
+          The medium-term outlook for Wesley Chapel commercial real estate is positive. Population growth is not slowing - it is accelerating as master-planned communities complete their residential buildout. Infrastructure investment will continue as the county works to keep pace with growth. Healthcare systems and national retailers who have already committed to the market will anchor tenant demand for years. The risk is not market softening; it is overpaying at entry or buying a property with tenant or location weaknesses that growth will not overcome. Discipline on underwriting is what separates successful investors from those who chased a good market and still underperformed.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Wesley Chapel is one of the most compelling commercial real estate investment markets in the Tampa Bay region. The demand drivers are real, durable, and compounding. But the best opportunities in fast-growing markets go to buyers with local knowledge and relationships — not to those arriving late with a generic buy thesis. With 23+ years of experience as a Broker Associate at REMAX Collective, I help investors identify the right assets, negotiate competitive terms, and execute <Link href="/insights/cre-due-diligence-checklist" className="text-accent underline">due diligence</Link> that protects capital. Whether you are evaluating your first commercial acquisition or looking at <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">what makes a good commercial investment</Link> in this market, I can help you find what works in Wesley Chapel.
+          Wesley Chapel is one of the most compelling commercial real estate investment markets in the Tampa Bay region. The demand drivers are real, durable, and compounding. But the best opportunities in fast-growing markets go to buyers with local knowledge and relationships - not to those arriving late with a generic buy thesis. With 23+ years of experience as a Broker Associate at REMAX Collective, I help investors identify the right assets, negotiate competitive terms, and execute <Link href="/insights/cre-due-diligence-checklist" className="text-accent underline">due diligence</Link> that protects capital. Whether you are evaluating your first commercial acquisition or looking at <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">what makes a good commercial investment</Link> in this market, I can help you find what works in Wesley Chapel.
         </p>
 
         <FAQAccordion items={faqItems} />
@@ -262,7 +263,7 @@ export default function WesleyChapelCREPage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
@@ -271,9 +272,9 @@ export default function WesleyChapelCREPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors and tenants across Wesley Chapel, Pasco County, and all of Tampa Bay.
             </p>
           </div>
         </div>

@@ -80,7 +80,7 @@ const schema = {
       description:
         "How NNN leases work, why investors favor them, and key risks to evaluate.",
       datePublished: "2026-05-22",
-      dateModified: "2026-09-14",
+      dateModified: "2026-09-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -177,7 +177,7 @@ export default function NNNLeasePage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          A triple net lease — commonly abbreviated as NNN — is a lease structure where the tenant pays base rent plus all three major property expenses: property taxes, building insurance, and common area maintenance (CAM). This shifts virtually all operating costs from the landlord to the tenant, creating a predictable, low-management income stream for investors. It is the most popular lease structure in commercial real estate investing, and there are good reasons why. Investors can explore available{" "}
+          A triple net lease - commonly abbreviated as NNN - is a lease structure where the tenant pays base rent plus all three major property expenses: property taxes, building insurance, and common area maintenance (CAM). This shifts virtually all operating costs from the landlord to the tenant, creating a predictable, low-management income stream for investors. It is the most popular lease structure in commercial real estate investing, and there are good reasons why. Investors can explore available{" "}
           <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN net lease properties</Link>{" "}
           across Florida or use the{" "}
           <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link>{" "}
@@ -194,7 +194,7 @@ export default function NNNLeasePage() {
           <li><strong><Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">Common area maintenance (CAM).</Link></strong> The tenant pays for maintenance of shared areas: parking lots, landscaping, exterior lighting, and building systems.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The landlord receives the base rent as essentially net income. This is why the lease is called &quot;triple net&quot; — three categories of expenses are netted out and passed through to the tenant.
+          The landlord receives the base rent as essentially net income. This is why the lease is called &quot;triple net&quot; - three categories of expenses are netted out and passed through to the tenant.
         </p>
 
         <div className="my-8">
@@ -215,7 +215,7 @@ export default function NNNLeasePage() {
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Predictable income.</strong> With operating expenses passed to the tenant, the landlord&apos;s income is highly predictable. There are no surprise maintenance bills or tax increases eating into returns.</li>
           <li><strong>Minimal management.</strong> The tenant handles day-to-day property operations. Many NNN investors never visit their properties. This is as close to passive income as real estate gets.</li>
-          <li><strong>Creditworthy tenants.</strong> Many NNN properties are leased to national or regional tenants — pharmacies, fast food chains, auto parts stores, banks — with strong credit ratings. This reduces default risk.</li>
+          <li><strong>Creditworthy tenants.</strong> Many NNN properties are leased to national or regional tenants - pharmacies, fast food chains, auto parts stores, banks - with strong credit ratings. This reduces default risk.</li>
           <li><strong>Long lease terms.</strong> NNN leases commonly run 10 to 25 years, providing long-term income stability.</li>
           <li><strong>Built-in rent increases.</strong> Most NNN leases include annual escalations, typically 1.5 to 2 percent, providing inflation protection.</li>
           <li><strong>1031 exchange friendly.</strong> NNN properties are popular{" "}
@@ -306,7 +306,7 @@ export default function NNNLeasePage() {
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">NNN Lease — Frequently Asked Questions</h2>
+          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">NNN Lease - Frequently Asked Questions</h2>
           <FAQAccordion items={faqItems} />
         </div>
       </section>
@@ -336,7 +336,7 @@ export default function NNNLeasePage() {
 
       <CTASection
         heading="Looking for NNN Investment Properties?"
-        body="Barrett sources and evaluates NNN properties across Florida — from single-tenant retail to credit-rated corporate tenants. Let him find the right fit for your portfolio."
+        body="Barrett sources and evaluates NNN properties across Florida - from single-tenant retail to credit-rated corporate tenants. Let him find the right fit for your portfolio."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

@@ -13,14 +13,14 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Clearwater Retail Space Guide: Corridors, Rates & Investment | HenCRE",
+  title: "Clearwater Retail Space Guide | HenCRE",
   description:
-    "Clearwater retail space overview — top corridors, rental rate trends, tenant mix strategies, and investment opportunities in Pinellas County.",
+    "Clearwater retail space overview - top corridors, rental rate trends, tenant mix strategies, and investment opportunities in Pinellas County.",
   alternates: { canonical: "https://hencre.com/blog/clearwater-retail-space-guide" },
   openGraph: {
     title: "Clearwater Retail Space Guide",
     description:
-      "Clearwater retail market overview — top corridors, rental rates, and investment opportunities in Pinellas County.",
+      "Clearwater retail market overview - top corridors, rental rates, and investment opportunities in Pinellas County.",
     url: "https://hencre.com/blog/clearwater-retail-space-guide",
     type: "article",
     images: [
@@ -45,15 +45,15 @@ const faqItems = [
   },
   {
     question: "Is Clearwater Beach retail a good commercial investment?",
-    answer: "Clearwater Beach retail can generate premium returns, but it carries seasonal variability and higher entry costs. Properties on or near Mandalay Avenue command high rents from restaurants, shops, and water sports operators — but revenue concentrates in winter and spring tourist season. Investors should model seasonal cash flow carefully and ensure the cap rate reflects the occupancy risk during slower summer months. The peninsula geography limits new supply, which supports long-term value.",
+    answer: "Clearwater Beach retail can generate premium returns, but it carries seasonal variability and higher entry costs. Properties on or near Mandalay Avenue command high rents from restaurants, shops, and water sports operators - but revenue concentrates in winter and spring tourist season. Investors should model seasonal cash flow carefully and ensure the cap rate reflects the occupancy risk during slower summer months. The peninsula geography limits new supply, which supports long-term value.",
   },
   {
     question: "What lease structures are common for Clearwater retail space?",
-    answer: "NNN (triple net) leases are common for most Clearwater retail, meaning the tenant pays base rent plus property taxes, insurance, and maintenance in addition to their share of CAM charges. Modified gross and full-service gross leases do exist, particularly in smaller strip centers and older downtown buildings. Understanding what is included in your base rent versus charged separately as operating expenses is critical — especially since Florida insurance costs have risen significantly in recent years.",
+    answer: "NNN (triple net) leases are common for most Clearwater retail, meaning the tenant pays base rent plus property taxes, insurance, and maintenance in addition to their share of CAM charges. Modified gross and full-service gross leases do exist, particularly in smaller strip centers and older downtown buildings. Understanding what is included in your base rent versus charged separately as operating expenses is critical - especially since Florida insurance costs have risen significantly in recent years.",
   },
   {
     question: "Do I need a broker to lease retail space in Clearwater?",
-    answer: "Using a tenant representative costs you nothing — the landlord pays the broker commission. A tenant rep gives you access to spaces that are not publicly listed, provides current rental rate comparables, and negotiates lease terms on your behalf. In a market like Clearwater where the best spaces along Gulf-to-Bay and at the beach are often leased before they hit listing platforms, working with a local broker gives you a meaningful advantage in finding the right location.",
+    answer: "Using a tenant representative costs you nothing - the landlord pays the broker commission. A tenant rep gives you access to spaces that are not publicly listed, provides current rental rate comparables, and negotiates lease terms on your behalf. In a market like Clearwater where the best spaces along Gulf-to-Bay and at the beach are often leased before they hit listing platforms, working with a local broker gives you a meaningful advantage in finding the right location.",
   },
 ];
 
@@ -71,9 +71,9 @@ const schema = {
     {
       "@type": "BlogPosting",
       headline: "Clearwater Retail Space Guide",
-      description: "Clearwater retail market — top corridors, rental rate trends, and investment opportunities.",
+      description: "Clearwater retail market - top corridors, rental rate trends, and investment opportunities.",
       datePublished: "2026-05-24",
-      dateModified: "2026-09-10",
+      dateModified: "2026-09-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -194,13 +194,13 @@ export default function ClearwaterRetailGuidePage() {
           <li><strong>Gulf-to-Bay Boulevard (SR 60).</strong> The primary east-west commercial artery through Clearwater. High traffic counts, national retailers, restaurant clusters, and strong visibility make this the city&apos;s most active retail corridor. If you are targeting everyday consumer traffic, this is the anchor corridor.</li>
           <li><strong>US 19 (34th Street).</strong> Major north-south highway with big-box retail, auto dealerships, and strip centers. High volume but more auto-oriented than pedestrian-friendly. Good for service businesses needing large parking ratios.</li>
           <li><strong>Cleveland Street / Downtown.</strong> The heart of downtown Clearwater&apos;s walkable retail district. Smaller storefronts, restaurants, and boutiques targeting both locals and visitors. Revitalization investment has improved the pedestrian experience significantly.</li>
-          <li><strong>Clearwater Beach (Mandalay Avenue / Poinsettia Avenue).</strong> Tourist-driven retail with high seasonal demand. Premium rents but strong revenue potential for the right concept — restaurants, water sports, and beach-adjacent services lead the tenant mix.</li>
+          <li><strong>Clearwater Beach (Mandalay Avenue / Poinsettia Avenue).</strong> Tourist-driven retail with high seasonal demand. Premium rents but strong revenue potential for the right concept - restaurants, water sports, and beach-adjacent services lead the tenant mix.</li>
           <li><strong>Countryside area.</strong> The Countryside Mall vicinity and surrounding strip centers serve northern Clearwater&apos;s suburban residential base with steady year-round demand.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Do Clearwater Retail Rents Look Like?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Retail rental rates in Clearwater vary significantly by location and property type. Beach-adjacent retail commands the highest rents — often $30 to $50+ per square foot on a <a href="/insights/nnn-lease-explained" className="text-accent underline">NNN basis</a>. Gulf-to-Bay corridor spaces typically range from $18 to $30 per square foot depending on visibility and co-tenancy. Secondary locations and neighborhood strip centers can be found in the $14 to $22 per square foot range. Understanding <a href="/insights/cam-charges-explained" className="text-accent underline">CAM charges</a> on top of base rent is critical when comparing total occupancy costs — especially as Florida insurance costs have risen sharply in recent years.
+          Retail rental rates in Clearwater vary significantly by location and property type. Beach-adjacent retail commands the highest rents - often $30 to $50+ per square foot on a <a href="/insights/nnn-lease-explained" className="text-accent underline">NNN basis</a>. Gulf-to-Bay corridor spaces typically range from $18 to $30 per square foot depending on visibility and co-tenancy. Secondary locations and neighborhood strip centers can be found in the $14 to $22 per square foot range. Understanding <a href="/insights/cam-charges-explained" className="text-accent underline">CAM charges</a> on top of base rent is critical when comparing total occupancy costs - especially as Florida insurance costs have risen sharply in recent years.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Investors evaluating Clearwater retail should also understand how <a href="/insights/gross-vs-net-lease" className="text-accent underline">gross versus net lease structures</a> affect total returns, and how to use <a href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</a> to compare retail properties across different corridors. Tools like the <a href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</a> can help you quickly assess whether a property is priced appropriately for its income stream.
@@ -230,12 +230,12 @@ export default function ClearwaterRetailGuidePage() {
           Clearwater retail investment can be attractive for the right property. Key factors to evaluate include tenant quality, lease structure (<a href="/insights/nnn-lease-explained" className="text-accent underline">NNN vs. gross</a>), remaining lease term, and location fundamentals. Properties along primary corridors with strong tenants and long-term leases tend to perform well. Beach-area retail carries seasonal variability but can generate premium returns. Investors should work with someone who knows the <a href="/markets/pinellas" className="text-accent underline">Pinellas County market</a> to identify opportunities and avoid overpaying.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Use the <a href="/calculators/roi" className="text-accent underline">commercial ROI calculator</a> and <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">learn how to evaluate returns properly</a> before committing to any acquisition. Make sure your <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process</a> covers flood zone exposure, insurance costs, and lease structure — all of which are particularly important for coastal Pinellas properties.
+          Use the <a href="/calculators/roi" className="text-accent underline">commercial ROI calculator</a> and <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">learn how to evaluate returns properly</a> before committing to any acquisition. Make sure your <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process</a> covers flood zone exposure, insurance costs, and lease structure - all of which are particularly important for coastal Pinellas properties.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do You Find the Right Retail Space in Clearwater?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Start by defining your requirements — square footage, parking needs, visibility, signage, and budget. Many of the best <a href="/commercial/retail-space" className="text-accent underline">retail spaces</a> in Clearwater are not publicly listed, which is where working with a <a href="/services/tenant-representation" className="text-accent underline">tenant representative</a> gives you an advantage. A broker can access off-market opportunities, negotiate lease terms, and help you evaluate whether a location supports your business model. As a Broker Associate at REMAX Collective, I represent tenants across Clearwater, St. Petersburg, and the broader <a href="/markets/pinellas" className="text-accent underline">Pinellas County</a> market.
+          Start by defining your requirements - square footage, parking needs, visibility, signage, and budget. Many of the best <a href="/commercial/retail-space" className="text-accent underline">retail spaces</a> in Clearwater are not publicly listed, which is where working with a <a href="/services/tenant-representation" className="text-accent underline">tenant representative</a> gives you an advantage. A broker can access off-market opportunities, negotiate lease terms, and help you evaluate whether a location supports your business model. As a Broker Associate at REMAX Collective, I represent tenants across Clearwater, St. Petersburg, and the broader <a href="/markets/pinellas" className="text-accent underline">Pinellas County</a> market.
         </p>
 
         <Image

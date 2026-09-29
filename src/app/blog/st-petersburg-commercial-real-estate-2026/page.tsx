@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "St. Petersburg Commercial Real Estate 2026 | HenCRE",
   description:
-    "St. Petersburg commercial real estate market guide for 2026 — office, retail, and industrial submarkets, rental rates, cap rates, and investment outlook for Pinellas County's largest city.",
+    "St. Petersburg commercial real estate market guide for 2026 - office, retail, and industrial submarkets, rental rates, cap rates, and investment outlook for Pinellas County's largest city.",
   alternates: { canonical: "https://hencre.com/blog/st-petersburg-commercial-real-estate-2026" },
   openGraph: {
     title: "St. Petersburg Commercial Real Estate 2026",
     description:
-      "Office, retail, and industrial market overview for St. Petersburg, FL — rental rates, cap rates, key submarkets, and what tenants and investors need to know in 2026.",
+      "Office, retail, and industrial market overview for St. Petersburg, FL - rental rates, cap rates, key submarkets, and what tenants and investors need to know in 2026.",
     url: "https://hencre.com/blog/st-petersburg-commercial-real-estate-2026",
     type: "article",
     images: [
@@ -37,11 +37,11 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     question: "What is the average commercial rental rate in St. Petersburg, FL?",
-    answer: "The overall average commercial rental rate in St. Petersburg is approximately $29 per square foot across all property types. Office space averages around $40 per square foot, while industrial space averages closer to $15 per square foot. Rates vary significantly by submarket and building quality — downtown Class A commands a premium, while secondary locations offer more modest pricing.",
+    answer: "The overall average commercial rental rate in St. Petersburg is approximately $29 per square foot across all property types. Office space averages around $40 per square foot, while industrial space averages closer to $15 per square foot. Rates vary significantly by submarket and building quality - downtown Class A commands a premium, while secondary locations offer more modest pricing.",
   },
   {
     question: "What is the cap rate for commercial real estate in St. Petersburg?",
-    answer: "The average cap rate for commercial real estate in St. Petersburg is approximately 6.42% as of mid-2026. Cap rates vary by property type and quality — well-leased retail and industrial assets with strong tenants may trade at lower cap rates, while value-add or repositioning opportunities carry higher yields in the 7 to 9 percent range.",
+    answer: "The average cap rate for commercial real estate in St. Petersburg is approximately 6.42% as of mid-2026. Cap rates vary by property type and quality - well-leased retail and industrial assets with strong tenants may trade at lower cap rates, while value-add or repositioning opportunities carry higher yields in the 7 to 9 percent range.",
   },
   {
     question: "Which St. Petersburg neighborhoods have the most commercial activity?",
@@ -73,7 +73,7 @@ const schema = {
       headline: "St. Petersburg Commercial Real Estate 2026",
       description: "A market guide to office, retail, and industrial commercial real estate in St. Petersburg, FL -- submarkets, rates, cap rates, and investment outlook.",
       datePublished: "2026-07-20",
-      dateModified: "2026-09-07",
+      dateModified: "2026-09-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

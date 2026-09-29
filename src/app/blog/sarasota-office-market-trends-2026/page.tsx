@@ -16,12 +16,12 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Sarasota Office Market Trends 2026 | HenCRE",
   description:
-    "Sarasota office market trends for 2026 — vacancy rates, rental rates, top submarkets, tenant demand, and investment outlook for Sarasota County.",
+    "Sarasota office market trends for 2026 - vacancy rates, rental rates, top submarkets, tenant demand, and investment outlook for Sarasota County.",
   alternates: { canonical: "https://hencre.com/blog/sarasota-office-market-trends-2026" },
   openGraph: {
     title: "Sarasota Office Market Trends 2026",
     description:
-      "Sarasota office market analysis — vacancy, rents, submarkets, and investment outlook for 2026.",
+      "Sarasota office market analysis - vacancy, rents, submarkets, and investment outlook for 2026.",
     url: "https://hencre.com/blog/sarasota-office-market-trends-2026",
     type: "article",
     images: [
@@ -39,7 +39,7 @@ const faqItems = [
   {
     question: "What is driving office demand in Sarasota County in 2026?",
     answer:
-      "Wealth migration is the single largest driver. High-net-worth individuals relocating from the Northeast and Midwest bring their advisory relationships — financial planners, attorneys, accountants, and family office staff — creating demand for professional office space. Healthcare system expansion for the aging population is also significant, particularly for medical office. Remote work evolution is a minor positive: some professional services firms that downsized elsewhere are recommitting to in-person presence in Sarasota because of quality-of-life advantages.",
+      "Wealth migration is the single largest driver. High-net-worth individuals relocating from the Northeast and Midwest bring their advisory relationships - financial planners, attorneys, accountants, and family office staff - creating demand for professional office space. Healthcare system expansion for the aging population is also significant, particularly for medical office. Remote work evolution is a minor positive: some professional services firms that downsized elsewhere are recommitting to in-person presence in Sarasota because of quality-of-life advantages.",
   },
   {
     question: "What are office rental rates in Sarasota in 2026?",
@@ -54,7 +54,7 @@ const faqItems = [
   {
     question: "Should I invest in Sarasota office property in 2026?",
     answer:
-      "Sarasota office investment can be attractive for the right property. Tenant quality matters — professional services and medical tenants tend to be sticky. Limited new supply means existing properties face less competitive pressure. Value-add potential exists in older Class B buildings in good locations that can be renovated and repositioned. Cap rates generally range from 6 to 8.5 percent depending on building quality, tenant strength, and lease term remaining.",
+      "Sarasota office investment can be attractive for the right property. Tenant quality matters - professional services and medical tenants tend to be sticky. Limited new supply means existing properties face less competitive pressure. Value-add potential exists in older Class B buildings in good locations that can be renovated and repositioned. Cap rates generally range from 6 to 8.5 percent depending on building quality, tenant strength, and lease term remaining.",
   },
   {
     question: "Which Sarasota office submarkets are most active?",
@@ -83,9 +83,9 @@ const schema = {
       "@type": "BlogPosting",
       headline: "Sarasota Office Market Trends 2026",
       description:
-        "Sarasota County office market trends — vacancy, rents, submarkets, and investment opportunities.",
+        "Sarasota County office market trends - vacancy, rents, submarkets, and investment opportunities.",
       datePublished: "2026-06-14",
-      dateModified: "2026-09-01",
+      dateModified: "2026-09-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -182,7 +182,7 @@ export default function SarasotaOfficeMarketPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          <Link href="/markets/sarasota" className="text-accent underline">Sarasota County&apos;s</Link> office market reflects the unique character of the region — a growing base of wealth management, legal, medical, and professional services firms serving an affluent and expanding population. Unlike Tampa&apos;s larger, more diverse office market, Sarasota&apos;s office sector is concentrated and specialized, creating both challenges and opportunities for tenants and investors heading into 2026.
+          <Link href="/markets/sarasota" className="text-accent underline">Sarasota County&apos;s</Link> office market reflects the unique character of the region - a growing base of wealth management, legal, medical, and professional services firms serving an affluent and expanding population. Unlike Tampa&apos;s larger, more diverse office market, Sarasota&apos;s office sector is concentrated and specialized, creating both challenges and opportunities for tenants and investors heading into 2026.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is Driving Office Demand in Sarasota?</h2>
@@ -190,9 +190,9 @@ export default function SarasotaOfficeMarketPage() {
           Several trends are supporting office demand in Sarasota County:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Wealth migration.</strong> High-net-worth individuals relocating to Sarasota from the Northeast and Midwest bring their advisory relationships — financial planners, attorneys, accountants, and family office staff — creating demand for professional office space.</li>
+          <li><strong>Wealth migration.</strong> High-net-worth individuals relocating to Sarasota from the Northeast and Midwest bring their advisory relationships - financial planners, attorneys, accountants, and family office staff - creating demand for professional office space.</li>
           <li><strong>Healthcare expansion.</strong> Medical office demand remains strong as healthcare systems expand to serve Sarasota&apos;s growing and aging population. Specialty practices, outpatient surgery centers, and wellness clinics are active tenants. This mirrors what is happening with <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">medical office demand across Tampa Bay</Link>.</li>
-          <li><strong>Remote work evolution.</strong> While some companies have downsized office footprints, others — particularly in professional services — are recommitting to in-person presence. Sarasota&apos;s quality of life makes it an attractive location for companies establishing Florida offices.</li>
+          <li><strong>Remote work evolution.</strong> While some companies have downsized office footprints, others - particularly in professional services - are recommitting to in-person presence. Sarasota&apos;s quality of life makes it an attractive location for companies establishing Florida offices.</li>
           <li><strong>Population growth.</strong> More residents mean more demand for every type of professional service, from insurance agencies to real estate offices to architecture firms.</li>
         </ul>
 
@@ -245,7 +245,7 @@ export default function SarasotaOfficeMarketPage() {
           Sarasota office investment can be attractive for the right property. Key considerations:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Tenant quality matters.</strong> Professional services and medical tenants tend to be sticky — they invest in their buildout and do not move frequently. This translates to stable occupancy and reliable income.</li>
+          <li><strong>Tenant quality matters.</strong> Professional services and medical tenants tend to be sticky - they invest in their buildout and do not move frequently. This translates to stable occupancy and reliable income.</li>
           <li><strong>Limited new supply.</strong> Minimal new office construction means existing properties face less competitive pressure, supporting rents and occupancy.</li>
           <li><strong>Value-add potential.</strong> Older Class B office buildings in good locations can be renovated and repositioned to attract higher-quality tenants and command higher rents. <Link href="/services/cre-valuation" className="text-accent underline">A proper valuation</Link> is essential before any repositioning investment.</li>
           <li><strong><Link href="/insights/what-is-a-cap-rate" className="text-accent underline">Cap rates.</Link></strong> Sarasota office cap rates generally range from 6 to 8.5 percent depending on building quality, tenant strength, and lease term remaining. Use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> to evaluate specific investment scenarios.</li>
@@ -253,12 +253,12 @@ export default function SarasotaOfficeMarketPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Office Tenants in Sarasota Know?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are looking for <Link href="/commercial/office-space" className="text-accent underline">office space</Link> in Sarasota, start your search early — 6 to 9 months before your need date. Class A options are limited, and the best spaces do not stay available long. Understand whether you are looking at a gross or net lease, and factor in all costs including <Link href="/insights/cam-charges-explained" className="text-accent underline">CAM charges</Link> and parking. Working with a <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link> gives you access to off-market options and negotiation expertise at no cost to you — the landlord pays the broker fee.
+          If you are looking for <Link href="/commercial/office-space" className="text-accent underline">office space</Link> in Sarasota, start your search early - 6 to 9 months before your need date. Class A options are limited, and the best spaces do not stay available long. Understand whether you are looking at a gross or net lease, and factor in all costs including <Link href="/insights/cam-charges-explained" className="text-accent underline">CAM charges</Link> and parking. Working with a <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link> gives you access to off-market options and negotiation expertise at no cost to you - the landlord pays the broker fee.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Sarasota&apos;s office market is smaller and more specialized than Tampa&apos;s, but it offers compelling fundamentals — growing demand, limited supply, and a tenant base anchored by stable professional services and healthcare users. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett Henry helps both tenants and investors navigate the <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> and <Link href="/markets/manatee" className="text-accent underline">Manatee</Link> county office markets with local knowledge and data-driven analysis. Whether you are leasing space or evaluating an investment, understanding this market&apos;s nuances is the key to a good outcome.
+          Sarasota&apos;s office market is smaller and more specialized than Tampa&apos;s, but it offers compelling fundamentals - growing demand, limited supply, and a tenant base anchored by stable professional services and healthcare users. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett Henry helps both tenants and investors navigate the <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> and <Link href="/markets/manatee" className="text-accent underline">Manatee</Link> county office markets with local knowledge and data-driven analysis. Whether you are leasing space or evaluating an investment, understanding this market&apos;s nuances is the key to a good outcome.
         </p>
 
         <p className="mt-8 text-xs text-[#666666]">Last updated: September 2026</p>
