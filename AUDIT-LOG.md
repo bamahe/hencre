@@ -4,6 +4,69 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-29 -- Batch 65 (10 pages improved)
+
+**Commit:** `7a99c27` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/clearwater-pinellas-county-commercial-real-estate-2026`
+- Shortened metadata title from 79 chars to 62 chars (under 70-char limit)
+- Fixed schema jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed schema publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Added `dateModified: "2026-09-29"` to schema
+- Added "Home" as first breadcrumb item
+- Fixed relatedLinks hrefs: added `/blog/` prefix (was `/clearwater-...`)
+- Expanded relatedLinks from 5 to 10 (added 5 more internal links)
+- Fixed mid-CTA: "Talk to a REMAX Commercial Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted mid-CTA `<a href="/contact">` -> `<Link href="/contact">`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Fixed author bio: `<img>` -> `<Image>` component
+- Fixed author bio credentials: "REALTOR & Commercial Real Estate Advisor" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author bio text: removed "REMAX Commercial division" language
+- Fixed em/en dashes throughout (article body, FAQ answers)
+
+### 2. `/blog/tampa-bay-cre-market-outlook-q4-2026`
+- Fixed 39 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-27" -> "2026-09-29"
+
+### 3. `/blog/tampa-bay-industrial-market-q3-2026`
+- Fixed 35 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-26" -> "2026-09-29"
+
+### 4. `/blog/clearwater-retail-space-guide`
+- Shortened metadata title from 70 chars to 42 chars (under 70-char limit): "Clearwater Retail Space Guide | HenCRE"
+- Fixed 10 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-10" -> "2026-09-29"
+
+### 5. `/blog/st-petersburg-commercial-real-estate-2026`
+- Fixed 4 em/en dashes throughout file
+- Updated `dateModified`: "2026-09-07" -> "2026-09-29"
+
+### 6. `/blog/tampa-bay-office-market-q2-2026`
+- Fixed 20 em/en dashes throughout file
+- Updated `dateModified` to "2026-09-29"
+
+### 7. `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Fixed 5 em/en dashes throughout file
+- Updated `dateModified` to "2026-09-29"
+
+### 8. `/blog/what-makes-a-good-commercial-investment`
+- Fixed 19 em/en dashes throughout file
+- Updated `dateModified` to "2026-09-29"
+
+### 9. `/blog/sarasota-office-market-trends-2026`
+- Fixed 11 em/en dashes throughout file
+- Updated `dateModified` to "2026-09-29"
+
+### 10. `/blog/wesley-chapel-commercial-real-estate-2026`
+- Fixed 12 em/en dashes throughout file
+- Added `import Image from "next/image"`
+- Fixed author bio: `<img>` -> `<Image>` component
+- Fixed author bio credentials: "23+ Years of Real Estate Experience" -> "e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author bio text: removed "REMAX Commercial division" language
+- Updated `dateModified` to "2026-09-29"
+
+---
+
 ## 2026-09-28 -- Batch 64 (10 pages improved)
 
 **Commit:** `e20c6a3` | **Build:** clean (0 errors) | **Pages improved:** 10
