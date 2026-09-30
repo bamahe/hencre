@@ -6,7 +6,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ## 2026-09-30 -- Batch 66 (10 pages improved)
 
-**Commit:** `d0eeab7` | **Build:** clean (0 errors) | **Pages improved:** 10
+**Commit:** `2d29147` | **Build:** clean (0 errors) | **Pages improved:** 10
 
 ### 1. `/blog/do-you-need-a-commercial-real-estate-broker`
 - Fixed `--` em dash substitute in metadata description → `:`
