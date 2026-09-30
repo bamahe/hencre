@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Florida 1031 Exchange: What Investors Need to Know",
     description:
-      "Florida-specific 1031 exchange considerations for commercial real estate investors — tax advantages, property flexibility, and common pitfalls.",
+      "Florida-specific 1031 exchange considerations for commercial real estate investors: tax advantages, property flexibility, and common pitfalls.",
     url: "https://hencre.com/blog/florida-1031-exchange-what-investors-need-to-know",
     type: "article",
     images: [
@@ -80,7 +80,7 @@ const schema = {
       description:
         "Florida-specific 1031 exchange considerations for commercial real estate investors.",
       datePublished: "2026-05-28",
-      dateModified: "2026-09-01",
+      dateModified: "2026-09-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -305,7 +305,7 @@ export default function Florida1031Page() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

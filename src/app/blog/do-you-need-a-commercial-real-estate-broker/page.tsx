@@ -16,12 +16,12 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Do You Need a Commercial Real Estate Broker? | HenCRE",
   description:
-    "When and why to hire a commercial real estate broker -- tenant representation, buyer advocacy, lease negotiation, and deal sourcing. A broker explains the value.",
+    "When and why to hire a commercial real estate broker: tenant representation, buyer advocacy, lease negotiation, and deal sourcing. A broker explains the value.",
   alternates: { canonical: "https://hencre.com/blog/do-you-need-a-commercial-real-estate-broker" },
   openGraph: {
     title: "Do You Need a Commercial Real Estate Broker? | HenCRE",
     description:
-      "When and why to hire a commercial real estate broker — tenant representation, buyer advocacy, and lease negotiation.",
+      "When and why to hire a commercial real estate broker: tenant representation, buyer advocacy, and lease negotiation.",
     url: "https://hencre.com/blog/do-you-need-a-commercial-real-estate-broker",
     type: "article",
     images: [
@@ -83,9 +83,9 @@ const schema = {
       "@type": "BlogPosting",
       headline: "Do You Need a Commercial Real Estate Broker?",
       description:
-        "When and why to hire a commercial real estate broker — tenant representation, buyer advocacy, and lease negotiation.",
+        "When and why to hire a commercial real estate broker: tenant representation, buyer advocacy, and lease negotiation.",
       datePublished: "2026-04-28",
-      dateModified: "2026-09-18",
+      dateModified: "2026-09-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -130,7 +130,7 @@ const relatedLinks = [
   {
     title: "Tenant Representation Services",
     href: "/services/tenant-representation",
-    description: "How Barrett represents tenants in lease negotiations -- at no cost to the tenant.",
+    description: "How Barrett represents tenants in lease negotiations, at no cost to the tenant.",
   },
   {
     title: "How Commercial Leases Differ from Residential",
@@ -145,12 +145,12 @@ const relatedLinks = [
   {
     title: "Investment Sales Services",
     href: "/services/investment-sales",
-    description: "For investors buying or selling commercial properties -- how Barrett structures transactions.",
+    description: "For investors buying or selling commercial properties: how Barrett structures transactions.",
   },
   {
     title: "Hillsborough County Commercial Real Estate",
     href: "/markets/hillsborough",
-    description: "Market overview for Tampa and Hillsborough County -- office, retail, industrial, and multifamily.",
+    description: "Market overview for Tampa and Hillsborough County: office, retail, industrial, and multifamily.",
   },
   {
     title: "Pinellas County Commercial Real Estate",

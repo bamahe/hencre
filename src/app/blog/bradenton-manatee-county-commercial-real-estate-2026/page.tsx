@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -8,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Bradenton & Manatee County Commercial Real Estate 2026",
+  title: "Bradenton & Manatee County Commercial Real Estate 2026 | HenCRE",
   description:
     "Explore Bradenton and Manatee County commercial real estate in 2026. Discover top submarkets, investment opportunities, and why this Gulf Coast county is attracting serious CRE attention.",
   alternates: { canonical: "https://hencre.com/blog/bradenton-manatee-county-commercial-real-estate-2026" },
@@ -79,7 +80,7 @@ const schema = {
       description:
         "Explore Bradenton and Manatee County commercial real estate in 2026. Discover top submarkets, investment opportunities, and why this Gulf Coast county is attracting serious CRE attention.",
       datePublished: "2026-08-14",
-      dateModified: "2026-09-10",
+      dateModified: "2026-09-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -262,7 +263,7 @@ export default function BlogPost() {
       {/* Author Bio */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

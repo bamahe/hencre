@@ -83,9 +83,9 @@ const schema = {
       "@type": "BlogPosting",
       headline: "How Commercial Leases Differ From Residential",
       description:
-        "Key differences between commercial and residential leases — lease terms, negotiation, expenses, and tenant protections.",
+        "Key differences between commercial and residential leases: lease terms, negotiation, expenses, and tenant protections.",
       datePublished: "2026-05-18",
-      dateModified: "2026-09-18",
+      dateModified: "2026-09-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -132,7 +132,7 @@ const relatedLinks = [
   {
     title: "5 Mistakes First-Time Commercial Tenants Make",
     href: "/blog/5-mistakes-first-time-commercial-tenants-make",
-    description: "Common pitfalls first-time commercial tenants fall into -- and how to avoid them.",
+    description: "Common pitfalls first-time commercial tenants fall into, and how to avoid them.",
   },
   {
     title: "Leasing vs. Buying Commercial Space",
@@ -147,7 +147,7 @@ const relatedLinks = [
   {
     title: "Do You Need a Commercial Real Estate Broker?",
     href: "/blog/do-you-need-a-commercial-real-estate-broker",
-    description: "When and why to hire a CRE broker -- and what they actually do for you.",
+    description: "When and why to hire a CRE broker, and what they actually do for you.",
   },
   {
     title: "Florida Business Rent Tax Repeal",
@@ -200,20 +200,20 @@ export default function CommercialVsResidentialLeasePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Who Pays for What in a Commercial Lease?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In a residential lease, the landlord pays for property taxes, insurance, and maintenance. The tenant pays rent and sometimes utilities. Commercial leases vary dramatically depending on the <a href="/insights/gross-vs-net-lease" className="text-accent underline">lease structure</a>:
+          In a residential lease, the landlord pays for property taxes, insurance, and maintenance. The tenant pays rent and sometimes utilities. Commercial leases vary dramatically depending on the <Link href="/insights/gross-vs-net-lease" className="text-accent underline">lease structure</Link>:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Gross lease.</strong> The landlord covers most operating expenses. The tenant pays a single rent amount. This is more common in office space.</li>
-          <li><strong>Net lease.</strong> The tenant pays base rent plus some or all operating expenses — property taxes, insurance, and <a href="/insights/cam-charges-explained" className="text-accent underline">common area maintenance (CAM)</a>.</li>
-          <li><strong>Triple net (NNN) lease.</strong> The tenant pays base rent plus all three expense categories. This is the standard for <a href="/commercial/retail-space" className="text-accent underline">retail</a> and <a href="/commercial/nnn-net-lease" className="text-accent underline">single-tenant investment properties</a>.</li>
+          <li><strong>Net lease.</strong> The tenant pays base rent plus some or all operating expenses: property taxes, insurance, and <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">common area maintenance (CAM)</Link>.</li>
+          <li><strong>Triple net (NNN) lease.</strong> The tenant pays base rent plus all three expense categories. This is the standard for <Link href="/commercial/retail-space" className="text-accent underline">retail</Link> and <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">single-tenant investment properties</Link>.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Understanding which expenses you are responsible for is critical. A lease that looks affordable based on base rent can become very expensive once you factor in NNN charges. Always calculate your <a href="/blog/5-mistakes-first-time-commercial-tenants-make" className="text-accent underline">total occupancy cost</a> before comparing spaces.
+          Understanding which expenses you are responsible for is critical. A lease that looks affordable based on base rent can become very expensive once you factor in NNN charges. Always calculate your <Link href="/blog/5-mistakes-first-time-commercial-tenants-make" className="text-accent underline">total occupancy cost</Link> before comparing spaces.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Are Commercial Leases Negotiable?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Residential leases are generally take-it-or-leave-it documents. Commercial leases are almost entirely negotiable. Rent rates, lease duration, tenant improvement allowances, renewal options, exclusivity clauses, signage rights, parking ratios, CAM caps, and personal guarantee terms are all on the table. This is why having a <a href="/services/tenant-representation" className="text-accent underline">tenant representative</a> is so valuable — a broker knows which provisions matter and how to negotiate them in your favor.
+          Residential leases are generally take-it-or-leave-it documents. Commercial leases are almost entirely negotiable. Rent rates, lease duration, tenant improvement allowances, renewal options, exclusivity clauses, signage rights, parking ratios, CAM caps, and personal guarantee terms are all on the table. This is why having a <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link> is so valuable - a broker knows which provisions matter and how to negotiate them in your favor.
         </p>
 
         <Image
@@ -258,10 +258,10 @@ export default function CommercialVsResidentialLeasePage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li>Understand the total occupancy cost — base rent plus all additional expenses.</li>
-          <li>Get a <a href="/services/tenant-representation" className="text-accent underline">tenant representative</a> who works for you, not the landlord.</li>
+          <li>Get a <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link> who works for you, not the landlord.</li>
           <li>Negotiate TI allowances, renewal options, and exit provisions before signing.</li>
-          <li>Have a real estate attorney review the lease — not your business attorney, a real estate specialist.</li>
-          <li>Compare at least 3 to 5 properties before making a decision. Whether you are looking at <a href="/commercial/office-space" className="text-accent underline">office space</a>, <a href="/commercial/retail-space" className="text-accent underline">retail space</a>, or <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial space</a>, comparison gives you leverage.</li>
+          <li>Have a real estate attorney review the lease - not your business attorney, a real estate specialist.</li>
+          <li>Compare at least 3 to 5 properties before making a decision. Whether you are looking at <Link href="/commercial/office-space" className="text-accent underline">office space</Link>, <Link href="/commercial/retail-space" className="text-accent underline">retail space</Link>, or <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial space</Link>, comparison gives you leverage.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
@@ -293,7 +293,7 @@ export default function CommercialVsResidentialLeasePage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He has helped hundreds of Florida business owners and investors navigate commercial lease negotiations, from first-time tenants to multi-location portfolios. Learn more at{" "}
               <Link href="/about" className="text-accent underline">about Barrett</Link>{" "}

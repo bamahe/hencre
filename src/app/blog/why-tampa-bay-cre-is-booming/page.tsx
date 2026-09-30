@@ -10,18 +10,18 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
  * Blog: Why Tampa Bay CRE Is Booming
- * Growth drivers for Tampa Bay commercial real estate — qualitative.
+ * Growth drivers for Tampa Bay commercial real estate, qualitative.
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
   title: "Why Tampa Bay CRE Is Booming | HenCRE",
   description:
-    "Explore the key drivers fueling Tampa Bay's commercial real estate growth — population migration, infrastructure investment, business climate, and more. A broker's perspective.",
+    "Explore the key drivers fueling Tampa Bay's commercial real estate growth: population migration, infrastructure investment, business climate, and more. A broker's perspective.",
   alternates: { canonical: "https://hencre.com/blog/why-tampa-bay-cre-is-booming" },
   openGraph: {
     title: "Why Tampa Bay Commercial Real Estate Is Booming",
     description:
-      "Explore the key drivers fueling Tampa Bay's commercial real estate growth — population migration, infrastructure investment, and business climate.",
+      "Explore the key drivers fueling Tampa Bay's commercial real estate growth: population migration, infrastructure investment, and business climate.",
     url: "https://hencre.com/blog/why-tampa-bay-cre-is-booming",
     type: "article",
     images: [
@@ -83,9 +83,9 @@ const schema = {
       "@type": "BlogPosting",
       headline: "Why Tampa Bay Commercial Real Estate Is Booming",
       description:
-        "Explore the key drivers fueling Tampa Bay's commercial real estate growth — population migration, infrastructure investment, and business climate.",
+        "Explore the key drivers fueling Tampa Bay's commercial real estate growth: population migration, infrastructure investment, and business climate.",
       datePublished: "2026-04-15",
-      dateModified: "2026-09-20",
+      dateModified: "2026-09-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -110,22 +110,52 @@ const relatedLinks = [
   {
     title: "What Makes a Good Commercial Investment?",
     href: "/blog/what-makes-a-good-commercial-investment",
-    description: "Investment criteria from a broker's perspective.",
+    description: "Investment criteria from a Florida broker's perspective.",
   },
   {
-    title: "What Is a Cap Rate?",
-    href: "/insights/what-is-a-cap-rate",
-    description: "Understanding capitalization rates for CRE investment.",
-  },
-  {
-    title: "How to Value Commercial Property",
-    href: "/insights/how-to-value-commercial-property",
-    description: "Three valuation approaches every investor should know.",
+    title: "How to Calculate Commercial Property ROI",
+    href: "/blog/how-to-calculate-commercial-property-roi",
+    description: "Cap rate, cash-on-cash return, and IRR frameworks for evaluating Tampa Bay CRE deals.",
   },
   {
     title: "Florida 1031 Exchange: What Investors Need to Know",
     href: "/blog/florida-1031-exchange-what-investors-need-to-know",
-    description: "Florida-specific 1031 exchange considerations.",
+    description: "Florida-specific 1031 exchange considerations for commercial investors.",
+  },
+  {
+    title: "Commercial Property Due Diligence Timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
+    description: "Step-by-step due diligence process for Florida commercial property buyers.",
+  },
+  {
+    title: "What Is a Triple-Net NNN Lease and Why Investors Love It",
+    href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
+    description: "How NNN leases work and why they dominate Florida retail investment.",
+  },
+  {
+    title: "Tampa Bay Industrial Market Outlook 2026",
+    href: "/blog/tampa-industrial-market-outlook-2026",
+    description: "Vacancy rates, rent trends, and demand drivers in Tampa Bay industrial real estate.",
+  },
+  {
+    title: "Tampa Bay Medical Office Real Estate 2026",
+    href: "/blog/tampa-bay-medical-office-real-estate-2026",
+    description: "How healthcare is fueling commercial leasing across Tampa Bay.",
+  },
+  {
+    title: "Do You Need a Commercial Real Estate Broker?",
+    href: "/blog/do-you-need-a-commercial-real-estate-broker",
+    description: "When working with a broker adds value in a Tampa Bay transaction.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "How Barrett helps investors source and evaluate commercial acquisitions across Tampa Bay.",
+  },
+  {
+    title: "Hillsborough County Commercial Real Estate Market",
+    href: "/markets/hillsborough",
+    description: "Overview of commercial submarkets across Hillsborough County.",
   },
 ];
 
@@ -150,7 +180,7 @@ export default function TampaBayBoomingPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Tampa Bay has emerged as one of the most dynamic <Link href="/markets/hillsborough" className="text-accent underline">commercial real estate markets</Link> in the Southeast. What was once a market overshadowed by Miami and Orlando has stepped into its own, attracting national attention from investors, developers, and businesses relocating from higher-cost states. As a broker working this market, I see the momentum every day — and there are clear reasons why it is happening.
+          Tampa Bay has emerged as one of the most dynamic <Link href="/markets/hillsborough" className="text-accent underline">commercial real estate markets</Link> in the Southeast. What was once a market overshadowed by Miami and Orlando has stepped into its own, attracting national attention from investors, developers, and businesses relocating from higher-cost states. As a broker working this market, I see the momentum every day, and there are clear reasons why it is happening.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Population Growth Is Fueling Demand</h2>
@@ -158,10 +188,10 @@ export default function TampaBayBoomingPage() {
           People are moving to Tampa Bay in significant numbers, and where people go, businesses follow. The region has been one of the fastest-growing metropolitan areas in the country for several consecutive years. That population growth creates immediate demand for <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, medical, restaurant, and service-oriented commercial space.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The growth is not just retirees. Tampa Bay is attracting working-age professionals and young families, which is driving demand across a broader range of commercial property types — from co-working spaces and tech offices to daycare centers and fitness studios.
+          The growth is not just retirees. Tampa Bay is attracting working-age professionals and young families, which is driving demand across a broader range of commercial property types, from co-working spaces and tech offices to daycare centers and fitness studios.
         </p>
 
-        <h2 className="mt-10 text-2xl font-bold text-black">Business-Friendly Climate — Literally and Figuratively</h2>
+        <h2 className="mt-10 text-2xl font-bold text-black">Business-Friendly Climate: Literally and Figuratively</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Florida has no state income tax. That single fact drives more business relocation decisions than any other factor I hear from out-of-state buyers. Beyond the tax advantage, Florida offers a regulatory environment that businesses find easier to operate in compared to states like California, New York, and Illinois.
         </p>
@@ -174,7 +204,7 @@ export default function TampaBayBoomingPage() {
           The Tampa Bay region has seen substantial infrastructure investment that makes it more attractive for commercial development and business operations. Tampa International Airport has undergone major expansions. Interstate improvements along I-275 and I-4 are ongoing. The Port of Tampa remains one of Florida&apos;s busiest, supporting <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial and logistics demand</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Water Street Tampa, the massive mixed-use development in downtown, has fundamentally changed the urban core. Projects like this signal to the broader market that Tampa Bay is a serious, investable metro — and that attracts more capital.
+          Water Street Tampa, the massive mixed-use development in downtown, has fundamentally changed the urban core. Projects like this signal to the broader market that Tampa Bay is a serious, investable metro, and that attracts more capital.
         </p>
 
         <Image
@@ -198,7 +228,7 @@ export default function TampaBayBoomingPage() {
           Tampa Bay&apos;s healthcare industry continues to expand. Major health systems are investing in new facilities, outpatient clinics, and medical office space throughout the region. The aging population and overall population growth both drive demand for healthcare services, which in turn drives demand for medical commercial space.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Medical office is one of the most resilient commercial property types because healthcare demand is not cyclical — people need medical care regardless of economic conditions. This makes Tampa Bay medical office an attractive investment play.
+          Medical office is one of the most resilient commercial property types because healthcare demand is not cyclical: people need medical care regardless of economic conditions. This makes Tampa Bay medical office an attractive investment play.
         </p>
 
         <Image
@@ -211,7 +241,7 @@ export default function TampaBayBoomingPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Retail Is Evolving, Not Dying</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Despite the &ldquo;retail apocalypse&rdquo; narrative, Tampa Bay retail is strong — it is just different than it was a decade ago. The growth is in experiential retail, restaurants, service-based businesses (salons, fitness, medical), and necessity retail (grocery, pharmacy, dollar stores). Pad sites and small freestanding buildings are in high demand.
+          Despite the &ldquo;retail apocalypse&rdquo; narrative, Tampa Bay retail is strong, it is just different than it was a decade ago. The growth is in experiential retail, restaurants, service-based businesses (salons, fitness, medical), and necessity retail (grocery, pharmacy, dollar stores). Pad sites and small freestanding buildings are in high demand.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The population growth supports new retail development in suburban growth corridors like <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link> and <Link href="/markets/manatee" className="text-accent underline">Manatee County</Link>, while older retail properties in established areas are being repositioned or redeveloped.
@@ -227,7 +257,7 @@ export default function TampaBayBoomingPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What This Means for Investors</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tampa Bay&apos;s fundamentals — population growth, job creation, infrastructure investment, and a business-friendly environment — create a strong foundation for <Link href="/services/investment-sales" className="text-accent underline">commercial real estate investment</Link>. The market is not speculative; it is driven by genuine demand and structural economic advantages.
+          Tampa Bay&apos;s fundamentals, including population growth, job creation, infrastructure investment, and a business-friendly environment, create a strong foundation for <Link href="/services/investment-sales" className="text-accent underline">commercial real estate investment</Link>. The market is not speculative; it is driven by genuine demand and structural economic advantages.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           That said, not every deal is a good deal. Property selection, tenant quality, lease structure, and location within the metro still matter enormously. Understanding <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</Link> and <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate CRE ROI</Link> is essential before committing capital. The rising tide helps, but smart underwriting is what separates good investments from mediocre ones.
@@ -235,7 +265,7 @@ export default function TampaBayBoomingPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tampa Bay is not having a moment — it is building momentum that has been years in the making. The growth drivers are structural, not cyclical, and the commercial real estate market reflects that. If you are considering <Link href="/commercial/multifamily" className="text-accent underline">multifamily</Link>, <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN investment properties</Link>, or any other commercial asset in Tampa Bay, the opportunity is real. The key is finding the right property, at the right price, with the right fundamentals. That is where I come in.
+          Tampa Bay is not having a moment; it is building momentum that has been years in the making. The growth drivers are structural, not cyclical, and the commercial real estate market reflects that. If you are considering <Link href="/commercial/multifamily" className="text-accent underline">multifamily</Link>, <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN investment properties</Link>, or any other commercial asset in Tampa Bay, the opportunity is real. The key is finding the right property, at the right price, with the right fundamentals. That is where I come in.
         </p>
       </article>
 
@@ -243,7 +273,7 @@ export default function TampaBayBoomingPage() {
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
-            Tampa Bay CRE — Frequently Asked Questions
+            Tampa Bay CRE: Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqData} />
         </div>

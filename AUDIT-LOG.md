@@ -4,6 +4,69 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-09-30 -- Batch 66 (10 pages improved)
+
+**Commit:** `d0eeab7` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Fixed `--` em dash substitute in metadata description → `:`
+- Fixed em dash in OG description → `:`
+- Updated dateModified: "2026-09-18" → "2026-09-30"
+- Fixed `--` in three relatedLinks descriptions → `:` or plain text
+
+### 2. `/blog/florida-1031-exchange-what-investors-need-to-know`
+- Fixed em dash in OG description → `:`
+- Updated dateModified: "2026-09-01" → "2026-09-30"
+- Fixed `<img>` → `<Image>` in author bio
+
+### 3. `/blog/how-commercial-leases-differ-from-residential`
+- Fixed em dash in schema description → `:`
+- Updated dateModified: "2026-09-18" → "2026-09-30"
+- Fixed two `--` in relatedLinks → `,`
+- Converted 4 bare `<a href>` → `<Link>` components
+- Fixed broken `/insights/cam-charges-explained` → `/blog/understanding-cam-charges-tenants-guide`
+- Fixed broken `/commercial/nnn-net-lease` → `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Updated author bio credentials to include "e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed em dash in article body
+
+### 4. `/blog/how-to-calculate-commercial-property-roi`
+- Fixed em dashes in metadata, OG, and schema descriptions → `:`
+- Updated dateModified: "2026-09-18" → "2026-09-30"
+- Converted 8 bare `<a href>` → `<Link>` components
+- Fixed broken `/insights/what-is-a-cap-rate` → `/calculators/cap-rate`
+- Fixed broken `/insights/how-to-value-commercial-property` → `/services/cre-valuation`
+- Fixed broken `/commercial/nnn-net-lease` → `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Fixed broken `/commercial/multifamily` → `/blog/multifamily-investment-tampa-bay-guide`
+- Fixed em dashes in article body (2 instances)
+
+### 5. `/blog/commercial-property-due-diligence-timeline`
+- Fixed em dashes in metadata description, FAQ answers, Hero subtitle, article body, FAQ section heading, author bio, CTA body
+- Updated dateModified: "2026-09-18" → "2026-09-30"
+
+### 6. `/blog/commercial-property-zoning-florida-basics`
+- Fixed em dash in schema description → `:`
+- Updated dateModified: "2026-09-18" → "2026-09-30"
+
+### 7. `/blog/bradenton-manatee-county-commercial-real-estate-2026`
+- Added `| HenCRE` suffix to metadata title
+- Added `import Image from "next/image"`
+- Fixed `<img>` → `<Image>` in author bio
+- Updated dateModified: "2026-09-10" → "2026-09-30"
+
+### 8. `/blog/apollo-beach-southshore-commercial-real-estate-2026`
+- Fixed all em dashes throughout (code comment, metadata, OG, FAQ items, schema, relatedLinks, article body, FAQ heading, author bio, CTA body — 30+ instances)
+- Updated dateModified: "2026-09-02" → "2026-09-30"
+
+### 9. `/blog/jacksonville-duval-county-commercial-real-estate-2026`
+- Fixed all `--` em dash substitutes throughout (metadata, FAQ items, schema, relatedLinks, Hero subtitle, article body, FAQ heading — 25+ instances)
+- Updated dateModified: "2026-09-04" → "2026-09-30"
+
+### 10. `/blog/why-tampa-bay-cre-is-booming`
+- Fixed em dashes in code comment, metadata description, OG description, schema description, h2 heading, article body, FAQ heading (9 instances)
+- Updated dateModified: "2026-09-20" → "2026-09-30"
+- Expanded relatedLinks: 4 → 10 items (added ROI guide, due diligence, NNN lease, industrial outlook, medical office, do-you-need-a-broker, investment sales, Hillsborough market)
+---
+
 ## 2026-09-29 -- Batch 65 (10 pages improved)
 
 **Commit:** `7a99c27` | **Build:** clean (0 errors) | **Pages improved:** 10

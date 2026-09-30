@@ -11,7 +11,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Jacksonville Commercial Real Estate 2026: Duval County Guide | HenCRE",
   description:
-    "Jacksonville and Duval County commercial real estate guide for 2026 -- industrial, office, retail, and investment opportunities along the JAXPORT corridor, I-95, and downtown revitalization zone.",
+    "Jacksonville and Duval County commercial real estate guide for 2026: industrial, office, retail, and investment opportunities along the JAXPORT corridor, I-95, and downtown revitalization zone.",
   alternates: { canonical: "https://hencre.com/blog/jacksonville-duval-county-commercial-real-estate-2026" },
   openGraph: {
     title: "Jacksonville Commercial Real Estate 2026: Duval County Guide",
@@ -34,17 +34,17 @@ const faqItems = [
   {
     question: "Is Jacksonville a good market for industrial CRE investment?",
     answer:
-      "Yes -- Jacksonville is one of Florida&apos;s strongest industrial markets. JAXPORT&apos;s position as the third-largest container port on the US East Coast drives consistent logistics and distribution demand. The I-95 and I-10 interchange creates a regional distribution hub that attracts national 3PLs and e-commerce operators. Industrial vacancy rates remain tight along the US-1 corridor south, the Airport Road submarket near Jacksonville International, and the Westside I-10 corridor. Cap rates for quality industrial assets have compressed as institutional buyers compete for stabilized product.",
+      "Yes, Jacksonville is one of Florida&apos;s strongest industrial markets. JAXPORT&apos;s position as the third-largest container port on the US East Coast drives consistent logistics and distribution demand. The I-95 and I-10 interchange creates a regional distribution hub that attracts national 3PLs and e-commerce operators. Industrial vacancy rates remain tight along the US-1 corridor south, the Airport Road submarket near Jacksonville International, and the Westside I-10 corridor. Cap rates for quality industrial assets have compressed as institutional buyers compete for stabilized product.",
   },
   {
     question: "What are the strongest office submarkets in Jacksonville?",
     answer:
-      "Southside/Deerwood remains the dominant suburban office submarket -- well-leased suburban campuses along Butler Boulevard attract financial services, insurance, and professional services tenants. Downtown Jacksonville is undergoing meaningful revitalization around the St. Johns River waterfront and sports complex corridor. The Baymeadows/Philips Highway corridor offers mid-tier suburban office. For tenants seeking Class A suburban space, Southside remains the preferred location; for urban mixed-use positioning, the downtown waterfront is the emerging opportunity.",
+      "Southside/Deerwood remains the dominant suburban office submarket: well-leased suburban campuses along Butler Boulevard attract financial services, insurance, and professional services tenants. Downtown Jacksonville is undergoing meaningful revitalization around the St. Johns River waterfront and sports complex corridor. The Baymeadows/Philips Highway corridor offers mid-tier suburban office. For tenants seeking Class A suburban space, Southside remains the preferred location; for urban mixed-use positioning, the downtown waterfront is the emerging opportunity.",
   },
   {
     question: "What retail leasing opportunities exist in Duval County?",
     answer:
-      "Jacksonville retail is bifurcated. Premium positions along Beach Boulevard, St. Johns Town Center area, and River City Marketplace command strong rents and low vacancy. Mid-tier corridors -- particularly in older suburban centers -- are experiencing tenant repositioning as national retailers right-size their footprints. NNN lease retail pads along high-traffic corridors attract investor capital. The strongest retail demand comes from food and beverage, medical/dental services, fitness, and discount retail categories that are resilient to e-commerce pressure.",
+      "Jacksonville retail is bifurcated. Premium positions along Beach Boulevard, St. Johns Town Center area, and River City Marketplace command strong rents and low vacancy. Mid-tier corridors, particularly in older suburban centers, are experiencing tenant repositioning as national retailers right-size their footprints. NNN lease retail pads along high-traffic corridors attract investor capital. The strongest retail demand comes from food and beverage, medical/dental services, fitness, and discount retail categories that are resilient to e-commerce pressure.",
   },
   {
     question: "How does Jacksonville compare to Tampa for CRE investment?",
@@ -78,9 +78,9 @@ const schema = {
       "@type": "BlogPosting",
       headline: "Jacksonville Commercial Real Estate 2026: Duval County Investor and Tenant Guide",
       description:
-        "Jacksonville and Duval County commercial real estate guide for 2026 -- industrial demand from JAXPORT, suburban office, retail investment, and how Jacksonville compares to Tampa Bay.",
+        "Jacksonville and Duval County commercial real estate guide for 2026: industrial demand from JAXPORT, suburban office, retail investment, and how Jacksonville compares to Tampa Bay.",
       datePublished: "2026-08-17",
-      dateModified: "2026-09-04",
+      dateModified: "2026-09-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -107,17 +107,17 @@ const relatedLinks = [
   {
     title: "Duval County Commercial Real Estate Market",
     href: "/markets/duval",
-    description: "Barrett Henry&apos;s Duval County market overview -- active areas, property types, and investment approach.",
+    description: "Barrett Henry&apos;s Duval County market overview: active areas, property types, and investment approach.",
   },
   {
     title: "St. Johns County Commercial Real Estate",
     href: "/markets/st-johns",
-    description: "The Nocatee and St. Augustine corridor just south of Duval -- Florida&apos;s fastest-growing county.",
+    description: "The Nocatee and St. Augustine corridor just south of Duval, Florida&apos;s fastest-growing county.",
   },
   {
     title: "Clay County Commercial Real Estate",
     href: "/markets/clay",
-    description: "Fleming Island and Orange Park -- suburban Duval&apos;s most active secondary markets.",
+    description: "Fleming Island and Orange Park, suburban Duval&apos;s most active secondary markets.",
   },
   {
     title: "Florida 1031 Exchange: What Investors Need to Know",
@@ -172,26 +172,26 @@ export default function JacksonvilleDuvalCommercialPage() {
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&h=900&fit=crop"
         title="Jacksonville Commercial Real Estate 2026"
-        subtitle="Duval County&apos;s industrial, office, and retail markets for investors and tenants -- JAXPORT demand, suburban office, and how Jacksonville fits a Florida CRE strategy."
+        subtitle="Duval County&apos;s industrial, office, and retail markets for investors and tenants: JAXPORT demand, suburban office, and how Jacksonville fits a Florida CRE strategy."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Jacksonville is Florida&apos;s largest city by land area and one of the state&apos;s most diverse commercial real estate markets. Unlike Tampa Bay, Miami, or Orlando -- which dominate Florida CRE conversations -- Jacksonville operates somewhat under the radar for investors and tenants who have not tracked the Northeast Florida market closely. That relative quiet has historically translated into better entry pricing. In 2026, Jacksonville&apos;s industrial market continues to attract serious capital, its downtown is undergoing meaningful revitalization, and its suburban retail and office corridors provide opportunities that many investors overlook in favor of more competitive markets.
+          Jacksonville is Florida&apos;s largest city by land area and one of the state&apos;s most diverse commercial real estate markets. Unlike Tampa Bay, Miami, or Orlando, which dominate Florida CRE conversations, Jacksonville operates somewhat under the radar for investors and tenants who have not tracked the Northeast Florida market closely. That relative quiet has historically translated into better entry pricing. In 2026, Jacksonville&apos;s industrial market continues to attract serious capital, its downtown is undergoing meaningful revitalization, and its suburban retail and office corridors provide opportunities that many investors overlook in favor of more competitive markets.
         </p>
         <p className="mt-4 text-lg leading-relaxed text-[#666666]">
-          This guide covers what tenants and investors need to know about Jacksonville and Duval County commercial real estate in 2026 -- the strongest submarkets, property types, investment fundamentals, and how Jacksonville compares to Tampa Bay options.
+          This guide covers what tenants and investors need to know about Jacksonville and Duval County commercial real estate in 2026: the strongest submarkets, property types, investment fundamentals, and how Jacksonville compares to Tampa Bay options.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Jacksonville Is a Serious Industrial CRE Market</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The foundation of Jacksonville&apos;s industrial market is JAXPORT -- the Jacksonville Port Authority, which operates one of the largest container ports on the US East Coast. JAXPORT handles automobiles, containers, bulk cargo, and roll-on/roll-off freight, and its ongoing infrastructure investment has positioned it as a major competitor to Savannah and Charleston for East Coast distribution. The deepening of the St. Johns River shipping channel has allowed larger post-Panamax vessels to call on the port, which drives demand for adjacent warehouse and logistics facilities.
+          The foundation of Jacksonville&apos;s industrial market is JAXPORT, the Jacksonville Port Authority, which operates one of the largest container ports on the US East Coast. JAXPORT handles automobiles, containers, bulk cargo, and roll-on/roll-off freight, and its ongoing infrastructure investment has positioned it as a major competitor to Savannah and Charleston for East Coast distribution. The deepening of the St. Johns River shipping channel has allowed larger post-Panamax vessels to call on the port, which drives demand for adjacent warehouse and logistics facilities.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The <Link href="/markets/duval" className="text-accent underline">Duval County commercial market</Link> benefits from two major interstate intersections -- I-95 and I-10 -- that create a genuine regional distribution hub. Tenants who need to serve the I-95 corridor from New York to Miami, or who distribute goods across the Southeast via I-10, find Jacksonville&apos;s location a compelling operational advantage over inland Central Florida alternatives.
+          The <Link href="/markets/duval" className="text-accent underline">Duval County commercial market</Link> benefits from two major interstate intersections, I-95 and I-10, that create a genuine regional distribution hub. Tenants who need to serve the I-95 corridor from New York to Miami, or who distribute goods across the Southeast via I-10, find Jacksonville&apos;s location a compelling operational advantage over inland Central Florida alternatives.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Active industrial submarkets in Duval County include the Airport Road corridor near Jacksonville International Airport (JIA) -- which combines air, highway, and nearby port access -- the Westside I-10 corridor for regional distribution, and the South Jacksonville US-1 corridor for last-mile and light industrial users. Tenants in logistics, e-commerce fulfillment, manufacturing, and automotive distribution have all driven absorption in these corridors.
+          Active industrial submarkets in Duval County include the Airport Road corridor near Jacksonville International Airport (JIA), which combines air, highway, and nearby port access, and the Westside I-10 corridor for regional distribution, and the South Jacksonville US-1 corridor for last-mile and light industrial users. Tenants in logistics, e-commerce fulfillment, manufacturing, and automotive distribution have all driven absorption in these corridors.
         </p>
 
         <div className="my-8 overflow-hidden rounded-lg">
@@ -206,13 +206,13 @@ export default function JacksonvilleDuvalCommercialPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Jacksonville Office Market: Downtown Revival and Suburban Stability</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Jacksonville&apos;s office market is a tale of two narratives. The suburban Southside corridor -- anchored by Deerwood Park and Butler Boulevard -- remains the most stable office submarket in Duval County, with a base of financial services, insurance, and professional services tenants who have occupied quality suburban campuses for years. Companies like Citi, Bank of America, and several national insurance carriers have significant employment centers in this submarket.
+          Jacksonville&apos;s office market is a tale of two narratives. The suburban Southside corridor, anchored by Deerwood Park and Butler Boulevard, remains the most stable office submarket in Duval County, with a base of financial services, insurance, and professional services tenants who have occupied quality suburban campuses for years. Companies like Citi, Bank of America, and several national insurance carriers have significant employment centers in this submarket.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Downtown Jacksonville is the more dynamic story. A multi-year effort to revitalize the urban core -- including the Lot J development discussions, the potential Jacksonville Jaguars stadium renovation, and residential conversion of older office buildings along the St. Johns River -- is creating momentum that had been absent from the downtown market for much of the past two decades. Healthcare anchors including Baptist Health and Mayo Clinic&apos;s Jacksonville campus bring consistent professional traffic to the broader medical corridor north of downtown.
+          Downtown Jacksonville is the more dynamic story. A multi-year effort to revitalize the urban core, including the Lot J development discussions, the potential Jacksonville Jaguars stadium renovation, and residential conversion of older office buildings along the St. Johns River, is creating momentum that had been absent from the downtown market for much of the past two decades. Healthcare anchors including Baptist Health and Mayo Clinic&apos;s Jacksonville campus bring consistent professional traffic to the broader medical corridor north of downtown.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For office tenants evaluating <Link href="/commercial/office-space" className="text-accent underline">commercial office space</Link> in Northeast Florida, the key distinction is whether they need a suburban campus environment for employees who commute by car -- in which case Southside/Deerwood is the premier choice -- or a walkable, urban environment that competes for talent on location rather than compensation -- in which case the emerging downtown waterfront corridor warrants evaluation.
+          For office tenants evaluating <Link href="/commercial/office-space" className="text-accent underline">commercial office space</Link> in Northeast Florida, the key distinction is whether they need a suburban campus environment for employees who commute by car (in which case Southside/Deerwood is the premier choice), or a walkable, urban environment that competes for talent on location rather than compensation (in which case the emerging downtown waterfront corridor warrants evaluation).
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Retail Investment in Duval County: Where the Deals Are</h2>
@@ -220,7 +220,7 @@ export default function JacksonvilleDuvalCommercialPage() {
           Jacksonville retail investment is concentrated in two formats: NNN lease pads along high-traffic corridors, and anchored centers in suburban growth corridors. NNN retail investment in Jacksonville has attracted out-of-state capital for years because of the market&apos;s lower acquisition costs relative to Florida&apos;s southern metros. A <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">NNN lease</Link> investment on a national credit tenant in a strong Jacksonville corridor typically trades at a higher cap rate than a comparable Tampa Bay or Miami asset, which makes the cash-on-cash yield equation more favorable for private investors.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Retail tenants looking for space should focus on the St. Johns Town Center area for premium positioning, River City Marketplace on the north side for power center format, and the Beach Boulevard corridor for mid-market retail. The strongest retail demand in Jacksonville comes from food and beverage -- particularly quick-service, fast-casual, and sit-down restaurant formats -- as well as medical/dental services, fitness, and discount retail categories. These are all categories that have demonstrated resilience against e-commerce pressure by offering services rather than purely goods.
+          Retail tenants looking for space should focus on the St. Johns Town Center area for premium positioning, River City Marketplace on the north side for power center format, and the Beach Boulevard corridor for mid-market retail. The strongest retail demand in Jacksonville comes from food and beverage, particularly quick-service, fast-casual, and sit-down restaurant formats, as well as medical/dental services, fitness, and discount retail categories. These are all categories that have demonstrated resilience against e-commerce pressure by offering services rather than purely goods.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Tenants negotiating <Link href="/commercial/retail-space" className="text-accent underline">retail leases</Link> in Jacksonville should pay close attention to CAM charge structures. Understanding <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charges and how to negotiate caps</Link> is particularly important in shopping center leases, where annual reconciliations can add thousands to effective occupancy cost.
@@ -248,10 +248,10 @@ export default function JacksonvilleDuvalCommercialPage() {
           Jacksonville&apos;s commercial market does not stop at the Duval County line. Two adjacent counties have become significant commercial real estate markets in their own right.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong><Link href="/markets/st-johns" className="text-accent underline">St. Johns County</Link></strong> -- home to Nocatee (one of the nation&apos;s most successful master-planned communities), historic St. Augustine, and Ponte Vedra Beach -- is one of Florida&apos;s fastest-growing counties. Its commercial market has expanded rapidly to serve the affluent residential base. Retail, medical office, and service commercial along CR-210 and US-1 corridors are among the strongest growth stories in Northeast Florida. Retail space on the Nocatee corridor is particularly competitive.
+          <strong><Link href="/markets/st-johns" className="text-accent underline">St. Johns County</Link></strong>, home to Nocatee (one of the nation&apos;s most successful master-planned communities), historic St. Augustine, and Ponte Vedra Beach, is one of Florida&apos;s fastest-growing counties. Its commercial market has expanded rapidly to serve the affluent residential base. Retail, medical office, and service commercial along CR-210 and US-1 corridors are among the strongest growth stories in Northeast Florida. Retail space on the Nocatee corridor is particularly competitive.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong><Link href="/markets/clay" className="text-accent underline">Clay County</Link></strong> -- encompassing Fleming Island, Orange Park, and Middleburg -- serves as Jacksonville&apos;s suburban bedroom community on the southwest. Its commercial activity is primarily retail and healthcare serving the residential base, with some light industrial on the Blanding Boulevard corridor. Clay County offers lower land costs than Duval for developers and owner-occupants.
+          <strong><Link href="/markets/clay" className="text-accent underline">Clay County</Link></strong>, encompassing Fleming Island, Orange Park, and Middleburg, serves as Jacksonville&apos;s suburban bedroom community on the southwest. Its commercial activity is primarily retail and healthcare serving the residential base, with some light industrial on the Blanding Boulevard corridor. Clay County offers lower land costs than Duval for developers and owner-occupants.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Investment Due Diligence for Jacksonville CRE</h2>
@@ -259,10 +259,10 @@ export default function JacksonvilleDuvalCommercialPage() {
           Whether you are evaluating an industrial building near JAXPORT, a NNN retail pad in a suburban corridor, or an office asset in Southside, the <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial due diligence process</Link> for a Jacksonville acquisition follows the same fundamental timeline as any Florida commercial transaction. Zoning verification, environmental phase review, lease abstracting for tenanted assets, and title examination are all required steps regardless of submarket.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Jacksonville-specific considerations include flood zone exposure near the St. Johns River -- which has flooded in major rain events -- and the port corridor&apos;s industrial land use regulations, which can constrain certain commercial uses near JAXPORT operations. A local environmental consultant familiar with the Northeast Florida market is an important due diligence partner for any acquisition near the port or river corridor.
+          Jacksonville-specific considerations include flood zone exposure near the St. Johns River, which has flooded in major rain events, and the port corridor&apos;s industrial land use regulations, which can constrain certain commercial uses near JAXPORT operations. A local environmental consultant familiar with the Northeast Florida market is an important due diligence partner for any acquisition near the port or river corridor.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors evaluating a Jacksonville acquisition as part of a <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link>, the market offers a meaningful pool of replacement property options across asset classes. The key is identifying quality stabilized assets with creditworthy tenants in locations that will sustain occupancy through the hold period -- which is true of any exchange transaction but particularly important in a market where tenant quality varies more widely than in institutional-grade coastal Florida metros.
+          For investors evaluating a Jacksonville acquisition as part of a <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link>, the market offers a meaningful pool of replacement property options across asset classes. The key is identifying quality stabilized assets with creditworthy tenants in locations that will sustain occupancy through the hold period, which is true of any exchange transaction but particularly important in a market where tenant quality varies more widely than in institutional-grade coastal Florida metros.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Working with a Florida CRE Broker on Jacksonville Deals</h2>
@@ -270,7 +270,7 @@ export default function JacksonvilleDuvalCommercialPage() {
           Jacksonville&apos;s commercial real estate market is well-served by a mix of local independent brokerages and national franchise affiliates. As a <Link href="/about" className="text-accent underline">Broker Associate at REMAX Collective</Link> with 23+ years of Florida commercial real estate experience, I work with Jacksonville opportunities through established referral partnerships with qualified local brokers who have direct market presence and transaction history in Duval County.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors comparing Jacksonville to Tampa Bay markets -- or building a multi-market Florida portfolio that spans both -- I provide strategic consultation that draws on firsthand experience in both markets. My <Link href="/services/investment-sales" className="text-accent underline">investment sales services</Link> include market analysis, deal sourcing strategy, broker introductions, and transaction facilitation across Florida&apos;s major commercial markets.
+          For investors comparing Jacksonville to Tampa Bay markets, or building a multi-market Florida portfolio that spans both, I provide strategic consultation that draws on firsthand experience in both markets. My <Link href="/services/investment-sales" className="text-accent underline">investment sales services</Link> include market analysis, deal sourcing strategy, broker introductions, and transaction facilitation across Florida&apos;s major commercial markets.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If you are evaluating a Jacksonville commercial real estate acquisition or lease in 2026, I can help you think through the market fundamentals and connect you with the right local specialists to execute the deal.
@@ -282,7 +282,7 @@ export default function JacksonvilleDuvalCommercialPage() {
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">
-            Jacksonville CRE -- Frequently Asked Questions
+            Jacksonville CRE: Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqItems} />
         </div>

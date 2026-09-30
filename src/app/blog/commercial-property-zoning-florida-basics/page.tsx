@@ -78,9 +78,9 @@ const schema = {
       "@type": "BlogPosting",
       headline: "Commercial Property Zoning Florida Basics",
       description:
-        "Florida commercial zoning explained — categories, uses, variances, and impact on CRE decisions.",
+        "Florida commercial zoning explained: categories, uses, variances, and impact on CRE decisions.",
       datePublished: "2026-06-10",
-      dateModified: "2026-09-18",
+      dateModified: "2026-09-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

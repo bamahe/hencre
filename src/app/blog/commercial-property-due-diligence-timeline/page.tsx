@@ -11,12 +11,12 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Commercial Property Due Diligence Timeline | HenCRE",
   description:
-    "A step-by-step due diligence timeline for commercial real estate buyers — inspections, financials, environmental, title, and closing milestones explained.",
+    "A step-by-step due diligence timeline for commercial real estate buyers: inspections, financials, environmental, title, and closing milestones explained.",
   alternates: { canonical: "https://hencre.com/blog/commercial-property-due-diligence-timeline" },
   openGraph: {
     title: "Commercial Property Due Diligence Timeline",
     description:
-      "Step-by-step due diligence timeline for CRE buyers — inspections, financials, environmental, title, and closing.",
+      "Step-by-step due diligence timeline for CRE buyers: inspections, financials, environmental, title, and closing.",
     url: "https://hencre.com/blog/commercial-property-due-diligence-timeline",
     type: "article",
     images: [
@@ -34,12 +34,12 @@ const faqItems = [
   {
     question: "How long is a typical commercial real estate due diligence period?",
     answer:
-      "A typical commercial due diligence period runs 30 to 60 days from the effective date of the purchase agreement. Complex properties — those requiring Phase II environmental testing, zoning variances, or extensive lease review — may need 90 days or longer. The timeline should be negotiated into the purchase contract before signing.",
+      "A typical commercial due diligence period runs 30 to 60 days from the effective date of the purchase agreement. Complex properties (those requiring Phase II environmental testing, zoning variances, or extensive lease review) may need 90 days or longer. The timeline should be negotiated into the purchase contract before signing.",
   },
   {
     question: "What is a Phase I Environmental Site Assessment?",
     answer:
-      "A Phase I ESA is an environmental review conducted by a licensed environmental professional. It examines historical records, site reconnaissance, and interviews to identify potential contamination risks — known as Recognized Environmental Conditions (RECs). Most commercial lenders require a Phase I before financing. If the Phase I flags concerns, a Phase II (soil and groundwater testing) may be required, which adds weeks to the timeline.",
+      "A Phase I ESA is an environmental review conducted by a licensed environmental professional. It examines historical records, site reconnaissance, and interviews to identify potential contamination risks (known as Recognized Environmental Conditions or RECs). Most commercial lenders require a Phase I before financing. If the Phase I flags concerns, a Phase II (soil and groundwater testing) may be required, which adds weeks to the timeline.",
   },
   {
     question: "What is a Property Condition Assessment?",
@@ -49,7 +49,7 @@ const faqItems = [
   {
     question: "What is an estoppel certificate and why do I need one?",
     answer:
-      "An estoppel certificate is a document signed by a tenant confirming the material terms of their lease: rent amount, lease start and end dates, options, deposits held, and any outstanding landlord obligations. Estoppels are critical because they verify what the seller has represented — and because the tenant's signed statement can be relied upon in a dispute. Request estoppels from every tenant early in the due diligence period.",
+      "An estoppel certificate is a document signed by a tenant confirming the material terms of their lease: rent amount, lease start and end dates, options, deposits held, and any outstanding landlord obligations. Estoppels are critical because they verify what the seller has represented, and because the tenant's signed statement can be relied upon in a dispute. Request estoppels from every tenant early in the due diligence period.",
   },
   {
     question: "Can I negotiate price reductions based on due diligence findings?",
@@ -80,7 +80,7 @@ const schema = {
       description:
         "Step-by-step due diligence checklist and timeline for commercial real estate buyers.",
       datePublished: "2026-05-25",
-      dateModified: "2026-09-18",
+      dateModified: "2026-09-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -172,12 +172,12 @@ export default function DueDiligenceTimelinePage() {
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=900&fit=crop"
         title="Commercial Property Due Diligence Timeline"
-        subtitle="What to inspect, verify, and analyze — and when — during a commercial real estate purchase."
+        subtitle="What to inspect, verify, and analyze, and when, during a commercial real estate purchase."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Due diligence is the investigation period between signing a purchase agreement and closing on a commercial property. It is your opportunity to verify everything the seller has represented and uncover anything they have not disclosed. A typical commercial due diligence period runs 30 to 60 days, though complex properties may require longer. Missing a step or running behind schedule can cost you money — or force you to close on a property with unresolved issues. This timeline applies whether you are acquiring a{" "}
+          Due diligence is the investigation period between signing a purchase agreement and closing on a commercial property. It is your opportunity to verify everything the seller has represented and uncover anything they have not disclosed. A typical commercial due diligence period runs 30 to 60 days, though complex properties may require longer. Missing a step or running behind schedule can cost you money, or force you to close on a property with unresolved issues. This timeline applies whether you are acquiring a{" "}
           <Link href="/commercial/retail-space" className="text-accent underline">retail center</Link>,{" "}
           <Link href="/commercial/office-space" className="text-accent underline">office building</Link>, or{" "}
           <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial facility</Link>.
@@ -208,7 +208,7 @@ export default function DueDiligenceTimelinePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Happens in Weeks 2-3: Physical Inspections?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Schedule and complete all physical inspections during this window. Do not wait — inspectors and specialists often need lead time, and you need time to review their findings.
+          Schedule and complete all physical inspections during this window. Do not wait: inspectors and specialists often need lead time, and you need time to review their findings.
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Property condition assessment (PCA).</strong> A comprehensive inspection of the building&apos;s structure, roof, HVAC, electrical, plumbing, and site improvements. This is the commercial equivalent of a home inspection but far more detailed.</li>
@@ -233,7 +233,7 @@ export default function DueDiligenceTimelinePage() {
           <li><strong>Assess{" "}
             <Link href="/calculators/cap-rate" className="text-accent underline">cap rate</Link>{" "}
             and valuation.</strong> Compare the property&apos;s pricing to comparable sales and market cap rates.</li>
-          <li><strong>Estimate capital expenditures.</strong> Use inspection findings to estimate near-term capital needs — roof replacement, HVAC upgrades, parking lot resurfacing, etc.</li>
+          <li><strong>Estimate capital expenditures.</strong> Use inspection findings to estimate near-term capital needs: roof replacement, HVAC upgrades, parking lot resurfacing, etc.</li>
         </ul>
 
         <div className="my-8">
@@ -291,7 +291,7 @@ export default function DueDiligenceTimelinePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Commercial due diligence is not a formality — it is the process that protects your investment. Rushing through it or skipping steps creates risk that can cost far more than the purchase price. With 23+ years of real estate experience, Barrett Henry guides buyers through every phase of due diligence, making sure nothing gets missed and every finding is used to protect your position. Review our{" "}
+          Commercial due diligence is not a formality: it is the process that protects your investment. Rushing through it or skipping steps creates risk that can cost far more than the purchase price. With 23+ years of real estate experience, Barrett Henry guides buyers through every phase of due diligence, making sure nothing gets missed and every finding is used to protect your position. Review our{" "}
           <Link href="/services/cre-valuation" className="text-accent underline">CRE valuation services</Link>{" "}
           and{" "}
           <Link href="/services/investment-sales" className="text-accent underline">investment sales process</Link>{" "}
@@ -302,7 +302,7 @@ export default function DueDiligenceTimelinePage() {
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Due Diligence — Frequently Asked Questions</h2>
+          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Due Diligence: Frequently Asked Questions</h2>
           <FAQAccordion items={faqItems} />
         </div>
       </section>
@@ -322,7 +322,7 @@ export default function DueDiligenceTimelinePage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He manages the entire acquisition process for buyers -- from document review to inspections to closing coordination. Learn more about{" "}
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He manages the entire acquisition process for buyers, from document review to inspections to closing coordination. Learn more about{" "}
               <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
               or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>
@@ -332,7 +332,7 @@ export default function DueDiligenceTimelinePage() {
 
       <CTASection
         heading="Buying Commercial Property in Florida?"
-        body="Barrett manages the entire due diligence process — from document review to inspections to closing coordination. Nothing gets overlooked."
+        body="Barrett manages the entire due diligence process, from document review to inspections to closing coordination. Nothing gets overlooked."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />
