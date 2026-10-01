@@ -4,6 +4,68 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-01 -- Batch 67 (10 pages improved)
+
+**Commit:** `76bbf2b` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/valrico-hillsborough-county-commercial-real-estate-2026`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Shortened metadata title from 98 chars to 43 chars: "Valrico FL Commercial Real Estate 2026 | HenCRE"
+- Merged dual SchemaOrg calls (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed declaration order: faqItems moved before schema (resolved TypeScript TDZ error)
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from author sameAs array
+- Added dateModified: "2026-10-01" to schema
+- Added "Home" as first breadcrumb item (was missing)
+- Fixed relatedLinks hrefs: added missing `/blog/` prefix to all 5 internal links
+- Expanded relatedLinks: 5 -> 10 (added Hillsborough County market, What Makes Good Investment, Cap Rate Calculator, Florida 1031 Exchange, Investment Sales Services)
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Converted mid-CTA `<a href="/contact">` -> `<Link href="/contact">`
+- Converted `<img>` -> `<Image>` in author bio
+- Fixed author bio credentials: "REALTOR & Commercial Real Estate Advisor at REMAX Collective" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author bio text: removed "REMAX Commercial division" language
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed em dashes throughout article body (replaced — with plain punctuation)
+- Added 7 internal `<Link>` components to article body
+- Added "Last updated: October 2026" footer
+
+### 2. `/blog/valrico-commercial-leasing-guide-hillsborough`
+- Updated dateModified: "2026-08-27" -> "2026-10-01"
+- Updated footer: "Last updated: August 2026" -> "Last updated: October 2026"
+
+### 3. `/blog/largo-pinellas-county-commercial-real-estate-2026`
+- Updated dateModified: "2026-08-30" -> "2026-10-01"
+- Updated footer: "Last updated: August 2026" -> "Last updated: October 2026"
+
+### 4. `/blog/tampa-bay-self-storage-cre-investment-2026`
+- Updated dateModified: "2026-09-02" -> "2026-10-01"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 5. `/blog/tampa-bay-senior-housing-cre-investment-2026`
+- Replaced external `fastselleasysale.com` link with internal `<Link>` to `/services/dispositions`
+- Updated dateModified: "2026-09-15" -> "2026-10-01"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 6. `/blog/tampa-bay-life-sciences-cre-2026`
+- Updated dateModified: "2026-09-01" -> "2026-10-01"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 7. `/blog/tampa-bay-medical-office-real-estate-2026`
+- Updated dateModified: "2026-09-01" -> "2026-10-01"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 8. `/markets/columbia`
+- Updated footer: "Last updated: August 2026" -> "Last updated: October 2026"
+
+### 9. `/markets/desoto`
+- Updated footer: "Last updated: August 2026" -> "Last updated: October 2026"
+
+### 10. `/markets/franklin`
+- Updated footer: "Last updated: August 2026" -> "Last updated: October 2026"
+
+---
+
 ## 2026-09-30 -- Batch 66 (10 pages improved)
 
 **Commit:** `2d29147` | **Build:** clean (0 errors) | **Pages improved:** 10
