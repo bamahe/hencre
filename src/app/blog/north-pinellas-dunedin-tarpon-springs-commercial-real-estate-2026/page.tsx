@@ -338,7 +338,7 @@ export default function NorthPinellasCommercialRealEstatePage() {
           </li>
           <li>
             <strong>Industrial in Oldsmar and Tarpon Springs offers genuine yield premium.</strong> Investors willing to underwrite the specific industrial corridors in these communities — and to accept lower day-one liquidity — can acquire product at cap rates 50 to 100 basis points wider than comparable Clearwater industrial. The same fundamentals that are compressing cap rates across the{" "}
-            <Link href="/blog/tampa-bay-industrial-market-outlook-2026" className="text-accent underline">
+            <Link href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">
               Tampa Bay industrial market
             </Link>{" "}
             broadly apply here: tight vacancy, structural demand from population growth and e-commerce, and a tenant base increasingly committed to long-term positions.

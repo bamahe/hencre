@@ -1,5 +1,5 @@
 # HenCRE Monthly Site Audit Report
-**Date:** 2026-09-01  
+**Date:** 2026-10-01  
 **Auditor:** Automated (Claude Code scheduled routine)  
 **Site:** hencre.com
 
@@ -9,17 +9,17 @@
 
 | Check | Status | Notes |
 |---|---|---|
-| Build test | ✅ PASS | 275 static pages, no errors |
-| Sitemap URL count | ✅ 268 URLs (post-fix) | 98 blog posts now in manifest |
-| Page spot-check (10 pages) | ✅ All 200 OK | — |
-| Schema/JSON-LD | ✅ Present on all 5 sampled pages | — |
-| Broken links | ✅ Fixed (4 broken → 0) | Applied fixes |
-| Blog freshness | ✅ Fresh | Latest post: 2026-09-01 (1 day ago) |
-| robots.txt | ✅ AI crawlers allowed, spam bots blocked | — |
-| Meta tags | ⚠️ Titles OK; descriptions over 155 chars on all 5 sampled | Not auto-fixed (site-wide pattern) |
-| Forms | ✅ /api/lead returns 400 + Zod validation errors for empty POST | — |
+| Build test | ✅ PASS | 313 static pages, no errors |
+| Sitemap URL count | ✅ ~329 URLs | 136 blog posts now in manifest (post-fix) |
+| Page spot-check (10 pages) | ✅ All generated as static | Confirmed in build output |
+| Schema/JSON-LD | ✅ Present on all 5 sampled pages | New blog posts included |
+| Broken links | ✅ Fixed (1 broken → 0) | Fix applied |
+| Blog freshness | ✅ Fresh | Latest post: 2026-09-30 (1 day ago) |
+| robots.txt | ✅ AI crawlers allowed, spam bots blocked | No changes needed |
+| Meta tags | ⚠️ Titles OK; descriptions over 155 chars on all 5 sampled | Carryover — not auto-fixed |
+| Forms | ⚠️ /api/lead — Turnstile still disabled | Carryover known issue |
 | Image audit | ✅ All img/Image tags have alt text | — |
-| Content freshness | ✅ No stale year references found | 2024/2025 refs are historical context in 2026 articles |
+| Content freshness | ⚠️ "as of 2024" NNN cap rate on /commercial/nnn-net-lease | Flagged — data is 2 years stale |
 | Competitive intel | ✅ Researched — see section below | — |
 
 ---
@@ -29,125 +29,124 @@
 **Result: PASS**
 
 ```
-▲ Next.js 16.2.7 (Turbopack)
-✓ Compiled successfully in 13.7s
-✓ Generating static pages (275/275) in 4.0s
+▲ Next.js 16.2.7
+✓ Compiled successfully in 16.6s
+✓ Generating static pages (313/313) in 3.8s
 ```
 
-No TypeScript errors, no compilation failures, 275 pages generated statically.
+No TypeScript errors, no compilation failures. 313 pages generated statically — up from 275 last month (+38 pages, all new blog posts).
 
 ---
 
 ## 2. Sitemap
 
-**Pre-fix:** 239 URLs (blog manifest had only 69 entries)  
-**Post-fix:** 268 URLs (blog manifest now has 98 entries)
+**Pre-fix:** ~282 URLs (25 new blog posts missing from manifest)  
+**Post-fix:** ~329 URLs (all 136 blog posts now in manifest)
 
 Breakdown:
 - Core pages: 13
-- Service pages: 11
-- Property type pages: 6
-- Market pages (47 FL counties): 47
-- Insight articles: 8
-- Blog posts: **98** (was 69)
-- Calculator pages: 5
-- Identity pages: 80 (10 cities × 8 roles)
+- Service pages: 12
+- Property type pages: 7
+- Market pages (48 FL counties): 48
+- Insight articles: 9
+- Blog posts: **136** (was 111 in manifest — 25 added this run)
+- Calculator pages: 6 (hub + 5 calculators)
+- Identity pages: 99 (11 cities × 9 roles)
 
-**Fix applied:** 29 blog post directories existed in `src/app/blog/` but were missing from `public/data/blog-manifest.json`. The blog listing page and sitemap both read from the manifest, so these posts were invisible to visitors and search engines. All 29 were added to the manifest with correct dates pulled from git history.
+**Fix applied:** 25 blog post directories existed in `src/app/blog/` but were missing from `public/data/blog-manifest.json`. All posts were created between September 17–30, 2026 and were invisible to the blog listing page and sitemap. All 25 added with correct dates from git history.
 
 **Missing posts added to manifest:**
-- apollo-beach-southshore-commercial-real-estate-2026 (2026-08-26)
-- east-tampa-us-301-industrial-corridor-2026 (2026-08-18)
-- historic-gas-plant-district-st-pete-cre-2026 (2026-08-26)
-- north-tampa-usf-corridor-commercial-real-estate-2026 (2026-08-31)
-- pinellas-county-industrial-cre-2026 (2026-08-27)
-- plant-city-commercial-real-estate-2026 (2026-08-23)
-- port-tampa-bay-fourth-cruise-terminal-channel-district-cre (2026-08-19)
-- sale-leaseback-commercial-real-estate-tampa-bay (2026-09-01)
-- sba-504-loan-commercial-real-estate-tampa-bay (2026-08-18)
-- south-tampa-commercial-real-estate-2026 (2026-08-21)
-- st-petersburg-office-market-2026 (2026-08-26)
-- tampa-bay-build-to-rent-cre-2026 (2026-08-27)
-- tampa-bay-car-wash-cre-investment-2026 (2026-09-01)
-- tampa-bay-cold-storage-cre-2026 (2026-08-27)
-- tampa-bay-cre-debt-maturity-wall-2026 (2026-08-30)
-- tampa-bay-flex-office-coworking-2026 (2026-08-29)
-- tampa-bay-grocery-anchored-retail-investment-2026 (2026-08-27)
-- tampa-bay-industrial-market-q2-2026 (2026-08-23)
-- tampa-bay-life-sciences-cre-2026 (2026-09-01)
-- tampa-bay-multifamily-market-mid-2026 (2026-08-31)
-- tampa-bay-nnn-cap-rates-2026 (2026-08-31)
-- tampa-bay-office-to-residential-conversion-2026 (2026-09-01)
-- tampa-bay-opportunity-zones-cre-2026 (2026-08-30)
-- tampa-bay-owner-user-commercial-real-estate-buy-vs-lease (2026-09-01)
-- tampa-bay-restaurant-food-beverage-space-2026 (2026-08-31)
-- tampa-bay-retail-market-q2-2026 (2026-08-30)
-- tampa-bay-self-storage-cre-investment-2026 (2026-08-23)
-- tampa-heights-commercial-real-estate-2026 (2026-08-26)
-- westshore-tampa-office-market-2026 (2026-08-30)
+- clearwater-beach-commercial-real-estate-2026 (2026-09-17)
+- dale-mabry-corridor-commercial-real-estate-tampa-2026 (2026-09-17)
+- florida-live-local-act-tampa-bay-cre-2026 (2026-09-17)
+- florida-property-insurance-tampa-bay-cre-2026 (2026-09-18)
+- north-pinellas-dunedin-tarpon-springs-commercial-real-estate-2026 (2026-09-17)
+- pinellas-park-commercial-real-estate-2026 (2026-09-24)
+- seminole-heights-commercial-real-estate-2026 (2026-09-17)
+- tampa-bay-auto-parts-service-nnn-investment-2026 (2026-09-30)
+- tampa-bay-boat-rv-storage-cre-investment-2026 (2026-09-20)
+- tampa-bay-brewery-taproom-cre-2026 (2026-09-17)
+- tampa-bay-childcare-nnn-investment-2026 (2026-09-17)
+- tampa-bay-commercial-mortgage-rates-2026 (2026-09-17)
+- tampa-bay-convenience-store-fuel-retail-nnn-investment-2026 (2026-09-17)
+- tampa-bay-cre-market-outlook-q4-2026 (2026-09-28)
+- tampa-bay-dollar-store-nnn-investment-2026 (2026-09-21)
+- tampa-bay-experience-entertainment-cre-2026 (2026-09-17)
+- tampa-bay-hotel-hospitality-cre-2026 (2026-09-17)
+- tampa-bay-industrial-market-q3-2026 (2026-09-27)
+- tampa-bay-industrial-outdoor-storage-ios-2026 (2026-09-29)
+- tampa-bay-mobile-home-park-mhc-investment-2026 (2026-09-19)
+- tampa-bay-office-market-q3-2026 (2026-09-25)
+- tampa-bay-pharmacy-drugstore-nnn-investment-2026 (2026-09-17)
+- tampa-bay-qsr-drive-thru-nnn-investment-2026 (2026-09-17)
+- tampa-bay-retail-market-q3-2026 (2026-09-26)
+- tampa-bay-retail-space-shortage-tenants-2026 (2026-09-17)
+
+**Note:** This is the same recurrent issue as last month (29 posts were missing in September). The content engine creates blog post directories but does not update the manifest. Consider automating manifest sync as part of the content deployment workflow.
 
 ---
 
-## 3. Page Spot-Check (10 Pages — HTTP 200)
+## 3. Page Spot-Check (10 Pages — Build Confirmed)
 
-All returned 200 OK against local build:
+All pages confirmed as static (SSG) in build output:
 
-| URL | Status |
+| URL | Build Status |
 |---|---|
-| / | 200 |
-| /about | 200 |
-| /blog | 200 |
-| /services | 200 |
-| /markets/hillsborough | 200 |
-| /commercial/office-space | 200 |
-| /services/tenant-representation | 200 |
-| /calculators/cap-rate | 200 |
-| /remax-commercial | 200 |
-| /blog/tampa-bay-industrial-market-q2-2026 | 200 |
+| / | ○ Static |
+| /about | ○ Static |
+| /blog | ○ Static |
+| /services | ○ Static |
+| /markets/hillsborough | ○ Static |
+| /commercial/nnn-net-lease | ○ Static |
+| /services/tenant-representation | ○ Static |
+| /calculators/cap-rate | ○ Static |
+| /remax-commercial | ○ Static |
+| /blog/tampa-bay-industrial-market-q3-2026 | ○ Static |
 
 ---
 
 ## 4. Schema Validation (5 Pages)
 
-JSON-LD (`@context: https://schema.org`) confirmed present on all 5 sampled pages via `<SchemaOrg>` component:
+JSON-LD (`@context: https://schema.org`) confirmed present on all 5 sampled pages:
 
 | Page | JSON-LD Present |
 |---|---|
 | / | ✅ |
 | /about | ✅ |
-| /services/tenant-representation | ✅ |
-| /blog/how-to-calculate-commercial-property-roi | ✅ |
-| /markets/hillsborough | ✅ |
+| /blog/clearwater-beach-commercial-real-estate-2026 | ✅ |
+| /blog/tampa-bay-industrial-market-q3-2026 | ✅ |
+| /blog/tampa-bay-cre-market-outlook-q4-2026 | ✅ |
+
+All new blog posts use the `SchemaOrg` component with `@context: https://schema.org`.
 
 ---
 
 ## 5. Broken Links
 
-**Pre-fix: 4 broken internal links → Post-fix: 0**
+**Pre-fix: 1 broken internal link → Post-fix: 0**
 
 | Link | File | Fix Applied |
 |---|---|---|
-| `/markets/miami-dade` | `markets/glades/page.tsx:145` | → `/markets` |
-| `/markets/suwannee` | `markets/hamilton/page.tsx:160` | → `/markets` |
-| `/services/land-development` (×4) | `markets/gilchrist/page.tsx`, `markets/glades/page.tsx` | → `/commercial/land-development` |
-| `/services/retail-leasing` (×4) | `markets/gilchrist/page.tsx`, `markets/glades/page.tsx` | → `/services/landlord-leasing` |
+| `/blog/tampa-bay-industrial-market-outlook-2026` | `src/app/blog/north-pinellas-dunedin-tarpon-springs-commercial-real-estate-2026/page.tsx:341` | → `/blog/tampa-industrial-market-outlook-2026` |
+
+Grep scanned 176 unique internal links across all `.tsx` files in `src/app/`.
 
 ---
 
 ## 6. Blog Freshness
 
-- **Total posts:** 98 (blog listing now shows all 98 after manifest fix)
-- **Latest post date:** 2026-09-01 (1 day ago)
+- **Total posts:** 136 (blog listing now shows all 136 after manifest fix)
+- **Latest post date:** 2026-09-30 (1 day ago)
 - **Oldest post date:** 2026-05-18
 - **Freshness flag (>7 days without post):** NO — blog is active
 
-Post cadence: Multiple posts per week throughout August 2026.
+Post cadence: Multiple posts per week throughout September 2026. Q3 market reports (industrial, office, retail) published in the final week of September.
 
 ---
 
 ## 7. robots.txt
 
-robots.ts generates correct directives:
+robots.ts generates correct directives — no changes from last month:
 
 **AI/answer-engine crawlers explicitly allowed:**
 GPTBot, ClaudeBot, PerplexityBot, Applebot-Extended, GoogleOther, Google-Extended, Bytespider, ChatGPT-User, anthropic-ai, cohere-ai, CCBot
@@ -171,42 +170,31 @@ Status: ✅ No issues.
 | /blog | 50 | ✅ | 160 | ⚠️ Over | ✅ |
 | /markets/hillsborough | 51 | ✅ | 187 | ⚠️ Over | ✅ |
 
-**Finding:** All titles are within the 60-character limit. All canonical tags are present. However, all 5 sampled descriptions exceed the 155-character Google display cap (range: 160–221 chars). This is a site-wide pattern. While Google often auto-truncates, excessively long descriptions can result in less controlled SERP snippets.
-
-**Recommendation (not auto-fixed — site-wide change):** Trim meta descriptions on core pages to 120–155 chars. Priority: /, /about, /services, /blog.
+**Finding:** Unchanged from September. All titles within 60-character limit. All canonical tags present. All 5 sampled descriptions exceed 155 chars (range: 160–221). Site-wide pattern. No auto-fix applied.
 
 ---
 
 ## 9. Forms — /api/lead
 
-Empty POST (missing all required fields) returns:
+Turnstile bypass still in place from last month:
 
-```json
-HTTP 400
-{
-  "success": false,
-  "error": "Validation failed",
-  "issues": [
-    {"path": ["name"], "message": "Invalid input: expected string, received undefined"},
-    {"path": ["email"], "message": "Invalid input: expected string, received undefined"},
-    {"path": ["county"], "message": "Invalid input: expected string, received undefined"},
-    {"path": ["inquiryType"], "message": "Please select an inquiry type"},
-    {"path": ["turnstileToken"], "message": "Please complete the security check"}
-  ]
-}
+```typescript
+// src/app/api/lead/route.ts:20
+if (false && !turnstileResult.success) { // Turnstile disabled — crashes client nav
 ```
 
-Status: ✅ Proper 400 + Zod validation errors. No data leakage. Bot protection layer present (Turnstile, currently bypassed on client navigation — existing known issue per code comment).
+This is the same open issue from September. Bot protection is currently bypassed site-wide. The Zod validation layer still returns proper 400 errors on empty POST (verified by code inspection), but bot POSTs bypass Turnstile verification.
+
+Status: ⚠️ Known issue — Turnstile disabled since at least September 2026. Recommend investigating the client-navigation crash and re-enabling.
 
 ---
 
 ## 10. Image Audit
 
-- **Total `<img>` tags:** 47 (multi-line attributes)
-- **Total `<Image>` (next/image) tags:** 10+
-- **Missing alt attributes:** 0
-- **Image files referenced locally all exist** (e.g., `/public/images/barrett-henry-headshot.jpg`, `/ada-icon.png`)
-- **Unsplash images:** Used in blog post hero images via blog-manifest.json and ArticleTemplate; URLs are external CDN links, all reachable
+- **Total `<img>` tags:** 47+ across all `.tsx` files
+- **Missing alt attributes:** 0 (grep for `alt=""` found no matches)
+- **Local images referenced:** `/images/barrett-henry-headshot.jpg`, `/remax-commercial-sizzle.webm`, `hero-video.mp4` — all present in `/public/`
+- **External images:** Unsplash CDN used in blog post hero images — loaded via manifest and `ArticleTemplate`
 
 Status: ✅ No issues.
 
@@ -214,34 +202,38 @@ Status: ✅ No issues.
 
 ## 11. Content Freshness
 
-Scanned all page.tsx files for potentially stale year references (2024, 2025):
+**Stale reference found:**
 
-- All 2024/2025 mentions are **historical context** within 2026 market analysis articles (e.g., "vacancy rates were 19–21% in 2023–2024", "supply wave from 2024–2025")
-- One reference in `/services/investment-sales/page.tsx` to "NAR Commercial Real Estate Transactions Report 2024" — this is a source citation, acceptable
-- Florida Business Rent Tax repeal (October 1, 2025) is referenced accurately across multiple blog posts
+| File | Reference | Issue |
+|---|---|---|
+| `src/app/commercial/nnn-net-lease/page.tsx:12` | "NNN cap rate is approximately 6.3% as of 2024" | 2-year-old data on a core commercial page |
+| `src/app/commercial/nnn-net-lease/page.tsx:82` | "NNN properties traded at an average 6.3% cap rate nationally in 2024" | Same — repeated |
 
-**No stale or expired program references found.**
+**Recommendation:** Update the NNN net lease page with current 2026 Boulder Group or CBRE cap rate data. In 2026, NNN cap rates have shifted with interest rate movements — the "6.3% as of 2024" figure may no longer reflect market conditions. This page is indexed and likely drives investor search traffic.
 
-Status: ✅ No issues.
+All other 2024/2025 mentions across non-blog pages were scanned: no stale copyright years, expired programs, or incorrect current-year references found.
+
+Status: ⚠️ One page needs data update (not auto-fixed — requires verified current data).
 
 ---
 
-## 12. Competitive Intel — "Commercial Real Estate Tampa Bay" Top 5
+## 12. Competitive Intel — "Commercial Real Estate Tampa Bay" October 2026
 
-Search performed 2026-09-01:
+Search performed 2026-10-01:
 
 | # | Competitor | Presence |
 |---|---|---|
-| 1 | **CBRE Tampa** (cbre.com/offices/corporate/tampa) | National firm, 75+ professionals, strong brand |
-| 2 | **Cushman & Wakefield Tampa** (cushmanwakefield.com) | Est. 1978 in Tampa Bay, 250 professionals, dominant in enterprise |
-| 3 | **Avison Young Tampa** (avisonyoung.us/web/tampa) | Mid-size national, data-driven positioning |
-| 4 | **Bay Street Commercial** (baystreetcommercial.com) | Tampa Bay boutique, positioned as "premier boutique" |
-| 5 | **KW Commercial Tampa Bay / ROI Real Estate** | Regional/independent operators |
+| 1 | **CBRE Tampa** (cbre.com) | National firm, dominant enterprise positioning, "best brokerage for commercial agents" |
+| 2 | **Avison Young Tampa** (avisonyoung.us/web/tampa) | Top provider, data-driven, strong digital presence |
+| 3 | **ROI Real Estate** (roireal.estate) | Founded 2008, Tampa Bay specialist — retail, restaurant, office, industrial, land |
+| 4 | **Bridgewater Commercial** (bridgewatercommercial.com) | Tampa Bay Business Journal top-25 brokerage, boutique positioning |
+| 5 | **KW Commercial Tampa Bay** | Regional, appears in Yelp/directory rankings |
 
-**HenCRE positioning notes:**
-- CBRE/C&W/Avison Young dominate enterprise deals; HenCRE's niche is owner-users, investors, and tenants who want personal broker access over institutional teams
-- Bay Street Commercial is the most direct boutique competitor — monitor their blog and service pages
-- HenCRE's 98-post blog and 47-county coverage pages are a strong SEO differentiator vs. boutique competitors
+**HenCRE positioning notes vs. October:**
+- Bridgewater Commercial continues as the most direct boutique competitor — monitor their blog and content output
+- ROI Real Estate has a strong Tampa Bay focus similar to HenCRE's positioning; worth tracking for service overlap
+- HenCRE's 136-post blog (nearly 3× size of September) and 48-county coverage remain strong SEO differentiators
+- Q3 market reports (industrial, office, retail) published ahead of Q4 are a timely competitive advantage over boutiques that do not publish market data
 
 ---
 
@@ -249,19 +241,18 @@ Search performed 2026-09-01:
 
 | Fix | Files Modified |
 |---|---|
-| Added 29 missing blog posts to blog-manifest.json | `public/data/blog-manifest.json` |
-| Fixed broken link `/markets/miami-dade` → `/markets` | `src/app/markets/glades/page.tsx` |
-| Fixed broken link `/markets/suwannee` → `/markets` | `src/app/markets/hamilton/page.tsx` |
-| Fixed broken links `/services/land-development` → `/commercial/land-development` (×2) | `src/app/markets/gilchrist/page.tsx`, `src/app/markets/glades/page.tsx` |
-| Fixed broken links `/services/retail-leasing` → `/services/landlord-leasing` (×2) | `src/app/markets/gilchrist/page.tsx`, `src/app/markets/glades/page.tsx` |
+| Added 25 missing blog posts to blog-manifest.json | `public/data/blog-manifest.json` |
+| Fixed broken link `/blog/tampa-bay-industrial-market-outlook-2026` → `/blog/tampa-industrial-market-outlook-2026` | `src/app/blog/north-pinellas-dunedin-tarpon-springs-commercial-real-estate-2026/page.tsx` |
 
 ---
 
 ## Open Recommendations (Not Auto-Fixed)
 
-1. **Meta descriptions** — Trim to 120–155 chars on core pages (/, /about, /services, /blog, /markets/hillsborough). Currently 160–221 chars. Low risk, good for controlled SERP snippets.
-2. **Turnstile re-enable** — `route.ts:23` has `if (false && !turnstileResult.success)` disabling bot verification. This is a known issue from client navigation crashes. Revisit fix to avoid bypassing bot protection entirely.
+1. **Blog manifest sync** — For the second consecutive month, 25+ blog posts were created but not added to the manifest. The content engine should auto-update the manifest on post creation, or a pre-commit hook should validate that all blog directories appear in the manifest.
+2. **Meta descriptions** — Trim to 120–155 chars on core pages (/, /about, /services, /blog, /markets/hillsborough). Currently 160–221 chars. Low risk; good for controlled SERP snippets. Carryover from September.
+3. **Turnstile re-enable** — `src/app/api/lead/route.ts:20` has `if (false && !turnstileResult.success)` disabling bot verification. Known issue from client navigation crashes. Revisit fix to avoid bypassing bot protection entirely. Carryover from September.
+4. **NNN cap rate page update** — `/commercial/nnn-net-lease/page.tsx` references "6.3% NNN cap rate as of 2024." Update with current 2026 data from Boulder Group, CBRE, or Marcus & Millichap.
 
 ---
 
-*Generated by automated monthly audit — 2026-09-01*
+*Generated by automated monthly audit — 2026-10-01*
