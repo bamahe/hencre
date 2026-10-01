@@ -84,7 +84,7 @@ const schema = {
       description:
         "Commercial leasing in Valrico, FL — location strategy, zoning, CAM charges, and lease negotiation for east Hillsborough County.",
       datePublished: "2026-08-05",
-      dateModified: "2026-08-27",
+      dateModified: "2026-10-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -310,7 +310,7 @@ export default function BlogPost() {
           <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why the Tampa Bay commercial market continues to expand</Link>.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">

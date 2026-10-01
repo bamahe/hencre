@@ -86,7 +86,7 @@ const schema = {
       description:
         "What investors need to know about self-storage as a commercial asset class in Tampa Bay as Sunbelt oversupply pressure fades and the market stabilizes in 2026.",
       datePublished: "2026-08-02",
-      dateModified: "2026-09-02",
+      dateModified: "2026-10-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -293,7 +293,7 @@ export default function TampaBaySelfStorageCREInvestment2026Page() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
