@@ -4,6 +4,59 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-02 -- Batch 68 (10 pages improved)
+
+**Commit:** `cb8cb05` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-auto-parts-service-nnn-investment-2026`
+- Replaced external `nowtb.com` link with internal links to `/markets/hillsborough` and `/markets/pasco`
+- Updated dateModified: "2026-09-29" -> "2026-10-02"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 2. `/blog/tampa-bay-industrial-outdoor-storage-ios-2026`
+- Replaced external `nowtb.com` link with internal links to `/markets/hillsborough` and `/markets/pasco`
+- Replaced external `fastselleasysale.com` link with internal `/services/dispositions`
+- Updated dateModified: "2026-09-29" -> "2026-10-02"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 3. `/blog/pinellas-county-industrial-cre-2026`
+- Converted 5 bare `<a href>` tags to `<Link>` components
+- Fixed 2 double-dashes (`--`) in relatedLinks descriptions -> commas
+- Fixed double-dash (`--`) in article body text -> comma
+- Updated dateModified: "2026-09-25" -> "2026-10-02"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 4. `/blog/ybor-city-commercial-real-estate-tampa-2026`
+- Fixed `--` in relatedLinks description -> comma
+- Updated dateModified: "2026-09-28" -> "2026-10-02"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 5. `/blog/tampa-bay-experience-entertainment-cre-2026`
+- Fixed `--` in article body text -> comma
+- Updated dateModified: "2026-09-28" -> "2026-10-02"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 6. `/blog/inverness-citrus-county-commercial-real-estate-2026`
+- Updated dateModified: "2026-09-28" -> "2026-10-02"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 7. `/blog/tampa-hillsborough-commercial-real-estate-guide-2026`
+- Updated dateModified: "2026-09-28" -> "2026-10-02"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 8. `/blog/st-petersburg-office-market-2026`
+- Updated dateModified: "2026-09-28" -> "2026-10-02"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 9. `/blog/gasworx-tampa-ybor-office-commercial-2026`
+- Updated dateModified: "2026-09-28" -> "2026-10-02"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 10. `/markets/charlotte`
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+---
+
 ## 2026-10-01 -- Batch 67 (10 pages improved)
 
 **Commit:** `76bbf2b` | **Build:** clean (0 errors) | **Pages improved:** 10
