@@ -75,7 +75,7 @@ const schema = {
       headline: "Ybor City Commercial Real Estate 2026",
       description: "Ybor City is undergoing its biggest transformation since the cigar era - Gasworx, Ybor Harbor, Tampa General Hospital, and a new mixed-use streetcar district are reshaping one of Tampa's most storied neighborhoods into a major CRE opportunity.",
       datePublished: "2026-07-23",
-      dateModified: "2026-09-28",
+      dateModified: "2026-10-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -110,7 +110,7 @@ const relatedLinks = [
   {
     title: "Tampa Bay Medical Office Real Estate 2026",
     href: "/blog/tampa-bay-medical-office-real-estate-2026",
-    description: "How healthcare expansion -- including hospital campuses like Tampa General -- is driving medical office demand.",
+    description: "How healthcare expansion, including hospital campuses like Tampa General, is driving medical office demand.",
   },
   {
     title: "St. Petersburg Commercial Real Estate 2026",
@@ -272,7 +272,7 @@ export default function YborCityCommercialRealEstatePage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

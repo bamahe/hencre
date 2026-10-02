@@ -80,7 +80,7 @@ const schema = {
       description:
         "CRE Daily named Tampa Bay a key industrial outdoor storage hub in 2026. IOS site costs are up 32% over 18 months, institutional buyers now represent 45% of national IOS investment, and demand from port users, contractors, and logistics operators has outpaced a severely supply-constrained land market. A complete guide for tenants and investors.",
       datePublished: "2026-09-29",
-      dateModified: "2026-09-29",
+      dateModified: "2026-10-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -262,14 +262,16 @@ export default function TampaBayIOSPage() {
           <strong>Stormwater compliance.</strong> IOS sites with impervious paved surfaces typically require a valid FDEP or Hillsborough County Environmental Protection Commission (EPC) stormwater permit, and many older sites have outdated or non-compliant stormwater management infrastructure. Buyers should confirm permit status and evaluate the cost of any required upgrades before closing.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors who are also building a Tampa Bay real estate portfolio across both commercial and residential assets, understanding the population growth corridors that drive IOS demand — the same corridors fueling Tampa Bay&apos;s residential expansion — is useful context. The neighborhood and market resources at{" "}
-          <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>{" "}
-          provide a current view of where Tampa Bay&apos;s residential growth is concentrated, which maps closely to the emerging IOS demand zones in eastern Hillsborough, Pasco, and South Hillsborough.
+          For investors building a Tampa Bay real estate portfolio, understanding the population growth corridors that drive IOS demand is useful context. Our market overviews for{" "}
+          <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link>{" "}
+          and{" "}
+          <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link>{" "}
+          cover where Tampa Bay&apos;s residential expansion is most concentrated — the same corridors generating contractor and logistics demand for IOS sites in eastern Hillsborough and South Hillsborough.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For existing IOS owners who are considering a sale — whether to capitalize on the 32% appreciation in values or as part of a broader portfolio strategy — the{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Fast Sell Easy Sale</Link>{" "}
-          platform handles quick-close sales of commercial properties and land, including industrial and outdoor storage sites, for sellers who want a direct transaction rather than a traditional listing process.
+          For existing IOS owners considering a sale — whether to capitalize on the 32% appreciation in values or as part of a broader portfolio strategy — our{" "}
+          <Link href="/services/dispositions" className="text-accent underline">commercial dispositions services</Link>{" "}
+          cover structured exit options for industrial and outdoor storage site owners, including direct sales, investment sale, and 1031 exchange positioning.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa Bay IOS in 2026</h2>
@@ -286,7 +288,7 @@ export default function TampaBayIOSPage() {
           With 23+ years of experience in Tampa Bay commercial real estate at REMAX Collective, I help businesses find and negotiate IOS and industrial sites across the metro&apos;s major corridors, and help investors evaluate IOS acquisitions across Hillsborough, Pasco, Pinellas, and Polk Counties. Whether you are an operator looking for a secured yard near the port, or an investor looking to enter the IOS market, I bring the market knowledge to find the right outcome.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

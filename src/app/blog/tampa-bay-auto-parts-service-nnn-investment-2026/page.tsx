@@ -103,7 +103,7 @@ const schema = {
       description:
         "AutoZone, O'Reilly Auto Parts, Jiffy Lube, and Mavis Tire are among the most resilient NNN tenants in Tampa Bay. This guide covers cap rates, lease structures, environmental due diligence, and why auto-service commercial real estate is a strong portfolio addition for investors in 2026.",
       datePublished: "2026-09-29",
-      dateModified: "2026-09-29",
+      dateModified: "2026-10-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -510,19 +510,17 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           replacement parts that supports strong store-level sales year-round.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Investors who are also tracking Tampa Bay residential growth for
-          context will find useful neighborhood-level data at{" "}
-          <Link
-            href="https://nowtb.com"
-            className="text-accent underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            nowtb.com
-          </Link>
-          , which covers Tampa Bay neighborhood guides and market updates —
-          residential growth concentration maps closely with where auto parts
-          and service operators are opening new locations.
+          Investors tracking Tampa Bay residential growth for context will find
+          useful data in our county-level market overviews, including the{" "}
+          <Link href="/markets/hillsborough" className="text-accent underline">
+            Hillsborough County commercial real estate overview
+          </Link>{" "}
+          and{" "}
+          <Link href="/markets/pasco" className="text-accent underline">
+            Pasco County commercial real estate overview
+          </Link>{" "}
+          — the same growth corridors where auto parts and service operators
+          have opened the most new locations in recent years.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">
@@ -673,7 +671,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           negotiate the right terms.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

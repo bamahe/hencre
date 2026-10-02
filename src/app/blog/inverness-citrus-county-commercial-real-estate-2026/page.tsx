@@ -41,7 +41,7 @@ const schema = {
       headline: "Inverness FL Commercial Real Estate 2026",
       description: "Explore commercial real estate opportunities in Inverness, Citrus County FL. Discover retail, office, and investment property trends driving growth in this emerging Central Florida market.",
       datePublished: "2026-09-04",
-      dateModified: "2026-09-28",
+      dateModified: "2026-10-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -192,7 +192,7 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

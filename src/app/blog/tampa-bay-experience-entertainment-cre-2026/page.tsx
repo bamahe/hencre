@@ -86,7 +86,7 @@ const schema = {
       description:
         "Pickleball clubs, food halls, escape rooms, and indoor sports venues are reshaping Tampa Bay CRE in 2026. Here is what landlords, investors, and entertainment tenants need to know.",
       datePublished: "2026-09-01",
-      dateModified: "2026-09-28",
+      dateModified: "2026-10-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -302,7 +302,7 @@ export default function TampaBayExperienceEntertainmentCREPage() {
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are an entertainment business owner evaluating a commercial lease -- or an owner-operator considering buying your facility outright -- working with an experienced{" "}
+          If you are an entertainment business owner evaluating a commercial lease, or an owner-operator considering buying your facility outright, working with an experienced{" "}
           <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link>{" "}
           is the fastest way to identify suitable space, negotiate favorable lease terms, and avoid the structural pitfalls that sink entertainment concepts before they open. For owners ready to exit an entertainment property or reposition a large-format commercial asset,{" "}
           <Link href="/services/dispositions" className="text-accent underline">disposition services</Link>{" "}
@@ -320,7 +320,7 @@ export default function TampaBayExperienceEntertainmentCREPage() {
           With 23+ years of commercial real estate experience and deep knowledge of Tampa Bay&apos;s retail, mixed-use, and specialty commercial markets, I help entertainment tenants find the right space - and help landlords and investors evaluate entertainment-anchored commercial opportunities across Hillsborough, Pinellas, Pasco, and Polk Counties. If you are evaluating a commercial lease for an entertainment concept or an investment in experience-driven retail real estate, let&apos;s talk.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
