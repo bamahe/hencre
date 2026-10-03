@@ -34,7 +34,7 @@ const faqItems = [
   { question: "What zoning does a law firm or accounting office need in Clearwater?", answer: "Professional offices are a permitted use under Clearwater's Commercial General (CG) and Commercial Office (CO) zoning designations, meaning you typically do not need a special exception or variance to operate. You will still need a City of Clearwater Business Tax Receipt before opening, and any interior buildout work requires the appropriate building permits under Florida Building Code." },
   { question: "How much office space does a small professional services firm typically need in Clearwater?", answer: "A small firm with two to five professionals — attorneys, CPAs, or agents — generally occupies between 800 and 2,500 square feet, depending on how many private offices, conference rooms, and support staff workstations are needed. Client-facing firms tend to allocate more square footage per person than back-office operations because private meeting space is a functional requirement, not a preference." },
   { question: "Is it better to lease or buy office space as a professional services firm?", answer: "Leasing offers flexibility and lower upfront capital requirements, which suits firms in growth mode or those uncertain about their long-term headcount. Buying makes sense for established firms with stable revenue that want to build equity, control their occupancy costs long-term, and potentially generate rental income from excess space. Both paths have merit, and the right answer depends on your firm's specific financial position and five-year outlook." },
-  { question: "What should I look for in a Clearwater office lease as an attorney or accountant?", answer: "Focus on tenant improvement allowance, renewal option terms, rent escalation caps, and signage rights -- in that order. Professional service firms are stable, creditworthy tenants, which means you have leverage to negotiate favorable TI packages and long-term renewal options that protect your investment in the space after buildout. Having a commercial real estate broker represent you in those negotiations consistently produces better outcomes than going directly to a landlord." },
+  { question: "What should I look for in a Clearwater office lease as an attorney or accountant?", answer: "Focus on tenant improvement allowance, renewal option terms, rent escalation caps, and signage rights, in that order. Professional service firms are stable, creditworthy tenants, which means you have leverage to negotiate favorable TI packages and long-term renewal options that protect your investment in the space after buildout. Having a commercial real estate broker represent you in those negotiations consistently produces better outcomes than going directly to a landlord." },
   { question: "Does Barrett Henry work with professional services firms outside of Clearwater?", answer: "Yes. Barrett serves clients across all 67 Florida counties through REMAX Collective and maintains offices in Tampa, Largo, and Brandon, giving him active coverage throughout the Tampa Bay region and statewide. If your firm is evaluating multiple Florida markets, he can help you compare opportunities across Pinellas, Hillsborough, Pasco, and other counties from a single point of contact." },
   { question: "How do CAM charges work in a Clearwater professional office lease?", answer: "Most professional office leases in Clearwater are structured as modified gross or full-service gross, where operating expenses are partially or fully included in the base rent. Some buildings use a net structure with separate CAM, tax, and insurance pass-throughs. Always confirm what expense categories you are responsible for before comparing quoted rates, since a $22/SF full-service lease can cost less than a $17/SF NNN lease once operating expenses are factored in." },
 ];
@@ -55,7 +55,7 @@ const schema = {
       headline: "Clearwater Office Space for Professional Services Firms",
       description: "Find the right office space in Clearwater, FL for your law, accounting, or insurance firm. Get expert CRE guidance from Barrett Henry, Broker Associate at REMAX Collective.",
       datePublished: "2026-07-18",
-      dateModified: "2026-09-07",
+      dateModified: "2026-10-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -193,12 +193,12 @@ export default function BlogPost() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: September 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: October 2026</p>
       </section>
 
       <CTASection
         heading="Your Lease Window Is Shorter Than You Think — Let's Find the Right Space First"
-        body="Barrett Henry has 23+ years of real estate experience and works across all of Pinellas County through REMAX Collective -- call (813) 733-7907 today to get a shortlist of professional office options in Clearwater before the right space is gone."
+        body="Barrett Henry has 23+ years of real estate experience and works across all of Pinellas County through REMAX Collective. Call (813) 733-7907 today to get a shortlist of professional office options in Clearwater before the right space is gone."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

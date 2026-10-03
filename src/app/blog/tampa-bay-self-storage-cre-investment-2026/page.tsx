@@ -86,7 +86,7 @@ const schema = {
       description:
         "What investors need to know about self-storage as a commercial asset class in Tampa Bay as Sunbelt oversupply pressure fades and the market stabilizes in 2026.",
       datePublished: "2026-08-02",
-      dateModified: "2026-10-01",
+      dateModified: "2026-10-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

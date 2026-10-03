@@ -86,7 +86,7 @@ const schema = {
       description:
         "Downtown St. Pete office vacancy at 9.5% with Class A rents at $42/sqft. ESN Group paid $19.5M for the Carillon campus. What the data means for office tenants and investors in Pinellas County.",
       datePublished: "2026-08-25",
-      dateModified: "2026-10-02",
+      dateModified: "2026-10-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

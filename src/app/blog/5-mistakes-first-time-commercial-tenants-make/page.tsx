@@ -85,7 +85,7 @@ const schema = {
       description:
         "Avoid the most common mistakes first-time commercial tenants make — from skipping lease review to underestimating total occupancy costs.",
       datePublished: "2026-05-02",
-      dateModified: "2026-09-18",
+      dateModified: "2026-10-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -137,7 +137,7 @@ const relatedLinks = [
   {
     title: "Tenant Representation Services",
     href: "/services/tenant-representation",
-    description: "Barrett represents tenants in negotiations -- at no cost to the tenant.",
+    description: "Barrett represents tenants in negotiations at no cost to the tenant.",
   },
   {
     title: "Florida Business Rent Tax Repeal",
@@ -147,7 +147,7 @@ const relatedLinks = [
   {
     title: "Commercial Property Due Diligence Timeline",
     href: "/blog/commercial-property-due-diligence-timeline",
-    description: "How long each phase of a commercial transaction takes -- plan your move accordingly.",
+    description: "How long each phase of a commercial transaction takes. Plan your move accordingly.",
   },
   {
     title: "Hillsborough County Commercial Real Estate",
@@ -320,7 +320,7 @@ export default function TenantMistakesPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: October 2026</p>
       </div>
     </>
   );

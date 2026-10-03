@@ -15,12 +15,12 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Spec Industrial Pipeline 2026–2027 | HenCRE",
+  title: "Tampa Bay Spec Industrial Pipeline 2026-2027 | HenCRE",
   description:
     "Over 1 million square feet of new speculative warehouse space is under construction or breaking ground across Tampa Bay heading into 2027. Here is what tenants seeking space and investors evaluating industrial assets need to know about the new supply pipeline.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-spec-industrial-pipeline-2026-2027" },
   openGraph: {
-    title: "Tampa Bay Spec Industrial Pipeline 2026–2027",
+    title: "Tampa Bay Spec Industrial Pipeline 2026-2027",
     description:
       "New spec warehouse projects from Trammell Crow, Alliance Industrial, and others are delivering along I-75 and East Tampa through 2027. Here is what the new supply means for tenants, landlords, and industrial investors in Tampa Bay.",
     url: "https://hencre.com/blog/tampa-bay-spec-industrial-pipeline-2026-2027",
@@ -75,18 +75,18 @@ const schema = {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Tampa Bay Spec Industrial Pipeline 2026–2027",
+          name: "Tampa Bay Spec Industrial Pipeline 2026-2027",
           item: "https://hencre.com/blog/tampa-bay-spec-industrial-pipeline-2026-2027",
         },
       ],
     },
     {
       "@type": "BlogPosting",
-      headline: "Tampa Bay Spec Industrial Pipeline 2026–2027",
+      headline: "Tampa Bay Spec Industrial Pipeline 2026-2027",
       description:
         "Over 1 million square feet of new speculative warehouse space is under construction or breaking ground across Tampa Bay heading into 2027. A guide to the new supply pipeline for industrial tenants and investors.",
       datePublished: "2026-10-01",
-      dateModified: "2026-10-01",
+      dateModified: "2026-10-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -171,13 +171,13 @@ export default function TampaBaySpecIndustrialPipelinePage() {
         items={[
           { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: "Tampa Bay Spec Industrial Pipeline 2026–2027", href: "/blog/tampa-bay-spec-industrial-pipeline-2026-2027" },
+          { label: "Tampa Bay Spec Industrial Pipeline 2026-2027", href: "/blog/tampa-bay-spec-industrial-pipeline-2026-2027" },
         ]}
       />
 
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1600&h=900&fit=crop"
-        title="Tampa Bay Spec Industrial Pipeline 2026–2027"
+        title="Tampa Bay Spec Industrial Pipeline 2026-2027"
         subtitle="Over 1 million square feet of new Class A warehouse space is breaking ground across Tampa Bay. Here is where it is being built, who is building it, what it will cost to lease, and what it means for tenants and investors."
       />
 
@@ -269,9 +269,7 @@ export default function TampaBaySpecIndustrialPipelinePage() {
           covers why institutional capital has been pursuing this category in Tampa Bay.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Investors evaluating industrial acquisitions in Tampa Bay at any price point may also find it useful to look at the broader residential growth dynamics that are feeding industrial demand in the suburban corridors. The site{" "}
-          <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>{" "}
-          provides Tampa Bay neighborhood growth context that correlates closely with where last-mile and light industrial demand is expanding — useful background for investors evaluating assets in Wesley Chapel, Land O&apos; Lakes, and Riverview.
+          Investors evaluating industrial acquisitions in Tampa Bay at any price point may also find it useful to look at the broader residential growth dynamics that are feeding industrial demand in the suburban corridors. The growth happening in <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link> and across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> correlates closely with where last-mile and light industrial demand is expanding, and is useful background for investors evaluating assets in Wesley Chapel, Land O&apos; Lakes, and Riverview.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does the New Pipeline Fit Into Tampa Bay&apos;s Broader Industrial Market?</h2>

@@ -85,7 +85,7 @@ const schema = {
       description:
         "Commercial earnest money deposits are larger, harder to recover, and go non-refundable faster than residential deposits. Essential reading for Florida CRE investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-09-18",
+      dateModified: "2026-10-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -117,7 +117,7 @@ const relatedLinks = [
   {
     title: "How to Calculate Commercial Property ROI",
     href: "/blog/how-to-calculate-commercial-property-roi",
-    description: "Cap rate, cash-on-cash, and total return -- the numbers that drive CRE decisions.",
+    description: "Cap rate, cash-on-cash, and total return: the numbers that drive CRE decisions.",
   },
   {
     title: "Investment Sales Services",
@@ -438,7 +438,7 @@ export default function CommercialEarnestMoneyPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience advising buyers and investors through Florida commercial transactions -- including earnest money negotiation, due diligence, and contract structuring across all property types.
+              Barrett has 23+ years of real estate experience advising buyers and investors through Florida commercial transactions, including earnest money negotiation, due diligence, and contract structuring across all property types.
             </p>
           </div>
         </div>
@@ -452,7 +452,7 @@ export default function CommercialEarnestMoneyPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: October 2026</p>
       </div>
     </>
   );
