@@ -4,6 +4,64 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-03 -- Batch 69 (10 pages improved)
+
+**Commit:** `e1a78b4` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/largo-nnn-landlord-investment-strategy-pinellas`
+- Comprehensive fix: merged dual SchemaOrg calls (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from author sameAs array
+- Added dateModified: "2026-10-03" to schema
+- Fixed breadcrumb: added "Home" as first item (was missing)
+- Replaced `<img>` with `<Image>` in author bio
+- Fixed author bio credentials: "REALTOR® & Commercial Real Estate Advisor at REMAX Collective" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Replaced all bare `<a>` tags in article body with `<Link>` components
+- Fixed mid-CTA text: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed CTASection heading: removed em dash
+
+### 2. `/blog/tampa-bay-spec-industrial-pipeline-2026-2027`
+- Replaced nowtb.com article body link with internal links to `/markets/pasco` and `/markets/hillsborough`
+- Fixed en dashes to hyphens in metadata title, OG title, schema headline, breadcrumb label, and Hero title
+- Updated dateModified: "2026-10-01" -> "2026-10-03"
+
+### 3. `/blog/inverness-citrus-county-commercial-real-estate-2026`
+- Updated dateModified: "2026-10-02" -> "2026-10-03"
+- Added 8 internal `<Link>` components to article body (previously had zero): `/markets/citrus`, `/blog/do-you-need-a-commercial-real-estate-broker`, `/blog/what-makes-a-good-commercial-investment`, `/blog/commercial-property-zoning-florida-basics`, `/blog/crystal-river-citrus-county-commercial-real-estate`, `/blog/how-commercial-leases-differ-from-residential`, `/calculators/cap-rate`, `/blog/commercial-property-due-diligence-timeline`, `/blog/florida-1031-exchange-what-investors-need-to-know`, `/services/investment-sales`
+- Rewrote article body to use proper paragraph breaks (was one dense wall of text)
+
+### 4. `/blog/tampa-hillsborough-commercial-real-estate-guide-2026`
+- Updated dateModified: "2026-10-02" -> "2026-10-03"
+
+### 5. `/blog/st-petersburg-office-market-2026`
+- Updated dateModified: "2026-10-02" -> "2026-10-03"
+
+### 6. `/blog/gasworx-tampa-ybor-office-commercial-2026`
+- Updated dateModified: "2026-10-02" -> "2026-10-03"
+
+### 7. `/blog/tampa-bay-self-storage-cre-investment-2026`
+- Updated dateModified: "2026-10-01" -> "2026-10-03"
+
+### 8. `/blog/5-mistakes-first-time-commercial-tenants-make`
+- Fixed 2 double-dashes (`--`) in relatedLinks descriptions -> natural punctuation
+- Updated dateModified: "2026-09-18" -> "2026-10-03"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 9. `/blog/clearwater-office-space-professional-services-firms`
+- Fixed 2 double-dashes (`--`) in FAQ answer and CTASection body -> commas/periods
+- Updated dateModified: "2026-09-07" -> "2026-10-03"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+### 10. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Fixed 2 double-dashes (`--`) in relatedLinks description and author bio -> commas
+- Updated dateModified: "2026-09-18" -> "2026-10-03"
+- Updated footer: "Last updated: September 2026" -> "Last updated: October 2026"
+
+---
+
 ## 2026-10-02 -- Batch 68 (10 pages improved)
 
 **Commit:** `cb8cb05` | **Build:** clean (0 errors) | **Pages improved:** 10
