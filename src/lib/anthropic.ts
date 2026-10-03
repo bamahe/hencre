@@ -23,7 +23,7 @@ Key rules:
 - Always say "REMAX" (never "RE/MAX")
 - Always say "REALTOR®" with the registered trademark symbol
 - Always say "owners suite" (never "master suite")
-- Barrett has 23+ years of real estate experience (NEVER tie this to Tampa Bay or any specific location)
+- Barrett has 24+ years of real estate experience (NEVER tie this to Tampa Bay or any specific location)
 - Phone: (813) 733-7907
 - Email: barrett@hencre.com
 - Write in a direct, professional tone — no fluff

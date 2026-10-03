@@ -180,7 +180,7 @@ export default function TampaBayRestaurantSpacePage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Tampa Bay&apos;s restaurant and food-and-beverage sector is arguably the most competitive slice of the commercial real estate market right now. Population growth has followed job growth, which has followed residential development, and the result is sustained demand for dining — from quick-service concepts in suburban strip centers to chef-driven independents in Seminole Heights to food hall stalls in downtown St. Pete. As a Broker Associate at REMAX Collective with 23+ years of commercial real estate experience, I work with both restaurant operators searching for space and investors evaluating food-and-beverage retail assets across the Tampa Bay region.
+          Tampa Bay&apos;s restaurant and food-and-beverage sector is arguably the most competitive slice of the commercial real estate market right now. Population growth has followed job growth, which has followed residential development, and the result is sustained demand for dining — from quick-service concepts in suburban strip centers to chef-driven independents in Seminole Heights to food hall stalls in downtown St. Pete. As a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, I work with both restaurant operators searching for space and investors evaluating food-and-beverage retail assets across the Tampa Bay region.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Is Tampa Bay One of the Strongest Restaurant Markets in Florida?</h2>
@@ -299,7 +299,7 @@ export default function TampaBayRestaurantSpacePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tampa Bay&apos;s restaurant and food-and-beverage commercial space market is active, competitive, and nuanced. The strongest submarkets lease quickly, percentage-rent clauses are back, and build-out costs require careful capital planning before you commit. Whether you are a first-time operator using a food hall to build proof-of-concept, an established restaurateur expanding to a new Tampa Bay location, or an investor evaluating restaurant-anchored retail assets, the decisions you make in the leasing and acquisition process directly affect your long-term economics. For additional context on the broader <a href="/blog/clearwater-retail-space-guide" className="text-accent underline">Clearwater retail market</a> and <a href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate</a>, see those guides for submarket-specific detail. As a Broker Associate at REMAX Collective with 23+ years of experience, I work with both operators and investors navigating food-and-beverage commercial real estate across Tampa Bay.
+          Tampa Bay&apos;s restaurant and food-and-beverage commercial space market is active, competitive, and nuanced. The strongest submarkets lease quickly, percentage-rent clauses are back, and build-out costs require careful capital planning before you commit. Whether you are a first-time operator using a food hall to build proof-of-concept, an established restaurateur expanding to a new Tampa Bay location, or an investor evaluating restaurant-anchored retail assets, the decisions you make in the leasing and acquisition process directly affect your long-term economics. For additional context on the broader <a href="/blog/clearwater-retail-space-guide" className="text-accent underline">Clearwater retail market</a> and <a href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate</a>, see those guides for submarket-specific detail. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, I work with both operators and investors navigating food-and-beverage commercial real estate across Tampa Bay.
         </p>
 
         <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
@@ -329,7 +329,7 @@ export default function TampaBayRestaurantSpacePage() {
               Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame
             </p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience helping restaurant operators and food-and-beverage investors navigate Tampa Bay&apos;s most active retail corridors. He provides <Link href="/services/tenant-representation">tenant representation</Link> at no cost to operators and serves clients across all 67 Florida counties.
+              Barrett has 24+ years of real estate experience helping restaurant operators and food-and-beverage investors navigate Tampa Bay&apos;s most active retail corridors. He provides <Link href="/services/tenant-representation">tenant representation</Link> at no cost to operators and serves clients across all 67 Florida counties.
             </p>
           </div>
         </div>

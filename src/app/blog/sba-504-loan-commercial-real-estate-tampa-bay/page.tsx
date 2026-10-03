@@ -172,7 +172,7 @@ export default function Sba504LoanTampaBayPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Renting commercial space in Tampa Bay has become increasingly expensive, and availability at attractive price points is shrinking — retail vacancy sits near a historic low of 3.8% as of mid-2026. For business owners who have been writing rent checks for years, the question is no longer whether to look at ownership, but how to finance it. The SBA 504 loan is the most powerful tool available, and Barrett Henry — with 23+ years of commercial real estate experience and a broker with REMAX Collective across{" "}
+          Renting commercial space in Tampa Bay has become increasingly expensive, and availability at attractive price points is shrinking — retail vacancy sits near a historic low of 3.8% as of mid-2026. For business owners who have been writing rent checks for years, the question is no longer whether to look at ownership, but how to finance it. The SBA 504 loan is the most powerful tool available, and Barrett Henry — with 24+ years of commercial real estate experience and a broker with REMAX Collective across{" "}
           <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>,{" "}
           <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>,{" "}
           <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and{" "}
@@ -326,7 +326,7 @@ export default function Sba504LoanTampaBayPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps Tampa Bay business owners find qualified owner-user properties and navigate SBA 504 financing from search through close. Learn more about{" "}
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He helps Tampa Bay business owners find qualified owner-user properties and navigate SBA 504 financing from search through close. Learn more about{" "}
               <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
               or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>
@@ -336,7 +336,7 @@ export default function Sba504LoanTampaBayPage() {
 
       <CTASection
         heading="Ready to Own Your Commercial Space in Tampa Bay?"
-        body="Barrett Henry helps Tampa Bay business owners find the right owner-user property and navigate SBA 504 financing from search through close. With 23+ years in commercial real estate and deep knowledge of the Tampa Bay market, he can tell you quickly whether a property qualifies and what the purchase will actually cost."
+        body="Barrett Henry helps Tampa Bay business owners find the right owner-user property and navigate SBA 504 financing from search through close. With 24+ years in commercial real estate and deep knowledge of the Tampa Bay market, he can tell you quickly whether a property qualifies and what the purchase will actually cost."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

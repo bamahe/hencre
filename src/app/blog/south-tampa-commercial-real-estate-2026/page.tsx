@@ -97,7 +97,7 @@ const schema = {
           name: "Does Barrett Henry help with commercial real estate in South Tampa?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Barrett Henry at REMAX Collective represents buyers, sellers, landlords, and tenants in South Tampa commercial transactions, drawing on 23+ years of real estate experience across all of Hillsborough County and the broader Tampa Bay region. Contact Barrett directly at (813) 733-7907 to discuss your specific situation.",
+            text: "Yes. Barrett Henry at REMAX Collective represents buyers, sellers, landlords, and tenants in South Tampa commercial transactions, drawing on 24+ years of real estate experience across all of Hillsborough County and the broader Tampa Bay region. Contact Barrett directly at (813) 733-7907 to discuss your specific situation.",
           },
         },
       ],
@@ -177,7 +177,7 @@ const faqItems = [
   },
   {
     question: "Does Barrett Henry help with commercial real estate in South Tampa?",
-    answer: "Yes. Barrett Henry at REMAX Collective represents buyers, sellers, landlords, and tenants in South Tampa commercial transactions, drawing on 23+ years of real estate experience across all of Hillsborough County and the broader Tampa Bay region. Contact Barrett directly at (813) 733-7907 to discuss your specific situation.",
+    answer: "Yes. Barrett Henry at REMAX Collective represents buyers, sellers, landlords, and tenants in South Tampa commercial transactions, drawing on 24+ years of real estate experience across all of Hillsborough County and the broader Tampa Bay region. Contact Barrett directly at (813) 733-7907 to discuss your specific situation.",
   },
 ];
 
@@ -272,7 +272,7 @@ export default function BlogPost() {
         <p>Net-leased properties with creditworthy tenants in South Tampa&apos;s primary corridors trade at premium prices — and hold their value through cycles. For investors who understand how triple-net structures work and why landlords and tenants both accept them, our guide to <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">why investors love NNN leases</a> explains the mechanics.</p>
         <p>One cost factor that every investor must underwrite carefully in 2026 is insurance. Florida&apos;s insurance market has not stabilized in the way many hoped, and South Tampa properties — particularly older buildings along the waterfront — carry meaningful insurance cost exposure. Our analysis of <a href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">how Florida&apos;s insurance crisis affects investment properties</a> gives buyers a realistic framework for what to expect and how to model it.</p>
         <p>Before closing on any South Tampa property, a thorough due diligence process is essential. Older buildings throughout the submarket carry environmental history, deferred maintenance, and mechanical issues that require proper evaluation. Review our <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial property due diligence timeline</a> before you waive contingencies.</p>
-        <p>Barrett Henry&apos;s <a href="/services/investment-sales" className="text-accent underline">investment sales advisory</a> services cover acquisitions, dispositions, and valuations across all of <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County</a>. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, Barrett brings the market knowledge and transaction experience that South Tampa&apos;s competitive investment market demands.</p>
+        <p>Barrett Henry&apos;s <a href="/services/investment-sales" className="text-accent underline">investment sales advisory</a> services cover acquisitions, dispositions, and valuations across all of <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County</a>. With 24+ years of real estate experience as a Broker Associate at REMAX Collective, Barrett brings the market knowledge and transaction experience that South Tampa&apos;s competitive investment market demands.</p>
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
@@ -319,7 +319,7 @@ export default function BlogPost() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate &amp; Commercial Real Estate Advisor at REMAX Collective</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 24+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>
@@ -339,7 +339,7 @@ export default function BlogPost() {
 
       <CTASection
         heading="South Tampa Commercial Real Estate Moves Fast"
-        body="The best South Tampa commercial spaces rarely reach public listing platforms before they are leased or under contract. Barrett Henry at REMAX Collective has 23+ years of experience in the Tampa Bay market and the relationships to find opportunities before they disappear. Call (813) 733-7907 or reach out through hencre.com to get a real conversation about what is available in South Tampa and what it is actually worth."
+        body="The best South Tampa commercial spaces rarely reach public listing platforms before they are leased or under contract. Barrett Henry at REMAX Collective has 24+ years of real estate experience in the Tampa Bay market and the relationships to find opportunities before they disappear. Call (813) 733-7907 or reach out through hencre.com to get a real conversation about what is available in South Tampa and what it is actually worth."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

@@ -146,7 +146,7 @@ export default function FranklinMarketPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Franklin County is one of Florida&apos;s most distinctive coastal commercial markets -- small, deliberately constrained by environmental policy, and built around heritage industries including oystering, commercial fishing, and eco-tourism. Apalachicola is the commercial center, with a historic downtown that attracts boutique hospitality and specialty retail operators. Transaction volume is thin and most opportunities trade through local relationships rather than formal listings. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Franklin County through referral partnerships with local brokers who maintain direct community presence.
+            Franklin County is one of Florida&apos;s most distinctive coastal commercial markets -- small, deliberately constrained by environmental policy, and built around heritage industries including oystering, commercial fishing, and eco-tourism. Apalachicola is the commercial center, with a historic downtown that attracts boutique hospitality and specialty retail operators. Transaction volume is thin and most opportunities trade through local relationships rather than formal listings. Barrett Henry, Broker Associate at REMAX Collective with 24+ years of real estate experience, works Franklin County through referral partnerships with local brokers who maintain direct community presence.
           </p>
         </div>
       </section>
@@ -266,7 +266,7 @@ export default function FranklinMarketPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Works in Franklin County</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida commercial real estate experience. Franklin County is a referral territory -- he does not maintain a daily office presence in Apalachicola, but he has professional relationships with local brokers and operators who do. If you are serious about a Franklin County transaction, Barrett connects you with verified local representation while providing strategic guidance and ensuring professional standards throughout the process.
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience. Franklin County is a referral territory -- he does not maintain a daily office presence in Apalachicola, but he has professional relationships with local brokers and operators who do. If you are serious about a Franklin County transaction, Barrett connects you with verified local representation while providing strategic guidance and ensuring professional standards throughout the process.
           </p>
           <p>
             For buyers evaluating Franklin County commercial property, Barrett provides market guidance and realistic expectation-setting for this thin-data market, where{" "}
@@ -306,7 +306,7 @@ export default function FranklinMarketPage() {
 
       <CTASection
         heading="Ready to Talk Franklin County Commercial Real Estate?"
-        body="Whether you are evaluating a downtown Apalachicola commercial property, exploring a hospitality acquisition on the Forgotten Coast, or need an honest assessment of whether this thin market fits your strategy -- Barrett Henry has 23+ years of Florida CRE experience and the REMAX Collective network to guide you."
+        body="Whether you are evaluating a downtown Apalachicola commercial property, exploring a hospitality acquisition on the Forgotten Coast, or need an honest assessment of whether this thin market fits your strategy -- Barrett Henry has 24+ years of commercial real estate experience and the REMAX Collective network to guide you."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

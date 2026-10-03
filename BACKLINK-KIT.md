@@ -11,7 +11,7 @@
 
 ## Profile Description (copy/paste everywhere)
 
-> Barrett Henry is a Broker Associate at REMAX Collective specializing in Florida commercial real estate — tenant representation, landlord leasing, investment sales, dispositions, and CRE valuations. Anchored in Tampa Bay with 23+ years of real estate experience, Barrett serves commercial clients across all 67 Florida counties. Designations include e-PRO, MRP, SRS, and REMAX Hall of Fame.
+> Barrett Henry is a Broker Associate at REMAX Collective specializing in Florida commercial real estate — tenant representation, landlord leasing, investment sales, dispositions, and CRE valuations. Anchored in Tampa Bay with 24+ years of real estate experience, Barrett serves commercial clients across all 67 Florida counties. Designations include e-PRO, MRP, SRS, and REMAX Hall of Fame.
 
 **Website to link:** https://hencre.com
 **Phone:** (813) 733-7907

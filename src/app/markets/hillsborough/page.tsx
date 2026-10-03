@@ -325,7 +325,7 @@ export default function HillsboroughMarketPage() {
           </h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate
+              Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate
               experience — backed by the REMAX Commercial network. He works with buyers, sellers,
               tenants, and landlords across every commercial property type in Hillsborough County.
               His approach starts with understanding your business objectives: whether you need to

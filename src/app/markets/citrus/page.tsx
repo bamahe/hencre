@@ -48,7 +48,7 @@ const faqs = [
   {
     question: "How does Barrett Henry help CRE clients in Citrus County?",
     answer:
-      "Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He provides buyer and seller representation, lease negotiation, investment analysis, and disposition strategy. He helps local business owners find the right retail or office space, investors evaluate income properties, and developers identify land parcels positioned for growth along the county&apos;s commercial corridors.",
+      "Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He provides buyer and seller representation, lease negotiation, investment analysis, and disposition strategy. He helps local business owners find the right retail or office space, investors evaluate income properties, and developers identify land parcels positioned for growth along the county&apos;s commercial corridors.",
   },
   {
     question: "Is Citrus County a good market for 1031 exchange replacement properties?",
@@ -266,7 +266,7 @@ export default function CitrusMarketPage() {
           </h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving
+              Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience serving
               business owners, investors, and developers in Citrus County and across Florida&apos;s Nature Coast. Whether you
               are looking for a retail location along US-19, a medical office near Inverness, or an investment property in an
               emerging growth market, Barrett provides the guidance and negotiation skills to help you find and close the
@@ -294,7 +294,7 @@ export default function CitrusMarketPage() {
           className="w-full rounded-lg"
           unoptimized
         />
-        <p className="mt-2 text-xs text-center text-[#666666]">Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of experience in Florida commercial real estate.</p>
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience.</p>
       </section>
 
       {/* ---- Lead Form ---- */}

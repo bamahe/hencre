@@ -252,7 +252,7 @@ export default function ResidentialSlowdownCREOpportunityPage() {
           Tampa Bay&apos;s residential market softening is a signal to read carefully, not an alarm to react to blindly. The strongest CRE opportunities in this environment are in income-producing assets with defensible tenant bases -- multifamily where renter demand is supported by the for-sale market slowdown, industrial where logistics fundamentals are unchanged, and necessity retail where consumer spending is stable. Distressed opportunities may follow as the cycle plays out.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of real estate experience across residential and commercial markets in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco Counties</Link>, Barrett Henry helps Tampa Bay investors position for current conditions with data-driven analysis rather than guesswork. Whether you are evaluating your first commercial acquisition or repositioning an existing portfolio, understanding how the residential and commercial markets interact in Tampa Bay is the starting point for good decisions. Call (813) 733-7907 to talk through your situation.
+          With 24+ years of real estate experience across residential and commercial markets in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco Counties</Link>, Barrett Henry helps Tampa Bay investors position for current conditions with data-driven analysis rather than guesswork. Whether you are evaluating your first commercial acquisition or repositioning an existing portfolio, understanding how the residential and commercial markets interact in Tampa Bay is the starting point for good decisions. Call (813) 733-7907 to talk through your situation.
         </p>
 
         {/* ---- Mid-article CTA ---- */}
@@ -287,7 +287,7 @@ export default function ResidentialSlowdownCREOpportunityPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
+              Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
             </p>
           </div>
         </div>

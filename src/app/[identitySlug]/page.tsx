@@ -433,7 +433,7 @@ export default async function IdentityPage({
             <p>{city.whyBarrett}</p>
             <p>
               Barrett Henry is a licensed Commercial Real Estate Advisor at REMAX Collective,
-              part of the REMAX Commercial® network, with 23+ years of real estate experience. He provides commercial real estate
+              part of the REMAX Commercial® network, with 24+ years of real estate experience. He provides commercial real estate
               services across {city.county} County including buyer and seller representation,
               tenant and landlord lease negotiation, investment property analysis, and
               disposition strategy. Whether you need office, retail, industrial, or land

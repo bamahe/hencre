@@ -328,7 +328,7 @@ export default function TampaBayNNNCapRates2026Page() {
           The best deals still available in this market are off-market situations, short-time-frame sellers, or properties with near-term lease expirations that scare off passive buyers but can be resolved through tenant relationships or re-tenanting expertise. If you are an active net-lease investor — not just a passive capital deployer — there is still meaningful spread to be found.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay, I work with investors sourcing, underwriting, and closing net-lease acquisitions from single-pad QSR sites to multi-property portfolios across Hillsborough, Pinellas, and Pasco Counties. If you are evaluating a NNN investment or considering selling a net-lease asset, call me at{" "}
+          With 24+ years of commercial real estate experience, I work with investors sourcing, underwriting, and closing net-lease acquisitions from single-pad QSR sites to multi-property portfolios across Hillsborough, Pinellas, and Pasco Counties. If you are evaluating a NNN investment or considering selling a net-lease asset, call me at{" "}
           <a href="tel:+18137337907" className="text-accent underline">
             (813) 733-7907
           </a>{" "}
@@ -365,7 +365,7 @@ export default function TampaBayNNNCapRates2026Page() {
               Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame
             </p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He helps
               investors identify, underwrite, and close on net-lease and other commercial properties across Tampa Bay.
               Learn more about{" "}
               <Link href="/about" className="text-accent underline">

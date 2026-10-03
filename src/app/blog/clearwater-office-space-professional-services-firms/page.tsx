@@ -183,7 +183,7 @@ export default function BlogPost() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience helping professional services firms find and negotiate office space across Pinellas and Hillsborough Counties. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 24+ years of real estate experience helping professional services firms find and negotiate office space across Pinellas and Hillsborough Counties. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>
@@ -198,7 +198,7 @@ export default function BlogPost() {
 
       <CTASection
         heading="Your Lease Window Is Shorter Than You Think — Let's Find the Right Space First"
-        body="Barrett Henry has 23+ years of real estate experience and works across all of Pinellas County through REMAX Collective -- call (813) 733-7907 today to get a shortlist of professional office options in Clearwater before the right space is gone."
+        body="Barrett Henry has 24+ years of real estate experience and works across all of Pinellas County through REMAX Collective -- call (813) 733-7907 today to get a shortlist of professional office options in Clearwater before the right space is gone."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

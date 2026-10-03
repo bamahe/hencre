@@ -35,7 +35,7 @@ const BENEFITS = [
   {
     title: "Expert Execution",
     description:
-      "23+ years of real estate experience backing your referral. Your client gets top-tier CRE service.",
+      "24+ years of real estate experience backing your referral. Your client gets top-tier CRE service.",
   },
   {
     title: "All Property Types",

@@ -387,7 +387,7 @@ export default function CommercialEarnestMoneyPage() {
           Before you sign any commercial purchase contract in Florida, work with a commercial
           real estate broker and attorney who understand the local market and the specific
           property type you are targeting. The broker negotiates the deal structure. The attorney
-          protects your deposit with proper contract language. With 23+ years of real estate
+          protects your deposit with proper contract language. With 24+ years of real estate
           experience advising buyers, sellers, and investors across Tampa Bay, Barrett Henry at
           REMAX Collective has guided investors through the full spectrum of commercial transactions —
           from first acquisitions to complex multi-property portfolios. Call (813) 733-7907
@@ -425,7 +425,7 @@ export default function CommercialEarnestMoneyPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience advising buyers and investors through Florida commercial transactions -- including earnest money negotiation, due diligence, and contract structuring across all property types.
+              Barrett has 24+ years of real estate experience advising buyers and investors through Florida commercial transactions -- including earnest money negotiation, due diligence, and contract structuring across all property types.
             </p>
           </div>
         </div>
@@ -433,7 +433,7 @@ export default function CommercialEarnestMoneyPage() {
 
       <CTASection
         heading="Advising on Your Next Florida CRE Acquisition?"
-        body="Commercial transactions require commercial expertise. Barrett Henry has 23+ years of real estate experience representing buyers and investors across Tampa Bay."
+        body="Commercial transactions require commercial expertise. Barrett Henry has 24+ years of real estate experience representing buyers and investors across Tampa Bay."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

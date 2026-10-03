@@ -150,7 +150,7 @@ export default function GadsdenMarketPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Gadsden County sits northwest of Tallahassee and offers affordable industrial, warehouse, and retail opportunities for users priced out of Leon County. The I-10 corridor near Quincy supports logistics users; downtown Quincy and Havana offer adaptive reuse potential. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Gadsden County through active referral relationships and local partnerships.
+            Gadsden County sits northwest of Tallahassee and offers affordable industrial, warehouse, and retail opportunities for users priced out of Leon County. The I-10 corridor near Quincy supports logistics users; downtown Quincy and Havana offer adaptive reuse potential. Barrett Henry, Broker Associate at REMAX Collective with 24+ years of real estate experience, works Gadsden County through active referral relationships and local partnerships.
           </p>
         </div>
       </section>
@@ -168,7 +168,7 @@ export default function GadsdenMarketPage() {
             and patient tenant sourcing.
           </p>
           <p>
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience. He works
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience. He works
             Gadsden County through referral relationships and local broker partnerships. Compare this market to other
             Panhandle counties:{" "}
             <Link href="/markets/escambia" className="font-semibold text-black underline">Escambia County</Link>{" "}
@@ -300,7 +300,7 @@ export default function GadsdenMarketPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Works in Gadsden County</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience, holding designations
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, holding designations
             including e-PRO, MRP, SRS, and REMAX Hall of Fame. Gadsden County is a referral market for his practice -- he does not
             operate a full-time office there, but he maintains active relationships with local partners and handles transactions
             professionally across industrial, retail, and{" "}
@@ -343,7 +343,7 @@ export default function GadsdenMarketPage() {
 
       <CTASection
         heading="Ready to Talk Gadsden County Commercial Real Estate?"
-        body="Whether you are evaluating I-10 industrial space, exploring a Quincy or Havana property, or need guidance on what this market can realistically deliver -- Barrett Henry has the network and 23+ years of Florida CRE experience to give you straight answers and professional execution."
+        body="Whether you are evaluating I-10 industrial space, exploring a Quincy or Havana property, or need guidance on what this market can realistically deliver -- Barrett Henry has the network and 24+ years of commercial real estate experience to give you straight answers and professional execution."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in Holmes County?",
     answer:
-      "Barrett approaches Holmes County as part of his statewide Florida commercial practice, with 23+ years of experience as a Broker Associate at REMAX Collective. He covers Holmes County as a referral and advisory territory, focused on honest market assessment and connecting investors with the right opportunities. He applies the same professional standards -- market research, comparable analysis, clear negotiation -- whether the deal is in Tampa Bay or in Holmes County.",
+      "Barrett approaches Holmes County as part of his statewide Florida commercial practice, with 24+ years of real estate experience as a Broker Associate at REMAX Collective. He covers Holmes County as a referral and advisory territory, focused on honest market assessment and connecting investors with the right opportunities. He applies the same professional standards -- market research, comparable analysis, clear negotiation -- whether the deal is in Tampa Bay or in Holmes County.",
   },
 ];
 
@@ -257,7 +257,7 @@ export default function Page() {
           <h2>How Barrett Henry Works Holmes County</h2>
           <p>
             Barrett approaches Holmes County with the same professionalism and market rigor he applies to every Florida commercial
-            market, with 23+ years of experience as a Broker Associate at{" "}
+            market, with 24+ years of real estate experience as a Broker Associate at{" "}
             <Link href="/remax-commercial-florida">REMAX Collective</Link>. He covers the county as a referral and advisory
             territory -- focused on honest market assessment rather than a high-volume listing operation.
           </p>

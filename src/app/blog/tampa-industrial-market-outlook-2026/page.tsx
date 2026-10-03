@@ -228,7 +228,7 @@ export default function TampaIndustrialOutlookPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Whether you are looking to invest in <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial property</Link>, lease warehouse space for your business, or sell an existing industrial asset, the Tampa Bay market offers significant opportunity. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I help clients navigate this competitive sector with data-driven analysis and local market knowledge. For context on adjacent markets, see our analysis of <Link href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland warehouse and industrial growth</Link> along the I-4 corridor. The key is acting with good information — not just speed.
+          Whether you are looking to invest in <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial property</Link>, lease warehouse space for your business, or sell an existing industrial asset, the Tampa Bay market offers significant opportunity. With 24+ years of real estate experience as a Broker Associate at REMAX Collective, I help clients navigate this competitive sector with data-driven analysis and local market knowledge. For context on adjacent markets, see our analysis of <Link href="/blog/lakeland-warehouse-industrial-growth" className="text-accent underline">Lakeland warehouse and industrial growth</Link> along the I-4 corridor. The key is acting with good information — not just speed.
         </p>
 
         <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
@@ -243,7 +243,7 @@ export default function TampaIndustrialOutlookPage() {
         <div className="rounded-lg bg-[#f5f5f5] p-6">
           <p className="text-sm font-semibold text-black">About the Author</p>
           <p className="mt-2 text-sm text-[#666666]">
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
           </p>
         </div>
       </section>

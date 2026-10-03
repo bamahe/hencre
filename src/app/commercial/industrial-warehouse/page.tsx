@@ -71,7 +71,7 @@ export default function IndustrialWarehousePage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Industrial and warehouse space covers distribution centers, flex buildings, manufacturing facilities, and cold storage. Florida industrial vacancy rates have remained historically tight, driven by e-commerce fulfillment demand and supply chain reshoring. Tampa Bay&apos;s I-75 corridor and the Lakeland/Plant City industrial zone are among the most active in the Southeast. With 23+ years of real estate experience, Barrett Henry specializes in matching industrial users and investors to the right assets across all Florida submarkets.
+            Industrial and warehouse space covers distribution centers, flex buildings, manufacturing facilities, and cold storage. Florida industrial vacancy rates have remained historically tight, driven by e-commerce fulfillment demand and supply chain reshoring. Tampa Bay&apos;s I-75 corridor and the Lakeland/Plant City industrial zone are among the most active in the Southeast. With 24+ years of real estate experience, Barrett Henry specializes in matching industrial users and investors to the right assets across all Florida submarkets.
           </p>
         </div>
       </section>

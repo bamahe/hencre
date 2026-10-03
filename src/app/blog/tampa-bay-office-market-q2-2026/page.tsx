@@ -243,7 +243,7 @@ export default function TampaBayOfficeMarketQ2Page() {
           For tenants, the window to find quality space with generous landlord concessions is narrowing. For investors, the bifurcation creates both compelling value-add opportunities and genuine pitfalls in the wrong buildings. Either way, navigating this market requires current, local intelligence — not trailing-12-month averages or national office narratives that do not reflect Tampa Bay&apos;s specific dynamics.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of real estate experience across Tampa Bay&apos;s commercial market, I work with tenants identifying space and investors evaluating acquisitions across Hillsborough, Pinellas, and Pasco Counties. If you are making an office decision in the next 12 months, let&apos;s talk before the market makes it for you.
+          With 24+ years of real estate experience across Tampa Bay&apos;s commercial market, I work with tenants identifying space and investors evaluating acquisitions across Hillsborough, Pinellas, and Pasco Counties. If you are making an office decision in the next 12 months, let&apos;s talk before the market makes it for you.
         </p>
 
         <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
@@ -272,7 +272,7 @@ export default function TampaBayOfficeMarketQ2Page() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps tenants find office space and investors evaluate acquisitions across Tampa Bay&apos;s commercial market. Learn more about{" "}
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He helps tenants find office space and investors evaluate acquisitions across Tampa Bay&apos;s commercial market. Learn more about{" "}
               <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
               or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>

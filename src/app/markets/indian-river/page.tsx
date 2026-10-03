@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry serve Indian River County commercial clients?",
     answer:
-      "Barrett works Indian River County as part of his statewide Florida commercial practice. As a Broker Associate at REMAX Collective with 23+ years of experience, he helps investors evaluate healthcare, retail, and professional office properties in Vero Beach and Sebastian, and assists with agricultural land transactions involving Indian River citrus and cattle properties. His value is honest market assessment, statewide pricing context, and qualified buyer and seller introductions.",
+      "Barrett works Indian River County as part of his statewide Florida commercial practice. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, he helps investors evaluate healthcare, retail, and professional office properties in Vero Beach and Sebastian, and assists with agricultural land transactions involving Indian River citrus and cattle properties. His value is honest market assessment, statewide pricing context, and qualified buyer and seller introductions.",
   },
 ];
 
@@ -259,7 +259,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Indian River County</h2>
           <p>
-            Barrett approaches Indian River County as part of his statewide Florida commercial practice. With 23+ years of
+            Barrett approaches Indian River County as part of his statewide Florida commercial practice. With 24+ years of
             experience as a Broker Associate at REMAX Collective, he helps investors evaluate healthcare retail, professional
             office, and agricultural land with honest market assessment and statewide pricing context. His value is connecting
             buyers, sellers, and tenants with the right opportunities through{" "}

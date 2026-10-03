@@ -264,7 +264,7 @@ export default function ClayMarketPage() {
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Clay County is a referral territory for me, but I do not treat it casually. As a
-              Broker Associate at REMAX Collective with 23+ years of real estate experience, I connect
+              Broker Associate at REMAX Collective with 24+ years of real estate experience, I connect
               tenant prospects with available space, help property owners understand positioning and
               management strategies, and provide market intelligence for acquisitions or development
               feasibility.

@@ -149,7 +149,7 @@ export default function BrevardMarketPage() {
               here are looking at a market fueled by real, tangible demand from tenants that are not going anywhere.
             </p>
             <p>
-              With 23+ years of real estate experience, Barrett Henry understands Brevard&apos;s positioning as a Tier
+              With 24+ years of real estate experience, Barrett Henry understands Brevard&apos;s positioning as a Tier
               2 market with genuine Tier 1 demand drivers. The market has not been picked over by every institutional
               investor yet, which means real opportunities still exist for buyers who know where to look. Use our{" "}
               <Link href="/calculators/cap-rate" className="text-accent underline">
@@ -367,7 +367,7 @@ export default function BrevardMarketPage() {
           </h2>
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
-              With 23+ years of real estate experience, Barrett Henry specializes in{" "}
+              With 24+ years of real estate experience, Barrett Henry specializes in{" "}
               <Link href="/services/tenant-representation" className="text-accent underline">
                 tenant representation
               </Link>

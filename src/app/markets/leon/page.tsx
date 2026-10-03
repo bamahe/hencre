@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in Leon County?",
     answer:
-      "Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience and a statewide Florida commercial practice. For Leon County and Tallahassee assignments, he provides market context, investment analysis support, and professional introductions to vetted North Florida specialists. His statewide platform makes him an effective first contact for investors or tenants with Tallahassee-area commercial interests.",
+      "Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience and a statewide Florida commercial practice. For Leon County and Tallahassee assignments, he provides market context, investment analysis support, and professional introductions to vetted North Florida specialists. His statewide platform makes him an effective first contact for investors or tenants with Tallahassee-area commercial interests.",
   },
 ];
 
@@ -253,7 +253,7 @@ export default function Page() {
           <h2>How Barrett Henry Works Leon County</h2>
           <p>
             Barrett approaches Leon County as part of his statewide Florida commercial practice, serving all 67 Florida
-            counties as a Broker Associate at REMAX Collective with 23+ years of experience. For Tallahassee assignments,
+            counties as a Broker Associate at REMAX Collective with 24+ years of real estate experience. For Tallahassee assignments,
             he provides investment analysis, tenant representation support, and professional introductions to vetted North
             Florida specialists.
           </p>
@@ -294,7 +294,7 @@ export default function Page() {
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Leon County?"
-        body="Barrett Henry brings 23+ years of commercial real estate experience and statewide Florida context to government office, university retail, and healthcare investment in Tallahassee."
+        body="Barrett Henry brings 24+ years of commercial real estate experience and statewide Florida context to government office, university retail, and healthcare investment in Tallahassee."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

@@ -303,7 +303,7 @@ export default function InvestmentPropertyDivorceLiquidationPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
               operating under the REMAX Commercial division. He works with investment property owners,

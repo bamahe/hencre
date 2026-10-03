@@ -81,7 +81,7 @@ export default function MultifamilyPage() {
             Multifamily real estate includes apartment complexes with 5+ units, valued as income-producing commercial assets.
             According to the National Apartment Association, Florida is the third-largest apartment market in the U.S. with over
             1.2 million rental units, driven by population growth exceeding 300,000 residents annually. Barrett Henry, Broker
-            Associate at REMAX Collective with 23+ years of real estate experience, specializes in multifamily acquisitions,
+            Associate at REMAX Collective with 24+ years of real estate experience, specializes in multifamily acquisitions,
             dispositions, and value-add investments across{" "}
             <Link href="/markets/hillsborough" className="underline">Hillsborough</Link>,{" "}
             <Link href="/markets/pasco" className="underline">Pasco</Link>,{" "}
@@ -97,7 +97,7 @@ export default function MultifamilyPage() {
           <p>
             Florida adds over 300,000 new residents annually, and they all need somewhere to live. That population growth,
             combined with rising homeownership costs, keeps demand for rental housing high across the state. Barrett Henry is a
-            Broker Associate at REMAX Collective with 23+ years of real estate experience handling multifamily acquisitions and
+            Broker Associate at REMAX Collective with 24+ years of real estate experience handling multifamily acquisitions and
             dispositions across all Florida markets. Multifamily is one of the most resilient and in-demand CRE asset classes
             in Florida, outperforming retail and office during economic downturns.
           </p>
@@ -234,7 +234,7 @@ export default function MultifamilyPage() {
           className="w-full rounded-lg"
           unoptimized
         />
-        <p className="mt-2 text-xs text-center text-[#666666]">Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida commercial real estate experience.</p>
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience.</p>
       </section>
 
       {/* ---- FAQ section ---- */}

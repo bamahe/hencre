@@ -134,7 +134,7 @@ function buildPrompt(category, city, businessType, existingSlugs) {
     topicInstruction = `Write an investor-focused article about commercial real estate opportunities in ${cityName}, ${countyName} County, Florida. This could cover: leasing strategies, commercial property management considerations, NNN investment opportunities, cap rate trends, what makes this submarket attractive for CRE investors, or landlord strategies for this area. Pick the angle that creates the most useful content for an investor or landlord considering ${cityName}.`;
   }
 
-  return `You are writing a blog post for hencre.com — Barrett Henry's commercial real estate website. Barrett is a Commercial Real Estate Advisor at REMAX Collective, operating under REMAX Commercial Real Estate for commercial transactions. He has 23+ years of real estate experience (NEVER tie this to Tampa Bay specifically) and serves all 67 Florida counties from three offices in Tampa, Largo, and Brandon.
+  return `You are writing a blog post for hencre.com — Barrett Henry's commercial real estate website. Barrett is a Commercial Real Estate Advisor at REMAX Collective, operating under REMAX Commercial Real Estate for commercial transactions. He has 24+ years of real estate experience (NEVER tie this to Tampa Bay specifically) and serves all 67 Florida counties from three offices in Tampa, Largo, and Brandon.
 
 ${topicInstruction}
 
@@ -451,7 +451,7 @@ export default function BlogPost() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">REALTOR\\u00AE & Commercial Real Estate Advisor at REMAX Collective</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 24+ years of real estate experience and operates under the REMAX Commercial\\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>

@@ -291,7 +291,7 @@ export default function TampaBayMultifamilyCapRates2026Page() {
           to deploy, the combination of expanded cap rates, lower financing costs, and motivated sellers creates the most favorable entry window since 2019. The window is not indefinite — if commercial rates continue their gradual decline, institutional buyer demand will return and compress cap rates again.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience across multiple market cycles. He evaluates Tampa Bay <Link href="/services/investment-sales" className="text-accent underline">multifamily acquisitions</Link>, sources off-market deals, and models deal-specific returns for clients at every investment level. Use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> or the <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to run your own numbers, then contact Barrett to discuss current opportunities or to have a specific deal underwritten.
+          Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience across multiple market cycles. He evaluates Tampa Bay <Link href="/services/investment-sales" className="text-accent underline">multifamily acquisitions</Link>, sources off-market deals, and models deal-specific returns for clients at every investment level. Use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> or the <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to run your own numbers, then contact Barrett to discuss current opportunities or to have a specific deal underwritten.
         </p>
 
         <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
@@ -301,7 +301,7 @@ export default function TampaBayMultifamilyCapRates2026Page() {
         <div className="rounded-lg bg-[#f5f5f5] p-6">
           <p className="text-sm font-semibold text-black">About the Author</p>
           <p className="mt-2 text-sm text-[#666666]">
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
           </p>
         </div>
       </section>

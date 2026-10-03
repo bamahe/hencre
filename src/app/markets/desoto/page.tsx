@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "How does Barrett Henry serve the DeSoto County market?",
     answer:
-      "Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience. While his primary market is Tampa Bay, DeSoto County is an active referral territory where he handles deals directly -- land sales, commercial leasing, investor advisory, and market analysis. He also connects clients with specialists when dedicated local presence is needed.",
+      "Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience. While his primary market is Tampa Bay, DeSoto County is an active referral territory where he handles deals directly -- land sales, commercial leasing, investor advisory, and market analysis. He also connects clients with specialists when dedicated local presence is needed.",
   },
 ];
 
@@ -149,7 +149,7 @@ export default function DeSotoMarketPage() {
             DeSoto County is Southwest Florida&apos;s most underrated emerging market. Agricultural land, solar development, and Arcadia&apos;s
             rural tourism draw define the opportunity set. Commercial inventory is tight in the downtown antique district, creating
             pricing power for existing owners. Land values remain well below coastal Southwest Florida markets. Barrett Henry,
-            Broker Associate at REMAX Collective with 23+ years of real estate experience, serves DeSoto County through direct
+            Broker Associate at REMAX Collective with 24+ years of real estate experience, serves DeSoto County through direct
             transactions and referral partnerships.
           </p>
         </div>
@@ -265,7 +265,7 @@ export default function DeSotoMarketPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Serves the DeSoto Market</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
-              As a Broker Associate at REMAX Collective with 23+ years of commercial real estate experience, Barrett brings the same
+              As a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, Barrett brings the same
               rigorous approach he uses in Tampa Bay markets to DeSoto transactions: no hype, grounded analysis, and a focus on what
               actually works for your investment or operational goals.
             </p>
@@ -312,7 +312,7 @@ export default function DeSotoMarketPage() {
 
       <CTASection
         heading="Ready to Talk DeSoto County Commercial Real Estate?"
-        body="Whether you are a buyer, seller, investor, or tenant evaluating DeSoto County land, retail, or commercial property -- Barrett Henry brings 23+ years of Florida CRE experience and the REMAX Collective network to move your deal forward."
+        body="Whether you are a buyer, seller, investor, or tenant evaluating DeSoto County land, retail, or commercial property -- Barrett Henry brings 24+ years of commercial real estate experience and the REMAX Collective network to move your deal forward."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

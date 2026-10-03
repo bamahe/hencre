@@ -138,7 +138,7 @@ export default function BradentonCREPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Bradenton and <a href="/markets/manatee" className="text-accent underline">Manatee County</a> sit at the southern edge of the Tampa Bay metro, offering commercial real estate opportunities that combine strong population growth with pricing below the Tampa core market. For investors, tenants, and developers, Bradenton represents a market where fundamentals are solid and upside potential remains significant. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, I work this market regularly alongside <a href="/markets/sarasota" className="text-accent underline">Sarasota</a> and the broader I-75 corridor.
+          Bradenton and <a href="/markets/manatee" className="text-accent underline">Manatee County</a> sit at the southern edge of the Tampa Bay metro, offering commercial real estate opportunities that combine strong population growth with pricing below the Tampa core market. For investors, tenants, and developers, Bradenton represents a market where fundamentals are solid and upside potential remains significant. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, I work this market regularly alongside <a href="/markets/sarasota" className="text-accent underline">Sarasota</a> and the broader I-75 corridor.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Is Bradenton Growing as a Commercial Market?</h2>
@@ -195,7 +195,7 @@ export default function BradentonCREPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Bradenton and Manatee County offer commercial real estate opportunities across every property type — with pricing below the Tampa core market and growth fundamentals that support continued expansion. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I help investors and business owners evaluate opportunities in Bradenton with the same rigor and market knowledge I bring to every deal across the Tampa Bay region. For comparison, also explore our analysis of the adjacent <a href="/markets/polk" className="text-accent underline">Polk County CRE market</a> and <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County</a> for a full picture of the I-75 corridor.
+          Bradenton and Manatee County offer commercial real estate opportunities across every property type — with pricing below the Tampa core market and growth fundamentals that support continued expansion. With 24+ years of real estate experience as a Broker Associate at REMAX Collective, I help investors and business owners evaluate opportunities in Bradenton with the same rigor and market knowledge I bring to every deal across the Tampa Bay region. For comparison, also explore our analysis of the adjacent <a href="/markets/polk" className="text-accent underline">Polk County CRE market</a> and <a href="/markets/hillsborough" className="text-accent underline">Hillsborough County</a> for a full picture of the I-75 corridor.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>

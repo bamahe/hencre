@@ -88,7 +88,7 @@ export async function sendAutoResponder(data: AutoResponderData): Promise<{ succ
         I received your inquiry and will be in touch shortly to discuss how I can help.
       </p>
       <p>
-        With 23+ years of real estate experience and deep knowledge of the Florida
+        With 24+ years of real estate experience and deep knowledge of the Florida
         commercial market, I'm here to guide you through every step of the process.
       </p>
       <p>

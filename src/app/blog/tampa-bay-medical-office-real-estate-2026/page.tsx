@@ -283,7 +283,7 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
           Tampa Bay&apos;s medical office market is earning its reputation as one of the most durable segments of the regional commercial real estate landscape. Demographic growth, hospital system expansion, and the outpatient shift are sustaining demand while supply remains constrained. Recent transactions confirm that capital is actively seeking healthcare-adjacent assets in this market.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          As a Broker Associate at REMAX Collective with 23+ years of commercial real estate experience across Tampa Bay, Barrett Henry works with both healthcare tenants navigating their space search and investors evaluating medical office acquisitions. Whether you are looking for <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> or <Link href="/services/investment-sales" className="text-accent underline">investment acquisition support</Link>, call <a href="tel:8137337907" className="text-accent underline">(813) 733-7907</a> or <Link href="/contact" className="text-accent underline">contact Barrett here</Link>.
+          As a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, Barrett Henry works with both healthcare tenants navigating their space search and investors evaluating medical office acquisitions. Whether you are looking for <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> or <Link href="/services/investment-sales" className="text-accent underline">investment acquisition support</Link>, call <a href="tel:8137337907" className="text-accent underline">(813) 733-7907</a> or <Link href="/contact" className="text-accent underline">contact Barrett here</Link>.
         </p>
 
         <p className="mt-8 text-xs text-[#666666]">Last updated: August 2026</p>
@@ -293,7 +293,7 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
         <div className="rounded-lg bg-[#f5f5f5] p-6">
           <p className="text-sm font-semibold text-black">About the Author</p>
           <p className="mt-2 text-sm text-[#666666]">
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors and healthcare tenants across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience serving investors and healthcare tenants across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
           </p>
         </div>
       </section>

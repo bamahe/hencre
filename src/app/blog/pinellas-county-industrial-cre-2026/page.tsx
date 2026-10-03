@@ -258,7 +258,7 @@ export default function PinellasCountyIndustrialCRE2026Page() {
           Business owners who currently occupy industrial space they own in Pinellas County and are considering a sale should be aware that the GID transaction has reset pricing expectations upward for the market. If you are contemplating a sale of your owned industrial building — whether as a standalone exit or as part of a broader capital repositioning strategy — the current institutional appetite for Pinellas product means now is not a bad time to test the market.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay, I work with industrial tenants navigating lease renewals in tight markets, investors sourcing and acquiring industrial assets in Pinellas and Hillsborough counties, and business owners evaluating whether owning or leasing their space makes sense at current market values. If the Pinellas industrial market is relevant to your business or investment strategy, I am glad to walk through what the current data actually means for your specific situation.
+          With 24+ years of commercial real estate experience, I work with industrial tenants navigating lease renewals in tight markets, investors sourcing and acquiring industrial assets in Pinellas and Hillsborough counties, and business owners evaluating whether owning or leasing their space makes sense at current market values. If the Pinellas industrial market is relevant to your business or investment strategy, I am glad to walk through what the current data actually means for your specific situation.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -285,7 +285,7 @@ export default function PinellasCountyIndustrialCRE2026Page() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of commercial real estate experience across Tampa Bay, including Pinellas County industrial and flex space
+              Barrett has 24+ years of commercial real estate experience, including Pinellas County industrial and flex space
               for tenants, investors, and owner-occupants.
             </p>
           </div>

@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in Lake County?",
     answer:
-      "Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He approaches Lake County as part of his statewide Florida commercial practice, providing market analysis, investment support, and professional introductions for clients with commercial interests in Clermont, Leesburg, Mount Dora, or the US-27 corridor. He serves all 67 Florida counties.",
+      "Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He approaches Lake County as part of his statewide Florida commercial practice, providing market analysis, investment support, and professional introductions for clients with commercial interests in Clermont, Leesburg, Mount Dora, or the US-27 corridor. He serves all 67 Florida counties.",
   },
 ];
 
@@ -249,7 +249,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Lake County</h2>
           <p>
-            Barrett approaches Lake County as part of his statewide Florida commercial practice, with 23+ years of experience
+            Barrett approaches Lake County as part of his statewide Florida commercial practice, with 24+ years of real estate experience
             as a Broker Associate at REMAX Collective. He provides market analysis, land and retail investment support, and
             professional introductions for clients with commercial interests along the US-27 corridor, in Clermont, or in
             the Leesburg healthcare market.
@@ -294,7 +294,7 @@ export default function Page() {
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Lake County?"
-        body="Barrett Henry has 23+ years of commercial real estate experience and Florida-wide market context for retail, land, and investment opportunities in fast-growing Lake County."
+        body="Barrett Henry has 24+ years of commercial real estate experience and Florida-wide market context for retail, land, and investment opportunities in fast-growing Lake County."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

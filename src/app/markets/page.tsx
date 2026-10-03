@@ -439,7 +439,7 @@ export default function MarketsIndexPage() {
       {/* ---- CTA ---- */}
       <CTASection
         heading="Need Help Navigating These Markets?"
-        body="Barrett Henry brings 23+ years of real estate experience to every commercial transaction. Whether you are buying, selling, leasing, or investing, get expert guidance tailored to your target market. Call (813) 733-7907."
+        body="Barrett Henry brings 24+ years of real estate experience to every commercial transaction. Whether you are buying, selling, leasing, or investing, get expert guidance tailored to your target market. Call (813) 733-7907."
         buttonText="Start a Conversation"
         buttonHref="/contact"
       />

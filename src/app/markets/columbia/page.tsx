@@ -149,7 +149,7 @@ export default function ColumbiaMarketPage() {
             Columbia County&apos;s commercial market is anchored by the I-75/I-10 intersection -- creating a natural logistics and
             distribution hub -- plus the VA Medical Center, which drives stable medical office demand. Highway retail, distribution
             industrial, and medical properties are the primary active asset classes. Barrett Henry, Broker Associate at REMAX Collective
-            with 23+ years of real estate experience, works this market through referral relationships and direct client engagements.
+            with 24+ years of real estate experience, works this market through referral relationships and direct client engagements.
           </p>
         </div>
       </section>
@@ -306,7 +306,7 @@ export default function ColumbiaMarketPage() {
 
       <CTASection
         heading="Ready to Talk Columbia County Commercial Real Estate?"
-        body="Whether you are a logistics operator, investor, or retail tenant evaluating Lake City and the I-75/I-10 corridor -- Barrett Henry brings 23+ years of Florida CRE experience and the REMAX Collective network to move your deal forward."
+        body="Whether you are a logistics operator, investor, or retail tenant evaluating Lake City and the I-75/I-10 corridor -- Barrett Henry brings 24+ years of commercial real estate experience and the REMAX Collective network to move your deal forward."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

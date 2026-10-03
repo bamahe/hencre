@@ -282,7 +282,7 @@ export default function CAMChargesGuidePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          CAM charges are a significant component of your total occupancy cost and deserve as much attention as base rent during lease negotiations. Understanding what is included, negotiating a cap, excluding inappropriate expenses, and exercising your audit rights can save you thousands over the life of your lease. With 23+ years of real estate experience, Barrett Henry helps tenants understand and negotiate CAM provisions that protect their bottom line. The{" "}
+          CAM charges are a significant component of your total occupancy cost and deserve as much attention as base rent during lease negotiations. Understanding what is included, negotiating a cap, excluding inappropriate expenses, and exercising your audit rights can save you thousands over the life of your lease. With 24+ years of real estate experience, Barrett Henry helps tenants understand and negotiate CAM provisions that protect their bottom line. The{" "}
           <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link>{" "}
           process includes a full review of all lease economics before you sign.
         </p>
@@ -311,7 +311,7 @@ export default function CAMChargesGuidePage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps tenants review lease terms, negotiate CAM provisions, and protect their bottom line across Florida. Learn more about{" "}
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He helps tenants review lease terms, negotiate CAM provisions, and protect their bottom line across Florida. Learn more about{" "}
               <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
               or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>

@@ -63,7 +63,7 @@ const FAQS = [
   },
   {
     q: "Is Barrett Henry a REMAX Commercial Real Estate advisor?",
-    a: "Yes. Barrett Henry is a licensed Broker Associate at REMAX Collective, operating under the REMAX Commercial division for commercial property transactions. He has 23+ years of real estate experience, holds e-PRO, MRP, and SRS designations, and has been inducted into the REMAX Hall of Fame. Barrett serves all 67 Florida counties with a focus on the Tampa Bay market.",
+    a: "Yes. Barrett Henry is a licensed Broker Associate at REMAX Collective, operating under the REMAX Commercial division for commercial property transactions. He has 24+ years of real estate experience, holds e-PRO, MRP, and SRS designations, and has been inducted into the REMAX Hall of Fame. Barrett serves all 67 Florida counties with a focus on the Tampa Bay market.",
   },
 ] as const;
 
@@ -396,7 +396,7 @@ export default function RemaxCommercialPage() {
             <p>
               Barrett Henry is a licensed Broker Associate at REMAX
               Collective, operating under the REMAX Commercial® division for all
-              commercial property transactions in Florida. With 23+ years of real
+              commercial property transactions in Florida. With 24+ years of real
               estate experience, Barrett brings a depth of knowledge that covers
               both residential and commercial markets — but his focus today is
               exclusively on commercial real estate.

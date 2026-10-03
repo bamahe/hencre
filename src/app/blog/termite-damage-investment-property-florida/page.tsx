@@ -255,7 +255,7 @@ export default function TermiteDamageInvestmentPropertyPage() {
           Barrett Henry at HenCRE evaluates Florida investment properties with WDO findings
           across all exit scenarios, including repair-and-list, as-is conventional listing, and
           direct cash sale. He provides a side-by-side net proceeds comparison before any capital
-          commitment is made. With 23+ years of real estate experience and offices in Tampa,
+          commitment is made. With 24+ years of real estate experience and offices in Tampa,
           Largo, and Brandon, Barrett serves all 67 Florida counties. Contact us to schedule
           an investment property evaluation.
         </p>
@@ -292,7 +292,7 @@ export default function TermiteDamageInvestmentPropertyPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
               operating under the REMAX Commercial division. He evaluates investment property exit

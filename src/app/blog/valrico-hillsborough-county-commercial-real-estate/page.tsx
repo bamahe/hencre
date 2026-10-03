@@ -45,7 +45,7 @@ const faqItems = [
   },
   {
     question: "How do I find commercial listings or an experienced broker in the Valrico area?",
-    answer: "Working with a commercial real estate broker who specializes in the Hillsborough County submarket -- including Valrico, Brandon, and surrounding areas -- gives you access to both listed and off-market opportunities. Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving the greater Tampa Bay region.",
+    answer: "Working with a commercial real estate broker who specializes in the Hillsborough County submarket -- including Valrico, Brandon, and surrounding areas -- gives you access to both listed and off-market opportunities. Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience.",
   }
 ];
 
@@ -233,7 +233,7 @@ export default function BlogPost() {
           <Link href="/blog/riverview-fl-commercial-real-estate-2026" className="text-accent underline">Riverview</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience across Tampa Bay. Whether you are a tenant looking for your first location, an investor seeking value-add retail assets, or a business owner considering purchasing your own building, Valrico deserves a serious look and an honest broker to walk you through it.{" "}
+          Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. Whether you are a tenant looking for your first location, an investor seeking value-add retail assets, or a business owner considering purchasing your own building, Valrico deserves a serious look and an honest broker to walk you through it.{" "}
           <Link href="/contact" className="text-accent underline">Contact Barrett directly</Link> at (813) 733-7907.
         </p>
 
@@ -270,7 +270,7 @@ export default function BlogPost() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience across Tampa Bay. He helps investors evaluate acquisitions, tenants negotiate leases, and business owners understand the full commercial real estate landscape in Hillsborough County and beyond.
+              Barrett has 24+ years of real estate experience. He helps investors evaluate acquisitions, tenants negotiate leases, and business owners understand the full commercial real estate landscape in Hillsborough County and beyond.
             </p>
           </div>
         </div>

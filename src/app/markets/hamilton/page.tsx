@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in Hamilton County?",
     answer:
-      "Barrett treats Hamilton County as a referral and agricultural territory within his statewide Florida practice. As a Broker Associate at REMAX Collective with 23+ years of experience, he focuses on connecting agricultural land buyers and sellers, highway corridor investors, and timber-related operators with the right properties and counterparties. His value here is honest market assessment, statewide context, and qualified introductions rather than a high-volume listing operation.",
+      "Barrett treats Hamilton County as a referral and agricultural territory within his statewide Florida practice. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, he focuses on connecting agricultural land buyers and sellers, highway corridor investors, and timber-related operators with the right properties and counterparties. His value here is honest market assessment, statewide context, and qualified introductions rather than a high-volume listing operation.",
   },
 ];
 
@@ -248,7 +248,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Hamilton County</h2>
           <p>
-            Barrett approaches Hamilton County as part of his statewide Florida commercial practice, with 23+ years of experience
+            Barrett approaches Hamilton County as part of his statewide Florida commercial practice, with 24+ years of real estate experience
             as a Broker Associate at REMAX Collective. He connects agricultural land buyers and sellers, highway corridor investors,
             and timber-related operators with the right properties and qualified counterparties. His approach here is honest
             assessment — he does not overstate the market and he understands the specific pace and relationship dynamics of

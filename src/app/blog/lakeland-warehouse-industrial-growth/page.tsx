@@ -183,7 +183,7 @@ export default function LakelandIndustrialGrowthPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Lakeland&apos;s industrial market has moved from emerging to established. The fundamentals are strong, the infrastructure is improving, and the cost advantages remain significant compared to coastal markets. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I help tenants find the right space and investors identify opportunities across the I-4 corridor and greater Tampa Bay region. For broader context on the Tampa Bay industrial picture, see the <a href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">Tampa industrial market outlook 2026</a>. The Lakeland industrial story is still being written, and the next few years look promising.
+          Lakeland&apos;s industrial market has moved from emerging to established. The fundamentals are strong, the infrastructure is improving, and the cost advantages remain significant compared to coastal markets. With 24+ years of real estate experience as a Broker Associate at REMAX Collective, I help tenants find the right space and investors identify opportunities across the I-4 corridor and greater Tampa Bay region. For broader context on the Tampa Bay industrial picture, see the <a href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">Tampa industrial market outlook 2026</a>. The Lakeland industrial story is still being written, and the next few years look promising.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>

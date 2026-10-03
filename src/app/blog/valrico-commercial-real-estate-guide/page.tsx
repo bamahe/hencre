@@ -320,7 +320,7 @@ export default function BlogPost() {
 
         <h2>Working with a Local CRE Expert</h2>
         <p>
-          With 23+ years of real estate experience, Barrett Henry understands markets like Valrico where deal flow is not always
+          With 24+ years of real estate experience, Barrett Henry understands markets like Valrico where deal flow is not always
           well-publicized. Understanding which parcels carry deferred maintenance issues, which landlords are motivated, and which
           intersections are actually performing requires boots-on-the-ground experience in Hillsborough County.
         </p>
@@ -380,7 +380,7 @@ export default function BlogPost() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective</p>
             <p className="mt-2 text-sm text-[#666666]">
-              With 23+ years of real estate experience, Barrett Henry advises business owners and investors across all 67
+              With 24+ years of real estate experience, Barrett Henry advises business owners and investors across all 67
               Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>

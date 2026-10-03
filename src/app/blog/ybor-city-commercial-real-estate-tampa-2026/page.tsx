@@ -262,7 +262,7 @@ export default function YborCityCommercialRealEstatePage() {
           For investors, the opportunity is to identify the right product type at the right basis before the anchors open and stabilized yield compresses further. That requires current, local knowledge of what is actually available, what is permitted, and what the development pipeline realistically delivers and when.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience and deep roots in Tampa Bay&apos;s CRE market, I work with tenants identifying space and investors evaluating acquisitions across Hillsborough, Pinellas, and Pasco Counties — including the Ybor City submarket as it evolves in real time. If you are looking at Ybor for your business or your portfolio, let&apos;s talk before the project cranes make the decision for you.
+          With 24+ years of commercial real estate experience and deep roots in Tampa Bay&apos;s CRE market, I work with tenants identifying space and investors evaluating acquisitions across Hillsborough, Pinellas, and Pasco Counties — including the Ybor City submarket as it evolves in real time. If you are looking at Ybor for your business or your portfolio, let&apos;s talk before the project cranes make the decision for you.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -286,7 +286,7 @@ export default function YborCityCommercialRealEstatePage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>

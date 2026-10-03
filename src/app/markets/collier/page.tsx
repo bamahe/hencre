@@ -149,7 +149,7 @@ export default function CollierMarketPage() {
             Collier County is Southwest Florida&apos;s premier wealth market. Naples anchors it with Class A office, luxury retail,
             and trophy properties. Marco Island adds resort-oriented commercial demand. Eastern Collier -- Ave Maria and Immokalee --
             represents long-term development optionality for patient capital. Barrett Henry, Broker Associate at REMAX Collective
-            with 23+ years of real estate experience, works Collier County through referral partnerships with verified local brokers.
+            with 24+ years of real estate experience, works Collier County through referral partnerships with verified local brokers.
           </p>
         </div>
       </section>
@@ -165,7 +165,7 @@ export default function CollierMarketPage() {
             supply, and investor capital that does not chase trends.
           </p>
           <p>
-            As a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience, Barrett works Collier County primarily
+            As a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, Barrett works Collier County primarily
             through referral partnerships with local brokers and investor networks. If you are operating in Naples, Marco Island, or
             evaluating long-term development opportunities in Immokalee or Ave Maria, Barrett connects you with verified specialists
             who know the regulatory environment and buyer appetite in this market.
@@ -295,7 +295,7 @@ export default function CollierMarketPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Works in Collier County</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience, holding designations
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, holding designations
             including e-PRO, MRP, SRS, and REMAX Hall of Fame. He does not maintain a direct office in Collier -- it is a referral
             territory served through partnerships with verified REMAX and independent brokers throughout Naples, Marco Island, and
             eastern Collier County.
@@ -306,7 +306,7 @@ export default function CollierMarketPage() {
             market intelligence on Class A office or medical positioning,{" "}
             <Link href="/services/cre-valuation" className="font-semibold text-black underline">property valuation</Link>,
             or analysis of development land opportunities in Ave Maria or Immokalee, Barrett connects you with the right broker and
-            facilitates the deal. His value is network access and 23+ years of Florida CRE relationships.
+            facilitates the deal. His value is network access and over a decade of Florida CRE relationships.
           </p>
           <p>
             For investors considering Collier County as part of a broader Southwest Florida strategy, Barrett also advises on{" "}
@@ -341,7 +341,7 @@ export default function CollierMarketPage() {
 
       <CTASection
         heading="Ready to Talk Collier County Commercial Real Estate?"
-        body="Whether you are leasing, buying, selling, or investing in Naples, Marco Island, or eastern Collier -- Barrett Henry has the network and 23+ years of Florida CRE experience to connect you with the right specialists and get it done right."
+        body="Whether you are leasing, buying, selling, or investing in Naples, Marco Island, or eastern Collier -- Barrett Henry has the network and 24+ years of commercial real estate experience to connect you with the right specialists and get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

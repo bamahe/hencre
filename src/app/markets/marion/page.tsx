@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in Marion County?",
     answer:
-      "Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He approaches Marion County as part of his statewide Florida commercial practice, providing market context, investment support, and professional introductions for clients with commercial interests in Ocala, the World Equestrian Center corridor, I-75 industrial, or downtown Ocala mixed-use. He serves all 67 Florida counties.",
+      "Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He approaches Marion County as part of his statewide Florida commercial practice, providing market context, investment support, and professional introductions for clients with commercial interests in Ocala, the World Equestrian Center corridor, I-75 industrial, or downtown Ocala mixed-use. He serves all 67 Florida counties.",
   },
 ];
 
@@ -265,7 +265,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Marion County</h2>
           <p>
-            Barrett approaches Marion County as part of his statewide Florida commercial practice, with 23+ years of
+            Barrett approaches Marion County as part of his statewide Florida commercial practice, with 24+ years of
             experience as a Broker Associate at REMAX Collective. He provides market analysis, investment support, and
             professional introductions for clients with commercial interests in Ocala, the World Equestrian Center
             corridor, I-75 industrial, or downtown mixed-use.
@@ -312,7 +312,7 @@ export default function Page() {
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Marion County?"
-        body="Barrett Henry brings 23+ years of commercial real estate experience and statewide Florida context to industrial, hospitality, healthcare, and investment opportunities in Marion County."
+        body="Barrett Henry brings 24+ years of commercial real estate experience and statewide Florida context to industrial, hospitality, healthcare, and investment opportunities in Marion County."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

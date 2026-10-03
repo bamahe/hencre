@@ -245,7 +245,7 @@ export default function CalculateROIPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Common ROI Mistakes to Avoid</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In my 23+ years of real estate experience, I have seen investors make the same ROI calculation mistakes repeatedly:
+          In my 24+ years of real estate experience, I have seen investors make the same ROI calculation mistakes repeatedly:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Using pro forma instead of actual numbers.</strong> Always verify NOI with trailing financials. Sellers present optimistic projections — your analysis should use actual performance.</li>

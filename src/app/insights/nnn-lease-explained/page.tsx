@@ -294,7 +294,7 @@ export default function NNNLeasePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          NNN leases work well for both landlords and tenants when both sides understand exactly what they are agreeing to. As a broker with 23+ years of experience, my job is to make sure there are no surprises — that tenants know their total occupancy cost and landlords understand their net income. If you are negotiating a commercial lease, having an experienced broker review the terms before you sign can save you real money.
+          NNN leases work well for both landlords and tenants when both sides understand exactly what they are agreeing to. As a broker with 24+ years of real estate experience, my job is to make sure there are no surprises — that tenants know their total occupancy cost and landlords understand their net income. If you are negotiating a commercial lease, having an experienced broker review the terms before you sign can save you real money.
         </p>
       </article>
 

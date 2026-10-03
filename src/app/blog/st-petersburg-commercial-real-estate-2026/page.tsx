@@ -237,7 +237,7 @@ export default function StPetersburgCREPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on St. Petersburg Commercial Real Estate</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          St. Petersburg is a market defined by its strengths: a diversified and resilient employment base, geographic supply constraints that protect existing owners, and a quality-of-life profile that attracts tenants and workers from across the country. Whether you are leasing <Link href="/commercial/office-space" className="text-accent underline">office space</Link>, evaluating a retail investment, or exploring industrial acquisition, St. Pete&apos;s fundamentals reward careful, well-informed decisions. With 23+ years of real estate experience, I help clients across the Tampa Bay region -- including St. Petersburg -- find, lease, and invest in commercial properties that match their goals. The market is active and opportunities exist, but execution matters.
+          St. Petersburg is a market defined by its strengths: a diversified and resilient employment base, geographic supply constraints that protect existing owners, and a quality-of-life profile that attracts tenants and workers from across the country. Whether you are leasing <Link href="/commercial/office-space" className="text-accent underline">office space</Link>, evaluating a retail investment, or exploring industrial acquisition, St. Pete&apos;s fundamentals reward careful, well-informed decisions. With 24+ years of real estate experience, I help clients across the Tampa Bay region -- including St. Petersburg -- find, lease, and invest in commercial properties that match their goals. The market is active and opportunities exist, but execution matters.
         </p>
 
         <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
@@ -266,7 +266,7 @@ export default function StPetersburgCREPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps tenants, investors, and business owners navigate the St. Petersburg and broader Pinellas County commercial market with local knowledge and transaction expertise. Learn more about{" "}
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He helps tenants, investors, and business owners navigate the St. Petersburg and broader Pinellas County commercial market with local knowledge and transaction expertise. Learn more about{" "}
               <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
               or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>

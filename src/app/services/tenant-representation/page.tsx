@@ -105,7 +105,7 @@ export default function TenantRepPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Your Space, Your Terms</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett brings market expertise to every tenant representation engagement in Florida. Finding{" "}
+            As a Broker Associate at REMAX Collective with 24+ years of real estate experience, Barrett brings market expertise to every tenant representation engagement in Florida. Finding{" "}
             <Link href="/commercial/office-space" className="text-accent underline">office</Link>,{" "}
             <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, or{" "}
             <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial space</Link>{" "}
@@ -208,7 +208,7 @@ export default function TenantRepPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">Why Work with Barrett</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
             <p>
-              With 23+ years of real estate experience, Barrett knows what fair market rents look like across Florida, which landlords negotiate and which do not, and how to structure terms that save you real money over the life of a lease. Read the{" "}
+              With 24+ years of real estate experience, Barrett knows what fair market rents look like across Florida, which landlords negotiate and which do not, and how to structure terms that save you real money over the life of a lease. Read the{" "}
               <Link href="/blog/5-mistakes-first-time-commercial-tenants-make" className="text-accent underline">5 mistakes first-time commercial tenants make</Link>{" "}
               to understand what's at stake in a lease negotiation.
             </p>

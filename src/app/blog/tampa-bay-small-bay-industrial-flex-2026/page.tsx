@@ -239,7 +239,7 @@ export default function TampaBaySmallBayIndustrialFlex2026Page() {
           Whether you are a tenant looking for flex space, a small business owner evaluating whether to buy your building, or an investor building an industrial portfolio, Tampa Bay&apos;s small bay market warrants serious attention in 2026. The Pioneer Park deal just confirmed that sophisticated capital is paying attention — and they are not waiting for better pricing.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay, I help tenants find industrial and flex space, investors identify well-positioned acquisition targets, and business owners evaluate the lease-versus-buy decision with real market data. If you are in this segment or want to be, let&apos;s talk before the inventory gets even tighter.
+          With 24+ years of commercial real estate experience, I help tenants find industrial and flex space, investors identify well-positioned acquisition targets, and business owners evaluate the lease-versus-buy decision with real market data. If you are in this segment or want to be, let&apos;s talk before the inventory gets even tighter.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -266,7 +266,7 @@ export default function TampaBaySmallBayIndustrialFlex2026Page() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of commercial real estate experience across Tampa Bay. He helps tenants find industrial and flex space,
+              Barrett has 24+ years of commercial real estate experience. He helps tenants find industrial and flex space,
               investors identify acquisition targets, and business owners evaluate the lease-versus-buy decision with real market data.
             </p>
           </div>

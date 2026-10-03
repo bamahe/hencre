@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in Volusia County?",
     answer:
-      "Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He approaches Volusia County as part of his statewide Florida commercial practice, providing market context, investment support, and professional introductions for clients with commercial interests in Daytona Beach, Port Orange, DeLand, or the Deltona/I-4 corridor. He serves all 67 Florida counties.",
+      "Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He approaches Volusia County as part of his statewide Florida commercial practice, providing market context, investment support, and professional introductions for clients with commercial interests in Daytona Beach, Port Orange, DeLand, or the Deltona/I-4 corridor. He serves all 67 Florida counties.",
   },
 ];
 
@@ -255,7 +255,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Volusia County</h2>
           <p>
-            Barrett approaches Volusia County as part of his statewide Florida commercial practice, with 23+ years of
+            Barrett approaches Volusia County as part of his statewide Florida commercial practice, with 24+ years of
             experience as a Broker Associate at REMAX Collective. He provides investment context, tenant representation
             support, and professional introductions for clients with commercial interests in Daytona Beach, Port Orange,
             DeLand, or the Deltona corridor.
@@ -297,7 +297,7 @@ export default function Page() {
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Volusia County?"
-        body="Barrett Henry brings 23+ years of commercial real estate experience and Florida-wide context to hospitality, retail, industrial, and investment opportunities across Volusia County."
+        body="Barrett Henry brings 24+ years of commercial real estate experience and Florida-wide context to hospitality, retail, industrial, and investment opportunities across Volusia County."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

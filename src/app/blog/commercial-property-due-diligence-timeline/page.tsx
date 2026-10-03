@@ -291,7 +291,7 @@ export default function DueDiligenceTimelinePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Commercial due diligence is not a formality — it is the process that protects your investment. Rushing through it or skipping steps creates risk that can cost far more than the purchase price. With 23+ years of real estate experience, Barrett Henry guides buyers through every phase of due diligence, making sure nothing gets missed and every finding is used to protect your position. Review our{" "}
+          Commercial due diligence is not a formality — it is the process that protects your investment. Rushing through it or skipping steps creates risk that can cost far more than the purchase price. With 24+ years of real estate experience, Barrett Henry guides buyers through every phase of due diligence, making sure nothing gets missed and every finding is used to protect your position. Review our{" "}
           <Link href="/services/cre-valuation" className="text-accent underline">CRE valuation services</Link>{" "}
           and{" "}
           <Link href="/services/investment-sales" className="text-accent underline">investment sales process</Link>{" "}
@@ -322,7 +322,7 @@ export default function DueDiligenceTimelinePage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He manages the entire acquisition process for buyers -- from document review to inspections to closing coordination. Learn more about{" "}
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He manages the entire acquisition process for buyers -- from document review to inspections to closing coordination. Learn more about{" "}
               <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
               or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>

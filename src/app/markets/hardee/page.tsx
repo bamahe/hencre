@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry serve Hardee County clients?",
     answer:
-      "Barrett works Hardee County as part of his statewide Florida commercial practice. As a Broker Associate at REMAX Collective with 23+ years of experience, he focuses on agricultural land transactions, connecting buyers with cattle and citrus properties, and helping local operators find or sell retail and service commercial space. His approach is honest market assessment without overselling the depth of this rural market.",
+      "Barrett works Hardee County as part of his statewide Florida commercial practice. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, he focuses on agricultural land transactions, connecting buyers with cattle and citrus properties, and helping local operators find or sell retail and service commercial space. His approach is honest market assessment without overselling the depth of this rural market.",
   },
 ];
 
@@ -246,7 +246,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Hardee County</h2>
           <p>
-            Barrett approaches Hardee County as part of his statewide Florida commercial practice. With 23+ years of experience
+            Barrett approaches Hardee County as part of his statewide Florida commercial practice. With 24+ years of real estate experience
             as a Broker Associate at REMAX Collective, he understands the agricultural land market, the relationship dynamics
             of rural central Florida, and the honest assessment of what this market can and cannot deliver for investors.
           </p>

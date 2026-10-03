@@ -104,7 +104,7 @@ export default function InvestmentSalesPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Smart Acquisitions. Strategic Exits.</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett brings market reach and deep analytical expertise to every investment transaction. Commercial real estate investing is about numbers — but the right numbers require the right market intelligence. A 7%{" "}
+            As a Broker Associate at REMAX Collective with 24+ years of real estate experience, Barrett brings market reach and deep analytical expertise to every investment transaction. Commercial real estate investing is about numbers — but the right numbers require the right market intelligence. A 7%{" "}
             <Link href="/calculators/cap-rate" className="text-accent underline">cap rate</Link>{" "}
             in one submarket is a steal; in another, it is overpriced. Barrett brings the local context that spreadsheets cannot provide.
           </p>

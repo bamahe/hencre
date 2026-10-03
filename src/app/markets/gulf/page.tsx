@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach Gulf County commercial real estate?",
     answer:
-      "Barrett treats Gulf County as a referral and advisory territory within his statewide Florida practice. As a Broker Associate at REMAX Collective with 23+ years of experience, he focuses on honest market assessment, connecting investors with verified local demand drivers, and qualifying introductions to the right properties. For Gulf County projects that require direct local representation, he will connect clients with qualified Panhandle brokers. For buyers evaluating Gulf County as part of a broader Florida coastal or rural portfolio, Barrett provides the statewide context.",
+      "Barrett treats Gulf County as a referral and advisory territory within his statewide Florida practice. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, he focuses on honest market assessment, connecting investors with verified local demand drivers, and qualifying introductions to the right properties. For Gulf County projects that require direct local representation, he will connect clients with qualified Panhandle brokers. For buyers evaluating Gulf County as part of a broader Florida coastal or rural portfolio, Barrett provides the statewide context.",
   },
 ];
 
@@ -249,7 +249,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Gulf County</h2>
           <p>
-            Barrett approaches Gulf County as part of his statewide Florida commercial practice, with 23+ years of experience
+            Barrett approaches Gulf County as part of his statewide Florida commercial practice, with 24+ years of real estate experience
             as a Broker Associate at <Link href="/remax-commercial-florida">REMAX Collective</Link>. He covers Gulf County as a
             referral and advisory territory -- focused on honest market assessment and statewide context rather than a high-volume
             listing operation.

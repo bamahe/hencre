@@ -103,7 +103,7 @@ export default function OfficeSpacePage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Florida office space includes Class A, B, and C buildings used for professional, medical, and corporate purposes. Barrett Henry, a Broker Associate at REMAX Collective with 23+ years of real estate experience, helps tenants find office space, landlords fill vacancies, and investors acquire performing office assets across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> counties.
+            Florida office space includes Class A, B, and C buildings used for professional, medical, and corporate purposes. Barrett Henry, a Broker Associate at REMAX Collective with 24+ years of real estate experience, helps tenants find office space, landlords fill vacancies, and investors acquire performing office assets across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> counties.
           </p>
         </div>
       </section>
@@ -120,7 +120,7 @@ export default function OfficeSpacePage() {
           <p>
             Whether you need a 1,500 SF professional suite or a 50,000 SF corporate
             headquarters, the Florida office market offers options across every price
-            point and submarket. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, I help tenants find the right fit through <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link>, landlords fill
+            point and submarket. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, I help tenants find the right fit through <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link>, landlords fill
             vacancies through <Link href="/services/landlord-leasing" className="text-accent underline">landlord leasing services</Link>, and investors acquire performing office assets through <Link href="/services/investment-sales" className="text-accent underline">investment sales</Link>.
           </p>
         </div>

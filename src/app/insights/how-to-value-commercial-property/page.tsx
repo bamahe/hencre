@@ -141,7 +141,7 @@ export default function ValuationPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Valuing commercial real estate is fundamentally different from valuing a house. There is no MLS comp sheet that tells you the answer. Commercial property value is driven by income potential, replacement cost, and market comparisons — and understanding all three approaches is essential whether you are buying, selling, or refinancing. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, here is how I walk clients through the valuation process — across markets from <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> to <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link>.
+          Valuing commercial real estate is fundamentally different from valuing a house. There is no MLS comp sheet that tells you the answer. Commercial property value is driven by income potential, replacement cost, and market comparisons — and understanding all three approaches is essential whether you are buying, selling, or refinancing. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, here is how I walk clients through the valuation process — across markets from <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> to <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Approach 1: The Income Approach</h2>

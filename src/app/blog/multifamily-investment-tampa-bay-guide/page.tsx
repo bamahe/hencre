@@ -292,7 +292,7 @@ export default function MultifamilyInvestmentGuidePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tampa Bay multifamily remains one of the strongest investment opportunities in Florida. The fundamentals — population growth, employment, and housing demand — support continued rent growth and occupancy. With 23+ years of real estate experience, Barrett Henry helps investors identify, evaluate, and acquire multifamily properties across Tampa Bay and surrounding markets including{" "}
+          Tampa Bay multifamily remains one of the strongest investment opportunities in Florida. The fundamentals — population growth, employment, and housing demand — support continued rent growth and occupancy. With 24+ years of real estate experience, Barrett Henry helps investors identify, evaluate, and acquire multifamily properties across Tampa Bay and surrounding markets including{" "}
           <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link>{" "}
           and{" "}
           <Link href="/markets/polk" className="text-accent underline">Polk County</Link>.
@@ -326,7 +326,7 @@ export default function MultifamilyInvestmentGuidePage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience helping investors acquire, evaluate, and exit multifamily and commercial properties across Tampa Bay and all 67 Florida counties.
+              Barrett has 24+ years of real estate experience helping investors acquire, evaluate, and exit multifamily and commercial properties across Tampa Bay and all 67 Florida counties.
             </p>
           </div>
         </div>

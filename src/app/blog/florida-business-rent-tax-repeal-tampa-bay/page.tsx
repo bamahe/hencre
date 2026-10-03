@@ -291,7 +291,7 @@ export default function FloridaBusinessRentTaxRepealPage() {
           across Florida.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you have questions about how the repeal affects your specific lease, or if you are evaluating a new space and want an honest accounting of your total cost of occupancy, I am happy to work through the numbers with you. With 23+ years of commercial real estate experience across Tampa Bay, I have helped tenants in every property type navigate lease structure, negotiate terms, and understand the costs that are actually within their control — and those that are not.
+          If you have questions about how the repeal affects your specific lease, or if you are evaluating a new space and want an honest accounting of your total cost of occupancy, I am happy to work through the numbers with you. With 24+ years of commercial real estate experience, I have helped tenants in every property type navigate lease structure, negotiate terms, and understand the costs that are actually within their control — and those that are not.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -318,7 +318,7 @@ export default function FloridaBusinessRentTaxRepealPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of commercial real estate experience across Tampa Bay. He helps tenants negotiate leases, investors evaluate acquisitions, and business owners understand the full cost of commercial occupancy before they sign.
+              Barrett has 24+ years of commercial real estate experience. He helps tenants negotiate leases, investors evaluate acquisitions, and business owners understand the full cost of commercial occupancy before they sign.
             </p>
           </div>
         </div>

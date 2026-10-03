@@ -266,7 +266,7 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
           The execution risks are real: senior housing is an operating business, licensing and compliance add complexity, and Florida&apos;s insurance market adds cost. These are the reasons cap rates remain higher than comparable multifamily -- they are also the reasons experienced operators and investors with local market knowledge have an edge over purely transactional buyers.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay -- and specific familiarity with healthcare-adjacent and investment property sectors across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco Counties</Link> -- Barrett Henry works with investors evaluating senior housing acquisitions and other income-producing commercial assets throughout the region. If you are considering senior housing as part of your 2026 investment strategy, call (813) 733-7907 to discuss where the current opportunities are and whether the asset class fits your risk profile and capital structure.
+          With 24+ years of commercial real estate experience across Tampa Bay -- and specific familiarity with healthcare-adjacent and investment property sectors across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco Counties</Link> -- Barrett Henry works with investors evaluating senior housing acquisitions and other income-producing commercial assets throughout the region. If you are considering senior housing as part of your 2026 investment strategy, call (813) 733-7907 to discuss where the current opportunities are and whether the asset class fits your risk profile and capital structure.
         </p>
 
         {/* ---- Mid-article CTA ---- */}
@@ -301,7 +301,7 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
+              Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
             </p>
           </div>
         </div>
@@ -317,7 +317,7 @@ export default function TampaBaySeniorHousingCREInvestmentPage() {
 
       <CTASection
         heading="Evaluating Senior Housing or Healthcare CRE in Tampa Bay?"
-        body="Barrett Henry helps investors identify and evaluate income-producing commercial properties across Tampa Bay -- including senior housing, medical assets, and investment-grade commercial real estate. With 23+ years of market experience, call (813) 733-7907 to talk through whether senior housing fits your portfolio."
+        body="Barrett Henry helps investors identify and evaluate income-producing commercial properties across Tampa Bay -- including senior housing, medical assets, and investment-grade commercial real estate. With 24+ years of real estate experience, call (813) 733-7907 to talk through whether senior housing fits your portfolio."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

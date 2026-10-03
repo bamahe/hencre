@@ -277,9 +277,9 @@ export default function NeedABrokerPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He represents tenants, buyers, sellers, and investors across all commercial property types throughout Florida. Learn more about{" "}
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He represents tenants, buyers, sellers, and investors across all commercial property types throughout Florida. Learn more about{" "}
               <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
               or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>

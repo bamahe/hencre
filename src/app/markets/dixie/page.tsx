@@ -146,7 +146,7 @@ export default function DixieMarketPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Dixie County is one of Florida&apos;s smallest and most rural commercial real estate markets. Cross City and Old Town serve as primary population centers, but transaction volume is minimal compared to Florida&apos;s major metros. The primary opportunity here is land -- timber parcels, conservation acreage, and rural property for patient-capital investors. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Dixie County through referral partnerships with verified local brokers.
+            Dixie County is one of Florida&apos;s smallest and most rural commercial real estate markets. Cross City and Old Town serve as primary population centers, but transaction volume is minimal compared to Florida&apos;s major metros. The primary opportunity here is land -- timber parcels, conservation acreage, and rural property for patient-capital investors. Barrett Henry, Broker Associate at REMAX Collective with 24+ years of real estate experience, works Dixie County through referral partnerships with verified local brokers.
           </p>
         </div>
       </section>
@@ -163,7 +163,7 @@ export default function DixieMarketPage() {
             answers and connect you with the right brokers for either path.
           </p>
           <p>
-            As a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience, Barrett works Dixie County through
+            As a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, Barrett works Dixie County through
             referral partnerships with local brokers in Cross City and Old Town who maintain direct market presence. Compare this
             market to the more active Nature Coast county immediately to the south:{" "}
             <Link href="/markets/citrus" className="font-semibold text-black underline">Citrus County</Link>{" "}
@@ -288,7 +288,7 @@ export default function DixieMarketPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Works in Dixie County</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience, holding designations
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, holding designations
             including e-PRO, MRP, SRS, and REMAX Hall of Fame. Dixie County is a referral territory -- he does not maintain a daily
             presence there, but he has professional relationships with local brokers in Cross City and Old Town who do.
           </p>
@@ -333,7 +333,7 @@ export default function DixieMarketPage() {
 
       <CTASection
         heading="Ready to Talk Dixie County Commercial Real Estate?"
-        body="Whether you are evaluating Nature Coast land, exploring a rural property sale, or need guidance on what this thin market can realistically deliver -- Barrett Henry has the network and 23+ years of Florida CRE experience to give you straight answers and connect you with the right specialists."
+        body="Whether you are evaluating Nature Coast land, exploring a rural property sale, or need guidance on what this thin market can realistically deliver -- Barrett Henry has the network and 24+ years of commercial real estate experience to give you straight answers and connect you with the right specialists."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "How does Barrett Henry work in the Escambia County market?",
     answer:
-      "Barrett works Escambia County through referral partnerships and direct client engagement, drawing on REMAX network connections in Pensacola and 23+ years of Florida CRE relationships. He provides corridor-by-corridor analysis, competitive positioning guidance, and connections to verified local specialists for tenant representation, landlord advisory, and investment sales. Everything is hands-on -- Barrett assesses your situation directly and connects you with the right people for execution.",
+      "Barrett works Escambia County through referral partnerships and direct client engagement, drawing on REMAX network connections in Pensacola and over a decade of Florida CRE relationships. He provides corridor-by-corridor analysis, competitive positioning guidance, and connections to verified local specialists for tenant representation, landlord advisory, and investment sales. Everything is hands-on -- Barrett assesses your situation directly and connects you with the right people for execution.",
   },
 ];
 
@@ -146,7 +146,7 @@ export default function EscambiaMarketPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Escambia County is anchored by Naval Air Station Pensacola -- a generational employer that provides anti-cyclical stability few Florida markets can match. Layered on top of that base is a growing defense tech and cybersecurity cluster, a consistent I-10 industrial market, and Gulf Coast tourism demand driving hospitality and retail. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Escambia County through referral partnerships and direct client engagement.
+            Escambia County is anchored by Naval Air Station Pensacola -- a generational employer that provides anti-cyclical stability few Florida markets can match. Layered on top of that base is a growing defense tech and cybersecurity cluster, a consistent I-10 industrial market, and Gulf Coast tourism demand driving hospitality and retail. Barrett Henry, Broker Associate at REMAX Collective with 24+ years of real estate experience, works Escambia County through referral partnerships and direct client engagement.
           </p>
         </div>
       </section>
@@ -298,7 +298,7 @@ export default function EscambiaMarketPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Works in Escambia County</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience, holding designations
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, holding designations
             including e-PRO, MRP, SRS, and REMAX Hall of Fame. He works Escambia County primarily through referral relationships and
             direct client engagement, drawing on REMAX network connections in Pensacola and decades of Florida CRE relationships.
           </p>
@@ -343,7 +343,7 @@ export default function EscambiaMarketPage() {
 
       <CTASection
         heading="Ready to Talk Escambia County Commercial Real Estate?"
-        body="Whether you are leasing office space near NAS, evaluating industrial along I-10, investing in Gulf Coast hospitality, or comparing Pensacola to other Florida markets -- Barrett Henry has the network and 23+ years of experience to help you get it done right."
+        body="Whether you are leasing office space near NAS, evaluating industrial along I-10, investing in Gulf Coast hospitality, or comparing Pensacola to other Florida markets -- Barrett Henry has the network and 24+ years of real estate experience to help you get it done right."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

@@ -113,7 +113,7 @@ export default function LandlordLeasingPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Vacancy Costs You Money Every Day</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            With 23+ years of real estate experience, Barrett Henry knows exactly how much every vacant day costs a commercial landlord. As a REMAX Commercial broker, he leverages the largest real estate network in the world to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs with zero income. Taxes, insurance, maintenance, and debt service do not pause because the space is vacant. You need a broker who treats your vacancy with the same urgency you feel.
+            With 24+ years of real estate experience, Barrett Henry knows exactly how much every vacant day costs a commercial landlord. As a REMAX Commercial broker, he leverages the largest real estate network in the world to fill your vacancies faster. Every month your commercial space sits empty, you are paying carrying costs with zero income. Taxes, insurance, maintenance, and debt service do not pause because the space is vacant. You need a broker who treats your vacancy with the same urgency you feel.
           </p>
           <p>
             Barrett creates a leasing strategy tailored to your property — competitive pricing based on real market data, professional marketing materials, and targeted outreach to active tenants and tenant reps in the market. He does not just post your listing and wait. He works the phones, taps his network, and drives qualified prospects to your door.

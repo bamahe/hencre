@@ -260,7 +260,7 @@ export default function TampaBayColdStorageCRE2026Page() {
           Nationally, institutional investors have identified cold storage as one of the most durable industrial niches for the current cycle — cap rates are firming on limited supply, lease structures favor landlords, and the tenant base is growing as food supply chains modernize and food delivery becomes a permanent consumer behavior rather than a pandemic-era exception. Tampa Bay is increasingly in that institutional conversation, which is a meaningful signal for where private capital should be paying attention.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay, I work with industrial tenants sourcing specialized space, investors evaluating industrial acquisitions, and business owners considering whether to own or lease their facilities. If cold storage or temperature-controlled warehouse space is on your radar — whether as a tenant, buyer, or investor — the right time to start the conversation is before the limited available inventory gets absorbed.
+          With 24+ years of commercial real estate experience, I work with industrial tenants sourcing specialized space, investors evaluating industrial acquisitions, and business owners considering whether to own or lease their facilities. If cold storage or temperature-controlled warehouse space is on your radar — whether as a tenant, buyer, or investor — the right time to start the conversation is before the limited available inventory gets absorbed.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -287,7 +287,7 @@ export default function TampaBayColdStorageCRE2026Page() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of commercial real estate experience across Tampa Bay. He helps industrial tenants find specialized space,
+              Barrett has 24+ years of commercial real estate experience. He helps industrial tenants find specialized space,
               investors identify acquisition targets, and business owners evaluate lease-versus-own decisions with real market data.
             </p>
           </div>

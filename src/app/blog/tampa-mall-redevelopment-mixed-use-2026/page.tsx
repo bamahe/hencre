@@ -264,7 +264,7 @@ export default function TampaMallRedevelopmentPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa&apos;s Mixed-Use Conversion Wave</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The simultaneous redevelopment of WestShore Plaza, Britton Plaza, and the Stetson University Tampa Heights campus signals something real: Tampa&apos;s commercial real estate market is undergoing a structural shift away from legacy enclosed retail toward denser, mixed-use development patterns that reflect how people actually live, work, and shop today. For investors and tenants, the opportunity is not in the projects themselves — it is in the ripple effects they create across the surrounding commercial landscape. With 23+ years in Tampa Bay commercial real estate, I have watched major redevelopment cycles reshape submarkets from the inside. The investors who position themselves thoughtfully — before the market fully prices in the change — consistently outperform those who wait for certainty. If you are considering a commercial acquisition, lease, or exit in or around any of these corridors, let&apos;s talk through the timing and strategy before the window narrows.
+          The simultaneous redevelopment of WestShore Plaza, Britton Plaza, and the Stetson University Tampa Heights campus signals something real: Tampa&apos;s commercial real estate market is undergoing a structural shift away from legacy enclosed retail toward denser, mixed-use development patterns that reflect how people actually live, work, and shop today. For investors and tenants, the opportunity is not in the projects themselves — it is in the ripple effects they create across the surrounding commercial landscape. With over a decade in Tampa Bay commercial real estate, I have watched major redevelopment cycles reshape submarkets from the inside. The investors who position themselves thoughtfully — before the market fully prices in the change — consistently outperform those who wait for certainty. If you are considering a commercial acquisition, lease, or exit in or around any of these corridors, let&apos;s talk through the timing and strategy before the window narrows.
         </p>
 
         <p className="mt-6 text-xs text-[#666666]">Last updated: August 2026</p>
@@ -290,9 +290,9 @@ export default function TampaMallRedevelopmentPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
+              Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
             </p>
           </div>
         </div>

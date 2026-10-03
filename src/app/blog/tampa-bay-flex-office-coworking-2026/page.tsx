@@ -286,7 +286,7 @@ export default function TampaBayFlexOfficeCoworkingPage() {
           The businesses thriving in this market are the ones making deliberate space decisions: choosing flex when flexibility outweighs cost efficiency, choosing traditional leases when stability and economics favor a long-term commitment, and using local expertise to navigate which option actually fits their situation. The ones struggling are those defaulting to habit — assuming a traditional lease is always right, or conversely assuming flex is always simpler — without doing the numbers.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay, I work with businesses evaluating both paths — and with investors who need to understand how flex is reshaping the competitive landscape for traditional office product. If you are making a commercial space decision in the next 12 months, <a href="/contact" className="text-accent underline">let&apos;s have a conversation</a> before the market makes it for you.
+          With 24+ years of commercial real estate experience, I work with businesses evaluating both paths — and with investors who need to understand how flex is reshaping the competitive landscape for traditional office product. If you are making a commercial space decision in the next 12 months, <a href="/contact" className="text-accent underline">let&apos;s have a conversation</a> before the market makes it for you.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -310,7 +310,7 @@ export default function TampaBayFlexOfficeCoworkingPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
@@ -326,7 +326,7 @@ export default function TampaBayFlexOfficeCoworkingPage() {
 
       <CTASection
         heading="Need Help Choosing Between Flex Office and a Traditional Lease in Tampa Bay?"
-        body="Barrett Henry has 23+ years of commercial real estate experience across Hillsborough, Pinellas, and Pasco Counties. Whether you are evaluating coworking, negotiating a traditional lease, or analyzing a CRE investment, get expert guidance before you commit."
+        body="Barrett Henry has 24+ years of commercial real estate experience, Pinellas, and Pasco Counties. Whether you are evaluating coworking, negotiating a traditional lease, or analyzing a CRE investment, get expert guidance before you commit."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

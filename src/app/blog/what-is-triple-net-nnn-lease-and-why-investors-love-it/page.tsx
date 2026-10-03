@@ -295,7 +295,7 @@ export default function NNNLeasePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Triple net leases offer a compelling combination of predictable income, minimal management, and long-term stability. But they are not one-size-fits-all. Tenant credit, location, lease terms, and purchase price all matter. With 23+ years of real estate experience, Barrett Henry helps investors evaluate{" "}
+          Triple net leases offer a compelling combination of predictable income, minimal management, and long-term stability. But they are not one-size-fits-all. Tenant credit, location, lease terms, and purchase price all matter. With 24+ years of real estate experience, Barrett Henry helps investors evaluate{" "}
           <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN opportunities</Link>{" "}
           across Florida, making sure the deal works on paper and in practice. The{" "}
           <Link href="/services/investment-sales" className="text-accent underline">investment sales process</Link>{" "}
@@ -326,7 +326,7 @@ export default function NNNLeasePage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He sources and evaluates NNN investment properties across Florida, helping investors find the right fit for their portfolio. Learn more about{" "}
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He sources and evaluates NNN investment properties across Florida, helping investors find the right fit for their portfolio. Learn more about{" "}
               <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
               or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>

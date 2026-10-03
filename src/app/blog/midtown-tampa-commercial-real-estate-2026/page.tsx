@@ -261,7 +261,7 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
           For CRE investors, the direct Midtown acquisition opportunity is limited by ownership structure — but the surrounding submarket offers real upside tied to the district&apos;s continued growth. For tenants, the district&apos;s full occupancy requires a broker-led approach to find the right space, whether through sublease, adjacent buildings, or upcoming availability.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay — including deep familiarity with North Tampa&apos;s office, retail, and mixed-use submarkets — I help investors identify well-positioned acquisitions in the Midtown corridor and tenants find the right space before the market moves further. If you are making a North Tampa CRE decision in 2026, let&apos;s connect before availability tightens further.
+          With 24+ years of commercial real estate experience across Tampa Bay — including deep familiarity with North Tampa&apos;s office, retail, and mixed-use submarkets — I help investors identify well-positioned acquisitions in the Midtown corridor and tenants find the right space before the market moves further. If you are making a North Tampa CRE decision in 2026, let&apos;s connect before availability tightens further.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -274,7 +274,7 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
           <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link>{" "}
           and our{" "}
           <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">commercial investment evaluation guide</Link>.
-          Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience and deep familiarity with{" "}
+          Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience and deep familiarity with{" "}
           <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link>{" "}
           and{" "}
           <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>{" "}
@@ -305,7 +305,7 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and specializes in commercial real estate across all 67 Florida counties. He serves tenants, landlords, investors, and owners from offices in Tampa, Largo, and Brandon. Learn more at <a href="/about" className="underline">hencre.com/about</a>.
+              Barrett has 24+ years of real estate experience and specializes in commercial real estate across all 67 Florida counties. He serves tenants, landlords, investors, and owners from offices in Tampa, Largo, and Brandon. Learn more at <a href="/about" className="underline">hencre.com/about</a>.
             </p>
           </div>
         </div>

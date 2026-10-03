@@ -173,7 +173,7 @@ export default function BlogPost() {
           that want proximity to a high-income residential population without the overhead of Tampa proper. The community sits along
           the SR-60 corridor east of Brandon, giving tenants strong traffic counts, established retail anchors, and a customer base
           that continues to grow as new residential development pushes east of I-75. As a Broker Associate at REMAX Collective with
-          23+ years of real estate experience, I help business owners and investors navigate commercial leasing in Valrico and across
+          24+ years of real estate experience, I help business owners and investors navigate commercial leasing in Valrico and across
           all of Hillsborough County.
         </p>
 
@@ -271,7 +271,7 @@ export default function BlogPost() {
         <h2 className="mt-10 text-2xl font-bold text-black">Why Working with a Commercial Broker Matters in Valrico</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Valrico does not have the volume of available inventory that Brandon or Tampa proper does, which means the best spaces
-          lease quickly and are not always broadly marketed. Barrett Henry is a Broker Associate at REMAX Collective with 23+ years
+          lease quickly and are not always broadly marketed. Barrett Henry is a Broker Associate at REMAX Collective with 24+ years
           of real estate experience and deep familiarity with east Hillsborough County. He represents tenants across all 67 Florida
           counties and understands what separates a workable deal from one that creates problems two years into a lease.
         </p>
@@ -323,7 +323,7 @@ export default function BlogPost() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett serves all 67 Florida counties from offices in Tampa, Largo, and Brandon. He specializes in tenant
               representation, investment sales, and commercial property dispositions. Learn more at{" "}

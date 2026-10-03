@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in Orange County?",
     answer:
-      "Barrett operates a statewide Florida commercial practice from his Tampa Bay base as a Broker Associate at REMAX Collective. For Orange County assignments, he provides honest market context, connects clients with qualified Central Florida operators and lenders, and handles statewide investment strategies that include Orlando-area assets. Complex Central Florida transactions often involve local specialists he can introduce -- his value is Florida-wide context and 23+ years of commercial real estate experience behind every conversation.",
+      "Barrett operates a statewide Florida commercial practice from his Tampa Bay base as a Broker Associate at REMAX Collective. For Orange County assignments, he provides honest market context, connects clients with qualified Central Florida operators and lenders, and handles statewide investment strategies that include Orlando-area assets. Complex Central Florida transactions often involve local specialists he can introduce -- his value is Florida-wide context and 24+ years of commercial real estate experience behind every conversation.",
   },
 ];
 
@@ -266,7 +266,7 @@ export default function Page() {
           <h2>How Barrett Henry Works Orange County</h2>
           <p>
             Barrett approaches Orange County as part of his statewide Florida commercial practice, operating as a Broker
-            Associate at REMAX Collective with 23+ years of experience. He provides market context, investor introductions,
+            Associate at REMAX Collective with 24+ years of real estate experience. He provides market context, investor introductions,
             and transaction support for clients with Central Florida commercial interests. For complex Orlando-area
             assignments that benefit from local boots-on-ground expertise, he connects clients with vetted Orange County
             specialists through his statewide professional network.
@@ -312,7 +312,7 @@ export default function Page() {
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Orange County?"
-        body="Barrett Henry brings statewide Florida context and 23+ years of commercial real estate experience to every Orange County assignment -- hospitality, medical office, suburban office, industrial, and investment sales."
+        body="Barrett Henry brings statewide Florida context and 24+ years of commercial real estate experience to every Orange County assignment -- hospitality, medical office, suburban office, industrial, and investment sales."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

@@ -280,7 +280,7 @@ export default function TampaBayRentalPropertyExitStrategyPage() {
         <p className="mt-4 text-[#666666]">
           Barrett Henry at HenCRE evaluates Tampa Bay investment properties against all three
           exit paths, providing an honest side-by-side comparison before any commitment is made.
-          With 23+ years of real estate experience and offices in Tampa, Largo, and Brandon,
+          With 24+ years of real estate experience and offices in Tampa, Largo, and Brandon,
           Barrett brings the market knowledge to help you choose the right path at the right time.
           Explore our{" "}
           <Link href="/services/investment-sales" className="text-accent underline">investment sales services</Link>.
@@ -318,9 +318,9 @@ export default function TampaBayRentalPropertyExitStrategyPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
+              Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience serving investors across Tampa Bay. e-PRO, MRP, SRS | REMAX Hall of Fame.
             </p>
           </div>
         </div>

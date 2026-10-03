@@ -126,7 +126,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Fixed TypeScript ordering error: moved `schema` const to after `faqItems` declaration
 - Merged dual SchemaOrg calls into single @graph schema (BreadcrumbList + BlogPosting + FAQPage)
 - Fixed author `jobTitle`: "Commercial Real Estate Advisor" → "Broker Associate"
-- Fixed author bio: updated to standard "Broker Associate at REMAX Collective | 23+ Years" format
+- Fixed author bio: updated to standard "Broker Associate at REMAX Collective | 24+ Years" format
 - Expanded relatedLinks 5 → 10 (fixed broken hrefs missing /blog/ prefix; added /markets/polk, /commercial/nnn-net-lease, /services/investment-sales, what-makes-good, due-diligence)
 - Removed HUD/FHA/HOPE "Free Resources" section
 - Added `dateModified` "2026-08-11"
@@ -392,7 +392,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Title shortened from 79 chars to 64 chars: "Port Tampa Bay Vision 2030: Industrial CRE Outlook | HenCRE"
 - dateModified updated "2026-08-05" -> "2026-08-08"
 - Schema author: added `image` and `sameAs` fields
-- Fixed "23 years" -> "23+ years" in article body paragraph
+- Fixed "24 years" -> "24+ years" in article body paragraph
 
 ### 10. `/src/app/sitemap.ts`
 - Added "gulf", "hendry", "holmes" to TIER1_COUNTIES array (25 -> 28 counties)
@@ -831,13 +831,13 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### 9. `/services/investment-sales`
 - Added Image import and 3 inline images (Florida CRE exterior, financial analysis, income-producing property)
 - Added 10+ internal links (markets, blog posts, calculators) in body text and related links
-- Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Updated EEAT: "Broker Associate at REMAX Collective with 24+ years of real estate experience"
 - Updated footer from "June 2026" to "July 2026"
 
 ### 10. `/services/tenant-representation`
 - Added Image import and 3 inline images (modern office interior, lease review, site tour)
 - Added 10+ internal links (markets, blog posts, commercial types) in body text and related links
-- Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Updated EEAT: "Broker Associate at REMAX Collective with 24+ years of real estate experience"
 - Updated FAQ #5 to list specific Florida counties served
 - Updated footer from "June 2026" to "July 2026"
 
@@ -849,7 +849,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added Image import and 3 inline images (office building, lease meeting, Florida corridor)
 - Added 10+ internal links (services, markets, commercial types, calculators, blog posts)
 - Added 6th FAQ: "What lease terms should landlords focus on protecting?"
-- Updated EEAT: "With 23+ years of real estate experience, Barrett Henry..."
+- Updated EEAT: "With 24+ years of real estate experience, Barrett Henry..."
 - Updated schema Service node with full Person details; jobTitle set to "Broker Associate"
 - Updated footer from "June 2026" to "July 2026"
 
@@ -896,7 +896,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added Image import and 3 inline images (strip center, retail interior, aerial)
 - Added 10+ internal links (markets, insights, commercial types, services, blog posts)
 - Added 6th FAQ: "What are CAM charges in a retail lease, and how do I control them?"
-- Updated EEAT ("23+ years of real estate experience"); updated footer to "July 2026"
+- Updated EEAT ("24+ years of real estate experience"); updated footer to "July 2026"
 
 ### 8. `/blog/brandon-commercial-real-estate-guide-2026`
 - Added Image import and 3 inline images (suburban commercial, meeting, analysis)
@@ -994,14 +994,14 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added 6th FAQ: "Which Florida submarkets have the strongest multifamily demand right now?"
 - Added 3 inline images (apartment complex, financial analysis, broker meeting)
 - Added 10+ internal links (markets, commercial types, services, insights, calculators, blog)
-- Updated EEAT body text ("Broker Associate at REMAX Collective with 23+ years"); updated footer to "July 2026"
+- Updated EEAT body text ("Broker Associate at REMAX Collective with 24+ years"); updated footer to "July 2026"
 
 ### 9. `/commercial/nnn-net-lease`
 - Added Image import; updated schema from WebPage to Service type; jobTitle set to "Broker Associate"
 - Added 6th FAQ: "How does a NNN property fit into a Florida CRE investment portfolio?"
 - Added 3 inline images (freestanding NNN retail, investor reviewing lease, broker meeting)
 - Added 10+ internal links (markets, commercial types, insights, services, calculators)
-- Updated EEAT body text ("Broker Associate at REMAX Collective with 23+ years"); updated footer to "July 2026"
+- Updated EEAT body text ("Broker Associate at REMAX Collective with 24+ years"); updated footer to "July 2026"
 
 ### 10. `/markets/citrus`
 - Added Image import; updated schema jobTitle from "Commercial Real Estate Advisor" to "Broker Associate"
@@ -1009,7 +1009,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added 5th FAQ: "Is Citrus County a good market for 1031 exchange replacement properties?"
 - Added 3 inline images (commercial corridor, investment analysis, broker meeting)
 - Added 10+ internal links (adjacent markets, commercial types, services, insights, calculators)
-- Updated body EEAT text to "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Updated body EEAT text to "Broker Associate at REMAX Collective with 24+ years of real estate experience"
 - Added id="lead-form" to lead form section
 - Shortened metadata title to under 70 chars
 - Added "Last updated: July 2026" footer
@@ -1356,7 +1356,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added 12+ internal links (markets, commercial types, services, blog posts)
 - Fixed email from barrett@nowtb.com to /contact in body; barrett@hencre.com in schema
 - Added id="lead-form" section with LeadForm; added RelatedLinks; added CTASection (no variant)
-- Updated EEAT: "Broker Associate at REMAX Collective with 23+ years of real estate experience"
+- Updated EEAT: "Broker Associate at REMAX Collective with 24+ years of real estate experience"
 - Added "Last updated: July 2026" footer
 
 ### 2. `/markets/columbia`

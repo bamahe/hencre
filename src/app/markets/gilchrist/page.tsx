@@ -41,7 +41,7 @@ const faqItems = [
   },
   {
     question: "How does Barrett Henry work Gilchrist County commercial real estate?",
-    answer: "Barrett treats Gilchrist County as a referral territory, handled through established local relationships and 23+ years of Florida commercial real estate experience. He connects buyers and sellers to qualified local brokers, provides honest market assessment, and applies statewide context to rural Florida transactions. He won&apos;t oversell this market — he&apos;ll tell you what it actually is.",
+    answer: "Barrett treats Gilchrist County as a referral territory, handled through established local relationships and 24+ years of commercial real estate experience. He connects buyers and sellers to qualified local brokers, provides honest market assessment, and applies statewide context to rural Florida transactions. He won&apos;t oversell this market — he&apos;ll tell you what it actually is.",
   },
 ];
 
@@ -264,7 +264,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Gilchrist County</h2>
           <p>
-            With 23+ years of Florida commercial real estate experience as a Broker Associate at REMAX Collective, Barrett treats Gilchrist County
+            With 24+ years of commercial real estate experience as a Broker Associate at REMAX Collective, Barrett treats Gilchrist County
             as a referral territory handled through established local relationships. That is not a limitation — it is a feature. Referral territory
             means he brings statewide market context and honest assessment to transactions that local brokers alone might not fully evaluate against
             broader Florida benchmarks.

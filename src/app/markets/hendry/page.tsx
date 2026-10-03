@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in Hendry County?",
     answer:
-      "Barrett approaches Hendry County as a referral and agricultural territory within his statewide Florida practice. As a Broker Associate at REMAX Collective with 23+ years of experience, he focuses on connecting agricultural land buyers and sellers, solar energy developers evaluating land lease opportunities, and agribusiness operators with the right properties and counterparties. His value here is honest market assessment, statewide context, and qualified introductions rather than a high-volume listing operation.",
+      "Barrett approaches Hendry County as a referral and agricultural territory within his statewide Florida practice. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, he focuses on connecting agricultural land buyers and sellers, solar energy developers evaluating land lease opportunities, and agribusiness operators with the right properties and counterparties. His value here is honest market assessment, statewide context, and qualified introductions rather than a high-volume listing operation.",
   },
 ];
 
@@ -254,7 +254,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Hendry County</h2>
           <p>
-            Barrett approaches Hendry County as part of his statewide Florida commercial practice, with 23+ years of experience
+            Barrett approaches Hendry County as part of his statewide Florida commercial practice, with 24+ years of real estate experience
             as a Broker Associate at <Link href="/remax-commercial-florida">REMAX Collective</Link>. He covers the market with
             the same diligence and market intelligence he applies to high-velocity Tampa Bay submarkets -- the scale is different,
             but the commitment to honest assessment is not.

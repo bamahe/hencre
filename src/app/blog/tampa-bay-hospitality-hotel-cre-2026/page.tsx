@@ -298,7 +298,7 @@ export default function TampaBayHospitalityHotelCREPage() {
           For commercial real estate investors, the actionable question is where you are positioned relative to this pipeline. If you own retail, office, or restaurant space near the Riverwalk, in Ybor City, or in downtown St. Pete, the hospitality buildout is a demand driver you may not have fully priced into your hold strategy. If you are looking to acquire commercial assets in Tampa Bay, the submarkets where hospitality is concentrating deserve attention before the hotel openings make the demand effect visible to every buyer in the market.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay — working with investors, tenants, and property owners across every asset class from retail and office to industrial and mixed-use — I track the deals and the pipeline that shape these markets before the mainstream market catches up. If you own commercial property near a hotel development or are looking to position in a submarket where hospitality is creating commercial real estate opportunities, let&apos;s have that conversation.
+          With 24+ years of commercial real estate experience across Tampa Bay — working with investors, tenants, and property owners across every asset class from retail and office to industrial and mixed-use — I track the deals and the pipeline that shape these markets before the mainstream market catches up. If you own commercial property near a hotel development or are looking to position in a submarket where hospitality is creating commercial real estate opportunities, let&apos;s have that conversation.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -325,7 +325,7 @@ export default function TampaBayHospitalityHotelCREPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of commercial real estate experience across Tampa Bay, including retail, restaurant, and mixed-use assets in submarkets shaped by the region&apos;s hospitality buildout.
+              Barrett has 24+ years of commercial real estate experience, including retail, restaurant, and mixed-use assets in submarkets shaped by the region&apos;s hospitality buildout.
             </p>
           </div>
         </div>
@@ -333,7 +333,7 @@ export default function TampaBayHospitalityHotelCREPage() {
 
       <CTASection
         heading="Own Commercial Property Near a Tampa Bay Hotel Development?"
-        body="The hospitality pipeline is reshaping retail, restaurant, and mixed-use commercial real estate demand in downtown Tampa, Ybor City, and St. Pete. Barrett Henry at REMAX Collective -- 23+ years in Tampa Bay CRE -- can help you evaluate what it means for what you own or want to buy."
+        body="The hospitality pipeline is reshaping retail, restaurant, and mixed-use commercial real estate demand in downtown Tampa, Ybor City, and St. Pete. Barrett Henry at REMAX Collective -- over a decade in Tampa Bay CRE -- can help you evaluate what it means for what you own or want to buy."
         buttonText="Talk to Barrett"
         buttonHref="/contact"
       />

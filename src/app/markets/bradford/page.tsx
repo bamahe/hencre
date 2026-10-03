@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     question: "Do you work directly in Bradford County or refer out?",
-    answer: "Barrett Henry works Bradford County as referral territory through his REMAX Collective platform. That means he brings market analysis, buyer and seller representation expertise, and transaction management, while leveraging local broker relationships for hyper-local intelligence. You get 23+ years of Florida commercial real estate experience and the benefit of established local connections.",
+    answer: "Barrett Henry works Bradford County as referral territory through his REMAX Collective platform. That means he brings market analysis, buyer and seller representation expertise, and transaction management, while leveraging local broker relationships for hyper-local intelligence. You get 24+ years of commercial real estate experience and the benefit of established local connections.",
   },
 ];
 
@@ -110,7 +110,7 @@ export default function Page() {
         <section className="prose prose-slate max-w-none">
           <h2>Bradford County Market Overview</h2>
           <p>
-            Bradford County sits in North Central Florida as a small, rural market with a distinct economic profile driven by state corrections infrastructure and agricultural activity. While this is not a high-velocity commercial real estate corridor like <a href="/markets/hillsborough" className="text-accent underline">Tampa&apos;s Hillsborough County</a> or <a href="/markets/alachua" className="text-accent underline">Alachua County</a>, it presents genuine opportunities for investors and operators who understand its fundamentals. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, I work this market as referral territory, and I have learned there is real money to be made here if you know where to look.
+            Bradford County sits in North Central Florida as a small, rural market with a distinct economic profile driven by state corrections infrastructure and agricultural activity. While this is not a high-velocity commercial real estate corridor like <a href="/markets/hillsborough" className="text-accent underline">Tampa&apos;s Hillsborough County</a> or <a href="/markets/alachua" className="text-accent underline">Alachua County</a>, it presents genuine opportunities for investors and operators who understand its fundamentals. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, I work this market as referral territory, and I have learned there is real money to be made here if you know where to look.
           </p>
         </section>
 
@@ -195,7 +195,7 @@ export default function Page() {
         <section className="prose prose-slate max-w-none mt-8">
           <h2>Services Offered in Bradford County</h2>
           <p>
-            I work Bradford County as referral territory through my REMAX Collective platform. With 23+ years as a Florida commercial broker and designations including e-PRO, MRP, and SRS, I bring institutional-grade market analysis to smaller markets where that level of rigor is rare:
+            I work Bradford County as referral territory through my REMAX Collective platform. With 24+ years as a Florida commercial broker and designations including e-PRO, MRP, and SRS, I bring institutional-grade market analysis to smaller markets where that level of rigor is rare:
           </p>
           <ul>
             <li><strong>Buyer Representation:</strong> I identify opportunities aligned with your strategy and negotiate terms that protect your position.</li>

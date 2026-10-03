@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "Does Barrett Henry work directly in Flagler County?",
     answer:
-      "Yes. Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience serving Florida commercial clients. He works Flagler County directly for investment acquisitions, tenant representation, and landlord advisory, and coordinates with REMAX Collective partners for transactions requiring specialized local presence. He can assess any specific property or opportunity and give you an honest read on whether it fits your strategy.",
+      "Yes. Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He works Flagler County directly for investment acquisitions, tenant representation, and landlord advisory, and coordinates with REMAX Collective partners for transactions requiring specialized local presence. He can assess any specific property or opportunity and give you an honest read on whether it fits your strategy.",
   },
   {
     question: "What should investors know before buying commercial property in Flagler County?",
@@ -146,7 +146,7 @@ export default function FlaglerMarketPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Flagler County is a secondary Florida market with primary-market fundamentals: genuine residential growth, underdeveloped commercial corridors, and real tenant demand from retail, healthcare, and small industrial users. Palm Coast -- Florida&apos;s first master-planned city -- is the commercial center, with the Palm Coast Town Center and US-1 corridor as the primary activity zones. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Flagler County directly and across the broader Northeast Florida market.
+            Flagler County is a secondary Florida market with primary-market fundamentals: genuine residential growth, underdeveloped commercial corridors, and real tenant demand from retail, healthcare, and small industrial users. Palm Coast -- Florida&apos;s first master-planned city -- is the commercial center, with the Palm Coast Town Center and US-1 corridor as the primary activity zones. Barrett Henry, Broker Associate at REMAX Collective with 24+ years of real estate experience, works Flagler County directly and across the broader Northeast Florida market.
           </p>
         </div>
       </section>
@@ -279,7 +279,7 @@ export default function FlaglerMarketPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Works in Flagler County</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience, holding designations including e-PRO, MRP, SRS, and REMAX Hall of Fame. He works Flagler County directly as part of his Northeast Florida practice, handling investment acquisitions, tenant representation, and landlord advisory across Palm Coast, Flagler Beach, and Bunnell.
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience, holding designations including e-PRO, MRP, SRS, and REMAX Hall of Fame. He works Flagler County directly as part of his Northeast Florida practice, handling investment acquisitions, tenant representation, and landlord advisory across Palm Coast, Flagler Beach, and Bunnell.
           </p>
           <p>
             For investors, Barrett identifies opportunities -- both on-market and off-market -- and guides clients through{" "}
@@ -327,7 +327,7 @@ export default function FlaglerMarketPage() {
 
       <CTASection
         heading="Ready to Talk Flagler County Commercial Real Estate?"
-        body="Whether you are evaluating Palm Coast retail, exploring a medical office acquisition, or need guidance on what this growing secondary market can realistically deliver -- Barrett Henry has 23+ years of Florida CRE experience and the REMAX Collective network to help you make the right move."
+        body="Whether you are evaluating Palm Coast retail, exploring a medical office acquisition, or need guidance on what this growing secondary market can realistically deliver -- Barrett Henry has 24+ years of commercial real estate experience and the REMAX Collective network to help you make the right move."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

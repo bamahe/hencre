@@ -12,12 +12,12 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "About Barrett Henry | Broker Associate, REMAX Hall of Fame",
   description:
-    "Barrett Henry -- Broker Associate at REMAX Collective with 23+ years of real estate experience. e-PRO, MRP, SRS designations, REMAX Hall of Fame. Florida commercial real estate across all 67 counties. Call (813) 733-7907.",
+    "Barrett Henry -- Broker Associate at REMAX Collective with 24+ years of real estate experience. e-PRO, MRP, SRS designations, REMAX Hall of Fame. Florida commercial real estate across all 67 counties. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/about" },
   openGraph: {
     title: "About Barrett Henry | Broker Associate, REMAX Hall of Fame",
     description:
-      "Broker Associate at REMAX Collective with 23+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
+      "Broker Associate at REMAX Collective with 24+ years of real estate experience. REMAX Hall of Fame. Serving Florida commercial real estate clients with integrity and results.",
     url: "https://hencre.com/about",
   },
 };
@@ -85,7 +85,7 @@ export default function AboutPage() {
 
       <Hero
         title="About Barrett Henry"
-        subtitle="Broker Associate at REMAX Collective. 23+ years of commercial real estate experience across Florida."
+        subtitle="Broker Associate at REMAX Collective. 24+ years of commercial real estate experience."
       />
 
       {/* ---- Bio section ---- */}
@@ -93,7 +93,7 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Who I Am</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            I am Barrett Henry -- a Broker Associate at REMAX Collective with 23+ years of real estate experience.
+            I am Barrett Henry -- a Broker Associate at REMAX Collective with 24+ years of real estate experience.
             I hold the e-PRO, MRP (Military Relocation Professional), and SRS (Seller Representative
             Specialist) designations, and I have been inducted into the REMAX Hall of Fame.
           </p>

@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "How does Barrett Henry work in the Duval County market?",
     answer:
-      "Barrett works Duval County regularly as a Broker Associate at REMAX Collective, with 23+ years of Florida CRE experience. He draws on direct market relationships, REMAX network connections in Jacksonville, and current transaction data to advise investors, corporate tenants, and property owners. Whether you are scouting industrial assets near JAXPORT, evaluating office in Arlington, or targeting multifamily in urban infill, Barrett provides analysis and connects you with the right specialists for execution.",
+      "Barrett works Duval County regularly as a Broker Associate at REMAX Collective, with 24+ years of commercial real estate experience. He draws on direct market relationships, REMAX network connections in Jacksonville, and current transaction data to advise investors, corporate tenants, and property owners. Whether you are scouting industrial assets near JAXPORT, evaluating office in Arlington, or targeting multifamily in urban infill, Barrett provides analysis and connects you with the right specialists for execution.",
   },
 ];
 
@@ -146,7 +146,7 @@ export default function DuvalMarketPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Duval County is Florida&apos;s largest city by area, and its commercial real estate market reflects that scale. JAXPORT drives the industrial sector. Downtown Jacksonville&apos;s riverfront revitalization is producing real mixed-use value. Arlington anchors Class A office demand. Jacksonville Beach adds a distinct coastal retail and hospitality submarket. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Duval County through direct market relationships and the REMAX network in Jacksonville.
+            Duval County is Florida&apos;s largest city by area, and its commercial real estate market reflects that scale. JAXPORT drives the industrial sector. Downtown Jacksonville&apos;s riverfront revitalization is producing real mixed-use value. Arlington anchors Class A office demand. Jacksonville Beach adds a distinct coastal retail and hospitality submarket. Barrett Henry, Broker Associate at REMAX Collective with 24+ years of real estate experience, works Duval County through direct market relationships and the REMAX network in Jacksonville.
           </p>
         </div>
       </section>
@@ -304,7 +304,7 @@ export default function DuvalMarketPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">How Barrett Henry Works in Duval County</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience, holding designations
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, holding designations
             including e-PRO, MRP, SRS, and REMAX Hall of Fame. He works Duval County through direct market relationships and the REMAX
             network in Jacksonville -- drawing on current data and decades of transactional experience across Florida&apos;s commercial markets.
           </p>
@@ -350,7 +350,7 @@ export default function DuvalMarketPage() {
 
       <CTASection
         heading="Ready to Talk Duval County Commercial Real Estate?"
-        body="Whether you are leasing, buying, selling, or investing in Jacksonville -- from JAXPORT industrial to downtown office to coastal retail -- Barrett Henry has the network and 23+ years of Florida CRE experience to help you navigate this market with clarity and precision."
+        body="Whether you are leasing, buying, selling, or investing in Jacksonville -- from JAXPORT industrial to downtown office to coastal retail -- Barrett Henry has the network and 24+ years of commercial real estate experience to help you navigate this market with clarity and precision."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

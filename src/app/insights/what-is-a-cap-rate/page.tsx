@@ -143,7 +143,7 @@ export default function CapRatePage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          If you have spent any time looking at commercial real estate, someone has thrown a cap rate at you. It is one of the first numbers investors ask about — and one of the most misunderstood. I have been working in real estate for over 23 years, and I still see experienced buyers make decisions based on cap rate alone. That is a mistake. Let me break down what this number actually tells you, how to calculate it, and — just as importantly — when to ignore it.
+          If you have spent any time looking at commercial real estate, someone has thrown a cap rate at you. It is one of the first numbers investors ask about — and one of the most misunderstood. I have been working in real estate for over 24 years, and I still see experienced buyers make decisions based on cap rate alone. That is a mistake. Let me break down what this number actually tells you, how to calculate it, and — just as importantly — when to ignore it.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Exactly Is a Cap Rate?</h2>

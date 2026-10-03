@@ -265,7 +265,7 @@ export default function CalhounPage() {
       <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold text-black sm:text-3xl">How Barrett Henry Works the Calhoun Market</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Calhoun County is a referral territory for Barrett. He doesn&apos;t maintain a dedicated office there, but works actively with clients and REALTOR partners throughout the county. With 23+ years of Florida commercial real estate experience, designations including e-PRO, MRP, and SRS, and REMAX Hall of Fame recognition, Barrett brings statewide market perspective to every Calhoun transaction.
+          Calhoun County is a referral territory for Barrett. He doesn&apos;t maintain a dedicated office there, but works actively with clients and REALTOR partners throughout the county. With 24+ years of commercial real estate experience, designations including e-PRO, MRP, and SRS, and REMAX Hall of Fame recognition, Barrett brings statewide market perspective to every Calhoun transaction.
         </p>
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
           <div className="rounded-lg border border-[#E5E5E5] p-6">
@@ -311,7 +311,7 @@ export default function CalhounPage() {
 
       <CTASection
         heading="Ready to Talk Calhoun County Commercial Real Estate?"
-        body="Whether you're leasing, buying, selling, or investing in Calhoun County -- Barrett Henry has 23+ years of Florida CRE experience and the statewide network to get it done right. Call (813) 733-7907."
+        body="Whether you're leasing, buying, selling, or investing in Calhoun County -- Barrett Henry has 24+ years of commercial real estate experience and the statewide network to get it done right. Call (813) 733-7907."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

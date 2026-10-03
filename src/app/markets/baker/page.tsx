@@ -46,7 +46,7 @@ const faqItems = [
   {
     question: "Does Barrett Henry handle commercial real estate transactions in Baker County?",
     answer:
-      "Yes. Baker County is part of Barrett's referral territory within his statewide Florida practice. He works with agricultural land buyers and sellers, light industrial operators, and investors seeking rural commercial assets. With 23+ years of real estate experience and a Broker Associate designation at REMAX Collective, Barrett provides institutional-grade analysis for Baker County engagements. Call (813) 733-7907 to discuss your Baker County transaction.",
+      "Yes. Baker County is part of Barrett's referral territory within his statewide Florida practice. He works with agricultural land buyers and sellers, light industrial operators, and investors seeking rural commercial assets. With 24+ years of real estate experience and a Broker Associate designation at REMAX Collective, Barrett provides institutional-grade analysis for Baker County engagements. Call (813) 733-7907 to discuss your Baker County transaction.",
   },
 ];
 
@@ -118,7 +118,7 @@ export default function BakerPage() {
       <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold text-black">Baker County CRE Market Overview</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Baker County sits in Northeast Florida as a rural market with real fundamentals. It is not a primary investment corridor — it is a secondary market with specific, practical uses. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Baker County because there is genuine opportunity for the right buyer or tenant, and the land economics are compelling for rural agricultural, light industrial, and neighborhood retail operators.
+          Baker County sits in Northeast Florida as a rural market with real fundamentals. It is not a primary investment corridor — it is a secondary market with specific, practical uses. Barrett Henry, Broker Associate at REMAX Collective with 24+ years of real estate experience, works Baker County because there is genuine opportunity for the right buyer or tenant, and the land economics are compelling for rural agricultural, light industrial, and neighborhood retail operators.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           This county is not where you go to buy a Class A office tower. It is where you go to acquire <Link href="/commercial/land-development" className="text-accent underline">commercial land</Link> at favorable pricing, establish agricultural operations, or serve the communities of Macclenny and Glen St. Mary without the overhead of higher-cost markets. That has real value for operators who understand it.

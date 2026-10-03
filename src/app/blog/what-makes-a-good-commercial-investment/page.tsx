@@ -182,7 +182,7 @@ export default function GoodInvestmentPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          After working in commercial real estate for over 23 years as a Broker Associate at REMAX Collective, I have seen plenty of deals that looked great on paper and turned into headaches — and quiet, unglamorous properties that generated steady returns for decades. The difference usually comes down to a handful of fundamentals that experienced investors evaluate before they ever make an offer. Here is what separates a good commercial investment from a bad one.
+          After working in commercial real estate for over 24 years as a Broker Associate at REMAX Collective, I have seen plenty of deals that looked great on paper and turned into headaches — and quiet, unglamorous properties that generated steady returns for decades. The difference usually comes down to a handful of fundamentals that experienced investors evaluate before they ever make an offer. Here is what separates a good commercial investment from a bad one.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Tenant Quality and Credit</h2>
@@ -297,7 +297,7 @@ export default function GoodInvestmentPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps investors evaluate commercial property acquisitions with honest, data-driven guidance across the Tampa Bay and Florida markets. Learn more about{" "}
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He helps investors evaluate commercial property acquisitions with honest, data-driven guidance across the Tampa Bay and Florida markets. Learn more about{" "}
               <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
               or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>

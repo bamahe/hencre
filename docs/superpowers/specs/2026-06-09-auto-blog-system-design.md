@@ -144,7 +144,7 @@ The system prompt for content generation will enforce:
 - "owners suite" never "master suite"
 - Never mention mobile/manufactured homes
 - Barrett Henry personal brand > team branding
-- "23+ years of real estate experience" (NEVER tied to Tampa Bay)
+- "24+ years of real estate experience" (NEVER tied to Tampa Bay)
 - No creepy CTAs asking for personal details
 - Vary CTA copy (never repeat "Ready to Make [City] Home?")
 - No naming individuals in crime-related content

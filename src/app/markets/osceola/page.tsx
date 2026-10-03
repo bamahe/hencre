@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in Osceola County?",
     answer:
-      "Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He approaches Osceola County as part of his statewide Florida commercial practice, with particular focus on investment sales, NNN retail, and connecting clients with qualified Central Florida operators. He provides Florida-wide market context and professional introductions to local specialists for assignments that benefit from boots-on-ground expertise.",
+      "Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He approaches Osceola County as part of his statewide Florida commercial practice, with particular focus on investment sales, NNN retail, and connecting clients with qualified Central Florida operators. He provides Florida-wide market context and professional introductions to local specialists for assignments that benefit from boots-on-ground expertise.",
   },
 ];
 
@@ -250,7 +250,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Osceola County</h2>
           <p>
-            Barrett approaches Osceola County as part of his statewide Florida practice, with 23+ years of experience as
+            Barrett approaches Osceola County as part of his statewide Florida practice, with 24+ years of real estate experience as
             a Broker Associate at REMAX Collective. He helps investors evaluate NNN retail, hospitality assets, and
             residential-growth commercial opportunities, and connects clients with vetted Central Florida specialists
             for complex local transactions.
@@ -291,7 +291,7 @@ export default function Page() {
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Osceola County?"
-        body="Barrett Henry brings 23+ years of commercial real estate experience and Florida-wide market context to hospitality, NNN retail, and investment opportunities in Osceola County."
+        body="Barrett Henry brings 24+ years of commercial real estate experience and Florida-wide market context to hospitality, NNN retail, and investment opportunities in Osceola County."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry serve Lee County commercial clients?",
     answer:
-      "Barrett approaches Lee County as a significant Southwest Florida market within his statewide Florida commercial practice. As a Broker Associate at REMAX Collective with 23+ years of experience, he helps investors evaluate industrial, retail, office, and multifamily properties across Lee County — including Fort Myers, Cape Coral, Bonita Springs, and Estero. He also represents tenants in commercial lease searches and assists commercial property owners with dispositions and valuation. Contact Barrett at (813) 733-7907 or through hencre.com.",
+      "Barrett approaches Lee County as a significant Southwest Florida market within his statewide Florida commercial practice. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, he helps investors evaluate industrial, retail, office, and multifamily properties across Lee County — including Fort Myers, Cape Coral, Bonita Springs, and Estero. He also represents tenants in commercial lease searches and assists commercial property owners with dispositions and valuation. Contact Barrett at (813) 733-7907 or through hencre.com.",
   },
   {
     question: "What makes Southwest Florida International Airport important for Lee County commercial real estate?",
@@ -302,7 +302,7 @@ export default function Page() {
           <h2>How Barrett Henry Works Lee County</h2>
           <p>
             Lee County is a significant market within Barrett&apos;s statewide Florida commercial practice. As a Broker
-            Associate at REMAX Collective with 23+ years of experience, Barrett helps investors evaluate industrial,
+            Associate at REMAX Collective with 24+ years of real estate experience, Barrett helps investors evaluate industrial,
             retail, multifamily, and healthcare assets across Fort Myers, Cape Coral, Bonita Springs, and Estero. He
             provides honest market assessment grounded in statewide pricing context — not just the most optimistic
             underwriting narrative.
@@ -357,7 +357,7 @@ export default function Page() {
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Lee County?"
-        body="Fort Myers, Cape Coral, Bonita Springs — Barrett Henry brings 23+ years of Florida commercial real estate experience to Southwest Florida&apos;s most active market. Contact him at (813) 733-7907."
+        body="Fort Myers, Cape Coral, Bonita Springs — Barrett Henry brings 24+ years of commercial real estate experience to Southwest Florida&apos;s most active market. Contact him at (813) 733-7907."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

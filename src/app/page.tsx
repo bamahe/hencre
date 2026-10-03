@@ -390,7 +390,7 @@ export default function HomePage() {
           <p className="mt-4 text-lg leading-relaxed text-[#666666]">
             Whether you are leasing your first office, acquiring a <strong>multifamily portfolio</strong>,
             or selling a retail center, the right broker makes the difference between a
-            good deal and a great one. As a <strong>REMAX Commercial® broker</strong>, I bring 23+ years of real estate experience to
+            good deal and a great one. As a <strong>REMAX Commercial® broker</strong>, I bring 24+ years of real estate experience to
             every engagement — <em>deep market knowledge</em>, honest guidance, and relentless
             execution backed by the world&apos;s most recognized real estate network. No committee. No runaround. Just results.
           </p>

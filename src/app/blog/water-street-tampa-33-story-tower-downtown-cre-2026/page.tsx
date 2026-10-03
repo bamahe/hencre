@@ -266,7 +266,7 @@ export default function WaterStreetTampa33StoryTowerPage() {
           For investors, the announcement reinforces that institutional capital sees Tampa&apos;s downtown trajectory as durable — not a pandemic-era anomaly. For tenants, it means downtown Tampa&apos;s commercial infrastructure will continue to improve, making it a more viable location for businesses that want to recruit from a talent pool that prioritizes walkable, amenity-rich work environments.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay — including deep familiarity with downtown Tampa&apos;s evolving submarkets — I work with investors identifying acquisition opportunities in the Water Street halo zone and tenants finding office and retail space in the broader downtown core. If you are making a downtown Tampa CRE decision in the next 12 months, let&apos;s connect before the second phase changes the market further.
+          With 24+ years of commercial real estate experience across Tampa Bay — including deep familiarity with downtown Tampa&apos;s evolving submarkets — I work with investors identifying acquisition opportunities in the Water Street halo zone and tenants finding office and retail space in the broader downtown core. If you are making a downtown Tampa CRE decision in the next 12 months, let&apos;s connect before the second phase changes the market further.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -291,7 +291,7 @@ export default function WaterStreetTampa33StoryTowerPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective,
               operating under the REMAX Commercial division. He specializes in downtown Tampa commercial

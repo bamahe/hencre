@@ -250,7 +250,7 @@ export default function WesleyChapelCREPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Wesley Chapel is one of the most compelling commercial real estate investment markets in the Tampa Bay region. The demand drivers are real, durable, and compounding. But the best opportunities in fast-growing markets go to buyers with local knowledge and relationships — not to those arriving late with a generic buy thesis. With 23+ years of experience as a Broker Associate at REMAX Collective, I help investors identify the right assets, negotiate competitive terms, and execute <Link href="/insights/cre-due-diligence-checklist" className="text-accent underline">due diligence</Link> that protects capital. Whether you are evaluating your first commercial acquisition or looking at <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">what makes a good commercial investment</Link> in this market, I can help you find what works in Wesley Chapel.
+          Wesley Chapel is one of the most compelling commercial real estate investment markets in the Tampa Bay region. The demand drivers are real, durable, and compounding. But the best opportunities in fast-growing markets go to buyers with local knowledge and relationships — not to those arriving late with a generic buy thesis. With 24+ years of real estate experience as a Broker Associate at REMAX Collective, I help investors identify the right assets, negotiate competitive terms, and execute <Link href="/insights/cre-due-diligence-checklist" className="text-accent underline">due diligence</Link> that protects capital. Whether you are evaluating your first commercial acquisition or looking at <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">what makes a good commercial investment</Link> in this market, I can help you find what works in Wesley Chapel.
         </p>
 
         <FAQAccordion items={faqItems} />
@@ -271,7 +271,7 @@ export default function WesleyChapelCREPage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>

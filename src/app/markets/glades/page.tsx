@@ -41,7 +41,7 @@ const faqItems = [
   },
   {
     question: "How does Barrett Henry approach Glades County commercial real estate?",
-    answer: "Barrett treats Glades County as a referral territory — he does not oversell the market and he does not force urban tactics onto rural assets. With 23+ years of Florida commercial real estate experience as a Broker Associate at REMAX Collective, he connects agricultural operators, marina and lodge investors, and small-town retail buyers with the right properties and counterparties. His value here is honest assessment, statewide market context, and qualified introductions.",
+    answer: "Barrett treats Glades County as a referral territory — he does not oversell the market and he does not force urban tactics onto rural assets. With 24+ years of commercial real estate experience as a Broker Associate at REMAX Collective, he connects agricultural operators, marina and lodge investors, and small-town retail buyers with the right properties and counterparties. His value here is honest assessment, statewide market context, and qualified introductions.",
   },
 ];
 
@@ -259,7 +259,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Glades County</h2>
           <p>
-            Barrett treats Glades County as a referral territory with 23+ years of Florida commercial real estate experience as a Broker
+            Barrett treats Glades County as a referral territory with 24+ years of commercial real estate experience as a Broker
             Associate at REMAX Collective. That is exactly why his approach works here. He does not oversell or overprice. He understands
             the difference between agricultural land transactions, seasonal hospitality properties, and small-town retail — and he respects
             the decision-making pace and priorities of agricultural operators and rural property owners.

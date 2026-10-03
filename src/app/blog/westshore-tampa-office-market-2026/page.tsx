@@ -275,7 +275,7 @@ export default function BlogPost() {
           Three things, in order. First, nail down your space requirement — not just square footage, but parking ratio, suite configuration (private offices versus open plan), signage requirements, and whether you need a dedicated entrance or a multi-tenant building setup. Westshore has product that fits a wide range of those requirements, but wasting time touring buildings that do not match your operational needs is expensive when available options are limited.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Second, understand your timeline. If your current lease expires in the next 12 months, you are already in a constrained position in Westshore's current market. If you have 18 to 24 months, you have the runway to tour properly, negotiate deliberately, and allow for a buildout without compressing your timeline so much that a landlord can leverage your urgency against you. Third, engage a tenant representative before you make any calls to landlords or respond to listings. Every landlord in Westshore has their own broker whose job is to maximize the landlord's outcome — you need someone in your corner whose fiduciary is exclusively to you. Barrett Henry has 23+ years of experience representing tenants across all of Tampa Bay through REMAX Collective, with offices in Tampa, Largo, and Brandon. There is no cost to you for that representation.
+          Second, understand your timeline. If your current lease expires in the next 12 months, you are already in a constrained position in Westshore's current market. If you have 18 to 24 months, you have the runway to tour properly, negotiate deliberately, and allow for a buildout without compressing your timeline so much that a landlord can leverage your urgency against you. Third, engage a tenant representative before you make any calls to landlords or respond to listings. Every landlord in Westshore has their own broker whose job is to maximize the landlord's outcome — you need someone in your corner whose fiduciary is exclusively to you. Barrett Henry has 24+ years of real estate experience representing tenants across all of Tampa Bay through REMAX Collective, with offices in Tampa, Largo, and Brandon. There is no cost to you for that representation.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If you are relocating a business or moving a team to Tampa from out of state, the same advice applies. Tampa Bay offers convenient access across <a href="/markets/hillsborough">Hillsborough</a>, <a href="/markets/pinellas">Pinellas</a>, and <a href="/markets/pasco">Pasco</a> counties -- so employees commuting from any direction will find Westshore genuinely accessible.
@@ -322,7 +322,7 @@ export default function BlogPost() {
               Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame
             </p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience helping office tenants and investors navigate Tampa Bay's most competitive submarkets. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 24+ years of real estate experience helping office tenants and investors navigate Tampa Bay's most competitive submarkets. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>
@@ -338,7 +338,7 @@ export default function BlogPost() {
 
       <CTASection
         heading="Westshore Office Space Is Tighter Than It Looks — Move Before Your Options Narrow Further"
-        body="Barrett Henry has 23+ years of experience representing tenants and investors across Tampa Bay's most competitive office submarkets. Call (813) 733-7907 to get a current shortlist of available space in Westshore and adjacent submarkets before the window closes."
+        body="Barrett Henry has 24+ years of real estate experience representing tenants and investors across Tampa Bay's most competitive office submarkets. Call (813) 733-7907 to get a current shortlist of available space in Westshore and adjacent submarkets before the window closes."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

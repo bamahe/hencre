@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     question: "Do you work Broward County directly or through referral?",
-    answer: "Barrett Henry works Broward County as part of his broader South and Central Florida coverage through REMAX Collective. He brings 23+ years of Florida commercial real estate experience, designations including e-PRO, MRP, and SRS, and REMAX Hall of Fame recognition to every engagement. He works alongside local broker relationships for hyper-local intelligence while delivering the analysis and transaction management that institutional-quality deals require.",
+    answer: "Barrett Henry works Broward County as part of his broader South and Central Florida coverage through REMAX Collective. He brings 24+ years of commercial real estate experience, designations including e-PRO, MRP, and SRS, and REMAX Hall of Fame recognition to every engagement. He works alongside local broker relationships for hyper-local intelligence while delivering the analysis and transaction management that institutional-quality deals require.",
   },
 ];
 
@@ -110,7 +110,7 @@ export default function Page() {
         <section className="prose prose-slate max-w-none">
           <h2>Broward County Market Overview</h2>
           <p>
-            Broward County is one of Florida&apos;s most dynamic commercial real estate markets, and for good reason. You have deep-water port access, a major international airport, a resident base that supports serious retail and hospitality demand, and institutional capital that understands the fundamentals here. As a Broker Associate at REMAX Collective with 23+ years of Florida commercial real estate experience, I work this market regularly and see consistent activity across <a href="/commercial/office-space" className="text-accent underline">office</a>, <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial</a>, and <a href="/commercial/retail-space" className="text-accent underline">retail</a> corridors. Whether you are a buyer, seller, investor, or tenant, Broward deserves your attention.
+            Broward County is one of Florida&apos;s most dynamic commercial real estate markets, and for good reason. You have deep-water port access, a major international airport, a resident base that supports serious retail and hospitality demand, and institutional capital that understands the fundamentals here. As a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience, I work this market regularly and see consistent activity across <a href="/commercial/office-space" className="text-accent underline">office</a>, <a href="/commercial/industrial-warehouse" className="text-accent underline">industrial</a>, and <a href="/commercial/retail-space" className="text-accent underline">retail</a> corridors. Whether you are a buyer, seller, investor, or tenant, Broward deserves your attention.
           </p>
         </section>
 
@@ -238,7 +238,7 @@ export default function Page() {
         <section className="prose prose-slate max-w-none mt-8">
           <h2>Services Offered in Broward County</h2>
           <p>
-            I am a Broker Associate at REMAX Collective with 23+ years of Florida commercial real estate experience. I work Broward County as part of my broader South and Central Florida coverage, bringing designations including e-PRO, MRP, and SRS and REMAX Hall of Fame recognition to every engagement:
+            I am a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience. I work Broward County as part of my broader South and Central Florida coverage, bringing designations including e-PRO, MRP, and SRS and REMAX Hall of Fame recognition to every engagement:
           </p>
           <ul>
             <li><strong>Buyer Representation:</strong> I identify acquisition targets across office, industrial, multifamily, and retail. I understand what drives value in each corridor and help you underwrite deals and negotiate terms.</li>

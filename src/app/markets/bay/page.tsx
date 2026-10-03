@@ -46,7 +46,7 @@ const faqItems = [
   {
     question: "Does Barrett Henry handle commercial real estate transactions in Bay County?",
     answer:
-      "Yes. Bay County is part of Barrett's referral territory within his statewide Florida practice. He represents buyers, sellers, investors, and occupants on Bay County CRE transactions — from industrial and flex acquisitions near Tyndall to beach-adjacent retail and hospitality properties. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, Barrett provides direct market insight and broker expertise. Call (813) 733-7907 to start a real conversation.",
+      "Yes. Bay County is part of Barrett's referral territory within his statewide Florida practice. He represents buyers, sellers, investors, and occupants on Bay County CRE transactions — from industrial and flex acquisitions near Tyndall to beach-adjacent retail and hospitality properties. With 24+ years of real estate experience as a Broker Associate at REMAX Collective, Barrett provides direct market insight and broker expertise. Call (813) 733-7907 to start a real conversation.",
   },
 ];
 
@@ -121,7 +121,7 @@ export default function BayPage() {
           Bay County is not a minor-league market — it is a tier-2 player with genuine structural demand drivers. Panama City, Panama City Beach, Lynn Haven, and Callaway form one of Northwest Florida&apos;s most dynamic commercial markets. Tyndall Air Force Base expansion, post-Hurricane Michael reconstruction still generating activity, and a tourism and hospitality corridor anchored by Panama City Beach collectively create a market that rewards investors who understand secondary markets with real fundamentals.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Bay County as referral territory. He understands the Tyndall dynamic, the beach tourism market, and the post-Michael reconstruction landscape — and can connect buyers, sellers, and occupants with opportunities that generic market reports miss.
+          Barrett Henry, Broker Associate at REMAX Collective with 24+ years of real estate experience, works Bay County as referral territory. He understands the Tyndall dynamic, the beach tourism market, and the post-Michael reconstruction landscape — and can connect buyers, sellers, and occupants with opportunities that generic market reports miss.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Key Commercial Corridors and Submarkets</h2>
@@ -237,7 +237,7 @@ export default function BayPage() {
 
       <CTASection
         heading="Bay County CRE: Let&apos;s Talk"
-        body="If you are considering a Bay County transaction — whether investing, expanding, or repositioning — Barrett Henry at REMAX Collective is ready to have a real conversation. With 23+ years of Florida CRE experience, he brings market intelligence that generic brokers cannot. Call (813) 733-7907 today."
+        body="If you are considering a Bay County transaction — whether investing, expanding, or repositioning — Barrett Henry at REMAX Collective is ready to have a real conversation. With 24+ years of commercial real estate experience, he brings market intelligence that generic brokers cannot. Call (813) 733-7907 today."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

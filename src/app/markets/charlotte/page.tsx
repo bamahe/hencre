@@ -133,7 +133,7 @@ export default function CharlotteMarketPage() {
           <div className="space-y-5 text-[#666666] leading-relaxed">
             <p>
               Charlotte County is one of Southwest Florida&apos;s most underrated commercial markets.
-              After 23+ years as a Broker Associate at REMAX Collective, I can tell you that markets
+              After 24+ years as a Broker Associate at REMAX Collective, I can tell you that markets
               like Charlotte do not stay quiet for long. The combination of retiree migration, post-Hurricane
               Ian reconstruction, and infrastructure improvements along the US-41 corridor has created
               genuine opportunity for both users and investors. For perspective on the broader region, see the{" "}

@@ -257,7 +257,7 @@ export default function InsuranceCrisisInvestmentPage() {
           <a href="/contact" className="text-accent underline">request a free property analysis</a>.
           He works with investment property owners across Hillsborough, Pinellas, Manatee, and
           Sarasota counties to evaluate the hold-versus-sell decision using actual current data.
-          With 23+ years of real estate experience and offices in Tampa, Largo, and Brandon,
+          With 24+ years of real estate experience and offices in Tampa, Largo, and Brandon,
           Barrett brings the market intelligence you need to make a well-informed decision.
         </p>
 
@@ -293,7 +293,7 @@ export default function InsuranceCrisisInvestmentPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett has 24+ years of real estate experience and operates under the REMAX Commercial division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
         </div>
@@ -309,7 +309,7 @@ export default function InsuranceCrisisInvestmentPage() {
 
       <CTASection
         heading="Ready to Evaluate Your Investment Property?"
-        body="Get a current hold-versus-sell analysis from Barrett Henry -- Broker Associate at REMAX Collective with 23+ years of Florida real estate experience."
+        body="Get a current hold-versus-sell analysis from Barrett Henry -- Broker Associate at REMAX Collective with 24+ years of real estate experience."
         buttonText="Schedule a Consultation"
         buttonHref="/contact"
       />

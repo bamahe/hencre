@@ -293,7 +293,7 @@ export default function ZoningBasicsPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Zoning is foundational to every commercial real estate decision. It determines what you can do with a property, how much it is worth, and whether your business plan is viable. With 23+ years of real estate experience, Barrett Henry helps clients navigate zoning issues across Florida — from verifying permitted uses to evaluating rezoning potential. Understanding zoning before you commit saves time, money, and headaches. Explore available{" "}
+          Zoning is foundational to every commercial real estate decision. It determines what you can do with a property, how much it is worth, and whether your business plan is viable. With 24+ years of real estate experience, Barrett Henry helps clients navigate zoning issues across Florida — from verifying permitted uses to evaluating rezoning potential. Understanding zoning before you commit saves time, money, and headaches. Explore available{" "}
           <Link href="/commercial/land-development" className="text-accent underline">land and development opportunities</Link>{" "}
           or browse{" "}
           <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>{" "}
@@ -326,7 +326,7 @@ export default function ZoningBasicsPage() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps clients navigate zoning issues, due diligence, and commercial property decisions across Florida. Learn more about{" "}
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He helps clients navigate zoning issues, due diligence, and commercial property decisions across Florida. Learn more about{" "}
               <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
               or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>

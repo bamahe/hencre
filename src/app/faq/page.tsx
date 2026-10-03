@@ -108,7 +108,7 @@ const FAQ_CATEGORIES = [
     faqs: [
       {
         q: "Why should I work with you instead of a large brokerage?",
-        a: "When you call me, you get me — not an assistant, not a junior agent, not a voicemail maze. I bring 23+ years of real estate experience with the full backing of REMAX Collective, one of the largest real estate networks in the world. You get personalized service with institutional reach.",
+        a: "When you call me, you get me — not an assistant, not a junior agent, not a voicemail maze. I bring 24+ years of real estate experience with the full backing of REMAX Collective, one of the largest real estate networks in the world. You get personalized service with institutional reach.",
       },
       {
         q: "Do you handle both sides of a transaction?",

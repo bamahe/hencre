@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in St. Johns County?",
     answer:
-      "Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He approaches St. Johns County as part of his statewide Florida commercial practice, providing market analysis, investment support, and professional introductions for clients with commercial interests in St. Augustine, the Nocatee/CR-210 corridor, or Ponte Vedra Beach. He serves all 67 Florida counties.",
+      "Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He approaches St. Johns County as part of his statewide Florida commercial practice, providing market analysis, investment support, and professional introductions for clients with commercial interests in St. Augustine, the Nocatee/CR-210 corridor, or Ponte Vedra Beach. He serves all 67 Florida counties.",
   },
 ];
 
@@ -265,7 +265,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works St. Johns County</h2>
           <p>
-            Barrett approaches St. Johns County as part of his statewide Florida commercial practice, with 23+ years of
+            Barrett approaches St. Johns County as part of his statewide Florida commercial practice, with 24+ years of
             experience as a Broker Associate at REMAX Collective. He provides market analysis, land and retail investment
             support, and professional introductions for clients evaluating the Nocatee corridor, St. Augustine hospitality,
             or Ponte Vedra commercial opportunities.
@@ -310,7 +310,7 @@ export default function Page() {
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in St. Johns County?"
-        body="Barrett Henry brings 23+ years of commercial real estate experience and Florida-wide market context to retail, hospitality, land, and investment opportunities in Florida&apos;s fastest-growing county."
+        body="Barrett Henry brings 24+ years of commercial real estate experience and Florida-wide market context to retail, hospitality, land, and investment opportunities in Florida&apos;s fastest-growing county."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

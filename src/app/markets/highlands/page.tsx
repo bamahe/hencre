@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry serve Highlands County commercial clients?",
     answer:
-      "Barrett works Highlands County as part of his statewide Florida commercial practice. As a Broker Associate at REMAX Collective with 23+ years of experience, he helps investors evaluate healthcare-anchored retail, hospitality properties, and agricultural land in Highlands County. He also represents tenants and landlords in the Sebring and Avon Park commercial markets. His value is honest market assessment, statewide pricing context, and qualified buyer and tenant introductions.",
+      "Barrett works Highlands County as part of his statewide Florida commercial practice. As a Broker Associate at REMAX Collective with 24+ years of real estate experience, he helps investors evaluate healthcare-anchored retail, hospitality properties, and agricultural land in Highlands County. He also represents tenants and landlords in the Sebring and Avon Park commercial markets. His value is honest market assessment, statewide pricing context, and qualified buyer and tenant introductions.",
   },
 ];
 
@@ -263,7 +263,7 @@ export default function Page() {
         <section>
           <h2>How Barrett Henry Works Highlands County</h2>
           <p>
-            Barrett approaches Highlands County with 23+ years of Florida commercial real estate experience as a Broker Associate
+            Barrett approaches Highlands County with 24+ years of commercial real estate experience as a Broker Associate
             at REMAX Collective. He evaluates healthcare-anchored retail, hospitality properties, and agricultural land with
             honest market assessment and statewide pricing context. His value is connecting buyers, sellers, and operators with
             the right opportunities — not inflating expectations in a market where depth is limited.

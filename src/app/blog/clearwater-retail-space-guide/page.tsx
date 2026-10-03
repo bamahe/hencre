@@ -138,7 +138,7 @@ export default function ClearwaterRetailGuidePage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Clearwater combines year-round tourism with a strong local residential population, creating a retail market that supports both service-oriented businesses and destination retailers. Whether you are opening a first location, expanding an existing business, or investing in retail property, understanding the Clearwater retail landscape is essential to making smart decisions in <a href="/markets/pinellas" className="text-accent underline">Pinellas County</a>. With 23+ years of real estate experience and my base at REMAX Collective, I work this market regularly across all retail corridor types.
+          Clearwater combines year-round tourism with a strong local residential population, creating a retail market that supports both service-oriented businesses and destination retailers. Whether you are opening a first location, expanding an existing business, or investing in retail property, understanding the Clearwater retail landscape is essential to making smart decisions in <a href="/markets/pinellas" className="text-accent underline">Pinellas County</a>. With 24+ years of real estate experience and my base at REMAX Collective, I work this market regularly across all retail corridor types.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Makes Clearwater Attractive for Retail?</h2>
@@ -216,7 +216,7 @@ export default function ClearwaterRetailGuidePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Clearwater offers a dynamic retail market powered by tourism, population growth, and ongoing investment. Whether you are looking for your first storefront, expanding your business, or investing in retail property, the market rewards smart site selection and strong lease negotiation. For additional context on comparable markets, see our guides to <a href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate</a> and <a href="/blog/clearwater-office-space-professional-services-firms" className="text-accent underline">Clearwater office space for professional services firms</a>. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I help tenants and investors navigate the Clearwater market with data, local knowledge, and honest advice.
+          Clearwater offers a dynamic retail market powered by tourism, population growth, and ongoing investment. Whether you are looking for your first storefront, expanding your business, or investing in retail property, the market rewards smart site selection and strong lease negotiation. For additional context on comparable markets, see our guides to <a href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate</a> and <a href="/blog/clearwater-office-space-professional-services-firms" className="text-accent underline">Clearwater office space for professional services firms</a>. With 24+ years of real estate experience as a Broker Associate at REMAX Collective, I help tenants and investors navigate the Clearwater market with data, local knowledge, and honest advice.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>

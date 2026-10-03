@@ -82,7 +82,7 @@ export default function NNNNetLeasePage() {
             According to The Boulder Group, NNN properties traded at an average 6.3% cap rate nationally in 2024, making them
             one of the most popular passive commercial investment vehicles for retirees,{" "}
             <Link href="/insights/1031-exchange-basics" className="underline">1031 exchange</Link> buyers, and income-focused
-            investors. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, represents
+            investors. Barrett Henry, Broker Associate at REMAX Collective with 24+ years of real estate experience, represents
             NNN buyers and sellers across{" "}
             <Link href="/markets/hillsborough" className="underline">Hillsborough</Link>,{" "}
             <Link href="/markets/pinellas" className="underline">Pinellas</Link>,{" "}
@@ -110,7 +110,7 @@ export default function NNNNetLeasePage() {
             any deal before you make an offer.
           </p>
           <p>
-            Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience and specialized
+            Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience and specialized
             NNN expertise. Florida is one of the most active NNN markets in the country, driven by population growth, strong
             retail fundamentals, and deep investor demand. Barrett helps buyers source quality NNN assets and sellers position
             properties for maximum value through the{" "}
@@ -233,7 +233,7 @@ export default function NNNNetLeasePage() {
           className="w-full rounded-lg"
           unoptimized
         />
-        <p className="mt-2 text-xs text-center text-[#666666]">Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience specializing in NNN investment sales.</p>
+        <p className="mt-2 text-xs text-center text-[#666666]">Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of commercial real estate experience specializing in NNN investment sales.</p>
       </section>
 
       {/* ---- FAQ section ---- */}

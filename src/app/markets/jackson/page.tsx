@@ -45,7 +45,7 @@ const faqItems = [
   {
     question: "Does Barrett Henry represent buyers and sellers in Jackson County?",
     answer:
-      "Yes. Barrett Henry at REMAX Collective serves Jackson County as a referral territory, partnering with local brokers and bringing statewide network resources to buyers, sellers, tenants, and investors. With 23+ years of Florida CRE experience, he provides market intelligence, tenant and owner representation, and transaction execution across the county.",
+      "Yes. Barrett Henry at REMAX Collective serves Jackson County as a referral territory, partnering with local brokers and bringing statewide network resources to buyers, sellers, tenants, and investors. With 24+ years of commercial real estate experience, he provides market intelligence, tenant and owner representation, and transaction execution across the county.",
   },
 ];
 
@@ -162,7 +162,7 @@ export default function Page() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Jackson County sits in the heart of Northwest Florida&apos;s Panhandle -- a rural market with distinct economic anchors and genuine recovery momentum. As a Broker Associate with 23+ years navigating Florida&apos;s varied commercial landscapes, I&apos;ve watched this county rebuild post-Hurricane Michael with quiet but measurable resilience. The correctional facilities, I-10 corridor positioning, and emerging retail corridors create real opportunities for investors and occupants willing to understand the local dynamics.
+          Jackson County sits in the heart of Northwest Florida&apos;s Panhandle -- a rural market with distinct economic anchors and genuine recovery momentum. As a Broker Associate with over a decade navigating Florida&apos;s varied commercial landscapes, I&apos;ve watched this county rebuild post-Hurricane Michael with quiet but measurable resilience. The correctional facilities, I-10 corridor positioning, and emerging retail corridors create real opportunities for investors and occupants willing to understand the local dynamics.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Market Fundamentals: What Makes Jackson County Different</h2>
@@ -256,7 +256,7 @@ export default function Page() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>

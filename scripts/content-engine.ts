@@ -182,7 +182,7 @@ HARD RULES:
 - Write in Barrett's first-person broker voice — confident, direct, expert
 - "REMAX" never "RE/MAX"
 - "REALTOR®" with the registered symbol
-- "23+ years experience" max once, never tied to Tampa Bay specifically
+- "24+ years of real estate experience" max once, never tied to Tampa Bay specifically
 - Phone: (813) 733-7907, Email: barrett@nowtb.com
 - Include a brief FAQ section (3-5 questions) at the end
 - Write 600-1000 words of substantive content
@@ -228,7 +228,7 @@ async function reviewContent(
 
 REVIEW CHECKLIST:
 1. SCAN FOR INVENTED NUMBERS: Any vacancy %, cap rates, price/SF, population figures, dollar amounts that aren't in the verified data? → STRIP THEM. This is the #1 rule.
-2. E-E-A-T INJECTION: Does the content reflect Barrett's real expertise? 23+ years, REMAX Collective, designations (e-PRO, MRP, SRS, Hall of Fame), first-person broker voice? Add if missing.
+2. E-E-A-T INJECTION: Does the content reflect Barrett's real expertise? 24+ years, REMAX Collective, designations (e-PRO, MRP, SRS, Hall of Fame), first-person broker voice? Add if missing.
 3. BRAND STRING RULES: "REMAX" (no slash), "REALTOR®" (with symbol), "owners suite" (not master). Phone: (813) 733-7907, Email: barrett@nowtb.com.
 4. QUALITY: Is this genuinely helpful to someone searching for CRE info in this market? Would a real broker be proud of this content?
 5. NO FLUFF: Strip generic filler, AI-sounding transitions, buzzwords.
@@ -379,7 +379,7 @@ function generateDescription(item: QueueItem, countyData: CountyData | undefined
   if (item.page_type === "market" && item.county) {
     return `Expert guide to commercial real estate in ${item.county} County, FL. Office, retail, industrial, and investment opportunities from Barrett Henry, REMAX Collective.`;
   }
-  return `Florida commercial real estate expertise from Barrett Henry, Broker Associate at REMAX Collective. 23+ years of experience.`;
+  return `Florida commercial real estate expertise from Barrett Henry, Broker Associate at REMAX Collective. 24+ years of real estate experience.`;
 }
 
 function getPagePath(item: QueueItem): string {

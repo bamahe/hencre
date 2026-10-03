@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "How does Barrett Henry approach commercial real estate in Seminole County?",
     answer:
-      "Barrett operates his statewide Florida commercial practice from his Tampa Bay base as a Broker Associate at REMAX Collective. For Seminole County assignments, he provides investment context, tenant representation support, and professional introductions to vetted Central Florida specialists. His 23+ years of commercial experience and statewide network make him an effective first call for investors and operators with Seminole County interests.",
+      "Barrett operates his statewide Florida commercial practice from his Tampa Bay base as a Broker Associate at REMAX Collective. For Seminole County assignments, he provides investment context, tenant representation support, and professional introductions to vetted Central Florida specialists. His 24+ years of commercial experience and statewide network make him an effective first call for investors and operators with Seminole County interests.",
   },
 ];
 
@@ -256,7 +256,7 @@ export default function Page() {
           <h2>How Barrett Henry Works Seminole County</h2>
           <p>
             Barrett operates his statewide Florida commercial practice from Tampa Bay as a Broker Associate at REMAX
-            Collective, with 23+ years of real estate experience. For Seminole County clients, he provides market context,
+            Collective, with 24+ years of real estate experience. For Seminole County clients, he provides market context,
             investment sales support, and tenant representation alongside professional introductions to vetted Central
             Florida specialists for complex local assignments.
           </p>
@@ -299,7 +299,7 @@ export default function Page() {
       </main>
       <CTASection
         heading="Ready to Talk Commercial Real Estate in Seminole County?"
-        body="Barrett Henry brings 23+ years of commercial real estate experience and statewide Florida context to every Seminole County assignment -- office, retail, industrial, and investment sales."
+        body="Barrett Henry brings 24+ years of commercial real estate experience and statewide Florida context to every Seminole County assignment -- office, retail, industrial, and investment sales."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />

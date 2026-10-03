@@ -45,7 +45,7 @@ const faqItems = [
   {
     question: "Does Barrett Henry represent buyers and sellers in Jefferson County?",
     answer:
-      "Yes. Barrett Henry at REMAX Collective covers Jefferson County as a referral territory with 23+ years of Florida CRE experience. He provides buyer and seller representation, leasing advisory, investment analysis, and market intelligence for clients active in this rural North Florida market.",
+      "Yes. Barrett Henry at REMAX Collective covers Jefferson County as a referral territory with 24+ years of commercial real estate experience. He provides buyer and seller representation, leasing advisory, investment analysis, and market intelligence for clients active in this rural North Florida market.",
   },
 ];
 
@@ -214,7 +214,7 @@ export default function Page() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What I Do for Jefferson County Clients</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          As a Broker Associate with REMAX Collective and 23+ years experience across Florida&apos;s diverse markets, I provide full commercial real estate brokerage services in Jefferson County:
+          As a Broker Associate with REMAX Collective and 24+ years of real estate experience, I provide full commercial real estate brokerage services in Jefferson County:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Buyer Representation:</strong> Market analysis, property identification, due diligence, and negotiation for commercial and investment real estate purchases.</li>
@@ -253,7 +253,7 @@ export default function Page() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>

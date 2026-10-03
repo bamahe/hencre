@@ -121,7 +121,7 @@ export default function AlachiuaPage() {
           Alachua County is one of North Central Florida&apos;s most distinctive commercial markets, operating on fundamentals that differ fundamentally from coastal Florida submarkets. The University of Florida anchors this entire region — everything from multifamily absorption to medical office leasing to research park activity radiates outward from UF&apos;s campus and its economic ecosystem. If you&apos;re evaluating Alachua County, you&apos;re looking at a market driven by institutional demand, student demographics, and innovation tenants not found in comparable volume anywhere else in Florida.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Alachua County as referral territory — connecting investors, owner-occupants, and institutional clients with opportunities across Gainesville, Alachua, Newberry, and High Springs.
+          Barrett Henry, Broker Associate at REMAX Collective with 24+ years of real estate experience, works Alachua County as referral territory — connecting investors, owner-occupants, and institutional clients with opportunities across Gainesville, Alachua, Newberry, and High Springs.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Key Commercial Corridors in Alachua County</h2>
@@ -243,7 +243,7 @@ export default function AlachiuaPage() {
 
       <CTASection
         heading="Considering Alachua County Commercial Real Estate?"
-        body="Barrett Henry, Broker Associate at REMAX Collective, works institutional and investor clients across all 67 Florida counties. With 23+ years of real estate experience, he brings real market intelligence to Alachua County engagements. Call (813) 733-7907 to start the conversation."
+        body="Barrett Henry, Broker Associate at REMAX Collective, works institutional and investor clients across all 67 Florida counties. With 24+ years of real estate experience, he brings real market intelligence to Alachua County engagements. Call (813) 733-7907 to start the conversation."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

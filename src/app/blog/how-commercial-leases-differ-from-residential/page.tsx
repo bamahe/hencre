@@ -234,7 +234,7 @@ export default function CommercialVsResidentialLeasePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Commercial leases are complex financial agreements with long-term consequences. They are more flexible than residential leases, which is an advantage if you know how to negotiate. But that flexibility also means there are more ways to get it wrong. With 23+ years of real estate experience, I have seen businesses thrive because they negotiated smart lease terms — and I have seen businesses struggle because they signed a lease without understanding what they agreed to. Do not be the second one.
+          Commercial leases are complex financial agreements with long-term consequences. They are more flexible than residential leases, which is an advantage if you know how to negotiate. But that flexibility also means there are more ways to get it wrong. With 24+ years of real estate experience, I have seen businesses thrive because they negotiated smart lease terms — and I have seen businesses struggle because they signed a lease without understanding what they agreed to. Do not be the second one.
         </p>
       </article>
 
@@ -261,9 +261,9 @@ export default function CommercialVsResidentialLeasePage() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He has helped hundreds of Florida business owners and investors navigate commercial lease negotiations, from first-time tenants to multi-location portfolios. Learn more at{" "}
+              Barrett is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He has helped hundreds of Florida business owners and investors navigate commercial lease negotiations, from first-time tenants to multi-location portfolios. Learn more at{" "}
               <Link href="/about" className="text-accent underline">about Barrett</Link>{" "}
               or explore <Link href="/services/tenant-representation" className="text-accent underline">tenant representation services</Link>.
             </p>

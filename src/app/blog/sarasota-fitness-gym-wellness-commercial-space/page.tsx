@@ -217,7 +217,7 @@ export default function BlogPost() {
 
         <h2>Should You Work With a Commercial Real Estate Broker for This Search?</h2>
         <p>Yes -- and here is the practical reason. As a tenant, you typically do not pay broker commissions in a commercial lease transaction. The landlord pays both sides. That means working with an experienced broker who specializes in commercial leasing costs you nothing out of pocket and gives you someone whose job is to find space that actually fits your use, negotiate the lease terms in your favor, and identify red flags in the landlord&apos;s standard form before you sign.</p>
-        <p>Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience, covering Florida commercial markets from offices in Tampa, Largo, and Brandon. He has helped fitness and wellness operators navigate site selection, lease negotiation, and landlord TIA discussions across Florida markets. He understands what fitness tenants need -- from parking ratios to HVAC requirements -- and knows how to structure a lease that protects your build-out investment. Learn more about how <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> works.</p>
+        <p>Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience, covering Florida commercial markets from offices in Tampa, Largo, and Brandon. He has helped fitness and wellness operators navigate site selection, lease negotiation, and landlord TIA discussions across Florida markets. He understands what fitness tenants need -- from parking ratios to HVAC requirements -- and knows how to structure a lease that protects your build-out investment. Learn more about how <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> works.</p>
         <p><strong>Call Barrett directly at (813) 733-7907 to discuss available fitness and wellness spaces in Sarasota and what lease structures make sense for your specific concept.</strong></p>
 
         <h2>What Areas of Sarasota Should Fitness Businesses Target?</h2>
@@ -267,7 +267,7 @@ export default function BlogPost() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and serves Florida commercial markets from offices in Tampa, Largo, and Brandon.
+              Barrett has 24+ years of real estate experience and serves Florida commercial markets from offices in Tampa, Largo, and Brandon.
               He specializes in tenant representation, investment sales, and landlord leasing across all commercial property types.
             </p>
           </div>

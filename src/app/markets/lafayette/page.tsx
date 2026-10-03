@@ -45,7 +45,7 @@ const faqItems = [
   {
     question: "Does Barrett Henry serve Lafayette County?",
     answer:
-      "Yes. Barrett Henry at REMAX Collective covers Lafayette County as a referral territory, providing land transaction advisory, property valuations, tenant placement, market intelligence, and investment consultation. With 23+ years of Florida CRE experience and a statewide network, he connects serious clients with real opportunities in this unique rural market.",
+      "Yes. Barrett Henry at REMAX Collective covers Lafayette County as a referral territory, providing land transaction advisory, property valuations, tenant placement, market intelligence, and investment consultation. With 24+ years of commercial real estate experience and a statewide network, he connects serious clients with real opportunities in this unique rural market.",
   },
 ];
 
@@ -162,7 +162,7 @@ export default function Page() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          I&apos;m Barrett Henry, Broker Associate with REMAX Collective, and I&apos;ve spent 23+ years navigating Florida&apos;s commercial real estate landscape. Lafayette County represents exactly the kind of market most brokers overlook: not for everyone, but for the right investor or operator, it&apos;s where land value and rural development potential converge. Let me be direct: Lafayette County isn&apos;t a high-velocity commercial market. It&apos;s Florida&apos;s least populated county, anchored by agriculture and timber operations. But that&apos;s precisely why savvy investors and operators are paying attention.
+          I&apos;m Barrett Henry, Broker Associate with REMAX Collective, and I&apos;ve spent over a decade navigating Florida&apos;s commercial real estate landscape. Lafayette County represents exactly the kind of market most brokers overlook: not for everyone, but for the right investor or operator, it&apos;s where land value and rural development potential converge. Let me be direct: Lafayette County isn&apos;t a high-velocity commercial market. It&apos;s Florida&apos;s least populated county, anchored by agriculture and timber operations. But that&apos;s precisely why savvy investors and operators are paying attention.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Lafayette County Market at a Glance</h2>
@@ -276,7 +276,7 @@ export default function Page() {
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 23+ Years of Real Estate Experience</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | 24+ Years of Real Estate Experience</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett Henry is a licensed Florida REALTOR and Broker Associate at REMAX Collective, operating under the REMAX Commercial division. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
@@ -292,7 +292,7 @@ export default function Page() {
 
       <CTASection
         heading="Ready to Talk Lafayette County Commercial Real Estate?"
-        body="If you&apos;re operating in Lafayette County or considering entry into this market, get honest, expert guidance backed by 23+ years of Florida CRE experience. Call (813) 733-7907 or reach out through hencre.com."
+        body="If you&apos;re operating in Lafayette County or considering entry into this market, get honest, expert guidance backed by 24+ years of commercial real estate experience. Call (813) 733-7907 or reach out through hencre.com."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />
