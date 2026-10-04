@@ -65,7 +65,7 @@ const schema = {
       headline: "Largo, FL: Pinellas County's Commercial Real Estate Hidden Gem",
       description: "Discover why Largo, FL is one of Pinellas County's most overlooked commercial real estate opportunities. Explore retail, office, and industrial markets with HenCRE.",
       datePublished: "2026-08-28",
-      dateModified: "2026-09-27",
+      dateModified: "2026-10-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -194,7 +194,7 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

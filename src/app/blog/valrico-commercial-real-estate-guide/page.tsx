@@ -37,7 +37,7 @@ const schema = {
       headline: "Valrico, FL Commercial Real Estate: The Hidden Gem of Hillsborough County",
       description: "Discover why Valrico, FL is emerging as a smart target for commercial real estate investors and business owners in Hillsborough County. Explore market trends, property types, and growth drivers.",
       datePublished: "2026-07-18",
-      dateModified: "2026-08-19",
+      dateModified: "2026-10-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -132,12 +132,12 @@ const relatedLinks = [
   {
     title: "Riverview FL Commercial Real Estate 2026",
     href: "/blog/riverview-fl-commercial-real-estate-2026",
-    description: "South Hillsborough's fastest-growing commercial submarket — complementary reading for investors eyeing the eastern corridor.",
+    description: "South Hillsborough's fastest-growing commercial submarket  --  complementary reading for investors eyeing the eastern corridor.",
   },
   {
     title: "Brandon FL Commercial Real Estate: Market Guide 2026",
     href: "/blog/brandon-commercial-real-estate-guide-2026",
-    description: "Valrico's western neighbor — how the more established Brandon submarket compares for tenants and investors.",
+    description: "Valrico's western neighbor  --  how the more established Brandon submarket compares for tenants and investors.",
   },
   {
     title: "Hillsborough County Commercial Market Overview",
@@ -152,7 +152,7 @@ const relatedLinks = [
   {
     title: "Tenant Representation Services",
     href: "/services/tenant-representation",
-    description: "How Barrett represents commercial tenants in Valrico and eastern Hillsborough County — at no cost to the tenant.",
+    description: "How Barrett represents commercial tenants in Valrico and eastern Hillsborough County  --  at no cost to the tenant.",
   },
 ];
 
@@ -375,7 +375,7 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <p className="text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

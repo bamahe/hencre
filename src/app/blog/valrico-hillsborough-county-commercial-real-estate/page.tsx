@@ -70,7 +70,7 @@ const schema = {
       headline: "Valrico, FL Commercial Real Estate: Opportunities in Hillsborough County&apos;s Growing Suburban Corridor",
       description: "Explore commercial real estate opportunities in Valrico, Hillsborough County FL. From retail to flex space, discover why investors and tenants are eyeing this fast-growing suburban market.",
       datePublished: "2026-07-31",
-      dateModified: "2026-08-20",
+      dateModified: "2026-10-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -276,7 +276,7 @@ export default function BlogPost() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: August 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

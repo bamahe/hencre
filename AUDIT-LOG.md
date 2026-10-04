@@ -4,6 +4,59 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-04 -- Batch 70 (10 pages improved)
+
+**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-ground-lease-nnn-investment-2026`
+- Fixed all 36 en dash and em dash instances (replaced en dashes with hyphens, em dashes with " -- ")
+- Updated dateModified: "2026-10-02" -> "2026-10-04"
+- Page already had "Last updated: October 2026" footer and correct schema structure
+
+### 2. `/blog/valrico-hillsborough-county-commercial-real-estate`
+- Updated dateModified: "2026-08-20" -> "2026-10-04"
+- Updated footer: "August 2026" -> "October 2026"
+
+### 3. `/blog/valrico-commercial-real-estate-guide`
+- Updated dateModified: "2026-08-19" -> "2026-10-04"
+- Updated footer: "August 2026" -> "October 2026"
+- Fixed 3 em dashes in relatedLinks descriptions (replaced with " -- ")
+
+### 4. `/blog/largo-fl-commercial-real-estate-hidden-gem-pinellas`
+- Updated dateModified: "2026-09-27" -> "2026-10-04"
+- Updated footer: "August 2026" -> "October 2026"
+
+### 5. `/blog/riverview-fl-retail-leasing-guide`
+- Updated dateModified: "2026-08-27" -> "2026-10-04"
+- Updated footer: "August 2026" -> "October 2026"
+- Fixed 9 em dashes throughout content (replaced with " -- ")
+
+### 6. `/blog/tampa-bay-restaurant-food-beverage-space-2026`
+- Updated dateModified: "2026-08-31" -> "2026-10-04"
+- Updated footer: "August 2026" -> "October 2026"
+- Fixed 29 em dashes throughout content (replaced with " -- ")
+
+### 7. `/blog/tampa-industrial-market-outlook-2026`
+- Updated dateModified: "2026-08-31" -> "2026-10-04"
+- Updated footer: "August 2026" -> "October 2026"
+- Fixed 15 em dashes throughout content (replaced with " -- ")
+
+### 8. `/blog/apollo-beach-southshore-commercial-real-estate-2026`
+- Updated dateModified: "2026-09-30" -> "2026-10-04"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 9. `/blog/bradenton-commercial-real-estate-opportunities`
+- Updated dateModified: "2026-09-20" -> "2026-10-04"
+- Updated footer: "September 2026" -> "October 2026"
+- Fixed 13 em dashes throughout content (replaced with " -- ")
+
+### 10. `/blog/brandon-commercial-real-estate-guide-2026`
+- Updated dateModified: "2026-09-20" -> "2026-10-04"
+- Updated footer: "September 2026" -> "October 2026"
+- Fixed 17 em dashes throughout content (replaced with " -- ")
+
+---
+
 ## 2026-10-03 -- Batch 69 (10 pages improved)
 
 **Commit:** `e1a78b4` | **Build:** clean (0 errors) | **Pages improved:** 10
