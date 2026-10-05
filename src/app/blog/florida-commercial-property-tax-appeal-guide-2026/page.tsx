@@ -85,7 +85,7 @@ const schema = {
       description:
         "How Florida commercial property owners appeal inflated TRIM assessments through the Value Adjustment Board — the process, the evidence that wins, and what a successful appeal means for NOI.",
       datePublished: "2026-10-03",
-      dateModified: "2026-10-03",
+      dateModified: "2026-10-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -264,9 +264,9 @@ export default function FloridaCREPropertyTaxAppealPage() {
           It is also worth noting that working with an experienced commercial real estate broker can add value at the evidence-gathering stage even if a tax consultant handles the VAB presentation. A broker with deep market knowledge can produce comparable sales analyses, cap rate analyses, and broker opinions of value that form the factual foundation of the appeal. That is exactly the kind of market depth that 23+ years of Tampa Bay commercial real estate experience at REMAX Collective provides — understanding what properties actually sell for, at what cap rates, in which submarkets, under current market conditions.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For commercial property owners who have decided a high tax burden is one reason to sell rather than hold, understanding the true market value of your asset — and how taxes affect the buyer pool and NOI projections — is part of the disposition analysis. The team at{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fastselleasysale.com</Link>{" "}
-          works with owners looking to sell commercial property, land, or investment assets quickly — and tax-driven exit decisions are a routine part of those conversations.
+          For commercial property owners who have decided a high tax burden is one reason to sell rather than hold, understanding the true market value of your asset and how taxes affect the buyer pool and NOI projections is part of the disposition analysis. Barrett works with owners evaluating commercial property dispositions across the Tampa Bay region. You can learn more about{" "}
+          <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link>{" "}
+          or <Link href="/services/investment-sales" className="text-accent underline">investment sales</Link> to explore your options.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Florida Commercial Property Tax Appeals</h2>
