@@ -1996,5 +1996,21 @@
     "county": "Pinellas",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "palm-harbor-pinellas-county-commercial-real-estate-2026",
+    "title": "Palm Harbor, Pinellas County FL: Commercial Real Estate Opportunities in 2026",
+    "excerpt": "Palm Harbor is one of Pinellas County's most underrated commercial real estate markets. With strong demographics, growing healthcare demand, and strategic positioning along US-19 and Alt-19, this unincorporated community offers compelling opportunities for investors, tenants, and developers in 2026.",
+    "date": "2026-10-05",
+    "category": "investor",
+    "city": "Palm Harbor",
+    "county": "Pinellas",
+    "businessType": null,
+    "image": {
+      "url": "/images/blog/palm-harbor-pinellas-county-commercial-real-estate-2026.jpg",
+      "alt": "an aerial view of a small town by the water",
+      "photographer": "Anita Denunzio",
+      "link": "https://unsplash.com/@dronepilot"
+    }
   }
 ]
