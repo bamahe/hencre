@@ -4,6 +4,63 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-05 -- Batch 71 (10 pages improved)
+
+**Commit:** `e774fc1` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/florida-commercial-property-tax-appeal-guide-2026`
+- Replaced external fastselleasysale.com link with internal links to `/services/dispositions` and `/services/investment-sales`
+- Updated dateModified: "2026-10-03" -> "2026-10-05"
+
+### 2. `/blog/riverview-restaurant-food-service-commercial-space-guide`
+- Fixed all em dashes (—) throughout article body and FAQ answers (10+ instances) -- replaced with commas and natural punctuation
+- Updated dateModified: "2026-09-17" -> "2026-10-05"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 3. `/blog/sale-leaseback-commercial-real-estate-tampa-bay`
+- Fixed all em dashes (—) throughout metadata, FAQ items, and article body (20+ instances)
+- Updated dateModified: "2026-09-01" -> "2026-10-05"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 4. `/blog/sarasota-fitness-gym-wellness-commercial-space`
+- Fixed all double-dash (--) substitutes in FAQ answers, list items, and article body (30+ instances)
+- Updated dateModified: "2026-09-21" -> "2026-10-05"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 5. `/blog/sarasota-fitness-gym-wellness-studio-tenant-guide`
+- Removed nowtb.com from author sameAs array in schema
+- Updated dateModified: "2026-09-27" -> "2026-10-05"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 6. `/blog/sarasota-office-market-trends-2026`
+- Updated dateModified: "2026-09-29" -> "2026-10-05"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 7. `/blog/sarasota-warehouse-distribution-space-guide`
+- Updated dateModified: "2026-09-23" -> "2026-10-05"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 8. `/blog/sba-504-loan-commercial-real-estate-tampa-bay`
+- Updated dateModified: "2026-09-02" -> "2026-10-05"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 9. `/blog/selling-tenant-occupied-investment-property-florida`
+- Updated dateModified: "2026-09-18" -> "2026-10-05"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 10. `/blog/seminole-heights-commercial-real-estate-2026`
+- Fixed all em dashes (—) throughout metadata, relatedLinks, Hero subtitle, and article body (35 instances)
+- Updated dateModified: "2026-09-13" -> "2026-10-05"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 11. `/blog/south-tampa-commercial-real-estate-2026`
+- Converted 6 bare `<a href>` tags to `<Link>` components (medical office, retail storefront, tenant rep, NNN leases, insurance, retail space)
+- Fixed all em dashes (—) and double dashes (--) throughout article body and FAQ (15+ instances)
+- Updated dateModified: "2026-09-21" -> "2026-10-05"
+- Updated footer: "September 2026" -> "October 2026"
+
+---
+
 ## 2026-10-04 -- Batch 70 (10 pages improved)
 
 **Commit:** `7fe03f8` | **Build:** clean (0 errors) | **Pages improved:** 10
