@@ -180,7 +180,7 @@ HARD RULES:
 - NEVER invent numbers: no vacancy %, cap rates, price/SF, population, dollar amounts
 - Only use qualitative market descriptions: corridors, asset types, demand drivers, who is active
 - Write in Barrett's first-person broker voice — confident, direct, expert
-- "REMAX" never "RE/MAX"
+- "REMAX" never "REMAX"
 - "REALTOR®" with the registered symbol
 - "23+ years experience" max once, never tied to Tampa Bay specifically
 - Phone: (813) 733-7907, Email: barrett@nowtb.com
