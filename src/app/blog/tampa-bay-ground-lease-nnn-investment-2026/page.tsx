@@ -85,7 +85,7 @@ const schema = {
       description:
         "Ground lease NNN investments in Tampa Bay trade at 4.0%-5.5% cap rates with top-credit tenants including Chick-fil-A and Wawa. A complete guide to ground leases versus fee simple NNN, cap rate benchmarks, tenant selection, and risks for 2026 investors.",
       datePublished: "2026-10-02",
-      dateModified: "2026-10-04",
+      dateModified: "2026-10-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -312,9 +312,7 @@ export default function TampaBayGroundLeaseNNNInvestment2026Page() {
           covers the timeline, rules, and replacement property strategies in detail.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          One note on Tampa Bay specifically: because the market has continued to attract strong population growth and the high-growth corridors in Pasco County, eastern Hillsborough, and southern Hillsborough are seeing sustained demand from new QSR and convenience operators, the land values underlying Tampa Bay ground leases have a structural growth thesis that may not exist in slower-growth markets. Investors who understand where Tampa Bay is growing  --  and buy ground leases in those corridors  --  are underwriting a long-term land appreciation story that makes the tighter going-in yield look different over a 20-year horizon. The site{" "}
-          <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>{" "}
-          offers Tampa Bay neighborhood and growth corridor guides that can help investors identify where residential development is concentrated  --  typically the same areas where the strongest ground lease demand exists.
+          One note on Tampa Bay specifically: because the market has continued to attract strong population growth and the high-growth corridors in Pasco County, eastern Hillsborough, and southern Hillsborough are seeing sustained demand from new QSR and convenience operators, the land values underlying Tampa Bay ground leases have a structural growth thesis that may not exist in slower-growth markets. Investors who understand where Tampa Bay is growing  --  and buy ground leases in those corridors  --  are underwriting a long-term land appreciation story that makes the tighter going-in yield look different over a 20-year horizon. Our <Link href="/blog/pasco-county-commercial-development-2026" className="text-accent underline">Pasco County commercial development guide</Link> and <Link href="/blog/apollo-beach-southshore-commercial-real-estate-2026" className="text-accent underline">Southshore commercial real estate analysis</Link> can help investors identify where residential development is concentrated  --  typically the same areas where the strongest ground lease demand exists.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How to Evaluate a Ground Lease NNN Opportunity in Tampa Bay</h2>

@@ -86,7 +86,7 @@ const schema = {
       description:
         "Private equity and hyperscalers are pouring billions into Tampa Bay data center and AI infrastructure projects in 2026. What it means for commercial real estate owners, investors, and landowners.",
       datePublished: "2026-09-22",
-      dateModified: "2026-09-22",
+      dateModified: "2026-10-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -230,9 +230,7 @@ export default function TampaBayDataCenterCREPage() {
           Data center developers and their brokers are highly sophisticated buyers who conduct extensive site selection analysis before reaching out. When they call, they have already determined that your property is in a zone that could work for their project. That does not mean the first offer reflects market value. The gap between what a motivated data center developer would pay for a suitable site and the price offered in an initial inquiry can be substantial — particularly for land with the power infrastructure access, fiber proximity, and zoning that data center projects require.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Landowners in this situation should engage a commercial broker before responding to any developer inquiry. If you are considering a sale and want to move quickly, options like a{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">fast sale to a qualified buyer</a>{" "}
-          exist — but any transaction involving land that may have data center development potential warrants market exposure to ensure you are not leaving value on the table. Older industrial buildings on large sites in the right corridors are also candidates for data center redevelopment and may command significant premiums over their value as traditional industrial properties.
+          Landowners in this situation should engage a commercial broker before responding to any developer inquiry. Any transaction involving land that may have data center development potential warrants market exposure to ensure you are not leaving value on the table. Barrett&apos;s <Link href="/services/investment-sales" className="text-accent underline">investment sales services</Link> include land disposition strategies designed to maximize value through competitive exposure. Older industrial buildings on large sites in the right corridors are also candidates for data center redevelopment and may command significant premiums over their value as traditional industrial properties.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does Data Center Growth Affect Tampa Bay&apos;s Broader Commercial Real Estate Market?</h2>

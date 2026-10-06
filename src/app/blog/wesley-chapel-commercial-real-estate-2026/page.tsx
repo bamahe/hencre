@@ -87,7 +87,7 @@ const schema = {
       description:
         "Wesley Chapel is one of Tampa Bay's fastest-growing commercial submarkets. SR-54/SR-56 retail corridors, Bruce B. Downs medical office, flex industrial, and a strong development pipeline. A complete 2026 market guide for tenants and investors.",
       datePublished: "2026-09-30",
-      dateModified: "2026-09-30",
+      dateModified: "2026-10-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -280,9 +280,7 @@ export default function WesleyChapelCREPage() {
           <strong>Medical office expansion on the BBD corridor.</strong> Multiple new medical office buildings and outpatient facilities are in various stages of planning and construction along Bruce B. Downs between SR-54 and the Hillsborough County line. These projects range from single-tenant specialist buildings developed by physician groups to multi-tenant medical office parks developed by commercial real estate operators targeting the healthcare tenant base. The AdventHealth Wesley Chapel campus itself has continued to expand its outpatient and specialty services footprint.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For business owners considering Wesley Chapel locations, one useful planning resource is{" "}
-          <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>
-          , which tracks Tampa Bay residential growth and neighborhood development — the residential pipeline in Pasco County is a direct leading indicator of commercial demand in the corridors being served by these projects.
+          For business owners considering Wesley Chapel locations, the residential pipeline in Pasco County is a direct leading indicator of commercial demand. Our <Link href="/blog/pasco-county-commercial-development-2026" className="text-accent underline">Pasco County commercial development guide</Link> tracks the growth corridors being served by these projects.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is Wesley Chapel a Good Market for Commercial Real Estate Investment?</h2>

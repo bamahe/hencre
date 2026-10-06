@@ -85,7 +85,7 @@ const schema = {
       description:
         "MDH Partners paid $67.7 million for 557,100 square feet at Lakeland Commerce Center. Here is why institutional capital is targeting Florida's I-4 corridor and what it means for investors and tenants in 2026.",
       datePublished: "2026-09-21",
-      dateModified: "2026-09-21",
+      dateModified: "2026-10-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -238,7 +238,7 @@ export default function LakelandWarehouseIndustrialGrowthPage() {
           Lakeland and Polk County offer wider initial yields, more land for development-focused strategies, and strong absorption fundamentals that support rent growth assumptions in underwriting. The trade-off is a somewhat smaller tenant pool, longer typical marketing times at resale, and the logistics math that only makes sense for tenants who genuinely need I-4 corridor positioning rather than Tampa Bay&apos;s port access.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Owner-users — manufacturers, distributors, and logistics operators who want to buy their building rather than lease — will find Lakeland worth serious consideration. The combination of lower per-foot land costs, available inventory in the 25,000 to 100,000 square foot range, and <a href="/blog/sba-504-loan-commercial-real-estate-tampa-bay" className="text-accent underline">SBA 504 financing</a> that locks in below-market fixed rates makes owner-user acquisition in Polk County a compelling alternative to the Tampa lease market. If you own industrial land or a building in Polk County and want to sell quickly without a lengthy marketing process, <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">FastSellEasySale.com</a> can connect you with cash buyers for commercial properties and land.
+          Owner-users -- manufacturers, distributors, and logistics operators who want to buy their building rather than lease -- will find Lakeland worth serious consideration. The combination of lower per-foot land costs, available inventory in the 25,000 to 100,000 square foot range, and <Link href="/blog/sba-504-loan-commercial-real-estate-tampa-bay" className="text-accent underline">SBA 504 financing</Link> that locks in below-market fixed rates makes owner-user acquisition in Polk County a compelling alternative to the Tampa lease market. If you own industrial land or a building in Polk County and want to maximize your sale outcome, Barrett&apos;s <Link href="/services/investment-sales" className="text-accent underline">investment sales services</Link> provide structured market exposure and qualified buyer outreach.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Tenants Know Before Leasing Industrial Space in Lakeland?</h2>

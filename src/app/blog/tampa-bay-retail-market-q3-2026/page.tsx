@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay retail vacancy held near 3.8% entering Q3 2026 - well below the national average - while asking rents passed $27/SF NNN and retail sales volume reached $324 million. A full market update for tenants, landlords, and investors.",
       datePublished: "2026-09-25",
-      dateModified: "2026-09-25",
+      dateModified: "2026-10-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -287,9 +287,7 @@ export default function TampaBayRetailMarketQ3Page() {
           covers this strategy in the market&apos;s fastest-growing corridor.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          One cross-sector note: buyers who are also looking at residential investment properties in Tampa Bay&apos;s growth corridors sometimes find that the same population growth dynamics driving retail tightness are creating opportunities in residential. The site{" "}
-          <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>{" "}
-          provides Tampa Bay neighborhood and market guides that give useful context on where residential growth is concentrated - which often tracks closely with the strongest retail corridors.
+          One cross-sector note: the same population growth dynamics driving retail tightness are creating opportunities across commercial property types. Our <Link href="/blog/tampa-bay-residential-slowdown-cre-opportunity-2026" className="text-accent underline">Tampa Bay residential slowdown and CRE opportunity guide</Link> provides context on where residential growth is concentrated -- which often tracks closely with the strongest retail corridors.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does Tampa Bay Retail Compare to Other Florida Markets in 2026?</h2>

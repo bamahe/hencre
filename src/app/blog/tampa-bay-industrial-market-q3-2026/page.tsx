@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay industrial vacancy held at 7.4% entering Q3 2026 - flat for the second consecutive quarter. CoStar ranked Tampa #1 nationally for small-bay industrial performance. New construction starts are falling, setting up a tighter 2027. A full update for tenants and investors.",
       datePublished: "2026-09-26",
-      dateModified: "2026-09-29",
+      dateModified: "2026-10-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -294,9 +294,7 @@ export default function TampaBayIndustrialQ3Page() {
           <strong>Industrial land in growth corridors</strong> - particularly in Pasco County along the US-41 and SR-52 corridors, and in eastern Hillsborough County near the Selmon Expressway extension - represents a longer-duration bet on Tampa Bay&apos;s continued buildout. Industrial land buyers need to understand entitlement timelines, utility availability, and access to the I-275 and I-75 systems that logistics tenants require. For investors with longer hold horizons, raw industrial land in well-located growth corridors has historically been one of the highest-returning plays in the Tampa Bay market.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          One note for industrial investors who also own or are considering residential investment property in Tampa Bay: the same population growth dynamics driving industrial demand - hundreds of thousands of new residents since 2020 - are the foundation of both markets. Buyers researching growth corridors for industrial investment will find the neighborhood and market guides at{" "}
-          <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>{" "}
-          useful for understanding where residential growth is concentrated, which maps closely to the emerging industrial demand corridors in Pasco, eastern Hillsborough, and southern Hernando County.
+          One note for industrial investors who also track residential trends in Tampa Bay: the same population growth dynamics driving industrial demand are the foundation of both markets. Buyers researching growth corridors for industrial investment will find our <Link href="/blog/pasco-county-commercial-development-2026" className="text-accent underline">Pasco County commercial development guide</Link> useful for understanding where residential growth is concentrated, which maps closely to the emerging industrial demand corridors in Pasco, eastern Hillsborough, and southern Hernando County.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa Bay Industrial in Q3 2026</h2>

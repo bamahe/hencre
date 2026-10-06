@@ -86,7 +86,7 @@ const schema = {
       description:
         "Pinellas Park sits at the geographic center of Pinellas County with over 2.8 million square feet of industrial space and retail vacancy well below 4%. Here is what investors and tenants need to know.",
       datePublished: "2026-09-23",
-      dateModified: "2026-09-25",
+      dateModified: "2026-10-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -279,8 +279,7 @@ export default function PinellasParkCREPage() {
           <Link href="/blog/clearwater-office-space-professional-services-firms" className="text-accent underline">Clearwater</Link>, it offers lower occupancy costs for industrial tenants who do not need the Clearwater address premium. For investors evaluating Pinellas County broadly, understanding how these three markets — Pinellas Park, Largo, and Clearwater — interact is essential to identifying where the best risk-adjusted returns sit.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are considering selling an investment property in Pinellas Park or anywhere in the Tampa Bay area,{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">FastSellEasySale.com</a> connects property owners with cash buyers for quick, flexible transactions when a traditional listing is not the right fit.
+          If you are considering selling an investment property in Pinellas Park or anywhere in the Tampa Bay area, Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial dispositions services</Link> can identify the right strategy -- whether that is a traditional listing, off-market sale, or 1031 exchange coordination.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           With 23+ years of real estate experience across Tampa Bay, I work with commercial tenants finding industrial, retail, and flex space in Pinellas Park and investors evaluating acquisitions throughout Pinellas County. The right opportunity here often requires local knowledge of off-market availability and a clear-eyed understanding of building condition and lease structure — not just a LoopNet search. Call or reach out below and let&apos;s talk about what you are looking for.

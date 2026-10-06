@@ -86,7 +86,7 @@ const schema = {
       description:
         "A cross-sector read on Tampa Bay commercial real estate entering Q4 2026: industrial vacancy stabilized at 7.4%, retail holding below 4% nationally, office bifurcated between Class A and older assets. Full outlook for investors and tenants across all major property types.",
       datePublished: "2026-09-27",
-      dateModified: "2026-09-29",
+      dateModified: "2026-10-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -251,9 +251,7 @@ export default function TampaBayCREOutlookQ4Page() {
           The forward pipeline of multifamily construction has thinned substantially. Apartment development economics have been challenging at current construction costs and interest rates, and lenders who were aggressive on multifamily construction in 2022 and 2023 have pulled back significantly. The result - as in industrial - is that the supply wave is cresting even as Tampa Bay&apos;s population continues to grow, creating the conditions for a rental market that tightens into 2027.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For commercial real estate investors who are also tracking the residential investment landscape, Tampa Bay&apos;s build-to-rent sector remains active. Build-to-rent communities - single-family or cottage-style rental developments operated institutionally - have been a significant capital destination over the past three years in the high-growth suburban corridors of Pasco County, Manatee County, and southern Hillsborough. Investors researching residential growth markets that overlap with commercial real estate opportunity zones will find the neighborhood and listing data at{" "}
-          <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</Link>{" "}
-          useful for understanding where residential demand is concentrated - information that maps directly to where commercial demand follows.
+          For commercial real estate investors who are also tracking the residential investment landscape, Tampa Bay&apos;s build-to-rent sector remains active. Build-to-rent communities -- single-family or cottage-style rental developments operated institutionally -- have been a significant capital destination over the past three years in the high-growth suburban corridors of Pasco County, Manatee County, and southern Hillsborough. Investors researching residential growth markets that overlap with commercial real estate opportunity zones will find our <Link href="/blog/tampa-bay-opportunity-zones-cre-2026" className="text-accent underline">Tampa Bay opportunity zones guide</Link> useful for understanding where residential and commercial demand converge.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Are the Financing Conditions for CRE in Tampa Bay This Fall?</h2>
