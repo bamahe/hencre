@@ -4,6 +4,68 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-06 -- Batch 72 (10 pages improved)
+
+**Commit:** `a5907ba` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/lutz-fl-commercial-real-estate-2026`
+- First audit -- fixed em dashes (10+) in FAQ answers and article body
+- Replaced external fastselleasysale.com link with internal `/services/dispositions`
+- Replaced external nowtb.com link with internal North Tampa corridor blog link
+- Updated dateModified: "2026-10-04" -> "2026-10-06"
+
+### 2. `/blog/palm-harbor-pinellas-county-commercial-real-estate-2026`
+- First audit -- fixed title to 50 chars (was 76 chars over limit)
+- Added `import Link from "next/link"` (was missing)
+- Fixed all 5 relatedLinks hrefs to include /blog/ prefix (were broken)
+- Removed nowtb.com from author sameAs array
+- Added dateModified: "2026-10-06" to schema (was missing)
+- Rewrote single-line article body into properly formatted JSX paragraphs
+- Replaced all apostrophes in JSX text with &apos; (15+ instances)
+- Replaced em dashes throughout with -- (8+ instances)
+- Added 8 internal links to article body (none existed before)
+- Fixed mid-article CTA: removed trademark symbols, changed bare `<a>` to `<Link>`
+- Fixed author bio: corrected title and description
+- Added "Home" breadcrumb (was missing)
+- Added "Last updated: October 2026" footer
+
+### 3. `/blog/tampa-bay-data-center-cre-2026`
+- Replaced external fastselleasysale.com link with `/services/investment-sales`
+- Updated dateModified: "2026-09-22" -> "2026-10-06"
+
+### 4. `/blog/tampa-bay-industrial-market-q3-2026`
+- Replaced external nowtb.com link with `/blog/pasco-county-commercial-development-2026`
+- Updated dateModified: "2026-09-29" -> "2026-10-06"
+
+### 5. `/blog/pinellas-park-commercial-real-estate-2026`
+- Replaced external fastselleasysale.com link with `/services/dispositions`
+- Updated dateModified: "2026-09-25" -> "2026-10-06"
+
+### 6. `/blog/lakeland-warehouse-industrial-growth`
+- Replaced external fastselleasysale.com link with `/services/investment-sales`
+- Fixed em dashes in the same paragraph
+- Converted bare `<a>` SBA link to `<Link>` component
+- Updated dateModified: "2026-09-21" -> "2026-10-06"
+
+### 7. `/blog/wesley-chapel-commercial-real-estate-2026`
+- Replaced external nowtb.com link with `/blog/pasco-county-commercial-development-2026`
+- Updated dateModified: "2026-09-30" -> "2026-10-06"
+
+### 8. `/blog/tampa-bay-cre-market-outlook-q4-2026`
+- Replaced external nowtb.com link with `/blog/tampa-bay-opportunity-zones-cre-2026`
+- Fixed em dashes in the same paragraph
+- Updated dateModified: "2026-09-29" -> "2026-10-06"
+
+### 9. `/blog/tampa-bay-ground-lease-nnn-investment-2026`
+- Replaced external nowtb.com link with two internal links (Pasco County + Southshore)
+- Updated dateModified: "2026-10-04" -> "2026-10-06"
+
+### 10. `/blog/tampa-bay-retail-market-q3-2026`
+- Replaced external nowtb.com link with `/blog/tampa-bay-residential-slowdown-cre-opportunity-2026`
+- Updated dateModified: "2026-09-25" -> "2026-10-06"
+
+---
+
 ## 2026-10-05 -- Batch 71 (10 pages improved)
 
 **Commit:** `e774fc1` | **Build:** clean (0 errors) | **Pages improved:** 10
