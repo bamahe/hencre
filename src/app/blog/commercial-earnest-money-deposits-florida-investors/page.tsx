@@ -85,7 +85,7 @@ const schema = {
       description:
         "Commercial earnest money deposits are larger, harder to recover, and go non-refundable faster than residential deposits. Essential reading for Florida CRE investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-10-03",
+      dateModified: "2026-10-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -182,7 +182,11 @@ export default function CommercialEarnestMoneyPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Investors who buy their first commercial property after years of residential real estate
+          Investors who buy their{' '}
+          <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">
+            first commercial property
+          </Link>{' '}
+          after years of residential real estate
           experience often assume the earnest money process is similar. It is not. Commercial
           earnest money deposits are larger as a percentage of the deal, go non-refundable on a
           much shorter timeline, and are governed by contracts with far fewer automatic buyer
@@ -199,8 +203,11 @@ export default function CommercialEarnestMoneyPage() {
           competition, and how much due diligence time the buyer is requesting.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          On a $1.5 million multifamily property in Tampa Bay, a 3% earnest money deposit is
-          $45,000. On a $3.5 million office or retail acquisition, the same percentage is $105,000.
+          On a $1.5 million{' '}
+          <Link href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">
+            multifamily property in Tampa Bay
+          </Link>
+          , a 3% earnest money deposit is $45,000. On a $3.5 million office or retail acquisition, the same percentage is $105,000.
           This is not theoretical risk — it is real capital that leaves your account within days of
           a contract being signed, sits in escrow, and can be forfeited entirely if the deal
           collapses under certain conditions.
@@ -306,8 +313,11 @@ export default function CommercialEarnestMoneyPage() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Not every seller accepts staged deposits — particularly in a competitive market where
-          other buyers are willing to commit full deposits upfront. But in Tampa Bay&apos;s 2026
-          commercial market, where{' '}
+          other buyers are willing to commit full deposits upfront. But in{' '}
+          <Link href="/markets/hillsborough" className="text-accent underline">
+            Tampa Bay&apos;s Hillsborough County market
+          </Link>{' '}
+          in 2026, where{' '}
           <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">
             cap rates have expanded
           </Link>{' '}
@@ -397,9 +407,15 @@ export default function CommercialEarnestMoneyPage() {
           consistently underestimate the risk.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Before you sign any commercial purchase contract in Florida, work with a commercial
-          real estate broker and attorney who understand the local market and the specific
-          property type you are targeting. The broker negotiates the deal structure. The attorney
+          Before you sign any commercial purchase contract in Florida, work with a{' '}
+          <Link href="/services/investment-sales" className="text-accent underline">
+            commercial real estate broker
+          </Link>{' '}
+          and attorney who understand the local market and the specific property type you are targeting. A{' '}
+          <Link href="/services/cre-valuation" className="text-accent underline">
+            professional CRE valuation
+          </Link>{' '}
+          before committing earnest money gives you an independent check on the seller&apos;s asking price. The broker negotiates the deal structure. The attorney
           protects your deposit with proper contract language. With 23+ years of real estate
           experience advising buyers, sellers, and investors across Tampa Bay, Barrett Henry at
           REMAX Collective has guided investors through the full spectrum of commercial transactions —

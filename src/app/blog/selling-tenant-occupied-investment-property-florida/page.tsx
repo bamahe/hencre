@@ -84,7 +84,7 @@ const schema = {
       description:
         "Practical guide for Florida landlords navigating the sale of tenant-occupied properties.",
       datePublished: "2026-06-17",
-      dateModified: "2026-10-05",
+      dateModified: "2026-10-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -264,6 +264,14 @@ export default function TenantOccupiedSalePage() {
           <li>You have flexibility on timeline and can manage the showing process</li>
         </ul>
 
+        <p className="mt-4 text-[#666666] leading-relaxed">
+          For investors evaluating whether to sell and redeploy capital, see our guide on{" "}
+          <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">
+            what makes a good commercial investment
+          </Link>{" "}
+          to understand the criteria buyers use when evaluating replacement properties.
+        </p>
+
         <h2 className="mt-10 text-2xl font-bold text-black">When a Cash Sale Makes More Sense</h2>
         <ul className="mt-4 list-disc pl-6 space-y-2 text-[#666666] leading-relaxed">
           <li>Tenants are month-to-month but uncooperative with showings</li>
@@ -284,7 +292,9 @@ export default function TenantOccupiedSalePage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           Barrett Henry at REMAX Collective works with investment property owners across Tampa Bay
           on the full sell-side process, from evaluating the listing-versus-cash comparison to
-          representing you in a traditional sale or connecting you with qualified cash buyers. He
+          representing you in a traditional sale or connecting you with qualified cash buyers. His{" "}
+          <Link href="/services/dispositions" className="text-accent underline">disposition services</Link>{" "}
+          cover single-family investment properties through larger commercial portfolios. He
           also evaluates whether a{" "}
           <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">
             1031 exchange

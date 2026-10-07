@@ -85,7 +85,7 @@ const schema = {
       description:
         "How Florida commercial property owners appeal inflated TRIM assessments through the Value Adjustment Board — the process, the evidence that wins, and what a successful appeal means for NOI.",
       datePublished: "2026-10-03",
-      dateModified: "2026-10-05",
+      dateModified: "2026-10-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -182,7 +182,7 @@ export default function FloridaCREPropertyTaxAppealPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Every Florida commercial property owner receives a TRIM notice each summer. Most file it with their tax documents and move on. A smaller group reads the assessed value carefully, compares it to what the property would actually sell for in the current market, and asks the question that can save them thousands of dollars per year: is this assessment accurate? If the answer is no — and for a meaningful percentage of commercial properties in Hillsborough, Pinellas, Pasco, and the surrounding counties, it is not — Florida law gives you a specific window to challenge it. This guide covers the full Florida commercial property tax appeal process: what triggers a worthwhile appeal, how the Value Adjustment Board process works, what evidence actually moves the needle at a hearing, and what a successful appeal means for your net operating income and long-term hold.
+          Every Florida commercial property owner receives a TRIM notice each summer. Most file it with their tax documents and move on. A smaller group reads the assessed value carefully, compares it to what the property would actually sell for in the current market, and asks the question that can save them thousands of dollars per year: is this assessment accurate? If the answer is no — and for a meaningful percentage of commercial properties in <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and the surrounding counties, it is not — Florida law gives you a specific window to challenge it. This guide covers the full Florida commercial property tax appeal process: what triggers a worthwhile appeal, how the Value Adjustment Board process works, what evidence actually moves the needle at a hearing, and what a successful appeal means for your net operating income and long-term hold.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does Your TRIM Notice Actually Tell You — and When Should You Challenge It?</h2>
@@ -231,7 +231,8 @@ export default function FloridaCREPropertyTaxAppealPage() {
           The dollar value of a successful appeal depends on three variables: the gap between assessed and market value, the effective tax rate in your county and taxing district, and the number of years the lower assessment carries forward. In Hillsborough County, the effective total property tax rate for commercial properties (combining county, school board, and special district millage) typically runs in the range of 1.8% to 2.2% of assessed value. In Pinellas County, the effective rate is broadly similar.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          A concrete example: a small-bay industrial building assessed at $2.4 million, with a market value supportable at $2.1 million based on actual leases and recent comparable sales. A successful appeal reducing the assessed value by $300,000 saves approximately $5,400 to $6,600 per year in property taxes at a 1.8–2.2% effective rate. Over a five-year hold, that is $27,000 to $33,000 in cumulative tax savings — with no capital outlay required, because the filing fee is $15. The savings also flow directly to net operating income, which at a 6.0% cap rate adds $90,000 to $110,000 in value to the property.
+          A concrete example: a small-bay industrial building assessed at $2.4 million, with a market value supportable at $2.1 million based on actual leases and recent comparable sales. A successful appeal reducing the assessed value by $300,000 saves approximately $5,400 to $6,600 per year in property taxes at a 1.8–2.2% effective rate. Over a five-year hold, that is $27,000 to $33,000 in cumulative tax savings — with no capital outlay required, because the filing fee is $15. The savings also flow directly to net operating income, which at a 6.0% cap rate adds $90,000 to $110,000 in value to the property. For a full breakdown of how property taxes factor into commercial investment returns, see our guide on{" "}
+          <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate commercial property ROI</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Beyond the direct savings, the reduced assessed value becomes the baseline for future assessments. Florida&apos;s non-homestead property cap limits annual assessment increases to 10% per year — a protection that applies to commercial properties. If the county would otherwise increase the assessment by 10% annually, starting from a lower base after a successful appeal creates compounding savings across the hold period.

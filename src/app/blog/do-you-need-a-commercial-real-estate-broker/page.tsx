@@ -85,7 +85,7 @@ const schema = {
       description:
         "When and why to hire a commercial real estate broker: tenant representation, buyer advocacy, and lease negotiation.",
       datePublished: "2026-04-28",
-      dateModified: "2026-09-30",
+      dateModified: "2026-10-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -189,8 +189,8 @@ export default function NeedABrokerPage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Source properties.</strong> Many commercial opportunities are not publicly listed. Brokers have networks and databases that give you access to off-market deals and properties that have not hit the open market yet.</li>
-          <li><strong>Analyze deals.</strong> We evaluate the financial performance of properties — NOI, <a href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</a>, rent comparables, and total occupancy costs. We know what a good deal looks like in the current market.</li>
-          <li><strong>Negotiate terms.</strong> Commercial lease negotiation involves dozens of provisions beyond just rent — personal guarantees, <a href="/insights/cam-charges-explained" className="text-accent underline">CAM caps</a>, tenant improvement allowances, renewal options, exclusivity clauses, and more. We know what to ask for and what to fight for.</li>
+          <li><strong>Analyze deals.</strong> We evaluate the financial performance of properties — NOI, <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</Link>, rent comparables, and total occupancy costs. We know what a good deal looks like in the current market.</li>
+          <li><strong>Negotiate terms.</strong> Commercial lease negotiation involves dozens of provisions beyond just rent — personal guarantees, <Link href="/insights/cam-charges-explained" className="text-accent underline">CAM caps</Link>, tenant improvement allowances, renewal options, exclusivity clauses, and more. We know what to ask for and what to fight for.</li>
           <li><strong>Manage the process.</strong> From letter of intent through closing, there are inspections, environmental assessments, financing, legal review, and deadlines to coordinate. We keep the process on track.</li>
           <li><strong>Provide market knowledge.</strong> We know what comparable properties are renting for, what has sold recently, and what the market trajectory looks like. This intelligence informs every decision.</li>
         </ul>
@@ -207,17 +207,17 @@ export default function NeedABrokerPage() {
 
         <h3 className="mt-6 text-xl font-bold text-black">You Are a First-Time Commercial Tenant</h3>
         <p className="mt-3 text-[#666666] leading-relaxed">
-          If you have never signed a <a href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">commercial lease</a> before, going without representation is risky. Commercial leases are not standardized consumer documents — they are negotiated agreements where every clause matters. A broker protects you from signing terms that cost you money or lock you into obligations you do not understand.
+          If you have never signed a <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">commercial lease</Link> before, going without representation is risky. Commercial leases are not standardized consumer documents — they are negotiated agreements where every clause matters. A broker protects you from signing terms that cost you money or lock you into obligations you do not understand.
         </p>
 
         <h3 className="mt-6 text-xl font-bold text-black">You Are Buying Investment Property</h3>
         <p className="mt-3 text-[#666666] leading-relaxed">
-          The financial analysis involved in evaluating a <a href="/services/investment-sales" className="text-accent underline">commercial investment property</a> — verifying NOI, assessing tenant risk, analyzing lease terms, and determining fair market value — requires expertise. Mistakes in underwriting can cost you tens of thousands of dollars or more.
+          The financial analysis involved in evaluating a <Link href="/services/investment-sales" className="text-accent underline">commercial investment property</Link> -- verifying NOI, assessing tenant risk, analyzing lease terms, and determining fair market value -- requires expertise. Mistakes in underwriting can cost you tens of thousands of dollars or more.
         </p>
 
         <h3 className="mt-6 text-xl font-bold text-black">You Are Selling Commercial Property</h3>
         <p className="mt-3 text-[#666666] leading-relaxed">
-          A broker brings exposure, marketing, buyer networks, and negotiation skills through our <a href="/services/dispositions" className="text-accent underline">dispositions service</a>. We position the property to maximize value and manage the sales process from listing through closing. The commission we earn is typically more than offset by the higher price and faster timeline.
+          A broker brings exposure, marketing, buyer networks, and negotiation skills through our <Link href="/services/dispositions" className="text-accent underline">dispositions service</Link>. We position the property to maximize value and manage the sales process from listing through closing. The commission we earn is typically more than offset by the higher price and faster timeline.
         </p>
 
         <h3 className="mt-6 text-xl font-bold text-black">You Are Relocating or Expanding Your Business</h3>
@@ -238,7 +238,7 @@ export default function NeedABrokerPage() {
           This is the part that surprises most people, especially those coming from the residential world. In commercial real estate:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Tenant representation</strong> — the landlord typically pays the commission for both the listing broker and the tenant&apos;s broker. <a href="/services/tenant-representation" className="text-accent underline">Tenant representation</a> is usually free to the tenant.</li>
+          <li><strong>Tenant representation</strong> -- the landlord typically pays the commission for both the listing broker and the tenant&apos;s broker. <Link href="/services/tenant-representation" className="text-accent underline">Tenant representation</Link> is usually free to the tenant.</li>
           <li><strong>Buyer representation</strong> — the seller typically pays the commission. Buyer representation is usually free to the buyer.</li>
           <li><strong>Seller/landlord representation</strong> — the seller or landlord pays their broker directly from proceeds.</li>
         </ul>
@@ -265,8 +265,8 @@ export default function NeedABrokerPage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Commercial specialization.</strong> Residential and commercial are different industries. Make sure your broker focuses on commercial transactions.</li>
-          <li><strong>Local market knowledge.</strong> They should know the market you are looking in — comparable rents, recent transactions, and the landlord and investor landscape. Check their <a href="/markets/hillsborough" className="text-accent underline">market coverage</a>.</li>
-          <li><strong>Property type experience.</strong> <a href="/commercial/industrial-warehouse" className="text-accent underline">Industrial</a>, <a href="/commercial/office-space" className="text-accent underline">office</a>, <a href="/commercial/retail-space" className="text-accent underline">retail</a>, and <a href="/commercial/multifamily" className="text-accent underline">multifamily</a> each have their own dynamics. Find someone who knows your property type.</li>
+          <li><strong>Local market knowledge.</strong> They should know the market you are looking in -- comparable rents, recent transactions, and the landlord and investor landscape. Check their <Link href="/markets/hillsborough" className="text-accent underline">market coverage</Link>.</li>
+          <li><strong>Property type experience.</strong> <Link href="/commercial/industrial-warehouse" className="text-accent underline">Industrial</Link>, <Link href="/commercial/office-space" className="text-accent underline">office</Link>, <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, and <Link href="/commercial/multifamily" className="text-accent underline">multifamily</Link> each have their own dynamics. Find someone who knows your property type.</li>
           <li><strong>Responsiveness and communication.</strong> You want a broker who returns calls, explains things clearly, and keeps you informed throughout the process.</li>
         </ul>
 

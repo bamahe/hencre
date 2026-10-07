@@ -64,7 +64,7 @@ const schema = {
       headline: "Sarasota Fitness & Gym Space: Find the Right Location",
       description: "Opening a gym or wellness studio in Sarasota? Learn what spaces work, what leases require, and why this market is booming.",
       datePublished: "2026-07-27",
-      dateModified: "2026-10-05",
+      dateModified: "2026-10-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -231,7 +231,7 @@ export default function BlogPost() {
         </ul>
         <p>If you are comparing Sarasota to adjacent markets, review the <Link href="/markets/manatee" className="text-accent underline">Manatee County commercial market page</Link> and the <Link href="/blog/bradenton-commercial-real-estate-opportunities" className="text-accent underline">Bradenton commercial real estate opportunities guide</Link>. Both markets share demographic similarities and some operators locate across county lines to serve both populations.</p>
 
-        <p>Sarasota&apos;s fitness market rewards operators who get the real estate right. The demand is there. Good spaces in high-traffic corridors move quickly, and landlords in this market have enough demand that they do not negotiate as aggressively with unprepared tenants. Working with a broker who knows the market, knows the landlords, and knows fitness use requirements gives you a real advantage, and it does not cost you anything extra to do it.</p>
+        <p>Sarasota&apos;s fitness market rewards operators who get the real estate right. The demand is there. Good spaces in high-traffic corridors move quickly, and landlords in this market have enough demand that they do not negotiate as aggressively with unprepared tenants. Working with a broker who knows the market, knows the landlords, and knows fitness use requirements gives you a real advantage, and it does not cost you anything extra to do it. Browse available <Link href="/commercial/retail-space" className="text-accent underline">commercial spaces in Florida</Link> to see what inventory looks like today.</p>
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
@@ -73,7 +74,7 @@ const schema = {
       headline: "Clearwater Retail Space Guide",
       description: "Clearwater retail market - top corridors, rental rate trends, and investment opportunities.",
       datePublished: "2026-05-24",
-      dateModified: "2026-09-29",
+      dateModified: "2026-10-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -170,12 +171,12 @@ export default function ClearwaterRetailGuidePage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Clearwater combines year-round tourism with a strong local residential population, creating a retail market that supports both service-oriented businesses and destination retailers. Whether you are opening a first location, expanding an existing business, or investing in retail property, understanding the Clearwater retail landscape is essential to making smart decisions in <a href="/markets/pinellas" className="text-accent underline">Pinellas County</a>. With 23+ years of real estate experience and my base at REMAX Collective, I work this market regularly across all retail corridor types.
+          Clearwater combines year-round tourism with a strong local residential population, creating a retail market that supports both service-oriented businesses and destination retailers. Whether you are opening a first location, expanding an existing business, or investing in retail property, understanding the Clearwater retail landscape is essential to making smart decisions in <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>. With 23+ years of real estate experience and my base at REMAX Collective, I work this market regularly across all retail corridor types.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Makes Clearwater Attractive for Retail?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Clearwater benefits from several factors that drive consistent retail demand. Clearwater Beach draws millions of visitors annually, creating foot traffic that supports restaurants, shops, and service businesses along the beach corridor and Gulf-to-Bay Boulevard. The city&apos;s residential population provides a stable year-round customer base for neighborhood retail. And the ongoing downtown Clearwater revitalization is attracting new businesses and residents to the urban core. The broader <a href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">Tampa Bay CRE boom</a> has brought capital and tenant demand to Clearwater submarkets that were underperforming just a few years ago.
+          Clearwater benefits from several factors that drive consistent retail demand. Clearwater Beach draws millions of visitors annually, creating foot traffic that supports restaurants, shops, and service businesses along the beach corridor and Gulf-to-Bay Boulevard. The city&apos;s residential population provides a stable year-round customer base for neighborhood retail. And the ongoing downtown Clearwater revitalization is attracting new businesses and residents to the urban core. The broader <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">Tampa Bay CRE boom</Link> has brought capital and tenant demand to Clearwater submarkets that were underperforming just a few years ago.
         </p>
 
         <Image
@@ -200,10 +201,10 @@ export default function ClearwaterRetailGuidePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Do Clearwater Retail Rents Look Like?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Retail rental rates in Clearwater vary significantly by location and property type. Beach-adjacent retail commands the highest rents - often $30 to $50+ per square foot on a <a href="/insights/nnn-lease-explained" className="text-accent underline">NNN basis</a>. Gulf-to-Bay corridor spaces typically range from $18 to $30 per square foot depending on visibility and co-tenancy. Secondary locations and neighborhood strip centers can be found in the $14 to $22 per square foot range. Understanding <a href="/insights/cam-charges-explained" className="text-accent underline">CAM charges</a> on top of base rent is critical when comparing total occupancy costs - especially as Florida insurance costs have risen sharply in recent years.
+          Retail rental rates in Clearwater vary significantly by location and property type. Beach-adjacent retail commands the highest rents - often $30 to $50+ per square foot on a <Link href="/insights/nnn-lease-explained" className="text-accent underline">NNN basis</Link>. Gulf-to-Bay corridor spaces typically range from $18 to $30 per square foot depending on visibility and co-tenancy. Secondary locations and neighborhood strip centers can be found in the $14 to $22 per square foot range. Understanding <Link href="/insights/cam-charges-explained" className="text-accent underline">CAM charges</Link> on top of base rent is critical when comparing total occupancy costs - especially as Florida insurance costs have risen sharply in recent years.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Investors evaluating Clearwater retail should also understand how <a href="/insights/gross-vs-net-lease" className="text-accent underline">gross versus net lease structures</a> affect total returns, and how to use <a href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</a> to compare retail properties across different corridors. Tools like the <a href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</a> can help you quickly assess whether a property is priced appropriately for its income stream.
+          Investors evaluating Clearwater retail should also understand how <Link href="/insights/gross-vs-net-lease" className="text-accent underline">gross versus net lease structures</Link> affect total returns, and how to use <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</Link> to compare retail properties across different corridors. Tools like the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> can help you quickly assess whether a property is priced appropriately for its income stream.
         </p>
 
         <Image
@@ -216,26 +217,26 @@ export default function ClearwaterRetailGuidePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Types of Retail Businesses Thrive in Clearwater?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The most successful <a href="/commercial/retail-space" className="text-accent underline">retail concepts</a> in Clearwater tend to fall into a few categories:
+          The most successful <Link href="/commercial/retail-space" className="text-accent underline">retail concepts</Link> in Clearwater tend to fall into a few categories:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Restaurants and food service.</strong> The tourism and residential population support a diverse restaurant scene from casual dining to upscale waterfront concepts. Food and beverage is consistently the most active leasing sector across all Clearwater corridors.</li>
-          <li><strong>Health and wellness.</strong> Medical offices, dental practices, fitness studios, and wellness centers serve the area&apos;s large retiree and active-adult population. <a href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">Medical office demand</a> is particularly strong across Pinellas County.</li>
+          <li><strong>Health and wellness.</strong> Medical offices, dental practices, fitness studios, and wellness centers serve the area&apos;s large retiree and active-adult population. <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">Medical office demand</Link> is particularly strong across Pinellas County.</li>
           <li><strong>Service businesses.</strong> Salons, spas, insurance agencies, and financial services anchor many neighborhood centers. These uses thrive on repeat visits from the local residential base.</li>
           <li><strong>Tourist retail.</strong> Gift shops, water sports rentals, and beach supply stores perform well in the beach corridor with high seasonal revenue peaks.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Should You Invest in Clearwater Retail Property?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Clearwater retail investment can be attractive for the right property. Key factors to evaluate include tenant quality, lease structure (<a href="/insights/nnn-lease-explained" className="text-accent underline">NNN vs. gross</a>), remaining lease term, and location fundamentals. Properties along primary corridors with strong tenants and long-term leases tend to perform well. Beach-area retail carries seasonal variability but can generate premium returns. Investors should work with someone who knows the <a href="/markets/pinellas" className="text-accent underline">Pinellas County market</a> to identify opportunities and avoid overpaying.
+          Clearwater retail investment can be attractive for the right property. Key factors to evaluate include tenant quality, lease structure (<Link href="/insights/nnn-lease-explained" className="text-accent underline">NNN vs. gross</Link>), remaining lease term, and location fundamentals. Properties along primary corridors with strong tenants and long-term leases tend to perform well. Beach-area retail carries seasonal variability but can generate premium returns. Investors should work with someone who knows the <Link href="/markets/pinellas" className="text-accent underline">Pinellas County market</Link> to identify opportunities and avoid overpaying.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Use the <a href="/calculators/roi" className="text-accent underline">commercial ROI calculator</a> and <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">learn how to evaluate returns properly</a> before committing to any acquisition. Make sure your <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process</a> covers flood zone exposure, insurance costs, and lease structure - all of which are particularly important for coastal Pinellas properties.
+          Use the <Link href="/calculators/roi" className="text-accent underline">commercial ROI calculator</Link> and <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">learn how to evaluate returns properly</Link> before committing to any acquisition. Make sure your <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process</Link> covers flood zone exposure, insurance costs, and lease structure - all of which are particularly important for coastal Pinellas properties.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do You Find the Right Retail Space in Clearwater?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Start by defining your requirements - square footage, parking needs, visibility, signage, and budget. Many of the best <a href="/commercial/retail-space" className="text-accent underline">retail spaces</a> in Clearwater are not publicly listed, which is where working with a <a href="/services/tenant-representation" className="text-accent underline">tenant representative</a> gives you an advantage. A broker can access off-market opportunities, negotiate lease terms, and help you evaluate whether a location supports your business model. As a Broker Associate at REMAX Collective, I represent tenants across Clearwater, St. Petersburg, and the broader <a href="/markets/pinellas" className="text-accent underline">Pinellas County</a> market.
+          Start by defining your requirements - square footage, parking needs, visibility, signage, and budget. Many of the best <Link href="/commercial/retail-space" className="text-accent underline">retail spaces</Link> in Clearwater are not publicly listed, which is where working with a <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link> gives you an advantage. A broker can access off-market opportunities, negotiate lease terms, and help you evaluate whether a location supports your business model. As a Broker Associate at REMAX Collective, I represent tenants across Clearwater, St. Petersburg, and the broader <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link> market.
         </p>
 
         <Image
@@ -248,7 +249,7 @@ export default function ClearwaterRetailGuidePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Clearwater offers a dynamic retail market powered by tourism, population growth, and ongoing investment. Whether you are looking for your first storefront, expanding your business, or investing in retail property, the market rewards smart site selection and strong lease negotiation. For additional context on comparable markets, see our guides to <a href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate</a> and <a href="/blog/clearwater-office-space-professional-services-firms" className="text-accent underline">Clearwater office space for professional services firms</a>. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I help tenants and investors navigate the Clearwater market with data, local knowledge, and honest advice.
+          Clearwater offers a dynamic retail market powered by tourism, population growth, and ongoing investment. Whether you are looking for your first storefront, expanding your business, or investing in retail property, the market rewards smart site selection and strong lease negotiation. For additional context on comparable markets, see our guides to <Link href="/blog/st-petersburg-commercial-real-estate-2026" className="text-accent underline">St. Petersburg commercial real estate</Link> and <Link href="/blog/clearwater-office-space-professional-services-firms" className="text-accent underline">Clearwater office space for professional services firms</Link>. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I help tenants and investors navigate the Clearwater market with data, local knowledge, and honest advice.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -264,7 +265,7 @@ export default function ClearwaterRetailGuidePage() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate"
             width={80}
