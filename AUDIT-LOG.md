@@ -4671,3 +4671,56 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ### 10. `/calculators/page.tsx`
 - Updated footer: "August 2026" -> "September 2026"
+
+## Batch 73 — 2026-10-07
+
+### 1. `/blog/tampa-bay-urgent-care-medical-clinic-nnn-investment-2026`
+- Fixed em dashes in FAQ answers 3, 4, 5 (— → --)
+- Replaced external nowtb.com link with internal `/blog/why-tampa-bay-cre-is-booming` Link
+- Updated dateModified: "2026-10-05" -> "2026-10-07"
+
+### 2. `/blog/clearwater-retail-space-guide`
+- Added `import Link from "next/link"` (was missing)
+- Converted 13+ bare `<a href="/...">` to `<Link>` throughout article body
+- Fixed `<img>` to `<Image>` in author bio
+- Updated dateModified: "2026-09-29" -> "2026-10-07"
+
+### 3. `/blog/brandon-nnn-landlord-investment-strategy-hillsborough`
+- Fixed em dashes in all 5 faqItems (JS strings)
+- Converted 11 bare `<a href='...'>` to `<Link>` throughout article body
+- Fixed broken link `/blog/riverview-hillsborough-nnn-retail-landlord-investment` → `/markets/hillsborough`
+- Updated relatedLinks broken entry → "Tampa Bay NNN Cap Rates 2026" `/blog/tampa-bay-nnn-cap-rates-2026`
+- Updated dateModified: "2026-09-12" -> "2026-10-07"
+
+### 4. `/blog/sarasota-fitness-gym-wellness-studio-tenant-guide`
+- Merged dual SchemaOrg (`articleSchema` + `faqSchema`) into single @graph schema
+- Fixed author bio title: "REALTOR & Commercial Real Estate Advisor" → "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed author description to use standard "Barrett is a Broker Associate..." format
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Added 2 more `<Link>` components to reach 10+ total
+- Updated dateModified: "2026-09-25" -> "2026-10-07"
+
+### 5. `/blog/selling-tenant-occupied-investment-property-florida`
+- Added 2 more `<Link>` components (was 8, now 10+): `/blog/what-makes-a-good-commercial-investment`, `/services/dispositions`
+- Updated dateModified: "2026-10-05" -> "2026-10-07"
+
+### 6. `/blog/florida-commercial-property-tax-appeal-guide-2026`
+- Added 4 more `<Link>` components (was 6, now 10): Hillsborough, Pinellas, Pasco market pages, `/blog/how-to-calculate-commercial-property-roi`
+- Updated dateModified: "2026-10-05" -> "2026-10-07"
+
+### 7. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Added 5 more `<Link>` components (was 5, now 10): what-makes-a-good-commercial-investment, multifamily-investment-tampa-bay-guide, markets/hillsborough, services/investment-sales, services/cre-valuation
+- Updated dateModified: "2026-10-03" -> "2026-10-07"
+
+### 8. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Converted 11 bare `<a href="/...">` to `<Link>` throughout article body (now 13 Links total)
+- Fixed em dashes in investor paragraph and tenant representation section
+- Updated dateModified: "2026-09-30" -> "2026-10-07"
+
+### 9. `/blog/sarasota-fitness-gym-wellness-commercial-space`
+- Added 1 more `<Link>` to reach 10 (commercial/retail-space)
+- Updated dateModified: "2026-10-05" -> "2026-10-07"
+
+### 10. `/blog/riverview-restaurant-food-service-commercial-space-guide`
+- Added 1 more `<Link>` to reach 10 (tampa-bay-restaurant-food-beverage-space-2026)
+- Updated dateModified: "2026-10-05" -> "2026-10-07"
