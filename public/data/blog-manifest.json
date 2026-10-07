@@ -2012,5 +2012,21 @@
       "photographer": "Anita Denunzio",
       "link": "https://unsplash.com/@dronepilot"
     }
+  },
+  {
+    "slug": "land-o-lakes-land-development-commercial-space-guide",
+    "title": "Land O' Lakes Land Development: Finding Commercial Space",
+    "excerpt": "Land O' Lakes is one of Pasco County's fastest-growing corridors for new construction and land development. This guide covers site selection, zoning basics, lease considerations, and why this market rewards developers who move early.",
+    "date": "2026-10-07",
+    "category": "business-guide",
+    "city": "Land O' Lakes",
+    "county": "Pasco",
+    "businessType": "land development or new construction",
+    "image": {
+      "url": "/images/blog/land-o-lakes-land-development-commercial-space-guide.jpg",
+      "alt": "A quiet suburban street lined with houses, palm trees, and manicured lawns",
+      "photographer": "FilterGrade",
+      "link": "https://unsplash.com/@filtergrade"
+    }
   }
 ]
