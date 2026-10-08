@@ -65,11 +65,11 @@ const schema = {
       headline: "Crystal River Commercial Real Estate: Citrus County Guide",
       description: "Discover why Crystal River and Citrus County, FL are emerging commercial real estate opportunities. From tourism-driven retail to waterfront properties, explore the market now.",
       datePublished: "2026-07-18",
-      dateModified: "2026-09-21",
+      dateModified: "2026-10-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -172,7 +172,7 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

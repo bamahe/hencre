@@ -87,7 +87,7 @@ const schema = {
       description:
         "The $2.36B Tampa Bay Rays ballpark at HCC Dale Mabry was approved August 2026 with Opening Day 2029. What stadium-anchored development means for commercial real estate investors and tenants along the Dale Mabry corridor — restaurants, hotels, entertainment, and mixed-use.",
       datePublished: "2026-10-07",
-      dateModified: "2026-10-07",
+      dateModified: "2026-10-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -244,9 +244,9 @@ export default function TampaBallparkDaleMabryCREPage() {
           The commercial real estate entry window this creates is a two-to-three-year period — roughly 2026 through 2028 — during which properties and leases in the surrounding corridor can be acquired or negotiated at pre-stadium pricing. The pattern in comparable markets is consistent: cap rate compression and rental rate appreciation in stadium-adjacent corridors begin to accelerate once construction is visibly underway and a specific opening date is public. By the time the first home game is played, the best-positioned assets have already traded at stadion-premium pricing. The investors and tenants who wait for proof of concept — waiting until Opening Day 2029 to act — pay stadium-proven pricing on everything they acquire.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Owners of commercial properties in the immediate Dale Mabry corridor who may be considering an exit should understand this timing dynamic as well. A property that trades in 2027 at market-rate pricing reflects some stadium anticipation premium but not full delivery premium. If selling is part of a larger strategy — portfolio repositioning, estate planning, a 1031 exchange into a different asset class — the window when a stadium catalyst supports elevated pricing without the seller having to wait for 2029 delivery is now through mid-2028. For owners evaluating a sale, the{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fast-sale options at FastSellEasySale.com</Link>{" "}
-          are one avenue for a commercial or land exit if timeline flexibility is limited.
+          Owners of commercial properties in the immediate Dale Mabry corridor who may be considering an exit should understand this timing dynamic as well. A property that trades in 2027 at market-rate pricing reflects some stadium anticipation premium but not full delivery premium. If selling is part of a larger strategy — portfolio repositioning, estate planning, a 1031 exchange into a different asset class — the window when a stadium catalyst supports elevated pricing without the seller having to wait for 2029 delivery is now through mid-2028. For owners evaluating a sale or disposition strategy,{" "}
+          <Link href="/services/dispositions" className="text-accent underline">Barrett&apos;s disposition services</Link>{" "}
+          can help you structure an exit that captures maximum value before the stadium opens.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does This Fit Into Tampa Bay&apos;s Broader CRE Story?</h2>

@@ -84,11 +84,11 @@ const schema = {
       description:
         "Cap rates, anchor operators, and acquisition criteria for grocery-anchored shopping centers across Tampa Bay's tight retail market.",
       datePublished: "2026-08-25",
-      dateModified: "2026-09-02",
+      dateModified: "2026-10-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -181,7 +181,7 @@ export default function GroceryAnchoredRetailPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Grocery-anchored retail centers have long been regarded as some of the most durable commercial real estate investments available — recession-resistant, consistently trafficked, and built around a tenant whose product people need every week regardless of economic conditions. In Tampa Bay, where <a href="/blog/tampa-bay-retail-market-q2-2026" className="text-accent underline">retail vacancy sits at just 3.8%</a> as of Q2 2026, quality anchored retail is in short supply and high demand from both occupiers and investors. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I work with investors across the region who are actively seeking these assets — and I want to lay out exactly what you need to know before pursuing one.
+          Grocery-anchored retail centers have long been regarded as some of the most durable commercial real estate investments available — recession-resistant, consistently trafficked, and built around a tenant whose product people need every week regardless of economic conditions. In Tampa Bay, where <Link href="/blog/tampa-bay-retail-market-q2-2026" className="text-accent underline">retail vacancy sits at just 3.8%</Link> as of Q2 2026, quality anchored retail is in short supply and high demand from both occupiers and investors. With 23+ years of real estate experience as a Broker Associate at REMAX Collective, I work with investors across the region who are actively seeking these assets — and I want to lay out exactly what you need to know before pursuing one.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Do Grocery-Anchored Centers Hold Their Value?</h2>
@@ -214,7 +214,7 @@ export default function GroceryAnchoredRetailPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does the Tampa Bay Retail Market Mean for Anchored Center Values?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The broader <a href="/blog/tampa-bay-retail-market-q2-2026" className="text-accent underline">Tampa Bay retail market</a> is operating at historically tight vacancy. At 3.8% retail availability in Q2 2026 — well below the national average of 6.0% — the supply of quality in-line space adjacent to strong grocery anchors is genuinely constrained. That scarcity has two important implications for investors.
+          The broader <Link href="/blog/tampa-bay-retail-market-q2-2026" className="text-accent underline">Tampa Bay retail market</Link> is operating at historically tight vacancy. At 3.8% retail availability in Q2 2026 — well below the national average of 6.0% — the supply of quality in-line space adjacent to strong grocery anchors is genuinely constrained. That scarcity has two important implications for investors.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           First, in-line rents in well-leased anchored centers have pricing power that less-anchored retail lacks. When a hair salon or dry cleaner wants to be next to a busy Publix and there is no vacancy, they have limited negotiating leverage. That supports rent growth and minimizes the need for concessions. Second, stabilized grocery-anchored centers rarely come to market in Tampa Bay — when they do, they attract multiple offers quickly, often from institutional buyers who can move to contract without financing contingencies. If you want to participate in this asset class, you need local relationships and the ability to evaluate deals quickly.
@@ -234,8 +234,8 @@ export default function GroceryAnchoredRetailPage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Wesley Chapel / New Tampa.</strong> One of the fastest-growing residential corridors in Florida. Household formation outpacing retail supply makes this an exceptional environment for grocery-anchored centers serving trade areas without enough competition to dilute sales volume.</li>
-          <li><strong>Riverview / Brandon.</strong> A dense southeastern Hillsborough County residential base with a mix of long-established neighborhoods and recent subdivisions. <a href="/blog/riverview-fl-commercial-real-estate-2026" className="text-accent underline">Riverview commercial real estate</a> has attracted significant retail investment attention as the population has grown.</li>
-          <li><strong>Apollo Beach / SouthShore.</strong> The <a href="/blog/apollo-beach-southshore-commercial-real-estate-2026" className="text-accent underline">SouthShore corridor</a> has seen substantial residential development and is still underserved by grocery-anchored retail relative to its population. New anchor opportunities exist here for developers willing to deliver product.</li>
+          <li><strong>Riverview / Brandon.</strong> A dense southeastern Hillsborough County residential base with a mix of long-established neighborhoods and recent subdivisions. <Link href="/blog/riverview-fl-commercial-real-estate-2026" className="text-accent underline">Riverview commercial real estate</Link> has attracted significant retail investment attention as the population has grown.</li>
+          <li><strong>Apollo Beach / SouthShore.</strong> The <Link href="/blog/apollo-beach-southshore-commercial-real-estate-2026" className="text-accent underline">SouthShore corridor</Link> has seen substantial residential development and is still underserved by grocery-anchored retail relative to its population. New anchor opportunities exist here for developers willing to deliver product.</li>
           <li><strong>Parrish / Manatee County.</strong> Rapidly developing area with limited existing grocery-anchored supply. Investors who can identify well-located land positions ahead of residential buildout are positioning for value creation over the next three to five years.</li>
           <li><strong>South Tampa / Hyde Park.</strong> Infill, supply-constrained market with affluent demographics. Existing grocery-anchored centers trade at compressed cap rates reflecting the scarcity of land for new competition.</li>
         </ul>
@@ -251,7 +251,7 @@ export default function GroceryAnchoredRetailPage() {
           <li><strong>In-line occupancy and WALT.</strong> Weighted average lease term on in-line tenants determines how stable your income stream is over the near term. Short WALT means near-term re-leasing exposure; long WALT with below-market rents means limited upside.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Beyond the leases, the physical asset requires careful attention. Roofs, HVAC systems, and parking lots are the three largest capital expenditure categories in retail. A roof replacement on a 100,000-square-foot center can cost $800,000 to $1.5 million. <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">Thorough due diligence</a> is non-negotiable. And in Tampa Bay specifically, flood zone designation, wind mitigation, and insurance cost trajectory are material underwriting inputs that have changed significantly in recent years — see our analysis of <a href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida&apos;s insurance crisis and investment properties</a> for context.
+          Beyond the leases, the physical asset requires careful attention. Roofs, HVAC systems, and parking lots are the three largest capital expenditure categories in retail. A roof replacement on a 100,000-square-foot center can cost $800,000 to $1.5 million. <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">Thorough due diligence</Link> is non-negotiable. And in Tampa Bay specifically, flood zone designation, wind mitigation, and insurance cost trajectory are material underwriting inputs that have changed significantly in recent years — see our analysis of <Link href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida&apos;s insurance crisis and investment properties</Link> for context.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Cap Rates Should You Expect for Grocery-Anchored Centers in Tampa Bay?</h2>
@@ -259,10 +259,10 @@ export default function GroceryAnchoredRetailPage() {
           As of mid-2026, stabilized grocery-anchored centers with strong anchor credit and long remaining lease terms are trading in the 5.5% to 6.5% cap rate range in Tampa Bay. Premium assets — a Publix-anchored center in a supply-constrained infill submarket with a long lease — can trade through 5.5%, particularly when marketed broadly and attracting institutional capital.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Centers with shorter anchor lease terms (under 7 years remaining), secondary grocery operators, or significant near-term capital expenditure needs trade at wider caps — 6.75% to 7.5% or above. The spread between the tightest and widest end of this range reflects the risk differentiation that sophisticated investors are making based on anchor credit, lease structure, and market positioning. For context, <a href="/blog/tampa-bay-nnn-cap-rates-2026" className="text-accent underline">NNN retail cap rates across Tampa Bay</a> average around 6.7% — anchored centers command a premium to that average when structured correctly.
+          Centers with shorter anchor lease terms (under 7 years remaining), secondary grocery operators, or significant near-term capital expenditure needs trade at wider caps — 6.75% to 7.5% or above. The spread between the tightest and widest end of this range reflects the risk differentiation that sophisticated investors are making based on anchor credit, lease structure, and market positioning. For context, <Link href="/blog/tampa-bay-nnn-cap-rates-2026" className="text-accent underline">NNN retail cap rates across Tampa Bay</Link> average around 6.7% — anchored centers command a premium to that average when structured correctly.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Use the <a href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</a> and review <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate commercial property ROI</a> to stress-test your underwriting before committing to any acquisition price. Buyers who model multiple scenarios — including anchor non-renewal and in-line vacancy — make better decisions than those who underwrite the best case.
+          Use the <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> and review <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate commercial property ROI</Link> to stress-test your underwriting before committing to any acquisition price. Buyers who model multiple scenarios — including anchor non-renewal and in-line vacancy — make better decisions than those who underwrite the best case.
         </p>
 
         <Image
@@ -275,7 +275,7 @@ export default function GroceryAnchoredRetailPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is a 1031 Exchange a Good Strategy for Acquiring a Grocery-Anchored Center?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Many investors arrive at grocery-anchored centers through a <a href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</a>, having sold an appreciated asset — a multifamily property, a warehouse, a development site — and seeking a more passive, income-stable replacement property. Grocery-anchored retail fits that profile well: strong in-place income, NNN or modified gross leases that minimize landlord management intensity, and durable long-term fundamentals.
+          Many investors arrive at grocery-anchored centers through a <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link>, having sold an appreciated asset — a multifamily property, a warehouse, a development site — and seeking a more passive, income-stable replacement property. Grocery-anchored retail fits that profile well: strong in-place income, NNN or modified gross leases that minimize landlord management intensity, and durable long-term fundamentals.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The challenge is the 45-day identification window and 180-day closing deadline. Quality grocery-anchored centers in Tampa Bay do not sit on the market long, and many trade off-market entirely. If you are planning a 1031 exchange and have this asset class in your replacement property criteria, engage your broker before your relinquished property closes — not after. Pre-identifying a pipeline of potential acquisitions is the only reliable way to hit the identification deadline on assets that require real analysis. If you need to liquidate a property quickly to position capital for a 1031, Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> are designed to close commercial, land, and investment dispositions on your timeline.
@@ -283,7 +283,7 @@ export default function GroceryAnchoredRetailPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Tampa Bay Grocery-Anchored Retail</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Grocery-anchored retail centers are among the most defensible commercial real estate investments available — and in Tampa Bay, where overall retail vacancy is at historic lows and population growth continues to drive household formation in underserved trade areas, the fundamentals supporting this asset class are particularly strong. Acquiring a quality anchored center requires local relationships, fast evaluation capability, and a thorough understanding of lease structure and physical condition. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, I help investors identify, underwrite, and acquire <a href="/services/investment-sales" className="text-accent underline">retail investment properties</a> across Tampa Bay — including anchored centers that never reach public listing platforms. If you are building a retail investment portfolio or looking to reposition capital into grocery-anchored product, let&apos;s talk.
+          Grocery-anchored retail centers are among the most defensible commercial real estate investments available — and in Tampa Bay, where overall retail vacancy is at historic lows and population growth continues to drive household formation in underserved trade areas, the fundamentals supporting this asset class are particularly strong. Acquiring a quality anchored center requires local relationships, fast evaluation capability, and a thorough understanding of lease structure and physical condition. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, I help investors identify, underwrite, and acquire <Link href="/services/investment-sales" className="text-accent underline">retail investment properties</Link> across Tampa Bay — including anchored centers that never reach public listing platforms. If you are building a retail investment portfolio or looking to reposition capital into grocery-anchored product, let&apos;s talk.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
@@ -291,7 +291,7 @@ export default function GroceryAnchoredRetailPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       <CTASection

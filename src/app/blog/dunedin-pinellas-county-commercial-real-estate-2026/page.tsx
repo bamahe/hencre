@@ -42,11 +42,11 @@ const schema = {
       headline: "Dunedin FL Commercial Real Estate 2026 | HenCRE",
       description: "Explore Dunedin, Pinellas County's commercial real estate market in 2026. Discover retail, office, and mixed-use investment opportunities in this thriving Gulf Coast town.",
       datePublished: "2026-09-07",
-      dateModified: "2026-09-27",
+      dateModified: "2026-10-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -227,7 +227,7 @@ export default function BlogPost() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="text-xs text-[#666666] mt-2">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666] mt-2">Last updated: October 2026</p>
       </section>
 
       <CTASection

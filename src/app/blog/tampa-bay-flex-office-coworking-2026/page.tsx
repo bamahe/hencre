@@ -85,11 +85,11 @@ const schema = {
       description:
         "Tampa Bay has reached 2.5% flex office penetration and is one of the fastest-growing coworking markets in the U.S. in 2026. Here's how to evaluate flexible workspace options versus traditional leases.",
       datePublished: "2026-08-21",
-      dateModified: "2026-09-02",
+      dateModified: "2026-10-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -195,7 +195,7 @@ export default function BlogPost() {
           Tampa Bay's flex office and coworking market has been growing faster than almost any other U.S. metro in 2025 and 2026 — and that is not an accident. The region consistently appears in national reports alongside Salt Lake City, Charlotte, Phoenix, and Boise as secondary markets leading flex office absorption. The reasons are structural: Tampa Bay has absorbed significant migration from higher-cost metros like New York, Chicago, and Los Angeles, and many of those transplants arrived with remote or hybrid work arrangements that make full-time office space unnecessary. They need somewhere to work, take calls, and meet clients — but not a 10-year lease.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          By early 2026, Tampa-St. Petersburg-Clearwater had reached approximately 2.5% flex office penetration as a share of total office inventory — a meaningful benchmark that signals the format has moved from niche to mainstream in this market. Nationally, 58% of corporate occupiers now use flexible office space in some form, and the national coworking footprint expanded by 15% in a single year to nearly 9,000 locations and over 161 million square feet. Tampa Bay is absorbing that growth at an above-average rate because it combines migration-driven demand with competitive pricing relative to legacy gateway markets. For a broader look at where Tampa Bay office sits right now, see our <a href="/blog/tampa-bay-office-market-q2-2026">Tampa Bay office market Q2 2026 report</a>.
+          By early 2026, Tampa-St. Petersburg-Clearwater had reached approximately 2.5% flex office penetration as a share of total office inventory — a meaningful benchmark that signals the format has moved from niche to mainstream in this market. Nationally, 58% of corporate occupiers now use flexible office space in some form, and the national coworking footprint expanded by 15% in a single year to nearly 9,000 locations and over 161 million square feet. Tampa Bay is absorbing that growth at an above-average rate because it combines migration-driven demand with competitive pricing relative to legacy gateway markets. For a broader look at where Tampa Bay office sits right now, see our <Link href="/blog/tampa-bay-office-market-q2-2026" className="text-accent underline">Tampa Bay office market Q2 2026 report</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Who Is Actually Using Flex Office and Coworking Space in Tampa Bay in 2026?</h2>
@@ -251,7 +251,7 @@ export default function BlogPost() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does Flex Office Actually Cost — and How Does It Compare to a Traditional Lease?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The most common mistake tenants make when evaluating flex office is comparing the monthly membership rate to the base rent on a traditional lease without accounting for what each includes. A traditional Class B office lease in Tampa Bay at $26 per square foot per year sounds cheaper than a flex operator charging the equivalent of $45 per square foot — until you add tenant improvement amortization, furniture, phone and internet, electricity, cleaning, and the cost of committing 5 years of capital to a space that may not fit your needs in year 3. Understanding those hidden costs is essential before deciding which model serves your business better. Our <a href="/blog/understanding-cam-charges-tenants-guide">CAM charges guide</a> breaks down what traditional lease costs actually include.
+          The most common mistake tenants make when evaluating flex office is comparing the monthly membership rate to the base rent on a traditional lease without accounting for what each includes. A traditional Class B office lease in Tampa Bay at $26 per square foot per year sounds cheaper than a flex operator charging the equivalent of $45 per square foot — until you add tenant improvement amortization, furniture, phone and internet, electricity, cleaning, and the cost of committing 5 years of capital to a space that may not fit your needs in year 3. Understanding those hidden costs is essential before deciding which model serves your business better. Our <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charges guide</Link> breaks down what traditional lease costs actually include.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           In practical terms, here is how the cost stack compares for a 10-person team in mid-2026 Tampa Bay:
@@ -268,13 +268,13 @@ export default function BlogPost() {
           The decision between flex office and a traditional lease ultimately comes down to three questions: how certain is your headcount trajectory, how much capital flexibility do you need, and how important is location stability for your client relationships and employee commutes?
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If your headcount could double or be cut in half over the next 18 months — which is realistic for a company in a growth phase or one navigating market uncertainty — flex office is the right answer. The premium you pay for that flexibility is real but it is also real optionality: you are not stuck writing rent checks on space you outgrew or can no longer afford. See our guide on <a href="/blog/5-mistakes-first-time-commercial-tenants-make">common mistakes first-time commercial tenants make</a> for a detailed look at how lease inflexibility has hurt companies that grew faster or slower than projected.
+          If your headcount could double or be cut in half over the next 18 months — which is realistic for a company in a growth phase or one navigating market uncertainty — flex office is the right answer. The premium you pay for that flexibility is real but it is also real optionality: you are not stuck writing rent checks on space you outgrew or can no longer afford. See our guide on <Link href="/blog/5-mistakes-first-time-commercial-tenants-make" className="text-accent underline">common mistakes first-time commercial tenants make</Link> for a detailed look at how lease inflexibility has hurt companies that grew faster or slower than projected.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If your headcount is stable and your business model requires projecting permanence — a law firm, a medical practice, a financial advisory firm with client-facing offices — a traditional lease with buildout control, signage, and a fixed address is almost always preferable. Clients and employees read a coworking environment differently than a dedicated office, and in some professional service contexts, that perception matters commercially.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For companies making this decision right now in Tampa Bay, it is worth a conversation before signing either a flex membership or a traditional lease. Barrett Henry has been advising tenants across all product types in Tampa Bay for 23+ years through REMAX Collective, and can quickly assess which arrangement fits your specific situation. Call <a href="tel:8137337907">(813) 733-7907</a> or reach out through the <a href="/contact">contact page</a>.
+          For companies making this decision right now in Tampa Bay, it is worth a conversation before signing either a flex membership or a traditional lease. Barrett Henry has been advising tenants across all product types in Tampa Bay for 23+ years through REMAX Collective, and can quickly assess which arrangement fits your specific situation. Call <a href="tel:8137337907">(813) 733-7907</a> or reach out through the <Link href="/contact" className="underline">contact page</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is Flex Office Space a Good Investment for Tampa Bay Building Owners in 2026?</h2>
@@ -305,7 +305,7 @@ export default function BlogPost() {
           <strong>Parking.</strong> Downtown Tampa and Westshore operators may or may not include parking in the listed price. For a 10-person team, parking can add $1,500–$2,500 per month in costs that are not visible in the published membership rate.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Signage and branding.</strong> If your company needs exterior or lobby signage — important for client-facing professional services firms — confirm whether the operator permits it and what the constraints are. Many coworking buildings do not allow tenant-specific exterior branding, which is a legitimate differentiator for a traditional lease in some business categories. Our breakdown of <a href="/blog/how-commercial-leases-differ-from-residential">how commercial leases differ from residential ones</a> covers the signage, assignment, and exclusivity terms that are standard in traditional leases but absent in most flex agreements.
+          <strong>Signage and branding.</strong> If your company needs exterior or lobby signage — important for client-facing professional services firms — confirm whether the operator permits it and what the constraints are. Many coworking buildings do not allow tenant-specific exterior branding, which is a legitimate differentiator for a traditional lease in some business categories. Our breakdown of <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential ones</Link> covers the signage, assignment, and exclusivity terms that are standard in traditional leases but absent in most flex agreements.
         </p>
 
         {/* ---- Mid-article CTA ---- */}
@@ -317,9 +317,9 @@ export default function BlogPost() {
               (813) 733-7907
             </a>{" "}
             or{" "}
-            <a href="/contact" className="underline">
+            <Link href="/contact" className="underline">
               send a message
-            </a>
+            </Link>
             . 23+ years advising Tampa Bay tenants — no cost for tenant representation.
           </p>
         </div>
@@ -332,7 +332,7 @@ export default function BlogPost() {
           Using a flex operator as a landing pad — typically 6 to 18 months of private office space at a national operator like WeWork or Industrious — gives the company time to operate in the market, make informed decisions about submarket fit, and negotiate a traditional lease from a position of local knowledge and without the urgency that a lease expiration deadline creates. Companies that have used this strategy in Tampa Bay have consistently reported that their traditional lease decisions — made after operating locally — were significantly better calibrated to actual needs than the lease they would have signed on day one of market entry.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Barrett Henry advises companies through this transition — from flex to traditional — across all of Tampa Bay's submarkets including <a href="/markets/hillsborough">Hillsborough</a>, <a href="/markets/pinellas">Pinellas</a>, and <a href="/markets/pasco">Pasco</a> counties. If you are relocating a team to Tampa Bay and want a read on which submarkets fit your workforce geography and which traditional lease opportunities are worth pursuing when the time is right, call <a href="tel:8137337907">(813) 733-7907</a>.
+          Barrett Henry advises companies through this transition — from flex to traditional — across all of Tampa Bay's submarkets including <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco</Link> counties. If you are relocating a team to Tampa Bay and want a read on which submarkets fit your workforce geography and which traditional lease opportunities are worth pursuing when the time is right, call <a href="tel:8137337907">(813) 733-7907</a>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is the Outlook for Tampa Bay's Flex Office Market Through the Rest of 2026?</h2>
@@ -343,7 +343,7 @@ export default function BlogPost() {
           What that means for tenants: pricing at established operators is not declining, and the most desirable locations — WeWork's downtown building, Industrious at SunTrust — have waitlists for the best private suites. Companies that need flex space in core Tampa Bay locations in late 2026 should not assume walk-in availability at their preferred operator. At the same time, the IWG suburban locations and newer independent operators have more availability and more pricing flexibility, which creates options for tenants whose workforce geography does not require a downtown location.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For tenants approaching the point where flex office costs are approaching traditional lease costs — typically when a team reaches 15–20 consistent occupants — the calculus of staying flex versus moving to traditional space should be revisited every 6 months. Barrett Henry can model that comparison with current Tampa Bay market data at no cost. Reach out at <a href="tel:8137337907">(813) 733-7907</a> or through the <a href="/contact">contact page</a> when that conversation makes sense.
+          For tenants approaching the point where flex office costs are approaching traditional lease costs — typically when a team reaches 15–20 consistent occupants — the calculus of staying flex versus moving to traditional space should be revisited every 6 months. Barrett Henry can model that comparison with current Tampa Bay market data at no cost. Reach out at <a href="tel:8137337907">(813) 733-7907</a> or through the <Link href="/contact" className="underline">contact page</Link> when that conversation makes sense.
         </p>
       </article>
 
@@ -382,7 +382,7 @@ export default function BlogPost() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Market data cited reflects publicly available sources as of Q1–Q2 2026. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: September 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: October 2026</p>
       </section>
 
       <CTASection
