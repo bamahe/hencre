@@ -4724,3 +4724,67 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### 10. `/blog/riverview-restaurant-food-service-commercial-space-guide`
 - Added 1 more `<Link>` to reach 10 (tampa-bay-restaurant-food-beverage-space-2026)
 - Updated dateModified: "2026-10-05" -> "2026-10-07"
+
+## Batch 74 — 2026-10-08
+
+### 1. `/blog/land-o-lakes-land-development-commercial-space-guide`
+- Merged dual @graph schemas into single SchemaOrg component
+- Removed nowtb.com from author sameAs array
+- Converted bare `<a>` links to `<Link>` components in article body
+- Updated dateModified to 2026-10-08
+- Updated footer: September 2026 → October 2026
+
+### 2. `/blog/tampa-rays-ballpark-dale-mabry-cre-2026`
+- Replaced fastselleasysale.com external link with `/services/dispositions`
+- Updated dateModified to 2026-10-08
+- Updated footer: September 2026 → October 2026
+
+### 3. `/blog/clearwater-pinellas-county-commercial-real-estate-2026`
+- Merged dual @graph schemas into single SchemaOrg component
+- Removed nowtb.com from author sameAs array
+- Removed HUD/FHA/HOPE Free Resources section
+- Converted bare `<a>` links to `<Link>` components throughout article body
+- Updated dateModified to 2026-10-08
+- Updated footer: September 2026 → October 2026
+
+### 4. `/blog/dunedin-commercial-real-estate-landlord-investment-guide`
+- Removed REALTOR® trademark; corrected to "Broker Associate at REMAX Collective" in schema and faqItems
+- Updated jobTitle to full format with credentials and Hall of Fame
+- Removed HUD/FHA/HOPE Free Resources section
+- Converted 14 bare `<a>` links to `<Link>` throughout article body
+- Updated dateModified to 2026-10-08
+- Updated footer: September 2026 → October 2026
+
+### 5. `/blog/crystal-river-citrus-county-commercial-real-estate`
+- Updated dateModified to 2026-10-08
+- Updated jobTitle to full format with credentials and Hall of Fame
+- Updated footer: September 2026 → October 2026
+
+### 6. `/blog/dunedin-pinellas-county-commercial-real-estate-2026`
+- Updated dateModified to 2026-10-08
+- Updated jobTitle to full format with credentials and Hall of Fame
+- Updated footer: September 2026 → October 2026
+
+### 7. `/blog/riverview-hillsborough-nnn-retail-landlord-investment`
+- Updated dateModified to 2026-10-08
+- Updated jobTitle to full format with credentials and Hall of Fame
+- Converted 15 bare `<a>` links to `<Link>` throughout article body
+- Updated footer: September 2026 → October 2026
+
+### 8. `/blog/tampa-bay-flex-office-coworking-2026`
+- Updated dateModified to 2026-10-08
+- Updated jobTitle to full format with credentials and Hall of Fame
+- Converted bare `<a>` links to `<Link>` components in article body
+- Updated footer: September 2026 → October 2026
+
+### 9. `/blog/tampa-bay-grocery-anchored-retail-investment-2026`
+- Updated dateModified to 2026-10-08
+- Updated jobTitle to full format with credentials and Hall of Fame
+- Converted 11 bare `<a>` links to `<Link>` throughout article body
+- Updated footer: September 2026 → October 2026
+
+### 10. `/blog/westshore-tampa-office-market-2026`
+- Updated dateModified to 2026-10-08
+- Updated jobTitle to full format with credentials and Hall of Fame
+- Converted 10 bare `<a>` links to `<Link>` throughout article body
+- Updated footer: September 2026 → October 2026
