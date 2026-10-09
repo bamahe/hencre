@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Florida Insurance Crisis & Your Investment Property | HenCRE",
   description:
-    "Florida property insurance premiums have doubled or tripled since 2020. Here's how the crisis is reshaping ROI for Tampa Bay landlords — and the exit options available.",
+    "Florida property insurance premiums have doubled or tripled since 2020. Here's how the crisis is reshaping ROI for Tampa Bay landlords -- and the exit options available.",
   alternates: { canonical: "https://hencre.com/blog/florida-insurance-crisis-investment-properties" },
   openGraph: {
     title: "Florida Insurance Crisis & Your Investment Property",
@@ -78,7 +78,7 @@ const schema = {
       headline: "Florida's Insurance Crisis and Your Investment Property",
       description: "How surging property insurance premiums are reshaping ROI for Tampa Bay landlords -- and exit options.",
       datePublished: "2026-06-17",
-      dateModified: "2026-09-18",
+      dateModified: "2026-10-09",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -317,7 +317,7 @@ export default function InsuranceCrisisInvestmentPage() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: September 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: October 2026</p>
       </section>
 
       <CTASection

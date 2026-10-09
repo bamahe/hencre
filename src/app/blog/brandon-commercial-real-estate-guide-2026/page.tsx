@@ -42,7 +42,7 @@ const schema = {
       headline: "Brandon FL Commercial Real Estate: Market Guide 2026",
       description: "Brandon, FL commercial real estate is moving fast. Learn what's available, who's investing, and why you need Barrett Henry in your corner.",
       datePublished: "2026-07-20",
-      dateModified: "2026-10-04",
+      dateModified: "2026-10-09",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

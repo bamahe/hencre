@@ -42,7 +42,7 @@ const faqItems = [
   },
   {
     question: "What are asking rents for industrial space along the US 301 corridor?",
-    answer: "New Class A industrial product delivering along the US 301 corridor in 2026 and 2027 is quoting in the $14 to $18 per square foot NNN range for large-bay bulk distribution buildings. Smaller multi-tenant flex industrial in the broader East Tampa submarket runs $16 to $22 per square foot NNN. Spec projects are leasing quickly — the corridor's access to I-75 and relative affordability compared to infill Tampa locations makes it attractive to tenants who have been priced out of tighter submarkets.",
+    answer: "New Class A industrial product delivering along the US 301 corridor in 2026 and 2027 is quoting in the $14 to $18 per square foot NNN range for large-bay bulk distribution buildings. Smaller multi-tenant flex industrial in the broader East Tampa submarket runs $16 to $22 per square foot NNN. Spec projects are leasing quickly --the corridor's access to I-75 and relative affordability compared to infill Tampa locations makes it attractive to tenants who have been priced out of tighter submarkets.",
   },
   {
     question: "How does East Tampa compare to other industrial submarkets in Tampa Bay?",
@@ -54,7 +54,7 @@ const faqItems = [
   },
   {
     question: "What should I know before investing in East Tampa industrial property?",
-    answer: "East Tampa industrial is attracting institutional capital for good reason, but individual investors should underwrite carefully. Key considerations include: insurance costs, which remain elevated across all Florida commercial property types; lease structure and tenant credit quality — new spec projects without committed tenants carry lease-up risk; cap rate compression driven by institutional demand, which may compress returns on stabilized assets; and the pipeline of new deliveries in 2027, which could temporarily soften rents in certain size ranges. Working with a local broker who tracks the submarket closely is essential for making informed decisions.",
+    answer: "East Tampa industrial is attracting institutional capital for good reason, but individual investors should underwrite carefully. Key considerations include: insurance costs, which remain elevated across all Florida commercial property types; lease structure and tenant credit quality --new spec projects without committed tenants carry lease-up risk; cap rate compression driven by institutional demand, which may compress returns on stabilized assets; and the pipeline of new deliveries in 2027, which could temporarily soften rents in certain size ranges. Working with a local broker who tracks the submarket closely is essential for making informed decisions.",
   },
 ];
 
@@ -80,7 +80,7 @@ const schema = {
       description:
         "The US 301 corridor in East Tampa is one of Florida's fastest-growing industrial submarkets. Here's what investors need to know about the projects, rental rates, and long-term investment case.",
       datePublished: "2026-08-12",
-      dateModified: "2026-09-25",
+      dateModified: "2026-10-09",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -172,17 +172,17 @@ export default function EastTampaUS301IndustrialPage() {
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1553413077-190dd305871c?w=1600&h=900&fit=crop"
         title="East Tampa's US 301 Industrial Corridor: Why Investors Are Betting Big"
-        subtitle="GTIS Partners, Trammell Crow, and Constellation are all building here. Here's what the institutional money is seeing — and what it means for local investors."
+        subtitle="GTIS Partners, Trammell Crow, and Constellation are all building here. Here's what the institutional money is seeing --and what it means for local investors."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Drive east on Adamo Drive out of downtown Tampa and past the Selmon Expressway interchange, and the landscape shifts quickly. Big-box warehouses with trailer yards line the road. Construction cranes mark future logistics facilities. And institutional investors from New York, Houston, and Atlanta are quietly acquiring land at prices that would have seemed impossible five years ago. The US 301 corridor in East Tampa has become one of Florida&apos;s most active industrial submarkets — and several major projects underway right now are accelerating that story.
+          Drive east on Adamo Drive out of downtown Tampa and past the Selmon Expressway interchange, and the landscape shifts quickly. Big-box warehouses with trailer yards line the road. Construction cranes mark future logistics facilities. And institutional investors from New York, Houston, and Atlanta are quietly acquiring land at prices that would have seemed impossible five years ago. The US 301 corridor in East Tampa has become one of Florida&apos;s most active industrial submarkets --and several major projects underway right now are accelerating that story.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Is Institutional Capital Flooding Into East Tampa?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The investment thesis for East Tampa industrial comes down to three things: access, land, and demand. The US 301 corridor sits at the intersection of I-75 and I-4, giving tenants direct highway access to Orlando, Miami, and the broader Southeast. That connectivity makes East Tampa a natural regional distribution hub — not just a local delivery point.
+          The investment thesis for East Tampa industrial comes down to three things: access, land, and demand. The US 301 corridor sits at the intersection of I-75 and I-4, giving tenants direct highway access to Orlando, Miami, and the broader Southeast. That connectivity makes East Tampa a natural regional distribution hub -- not just a local delivery point. See how this fits into the broader <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">Tampa Bay CRE growth story</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Land availability along US 301 is also exceptional by Tampa Bay standards. While <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link> has virtually no industrial land left and central Tampa&apos;s infill sites are expensive and complicated to entitle, eastern <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> still has large, contiguous parcels capable of supporting 200,000- to 400,000-square-foot Class A distribution buildings. That is exactly the scale that major e-commerce operators and third-party logistics companies need.
@@ -197,7 +197,7 @@ export default function EastTampaUS301IndustrialPage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-3">
           <li>
-            <strong>4Ward Logistics Center (GTIS Partners).</strong> New York-based GTIS Partners acquired a 116-acre site in East Tampa for one of the corridor&apos;s largest planned projects — 382,500 square feet across two Class A rear-load distribution buildings. JLL has been tapped to lease the project, with delivery expected in the second half of 2027. The sheer scale of the acquisition signals institutional conviction in the submarket.
+            <strong>4Ward Logistics Center (GTIS Partners).</strong> New York-based GTIS Partners acquired a 116-acre site in East Tampa for one of the corridor&apos;s largest planned projects --382,500 square feet across two Class A rear-load distribution buildings. JLL has been tapped to lease the project, with delivery expected in the second half of 2027. The sheer scale of the acquisition signals institutional conviction in the submarket.
           </li>
           <li>
             <strong>Constellation East Tampa Business Center.</strong> Constellation, a logistics-focused developer with more than 100 million square feet of industrial experience nationally, is building a three-building, 251,162-square-foot speculative industrial campus on 19 acres. Construction started May 2026 with completion expected by May 2027.
@@ -213,12 +213,12 @@ export default function EastTampaUS301IndustrialPage() {
           </li>
         </ul>
         <p className="mt-6 text-[#666666] leading-relaxed">
-          Collectively, these projects represent well over one million square feet of new industrial space coming to market between late 2026 and late 2027. That is a significant supply addition — but context matters. Tampa Bay&apos;s industrial vacancy held steady at 7.4% in Q2 2026, and speculative projects in the corridor have historically leased quickly due to the supply/demand imbalance for modern, highway-adjacent space.
+          Collectively, these projects represent well over one million square feet of new industrial space coming to market between late 2026 and late 2027. That is a significant supply addition --but context matters. Tampa Bay&apos;s industrial vacancy held steady at 7.4% in Q2 2026, and speculative projects in the corridor have historically leased quickly due to the supply/demand imbalance for modern, highway-adjacent space.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Who Is Leasing East Tampa Industrial Space?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The tenant mix in the US 301 corridor reflects the diversity of industrial demand across Tampa Bay. E-commerce fulfillment operators need last-mile facilities near dense residential populations. Third-party logistics companies (3PLs) need large footprints with cross-dock configurations and high clear heights — 32 to 40 feet — to run efficient operations. Building materials distributors serving Tampa Bay&apos;s active construction market are a consistent presence.
+          The tenant mix in the US 301 corridor reflects the diversity of industrial demand across Tampa Bay. E-commerce fulfillment operators need last-mile facilities near dense residential populations. Third-party logistics companies (3PLs) need large footprints with cross-dock configurations and high clear heights --32 to 40 feet --to run efficient operations. Building materials distributors serving Tampa Bay&apos;s active construction market are a consistent presence.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Cold storage is also emerging as a growth segment in East Tampa. <Link href="/blog/tampa-bay-cold-storage-cre-2026" className="text-accent underline">Tampa Bay&apos;s cold storage market</Link> is benefiting from Port Tampa Bay&apos;s investment in refrigerated container capacity, and logistics operators handling food distribution are actively seeking modern cold-chain facilities near the port&apos;s eastern approaches.
@@ -229,13 +229,13 @@ export default function EastTampaUS301IndustrialPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Are Rental Rates and Investment Returns Doing?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          New Class A industrial product along the US 301 corridor is quoting $14 to $18 per square foot NNN for large-bay bulk distribution, with smaller multi-tenant flex industrial in the broader East Tampa submarket ranging from $16 to $22 per square foot NNN. Compared to five years ago, asking rents have climbed substantially — driven by tight vacancy, rising construction costs, and the surge in institutional demand that has pushed land prices higher.
+          New Class A industrial product along the US 301 corridor is quoting $14 to $18 per square foot NNN for large-bay bulk distribution, with smaller multi-tenant flex industrial in the broader East Tampa submarket ranging from $16 to $22 per square foot NNN. Compared to five years ago, asking rents have climbed substantially --driven by tight vacancy, rising construction costs, and the surge in institutional demand that has pushed land prices higher.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For investors, cap rates on stabilized industrial assets in East Tampa have compressed alongside the broader Tampa Bay industrial market. Single-tenant <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">NNN industrial</Link> leased to creditworthy tenants is trading at cap rates that reflect both the quality of the income stream and the strong demand from institutional buyers for this asset class. Multi-tenant flex product, which typically offers higher yields and more management intensity, remains attractive to local and regional investors who can actively manage the leasing process.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Knowing <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate your true return</Link> — cap rate, cash-on-cash, and internal rate of return — before making an offer is essential in a market where asset pricing has moved quickly.
+          Knowing <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate your true return</Link> --cap rate, cash-on-cash, and internal rate of return --before making an offer is essential in a market where asset pricing has moved quickly.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Risks Should Investors Weigh?</h2>
@@ -246,7 +246,7 @@ export default function EastTampaUS301IndustrialPage() {
           <li><strong>New supply pipeline.</strong> Over one million square feet of spec industrial is delivering in 2026 and 2027 just along the US 301 corridor. While absorption has been strong, a softer national economy could slow leasing velocity and put temporary downward pressure on rents.</li>
           <li><strong>Insurance costs.</strong> Florida&apos;s <Link href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">elevated property insurance environment</Link> affects industrial assets as much as any commercial property type. Underwrite at current rates, not historical ones.</li>
           <li><strong>Interest rate sensitivity.</strong> Industrial has benefited from a compression of cap rates driven partly by low interest rates during the post-COVID period. As the rate environment evolves, model your returns under multiple rate scenarios.</li>
-          <li><strong>Lease-up risk on spec.</strong> Purchasing a spec building before it is leased offers the highest upside — and the most risk. Ensure you have adequate capital reserves and a realistic leasing timeline.</li>
+          <li><strong>Lease-up risk on spec.</strong> Purchasing a spec building before it is leased offers the highest upside --and the most risk. Ensure you have adequate capital reserves and a realistic leasing timeline.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does This Compare to Lakeland and Pasco County?</h2>
@@ -264,10 +264,10 @@ export default function EastTampaUS301IndustrialPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is Now a Good Time to Invest in East Tampa Industrial?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The institutional capital flowing into the US 301 corridor — GTIS, Trammell Crow, Constellation, Alliance — is not speculative noise. These are experienced developers with deep underwriting teams who see a durable long-term demand story in Tampa Bay. That is a signal worth taking seriously.
+          The institutional capital flowing into the US 301 corridor --GTIS, Trammell Crow, Constellation, Alliance --is not speculative noise. These are experienced developers with deep underwriting teams who see a durable long-term demand story in Tampa Bay. That is a signal worth taking seriously.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For individual investors, the opportunity is real but requires careful execution. The highest returns will likely come from identifying value-add opportunities — older industrial buildings with below-market rents that can be renovated and re-leased at current rates — or from purchasing well-located land ahead of a development cycle. Stabilized, Class A assets are priced efficiently and leave less margin for error.
+          For individual investors, the opportunity is real but requires careful execution. The highest returns will likely come from identifying value-add opportunities --older industrial buildings with below-market rents that can be renovated and re-leased at current rates --or from purchasing well-located land ahead of a development cycle. Stabilized, Class A assets are priced efficiently and leave less margin for error.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If you own industrial land or older warehouse property along the US 301 corridor and are considering a sale, institutional demand has created a strong seller&apos;s market. Our <Link href="/services/dispositions" className="text-accent underline">disposition services</Link> help owners evaluate the full range of exit options, from traditional brokered sales to direct buyer introductions.
@@ -281,7 +281,7 @@ export default function EastTampaUS301IndustrialPage() {
           With 23+ years of commercial real estate experience as a Broker Associate at REMAX Collective, I help investors and tenants navigate Tampa Bay&apos;s industrial market with data-driven analysis and relationships with the developers and owners shaping this submarket. Call me at <a href="tel:+18139502111" className="text-accent underline">813-950-2111</a> to discuss what&apos;s available and what fits your goals.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
