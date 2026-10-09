@@ -4,6 +4,54 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-09 -- Batch 75 (10 pages improved)
+
+**Commit:** `e6f36cf` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/clearwater-office-space-professional-services-firms`
+- Converted 9 bare `<a href='...'>` links to `<Link>` components throughout article body
+- Fixed 17 em dashes throughout file (FAQ items and article body)
+- Fixed duplicate word typo: "a commercial commercial real estate broker" -> "a commercial real estate broker"
+- Updated dateModified: "2026-10-03" -> "2026-10-09"
+
+### 2. `/blog/east-tampa-us-301-industrial-corridor-2026`
+- Fixed 13 em dashes throughout file (FAQ answers and article body)
+- Added 1 internal Link: `/blog/why-tampa-bay-cre-is-booming` in article body
+- Updated dateModified: "2026-09-25" -> "2026-10-09"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 3. `/blog/historic-gas-plant-district-st-pete-cre-2026`
+- Fixed 35 em dashes throughout file (comments, FAQ answers, and article body)
+- Updated dateModified: "2026-09-02" -> "2026-10-09"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 4. `/blog/florida-insurance-crisis-investment-properties`
+- Fixed 1 em dash in meta description
+- Updated dateModified: "2026-09-18" -> "2026-10-09"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 5. `/blog/brandon-commercial-real-estate-guide-2026`
+- Updated dateModified: "2026-10-04" -> "2026-10-09"
+
+### 6. `/blog/largo-fl-commercial-real-estate-hidden-gem-pinellas`
+- Added 2 internal Links to reach 10+: `/blog/pinellas-county-industrial-cre-2026`, `/blog/why-tampa-bay-cre-is-booming`
+- Updated dateModified: "2026-10-04" -> "2026-10-09"
+
+### 7. `/blog/apollo-beach-southshore-commercial-real-estate-2026`
+- Updated dateModified: "2026-10-04" -> "2026-10-09"
+
+### 8. `/blog/gasworx-tampa-ybor-office-commercial-2026`
+- Updated dateModified: "2026-10-03" -> "2026-10-09"
+
+### 9. `/blog/jacksonville-duval-county-commercial-real-estate-2026`
+- Updated dateModified: "2026-09-30" -> "2026-10-09"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 10. `/blog/bradenton-commercial-real-estate-opportunities`
+- Updated dateModified: "2026-10-04" -> "2026-10-09"
+
+---
+
 ## 2026-10-06 -- Batch 72 (10 pages improved)
 
 **Commit:** `a5907ba` | **Build:** clean (0 errors) | **Pages improved:** 10
