@@ -4836,3 +4836,54 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Updated jobTitle to full format with credentials and Hall of Fame
 - Converted 10 bare `<a>` links to `<Link>` throughout article body
 - Updated footer: September 2026 → October 2026
+
+## Batch 76 — 2026-10-10
+
+### 1. `/blog/tampa-bay-dst-delaware-statutory-trust-cre-2026`
+- Fixed 55 em dashes (-- instead of —)
+- Replaced fastselleasysale.com external link with /services/dispositions internal link
+- Updated dateModified to 2026-10-10
+- Shortened meta title from 71 chars to 63 chars: "DST Investing in Tampa Bay Commercial Real Estate 2026 | HenCRE"
+
+### 2. `/blog/tampa-bay-veterinary-clinic-nnn-investment-2026`
+- Fixed 47 em dashes (-- instead of —)
+- Replaced bestbayservices.com external link with /services/commercial-property-management internal link
+- Replaced fastselleasysale.com external link with /services/dispositions internal link
+- Updated dateModified to 2026-10-10
+
+### 3. `/blog/valrico-commercial-real-estate-market-guide`
+- Fixed 30 em dashes (-- instead of —)
+- Removed nowtb.com from author sameAs array
+- Updated publisher name from "REMAX Commercial Real Estate" to "HenCRE"
+- Updated jobTitle to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Added Home breadcrumb at start of breadcrumbs array
+- Added dateModified: "2026-10-10" to schema
+- Updated author bio title to full credentials format
+
+### 4. `/blog/tampa-bay-auto-parts-service-nnn-investment-2026`
+- Fixed 62 em dashes (-- instead of —)
+- Updated dateModified to 2026-10-10
+
+### 5. `/blog/land-o-lakes-fitness-gym-wellness-commercial-space`
+- Fixed 34 em dashes (-- instead of —)
+- Updated dateModified to 2026-10-10
+
+### 6. `/blog/lakeland-polk-county-commercial-real-estate-2026`
+- Fixed 1 em dash (-- instead of —)
+- Updated dateModified to 2026-10-10
+
+### 7. `/blog/brandon-nnn-landlord-investment-strategy-hillsborough`
+- Fixed 18 em dashes (-- instead of —)
+- Updated dateModified to 2026-10-10
+
+### 8. `/blog/tampa-bay-childcare-nnn-investment-2026`
+- Fixed 30 em dashes (-- instead of —)
+- Updated dateModified to 2026-10-10
+
+### 9. `/blog/tampa-bay-grocery-anchored-retail-investment-2026`
+- Fixed 29 em dashes (-- instead of —)
+- Updated dateModified to 2026-10-10
+
+### 10. `/blog/tampa-bay-commercial-mortgage-rates-2026`
+- Fixed 49 em dashes (-- instead of —)
+- Updated dateModified to 2026-10-10
