@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
- * Blog post — Lakeland FL Commercial Real Estate Market 2026
+ * Blog post -- Lakeland FL Commercial Real Estate Market 2026
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
@@ -41,7 +41,7 @@ const schema = {
       headline: "Lakeland FL Commercial Real Estate Market 2026 | HenCRE",
       description: "Lakeland, Polk County CRE is booming. Discover what investors and tenants need to know, then call Barrett Henry at (813) 733-7907.",
       datePublished: "2026-09-21",
-      dateModified: "2026-09-22",
+      dateModified: "2026-10-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

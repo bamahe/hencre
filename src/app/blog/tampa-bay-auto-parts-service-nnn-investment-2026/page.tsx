@@ -43,31 +43,31 @@ const faqItems = [
     question:
       "Are auto parts stores like AutoZone and O'Reilly good NNN investments in Tampa Bay?",
     answer:
-      "Auto parts stores are among the most resilient NNN tenants in Tampa Bay in 2026. AutoZone (investment-grade S&P BBB) and O'Reilly Auto Parts (S&P BBB+) carry strong balance sheets and have both expanded their store counts through every recent economic downturn, including the 2008-2009 recession and the COVID-19 disruption. Their business model is structurally defensive: older vehicle fleets driven by value-conscious consumers who defer new car purchases generate consistent demand for replacement parts, wipers, batteries, and maintenance supplies. Tampa Bay's population growth and vehicle-heavy lifestyle support continued store-level performance. In 2026, auto parts NNN cap rates for corporate-guaranteed leases in Tampa Bay range from approximately 5.0% to 6.25% depending on lease term remaining, location, and whether the lease is absolute-net or contains landlord obligations. Buyers competing for auto parts NNN assets in high-traffic Tampa Bay corridors are finding limited inventory — these assets trade infrequently because current owners tend to hold.",
+      "Auto parts stores are among the most resilient NNN tenants in Tampa Bay in 2026. AutoZone (investment-grade S&P BBB) and O'Reilly Auto Parts (S&P BBB+) carry strong balance sheets and have both expanded their store counts through every recent economic downturn, including the 2008-2009 recession and the COVID-19 disruption. Their business model is structurally defensive: older vehicle fleets driven by value-conscious consumers who defer new car purchases generate consistent demand for replacement parts, wipers, batteries, and maintenance supplies. Tampa Bay's population growth and vehicle-heavy lifestyle support continued store-level performance. In 2026, auto parts NNN cap rates for corporate-guaranteed leases in Tampa Bay range from approximately 5.0% to 6.25% depending on lease term remaining, location, and whether the lease is absolute-net or contains landlord obligations. Buyers competing for auto parts NNN assets in high-traffic Tampa Bay corridors are finding limited inventory -- these assets trade infrequently because current owners tend to hold.",
   },
   {
     question:
       "What cap rates are auto service NNN properties trading at in Tampa Bay in 2026?",
     answer:
-      "Auto service NNN cap rates in Tampa Bay vary meaningfully by tenant credit, lease structure, and remaining term in 2026. For investment-grade or near-investment-grade auto service tenants — corporate-guaranteed AutoZone, O'Reilly, and Advance Auto Parts absolute-net leases — cap rates range from 5.0% to 6.0% for assets with 10+ years of term remaining, compressing toward 5.0% in high-traffic, high-visibility locations. For franchise-operated quick-lube and tire center concepts — Jiffy Lube, Mavis Discount Tire, Midas, Take 5 Oil Change — cap rates range from 5.5% to 6.75%, reflecting the franchisee rather than corporate guarantee on many of these leases. Older assets with sub-five-year lease terms see cap rates widen to 6.5% to 7.5%, as buyers price in the rollover risk. The most competitive acquisition environment in Tampa Bay for auto service NNN is sub-7,500 square foot freestanding buildings on high-traffic signalized corners with 10+ year absolute-net leases — these assets attract multiple qualified buyers when they come to market. By comparison, multi-tenant automotive service centers or properties with deferred maintenance require more due diligence but can offer better value at entry.",
+      "Auto service NNN cap rates in Tampa Bay vary meaningfully by tenant credit, lease structure, and remaining term in 2026. For investment-grade or near-investment-grade auto service tenants -- corporate-guaranteed AutoZone, O'Reilly, and Advance Auto Parts absolute-net leases -- cap rates range from 5.0% to 6.0% for assets with 10+ years of term remaining, compressing toward 5.0% in high-traffic, high-visibility locations. For franchise-operated quick-lube and tire center concepts -- Jiffy Lube, Mavis Discount Tire, Midas, Take 5 Oil Change -- cap rates range from 5.5% to 6.75%, reflecting the franchisee rather than corporate guarantee on many of these leases. Older assets with sub-five-year lease terms see cap rates widen to 6.5% to 7.5%, as buyers price in the rollover risk. The most competitive acquisition environment in Tampa Bay for auto service NNN is sub-7,500 square foot freestanding buildings on high-traffic signalized corners with 10+ year absolute-net leases -- these assets attract multiple qualified buyers when they come to market. By comparison, multi-tenant automotive service centers or properties with deferred maintenance require more due diligence but can offer better value at entry.",
   },
   {
     question:
       "What lease structures are typical for auto parts and auto service NNN properties?",
     answer:
-      "Auto parts stores like AutoZone, O'Reilly, and Advance Auto Parts typically use absolute-net (also called bondable net) lease structures, meaning the tenant is responsible for all property expenses including taxes, insurance, roof, structure, and parking lot — the landlord receives a true net check with no property management responsibilities. Lease terms at origination are typically 15 to 20 years with multiple 5-year renewal options. Many original leases were executed with flat rent or minimal rent bumps (1% to 1.5% annually), though more recently executed leases tend to carry 5% to 10% bumps every five years. Auto service concepts (quick-lube, tire centers) use similar absolute-net or double-net structures, though a higher proportion of these leases involve franchisee guarantees rather than corporate parent guarantees — a distinction that meaningfully affects cap rates and buyer qualification. When evaluating any auto service NNN investment, the key documents are the lease itself (confirming who guarantees, what is absolute-net vs. landlord responsibility, and the exact rent schedule), the tenant's financials where available, and environmental reports given the nature of the operating use.",
+      "Auto parts stores like AutoZone, O'Reilly, and Advance Auto Parts typically use absolute-net (also called bondable net) lease structures, meaning the tenant is responsible for all property expenses including taxes, insurance, roof, structure, and parking lot -- the landlord receives a true net check with no property management responsibilities. Lease terms at origination are typically 15 to 20 years with multiple 5-year renewal options. Many original leases were executed with flat rent or minimal rent bumps (1% to 1.5% annually), though more recently executed leases tend to carry 5% to 10% bumps every five years. Auto service concepts (quick-lube, tire centers) use similar absolute-net or double-net structures, though a higher proportion of these leases involve franchisee guarantees rather than corporate parent guarantees -- a distinction that meaningfully affects cap rates and buyer qualification. When evaluating any auto service NNN investment, the key documents are the lease itself (confirming who guarantees, what is absolute-net vs. landlord responsibility, and the exact rent schedule), the tenant's financials where available, and environmental reports given the nature of the operating use.",
   },
   {
     question:
       "Is there environmental risk with auto service commercial real estate?",
     answer:
-      "Environmental due diligence is a critical step in acquiring any auto service commercial real estate, including auto parts stores, quick-lube centers, and tire shops. Phase I Environmental Site Assessments are standard and required by virtually all lenders. For properties where above-ground or underground storage tanks have been present — particularly legacy quick-lube or gas-and-go sites — a Phase II assessment with soil and groundwater sampling may be warranted depending on the Phase I findings. In Tampa Bay, the Florida Department of Environmental Protection (FDEP) maintains records of known petroleum storage tank sites and contamination cleanup programs; checking FDEP's OCULUS database for any open or closed cleanup cases on a target property is a standard part of due diligence. Most institutional-quality auto parts NNN investments today are cleaner from an environmental standpoint than older service bays because the tenants typically operate without lifts or tanks on-site — parts inventory, not service, is the business model. Quick-lube and oil change concepts carry more environmental exposure because used oil and other fluids are handled on-site. A well-structured purchase agreement should include environmental contingency language and specify who is responsible for remediation of any pre-existing conditions discovered during due diligence.",
+      "Environmental due diligence is a critical step in acquiring any auto service commercial real estate, including auto parts stores, quick-lube centers, and tire shops. Phase I Environmental Site Assessments are standard and required by virtually all lenders. For properties where above-ground or underground storage tanks have been present -- particularly legacy quick-lube or gas-and-go sites -- a Phase II assessment with soil and groundwater sampling may be warranted depending on the Phase I findings. In Tampa Bay, the Florida Department of Environmental Protection (FDEP) maintains records of known petroleum storage tank sites and contamination cleanup programs; checking FDEP's OCULUS database for any open or closed cleanup cases on a target property is a standard part of due diligence. Most institutional-quality auto parts NNN investments today are cleaner from an environmental standpoint than older service bays because the tenants typically operate without lifts or tanks on-site -- parts inventory, not service, is the business model. Quick-lube and oil change concepts carry more environmental exposure because used oil and other fluids are handled on-site. A well-structured purchase agreement should include environmental contingency language and specify who is responsible for remediation of any pre-existing conditions discovered during due diligence.",
   },
   {
     question:
       "How does Tampa Bay's population growth affect auto parts and auto service real estate demand?",
     answer:
-      "Tampa Bay's sustained population growth is a direct tailwind for auto parts and auto service real estate in 2026. The region now exceeds 3.2 million people, with net in-migration continuing to add households — and vehicles — at a rate that supports new store openings and the performance of existing locations. Hillsborough, Pasco, and Manatee Counties in particular continue to grow faster than the metro average, and both AutoZone and O'Reilly Auto Parts have opened multiple new stores in these growth corridors over the past three years. Beyond raw population, Tampa Bay's demographics favor auto service demand: a large share of households own multiple vehicles, average vehicle age nationally exceeded 12 years in 2025-2026 as new car affordability remained strained, and the region's vehicle-dependent infrastructure means cars are essential rather than discretionary. Growth corridors like Wesley Chapel, Riverview, Land O' Lakes, and Parrish in Manatee County have been the most active zones for new auto parts store construction as national operators follow the residential growth wave. Investors who identified these growth corridors early and acquired NNN auto parts leases in these submarkets have seen strong rent escalations and low vacancy risk.",
+      "Tampa Bay's sustained population growth is a direct tailwind for auto parts and auto service real estate in 2026. The region now exceeds 3.2 million people, with net in-migration continuing to add households -- and vehicles -- at a rate that supports new store openings and the performance of existing locations. Hillsborough, Pasco, and Manatee Counties in particular continue to grow faster than the metro average, and both AutoZone and O'Reilly Auto Parts have opened multiple new stores in these growth corridors over the past three years. Beyond raw population, Tampa Bay's demographics favor auto service demand: a large share of households own multiple vehicles, average vehicle age nationally exceeded 12 years in 2025-2026 as new car affordability remained strained, and the region's vehicle-dependent infrastructure means cars are essential rather than discretionary. Growth corridors like Wesley Chapel, Riverview, Land O' Lakes, and Parrish in Manatee County have been the most active zones for new auto parts store construction as national operators follow the residential growth wave. Investors who identified these growth corridors early and acquired NNN auto parts leases in these submarkets have seen strong rent escalations and low vacancy risk.",
   },
 ];
 
@@ -103,7 +103,7 @@ const schema = {
       description:
         "AutoZone, O'Reilly Auto Parts, Jiffy Lube, and Mavis Tire are among the most resilient NNN tenants in Tampa Bay. This guide covers cap rates, lease structures, environmental due diligence, and why auto-service commercial real estate is a strong portfolio addition for investors in 2026.",
       datePublished: "2026-09-29",
-      dateModified: "2026-10-02",
+      dateModified: "2026-10-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -159,7 +159,7 @@ const relatedLinks = [
     title: "Tampa Bay Car Wash CRE Investment 2026",
     href: "/blog/tampa-bay-car-wash-cre-investment-2026",
     description:
-      "The express car wash investment thesis — an auto-adjacent category with strong Tampa Bay fundamentals.",
+      "The express car wash investment thesis -- an auto-adjacent category with strong Tampa Bay fundamentals.",
   },
   {
     title: "What Is a Triple-Net (NNN) Lease and Why Investors Love It",
@@ -177,7 +177,7 @@ const relatedLinks = [
     title: "How to Calculate Commercial Property ROI",
     href: "/blog/how-to-calculate-commercial-property-roi",
     description:
-      "The math behind evaluating NNN investment returns — cap rate, cash-on-cash, and IRR.",
+      "The math behind evaluating NNN investment returns -- cap rate, cash-on-cash, and IRR.",
   },
   {
     title: "Tampa Bay Retail Market Q3 2026",
@@ -212,7 +212,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&h=900&fit=crop"
         title="Tampa Bay Auto Parts & Auto Service NNN Investment 2026"
-        subtitle="AutoZone, O'Reilly, Jiffy Lube, Mavis Tire — absolute-net leases, recession-resistant income, and long terms. Here is what Tampa Bay investors need to know about this underappreciated NNN asset class."
+        subtitle="AutoZone, O'Reilly, Jiffy Lube, Mavis Tire -- absolute-net leases, recession-resistant income, and long terms. Here is what Tampa Bay investors need to know about this underappreciated NNN asset class."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
@@ -224,8 +224,8 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           cycle of the past two decades: auto parts stores and auto service
           centers. AutoZone, O&apos;Reilly Auto Parts, Advance Auto Parts,
           Jiffy Lube, Mavis Discount Tire, Take 5 Oil Change, and Midas all
-          represent freestanding NNN assets that investors hold — and rarely
-          sell — precisely because the income is dependable and the management
+          represent freestanding NNN assets that investors hold -- and rarely
+          sell -- precisely because the income is dependable and the management
           burden is near zero. This guide covers cap rates, lease structures,
           environmental due diligence, tenant credit, and what Tampa Bay&apos;s
           growth dynamics mean for this category in 2026.
@@ -240,7 +240,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           financial pressure, they defer buying a new car and instead maintain
           and repair the vehicle they already own. This counter-cyclical demand
           pattern means that the retail categories that serve vehicle maintenance
-          — replacement parts, oil changes, tires, brakes — tend to hold or grow
+          -- replacement parts, oil changes, tires, brakes -- tend to hold or grow
           sales in economic downturns rather than contracting.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
@@ -250,7 +250,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           parts stores were deemed essential businesses and remained open, with
           demand holding as Americans drove less overall but maintained aging
           vehicles. By 2025-2026, the national average vehicle age exceeded 12
-          years — a record — driven by new vehicle prices that have made
+          years -- a record -- driven by new vehicle prices that have made
           ownership unattainable for a large share of the market. Older vehicles
           need more maintenance, generate more replacement part purchases, and
           drive more service center visits. Auto parts and service NNN landlords
@@ -260,7 +260,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           For Tampa Bay specifically, these dynamics are amplified by the
           region&apos;s vehicle-dependent infrastructure. In a metro where cars
-          are essential — not optional — for most households, demand for the
+          are essential -- not optional -- for most households, demand for the
           services that keep those vehicles running is structurally supported by
           the region&apos;s population and job base.
         </p>
@@ -273,8 +273,8 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           Tampa Bay has a well-established auto parts store presence, with
           AutoZone, O&apos;Reilly Auto Parts, and Advance Auto Parts all
           operating multiple locations across Hillsborough, Pinellas, Pasco, and
-          Manatee Counties. The growth corridors — Wesley Chapel, Riverview,
-          Land O&apos; Lakes, and Parrish in Manatee County — have seen active
+          Manatee Counties. The growth corridors -- Wesley Chapel, Riverview,
+          Land O&apos; Lakes, and Parrish in Manatee County -- have seen active
           new store construction over the past three years as all three national
           operators have followed the residential growth wave into these
           submarkets.
@@ -288,7 +288,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           <li>
             <strong>Lease term remaining.</strong> Assets with 12 to 15+ years
             remaining on an absolute-net lease from a corporate-guaranteed
-            tenant price aggressively — cap rates toward 5.0% to 5.5% in strong
+            tenant price aggressively -- cap rates toward 5.0% to 5.5% in strong
             locations. Assets with 5 to 7 years remaining see cap rates widen to
             6.0% to 6.5% or higher as buyers price in rollover risk.
           </li>
@@ -309,7 +309,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           </li>
           <li>
             <strong>Rent escalations.</strong> Leases executed in 2010-2018
-            often carried flat rent or 1% annual bumps — these are yield-stable
+            often carried flat rent or 1% annual bumps -- these are yield-stable
             but lag market rent growth. Newer leases with 5% to 10% bumps every
             five years command premiums from buyers who want inflation
             participation built into the income stream.
@@ -318,8 +318,8 @@ export default function TampaBayAutoPartsServiceNNNPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           Inventory of investment-grade auto parts NNN assets for sale in Tampa
           Bay is limited in 2026, as current owners tend to hold these assets for
-          long periods. When they do come to market — often as part of a 1031
-          exchange disposition from a larger portfolio trade — they generate
+          long periods. When they do come to market -- often as part of a 1031
+          exchange disposition from a larger portfolio trade -- they generate
           multiple offers quickly. Buyers who wait for an asset to appear
           publicly on the market are often competing with buyers who have
           cultivated relationships with owners and brokers ahead of the listing.
@@ -329,19 +329,19 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           How Do Auto Service NNN Investments Compare to Auto Parts Stores?
         </h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Auto service NNN — quick-lube centers, tire retailers, and multi-point
-          service chains — is a related but distinct investment category with its
+          Auto service NNN -- quick-lube centers, tire retailers, and multi-point
+          service chains -- is a related but distinct investment category with its
           own risk and return profile.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Quick-lube and oil change concepts</strong> — Take 5 Oil
+          <strong>Quick-lube and oil change concepts</strong> -- Take 5 Oil
           Change, Jiffy Lube, Valvoline Instant Oil Change, and similar
-          drive-through formats — have grown rapidly across Tampa Bay&apos;s
+          drive-through formats -- have grown rapidly across Tampa Bay&apos;s
           suburban corridors over the past several years. These are typically
           purpose-built, 1,200 to 2,500 square foot freestanding buildings on
           high-visibility sites, often with absolute-net or near-absolute-net
-          leases. The operational model — minimal labor, fast throughput,
-          recurring customer visits — generates solid store-level cash flows that
+          leases. The operational model -- minimal labor, fast throughput,
+          recurring customer visits -- generates solid store-level cash flows that
           support lease obligations. However, many of these leases carry
           franchisee rather than corporate parent guarantees, which adds a layer
           of credit analysis. When evaluating a Jiffy Lube or Valvoline NNN
@@ -352,8 +352,8 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           range from 5.5% to 6.5% in Tampa Bay in 2026.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Tire centers</strong> — Mavis Discount Tire, Discount Tire,
-          Firestone, and regional operators — occupy a slightly larger footprint
+          <strong>Tire centers</strong> -- Mavis Discount Tire, Discount Tire,
+          Firestone, and regional operators -- occupy a slightly larger footprint
           (typically 4,000 to 6,000 square feet) and often carry longer initial
           lease terms of 10 to 20 years. Mavis Discount Tire has been actively
           expanding across Florida, including Tampa Bay, through both greenfield
@@ -364,8 +364,8 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           trades at the tighter end of the range.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Multi-service repair centers</strong> — Midas, Meineke, and
-          similar chains — are more varied in lease structure and credit profile.
+          <strong>Multi-service repair centers</strong> -- Midas, Meineke, and
+          similar chains -- are more varied in lease structure and credit profile.
           Many of these involve individual franchisee operators rather than
           corporate-guaranteed leases, and the range of outcomes in franchisee
           financial strength is wide. These assets typically trade at cap rates
@@ -387,9 +387,9 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           and, where warranted, Phase II ESA work.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For auto parts stores like AutoZone and O&apos;Reilly — which
+          For auto parts stores like AutoZone and O&apos;Reilly -- which
           typically operate without lifts, service bays, or oil storage on-site
-          — environmental risk is generally low. These tenants are essentially
+          -- environmental risk is generally low. These tenants are essentially
           retail operations selling packaged products, and Phase I ESAs for
           auto parts stores in Tampa Bay typically come back clean. Phase II
           testing is rarely warranted unless the Phase I identifies a
@@ -410,8 +410,8 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           </li>
           <li>
             <strong>Legacy underground storage tanks (USTs).</strong> Older
-            properties — particularly those that operated as gas stations or
-            full-service repair shops in prior decades — may have legacy USTs
+            properties -- particularly those that operated as gas stations or
+            full-service repair shops in prior decades -- may have legacy USTs
             that have been removed or are still in place. Florida&apos;s FDEP
             OCULUS database tracks petroleum storage tank registrations and
             cleanup cases; searching the subject property address before
@@ -431,7 +431,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           seller to provide all available prior environmental reports and to
           disclose any known contamination. Allocation of remediation
           responsibility for pre-existing conditions must be addressed
-          explicitly — do not rely on lease language alone to protect the
+          explicitly -- do not rely on lease language alone to protect the
           landlord, as tenant indemnification provisions in NNN leases are only
           as strong as the tenant&apos;s financial capacity to perform.
         </p>
@@ -442,8 +442,8 @@ export default function TampaBayAutoPartsServiceNNNPage() {
         </h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Tampa Bay&apos;s population exceeded 3.2 million people in 2026, with
-          net in-migration from higher-cost states continuing to add households —
-          and vehicles — at a pace that directly supports auto parts and service
+          net in-migration from higher-cost states continuing to add households --
+          and vehicles -- at a pace that directly supports auto parts and service
           demand. Both AutoZone and O&apos;Reilly Auto Parts have opened
           multiple new Tampa Bay locations over the past three years, with the
           highest concentration of new builds in the growth corridors of
@@ -505,8 +505,8 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           service demand. Households moving to Tampa Bay&apos;s growth corridors
           from higher-cost metros often do so with older vehicles they intend to
           maintain rather than replace immediately. The region&apos;s heat and
-          humidity accelerate wear on certain vehicle components — batteries,
-          cooling systems, belts and hoses — creating a consistent demand for
+          humidity accelerate wear on certain vehicle components -- batteries,
+          cooling systems, belts and hoses -- creating a consistent demand for
           replacement parts that supports strong store-level sales year-round.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
@@ -519,7 +519,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           <Link href="/markets/pasco" className="text-accent underline">
             Pasco County commercial real estate overview
           </Link>{" "}
-          — the same growth corridors where auto parts and service operators
+          -- the same growth corridors where auto parts and service operators
           have opened the most new locations in recent years.
         </p>
 
@@ -535,7 +535,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Absolute-net (bondable net) leases</strong> are the gold
           standard for this category. Under an absolute-net lease, the tenant is
-          responsible for all property expenses with no carve-outs — taxes,
+          responsible for all property expenses with no carve-outs -- taxes,
           insurance, roof, structure, HVAC, parking lot, and any capital
           expenditures. The landlord receives a fixed check with no financial
           obligations to the property. AutoZone and O&apos;Reilly Auto Parts
@@ -549,13 +549,13 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           insurance, and most operating expenses. Some auto service concepts
           use NN structures, particularly in older assets or sale-leaseback
           transactions. The landlord&apos;s roof and structure exposure adds a
-          capital risk that must be underwritten — particularly for older
+          capital risk that must be underwritten -- particularly for older
           buildings where deferred maintenance may exist.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Rent escalations</strong> vary significantly by lease vintage.
           Auto parts store leases executed before 2015 often carry flat rent
-          schedules or 1% annual bumps — attractive for buyers who prioritize
+          schedules or 1% annual bumps -- attractive for buyers who prioritize
           stability over growth, but these leases have fallen progressively
           below current market rent over time. Newer leases tend to carry 5%
           to 10% escalations every five years, which provides better
@@ -584,14 +584,14 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           financeable assets, particularly when the tenant carries investment-
           grade credit and the lease is absolute-net with a long remaining term.
           Lenders view corporate-guaranteed AutoZone and O&apos;Reilly Auto
-          Parts NNN leases favorably — the credit quality of these tenants and
+          Parts NNN leases favorably -- the credit quality of these tenants and
           the absolute-net lease structure reduce lender risk substantially.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           In 2026, financing for quality auto parts NNN acquisitions in Tampa
           Bay typically involves loan-to-value ratios of 60% to 70%, depending
           on lender appetite and tenant credit. Life insurance company lenders
-          — who favor stable, long-term leased NNN assets — are active in this
+          -- who favor stable, long-term leased NNN assets -- are active in this
           segment and often offer competitive fixed rates. CMBS financing is
           another common execution for investment-grade NNN assets, particularly
           for properties valued above $2 million. Local and regional bank
@@ -619,7 +619,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           . Investors who have sold multifamily, residential, or more
           management-intensive commercial assets frequently identify
           corporate-guaranteed NNN auto parts stores as ideal replacement
-          properties — the passive income, long lease terms, and low management
+          properties -- the passive income, long lease terms, and low management
           requirement make them attractive as a "park the equity and collect
           rent" vehicle, particularly for investors who have moved past the
           active-management phase of their investing career.
@@ -632,8 +632,8 @@ export default function TampaBayAutoPartsServiceNNNPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           Auto parts and auto service commercial real estate is one of the most
           quietly durable corners of the NNN investment market. The consumer
-          behavior that drives demand — maintaining older vehicles rather than
-          buying new ones — holds in good economic times and strengthens in
+          behavior that drives demand -- maintaining older vehicles rather than
+          buying new ones -- holds in good economic times and strengthens in
           difficult ones. The major auto parts tenants (AutoZone, O&apos;Reilly)
           carry genuine investment-grade credit and have a demonstrated track
           record of growing through downturns. The absolute-net lease structures
@@ -647,7 +647,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           growth corridors where auto parts and service operators are actively
           expanding. Cap rates of 5.0% to 6.5% for quality assets with long
           absolute-net leases represent reasonable entry points in the current
-          market — not the eye-popping yields of prior cycles, but appropriate
+          market -- not the eye-popping yields of prior cycles, but appropriate
           returns for the risk-adjusted income profile these assets deliver.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
@@ -663,7 +663,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           With 23+ years of experience in Tampa Bay commercial real estate, I
           help investors evaluate and acquire NNN single-tenant assets across
-          Hillsborough, Pinellas, Pasco, and Manatee Counties — including auto
+          Hillsborough, Pinellas, Pasco, and Manatee Counties -- including auto
           parts, auto service, QSR, pharmacy, and other single-tenant
           categories. Whether you are pursuing a first NNN acquisition or adding
           to an existing portfolio through a 1031 exchange, I bring the market
@@ -678,7 +678,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">
-            Tampa Bay Auto Parts & Auto Service NNN Investment — Frequently
+            Tampa Bay Auto Parts & Auto Service NNN Investment -- Frequently
             Asked Questions
           </h2>
           <FAQAccordion items={faqItems} />
@@ -723,7 +723,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
 
       <CTASection
         heading="Looking for Auto Parts or Auto Service NNN Investments in Tampa Bay?"
-        body="I help NNN investors source and evaluate single-tenant auto assets across Tampa Bay's growth corridors. Call (813) 733-7907 or reach out below — whether you are buying your first NNN property or executing a 1031 exchange, I can help you find the right asset and negotiate the right deal."
+        body="I help NNN investors source and evaluate single-tenant auto assets across Tampa Bay's growth corridors. Call (813) 733-7907 or reach out below -- whether you are buying your first NNN property or executing a 1031 exchange, I can help you find the right asset and negotiate the right deal."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />
