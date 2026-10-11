@@ -86,7 +86,7 @@ const schema = {
       description:
         "Sublease space now represents nearly 15% of Tampa Bay's available office inventory. Tenants can find Class A space at a 20-35% discount to direct asking rents if they understand the process and the risks. A complete guide for tenants and sublessors in 2026.",
       datePublished: "2026-10-09",
-      dateModified: "2026-10-09",
+      dateModified: "2026-10-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

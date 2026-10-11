@@ -4,6 +4,58 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-11 -- Batch 76 (10 pages improved)
+
+**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-office-sublease-market-2026`
+- First audit -- page already well-structured with 5 FAQs, 9 inline Links, 10 relatedLinks
+- Updated dateModified: "2026-10-09" -> "2026-10-11"
+
+### 2. `/blog/riverview-fl-commercial-real-estate-2026`
+- Converted 20 bare `<a href="/">` internal links to `<Link>` components (24 total inline Links now)
+- Fixed all mismatched `</a>` closings (replaced with `</Link>`)
+- Updated dateModified: "2026-09-28" -> "2026-10-11"
+
+### 3. `/blog/south-tampa-commercial-real-estate-2026`
+- Converted 10 bare `<a href="/">` internal links to `<Link>` components (16 total inline Links now)
+- Fixed all mismatched `</a>` closings
+- Updated dateModified: "2026-10-05" -> "2026-10-11"
+
+### 4. `/blog/port-tampa-bay-expansion-industrial-cre-investors`
+- Converted 11 bare `<a href="/">` internal links to `<Link>` components (11 total inline Links now)
+- Fixed all mismatched `</a>` closings
+- Updated dateModified: "2026-09-07" -> "2026-10-11"
+
+### 5. `/blog/ybor-city-commercial-real-estate-tampa-2026`
+- Converted 8 bare `<a href="/">` internal links to `<Link>` components (10 total inline Links now)
+- Fixed all mismatched `</a>` closings
+- Updated dateModified: "2026-10-02" -> "2026-10-11"
+
+### 6. `/blog/5-mistakes-first-time-commercial-tenants-make`
+- Converted 10 bare `<a href="/">` internal links to `<Link>` components (12 total inline Links now)
+- Fixed all mismatched `</a>` closings
+- Updated dateModified: "2026-10-03" -> "2026-10-11"
+
+### 7. `/blog/water-street-tampa-33-story-tower-downtown-cre-2026`
+- Converted 6 bare `<a href="/">` internal links to `<Link>` components (8 total inline Links now)
+- Fixed all mismatched `</a>` closings
+- Updated dateModified: "2026-09-04" -> "2026-10-11"
+
+### 8. `/blog/tampa-bay-small-bay-industrial-flex-2026`
+- Converted 4 bare `<a href="/">` internal links to `<Link>` components (4 total inline Links now)
+- Updated dateModified: "2026-09-04" -> "2026-10-11"
+
+### 9. `/blog/midtown-tampa-commercial-real-estate-2026`
+- Converted 3 bare `<a href="/">` internal links to `<Link>` components (14 total inline Links now)
+- Updated dateModified: "2026-09-16" -> "2026-10-11"
+
+### 10. `/blog/lakeland-warehouse-industrial-growth`
+- Converted 7 bare `<a href="/">` internal links to `<Link>` components (13 total inline Links now)
+- Updated dateModified: "2026-10-06" -> "2026-10-11"
+
+---
+
 ## 2026-10-09 -- Batch 75 (10 pages improved)
 
 **Commit:** `e6f36cf` | **Build:** clean (0 errors) | **Pages improved:** 10

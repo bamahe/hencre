@@ -85,7 +85,7 @@ const schema = {
       description:
         "Strategic Property Partners filed plans for a 400-foot, 33-story luxury residential tower at Water Street and Cumberland Avenue — 452 apartments above 37,000 sq ft of retail. What the second phase of Water Street Tampa means for CRE investors.",
       datePublished: "2026-07-25",
-      dateModified: "2026-09-04",
+      dateModified: "2026-10-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -206,12 +206,12 @@ export default function WaterStreetTampa33StoryTowerPage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Adjacent retail sees higher foot traffic.</strong> As Water Street&apos;s residential population grows — adding 452 more units in this phase alone — the daily population within walking distance of downtown Tampa&apos;s commercial corridors increases. Retail tenants on Franklin Street, Channelside Drive, and the Ybor City fringe benefit directly from that density increase.</li>
-          <li><strong>Office buildings within walking distance command rental premiums.</strong> The Water Street live-work-play narrative is a legitimate recruiting tool that employers use to attract talent. Our analysis of <a href="/blog/tampa-bay-office-market-q2-2026" className="text-accent underline">Tampa Bay&apos;s Q2 2026 office market</a> showed Class A vacancy falling to four-year lows, with downtown Tampa Class A rents ranging $34 to $50 per square foot — partly a reflection of Water Street&apos;s gravitational pull on tenant demand.</li>
+          <li><strong>Office buildings within walking distance command rental premiums.</strong> The Water Street live-work-play narrative is a legitimate recruiting tool that employers use to attract talent. Our analysis of <Link href="/blog/tampa-bay-office-market-q2-2026" className="text-accent underline">Tampa Bay&apos;s Q2 2026 office market</Link> showed Class A vacancy falling to four-year lows, with downtown Tampa Class A rents ranging $34 to $50 per square foot — partly a reflection of Water Street&apos;s gravitational pull on tenant demand.</li>
           <li><strong>Land values in the surrounding district are still rising.</strong> Each announced Water Street phase extends the boundaries of where &quot;Water Street adjacency&quot; is a meaningful comp driver. Investors who bought in Channelside, East Tampa&apos;s Channel District fringe, and the Franklin Street corridor have seen that argument become more credible with each new announcement.</li>
           <li><strong>Institutional confidence reduces perceived risk.</strong> When Cascade Investment LLC — a patient, long-horizon capital source — continues to commit construction capital to Tampa, it sends a signal to institutional and high-net-worth investors evaluating the market. That signal matters for cap rate compression and financing availability on adjacent deals.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For a broader view of what drives Tampa Bay&apos;s continued commercial real estate appeal, see our overview of <a href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">the macro factors behind Tampa Bay CRE&apos;s sustained expansion</a>.
+          For a broader view of what drives Tampa Bay&apos;s continued commercial real estate appeal, see our overview of <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">the macro factors behind Tampa Bay CRE&apos;s sustained expansion</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does the Tower Mean for Retail Tenants Seeking Downtown Space?</h2>
@@ -228,7 +228,7 @@ export default function WaterStreetTampa33StoryTowerPage() {
           <li><strong>Experience-oriented retail.</strong> Concepts that can&apos;t be replicated by e-commerce — tasting rooms, specialty hobby, art, or lifestyle retail — remain high on Water Street&apos;s leasing wish list.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Retail tenants interested in Water Street adjacency but not direct Water Street occupancy should look at <a href="/blog/tampa-retail-storefront-space-guide" className="text-accent underline">the broader Tampa retail storefront market</a>, where Franklin Street and Channelside are attracting spillover demand from tenants who want proximity to the district at lower rents.
+          Retail tenants interested in Water Street adjacency but not direct Water Street occupancy should look at <Link href="/blog/tampa-retail-storefront-space-guide" className="text-accent underline">the broader Tampa retail storefront market</Link>, where Franklin Street and Channelside are attracting spillover demand from tenants who want proximity to the district at lower rents.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does Water Street Tampa Compare to Other Downtown Mixed-Use Developments in Florida?</h2>
@@ -250,12 +250,12 @@ export default function WaterStreetTampa33StoryTowerPage() {
           With institutional cap rates on premium downtown Tampa product compressing toward 5.5 to 6.5%, private investors need to be strategic about where they get exposure to the Water Street story. Three approaches have produced results for my clients:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Value-add multifamily in the halo zone.</strong> Channelside, East Tampa along Adamo Drive, and the South Seminole Heights fringe have all seen demand from residents who want Water Street proximity at more affordable rents than the district itself commands. Older multifamily assets in these areas can be repositioned with unit upgrades and exterior improvements to capture that demand curve. Our <a href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">Tampa Bay multifamily investment guide</a> covers the underwriting fundamentals in detail.</li>
+          <li><strong>Value-add multifamily in the halo zone.</strong> Channelside, East Tampa along Adamo Drive, and the South Seminole Heights fringe have all seen demand from residents who want Water Street proximity at more affordable rents than the district itself commands. Older multifamily assets in these areas can be repositioned with unit upgrades and exterior improvements to capture that demand curve. Our <Link href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">Tampa Bay multifamily investment guide</Link> covers the underwriting fundamentals in detail.</li>
           <li><strong>Retail strip buildings on connectivity corridors.</strong> The pedestrian corridors that connect Water Street to Ybor, the Convention Center, and the Channel District are experiencing increased foot traffic as the district grows. Investors who buy small multi-tenant retail buildings on these blocks are effectively buying into the infrastructure of the expanding district without paying Water Street premium prices.</li>
           <li><strong>Office buildings in the walkable downtown core.</strong> As more residents populate the Water Street campus, the argument for workers commuting into downtown Tampa rather than to suburban office parks strengthens. Class B and Class B-plus office buildings within a 10-minute walk of Water Street that can be repositioned with amenity upgrades represent a distinct value thesis from pure suburban office.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Before committing to any acquisition in this environment, understanding <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to model commercial property ROI</a> and running thorough <a href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence</a> on the specific asset — not the district narrative — is essential. Markets riding a momentum narrative can mask individual asset problems. Discipline on individual underwriting is how investors do well even when the macro story is genuinely positive.
+          Before committing to any acquisition in this environment, understanding <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to model commercial property ROI</Link> and running thorough <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence</Link> on the specific asset — not the district narrative — is essential. Markets riding a momentum narrative can mask individual asset problems. Discipline on individual underwriting is how investors do well even when the macro story is genuinely positive.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on Water Street Tampa&apos;s Second Phase</h2>

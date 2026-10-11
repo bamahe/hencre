@@ -85,7 +85,7 @@ const schema = {
       description:
         "Midtown Tampa's office space is fully leased and three new retailers are joining the district. A CRE investor and tenant guide to the $1 billion mixed-use development reshaping North Tampa.",
       datePublished: "2026-07-29",
-      dateModified: "2026-09-16",
+      dateModified: "2026-10-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -215,7 +215,7 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
           In a Tampa Bay office market where overall Q2 2026 vacancy sits around 15%, Midtown East&apos;s achievement of 100% occupancy in under a year deserves explanation. Three factors converged:
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Flight to quality is real and accelerating.</strong> Tampa Bay&apos;s <a href="/blog/tampa-bay-office-market-q2-2026" className="text-accent underline">Q2 2026 office market</a> is bifurcated: Class A buildings in walkable, amenity-rich locations are seeing falling vacancy and rising rents, while Class B and C suburban product struggles to retain tenants. Midtown East sits squarely in the winning category — new construction, LEED certification, embedded retail and food and beverage, and a walkable street environment that older suburban parks cannot replicate.
+          <strong>Flight to quality is real and accelerating.</strong> Tampa Bay&apos;s <Link href="/blog/tampa-bay-office-market-q2-2026" className="text-accent underline">Q2 2026 office market</Link> is bifurcated: Class A buildings in walkable, amenity-rich locations are seeing falling vacancy and rising rents, while Class B and C suburban product struggles to retain tenants. Midtown East sits squarely in the winning category — new construction, LEED certification, embedded retail and food and beverage, and a walkable street environment that older suburban parks cannot replicate.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Talent competition drives location decisions.</strong> The employers who filled Midtown East — Booz Allen Hamilton, Kforce, Crete Professionals Alliance — are competing for professional and technical talent in a market where employees have negotiating leverage. The ability to say "our office is in a walkable mixed-use district with a Whole Foods, CorePower Yoga, and restaurant row" is a genuine recruitment differentiator. For finance, technology, energy, and professional services firms, location quality is now a line item in the hiring budget.
@@ -247,7 +247,7 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
             <strong>Office buildings along the Dale Mabry and Westshore corridors.</strong> Smaller professional office buildings within proximity of Midtown Tampa can now market genuine walkability to a major amenity node — a claim that North Tampa office landlords could not make five years ago. Class B office assets in this submarket that can be repositioned with interior improvements and co-working amenity packages are benefiting from tenants who want Midtown proximity at below-Midtown rents.
           </li>
           <li>
-            <strong>Multifamily assets in the Midtown workforce corridor.</strong> The employees filling Midtown East represent a rental housing demand pool concentrated in North Tampa, Carrollwood, and Westchase. Multifamily owners and investors in these submarkets have a Midtown employment anchor they can legitimately market to residents. Our <a href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">Tampa Bay multifamily investment guide</a> covers how to evaluate these assets in the current rate environment.
+            <strong>Multifamily assets in the Midtown workforce corridor.</strong> The employees filling Midtown East represent a rental housing demand pool concentrated in North Tampa, Carrollwood, and Westchase. Multifamily owners and investors in these submarkets have a Midtown employment anchor they can legitimately market to residents. Our <Link href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">Tampa Bay multifamily investment guide</Link> covers how to evaluate these assets in the current rate environment.
           </li>
           <li>
             <strong>Investors repositioning other assets to free up capital.</strong> Some North Tampa investors holding underperforming retail or office assets are choosing to exit those positions and redeploy into better-positioned properties benefiting from the Midtown effect. If you are evaluating a capital redeployment strategy, working with a commercial broker on a quickly marketed listing is the right move for investors who want to exit a current position before reinvesting in the North Tampa corridor.
@@ -330,7 +330,7 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and specializes in commercial real estate across all 67 Florida counties. He serves tenants, landlords, investors, and owners from offices in Tampa, Largo, and Brandon. Learn more at <a href="/about" className="underline">hencre.com/about</a>.
+              Barrett has 23+ years of real estate experience and specializes in commercial real estate across all 67 Florida counties. He serves tenants, landlords, investors, and owners from offices in Tampa, Largo, and Brandon. Learn more at <Link href="/about" className="underline">hencre.com/about</Link>.
             </p>
           </div>
         </div>

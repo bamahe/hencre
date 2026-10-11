@@ -85,7 +85,7 @@ const schema = {
       description:
         "Avoid the most common mistakes first-time commercial tenants make — from skipping lease review to underestimating total occupancy costs.",
       datePublished: "2026-05-02",
-      dateModified: "2026-10-03",
+      dateModified: "2026-10-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -187,7 +187,7 @@ export default function TenantMistakesPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Mistake 1: Only Looking at Base Rent</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          This is the number one mistake, and it is the most expensive. When a landlord quotes $18 per square foot, most first-time tenants assume that is their cost. In a <a href="/insights/nnn-lease-explained" className="text-accent underline">NNN lease</a>, it is not — not even close. You need to add property taxes, insurance, and <a href="/insights/cam-charges-explained" className="text-accent underline">common area maintenance (CAM) charges</a> on top of that base rent.
+          This is the number one mistake, and it is the most expensive. When a landlord quotes $18 per square foot, most first-time tenants assume that is their cost. In a <Link href="/insights/nnn-lease-explained" className="text-accent underline">NNN lease</Link>, it is not — not even close. You need to add property taxes, insurance, and <Link href="/insights/cam-charges-explained" className="text-accent underline">common area maintenance (CAM) charges</Link> on top of that base rent.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           I have seen tenants sign leases thinking they were getting a great deal, only to discover that their actual monthly cost is 30% to 50% higher than the base rent they negotiated. Always ask for the total occupancy cost — base rent plus all additional charges — before comparing spaces.
@@ -198,10 +198,10 @@ export default function TenantMistakesPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Mistake 2: Not Understanding the Lease Structure</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <a href="/insights/gross-vs-net-lease" className="text-accent underline">Gross lease, modified gross, NNN</a> — these are not interchangeable terms, and the structure you agree to fundamentally changes your financial obligation. A gross lease includes expenses in the rent. A NNN lease adds them on top. A modified gross splits them.
+          <Link href="/insights/gross-vs-net-lease" className="text-accent underline">Gross lease, modified gross, NNN</Link> — these are not interchangeable terms, and the structure you agree to fundamentally changes your financial obligation. A gross lease includes expenses in the rent. A NNN lease adds them on top. A modified gross splits them.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          First-time tenants often do not know what they are agreeing to because they have never seen a commercial lease before. <a href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">Commercial leases are very different from residential leases</a> — they are complex legal documents that can be 30 to 50 pages long, and almost everything is negotiable.
+          First-time tenants often do not know what they are agreeing to because they have never seen a commercial lease before. <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">Commercial leases are very different from residential leases</Link> — they are complex legal documents that can be 30 to 50 pages long, and almost everything is negotiable.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>How to avoid it:</strong> Read every page of the lease. Better yet, have a commercial real estate broker and/or attorney review it before you sign. Understand what you are paying for and what your obligations are.
@@ -223,7 +223,7 @@ export default function TenantMistakesPage() {
           Too many tenants gloss over this clause. It is one of the most consequential provisions in the entire lease.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>How to avoid it:</strong> Negotiate the scope of your personal guarantee. Options include limiting it to a specific dollar amount, a certain number of months of rent, or a &ldquo;burning&rdquo; guarantee that reduces over time as you build a track record of on-time payments. A <a href="/services/tenant-representation" className="text-accent underline">tenant representative broker</a> knows how to negotiate this provision in your favor.
+          <strong>How to avoid it:</strong> Negotiate the scope of your personal guarantee. Options include limiting it to a specific dollar amount, a certain number of months of rent, or a &ldquo;burning&rdquo; guarantee that reduces over time as you build a track record of on-time payments. A <Link href="/services/tenant-representation" className="text-accent underline">tenant representative broker</Link> knows how to negotiate this provision in your favor.
         </p>
 
         <Image
@@ -242,7 +242,7 @@ export default function TenantMistakesPage() {
           Meanwhile, your lease clock may be ticking. If your rent starts on the lease commencement date but your build-out is not done, you are paying rent on a space you cannot use.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>How to avoid it:</strong> Get contractor bids before you sign the lease, not after. Negotiate a rent abatement period (free rent) that covers your build-out timeline. Ask the landlord for a tenant improvement (TI) allowance to offset your construction costs. Whether you are leasing <a href="/commercial/office-space" className="text-accent underline">office space</a>, <a href="/commercial/retail-space" className="text-accent underline">retail space</a>, or a <a href="/commercial/industrial-warehouse" className="text-accent underline">warehouse</a>, build-out timelines should always be negotiated into the lease terms.
+          <strong>How to avoid it:</strong> Get contractor bids before you sign the lease, not after. Negotiate a rent abatement period (free rent) that covers your build-out timeline. Ask the landlord for a tenant improvement (TI) allowance to offset your construction costs. Whether you are leasing <Link href="/commercial/office-space" className="text-accent underline">office space</Link>, <Link href="/commercial/retail-space" className="text-accent underline">retail space</Link>, or a <Link href="/commercial/industrial-warehouse" className="text-accent underline">warehouse</Link>, build-out timelines should always be negotiated into the lease terms.
         </p>
 
         <Image
@@ -258,10 +258,10 @@ export default function TenantMistakesPage() {
           The listing broker works for the landlord. Their job is to get the landlord the best deal possible. When you walk into a negotiation without your own broker, you are relying on the other side to look out for your interests. That is not how it works.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Here is the part that surprises most people: <a href="/services/tenant-representation" className="text-accent underline">tenant representation</a> is typically free to the tenant. The landlord pays the commission to both brokers. There is literally no cost to having someone in your corner, and the savings from better lease terms almost always exceed what you would have paid even if there were a fee.
+          Here is the part that surprises most people: <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> is typically free to the tenant. The landlord pays the commission to both brokers. There is literally no cost to having someone in your corner, and the savings from better lease terms almost always exceed what you would have paid even if there were a fee.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>How to avoid it:</strong> Hire a tenant rep broker before you start looking at spaces. They will help you identify properties, negotiate terms, review the lease, and manage the process from search through move-in. Read more about <a href="/blog/do-you-need-a-commercial-real-estate-broker" className="text-accent underline">when and why to hire a commercial real estate broker</a>.
+          <strong>How to avoid it:</strong> Hire a tenant rep broker before you start looking at spaces. They will help you identify properties, negotiate terms, review the lease, and manage the process from search through move-in. Read more about <Link href="/blog/do-you-need-a-commercial-real-estate-broker" className="text-accent underline">when and why to hire a commercial real estate broker</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>

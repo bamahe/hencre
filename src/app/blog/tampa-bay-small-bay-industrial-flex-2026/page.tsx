@@ -86,7 +86,7 @@ const schema = {
       description:
         "A joint venture paid $23.15M for a 169,055-sq-ft small bay industrial portfolio in Tampa. Here is what small bay industrial is, why investors love it, and what the deal means for the market in 2026.",
       datePublished: "2026-07-27",
-      dateModified: "2026-09-04",
+      dateModified: "2026-10-11",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -206,7 +206,7 @@ export default function TampaBaySmallBayIndustrialFlex2026Page() {
           The Tampa Airport and Tampa East submarkets — where the Pioneer Park portfolio is located — are widely cited as two of the most supply-constrained industrial areas in the region. Quality multi-tenant buildings there often carry vacancy below 5%, and well-positioned properties regularly trade off-market before brokers have a chance to put them into formal marketing campaigns. That was exactly the case with the Pioneer Park acquisition: JLL described it as an off-market transaction, which in this context means the seller had motivated buyers lining up without needing to advertise.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For context on how Tampa Bay&apos;s broader industrial and logistics pipeline is developing, see our post on <a href="/blog/port-tampa-bay-expansion-industrial-cre-investors" className="text-accent underline">Port Tampa Bay&apos;s expansion and what it means for industrial CRE investors</a>.
+          For context on how Tampa Bay&apos;s broader industrial and logistics pipeline is developing, see our post on <Link href="/blog/port-tampa-bay-expansion-industrial-cre-investors" className="text-accent underline">Port Tampa Bay&apos;s expansion and what it means for industrial CRE investors</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does the $23.15M Deal Reveal About Small Bay Cap Rates and Pricing?</h2>
@@ -217,7 +217,7 @@ export default function TampaBaySmallBayIndustrialFlex2026Page() {
           Cap rates for well-leased small bay industrial in Tampa Bay&apos;s tightest submarkets have compressed materially over the past 24 months. Investors pricing deals in this segment today are generally working with going-in cap rates in the 5.5% to 6.5% range for 85%+ occupied product in premier locations. That is tighter than bulk industrial was at its peak, which reflects the combination of income diversification, low new supply, and strong tenant demand that makes small bay an attractive risk-adjusted play.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Off-market transactions — which this was — tend to price at a premium to comparable marketed deals because buyers are paying for exclusivity and certainty of close. In a market where this product type rarely lists formally, motivated buyers accept tighter pricing to win deals before competition emerges. For investors evaluating this segment, understanding how to <a href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">calculate commercial property ROI</a> and building in realistic rent growth assumptions are non-negotiable underwriting steps.
+          Off-market transactions — which this was — tend to price at a premium to comparable marketed deals because buyers are paying for exclusivity and certainty of close. In a market where this product type rarely lists formally, motivated buyers accept tighter pricing to win deals before competition emerges. For investors evaluating this segment, understanding how to <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">calculate commercial property ROI</Link> and building in realistic rent growth assumptions are non-negotiable underwriting steps.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Do Small Bay Industrial Leases Look Like for Tenants?</h2>
@@ -226,7 +226,7 @@ export default function TampaBaySmallBayIndustrialFlex2026Page() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li>
-            <strong>Triple-net structure.</strong> Nearly all small bay leases are <a href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net (NNN)</a>, meaning tenants pay their pro-rata share of property taxes, insurance, and common area maintenance (CAM) on top of base rent. Understanding <a href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">how CAM charges work</a> is essential — they can add $2 to $5 per square foot annually to your effective occupancy cost.
+            <strong>Triple-net structure.</strong> Nearly all small bay leases are <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net (NNN)</Link>, meaning tenants pay their pro-rata share of property taxes, insurance, and common area maintenance (CAM) on top of base rent. Understanding <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">how CAM charges work</Link> is essential — they can add $2 to $5 per square foot annually to your effective occupancy cost.
           </li>
           <li>
             <strong>Limited tenant improvement allowances.</strong> Unlike office leases, small bay landlords rarely offer meaningful build-out packages. The space is already delivered with concrete floors, dock or drive-in access, and electrical service. Cosmetic improvements are typically at the tenant&apos;s cost.
