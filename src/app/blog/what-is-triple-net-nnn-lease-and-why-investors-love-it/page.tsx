@@ -80,7 +80,7 @@ const schema = {
       description:
         "How NNN leases work, why investors favor them, and key risks to evaluate.",
       datePublished: "2026-05-22",
-      dateModified: "2026-09-29",
+      dateModified: "2026-10-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

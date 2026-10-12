@@ -73,7 +73,7 @@ const schema = {
       headline: "Tampa Bay Office Market Q2 2026",
       description: "Tampa Bay office vacancy fell to an 18.2% four-year low in Q2 2026, with two consecutive quarters of positive absorption. What it means for tenants and investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-09-29",
+      dateModified: "2026-10-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -240,13 +240,15 @@ export default function TampaBayOfficeMarketQ2Page() {
           Tampa Bay&apos;s office market is in a genuine recovery - not a statistical blip or a seasonal uptick. Two-plus years of positive absorption, vacancy at its lowest level since 2021, and sustained Class A demand from a diversifying corporate base are real improvements. The caveat is that the recovery is highly concentrated in quality product and specific submarkets, while a meaningful share of the region&apos;s office inventory remains challenged and may stay that way.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For tenants, the window to find quality space with generous landlord concessions is narrowing. For investors, the bifurcation creates both compelling value-add opportunities and genuine pitfalls in the wrong buildings. Either way, navigating this market requires current, local intelligence - not trailing-12-month averages or national office narratives that do not reflect Tampa Bay&apos;s specific dynamics.
+          For tenants, the window to find quality space with generous landlord concessions is narrowing. For investors, the bifurcation creates both compelling value-add opportunities and genuine pitfalls in the wrong buildings. Either way, navigating this market requires current, local intelligence - not trailing-12-month averages or national office narratives that do not reflect Tampa Bay&apos;s specific dynamics. See our{" "}
+          <Link href="/blog/tampa-bay-office-market-q3-2026" className="text-accent underline">Q3 2026 Tampa Bay office market update</Link>{" "}
+          for the latest vacancy, absorption, and rent figures.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           With 23+ years of real estate experience across Tampa Bay&apos;s commercial market, I work with tenants identifying space and investors evaluating acquisitions across Hillsborough, Pinellas, and Pasco Counties. If you are making an office decision in the next 12 months, let&apos;s talk before the market makes it for you.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

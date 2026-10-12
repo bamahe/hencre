@@ -85,7 +85,7 @@ const schema = {
       description:
         "Trophy and Class A office availability in Westshore and Downtown Tampa fell to the lowest level since 2018 in 2026, pushing asking rents to all-time highs. Here is what tenants and investors need to know.",
       datePublished: "2026-09-24",
-      dateModified: "2026-09-24",
+      dateModified: "2026-10-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

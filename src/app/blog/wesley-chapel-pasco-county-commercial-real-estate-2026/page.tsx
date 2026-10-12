@@ -65,7 +65,7 @@ const schema = {
       headline: "Wesley Chapel Commercial Real Estate 2026 | Pasco County",
       description: "Wesley Chapel, FL is one of Tampa Bay's hottest commercial real estate markets in 2026. Explore office, retail, industrial, and investment opportunities in Pasco County with HenCRE.",
       datePublished: "2026-08-21",
-      dateModified: "2026-08-22",
+      dateModified: "2026-10-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -161,7 +161,9 @@ export default function BlogPost() {
         <p>Law firms, financial advisors, insurance agencies, and other professional service businesses are following their client base north from Tampa and into Wesley Chapel. Class B suburban <Link href="/commercial/office-space" className="text-accent underline">office space</Link> along major corridors is leasing at a healthy clip, particularly for suites in the 1,000 to 3,000 square foot range. Businesses serving the local residential base — estate planning attorneys, mortgage brokers, CPAs — have found loyal clientele in this community-oriented market.</p>
 
         <h2>Investment Outlook for 2026 and Beyond</h2>
-        <p>Cap rates in Wesley Chapel have compressed alongside broader Tampa Bay trends, but savvy investors are still finding value through value-add repositioning, ground-up development, and acquiring properties ahead of infrastructure improvements. The planned extension of the Suncoast Parkway and continued SR-54 corridor improvements are expected to unlock additional commercial development nodes over the next five years.</p>
+        <p>Cap rates in Wesley Chapel have compressed alongside broader Tampa Bay trends, but savvy investors are still finding value through value-add repositioning, ground-up development, and acquiring properties ahead of infrastructure improvements. The planned extension of the Suncoast Parkway and continued SR-54 corridor improvements are expected to unlock additional commercial development nodes over the next five years. Understanding{" "}
+        <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">how to calculate commercial property ROI</Link>{" "}
+        is essential before committing capital in a market this competitive.</p>
         <p>The risk profile in Wesley Chapel remains favorable relative to urban core alternatives — lower land costs than Tampa or St. Pete, strong population tailwinds, and a business-friendly Pasco County regulatory environment combine to make this one of the most attractive suburban commercial markets in the Southeast. Use our <Link href="/services/cre-valuation" className="text-accent underline">CRE valuation services</Link> to properly assess any acquisition target in the market.</p>
 
         <h2>Working with a Commercial Real Estate Broker in Wesley Chapel</h2>

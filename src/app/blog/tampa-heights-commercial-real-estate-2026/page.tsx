@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Heights is emerging as one of Tampa Bay's most active CRE corridors. The Stetson–Bromley mixed-use project adds 440,000 sq ft of office and 37,500 sq ft of retail to a district already home to Heights Union and Armature Works.",
       datePublished: "2026-08-16",
-      dateModified: "2026-09-20",
+      dateModified: "2026-10-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

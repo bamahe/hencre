@@ -87,7 +87,7 @@ const schema = {
       description:
         "PTM Partners secured a $125M construction loan for a 20-story mixed-use tower in St. Petersburg's EDGE District in October 2026. Here is what it means for commercial real estate investors, retail tenants, and the broader St. Pete market.",
       datePublished: "2026-10-10",
-      dateModified: "2026-10-10",
+      dateModified: "2026-10-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -261,9 +261,9 @@ export default function StPeteEDGEDistrictCRE2026Page() {
           for acquisitions in the St. Pete corridor: permanent and bridge financing for well-located retail and mixed-use properties in the EDGE District is available and competitive, though lenders are underwriting asset quality and location premium carefully. Properties with below-market leases, near-term rollover, or value-add upside are getting financed, but the underwriting process is rigorous.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are tracking this district for a future home purchase near these commercial corridors as well, the{" "}
-          <a href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</a>{" "}
-          neighborhood guides cover the St. Petersburg residential market and which walkable urban neighborhoods are seeing the strongest buyer demand as the mixed-use district builds out.
+          For the full Pinellas County commercial real estate context surrounding the EDGE District, our{" "}
+          <Link href="/markets/pinellas" className="text-accent underline">Pinellas County CRE market guide</Link>{" "}
+          covers investment and leasing activity across St. Petersburg, Clearwater, and the broader county.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line on the EDGE District and Edge Collective Phase 2</h2>
@@ -271,10 +271,14 @@ export default function StPeteEDGEDistrictCRE2026Page() {
           The $125 million construction loan for Edge Collective Phase 2 is a data point, but it is the kind of data point that carries weight: institutional lenders and institutional developers do not deploy that level of capital into a submarket they are uncertain about. St. Petersburg&apos;s EDGE District has earned that confidence through a decade of organic retail vitality, disciplined mixed-use development, and sustained demand from residents, visitors, and creative-economy tenants who have chosen walkability over suburban sprawl.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For commercial real estate investors and tenants watching the Tampa Bay market, the EDGE District story is a case study in how secondary urban cores can reach institutional investment quality when the fundamentals support it. St. Petersburg is no longer a secondary market on any of the dimensions that matter most: population growth, urban retail vitality, multifamily absorption, or the attention of major development capital. The question heading into 2027 is not whether the district will continue to build density, but whether the investors and tenants who act now will look back on 2026 as the last year they could have acquired or leased in the corridor before the full institutional premium was priced in.
+          For commercial real estate investors and tenants watching the{" "}
+          <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">Tampa Bay market</Link>,{" "}
+          the EDGE District story is a case study in how secondary urban cores can reach institutional investment quality when the fundamentals support it. St. Petersburg is no longer a secondary market on any of the dimensions that matter most: population growth, urban retail vitality, multifamily absorption, or the attention of major development capital. The question heading into 2027 is not whether the district will continue to build density, but whether the investors and tenants who act now will look back on 2026 as the last year they could have acquired or leased in the corridor before the full institutional premium was priced in.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience across Tampa Bay. He advises tenants and investors on both sides of the bay — including the St. Pete urban core and the Pinellas County markets where mixed-use and multifamily investment is accelerating.
+          Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience across Tampa Bay. He advises{" "}
+          <Link href="/services/tenant-representation" className="text-accent underline">tenants</Link>{" "}
+          and investors on both sides of the bay, including the St. Pete urban core and the Pinellas County markets where mixed-use and multifamily investment is accelerating.
         </p>
 
         <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>

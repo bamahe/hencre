@@ -89,7 +89,7 @@ const schema = {
       description:
         "Westshore is Tampa Bay's largest and most active office submarket - with vacancy at 16%, rents at all-time highs, and landmark buildings nearly full.",
       datePublished: "2026-08-07",
-      dateModified: "2026-10-08",
+      dateModified: "2026-10-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -80,7 +80,7 @@ const schema = {
       description:
         "What CAM charges cover, how they are calculated, and how to negotiate better terms.",
       datePublished: "2026-06-03",
-      dateModified: "2026-09-14",
+      dateModified: "2026-10-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
