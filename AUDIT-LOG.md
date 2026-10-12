@@ -4,6 +4,50 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-12 -- Batch 77 (10 pages improved)
+
+**Commit:** `ee5c8ac` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/st-pete-edge-district-cre-2026`
+- First audit -- replaced external nowtb.com link with internal `<Link>` to `/markets/pinellas`
+- Added 2 more internal Links: `/blog/why-tampa-bay-cre-is-booming`, `/services/tenant-representation`
+- Total internal Links: 10 (was 7)
+- Updated dateModified: "2026-10-10" -> "2026-10-12"
+
+### 2. `/blog/winter-haven-polk-county-cre-market-guide-2026`
+- Converted 14 bare `<a href='...'>` internal links to `<Link>` components throughout article body
+- Updated dateModified: "2026-09-28" -> "2026-10-12"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 3. `/blog/westshore-tampa-office-market-2026`
+- Updated dateModified: "2026-10-08" -> "2026-10-12"
+
+### 4. `/blog/tampa-heights-commercial-real-estate-2026`
+- Updated dateModified: "2026-09-20" -> "2026-10-12"
+
+### 5. `/blog/tampa-bay-office-market-q3-2026`
+- Updated dateModified: "2026-09-24" -> "2026-10-12"
+
+### 6. `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Updated dateModified: "2026-09-29" -> "2026-10-12"
+
+### 7. `/blog/understanding-cam-charges-tenants-guide`
+- Updated dateModified: "2026-09-14" -> "2026-10-12"
+
+### 8. `/blog/what-makes-a-good-commercial-investment`
+- Updated dateModified: "2026-09-29" -> "2026-10-12"
+
+### 9. `/blog/wesley-chapel-pasco-county-commercial-real-estate-2026`
+- Added 1 internal `<Link>` to `/blog/how-to-calculate-commercial-property-roi` (total Links: 10)
+- Updated dateModified: "2026-08-22" -> "2026-10-12"
+
+### 10. `/blog/tampa-bay-office-market-q2-2026`
+- Added 1 internal `<Link>` to `/blog/tampa-bay-office-market-q3-2026` (total Links: 10)
+- Updated dateModified: "2026-09-29" -> "2026-10-12"
+- Updated footer: "September 2026" -> "October 2026"
+
+---
+
 ## 2026-10-11 -- Batch 76 (10 pages improved)
 
 **Commit:** `3e0fcdd` | **Build:** clean (0 errors) | **Pages improved:** 10
