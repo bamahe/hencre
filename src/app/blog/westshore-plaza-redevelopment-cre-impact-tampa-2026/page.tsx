@@ -80,7 +80,7 @@ const schema = {
       description:
         "Third Lake Partners acquired WestShore Plaza for $135M and filed a 14-block mixed-use plan. A second Westshore hotel site is converting to 398 apartments. This guide covers what both projects mean for investors and tenants in Tampa's Westshore corridor.",
       datePublished: "2026-10-11",
-      dateModified: "2026-10-11",
+      dateModified: "2026-10-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -238,8 +238,8 @@ export default function WestShorePlazaRedevelopmentPage() {
           covers where cap rates and fundamentals stand today.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Existing Westshore office as a hold or add.</strong> The 500,000 square feet of planned office and medical office inside the WestShore Plaza redevelopment will not deliver for several years — meaning the corridor&apos;s existing office inventory faces no new competition in the near to medium term. Investors in existing Westshore office assets benefit from that supply constraint, plus the corridor upgrade effect as the mixed-use development delivers. The office market in Westshore already shows record rents and sub-16% vacancy; the redevelopment adds a long-term tailwind to a market that is already performing well. For more detail on the Westshore CRE market, sellers of businesses looking for fast capital can also explore options at{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">FastSellEasySale.com</Link>.
+          <strong>Existing Westshore office as a hold or add.</strong> The 500,000 square feet of planned office and medical office inside the WestShore Plaza redevelopment will not deliver for several years — meaning the corridor&apos;s existing office inventory faces no new competition in the near to medium term. Investors in existing Westshore office assets benefit from that supply constraint, plus the corridor upgrade effect as the mixed-use development delivers. The office market in Westshore already shows record rents and sub-16% vacancy; the redevelopment adds a long-term tailwind to a market that is already performing well. For more detail on the Westshore CRE market, investors looking to sell an existing commercial asset to reposition into Westshore can explore{" "}
+          <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does the Westshore Redevelopment Fit Into Tampa Bay&apos;s Broader CRE Story?</h2>
@@ -252,7 +252,7 @@ export default function WestShorePlazaRedevelopmentPage() {
           provides the full picture. For investors researching specific transaction types — sale-leasebacks, 1031 exchanges, NNN investments — the related reading below covers the categories most relevant to the Westshore corridor context.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The WestShore District&apos;s transformation is a multi-year project, not a near-term catalyst. Investors and tenants who understand that timeline — and who position themselves ahead of the phases rather than reacting to them — will extract the most value from what is shaping up to be one of Tampa Bay&apos;s most significant commercial real estate stories of the decade.
+          The WestShore District&apos;s transformation is a multi-year project, not a near-term catalyst. Investors and tenants who understand that timeline — and who position themselves ahead of the phases rather than reacting to them — will extract the most value from what is shaping up to be one of Tampa Bay&apos;s most significant commercial real estate stories of the decade. For broader context on what is driving CRE demand across the region, see{" "}<Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay commercial real estate is booming</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line: What Should Investors and Tenants Do Now?</h2>

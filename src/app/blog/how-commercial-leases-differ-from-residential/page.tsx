@@ -85,7 +85,7 @@ const schema = {
       description:
         "Key differences between commercial and residential leases: lease terms, negotiation, expenses, and tenant protections.",
       datePublished: "2026-05-18",
-      dateModified: "2026-09-30",
+      dateModified: "2026-10-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -266,7 +266,7 @@ export default function CommercialVsResidentialLeasePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Commercial leases are complex financial agreements with long-term consequences. They are more flexible than residential leases, which is an advantage if you know how to negotiate. But that flexibility also means there are more ways to get it wrong. With 23+ years of real estate experience, I have seen businesses thrive because they negotiated smart lease terms — and I have seen businesses struggle because they signed a lease without understanding what they agreed to. Do not be the second one.
+          Commercial leases are complex financial agreements with long-term consequences. They are more flexible than residential leases, which is an advantage if you know how to negotiate. But that flexibility also means there are more ways to get it wrong. Florida business owners also benefited from the{" "}<Link href="/blog/florida-business-rent-tax-repeal-tampa-bay" className="text-accent underline">repeal of Florida&apos;s commercial lease sales tax</Link>, which reduced occupancy costs across the board — another reason to understand your full lease economics from day one. With 23+ years of real estate experience, I have seen businesses thrive because they negotiated smart lease terms — and I have seen businesses struggle because they signed a lease without understanding what they agreed to. Do not be the second one.
         </p>
       </article>
 

@@ -41,7 +41,7 @@ const schema = {
       headline: "Inverness FL Commercial Real Estate 2026",
       description: "Explore commercial real estate opportunities in Inverness, Citrus County FL. Discover retail, office, and investment property trends driving growth in this emerging Central Florida market.",
       datePublished: "2026-09-04",
-      dateModified: "2026-10-03",
+      dateModified: "2026-10-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

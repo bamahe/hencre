@@ -85,7 +85,7 @@ const schema = {
       description:
         "Explore the key drivers fueling Tampa Bay's commercial real estate growth: population migration, infrastructure investment, and business climate.",
       datePublished: "2026-04-15",
-      dateModified: "2026-09-30",
+      dateModified: "2026-10-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

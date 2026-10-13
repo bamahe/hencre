@@ -73,7 +73,7 @@ const schema = {
       headline: "St. Petersburg Commercial Real Estate 2026",
       description: "A market guide to office, retail, and industrial commercial real estate in St. Petersburg, FL -- submarkets, rates, cap rates, and investment outlook.",
       datePublished: "2026-07-20",
-      dateModified: "2026-09-29",
+      dateModified: "2026-10-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

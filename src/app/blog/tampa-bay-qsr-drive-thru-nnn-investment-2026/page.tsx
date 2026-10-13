@@ -86,7 +86,7 @@ const schema = {
       description:
         "Fast food and drive-thru net lease properties are among the most popular passive investments in Tampa Bay. What investors need to know about cap rates, brand quality, and selecting the right QSR NNN deal.",
       datePublished: "2026-09-03",
-      dateModified: "2026-09-05",
+      dateModified: "2026-10-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -282,7 +282,7 @@ export default function TampaBayQSRDriveThruNNNPage() {
           Drive-thru QSR net lease properties remain one of the most accessible and tradeable passive income investments in Tampa Bay&apos;s commercial real estate market. The asset class has earned its reputation: long leases, creditworthy tenants, zero day-to-day management, and a buyer pool at resale that is deep and consistent. But the simplicity of owning one is not matched by simplicity in selecting one — brand quality, lease structure, guarantee type, site fundamentals, and remaining term all interact in ways that determine whether a specific acquisition is an excellent long-term hold or a slowly depreciating liability.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tampa Bay&apos;s growth trajectory — rooftops filling in along the I-75 corridor from Wesley Chapel through Riverview, suburban expansion in Pasco and Hernando Counties, and continued corporate in-migration to the metro — provides a durable demand floor under well-located drive-thru assets. The investors who perform best in this market are the ones who do the site-level work before closing, not after.
+          Tampa Bay&apos;s growth trajectory — rooftops filling in along the I-75 corridor from Wesley Chapel through Riverview, suburban expansion in Pasco and Hernando Counties, and continued corporate in-migration to the metro — provides a durable demand floor under well-located drive-thru assets. The investors who perform best in this market are the ones who do the site-level work before closing, not after. For a broader view of why Tampa Bay continues to attract commercial investment, see{" "}<Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay CRE is booming</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           With 23+ years of commercial real estate experience across all of Tampa Bay, I work with net lease investors, 1031 exchange buyers, and first-time commercial purchasers who are evaluating QSR and other single-tenant assets across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco</Link> Counties. If you are exploring drive-thru net lease acquisitions in Tampa Bay — or looking to sell an existing property to position for a 1031 exchange into QSR — let&apos;s talk.
