@@ -4,6 +4,49 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-13 -- Batch 78 (10 pages improved)
+
+**Commit:** `2c3d0ac` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-commercial-real-estate-investor-tenant-guide-2026`
+- First audit -- added `import Link from "next/link"` (was missing)
+- Removed nowtb.com from author sameAs array
+- Added dateModified: "2026-10-13" to schema (was missing)
+- Converted 14 bare `<a href>` internal links to `<Link>` components throughout article body (0 -> 19 Links)
+
+### 2. `/blog/westshore-plaza-redevelopment-cre-impact-tampa-2026`
+- First audit -- replaced external fastselleasysale.com link with internal `/services/dispositions`
+- Added internal `<Link>` to `/blog/why-tampa-bay-cre-is-booming` in article body (8 -> 10 Links)
+- Updated dateModified: "2026-10-11" -> "2026-10-13"
+
+### 3. `/blog/st-petersburg-office-market-2026`
+- Updated dateModified: "2026-10-03" -> "2026-10-13"
+
+### 4. `/blog/dale-mabry-corridor-commercial-real-estate-tampa-2026`
+- Updated dateModified: "2026-09-27" -> "2026-10-13"
+
+### 5. `/blog/tampa-bay-multifamily-cap-rates-2026`
+- Updated dateModified: "2026-09-28" -> "2026-10-13"
+
+### 6. `/blog/inverness-citrus-county-commercial-real-estate-2026`
+- Updated dateModified: "2026-10-03" -> "2026-10-13"
+
+### 7. `/blog/how-commercial-leases-differ-from-residential`
+- Added internal `<Link>` to `/blog/florida-business-rent-tax-repeal-tampa-bay` in article body (9 -> 10 Links)
+- Updated dateModified: "2026-09-30" -> "2026-10-13"
+
+### 8. `/blog/why-tampa-bay-cre-is-booming`
+- Updated dateModified: "2026-09-30" -> "2026-10-13"
+
+### 9. `/blog/st-petersburg-commercial-real-estate-2026`
+- Updated dateModified: "2026-09-29" -> "2026-10-13"
+
+### 10. `/blog/tampa-bay-qsr-drive-thru-nnn-investment-2026`
+- Added internal `<Link>` to `/blog/why-tampa-bay-cre-is-booming` in article body (9 -> 10 Links)
+- Updated dateModified: "2026-09-05" -> "2026-10-13"
+
+---
+
 ## 2026-10-12 -- Batch 77 (10 pages improved)
 
 **Commit:** `ee5c8ac` | **Build:** clean (0 errors) | **Pages improved:** 10
