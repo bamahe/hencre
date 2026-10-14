@@ -4,6 +4,48 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-14 -- Batch 79 (10 pages improved)
+
+**Commit:** `706e44c` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/wesley-chapel-i75-industrial-warehouse-q4-2026`
+- First audit -- shortened title from 77 chars to 65 chars (under 70)
+- Replaced external nowtb.com link with two internal `<Link>` components: `/markets/pasco` and `/blog/pasco-county-commercial-development-2026`
+- Fixed "RE/MAX Collective" → "REMAX Collective" in CTA text
+- Added `dateModified: "2026-10-14"` to Article schema (was missing)
+
+### 2. `/commercial/land-development`
+- First audit -- converted 6 bare `<a href>` internal links to `<Link>` components in article body
+- Updated footer: "September 2026" → "October 2026"
+
+### 3. `/commercial/industrial-warehouse`
+- First audit -- updated footer: "September 2026" → "October 2026"
+
+### 4. `/commercial/multifamily`
+- First audit -- updated footer: "September 2026" → "October 2026"
+
+### 5. `/calculators/cap-rate`
+- First audit -- updated footer: "September 2026" → "October 2026"
+
+### 6. `/calculators/commercial-mortgage`
+- First audit -- updated footer: "September 2026" → "October 2026"
+
+### 7. `/calculators/office-space`
+- First audit -- updated footer: "September 2026" → "October 2026"
+
+### 8. `/calculators/roi`
+- First audit -- updated footer: "September 2026" → "October 2026"
+
+### 9. `/blog/clearwater-beach-commercial-real-estate-2026`
+- Updated dateModified: "2026-09-27" → "2026-10-14"
+- Updated footer: "September 2026" → "October 2026"
+
+### 10. `/blog/north-pinellas-dunedin-tarpon-springs-commercial-real-estate-2026`
+- Updated dateModified: "2026-09-02" → "2026-10-14"
+- Updated footer: "September 2026" → "October 2026"
+
+---
+
 ## 2026-10-13 -- Batch 78 (10 pages improved)
 
 **Commit:** `2c3d0ac` | **Build:** clean (0 errors) | **Pages improved:** 10
