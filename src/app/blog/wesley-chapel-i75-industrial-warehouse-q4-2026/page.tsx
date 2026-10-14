@@ -14,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Wesley Chapel & I-75 Industrial Warehouse Corridor: Q4 2026 Guide | HenCRE",
+  title: "Wesley Chapel I-75 Industrial Warehouse Corridor Q4 2026 | HenCRE",
   description:
     "New warehouse space is delivering along the Wesley Chapel I-75 corridor in Q4 2026, including Rooker's North Tampa 75 project. What industrial tenants and investors need to know about this emerging Pasco County logistics hub.",
   alternates: {
@@ -99,6 +99,7 @@ const schema = {
       headline:
         "Wesley Chapel & I-75 Industrial Warehouse Corridor: Q4 2026 Guide",
       datePublished: "2026-10-13",
+      dateModified: "2026-10-14",
       author: { "@type": "Person", name: "Barrett Henry" },
       publisher: {
         "@type": "Organization",
@@ -296,11 +297,15 @@ export default function WesleyChapelI75IndustrialPage() {
           Current buyers of industrial product in the I-75 North corridor should underwrite conservatively: lease-up timelines in an emerging submarket are less predictable than in established corridors, and the thin comparable rent base means appraisals and financing may be more complex than in markets with deeper transaction histories. Industrial land held for development carries entitlement, utility, and execution risk that cash-flowing stabilized product does not. That said, buyers who can accept those risks and hold through the submarket&apos;s institutional formation period have historically generated stronger total returns in Tampa Bay&apos;s emerging industrial corridors than in its established ones — where today&apos;s pricing reflects rent growth that has already happened rather than rent growth still to come.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          One consideration for investors tracking residential growth as a proxy for future industrial demand: if you or your principals are also evaluating residential relocation into the Wesley Chapel area,{" "}
-          <Link href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">
-            nowtb.com
+          For investors tracking residential growth as a proxy for future industrial demand, understanding where new residential development is concentrating maps directly to where last-mile industrial demand will build next. Our{" "}
+          <Link href="/markets/pasco" className="text-accent underline">
+            Pasco County market guide
           </Link>{" "}
-          offers a full Tampa Bay home search with neighborhood guides that cover the same Pasco County growth corridors driving this industrial story. Understanding where new residential development is concentrating maps directly to where last-mile industrial demand will build next.
+          and{" "}
+          <Link href="/blog/pasco-county-commercial-development-2026" className="text-accent underline">
+            Pasco County commercial development overview
+          </Link>{" "}
+          cover the residential growth corridors driving this industrial story in detail.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For the broader Tampa Bay industrial investment context — cap rates, vacancy trajectories, and which submarkets are best positioned heading into 2027 — our{" "}
@@ -335,7 +340,7 @@ export default function WesleyChapelI75IndustrialPage() {
 
       <CTASection
         heading="Questions About Wesley Chapel or I-75 North Industrial Space?"
-        body="Barrett Henry has represented industrial tenants and investors across Tampa Bay and Pasco County for over 23 years. Whether you're evaluating new warehouse space, an owner-user acquisition, or an investment in the I-75 North corridor, call Barrett at RE/MAX Collective for a market consultation."
+        body="Barrett Henry has represented industrial tenants and investors across Tampa Bay and Pasco County for over 23 years. Whether you're evaluating new warehouse space, an owner-user acquisition, or an investment in the I-75 North corridor, call Barrett at REMAX Collective for a market consultation."
         primaryCta={{ label: "Call Barrett Henry", href: "tel:+18139993137" }}
         secondaryCta={{ label: "Browse Industrial Listings", href: "/commercial/industrial-warehouse" }}
       />

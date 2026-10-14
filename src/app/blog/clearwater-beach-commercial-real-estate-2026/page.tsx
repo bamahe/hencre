@@ -86,7 +86,7 @@ const schema = {
       description:
         "A guide to commercial real estate investment on Clearwater Beach - hospitality, beachfront retail, cap rates, insurance considerations, and the Pelican Walk Plaza listing.",
       datePublished: "2026-09-09",
-      dateModified: "2026-09-27",
+      dateModified: "2026-10-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -335,7 +335,7 @@ export default function ClearwaterBeachCREPage() {
           With 23+ years of real estate experience across Pinellas County and the broader Tampa Bay market, I work with investors evaluating coastal commercial acquisitions and operators looking for the right space on or near Clearwater Beach. Whether you are underwriting a hotel, a restaurant building, or a mixed-use property on the island, I can help you navigate the market - including the insurance, zoning, and location variables that determine whether a Clearwater Beach deal works.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

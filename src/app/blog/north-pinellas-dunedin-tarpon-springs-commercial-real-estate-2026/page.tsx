@@ -89,7 +89,7 @@ const schema = {
       description:
         "Dunedin, Tarpon Springs, Safety Harbor, and Oldsmar form a distinct commercial real estate cluster in North Pinellas County — boutique retail, industrial, medical, and waterfront investment in 2026.",
       datePublished: "2026-09-02",
-      dateModified: "2026-09-02",
+      dateModified: "2026-10-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -370,7 +370,7 @@ export default function NorthPinellasCommercialRealEstatePage() {
           for the submarket data underlying the North Pinellas industrial thesis.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
