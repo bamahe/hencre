@@ -4,6 +4,54 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-15 -- Batch 80 (10 pages improved)
+
+**Commit:** `3541166` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/lakeland-polk-county-nnn-landlord-investment-strategy`
+- First audit -- removed nowtb.com from author sameAs array
+- Added `dateModified: "2026-10-15"` to article schema (was missing)
+- Added `import Link from "next/link"`
+- Converted `<a href="/contact">` to `<Link href="/contact">` in article body
+- Added "Last updated: October 2026" footer section
+
+### 2. `/blog/tampa-bay-apartment-market-q4-2026`
+- First audit -- replaced external nowtb.com link with internal `<Link>` to `/blog/why-tampa-bay-cre-is-booming`
+
+### 3. `/blog/land-o-lakes-fitness-gym-wellness-commercial-space`
+- Updated dateModified: "2026-10-10" -> "2026-10-15"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 4. `/blog/riverview-fl-commercial-real-estate-2026`
+- Updated dateModified: "2026-10-11" -> "2026-10-15"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 5. `/blog/tampa-bay-boat-rv-storage-cre-investment-2026`
+- Updated dateModified: "2026-09-21" -> "2026-10-15"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 6. `/blog/tampa-bay-data-center-cre-2026`
+- Updated dateModified: "2026-10-06" -> "2026-10-15"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 7. `/blog/tampa-bay-childcare-nnn-investment-2026`
+- Updated dateModified: "2026-10-10" -> "2026-10-15"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 8. `/blog/investment-property-divorce-liquidation-florida`
+- Updated dateModified: "2026-09-18" -> "2026-10-15"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 9. `/blog/plant-city-commercial-real-estate-2026`
+- Updated dateModified: "2026-09-02" -> "2026-10-15"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 10. `/blog/midtown-tampa-commercial-real-estate-2026`
+- Updated dateModified: "2026-10-11" -> "2026-10-15"
+- Updated footer: "September 2026" -> "October 2026"
+
+---
+
 ## 2026-10-14 -- Batch 79 (10 pages improved)
 
 **Commit:** `706e44c` | **Build:** clean (0 errors) | **Pages improved:** 10
