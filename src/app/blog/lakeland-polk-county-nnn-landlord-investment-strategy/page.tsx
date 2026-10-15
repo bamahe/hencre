@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -30,6 +31,7 @@ const articleSchema = {
   headline: "Lakeland NNN & CRE Investment Guide 2026",
   description: "Lakeland, FL is a rising CRE market for NNN investors. Learn cap rate trends, top property types & landlord strategies. Call Barrett at (813) 733-7907.",
   datePublished: "2026-10-14",
+  dateModified: "2026-10-15",
   author: {
     "@type": "Person",
     name: "Barrett Henry",
@@ -37,7 +39,6 @@ const articleSchema = {
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
-      "https://nowtb.com",
       "https://barretthenry.remax.com",
     ],
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -196,7 +197,7 @@ export default function BlogPost() {
           <p className="text-lg font-bold">Talk to a REMAX Commercial\u00AE Broker</p>
           <p className="mt-2 text-white/80">
             Call <a href="tel:8137337907" className="underline">(813) 733-7907</a> or{" "}
-            <a href="/contact" className="underline">send a message</a>.
+            <Link href="/contact" className="underline">send a message</Link>.
           </p>
         </div>
       </article>
@@ -239,6 +240,11 @@ export default function BlogPost() {
             <li>HOPE Hotline: <a href="tel:18889954673" className="underline">1-888-995-4673</a></li>
           </ul>
         </div>
+      </section>
+
+      {/* ---- Last updated ---- */}
+      <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
+        <p className="text-xs text-[#666666]">Last updated: October 2026</p>
       </section>
 
       {/* ---- Legal Disclaimer ---- */}

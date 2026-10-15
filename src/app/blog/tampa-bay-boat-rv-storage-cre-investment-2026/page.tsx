@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay boat and RV storage facilities trade at 6–8% cap rates with expense ratios 15–20 points below traditional self-storage. The investment case, demand drivers, and what buyers need to know.",
       datePublished: "2026-09-19",
-      dateModified: "2026-09-21",
+      dateModified: "2026-10-15",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -287,7 +287,7 @@ export default function TampaBayBoatRVStorageInvestmentPage() {
           With 23+ years of real estate experience across Tampa Bay, I help investors evaluate and acquire commercial properties including alternative asset classes like storage. Whether you are evaluating your first storage acquisition or looking to trade out of an existing facility into a larger asset, let&apos;s talk about what the market looks like right now for your specific investment criteria.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

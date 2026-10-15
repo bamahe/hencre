@@ -262,9 +262,9 @@ export default function TampaBayApartmentMarketQ4Page() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           For investors considering the Tampa Bay market from a broader portfolio perspective, it is worth noting that the same household formation and population dynamics are generating demand across residential-adjacent sectors. The{" "}
           <Link href="/blog/tampa-bay-build-to-rent-cre-2026" className="text-accent underline">build-to-rent single-family sector in Tampa Bay</Link>{" "}
-          is absorbing some of the renter demand that would historically have gone to traditional apartments — a structural shift worth understanding for investors evaluating where multifamily demand goes long-term. Those curious about the residential market context can also visit{" "}
-          <a href="https://nowtb.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">nowtb.com</a>{" "}
-          for Tampa Bay neighborhood guides and home market updates that illustrate the homeownership affordability dynamic keeping renters in the market.
+          is absorbing some of the renter demand that would historically have gone to traditional apartments — a structural shift worth understanding for investors evaluating where multifamily demand goes long-term. For context on the Tampa Bay CRE landscape driving these dynamics, see the{" "}
+          <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">Tampa Bay CRE market overview</Link>{" "}
+          for a broader picture of the forces shaping residential and commercial demand across the region.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The bottom line for Tampa Bay apartment owners and investors heading into Q4 2026: the market is not broken, but it requires more careful underwriting and more realistic expectations than the 2021 and 2022 environment demanded. Owners who are proactive about addressing financing stress — not waiting for a lender-forced outcome — and investors who are buying with a clear-eyed view of the supply absorption timeline are the ones best positioned to benefit when the market completes its recalibration.

@@ -86,7 +86,7 @@ const schema = {
       description:
         "Private equity and hyperscalers are pouring billions into Tampa Bay data center and AI infrastructure projects in 2026. What it means for commercial real estate owners, investors, and landowners.",
       datePublished: "2026-09-22",
-      dateModified: "2026-10-06",
+      dateModified: "2026-10-15",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -259,7 +259,7 @@ export default function TampaBayDataCenterCREPage() {
           With 23+ years of real estate experience and deep knowledge of Tampa Bay&apos;s commercial and industrial markets, I help investors identify where capital is moving before it shows up in the headlines — and position them to act. Whether you own land in a high-interest corridor, are evaluating an industrial acquisition, or want to understand what the data center wave means for a property you already hold, let&apos;s talk.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

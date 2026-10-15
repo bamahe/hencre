@@ -79,7 +79,7 @@ const schema = {
       description:
         "Divorce-driven liquidation of Florida investment property involves court timelines, equitable distribution, and capital gains exposure that require specific planning before the sale closes.",
       datePublished: "2026-06-24",
-      dateModified: "2026-09-18",
+      dateModified: "2026-10-15",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -307,7 +307,7 @@ export default function InvestmentPropertyDivorceLiquidationPage() {
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
