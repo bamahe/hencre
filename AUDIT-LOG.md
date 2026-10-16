@@ -4,6 +4,48 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-16 -- Batch 81 (10 pages improved)
+
+**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-auto-dealership-cre-2026`
+- First audit -- added 9+ internal `<Link>` components (Dale Mabry, Pinellas, Wesley Chapel, Riverview, Land O Lakes, sale-leaseback, NNN, Phase I ESA, contact)
+- Updated `dateModified` to "2026-10-16"
+- Added "Last updated: October 2026" footer
+
+### 2. `/blog/tampa-bay-data-center-cre-2026`
+- Shortened page title from 84 chars to 61 chars (was over 70-char limit)
+- Updated `dateModified` to "2026-10-16"
+
+### 3. `/blog/land-o-lakes-fitness-gym-wellness-commercial-space`
+- Updated `dateModified` to "2026-10-16"
+
+### 4. `/blog/riverview-fl-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-16"
+
+### 5. `/blog/tampa-bay-boat-rv-storage-cre-investment-2026`
+- Added internal links to Wesley Chapel and Apollo Beach in intro paragraph
+- Updated `dateModified` to "2026-10-16"
+
+### 6. `/blog/tampa-bay-childcare-nnn-investment-2026`
+- Updated `dateModified` to "2026-10-16"
+
+### 7. `/blog/investment-property-divorce-liquidation-florida`
+- Added `<Link>` to `/markets/hillsborough` and `/blog/commercial-property-due-diligence-timeline`
+- Updated `dateModified` to "2026-10-16"
+
+### 8. `/blog/plant-city-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-16"
+
+### 9. `/blog/midtown-tampa-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-16"
+
+### 10. `/blog/tampa-bay-apartment-market-q4-2026`
+- Added internal links to Riverview and Brandon in vacancy section
+- Updated `dateModified` to "2026-10-16"
+
+---
+
 ## 2026-10-15 -- Batch 80 (10 pages improved)
 
 **Commit:** `3541166` | **Build:** clean (0 errors) | **Pages improved:** 10

@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay boat and RV storage facilities trade at 6–8% cap rates with expense ratios 15–20 points below traditional self-storage. The investment case, demand drivers, and what buyers need to know.",
       datePublished: "2026-09-19",
-      dateModified: "2026-10-15",
+      dateModified: "2026-10-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -183,7 +183,9 @@ export default function TampaBayBoatRVStorageInvestmentPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Tampa Bay&apos;s boat and RV storage market sits at the intersection of two powerful forces: Florida&apos;s outdoor recreation culture and the HOA-driven suburban development pattern that covers nearly every master-planned community from Wesley Chapel to Apollo Beach. The result is a commercial real estate niche that generates 6–8% cap rates, operates at expense ratios well below traditional self-storage, and benefits from a demand base that grows every time a new single-family subdivision is built. This post breaks down why this asset class works in Tampa Bay, what the numbers look like in 2026, and what buyers and sellers need to understand before entering the market.
+          Tampa Bay&apos;s boat and RV storage market sits at the intersection of two powerful forces: Florida&apos;s outdoor recreation culture and the HOA-driven suburban development pattern that covers nearly every master-planned community from{" "}
+          <Link href="/blog/wesley-chapel-pasco-county-commercial-real-estate-2026" className="text-accent underline">Wesley Chapel</Link> to{" "}
+          <Link href="/blog/apollo-beach-southshore-commercial-real-estate-2026" className="text-accent underline">Apollo Beach</Link>. The result is a commercial real estate niche that generates 6–8% cap rates, operates at expense ratios well below traditional self-storage, and benefits from a demand base that grows every time a new single-family subdivision is built. This post breaks down why this asset class works in Tampa Bay, what the numbers look like in 2026, and what buyers and sellers need to understand before entering the market.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Does Tampa Bay Have Such Strong Structural Demand for Boat and RV Storage?</h2>
@@ -287,7 +289,7 @@ export default function TampaBayBoatRVStorageInvestmentPage() {
           With 23+ years of real estate experience across Tampa Bay, I help investors evaluate and acquire commercial properties including alternative asset classes like storage. Whether you are evaluating your first storage acquisition or looking to trade out of an existing facility into a larger asset, let&apos;s talk about what the market looks like right now for your specific investment criteria.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

@@ -85,7 +85,7 @@ const schema = {
       description:
         "Childcare centers are one of the fastest-growing NNN investment categories in Tampa Bay. With KinderCare public, Bright Horizons expanding, and Tampa Bay adding 270,000 residents in five years, here is what investors need to know.",
       datePublished: "2026-09-11",
-      dateModified: "2026-10-15",
+      dateModified: "2026-10-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -306,7 +306,7 @@ export default function TampaBayChildcareNNNPage() {
           With 23+ years of real estate experience and active focus on NNN investment across Tampa Bay, I help investors identify childcare NNN opportunities, evaluate operator credit, and structure acquisitions -- including 1031 exchange transactions -- that align with their income and risk objectives. If you are evaluating a childcare NNN deal or looking for yield in a category that most Tampa Bay investors overlook, reach out directly.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

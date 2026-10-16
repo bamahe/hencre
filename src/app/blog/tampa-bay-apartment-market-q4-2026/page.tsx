@@ -85,7 +85,7 @@ const schema = {
       description:
         "Higher interest rates are squeezing Tampa Bay apartment owners heading into Q4 2026. Vacancy has risen to 7–8%, rent growth has flattened, and floating-rate loans are forcing decisions. A full market update for multifamily owners, buyers, and investors.",
       datePublished: "2026-10-13",
-      dateModified: "2026-10-13",
+      dateModified: "2026-10-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -203,7 +203,7 @@ export default function TampaBayApartmentMarketQ4Page() {
           Vacancy in Tampa Bay&apos;s apartment market has risen from the 3% to 4% historic lows of 2021 and 2022 to approximately 7% to 8% entering Q4 2026. The primary driver is simple: a large volume of new apartment units delivered into a market that had already absorbed strong rent growth and attracted more supply than its absorption rate could immediately handle.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tampa Bay permitted and started construction on an extraordinary number of apartment units between 2021 and 2023, responding rationally to the vacancy and rent signals of that period. Many of those projects took 24 to 30 months to deliver, bringing a concentrated wave of new supply to market in 2024 and 2025, with additional deliveries continuing into 2026. The submarkets that attracted the most development activity — Wesley Chapel, Riverview, Brandon, New Tampa, and the Westshore-Airport corridor — are the ones working through the most pronounced vacancy elevation.
+          Tampa Bay permitted and started construction on an extraordinary number of apartment units between 2021 and 2023, responding rationally to the vacancy and rent signals of that period. Many of those projects took 24 to 30 months to deliver, bringing a concentrated wave of new supply to market in 2024 and 2025, with additional deliveries continuing into 2026. The submarkets that attracted the most development activity — Wesley Chapel, <Link href="/blog/riverview-fl-commercial-real-estate-2026" className="text-accent underline">Riverview</Link>, <Link href="/blog/brandon-commercial-real-estate-guide-2026" className="text-accent underline">Brandon</Link>, New Tampa, and the Westshore-Airport corridor — are the ones working through the most pronounced vacancy elevation.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           It&apos;s worth being precise about what &quot;elevated vacancy&quot; means in context. A 7% to 8% vacancy rate in Tampa Bay&apos;s apartment market is not historically extraordinary — it is roughly in line with long-run averages before the pandemic tightening. What makes it feel sharp is the contrast with where the market was just two years ago, and the fact that it has arrived alongside higher financing costs rather than in a period of financial ease. For owners who bought at peak cap rates with leverage sized to tighter conditions, even a normalized vacancy environment creates meaningful stress.

@@ -104,7 +104,7 @@ const schema = {
       description:
         "Auto dealership properties are one of the most distinctive asset classes in Tampa Bay commercial real estate. From Dale Mabry's traditional auto row to Tesla and Rivian's new EV footprint, here is what investors and owners need to know in 2026.",
       datePublished: "2026-10-14",
-      dateModified: "2026-10-14",
+      dateModified: "2026-10-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -249,9 +249,10 @@ export default function TampaBayAutoDealershipCREPage() {
           substantial.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In Tampa Bay, the most established auto corridors concentrate on North
-          Dale Mabry Highway in Tampa, US Highway 19 through Clearwater and
-          Pinellas County, and Fletcher Avenue near the University of South
+          In Tampa Bay, the most established auto corridors concentrate on{" "}
+          <Link href="/blog/dale-mabry-corridor-commercial-real-estate-tampa-2026" className="text-accent underline">North Dale Mabry Highway</Link>{" "}
+          in Tampa, US Highway 19 through Clearwater and{" "}
+          <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>, and Fletcher Avenue near the University of South
           Florida. These corridors developed because they offer high average daily
           traffic counts — typically 40,000 to 85,000 vehicles per day — combined
           with access to surface road networks that allow test drives without
@@ -346,8 +347,11 @@ export default function TampaBayAutoDealershipCREPage() {
           against a backdrop of growing underlying demand.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The fastest-growing submarkets — Wesley Chapel, Riverview, Parrish in
-          Manatee County, and Land O&apos; Lakes — are each generating enough
+          The fastest-growing submarkets —{" "}
+          <Link href="/blog/wesley-chapel-pasco-county-commercial-real-estate-2026" className="text-accent underline">Wesley Chapel</Link>,{" "}
+          <Link href="/blog/riverview-fl-commercial-real-estate-2026" className="text-accent underline">Riverview</Link>, Parrish in
+          Manatee County, and{" "}
+          <Link href="/blog/land-o-lakes-pasco-county-commercial-real-estate" className="text-accent underline">Land O&apos; Lakes</Link> — are each generating enough
           household formation to support satellite service centers and new dealer
           points. Toyota, Ford, and Hyundai have all evaluated or opened
           additional Tampa Bay locations in response to growth corridor demand in
@@ -366,11 +370,12 @@ export default function TampaBayAutoDealershipCREPage() {
           each with different risk and return characteristics.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Fee simple sale-leaseback:</strong> A dealership operator who
+          <strong>Fee simple{" "}
+          <Link href="/blog/sale-leaseback-commercial-real-estate-tampa-bay" className="text-accent underline">sale-leaseback</Link>:</strong> A dealership operator who
           owns the land and building sells both to an investor and simultaneously
           executes a long-term lease back at market rent. The operator converts
-          real estate equity into operating capital while the investor acquires a
-          NNN-leased asset with a creditworthy tenant. For well-established
+          real estate equity into operating capital while the investor acquires a{" "}
+          <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">NNN-leased asset</Link> with a creditworthy tenant. For well-established
           Tampa Bay dealer groups, sale-leaseback transactions are a practical
           recapitalization tool that avoids dilutive equity raises. Investors
           benefit from immediate occupancy, a known tenant, and lease terms
@@ -387,7 +392,8 @@ export default function TampaBayAutoDealershipCREPage() {
           depreciation, maintenance obligation, or obsolescence risk. For
           long-term investors prioritizing simplicity and land appreciation, a
           dealership ground lease on Dale Mabry or US 19 is a compelling
-          alternative to other NNN structures.
+          alternative to other{" "}
+          <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN structures</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Vacant dealership repositioning:</strong> As consolidation
@@ -425,8 +431,9 @@ export default function TampaBayAutoDealershipCREPage() {
           Environmental review tops the list for any dealership acquisition.
           Service bays generate petroleum waste, hydraulic fluid, battery acid,
           and refrigerants that can create subsurface contamination over decades
-          of operation. A Phase I Environmental Site Assessment is mandatory
-          for any lender and should be standard practice for all-cash buyers as
+          of operation. A{" "}
+          <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">Phase I Environmental Site Assessment</Link>{" "}
+          is mandatory for any lender and should be standard practice for all-cash buyers as
           well. Where the Phase I identifies recognized environmental conditions
           — former underground storage tanks, documented spills, adjacent
           contaminated parcels — a Phase II with soil and groundwater sampling is
@@ -506,12 +513,15 @@ export default function TampaBayAutoDealershipCREPage() {
               className="text-[#C8A97E] hover:underline"
             >
               (813) 999-8191
-            </a>
+            </a>{" "}
+            or{" "}
+            <Link href="/contact" className="text-[#C8A97E] hover:underline">send a message online</Link>.
           </p>
           <p className="mt-1 text-sm text-[#666666]">
             Broker Associate · REMAX Collective · 23+ years Tampa Bay CRE
           </p>
         </div>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       <RelatedLinks links={relatedLinks} />

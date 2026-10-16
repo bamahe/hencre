@@ -79,7 +79,7 @@ const schema = {
       description:
         "Divorce-driven liquidation of Florida investment property involves court timelines, equitable distribution, and capital gains exposure that require specific planning before the sale closes.",
       datePublished: "2026-06-24",
-      dateModified: "2026-10-15",
+      dateModified: "2026-10-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -263,8 +263,9 @@ export default function InvestmentPropertyDivorceLiquidationPage() {
           handles both cooperative and court-ordered transaction types.
         </p>
         <p className="mt-4 text-[#666666]">
-          <strong>Court-ordered sale with defined timeline:</strong> Hillsborough County Family
-          Court can order the property sold within a specified timeframe when spouses cannot agree.
+          <strong>Court-ordered sale with defined timeline:</strong>{" "}
+          <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link>{" "}
+          Family Court can order the property sold within a specified timeframe when spouses cannot agree.
           A cash buyer&apos;s guaranteed close in 7 to 21 days fits court-mandated timelines far
           more reliably than a conventional listing with contingencies.
         </p>
@@ -294,8 +295,11 @@ export default function InvestmentPropertyDivorceLiquidationPage() {
         <p className="mt-4 text-[#666666]">
           Barrett Henry at HenCRE works with both parties and their attorneys to evaluate all
           exit options, providing market analysis, net proceeds comparisons across sale scenarios,
-          and coordination with closing agents familiar with court-ordered transactions. Serving
-          all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+          and coordination with closing agents familiar with court-ordered transactions. Before
+          any sale moves forward, a thorough{" "}
+          <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial property due diligence</Link>{" "}
+          review ensures there are no title, zoning, or environmental surprises that complicate
+          the closing. Serving all 67 Florida counties from offices in Tampa, Largo, and Brandon.
         </p>
 
         {/* ---- Mid-article CTA ---- */}
@@ -307,7 +311,7 @@ export default function InvestmentPropertyDivorceLiquidationPage() {
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: September 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
