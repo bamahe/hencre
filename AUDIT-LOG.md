@@ -6,7 +6,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ## 2026-10-16 -- Batch 81 (10 pages improved)
 
-**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+**Commit:** `e74e40d` | **Build:** clean (0 errors) | **Pages improved:** 10
 
 ### 1. `/blog/tampa-bay-auto-dealership-cre-2026`
 - First audit -- added 9+ internal `<Link>` components (Dale Mabry, Pinellas, Wesley Chapel, Riverview, Land O Lakes, sale-leaseback, NNN, Phase I ESA, contact)
