@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay senior housing is attracting major institutional capital in 2026. Here is what the transactions tell us and what private investors need to know about entering this asset class.",
       datePublished: "2026-09-15",
-      dateModified: "2026-10-01",
+      dateModified: "2026-10-17",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

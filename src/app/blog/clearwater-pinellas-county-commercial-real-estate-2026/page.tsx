@@ -42,7 +42,7 @@ const schema = {
       headline: "Clearwater Pinellas County Commercial Real Estate 2026",
       description: "Explore Clearwater's commercial real estate market in 2026. Discover industrial, medical, and mixed-use investment opportunities in Pinellas County's thriving business hub.",
       datePublished: "2026-09-28",
-      dateModified: "2026-10-08",
+      dateModified: "2026-10-17",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -236,7 +236,9 @@ export default function BlogPost() {
             <p className="font-bold text-black">Barrett Henry</p>
             <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience across Tampa Bay&apos;s commercial markets. He serves investors and tenants across all major property types throughout Clearwater, Pinellas County, and all 67 Florida counties.
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience across Tampa Bay&apos;s commercial markets. He serves investors and tenants across all major property types throughout Clearwater, Pinellas County, and all 67 Florida counties. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or explore <Link href="/services" className="text-accent underline">his services</Link>.
             </p>
           </div>
         </div>

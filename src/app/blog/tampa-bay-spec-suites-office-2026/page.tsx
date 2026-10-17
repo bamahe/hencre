@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay landlords are pre-building finished office suites to fill vacancy and attract tenants who need fast occupancy. What tenants need to know about finding, evaluating, and negotiating spec suites in 2026.",
       datePublished: "2026-09-17",
-      dateModified: "2026-09-22",
+      dateModified: "2026-10-17",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -204,7 +204,7 @@ export default function TampaBaySpecSuitesOfficePage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-3">
           <li>
-            <strong>Westshore.</strong> Tampa Bay&apos;s largest and most competitive office submarket has the deepest spec suite inventory. Class A towers along the Eisenhower-Cypress-Westshore corridor have built out suites ranging from 1,500 to 12,000 square feet with high-quality finishes — open plan areas with privacy rooms, glass-walled conference rooms, and modern kitchens. Westshore&apos;s proximity to Tampa International Airport and the I-275/Gandy interchange makes it the preferred address for regional professional services firms and companies with frequent executive travel. Our{" "}
+            <strong>Westshore.</strong> Tampa Bay&apos;s largest and most competitive <Link href="/blog/westshore-tampa-office-market-2026" className="text-accent underline">office submarket</Link> has the deepest spec suite inventory. Class A towers along the Eisenhower-Cypress-Westshore corridor have built out suites ranging from 1,500 to 12,000 square feet with high-quality finishes — open plan areas with privacy rooms, glass-walled conference rooms, and modern kitchens. Westshore&apos;s proximity to Tampa International Airport and the I-275/Gandy interchange makes it the preferred address for regional professional services firms and companies with frequent executive travel. Our{" "}
             <Link href="/blog/westshore-tampa-office-market-2026" className="text-accent underline">Westshore office market 2026 analysis</Link>{" "}
             covers the submarket&apos;s specific vacancy and rent dynamics in detail.
           </li>
@@ -218,7 +218,7 @@ export default function TampaBaySpecSuitesOfficePage() {
             <strong>Suburban: Carrollwood, Northdale, and New Tampa.</strong> Suburban office parks north and northwest of Tampa carry spec inventory primarily for local professional services users — dentists and medical specialists building satellite practices, insurance agencies, financial advisors, and small law firms. Suites in suburban parks are typically smaller (1,000 to 3,500 square feet) and at significantly lower rent points than Westshore or downtown product.
           </li>
           <li>
-            <strong>Brandon and the US-301 corridor east.</strong> Brandon&apos;s growing professional and medical services population has created demand for suburban spec suites serving the Hillsborough County eastern market. Limited inventory, growing demand, and easier parking than urban submarkets make this a viable option for practices serving patients and clients in the 33510-33511-33596 zip code corridor.
+            <strong><Link href="/blog/brandon-commercial-real-estate-guide-2026" className="text-accent underline">Brandon and the US-301 corridor east.</Link></strong> Brandon&apos;s growing professional and medical services population has created demand for suburban spec suites serving the Hillsborough County eastern market. Limited inventory, growing demand, and easier parking than urban submarkets make this a viable option for practices serving patients and clients in the 33510-33511-33596 zip code corridor.
           </li>
         </ul>
 
@@ -262,7 +262,7 @@ export default function TampaBaySpecSuitesOfficePage() {
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Working with a tenant representative on a spec suite search costs you nothing as a tenant — the landlord pays the commission — and gives you access to off-market inventory, market data on comparable deals, and negotiating experience across dozens of lease transactions. The{" "}
+          Working with a <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link> on a spec suite search costs you nothing as a tenant — the landlord pays the commission — and gives you access to off-market inventory, market data on comparable deals, and negotiating experience across dozens of lease transactions. The{" "}
           <Link href="/blog/5-mistakes-first-time-commercial-tenants-make" className="text-accent underline">most costly mistakes first-time commercial tenants make</Link>{" "}
           are almost all avoidable with proper representation.
         </p>
@@ -283,10 +283,10 @@ export default function TampaBaySpecSuitesOfficePage() {
           Tampa Bay&apos;s elevated office vacancy has produced the best spec suite selection the market has seen in years. Landlords who were reluctant to invest in speculative build-outs during the tight 2019-2022 market have spent capital to compete for a shrinking pool of active tenants, and the result is a remarkably deep inventory of move-in-ready suites across Westshore, downtown Tampa, and suburban corridors. For small-to-midsize businesses with near-term occupancy needs, this is an opportunity worth actively pursuing — particularly because the window may narrow as vacancy stabilizes and landlords regain leverage heading into 2027.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23 years of real estate experience and deep familiarity with Tampa Bay&apos;s office submarkets, I help tenants navigate the spec suite market, identify off-market options that never hit public listing platforms, and structure leases that protect their interests through the full term. Whether you are looking for 1,500 square feet in Westshore or 10,000 square feet downtown, the right search starts with a conversation about your timeline, your team, and what you actually need from your space.
+          With 23 years of real estate experience and deep familiarity with Tampa Bay&apos;s office submarkets, I help tenants navigate the spec suite market, identify off-market options that never hit public listing platforms, and structure leases that protect their interests through the full term. Learn more about <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential</Link> before you sign. Whether you are looking for 1,500 square feet in Westshore or 10,000 square feet downtown, the right search starts with a conversation about your timeline, your team, and what you actually need from your space. Explore our <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County commercial market overview</Link> for broader context on where Tampa Bay office is headed.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

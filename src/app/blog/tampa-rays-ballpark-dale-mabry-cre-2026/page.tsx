@@ -87,7 +87,7 @@ const schema = {
       description:
         "The $2.36B Tampa Bay Rays ballpark at HCC Dale Mabry was approved August 2026 with Opening Day 2029. What stadium-anchored development means for commercial real estate investors and tenants along the Dale Mabry corridor — restaurants, hotels, entertainment, and mixed-use.",
       datePublished: "2026-10-07",
-      dateModified: "2026-10-08",
+      dateModified: "2026-10-17",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -202,10 +202,10 @@ export default function TampaBallparkDaleMabryCREPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Where Is the New Rays Stadium and Why Does the Location Matter?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The approved site — Hillsborough Community College&apos;s Dale Mabry campus — sits along the Dale Mabry Highway corridor in North Tampa. Dale Mabry is one of the most traffic-intensive commercial corridors in the Tampa metro, running north from the Westshore Business District through the Carrollwood and Northdale suburbs and continuing into rapidly growing communities in Pasco County. Interstate 275 provides direct regional access.
+          The approved site — Hillsborough Community College&apos;s Dale Mabry campus — sits along the Dale Mabry Highway corridor in <Link href="/blog/north-tampa-usf-corridor-commercial-real-estate-2026" className="text-accent underline">North Tampa</Link>. Dale Mabry is one of the most traffic-intensive commercial corridors in the Tampa metro, running north from the Westshore Business District through the Carrollwood and Northdale suburbs and continuing into rapidly growing communities in Pasco County. Interstate 275 provides direct regional access.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The location is particularly interesting from a CRE perspective because it sits at the junction of established commercial density — an existing restaurant, retail, and office corridor that has been maturing for decades — and the population growth vectors expanding northward. Fans driving from Wesley Chapel, Land O&apos;Lakes, New Port Richey, and the broader Pasco County growth corridor will use Dale Mabry as their primary route to the stadium. That northbound catchment area represents one of the fastest-growing population concentrations in the state.
+          The location is particularly interesting from a CRE perspective because it sits at the junction of established commercial density — an existing restaurant, retail, and office corridor that has been maturing for decades — and the population growth vectors expanding northward. Fans driving from Wesley Chapel, Land O&apos;Lakes, New Port Richey, and the broader <Link href="/blog/pasco-county-commercial-development-2026" className="text-accent underline">Pasco County growth corridor</Link> will use Dale Mabry as their primary route to the stadium. That northbound catchment area represents one of the fastest-growing population concentrations in the state.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The distinction between this site and other Tampa Bay major projects is worth stating clearly. This is not the Historic Gas Plant District project in St. Petersburg — the 86-acre Hines–Rays mixed-use redevelopment of the old Tropicana Field site, which is a{" "}
@@ -233,7 +233,7 @@ export default function TampaBallparkDaleMabryCREPage() {
           for where this tenant category is expanding across the metro.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Mixed-use office and residential.</strong> The stadium itself will be embedded in a mixed-use district per the developer&apos;s plans. Office tenants seeking identity and amenity — professional services, financial services, media and entertainment companies — are drawn to stadium-adjacent mixed-use for the same reason they cluster in other high-activity districts: visibility, walkable amenity, and a built-in energy that traditional suburban office parks cannot replicate. Mixed-use residential demand in stadium corridors is driven by young professionals who want urban walkability without downtown density and pricing.
+          <strong>Mixed-use office and residential.</strong> The stadium itself will be embedded in a mixed-use district per the developer&apos;s plans. Office tenants seeking identity and amenity — professional services, financial services, media and entertainment companies — are drawn to stadium-adjacent mixed-use for the same reason they cluster in other high-activity districts: visibility, walkable amenity, and a built-in energy that traditional suburban office parks cannot replicate. Mixed-use residential demand in stadium corridors is driven by young professionals who want urban walkability without downtown density and pricing. For investors interested in the multifamily dimension, our <Link href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">Tampa Bay multifamily investment guide</Link> covers fundamentals and cap rate expectations across the metro.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is the Timeline, and Why Does the Entry Window Matter?</h2>

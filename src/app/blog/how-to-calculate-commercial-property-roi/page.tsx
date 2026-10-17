@@ -85,7 +85,7 @@ const schema = {
       description:
         "ROI calculation methods for commercial real estate investors: cap rate, cash-on-cash, IRR, and total return.",
       datePublished: "2026-05-31",
-      dateModified: "2026-09-30",
+      dateModified: "2026-10-17",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -341,7 +341,7 @@ export default function CalculateROIPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: October 2026</p>
       </div>
     </>
   );
