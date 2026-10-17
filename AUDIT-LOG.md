@@ -4,6 +4,52 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-17 -- Batch 82 (10 pages improved)
+
+**Commit:** `25a36c6` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/bradenton-manatee-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-17"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 2. `/blog/florida-1031-exchange-what-investors-need-to-know`
+- Updated `dateModified` to "2026-10-17"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 3. `/blog/how-to-calculate-commercial-property-roi`
+- Updated `dateModified` to "2026-10-17"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 4. `/blog/naples-collier-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-17" (was "2026-09-04")
+- Updated footer: "September 2026" -> "October 2026"
+
+### 5. `/blog/pasco-county-commercial-development-2026`
+- Updated `dateModified` to "2026-10-17" (was "2026-09-07")
+- Updated footer: "September 2026" -> "October 2026"
+
+### 6. `/blog/commercial-property-due-diligence-timeline`
+- Updated `dateModified` to "2026-10-17"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 7. `/blog/tampa-bay-spec-suites-office-2026`
+- Updated `dateModified` to "2026-10-17"
+- Updated footer: "September 2026" -> "October 2026"
+- Added 5 internal links: Brandon guide, `/services/tenant-representation`, Westshore office, `/blog/how-commercial-leases-differ-from-residential`, `/markets/hillsborough`
+
+### 8. `/blog/tampa-rays-ballpark-dale-mabry-cre-2026`
+- Updated `dateModified` to "2026-10-17"
+- Added 3 internal links: `/blog/pasco-county-commercial-development-2026`, `/blog/north-tampa-usf-corridor-commercial-real-estate-2026`, `/blog/multifamily-investment-tampa-bay-guide`
+
+### 9. `/blog/clearwater-pinellas-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-17"
+- Added author bio section with `<Link>` to `/about` and `/services` (was missing)
+
+### 10. `/blog/tampa-bay-senior-housing-cre-investment-2026`
+- Updated `dateModified` to "2026-10-17" (was "2026-10-01")
+
+---
+
 ## 2026-10-16 -- Batch 81 (10 pages improved)
 
 **Commit:** `e74e40d` | **Build:** clean (0 errors) | **Pages improved:** 10
