@@ -4,6 +4,56 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-18 -- Batch 83 (10 pages improved)
+
+**Commit:** `e9e7c02` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/1031-exchange-tampa-bay-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-18"
+
+### 2. `/blog/clearwater-landings-sports-complex-cre-pinellas-2026`
+- Shortened page title from 74 chars to 69 chars (was over 70-char limit)
+- Fixed `description` metadata: replaced literal `&apos;` entity with apostrophe (JS string, not JSX)
+- Updated `dateModified` to "2026-10-18"
+- Added author bio section with headshot image, credentials, and links to `/about` and `/services`
+
+### 3. `/blog/lakeland-retail-storefront-space-guide`
+- Removed `nowtb.com` from author `sameAs` array
+- Added `dateModified: "2026-10-18"` field to schema (was missing)
+- Changed author `jobTitle` from "Commercial Real Estate Advisor" to "Broker Associate"
+- Changed publisher `name` from "REMAX Commercial Real Estate" to "HenCRE"
+- Added `import Image from "next/image"` and replaced `<img>` with `<Image>` in author bio
+- Fixed breadcrumbs: added "Home" item (was missing)
+- Updated author bio text to reflect correct title and credentials
+
+### 4. `/blog/parrish-fl-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-18" (was "2026-09-07")
+- Updated footer: "September 2026" -> "October 2026"
+
+### 5. `/blog/florida-property-insurance-tampa-bay-cre-2026`
+- Updated `dateModified` to "2026-10-18" (was "2026-09-21")
+- Updated footer: "September 2026" -> "October 2026"
+
+### 6. `/blog/tampa-bay-nnn-cap-rates-2026`
+- Updated `dateModified` to "2026-10-18" (was "2026-09-20")
+- Updated footer: "September 2026" -> "October 2026"
+
+### 7. `/blog/tampa-bay-commercial-mortgage-rates-2026`
+- Updated `dateModified` to "2026-10-18" (was "2026-10-10")
+
+### 8. `/blog/tampa-retail-storefront-space-guide`
+- Updated `dateModified` to "2026-10-18" (was "2026-09-23")
+- Updated footer: "September 2026" -> "October 2026"
+
+### 9. `/blog/termite-damage-investment-property-florida`
+- Updated `dateModified` to "2026-10-18" (was "2026-09-23")
+- Updated footer: "September 2026" -> "October 2026"
+
+### 10. `/blog/crystal-river-citrus-county-commercial-real-estate`
+- Updated `dateModified` to "2026-10-18" (was "2026-10-08")
+
+---
+
 ## 2026-10-17 -- Batch 82 (10 pages improved)
 
 **Commit:** `25a36c6` | **Build:** clean (0 errors) | **Pages improved:** 10
