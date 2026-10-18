@@ -86,7 +86,7 @@ const schema = {
       description:
         "Commercial mortgage rates in Tampa Bay range from 5.41% to 7%+ depending on loan type, property, and borrower. What investors and owner-users need to know about financing CRE in today's rate environment.",
       datePublished: "2026-09-07",
-      dateModified: "2026-10-10",
+      dateModified: "2026-10-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

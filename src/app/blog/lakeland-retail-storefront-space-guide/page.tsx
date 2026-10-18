@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -30,19 +31,19 @@ const articleSchema = {
   headline: "Lakeland Retail Storefront Space: Finding the Right Fit",
   description: "Looking for retail storefront space in Lakeland, FL? Barrett Henry covers location, leases, zoning, and why Polk County is a smart market. Call (813) 733-7907.",
   datePublished: "2026-10-16",
+  dateModified: "2026-10-18",
   author: {
     "@type": "Person",
     name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
+    jobTitle: "Broker Associate",
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
-      "https://nowtb.com",
       "https://barretthenry.remax.com",
     ],
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
   },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
   url: "https://hencre.com/blog/lakeland-retail-storefront-space-guide",
 };
 
@@ -177,6 +178,7 @@ export default function BlogPost() {
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Lakeland Retail Storefront Space: Finding the Right Fit", href: "/blog/lakeland-retail-storefront-space-guide" },
         ]}
@@ -211,18 +213,18 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Commercial Real Estate Advisor"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR\u00AE & Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
-              Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience. He helps retail tenants find and negotiate the right space across Lakeland, Polk County, and all 67 Florida counties.
             </p>
           </div>
         </div>

@@ -80,7 +80,7 @@ const schema = {
       description:
         "How to use a 1031 exchange to defer capital gains taxes and acquire Tampa Bay commercial real estate as replacement property — NNN retail, industrial, multifamily, and medical office. Rules, timelines, and why Tampa Bay is one of the most active exchange destinations in 2026.",
       datePublished: "2026-10-16",
-      dateModified: "2026-10-16",
+      dateModified: "2026-10-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -103,7 +103,7 @@ const schema = {
       description:
         "How elevated property insurance costs reshape underwriting, cap rates, and submarket selection for Tampa Bay commercial real estate investors and tenants in 2026.",
       datePublished: "2026-09-17",
-      dateModified: "2026-09-21",
+      dateModified: "2026-10-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -391,7 +391,7 @@ export default function FloridaPropertyInsuranceCREPage() {
           With 23+ years of real estate experience across Tampa Bay and deep familiarity with the underwriting challenges that insurance costs create for commercial investors, I help buyers, sellers, and tenants navigate the full cost picture — not just rent. Whether you are evaluating an acquisition, preparing a property for sale, or trying to understand whether a deal pencils at current insurance rates, let&apos;s run through the numbers together.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

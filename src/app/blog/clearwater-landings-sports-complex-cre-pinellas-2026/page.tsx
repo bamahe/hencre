@@ -16,9 +16,9 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Clearwater Landings Sports Complex: CRE Impact for Pinellas 2026 | HenCRE",
+  title: "Clearwater Landings Sports Complex CRE Impact Pinellas 2026 | HenCRE",
   description:
-    "A developer is proposing a $180M sports complex at Clearwater&apos;s Landings Golf Course with 13 multipurpose fields, pickleball courts, restaurants, and a water attraction. Here is what it means for commercial real estate investors and landlords in Pinellas County.",
+    "A developer is proposing a $180M sports complex at Clearwater's Landings Golf Course with 13 multipurpose fields, pickleball courts, restaurants, and a water attraction. Here is what it means for commercial real estate investors and landlords in Pinellas County.",
   alternates: { canonical: "https://hencre.com/blog/clearwater-landings-sports-complex-cre-pinellas-2026" },
   openGraph: {
     title: "Clearwater Landings Sports Complex: What the $180M Development Means for Pinellas CRE | HenCRE",
@@ -87,7 +87,7 @@ const schema = {
       description:
         "A $180M sports complex is proposed for Clearwater&apos;s Landings Golf Course. Here is how sports complexes affect CRE values, which investment categories benefit most, and the risks investors should weigh before positioning near this project.",
       datePublished: "2026-10-15",
-      dateModified: "2026-10-15",
+      dateModified: "2026-10-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -283,6 +283,27 @@ export default function ClearwaterLandingsSportsComplexCREPage() {
         <h2 className="mt-10 text-2xl font-bold text-black">Related Clearwater and Pinellas County Commercial Real Estate Resources</h2>
         <RelatedLinks links={relatedLinks} />
       </article>
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
+          <Image
+            src="/images/barrett-henry-headshot.jpg"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
+          <div>
+            <p className="font-bold text-black">Barrett Henry</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
+            <p className="mt-2 text-sm text-[#666666]">
+              Barrett is a Broker Associate at REMAX Collective with 23+ years of real estate experience across Pinellas County and the broader Tampa Bay commercial market. He helps investors, landlords, and tenants navigate development-driven CRE opportunities. Learn more about{" "}
+              <Link href="/about" className="text-accent underline">Barrett&apos;s background</Link>{" "}
+              or explore <Link href="/services" className="text-accent underline">his services</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <CTASection
         heading="Positioning Near Clearwater&apos;s Next Major Development Anchor?"

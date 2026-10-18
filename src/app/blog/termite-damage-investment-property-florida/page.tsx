@@ -79,7 +79,7 @@ const schema = {
       description:
         "WDO findings on Florida investment properties trigger mandatory lender repair requirements that can consume years of rental income. Here is how to evaluate the repair-vs-sell decision.",
       datePublished: "2026-06-24",
-      dateModified: "2026-09-23",
+      dateModified: "2026-10-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -296,7 +296,7 @@ export default function TermiteDamageInvestmentPropertyPage() {
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

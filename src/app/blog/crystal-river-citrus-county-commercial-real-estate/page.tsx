@@ -65,7 +65,7 @@ const schema = {
       headline: "Crystal River Commercial Real Estate: Citrus County Guide",
       description: "Discover why Crystal River and Citrus County, FL are emerging commercial real estate opportunities. From tourism-driven retail to waterfront properties, explore the market now.",
       datePublished: "2026-07-18",
-      dateModified: "2026-10-08",
+      dateModified: "2026-10-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
