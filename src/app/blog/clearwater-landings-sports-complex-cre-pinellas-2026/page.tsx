@@ -87,11 +87,11 @@ const schema = {
       description:
         "A $180M sports complex is proposed for Clearwater&apos;s Landings Golf Course. Here is how sports complexes affect CRE values, which investment categories benefit most, and the risks investors should weigh before positioning near this project.",
       datePublished: "2026-10-15",
-      dateModified: "2026-10-18",
+      dateModified: "2026-10-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -206,7 +206,7 @@ export default function ClearwaterLandingsSportsComplexCREPage() {
           The commercial real estate impact of a major regional sports complex is well-documented across comparable markets. Tournament-grade multi-sport facilities create a category of demand that is genuinely incremental: visiting teams, parents, coaches, and spectators arrive from outside the local market, stay overnight, eat every meal off-site, and spend on retail and services they would not have purchased at home. For the commercial properties near the venue, this means new demand that does not compete with existing local spending - it adds to it.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The most direct beneficiaries in the immediate half-mile to two-mile radius are typically hotel properties. Limited-service and extended-stay hotels within five minutes of a major sports complex routinely outperform the broader market on tournament weekends by significant margins - RevPAR premiums of 15 to 25 percent on peak weekends are common in comparable markets like Kissimmee&apos;s ESPN Wide World of Sports area, Myrtle Beach, and the Sanford Sports Complex north of Orlando. The Clearwater Airpark corridor currently has limited hotel supply, which means a project approval would likely accelerate hotel development proposals for the sites along Airport Drive and the US-19 corridor within a five-minute drive of the complex.
+          The most direct beneficiaries in the immediate half-mile to two-mile radius are typically hotel properties. Limited-service and extended-stay hotels within five minutes of a major sports complex routinely outperform the broader market on tournament weekends by significant margins - RevPAR premiums of 15 to 25 percent on peak weekends are common in comparable markets like Kissimmee&apos;s ESPN Wide World of Sports area, Myrtle Beach, and the Sanford Sports Complex north of Orlando. The Clearwater Airpark corridor currently has limited hotel supply, which means a project approval would likely accelerate hotel development proposals for the sites along Airport Drive and the US-19 corridor within a five-minute drive of the complex. For context on the broader hospitality investment landscape, see our <Link href="/blog/tampa-bay-hotel-hospitality-cre-2026" className="text-accent underline">Tampa Bay hotel and hospitality CRE 2026 guide</Link>.
         </p>
         <p className="mt-4 text-[#666660] leading-relaxed">
           Restaurant and quick-service food-and-beverage space along the primary access corridors benefits from the visitor traffic pattern: tournament families arriving from Tampa, Orlando, or out of state for a weekend of games default to the most visible and convenient dining options near the venue. A well-positioned restaurant within walking distance of the complex or on the primary traffic route between the complex and nearby hotels is positioned to capture a meaningful share of that incremental meal volume every tournament weekend - typically 15 to 20 weekends per year for a well-booked multi-sport facility.
@@ -252,11 +252,11 @@ export default function ClearwaterLandingsSportsComplexCREPage() {
           , which covers how pickleball clubs, indoor sports venues, and recreational anchors are reshaping leasing demand across the region.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you&apos;re considering commercial or residential investments near the North Clearwater area, the team at{" "}
-          <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">
-            NowTB.com
-          </a>{" "}
-          tracks neighborhood-level market data across Tampa Bay, which can be useful context for understanding the full investment picture beyond the commercial layer.
+          If you&apos;re considering commercial or residential investments near the North Clearwater area, understanding the broader{" "}
+          <Link href="/markets/pinellas" className="text-accent underline">
+            Pinellas County commercial real estate market
+          </Link>{" "}
+          provides useful context for the full investment picture beyond the immediate submarket.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Investors and Landlords Do Right Now?</h2>
@@ -267,14 +267,14 @@ export default function ClearwaterLandingsSportsComplexCREPage() {
           Investors who buy a retail pad on the US-19 corridor because the fundamentals support it and the Landings project makes it better are positioned correctly. Investors who buy the same pad solely because the Landings project will transform the corridor are taking on project execution risk that the financial review suggests is not fully resolved. The difference is in how you underwrite the deal - and a commercial real estate broker with active Pinellas County market knowledge can help you see the difference clearly.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For property owners in the corridor who are considering selling in the current pre-announcement window, the question is whether waiting for a project approval and groundbreaking will produce a materially higher price, or whether the certainty of today&apos;s market conditions is worth more than a speculative premium that may take two to three years to materialize - and that depends on execution risk that is still genuinely open. If a quick sale of a commercial property in the Clearwater area makes more sense for your situation,{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">
-            FastSellEasySale.com
-          </a>{" "}
-          offers an alternative exit path worth exploring.
+          For property owners in the corridor who are considering selling in the current pre-announcement window, the question is whether waiting for a project approval and groundbreaking will produce a materially higher price, or whether the certainty of today&apos;s market conditions is worth more than a speculative premium that may take two to three years to materialize - and that depends on execution risk that is still genuinely open. Barrett&apos;s{" "}
+          <Link href="/services/dispositions" className="text-accent underline">
+            commercial property disposition services
+          </Link>{" "}
+          offer a direct path to evaluating your options without leaving money on the table.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Barrett Henry has been working commercial real estate transactions across Pinellas County for more than 23 years and holds a Broker Associate license with REMAX Collective. Whether you are evaluating land near the Landings site, repositioning a commercial property along the US-19 corridor, or looking for hotel or restaurant pad opportunities in North Clearwater, the conversations happening in this market right now - before a formal approval - are the ones that tend to produce the best positions.
+          Barrett Henry has been working commercial real estate transactions across Pinellas County for more than 23 years and holds a Broker Associate license with REMAX Collective. Whether you are evaluating land near the Landings site, repositioning a commercial property along the US-19 corridor, or looking for hotel or restaurant pad opportunities in North Clearwater, the conversations happening in this market right now - before a formal approval - are the ones that tend to produce the best positions. Learn more about <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> and <Link href="/services/acquisitions" className="text-accent underline">commercial acquisitions</Link> services for Pinellas County investors and operators.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions About the Clearwater Sports Complex and CRE</h2>

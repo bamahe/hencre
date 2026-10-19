@@ -85,11 +85,11 @@ const schema = {
       description:
         "Britton Plaza is clearing out. WestShore Plaza sold for $135M. Dale Mabry Highway - Tampa's primary commercial spine - is in the middle of a generational redevelopment cycle. Here is what investors and tenants need to know.",
       datePublished: "2026-09-05",
-      dateModified: "2026-10-13",
+      dateModified: "2026-10-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -230,7 +230,7 @@ export default function DaleMabryCorridorCRE2026Page() {
           <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">Tampa Bay medical office market</Link> remains one of the most supply-constrained segments of commercial real estate regionally, and Dale Mabry&apos;s South Tampa segment is at the center of that demand.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Land and redevelopment play.</strong> Properties with older improvements on large lots along the Westshore and mid-corridor segments are attracting developer interest as the mixed-use redevelopment thesis for the corridor solidifies. Owners of 30,000 to 100,000 square foot parcels with aging commercial improvements should evaluate whether their highest-and-best use is continued operation of the existing building or a sale to a developer who will pursue entitlements for a higher-density mixed-use project. If you own a commercial property on Dale Mabry and are curious about what it could be worth in the current redevelopment environment, Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> offer a direct path to evaluating your options -- from a quiet off-market sale to a fully marketed listing -- without leaving money on the table.
+          <strong>Land and redevelopment play.</strong> Properties with older improvements on large lots along the Westshore and mid-corridor segments are attracting developer interest as the mixed-use redevelopment thesis for the corridor solidifies. Owners of 30,000 to 100,000 square foot parcels with aging commercial improvements should evaluate whether their highest-and-best use is continued operation of the existing building or a sale to a developer who will pursue entitlements for a higher-density mixed-use project. If you own a commercial property on Dale Mabry and are curious about what it could be worth in the current redevelopment environment, Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link> offer a direct path to evaluating your options, from a quiet off-market sale to a fully marketed listing, without leaving money on the table.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Before any acquisition, investors should understand{" "}

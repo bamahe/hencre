@@ -86,11 +86,11 @@ const schema = {
       description:
         "Private equity and hyperscalers are pouring billions into Tampa Bay data center and AI infrastructure projects in 2026. What it means for commercial real estate owners, investors, and landowners.",
       datePublished: "2026-09-22",
-      dateModified: "2026-10-16",
+      dateModified: "2026-10-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

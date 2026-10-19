@@ -87,11 +87,11 @@ const schema = {
       description:
         "Wesley Chapel is one of Tampa Bay's fastest-growing commercial submarkets. SR-54/SR-56 retail corridors, Bruce B. Downs medical office, flex industrial, and a strong development pipeline. A complete 2026 market guide for tenants and investors.",
       datePublished: "2026-09-30",
-      dateModified: "2026-10-06",
+      dateModified: "2026-10-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

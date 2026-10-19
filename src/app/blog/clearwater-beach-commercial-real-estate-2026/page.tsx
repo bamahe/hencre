@@ -86,11 +86,11 @@ const schema = {
       description:
         "A guide to commercial real estate investment on Clearwater Beach - hospitality, beachfront retail, cap rates, insurance considerations, and the Pelican Walk Plaza listing.",
       datePublished: "2026-09-09",
-      dateModified: "2026-10-14",
+      dateModified: "2026-10-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
