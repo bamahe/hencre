@@ -5254,3 +5254,55 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### 10. `/blog/tampa-bay-commercial-mortgage-rates-2026`
 - Fixed 49 em dashes (-- instead of —)
 - Updated dateModified to 2026-10-10
+
+## Batch 77 — 2026-10-19
+
+### 1. `/blog/clearwater-beach-commercial-real-estate-2026`
+- Updated jobTitle to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Updated dateModified to 2026-10-19
+
+### 2. `/blog/st-petersburg-commercial-real-estate-2026`
+- Fixed 13 em dashes (-- replaced with commas or periods throughout)
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-10-19
+
+### 3. `/blog/ybor-city-commercial-real-estate-tampa-2026`
+- Updated jobTitle to full credentials format
+- Added image and sameAs to author schema
+- Updated dateModified to 2026-10-19
+
+### 4. `/blog/dale-mabry-corridor-commercial-real-estate-tampa-2026`
+- Fixed 1 em dash (-- replaced with comma)
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-10-19
+
+### 5. `/blog/water-street-tampa-33-story-tower-downtown-cre-2026`
+- Fixed 2 em dashes (-- replaced with commas)
+- Updated footer from September 2026 to October 2026
+- Added image and sameAs to author schema
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-10-19
+- Added 3 internal links: ybor-city, restaurant-food-beverage-space-2026, south-tampa-commercial-real-estate-2026
+
+### 6. `/blog/wesley-chapel-commercial-real-estate-2026`
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-10-19
+
+### 7. `/blog/tampa-bay-data-center-cre-2026`
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-10-19
+
+### 8. `/blog/commercial-property-due-diligence-timeline`
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-10-19
+
+### 9. `/blog/florida-1031-exchange-what-investors-need-to-know`
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-10-19
+
+### 10. `/blog/clearwater-landings-sports-complex-cre-pinellas-2026`
+- Replaced nowtb.com external link with internal /markets/pinellas link
+- Replaced fastselleasysale.com external link with /services/dispositions link
+- Added 3 internal links: hotel-hospitality-cre-2026, tenant-representation, acquisitions
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-10-19
