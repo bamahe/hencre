@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay has Florida's highest concentration of craft breweries and a 43-acre Yuengling campus redevelopment underway. What brewery operators and CRE investors need to know about production space, taproom leasing, and entertainment district impacts.",
       datePublished: "2026-09-13",
-      dateModified: "2026-09-15",
+      dateModified: "2026-10-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -322,7 +322,7 @@ export default function TampaBayBreweryTaproomCREPage() {
           With 23+ years of real estate experience across Tampa Bay, I work with commercial tenants finding the right space and investors evaluating acquisitions throughout Hillsborough, Pinellas, Pasco, and Manatee Counties. If you are a brewery operator looking for production or taproom space, or an investor evaluating entertainment-adjacent commercial opportunities, let&apos;s talk about what fits your situation.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

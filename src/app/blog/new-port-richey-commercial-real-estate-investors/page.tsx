@@ -65,7 +65,7 @@ const schema = {
       headline: "New Port Richey CRE: Investor Opportunities 2026",
       description: "Discover why investors are targeting New Port Richey commercial real estate. Cap rates, NNN deals, and landlord strategy. Call Barrett at (813) 733-7907.",
       datePublished: "2026-07-22",
-      dateModified: "2026-09-10",
+      dateModified: "2026-10-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -214,7 +214,7 @@ export default function BlogPost() {
 
       {/* ---- Disclaimer ---- */}
       <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#999999]">Last updated: September 2026</p>
+        <p className="text-xs text-[#999999]">Last updated: October 2026</p>
         <p className="mt-1 text-xs text-[#999999]">
           This article is for informational purposes only and does not constitute legal, tax, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>

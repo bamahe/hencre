@@ -89,7 +89,7 @@ const schema = {
       description:
         "Wawa, Circle K, and next-generation fuel-retail centers as NNN investment assets in Tampa Bay. Cap rates, tenant credit, EV transition risk, and site selection.",
       datePublished: "2026-09-04",
-      dateModified: "2026-09-07",
+      dateModified: "2026-10-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -306,7 +306,7 @@ export default function TampaBayConvenienceStoreFuelRetailNNNPage() {
       </article>
 
       <p className="mx-auto max-w-3xl px-4 pt-2 pb-6 text-xs text-[#666666] sm:px-6 lg:px-8">
-        Last updated: September 2026
+        Last updated: October 2026
       </p>
 
       {/* ---- FAQ ---- */}

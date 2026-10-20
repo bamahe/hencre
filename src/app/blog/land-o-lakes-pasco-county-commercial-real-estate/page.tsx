@@ -80,7 +80,7 @@ const schema = {
       description:
         "Land O' Lakes is one of Pasco County's fastest-growing commercial real estate markets. Retail, medical office, flex, and investment opportunities along US-41 and SR-54.",
       datePublished: "2026-08-17",
-      dateModified: "2026-09-10",
+      dateModified: "2026-10-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

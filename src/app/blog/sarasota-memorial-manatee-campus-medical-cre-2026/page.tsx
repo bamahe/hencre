@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Sarasota Memorial Manatee Campus: What the $60M Land Deal Means for CRE | HenCRE",
+  title: "Sarasota Memorial Manatee Campus: $60M Land Deal CRE Impact",
   description:
     "Sarasota Memorial Health Care System approved a $60 million purchase of 120 acres near SR 64 and I-75 in Manatee County for a future hospital campus. Here is what investors and tenants need to know about the commercial real estate opportunity this creates.",
   alternates: {
@@ -91,7 +91,7 @@ const schema = {
       description:
         "Sarasota Memorial Health Care System approved a $60 million purchase of 120 acres near SR 64 and I-75 in Manatee County for a future hospital campus. A freestanding ER comes first, then a full medical campus. Here is the commercial real estate opportunity investors and tenants need to understand.",
       datePublished: "2026-10-18",
-      dateModified: "2026-10-18",
+      dateModified: "2026-10-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -46,7 +46,7 @@ const schema = {
       headline: "Brandon FL Commercial Real Estate: 2026 Market Guide",
       description: "Brandon&apos;s CRE market is moving fast. Discover what investors and tenants need to know about retail, medical office, industrial, and NNN investment in this established Hillsborough County submarket.",
       datePublished: "2026-08-31",
-      dateModified: "2026-09-27",
+      dateModified: "2026-10-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -324,7 +324,7 @@ export default function BlogPost() {
           to understand where Brandon sits in the county&apos;s commercial hierarchy.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">

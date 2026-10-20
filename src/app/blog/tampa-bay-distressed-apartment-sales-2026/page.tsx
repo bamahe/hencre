@@ -80,7 +80,7 @@ const schema = {
       description:
         "Occupancy at its lowest in a decade, rents slipping, and loans maturing into a higher-rate environment. Tampa Bay multifamily distress is creating both crisis and opportunity.",
       datePublished: "2026-10-17",
-      dateModified: "2026-10-17",
+      dateModified: "2026-10-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
