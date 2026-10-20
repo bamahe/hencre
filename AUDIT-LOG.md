@@ -4,6 +4,57 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-20 -- Batch 84 (10 pages improved)
+
+**Commit:** `bce829c` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/new-port-richey-pasco-county-commercial-real-estate-2026`
+- Shortened page title from 83 chars to 57 chars ("New Port Richey, Pasco County Commercial Real Estate 2026")
+- Fixed schema: jobTitle "Commercial Real Estate Advisor" -> "Broker Associate"
+- Removed nowtb.com from author sameAs array
+- Fixed publisher name from "REMAX Commercial Real Estate" to "HenCRE"
+- Added `dateModified: "2026-10-20"`
+- Fixed relatedLinks hrefs: added missing `/blog/` prefix on all 5 entries
+- Added `import Link from "next/link"` and `import Image from "next/image"`
+- Added 7 internal Link components to article body (grocery-anchored, medical office, NNN lease, 1031 exchange, Wesley Chapel, commercial broker, Pasco County market)
+- Fixed author bio: `<img>` -> `<Image>`, title "REALTOR & Commercial Real Estate Advisor" -> "Broker Associate", added links to /about and /services
+
+### 2. `/blog/sarasota-memorial-manatee-campus-medical-cre-2026`
+- Shortened page title from 81 chars to 59 chars ("Sarasota Memorial Manatee Campus: $60M Land Deal CRE Impact")
+- Updated `dateModified` to "2026-10-20"
+
+### 3. `/blog/tampa-bay-distressed-apartment-sales-2026`
+- Updated `dateModified` to "2026-10-20"
+
+### 4. `/blog/land-o-lakes-pasco-county-commercial-real-estate`
+- Updated `dateModified` to "2026-10-20"
+
+### 5. `/blog/tampa-bay-convenience-store-fuel-retail-nnn-investment-2026`
+- Updated `dateModified` to "2026-10-20"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 6. `/blog/tampa-bay-opportunity-zones-cre-2026`
+- Updated `dateModified` to "2026-10-20"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 7. `/blog/plant-city-hillsborough-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-20"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 8. `/blog/tampa-bay-brewery-taproom-cre-2026`
+- Updated `dateModified` to "2026-10-20"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 9. `/blog/new-port-richey-commercial-real-estate-investors`
+- Updated `dateModified` to "2026-10-20"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 10. `/blog/brandon-hillsborough-commercial-real-estate-market-2026`
+- Updated `dateModified` to "2026-10-20"
+- Updated footer: "September 2026" -> "October 2026"
+
+---
+
 ## 2026-10-18 -- Batch 83 (10 pages improved)
 
 **Commit:** `e9e7c02` | **Build:** clean (0 errors) | **Pages improved:** 10
