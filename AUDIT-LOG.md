@@ -4,6 +4,53 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-21 -- Batch 85 (10 pages improved)
+
+**Commit:** `964f47a` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-industrial-market-q4-2026`
+- First audit pass (only unaudited blog remaining)
+- Updated `dateModified` to "2026-10-21"
+
+### 2. `/blog/north-pinellas-dunedin-tarpon-springs-commercial-real-estate-2026`
+- Shortened page title from 91 chars to 51 chars ("North Pinellas Commercial Real Estate 2026 | HenCRE")
+- Updated `dateModified` to "2026-10-21"
+
+### 3. `/blog/westshore-plaza-redevelopment-cre-impact-tampa-2026`
+- Shortened page title from 83 chars to 62 chars ("WestShore Plaza Redevelopment: CRE Impact Tampa 2026 | HenCRE")
+- Updated `dateModified` to "2026-10-21"
+
+### 4. `/blog/lutz-fl-commercial-real-estate-2026`
+- Shortened page title from 78 chars to 44 chars ("Lutz FL Commercial Real Estate 2026 | HenCRE")
+- Updated `dateModified` to "2026-10-21"
+
+### 5. `/blog/florida-property-insurance-tampa-bay-cre-2026`
+- Shortened page title from 75 chars to 57 chars ("Florida Property Insurance & Tampa Bay CRE 2026 | HenCRE")
+- Updated `dateModified` to "2026-10-21"
+
+### 6. `/blog/tampa-bay-grocery-anchored-retail-investment-2026`
+- Shortened page title from 74 chars to 58 chars ("Tampa Bay Grocery-Anchored Retail Investment 2026 | HenCRE")
+- Updated `dateModified` to "2026-10-21"
+
+### 7. `/blog/tampa-bay-flex-office-coworking-2026`
+- Shortened page title from 74 chars to 47 chars ("Tampa Bay Flex Office & Coworking 2026 | HenCRE")
+- Updated `dateModified` to "2026-10-21"
+
+### 8. `/blog/tampa-bay-residential-slowdown-cre-opportunity-2026`
+- Shortened page title from 72 chars to 58 chars ("Tampa Bay Housing Slowdown & CRE Opportunity 2026 | HenCRE")
+- Updated `dateModified` to "2026-10-21"
+- Updated footer: "September 2026" -> "October 2026"
+
+### 9. `/blog/tampa-bay-build-to-rent-cre-2026`
+- Updated `dateModified` to "2026-10-21" (was "2026-09-02")
+- Updated footer: "September 2026" -> "October 2026"
+
+### 10. `/blog/port-tampa-bay-fourth-cruise-terminal-channel-district-cre`
+- Updated `dateModified` to "2026-10-21" (was "2026-09-10")
+- Updated footer: "September 2026" -> "October 2026"
+
+---
+
 ## 2026-10-20 -- Batch 84 (10 pages improved)
 
 **Commit:** `bce829c` | **Build:** clean (0 errors) | **Pages improved:** 10
