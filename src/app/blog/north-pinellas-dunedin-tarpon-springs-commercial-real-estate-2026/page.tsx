@@ -14,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "North Pinellas Commercial Real Estate 2026: Dunedin, Tarpon Springs, Safety Harbor | HenCRE",
+  title: "North Pinellas Commercial Real Estate 2026 | HenCRE",
   description:
     "Dunedin, Tarpon Springs, Safety Harbor, and Oldsmar form a distinct commercial real estate cluster in North Pinellas County — boutique retail, industrial, medical, and waterfront investment. Here is the 2026 market guide.",
   alternates: {
@@ -89,7 +89,7 @@ const schema = {
       description:
         "Dunedin, Tarpon Springs, Safety Harbor, and Oldsmar form a distinct commercial real estate cluster in North Pinellas County — boutique retail, industrial, medical, and waterfront investment in 2026.",
       datePublished: "2026-09-02",
-      dateModified: "2026-10-14",
+      dateModified: "2026-10-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

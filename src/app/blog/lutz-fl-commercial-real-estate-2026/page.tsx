@@ -15,7 +15,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Lutz FL Commercial Real Estate 2026: High-Income North Tampa Corridor | HenCRE",
+  title: "Lutz FL Commercial Real Estate 2026 | HenCRE",
   description:
     "Lutz sits at the crossroads of two of Florida's fastest-growing counties. High household incomes, undersupplied commercial inventory, and no new anchor competition make it one of North Tampa's most compelling commercial opportunities in 2026. Call (813) 733-7907.",
   alternates: { canonical: "https://hencre.com/blog/lutz-fl-commercial-real-estate-2026" },
@@ -86,7 +86,7 @@ const schema = {
       description:
         "Lutz sits at the crossroads of two of Florida's fastest-growing counties. High household incomes, undersupplied commercial inventory, and no new anchor competition make it one of North Tampa's most compelling commercial opportunities in 2026.",
       datePublished: "2026-10-04",
-      dateModified: "2026-10-06",
+      dateModified: "2026-10-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

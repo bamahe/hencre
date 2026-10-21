@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay ranks 6th in the nation for build-to-rent homes under construction, with 156% supply growth in five years and 1,400+ units in the active pipeline. What BTR means for commercial real estate investors in 2026.",
       datePublished: "2026-08-24",
-      dateModified: "2026-09-02",
+      dateModified: "2026-10-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -351,7 +351,7 @@ export default function TampaBayBuildToRentCRE2026Page() {
           With 23+ years of commercial real estate experience across Tampa Bay, I work with investors evaluating income-producing properties across all asset classes — including multifamily-adjacent opportunities in the region&apos;s highest-growth corridors. Whether you are evaluating a BTR acquisition, exploring the retail demand implications of new residential development, or looking to redeploy capital from one asset class to another, local market knowledge shapes the quality of that decision. Let&apos;s talk about what fits your situation.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

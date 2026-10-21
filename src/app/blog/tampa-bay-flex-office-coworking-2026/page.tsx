@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Flex Office & Coworking 2026: What Tenants Need to Know | HenCRE",
+  title: "Tampa Bay Flex Office & Coworking 2026 | HenCRE",
   description:
     "Tampa Bay has reached 2.5% flex office penetration and is one of the fastest-growing coworking markets in the U.S. in 2026. Here's how to evaluate flexible workspace options versus traditional leases.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-flex-office-coworking-2026" },
@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay has reached 2.5% flex office penetration and is one of the fastest-growing coworking markets in the U.S. in 2026. Here's how to evaluate flexible workspace options versus traditional leases.",
       datePublished: "2026-08-21",
-      dateModified: "2026-10-08",
+      dateModified: "2026-10-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

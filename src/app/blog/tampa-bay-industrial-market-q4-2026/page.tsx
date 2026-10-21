@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay industrial vacancy is pulling back from the Q3 2026 peak of 7.4% as absorption turns positive and the construction pipeline hits a multi-year low. Rents are approaching $9.80/SF NNN. A full market update for tenants and investors entering Q4 2026.",
       datePublished: "2026-10-19",
-      dateModified: "2026-10-19",
+      dateModified: "2026-10-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

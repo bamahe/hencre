@@ -13,7 +13,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Grocery-Anchored Retail Centers in Tampa Bay: Investor Guide 2026 | HenCRE",
+  title: "Tampa Bay Grocery-Anchored Retail Investment 2026 | HenCRE",
   description:
     "Why grocery-anchored retail centers remain among the most sought-after commercial investments in Tampa Bay -- cap rates, anchor operators, deal criteria, and what to watch in 2026.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-grocery-anchored-retail-investment-2026" },
@@ -84,7 +84,7 @@ const schema = {
       description:
         "Cap rates, anchor operators, and acquisition criteria for grocery-anchored shopping centers across Tampa Bay's tight retail market.",
       datePublished: "2026-08-25",
-      dateModified: "2026-10-10",
+      dateModified: "2026-10-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

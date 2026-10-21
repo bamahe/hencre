@@ -15,7 +15,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Housing Slowdown: What CRE Investors Should Know 2026 | HenCRE",
+  title: "Tampa Bay Housing Slowdown & CRE Opportunity 2026 | HenCRE",
   description:
     "Tampa Bay's residential market is softening -- inventory up, prices down, days on market rising. Here's what that signals for commercial real estate investors and how to position accordingly.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-residential-slowdown-cre-opportunity-2026" },
@@ -79,7 +79,7 @@ const schema = {
       headline: "What Tampa Bay's Housing Market Slowdown Signals for CRE Investors in 2026",
       description: "Tampa Bay's residential market softening creates commercial real estate signals -- cap rate changes, multifamily dynamics, retail demand shifts, and investor reallocation.",
       datePublished: "2026-07-19",
-      dateModified: "2026-09-04",
+      dateModified: "2026-10-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -298,7 +298,7 @@ export default function ResidentialSlowdownCREOpportunityPage() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: September 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: October 2026</p>
       </section>
 
       <CTASection

@@ -86,7 +86,7 @@ const schema = {
       description:
         "Site work began August 2026 on Port Tampa Bay's fourth cruise terminal. The projected $100M annual economic impact will reshape commercial real estate demand in the Channel District and nearby waterfront submarkets.",
       datePublished: "2026-08-05",
-      dateModified: "2026-09-10",
+      dateModified: "2026-10-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -300,7 +300,7 @@ export default function PortTampaBayFourthCruiseTerminalPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

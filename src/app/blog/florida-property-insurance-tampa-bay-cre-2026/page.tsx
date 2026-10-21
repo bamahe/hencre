@@ -15,7 +15,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Florida Property Insurance & Tampa Bay Commercial Real Estate 2026 | HenCRE",
+  title: "Florida Property Insurance & Tampa Bay CRE 2026 | HenCRE",
   description:
     "Florida property insurance costs are reshaping how Tampa Bay commercial real estate deals get underwritten, priced, and financed. Here is what investors, buyers, and tenants need to know about insurance in 2026.",
   alternates: {
@@ -103,7 +103,7 @@ const schema = {
       description:
         "How elevated property insurance costs reshape underwriting, cap rates, and submarket selection for Tampa Bay commercial real estate investors and tenants in 2026.",
       datePublished: "2026-09-17",
-      dateModified: "2026-10-18",
+      dateModified: "2026-10-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "WestShore Plaza Redevelopment: What It Means for CRE Investors and Tenants | HenCRE",
+  title: "WestShore Plaza Redevelopment: CRE Impact Tampa 2026 | HenCRE",
   description:
     "Third Lake Partners bought WestShore Plaza for $135M and filed a 14-block mixed-use plan. A second Westshore hotel site is becoming 398 apartments. Here is what the Westshore District's transformation means for commercial real estate investors and tenants in 2026.",
   alternates: { canonical: "https://hencre.com/blog/westshore-plaza-redevelopment-cre-impact-tampa-2026" },
@@ -80,7 +80,7 @@ const schema = {
       description:
         "Third Lake Partners acquired WestShore Plaza for $135M and filed a 14-block mixed-use plan. A second Westshore hotel site is converting to 398 apartments. This guide covers what both projects mean for investors and tenants in Tampa's Westshore corridor.",
       datePublished: "2026-10-11",
-      dateModified: "2026-10-13",
+      dateModified: "2026-10-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
