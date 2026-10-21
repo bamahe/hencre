@@ -2098,5 +2098,21 @@
     "county": "Pasco",
     "businessType": "commercial property management",
     "image": null
+  },
+  {
+    "slug": "land-o-lakes-pasco-county-commercial-real-estate-2026",
+    "title": "Land O' Lakes CRE Market Guide 2026 | Pasco County",
+    "excerpt": "Land O' Lakes is one of Pasco County's fastest-growing commercial submarkets, driven by population surges, major corridor development, and strong demand for retail, medical, and industrial space.",
+    "date": "2026-10-21",
+    "category": "city-market",
+    "city": "Land O' Lakes",
+    "county": "Pasco",
+    "businessType": null,
+    "image": {
+      "url": "/images/blog/land-o-lakes-pasco-county-commercial-real-estate-2026.jpg",
+      "alt": "An aerial view of a city with a river running through it",
+      "photographer": "Michael Moloney",
+      "link": "https://unsplash.com/@mjmolo"
+    }
   }
 ]
