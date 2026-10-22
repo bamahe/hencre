@@ -4,6 +4,53 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-22 -- Batch 86 (10 pages improved)
+
+**Commit:** `d7a34cc` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/land-o-lakes-pasco-county-commercial-real-estate-2026`
+- Added `import Image from "next/image"` and `import Link from "next/link"`
+- Fixed schema `jobTitle` from "Commercial Real Estate Advisor" to "Broker Associate"
+- Removed `nowtb.com` from schema `sameAs` array
+- Fixed schema `publisher.name` from "REMAX Commercial Real Estate" to "HenCRE"
+- Added `dateModified: "2026-10-22"` to schema
+- Fixed author bio `<img>` to `<Image>` component
+- Updated author bio title to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+
+### 2. `/blog/polk-county-medical-office-cre-2026`
+- Updated `dateModified` to "2026-10-22" (first audit pass; page was already well-structured with correct schema)
+
+### 3. `/blog/land-o-lakes-pasco-county-commercial-real-estate`
+- Fixed author bio Unsplash placeholder headshot to `/images/barrett-henry-headshot.jpg`
+- Updated `dateModified` to "2026-10-22"
+
+### 4. `/blog/how-to-calculate-commercial-property-roi`
+- Fixed author bio Unsplash placeholder headshot to `/images/barrett-henry-headshot.jpg`
+- Updated `dateModified` to "2026-10-22"
+
+### 5. `/blog/why-tampa-bay-cre-is-booming`
+- Fixed author bio Unsplash placeholder headshot to `/images/barrett-henry-headshot.jpg`
+- Updated `dateModified` to "2026-10-22"
+
+### 6. `/blog/5-mistakes-first-time-commercial-tenants-make`
+- Fixed author bio Unsplash placeholder headshot to `/images/barrett-henry-headshot.jpg`
+- Updated `dateModified` to "2026-10-22"
+
+### 7. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Fixed author bio Unsplash placeholder headshot to `/images/barrett-henry-headshot.jpg`
+- Updated `dateModified` to "2026-10-22"
+
+### 8. `/blog/how-commercial-leases-differ-from-residential`
+- Updated `dateModified` to "2026-10-22"
+
+### 9. `/blog/clearwater-office-space-professional-services-firms`
+- Updated `dateModified` to "2026-10-22"
+
+### 10. `/blog/tampa-bay-opportunity-zones-cre-2026`
+- Updated `dateModified` to "2026-10-22"
+
+---
+
 ## 2026-10-21 -- Batch 85 (10 pages improved)
 
 **Commit:** `964f47a` | **Build:** clean (0 errors) | **Pages improved:** 10
