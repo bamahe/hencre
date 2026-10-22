@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay has Qualified Opportunity Zones in Ybor City, East Tampa, West Tampa, Port of Tampa, and near USF. A complete guide to CRE investing in Tampa Bay's designated OZ tracts.",
       datePublished: "2026-08-12",
-      dateModified: "2026-10-20",
+      dateModified: "2026-10-22",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

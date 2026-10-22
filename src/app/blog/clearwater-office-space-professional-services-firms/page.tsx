@@ -55,7 +55,7 @@ const schema = {
       headline: "Clearwater Office Space for Professional Services Firms",
       description: "Find the right office space in Clearwater, FL for your law, accounting, or insurance firm. Get expert CRE guidance from Barrett Henry, Broker Associate at REMAX Collective.",
       datePublished: "2026-07-18",
-      dateModified: "2026-10-09",
+      dateModified: "2026-10-22",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

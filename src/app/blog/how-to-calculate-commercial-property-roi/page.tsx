@@ -85,7 +85,7 @@ const schema = {
       description:
         "ROI calculation methods for commercial real estate investors: cap rate, cash-on-cash, IRR, and total return.",
       datePublished: "2026-05-31",
-      dateModified: "2026-10-17",
+      dateModified: "2026-10-22",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -307,7 +307,7 @@ export default function CalculateROIPage() {
       <section className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-2xl border border-[#E5E5E5] bg-white p-6">
           <Image
-            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&h=80&fit=crop"
+            src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}

@@ -87,7 +87,7 @@ const schema = {
       description:
         "AdventHealth paid $20.9 million for a Davenport medical office building in October 2026 while advancing a 400-bed South Lakeland campus and a Winter Haven hospital. Healthcare is reshaping Polk County commercial real estate for investors and tenants.",
       datePublished: "2026-10-20",
-      dateModified: "2026-10-20",
+      dateModified: "2026-10-22",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

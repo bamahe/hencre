@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -30,19 +32,19 @@ const articleSchema = {
   headline: "Land O' Lakes CRE Market Guide 2026 | Pasco County",
   description: "Land O' Lakes commercial real estate is booming. Discover what investors and tenants need to know in 2026. Call Barrett Henry at (813) 733-7907.",
   datePublished: "2026-10-21",
+  dateModified: "2026-10-22",
   author: {
     "@type": "Person",
     name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
+    jobTitle: "Broker Associate",
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
-      "https://nowtb.com",
       "https://barretthenry.remax.com",
     ],
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
   },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
   url: "https://hencre.com/blog/land-o-lakes-pasco-county-commercial-real-estate-2026",
 };
 
@@ -212,16 +214,16 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Commercial Real Estate Advisor"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"
           />
           <div>
             <p className="font-bold text-black">Barrett Henry</p>
-            <p className="text-sm text-[#666666]">REALTOR\u00AE & Commercial Real Estate Advisor at REMAX Collective</p>
+            <p className="text-sm text-[#666666]">Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame</p>
             <p className="mt-2 text-sm text-[#666666]">
               Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>

@@ -85,7 +85,7 @@ const schema = {
       description:
         "Key differences between commercial and residential leases: lease terms, negotiation, expenses, and tenant protections.",
       datePublished: "2026-05-18",
-      dateModified: "2026-10-13",
+      dateModified: "2026-10-22",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
