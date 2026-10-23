@@ -80,7 +80,7 @@ const schema = {
       description:
         "The US 301 corridor in East Tampa is one of Florida's fastest-growing industrial submarkets. Here's what investors need to know about the projects, rental rates, and long-term investment case.",
       datePublished: "2026-08-12",
-      dateModified: "2026-10-09",
+      dateModified: "2026-10-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

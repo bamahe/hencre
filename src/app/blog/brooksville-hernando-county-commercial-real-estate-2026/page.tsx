@@ -64,7 +64,7 @@ const schema = {
       headline: "Brooksville Hernando County CRE Investment Guide 2026",
       description: "Brooksville commercial real estate offers NNN deals, retail growth, and low competition. Call Barrett Henry at (813) 733-7907 to find your next investment.",
       datePublished: "2026-09-14",
-      dateModified: "2026-09-27",
+      dateModified: "2026-10-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

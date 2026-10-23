@@ -14,7 +14,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Dunedin CRE Investment: What Landlords Need to Know",
+  title: "Dunedin CRE Investment: What Landlords Need to Know | HenCRE",
   description: "Dunedin's tight commercial inventory and lifestyle demand make it a strong landlord market. Call Barrett Henry at (813) 733-7907 to explore opportunities.",
   alternates: { canonical: "https://hencre.com/blog/dunedin-commercial-real-estate-landlord-investment-guide" },
   openGraph: {
@@ -42,11 +42,11 @@ const schema = {
       headline: "Dunedin CRE Investment: What Landlords Need to Know",
       description: "Dunedin's tight commercial inventory and lifestyle demand make it a strong landlord market. Call Barrett Henry at (813) 733-7907 to explore opportunities.",
       datePublished: "2026-09-23",
-      dateModified: "2026-10-08",
+      dateModified: "2026-10-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
+        jobTitle: "Broker Associate",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: [
           "https://hencre.com/about",
