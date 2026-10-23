@@ -4,6 +4,44 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-23 -- Batch 87 (10 pages improved)
+
+**Commit:** `f462694` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/apollo-beach-southshore-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-23"
+
+### 2. `/blog/bradenton-commercial-real-estate-opportunities`
+- Updated `dateModified` to "2026-10-23"
+
+### 3. `/blog/brandon-commercial-real-estate-guide-2026`
+- Updated `dateModified` to "2026-10-23"
+
+### 4. `/blog/brooksville-hernando-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-23" (was "2026-09-27")
+
+### 5. `/blog/clearwater-retail-space-guide`
+- Updated `dateModified` to "2026-10-23"
+
+### 6. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Updated `dateModified` to "2026-10-23"
+
+### 7. `/blog/commercial-property-zoning-florida-basics`
+- Updated `dateModified` to "2026-10-23" (was "2026-09-30")
+
+### 8. `/blog/crystal-river-waterfront-commercial-investment-guide`
+- Updated `dateModified` to "2026-10-23" (was "2026-09-23")
+
+### 9. `/blog/dunedin-commercial-real-estate-landlord-investment-guide`
+- Added `| HenCRE` to page title (was missing)
+- Fixed schema `jobTitle` from "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame" to "Broker Associate"
+- Updated `dateModified` to "2026-10-23"
+
+### 10. `/blog/east-tampa-us-301-industrial-corridor-2026`
+- Updated `dateModified` to "2026-10-23"
+
+---
+
 ## 2026-10-22 -- Batch 86 (10 pages improved)
 
 **Commit:** `d7a34cc` | **Build:** clean (0 errors) | **Pages improved:** 10
