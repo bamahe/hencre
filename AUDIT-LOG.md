@@ -4,6 +4,54 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-24 -- Batch 88 (9 pages improved)
+
+**Commit:** `416d2eb` | **Build:** clean (0 errors) | **Pages improved:** 9
+
+### 1. `/blog/international-plaza-tampa-simon-westshore-retail-cre-2026`
+- Updated `dateModified` to "2026-10-24" (first audit pass; page already well-structured)
+
+### 2. `/blog/tampa-bay-retail-market-q4-2026`
+- Updated `dateModified` to "2026-10-24" (first audit pass; page already well-structured)
+
+### 3. `/blog/land-o-lakes-nnn-landlord-investment-strategy-pasco`
+- Added `import Image from "next/image"`
+- Fixed schema `jobTitle` from "Commercial Real Estate Advisor" to "Broker Associate"
+- Fixed `publisher.name` from "REMAX Commercial Real Estate" to "HenCRE"
+- Removed `nowtb.com` from schema `sameAs` array
+- Added `dateModified: "2026-10-24"` (was missing)
+- Fixed `<img>` to `<Image>` component in author bio
+- Added `| HenCRE` to page title
+
+### 4. `/blog/palm-harbor-pinellas-county-commercial-real-estate-2026`
+- Added `import Image from "next/image"`
+- Fixed schema `jobTitle` from "Commercial Real Estate Advisor" to "Broker Associate"
+- Fixed `publisher.name` from "REMAX Commercial Real Estate" to "HenCRE"
+- Fixed `<img>` to `<Image>` component in author bio
+- Updated `dateModified` to "2026-10-24" (was "2026-10-06")
+
+### 5. `/blog/lakeland-polk-county-nnn-landlord-investment-strategy`
+- Added `import Image from "next/image"`
+- Fixed schema `jobTitle` from "Commercial Real Estate Advisor" to "Broker Associate"
+- Fixed `publisher.name` from "REMAX Commercial Real Estate" to "HenCRE"
+- Fixed `<img>` to `<Image>` component in author bio
+- Updated `dateModified` to "2026-10-24" (was "2026-10-15")
+
+### 6. `/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide`
+- Removed `nowtb.com` from schema `sameAs` array
+- Updated `dateModified` to "2026-10-24" (was "2026-09-25")
+
+### 7. `/blog/tampa-bay-experience-entertainment-cre-2026`
+- Updated `dateModified` to "2026-10-24" (was "2026-10-02")
+
+### 8. `/blog/pinellas-county-industrial-cre-2026`
+- Updated `dateModified` to "2026-10-24" (was "2026-10-02")
+
+### 9. `/blog/tampa-hillsborough-commercial-real-estate-guide-2026`
+- Updated `dateModified` to "2026-10-24" (was "2026-10-03")
+
+---
+
 ## 2026-10-23 -- Batch 87 (10 pages improved)
 
 **Commit:** `f462694` | **Build:** clean (0 errors) | **Pages improved:** 10
