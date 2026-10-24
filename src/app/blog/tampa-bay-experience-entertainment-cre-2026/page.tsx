@@ -86,7 +86,7 @@ const schema = {
       description:
         "Pickleball clubs, food halls, escape rooms, and indoor sports venues are reshaping Tampa Bay CRE in 2026. Here is what landlords, investors, and entertainment tenants need to know.",
       datePublished: "2026-09-01",
-      dateModified: "2026-10-02",
+      dateModified: "2026-10-24",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

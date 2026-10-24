@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay retail enters Q4 2026 with vacancy near 3.8%, asking rents above $27/SF NNN, and holiday-season demand compressing already-tight corridors. A full market update for tenants, landlords, and investors.",
       datePublished: "2026-10-21",
-      dateModified: "2026-10-21",
+      dateModified: "2026-10-24",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

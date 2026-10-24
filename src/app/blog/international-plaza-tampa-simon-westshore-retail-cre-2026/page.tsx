@@ -88,7 +88,7 @@ const schema = {
       description:
         "Simon Property Group is investing more than $250 million to redevelop International Plaza in Tampa's Westshore district. What the investment signals for retail tenants and investors across the Westshore corridor in 2026.",
       datePublished: "2026-10-22",
-      dateModified: "2026-10-22",
+      dateModified: "2026-10-24",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -32,7 +32,7 @@ const articleSchema = {
   headline: "Wesley Chapel CRE: What Investors & Tenants Must Know",
   description: "Wesley Chapel commercial real estate is moving fast. Learn what's driving demand and call Barrett Henry at (813) 733-7907 to find your space or investment.",
   datePublished: "2026-09-18",
-  dateModified: "2026-09-25",
+  dateModified: "2026-10-24",
   author: {
     "@type": "Person",
     name: "Barrett Henry",
@@ -40,7 +40,6 @@ const articleSchema = {
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
-      "https://nowtb.com",
       "https://barretthenry.remax.com",
     ],
     worksFor: { "@type": "Organization", name: "REMAX Collective" },

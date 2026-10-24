@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
@@ -31,11 +32,11 @@ const articleSchema = {
   headline: "Palm Harbor, Pinellas County FL: Commercial Real Estate Opportunities in 2026",
   description: "Explore Palm Harbor's commercial real estate market in 2026. From retail corridors to medical office space, discover why this Pinellas County gem is attracting savvy investors and tenants.",
   datePublished: "2026-10-05",
-  dateModified: "2026-10-06",
+  dateModified: "2026-10-24",
   author: {
     "@type": "Person",
     name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
+    jobTitle: "Broker Associate",
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
@@ -43,7 +44,7 @@ const articleSchema = {
     ],
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
   },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
   url: "https://hencre.com/blog/palm-harbor-pinellas-county-commercial-real-estate-2026",
 };
 
@@ -216,9 +217,9 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Commercial Real Estate Advisor"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"

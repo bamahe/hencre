@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Hero from "@/components/Hero";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -12,11 +13,11 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Land O' Lakes NNN Investment Strategy 2026",
-  description: "Land O' Lakes NNN retail investments offer strong fundamentals. Call Barrett Henry at (813) 733-7907 to find the right deal in Pasco County.",
+  title: "Land O’ Lakes NNN Investment Strategy 2026 | HenCRE",
+  description: "Land O’ Lakes NNN retail investments offer strong fundamentals. Call Barrett Henry at (813) 733-7907 to find the right deal in Pasco County.",
   alternates: { canonical: "https://hencre.com/blog/land-o-lakes-nnn-landlord-investment-strategy-pasco" },
   openGraph: {
-    title: "Land O' Lakes NNN Investment Strategy 2026",
+    title: "Land O’ Lakes NNN Investment Strategy 2026 | HenCRE",
     description: "Land O' Lakes NNN retail investments offer strong fundamentals. Call Barrett Henry at (813) 733-7907 to find the right deal in Pasco County.",
     url: "https://hencre.com/blog/land-o-lakes-nnn-landlord-investment-strategy-pasco",
     type: "article",
@@ -30,19 +31,19 @@ const articleSchema = {
   headline: "Land O' Lakes NNN Investment Strategy 2026",
   description: "Land O' Lakes NNN retail investments offer strong fundamentals. Call Barrett Henry at (813) 733-7907 to find the right deal in Pasco County.",
   datePublished: "2026-10-23",
+  dateModified: "2026-10-24",
   author: {
     "@type": "Person",
     name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
+    jobTitle: "Broker Associate",
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
-      "https://nowtb.com",
       "https://barretthenry.remax.com",
     ],
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
   },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
+  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
   url: "https://hencre.com/blog/land-o-lakes-nnn-landlord-investment-strategy-pasco",
 };
 
@@ -211,9 +212,9 @@ export default function BlogPost() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
-            alt="Barrett Henry, Commercial Real Estate Advisor"
+            alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
             className="rounded-full"
