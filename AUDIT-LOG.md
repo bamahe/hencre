@@ -4,6 +4,45 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-25 -- Batch 89 (10 pages improved)
+
+**Commit:** `b512d0c` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/zephyrhills-east-pasco-county-commercial-real-estate-2026`
+- First audit pass (page was already well-structured with correct schema)
+- Updated `dateModified` to "2026-10-25" (was "2026-10-24")
+
+### 2. `/blog/bradenton-manatee-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-25" (was "2026-10-17")
+
+### 3. `/blog/florida-1031-exchange-what-investors-need-to-know`
+- Fixed schema `jobTitle` from long credential string to "Broker Associate"
+- Updated `dateModified` to "2026-10-25" (was "2026-10-19")
+
+### 4. `/blog/naples-collier-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-25" (was "2026-10-17")
+
+### 5. `/blog/pasco-county-commercial-development-2026`
+- Updated `dateModified` to "2026-10-25" (was "2026-10-17")
+
+### 6. `/blog/commercial-property-due-diligence-timeline`
+- Fixed schema `jobTitle` from long credential string to "Broker Associate"
+- Updated `dateModified` to "2026-10-25" (was "2026-10-19")
+
+### 7. `/blog/tampa-bay-spec-suites-office-2026`
+- Updated `dateModified` to "2026-10-25" (was "2026-10-17")
+
+### 8. `/blog/tampa-rays-ballpark-dale-mabry-cre-2026`
+- Updated `dateModified` to "2026-10-25" (was "2026-10-17")
+
+### 9. `/blog/tampa-bay-senior-housing-cre-investment-2026`
+- Updated `dateModified` to "2026-10-25" (was "2026-10-17")
+
+### 10. `/blog/1031-exchange-tampa-bay-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-25" (was "2026-10-18")
+
+---
+
 ## 2026-10-24 -- Batch 88 (9 pages improved)
 
 **Commit:** `416d2eb` | **Build:** clean (0 errors) | **Pages improved:** 9
