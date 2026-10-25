@@ -80,7 +80,7 @@ const schema = {
       description:
         "Explore Bradenton and Manatee County commercial real estate in 2026. Discover top submarkets, investment opportunities, and why this Gulf Coast county is attracting serious CRE attention.",
       datePublished: "2026-08-14",
-      dateModified: "2026-10-17",
+      dateModified: "2026-10-25",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

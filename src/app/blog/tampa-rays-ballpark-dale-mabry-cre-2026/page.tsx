@@ -87,7 +87,7 @@ const schema = {
       description:
         "The $2.36B Tampa Bay Rays ballpark at HCC Dale Mabry was approved August 2026 with Opening Day 2029. What stadium-anchored development means for commercial real estate investors and tenants along the Dale Mabry corridor — restaurants, hotels, entertainment, and mixed-use.",
       datePublished: "2026-10-07",
-      dateModified: "2026-10-17",
+      dateModified: "2026-10-25",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

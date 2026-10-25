@@ -89,7 +89,7 @@ const schema = {
       description:
         "AdventHealth's new 35,000 SF medical campus expansion, US-301 corridor demand, and east Pasco County's population surge are driving CRE opportunities in Zephyrhills. A market guide for investors, tenants, and owner-users.",
       datePublished: "2026-10-23",
-      dateModified: "2026-10-24",
+      dateModified: "2026-10-25",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

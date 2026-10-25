@@ -80,11 +80,11 @@ const schema = {
       description:
         "Florida-specific 1031 exchange considerations for commercial real estate investors.",
       datePublished: "2026-05-28",
-      dateModified: "2026-10-19",
+      dateModified: "2026-10-25",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
+        jobTitle: "Broker Associate",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

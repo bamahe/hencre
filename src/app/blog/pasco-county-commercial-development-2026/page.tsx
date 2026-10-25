@@ -80,7 +80,7 @@ const schema = {
       description:
         "Pasco County commercial real estate growth — development trends, key corridors, and investment opportunities.",
       datePublished: "2026-06-07",
-      dateModified: "2026-10-17",
+      dateModified: "2026-10-25",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -80,7 +80,7 @@ const schema = {
       description:
         "Naples and Collier County commercial real estate in 2026 -- Fifth Avenue South retail, Class A office, medical real estate, Marco Island, and eastern Collier development land.",
       datePublished: "2026-08-17",
-      dateModified: "2026-10-17",
+      dateModified: "2026-10-25",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
