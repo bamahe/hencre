@@ -4,6 +4,42 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-26 -- Batch 90 (10 pages improved)
+
+**Commit:** `3f5da52` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-car-wash-cre-investment-2026`
+- Updated `dateModified` to "2026-10-26" (was "2026-09-01")
+
+### 2. `/blog/tampa-bay-office-to-residential-conversion-2026`
+- Updated `dateModified` to "2026-10-26" (was "2026-09-01")
+
+### 3. `/blog/tampa-bay-owner-user-commercial-real-estate-buy-vs-lease`
+- Updated `dateModified` to "2026-10-26" (was "2026-09-02")
+
+### 4. `/blog/tampa-bay-industrial-market-q2-2026`
+- Updated `dateModified` to "2026-10-26" (was "2026-09-04")
+
+### 5. `/blog/tampa-mall-redevelopment-mixed-use-2026`
+- Updated `dateModified` to "2026-10-26" (was "2026-09-04")
+
+### 6. `/blog/tampa-bay-cold-storage-cre-2026`
+- Updated `dateModified` to "2026-10-26" (was "2026-09-11")
+
+### 7. `/blog/tampa-bay-hospitality-hotel-cre-2026`
+- Updated `dateModified` to "2026-10-26" (was "2026-09-11")
+
+### 8. `/blog/tampa-hillsborough-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-26" (was "2026-09-12")
+
+### 9. `/blog/tampa-bay-pharmacy-drugstore-nnn-investment-2026`
+- Updated `dateModified` to "2026-10-26" (was "2026-09-13")
+
+### 10. `/blog/tampa-bay-hotel-hospitality-cre-2026`
+- Updated `dateModified` to "2026-10-26" (was "2026-09-15")
+
+---
+
 ## 2026-10-25 -- Batch 89 (10 pages improved)
 
 **Commit:** `b512d0c` | **Build:** clean (0 errors) | **Pages improved:** 10
