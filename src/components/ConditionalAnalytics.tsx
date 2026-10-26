@@ -1,33 +1,37 @@
 "use client";
 
 /**
- * ConditionalAnalytics — loads GA4 and Microsoft Clarity ONLY if the user
- * accepted tracking via the CookieConsent banner.
- * Checks localStorage for "cookie-consent" === "accepted".
+ * ConditionalAnalytics — loads GA4 and Microsoft Clarity unless the visitor
+ * opted OUT via the CookieConsent banner.
+ *
+ * This used to require "cookie-consent" === "accepted", so anyone who ignored
+ * the banner was never counted. On a site where most sessions are a single
+ * page view off a search result, that is the large majority, which made the
+ * reported numbers a biased sample of the most engaged visitors.
+ *
+ * Flip back to opt-in if this site ever targets EU visitors — GDPR requires
+ * consent BEFORE loading, which is exactly what the old behavior did.
+ *
+ * `null` means "haven't read localStorage yet". Starting at `true` would
+ * render the Script tags for one pass before the effect could see a decline.
  */
 import { useEffect, useState } from "react";
 import Script from "next/script";
 
 export default function ConditionalAnalytics() {
-  const [accepted, setAccepted] = useState(false);
+  const [accepted, setAccepted] = useState<boolean | null>(null);
 
   useEffect(() => {
-    // Check initial consent state
-    const consent = localStorage.getItem("cookie-consent");
-    if (consent === "accepted") setAccepted(true);
-
-    // Listen for consent changes (fired by CookieConsent component)
-    function onConsentUpdate() {
-      if (localStorage.getItem("cookie-consent") === "accepted") {
-        setAccepted(true);
-      }
-    }
-    window.addEventListener("cookie-consent-updated", onConsentUpdate);
-    return () =>
-      window.removeEventListener("cookie-consent-updated", onConsentUpdate);
+    const read = () =>
+      setAccepted(localStorage.getItem("cookie-consent") !== "declined");
+    read();
+    // Re-read on either answer so a decline unmounts the tags immediately
+    // rather than waiting for the next page load.
+    window.addEventListener("cookie-consent-updated", read);
+    return () => window.removeEventListener("cookie-consent-updated", read);
   }, []);
 
-  if (!accepted) return null;
+  if (accepted !== true) return null;
 
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
   const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;

@@ -19,10 +19,11 @@ export default function CookieConsent() {
   function handleChoice(choice: "accepted" | "declined") {
     localStorage.setItem("cookie-consent", choice);
     setVisible(false);
-    // If accepted, notify ConditionalAnalytics to load scripts
-    if (choice === "accepted") {
-      window.dispatchEvent(new Event("cookie-consent-updated"));
-    }
+    // Fire on BOTH answers. This used to fire only on accept, which was
+    // harmless while analytics were opt-in (a decline changed nothing), but
+    // now that they are opt-out a decline has to be heard immediately or the
+    // scripts keep running until the next page load.
+    window.dispatchEvent(new Event("cookie-consent-updated"));
   }
 
   if (!visible) return null;
