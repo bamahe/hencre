@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay's cold storage and temperature-controlled warehouse market is drawing $40M+ in new investment. Here is what is driving demand, which submarkets are active, and what investors and tenants need to know in 2026.",
       datePublished: "2026-08-03",
-      dateModified: "2026-09-11",
+      dateModified: "2026-10-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

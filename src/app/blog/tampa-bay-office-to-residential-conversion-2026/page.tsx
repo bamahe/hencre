@@ -85,7 +85,7 @@ const schema = {
       description:
         "Office-to-residential conversions hit a national record in 2026. Tampa Bay's elevated office vacancy is creating adaptive reuse opportunities — here is the investor's guide to office conversions in the Tampa Bay market.",
       datePublished: "2026-08-28",
-      dateModified: "2026-09-01",
+      dateModified: "2026-10-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

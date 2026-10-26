@@ -74,7 +74,7 @@ const schema = {
       description:
         "A commercial real estate investor's guide to Tampa's mall-to-mixed-use conversion wave — WestShore Plaza, Britton Plaza, and what the redevelopment trend means for tenants and investors.",
       datePublished: "2026-07-21",
-      dateModified: "2026-09-04",
+      dateModified: "2026-10-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

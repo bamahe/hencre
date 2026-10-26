@@ -89,7 +89,7 @@ const schema = {
       description:
         "Walgreens went private in August 2025 and CVS is now the only investment-grade pharmacy NNN option. What Tampa Bay investors holding or buying drug store net lease properties need to know in 2026.",
       datePublished: "2026-09-08",
-      dateModified: "2026-09-13",
+      dateModified: "2026-10-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay industrial vacancy held flat in Q2 2026 for the first time since mid-2023, with leasing topping 2.9 million square feet and sales volume nearly doubling. What it means for tenants and investors.",
       datePublished: "2026-08-18",
-      dateModified: "2026-09-04",
+      dateModified: "2026-10-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

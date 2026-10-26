@@ -86,7 +86,7 @@ const schema = {
       description:
         "Car wash properties have become one of the most sought-after NNN asset classes in Tampa Bay. Cap rates, site selection, tenant credit, and the express tunnel boom reshaping the market.",
       datePublished: "2026-08-31",
-      dateModified: "2026-09-01",
+      dateModified: "2026-10-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -90,7 +90,7 @@ const schema = {
       description:
         "A practical buy-vs-lease decision framework for Tampa Bay business owners, with current market data on industrial, office, and retail rents and SBA 504 financing terms.",
       datePublished: "2026-08-31",
-      dateModified: "2026-09-02",
+      dateModified: "2026-10-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
