@@ -85,7 +85,7 @@ const schema = {
       description:
         "Florida's Live Local Act 4.0 took effect July 1, 2026, allowing multifamily housing on commercially and industrially zoned land across Tampa Bay. What commercial property owners, industrial landowners, and CRE investors need to know.",
       datePublished: "2026-09-10",
-      dateModified: "2026-09-27",
+      dateModified: "2026-10-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

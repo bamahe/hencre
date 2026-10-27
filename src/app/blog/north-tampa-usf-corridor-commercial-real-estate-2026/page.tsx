@@ -89,7 +89,7 @@ const schema = {
       description:
         "The North Tampa / USF corridor is undergoing a generational transformation — Fletcher District, Tampa Rithm, and Moffitt's expansion are reshaping the market for investors and tenants in 2026.",
       datePublished: "2026-08-29",
-      dateModified: "2026-09-20",
+      dateModified: "2026-10-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

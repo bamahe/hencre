@@ -84,7 +84,7 @@ const schema = {
       description:
         "Commercial leasing in Valrico, FL — location strategy, zoning, CAM charges, and lease negotiation for east Hillsborough County.",
       datePublished: "2026-08-05",
-      dateModified: "2026-10-01",
+      dateModified: "2026-10-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

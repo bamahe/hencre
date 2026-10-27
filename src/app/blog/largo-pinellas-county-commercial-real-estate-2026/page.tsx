@@ -65,7 +65,7 @@ const schema = {
       headline: "Largo FL Commercial Real Estate 2026 | Pinellas County",
       description: "Discover why Largo, FL is one of Pinellas County's top commercial real estate markets in 2026. Explore retail, office, industrial, and mixed-use opportunities in this thriving mid-county hub.",
       datePublished: "2026-08-19",
-      dateModified: "2026-10-01",
+      dateModified: "2026-10-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

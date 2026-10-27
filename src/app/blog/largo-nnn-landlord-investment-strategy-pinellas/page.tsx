@@ -68,7 +68,7 @@ const schema = {
       headline: "Largo NNN Investing: What Landlords Need to Know",
       description: "Largo, FL NNN investment strategies for landlords & investors. Cap rates, tenant mix, and why Pinellas County delivers. Call Barrett Henry: (813) 733-7907.",
       datePublished: "2026-10-02",
-      dateModified: "2026-10-03",
+      dateModified: "2026-10-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

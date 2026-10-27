@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay retail vacancy is 3.8%, far below the national 6% average, and under 2% in South Tampa and Westshore. This guide explains how retail tenants find space, compete, and negotiate in one of Florida's most undersupplied retail markets.",
       datePublished: "2026-09-14",
-      dateModified: "2026-09-17",
+      dateModified: "2026-10-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

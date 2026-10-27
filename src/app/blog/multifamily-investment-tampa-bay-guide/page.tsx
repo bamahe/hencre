@@ -85,7 +85,7 @@ const schema = {
       description:
         "How to invest in multifamily properties in Tampa Bay -- market analysis, evaluation, and strategies.",
       datePublished: "2026-06-08",
-      dateModified: "2026-09-25",
+      dateModified: "2026-10-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
