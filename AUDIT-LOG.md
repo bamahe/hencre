@@ -4,6 +4,42 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-27 -- Batch 91 (10 pages improved)
+
+**Commit:** `3d67b76` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/florida-business-rent-tax-repeal-tampa-bay`
+- Updated `dateModified` to "2026-10-27" (was "2026-09-25")
+
+### 2. `/blog/florida-live-local-act-tampa-bay-cre-2026`
+- Updated `dateModified` to "2026-10-27" (was "2026-09-27")
+
+### 3. `/blog/multifamily-investment-tampa-bay-guide`
+- Updated `dateModified` to "2026-10-27" (was "2026-09-25")
+
+### 4. `/blog/north-tampa-usf-corridor-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-27" (was "2026-09-20")
+
+### 5. `/blog/tampa-bay-retail-market-q2-2026`
+- Updated `dateModified` to "2026-10-27" (was "2026-09-23")
+
+### 6. `/blog/tampa-bay-retail-space-shortage-tenants-2026`
+- Updated `dateModified` to "2026-10-27" (was "2026-09-17")
+
+### 7. `/blog/winter-haven-polk-county-commercial-real-estate`
+- Updated `dateModified` to "2026-10-27" (was "2026-09-24")
+
+### 8. `/blog/largo-pinellas-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-27" (was "2026-10-01")
+
+### 9. `/blog/largo-nnn-landlord-investment-strategy-pinellas`
+- Updated `dateModified` to "2026-10-27" (was "2026-10-03")
+
+### 10. `/blog/valrico-commercial-leasing-guide-hillsborough`
+- Updated `dateModified` to "2026-10-27" (was "2026-10-01")
+
+---
+
 ## 2026-10-26 -- Batch 90 (10 pages improved)
 
 **Commit:** `3f5da52` | **Build:** clean (0 errors) | **Pages improved:** 10
