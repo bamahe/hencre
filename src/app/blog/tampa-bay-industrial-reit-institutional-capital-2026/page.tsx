@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Why REITs Are Still Betting Big on Tampa Bay Industrial in 2026 | HenCRE",
+  title: "Tampa Bay Industrial REITs: Institutional Capital 2026 | HenCRE",
   description:
     "EastGroup Properties just announced $73.7 million in new Tampa warehouse projects, adding to 500,000 SF already under construction. When institutional industrial REITs build at scale in a market, it is the clearest leading indicator private investors have. Here is what that institutional conviction means for Tampa Bay and how local buyers can act on it.",
   alternates: {
@@ -90,7 +90,7 @@ const schema = {
       description:
         "EastGroup Properties just announced $73.7 million in new Tampa warehouse projects. When institutional REITs build at this scale in a market, it is the clearest leading indicator private investors have. Here is what that institutional conviction means for Tampa Bay industrial.",
       datePublished: "2026-10-24",
-      dateModified: "2026-10-24",
+      dateModified: "2026-10-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

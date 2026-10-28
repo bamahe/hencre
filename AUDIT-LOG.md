@@ -4,6 +4,43 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-28 -- Batch 92 (10 pages improved)
+
+**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/clearwater-nnn-investment-strategy-pinellas-2026`
+- Added `dateModified: "2026-10-28"` to articleSchema (was missing)
+
+### 2. `/blog/riverview-fl-industrial-warehouse-space-2026`
+- Updated `dateModified` to "2026-10-28" (was "2026-10-25")
+
+### 3. `/blog/tampa-bay-industrial-reit-institutional-capital-2026`
+- Fixed metadata title from 72 chars to 63 chars (under 70 limit): "Tampa Bay Industrial REITs: Institutional Capital 2026 | HenCRE"
+- Updated `dateModified` to "2026-10-28" (was "2026-10-24")
+
+### 4. `/blog/thea-downtown-tampa-redevelopment-cre-2026`
+- Updated `dateModified` to "2026-10-28" (was "2026-10-26")
+
+### 5. `/blog/tampa-bay-cre-debt-maturity-wall-2026`
+- Updated `dateModified` to "2026-10-28" (was "2026-09-23")
+
+### 6. `/blog/tampa-bay-dollar-store-nnn-investment-2026`
+- Updated `dateModified` to "2026-10-28" (was "2026-09-22")
+
+### 7. `/blog/tampa-bay-mobile-home-park-mhc-investment-2026`
+- Updated `dateModified` to "2026-10-28" (was "2026-09-21")
+
+### 8. `/blog/tampa-bay-multifamily-market-mid-2026`
+- Updated `dateModified` to "2026-10-28" (was "2026-09-20")
+
+### 9. `/blog/tampa-bay-rental-property-exit-strategy-2026`
+- Updated `dateModified` to "2026-10-28" (was "2026-09-20")
+
+### 10. `/insights/nnn-lease-explained`
+- Updated `dateModified` to "2026-10-28" (was "2026-09-15")
+
+---
+
 ## 2026-10-27 -- Batch 91 (10 pages improved)
 
 **Commit:** `3d67b76` | **Build:** clean (0 errors) | **Pages improved:** 10

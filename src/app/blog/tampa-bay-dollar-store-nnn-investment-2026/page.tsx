@@ -86,7 +86,7 @@ const schema = {
       description:
         "Dollar General and Dollar Tree NNN properties in Tampa Bay are trading at 6.75–7.05% cap rates in 2026. Here is what passive investors need to know about lease structure, due diligence, and which corridors are most active.",
       datePublished: "2026-09-20",
-      dateModified: "2026-09-22",
+      dateModified: "2026-10-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

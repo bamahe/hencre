@@ -30,6 +30,7 @@ const articleSchema = {
   headline: "Clearwater NNN Investment Strategy | Pinellas 2026",
   description: "Clearwater NNN properties offer stable cash flow in one of Florida's most resilient submarkets. Call Barrett Henry at (813) 733-7907 to find the right deal.",
   datePublished: "2026-10-26",
+  dateModified: "2026-10-28",
   author: {
     "@type": "Person",
     name: "Barrett Henry",

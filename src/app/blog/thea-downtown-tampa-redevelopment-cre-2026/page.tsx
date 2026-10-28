@@ -86,7 +86,7 @@ const schema = {
       description:
         "The Tampa Hillsborough Expressway Authority shortlisted Hines, SPP, and Gotham to redevelop nearly 3 acres near Water Street — including THEA's own headquarters. What this public-land deal means for downtown Tampa CRE.",
       datePublished: "2026-10-26",
-      dateModified: "2026-10-26",
+      dateModified: "2026-10-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

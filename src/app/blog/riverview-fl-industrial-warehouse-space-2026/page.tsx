@@ -86,7 +86,7 @@ const schema = {
       description:
         "A complete guide to industrial and warehouse space in Riverview FL for 2026 — covering Bell Creek Logistics Center, US-301 submarket dynamics, lease rates, and investment fundamentals.",
       datePublished: "2026-10-25",
-      dateModified: "2026-10-25",
+      dateModified: "2026-10-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

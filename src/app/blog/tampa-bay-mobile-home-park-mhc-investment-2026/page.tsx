@@ -86,7 +86,7 @@ const schema = {
       description:
         "Manufactured housing communities are delivering 5.5%–11% annual lot rent growth in Florida and trading at 4.5%–6% cap rates. Here is what Tampa Bay investors need to know about MHC commercial real estate in 2026.",
       datePublished: "2026-09-19",
-      dateModified: "2026-09-21",
+      dateModified: "2026-10-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

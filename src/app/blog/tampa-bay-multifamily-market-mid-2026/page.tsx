@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay apartment vacancy hit a 25-year high of 10.7%. Rents fell 2.6% year-over-year. New supply is still delivering. What multifamily investors need to know — and what the recovery looks like.",
       datePublished: "2026-08-28",
-      dateModified: "2026-09-20",
+      dateModified: "2026-10-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

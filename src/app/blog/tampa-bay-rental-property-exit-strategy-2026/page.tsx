@@ -79,7 +79,7 @@ const schema = {
       description:
         "Rising insurance costs, uncapped investment property tax assessments, and deferred maintenance demands are compressing Tampa Bay rental yields. Here is how to evaluate your exit options.",
       datePublished: "2026-06-24",
-      dateModified: "2026-09-20",
+      dateModified: "2026-10-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
