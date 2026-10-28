@@ -6,7 +6,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ## 2026-10-28 -- Batch 92 (10 pages improved)
 
-**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+**Commit:** `1c60e67` | **Build:** clean (0 errors) | **Pages improved:** 10
 
 ### 1. `/blog/clearwater-nnn-investment-strategy-pinellas-2026`
 - Added `dateModified: "2026-10-28"` to articleSchema (was missing)
