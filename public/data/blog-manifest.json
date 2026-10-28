@@ -2136,5 +2136,21 @@
     "county": "Pinellas",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "tampa-hillsborough-land-development-commercial-space-guide",
+    "title": "Tampa Land Development Commercial Space Guide 2026",
+    "excerpt": "Developers and builders looking for commercial land or staging space in Tampa need to understand Hillsborough County's zoning layers, infrastructure demands, and lease structures before signing anything.",
+    "date": "2026-10-28",
+    "category": "business-guide",
+    "city": "Tampa",
+    "county": "Hillsborough",
+    "businessType": "land development or new construction",
+    "image": {
+      "url": "/images/blog/tampa-hillsborough-land-development-commercial-space-guide.jpg",
+      "alt": "an aerial view of a city with tall buildings",
+      "photographer": "Edgar Cotto",
+      "link": "https://unsplash.com/@ecotto123"
+    }
   }
 ]
