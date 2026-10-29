@@ -85,11 +85,11 @@ const schema = {
       description:
         "Higher interest rates are squeezing Tampa Bay apartment owners heading into Q4 2026. Vacancy has risen to 7–8%, rent growth has flattened, and floating-rate loans are forcing decisions. A full market update for multifamily owners, buyers, and investors.",
       datePublished: "2026-10-13",
-      dateModified: "2026-10-16",
+      dateModified: "2026-10-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

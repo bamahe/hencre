@@ -41,11 +41,11 @@ const schema = {
       headline: "Inverness FL Commercial Real Estate 2026",
       description: "Explore commercial real estate opportunities in Inverness, Citrus County FL. Discover retail, office, and investment property trends driving growth in this emerging Central Florida market.",
       datePublished: "2026-09-04",
-      dateModified: "2026-10-13",
+      dateModified: "2026-10-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

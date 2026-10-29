@@ -42,11 +42,11 @@ const schema = {
       headline: "Winter Haven CRE: Polk County Market Guide 2026",
       description: "Winter Haven commercial real estate is booming. Discover what investors and tenants need to know about Polk County's fastest-growing submarket. Call Barrett today.",
       datePublished: "2026-09-09",
-      dateModified: "2026-10-12",
+      dateModified: "2026-10-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -80,7 +80,7 @@ const schema = {
         {
           "@type": "Question",
           name: "Do I need a commercial real estate broker to find space in Winter Haven?",
-          acceptedAnswer: { "@type": "Answer", text: "Working with an experienced commercial real estate advisor in Winter Haven gives you access to off-market listings, corridor-level traffic data, and zoning knowledge that most tenants and investors can't easily access on their own -- and tenant representation typically costs you nothing, as the landlord pays the commission." },
+          acceptedAnswer: { "@type": "Answer", text: "Working with an experienced commercial real estate advisor in Winter Haven gives you access to off-market listings, corridor-level traffic data, and zoning knowledge that most tenants and investors can&apos;t easily access on their own, and tenant representation typically costs you nothing, as the landlord pays the commission." },
         },
       ],
     },

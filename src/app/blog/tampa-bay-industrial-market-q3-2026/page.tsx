@@ -86,11 +86,11 @@ const schema = {
       description:
         "Tampa Bay industrial vacancy held at 7.4% entering Q3 2026 - flat for the second consecutive quarter. CoStar ranked Tampa #1 nationally for small-bay industrial performance. New construction starts are falling, setting up a tighter 2027. A full update for tenants and investors.",
       datePublished: "2026-09-26",
-      dateModified: "2026-10-06",
+      dateModified: "2026-10-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -311,7 +311,7 @@ export default function TampaBayIndustrialQ3Page() {
           With 23+ years of experience in Tampa Bay commercial real estate at REMAX Collective, I help industrial tenants find and negotiate space across the metro&apos;s major corridors and help investors evaluate industrial acquisitions across Hillsborough, Pasco, Pinellas, and Polk Counties. Whether you are looking for a small-bay building for your business, a warehouse for distribution, or an income-producing industrial investment, I bring the market knowledge to get you to the right outcome.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

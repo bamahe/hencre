@@ -86,11 +86,11 @@ const schema = {
       description:
         "Downtown St. Pete office vacancy at 9.5% with Class A rents at $42/sqft. ESN Group paid $19.5M for the Carillon campus. What the data means for office tenants and investors in Pinellas County.",
       datePublished: "2026-08-25",
-      dateModified: "2026-10-13",
+      dateModified: "2026-10-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

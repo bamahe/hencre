@@ -42,11 +42,11 @@ const schema = {
       headline: "Riverview FL Commercial Real Estate 2026: Market Guide",
       description: "Riverview is south Hillsborough's fastest-growing commercial submarket. Find out what's available, what's trading, and how Barrett Henry can help.",
       datePublished: "2026-07-29",
-      dateModified: "2026-10-16",
+      dateModified: "2026-10-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: [
           "https://hencre.com/about",
@@ -337,7 +337,7 @@ export default function BlogPost() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: October 2026</p>
       </div>
 
       <CTASection

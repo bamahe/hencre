@@ -80,11 +80,11 @@ const schema = {
       description:
         "Jacksonville and Duval County commercial real estate guide for 2026: industrial demand from JAXPORT, suburban office, retail investment, and how Jacksonville compares to Tampa Bay.",
       datePublished: "2026-08-17",
-      dateModified: "2026-10-09",
+      dateModified: "2026-10-29",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
