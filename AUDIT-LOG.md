@@ -4,6 +4,57 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-29 -- Batch 93 (10 pages improved)
+
+**Commit:** `7839b45` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/inverness-citrus-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-29" (was "2026-10-13")
+- Updated `jobTitle` to full credentials format
+
+### 2. `/blog/st-petersburg-office-market-2026`
+- Updated `dateModified` to "2026-10-29" (was "2026-10-13")
+- Updated `jobTitle` to full credentials format
+
+### 3. `/blog/gasworx-tampa-ybor-office-commercial-2026`
+- Updated `dateModified` to "2026-10-29" (was "2026-10-09")
+- Updated `jobTitle` to full credentials format
+
+### 4. `/blog/tampa-bay-multifamily-cap-rates-2026`
+- Updated `dateModified` to "2026-10-29" (was "2026-10-13")
+- Updated `jobTitle` to full credentials format
+- Updated footer from "September 2026" to "October 2026"
+
+### 5. `/blog/tampa-bay-boat-rv-storage-cre-investment-2026`
+- Updated `dateModified` to "2026-10-29" (was "2026-10-16")
+- Updated `jobTitle` to full credentials format
+- Updated footer from "September 2026" to "October 2026"
+
+### 6. `/blog/jacksonville-duval-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-29" (was "2026-10-09")
+- Updated `jobTitle` to full credentials format
+
+### 7. `/blog/riverview-fl-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-29" (was "2026-10-16")
+- Updated `jobTitle` to full credentials format
+- Updated footer from "September 2026" to "October 2026"
+
+### 8. `/blog/winter-haven-polk-county-cre-market-guide-2026`
+- Updated `dateModified` to "2026-10-29" (was "2026-10-12")
+- Updated `jobTitle` to full credentials format
+- Fixed 1 em dash (-- replaced with comma) in FAQ schema
+
+### 9. `/blog/tampa-bay-industrial-market-q3-2026`
+- Updated `dateModified` to "2026-10-29" (was "2026-10-06")
+- Updated `jobTitle` to full credentials format
+- Updated footer from "September 2026" to "October 2026"
+
+### 10. `/blog/tampa-bay-apartment-market-q4-2026`
+- Updated `dateModified` to "2026-10-29" (was "2026-10-16")
+- Updated `jobTitle` to full credentials format
+
+---
+
 ## 2026-10-28 -- Batch 92 (10 pages improved)
 
 **Commit:** `1c60e67` | **Build:** clean (0 errors) | **Pages improved:** 10
