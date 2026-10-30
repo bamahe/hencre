@@ -4,6 +4,53 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-30 -- Batch 94 (10 pages improved)
+
+**Commit:** `336f3e1` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/echelon-city-center-north-st-pete-cre-2026`
+- Updated `dateModified` to "2026-10-30" (was "2026-10-28")
+- Updated `jobTitle` to full credentials format
+
+### 2. `/blog/tampa-bay-office-market-q4-2026`
+- Updated `dateModified` to "2026-10-30" (was "2026-10-27")
+- Updated `jobTitle` to full credentials format
+
+### 3. `/blog/tampa-hillsborough-land-development-commercial-space-guide`
+- Added `dateModified: "2026-10-30"` (was missing)
+- Updated `jobTitle` from "Commercial Real Estate Advisor" to full credentials format
+- Removed external `nowtb.com` link from author sameAs array
+
+### 4. `/blog/valrico-hillsborough-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-30" (was "2026-10-01")
+- Updated `jobTitle` to full credentials format
+
+### 5. `/blog/tampa-bay-industrial-outdoor-storage-ios-2026`
+- Updated `dateModified` to "2026-10-30" (was "2026-10-02")
+- Updated `jobTitle` to full credentials format
+
+### 6. `/blog/seminole-heights-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-30" (was "2026-10-05")
+- Updated `jobTitle` to full credentials format
+
+### 7. `/blog/pinellas-park-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-30" (was "2026-10-06")
+- Updated `jobTitle` to full credentials format
+
+### 8. `/blog/tampa-bay-cre-market-outlook-q4-2026`
+- Updated `dateModified` to "2026-10-30" (was "2026-10-06")
+- Updated `jobTitle` to full credentials format
+
+### 9. `/blog/tampa-bay-retail-market-q3-2026`
+- Updated `dateModified` to "2026-10-30" (was "2026-10-06")
+- Updated `jobTitle` to full credentials format
+
+### 10. `/blog/riverview-restaurant-food-service-commercial-space-guide`
+- Updated `dateModified` to "2026-10-30" (was "2026-10-07")
+- Updated `jobTitle` to full credentials format
+
+---
+
 ## 2026-10-29 -- Batch 93 (10 pages improved)
 
 **Commit:** `7839b45` | **Build:** clean (0 errors) | **Pages improved:** 10
