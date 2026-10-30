@@ -2152,5 +2152,21 @@
       "photographer": "Edgar Cotto",
       "link": "https://unsplash.com/@ecotto123"
     }
+  },
+  {
+    "slug": "crystal-river-citrus-county-cre-market-guide-2026",
+    "title": "Crystal River CRE: Citrus County Market Guide 2026",
+    "excerpt": "Crystal River and Citrus County offer a distinct commercial real estate opportunity — a nature-driven economy, a growing retiree population, and an undersupplied market that rewards early movers.",
+    "date": "2026-10-30",
+    "category": "city-market",
+    "city": "Crystal River",
+    "county": "Citrus",
+    "businessType": null,
+    "image": {
+      "url": "/images/blog/crystal-river-citrus-county-cre-market-guide-2026.jpg",
+      "alt": "green palm trees near body of water during daytime",
+      "photographer": "Martin Zangerl",
+      "link": "https://unsplash.com/@zmart"
+    }
   }
 ]
