@@ -118,11 +118,11 @@ const schema = {
       headline: "Riverview Restaurant Space: Find the Right Spot | HenCRE",
       description: "Looking for restaurant or food service space in Riverview, FL? Barrett Henry, Broker Associate at REMAX Collective, covers what to know before you sign. Call (813) 733-7907.",
       datePublished: "2026-09-16",
-      dateModified: "2026-10-07",
+      dateModified: "2026-10-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

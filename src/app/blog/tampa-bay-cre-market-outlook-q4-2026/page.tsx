@@ -86,11 +86,11 @@ const schema = {
       description:
         "A cross-sector read on Tampa Bay commercial real estate entering Q4 2026: industrial vacancy stabilized at 7.4%, retail holding below 4% nationally, office bifurcated between Class A and older assets. Full outlook for investors and tenants across all major property types.",
       datePublished: "2026-09-27",
-      dateModified: "2026-10-06",
+      dateModified: "2026-10-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

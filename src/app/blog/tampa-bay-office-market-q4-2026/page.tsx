@@ -85,11 +85,11 @@ const schema = {
       description:
         "Tampa Bay office market Q4 2026 update: Class A availability near multi-year lows, trophy rents hold above $60/SF, and year-end leasing is setting up a strong finish to 2026. Here is what tenants and investors need to know heading into 2027.",
       datePublished: "2026-10-27",
-      dateModified: "2026-10-27",
+      dateModified: "2026-10-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

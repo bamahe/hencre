@@ -85,11 +85,11 @@ const schema = {
       description:
         "Tampa Bay retail vacancy held near 3.8% entering Q3 2026 - well below the national average - while asking rents passed $27/SF NNN and retail sales volume reached $324 million. A full market update for tenants, landlords, and investors.",
       datePublished: "2026-09-25",
-      dateModified: "2026-10-06",
+      dateModified: "2026-10-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

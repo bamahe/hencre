@@ -80,11 +80,11 @@ const schema = {
       description:
         "CRE Daily named Tampa Bay a key industrial outdoor storage hub in 2026. IOS site costs are up 32% over 18 months, institutional buyers now represent 45% of national IOS investment, and demand from port users, contractors, and logistics operators has outpaced a severely supply-constrained land market. A complete guide for tenants and investors.",
       datePublished: "2026-09-29",
-      dateModified: "2026-10-02",
+      dateModified: "2026-10-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

@@ -65,11 +65,11 @@ const schema = {
       headline: "Valrico FL Commercial Real Estate 2026 | HenCRE",
       description: "Explore Valrico, FL commercial real estate in 2026. Retail, office, and investment opportunities in this growing Hillsborough County submarket.",
       datePublished: "2026-09-30",
-      dateModified: "2026-10-01",
+      dateModified: "2026-10-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: [
           "https://hencre.com/about",

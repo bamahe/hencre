@@ -87,11 +87,11 @@ const schema = {
       description:
         "Third Lake Partners completed ClearView at Echelon City Center in October 2026, marking the first major residential delivery in a $1 billion, 20.5-acre mixed-use campus in north St. Petersburg. Here is what it means for commercial real estate investors and tenants in Pinellas County.",
       datePublished: "2026-10-28",
-      dateModified: "2026-10-28",
+      dateModified: "2026-10-30",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

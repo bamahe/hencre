@@ -30,14 +30,14 @@ const articleSchema = {
   headline: "Tampa Land Development Commercial Space Guide 2026",
   description: "Finding commercial space for land development in Tampa? Barrett Henry covers location, zoning, leasing, and why Hillsborough County is the right market. Call now.",
   datePublished: "2026-10-28",
+  dateModified: "2026-10-30",
   author: {
     "@type": "Person",
     name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
+    jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
-      "https://nowtb.com",
       "https://barretthenry.remax.com",
     ],
     worksFor: { "@type": "Organization", name: "REMAX Collective" },
