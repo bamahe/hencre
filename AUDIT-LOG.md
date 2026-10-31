@@ -4,6 +4,52 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## 2026-10-31 -- Batch 95 (10 pages improved)
+
+**Commit:** `5be68ef` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/brandon-nnn-landlord-investment-strategy-hillsborough`
+- Updated `dateModified` to "2026-10-31" (was "2026-10-10")
+- Updated `jobTitle` to full credentials format
+
+### 2. `/blog/crystal-river-citrus-county-cre-market-guide-2026`
+- Added `dateModified: "2026-10-31"` (was missing)
+- Updated `jobTitle` from "Commercial Real Estate Advisor" to full credentials format
+- Removed external `nowtb.com` link from author sameAs array
+
+### 3. `/blog/florida-commercial-property-tax-appeal-guide-2026`
+- Updated `dateModified` to "2026-10-31" (was "2026-10-07")
+- Updated `jobTitle` to full credentials format
+
+### 4. `/blog/lakeland-polk-county-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-10-31" (was "2026-10-10")
+- Updated `jobTitle` to full credentials format
+
+### 5. `/blog/riverview-fl-retail-leasing-guide`
+- Updated `dateModified` to "2026-10-31" (was "2026-10-04")
+- Updated `jobTitle` to full credentials format
+
+### 6. `/blog/riverview-hillsborough-nnn-retail-landlord-investment`
+- Updated `dateModified` to "2026-10-31" (was "2026-10-08")
+
+### 7. `/blog/sale-leaseback-commercial-real-estate-tampa-bay`
+- Updated `dateModified` to "2026-10-31" (was "2026-10-05")
+- Updated `jobTitle` to full credentials format
+
+### 8. `/blog/sarasota-fitness-gym-wellness-commercial-space`
+- Updated `dateModified` to "2026-10-31" (was "2026-10-07")
+- Updated `jobTitle` to full credentials format
+
+### 9. `/blog/sarasota-office-market-trends-2026`
+- Updated `dateModified` to "2026-10-31" (was "2026-10-05")
+- Updated `jobTitle` to full credentials format
+
+### 10. `/blog/sarasota-warehouse-distribution-space-guide`
+- Updated `dateModified` to "2026-10-31" (was "2026-10-05")
+- Updated `jobTitle` to full credentials format
+
+---
+
 ## 2026-10-30 -- Batch 94 (10 pages improved)
 
 **Commit:** `336f3e1` | **Build:** clean (0 errors) | **Pages improved:** 10
