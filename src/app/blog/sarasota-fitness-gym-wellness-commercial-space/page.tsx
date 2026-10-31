@@ -64,11 +64,11 @@ const schema = {
       headline: "Sarasota Fitness & Gym Space: Find the Right Location",
       description: "Opening a gym or wellness studio in Sarasota? Learn what spaces work, what leases require, and why this market is booming.",
       datePublished: "2026-07-27",
-      dateModified: "2026-10-07",
+      dateModified: "2026-10-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

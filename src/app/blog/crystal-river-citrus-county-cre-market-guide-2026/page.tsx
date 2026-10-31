@@ -30,14 +30,14 @@ const articleSchema = {
   headline: "Crystal River CRE: Citrus County Market Guide 2026",
   description: "Crystal River commercial real estate is growing. Discover what investors and tenants should know about Citrus County's CRE market. Call Barrett today.",
   datePublished: "2026-10-30",
+  dateModified: "2026-10-31",
   author: {
     "@type": "Person",
     name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
+    jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
-      "https://nowtb.com",
       "https://barretthenry.remax.com",
     ],
     worksFor: { "@type": "Organization", name: "REMAX Collective" },

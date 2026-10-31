@@ -70,7 +70,7 @@ const schema = {
       headline: "Riverview FL NNN & Retail Investment Guide 2026",
       description: "Riverview, FL commercial real estate is outpacing expectations. Barrett Henry breaks down NNN, retail, and landlord opportunities.",
       datePublished: "2026-08-03",
-      dateModified: "2026-10-08",
+      dateModified: "2026-10-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -86,11 +86,11 @@ const schema = {
       description:
         "How sale-leaseback transactions work in Tampa Bay: for business owners seeking capital and investors seeking tenant-occupied assets.",
       datePublished: "2026-08-13",
-      dateModified: "2026-10-05",
+      dateModified: "2026-10-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

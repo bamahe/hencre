@@ -41,11 +41,11 @@ const schema = {
       headline: "Lakeland FL Commercial Real Estate Market 2026 | HenCRE",
       description: "Lakeland, Polk County CRE is booming. Discover what investors and tenants need to know, then call Barrett Henry at (813) 733-7907.",
       datePublished: "2026-09-21",
-      dateModified: "2026-10-10",
+      dateModified: "2026-10-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: [
           "https://hencre.com/about",

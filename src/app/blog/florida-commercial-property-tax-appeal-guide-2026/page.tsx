@@ -85,11 +85,11 @@ const schema = {
       description:
         "How Florida commercial property owners appeal inflated TRIM assessments through the Value Adjustment Board — the process, the evidence that wins, and what a successful appeal means for NOI.",
       datePublished: "2026-10-03",
-      dateModified: "2026-10-07",
+      dateModified: "2026-10-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

@@ -64,11 +64,11 @@ const schema = {
       headline: "Riverview, FL Retail Leasing Guide for Tenants & Investors",
       description: "Thinking about leasing or investing in retail space in Riverview, FL? Discover the market drivers, hottest corridors, and smart strategies for commercial success in Hillsborough County's fastest-growing suburb.",
       datePublished: "2026-08-07",
-      dateModified: "2026-10-04",
+      dateModified: "2026-10-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

@@ -42,11 +42,11 @@ const schema = {
       headline: "Brandon FL NNN Investment: What Landlords Need to Know",
       description: "Brandon FL is one of Hillsborough County's strongest NNN markets. Learn what landlords and investors need to know. Call Barrett at (813) 733-7907.",
       datePublished: "2026-09-11",
-      dateModified: "2026-10-10",
+      dateModified: "2026-10-31",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
