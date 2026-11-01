@@ -4,6 +4,57 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 78 — 2026-11-01
+
+1. **`/blog/tampa-bay-cre-market-outlook-q4-2026`**
+   - Updated `dateModified` to 2026-11-01
+   - Fixed double dashes `--` in build-to-rent paragraph (commas instead)
+   - Updated footer from "September 2026" to "November 2026"
+
+2. **`/blog/tampa-bay-retail-market-q4-2026`**
+   - Updated `dateModified` to 2026-11-01
+   - Fixed schema `jobTitle` to full format (Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame)
+   - Replaced external `fastselleasysale.com` link with internal `/services/dispositions` Link
+
+3. **`/blog/tampa-bay-industrial-market-q4-2026`**
+   - Updated `dateModified` to 2026-11-01
+   - Fixed schema `jobTitle` to full format
+   - Replaced FAQ answer reference to `fastselleasysale.com` with internal `/services/dispositions` reference
+
+4. **`/blog/tampa-bay-office-market-q4-2026`**
+   - Updated `dateModified` to 2026-11-01
+   - Updated footer from "October 2026" to "November 2026"
+
+5. **`/blog/echelon-city-center-north-st-pete-cre-2026`**
+   - Updated `dateModified` to 2026-11-01
+   - Removed external `nowtb.com` link; rephrased paragraph to keep meaning without external link
+
+6. **`/blog/thea-downtown-tampa-redevelopment-cre-2026`**
+   - Updated `dateModified` to 2026-11-01
+   - Fixed author bio image from Unsplash URL to `/images/barrett-henry-headshot.jpg`
+
+7. **`/blog/east-tampa-us-301-industrial-corridor-2026`**
+   - Updated `dateModified` to 2026-11-01
+   - Fixed schema `jobTitle` to full format
+   - Fixed double dashes `--` in metadata description and article body (periods/commas instead)
+
+8. **`/blog/gasworx-tampa-ybor-office-commercial-2026`**
+   - Updated `dateModified` to 2026-11-01
+   - Cleaned footer: removed inline author attribution, updated to "November 2026"
+
+9. **`/blog/midtown-tampa-commercial-real-estate-2026`**
+   - Updated `dateModified` to 2026-11-01
+   - Fixed schema `jobTitle` to full format
+   - Fixed double dashes `--` in opening paragraphs (commas/periods instead)
+   - Updated footer from "September 2026" to "November 2026"
+
+10. **`/blog/north-tampa-usf-corridor-commercial-real-estate-2026`**
+    - Updated `dateModified` to 2026-11-01
+    - Fixed schema `jobTitle` to full format
+    - Updated footer from "September 2026" to "November 2026"
+
+---
+
 ## 2026-10-31 -- Batch 95 (10 pages improved)
 
 **Commit:** `5be68ef` | **Build:** clean (0 errors) | **Pages improved:** 10
