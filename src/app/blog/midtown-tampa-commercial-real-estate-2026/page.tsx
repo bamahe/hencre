@@ -85,11 +85,11 @@ const schema = {
       description:
         "Midtown Tampa's office space is fully leased and three new retailers are joining the district. A CRE investor and tenant guide to the $1 billion mixed-use development reshaping North Tampa.",
       datePublished: "2026-07-29",
-      dateModified: "2026-10-16",
+      dateModified: "2026-11-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -182,16 +182,16 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          When The Bromley Companies broke ground on the $1 billion Midtown Tampa district along N. Dale Mabry Highway, the question from skeptics was simple: can a walkable, mixed-use development actually work in a car-dependent North Tampa corridor? By mid-2026, the market has answered that question. Midtown East -- the district&apos;s 18-story, 432,000-square-foot{" "}
-          <Link href="/commercial/office-space" className="text-accent underline">office tower</Link>{" "}
-          -- is fully leased. Three new{" "}
+          When The Bromley Companies broke ground on the $1 billion Midtown Tampa district along N. Dale Mabry Highway, the question from skeptics was simple: can a walkable, mixed-use development actually work in a car-dependent North Tampa corridor? By mid-2026, the market has answered that question. Midtown East, the district&apos;s 18-story, 432,000-square-foot{" "}
+          <Link href="/commercial/office-space" className="text-accent underline">office tower</Link>
+          , is fully leased. Three new{" "}
           <Link href="/commercial/retail-space" className="text-accent underline">retailers</Link>{" "}
           announced in June and July are joining Whole Foods and REI as anchors. And institutional lenders are stepping in with eight-figure financing packages that validate the asset&apos;s long-term value.
         </p>
         <p className="mt-4 text-lg leading-relaxed text-[#666666]">
           For commercial real estate investors and tenants operating across{" "}
           <Link href="/markets/hillsborough" className="text-accent underline">Tampa Bay</Link>,
-          Midtown Tampa&apos;s stabilization is more than a local success story -- it reshapes the competitive dynamics of North Tampa&apos;s office, retail, and mixed-use markets. See our{" "}
+          Midtown Tampa&apos;s stabilization is more than a local success story. It reshapes the competitive dynamics of North Tampa&apos;s office, retail, and mixed-use markets. See our{" "}
           <Link href="/blog/tampa-bay-office-market-q2-2026" className="text-accent underline">Q2 2026 Tampa Bay office market report</Link>{" "}
           for the broader context.
         </p>
@@ -311,7 +311,7 @@ export default function MidtownTampaCommercialRealEstate2026Page() {
           <Link href="/contact" className="text-accent underline">Contact Barrett</Link>{" "}
           at (813) 733-7907.
         </p>
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

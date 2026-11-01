@@ -86,11 +86,11 @@ const schema = {
       description:
         "Tampa Bay retail enters Q4 2026 with vacancy near 3.8%, asking rents above $27/SF NNN, and holiday-season demand compressing already-tight corridors. A full market update for tenants, landlords, and investors.",
       datePublished: "2026-10-21",
-      dateModified: "2026-10-24",
+      dateModified: "2026-11-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -305,9 +305,9 @@ export default function TampaBayRetailMarketQ4Page() {
           covers pricing benchmarks by tenant category and lease structure.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Value-add multi-tenant strip centers</strong> in high-growth corridors represent the clearest opportunity for private investors willing to accept leasing execution risk. Well-located strip centers in Wesley Chapel, Riverview, and Land O&apos; Lakes with below-market leases or near-term rollover can be acquired at 6.0% to 7.0% in-place cap rates and marked to market over two to three years. Investors considering a value-add retail sale — whether to take profits or redeploy capital — can explore options through{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Fast Sell Easy Sale</a>,
-          {" "}which connects commercial property owners with cash buyers for faster exits when market timing matters.
+          <strong>Value-add multi-tenant strip centers</strong> in high-growth corridors represent the clearest opportunity for private investors willing to accept leasing execution risk. Well-located strip centers in Wesley Chapel, Riverview, and Land O&apos; Lakes with below-market leases or near-term rollover can be acquired at 6.0% to 7.0% in-place cap rates and marked to market over two to three years. Investors considering a value-add retail sale, whether to take profits or redeploy capital, can explore{" "}
+          <Link href="/services/dispositions" className="text-accent underline">disposition services</Link>{" "}
+          for strategies that connect commercial property owners with qualified buyers for faster exits when market timing matters.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Across all product types, the discipline required in a competitive market is the same: buy quality of location and tenant credit, stress-test your underwriting against a rent growth scenario that is more modest than the past five years, and avoid overpaying for assets where the only path to return is continued market appreciation. Tampa Bay retail&apos;s fundamentals are strong — but quality assets priced to near-perfection leave little room for error.

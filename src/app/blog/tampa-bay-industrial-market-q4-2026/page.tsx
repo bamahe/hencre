@@ -55,7 +55,7 @@ const faqItems = [
   {
     question: "What is Tampa Bay industrial a good investment entering Q4 2026?",
     answer:
-      "Tampa Bay industrial investment entering Q4 2026 has the characteristics that precede the strongest returns in any cycle: vacancy declining from a recent peak, rents beginning to move higher, a constrained forward supply pipeline, and durable structural demand drivers. Investors who wait for vacancy to be at 5% before buying will be paying materially more per square foot with less upside embedded in the basis. The current window - vacancy in the 7% range, rents recovering from a flat period, cap rates reflecting the recent softness - is historically the point of maximum opportunity in the industrial cycle. Multi-tenant small-bay and flex product in established corridors is trading at initial cap rates of approximately 5.25% to 6.25%, with near-term mark-to-market rent upside as below-market leases roll. Single-tenant large-bay product with credit tenants and meaningful remaining lease term is pricing in the 5.0% to 5.75% range. Industrial land in high-growth Pasco and eastern Hillsborough corridors offers longer-duration exposure to the market's ongoing buildout. Investors also looking to reposition existing property should consider the guidance on selling at the right point in the cycle at fastselleasysale.com, which covers commercial and industrial property disposition strategies.",
+      "Tampa Bay industrial investment entering Q4 2026 has the characteristics that precede the strongest returns in any cycle: vacancy declining from a recent peak, rents beginning to move higher, a constrained forward supply pipeline, and durable structural demand drivers. Investors who wait for vacancy to be at 5% before buying will be paying materially more per square foot with less upside embedded in the basis. The current window - vacancy in the 7% range, rents recovering from a flat period, cap rates reflecting the recent softness - is historically the point of maximum opportunity in the industrial cycle. Multi-tenant small-bay and flex product in established corridors is trading at initial cap rates of approximately 5.25% to 6.25%, with near-term mark-to-market rent upside as below-market leases roll. Single-tenant large-bay product with credit tenants and meaningful remaining lease term is pricing in the 5.0% to 5.75% range. Industrial land in high-growth Pasco and eastern Hillsborough corridors offers longer-duration exposure to the market's ongoing buildout. Investors also looking to reposition existing property should review the available commercial and industrial property disposition strategies, including how to time a sale relative to market cycle conditions, through our guide on <a href='/services/dispositions'>commercial property dispositions</a>.",
   },
   {
     question: "Which Tampa Bay industrial submarkets are performing best in Q4 2026?",
@@ -86,11 +86,11 @@ const schema = {
       description:
         "Tampa Bay industrial vacancy is pulling back from the Q3 2026 peak of 7.4% as absorption turns positive and the construction pipeline hits a multi-year low. Rents are approaching $9.80/SF NNN. A full market update for tenants and investors entering Q4 2026.",
       datePublished: "2026-10-19",
-      dateModified: "2026-10-21",
+      dateModified: "2026-11-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "East Tampa US-301 Industrial Corridor 2026: Investor Guide | HenCRE",
   description:
-    "The US 301 corridor in East Tampa is one of Florida's fastest-growing industrial submarkets. GTIS, Trammell Crow, and Constellation are all building here -- here's what investors need to know.",
+    "The US 301 corridor in East Tampa is one of Florida's fastest-growing industrial submarkets. GTIS, Trammell Crow, and Constellation are all building here. Here's what investors need to know.",
   alternates: { canonical: "https://hencre.com/blog/east-tampa-us-301-industrial-corridor-2026" },
   openGraph: {
     title: "East Tampa US-301 Industrial Corridor 2026: Investor Guide | HenCRE",
@@ -80,11 +80,11 @@ const schema = {
       description:
         "The US 301 corridor in East Tampa is one of Florida's fastest-growing industrial submarkets. Here's what investors need to know about the projects, rental rates, and long-term investment case.",
       datePublished: "2026-08-12",
-      dateModified: "2026-10-23",
+      dateModified: "2026-11-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -182,7 +182,7 @@ export default function EastTampaUS301IndustrialPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Is Institutional Capital Flooding Into East Tampa?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The investment thesis for East Tampa industrial comes down to three things: access, land, and demand. The US 301 corridor sits at the intersection of I-75 and I-4, giving tenants direct highway access to Orlando, Miami, and the broader Southeast. That connectivity makes East Tampa a natural regional distribution hub -- not just a local delivery point. See how this fits into the broader <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">Tampa Bay CRE growth story</Link>.
+          The investment thesis for East Tampa industrial comes down to three things: access, land, and demand. The US 301 corridor sits at the intersection of I-75 and I-4, giving tenants direct highway access to Orlando, Miami, and the broader Southeast. That connectivity makes East Tampa a natural regional distribution hub, not just a local delivery point. See how this fits into the broader <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">Tampa Bay CRE growth story</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Land availability along US 301 is also exceptional by Tampa Bay standards. While <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link> has virtually no industrial land left and central Tampa&apos;s infill sites are expensive and complicated to entitle, eastern <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> still has large, contiguous parcels capable of supporting 200,000- to 400,000-square-foot Class A distribution buildings. That is exactly the scale that major e-commerce operators and third-party logistics companies need.

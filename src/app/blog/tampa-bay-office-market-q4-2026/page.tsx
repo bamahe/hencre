@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay office market Q4 2026 update: Class A availability near multi-year lows, trophy rents hold above $60/SF, and year-end leasing is setting up a strong finish to 2026. Here is what tenants and investors need to know heading into 2027.",
       datePublished: "2026-10-27",
-      dateModified: "2026-10-30",
+      dateModified: "2026-11-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -268,7 +268,7 @@ export default function TampaBayOfficeMarketQ4Page() {
           Whether you are negotiating a lease renewal, evaluating a first Tampa Bay office, or assessing an office investment, I bring 23+ years of experience in Tampa Bay commercial real estate and deep familiarity with every submarket from Westshore to St. Pete to the suburban corridors. I help office tenants find and negotiate space and help investors evaluate office acquisitions across Hillsborough, Pinellas, Pasco, and the broader metro.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

@@ -87,7 +87,7 @@ const schema = {
       description:
         "Third Lake Partners completed ClearView at Echelon City Center in October 2026, marking the first major residential delivery in a $1 billion, 20.5-acre mixed-use campus in north St. Petersburg. Here is what it means for commercial real estate investors and tenants in Pinellas County.",
       datePublished: "2026-10-28",
-      dateModified: "2026-10-30",
+      dateModified: "2026-11-01",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -231,9 +231,7 @@ export default function EchelonCityCenterNorthStPeteCRE2026Page() {
           is supportive: overall retail vacancy across the metro is below 4%, and tenant demand for quality, walkable retail space in new mixed-use environments exceeds available supply in most Pinellas County submarkets. Tenants who have been considering north St. Pete as a market should treat the ClearView completion as the starting gun for serious site selection in the Echelon City Center trade area.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          It is also worth noting for prospective buyers and residents considering the north St. Pete neighborhood that the{" "}
-          <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Tampa Bay home search at nowtb.com</a>{" "}
-          includes neighborhood guides and listings in the areas surrounding Echelon City Center, where single-family and condo values have been rising alongside the campus&apos;s development profile.
+          It is also worth noting for prospective buyers and residents considering the north St. Pete neighborhood that single-family and condo values in the areas surrounding Echelon City Center have been rising alongside the campus&apos;s development profile, making the trade area worth monitoring for both commercial and residential investment activity.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does Echelon City Center Compare to Other Major St. Pete Mixed-Use Projects?</h2>
