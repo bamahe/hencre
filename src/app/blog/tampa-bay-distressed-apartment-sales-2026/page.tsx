@@ -49,7 +49,7 @@ const faqItems = [
   {
     question: "What options does a Tampa Bay apartment owner have when facing a loan maturity problem?",
     answer:
-      "There are four realistic paths. First, refinance if the numbers work: if the property's current NOI supports a DSCR of 1.20x or better at today's rates, conventional refinancing is available — owners should engage lenders 90 days before maturity. Second, negotiate a loan modification or extension: many lenders still prefer a performing loan at a higher rate over taking back a property; 'extend and pretend' strategies remain available for owners in good standing with their lender. Third, bring in an equity partner or recapitalize: injecting new equity to reduce the loan balance to a refinanceable level preserves the asset but dilutes ownership. Fourth, sell on your terms before the lender forces the issue: a controlled sale will almost always produce a better outcome than a foreclosure sale, and the current buyer pool for Tampa Bay multifamily remains active. If you need to sell quickly, services like fastselleasysale.com handle multifamily and commercial property sales for owners who need speed over maximum pricing.",
+      "There are four realistic paths. First, refinance if the numbers work: if the property's current NOI supports a DSCR of 1.20x or better at today's rates, conventional refinancing is available — owners should engage lenders 90 days before maturity. Second, negotiate a loan modification or extension: many lenders still prefer a performing loan at a higher rate over taking back a property; 'extend and pretend' strategies remain available for owners in good standing with their lender. Third, bring in an equity partner or recapitalize: injecting new equity to reduce the loan balance to a refinanceable level preserves the asset but dilutes ownership. Fourth, sell on your terms before the lender forces the issue: a controlled sale will almost always produce a better outcome than a foreclosure sale, and the current buyer pool for Tampa Bay multifamily remains active. If you need to sell quickly, Barrett Henry's commercial dispositions service at hencre.com/services/dispositions handles multifamily and commercial property sales for owners who need speed and certainty.",
   },
   {
     question: "Where do investors find distressed apartment buying opportunities in Tampa Bay?",
@@ -80,11 +80,11 @@ const schema = {
       description:
         "Occupancy at its lowest in a decade, rents slipping, and loans maturing into a higher-rate environment. Tampa Bay multifamily distress is creating both crisis and opportunity.",
       datePublished: "2026-10-17",
-      dateModified: "2026-10-20",
+      dateModified: "2026-11-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -225,9 +225,9 @@ export default function TampaBayDistressedApartmentSales2026Page() {
             <strong>Bring in a capital partner or recapitalize.</strong> If the property has equity — even reduced equity after value corrections — a joint venture or preferred equity partner can inject capital to pay down the loan to a refinanceable balance. This dilutes ownership but preserves the asset and avoids a forced sale. Private equity firms with multifamily mandates are actively evaluating Tampa Bay recapitalization opportunities in 2026.
           </li>
           <li>
-            <strong>Sell on your terms before the lender acts.</strong> A controlled, market-rate sale almost always produces a better outcome than a lender-forced sale, short sale, or foreclosure auction. If the refinancing math is insurmountable and recapitalization is not realistic, an early and voluntary sale preserves more capital and credit than waiting until the lender initiates proceedings. Owners who need to sell quickly — including those facing maturity or foreclosure timelines — can also explore expedited sale options through services like{" "}
-            <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fastselleasysale.com</a>
-            , which handles multifamily and commercial property sales for owners who prioritize speed and certainty over maximum list-price exposure.
+            <strong>Sell on your terms before the lender acts.</strong> A controlled, market-rate sale almost always produces a better outcome than a lender-forced sale, short sale, or foreclosure auction. If the refinancing math is insurmountable and recapitalization is not realistic, an early and voluntary sale preserves more capital and credit than waiting until the lender initiates proceedings. Owners who need to sell quickly — including those facing maturity or foreclosure timelines — can also explore expedited sale options through Barrett Henry's{" "}
+            <Link href="/services/dispositions" className="text-accent underline">commercial dispositions service</Link>
+            , which handles multifamily and commercial property sales for owners who prioritize speed and certainty.
           </li>
         </ul>
 
@@ -281,7 +281,7 @@ export default function TampaBayDistressedApartmentSales2026Page() {
           Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience across multiple market cycles in Tampa Bay. He represents buyers and sellers of multifamily properties across Hillsborough, Pinellas, Pasco, Manatee, and Polk counties. If you are an owner evaluating your options on a maturing loan or a property you need to exit, or an investor looking to source distressed multifamily opportunities, contact Barrett directly at (813) 500-5700 or through the <Link href="/contact" className="text-accent underline">contact page</Link>.
         </p>
 
-        <p className="mt-8 text-xs text-[#666666]">Published: October 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Published: November 2026</p>
       </article>
 
       <section className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">

@@ -103,11 +103,11 @@ const schema = {
       description:
         "AutoZone, O'Reilly Auto Parts, Jiffy Lube, and Mavis Tire are among the most resilient NNN tenants in Tampa Bay. This guide covers cap rates, lease structures, environmental due diligence, and why auto-service commercial real estate is a strong portfolio addition for investors in 2026.",
       datePublished: "2026-09-29",
-      dateModified: "2026-10-10",
+      dateModified: "2026-11-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -671,7 +671,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
           negotiate the right terms.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

@@ -86,7 +86,7 @@ const schema = {
       description:
         "How tariff-driven materials inflation is reshaping Tampa Bay commercial construction economics, thinning the new supply pipeline, and creating both challenges for tenants and opportunities for investors in industrial, retail, and office.",
       datePublished: "2026-10-31",
-      dateModified: "2026-10-31",
+      dateModified: "2026-11-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -252,9 +252,9 @@ export default function TampaBayCREConstructionCostsTariffsPage() {
           covers the full mechanics for owner-users evaluating this route.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For businesses that currently own commercial property they no longer need — because they are right-sizing, relocating, or exiting the business — the rising replacement cost environment also improves the seller&apos;s position. A building that cost you $3 million to develop in 2018 that would cost $4.5 million to replace today is worth meaningfully more than its depreciated book value might suggest. Owners evaluating disposition in this environment should use replacement cost as one of the valuation anchors alongside income and comparables. If you&apos;re exploring a fast-close sale on commercial property or land in Tampa Bay,{" "}
-          <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Fast Sell Easy Sale</a>{" "}
-          is a resource for cash-offer options on commercial and investment properties.
+          For businesses that currently own commercial property they no longer need — because they are right-sizing, relocating, or exiting the business — the rising replacement cost environment also improves the seller&apos;s position. A building that cost you $3 million to develop in 2018 that would cost $4.5 million to replace today is worth meaningfully more than its depreciated book value might suggest. Owners evaluating disposition in this environment should use replacement cost as one of the valuation anchors alongside income and comparables. If you&apos;re exploring a sale on commercial property or land in Tampa Bay, Barrett Henry&apos;s{" "}
+          <Link href="/services/dispositions" className="text-accent underline">commercial dispositions service</Link>{" "}
+          connects sellers with qualified buyers efficiently.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Will Construction Costs Come Down in Tampa Bay, and What Happens if They Don&apos;t?</h2>
@@ -282,7 +282,7 @@ export default function TampaBayCREConstructionCostsTariffsPage() {
           With 23+ years of experience in Tampa Bay commercial real estate at REMAX Collective, I navigate these market dynamics for investors and tenants every day. Whether you are buying, selling, leasing, or evaluating your options in a market where construction cost economics are shifting the rules, the analysis starts with a conversation.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

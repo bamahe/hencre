@@ -104,11 +104,11 @@ const schema = {
       description:
         "Auto dealership properties are one of the most distinctive asset classes in Tampa Bay commercial real estate. From Dale Mabry's traditional auto row to Tesla and Rivian's new EV footprint, here is what investors and owners need to know in 2026.",
       datePublished: "2026-10-14",
-      dateModified: "2026-10-16",
+      dateModified: "2026-11-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -411,16 +411,13 @@ export default function TampaBayAutoDealershipCREPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           For owners who need to sell quickly — whether exiting a family
           business, settling an estate, or responding to a franchise termination —{" "}
-          <a
-            href="https://fastselleasysale.com"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/services/dispositions"
             className="text-[#C8A97E] hover:underline"
           >
-            FastSellEasySale.com
-          </a>{" "}
-          is a resource Barrett Henry maintains specifically for commercial
-          property owners who need a faster, simpler exit on dealership land,
+            Barrett Henry&apos;s commercial dispositions service
+          </Link>{" "}
+          is specifically designed for commercial property owners who need a faster, simpler exit on dealership land,
           business real estate, or vacant commercial sites.
         </p>
 
@@ -521,7 +518,7 @@ export default function TampaBayAutoDealershipCREPage() {
             Broker Associate · REMAX Collective · 23+ years Tampa Bay CRE
           </p>
         </div>
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       <RelatedLinks links={relatedLinks} />

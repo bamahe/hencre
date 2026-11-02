@@ -84,11 +84,11 @@ const schema = {
       description:
         "Practical guide for Florida landlords navigating the sale of tenant-occupied properties.",
       datePublished: "2026-06-17",
-      dateModified: "2026-10-07",
+      dateModified: "2026-11-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -313,7 +313,7 @@ export default function TenantOccupiedSalePage() {
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}

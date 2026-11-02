@@ -86,11 +86,11 @@ const schema = {
       description:
         "Electric vehicle charging infrastructure is reshaping commercial real estate across Tampa Bay. From NNN investments to amenity upgrades commanding rent premiums, what investors and property owners need to know.",
       datePublished: "2026-10-30",
-      dateModified: "2026-10-30",
+      dateModified: "2026-11-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -257,11 +257,11 @@ export default function TampaBayEVChargingCREPage() {
           <strong>Utility capacity constraints.</strong> Not every commercial site has the electrical infrastructure to support DC fast charging without a costly utility upgrade. Large DCFC installations can require new transformer capacity, upgraded service panels, and potentially new utility easements. In some Tampa Bay submarkets, TECO and Duke Energy Florida are managing significant load growth from residential and commercial development, and utility upgrade timelines for new large-service applications can run 12 to 24 months. Property owners should obtain a utility feasibility assessment before committing to DCFC investment or signing a charging operator agreement that assumes an installation timeline the utility may not be able to support.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Owners who decide the EV charging investment does not fit their current property — or who are approaching a disposition — should factor in how buyer pools are beginning to price charging-ready versus non-charging-ready properties. At{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">
-            Fast Sell Easy Sale
-          </a>
-          , commercial properties including land and industrial assets can be evaluated quickly for buyers who want infrastructure-ready sites, including those positioned for EV charging development.
+          Owners who decide the EV charging investment does not fit their current property — or who are approaching a disposition — should factor in how buyer pools are beginning to price charging-ready versus non-charging-ready properties. Barrett Henry&apos;s{" "}
+          <Link href="/services/dispositions" className="text-accent underline">
+            commercial dispositions service
+          </Link>{" "}
+          connects commercial property and land owners with buyers seeking infrastructure-ready sites, including those positioned for EV charging development.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">
@@ -278,7 +278,7 @@ export default function TampaBayEVChargingCREPage() {
         </p>
       </article>
 
-      <p className="mx-auto max-w-3xl px-4 pt-2 pb-6 text-xs text-[#666666] sm:px-6 lg:px-8">Last updated: October 2026</p>
+      <p className="mx-auto max-w-3xl px-4 pt-2 pb-6 text-xs text-[#666666] sm:px-6 lg:px-8">Last updated: November 2026</p>
 
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">

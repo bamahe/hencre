@@ -69,7 +69,7 @@ const faqItems = [
     question:
       "Should private investors consider bulk distribution centers in Tampa Bay?",
     answer:
-      "Bulk distribution centers are predominantly an institutional product category — the absolute price point (typically $50 million to $200 million+ for quality assets), lease complexity, and tenant sophistication required to underwrite these investments places most single-asset bulk distribution deals outside the practical reach of private investors. However, smaller-format distribution and warehouse assets in the 50,000 to 200,000 square foot range offer private investors access to the same fundamental trends at more accessible price points, particularly in Polk County and eastern Hillsborough County where cap rates remain wider than the Tampa core. The SBA 504 loan program provides an effective financing structure for owner-users and investors purchasing industrial assets in the $3 million to $20 million range. Investors seeking to sell distribution or warehouse assets — whether to exit a position or access capital for redeployment — can explore off-market buyer interest through fastselleasysale.com, which connects commercial property owners with institutional and private buyers for faster transactions.",
+      "Bulk distribution centers are predominantly an institutional product category — the absolute price point (typically $50 million to $200 million+ for quality assets), lease complexity, and tenant sophistication required to underwrite these investments places most single-asset bulk distribution deals outside the practical reach of private investors. However, smaller-format distribution and warehouse assets in the 50,000 to 200,000 square foot range offer private investors access to the same fundamental trends at more accessible price points, particularly in Polk County and eastern Hillsborough County where cap rates remain wider than the Tampa core. The SBA 504 loan program provides an effective financing structure for owner-users and investors purchasing industrial assets in the $3 million to $20 million range. Investors seeking to sell distribution or warehouse assets — whether to exit a position or access capital for redeployment — can connect with buyers through Barrett Henry's commercial dispositions service at hencre.com/services/dispositions.",
   },
 ];
 
@@ -105,11 +105,11 @@ const schema = {
       description:
         "A 685,000-SF Sherwin-Williams distribution center in Winter Haven sold for $133 million in October 2026. Here is what the deal reveals about cap rates, buyer profiles, and the investment outlook for bulk distribution assets in the Tampa Bay / I-4 corridor.",
       datePublished: "2026-10-29",
-      dateModified: "2026-10-29",
+      dateModified: "2026-11-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -652,7 +652,7 @@ export default function TampaBayBulkDistributionCenterInvestmentPage() {
           the right call.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

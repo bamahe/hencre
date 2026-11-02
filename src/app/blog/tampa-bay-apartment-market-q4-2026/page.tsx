@@ -85,7 +85,7 @@ const schema = {
       description:
         "Higher interest rates are squeezing Tampa Bay apartment owners heading into Q4 2026. Vacancy has risen to 7–8%, rent growth has flattened, and floating-rate loans are forcing decisions. A full market update for multifamily owners, buyers, and investors.",
       datePublished: "2026-10-13",
-      dateModified: "2026-10-29",
+      dateModified: "2026-11-02",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -225,7 +225,7 @@ export default function TampaBayApartmentMarketQ4Page() {
           <strong>Sell at current market values.</strong> For owners who acquired at peak cap rates and have limited equity cushion, a sale at current market pricing — where cap rates have expanded to 5.5% to 6.5% for stabilized Class B assets — may crystallize a loss against their purchase basis. However, a controlled sale today may be preferable to a forced sale or lender workout later if the property cannot be refinanced. Owners who bought value-add assets with genuine below-market rents that have not yet been renovated and marked to market have more options, as those assets carry real upside that a buyer will underwrite. If you are considering an exit from a Tampa Bay apartment investment, our guide to{" "}
           <Link href="/blog/tampa-bay-rental-property-exit-strategy-2026" className="text-accent underline">rental property exit strategies in 2026</Link>{" "}
           covers the considerations in more detail. Investors who want to move quickly can also explore{" "}
-          <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fast-sale options for commercial and investment properties</a>.
+          <Link href="/services/dispositions" className="text-accent underline">fast-sale options for commercial and investment properties</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Raise additional equity or preferred capital.</strong> Some owners have been able to bring in equity partners, mezzanine lenders, or preferred equity providers to bridge the gap between what the current lender requires and what the existing equity can support. This option is available primarily for assets with genuine operating upside — either through lease-up completion, rent-roll mark-to-market, or physical value-add potential — that can support a return on incremental capital. It requires a compelling story to a sophisticated capital source and a realistic timeline to generate that return.
@@ -273,7 +273,7 @@ export default function TampaBayApartmentMarketQ4Page() {
           With 23+ years of experience in Tampa Bay commercial real estate, I work with multifamily owners navigating today&apos;s more complex market — whether that means evaluating exit options, identifying acquisition opportunities, or understanding what current cap rates and rent trends mean for a specific asset. If you have a Tampa Bay apartment investment question, I am happy to talk through what the current market means for your situation.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
