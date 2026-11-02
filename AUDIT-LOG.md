@@ -4,6 +4,66 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 79 — 2026-11-02
+
+**Commit:** `54e4cbc` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-bulk-distribution-center-investment-2026`
+- Updated `dateModified` to "2026-11-02" (was "2026-10-29")
+- Fixed `jobTitle` to full credentials format
+- Replaced external `fastselleasysale.com` reference in FAQ answer with internal `/services/dispositions`
+- Updated footer from "October 2026" to "November 2026"
+
+### 2. `/blog/tampa-bay-cre-construction-costs-tariffs-2026`
+- Updated `dateModified` to "2026-11-02" (was "2026-10-31")
+- Replaced external `fastselleasysale.com` JSX link with internal `<Link href="/services/dispositions">`
+- Updated footer from "October 2026" to "November 2026"
+
+### 3. `/blog/tampa-bay-ev-charging-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-11-02" (was "2026-10-30")
+- Fixed `jobTitle` to full credentials format
+- Replaced external `fastselleasysale.com` JSX link with internal `<Link href="/services/dispositions">`
+- Updated footer from "October 2026" to "November 2026"
+
+### 4. `/blog/tampa-bay-auto-parts-service-nnn-investment-2026`
+- Updated `dateModified` to "2026-11-02" (was "2026-10-10")
+- Fixed `jobTitle` to full credentials format
+- Updated footer from "October 2026" to "November 2026"
+
+### 5. `/blog/tampa-bay-childcare-nnn-investment-2026`
+- Updated `dateModified` to "2026-11-02" (was "2026-10-16")
+- Fixed `jobTitle` to full credentials format
+- Updated footer from "September 2026" to "November 2026"
+
+### 6. `/blog/selling-tenant-occupied-investment-property-florida`
+- Updated `dateModified` to "2026-11-02" (was "2026-10-07")
+- Fixed `jobTitle` to full credentials format
+- Updated footer from "October 2026" to "November 2026"
+
+### 7. `/blog/plant-city-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-11-02" (was "2026-10-16")
+- Fixed `jobTitle` to full credentials format
+- Updated footer from "September 2026" to "November 2026"
+
+### 8. `/blog/tampa-bay-apartment-market-q4-2026`
+- Updated `dateModified` to "2026-11-02" (was "2026-10-29")
+- Replaced external `fastselleasysale.com` JSX link with internal `<Link href="/services/dispositions">`
+- Updated footer from "October 2026" to "November 2026"
+
+### 9. `/blog/tampa-bay-distressed-apartment-sales-2026`
+- Updated `dateModified` to "2026-11-02" (was "2026-10-20")
+- Fixed `jobTitle` to full credentials format
+- Replaced external `fastselleasysale.com` reference in FAQ answer text and JSX link with internal `/services/dispositions`
+- Updated footer from "October 2026" to "November 2026"
+
+### 10. `/blog/tampa-bay-auto-dealership-cre-2026`
+- Updated `dateModified` to "2026-11-02" (was "2026-10-16")
+- Fixed `jobTitle` to full credentials format
+- Replaced external `fastselleasysale.com` JSX link with internal `<Link href="/services/dispositions">`
+- Updated footer from "October 2026" to "November 2026"
+
+---
+
 ## Batch 78 — 2026-11-01
 
 1. **`/blog/tampa-bay-cre-market-outlook-q4-2026`**
