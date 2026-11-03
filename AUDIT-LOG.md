@@ -4,6 +4,63 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 80 — 2026-11-03
+
+**Commit:** `f603291` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/crystal-river-citrus-county-nnn-retail-investment-2026`
+- Shortened meta title from 74 chars to 58 chars: "Crystal River & Citrus County NNN Investment 2026 | HenCRE"
+- Merged dual schemas (articleSchema + faqSchema) into single @graph schema
+- Fixed `jobTitle` to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed `nowtb.com` from author sameAs array
+- Fixed `publisher.name` from "REMAX Commercial Real Estate" to "HenCRE"
+- Added `dateModified: "2026-11-03"`
+- Added `import Link from "next/link"`
+- Added 12 internal `<Link>` components throughout article body (was 0)
+- Fixed RelatedLinks hrefs (all 4 were missing `/blog/` prefix)
+- Added 2 new RelatedLinks: NNN lease guide and NNN cap rates
+- Fixed author bio title to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed HUD/FHA/HOPE Free Resources section
+- Added "Last updated: November 2026" footer
+
+### 2. `/blog/temple-terrace-commercial-real-estate-2026`
+- Replaced `fastselleasysale.com` external link with internal `<Link href="/services/dispositions">`
+- Updated `dateModified` to "2026-11-03"
+
+### 3. `/blog/clearwater-beach-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-11-03"
+- Updated footer from "October 2026" to "November 2026"
+
+### 4. `/blog/st-petersburg-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-11-03"
+- Updated footer from "September 2026" to "November 2026"
+
+### 5. `/blog/dale-mabry-corridor-commercial-real-estate-tampa-2026`
+- Updated `dateModified` to "2026-11-03"
+- Updated footer from "September 2026" to "November 2026"
+
+### 6. `/blog/florida-1031-exchange-what-investors-need-to-know`
+- Updated `dateModified` to "2026-11-03"
+- Updated footer from "October 2026" to "November 2026"
+
+### 7. `/blog/commercial-property-due-diligence-timeline`
+- Updated `dateModified` to "2026-11-03"
+- Updated footer from "October 2026" to "November 2026"
+
+### 8. `/blog/tampa-bay-data-center-cre-2026`
+- Updated `dateModified` to "2026-11-03"
+- Updated footer from "September 2026" to "November 2026"
+
+### 9. `/blog/wesley-chapel-commercial-real-estate-2026`
+- Updated `dateModified` to "2026-11-03"
+- Updated footer from "September 2026" to "November 2026"
+
+### 10. `/blog/tampa-bay-hospitality-hotel-cre-2026`
+- Updated `dateModified` to "2026-11-03"
+- Updated footer from "September 2026" to "November 2026"
+
+---
+
 ## Batch 79 — 2026-11-02
 
 **Commit:** `54e4cbc` | **Build:** clean (0 errors) | **Pages improved:** 10
