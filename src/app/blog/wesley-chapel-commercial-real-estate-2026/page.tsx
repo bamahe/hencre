@@ -87,7 +87,7 @@ const schema = {
       description:
         "Wesley Chapel is one of Tampa Bay's fastest-growing commercial submarkets. SR-54/SR-56 retail corridors, Bruce B. Downs medical office, flex industrial, and a strong development pipeline. A complete 2026 market guide for tenants and investors.",
       datePublished: "2026-09-30",
-      dateModified: "2026-10-19",
+      dateModified: "2026-11-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -302,7 +302,7 @@ export default function WesleyChapelCREPage() {
           With 23+ years of experience in Tampa Bay commercial real estate, I work with tenants seeking space in Wesley Chapel and investors evaluating Pasco County commercial acquisitions across retail, industrial, office, and mixed-use. Whether you are looking to lease your first commercial space in a fast-growing market or evaluating an acquisition along the SR-56 corridor, I bring the market knowledge to help you make the right decision.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

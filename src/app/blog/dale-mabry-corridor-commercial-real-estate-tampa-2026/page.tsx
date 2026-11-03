@@ -85,7 +85,7 @@ const schema = {
       description:
         "Britton Plaza is clearing out. WestShore Plaza sold for $135M. Dale Mabry Highway - Tampa's primary commercial spine - is in the middle of a generational redevelopment cycle. Here is what investors and tenants need to know.",
       datePublished: "2026-09-05",
-      dateModified: "2026-10-19",
+      dateModified: "2026-11-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -282,7 +282,7 @@ export default function DaleMabryCorridorCRE2026Page() {
           Whether you are looking for space for your business, evaluating an acquisition, or considering what your Dale Mabry property is worth in the current redevelopment environment, understanding the specific segment you are working in is the first step. With 23+ years of real estate experience and deep familiarity with Tampa&apos;s commercial corridors, I work with tenants, investors, and property owners across the Dale Mabry corridor and the broader South Tampa CRE market.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

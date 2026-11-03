@@ -86,7 +86,7 @@ const schema = {
       description:
         "Temple Terrace is a small Hillsborough County city adjacent to USF Tampa with an active downtown redevelopment on 56th Street and commercial real estate opportunities that remain under the radar for most Tampa Bay investors and tenants. A complete guide for 2026.",
       datePublished: "2026-11-01",
-      dateModified: "2026-11-01",
+      dateModified: "2026-11-03",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -276,7 +276,7 @@ export default function TempleTerrraceCREPage() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For sellers in the Temple Terrace market who are ready to exit a commercial building, the improving market conditions make 2026 a reasonable time to evaluate your position. If speed and certainty matter more than maximum price, a direct conversation about a{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">fast, off-market sale</a> is worth having as one option alongside a traditional listing process.
+          <Link href="/services/dispositions" className="text-accent underline">fast, off-market disposition</Link> is worth having as one option alongside a traditional listing process.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Tenants Know Before Leasing in Temple Terrace?</h2>
