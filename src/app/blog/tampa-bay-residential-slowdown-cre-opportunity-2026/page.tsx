@@ -79,11 +79,11 @@ const schema = {
       headline: "What Tampa Bay's Housing Market Slowdown Signals for CRE Investors in 2026",
       description: "Tampa Bay's residential market softening creates commercial real estate signals -- cap rate changes, multifamily dynamics, retail demand shifts, and investor reallocation.",
       datePublished: "2026-07-19",
-      dateModified: "2026-10-21",
+      dateModified: "2026-11-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -298,7 +298,7 @@ export default function ResidentialSlowdownCREOpportunityPage() {
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
         </p>
-        <p className="mt-2 text-xs text-[#999999]">Last updated: October 2026</p>
+        <p className="mt-2 text-xs text-[#999999]">Last updated: November 2026</p>
       </section>
 
       <CTASection

@@ -86,7 +86,7 @@ const schema = {
       description:
         "Pinellas Park sits at the geographic center of Pinellas County with over 2.8 million square feet of industrial space and retail vacancy well below 4%. Here is what investors and tenants need to know.",
       datePublished: "2026-09-23",
-      dateModified: "2026-10-30",
+      dateModified: "2026-11-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -245,7 +245,7 @@ export default function PinellasParkCREPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           Owner-users who want to acquire their own facility — rather than continue leasing — have a strong window in 2026. SBA 504 financing allows business owners to purchase a commercial building with as little as 10% down at fixed below-market rates, which can make a Pinellas Park industrial acquisition cash-flow positive from day one in many cases. Our guide to{" "}
           <Link href="/blog/sba-504-loan-commercial-real-estate-tampa-bay" className="text-accent underline">SBA 504 loans for Tampa Bay commercial real estate</Link> explains the mechanics in detail. If the current building needs work before a sale or a lease-up, the team at{" "}
-          <a href="https://bestbayservices.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Best Bay Services</a> handles commercial handyman, HVAC, and pre-listing repairs across Pinellas County.
+          <Link href="/services/commercial-property-management" className="text-accent underline">Barrett&apos;s commercial property management team</Link> can coordinate pre-sale and pre-lease repairs across Pinellas County.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Tenants Know Before Leasing Space in Pinellas Park?</h2>
@@ -285,7 +285,7 @@ export default function PinellasParkCREPage() {
           With 23+ years of real estate experience across Tampa Bay, I work with commercial tenants finding industrial, retail, and flex space in Pinellas Park and investors evaluating acquisitions throughout Pinellas County. The right opportunity here often requires local knowledge of off-market availability and a clear-eyed understanding of building condition and lease structure — not just a LoopNet search. Call or reach out below and let&apos;s talk about what you are looking for.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

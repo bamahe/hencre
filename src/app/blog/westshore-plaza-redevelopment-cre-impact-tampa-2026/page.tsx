@@ -80,11 +80,11 @@ const schema = {
       description:
         "Third Lake Partners acquired WestShore Plaza for $135M and filed a 14-block mixed-use plan. A second Westshore hotel site is converting to 398 apartments. This guide covers what both projects mean for investors and tenants in Tampa's Westshore corridor.",
       datePublished: "2026-10-11",
-      dateModified: "2026-10-21",
+      dateModified: "2026-11-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -107,27 +107,27 @@ const relatedLinks = [
   {
     title: "Westshore Tampa Office Market 2026",
     href: "/blog/westshore-tampa-office-market-2026",
-    description: "Vacancy at 16%, all-time high rents, and several towers with minimal availability — the Westshore office submarket in detail.",
+    description: "Vacancy at 16%, all-time high rents, and several towers with minimal availability -- the Westshore office submarket in detail.",
   },
   {
     title: "Tampa Mall Redevelopment: Mixed-Use CRE Guide 2026",
     href: "/blog/tampa-mall-redevelopment-mixed-use-2026",
-    description: "WestShore Plaza, Britton Plaza, and Tampa's broader mall-to-mixed-use conversion wave — what investors need to know.",
+    description: "WestShore Plaza, Britton Plaza, and Tampa's broader mall-to-mixed-use conversion wave -- what investors need to know.",
   },
   {
     title: "Tampa Bay Multifamily Market Mid-2026",
     href: "/blog/tampa-bay-multifamily-market-mid-2026",
-    description: "How Tampa Bay's apartment market is absorbing supply — and where rents are resuming growth heading into year-end.",
+    description: "How Tampa Bay's apartment market is absorbing supply -- and where rents are resuming growth heading into year-end.",
   },
   {
     title: "South Tampa Commercial Real Estate 2026",
     href: "/blog/south-tampa-commercial-real-estate-2026",
-    description: "The commercial corridor closest to Westshore — office, retail, and mixed-use trends in South Tampa's dense urban market.",
+    description: "The commercial corridor closest to Westshore -- office, retail, and mixed-use trends in South Tampa's dense urban market.",
   },
   {
     title: "Tampa Bay Retail Market Q3 2026",
     href: "/blog/tampa-bay-retail-market-q3-2026",
-    description: "Vacancy below 4% metro-wide — why Tampa Bay retail remains one of the tightest markets in the country.",
+    description: "Vacancy below 4% metro-wide -- why Tampa Bay retail remains one of the tightest markets in the country.",
   },
   {
     title: "Tampa Bay Opportunity Zones CRE 2026",
@@ -137,7 +137,7 @@ const relatedLinks = [
   {
     title: "Tampa Bay Owner-User Commercial Real Estate: Buy vs. Lease",
     href: "/blog/tampa-bay-owner-user-commercial-real-estate-buy-vs-lease",
-    description: "When buying your own building beats leasing — analysis for business owners in Tampa Bay's current market.",
+    description: "When buying your own building beats leasing -- analysis for business owners in Tampa Bay's current market.",
   },
   {
     title: "Water Street Tampa: 33-Story Tower and Downtown CRE 2026",
@@ -167,57 +167,57 @@ export default function WestShorePlazaRedevelopmentPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Tampa&apos;s Westshore Business District is in the middle of a transformation that will take years to fully play out — and the commercial real estate implications are already significant. In July 2026, Third Lake Partners closed on the 54-acre WestShore Plaza site for approximately $135 million and subsequently filed plans to rezone the property into 14 independent development blocks, unlocking a program that could ultimately include 1,765 residential units, 902,000 square feet of retail, 500,000 square feet of office and medical office, and a 240-room hotel. A few blocks away, Cardinal Point Management is planning to demolish a 1973-era Ramada hotel at 1200 N. West Shore Blvd. and replace it with 398 apartments and 7,500 square feet of street-level retail. Two major properties, two simultaneous conversion projects, one corridor. This guide covers what both projects mean for investors currently active in Westshore and for the tenants who lease space there.
+          Tampa&apos;s Westshore Business District is in the middle of a transformation that will take years to fully play out -- and the commercial real estate implications are already significant. In July 2026, Third Lake Partners closed on the 54-acre WestShore Plaza site for approximately $135 million and subsequently filed plans to rezone the property into 14 independent development blocks, unlocking a program that could ultimately include 1,765 residential units, 902,000 square feet of retail, 500,000 square feet of office and medical office, and a 240-room hotel. A few blocks away, Cardinal Point Management is planning to demolish a 1973-era Ramada hotel at 1200 N. West Shore Blvd. and replace it with 398 apartments and 7,500 square feet of street-level retail. Two major properties, two simultaneous conversion projects, one corridor. This guide covers what both projects mean for investors currently active in Westshore and for the tenants who lease space there.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Exactly Is the WestShore Plaza Redevelopment Plan?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          WestShore Plaza opened in 1967, making it one of Tampa&apos;s oldest enclosed regional malls. By the time Third Lake Partners acquired it in mid-2026, the mall had been declining for years — with store closures running at roughly five for every one new opening. The 54-acre site, located at the intersection of West Shore Boulevard and Kennedy Boulevard, sits in the heart of Tampa&apos;s most established commercial submarket, immediately adjacent to major office towers, direct airport access via the Westshore Airport Connector, and the I-275/Kennedy interchange. The location is genuinely excellent; the aging retail format had simply become the wrong product for it.
+          WestShore Plaza opened in 1967, making it one of Tampa&apos;s oldest enclosed regional malls. By the time Third Lake Partners acquired it in mid-2026, the mall had been declining for years -- with store closures running at roughly five for every one new opening. The 54-acre site, located at the intersection of West Shore Boulevard and Kennedy Boulevard, sits in the heart of Tampa&apos;s most established commercial submarket, immediately adjacent to major office towers, direct airport access via the Westshore Airport Connector, and the I-275/Kennedy interchange. The location is genuinely excellent; the aging retail format had simply become the wrong product for it.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The redevelopment vision that Third Lake inherited was shaped under the prior owner, Washington Prime Group, which worked with the City of Tampa on entitlements before the sale. Those entitlements — approved before Third Lake&apos;s acquisition — total more than 8.1 million square feet of development rights across the site. Third Lake&apos;s current filing does not seek to increase those rights; it asks to redistribute them across 14 individually phased development blocks. That structure matters for investors and tenants: it means different portions of the site can break ground, deliver, and operate independently. The first blocks to develop could be delivering residential and street-level retail while other portions of the site still house the existing mall or surface parking lots.
+          The redevelopment vision that Third Lake inherited was shaped under the prior owner, Washington Prime Group, which worked with the City of Tampa on entitlements before the sale. Those entitlements -- approved before Third Lake&apos;s acquisition -- total more than 8.1 million square feet of development rights across the site. Third Lake&apos;s current filing does not seek to increase those rights; it asks to redistribute them across 14 individually phased development blocks. That structure matters for investors and tenants: it means different portions of the site can break ground, deliver, and operate independently. The first blocks to develop could be delivering residential and street-level retail while other portions of the site still house the existing mall or surface parking lots.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The approved program includes up to 1,765 residential units — a substantial addition of housing density to a district that has historically been dominated by office and retail. It also includes approximately 902,000 square feet of retail and 500,000 square feet of office and medical office, the latter reflecting BayCare&apos;s ongoing expansion of healthcare facilities in the Westshore area. The 240-room hotel component rounds out what would become, in effect, a self-contained mixed-use district on the former mall footprint.
+          The approved program includes up to 1,765 residential units -- a substantial addition of housing density to a district that has historically been dominated by office and retail. It also includes approximately 902,000 square feet of retail and 500,000 square feet of office and medical office, the latter reflecting BayCare&apos;s ongoing expansion of healthcare facilities in the Westshore area. The 240-room hotel component rounds out what would become, in effect, a self-contained mixed-use district on the former mall footprint.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          What Third Lake has not announced: any specific demolition timeline, phasing schedule, or groundbreaking date for the first development block. Officials have not confirmed a start date. This is not unusual for a project of this complexity and scale — entitlement, design, and financing for the first phase must be completed before any construction activity begins. Investors and tenants should plan on a multi-year development timeline with meaningful uncertainty in the near term.
+          What Third Lake has not announced: any specific demolition timeline, phasing schedule, or groundbreaking date for the first development block. Officials have not confirmed a start date. This is not unusual for a project of this complexity and scale -- entitlement, design, and financing for the first phase must be completed before any construction activity begins. Investors and tenants should plan on a multi-year development timeline with meaningful uncertainty in the near term.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Why Are Two Major Westshore Redevelopments Happening at the Same Time?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The simultaneous redevelopment activity in Westshore reflects a convergence of factors that have been building for several years. First, the structural case for adding residential density to the Westshore corridor has strengthened. Westshore is already Tampa&apos;s largest office submarket — with consistently tight vacancy and record asking rents — but it has functionally zero walkable housing inventory. Residents of the metro who work in Westshore drive in from South Tampa, Hyde Park, Channelside, or the suburbs. Adding thousands of residential units directly adjacent to the office towers creates a live-work dynamic that the submarket currently lacks entirely, and that dynamic is what institutional capital is underwriting. For a broader look at how Westshore&apos;s office market is performing as this transformation begins, our{" "}
+          The simultaneous redevelopment activity in Westshore reflects a convergence of factors that have been building for several years. First, the structural case for adding residential density to the Westshore corridor has strengthened. Westshore is already Tampa&apos;s largest office submarket -- with consistently tight vacancy and record asking rents -- but it has functionally zero walkable housing inventory. Residents of the metro who work in Westshore drive in from South Tampa, Hyde Park, Channelside, or the suburbs. Adding thousands of residential units directly adjacent to the office towers creates a live-work dynamic that the submarket currently lacks entirely, and that dynamic is what institutional capital is underwriting. For a broader look at how Westshore&apos;s office market is performing as this transformation begins, our{" "}
           <Link href="/blog/westshore-tampa-office-market-2026" className="text-accent underline">Westshore Tampa office market guide</Link>{" "}
           covers the leasing and investment picture in detail.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Second, the aging hotel and mall assets in Westshore have reached end-of-useful-life as their current uses while simultaneously representing some of the most valuable land in the Tampa metro on a per-acre basis. A 1973 Ramada hotel on a 4.3-acre parcel at the intersection of West Shore Boulevard and I-275 is not worth preserving as a hotel — it is worth demolishing and replacing with highest-and-best use. The same logic applies at a larger scale to the WestShore Plaza site. Both owners ran the analysis and reached the same conclusion at approximately the same point in the cycle.
+          Second, the aging hotel and mall assets in Westshore have reached end-of-useful-life as their current uses while simultaneously representing some of the most valuable land in the Tampa metro on a per-acre basis. A 1973 Ramada hotel on a 4.3-acre parcel at the intersection of West Shore Boulevard and I-275 is not worth preserving as a hotel -- it is worth demolishing and replacing with highest-and-best use. The same logic applies at a larger scale to the WestShore Plaza site. Both owners ran the analysis and reached the same conclusion at approximately the same point in the cycle.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Third, Tampa Bay&apos;s population growth gives both projects credible demand underwriting. The metro has absorbed net positive in-migration consistently since 2020, and that in-migration is the demand tailwind that makes adding 1,765 residential units to Westshore and 398 apartments to the hotel site a plausible, not speculative, thesis. Developers who can point to a growing population and a demonstrable housing undersupply have a stronger financing story than developers underwriting against a flat or declining demographic backdrop. Tampa Bay provides that story today — and both projects are pricing it in.
+          Third, Tampa Bay&apos;s population growth gives both projects credible demand underwriting. The metro has absorbed net positive in-migration consistently since 2020, and that in-migration is the demand tailwind that makes adding 1,765 residential units to Westshore and 398 apartments to the hotel site a plausible, not speculative, thesis. Developers who can point to a growing population and a demonstrable housing undersupply have a stronger financing story than developers underwriting against a flat or declining demographic backdrop. Tampa Bay provides that story today -- and both projects are pricing it in.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does the Westshore Transformation Mean for Current Retail Tenants?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For retail tenants currently operating inside WestShore Plaza, the situation demands proactive planning. The 14-block phased structure means that individual areas of the mall could face demolition on a rolling, unpredictable schedule. Mall redevelopment leases typically include landlord termination rights tied to the redevelopment program — meaning that a tenant who signs a new five-year lease today may have significantly less certainty about year three or four than the contract language alone implies. Store closures in WestShore were already outpacing openings; with the redevelopment plan now filed, the trajectory for the remaining tenant base is clear.
+          For retail tenants currently operating inside WestShore Plaza, the situation demands proactive planning. The 14-block phased structure means that individual areas of the mall could face demolition on a rolling, unpredictable schedule. Mall redevelopment leases typically include landlord termination rights tied to the redevelopment program -- meaning that a tenant who signs a new five-year lease today may have significantly less certainty about year three or four than the contract language alone implies. Store closures in WestShore were already outpacing openings; with the redevelopment plan now filed, the trajectory for the remaining tenant base is clear.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The strategic imperative for affected tenants is to begin exploring alternative locations now, before other displaced tenants enter the market simultaneously. Westshore&apos;s retail vacancy is already tight — the submarket benefits from the same supply constraints as the broader Tampa Bay retail market, which held below 4% vacancy metro-wide through Q2 2026. Tenants who wait until they receive a termination notice will compete for a limited pool of available space against other tenants who received the same notice at the same time. That is the worst possible negotiating position.
+          The strategic imperative for affected tenants is to begin exploring alternative locations now, before other displaced tenants enter the market simultaneously. Westshore&apos;s retail vacancy is already tight -- the submarket benefits from the same supply constraints as the broader Tampa Bay retail market, which held below 4% vacancy metro-wide through Q2 2026. Tenants who wait until they receive a termination notice will compete for a limited pool of available space against other tenants who received the same notice at the same time. That is the worst possible negotiating position.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The good news for well-capitalized retailers: the Westshore corridor beyond WestShore Plaza itself has quality strip retail, outparcel buildings, and mixed-use storefronts. South Tampa retail along Kennedy Boulevard, Howard Avenue, and South Dale Mabry also represents logical relocation territory for tenants serving the Westshore-area customer base. Businesses considering a relocation strategy benefit from working with a broker who can identify available options before they hit the open market — exactly the kind of transaction where local market relationships produce better outcomes than searching CoStar alone. For a broader read on Tampa Bay retail availability, see our{" "}
+          The good news for well-capitalized retailers: the Westshore corridor beyond WestShore Plaza itself has quality strip retail, outparcel buildings, and mixed-use storefronts. South Tampa retail along Kennedy Boulevard, Howard Avenue, and South Dale Mabry also represents logical relocation territory for tenants serving the Westshore-area customer base. Businesses considering a relocation strategy benefit from working with a broker who can identify available options before they hit the open market -- exactly the kind of transaction where local market relationships produce better outcomes than searching CoStar alone. For a broader read on Tampa Bay retail availability, see our{" "}
           <Link href="/blog/tampa-bay-retail-market-q3-2026" className="text-accent underline">Tampa Bay retail market Q3 2026 update</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Should Westshore Office Tenants Think About the Redevelopment?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For office tenants in Westshore&apos;s towers — the established Class A buildings like SkyCenter One, Wells Fargo Center, and the other high-rises that make Westshore Tampa&apos;s largest office submarket — the WestShore Plaza transformation is a net positive signal over the medium term, and a source of near-term inconvenience to plan around.
+          For office tenants in Westshore&apos;s towers -- the established Class A buildings like SkyCenter One, Wells Fargo Center, and the other high-rises that make Westshore Tampa&apos;s largest office submarket -- the WestShore Plaza transformation is a net positive signal over the medium term, and a source of near-term inconvenience to plan around.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The medium-term positive: adding 1,765 residential units directly adjacent to Westshore&apos;s office towers fundamentally changes the character of the district. It creates an amenity-rich, walkable mixed-use environment where office tenants can recruit employees who want to live close to work, walk to restaurants and retail at lunch, and access a range of services without a car. That environment is what corporate tenants have been paying a premium for in Water Street Tampa and Midtown Tampa — and it is coming to Westshore. Office buildings that have been competing primarily on rent and TI allowances will be competing on location quality, and the gap between Westshore and secondary office corridors will widen.
+          The medium-term positive: adding 1,765 residential units directly adjacent to Westshore&apos;s office towers fundamentally changes the character of the district. It creates an amenity-rich, walkable mixed-use environment where office tenants can recruit employees who want to live close to work, walk to restaurants and retail at lunch, and access a range of services without a car. That environment is what corporate tenants have been paying a premium for in Water Street Tampa and Midtown Tampa -- and it is coming to Westshore. Office buildings that have been competing primarily on rent and TI allowances will be competing on location quality, and the gap between Westshore and secondary office corridors will widen.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The near-term consideration: multi-year construction activity on a 54-acre site generates noise, dust, traffic rerouting, and visual disruption that affects the surrounding blocks. Office tenants with lease expirations in the next 18 to 36 months should model their renewal negotiations with this context in mind — a construction-adjacent location warrants meaningful concessions from landlords who would otherwise hold firm on rate. Our{" "}
+          The near-term consideration: multi-year construction activity on a 54-acre site generates noise, dust, traffic rerouting, and visual disruption that affects the surrounding blocks. Office tenants with lease expirations in the next 18 to 36 months should model their renewal negotiations with this context in mind -- a construction-adjacent location warrants meaningful concessions from landlords who would otherwise hold firm on rate. Our{" "}
           <Link href="/blog/westshore-tampa-office-market-2026" className="text-accent underline">Westshore office market analysis</Link>{" "}
           provides the submarket-level detail on where Westshore rents and vacancies stand today.
         </p>
@@ -230,7 +230,7 @@ export default function WestShorePlazaRedevelopmentPage() {
           <strong>Adjacent retail and strip center investment.</strong> When the WestShore Plaza redevelopment begins displacing tenants and absorbing available inline retail space, the vacuum will temporarily increase demand for quality strip retail and outparcel buildings in the surrounding corridor. Retail investors who own or acquire well-located strip retail within one mile of the WestShore Plaza site are positioned to capture that displaced-tenant demand. Vacancy in this segment is already tight; it will tighten further as the redevelopment progresses.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Land banking near the redevelopment footprint.</strong> The precedent is clear from Water Street Tampa: land values adjacent to a major mixed-use development appreciate as the project delivers density, retail, and residential activity. Investors with patient capital and the ability to hold through the construction phase can acquire sites near the WestShore Plaza footprint at prices that have not yet fully priced in the corridor transformation. This is a higher-conviction, longer-duration trade than stabilized income property — but the upside on land near a delivering mixed-use district is meaningfully higher than buying into an already-transformed corridor.
+          <strong>Land banking near the redevelopment footprint.</strong> The precedent is clear from Water Street Tampa: land values adjacent to a major mixed-use development appreciate as the project delivers density, retail, and residential activity. Investors with patient capital and the ability to hold through the construction phase can acquire sites near the WestShore Plaza footprint at prices that have not yet fully priced in the corridor transformation. This is a higher-conviction, longer-duration trade than stabilized income property -- but the upside on land near a delivering mixed-use district is meaningfully higher than buying into an already-transformed corridor.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Multifamily in the Westshore area.</strong> The planned addition of 1,765 residential units at WestShore Plaza and 398 units at the former Ramada site validates residential demand in a corridor that has historically had almost no multifamily inventory. Multifamily investors looking at Westshore area acquisitions can point to this entitlement activity as market validation of the residential use case. For the broader multifamily picture across Tampa Bay, our{" "}
@@ -238,39 +238,39 @@ export default function WestShorePlazaRedevelopmentPage() {
           covers where cap rates and fundamentals stand today.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Existing Westshore office as a hold or add.</strong> The 500,000 square feet of planned office and medical office inside the WestShore Plaza redevelopment will not deliver for several years — meaning the corridor&apos;s existing office inventory faces no new competition in the near to medium term. Investors in existing Westshore office assets benefit from that supply constraint, plus the corridor upgrade effect as the mixed-use development delivers. The office market in Westshore already shows record rents and sub-16% vacancy; the redevelopment adds a long-term tailwind to a market that is already performing well. For more detail on the Westshore CRE market, investors looking to sell an existing commercial asset to reposition into Westshore can explore{" "}
+          <strong>Existing Westshore office as a hold or add.</strong> The 500,000 square feet of planned office and medical office inside the WestShore Plaza redevelopment will not deliver for several years -- meaning the corridor&apos;s existing office inventory faces no new competition in the near to medium term. Investors in existing Westshore office assets benefit from that supply constraint, plus the corridor upgrade effect as the mixed-use development delivers. The office market in Westshore already shows record rents and sub-16% vacancy; the redevelopment adds a long-term tailwind to a market that is already performing well. For more detail on the Westshore CRE market, investors looking to sell an existing commercial asset to reposition into Westshore can explore{" "}
           <Link href="/services/dispositions" className="text-accent underline">commercial property disposition services</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does the Westshore Redevelopment Fit Into Tampa Bay&apos;s Broader CRE Story?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The WestShore Plaza transformation is one chapter in a larger story about Tampa Bay&apos;s built environment catching up with its economic and demographic growth. The metro has been adding population and employment faster than its commercial and residential inventory has expanded for the better part of a decade. The result is a market where retail vacancy is below 4%, industrial vacancy is stabilizing after a supply wave, and even suburban office is outperforming the national trend. New mixed-use development in established corridors — whether at WestShore, Water Street, the Heights, or Midtown Tampa — is the market&apos;s response to that demand signal: more density, more residential units, more walkable retail, and a built environment that matches the population it is trying to attract and retain.
+          The WestShore Plaza transformation is one chapter in a larger story about Tampa Bay&apos;s built environment catching up with its economic and demographic growth. The metro has been adding population and employment faster than its commercial and residential inventory has expanded for the better part of a decade. The result is a market where retail vacancy is below 4%, industrial vacancy is stabilizing after a supply wave, and even suburban office is outperforming the national trend. New mixed-use development in established corridors -- whether at WestShore, Water Street, the Heights, or Midtown Tampa -- is the market&apos;s response to that demand signal: more density, more residential units, more walkable retail, and a built environment that matches the population it is trying to attract and retain.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For a cross-sector view of Tampa Bay&apos;s commercial real estate entering Q4 2026 — industrial, retail, office, and multifamily together — our{" "}
+          For a cross-sector view of Tampa Bay&apos;s commercial real estate entering Q4 2026 -- industrial, retail, office, and multifamily together -- our{" "}
           <Link href="/blog/tampa-bay-cre-market-outlook-q4-2026" className="text-accent underline">Tampa Bay CRE market outlook for Q4 2026</Link>{" "}
-          provides the full picture. For investors researching specific transaction types — sale-leasebacks, 1031 exchanges, NNN investments — the related reading below covers the categories most relevant to the Westshore corridor context.
+          provides the full picture. For investors researching specific transaction types -- sale-leasebacks, 1031 exchanges, NNN investments -- the related reading below covers the categories most relevant to the Westshore corridor context.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The WestShore District&apos;s transformation is a multi-year project, not a near-term catalyst. Investors and tenants who understand that timeline — and who position themselves ahead of the phases rather than reacting to them — will extract the most value from what is shaping up to be one of Tampa Bay&apos;s most significant commercial real estate stories of the decade. For broader context on what is driving CRE demand across the region, see{" "}<Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay commercial real estate is booming</Link>.
+          The WestShore District&apos;s transformation is a multi-year project, not a near-term catalyst. Investors and tenants who understand that timeline -- and who position themselves ahead of the phases rather than reacting to them -- will extract the most value from what is shaping up to be one of Tampa Bay&apos;s most significant commercial real estate stories of the decade. For broader context on what is driving CRE demand across the region, see{" "}<Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay commercial real estate is booming</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line: What Should Investors and Tenants Do Now?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For retail tenants in WestShore Plaza: begin your relocation search now, before the displacement wave is fully in motion. For office tenants in surrounding towers: factor construction context into your upcoming lease negotiations and use it as leverage. For investors: the adjacent retail, land banking, and multifamily angles are the most actionable near-term plays in a corridor that is clearly in transformation. For everyone tracking Tampa Bay CRE: the WestShore District is adding a major new chapter to a market that was already one of the most compelling in the country for commercial real estate — and the investors and tenants who navigate it well will need local market expertise, not just headlines.
+          For retail tenants in WestShore Plaza: begin your relocation search now, before the displacement wave is fully in motion. For office tenants in surrounding towers: factor construction context into your upcoming lease negotiations and use it as leverage. For investors: the adjacent retail, land banking, and multifamily angles are the most actionable near-term plays in a corridor that is clearly in transformation. For everyone tracking Tampa Bay CRE: the WestShore District is adding a major new chapter to a market that was already one of the most compelling in the country for commercial real estate -- and the investors and tenants who navigate it well will need local market expertise, not just headlines.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           With 23+ years of commercial real estate experience across Tampa Bay&apos;s Westshore corridor and surrounding submarkets at REMAX Collective, I help investors identify acquisition targets and tenants negotiate leases in exactly this kind of transitional market. Whether you are a business owner assessing your options in WestShore or an investor evaluating adjacent opportunities, reach out to discuss the specifics.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">
-            WestShore Plaza Redevelopment — Frequently Asked Questions
+            WestShore Plaza Redevelopment -- Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqItems} />
         </div>
@@ -301,7 +301,7 @@ export default function WestShorePlazaRedevelopmentPage() {
 
       <CTASection
         heading="Navigating the Westshore District Transformation?"
-        body="The WestShore Plaza redevelopment will reshape the Westshore corridor over the next several years — creating both risk for existing tenants and opportunity for investors who understand the timeline. With 23+ years of Tampa Bay commercial real estate experience at REMAX Collective, I help clients position ahead of market shifts like this one. Call (813) 733-7907 or reach out below."
+        body="The WestShore Plaza redevelopment will reshape the Westshore corridor over the next several years -- creating both risk for existing tenants and opportunity for investors who understand the timeline. With 23+ years of Tampa Bay commercial real estate experience at REMAX Collective, I help clients position ahead of market shifts like this one. Call (813) 733-7907 or reach out below."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

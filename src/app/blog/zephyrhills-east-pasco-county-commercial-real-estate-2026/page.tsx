@@ -89,11 +89,11 @@ const schema = {
       description:
         "AdventHealth's new 35,000 SF medical campus expansion, US-301 corridor demand, and east Pasco County's population surge are driving CRE opportunities in Zephyrhills. A market guide for investors, tenants, and owner-users.",
       datePublished: "2026-10-23",
-      dateModified: "2026-10-25",
+      dateModified: "2026-11-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -285,16 +285,11 @@ export default function ZephyrhillsEastPascoCommercialRealEstate2026Page() {
           <strong>Quick-service restaurants</strong> with drive-through configurations are beginning to evaluate east Pasco County sites as the residential rooftop counts in their traffic analysis models have crossed threshold criteria. National QSR operators are more cautious about speculative markets than dollar stores — they typically require demonstrated traffic before committing to a new submarket — but the combination of population growth, improving infrastructure, and AdventHealth campus traffic is moving Zephyrhills closer to QSR site criteria thresholds.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Private and regional investors</strong> represent the dominant buyer profile for Zephyrhills commercial assets in 2026. Institutional capital has not yet moved into east Pasco County at scale — the market is below the minimum deal size and liquidity thresholds that large funds require. That institutional absence creates opportunity for private investors and regional operators who can move at smaller scale, accept longer hold periods, and execute on value-add strategies that larger buyers cannot pursue cost-effectively. If you are considering a commercial property sale or ownership transition in this corridor,{" "}
-          <a
-            href="https://fastselleasysale.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent underline"
-          >
-            Fast Sell Easy Sale
-          </a>{" "}
-          connects east Pasco commercial owners with cash buyers when a faster exit is the priority.
+          <strong>Private and regional investors</strong> represent the dominant buyer profile for Zephyrhills commercial assets in 2026. Institutional capital has not yet moved into east Pasco County at scale -- the market is below the minimum deal size and liquidity thresholds that large funds require. That institutional absence creates opportunity for private investors and regional operators who can move at smaller scale, accept longer hold periods, and execute on value-add strategies that larger buyers cannot pursue cost-effectively. If you are considering a commercial property sale or ownership transition in this corridor,{" "}
+          <Link href="/services/dispositions" className="text-accent underline">
+            Barrett&apos;s dispositions service
+          </Link>{" "}
+          can help you evaluate a sale and connect with qualified buyers.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">
@@ -318,16 +313,11 @@ export default function ZephyrhillsEastPascoCommercialRealEstate2026Page() {
             provides relevant underwriting benchmarks for this product type.
           </li>
           <li>
-            <strong>Residential pipeline tracking is non-negotiable.</strong> In an emerging market, the pace of residential permitting and new home construction is the leading indicator of future commercial demand. Pasco County&apos;s permit data and the Zephyrhills planning department&apos;s active project list provide a forward-looking view of the household formation that will drive commercial absorption. Investors who track this data quarterly will see demand signals months before they appear in commercial vacancy statistics. For broader context on how population growth translates to CRE demand across the region, the{" "}
-            <a
-              href="https://nowtb.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-accent underline"
-            >
-              Tampa Bay residential market at NowTB.com
-            </a>{" "}
-            provides neighborhood-level data useful for gauging where east Pasco growth is concentrating.
+            <strong>Residential pipeline tracking is non-negotiable.</strong> In an emerging market, the pace of residential permitting and new home construction is the leading indicator of future commercial demand. Pasco County&apos;s permit data and the Zephyrhills planning department&apos;s active project list provide a forward-looking view of the household formation that will drive commercial absorption. Investors who track this data quarterly will see demand signals months before they appear in commercial vacancy statistics. For broader context on how population growth translates to CRE demand across the region, see our{" "}
+            <Link href="/markets/pasco" className="text-accent underline">
+              Pasco County commercial real estate market overview
+            </Link>{" "}
+            for neighborhood-level data useful for gauging where east Pasco growth is concentrating.
           </li>
         </ul>
 
@@ -344,7 +334,7 @@ export default function ZephyrhillsEastPascoCommercialRealEstate2026Page() {
           With 23+ years of commercial real estate experience and deep coverage of the Pasco County market, I help investors identify acquisition targets across east Pasco County&apos;s emerging commercial corridors and help tenants evaluate and negotiate space in the Zephyrhills market. Whether you are pursuing a healthcare-adjacent investment, a value-add strip center, or a first-time retail or office lease in this submarket, I bring the market knowledge and transaction experience to help you make the right call.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

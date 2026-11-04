@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa ranked top 5 nationally for corporate headquarters relocations in 2026. Here is what the ongoing HQ wave means for office space supply, rents, and investment in Tampa Bay.",
       datePublished: "2026-11-02",
-      dateModified: "2026-11-02",
+      dateModified: "2026-11-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -252,7 +252,7 @@ export default function TampaBayCorporateHQRelocationsPage() {
           For investors looking at value-add opportunities, the headquarters relocation trend creates a secondary market dynamic worth understanding. Some companies that have relocated to Tampa Bay have grown since arriving and need more space. Others are consolidating operations and may have sublease availability. Tracking the operational trajectory of headquarters users — not just their initial lease commitment — creates intelligence on where market dislocations are likely to emerge. Brokers who maintain long-term relationships with the corporate real estate community have advance visibility on these situations before they become public.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors considering markets beyond the office sector, it is worth noting that headquarters relocations have ripple effects across commercial real estate categories. Executive teams moving to Tampa Bay need housing — relocating executives often need a full Tampa Bay home search across neighborhoods and price points, which resources like <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">nowtb.com</a> cover in depth — a trend that has contributed to the strength of the residential market, though the pace of residential appreciation has moderated in 2026 relative to prior years. Support businesses follow headquarters users, driving retail and service office demand in the submarkets where headquarters concentrate. The industrial and distribution sector benefits as companies deepen their operational footprint after establishing headquarters in the market.
+          For investors considering markets beyond the office sector, it is worth noting that headquarters relocations have ripple effects across commercial real estate categories. Executive teams moving to Tampa Bay need housing -- a trend that has contributed to the strength of the residential market, though the pace of residential appreciation has moderated in 2026 relative to prior years. Support businesses follow headquarters users, driving retail and service office demand in the submarkets where headquarters concentrate. The industrial and distribution sector benefits as companies deepen their operational footprint after establishing headquarters in the market. For more on cross-sector CRE activity, see our <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">overview of why Tampa Bay commercial real estate is booming</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Out-of-State Companies Considering a Tampa Bay Headquarters Know?</h2>

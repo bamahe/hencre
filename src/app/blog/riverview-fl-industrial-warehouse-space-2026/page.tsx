@@ -86,11 +86,11 @@ const schema = {
       description:
         "A complete guide to industrial and warehouse space in Riverview FL for 2026 — covering Bell Creek Logistics Center, US-301 submarket dynamics, lease rates, and investment fundamentals.",
       datePublished: "2026-10-25",
-      dateModified: "2026-10-28",
+      dateModified: "2026-11-04",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
