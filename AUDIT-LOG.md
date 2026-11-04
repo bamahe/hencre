@@ -5997,3 +5997,67 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Added 3 internal links: hotel-hospitality-cre-2026, tenant-representation, acquisitions
 - Updated jobTitle to full credentials format
 - Updated dateModified to 2026-10-19
+
+## Batch 81 — 2026-11-04
+
+### 1. `/blog/pinellas-county-industrial-cre-2026`
+- Fixed 21 em dashes (-- replacement)
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-04
+- Updated footer to November 2026
+
+### 2. `/blog/riverview-fl-industrial-warehouse-space-2026`
+- Fixed 32 em dashes (-- replacement)
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-04
+- Updated footer to November 2026
+
+### 3. `/blog/zephyrhills-east-pasco-county-commercial-real-estate-2026`
+- Fixed em dashes
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-04
+- Updated footer to November 2026
+- Replaced fastselleasysale.com external link with /services/dispositions Link
+- Replaced nowtb.com external link with /markets/pasco Link
+
+### 4. `/blog/pinellas-park-commercial-real-estate-2026`
+- Updated dateModified to 2026-11-04
+- Updated footer to November 2026
+- Replaced bestbayservices.com external link with /services/commercial-property-management Link
+
+### 5. `/blog/tampa-bay-corporate-hq-relocations-office-cre-2026`
+- Updated dateModified to 2026-11-04
+- Replaced nowtb.com external link with /blog/why-tampa-bay-cre-is-booming Link
+
+### 6. `/blog/new-port-richey-commercial-real-estate-investors`
+- Fixed em dashes
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-04
+- Updated footer to November 2026
+
+### 7. `/blog/clearwater-office-space-professional-services-firms`
+- Fixed em dashes
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-04
+- Updated footer to November 2026
+
+### 8. `/blog/lakeland-retail-storefront-space-guide`
+- Fixed em dashes
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-04
+- Added missing import Link from "next/link"
+- Converted bare <a> tags to Link components in article body
+- Removed incorrect REALTOR/REMAX Commercial Advisor text; replaced with Broker Associate at REMAX Collective copy
+- Fixed mid-article CTA from "Talk to a REMAX Commercial Broker" to "Talk to Barrett Henry at REMAX Collective"
+- Removed irrelevant HUD/FHA/HOPE Free Resources section
+
+### 9. `/blog/tampa-bay-residential-slowdown-cre-opportunity-2026`
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-04
+- Updated footer to November 2026
+
+### 10. `/blog/westshore-plaza-redevelopment-cre-impact-tampa-2026`
+- Fixed 29 em dashes (-- replacement)
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-04
+- Updated footer to November 2026
