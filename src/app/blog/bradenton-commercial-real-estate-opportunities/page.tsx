@@ -74,11 +74,11 @@ const schema = {
       headline: "Bradenton Commercial Real Estate Opportunities",
       description: "Bradenton and Manatee County commercial real estate market overview  --  sectors, trends, and opportunities.",
       datePublished: "2026-06-01",
-      dateModified: "2026-10-23",
+      dateModified: "2026-11-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

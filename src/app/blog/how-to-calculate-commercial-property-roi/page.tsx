@@ -85,11 +85,11 @@ const schema = {
       description:
         "ROI calculation methods for commercial real estate investors: cap rate, cash-on-cash, IRR, and total return.",
       datePublished: "2026-05-31",
-      dateModified: "2026-10-22",
+      dateModified: "2026-11-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -191,7 +191,7 @@ export default function CalculateROIPage() {
           Cap Rate = Net Operating Income (NOI) / Purchase Price
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Example: A property generates $120,000 in annual NOI and is priced at $1,500,000. The cap rate is $120,000 / $1,500,000 = 8.0%. A higher cap rate means a higher return relative to the price — but also typically means higher risk. Lower cap rates indicate lower risk, better location, or stronger tenants.
+          Example: A property generates $120,000 in annual NOI and is priced at $1,500,000. The cap rate is $120,000 / $1,500,000 = 8.0%. A higher cap rate means a higher return relative to the price -- but also typically means higher risk. Lower cap rates indicate lower risk, better location, or stronger tenants.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Cap rate is useful for comparing properties but does not account for financing, appreciation, or tax benefits. It is a starting point, not the whole picture. Use our <Link href="/calculators/cap-rate" className="text-accent underline">free cap rate calculator</Link> to run your own numbers.
@@ -207,7 +207,7 @@ export default function CalculateROIPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is Cash-on-Cash Return?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Cash-on-cash return measures the annual cash income you receive relative to the actual cash you invested — including your down payment, closing costs, and any initial capital improvements. Unlike cap rate, cash-on-cash accounts for financing.
+          Cash-on-cash return measures the annual cash income you receive relative to the actual cash you invested -- including your down payment, closing costs, and any initial capital improvements. Unlike cap rate, cash-on-cash accounts for financing.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed font-semibold">
           Cash-on-Cash Return = Annual Pre-Tax Cash Flow / Total Cash Invested
@@ -216,12 +216,12 @@ export default function CalculateROIPage() {
           Example: You purchase a $1,500,000 property with a $450,000 down payment and $50,000 in closing costs ($500,000 total cash invested). After mortgage payments and operating expenses, you net $48,000 in annual cash flow. Your cash-on-cash return is $48,000 / $500,000 = 9.6%.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Cash-on-cash return shows you how hard your actual invested dollars are working. Leverage (a mortgage) can significantly boost this number compared to cap rate — which is one reason investors use financing.
+          Cash-on-cash return shows you how hard your actual invested dollars are working. Leverage (a mortgage) can significantly boost this number compared to cap rate -- which is one reason investors use financing.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is Internal Rate of Return (IRR)?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          IRR is the most comprehensive return metric. It calculates the annualized rate of return over the entire investment period, accounting for the timing of all cash flows — initial investment, annual cash flow, and the eventual sale proceeds. It also factors in the time value of money, meaning a dollar received today is worth more than a dollar received five years from now.
+          IRR is the most comprehensive return metric. It calculates the annualized rate of return over the entire investment period, accounting for the timing of all cash flows -- initial investment, annual cash flow, and the eventual sale proceeds. It also factors in the time value of money, meaning a dollar received today is worth more than a dollar received five years from now.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           IRR requires projecting future cash flows and a sale price, so it involves more assumptions. But it is the metric that institutional investors and sophisticated private investors rely on most because it captures the full picture: income, appreciation, and timing.
@@ -295,7 +295,7 @@ export default function CalculateROIPage() {
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
-            CRE ROI — Frequently Asked Questions
+            CRE ROI -- Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqData} />
         </div>
@@ -335,7 +335,7 @@ export default function CalculateROIPage() {
 
       <CTASection
         heading="Need Help Evaluating a CRE Investment?"
-        body="I provide detailed financial analysis on commercial properties — cap rates, cash flow projections, and total return modeling. Data-driven decisions, not guesswork."
+        body="I provide detailed financial analysis on commercial properties -- cap rates, cash flow projections, and total return modeling. Data-driven decisions, not guesswork."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

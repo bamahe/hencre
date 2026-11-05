@@ -87,11 +87,11 @@ const schema = {
       description:
         "Apollo Beach, Ruskin, and the SouthShore corridor are among the fastest-growing areas in Hillsborough County - and commercial real estate is still catching up. Here is what tenants and investors need to know in 2026.",
       datePublished: "2026-08-20",
-      dateModified: "2026-10-23",
+      dateModified: "2026-11-05",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
