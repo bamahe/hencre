@@ -320,7 +320,7 @@ export default function RiverviewIndustrialWarehouse2026Page() {
 
       <CTASection
         heading="Find Industrial or Warehouse Space in Riverview FL"
-        body="Barrett Henry — REMAX Collective — 23+ years in Tampa Bay commercial real estate. Call (813) 765-8844 to discuss your requirements in Riverview, Brandon, and the southshore industrial corridor."
+        body="Barrett Henry, REMAX Collective. 23+ years of real estate experience. Call (813) 765-8844 to discuss your requirements in Riverview, Brandon, and the southshore industrial corridor."
         buttonText="Contact Barrett"
       />
 

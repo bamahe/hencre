@@ -274,7 +274,7 @@ export default function BlogPost() {
           If your headcount is stable and your business model requires projecting permanence — a law firm, a medical practice, a financial advisory firm with client-facing offices — a traditional lease with buildout control, signage, and a fixed address is almost always preferable. Clients and employees read a coworking environment differently than a dedicated office, and in some professional service contexts, that perception matters commercially.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For companies making this decision right now in Tampa Bay, it is worth a conversation before signing either a flex membership or a traditional lease. Barrett Henry has been advising tenants across all product types in Tampa Bay for 23+ years through REMAX Collective, and can quickly assess which arrangement fits your specific situation. Call <a href="tel:8137337907">(813) 733-7907</a> or reach out through the <Link href="/contact" className="underline">contact page</Link>.
+          For companies making this decision right now in Tampa Bay, it is worth a conversation before signing either a flex membership or a traditional lease. Barrett Henry advises tenants across all product types in Tampa Bay through REMAX Collective, brings 23+ years of real estate experience, and can quickly assess which arrangement fits your specific situation. Call <a href="tel:8137337907">(813) 733-7907</a> or reach out through the <Link href="/contact" className="underline">contact page</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Is Flex Office Space a Good Investment for Tampa Bay Building Owners in 2026?</h2>

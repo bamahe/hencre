@@ -333,7 +333,7 @@ export default function TampaBayHospitalityHotelCREPage() {
 
       <CTASection
         heading="Own Commercial Property Near a Tampa Bay Hotel Development?"
-        body="The hospitality pipeline is reshaping retail, restaurant, and mixed-use commercial real estate demand in downtown Tampa, Ybor City, and St. Pete. Barrett Henry at REMAX Collective -- 23+ years in Tampa Bay CRE -- can help you evaluate what it means for what you own or want to buy."
+        body="The hospitality pipeline is reshaping retail, restaurant, and mixed-use commercial real estate demand in downtown Tampa, Ybor City, and St. Pete. Barrett Henry at REMAX Collective, with 23+ years of real estate experience, can help you evaluate what it means for what you own or want to buy."
         buttonText="Talk to Barrett"
         buttonHref="/contact"
       />
