@@ -6061,3 +6061,63 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 - Updated jobTitle to full credentials format
 - Updated dateModified to 2026-11-04
 - Updated footer to November 2026
+
+## Batch 82 — 2026-11-05
+
+### 1. `/blog/lakeland-polk-county-nnn-cap-rate-investor-strategy-2026`
+- First audit
+- Added "| HenCRE" suffix to meta title
+- Updated jobTitle to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed nowtb.com from sameAs array
+- Fixed publisher name from "REMAX Commercial Real Estate" to "HenCRE"
+- Added dateModified: "2026-11-05"
+- Fixed 11 em dashes (-- replacement)
+- Fixed "REMAX Commercial Real Estate" reference in article body to "REMAX Collective"
+- Updated mid-article CTA from "Talk to a REMAX Commercial Broker" to "Talk to Barrett Henry at REMAX Collective"
+- Removed irrelevant HUD/FHA/HOPE Free Resources section
+- Added Home breadcrumb
+- Updated author bio jobTitle to full credentials
+
+### 2. `/blog/tampa-bay-pickleball-padel-commercial-real-estate-2026`
+- First audit
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-05
+- Fixed 45 em dashes (-- replacement)
+- Replaced external fastselleasysale.com link with /services/dispositions internal Link
+
+### 3. `/blog/sarasota-memorial-manatee-campus-medical-cre-2026`
+- Fixed 34 em dashes (-- replacement)
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-05
+
+### 4. `/blog/multifamily-investment-tampa-bay-guide`
+- Fixed 17 em dashes (-- replacement)
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-05
+
+### 5. `/blog/sba-504-loan-commercial-real-estate-tampa-bay`
+- Fixed 26 em dashes (-- replacement)
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-05
+
+### 6. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Fixed 24 em dashes (-- replacement)
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-05
+
+### 7. `/blog/naples-collier-county-commercial-real-estate-2026`
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-05
+
+### 8. `/blog/bradenton-commercial-real-estate-opportunities`
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-05
+
+### 9. `/blog/how-to-calculate-commercial-property-roi`
+- Fixed 6 em dashes (-- replacement)
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-05
+
+### 10. `/blog/apollo-beach-southshore-commercial-real-estate-2026`
+- Updated jobTitle to full credentials format
+- Updated dateModified to 2026-11-05
