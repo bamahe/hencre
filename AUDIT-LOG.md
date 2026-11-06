@@ -6121,3 +6121,58 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### 10. `/blog/apollo-beach-southshore-commercial-real-estate-2026`
 - Updated jobTitle to full credentials format
 - Updated dateModified to 2026-11-05
+
+---
+
+## Batch 83 — 2026-11-06
+
+**Commit:** `bcd4632` | **Build:** clean (0 errors, 363 pages) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-commercial-real-estate-forecast-2027`
+- First audit (never previously audited)
+- Fixed 40+ em dashes (-- replacement with commas)
+- Replaced fastselleasysale.com external link with /services/dispositions internal Link
+- Replaced nowtb.com external link with /blog/why-tampa-bay-cre-is-booming internal Link
+- Updated dateModified to "2026-11-06"
+
+### 2. `/blog/1031-exchange-tampa-bay-commercial-real-estate-2026`
+- Replaced fastselleasysale.com external `<a>` tag with internal `<Link href="/services/dispositions">`
+- Fixed em dashes (-- replacement)
+- Updated dateModified to "2026-11-06"
+
+### 3. `/blog/clearwater-nnn-investment-strategy-pinellas-2026`
+- Removed nowtb.com from author sameAs array
+- Fixed publisher name from "REMAX Commercial Real Estate" to "HenCRE"
+- Fixed em dashes (-- replacement)
+- Updated dateModified to "2026-11-06"
+
+### 4. `/blog/international-plaza-tampa-simon-westshore-retail-cre-2026`
+- Replaced fastselleasysale.com external `<a>` tag with internal `<Link href="/services/dispositions">`
+- Fixed em dashes (-- replacement)
+- Updated dateModified to "2026-11-06"
+
+### 5. `/blog/sarasota-memorial-manatee-campus-medical-cre-2026`
+- Replaced fastselleasysale.com external `<a>` tag with internal `<Link href="/services/dispositions">`
+- Fixed em dashes (-- replacement)
+- Updated dateModified to "2026-11-06"
+
+### 6. `/blog/riverview-fl-industrial-warehouse-space-2026`
+- Replaced fastselleasysale.com external `<a>` tag with internal `<Link href="/services/dispositions">`
+- Fixed em dashes (-- replacement)
+- Updated dateModified to "2026-11-06"
+
+### 7. `/blog/tampa-bay-data-center-cre-2026`
+- Fixed 36 em dashes (-- replacement)
+- Updated dateModified to "2026-11-06"
+
+### 8. `/blog/tampa-bay-hospitality-hotel-cre-2026`
+- Fixed 46 em dashes (-- replacement)
+- Updated dateModified to "2026-11-06"
+
+### 9. `/blog/tampa-bay-apartment-market-q4-2026`
+- Fixed 33 em dashes (-- replacement)
+- Updated dateModified to "2026-11-06"
+
+### 10. `/blog/tampa-bay-flex-office-coworking-2026`
+- Fixed 61 em dashes (-- replacement)
+- Updated dateModified to "2026-11-06"
