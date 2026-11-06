@@ -91,7 +91,7 @@ const schema = {
       description:
         "Sarasota Memorial Health Care System approved a $60 million purchase of 120 acres near SR 64 and I-75 in Manatee County for a future hospital campus. A freestanding ER comes first, then a full medical campus. Here is the commercial real estate opportunity investors and tenants need to understand.",
       datePublished: "2026-10-18",
-      dateModified: "2026-11-05",
+      dateModified: "2026-11-06",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -338,7 +338,7 @@ export default function SarasotaMemorialManateeCampusCREPage() {
           For non-medical tenants -- retail, services, restaurants -- the analysis is similar but the timeline is slightly longer. The freestanding ER is the first meaningful foot traffic and employment generator, and corridor retail demand will intensify as that phase nears completion. Tenants who want to be co-located with the first wave of hospital-adjacent foot traffic should be targeting spaces within half a mile of the SR 64 interchange area now.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are considering selling a property in this corridor to take advantage of the anticipated value increase, <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">fastselleasysale.com</a> provides an option for sellers who want to move quickly on land or commercial property before the market fully reprices around the campus announcement.
+          If you are considering selling a property in this corridor to take advantage of the anticipated value increase, the <Link href="/services/dispositions" className="text-accent underline">HenCRE dispositions team</Link> provides an option for sellers who want to move quickly on land or commercial property before the market fully reprices around the campus announcement.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">
