@@ -4,6 +4,66 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 81 — 2026-11-07
+
+**Commit:** `d85799e` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/winter-haven-fitness-gym-wellness-commercial-space`
+- Added `import Link from "next/link"`
+- Merged dual schemas (articleSchema + faqSchema) into single @graph schema
+- Fixed `jobTitle` to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed `nowtb.com` from author sameAs array
+- Fixed `publisher.name` from "REMAX Commercial Real Estate" to "HenCRE"
+- Added `dateModified: "2026-11-07"`
+- Converted 8 internal `<a>` tags to `<Link>` components
+- Fixed author bio title to full credentials
+
+### 2. `/blog/the-central-st-pete-police-hq-mixed-use-cre-2026`
+- Fixed `jobTitle` to full credentials
+- Updated `dateModified` to "2026-11-07"
+- Added 3 new `<Link>` components: clearwater/pinellas market, tenant-representation, historic-gas-plant-district (now 8+ total)
+
+### 3. `/blog/parrish-fl-commercial-real-estate-2026`
+- Added `import Link from "next/link"`
+- Fixed `jobTitle` to full credentials
+- Updated `dateModified` to "2026-11-07"
+- Converted 6 internal `<a>` tags to `<Link>` components
+- Updated footer from "October 2026" to "November 2026"
+
+### 4. `/blog/new-port-richey-pasco-county-commercial-real-estate-2026`
+- Merged dual schemas (articleSchema + faqSchema) into single @graph schema
+- Fixed `jobTitle` to full credentials
+- Updated `dateModified` to "2026-11-07"
+- Added 1 new `<Link>` component (buy-vs-lease guide, now 10+ total)
+
+### 5. `/blog/port-tampa-bay-fourth-cruise-terminal-channel-district-cre`
+- Fixed `jobTitle` to full credentials
+- Updated `dateModified` to "2026-11-07"
+- Added 1 new `<Link>` component (port expansion article, now 10 total)
+
+### 6. `/blog/investment-property-divorce-liquidation-florida`
+- Fixed `jobTitle` to full credentials
+- Updated `dateModified` to "2026-11-07"
+- Added 1 new `<Link>` component (what-makes-a-good-commercial-investment, now 10 total)
+
+### 7. `/blog/brandon-commercial-real-estate-guide-2026`
+- Fixed `jobTitle` to full credentials
+- Updated `dateModified` to "2026-11-07"
+
+### 8. `/blog/florida-insurance-crisis-investment-properties`
+- Fixed `jobTitle` to full credentials
+- Updated `dateModified` to "2026-11-07"
+
+### 9. `/blog/historic-gas-plant-district-st-pete-cre-2026`
+- Fixed `jobTitle` to full credentials
+- Updated `dateModified` to "2026-11-07"
+
+### 10. `/blog/port-tampa-bay-expansion-industrial-cre-investors`
+- Fixed `jobTitle` to full credentials
+- Updated `dateModified` to "2026-11-07"
+
+---
+
 ## Batch 80 — 2026-11-03
 
 **Commit:** `f603291` | **Build:** clean (0 errors) | **Pages improved:** 10
