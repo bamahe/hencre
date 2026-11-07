@@ -87,11 +87,11 @@ const schema = {
       description:
         "Ellison Development closed the $6.4M land deal on St. Petersburg's former police headquarters in November 2026. The Central brings ARK Invest's new HQ, a Marriott Autograph hotel, and 116,000 SF of Class A office to the EDGE District — here is what it means for CRE investors and tenants.",
       datePublished: "2026-11-05",
-      dateModified: "2026-11-05",
+      dateModified: "2026-11-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -182,7 +182,7 @@ export default function TheCentralStPetePoliceHQMixedUseCRE2026Page() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Exactly Is The Central and Why Does It Matter?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The Central is Ellison Development&apos;s name for the mixed-use project at 1301 Central Avenue — the former site of the St. Petersburg Police Department&apos;s main headquarters before the department relocated. The site sits in the EDGE District, one of the most active mixed-use corridors in the Tampa Bay metro, bordered by a neighborhood that has seen consistent investment across multifamily, retail, hospitality, and creative office over the past five years.
+          The Central is Ellison Development&apos;s name for the mixed-use project at 1301 Central Avenue — the former site of the St. Petersburg Police Department&apos;s main headquarters before the department relocated. The site sits in the EDGE District, one of the most active mixed-use corridors in the Tampa Bay metro, bordered by a neighborhood that has seen consistent investment across multifamily, retail, hospitality, and creative office over the past five years. For a broader look at Pinellas County CRE, see our <Link href="/blog/clearwater-pinellas-county-commercial-real-estate-2026" className="text-accent underline">Clearwater and Pinellas County commercial real estate guide</Link> and the <Link href="/markets/pinellas" className="text-accent underline">Pinellas County market overview</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The project components break down as follows. The Halcyon office building — the name given to the Class A tower within The Central — will offer approximately 116,000 square feet of leasable office space across 10 stories, with more than 11,000 square feet of ground-floor retail activation. ARK Invest, the investment management firm founded by Cathie Wood that manages technology-focused thematic ETFs and active equity strategies, has committed to relocating its corporate headquarters to Halcyon — a commitment that provides the anchor tenant credibility essential for office development financing in the current market.
@@ -241,10 +241,10 @@ export default function TheCentralStPetePoliceHQMixedUseCRE2026Page() {
           For retail and food-and-beverage operators, the more than 11,000 square feet of ground-floor retail within The Central is a targeted opportunity for tenants who want activation tied to the hotel, office, and residential components of the project. These spaces will be positioned differently from the independent, street-activation retail along Central Avenue — expect higher build-out standards, longer lease terms, and a tenant mix curated to serve hotel guests and office workers as much as street-level pedestrian traffic.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tenants who are not yet working with a broker who has relationships with Ellison Development and the EDGE District landlord community should start that process now — not when construction begins. The best spaces in projects like The Central are committed well before the building opens. Our post on <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential ones</Link> is a useful primer for tenants new to the commercial leasing process.
+          Tenants who are not yet working with a broker who has relationships with Ellison Development and the EDGE District landlord community should start that process now — not when construction begins. The best spaces in projects like The Central are committed well before the building opens. Our post on <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential ones</Link> is a useful primer for tenants new to the commercial leasing process. If you are considering office or retail space in a mixed-use project, our <Link href="/services/tenant-representation" className="text-accent underline">tenant representation services</Link> can help you evaluate options across St. Pete and the broader Tampa Bay market.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23+ years of commercial real estate experience across Tampa Bay, I work with office tenants evaluating St. Pete locations, retail operators sourcing ground-floor space in mixed-use developments, and investors tracking the downtown St. Pete pipeline. If The Central is on your radar — whether as a potential tenant, an adjacent property owner, or an investor benchmarking the development against other CRE opportunities in Pinellas County — the right time to have that conversation is now, while the project is in the pre-construction phase and market positioning is still being established.
+          With 23+ years of commercial real estate experience across Tampa Bay, I work with office tenants evaluating St. Pete locations, retail operators sourcing ground-floor space in mixed-use developments, and investors tracking the downtown St. Pete pipeline. If The Central is on your radar — whether as a potential tenant, an adjacent property owner, or an investor benchmarking the development against other CRE opportunities in Pinellas County — the right time to have that conversation is now, while the project is in the pre-construction phase and market positioning is still being established. For more on the downtown St. Pete development pipeline, see our coverage of the <Link href="/blog/historic-gas-plant-district-st-pete-cre-2026" className="text-accent underline">Historic Gas Plant District redevelopment</Link> and what it means for the broader St. Pete CRE market.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>

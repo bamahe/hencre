@@ -78,11 +78,11 @@ const schema = {
       headline: "Florida's Insurance Crisis and Your Investment Property",
       description: "How surging property insurance premiums are reshaping ROI for Tampa Bay landlords -- and exit options.",
       datePublished: "2026-06-17",
-      dateModified: "2026-10-09",
+      dateModified: "2026-11-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

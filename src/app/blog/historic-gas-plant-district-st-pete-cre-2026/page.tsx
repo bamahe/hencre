@@ -88,11 +88,11 @@ const schema = {
       description:
         "The Rays and Hines are transforming 86 acres at Tropicana Field into 8 million sq ft of office, retail, hotel, and apartments. What St. Petersburg CRE investors and tenants need to know.",
       datePublished: "2026-08-17",
-      dateModified: "2026-10-09",
+      dateModified: "2026-11-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

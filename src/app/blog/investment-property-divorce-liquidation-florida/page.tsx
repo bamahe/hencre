@@ -79,11 +79,11 @@ const schema = {
       description:
         "Divorce-driven liquidation of Florida investment property involves court timelines, equitable distribution, and capital gains exposure that require specific planning before the sale closes.",
       datePublished: "2026-06-24",
-      dateModified: "2026-10-16",
+      dateModified: "2026-11-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -299,7 +299,9 @@ export default function InvestmentPropertyDivorceLiquidationPage() {
           any sale moves forward, a thorough{" "}
           <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial property due diligence</Link>{" "}
           review ensures there are no title, zoning, or environmental surprises that complicate
-          the closing. Serving all 67 Florida counties from offices in Tampa, Largo, and Brandon.
+          the closing. Serving all 67 Florida counties from offices in Tampa, Largo, and Brandon. If the property involved is in Tampa Bay, see our{" "}
+          <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">guide to what makes a good commercial investment</Link>{" "}
+          for context on how to benchmark value and exit timing.
         </p>
 
         {/* ---- Mid-article CTA ---- */}

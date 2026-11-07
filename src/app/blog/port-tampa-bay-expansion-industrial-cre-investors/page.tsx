@@ -86,11 +86,11 @@ const schema = {
       description:
         "Port Tampa Bay is adding cranes, dredging its channel, and expanding container terminals under Vision 2030. Here is what commercial real estate investors need to know about the industrial demand surge it is creating.",
       datePublished: "2026-07-26",
-      dateModified: "2026-10-11",
+      dateModified: "2026-11-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

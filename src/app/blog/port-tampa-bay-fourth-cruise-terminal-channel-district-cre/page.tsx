@@ -86,11 +86,11 @@ const schema = {
       description:
         "Site work began August 2026 on Port Tampa Bay's fourth cruise terminal. The projected $100M annual economic impact will reshape commercial real estate demand in the Channel District and nearby waterfront submarkets.",
       datePublished: "2026-08-05",
-      dateModified: "2026-10-21",
+      dateModified: "2026-11-07",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -292,7 +292,7 @@ export default function PortTampaBayFourthCruiseTerminalPage() {
           Commercial real estate markets price future demand events gradually as certainty increases. The window between &quot;construction starts&quot; and &quot;terminal opens&quot; is typically when sophisticated investors acquire — after the project is de-risked enough to be credible, but before the full demand impact is reflected in asking prices. For Channel District commercial real estate, that window opened in August 2026.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          With 23 years of commercial real estate experience across Tampa Bay&apos;s waterfront districts, I help investors identify, underwrite, and acquire commercial properties in submarkets that are moving before the market consensus catches up. If you are evaluating Channel District or downtown Tampa waterfront commercial real estate, let&apos;s talk before the 2027 pre-opening inventory tightens.
+          With 23 years of commercial real estate experience across Tampa Bay&apos;s waterfront districts, I help investors identify, underwrite, and acquire commercial properties in submarkets that are moving before the market consensus catches up. If you are evaluating Channel District or downtown Tampa waterfront commercial real estate, let&apos;s talk before the 2027 pre-opening inventory tightens. For the broader Port Tampa Bay industrial story, see our analysis of <Link href="/blog/port-tampa-bay-expansion-industrial-cre-investors" className="text-accent underline">Port Tampa Bay&apos;s expansion and what it means for industrial CRE investors</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Frequently Asked Questions</h2>
