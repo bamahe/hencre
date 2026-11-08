@@ -6236,3 +6236,46 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### 10. `/blog/tampa-bay-flex-office-coworking-2026`
 - Fixed 61 em dashes (-- replacement)
 - Updated dateModified to "2026-11-06"
+
+---
+
+## Batch 82 — 2026-11-08
+
+### 1. `/blog/dunedin-pinellas-county-commercial-real-estate-2026`
+- Updated dateModified to "2026-11-08", last updated text to November 2026
+- Added 7 inline `<Link>` components in article body (was only 1 internal link)
+
+### 2. `/blog/sarasota-fitness-gym-wellness-studio-tenant-guide`
+- Fixed jobTitle to full credentials (Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame)
+- Updated dateModified to "2026-11-08", last updated text to November 2026
+
+### 3. `/blog/south-tampa-commercial-real-estate-2026`
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-08", last updated text to November 2026
+
+### 4. `/blog/tampa-heights-commercial-real-estate-2026`
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-08", last updated text to November 2026
+
+### 5. `/blog/what-makes-a-good-commercial-investment`
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-08", last updated text to November 2026
+
+### 6. `/blog/ybor-city-commercial-real-estate-tampa-2026`
+- Updated dateModified to "2026-11-08", last updated text to November 2026
+
+### 7. `/blog/westshore-tampa-office-market-2026`
+- Updated dateModified to "2026-11-08", last updated text to November 2026
+
+### 8. `/blog/tampa-bay-qsr-drive-thru-nnn-investment-2026`
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-08", last updated text to November 2026
+
+### 9. `/blog/tampa-bay-self-storage-cre-investment-2026`
+- Fixed jobTitle to full credentials
+- Added missing `image` and `sameAs` fields to author schema
+- Updated dateModified to "2026-11-08", last updated text to November 2026
+
+### 10. `/blog/understanding-cam-charges-tenants-guide`
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-08", last updated text to November 2026
