@@ -42,11 +42,11 @@ const schema = {
       headline: "South Tampa Commercial Real Estate: Market Guide 2026",
       description: "South Tampa commands premium rents, tight vacancy, and strong investor demand. Here is a complete market guide for office, retail, and medical commercial property in one of Tampa Bay's most affluent submarkets.",
       datePublished: "2026-08-09",
-      dateModified: "2026-10-11",
+      dateModified: "2026-11-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: [
           "https://hencre.com/about",
@@ -335,7 +335,7 @@ export default function BlogPost() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
 
       <CTASection

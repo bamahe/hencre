@@ -86,11 +86,11 @@ const schema = {
       description:
         "Fast food and drive-thru net lease properties are among the most popular passive investments in Tampa Bay. What investors need to know about cap rates, brand quality, and selecting the right QSR NNN deal.",
       datePublished: "2026-09-03",
-      dateModified: "2026-10-13",
+      dateModified: "2026-11-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -293,7 +293,7 @@ export default function TampaBayQSRDriveThruNNNPage() {
           <FAQAccordion items={faqItems} />
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

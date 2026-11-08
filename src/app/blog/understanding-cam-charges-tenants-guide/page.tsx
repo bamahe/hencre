@@ -80,11 +80,11 @@ const schema = {
       description:
         "What CAM charges cover, how they are calculated, and how to negotiate better terms.",
       datePublished: "2026-06-03",
-      dateModified: "2026-10-12",
+      dateModified: "2026-11-08",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -332,7 +332,7 @@ export default function CAMChargesGuidePage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );
