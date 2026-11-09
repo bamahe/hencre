@@ -4,6 +4,58 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 84 — 2026-11-09
+
+**Commit:** `19f7b24` | **Build:** clean (0 errors, 367 pages) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-urban-infill-last-mile-industrial-2026`
+- First audit
+- Shortened meta title from 73 chars to 60 chars: "Tampa Bay Urban Infill & Last-Mile Industrial 2026 | HenCRE"
+- Replaced `fastselleasysale.com` external link with internal `/services/dispositions` Link
+- Added 8 internal Links in article body (now 10 total): `/blog/tampa-industrial-market-outlook-2026`, `/markets/pinellas`, `/services/investment-sales`, `/blog/tampa-bay-owner-user-commercial-real-estate-buy-vs-lease`, `/services/tenant-representation`, `/blog/tampa-bay-small-bay-industrial-flex-2026`, `/blog/commercial-property-due-diligence-timeline`
+- Added "Last updated: November 2026" footer
+
+### 2. `/blog/tampa-international-airport-cre-2026`
+- First audit
+- Replaced `nowtb.com` external link with internal `/blog/why-tampa-bay-cre-is-booming` Link
+- Added `/services/tenant-representation` Link (now 10 total)
+- Added "Last updated: November 2026" footer
+
+### 3. `/blog/tampa-bay-auto-parts-service-nnn-investment-2026`
+- Replaced 62 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-09"
+
+### 4. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Replaced 4 em dashes
+- Updated dateModified to "2026-11-09" and Last updated to November 2026
+
+### 5. `/blog/land-o-lakes-fitness-gym-wellness-commercial-space`
+- Replaced 34 em dashes
+- Updated dateModified to "2026-11-09" and Last updated to November 2026
+
+### 6. `/blog/tampa-bay-childcare-nnn-investment-2026`
+- Replaced 30 em dashes
+- Updated dateModified to "2026-11-09"
+
+### 7. `/blog/tampa-bay-grocery-anchored-retail-investment-2026`
+- Replaced 29 em dashes
+- Updated dateModified to "2026-11-09" and Last updated to November 2026
+
+### 8. `/blog/pasco-county-commercial-development-2026`
+- Replaced 2 em dashes
+- Updated dateModified to "2026-11-09" and Last updated to November 2026
+
+### 9. `/blog/plant-city-hillsborough-county-commercial-real-estate-2026`
+- Replaced 7 em dashes
+- Added `/services/investment-sales` Link (now 10 total)
+- Updated dateModified to "2026-11-09" and Last updated to November 2026
+
+### 10. `/blog/clearwater-office-space-professional-services-firms`
+- Replaced 3 em dashes
+- Updated dateModified to "2026-11-09"
+
+---
+
 ## Batch 81 — 2026-11-07
 
 **Commit:** `d85799e` | **Build:** clean (0 errors) | **Pages improved:** 10
