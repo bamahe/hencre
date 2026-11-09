@@ -68,7 +68,7 @@ const schema = {
       headline: "Plant City Commercial Real Estate | Hillsborough County 2026",
       description: "Plant City, FL is emerging as one of Hillsborough County's top commercial real estate opportunities in 2026. Industrial, retail, and investment trends in this growing I-4 corridor market.",
       datePublished: "2026-08-24",
-      dateModified: "2026-10-20",
+      dateModified: "2026-11-09",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -170,7 +170,7 @@ export default function BlogPost() {
 
         <h2>Industrial and Logistics: The Real Growth Driver</h2>
         <p>The <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial sector</Link> is leading Plant City&apos;s commercial real estate surge. The city&apos;s proximity to I-4, combined with lower land costs compared to Tampa&apos;s East Hillsborough submarkets, is attracting logistics operators, food distribution companies, and light manufacturing businesses in growing numbers.</p>
-        <p>The existing agricultural infrastructure -- cold storage, processing facilities, and large-lot industrial parcels -- gives Plant City a natural advantage for food and beverage distribution. As supply chain operators continue seeking locations that provide both cost efficiency and regional highway access, eastern Hillsborough County has become increasingly attractive. Vacancy rates in Plant City&apos;s industrial segment remain tight, and new speculative development is beginning to enter the pipeline for the first time in years.</p>
+        <p>The existing agricultural infrastructure, cold storage, processing facilities, and large-lot industrial parcels, gives Plant City a natural advantage for food and beverage distribution. As supply chain operators continue seeking locations that provide both cost efficiency and regional highway access, eastern Hillsborough County has become increasingly attractive. Vacancy rates in Plant City&apos;s industrial segment remain tight, and new speculative development is beginning to enter the pipeline for the first time in years.</p>
         <p>Business owners and investors looking to acquire or lease warehouse and distribution space in the I-4 corridor will find Plant City offering a compelling value proposition compared to properties closer to Tampa International Airport or the Port of Tampa, where pricing has climbed significantly.</p>
 
         <h2>Downtown Plant City: Revitalization Creates Retail and Office Opportunity</h2>
@@ -179,7 +179,7 @@ export default function BlogPost() {
         <p>The city&apos;s growing residential population is another key driver. Plant City has seen consistent single-family residential development in surrounding communities, and that expanding population base is generating demand for everyday retail, healthcare services, fitness facilities, and dining options. Entrepreneurs looking for underserved submarkets within Hillsborough County should take note.</p>
 
         <h2>Demographic and Population Trends Supporting Commercial Demand</h2>
-        <p>Plant City&apos;s population has grown steadily, crossing the 40,000 resident mark and continuing to climb. The broader eastern Hillsborough County region -- including Valrico, Lithia, and Fish Hawk -- is one of the fastest-growing residential areas in the Tampa Bay market. This population growth creates a spillover commercial demand effect that benefits Plant City&apos;s retail and service corridors along James L. Redman Parkway and State Road 39.</p>
+        <p>Plant City&apos;s population has grown steadily, crossing the 40,000 resident mark and continuing to climb. The broader eastern Hillsborough County region, including Valrico, Lithia, and Fish Hawk, is one of the fastest-growing residential areas in the Tampa Bay market. This population growth creates a spillover commercial demand effect that benefits Plant City&apos;s retail and service corridors along James L. Redman Parkway and State Road 39.</p>
         <p>Household income levels in the surrounding communities skew toward the middle and upper-middle range, supporting demand for experiential dining, fitness, healthcare, and specialty retail. Investors developing or repositioning retail assets in Plant City should factor this demographic profile into their tenant mix strategies.</p>
 
         <h2>Key Commercial Corridors and Property Types to Watch</h2>
@@ -188,7 +188,7 @@ export default function BlogPost() {
 
         <h2>Investment Outlook for 2026 and Beyond</h2>
         <p>Plant City is not a market for investors seeking immediate trophy assets or stabilized Class A properties. It is, however, an exceptional market for investors with a value-add mindset and a three-to-five year time horizon. Acquisition prices remain below the broader Hillsborough County average, rental rates have room to grow as demand catches up with the market&apos;s fundamentals, and the city&apos;s proactive approach to economic development creates a business-friendly environment for commercial property owners.</p>
-        <p>As Tampa Bay&apos;s core markets continue to tighten and compete aggressively for industrial, retail, and office tenants, eastern Hillsborough County -- and Plant City in particular -- stands to benefit from natural market overflow. The fundamentals are in place. Model your <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">projected return on investment</Link> carefully before acting; the window to enter before pricing fully reflects the market&apos;s potential is open now, but it will not remain open indefinitely.</p>
+        <p>As Tampa Bay&apos;s core markets continue to tighten and compete aggressively for industrial, retail, and office tenants, eastern Hillsborough County, and Plant City in particular, stands to benefit from natural market overflow. The fundamentals are in place. Model your <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">projected return on investment</Link> carefully before acting; the window to enter before pricing fully reflects the market&apos;s potential is open now, but it will not remain open indefinitely. Barrett Henry provides <Link href="/services/investment-sales" className="text-accent underline">commercial investment sales advisory</Link> for buyers and sellers across Hillsborough County, including Plant City.</p>
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
@@ -199,7 +199,7 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
@@ -242,7 +242,7 @@ export default function BlogPost() {
 
       <CTASection
         heading="Ready to Explore Plant City Commercial Real Estate Opportunities?"
-        body="Plant City is one of Hillsborough County's best-kept commercial real estate secrets -- and the window to act before pricing moves is open now. Whether you're looking to lease industrial space, acquire a retail investment property, or evaluate development land along the I-4 corridor, HenCRE is ready to help. Contact Barrett Henry today to schedule a consultation."
+        body="Plant City is one of Hillsborough County's best-kept commercial real estate secrets, and the window to act before pricing moves is open now. Whether you're looking to lease industrial space, acquire a retail investment property, or evaluate development land along the I-4 corridor, HenCRE is ready to help. Contact Barrett Henry today to schedule a consultation."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

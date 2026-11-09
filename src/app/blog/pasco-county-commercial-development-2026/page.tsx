@@ -80,7 +80,7 @@ const schema = {
       description:
         "Pasco County commercial real estate growth — development trends, key corridors, and investment opportunities.",
       datePublished: "2026-06-07",
-      dateModified: "2026-10-25",
+      dateModified: "2026-11-09",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -117,7 +117,7 @@ const relatedLinks = [
   {
     title: "Wesley Chapel CRE Investor Guide 2026",
     href: "/blog/wesley-chapel-commercial-real-estate-2026",
-    description: "Deep dive into Wesley Chapel -- Pasco County&apos;s dominant commercial node.",
+    description: "Deep dive into Wesley Chapel, Pasco County&apos;s dominant commercial node.",
   },
   {
     title: "Retail Space Listings",
@@ -137,7 +137,7 @@ const relatedLinks = [
   {
     title: "Commercial Property Due Diligence Timeline",
     href: "/blog/commercial-property-due-diligence-timeline",
-    description: "Flood zones, wetlands, and utility capacity -- what to verify before buying in Pasco.",
+    description: "Flood zones, wetlands, and utility capacity, what to verify before buying in Pasco.",
   },
   {
     title: "East Tampa US 301 Industrial Corridor 2026",
@@ -252,7 +252,7 @@ export default function PascoCountyDevelopmentPage() {
 
         <FAQAccordion items={faqItems} />
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

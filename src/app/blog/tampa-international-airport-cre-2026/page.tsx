@@ -284,7 +284,7 @@ export default function BlogPost() {
           Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of experience across commercial office, industrial, retail, and investment sales throughout Tampa Bay. He holds the e-PRO, MRP, and SRS designations and is a REMAX Hall of Fame inductee. REMAX Collective has offices in Tampa, Largo, and Brandon, giving Barrett the coverage to serve clients across Hillsborough, Pinellas, and Pasco counties — including the full Westshore and airport corridor area.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Whether you are a tenant looking for office near Tampa International, an investor evaluating the Gateway district or airport-adjacent industrial, or a business considering the airport corridor for a first Florida location, Barrett can provide the market data, comparable transactions, and negotiating experience that protects your position. Tenant representation is provided at no cost to you — the landlord pays the commission. Call <a href="tel:8137337907" className="text-accent underline">(813) 733-7907</a> to schedule a consultation, or reach out through the contact page at <Link href="/contact" className="text-accent underline">hencre.com/contact</Link>. If you're also considering residential alongside commercial in the broader Tampa Bay area, <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">nowtb.com</a> provides comprehensive neighborhood guides and home search tools for the full metro.
+          Whether you are a tenant looking for office near Tampa International, an investor evaluating the Gateway district or airport-adjacent industrial, or a business considering the airport corridor for a first Florida location, Barrett can provide the market data, comparable transactions, and negotiating experience that protects your position. Our <Link href="/services/tenant-representation" className="text-accent underline">tenant representation service</Link> is provided at no cost to you — the landlord pays the commission. Call <a href="tel:8137337907" className="text-accent underline">(813) 733-7907</a> to schedule a consultation, or reach out through the contact page at <Link href="/contact" className="text-accent underline">hencre.com/contact</Link>. For a broader look at why the entire Tampa Bay region continues to attract commercial investment, see our guide on <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">why Tampa Bay CRE is booming</Link>.
         </p>
 
         {/* ---- Mid-article CTA ---- */}
@@ -308,6 +308,7 @@ export default function BlogPost() {
       <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
         <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
         <FAQAccordion items={faqItems} />
+        <p className="mt-6 text-sm text-[#888888]">Last updated: November 2026</p>
       </section>
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />

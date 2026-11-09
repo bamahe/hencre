@@ -85,7 +85,7 @@ const schema = {
       description:
         "When and why to hire a commercial real estate broker: tenant representation, buyer advocacy, and lease negotiation.",
       datePublished: "2026-04-28",
-      dateModified: "2026-10-22",
+      dateModified: "2026-11-09",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -212,7 +212,7 @@ export default function NeedABrokerPage() {
 
         <h3 className="mt-6 text-xl font-bold text-black">You Are Buying Investment Property</h3>
         <p className="mt-3 text-[#666666] leading-relaxed">
-          The financial analysis involved in evaluating a <Link href="/services/investment-sales" className="text-accent underline">commercial investment property</Link> -- verifying NOI, assessing tenant risk, analyzing lease terms, and determining fair market value -- requires expertise. Mistakes in underwriting can cost you tens of thousands of dollars or more.
+          The financial analysis involved in evaluating a <Link href="/services/investment-sales" className="text-accent underline">commercial investment property</Link>, verifying NOI, assessing tenant risk, analyzing lease terms, and determining fair market value, requires expertise. Mistakes in underwriting can cost you tens of thousands of dollars or more.
         </p>
 
         <h3 className="mt-6 text-xl font-bold text-black">You Are Selling Commercial Property</h3>
@@ -238,7 +238,7 @@ export default function NeedABrokerPage() {
           This is the part that surprises most people, especially those coming from the residential world. In commercial real estate:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Tenant representation</strong> -- the landlord typically pays the commission for both the listing broker and the tenant&apos;s broker. <Link href="/services/tenant-representation" className="text-accent underline">Tenant representation</Link> is usually free to the tenant.</li>
+          <li><strong>Tenant representation</strong>, the landlord typically pays the commission for both the listing broker and the tenant&apos;s broker. <Link href="/services/tenant-representation" className="text-accent underline">Tenant representation</Link> is usually free to the tenant.</li>
           <li><strong>Buyer representation</strong> — the seller typically pays the commission. Buyer representation is usually free to the buyer.</li>
           <li><strong>Seller/landlord representation</strong> — the seller or landlord pays their broker directly from proceeds.</li>
         </ul>
@@ -265,7 +265,7 @@ export default function NeedABrokerPage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Commercial specialization.</strong> Residential and commercial are different industries. Make sure your broker focuses on commercial transactions.</li>
-          <li><strong>Local market knowledge.</strong> They should know the market you are looking in -- comparable rents, recent transactions, and the landlord and investor landscape. Check their <Link href="/markets/hillsborough" className="text-accent underline">market coverage</Link>.</li>
+          <li><strong>Local market knowledge.</strong> They should know the market you are looking in, comparable rents, recent transactions, and the landlord and investor landscape. Check their <Link href="/markets/hillsborough" className="text-accent underline">market coverage</Link>.</li>
           <li><strong>Property type experience.</strong> <Link href="/commercial/industrial-warehouse" className="text-accent underline">Industrial</Link>, <Link href="/commercial/office-space" className="text-accent underline">office</Link>, <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, and <Link href="/commercial/multifamily" className="text-accent underline">multifamily</Link> each have their own dynamics. Find someone who knows your property type.</li>
           <li><strong>Responsiveness and communication.</strong> You want a broker who returns calls, explains things clearly, and keeps you informed throughout the process.</li>
         </ul>
@@ -334,7 +334,7 @@ export default function NeedABrokerPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );
