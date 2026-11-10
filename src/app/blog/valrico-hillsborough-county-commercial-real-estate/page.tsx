@@ -70,11 +70,11 @@ const schema = {
       headline: "Valrico, FL Commercial Real Estate: Opportunities in Hillsborough County&apos;s Growing Suburban Corridor",
       description: "Explore commercial real estate opportunities in Valrico, Hillsborough County FL. From retail to flex space, discover why investors and tenants are eyeing this fast-growing suburban market.",
       datePublished: "2026-07-31",
-      dateModified: "2026-10-04",
+      dateModified: "2026-11-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

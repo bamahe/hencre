@@ -74,11 +74,11 @@ const schema = {
       headline: "Clearwater Retail Space Guide",
       description: "Clearwater retail market - top corridors, rental rate trends, and investment opportunities.",
       datePublished: "2026-05-24",
-      dateModified: "2026-10-23",
+      dateModified: "2026-11-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

@@ -86,7 +86,7 @@ const schema = {
       description:
         "Pop-up and short-term retail leasing in Tampa Bay: what it costs, where to find space, what landlords will and won't accept, and whether a temporary lease makes sense for your concept in a market running below 4% vacancy.",
       datePublished: "2026-11-08",
-      dateModified: "2026-11-08",
+      dateModified: "2026-11-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -340,9 +340,9 @@ export default function TampaBayPopupShortTermRetailLeasingPage() {
           covers the current vacancy, rent, and demand landscape in detail for tenants and investors evaluating the market right now.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are exploring selling a business property or commercial asset as part of a broader transition, resources like{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">FastSellEasySale.com</Link>{" "}
-          provide guidance for owners who want to move quickly and efficiently — sometimes relevant for operators who are restructuring their retail footprint alongside a lease or pop-up decision.
+          If you are exploring selling a business property or commercial asset as part of a broader transition, our{" "}
+          <Link href="/services/dispositions" className="text-accent underline">commercial dispositions services</Link>{" "}
+          can help owners who want to move quickly and efficiently, which is sometimes relevant for operators restructuring their retail footprint alongside a lease or pop-up decision.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           With 23+ years of commercial real estate experience across Tampa Bay, I work with retail tenants at every stage — from first-time operators evaluating short-term options to expanding chains negotiating multi-location leases. If you are looking for retail space in Tampa Bay, whether on a standard lease or exploring what the short-term market looks like for your specific concept, I am happy to give you an honest assessment of what is available and what it will cost.

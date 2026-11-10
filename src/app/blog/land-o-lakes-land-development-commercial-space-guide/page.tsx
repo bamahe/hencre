@@ -42,7 +42,7 @@ const schema = {
       headline: "Land O' Lakes Land Development: Finding Commercial Space",
       description: "Looking for land or commercial space for development in Land O' Lakes, FL? Barrett Henry at REMAX Commercial Real Estate covers what you need to know. Call now.",
       datePublished: "2026-10-07",
-      dateModified: "2026-10-08",
+      dateModified: "2026-11-10",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
