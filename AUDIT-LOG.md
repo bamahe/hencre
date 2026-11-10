@@ -4,6 +4,66 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 85 — 2026-11-10
+
+**Commit:** `a974dd1` | **Build:** clean (0 errors, 369 pages) | **Pages improved:** 11
+
+### 1. `/blog/dunedin-florida-small-business-commercial-real-estate-guide`
+- First audit
+- Shortened meta title from 97 chars to 46 chars: "Dunedin, FL Commercial Real Estate Guide 2026 | HenCRE"
+- Merged dual schemas (articleSchema + faqSchema) into single @graph schema
+- Fixed `jobTitle` to "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed `nowtb.com` from author sameAs array
+- Fixed `publisher.name` from "REMAX Commercial Real Estate" to "HenCRE"
+- Added `dateModified: "2026-11-10"`
+- Fixed all 5 RelatedLinks hrefs (added `/blog/` prefix; also fixed one to `/markets/pinellas`)
+- Added `import Link from "next/link"` and 10 internal Links in article body
+- Removed HUD/FHA/HOPE Free Resources section
+- Fixed author bio jobTitle to full credentials
+- Added "Last updated: November 2026" footer
+
+### 2. `/blog/tampa-bay-popup-short-term-retail-leasing-2026`
+- First audit
+- Replaced `fastselleasysale.com` external link with internal `/services/dispositions` Link
+- Updated `dateModified` to "2026-11-10"
+
+### 3. `/blog/land-o-lakes-fitness-gym-wellness-commercial-space`
+- Fixed `jobTitle` in schema to full credentials (was just "Broker Associate")
+
+### 4. `/blog/5-mistakes-first-time-commercial-tenants-make`
+- Fixed `jobTitle` in schema to full credentials
+- Updated `dateModified` to "2026-11-10"
+
+### 5. `/blog/how-commercial-leases-differ-from-residential`
+- Fixed `jobTitle` in schema to full credentials
+- Updated `dateModified` to "2026-11-10"
+
+### 6. `/blog/valrico-commercial-real-estate-guide`
+- Fixed `jobTitle` in schema to full credentials
+- Added `image` and `sameAs` to author schema (were missing)
+- Updated `dateModified` to "2026-11-10"
+
+### 7. `/blog/valrico-hillsborough-county-commercial-real-estate`
+- Fixed `jobTitle` in schema to full credentials
+- Updated `dateModified` to "2026-11-10"
+
+### 8. `/blog/do-you-need-a-commercial-real-estate-broker`
+- Fixed `jobTitle` in schema to full credentials
+- Added `image` and `sameAs` to author schema (were missing)
+
+### 9. `/blog/land-o-lakes-land-development-commercial-space-guide`
+- Updated `dateModified` to "2026-11-10"
+
+### 10. `/blog/tampa-retail-storefront-space-guide`
+- Fixed `jobTitle` in schema to full credentials
+- Updated `dateModified` to "2026-11-10"
+
+### 11. `/blog/clearwater-retail-space-guide`
+- Fixed `jobTitle` in schema to full credentials
+- Updated `dateModified` to "2026-11-10"
+
+---
+
 ## Batch 84 — 2026-11-09
 
 **Commit:** `19f7b24` | **Build:** clean (0 errors, 367 pages) | **Pages improved:** 10
