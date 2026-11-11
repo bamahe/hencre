@@ -4,6 +4,56 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 86 — 2026-11-11
+
+**Commit:** `9d2b8e2` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/stetson-law-tampa-riverfront-mixed-use-cre-2026`
+- First audit
+- Replaced `fastselleasysale.com` external link with internal `/services/dispositions` Link
+- Replaced `nowtb.com` external link with internal `/markets/hillsborough` and `/blog/tampa-heights-commercial-real-estate-2026` Links
+- Fixed `/services/landlord-representation` to `/services/landlord-leasing`
+- Replaced 43 em dashes and 4 en dashes
+- Updated `dateModified` to "2026-11-11"
+
+### 2. `/blog/polk-county-medical-office-cre-2026`
+- Replaced 66 em dashes with commas/conjunctions
+- Updated `dateModified` to "2026-11-11"
+
+### 3. `/blog/north-pinellas-dunedin-tarpon-springs-commercial-real-estate-2026`
+- Replaced 66 em dashes with commas/conjunctions
+- Updated `dateModified` to "2026-11-11"
+
+### 4. `/blog/tampa-bay-build-to-rent-cre-2026`
+- Replaced 63 em dashes with commas/conjunctions
+- Updated `dateModified` to "2026-11-11"
+
+### 5. `/blog/tampa-bay-brewery-taproom-cre-2026`
+- Replaced 62 em dashes with commas/conjunctions
+- Updated `dateModified` to "2026-11-11"
+
+### 6. `/blog/tampa-bay-multifamily-market-mid-2026`
+- Replaced 60 em dashes and 1 en dash
+- Updated `dateModified` to "2026-11-11"
+
+### 7. `/blog/tampa-bay-industrial-reit-institutional-capital-2026`
+- Replaced 59 em dashes and 1 en dash
+- Updated `dateModified` to "2026-11-11"
+
+### 8. `/blog/tampa-bay-industrial-outdoor-storage-ios-2026`
+- Replaced 59 em dashes with commas/conjunctions
+- Updated `dateModified` to "2026-11-11"
+
+### 9. `/blog/tampa-bay-cre-construction-costs-tariffs-2026`
+- Replaced 58 em dashes and 4 en dashes
+- Updated `dateModified` to "2026-11-11"
+
+### 10. `/blog/florida-commercial-property-tax-appeal-guide-2026`
+- Replaced 56 em dashes and 6 en dashes
+- Updated `dateModified` to "2026-11-11"
+
+---
+
 ## Batch 85 — 2026-11-10
 
 **Commit:** `a974dd1` | **Build:** clean (0 errors, 369 pages) | **Pages improved:** 11
@@ -113,7 +163,6 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### 10. `/blog/clearwater-office-space-professional-services-firms`
 - Replaced 3 em dashes
 - Updated dateModified to "2026-11-09"
-
 ---
 
 ## Batch 81 — 2026-11-07
