@@ -4,6 +4,75 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 87 — 2026-11-12
+
+**Commit:** `1b56650` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/clearwater-nnn-investment-strategy-pinellas-2026`
+- Merged dual schemas (articleSchema + faqSchema) into single @graph schema
+- Fixed jobTitle from "Commercial Real Estate Advisor" to full credentials
+- Replaced 1 en dash with hyphen
+- Updated dateModified to "2026-11-12"
+
+### 2. `/blog/crystal-river-citrus-county-cre-market-guide-2026`
+- Merged dual schemas into single @graph schema
+- Fixed publisher from "REMAX Commercial Real Estate" to "HenCRE"
+- Replaced 18 em dashes with commas
+- Updated dateModified to "2026-11-12"
+
+### 3. `/blog/land-o-lakes-nnn-landlord-investment-strategy-pasco`
+- Merged dual schemas into single @graph schema
+- Fixed jobTitle from "Broker Associate" to full credentials
+- Replaced 30 em dashes with commas
+- Updated dateModified to "2026-11-12"
+
+### 4. `/blog/land-o-lakes-land-development-commercial-space-guide`
+- Replaced 2 em dashes with commas
+- Updated dateModified to "2026-11-12"
+
+### 5. `/blog/wesley-chapel-commercial-real-estate-investors-tenants-guide`
+- Merged dual schemas into single @graph schema
+- Fixed jobTitle from "Broker Associate" to full credentials
+- Replaced 7 em dashes with commas
+- Updated dateModified to "2026-11-12"
+
+### 6. `/blog/tampa-commercial-real-estate-investor-tenant-guide-2026`
+- Merged dual schemas into single @graph schema
+- Fixed jobTitle from "Commercial Real Estate Advisor" to full credentials
+- Fixed publisher from "REMAX Commercial Real Estate" to "HenCRE"
+- Replaced 7 em dashes with commas
+- Updated dateModified to "2026-11-12"
+
+### 7. `/blog/valrico-commercial-real-estate-market-guide`
+- Merged dual schemas into single @graph schema
+- Fixed jobTitle from "Broker Associate" to full credentials
+- Updated dateModified to "2026-11-12"
+
+### 8. `/blog/tampa-hillsborough-land-development-commercial-space-guide`
+- Fixed publisher from "REMAX Commercial Real Estate" to "HenCRE" in schema
+- Replaced 17 em dashes and 3 en dashes
+- Updated dateModified to "2026-11-12"
+
+### 9. `/blog/tampa-bay-golf-course-country-club-cre-2026`
+- Replaced nowtb.com external link with internal /markets/hillsborough Link
+- Replaced 66 em dashes and 2 en dashes
+- Updated dateModified from "2026-11-10" to "2026-11-12"
+
+### 10. `/blog/winter-haven-polk-county-commercial-real-estate-2026`
+- Shortened meta title from 79 chars to 52 chars ("Winter Haven FL Commercial Real Estate 2026 | HenCRE")
+- Merged dual schemas into single @graph schema
+- Fixed jobTitle from "Commercial Real Estate Advisor" to full credentials
+- Fixed publisher from "REMAX Commercial Real Estate" to "HenCRE"
+- Removed nowtb.com from sameAs array
+- Added missing dateModified: "2026-11-12"
+- Fixed 5 relatedLinks hrefs to include /blog/ prefix
+- Added `import Link from "next/link"` to imports
+- Added 7 internal links in article body (/markets/polk, /commercial/retail-space, /blog/what-is-triple-net-nnn-lease-and-why-investors-love-it, /calculators/cap-rate, /services/tenant-representation)
+- Removed HUD Free Resources phone number section
+- Replaced 6 em dashes and 1 en dash
+
+---
+
 ## Batch 86 — 2026-11-11
 
 **Commit:** `9d2b8e2` | **Build:** clean (0 errors) | **Pages improved:** 10
