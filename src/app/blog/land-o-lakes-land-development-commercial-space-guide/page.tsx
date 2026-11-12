@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
- * Auto-generated blog post — 2026-10-07
+ * Auto-generated blog post ,  2026-10-07
  * Land O' Lakes Land Development: Finding Commercial Space
  * ----------------------------------------------------------------- */
 
@@ -42,7 +42,7 @@ const schema = {
       headline: "Land O' Lakes Land Development: Finding Commercial Space",
       description: "Looking for land or commercial space for development in Land O' Lakes, FL? Barrett Henry at REMAX Commercial Real Estate covers what you need to know. Call now.",
       datePublished: "2026-10-07",
-      dateModified: "2026-11-10",
+      dateModified: "2026-11-12",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -250,7 +250,7 @@ export default function BlogPost() {
       </section>
 
       <CTASection
-        heading="Land O' Lakes Has Development Sites — But the Window Is Narrowing"
+        heading="Land O' Lakes Has Development Sites ,  But the Window Is Narrowing"
         body="Entitled land in growing Pasco County submarkets does not sit still for long. Call Barrett Henry at (813) 733-7907 today to identify sites that match your development program, review zoning feasibility, and get ahead of the competition before the next wave of rooftops closes the gap on available commercial land."
         buttonText="Contact Barrett"
         buttonHref="/contact"

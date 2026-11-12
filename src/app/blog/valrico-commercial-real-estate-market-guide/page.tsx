@@ -24,72 +24,74 @@ export const metadata: Metadata = {
   },
 };
 
-const articleSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Valrico CRE: What Businesses & Investors Must Know",
-  description: "Valrico commercial real estate is growing fast. Discover what's driving demand, top corridors, and why smart investors call Barrett Henry at (813) 733-7907.",
-  datePublished: "2026-10-09",
-  dateModified: "2026-10-10",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Broker Associate",
-    image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-    sameAs: [
-      "https://hencre.com/about",
-      "https://barretthenry.remax.com",
-    ],
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
-  },
-  publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/valrico-commercial-real-estate-market-guide",
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "Is Valrico a good place to open a business in Hillsborough County?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Valrico offers a strong combination of dense residential demand, SR-60 corridor visibility, and lower commercial rents compared to Brandon -- making it a practical choice for service businesses, healthcare operators, and neighborhood retail concepts.",
+      "@type": "BlogPosting",
+      headline: "Valrico CRE: What Businesses & Investors Must Know",
+      description: "Valrico commercial real estate is growing fast. Discover what's driving demand, top corridors, and why smart investors call Barrett Henry at (813) 733-7907.",
+      datePublished: "2026-10-09",
+      dateModified: "2026-11-12",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: [
+          "https://hencre.com/about",
+          "https://barretthenry.remax.com",
+        ],
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/valrico-commercial-real-estate-market-guide",
     },
     {
-      "@type": "Question",
-      name: "What types of commercial zoning exist in Valrico, Florida?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Valrico falls under Hillsborough County's Land Development Code, which includes neighborhood commercial (CN), community commercial (CC), and planned development (PD) zoning designations -- each with different permitted uses, setbacks, and density allowances.",
-      },
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Is Valrico a good place to open a business in Hillsborough County?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Valrico offers a strong combination of dense residential demand, SR-60 corridor visibility, and lower commercial rents compared to Brandon -- making it a practical choice for service businesses, healthcare operators, and neighborhood retail concepts.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What types of commercial zoning exist in Valrico, Florida?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Valrico falls under Hillsborough County's Land Development Code, which includes neighborhood commercial (CN), community commercial (CC), and planned development (PD) zoning designations -- each with different permitted uses, setbacks, and density allowances.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How do I find commercial space for lease in Valrico?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Working with a commercial REALTOR® who covers the Hillsborough County submarket is the most effective approach -- many available spaces in Valrico are never publicly listed, and a broker with local market knowledge can identify opportunities before they hit public portals.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are there NNN investment properties available in Valrico?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes -- Valrico has freestanding retail pads and single-tenant healthcare buildings that trade as NNN assets, particularly along the SR-60 and Bloomingdale Avenue corridors where tenant demand from medical and service retail operators remains steady.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is the main commercial corridor in Valrico?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "SR-60, also known as Brandon Boulevard, is the primary commercial corridor serving Valrico, offering high daily traffic counts, regional accessibility via Interstate 75, and a mix of retail, medical, and service commercial properties.",
+          },
+        }
+      ],
     },
-    {
-      "@type": "Question",
-      name: "How do I find commercial space for lease in Valrico?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Working with a commercial REALTOR® who covers the Hillsborough County submarket is the most effective approach -- many available spaces in Valrico are never publicly listed, and a broker with local market knowledge can identify opportunities before they hit public portals.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Are there NNN investment properties available in Valrico?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes -- Valrico has freestanding retail pads and single-tenant healthcare buildings that trade as NNN assets, particularly along the SR-60 and Bloomingdale Avenue corridors where tenant demand from medical and service retail operators remains steady.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is the main commercial corridor in Valrico?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "SR-60, also known as Brandon Boulevard, is the primary commercial corridor serving Valrico, offering high daily traffic counts, regional accessibility via Interstate 75, and a mix of retail, medical, and service commercial properties.",
-      },
-    }
   ],
 };
 
@@ -172,8 +174,7 @@ const faqItems = [
 export default function BlogPost() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
+            <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
