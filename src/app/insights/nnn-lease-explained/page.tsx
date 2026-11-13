@@ -10,18 +10,18 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
  * Insight: NNN Lease Explained
- * Evergreen explainer — triple net leases for tenants & landlords.
+ * Evergreen explainer, triple net leases for tenants & landlords.
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
   title: "NNN Lease Explained | Triple Net for Tenants & Landlords",
   description:
-    "Understand triple net (NNN) leases — how they work, what tenants pay, and how they compare to gross and modified gross leases. Expert CRE guidance from a FL broker.",
+    "Understand triple net (NNN) leases, how they work, what tenants pay, and how they compare to gross and modified gross leases. Expert CRE guidance from a FL broker.",
   alternates: { canonical: "https://hencre.com/insights/nnn-lease-explained" },
   openGraph: {
     title: "NNN Lease Explained: What Triple Net Means for Tenants & Landlords",
     description:
-      "Understand triple net (NNN) leases — how they work, what tenants pay, and how they compare to gross and modified gross leases.",
+      "Understand triple net (NNN) leases, how they work, what tenants pay, and how they compare to gross and modified gross leases.",
     url: "https://hencre.com/insights/nnn-lease-explained",
     type: "article",
   },
@@ -42,7 +42,7 @@ const schema = {
       "@type": "Article",
       headline: "NNN Lease Explained: What Triple Net Means for Tenants & Landlords",
       description:
-        "Understand triple net (NNN) leases — how they work, what tenants pay, and how they compare to gross and modified gross leases.",
+        "Understand triple net (NNN) leases, how they work, what tenants pay, and how they compare to gross and modified gross leases.",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -70,7 +70,7 @@ const schema = {
         },
         {
           "@type": "Question",
-          name: "Who benefits more from a NNN lease — the landlord or the tenant?",
+          name: "Who benefits more from a NNN lease, the landlord or the tenant?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Both parties benefit in different ways. Landlords get predictable net income with minimal management burden. Tenants typically get a lower base rent and more control over their operating costs. The right structure depends on the specific situation.",
@@ -97,7 +97,7 @@ const schema = {
           name: "What is an absolute NNN lease?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "An absolute NNN lease — sometimes called a bondable NNN — places all property expenses on the tenant, including roof and structure. These are common with freestanding buildings leased to national credit tenants such as pharmacies, fast food operators, and dollar stores. The landlord has virtually zero management responsibility.",
+            text: "An absolute NNN lease, sometimes called a bondable NNN, places all property expenses on the tenant, including roof and structure. These are common with freestanding buildings leased to national credit tenants such as pharmacies, fast food operators, and dollar stores. The landlord has virtually zero management responsibility.",
           },
         },
       ],
@@ -112,7 +112,7 @@ const faqItems = [
       "NNN stands for triple net. In a triple net lease, the tenant pays base rent plus three categories of operating expenses: property taxes, property insurance, and common area maintenance (CAM). The landlord receives a net rent after those costs are covered by the tenant.",
   },
   {
-    question: "Who benefits more from a NNN lease — the landlord or the tenant?",
+    question: "Who benefits more from a NNN lease, the landlord or the tenant?",
     answer:
       "Both parties benefit in different ways. Landlords get predictable net income with minimal management burden. Tenants typically get a lower base rent and more control over their operating costs. The right structure depends on the specific situation.",
   },
@@ -129,7 +129,7 @@ const faqItems = [
   {
     question: "What is an absolute NNN lease?",
     answer:
-      "An absolute NNN lease — sometimes called a bondable NNN — places all property expenses on the tenant, including roof and structure. These are common with freestanding buildings leased to national credit tenants such as pharmacies, fast food operators, and dollar stores. The landlord has virtually zero management responsibility.",
+      "An absolute NNN lease, sometimes called a bondable NNN, places all property expenses on the tenant, including roof and structure. These are common with freestanding buildings leased to national credit tenants such as pharmacies, fast food operators, and dollar stores. The landlord has virtually zero management responsibility.",
   },
 ];
 
@@ -206,12 +206,12 @@ export default function NNNLeasePage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Walk into any conversation about commercial real estate investing and you will hear &ldquo;NNN&rdquo; within the first five minutes. Triple net leases are one of the most popular structures in CRE, and for good reason — they create a clear division of financial responsibility between landlord and tenant. But the details matter, and I have seen both sides get surprised by what they agreed to. Let me walk you through how NNN leases actually work and what to watch for.
+          Walk into any conversation about commercial real estate investing and you will hear &ldquo;NNN&rdquo; within the first five minutes. Triple net leases are one of the most popular structures in CRE, and for good reason, they create a clear division of financial responsibility between landlord and tenant. But the details matter, and I have seen both sides get surprised by what they agreed to. Let me walk you through how NNN leases actually work and what to watch for.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is a Triple Net (NNN) Lease?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In a triple net lease, the tenant pays base rent plus three categories of property expenses: property taxes, building insurance, and common area maintenance (CAM). Those are the three &ldquo;nets.&rdquo; The landlord receives the base rent as essentially net income — their costs for owning the property are passed through to the tenant.
+          In a triple net lease, the tenant pays base rent plus three categories of property expenses: property taxes, building insurance, and common area maintenance (CAM). Those are the three &ldquo;nets.&rdquo; The landlord receives the base rent as essentially net income, their costs for owning the property are passed through to the tenant.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           This is different from a <Link href="/insights/gross-vs-net-lease" className="text-accent underline">gross lease</Link>, where the landlord wraps all expenses into one higher rent number. In a NNN lease, you see the base rent and the additional charges itemized separately. NNN-leased properties are also the dominant product type in the <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN investment market</Link>.
@@ -228,7 +228,7 @@ export default function NNNLeasePage() {
           className="w-full rounded-lg"
           unoptimized
         />
-        <p className="mt-2 text-xs text-center text-[#666666]">NNN properties — especially <Link href="/commercial/retail-space" className="underline">retail pad sites</Link> leased to national credit tenants — are among the most sought-after investment properties in Florida.</p>
+        <p className="mt-2 text-xs text-center text-[#666666]">NNN properties, especially <Link href="/commercial/retail-space" className="underline">retail pad sites</Link> leased to national credit tenants, are among the most sought-after investment properties in Florida.</p>
       </section>
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
@@ -238,7 +238,7 @@ export default function NNNLeasePage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Property taxes.</strong> Your proportionate share of the building&apos;s annual tax bill.</li>
-          <li><strong>Insurance.</strong> Your share of the landlord&apos;s property insurance premium (not your own business liability insurance — that is always separate).</li>
+          <li><strong>Insurance.</strong> Your share of the landlord&apos;s property insurance premium (not your own business liability insurance, that is always separate).</li>
           <li><strong>CAM charges.</strong> Common area maintenance, which covers shared expenses like landscaping, parking lot upkeep, exterior lighting, and sometimes management fees. For a full breakdown of what CAM includes, see the <Link href="/insights/cam-charges-explained" className="text-accent underline">CAM charges explained guide</Link>.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
@@ -250,7 +250,7 @@ export default function NNNLeasePage() {
           From the ownership side, NNN leases are attractive because they create predictable net income. When property taxes increase, the tenant absorbs that cost. When insurance premiums rise, same thing. The landlord&apos;s income stays consistent regardless of operating expense fluctuations.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          This is why NNN properties — especially those with strong national tenants on long-term leases — are among the most sought-after investment properties. The income stream is as close to passive as commercial real estate gets. The <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rate</Link> on a well-located NNN property reflects this stability, often trading at compressed cap rates that still deliver solid returns.
+          This is why NNN properties, especially those with strong national tenants on long-term leases, are among the most sought-after investment properties. The income stream is as close to passive as commercial real estate gets. The <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rate</Link> on a well-located NNN property reflects this stability, often trading at compressed cap rates that still deliver solid returns.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">NNN vs. Gross vs. Modified Gross</h2>
@@ -315,12 +315,12 @@ export default function NNNLeasePage() {
           <li><strong>Expense estimates vs. actuals.</strong> Most landlords collect estimated NNN charges monthly and reconcile against actual costs annually. Understand how that reconciliation works.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Avoiding the <Link href="/blog/5-mistakes-first-time-commercial-tenants-make" className="text-accent underline">five most common commercial tenant mistakes</Link> requires understanding your full occupancy cost before you sign — not after. In markets like <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> and <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>, NNN lease terms have tightened as vacancy drops and landlord leverage grows.
+          Avoiding the <Link href="/blog/5-mistakes-first-time-commercial-tenants-make" className="text-accent underline">five most common commercial tenant mistakes</Link> requires understanding your full occupancy cost before you sign, not after. In markets like <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> and <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>, NNN lease terms have tightened as vacancy drops and landlord leverage grows.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Absolute NNN vs. Standard NNN</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          You may hear the term &ldquo;absolute NNN&rdquo; or &ldquo;bondable NNN.&rdquo; In an absolute NNN lease, the tenant is responsible for literally everything — including roof and structure repairs. These are common with freestanding buildings leased to national credit tenants (think pharmacies, fast food, dollar stores). The landlord has virtually zero management responsibility.
+          You may hear the term &ldquo;absolute NNN&rdquo; or &ldquo;bondable NNN.&rdquo; In an absolute NNN lease, the tenant is responsible for literally everything, including roof and structure repairs. These are common with freestanding buildings leased to national credit tenants (think pharmacies, fast food, dollar stores). The landlord has virtually zero management responsibility.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           In a standard NNN lease, the landlord typically retains responsibility for the roof and structural components. Always read your lease carefully to understand where that line is drawn. When evaluating <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">why investors love NNN properties</Link>, the distinction between absolute and standard NNN significantly affects the risk-return profile.
@@ -328,7 +328,7 @@ export default function NNNLeasePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          NNN leases work well for both landlords and tenants when both sides understand exactly what they are agreeing to. As a broker with 23+ years of experience, my job is to make sure there are no surprises — that tenants know their total occupancy cost and landlords understand their net income. If you are negotiating a commercial lease, having an experienced broker review the terms before you sign can save you real money.
+          NNN leases work well for both landlords and tenants when both sides understand exactly what they are agreeing to. As a broker with 23+ years of experience, my job is to make sure there are no surprises, that tenants know their total occupancy cost and landlords understand their net income. If you are negotiating a commercial lease, having an experienced broker review the terms before you sign can save you real money.
         </p>
       </article>
 
@@ -361,7 +361,7 @@ export default function NNNLeasePage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );

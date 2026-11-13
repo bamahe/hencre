@@ -10,7 +10,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
  * Insight: CAM Charges Explained
- * Evergreen explainer — common area maintenance for CRE tenants.
+ * Evergreen explainer, common area maintenance for CRE tenants.
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
@@ -51,7 +51,7 @@ const faqItems = [
   {
     question: "Are CAM charges higher in Florida than in other states?",
     answer:
-      "Florida CAM charges often include costs less common in colder climates — hurricane preparedness, storm drainage maintenance, and intensive irrigation for year-round landscaping. Florida also has elevated property insurance costs that may be passed through as NNN or CAM expenses. Tenants should request a detailed CAM breakdown before signing any Florida commercial lease.",
+      "Florida CAM charges often include costs less common in colder climates, hurricane preparedness, storm drainage maintenance, and intensive irrigation for year-round landscaping. Florida also has elevated property insurance costs that may be passed through as NNN or CAM expenses. Tenants should request a detailed CAM breakdown before signing any Florida commercial lease.",
   },
 ];
 
@@ -177,14 +177,14 @@ export default function CAMChargesPage() {
           CAM charges cover the shared expenses of operating and maintaining the common areas of a commercial property. These are spaces that benefit all tenants but are not part of any individual tenant&apos;s leased suite. Typical CAM expenses include:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Parking lot maintenance</strong> — repaving, striping, pothole repair, sweeping</li>
-          <li><strong>Landscaping</strong> — lawn care, irrigation, tree trimming, seasonal plantings</li>
-          <li><strong>Exterior lighting</strong> — parking lot lights, building exterior fixtures</li>
-          <li><strong>Common hallways and lobbies</strong> — cleaning, HVAC for shared spaces</li>
-          <li><strong>Trash removal</strong> — dumpster service for the property</li>
-          <li><strong>Security</strong> — cameras, patrol services if applicable</li>
-          <li><strong>Property management fees</strong> — sometimes included as a percentage of total expenses</li>
-          <li><strong>Storm cleanup</strong> — in Florida, this includes hurricane preparation and drainage maintenance</li>
+          <li><strong>Parking lot maintenance</strong>, repaving, striping, pothole repair, sweeping</li>
+          <li><strong>Landscaping</strong>, lawn care, irrigation, tree trimming, seasonal plantings</li>
+          <li><strong>Exterior lighting</strong>, parking lot lights, building exterior fixtures</li>
+          <li><strong>Common hallways and lobbies</strong>, cleaning, HVAC for shared spaces</li>
+          <li><strong>Trash removal</strong>, dumpster service for the property</li>
+          <li><strong>Security</strong>, cameras, patrol services if applicable</li>
+          <li><strong>Property management fees</strong>, sometimes included as a percentage of total expenses</li>
+          <li><strong>Storm cleanup</strong>, in Florida, this includes hurricane preparation and drainage maintenance</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How CAM Charges Are Calculated</h2>
@@ -205,7 +205,7 @@ export default function CAMChargesPage() {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <Image
           src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&auto=format&fit=crop&q=75"
-          alt="Florida retail strip center parking lot — CAM charges cover maintenance of shared areas like this"
+          alt="Florida retail strip center parking lot, CAM charges cover maintenance of shared areas like this"
           width={800}
           height={500}
           className="w-full rounded-lg"
@@ -220,11 +220,11 @@ export default function CAMChargesPage() {
           This is where tenants need to pay close attention. Some landlords include expenses in CAM that really should not be there. Items that should typically be excluded:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Capital improvements</strong> — a new roof, structural repairs, or building additions benefit the landlord long-term and should not be passed through as annual maintenance</li>
-          <li><strong>Leasing commissions and marketing</strong> — the cost of finding new tenants is the landlord&apos;s responsibility</li>
-          <li><strong>Landlord&apos;s income taxes</strong> — property taxes are a standard <Link href="/insights/nnn-lease-explained" className="text-accent underline">NNN expense</Link>, but the landlord&apos;s own income taxes are not</li>
-          <li><strong>Costs of correcting building code violations</strong> — pre-existing compliance issues belong to the owner</li>
-          <li><strong>Depreciation</strong> — this is an accounting entry, not an operating expense</li>
+          <li><strong>Capital improvements</strong>, a new roof, structural repairs, or building additions benefit the landlord long-term and should not be passed through as annual maintenance</li>
+          <li><strong>Leasing commissions and marketing</strong>, the cost of finding new tenants is the landlord&apos;s responsibility</li>
+          <li><strong>Landlord&apos;s income taxes</strong>, property taxes are a standard <Link href="/insights/nnn-lease-explained" className="text-accent underline">NNN expense</Link>, but the landlord&apos;s own income taxes are not</li>
+          <li><strong>Costs of correcting building code violations</strong>, pre-existing compliance issues belong to the owner</li>
+          <li><strong>Depreciation</strong>, this is an accounting entry, not an operating expense</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How to Negotiate CAM Charges</h2>
@@ -232,15 +232,15 @@ export default function CAMChargesPage() {
           CAM charges are negotiable. Here are the key protections I recommend to every tenant client when working on <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link>:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>CAM cap.</strong> Negotiate a maximum annual increase — typically 3% to 5% — so your costs do not spike unexpectedly. This is one of the most impactful protections available.</li>
+          <li><strong>CAM cap.</strong> Negotiate a maximum annual increase, typically 3% to 5%, so your costs do not spike unexpectedly. This is one of the most impactful protections available.</li>
           <li><strong>Detailed exclusions.</strong> Spell out what cannot be included as CAM. Capital expenditures, legal fees, and management fees above a reasonable percentage should all be excluded.</li>
           <li><strong>Audit rights.</strong> Your lease should give you the right to review the landlord&apos;s CAM records and dispute inaccurate charges.</li>
-          <li><strong>Gross-up provision.</strong> If the building is not fully occupied, the landlord should calculate CAM as if it were — otherwise you pay a disproportionate share of fixed costs.</li>
+          <li><strong>Gross-up provision.</strong> If the building is not fully occupied, the landlord should calculate CAM as if it were, otherwise you pay a disproportionate share of fixed costs.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">CAM in Florida Commercial Leases</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In Florida, CAM charges often include items that are less common up north — hurricane preparedness, storm drainage maintenance, and irrigation costs for landscaping in our climate. Florida properties may also have higher insurance-related pass-throughs due to the state&apos;s property insurance market. These are legitimate expenses, but you should understand exactly what they are before you sign. This is especially important in markets like <Link href="/markets/manatee" className="text-accent underline">Manatee County</Link>, <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link>, and <Link href="/markets/polk" className="text-accent underline">Polk County</Link> where newer retail developments have higher CAM bases.
+          In Florida, CAM charges often include items that are less common up north, hurricane preparedness, storm drainage maintenance, and irrigation costs for landscaping in our climate. Florida properties may also have higher insurance-related pass-throughs due to the state&apos;s property insurance market. These are legitimate expenses, but you should understand exactly what they are before you sign. This is especially important in markets like <Link href="/markets/manatee" className="text-accent underline">Manatee County</Link>, <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link>, and <Link href="/markets/polk" className="text-accent underline">Polk County</Link> where newer retail developments have higher CAM bases.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           To understand how CAM interacts with your overall lease structure, review how it fits into <Link href="/insights/gross-vs-net-lease" className="text-accent underline">gross vs. net lease comparisons</Link>. Also see our guide on <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">common CAM mistakes tenants make</Link> and <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential</Link>.
@@ -269,13 +269,13 @@ export default function CAMChargesPage() {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 mt-8">
         <Image
           src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=75"
-          alt="Florida commercial building exterior — shared areas like roofs and lobbies are covered by CAM charges"
+          alt="Florida commercial building exterior, shared areas like roofs and lobbies are covered by CAM charges"
           width={800}
           height={500}
           className="w-full rounded-lg"
           unoptimized
         />
-        <p className="mt-2 text-xs text-center text-[#666666]">Building exteriors, roofs, and facades are maintained through CAM — but capital improvements to these elements should be excluded from your pass-through costs. See how the <Link href="/insights/nnn-lease-explained" className="underline">NNN lease structure</Link> handles these items differently.</p>
+        <p className="mt-2 text-xs text-center text-[#666666]">Building exteriors, roofs, and facades are maintained through CAM, but capital improvements to these elements should be excluded from your pass-through costs. See how the <Link href="/insights/nnn-lease-explained" className="underline">NNN lease structure</Link> handles these items differently.</p>
       </section>
 
       <div className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8 mt-12">
@@ -287,13 +287,13 @@ export default function CAMChargesPage() {
 
       <CTASection
         heading="Want a CAM Review Before You Sign?"
-        body="I help tenants understand their total occupancy cost — not just the base rent. Let me review your lease terms."
+        body="I help tenants understand their total occupancy cost, not just the base rent. Let me review your lease terms."
         buttonText="Talk to Barrett"
         buttonHref="/contact"
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );

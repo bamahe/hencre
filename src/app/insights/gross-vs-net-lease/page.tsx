@@ -36,7 +36,7 @@ const faqItems = [
   {
     question: "What is a modified gross lease?",
     answer:
-      "A modified gross lease splits operating expenses between landlord and tenant. The specific split is negotiated — for example, the landlord might cover property taxes and insurance while the tenant pays utilities and janitorial. It is a middle ground between gross and net structures.",
+      "A modified gross lease splits operating expenses between landlord and tenant. The specific split is negotiated, for example, the landlord might cover property taxes and insurance while the tenant pays utilities and janitorial. It is a middle ground between gross and net structures.",
   },
   {
     question: "Which lease type is better for tenants?",
@@ -164,23 +164,23 @@ export default function GrossVsNetPage() {
 
       <Hero
         title="Gross vs. Net Lease"
-        subtitle="The lease structure you choose determines who pays what — and it has a bigger impact on your bottom line than most tenants realize."
+        subtitle="The lease structure you choose determines who pays what, and it has a bigger impact on your bottom line than most tenants realize."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          When a landlord quotes you a rate on commercial space, the number itself does not tell you much unless you know the lease structure behind it. A $20 per square foot gross lease and a $12 per square foot NNN lease might result in almost the same total occupancy cost — but the risk allocation is completely different. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, I help tenants and landlords across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link> structure leases that align with their goals. Let me break down the differences.
+          When a landlord quotes you a rate on commercial space, the number itself does not tell you much unless you know the lease structure behind it. A $20 per square foot gross lease and a $12 per square foot NNN lease might result in almost the same total occupancy cost, but the risk allocation is completely different. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, I help tenants and landlords across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link> structure leases that align with their goals. Let me break down the differences.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Gross Lease (Full-Service Lease)</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In a gross lease, you pay one all-inclusive rent amount. The landlord is responsible for all operating expenses — property taxes, insurance, maintenance, common area costs, and sometimes even utilities. What you see is what you pay.
+          In a gross lease, you pay one all-inclusive rent amount. The landlord is responsible for all operating expenses, property taxes, insurance, maintenance, common area costs, and sometimes even utilities. What you see is what you pay.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Advantages for tenants:</strong> Simplicity and predictability. You know exactly what your monthly cost is. No surprises from tax increases or insurance premium hikes.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Disadvantages:</strong> The rent is higher because the landlord builds in a cushion for expected expenses — and often adds a margin for unexpected ones. You are paying for convenience, and you have no visibility into actual costs.
+          <strong>Disadvantages:</strong> The rent is higher because the landlord builds in a cushion for expected expenses, and often adds a margin for unexpected ones. You are paying for convenience, and you have no visibility into actual costs.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Common in:</strong> Multi-tenant <Link href="/commercial/office-space" className="text-accent underline">office buildings</Link>, co-working spaces, and medical offices. Full-service gross is the standard for Class A office.
@@ -220,7 +220,7 @@ export default function GrossVsNetPage() {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <Image
           src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&auto=format&fit=crop&q=75"
-          alt="Modern office building lobby — full-service gross leases are standard in Class A Florida office buildings"
+          alt="Modern office building lobby, full-service gross leases are standard in Class A Florida office buildings"
           width={800}
           height={500}
           className="w-full rounded-lg"
@@ -235,7 +235,7 @@ export default function GrossVsNetPage() {
           The modified gross lease is the middle ground. Landlord and tenant negotiate which expenses each party covers. A typical arrangement might have the landlord pay property taxes and insurance while the tenant pays utilities, janitorial, and their share of CAM. The specifics are entirely negotiable.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Many modified gross leases include an <strong>expense stop</strong> — a base year amount for expenses. The landlord covers expenses up to that amount, and the tenant pays any increases above it. This protects both parties: the tenant has cost predictability in year one, and the landlord is protected from absorbing all future cost increases.
+          Many modified gross leases include an <strong>expense stop</strong>, a base year amount for expenses. The landlord covers expenses up to that amount, and the tenant pays any increases above it. This protects both parties: the tenant has cost predictability in year one, and the landlord is protected from absorbing all future cost increases.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Side-by-Side Comparison</h2>
@@ -286,10 +286,10 @@ export default function GrossVsNetPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">How This Affects Your Total Cost</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Here is what catches people off guard: the total occupancy cost under a gross lease and a NNN lease for the same space is often very similar. The difference is not how much you pay — it is how you pay it, who controls the costs, and how predictable your expenses are. Use our <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> and <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to model different lease scenarios.
+          Here is what catches people off guard: the total occupancy cost under a gross lease and a NNN lease for the same space is often very similar. The difference is not how much you pay, it is how you pay it, who controls the costs, and how predictable your expenses are. Use our <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> and <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to model different lease scenarios.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          A landlord quoting $18/SF gross is building in their estimate of operating expenses. A landlord quoting $12/SF NNN plus $6/SF in estimated expenses is giving you the same total — but with transparency into where your money goes. The NNN tenant can audit those expenses. The gross tenant cannot.
+          A landlord quoting $18/SF gross is building in their estimate of operating expenses. A landlord quoting $12/SF NNN plus $6/SF in estimated expenses is giving you the same total, but with transparency into where your money goes. The NNN tenant can audit those expenses. The gross tenant cannot.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Which Structure Should You Choose?</h2>
@@ -299,12 +299,12 @@ export default function GrossVsNetPage() {
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Choose gross</strong> if you want maximum simplicity and budget certainty.</li>
           <li><strong>Choose NNN</strong> if you want cost transparency, lower base rent, and are comfortable with some variability in operating expenses. For investors, <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN investments</Link> often make the most sense.</li>
-          <li><strong>Choose modified gross</strong> if you want a balance — some predictability with some transparency, and room to negotiate the split.</li>
+          <li><strong>Choose modified gross</strong> if you want a balance, some predictability with some transparency, and room to negotiate the split.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Do not compare lease rates across different structures without understanding what is included. A $14 NNN rate is not cheaper than a $20 gross rate until you add up the total occupancy cost. I always help my clients calculate the all-in cost before making decisions — because the base rent is only part of the story. This is exactly the kind of analysis my <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> service provides. Also see our guide on <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential</Link> for more context.
+          Do not compare lease rates across different structures without understanding what is included. A $14 NNN rate is not cheaper than a $20 gross rate until you add up the total occupancy cost. I always help my clients calculate the all-in cost before making decisions, because the base rent is only part of the story. This is exactly the kind of analysis my <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> service provides. Also see our guide on <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential</Link> for more context.
         </p>
       </article>
 
@@ -312,7 +312,7 @@ export default function GrossVsNetPage() {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <Image
           src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop&q=75"
-          alt="Freestanding NNN retail building in Florida — triple net leases are standard for national chain locations"
+          alt="Freestanding NNN retail building in Florida, triple net leases are standard for national chain locations"
           width={800}
           height={500}
           className="w-full rounded-lg"
@@ -349,7 +349,7 @@ export default function GrossVsNetPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );

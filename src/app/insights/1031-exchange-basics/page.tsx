@@ -10,18 +10,18 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
  * Insight: 1031 Exchange Basics
- * Evergreen explainer — tax-deferred exchanges for CRE investors.
+ * Evergreen explainer, tax-deferred exchanges for CRE investors.
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
   title: "1031 Exchange Basics | Tax-Deferred CRE Exchanges",
   description:
-    "Understand 1031 exchange fundamentals — timelines, rules, qualified intermediaries, and common mistakes. Expert guidance for CRE investors in Florida.",
+    "Understand 1031 exchange fundamentals, timelines, rules, qualified intermediaries, and common mistakes. Expert guidance for CRE investors in Florida.",
   alternates: { canonical: "https://hencre.com/insights/1031-exchange-basics" },
   openGraph: {
     title: "1031 Exchange Basics: Tax-Deferred Exchanges for CRE Investors",
     description:
-      "Understand 1031 exchange fundamentals — timelines, rules, qualified intermediaries, and common mistakes.",
+      "Understand 1031 exchange fundamentals, timelines, rules, qualified intermediaries, and common mistakes.",
     url: "https://hencre.com/insights/1031-exchange-basics",
     type: "article",
   },
@@ -41,7 +41,7 @@ const faqItems = [
   {
     question: "Can you do a 1031 exchange on a primary residence?",
     answer:
-      "No. Section 1031 only applies to property held for investment or business use. Your primary residence does not qualify. However, if you convert a rental property to a primary residence (or vice versa), there may be partial exchange treatment available — consult a tax professional.",
+      "No. Section 1031 only applies to property held for investment or business use. Your primary residence does not qualify. However, if you convert a rental property to a primary residence (or vice versa), there may be partial exchange treatment available, consult a tax professional.",
   },
   {
     question: "What does like-kind mean in a 1031 exchange?",
@@ -70,7 +70,7 @@ const schema = {
       "@type": "Article",
       headline: "1031 Exchange Basics: Tax-Deferred Exchanges for CRE Investors",
       description:
-        "Understand 1031 exchange fundamentals — timelines, rules, qualified intermediaries, and common mistakes.",
+        "Understand 1031 exchange fundamentals, timelines, rules, qualified intermediaries, and common mistakes.",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -125,7 +125,7 @@ const relatedLinks = [
   {
     title: "NNN Net Lease Properties",
     href: "/commercial/nnn-net-lease",
-    description: "Popular 1031 replacement property type — stable income, low management.",
+    description: "Popular 1031 replacement property type, stable income, low management.",
   },
   {
     title: "Multifamily Commercial Properties",
@@ -169,12 +169,12 @@ export default function ExchangeBasicsPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          If you own commercial real estate and have ever thought about selling, someone has probably mentioned a 1031 exchange. It is one of the most powerful wealth-building tools available to real estate investors — and one of the most misunderstood. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, I have guided clients through these exchanges on <Link href="/commercial/multifamily" className="text-accent underline">multifamily</Link>, <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN</Link>, <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, and <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial</Link> properties across Florida. The difference between doing it right and making a costly mistake often comes down to understanding a few key rules.
+          If you own commercial real estate and have ever thought about selling, someone has probably mentioned a 1031 exchange. It is one of the most powerful wealth-building tools available to real estate investors, and one of the most misunderstood. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, I have guided clients through these exchanges on <Link href="/commercial/multifamily" className="text-accent underline">multifamily</Link>, <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN</Link>, <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, and <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial</Link> properties across Florida. The difference between doing it right and making a costly mistake often comes down to understanding a few key rules.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is a 1031 Exchange?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Section 1031 of the Internal Revenue Code allows you to sell an investment property and defer the capital gains taxes by reinvesting the proceeds into another &ldquo;like-kind&rdquo; property. The key word is <strong>defer</strong> — you are not eliminating the tax, you are postponing it. If you eventually sell without exchanging, the accumulated gains become taxable.
+          Section 1031 of the Internal Revenue Code allows you to sell an investment property and defer the capital gains taxes by reinvesting the proceeds into another &ldquo;like-kind&rdquo; property. The key word is <strong>defer</strong>, you are not eliminating the tax, you are postponing it. If you eventually sell without exchanging, the accumulated gains become taxable.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The power of this strategy is compounding. Instead of losing a significant percentage of your gain to taxes on each sale, you keep that capital working for you and can trade up into larger, more productive properties over time. Many of my clients have used 1031 exchanges to move from a single retail strip center into a diversified portfolio across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/polk" className="text-accent underline">Polk</Link>, and <Link href="/markets/manatee" className="text-accent underline">Manatee</Link> counties. For a deeper Florida-specific perspective, see our guide on <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">Florida 1031 exchanges</Link>.
@@ -182,7 +182,7 @@ export default function ExchangeBasicsPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Two Critical Deadlines</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Every 1031 exchange lives and dies by two deadlines. Miss either one and the exchange fails — you owe the taxes in full.
+          Every 1031 exchange lives and dies by two deadlines. Miss either one and the exchange fails, you owe the taxes in full.
         </p>
         <div className="my-6 space-y-4">
           <div className="rounded-lg border-l-4 border-black bg-black/5 p-5">
@@ -215,12 +215,12 @@ export default function ExchangeBasicsPage() {
           &ldquo;Like-kind&rdquo; sounds restrictive, but for real estate it is actually very broad. Any real property held for investment or business use can be exchanged for any other real property held for investment or business use. You can exchange a retail strip center for an apartment complex. You can exchange raw land for an office building. The properties do not need to be the same type, size, or value. This opens the door to moving from active management of a <Link href="/commercial/multifamily" className="text-accent underline">multifamily</Link> asset into a passive <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN investment</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          What does not qualify: personal property, your primary residence, property held primarily for resale (like fix-and-flip projects), and — as of the Tax Cuts and Jobs Act of 2017 — personal property like equipment or vehicles.
+          What does not qualify: personal property, your primary residence, property held primarily for resale (like fix-and-flip projects), and, as of the Tax Cuts and Jobs Act of 2017, personal property like equipment or vehicles.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Role of the Qualified Intermediary</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          You cannot touch the money. That is the cardinal rule of a 1031 exchange. The sale proceeds from your relinquished property must be held by a Qualified Intermediary (QI) — a neutral third party who holds the funds and facilitates the exchange. If the money hits your bank account, the exchange is blown.
+          You cannot touch the money. That is the cardinal rule of a 1031 exchange. The sale proceeds from your relinquished property must be held by a Qualified Intermediary (QI), a neutral third party who holds the funds and facilitates the exchange. If the money hits your bank account, the exchange is blown.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Choose your QI carefully. They should be bonded, insured, and experienced with commercial transactions. Your attorney, accountant, or broker cannot serve as your QI if they have acted in another capacity for you within the past two years.
@@ -230,24 +230,24 @@ export default function ExchangeBasicsPage() {
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Starting too late.</strong> You need your QI in place before the sale closes. Engaging them after closing is too late.</li>
           <li><strong>Not identifying enough properties.</strong> You can identify up to three properties regardless of value (the Three-Property Rule). Having backup options is critical if your first choice falls through.</li>
-          <li><strong>Taking boot.</strong> &ldquo;Boot&rdquo; is any value received that is not like-kind — such as cash back at closing or debt reduction. Boot is taxable, so structure your exchange to avoid it. Work with a broker experienced in <Link href="/services/dispositions" className="text-accent underline">dispositions</Link> to structure the sale correctly.</li>
+          <li><strong>Taking boot.</strong> &ldquo;Boot&rdquo; is any value received that is not like-kind, such as cash back at closing or debt reduction. Boot is taxable, so structure your exchange to avoid it. Work with a broker experienced in <Link href="/services/dispositions" className="text-accent underline">dispositions</Link> to structure the sale correctly.</li>
           <li><strong>Misunderstanding the holding period.</strong> Properties need to be held for investment, not immediate resale. While there is no minimum holding period in the code, the IRS looks at intent. Flipping an exchange property quickly can disqualify the exchange.</li>
-          <li><strong>Ignoring state taxes.</strong> Federal tax deferral is just part of the picture. Florida has no state income tax, which is one of the advantages of exchanging into Florida property — across <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link>, <Link href="/markets/brevard" className="text-accent underline">Brevard</Link>, or <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>.</li>
+          <li><strong>Ignoring state taxes.</strong> Federal tax deferral is just part of the picture. Florida has no state income tax, which is one of the advantages of exchanging into Florida property, across <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link>, <Link href="/markets/brevard" className="text-accent underline">Brevard</Link>, or <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Types of 1031 Exchanges</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The most common is the <strong>delayed exchange</strong> — sell first, buy the replacement within 180 days. But there are other structures:
+          The most common is the <strong>delayed exchange</strong>, sell first, buy the replacement within 180 days. But there are other structures:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Simultaneous exchange</strong> — both properties close on the same day. Logistically difficult.</li>
-          <li><strong>Reverse exchange</strong> — buy the replacement property before selling the relinquished one. Requires an Exchange Accommodation Titleholder (EAT) to hold the new property.</li>
-          <li><strong>Construction/improvement exchange</strong> — use exchange funds to improve the replacement property before taking title. Complex but powerful for value-add strategies, especially with <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial</Link> or <Link href="/commercial/office-space" className="text-accent underline">office</Link> properties requiring renovation.</li>
+          <li><strong>Simultaneous exchange</strong>, both properties close on the same day. Logistically difficult.</li>
+          <li><strong>Reverse exchange</strong>, buy the replacement property before selling the relinquished one. Requires an Exchange Accommodation Titleholder (EAT) to hold the new property.</li>
+          <li><strong>Construction/improvement exchange</strong>, use exchange funds to improve the replacement property before taking title. Complex but powerful for value-add strategies, especially with <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial</Link> or <Link href="/commercial/office-space" className="text-accent underline">office</Link> properties requiring renovation.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          A 1031 exchange is one of the best tools available for building long-term wealth through commercial real estate. But the rules are strict, the deadlines are absolute, and the consequences of mistakes are expensive. Work with a team — your broker, a qualified intermediary, and a tax professional — to make sure the exchange is structured correctly from day one. Understanding property value going in is essential, so pair this guide with our <Link href="/insights/how-to-value-commercial-property" className="text-accent underline">commercial property valuation guide</Link> and our <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rate explainer</Link>.
+          A 1031 exchange is one of the best tools available for building long-term wealth through commercial real estate. But the rules are strict, the deadlines are absolute, and the consequences of mistakes are expensive. Work with a team, your broker, a qualified intermediary, and a tax professional, to make sure the exchange is structured correctly from day one. Understanding property value going in is essential, so pair this guide with our <Link href="/insights/how-to-value-commercial-property" className="text-accent underline">commercial property valuation guide</Link> and our <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rate explainer</Link>.
         </p>
       </article>
 
@@ -292,7 +292,7 @@ export default function ExchangeBasicsPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );

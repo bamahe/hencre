@@ -8,7 +8,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import FAQAccordion from "@/components/FAQAccordion";
 
 /* -------------------------------------------------------------------
- * Commercial Property Management — pillar/hub page.
+ * Commercial Property Management, pillar/hub page.
  * Covers full-service CRE property management across Florida.
  * ----------------------------------------------------------------- */
 
@@ -40,7 +40,7 @@ const SUB_PAGES = [
   {
     title: "Financial Reporting & Accounting",
     href: "/services/commercial-property-management/financial-reporting",
-    description: "Monthly owner reports, rent roll management, CAM reconciliation, operating budgets, and tax documentation — all in one place.",
+    description: "Monthly owner reports, rent roll management, CAM reconciliation, operating budgets, and tax documentation, all in one place.",
   },
   {
     title: "Lease Administration",
@@ -86,7 +86,7 @@ const FAQS = [
   },
   {
     question: "Do you handle lease renewals and rent escalations?",
-    answer: "Yes. Barrett tracks every critical lease date — renewal options, escalation triggers, termination rights, and option exercise deadlines. Proactive lease renewal negotiations typically begin 9 to 12 months before expiration, giving owners time to evaluate market conditions and negotiate from a position of strength.",
+    answer: "Yes. Barrett tracks every critical lease date, renewal options, escalation triggers, termination rights, and option exercise deadlines. Proactive lease renewal negotiations typically begin 9 to 12 months before expiration, giving owners time to evaluate market conditions and negotiate from a position of strength.",
   },
 ];
 
@@ -106,7 +106,7 @@ const schema = {
       "@type": "Service",
       name: "Commercial Property Management",
       provider: { "@id": "https://hencre.com/#agent" },
-      description: "Full-service commercial property management across Florida — tenant relations, maintenance, financial reporting, lease administration, and vacancy marketing for office, retail, industrial, and multifamily properties.",
+      description: "Full-service commercial property management across Florida, tenant relations, maintenance, financial reporting, lease administration, and vacancy marketing for office, retail, industrial, and multifamily properties.",
       areaServed: { "@type": "State", name: "Florida" },
     },
     {
@@ -142,7 +142,7 @@ export default function CommercialPropertyManagementPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Commercial property management covers every aspect of operating a CRE asset — from tenant relations and lease administration to maintenance, financial reporting, and vacancy marketing. Professional management protects property value, maximizes net operating income, and frees owners from day-to-day operational demands.
+            Commercial property management covers every aspect of operating a CRE asset, from tenant relations and lease administration to maintenance, financial reporting, and vacancy marketing. Professional management protects property value, maximizes net operating income, and frees owners from day-to-day operational demands.
           </p>
         </div>
       </section>
@@ -219,7 +219,7 @@ export default function CommercialPropertyManagementPage() {
             Residential and commercial property management share the same name but operate in fundamentally different worlds. Commercial leases run 3 to 15 years with complex escalation clauses, CAM reconciliation requirements, and tenant improvement allowances that residential managers never handle. According to the Institute of Real Estate Management (IREM), commercial property managers must understand financial analysis, capital planning, and building systems at an institutional level.
           </p>
           <p>
-            The financial reporting alone sets CRE apart. Commercial owners — whether individual investors or institutional funds — expect monthly income statements, rent roll tracking, accounts receivable aging, budget variance analysis, and annual CAM reconciliation. Residential owners typically receive a rent deposit and an expense summary.
+            The financial reporting alone sets CRE apart. Commercial owners, whether individual investors or institutional funds, expect monthly income statements, rent roll tracking, accounts receivable aging, budget variance analysis, and annual CAM reconciliation. Residential owners typically receive a rent deposit and an expense summary.
           </p>
           <p>
             Maintenance complexity also differs dramatically. Commercial buildings involve fire suppression systems, commercial HVAC units, ADA compliance, environmental regulations, and building automation systems. In Florida, commercial properties also face hurricane preparedness requirements under the Florida Building Code that go well beyond residential standards.
@@ -308,7 +308,7 @@ export default function CommercialPropertyManagementPage() {
               This integrated approach matters. When a tenant vacates, Barrett does not just list the space and wait. He activates <Link href="/services/commercial-property-management/vacancy-marketing" className="font-semibold text-black underline">vacancy marketing</Link> through LoopNet, CoStar, Crexi, and the REMAX Collective broker network simultaneously. When a lease renewal approaches, he combines <Link href="/services/commercial-property-management/lease-administration" className="font-semibold text-black underline">lease administration</Link> data with current market analysis from his <Link href="/services/cre-valuation" className="font-semibold text-black underline">CRE valuation</Link> practice to negotiate terms that reflect true market value.
             </p>
             <p>
-              Barrett serves property owners across all 67 Florida counties, with offices in Tampa, Largo, and Brandon. Whether you own a single retail pad or a portfolio of office buildings, you get direct access to Barrett — not a call center, not a junior associate.
+              Barrett serves property owners across all 67 Florida counties, with offices in Tampa, Largo, and Brandon. Whether you own a single retail pad or a portfolio of office buildings, you get direct access to Barrett, not a call center, not a junior associate.
             </p>
           </div>
         </div>
@@ -346,12 +346,12 @@ export default function CommercialPropertyManagementPage() {
       <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <h2 className="text-xl font-bold sm:text-2xl">Sources</h2>
         <ul className="mt-4 list-disc pl-6 space-y-2 text-sm text-[#666666]">
-          <li>Institute of Real Estate Management (IREM) — <em>Principles of Real Estate Management</em></li>
-          <li>Florida Statute 475 — Real Estate Brokerage Licensing and Trust Accounting</li>
-          <li>Florida Statute 83, Part II — Florida Residential Landlord and Tenant Act</li>
-          <li>Florida Division of Emergency Management — Commercial Building Emergency Preparedness Guidelines</li>
-          <li>Florida Building Code — Hurricane and High Wind Design Requirements</li>
-          <li>Building Owners and Managers Association (BOMA) — <em>Standard Methods of Measurement and Best Practices for Operations</em></li>
+          <li>Institute of Real Estate Management (IREM), <em>Principles of Real Estate Management</em></li>
+          <li>Florida Statute 475, Real Estate Brokerage Licensing and Trust Accounting</li>
+          <li>Florida Statute 83, Part II, Florida Residential Landlord and Tenant Act</li>
+          <li>Florida Division of Emergency Management, Commercial Building Emergency Preparedness Guidelines</li>
+          <li>Florida Building Code, Hurricane and High Wind Design Requirements</li>
+          <li>Building Owners and Managers Association (BOMA), <em>Standard Methods of Measurement and Best Practices for Operations</em></li>
         </ul>
       </section>
 
@@ -365,7 +365,7 @@ export default function CommercialPropertyManagementPage() {
       {/* ---- CTA with phone ---- */}
       <CTASection
         heading="Let Barrett Manage Your Commercial Property"
-        body="Call Barrett at (813) 733-7907 for a free management proposal. No obligation, no pressure — just a straightforward conversation about your property."
+        body="Call Barrett at (813) 733-7907 for a free management proposal. No obligation, no pressure, just a straightforward conversation about your property."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />
@@ -386,7 +386,7 @@ export default function CommercialPropertyManagementPage() {
 
       {/* ---- Last updated ---- */}
       <div className="mx-auto max-w-4xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );

@@ -10,18 +10,18 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
  * Insight: How to Value Commercial Property
- * Evergreen explainer — three valuation approaches.
+ * Evergreen explainer, three valuation approaches.
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
   title: "How to Value Commercial Property | 3 CRE Approaches",
   description:
-    "Learn the three approaches to commercial real estate valuation — income, comparable sales, and cost — and when to get a formal appraisal. Expert broker guidance.",
+    "Learn the three approaches to commercial real estate valuation, income, comparable sales, and cost, and when to get a formal appraisal. Expert broker guidance.",
   alternates: { canonical: "https://hencre.com/insights/how-to-value-commercial-property" },
   openGraph: {
     title: "How to Value Commercial Property: 3 Valuation Approaches",
     description:
-      "Learn the three approaches to commercial real estate valuation — income, comparable sales, and cost — and when to get a formal appraisal.",
+      "Learn the three approaches to commercial real estate valuation, income, comparable sales, and cost, and when to get a formal appraisal.",
     url: "https://hencre.com/insights/how-to-value-commercial-property",
     type: "article",
   },
@@ -51,7 +51,7 @@ const faqItems = [
   {
     question: "What is the difference between NOI and cap rate in a valuation?",
     answer:
-      "Net Operating Income (NOI) is the annual income a property generates after operating expenses but before debt service. The cap rate is the rate of return the market applies to that income stream. Dividing NOI by the cap rate gives you the estimated market value. Both numbers must be accurate for the valuation to be reliable — garbage in, garbage out.",
+      "Net Operating Income (NOI) is the annual income a property generates after operating expenses but before debt service. The cap rate is the rate of return the market applies to that income stream. Dividing NOI by the cap rate gives you the estimated market value. Both numbers must be accurate for the valuation to be reliable, garbage in, garbage out.",
   },
 ];
 
@@ -70,7 +70,7 @@ const schema = {
       "@type": "Article",
       headline: "How to Value Commercial Property: 3 Approaches Every Investor Should Know",
       description:
-        "Learn the three approaches to commercial real estate valuation — income, comparable sales, and cost.",
+        "Learn the three approaches to commercial real estate valuation, income, comparable sales, and cost.",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -169,7 +169,7 @@ export default function ValuationPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Valuing commercial real estate is fundamentally different from valuing a house. There is no MLS comp sheet that tells you the answer. Commercial property value is driven by income potential, replacement cost, and market comparisons — and understanding all three approaches is essential whether you are buying, selling, or refinancing. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, here is how I walk clients through the valuation process — across markets from <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> to <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link>.
+          Valuing commercial real estate is fundamentally different from valuing a house. There is no MLS comp sheet that tells you the answer. Commercial property value is driven by income potential, replacement cost, and market comparisons, and understanding all three approaches is essential whether you are buying, selling, or refinancing. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, here is how I walk clients through the valuation process, across markets from <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> to <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Approach 1: The Income Approach</h2>
@@ -187,7 +187,7 @@ export default function ValuationPage() {
           </p>
         </div>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If a property generates $200,000 in NOI and the market cap rate for similar properties is 7%, the estimated value is approximately $2,857,000. The challenge is determining the right cap rate — it varies by property type, location, tenant quality, and current market conditions. Use our <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> to check your numbers quickly.
+          If a property generates $200,000 in NOI and the market cap rate for similar properties is 7%, the estimated value is approximately $2,857,000. The challenge is determining the right cap rate, it varies by property type, location, tenant quality, and current market conditions. Use our <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> to check your numbers quickly.
         </p>
 
         <h3 className="mt-6 text-xl font-bold text-black">Discounted Cash Flow (DCF)</h3>
@@ -206,23 +206,23 @@ export default function ValuationPage() {
           className="w-full rounded-lg"
           unoptimized
         />
-        <p className="mt-2 text-xs text-center text-[#666666]">The income approach centers on NOI and <Link href="/insights/what-is-a-cap-rate" className="underline">cap rate</Link> — two numbers every <Link href="/blog/what-makes-a-good-commercial-investment" className="underline">serious CRE investor</Link> must understand cold.</p>
+        <p className="mt-2 text-xs text-center text-[#666666]">The income approach centers on NOI and <Link href="/insights/what-is-a-cap-rate" className="underline">cap rate</Link>, two numbers every <Link href="/blog/what-makes-a-good-commercial-investment" className="underline">serious CRE investor</Link> must understand cold.</p>
       </section>
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <h2 className="mt-10 text-2xl font-bold text-black">Approach 2: The Sales Comparison Approach</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          This method works just like residential comps — you find recent sales of similar properties and adjust for differences in size, age, location, condition, and lease terms. It works best when there are enough comparable sales in the market, which is common for certain property types (small retail, owner-occupied office) but harder to find for specialized properties. I use this frequently for <Link href="/commercial/office-space" className="text-accent underline">office space</Link> valuations and for land across <Link href="/markets/polk" className="text-accent underline">Polk County</Link> and <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link>.
+          This method works just like residential comps, you find recent sales of similar properties and adjust for differences in size, age, location, condition, and lease terms. It works best when there are enough comparable sales in the market, which is common for certain property types (small retail, owner-occupied office) but harder to find for specialized properties. I use this frequently for <Link href="/commercial/office-space" className="text-accent underline">office space</Link> valuations and for land across <Link href="/markets/polk" className="text-accent underline">Polk County</Link> and <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link>.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Key adjustments include:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Price per square foot</strong> — the most common comparison metric</li>
-          <li><strong>Location quality</strong> — frontage, visibility, access, and traffic</li>
-          <li><strong>Building age and condition</strong> — newer buildings command premiums</li>
-          <li><strong>Lease terms</strong> — a building with a long-term national tenant is worth more than one with month-to-month tenants. See our guide on <Link href="/insights/gross-vs-net-lease" className="text-accent underline">gross vs. net lease structures</Link> for more on how lease type affects value.</li>
-          <li><strong>Zoning and use</strong> — highest and best use affects value significantly</li>
+          <li><strong>Price per square foot</strong>, the most common comparison metric</li>
+          <li><strong>Location quality</strong>, frontage, visibility, access, and traffic</li>
+          <li><strong>Building age and condition</strong>, newer buildings command premiums</li>
+          <li><strong>Lease terms</strong>, a building with a long-term national tenant is worth more than one with month-to-month tenants. See our guide on <Link href="/insights/gross-vs-net-lease" className="text-accent underline">gross vs. net lease structures</Link> for more on how lease type affects value.</li>
+          <li><strong>Zoning and use</strong>, highest and best use affects value significantly</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Approach 3: The Cost Approach</h2>
@@ -243,10 +243,10 @@ export default function ValuationPage() {
           In practice, a thorough valuation considers all three approaches and weighs them based on the property type and available data:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Income-producing properties</strong> — income approach carries the most weight. See our <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to model returns.</li>
-          <li><strong>Owner-occupied or vacant properties</strong> — sales comparison approach is usually primary</li>
-          <li><strong>New construction or special-purpose</strong> — cost approach is most relevant</li>
-          <li><strong>Land</strong> — sales comparison approach (there is no income or improvement to evaluate). Relevant for <Link href="/commercial/land-development" className="text-accent underline">land and development</Link> opportunities.</li>
+          <li><strong>Income-producing properties</strong>, income approach carries the most weight. See our <Link href="/calculators/roi" className="text-accent underline">ROI calculator</Link> to model returns.</li>
+          <li><strong>Owner-occupied or vacant properties</strong>, sales comparison approach is usually primary</li>
+          <li><strong>New construction or special-purpose</strong>, cost approach is most relevant</li>
+          <li><strong>Land</strong>, sales comparison approach (there is no income or improvement to evaluate). Relevant for <Link href="/commercial/land-development" className="text-accent underline">land and development</Link> opportunities.</li>
         </ul>
       </article>
 
@@ -254,7 +254,7 @@ export default function ValuationPage() {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <Image
           src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=75"
-          alt="Florida commercial office building — sales comparison approach uses recent sales of similar properties"
+          alt="Florida commercial office building, sales comparison approach uses recent sales of similar properties"
           width={800}
           height={500}
           className="w-full rounded-lg"
@@ -269,17 +269,17 @@ export default function ValuationPage() {
           A broker&apos;s opinion of value (BOV) or your own analysis can guide negotiations, but certain situations require a formal appraisal by a licensed MAI appraiser:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li>Commercial mortgage financing — lenders always require one. Use our <Link href="/calculators/commercial-mortgage" className="text-accent underline">commercial mortgage calculator</Link> to model loan scenarios.</li>
+          <li>Commercial mortgage financing, lenders always require one. Use our <Link href="/calculators/commercial-mortgage" className="text-accent underline">commercial mortgage calculator</Link> to model loan scenarios.</li>
           <li>Estate planning and probate</li>
           <li>Partnership disputes or buyouts</li>
           <li>Property tax appeals</li>
           <li>Insurance claims</li>
-          <li>Any transaction where an independent, defensible valuation is needed — such as a <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link> with a tight timeline</li>
+          <li>Any transaction where an independent, defensible valuation is needed, such as a <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link> with a tight timeline</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Commercial property valuation is part science, part market knowledge, and part judgment. Understanding these three approaches gives you the foundation to evaluate any property — but there is no substitute for experience and local market insight. If you need help determining what a property is worth, I provide <Link href="/services/cre-valuation" className="text-accent underline">broker&apos;s opinions of value</Link> and can walk you through the full analysis, whether you are looking at <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN investments</Link>, a <Link href="/commercial/multifamily" className="text-accent underline">multifamily acquisition</Link>, or an <Link href="/services/investment-sales" className="text-accent underline">investment sale</Link>.
+          Commercial property valuation is part science, part market knowledge, and part judgment. Understanding these three approaches gives you the foundation to evaluate any property, but there is no substitute for experience and local market insight. If you need help determining what a property is worth, I provide <Link href="/services/cre-valuation" className="text-accent underline">broker&apos;s opinions of value</Link> and can walk you through the full analysis, whether you are looking at <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN investments</Link>, a <Link href="/commercial/multifamily" className="text-accent underline">multifamily acquisition</Link>, or an <Link href="/services/investment-sales" className="text-accent underline">investment sale</Link>.
         </p>
       </article>
 
@@ -311,7 +311,7 @@ export default function ValuationPage() {
       />
 
       <div className="mx-auto max-w-3xl px-4 pb-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );
