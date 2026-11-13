@@ -2579,5 +2579,21 @@
     "county": "Polk",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "st-petersburg-nnn-landlord-investment-strategy-pinellas",
+    "title": "St. Petersburg NNN Investment Strategy 2026",
+    "excerpt": "St. Petersburg's dense urban core, rising foot traffic corridors, and limited retail land supply make it one of Florida's most compelling NNN investment markets for landlords seeking durable cash flow.",
+    "date": "2026-11-13",
+    "category": "investor",
+    "city": "St. Petersburg",
+    "county": "Pinellas",
+    "businessType": null,
+    "image": {
+      "url": "/images/blog/st-petersburg-nnn-landlord-investment-strategy-pinellas.jpg",
+      "alt": "A neon sign hanging from the side of a building",
+      "photographer": "Tom Nora",
+      "link": "https://unsplash.com/@tomnora"
+    }
   }
 ]
