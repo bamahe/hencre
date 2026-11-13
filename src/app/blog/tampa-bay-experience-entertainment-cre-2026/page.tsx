@@ -86,11 +86,11 @@ const schema = {
       description:
         "Pickleball clubs, food halls, escape rooms, and indoor sports venues are reshaping Tampa Bay CRE in 2026. Here is what landlords, investors, and entertainment tenants need to know.",
       datePublished: "2026-09-01",
-      dateModified: "2026-10-24",
+      dateModified: "2026-11-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -320,7 +320,7 @@ export default function TampaBayExperienceEntertainmentCREPage() {
           With 23+ years of commercial real estate experience and deep knowledge of Tampa Bay&apos;s retail, mixed-use, and specialty commercial markets, I help entertainment tenants find the right space - and help landlords and investors evaluate entertainment-anchored commercial opportunities across Hillsborough, Pinellas, Pasco, and Polk Counties. If you are evaluating a commercial lease for an entertainment concept or an investment in experience-driven retail real estate, let&apos;s talk.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}

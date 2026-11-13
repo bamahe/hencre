@@ -10,7 +10,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
  * Blog: Tampa Bay Pharmacy & Drug Store NNN Investment 2026
- * Walgreens went private in 2025 — how that reshapes pharmacy NNN for
+ * Walgreens went private in 2025 ,  how that reshapes pharmacy NNN for
  * Tampa Bay investors evaluating CVS, Walgreens, and alternatives.
  * ----------------------------------------------------------------- */
 
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1200&h=630&fit=crop",
         width: 1200,
         height: 630,
-        alt: "Pharmacy storefront with large parking lot — net lease drug store investment",
+        alt: "Pharmacy storefront with large parking lot ,  net lease drug store investment",
       },
     ],
   },
@@ -48,22 +48,22 @@ const faqItems = [
   {
     question: "What cap rates are pharmacy NNN properties trading at in Tampa Bay in 2026?",
     answer:
-      "CVS properties — the only investment-grade pharmacy NNN option in 2026 — traded at approximately 6.0% to 6.9% cap rates across Florida in early-to-mid 2026, with an average near 6.44%. Well-located Tampa Bay CVS stores with long primary term remaining command the lower end of that range. Walgreens assets that trade at all are moving at 7.5% to 9.5% cap rates, with a median near 8.0%, reflecting the credit risk premium buyers demand after the privatization. Rite Aid, which has been through restructuring, trades at 9% to 11%+ depending on location quality and lease term remaining.",
+      "CVS properties ,  the only investment-grade pharmacy NNN option in 2026 ,  traded at approximately 6.0% to 6.9% cap rates across Florida in early-to-mid 2026, with an average near 6.44%. Well-located Tampa Bay CVS stores with long primary term remaining command the lower end of that range. Walgreens assets that trade at all are moving at 7.5% to 9.5% cap rates, with a median near 8.0%, reflecting the credit risk premium buyers demand after the privatization. Rite Aid, which has been through restructuring, trades at 9% to 11%+ depending on location quality and lease term remaining.",
   },
   {
     question: "What should I look for when evaluating a pharmacy NNN property in Tampa Bay?",
     answer:
-      "The most important factors are: (1) Tenant credit — CVS (BBB/Baa3, investment grade) is the preferred tenant; Walgreens (now private, sub-investment-grade) requires a higher yield premium to justify the risk. (2) Primary lease term remaining — the closer to zero, the larger the re-leasing or dark-building risk if the pharmacy closes. Target 10-plus years of primary term for a core hold. (3) Store-level sales performance — pharmacies that fill high prescription volumes and have pharmacy-anchored foot traffic are dramatically stickier tenants than retail-heavy stores facing online competition. Ask for store-level prescription data where available. (4) Location and trade area — a CVS or Walgreens on a hard-corner in a dense suburban Tampa Bay trade area with no direct pharmacy competitor within two miles is far more defensible than a weaker-corner location with Publix, Winn-Dixie, or a competing pharmacy nearby. (5) Lease structure — true absolute NNN or landlord-responsible roof and structure matters for total return calculation.",
+      "The most important factors are: (1) Tenant credit ,  CVS (BBB/Baa3, investment grade) is the preferred tenant; Walgreens (now private, sub-investment-grade) requires a higher yield premium to justify the risk. (2) Primary lease term remaining ,  the closer to zero, the larger the re-leasing or dark-building risk if the pharmacy closes. Target 10-plus years of primary term for a core hold. (3) Store-level sales performance ,  pharmacies that fill high prescription volumes and have pharmacy-anchored foot traffic are dramatically stickier tenants than retail-heavy stores facing online competition. Ask for store-level prescription data where available. (4) Location and trade area ,  a CVS or Walgreens on a hard-corner in a dense suburban Tampa Bay trade area with no direct pharmacy competitor within two miles is far more defensible than a weaker-corner location with Publix, Winn-Dixie, or a competing pharmacy nearby. (5) Lease structure ,  true absolute NNN or landlord-responsible roof and structure matters for total return calculation.",
   },
   {
     question: "What happens if my Walgreens or CVS closes and goes dark?",
     answer:
-      "A dark pharmacy building — one where the tenant still pays rent but has vacated — is a landlord's near-term best case in a closure scenario. The real risk is non-renewal at lease expiration, which leaves the owner with a large-format standalone building (typically 10,000 to 14,000 square feet on a 1- to 2-acre outparcel) that is difficult to re-tenant as-is. Redevelopment or subdivision is often the path to value recovery: the hard-corner outparcel location that made it a good pharmacy site makes it attractive for urgent care, dental, QSR drive-thru, bank, or medical-adjacent tenants. Tampa Bay's strong healthcare and service retail demand means dark pharmacy outparcels can redevelop successfully, but it takes time and capital. Before acquiring any pharmacy NNN, understand the building's re-leasing optionality if the brand closes the store.",
+      "A dark pharmacy building ,  one where the tenant still pays rent but has vacated ,  is a landlord's near-term best case in a closure scenario. The real risk is non-renewal at lease expiration, which leaves the owner with a large-format standalone building (typically 10,000 to 14,000 square feet on a 1- to 2-acre outparcel) that is difficult to re-tenant as-is. Redevelopment or subdivision is often the path to value recovery: the hard-corner outparcel location that made it a good pharmacy site makes it attractive for urgent care, dental, QSR drive-thru, bank, or medical-adjacent tenants. Tampa Bay's strong healthcare and service retail demand means dark pharmacy outparcels can redevelop successfully, but it takes time and capital. Before acquiring any pharmacy NNN, understand the building's re-leasing optionality if the brand closes the store.",
   },
   {
     question: "Are there pharmacy NNN alternatives worth considering in Tampa Bay?",
     answer:
-      "Yes. As traditional drug store chains restructure, several alternative pharmacy-adjacent asset types are worth evaluating: (1) Urgent care NNN — major chains like CareNow, MD Now, and AdventHealth GoHealth are expanding across Tampa Bay on long NNN leases, offering investment-grade or near-investment-grade credit in a high-demand healthcare service. (2) Medical office — outpatient medical buildings are one of the strongest-performing asset classes in Tampa Bay, driven by the region's aging population and healthcare system expansion. (3) Grocery-anchored retail — Publix, Winn-Dixie, and Aldi-anchored centers give investors pharmacy-adjacent foot traffic and grocery tenants that have proved far more e-commerce resistant than drug stores. (4) QSR and drive-thru NNN — nationally branded quick-service restaurants on absolute NNN leases offer investment-grade credit and growing drive-thru demand, with cap rates and lease terms comparable to pharmacy product.",
+      "Yes. As traditional drug store chains restructure, several alternative pharmacy-adjacent asset types are worth evaluating: (1) Urgent care NNN ,  major chains like CareNow, MD Now, and AdventHealth GoHealth are expanding across Tampa Bay on long NNN leases, offering investment-grade or near-investment-grade credit in a high-demand healthcare service. (2) Medical office ,  outpatient medical buildings are one of the strongest-performing asset classes in Tampa Bay, driven by the region's aging population and healthcare system expansion. (3) Grocery-anchored retail ,  Publix, Winn-Dixie, and Aldi-anchored centers give investors pharmacy-adjacent foot traffic and grocery tenants that have proved far more e-commerce resistant than drug stores. (4) QSR and drive-thru NNN ,  nationally branded quick-service restaurants on absolute NNN leases offer investment-grade credit and growing drive-thru demand, with cap rates and lease terms comparable to pharmacy product.",
   },
 ];
 
@@ -89,11 +89,11 @@ const schema = {
       description:
         "Walgreens went private in August 2025 and CVS is now the only investment-grade pharmacy NNN option. What Tampa Bay investors holding or buying drug store net lease properties need to know in 2026.",
       datePublished: "2026-09-08",
-      dateModified: "2026-10-26",
+      dateModified: "2026-11-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -121,7 +121,7 @@ const relatedLinks = [
   {
     title: "Tampa Bay NNN Cap Rates 2026",
     href: "/blog/tampa-bay-nnn-cap-rates-2026",
-    description: "Cap rate benchmarks across NNN property types in Tampa Bay — from QSR to big-box retail.",
+    description: "Cap rate benchmarks across NNN property types in Tampa Bay ,  from QSR to big-box retail.",
   },
   {
     title: "Tampa Bay QSR & Drive-Thru NNN Investment 2026",
@@ -139,7 +139,7 @@ const relatedLinks = [
     description: "How outpatient medical and urgent care NNN compares to traditional pharmacy investment.",
   },
   {
-    title: "Florida 1031 Exchange — What Investors Need to Know",
+    title: "Florida 1031 Exchange ,  What Investors Need to Know",
     href: "/blog/florida-1031-exchange-what-investors-need-to-know",
     description: "How to use a 1031 exchange to trade out of a pharmacy asset and into a better-credit NNN investment.",
   },
@@ -189,7 +189,7 @@ export default function TampaBayPharmacyNNNPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          For decades, pharmacy net lease properties — CVS, Walgreens, and Rite Aid buildings on long NNN leases — were
+          For decades, pharmacy net lease properties ,  CVS, Walgreens, and Rite Aid buildings on long NNN leases ,  were
           considered some of the safest investments in commercial real estate. Long primary terms, absolute NNN structures,
           investment-grade tenants, hard-corner real estate. That narrative has gotten significantly more complicated.
           Walgreens closed its run as a public company in August 2025 when Sycamore Partners took it private at
@@ -204,13 +204,13 @@ export default function TampaBayPharmacyNNNPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           When Sycamore Partners completed the take-private of Walgreens Boots Alliance in August 2025, it created an
           immediate and lasting problem for the commercial real estate market: Walgreens lost its investment-grade credit
-          rating. Before the privatization, Walgreens ratings had already slipped to BB-/Ba3 — sub-investment-grade — and
+          rating. Before the privatization, Walgreens ratings had already slipped to BB-/Ba3 ,  sub-investment-grade ,  and
           once the company went private, ratings agencies withdrew their ratings entirely, leaving no public credit metric
           to anchor underwriting.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The practical consequences for investors who own Tampa Bay Walgreens properties are significant. Institutional
-          buyers — REITs, pension funds, and life insurance companies — that require investment-grade tenant credit in their
+          buyers ,  REITs, pension funds, and life insurance companies ,  that require investment-grade tenant credit in their
           NNN portfolios effectively left the Walgreens buyer pool. That reduction in demand pushed cap rates into the 7.5%
           to 9.5% range for Walgreens assets by early 2026, with the median near 8.0%. Properties with shorter remaining
           lease terms or weaker locations trade at the top of that range or simply do not trade at all.
@@ -236,16 +236,16 @@ export default function TampaBayPharmacyNNNPage() {
         </h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           CVS Health is the last investment-grade pharmacy chain standing in the U.S. NNN market as of 2026. Rated BBB/Baa3
-          by the major agencies, CVS qualifies for institutional NNN portfolios that require investment-grade credit — a
+          by the major agencies, CVS qualifies for institutional NNN portfolios that require investment-grade credit ,  a
           fact that has kept demand for CVS-leased properties strong even as Walgreens exited the investment-grade universe.
-          Cap rates for CVS stores in Florida traded in the 6.0% to 6.9% range in mid-2026, with an average near 6.44% —
+          Cap rates for CVS stores in Florida traded in the 6.0% to 6.9% range in mid-2026, with an average near 6.44% , 
           meaningfully tighter than Walgreens assets and consistent with how the market is pricing the credit differential.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           That said, CVS is not without risk. The company has been closing underperforming retail-heavy stores as it pivots
           its footprint toward HealthHUB locations with expanded clinical services, MinuteClinics, and pharmacy-focused
-          operations. Stores in weaker trade areas — low prescription volumes, heavy front-end retail exposure, competing
-          pharmacies nearby — are candidates for closure or non-renewal. Before acquiring a CVS-leased property in Tampa Bay,
+          operations. Stores in weaker trade areas ,  low prescription volumes, heavy front-end retail exposure, competing
+          pharmacies nearby ,  are candidates for closure or non-renewal. Before acquiring a CVS-leased property in Tampa Bay,
           investors should assess store-level health indicators as thoroughly as the lease structure itself.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
@@ -270,7 +270,7 @@ export default function TampaBayPharmacyNNNPage() {
           <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">
             lease structure itself
           </Link>{" "}
-          — is this a true absolute NNN, or does the landlord carry roof, structure, or other significant expenses? Pharmacy
+          ,  is this a true absolute NNN, or does the landlord carry roof, structure, or other significant expenses? Pharmacy
           chains have historically leased on terms that appear NNN but require landlord maintenance of the building shell,
           which can be a significant liability on a 14,000-square-foot stand-alone building.
         </p>
@@ -292,7 +292,7 @@ export default function TampaBayPharmacyNNNPage() {
             <strong>Renewal options and rent bumps.</strong> Most pharmacy leases have ten-plus years of renewal options
             in five-year increments, often at flat rent or with modest 5% to 10% bumps per option period. Unlike QSR or
             auto-parts leases that sometimes carry annual 1.5% to 2% rent bumps, pharmacy leases have historically been
-            flat — which means inflation erodes the real return over time unless bumps are negotiated into the structure.
+            flat ,  which means inflation erodes the real return over time unless bumps are negotiated into the structure.
           </li>
           <li>
             <strong>Store-level prescription volume.</strong> A pharmacy that fills 2,000-plus prescriptions per week is
@@ -303,12 +303,12 @@ export default function TampaBayPharmacyNNNPage() {
           <li>
             <strong>Dark-building re-leasing optionality.</strong> Ask yourself: if this pharmacy goes dark tomorrow, what
             is the best alternative use for the building and site? A hard-corner outparcel with drive-through capability in
-            a dense Tampa Bay suburb has strong re-leasing options — urgent care, dental, QSR, bank, medical retail. A
+            a dense Tampa Bay suburb has strong re-leasing options ,  urgent care, dental, QSR, bank, medical retail. A
             weaker suburban strip-adjacent location has far fewer. This analysis belongs in every underwrite.
           </li>
           <li>
             <strong>Cap rate vs. going-in yield.</strong> The cap rate at acquisition is only part of the return picture.
-            Model the full hold — including potential rent flat-lining through renewal options, re-leasing costs if the
+            Model the full hold ,  including potential rent flat-lining through renewal options, re-leasing costs if the
             pharmacy vacates, and exit cap rate assumptions at the end of your hold period. Our guide to{" "}
             <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">
               calculating commercial property ROI
@@ -338,7 +338,7 @@ export default function TampaBayPharmacyNNNPage() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Grocery-anchored retail</strong> gives investors pharmacy-adjacent foot traffic with a far more defensible
-          anchor tenant. Publix — the dominant grocery operator in Florida — has never closed a store in its history, makes
+          anchor tenant. Publix ,  the dominant grocery operator in Florida ,  has never closed a store in its history, makes
           its pharmacy an integral part of store operations, and consistently commands the tightest cap rates among
           grocery-anchored retail. Our analysis of{" "}
           <Link href="/blog/tampa-bay-grocery-anchored-retail-investment-2026" className="text-accent underline">
@@ -377,7 +377,7 @@ export default function TampaBayPharmacyNNNPage() {
           <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">
             1031 exchange
           </Link>{" "}
-          allows the proceeds to move into a higher-credit NNN property — QSR, medical, or grocery-anchored — without
+          allows the proceeds to move into a higher-credit NNN property ,  QSR, medical, or grocery-anchored ,  without
           triggering a capital gains tax event. Our{" "}
           <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">
             due diligence checklist
@@ -387,7 +387,7 @@ export default function TampaBayPharmacyNNNPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Dark or about-to-go-dark pharmacy buildings</strong> require a redevelopment analysis. In most Tampa Bay
           suburban markets, the underlying land and hard-corner location retain significant value. Repositioning for urgent
-          care, dental, or QSR use — or land banking for ground lease to a credit tenant — can recover substantial value
+          care, dental, or QSR use ,  or land banking for ground lease to a credit tenant ,  can recover substantial value
           from what appears to be a distressed situation.
         </p>
 
@@ -397,31 +397,31 @@ export default function TampaBayPharmacyNNNPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           Despite the sector-level headwinds from chain restructuring, Tampa Bay remains one of the strongest markets in the
           country for pharmacy-backed and healthcare-adjacent NNN investment. The region&apos;s population has grown past
-          3.2 million people, with one of the fastest-aging demographics in Florida — a state that already skews older than
+          3.2 million people, with one of the fastest-aging demographics in Florida ,  a state that already skews older than
           the national average. An aging, growing population drives prescription volume, primary care visits, and demand for
           all forms of outpatient healthcare services.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Well-located pharmacy properties in Tampa Bay — the kind that anchor busy suburban retail nodes in Hillsborough,
-          Pinellas, Pasco, and Manatee Counties — serve real community prescription demand that does not disappear because a
+          Well-located pharmacy properties in Tampa Bay ,  the kind that anchor busy suburban retail nodes in Hillsborough,
+          Pinellas, Pasco, and Manatee Counties ,  serve real community prescription demand that does not disappear because a
           national chain restructures. The tenant may change; the underlying demand for pharmaceutical services and
           healthcare access at that location will not.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           With 23+ years of experience in Tampa Bay commercial real estate, I have worked with investors across every cycle
-          of the NNN market — when pharmacy product was considered risk-free and when, as now, sector credit has become a
+          of the NNN market ,  when pharmacy product was considered risk-free and when, as now, sector credit has become a
           primary underwriting question. The right answer for your pharmacy NNN holding depends entirely on the specific
           asset, its location, and your investment objectives.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">
-            Tampa Bay Pharmacy NNN Investment 2026 — Frequently Asked Questions
+            Tampa Bay Pharmacy NNN Investment 2026 ,  Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqItems} />
         </div>

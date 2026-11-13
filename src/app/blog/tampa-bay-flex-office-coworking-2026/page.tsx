@@ -43,7 +43,7 @@ const faqItems = [
   {
     question: "How much does coworking or flex office space cost in Tampa Bay in 2026?",
     answer:
-      "Day passes at Tampa Bay's coworking operators typically start around $35–$45 per day. Hot desk memberships (a different desk each time) run $250–$400 per month. Dedicated desk memberships, the same assigned desk, generally range from $400 to $600 per month depending on the building and location. Private offices in flex buildings start around $700–$900 per month for a single-person office and scale by headcount, a team of 10 in a private suite at a downtown Tampa operator might run $4,000–$6,500 per month all-in, compared to $3,200–$5,500 per month for the equivalent square footage in a traditional Class B lease once you add buildout amortization, utilities, and services. At smaller team sizes, flex office is often more expensive per square foot but far cheaper on total cash outlay over the first 12–18 months.",
+      "Day passes at Tampa Bay's coworking operators typically start around $35-$45 per day. Hot desk memberships (a different desk each time) run $250-$400 per month. Dedicated desk memberships, the same assigned desk, generally range from $400 to $600 per month depending on the building and location. Private offices in flex buildings start around $700-$900 per month for a single-person office and scale by headcount, a team of 10 in a private suite at a downtown Tampa operator might run $4,000-$6,500 per month all-in, compared to $3,200-$5,500 per month for the equivalent square footage in a traditional Class B lease once you add buildout amortization, utilities, and services. At smaller team sizes, flex office is often more expensive per square foot but far cheaper on total cash outlay over the first 12-18 months.",
   },
   {
     question: "Which coworking operators are active in Tampa Bay in 2026?",
@@ -53,12 +53,12 @@ const faqItems = [
   {
     question: "Is flex office a good option for a company relocating to Tampa Bay from another state?",
     answer:
-      "It is often the smartest first move. A company relocating to Tampa Bay faces several unknowns simultaneously, which submarket best fits the commute patterns of new hires, what size office is actually needed once a local team builds out, and whether the Tampa market will support the headcount projections in the business plan. Committing to a 5-to-7-year traditional lease before those questions are answered is a significant risk. Flex office or a short-term coworking membership gives a company 6–18 months to operate in the market, test submarket fit, and negotiate a traditional lease from a position of knowledge rather than urgency. Barrett Henry works with companies at this decision point to structure the right initial office arrangement and identify traditional lease opportunities for when the time is right. Call (813) 733-7907.",
+      "It is often the smartest first move. A company relocating to Tampa Bay faces several unknowns simultaneously, which submarket best fits the commute patterns of new hires, what size office is actually needed once a local team builds out, and whether the Tampa market will support the headcount projections in the business plan. Committing to a 5-to-7-year traditional lease before those questions are answered is a significant risk. Flex office or a short-term coworking membership gives a company 6-18 months to operate in the market, test submarket fit, and negotiate a traditional lease from a position of knowledge rather than urgency. Barrett Henry works with companies at this decision point to structure the right initial office arrangement and identify traditional lease opportunities for when the time is right. Call (813) 733-7907.",
   },
   {
     question: "When does a traditional office lease make more sense than flex office in Tampa Bay?",
     answer:
-      "Once a company has 15 or more employees that consistently occupy the space, a 3-to-5-year traditional lease almost always delivers a lower total occupancy cost than flex office, often 30–50% lower per square foot when the full-service gross rate includes all the services that flex operators bundle into their pricing. Traditional leases also give tenants control over buildout, signage, branding, and the ability to sublease if their needs change. The crossover point depends on headcount, desired location, and how much capital is available for a tenant improvement buildout. Our guide on <a href='/blog/how-commercial-leases-differ-from-residential'>how commercial leases differ from residential</a> is a useful primer for tenants making this transition for the first time.",
+      "Once a company has 15 or more employees that consistently occupy the space, a 3-to-5-year traditional lease almost always delivers a lower total occupancy cost than flex office, often 30-50% lower per square foot when the full-service gross rate includes all the services that flex operators bundle into their pricing. Traditional leases also give tenants control over buildout, signage, branding, and the ability to sublease if their needs change. The crossover point depends on headcount, desired location, and how much capital is available for a tenant improvement buildout. Our guide on <a href='/blog/how-commercial-leases-differ-from-residential'>how commercial leases differ from residential</a> is a useful primer for tenants making this transition for the first time.",
   },
 ];
 
@@ -85,7 +85,7 @@ const schema = {
       description:
         "Tampa Bay has reached 2.5% flex office penetration and is one of the fastest-growing coworking markets in the U.S. in 2026. Here's how to evaluate flexible workspace options versus traditional leases.",
       datePublished: "2026-08-21",
-      dateModified: "2026-11-06",
+      dateModified: "2026-11-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -162,7 +162,7 @@ const relatedLinks = [
   {
     title: "Midtown Tampa Commercial Real Estate 2026",
     href: "/blog/midtown-tampa-commercial-real-estate-2026",
-    description: "Midtown Tampa is fully leased -- the North Tampa node that drove flex demand in this corridor.",
+    description: "Midtown Tampa is fully leased, the North Tampa node that drove flex demand in this corridor.",
   },
 ];
 
@@ -209,10 +209,10 @@ export default function BlogPost() {
           <strong>Growth-stage companies bridging between startup and traditional space.</strong> A company that raised a Series A or Series B and is now scaling its Tampa Bay team from 8 to 25 people does not have the runway certainty to sign a 5-year lease, but also cannot operate out of home offices. Flex space in the 1,500 to 3,500 square foot range, typically a private suite at an operator like Industrious or Pipeline, gives the team a professional environment with month-to-month or 12-month flexibility while the headcount trajectory becomes clearer.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Remote workers and independent professionals.</strong> The original coworking user base remains active, particularly in Tampa Bay's Downtown, Westshore, and Midtown submarkets. Solo practitioners, attorneys, consultants, designers, financial advisors, value the professional environment and amenity base that a dedicated desk membership provides for $400–$600 per month, especially when their alternative is a home office or a coffee shop.
+          <strong>Remote workers and independent professionals.</strong> The original coworking user base remains active, particularly in Tampa Bay's Downtown, Westshore, and Midtown submarkets. Solo practitioners, attorneys, consultants, designers, financial advisors, value the professional environment and amenity base that a dedicated desk membership provides for $400-$600 per month, especially when their alternative is a home office or a coffee shop.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Companies in transition.</strong> Lease expirations, office moves, acquisitions, and post-hurricane disruptions all create temporary demand for flexible workspace. A company whose traditional lease expires before a new space is ready may bridge with 3–6 months of flex office rather than hold over at penalty rates or move twice.
+          <strong>Companies in transition.</strong> Lease expirations, office moves, acquisitions, and post-hurricane disruptions all create temporary demand for flexible workspace. A company whose traditional lease expires before a new space is ready may bridge with 3-6 months of flex office rather than hold over at penalty rates or move twice.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Which Flex Office and Coworking Operators Are Active in Tampa Bay in 2026, and Where Are They Located?</h2>
@@ -257,10 +257,10 @@ export default function BlogPost() {
           In practical terms, here is how the cost stack compares for a 10-person team in mid-2026 Tampa Bay:
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          A private suite for 10 at a Westshore or Downtown flex operator, all-inclusive of furniture, internet, utilities, and meeting room credits, typically runs $4,500–$6,500 per month. The same 10 people occupying 2,000 square feet in a traditional Class B Westshore office at $26 per square foot full-service gross would pay approximately $4,333 per month in base rent, but would also need to fund a tenant improvement buildout (typically $40–$60 per square foot amortized into rent or paid upfront), purchase furniture, set up IT infrastructure, and sign a 3-to-5-year lease that locks in that commitment regardless of how the headcount grows or shrinks. The total cost per month over the full lease term, including buildout amortization, is often comparable to flex office for a 10-person team, but the traditional lease requires more capital upfront and far less flexibility.
+          A private suite for 10 at a Westshore or Downtown flex operator, all-inclusive of furniture, internet, utilities, and meeting room credits, typically runs $4,500-$6,500 per month. The same 10 people occupying 2,000 square feet in a traditional Class B Westshore office at $26 per square foot full-service gross would pay approximately $4,333 per month in base rent, but would also need to fund a tenant improvement buildout (typically $40-$60 per square foot amortized into rent or paid upfront), purchase furniture, set up IT infrastructure, and sign a 3-to-5-year lease that locks in that commitment regardless of how the headcount grows or shrinks. The total cost per month over the full lease term, including buildout amortization, is often comparable to flex office for a 10-person team, but the traditional lease requires more capital upfront and far less flexibility.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The calculus changes as headcount grows. For a 20-person team occupying 4,000 square feet under a traditional lease at $26 per square foot, the all-in monthly cost including amortized TI is roughly $9,500–$10,500. A flex operator providing comparable space for 20 people, two 10-person private suites, might charge $9,000–$13,000 per month depending on the operator and building. At 20 people, the traditional lease begins to win on cost. At 30+ people, the savings from a traditional lease are typically decisive.
+          The calculus changes as headcount grows. For a 20-person team occupying 4,000 square feet under a traditional lease at $26 per square foot, the all-in monthly cost including amortized TI is roughly $9,500-$10,500. A flex operator providing comparable space for 20 people, two 10-person private suites, might charge $9,000-$13,000 per month depending on the operator and building. At 20 people, the traditional lease begins to win on cost. At 30+ people, the savings from a traditional lease are typically decisive.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should a Tenant Evaluate Before Choosing Flex Office Over a Traditional Lease in Tampa Bay?</h2>
@@ -293,7 +293,7 @@ export default function BlogPost() {
           Most tenants treat flex office memberships as a commodity, they look at the listed price on the operator's website and either sign up or move on. That is a mistake. Flex operators, particularly national brands, have negotiating flexibility on price, included amenities, and contract terms that is rarely advertised but consistently available to tenants who ask. Here are the terms that actually matter:
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Rate lock versus month-to-month pricing.</strong> A 12-month commitment at a fixed rate is almost always negotiable at a discount to the published monthly price. Operators prefer the revenue certainty, and a 10–20% discount for a 12-month private office commitment is realistic at most Tampa Bay locations.
+          <strong>Rate lock versus month-to-month pricing.</strong> A 12-month commitment at a fixed rate is almost always negotiable at a discount to the published monthly price. Operators prefer the revenue certainty, and a 10-20% discount for a 12-month private office commitment is realistic at most Tampa Bay locations.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Meeting room credits.</strong> Most private office memberships include a certain number of monthly conference room hours. Negotiate for more before signing, unused credits typically do not roll over, so the negotiated amount matters at the start.
@@ -302,7 +302,7 @@ export default function BlogPost() {
           <strong>Expansion and downsize rights.</strong> If you expect to add headcount, confirm in writing whether the operator will accommodate a suite upgrade without a new contract or penalty. Conversely, confirm the notice period and any penalties for reducing your footprint or exiting before the contract term.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Parking.</strong> Downtown Tampa and Westshore operators may or may not include parking in the listed price. For a 10-person team, parking can add $1,500–$2,500 per month in costs that are not visible in the published membership rate.
+          <strong>Parking.</strong> Downtown Tampa and Westshore operators may or may not include parking in the listed price. For a 10-person team, parking can add $1,500-$2,500 per month in costs that are not visible in the published membership rate.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Signage and branding.</strong> If your company needs exterior or lobby signage, important for client-facing professional services firms, confirm whether the operator permits it and what the constraints are. Many coworking buildings do not allow tenant-specific exterior branding, which is a legitimate differentiator for a traditional lease in some business categories. Our breakdown of <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">how commercial leases differ from residential ones</Link> covers the signage, assignment, and exclusivity terms that are standard in traditional leases but absent in most flex agreements.
@@ -343,7 +343,7 @@ export default function BlogPost() {
           What that means for tenants: pricing at established operators is not declining, and the most desirable locations, WeWork's downtown building, Industrious at SunTrust, have waitlists for the best private suites. Companies that need flex space in core Tampa Bay locations in late 2026 should not assume walk-in availability at their preferred operator. At the same time, the IWG suburban locations and newer independent operators have more availability and more pricing flexibility, which creates options for tenants whose workforce geography does not require a downtown location.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For tenants approaching the point where flex office costs are approaching traditional lease costs, typically when a team reaches 15–20 consistent occupants, the calculus of staying flex versus moving to traditional space should be revisited every 6 months. Barrett Henry can model that comparison with current Tampa Bay market data at no cost. Reach out at <a href="tel:8137337907">(813) 733-7907</a> or through the <Link href="/contact" className="underline">contact page</Link> when that conversation makes sense.
+          For tenants approaching the point where flex office costs are approaching traditional lease costs, typically when a team reaches 15-20 consistent occupants, the calculus of staying flex versus moving to traditional space should be revisited every 6 months. Barrett Henry can model that comparison with current Tampa Bay market data at no cost. Reach out at <a href="tel:8137337907">(813) 733-7907</a> or through the <Link href="/contact" className="underline">contact page</Link> when that conversation makes sense.
         </p>
       </article>
 
@@ -380,7 +380,7 @@ export default function BlogPost() {
       {/* ---- Legal Disclaimer ---- */}
       <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
         <p className="text-xs text-[#999999]">
-          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Market data cited reflects publicly available sources as of Q1–Q2 2026. Consult qualified professionals before making real estate decisions.
+          Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Market data cited reflects publicly available sources as of Q1-Q2 2026. Consult qualified professionals before making real estate decisions.
         </p>
         <p className="mt-2 text-xs text-[#999999]">Last updated: November 2026</p>
       </section>
