@@ -4,6 +4,57 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 89 — 2026-11-13
+
+**Commit:** `37789e4` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-big-box-retail-conversion-2026`
+- First audit
+- Shortened meta title from 83 chars to 50 chars: "Tampa Bay Big-Box Retail Conversion 2026 | HenCRE"
+- Fixed schema jobTitle to full credentials
+- Updated dateModified to "2026-11-13"
+- Replaced external link to fastselleasysale.com with internal /services/dispositions Link
+- Removed external link to bestbayservices.com
+- Replaced 49 em dashes with commas
+
+### 2. `/insights/1031-exchange-basics`
+- Replaced 20 em dashes with commas
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 3. `/insights/cam-charges-explained`
+- Replaced 23 em dashes with commas
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 4. `/insights/cre-due-diligence-checklist`
+- Replaced 15 em dashes with commas
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 5. `/insights/gross-vs-net-lease`
+- Replaced 12 em dashes with commas
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 6. `/insights/how-to-value-commercial-property`
+- Replaced 25 em dashes with commas
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 7. `/insights/leasing-vs-buying-commercial`
+- Replaced 17 em dashes with commas
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 8. `/insights/nnn-lease-explained`
+- Replaced 20 em dashes with commas
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 9. `/insights/what-is-a-cap-rate`
+- Replaced 26 em dashes with commas
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 10. `/services/commercial-property-management`
+- Replaced 15 em dashes with commas
+- Updated footer to November 2026
+
+---
+
 ## Batch 88 — 2026-11-13
 
 **Commit:** `34eb713` + `ec1d9be` | **Build:** clean (0 errors) | **Pages improved:** 11
