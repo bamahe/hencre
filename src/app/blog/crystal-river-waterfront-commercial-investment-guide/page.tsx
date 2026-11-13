@@ -54,7 +54,7 @@ const faqItems = [
   {
     question: "Do I need a commercial real estate broker to buy or lease in Crystal River?",
     answer:
-      "Working with an experienced commercial broker familiar with Citrus County is strongly advisable. Local market nuance -- from zoning considerations to understanding seasonal demand patterns -- can significantly impact deal outcomes, and a knowledgeable broker helps you avoid costly missteps.",
+      "Working with an experienced commercial broker familiar with Citrus County is strongly advisable. Local market nuance, from zoning considerations to understanding seasonal demand patterns, can significantly impact deal outcomes, and a knowledgeable broker helps you avoid costly missteps.",
   },
 ];
 
@@ -80,11 +80,11 @@ const schema = {
       description:
         "Explore commercial real estate opportunities in Crystal River, Citrus County FL. Medical office, hospitality, marine retail, and waterfront investment along Florida's Nature Coast.",
       datePublished: "2026-08-12",
-      dateModified: "2026-10-23",
+      dateModified: "2026-11-13",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -107,7 +107,7 @@ const relatedLinks = [
   {
     title: "Citrus County Commercial Real Estate",
     href: "/markets/citrus",
-    description: "The full Citrus County market overview -- investment demand, property types, and active commercial corridors.",
+    description: "The full Citrus County market overview, investment demand, property types, and active commercial corridors.",
   },
   {
     title: "Crystal River & Citrus County CRE: Investor's Perspective",
@@ -179,7 +179,7 @@ export default function BlogPost() {
         <h2>Why Crystal River Is on Investors&apos; Radar</h2>
         <p>
           Crystal River, Florida often flies under the radar compared to Tampa Bay&apos;s high-profile submarkets, but savvy commercial real estate investors are paying closer attention. Located in{" "}
-          <Link href="/markets/citrus" className="text-accent underline">Citrus County</Link> along the Nature Coast, Crystal River sits at the intersection of natural resources and growing tourism demand -- a combination that creates durable, if unconventional, commercial real estate opportunity.
+          <Link href="/markets/citrus" className="text-accent underline">Citrus County</Link> along the Nature Coast, Crystal River sits at the intersection of natural resources and growing tourism demand, a combination that creates durable, if unconventional, commercial real estate opportunity.
         </p>
         <p>
           The area is best known for its spring-fed rivers, manatee habitats, and outdoor recreation economy. But behind the postcard scenery lies a functional commercial market with genuine upside for the right buyer or tenant. Understanding how Crystal River&apos;s local economy shapes property values and leasing dynamics is essential before committing capital here.
@@ -187,10 +187,10 @@ export default function BlogPost() {
 
         <h2>The Economic Engine: Eco-Tourism and Healthcare</h2>
         <p>
-          Crystal River&apos;s economy runs on two primary cylinders: eco-tourism and healthcare services. The eco-tourism sector -- built on scalloping, kayaking, diving, and manatee tours -- generates consistent seasonal demand that flows directly into hospitality, food and beverage, and marine-related retail businesses. This creates a distinct commercial leasing environment where seasonal traffic patterns matter enormously in evaluating a location&apos;s viability.
+          Crystal River&apos;s economy runs on two primary cylinders: eco-tourism and healthcare services. The eco-tourism sector, built on scalloping, kayaking, diving, and manatee tours, generates consistent seasonal demand that flows directly into hospitality, food and beverage, and marine-related retail businesses. This creates a distinct commercial leasing environment where seasonal traffic patterns matter enormously in evaluating a location&apos;s viability.
         </p>
         <p>
-          Meanwhile, healthcare continues to be a reliable anchor for the local economy. Citrus County&apos;s older demographic profile -- one of the oldest median-age populations in Florida -- drives demand for{" "}
+          Meanwhile, healthcare continues to be a reliable anchor for the local economy. Citrus County&apos;s older demographic profile, one of the oldest median-age populations in Florida, drives demand for{" "}
           <Link href="/commercial/office-space" className="text-accent underline">medical office space</Link>, assisted living facilities, and specialty clinics. Investors targeting medical office or healthcare-adjacent commercial properties will find a market with structural demand that isn&apos;t tied to cyclical tourism trends.
         </p>
 
@@ -234,9 +234,9 @@ export default function BlogPost() {
           <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> continues attracting retirees and small business owners who prefer quality of life over urban density.
         </p>
         <p>
-          Additionally, regional healthcare expansion -- including outpatient clinics and specialist offices serving Citrus,{" "}
+          Additionally, regional healthcare expansion, including outpatient clinics and specialist offices serving Citrus,{" "}
           <Link href="/markets/hernando" className="text-accent underline">Hernando</Link>, and{" "}
-          <Link href="/markets/marion" className="text-accent underline">Marion</Link> counties -- is creating demand for medical office space that local supply hasn&apos;t fully addressed. First-mover advantage in this segment is real, and investors with healthcare tenant relationships are well-positioned to capitalize.
+          <Link href="/markets/marion" className="text-accent underline">Marion</Link> counties, is creating demand for medical office space that local supply hasn&apos;t fully addressed. First-mover advantage in this segment is real, and investors with healthcare tenant relationships are well-positioned to capitalize.
         </p>
         <p>
           Tourism infrastructure investment, including improved boat ramp access and state park enhancements, is also supporting the argument that Crystal River&apos;s hospitality and food-and-beverage commercial segments have room to grow beyond their current scale.
@@ -245,11 +245,11 @@ export default function BlogPost() {
         <h2>Is Crystal River Right for Your Portfolio?</h2>
         <p>
           Crystal River isn&apos;t a market for investors seeking high-velocity transactions or large-scale institutional assets. But for buyers targeting value-add{" "}
-          <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, healthcare office, hospitality, or marine-adjacent commercial properties with income durability and lifestyle appeal, it offers compelling fundamentals that larger Florida markets simply can&apos;t match at comparable price points. Patience and local market knowledge are the entry fee -- and the reward for getting it right is a position in a market still ahead of its broader discovery curve.
+          <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>, healthcare office, hospitality, or marine-adjacent commercial properties with income durability and lifestyle appeal, it offers compelling fundamentals that larger Florida markets simply can&apos;t match at comparable price points. Patience and local market knowledge are the entry fee, and the reward for getting it right is a position in a market still ahead of its broader discovery curve.
         </p>
         <p>
           With 23+ years of{" "}
-          <Link href="/services/investment-sales" className="text-accent underline">commercial real estate investment sales</Link> experience across Florida, I work with investors evaluating Nature Coast commercial assets -- from US-19 strip centers to waterfront hospitality to healthcare-anchored medical office.{" "}
+          <Link href="/services/investment-sales" className="text-accent underline">commercial real estate investment sales</Link> experience across Florida, I work with investors evaluating Nature Coast commercial assets, from US-19 strip centers to waterfront hospitality to healthcare-anchored medical office.{" "}
           <Link href="/contact" className="text-accent underline">Contact me</Link> to discuss whether Crystal River fits your investment strategy.
         </p>
 
@@ -262,7 +262,7 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
