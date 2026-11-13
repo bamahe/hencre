@@ -4,6 +4,63 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 88 — 2026-11-13
+
+**Commit:** `34eb713` + `ec1d9be` | **Build:** clean (0 errors) | **Pages improved:** 11
+
+### 1. `/blog/tampa-bay-pickleball-padel-commercial-real-estate-2026`
+- Replaced 44 ` -- ` double hyphens with `, `
+- Updated dateModified to "2026-11-13"
+
+### 2. `/blog/tampa-bay-spec-industrial-pipeline-2026-2027`
+- Replaced 35 em dashes (—) and 1 en dash (–) with `, ` or `-`
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 3. `/blog/tampa-bay-opportunity-zones-cre-2026`
+- Replaced 32 em dashes with `, `
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 4. `/blog/tampa-bay-cold-storage-cre-2026`
+- Replaced 29 em dashes and 3 ` -- ` with `, `
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 5. `/blog/tampa-bay-mobile-home-park-mhc-investment-2026`
+- Replaced 27 em dashes and 2 en dashes with `, `
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 6. `/blog/tampa-bay-pharmacy-drugstore-nnn-investment-2026`
+- Replaced 27 em dashes with `, `
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 7. `/blog/tampa-bay-boat-rv-storage-cre-investment-2026`
+- Replaced 26 em dashes and 16 en dashes with `, ` or `-`
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 8. `/blog/tampa-bay-car-wash-cre-investment-2026`
+- Replaced 25 em dashes with `, `
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 9. `/blog/tampa-bay-experience-entertainment-cre-2026`
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+### 10. `/blog/tampa-bay-flex-office-coworking-2026`
+- Replaced 1 ` -- ` and 11 en dashes with `, ` or `-`
+- Updated dateModified to "2026-11-13"
+
+### 11. `/blog/crystal-river-waterfront-commercial-investment-guide` (pre-existing build fix)
+- Replaced 9 ` -- ` double hyphens with `, ` (page was blocking static export)
+- Fixed schema jobTitle to full credentials
+- Updated dateModified to "2026-11-13", footer to November 2026
+
+---
+
 ## Batch 87 — 2026-11-12
 
 **Commit:** `1b56650` | **Build:** clean (0 errors) | **Pages improved:** 10
