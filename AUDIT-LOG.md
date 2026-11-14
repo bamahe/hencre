@@ -4,6 +4,64 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 90 — 2026-11-14
+
+**Commit:** `44bc161` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-nnn-cap-rates-2026`
+- Replaced 42 em dashes with `, `
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-14"
+- Updated footer to November 2026
+
+### 2. `/blog/tampa-bay-medical-office-real-estate-2026`
+- Replaced 22 em dashes with `, `
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-14"
+- Updated footer to November 2026
+
+### 3. `/blog/tampa-bay-self-storage-cre-investment-2026`
+- Replaced 40 em dashes and 3 en dashes with `, ` / `-`
+- Updated dateModified to "2026-11-14"
+
+### 4. `/blog/commercial-earnest-money-deposits-florida-investors`
+- Replaced 25 double hyphens with `, `
+- Updated dateModified to "2026-11-14"
+- Updated footer to November 2026
+
+### 5. `/blog/tampa-heights-commercial-real-estate-2026`
+- Replaced 32 em dashes and 7 en dashes with `, ` / `-`
+- Updated dateModified to "2026-11-14"
+
+### 6. `/blog/westshore-tampa-office-market-2026`
+- Replaced 3 double hyphens with `, `
+- Updated dateModified to "2026-11-14"
+
+### 7. `/blog/sarasota-warehouse-distribution-space-guide`
+- Replaced 16 em dashes and 2 double hyphens with `, `
+- Updated dateModified to "2026-11-14"
+- Updated footer to November 2026
+
+### 8. `/blog/midtown-tampa-commercial-real-estate-2026`
+- Replaced 36 em dashes with `, `
+- Updated dateModified to "2026-11-14"
+
+### 9. `/blog/tampa-bay-commercial-mortgage-rates-2026`
+- Replaced 49 double hyphens and 5 en dashes with `, ` / `-`
+- Fixed jobTitle to full credentials
+- Updated dateModified to "2026-11-14"
+- Updated footer to November 2026
+
+### 10. `/blog/sarasota-office-market-trends-2026`
+- Fixed `<img>` to `<Image>` for author headshot
+- Replaced 1 double hyphen with `, `
+- Updated dateModified to "2026-11-14"
+- Updated footer to November 2026
+
+**Also fixed (pre-existing build error):** `/blog/tampa-bay-commercial-lease-renewal-strategy-2026` - corrected Hero component props (heading/subheading/imageUrl to title/subtitle/backgroundImage) and RelatedLinks format (label to title + description)
+
+---
+
 ## Batch 89 — 2026-11-13
 
 **Commit:** `37789e4` | **Build:** clean (0 errors) | **Pages improved:** 10
