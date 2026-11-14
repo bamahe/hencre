@@ -109,14 +109,14 @@ const schema = {
 };
 
 const relatedLinks = [
-  { href: "/blog/how-commercial-leases-differ-from-residential", label: "How Commercial Leases Differ from Residential" },
-  { href: "/blog/understanding-cam-charges-tenants-guide", label: "Understanding CAM Charges: A Tenant's Guide" },
-  { href: "/blog/5-mistakes-first-time-commercial-tenants-make", label: "5 Mistakes First-Time Commercial Tenants Make" },
-  { href: "/blog/do-you-need-a-commercial-real-estate-broker", label: "Do You Need a Commercial Real Estate Broker?" },
-  { href: "/blog/commercial-property-due-diligence-timeline", label: "Commercial Property Due Diligence Timeline" },
-  { href: "/blog/tampa-bay-office-market-q4-2026", label: "Tampa Bay Office Market Q4 2026" },
-  { href: "/blog/tampa-bay-retail-market-q4-2026", label: "Tampa Bay Retail Market Q4 2026" },
-  { href: "/blog/tampa-bay-industrial-market-q4-2026", label: "Tampa Bay Industrial Market Q4 2026" },
+  { href: "/blog/how-commercial-leases-differ-from-residential", title: "How Commercial Leases Differ from Residential", description: "Key structural differences between residential and commercial lease agreements." },
+  { href: "/blog/understanding-cam-charges-tenants-guide", title: "Understanding CAM Charges: A Tenant's Guide", description: "What common area maintenance fees cover and how to negotiate them." },
+  { href: "/blog/5-mistakes-first-time-commercial-tenants-make", title: "5 Mistakes First-Time Commercial Tenants Make", description: "Common pitfalls to avoid when signing your first commercial lease." },
+  { href: "/blog/do-you-need-a-commercial-real-estate-broker", title: "Do You Need a Commercial Real Estate Broker?", description: "When tenant representation adds value and what it costs." },
+  { href: "/blog/commercial-property-due-diligence-timeline", title: "Commercial Property Due Diligence Timeline", description: "What to inspect and verify before signing a lease or closing an acquisition." },
+  { href: "/blog/tampa-bay-office-market-q4-2026", title: "Tampa Bay Office Market Q4 2026", description: "Current vacancy, rents, and tenant leverage across Tampa Bay office submarkets." },
+  { href: "/blog/tampa-bay-retail-market-q4-2026", title: "Tampa Bay Retail Market Q4 2026", description: "Retail vacancy benchmarks and leasing conditions across the Tampa Bay metro." },
+  { href: "/blog/tampa-bay-industrial-market-q4-2026", title: "Tampa Bay Industrial Market Q4 2026", description: "Industrial leasing conditions and submarket dynamics for tenants." },
 ];
 
 export default function Page() {
@@ -131,10 +131,9 @@ export default function Page() {
         ]}
       />
       <Hero
-        heading="Tampa Bay Commercial Lease Renewal Strategy 2026"
-        subheading="When to start negotiating, how to get concessions, and when it's smarter to move"
-        imageUrl="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&h=600&fit=crop"
-        imageAlt="Business professional reviewing commercial lease documents at a desk in Tampa Bay"
+        title="Tampa Bay Commercial Lease Renewal Strategy 2026"
+        subtitle="When to start negotiating, how to get concessions, and when it&apos;s smarter to move"
+        backgroundImage="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&h=600&fit=crop"
       />
 
       <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">

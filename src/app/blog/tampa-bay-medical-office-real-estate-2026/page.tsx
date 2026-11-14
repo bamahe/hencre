@@ -16,12 +16,12 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Tampa Bay Medical Office Real Estate 2026 | HenCRE",
   description:
-    "Tampa Bay medical office real estate guide for 2026 — recent transactions, top submarkets, rental rates, cap rates, and what investors and healthcare tenants need to know.",
+    "Tampa Bay medical office real estate guide for 2026 ,  recent transactions, top submarkets, rental rates, cap rates, and what investors and healthcare tenants need to know.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-medical-office-real-estate-2026" },
   openGraph: {
     title: "Tampa Bay Medical Office Real Estate 2026",
     description:
-      "Medical office investment and leasing in Tampa Bay — transaction data, submarkets, rental rates, and cap rates for 2026.",
+      "Medical office investment and leasing in Tampa Bay ,  transaction data, submarkets, rental rates, and cap rates for 2026.",
     url: "https://hencre.com/blog/tampa-bay-medical-office-real-estate-2026",
     type: "article",
     images: [
@@ -39,7 +39,7 @@ const faqItems = [
   {
     question: "Is medical office a good investment in Tampa Bay right now?",
     answer:
-      "Yes, by most measures. Strong demographic tailwinds, sticky tenants, limited new supply of purpose-built product, and recent transaction evidence all support the case. The $12.85 million two-property portfolio sale in early 2026 and continued absorption across the region reflect investor and tenant confidence in the sector. That said, every deal requires thorough underwriting — tenant credit quality, lease term remaining, and capital expenditure needs all affect whether a specific property is a good buy at a given price.",
+      "Yes, by most measures. Strong demographic tailwinds, sticky tenants, limited new supply of purpose-built product, and recent transaction evidence all support the case. The $12.85 million two-property portfolio sale in early 2026 and continued absorption across the region reflect investor and tenant confidence in the sector. That said, every deal requires thorough underwriting ,  tenant credit quality, lease term remaining, and capital expenditure needs all affect whether a specific property is a good buy at a given price.",
   },
   {
     question: "What cap rate should I expect for a Tampa Bay medical office building?",
@@ -49,7 +49,7 @@ const faqItems = [
   {
     question: "How long do medical office leases typically run?",
     answer:
-      "Medical office leases commonly run 5 to 10 years with renewal options, reflecting the high cost of relocating a clinical operation. Larger tenants — hospital systems, multi-site physician groups — often sign 10- to 15-year leases, particularly when the landlord is providing significant TI for a custom buildout. Shorter lease terms are more common for smaller specialty practices or urgent care operators. From an investor perspective, longer initial lease terms with creditworthy tenants are the primary driver of value in this asset class.",
+      "Medical office leases commonly run 5 to 10 years with renewal options, reflecting the high cost of relocating a clinical operation. Larger tenants ,  hospital systems, multi-site physician groups ,  often sign 10- to 15-year leases, particularly when the landlord is providing significant TI for a custom buildout. Shorter lease terms are more common for smaller specialty practices or urgent care operators. From an investor perspective, longer initial lease terms with creditworthy tenants are the primary driver of value in this asset class.",
   },
   {
     question: "What is the difference between medical office and a regular office building?",
@@ -59,7 +59,7 @@ const faqItems = [
   {
     question: "Do I need a specialized broker to buy or lease medical office in Tampa Bay?",
     answer:
-      "You benefit from working with a broker who understands healthcare real estate's unique requirements — not just general commercial experience. Medical office transactions involve specialized due diligence, lease provisions that differ from conventional office, and familiarity with healthcare tenant requirements that can make or break a deal. Whether you are a healthcare tenant looking for space or an investor acquiring a property, representation from someone who knows this niche matters.",
+      "You benefit from working with a broker who understands healthcare real estate's unique requirements ,  not just general commercial experience. Medical office transactions involve specialized due diligence, lease provisions that differ from conventional office, and familiarity with healthcare tenant requirements that can make or break a deal. Whether you are a healthcare tenant looking for space or an investor acquiring a property, representation from someone who knows this niche matters.",
   },
   {
     question: "Which Tampa Bay submarkets have the strongest medical office demand?",
@@ -83,13 +83,13 @@ const schema = {
       "@type": "BlogPosting",
       headline: "Tampa Bay Medical Office Real Estate 2026",
       description:
-        "Healthcare commercial real estate in Tampa Bay — recent transactions, submarkets, rental rates, and investment outlook for medical office properties.",
+        "Healthcare commercial real estate in Tampa Bay ,  recent transactions, submarkets, rental rates, and investment outlook for medical office properties.",
       datePublished: "2026-07-21",
-      dateModified: "2026-10-01",
+      dateModified: "2026-11-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -127,7 +127,7 @@ const relatedLinks = [
   {
     title: "Commercial Property Due Diligence Timeline",
     href: "/blog/commercial-property-due-diligence-timeline",
-    description: "Medical office due diligence has unique steps — understand the full timeline before you close.",
+    description: "Medical office due diligence has unique steps ,  understand the full timeline before you close.",
   },
   {
     title: "St. Petersburg Commercial Real Estate 2026",
@@ -137,7 +137,7 @@ const relatedLinks = [
   {
     title: "Tampa Bay NNN Cap Rates 2026",
     href: "/blog/tampa-bay-nnn-cap-rates-2026",
-    description: "Net-lease cap rate benchmarks — many medical tenants sign NNN leases.",
+    description: "Net-lease cap rate benchmarks ,  many medical tenants sign NNN leases.",
   },
   {
     title: "Florida 1031 Exchange Guide",
@@ -147,7 +147,7 @@ const relatedLinks = [
   {
     title: "What Is a Triple Net (NNN) Lease?",
     href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
-    description: "Medical office leases often follow NNN structures — understand what that means.",
+    description: "Medical office leases often follow NNN structures ,  understand what that means.",
   },
   {
     title: "Hillsborough County Commercial Real Estate",
@@ -190,9 +190,9 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
           Tampa Bay&apos;s medical office market is being shaped by several converging forces:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Population growth and aging.</strong> The Tampa Bay metro is adding residents at one of the fastest rates in the country. A disproportionate share of those arrivals are retirees and pre-retirement households — a demographic that consumes healthcare services at high rates. More patients mean more physician groups, specialty practices, and outpatient clinics looking for space.</li>
+          <li><strong>Population growth and aging.</strong> The Tampa Bay metro is adding residents at one of the fastest rates in the country. A disproportionate share of those arrivals are retirees and pre-retirement households ,  a demographic that consumes healthcare services at high rates. More patients mean more physician groups, specialty practices, and outpatient clinics looking for space.</li>
           <li><strong>Hospital system expansion.</strong> Major systems including Tampa General, AdventHealth, and BayCare are expanding outpatient campuses and satellite locations across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, and <Link href="/markets/pasco" className="text-accent underline">Pasco</Link> counties. Satellite facilities need purpose-built or second-generation medical office buildings near residential growth corridors.</li>
-          <li><strong>Outpatient shift.</strong> Nationally and locally, healthcare delivery is migrating from inpatient hospital settings to outpatient environments. Procedures once performed in hospitals are now handled in ambulatory surgery centers, imaging centers, and specialist offices — all of which require dedicated medical office space.</li>
+          <li><strong>Outpatient shift.</strong> Nationally and locally, healthcare delivery is migrating from inpatient hospital settings to outpatient environments. Procedures once performed in hospitals are now handled in ambulatory surgery centers, imaging centers, and specialist offices ,  all of which require dedicated medical office space.</li>
           <li><strong>High build-out costs creating demand for second-generation space.</strong> Medical tenants who need plumbing runs, reinforced flooring, ADA-compliant layouts, and specialized HVAC systems increasingly prefer existing medical-ready buildings over raw vanilla shell space. This keeps absorption strong for properties already built out for healthcare use.</li>
           <li><strong>Physician group consolidation.</strong> Private equity-backed physician groups and regional health networks are consolidating practices across the Bay area, often requiring new or expanded locations as they add providers and patient volume.</li>
         </ul>
@@ -213,12 +213,12 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
           Medical office activity is concentrated in several distinct submarkets, each with its own tenant profile and investment characteristics:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Westshore Business District (Tampa).</strong> One of the region&apos;s most liquid medical office submarkets. An 8,192-square-foot medical building in Westshore traded earlier this year as part of a two-property portfolio that totaled $12.85 million — a deal that reflected strong investor appetite for healthcare-occupied product in infill locations.</li>
+          <li><strong>Westshore Business District (Tampa).</strong> One of the region&apos;s most liquid medical office submarkets. An 8,192-square-foot medical building in Westshore traded earlier this year as part of a two-property portfolio that totaled $12.85 million ,  a deal that reflected strong investor appetite for healthcare-occupied product in infill locations.</li>
           <li><strong>South Tampa / Hyde Park.</strong> Upscale residential density supports concierge medicine, dental, dermatology, and specialty practices. Small-bay medical suites here absorb quickly and command premium rents.</li>
-          <li><strong>St. Petersburg Grand Central District.</strong> An 18,677-square-foot medical office building in St. Pete traded as part of the same $12.85 million portfolio transaction — underscoring that <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link> medical assets are moving at competitive prices alongside Hillsborough properties.</li>
+          <li><strong>St. Petersburg Grand Central District.</strong> An 18,677-square-foot medical office building in St. Pete traded as part of the same $12.85 million portfolio transaction ,  underscoring that <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link> medical assets are moving at competitive prices alongside Hillsborough properties.</li>
           <li><strong>New Tampa / Wesley Chapel corridor.</strong> Rapid residential growth north of the city has created strong demand for primary care, pediatrics, urgent care, and specialist offices. New construction and conversions are both active here.</li>
           <li><strong>Brandon / Riverview.</strong> Southeast Hillsborough remains underserved relative to its population base, making it an attractive submarket for healthcare tenants and a value-add opportunity for investors willing to acquire and retrofit conventional office space.</li>
-          <li><strong>Clearwater / Pinellas Park.</strong> Strong senior population density supports a wide range of healthcare uses — physical therapy, nephrology, cardiology, and primary care all maintain active leasing activity.</li>
+          <li><strong>Clearwater / Pinellas Park.</strong> Strong senior population density supports a wide range of healthcare uses ,  physical therapy, nephrology, cardiology, and primary care all maintain active leasing activity.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Are Medical Office Rental Rates in Tampa Bay?</h2>
@@ -227,7 +227,7 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Class A medical office (newer, purpose-built):</strong> $32 to $48 per square foot on a <Link href="/insights/gross-vs-net-lease" className="text-accent underline">modified gross or triple-net basis</Link> depending on lease structure, tenant improvement allowance, and lease term.</li>
-          <li><strong>Class B medical office (second-generation):</strong> $22 to $34 per square foot. Second-generation medical space — previously occupied by a healthcare tenant and retaining plumbing, electrical upgrades, and ADA compliance — is the most competitive category because of the cost savings it offers incoming tenants.</li>
+          <li><strong>Class B medical office (second-generation):</strong> $22 to $34 per square foot. Second-generation medical space ,  previously occupied by a healthcare tenant and retaining plumbing, electrical upgrades, and ADA compliance ,  is the most competitive category because of the cost savings it offers incoming tenants.</li>
           <li><strong>Ambulatory surgery centers and imaging facilities:</strong> Rates vary widely based on equipment infrastructure and often involve longer lease terms and higher landlord TI packages in exchange for below-market base rent.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
@@ -239,7 +239,7 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
           Medical office investment is not the same as conventional office investment. Key differences that affect acquisition, underwriting, and management:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Sticky tenants.</strong> Healthcare users invest heavily in their buildout — dental suites, imaging rooms, surgical prep areas, and specialized plumbing are not easily relocated. Physician groups and health system tenants renew at higher rates than typical office users, which reduces vacancy risk and supports stable long-term income.</li>
+          <li><strong>Sticky tenants.</strong> Healthcare users invest heavily in their buildout ,  dental suites, imaging rooms, surgical prep areas, and specialized plumbing are not easily relocated. Physician groups and health system tenants renew at higher rates than typical office users, which reduces vacancy risk and supports stable long-term income.</li>
           <li><strong>Specialized due diligence.</strong> Medical office due diligence includes reviewing HIPAA compliance for shared infrastructure, verifying ADA accessibility, inspecting plumbing and electrical capacity, and confirming that zoning allows the intended healthcare uses. The <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence timeline</Link> for medical office often runs 45 to 75 days for larger properties.</li>
           <li><strong>Cap rates.</strong> Tampa Bay medical office <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rates</Link> currently range from approximately 5.5 to 7.5 percent, with single-tenant NNN properties leased to hospital systems or large physician groups trading at the tighter end of that range. Value-add multi-tenant properties with shorter lease terms or below-market rents can offer cap rates of 7 to 8.5 percent.</li>
           <li><strong>Financing.</strong> Lenders view medical office favorably due to tenant quality and sticky occupancy. SBA 7(a) and SBA 504 loans are options for owner-occupied medical office, and conventional commercial mortgages are widely available for investor-owned properties with creditworthy healthcare tenants.</li>
@@ -261,9 +261,9 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
           Investors evaluating the Tampa Bay market often compare medical office against industrial, retail, and conventional office. The comparison looks favorable for healthcare real estate on several dimensions:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Vs. conventional office:</strong> Conventional office has faced structural vacancy challenges as remote and hybrid work patterns persist. Medical office is largely immune to this trend — healthcare cannot be delivered remotely for most services. Occupancy has held firm even as general office struggled.</li>
+          <li><strong>Vs. conventional office:</strong> Conventional office has faced structural vacancy challenges as remote and hybrid work patterns persist. Medical office is largely immune to this trend ,  healthcare cannot be delivered remotely for most services. Occupancy has held firm even as general office struggled.</li>
           <li><strong>Vs. industrial:</strong> <Link href="/blog/tampa-industrial-market-outlook-2026" className="text-accent underline">Industrial</Link> offers strong rent growth and high absorption, but entry prices are elevated and competition from institutional buyers is intense. Medical office offers a more accessible entry point for individual and mid-market investors, with comparable income stability.</li>
-          <li><strong>Vs. retail:</strong> <Link href="/commercial/retail-space" className="text-accent underline">Retail</Link> has rebounded in strong corridors but remains vulnerable to e-commerce displacement. Medical uses cannot be disrupted by online shopping — a dentist or orthopedic surgeon will always need a physical location.</li>
+          <li><strong>Vs. retail:</strong> <Link href="/commercial/retail-space" className="text-accent underline">Retail</Link> has rebounded in strong corridors but remains vulnerable to e-commerce displacement. Medical uses cannot be disrupted by online shopping ,  a dentist or orthopedic surgeon will always need a physical location.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Healthcare Tenants Know Before Leasing?</h2>
@@ -272,9 +272,9 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Start your search early.</strong> Quality medical office space in Tampa Bay is leasing faster than it did two years ago. Start 9 to 12 months before your need date, especially if you require significant buildout.</li>
-          <li><strong>Understand your TI allowance.</strong> Medical buildouts are expensive — $80 to $150+ per square foot is not unusual for a fully equipped clinical space. Negotiate hard on tenant improvement (TI) allowances, and understand whether your landlord&apos;s TI budget will cover actual construction costs or leave you with an out-of-pocket gap.</li>
+          <li><strong>Understand your TI allowance.</strong> Medical buildouts are expensive ,  $80 to $150+ per square foot is not unusual for a fully equipped clinical space. Negotiate hard on tenant improvement (TI) allowances, and understand whether your landlord&apos;s TI budget will cover actual construction costs or leave you with an out-of-pocket gap.</li>
           <li><strong><Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charges</Link> and operating expenses.</strong> In NNN medical leases, you will pay a share of property taxes, insurance, and maintenance on top of base rent. Understand what is included, what is excluded, and whether there are caps on annual increases.</li>
-          <li><strong>Parking requirements.</strong> Healthcare uses generate high patient traffic relative to square footage. Confirm your lease provides adequate dedicated parking — typically 5 to 6 spaces per 1,000 square feet for most clinical uses.</li>
+          <li><strong>Parking requirements.</strong> Healthcare uses generate high patient traffic relative to square footage. Confirm your lease provides adequate dedicated parking ,  typically 5 to 6 spaces per 1,000 square feet for most clinical uses.</li>
           <li><strong>Exclusivity and co-tenancy.</strong> If you are a specialty practice, negotiate exclusivity provisions that prevent your landlord from leasing to a direct competitor in the same building or complex.</li>
         </ul>
 
@@ -286,7 +286,7 @@ export default function TampaBayMedicalOfficeRealEstatePage() {
           As a Broker Associate at REMAX Collective with 23+ years of commercial real estate experience across Tampa Bay, Barrett Henry works with both healthcare tenants navigating their space search and investors evaluating medical office acquisitions. Whether you are looking for <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link> or <Link href="/services/investment-sales" className="text-accent underline">investment acquisition support</Link>, call <a href="tel:8137337907" className="text-accent underline">(813) 733-7907</a> or <Link href="/contact" className="text-accent underline">contact Barrett here</Link>.
         </p>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       <section className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">

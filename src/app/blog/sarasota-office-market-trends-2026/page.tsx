@@ -85,7 +85,7 @@ const schema = {
       description:
         "Sarasota County office market trends - vacancy, rents, submarkets, and investment opportunities.",
       datePublished: "2026-06-14",
-      dateModified: "2026-10-31",
+      dateModified: "2026-11-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -261,13 +261,13 @@ export default function SarasotaOfficeMarketPage() {
           Sarasota&apos;s office market is smaller and more specialized than Tampa&apos;s, but it offers compelling fundamentals - growing demand, limited supply, and a tenant base anchored by stable professional services and healthcare users. As a Broker Associate at REMAX Collective with 23+ years of real estate experience, Barrett Henry helps both tenants and investors navigate the <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link> and <Link href="/markets/manatee" className="text-accent underline">Manatee</Link> county office markets with local knowledge and data-driven analysis. Whether you are leasing space or evaluating an investment, understanding this market&apos;s nuances is the key to a good outcome.
         </p>
 
-        <p className="mt-8 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-8 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Sarasota Office Market -- Frequently Asked Questions</h2>
+          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Sarasota Office Market, Frequently Asked Questions</h2>
           <FAQAccordion items={faqItems} />
         </div>
       </section>
@@ -276,7 +276,7 @@ export default function SarasotaOfficeMarketPage() {
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <img
+          <Image
             src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}

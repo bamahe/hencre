@@ -9,14 +9,14 @@ import FAQAccordion from "@/components/FAQAccordion";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
- * Blog: Commercial Earnest Money Deposits in Florida -- What CRE
+ * Blog: Commercial Earnest Money Deposits in Florida, What CRE
  * investors and tenants need to know about going hard on deposit.
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
   title: "Commercial Earnest Money Deposits: Florida Investor Guide | HenCRE",
   description:
-    "Commercial earnest money deposits work very differently from residential EMDs. Larger amounts, shorter feasibility windows, and going-hard clauses that make your deposit non-refundable -- here is what every Florida CRE investor needs to know.",
+    "Commercial earnest money deposits work very differently from residential EMDs. Larger amounts, shorter feasibility windows, and going-hard clauses that make your deposit non-refundable, here is what every Florida CRE investor needs to know.",
   alternates: { canonical: "https://hencre.com/blog/commercial-earnest-money-deposits-florida-investors" },
   openGraph: {
     title: "Commercial Earnest Money Deposits: Florida Investor Guide | HenCRE",
@@ -44,27 +44,27 @@ const faqData = [
   {
     question: "What does 'going hard' mean in commercial real estate?",
     answer:
-      "When a commercial earnest money deposit 'goes hard,' it becomes non-refundable. This happens at the end of the feasibility or due diligence period defined in the purchase contract. Before the hard date, the buyer can cancel for any reason and receive their deposit back. After the hard date, the buyer forfeits the deposit if they cancel -- regardless of why. Going hard signals serious buyer commitment and is often required before sellers will grant extended due diligence periods.",
+      "When a commercial earnest money deposit 'goes hard,' it becomes non-refundable. This happens at the end of the feasibility or due diligence period defined in the purchase contract. Before the hard date, the buyer can cancel for any reason and receive their deposit back. After the hard date, the buyer forfeits the deposit if they cancel, regardless of why. Going hard signals serious buyer commitment and is often required before sellers will grant extended due diligence periods.",
   },
   {
     question: "Can a commercial buyer negotiate more time before the deposit goes hard?",
     answer:
-      "Yes, but it is a give-and-take. Sellers who grant extended due diligence periods (60 to 90 days instead of the standard 30) typically require either a larger deposit or staged hard dates -- for example, 50% of the deposit going hard at 30 days and the remaining 50% at 60 days. The longer the due diligence, the more the seller needs to see financial commitment from the buyer.",
+      "Yes, but it is a give-and-take. Sellers who grant extended due diligence periods (60 to 90 days instead of the standard 30) typically require either a larger deposit or staged hard dates, for example, 50% of the deposit going hard at 30 days and the remaining 50% at 60 days. The longer the due diligence, the more the seller needs to see financial commitment from the buyer.",
   },
   {
     question: "Are commercial earnest money disputes handled differently from residential disputes in Florida?",
     answer:
-      "Yes. Commercial real estate disputes in Florida are generally resolved under the contract terms and Florida commercial law, not the consumer protection statutes that apply to residential transactions. Commercial contracts are more likely to include liquidated damages clauses, specific performance provisions, and arbitration requirements for earnest money disputes -- all of which can make resolution faster or more complex depending on the contract language. Always have a commercial real estate attorney review the purchase agreement before signing.",
+      "Yes. Commercial real estate disputes in Florida are generally resolved under the contract terms and Florida commercial law, not the consumer protection statutes that apply to residential transactions. Commercial contracts are more likely to include liquidated damages clauses, specific performance provisions, and arbitration requirements for earnest money disputes, all of which can make resolution faster or more complex depending on the contract language. Always have a commercial real estate attorney review the purchase agreement before signing.",
   },
   {
     question: "How does earnest money work in a commercial property 1031 exchange?",
     answer:
-      "In a 1031 exchange, the replacement property acquisition must be structured carefully to preserve the tax-deferred treatment. The earnest money deposit on the replacement property should be funded by the Qualified Intermediary (QI) holding the exchange proceeds -- not from the investor's personal funds -- to avoid 'constructive receipt' issues that could disqualify the exchange. Your QI and tax advisor should review the earnest money timing and funding before the contract is signed.",
+      "In a 1031 exchange, the replacement property acquisition must be structured carefully to preserve the tax-deferred treatment. The earnest money deposit on the replacement property should be funded by the Qualified Intermediary (QI) holding the exchange proceeds, not from the investor's personal funds, to avoid 'constructive receipt' issues that could disqualify the exchange. Your QI and tax advisor should review the earnest money timing and funding before the contract is signed.",
   },
   {
     question: "What happens to earnest money if a commercial lender's appraisal comes in low?",
     answer:
-      "Unlike residential VA loans (which have the Escape Clause) or FHA/conventional loans (with standard appraisal contingencies), commercial purchase contracts may not include an automatic appraisal contingency. If the commercial appraisal comes in below the purchase price and there is no appraisal contingency in your contract, you may not have grounds to cancel and recover your deposit -- even if the shortfall makes financing impossible. Ensure your commercial purchase agreement includes explicit appraisal and financing contingency language.",
+      "Unlike residential VA loans (which have the Escape Clause) or FHA/conventional loans (with standard appraisal contingencies), commercial purchase contracts may not include an automatic appraisal contingency. If the commercial appraisal comes in below the purchase price and there is no appraisal contingency in your contract, you may not have grounds to cancel and recover your deposit, even if the shortfall makes financing impossible. Ensure your commercial purchase agreement includes explicit appraisal and financing contingency language.",
   },
 ];
 
@@ -85,7 +85,7 @@ const schema = {
       description:
         "Commercial earnest money deposits are larger, harder to recover, and go non-refundable faster than residential deposits. Essential reading for Florida CRE investors.",
       datePublished: "2026-07-20",
-      dateModified: "2026-11-05",
+      dateModified: "2026-11-14",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -177,7 +177,7 @@ export default function CommercialEarnestMoneyPage() {
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&h=900&fit=crop"
         title="Commercial Earnest Money Deposits in Florida"
-        subtitle="Larger amounts, hard deadlines, and limited contingency protection -- here is what every CRE investor needs to know before they sign."
+        subtitle="Larger amounts, hard deadlines, and limited contingency protection, here is what every CRE investor needs to know before they sign."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
@@ -208,7 +208,7 @@ export default function CommercialEarnestMoneyPage() {
             multifamily property in Tampa Bay
           </Link>
           , a 3% earnest money deposit is $45,000. On a $3.5 million office or retail acquisition, the same percentage is $105,000.
-          This is not theoretical risk -- it is real capital that leaves your account within days of
+          This is not theoretical risk, it is real capital that leaves your account within days of
           a contract being signed, sits in escrow, and can be forfeited entirely if the deal
           collapses under certain conditions.
         </p>
@@ -230,15 +230,15 @@ export default function CommercialEarnestMoneyPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Does &ldquo;Going Hard&rdquo; Mean and When Does It Happen?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The most important concept in commercial earnest money is the &ldquo;hard date&rdquo; -- the point
+          The most important concept in commercial earnest money is the &ldquo;hard date&rdquo;, the point
           at which your deposit becomes non-refundable. In the residential world, the inspection
           period serves a similar function, but residential buyers can cancel for any reason during
           that period and get their money back. Commercial buyers often have a defined feasibility
           or due diligence period that works differently.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          During the due diligence period -- typically 30 to 60 days in commercial deals, though
-          it can be longer for complex properties -- the buyer can cancel for virtually any reason
+          During the due diligence period, typically 30 to 60 days in commercial deals, though
+          it can be longer for complex properties, the buyer can cancel for virtually any reason
           and recover the earnest money. This window is when all the critical{' '}
           <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">
             commercial due diligence
@@ -250,7 +250,7 @@ export default function CommercialEarnestMoneyPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           At the end of the due diligence period, the deposit &ldquo;goes hard.&rdquo; From that moment
           forward, if the buyer cancels for any reason not explicitly covered by a remaining
-          contingency -- most commonly a financing contingency -- the seller keeps the entire
+          contingency, most commonly a financing contingency, the seller keeps the entire
           earnest money deposit. No disputes, no negotiation. The contract typically provides
           for liquidated damages with the deposit as the predetermined figure.
         </p>
@@ -258,7 +258,7 @@ export default function CommercialEarnestMoneyPage() {
           This is why completing your due diligence on schedule is non-negotiable in commercial
           transactions. A buyer who needs more time to complete environmental testing, get a title
           commitment, or review a complex lease roll should negotiate an extension before the
-          hard date -- not after.
+          hard date, not after.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do Financing Contingencies Work in Commercial Purchases?</h2>
@@ -275,13 +275,13 @@ export default function CommercialEarnestMoneyPage() {
           uncertainty. A seller who has been through a deal collapse because a buyer&apos;s lender
           walked away three weeks before closing is reluctant to leave that door open again.
           The negotiation often lands somewhere between the buyer&apos;s preferred unlimited
-          financing contingency and the seller&apos;s preferred hard-money-only deal -- a limited
+          financing contingency and the seller&apos;s preferred hard-money-only deal, a limited
           financing contingency period of 21 to 30 days, with specific conditions clearly defined.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If the commercial appraisal comes in below the purchase price and there is no explicit
           appraisal contingency in your contract, you may not have grounds to cancel and recover
-          your deposit -- even if the shortfall makes your lender&apos;s loan-to-value requirements
+          your deposit, even if the shortfall makes your lender&apos;s loan-to-value requirements
           impossible to meet. This is one of the most common and costly mistakes first-time
           commercial buyers make. Ensure your contract clearly covers what happens when the
           lender&apos;s appraisal does not support the purchase price.
@@ -307,12 +307,12 @@ export default function CommercialEarnestMoneyPage() {
           This structure protects the buyer by limiting the capital at risk during the early
           stages of due diligence. It reassures the seller by demonstrating that the buyer is
           progressively committing as they verify each component of the deal. And it creates a
-          natural checkpoint at each stage -- if a significant problem is discovered during the
+          natural checkpoint at each stage, if a significant problem is discovered during the
           environmental phase, the buyer can exit with only the initial deposit at risk rather
           than the full amount.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Not every seller accepts staged deposits -- particularly in a competitive market where
+          Not every seller accepts staged deposits, particularly in a competitive market where
           other buyers are willing to commit full deposits upfront. But in{' '}
           <Link href="/markets/hillsborough" className="text-accent underline">
             Tampa Bay&apos;s Hillsborough County market
@@ -353,8 +353,8 @@ export default function CommercialEarnestMoneyPage() {
           </li>
           <li>
             <strong>Operating statements and expense verification.</strong> Review at least
-            three years of operating statements and verify major expense categories -- taxes,
-            insurance, utilities, maintenance -- against independent sources.
+            three years of operating statements and verify major expense categories, taxes,
+            insurance, utilities, maintenance, against independent sources.
           </li>
           <li>
             <strong>Zoning and use confirmation.</strong> Confirm with the local jurisdiction
@@ -388,7 +388,7 @@ export default function CommercialEarnestMoneyPage() {
           The practical solution: when possible, have the QI fund the earnest money deposit
           directly from the exchange proceeds account. This keeps the funds within the exchange
           structure and avoids the constructive receipt issue. Coordinate this with your QI
-          before the replacement property contract is signed -- not after.
+          before the replacement property contract is signed, not after.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For more on 1031 exchanges in Florida, see the{' '}
@@ -400,7 +400,7 @@ export default function CommercialEarnestMoneyPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line for Florida CRE Investors</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Commercial earnest money is not a formality -- it is a meaningful financial commitment
+          Commercial earnest money is not a formality, it is a meaningful financial commitment
           that can be lost entirely if you mismanage the timeline, fail to complete due diligence,
           or sign a contract without the right contingency language. The differences from
           residential transactions are significant enough that first-time commercial buyers
@@ -432,7 +432,7 @@ export default function CommercialEarnestMoneyPage() {
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
-            Commercial Earnest Money in Florida -- Frequently Asked Questions
+            Commercial Earnest Money in Florida, Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqData} />
         </div>
@@ -468,7 +468,7 @@ export default function CommercialEarnestMoneyPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );
