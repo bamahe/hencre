@@ -4,6 +4,68 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 91 — 2026-11-16
+
+**Commit:** `0b232a1` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/st-petersburg-nnn-landlord-investment-strategy-pinellas`
+- Full rewrite of auto-generated page (previously unaudited)
+- Added imports: `Image` from next/image, `Link` from next/link
+- Updated metadata title: "St. Petersburg NNN Investment Strategy 2026 | HenCRE"
+- Replaced local OG image path with Unsplash photo-1563013544-824ae1b704d3
+- Merged dual schemas (articleSchema + faqSchema) into single @graph (BreadcrumbList + BlogPosting + FAQPage)
+- Fixed author jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Removed nowtb.com from sameAs array
+- Added dateModified: "2026-11-16"
+- Added "Home" as first breadcrumb item
+- Updated Hero backgroundImage to Unsplash
+- Converted all `<a href='...'>` internal links to `<Link>` components
+- Escaped apostrophes throughout JSX text content
+- Fixed mid-CTA: "Talk to a REMAX Commercial® Broker" -> "Talk to a Commercial Real Estate Broker"
+- Updated author bio: `<img>` -> `<Image>`, corrected title and role text
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Added "Last updated: November 2026" footer
+- Expanded relatedLinks: 10 items including new St. Petersburg CRE overview link
+
+### 2. `/blog/tampa-bay-ambulatory-surgery-center-asc-cre-2026`
+- Fixed jobTitle: "Broker Associate" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Updated dateModified to "2026-11-16"
+
+### 3. `/blog/tampa-bay-charter-school-education-commercial-real-estate-2026`
+- Updated dateModified to "2026-11-16"
+
+### 4. `/blog/inverness-citrus-county-commercial-real-estate-2026`
+- Updated dateModified to "2026-11-16"
+- Updated footer: "Last updated: October 2026" -> "Last updated: November 2026"
+
+### 5. `/blog/st-petersburg-office-market-2026`
+- Updated dateModified to "2026-11-16"
+- Updated footer: "Last updated: October 2026" -> "Last updated: November 2026"
+
+### 6. `/blog/tampa-bay-multifamily-cap-rates-2026`
+- Updated dateModified to "2026-11-16"
+- Updated footer: "Last updated: October 2026" -> "Last updated: November 2026"
+
+### 7. `/blog/jacksonville-duval-county-commercial-real-estate-2026`
+- Updated dateModified to "2026-11-16"
+- Updated footer: "Last updated: October 2026" -> "Last updated: November 2026"
+
+### 8. `/blog/sale-leaseback-commercial-real-estate-tampa-bay`
+- Updated dateModified to "2026-11-16"
+- Updated footer: "Last updated: October 2026" -> "Last updated: November 2026"
+
+### 9. `/blog/why-tampa-bay-cre-is-booming`
+- Fixed jobTitle: "Broker Associate" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Updated dateModified to "2026-11-16"
+- Updated footer: "Last updated: September 2026" -> "Last updated: November 2026"
+
+### 10. `/blog/valrico-hillsborough-county-commercial-real-estate-2026`
+- Updated dateModified to "2026-11-16"
+- Updated footer: "Last updated: October 2026" -> "Last updated: November 2026"
+
+---
+
 ## Batch 90 — 2026-11-14
 
 **Commit:** `44bc161` | **Build:** clean (0 errors) | **Pages improved:** 10
