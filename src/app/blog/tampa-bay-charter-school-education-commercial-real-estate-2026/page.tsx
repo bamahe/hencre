@@ -88,7 +88,7 @@ const schema = {
       description:
         "Charter schools, private academies, and faith-based education operators are actively acquiring commercial property across Tampa Bay. Recent deals topped $12M–$14M. Here is what investors and buyers need to know.",
       datePublished: "2026-11-13",
-      dateModified: "2026-11-13",
+      dateModified: "2026-11-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

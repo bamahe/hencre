@@ -65,7 +65,7 @@ const schema = {
       headline: "Valrico FL Commercial Real Estate 2026 | HenCRE",
       description: "Explore Valrico, FL commercial real estate in 2026. Retail, office, and investment opportunities in this growing Hillsborough County submarket.",
       datePublished: "2026-09-30",
-      dateModified: "2026-10-30",
+      dateModified: "2026-11-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -192,7 +192,7 @@ export default function BlogPost() {
         <h2>The Bottom Line on Valrico CRE</h2>
         <p>Valrico, Hillsborough County is a submarket that rewards those willing to do their homework. It lacks the flashiness of some Tampa Bay markets, but it offers something arguably more valuable: genuine demand driven by real population growth and purchasing power, with commercial supply still in the process of catching up. For tenants seeking affordable, well-located space in a growing community, and for investors seeking yield with upside, Valrico deserves serious consideration in 2026 and beyond. Explore <Link href="/services/investment-sales" className="text-accent underline">investment sales services</Link> to evaluate Valrico opportunities with an experienced broker.</p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
 
         {/* ---- Mid-article CTA ---- */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">

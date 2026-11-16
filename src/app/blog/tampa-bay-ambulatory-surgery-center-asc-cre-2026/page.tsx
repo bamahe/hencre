@@ -87,11 +87,11 @@ const schema = {
       description:
         "A complete guide to ambulatory surgery center commercial real estate in Tampa Bay in 2026: AHCA licensing, NNN investment fundamentals, physician-owned sale-leasebacks, cap rates, and the specialties driving ASC growth.",
       datePublished: "2026-11-14",
-      dateModified: "2026-11-14",
+      dateModified: "2026-11-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

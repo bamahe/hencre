@@ -85,11 +85,11 @@ const schema = {
       description:
         "Explore the key drivers fueling Tampa Bay's commercial real estate growth: population migration, infrastructure investment, and business climate.",
       datePublished: "2026-04-15",
-      dateModified: "2026-10-22",
+      dateModified: "2026-11-16",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
@@ -319,7 +319,7 @@ export default function TampaBayBoomingPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );
