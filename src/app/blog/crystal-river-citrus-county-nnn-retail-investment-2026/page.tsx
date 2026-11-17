@@ -8,7 +8,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
- * Blog post — 2026-11-03
+ * Blog post ,  2026-11-03
  * Crystal River & Citrus County NNN Retail Investment Opportunities in 2026
  * ----------------------------------------------------------------- */
 
@@ -69,7 +69,7 @@ const schema = {
       headline: "Crystal River & Citrus County NNN Retail Investment Opportunities in 2026",
       description: "Discover why savvy investors are targeting NNN retail and net-lease properties in Crystal River and Citrus County, FL in 2026. HenCRE breaks down cap rates, tenant mix, and market trends.",
       datePublished: "2026-11-03",
-      dateModified: "2026-11-03",
+      dateModified: "2026-11-17",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -159,7 +159,7 @@ export default function BlogPost() {
         <p>
           Citrus County as a whole has experienced consistent net in-migration over the past three years. Retirees fleeing higher-cost
           metros, remote workers seeking affordable quality of life, and families priced out of Tampa Bay&apos;s suburbs have all
-          contributed to a steady population tailwind. That demographic pressure doesn&apos;t just drive housing — it drives retail
+          contributed to a steady population tailwind. That demographic pressure doesn&apos;t just drive housing ,  it drives retail
           demand. Gas stations, pharmacies, quick-service restaurants, dollar stores, and{" "}
           <Link href="/blog/tampa-bay-urgent-care-medical-clinic-nnn-investment-2026" className="text-accent underline">medical offices</Link>{" "}
           all follow rooftops, and Citrus County is adding them at a pace that has landlords paying attention.
@@ -167,9 +167,9 @@ export default function BlogPost() {
 
         <h2>The NNN Retail Case for Crystal River and Inverness</h2>
         <p>
-          The two commercial anchors of Citrus County — Crystal River along US-19 and{" "}
+          The two commercial anchors of Citrus County ,  Crystal River along US-19 and{" "}
           <Link href="/blog/inverness-citrus-county-commercial-real-estate-2026" className="text-accent underline">Inverness along US-41</Link>{" "}
-          — represent distinct but complementary investment profiles. Crystal River benefits from year-round tourism traffic layered on
+          ,  represent distinct but complementary investment profiles. Crystal River benefits from year-round tourism traffic layered on
           top of its permanent resident base, while Inverness functions as the county seat and primary administrative and medical hub.
         </p>
         <p>

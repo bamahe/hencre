@@ -44,31 +44,31 @@ const faqItems = [
     question:
       "What makes auto dealership commercial real estate a unique investment in Tampa Bay?",
     answer:
-      "Auto dealership properties occupy a distinctive niche in Tampa Bay commercial real estate for several reasons that separate them from typical retail or industrial investments. First, the sites themselves are specialized: dealerships require high-visibility, high-traffic frontage, outdoor display lots typically ranging from one to five acres, climate-controlled showroom space, service bays with lifts and drainage infrastructure, and Parts and Service operations that generate recurring customer traffic independent of new-vehicle sales. These physical requirements create a replacement-cost premium and limit the number of qualifying locations, which supports long-term land values. Second, dealership tenants — whether a franchised operator running a Toyota, Ford, or BMW point, or an EV-only brand like Tesla or Rivian — sign long-term leases because their business model depends on a specific location and substantial investment in signage, equipment, and customer relationships tied to that address. Lease terms of ten to twenty years with multiple renewal options are standard. Third, Tampa Bay's sustained population growth — the metro now exceeds 3.2 million residents — supports durable new and used vehicle demand, which translates into stable site-level performance across the economic cycle. Buyers of dealership real estate in Tampa Bay are acquiring long-term income streams anchored by businesses that have every incentive to stay.",
+      "Auto dealership properties occupy a distinctive niche in Tampa Bay commercial real estate for several reasons that separate them from typical retail or industrial investments. First, the sites themselves are specialized: dealerships require high-visibility, high-traffic frontage, outdoor display lots typically ranging from one to five acres, climate-controlled showroom space, service bays with lifts and drainage infrastructure, and Parts and Service operations that generate recurring customer traffic independent of new-vehicle sales. These physical requirements create a replacement-cost premium and limit the number of qualifying locations, which supports long-term land values. Second, dealership tenants ,  whether a franchised operator running a Toyota, Ford, or BMW point, or an EV-only brand like Tesla or Rivian ,  sign long-term leases because their business model depends on a specific location and substantial investment in signage, equipment, and customer relationships tied to that address. Lease terms of ten to twenty years with multiple renewal options are standard. Third, Tampa Bay's sustained population growth ,  the metro now exceeds 3.2 million residents ,  supports durable new and used vehicle demand, which translates into stable site-level performance across the economic cycle. Buyers of dealership real estate in Tampa Bay are acquiring long-term income streams anchored by businesses that have every incentive to stay.",
   },
   {
     question:
       "What cap rates do auto dealership properties trade at in Tampa Bay in 2026?",
     answer:
-      "Auto dealership cap rates in Tampa Bay in 2026 vary significantly based on tenant type, lease structure, site quality, and remaining lease term. For high-credit EV manufacturer-direct leases — such as a Tesla or Rivian corporate-lease structure with a long remaining term and fixed annual rent escalations — cap rates compress toward the 5.0% to 5.75% range, reflecting the tenant credit and the specialized site value. For franchised new-car dealer properties where the tenant is an operating dealer group rather than a corporate manufacturer, cap rates typically range from 5.75% to 6.75%, reflecting the franchisee credit rather than an investment-grade corporate guarantee. Ground lease structures — where the land owner leases the ground to the dealer who constructs improvements — typically carry lower cap rates, in the 4.5% to 5.5% range, because the land appreciates and the ground lessor has no building depreciation exposure. Properties with short remaining lease terms or operators with smaller balance sheets see cap rates widen to 7.0% and above, pricing in the re-tenanting risk. Compared to the broader NNN retail market, strong dealership assets trade at a modest premium to QSR or pharmacy NNN investments, reflecting the site specificity and the institutional-quality nature of long-term auto manufacturer relationships.",
+      "Auto dealership cap rates in Tampa Bay in 2026 vary significantly based on tenant type, lease structure, site quality, and remaining lease term. For high-credit EV manufacturer-direct leases ,  such as a Tesla or Rivian corporate-lease structure with a long remaining term and fixed annual rent escalations ,  cap rates compress toward the 5.0% to 5.75% range, reflecting the tenant credit and the specialized site value. For franchised new-car dealer properties where the tenant is an operating dealer group rather than a corporate manufacturer, cap rates typically range from 5.75% to 6.75%, reflecting the franchisee credit rather than an investment-grade corporate guarantee. Ground lease structures ,  where the land owner leases the ground to the dealer who constructs improvements ,  typically carry lower cap rates, in the 4.5% to 5.5% range, because the land appreciates and the ground lessor has no building depreciation exposure. Properties with short remaining lease terms or operators with smaller balance sheets see cap rates widen to 7.0% and above, pricing in the re-tenanting risk. Compared to the broader NNN retail market, strong dealership assets trade at a modest premium to QSR or pharmacy NNN investments, reflecting the site specificity and the institutional-quality nature of long-term auto manufacturer relationships.",
   },
   {
     question:
       "How is the EV revolution changing auto dealership real estate in Tampa Bay?",
     answer:
-      "The shift toward electric vehicles is reshaping dealership real estate in Tampa Bay in real time as of 2026. Tesla's model — factory-direct sales through company-owned or company-leased showrooms and service centers rather than independent franchises — has produced a new category of commercial real estate transaction in the market. Tesla signed a long-term lease on a nearly 46,000-square-foot former EchoPark auto site on North Dale Mabry Highway, investing approximately $500,000 in renovations to create a combined sales-and-service facility. The property represents the kind of high-traffic, access-controlled site Tesla targets: major arterial frontage, ample service bay capacity, and proximity to a dense customer base. Rivian, similarly, has executed a net-lease transaction on a 2.75-acre site at 701 North Dale Mabry — a reported acquisition by Automotive Properties REIT for approximately $13.5 million — with a long-term lease carrying fixed annual rent increases and renewal options. These EV-direct transactions differ from traditional franchise deals in one important respect: the tenant is typically the manufacturer itself or a manufacturer-affiliated entity, carrying corporate credit rather than franchisee credit. For investors, the distinction matters considerably — a Tesla or Rivian corporate guarantee is structurally similar to a McDonald's or CVS corporate guarantee in terms of credit quality. The broader effect on the market is increased competition for premium auto corridor sites, particularly along Dale Mabry, US 19, and US 41, as EV brands need the same high-visibility, high-traffic frontage that traditional dealers have occupied for decades.",
+      "The shift toward electric vehicles is reshaping dealership real estate in Tampa Bay in real time as of 2026. Tesla's model ,  factory-direct sales through company-owned or company-leased showrooms and service centers rather than independent franchises ,  has produced a new category of commercial real estate transaction in the market. Tesla signed a long-term lease on a nearly 46,000-square-foot former EchoPark auto site on North Dale Mabry Highway, investing approximately $500,000 in renovations to create a combined sales-and-service facility. The property represents the kind of high-traffic, access-controlled site Tesla targets: major arterial frontage, ample service bay capacity, and proximity to a dense customer base. Rivian, similarly, has executed a net-lease transaction on a 2.75-acre site at 701 North Dale Mabry ,  a reported acquisition by Automotive Properties REIT for approximately $13.5 million ,  with a long-term lease carrying fixed annual rent increases and renewal options. These EV-direct transactions differ from traditional franchise deals in one important respect: the tenant is typically the manufacturer itself or a manufacturer-affiliated entity, carrying corporate credit rather than franchisee credit. For investors, the distinction matters considerably ,  a Tesla or Rivian corporate guarantee is structurally similar to a McDonald's or CVS corporate guarantee in terms of credit quality. The broader effect on the market is increased competition for premium auto corridor sites, particularly along Dale Mabry, US 19, and US 41, as EV brands need the same high-visibility, high-traffic frontage that traditional dealers have occupied for decades.",
   },
   {
     question:
       "What due diligence is required when buying a Tampa Bay auto dealership property?",
     answer:
-      "Due diligence on a Tampa Bay auto dealership property is more intensive than on a typical retail NNN investment for several reasons. Environmental assessment is the most critical additional layer. Vehicle service operations generate petroleum waste, used motor oil, transmission fluid, coolant, and in some cases underground or above-ground storage tank contamination that must be identified and quantified before closing. A Phase I Environmental Site Assessment is the minimum standard; many dealership acquisitions require a Phase II with soil and groundwater sampling if the Phase I identifies recognized environmental conditions. Buyers should check the Florida Department of Environmental Protection's OCULUS database for any open or closed cleanup cases on the property. Beyond environmental review, lease analysis for dealership assets requires confirming the franchise agreement's survival in a sale — some franchise arrangements create landlord obligations or require manufacturer consent to property transfers. For manufacturer-direct EV leases, reviewing any early termination rights, brand exclusivity clauses, and whether the lease is to the corporate entity or a subsidiary matters to credit analysis. Physical due diligence should include a structural review of service bay floors (concrete thickness for lift loads, drainage compliance), HVAC for showrooms and parts storage, and the condition of the display lot surface. Title review should confirm any use restrictions, easements, or covenants that could limit alternate use if the dealership vacates. Financing dealership real estate often requires a lender experienced with the asset class; SBA 504 and USDA Business programs can be viable for owner-users acquiring their own store's real estate.",
+      "Due diligence on a Tampa Bay auto dealership property is more intensive than on a typical retail NNN investment for several reasons. Environmental assessment is the most critical additional layer. Vehicle service operations generate petroleum waste, used motor oil, transmission fluid, coolant, and in some cases underground or above-ground storage tank contamination that must be identified and quantified before closing. A Phase I Environmental Site Assessment is the minimum standard; many dealership acquisitions require a Phase II with soil and groundwater sampling if the Phase I identifies recognized environmental conditions. Buyers should check the Florida Department of Environmental Protection's OCULUS database for any open or closed cleanup cases on the property. Beyond environmental review, lease analysis for dealership assets requires confirming the franchise agreement's survival in a sale ,  some franchise arrangements create landlord obligations or require manufacturer consent to property transfers. For manufacturer-direct EV leases, reviewing any early termination rights, brand exclusivity clauses, and whether the lease is to the corporate entity or a subsidiary matters to credit analysis. Physical due diligence should include a structural review of service bay floors (concrete thickness for lift loads, drainage compliance), HVAC for showrooms and parts storage, and the condition of the display lot surface. Title review should confirm any use restrictions, easements, or covenants that could limit alternate use if the dealership vacates. Financing dealership real estate often requires a lender experienced with the asset class; SBA 504 and USDA Business programs can be viable for owner-users acquiring their own store's real estate.",
   },
   {
     question:
       "What is the difference between buying dealership real estate fee simple versus a ground lease investment?",
     answer:
-      "Auto dealership properties in Tampa Bay trade in two primary structures: fee simple ownership, where the buyer acquires land and improvements outright, and ground lease investment, where the buyer acquires only the land and leases it to the dealership operator who owns or builds the improvements. Each structure has different risk-return characteristics that investors should understand clearly. Fee simple ownership of a dealership property carries both land and building depreciation benefits, full control over the asset, and exposure to improvement obsolescence as service bay technology and EV charging infrastructure requirements evolve. Ground lease investment provides a cleaner, longer-duration income stream — typical ground leases run 30 to 50 years — with no building expense exposure. The ground lessor receives a land rent that escalates over time and benefits from land appreciation as the surrounding market grows. At lease expiration or termination, the improvements typically revert to the ground owner. For investors in Tampa Bay seeking passive income with minimal management, ground lease structures on dealership sites along Dale Mabry, Fletcher Avenue, or US 19 offer institutional-quality income with lower operating involvement than fee simple ownership. For investors who want flexibility to redevelop or reposition the asset at lease expiration, fee simple structures provide that optionality. Barrett Henry and the HenCRE team work with buyers and sellers on both structures and can help identify which approach aligns with your investment horizon and tax position.",
+      "Auto dealership properties in Tampa Bay trade in two primary structures: fee simple ownership, where the buyer acquires land and improvements outright, and ground lease investment, where the buyer acquires only the land and leases it to the dealership operator who owns or builds the improvements. Each structure has different risk-return characteristics that investors should understand clearly. Fee simple ownership of a dealership property carries both land and building depreciation benefits, full control over the asset, and exposure to improvement obsolescence as service bay technology and EV charging infrastructure requirements evolve. Ground lease investment provides a cleaner, longer-duration income stream ,  typical ground leases run 30 to 50 years ,  with no building expense exposure. The ground lessor receives a land rent that escalates over time and benefits from land appreciation as the surrounding market grows. At lease expiration or termination, the improvements typically revert to the ground owner. For investors in Tampa Bay seeking passive income with minimal management, ground lease structures on dealership sites along Dale Mabry, Fletcher Avenue, or US 19 offer institutional-quality income with lower operating involvement than fee simple ownership. For investors who want flexibility to redevelop or reposition the asset at lease expiration, fee simple structures provide that optionality. Barrett Henry and the HenCRE team work with buyers and sellers on both structures and can help identify which approach aligns with your investment horizon and tax position.",
   },
 ];
 
@@ -104,7 +104,7 @@ const schema = {
       description:
         "Auto dealership properties are one of the most distinctive asset classes in Tampa Bay commercial real estate. From Dale Mabry's traditional auto row to Tesla and Rivian's new EV footprint, here is what investors and owners need to know in 2026.",
       datePublished: "2026-10-14",
-      dateModified: "2026-11-02",
+      dateModified: "2026-11-17",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -136,19 +136,19 @@ const relatedLinks = [
     title: "Dale Mabry Corridor Commercial Real Estate Tampa 2026",
     href: "/blog/dale-mabry-corridor-commercial-real-estate-tampa-2026",
     description:
-      "Tampa's most active commercial corridor — where dealerships, NNN retail, and mixed-use compete for the best sites.",
+      "Tampa's most active commercial corridor ,  where dealerships, NNN retail, and mixed-use compete for the best sites.",
   },
   {
     title: "Tampa Bay Auto Parts & Auto Service NNN Investment 2026",
     href: "/blog/tampa-bay-auto-parts-service-nnn-investment-2026",
     description:
-      "AutoZone, O'Reilly, Jiffy Lube, and Mavis Tire as NNN investments — the service-adjacent category that complements dealership real estate.",
+      "AutoZone, O'Reilly, Jiffy Lube, and Mavis Tire as NNN investments ,  the service-adjacent category that complements dealership real estate.",
   },
   {
     title: "Tampa Bay Car Wash CRE Investment 2026",
     href: "/blog/tampa-bay-car-wash-cre-investment-2026",
     description:
-      "Express car wash NNN investments — another auto-adjacent category with strong Tampa Bay demand fundamentals.",
+      "Express car wash NNN investments ,  another auto-adjacent category with strong Tampa Bay demand fundamentals.",
   },
   {
     title: "Tampa Bay NNN Cap Rates 2026",
@@ -166,7 +166,7 @@ const relatedLinks = [
     title: "What Is a Triple-Net (NNN) Lease and Why Investors Love It",
     href: "/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it",
     description:
-      "The fundamentals of NNN leases — the dominant structure in auto dealership and single-tenant retail investment.",
+      "The fundamentals of NNN leases ,  the dominant structure in auto dealership and single-tenant retail investment.",
   },
   {
     title: "Florida 1031 Exchange: What Investors Need to Know",
@@ -238,7 +238,7 @@ export default function TampaBayAutoDealershipCREPage() {
           Property?
         </h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Auto dealerships are not just retail — they are heavy-use industrial
+          Auto dealerships are not just retail ,  they are heavy-use industrial
           operations housed in a retail wrapper. A single franchised dealership
           combines showroom space, an F&amp;I (finance and insurance) office,
           parts storage, service bays with hydraulic lifts and drainage systems,
@@ -254,7 +254,7 @@ export default function TampaBayAutoDealershipCREPage() {
           in Tampa, US Highway 19 through Clearwater and{" "}
           <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>, and Fletcher Avenue near the University of South
           Florida. These corridors developed because they offer high average daily
-          traffic counts — typically 40,000 to 85,000 vehicles per day — combined
+          traffic counts ,  typically 40,000 to 85,000 vehicles per day ,  combined
           with access to surface road networks that allow test drives without
           navigating complex interchange systems. Once established, a dealership
           corridor tends to be self-reinforcing: customers shopping for vehicles
@@ -263,7 +263,7 @@ export default function TampaBayAutoDealershipCREPage() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           The franchise agreement itself shapes the real estate transaction.
-          Major manufacturer franchises — Toyota, Ford, GM, BMW, Mercedes-Benz —
+          Major manufacturer franchises ,  Toyota, Ford, GM, BMW, Mercedes-Benz , 
           impose brand standards for facility size, lighting, signage, and
           customer experience that require periodic capital investment in the
           building. These standards are enforced through franchise renewals and
@@ -282,8 +282,8 @@ export default function TampaBayAutoDealershipCREPage() {
           Tampa Bay is generating a new and distinct category of dealership real
           estate transaction. Unlike traditional franchise dealers who lease or
           own their own sites independently, Tesla and Rivian operate on a
-          direct-to-consumer model that requires the manufacturer itself — or a
-          manufacturer-controlled entity — to control the real estate.
+          direct-to-consumer model that requires the manufacturer itself ,  or a
+          manufacturer-controlled entity ,  to control the real estate.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Tesla signed a long-term lease on a nearly 46,000-square-foot former
@@ -300,8 +300,8 @@ export default function TampaBayAutoDealershipCREPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           Rivian&apos;s transaction on the same corridor is a textbook example
           of institutional capital pursuing EV real estate exposure. Automotive
-          Properties REIT — a Canadian real estate investment trust specializing
-          in dealership properties — acquired the 2.75-acre site at 701 North
+          Properties REIT ,  a Canadian real estate investment trust specializing
+          in dealership properties ,  acquired the 2.75-acre site at 701 North
           Dale Mabry at a reported price of approximately $13.5 million
           inclusive of closing costs. The site carries a long-term net lease with
           fixed annual rent escalations and renewal options. The acquisition
@@ -343,15 +343,15 @@ export default function TampaBayAutoDealershipCREPage() {
           entering the market represents demand for at least one vehicle
           purchase or lease, service visits, and eventually a replacement
           transaction. Auto dealers in Tampa Bay are not fighting a structural
-          volume problem — they are managing mix, margin, and EV transition
+          volume problem ,  they are managing mix, margin, and EV transition
           against a backdrop of growing underlying demand.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The fastest-growing submarkets —{" "}
+          The fastest-growing submarkets , {" "}
           <Link href="/blog/wesley-chapel-pasco-county-commercial-real-estate-2026" className="text-accent underline">Wesley Chapel</Link>,{" "}
           <Link href="/blog/riverview-fl-commercial-real-estate-2026" className="text-accent underline">Riverview</Link>, Parrish in
           Manatee County, and{" "}
-          <Link href="/blog/land-o-lakes-pasco-county-commercial-real-estate" className="text-accent underline">Land O&apos; Lakes</Link> — are each generating enough
+          <Link href="/blog/land-o-lakes-pasco-county-commercial-real-estate" className="text-accent underline">Land O&apos; Lakes</Link> ,  are each generating enough
           household formation to support satellite service centers and new dealer
           points. Toyota, Ford, and Hyundai have all evaluated or opened
           additional Tampa Bay locations in response to growth corridor demand in
@@ -409,8 +409,8 @@ export default function TampaBayAutoDealershipCREPage() {
           penetrated deep into formerly commercial zones.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For owners who need to sell quickly — whether exiting a family
-          business, settling an estate, or responding to a franchise termination —{" "}
+          For owners who need to sell quickly ,  whether exiting a family
+          business, settling an estate, or responding to a franchise termination , {" "}
           <Link
             href="/services/dispositions"
             className="text-[#C8A97E] hover:underline"
@@ -432,8 +432,8 @@ export default function TampaBayAutoDealershipCREPage() {
           <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">Phase I Environmental Site Assessment</Link>{" "}
           is mandatory for any lender and should be standard practice for all-cash buyers as
           well. Where the Phase I identifies recognized environmental conditions
-          — former underground storage tanks, documented spills, adjacent
-          contaminated parcels — a Phase II with soil and groundwater sampling is
+          ,  former underground storage tanks, documented spills, adjacent
+          contaminated parcels ,  a Phase II with soil and groundwater sampling is
           warranted before committing to close. Florida&apos;s Department of
           Environmental Protection maintains the OCULUS database where
           petroleum storage tank and cleanup records are publicly searchable;
@@ -452,10 +452,10 @@ export default function TampaBayAutoDealershipCREPage() {
           the lease for any seller-leaseback or occupied acquisition.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Physical inspection of the service infrastructure — floor thickness and
+          Physical inspection of the service infrastructure ,  floor thickness and
           condition for lift loads, drainage systems and compliance, HVAC serving
           paint booths and body shops, and the capacity of electrical systems for
-          EV charging infrastructure — should be performed by a qualified
+          EV charging infrastructure ,  should be performed by a qualified
           commercial inspector experienced with automotive facilities, not a
           general property inspector.
         </p>
@@ -477,8 +477,8 @@ export default function TampaBayAutoDealershipCREPage() {
           worked with dealer operators, investor-landlords, and institutional
           buyers on dealership acquisitions, sale-leasebacks, ground lease
           negotiations, and the repositioning of former auto sites for alternate
-          uses. His familiarity with Tampa Bay&apos;s automotive corridors —
-          including North Dale Mabry, Fletcher Avenue, and US Highway 19 — gives
+          uses. His familiarity with Tampa Bay&apos;s automotive corridors , 
+          including North Dale Mabry, Fletcher Avenue, and US Highway 19 ,  gives
           buyers and sellers a meaningful advantage in understanding site-specific
           nuances that generic broker coverage misses.
         </p>

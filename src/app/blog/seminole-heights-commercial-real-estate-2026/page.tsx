@@ -10,7 +10,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
  * Blog: Seminole Heights Commercial Real Estate 2026
- * Tampa's most authentic neighborhood district — what tenants and
+ * Tampa's most authentic neighborhood district ,  what tenants and
  * investors need to know about the Florida Ave commercial corridor.
  * ----------------------------------------------------------------- */
 
@@ -86,7 +86,7 @@ const schema = {
       description:
         "Seminole Heights is Tampa's most authentic neighborhood commercial district with walkable storefronts, independent restaurants, breweries, and rising investor interest along N Florida Avenue. A complete guide for tenants and investors in 2026.",
       datePublished: "2026-09-06",
-      dateModified: "2026-10-30",
+      dateModified: "2026-11-17",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -327,7 +327,7 @@ export default function SeminoleHeightsCREPage() {
           With 23+ years of real estate experience across Tampa Bay and deep familiarity with the inner-ring Tampa neighborhood commercial markets, I work with both tenants seeking space and investors evaluating acquisitions. Whether you need tenant representation to find the right position in Seminole Heights or are considering acquiring a building in the corridor, call me to discuss the specifics of your situation.
         </p>
 
-        <p className="mt-10 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ ---- */}
