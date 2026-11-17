@@ -4,6 +4,57 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 92 — 2026-11-17
+
+**Commit:** `f7cb194` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-franchise-commercial-real-estate-2026`
+- First audit of this page
+- Replaced 41 em dashes with `, `
+- Updated dateModified to "2026-11-17"
+
+### 2. `/blog/tampa-bay-convenience-store-fuel-retail-nnn-investment-2026`
+- Replaced 50 em dashes with `, `
+- Updated dateModified: "2026-10-20" -> "2026-11-17"
+- Updated footer: "October 2026" -> "November 2026"
+
+### 3. `/blog/tampa-bay-auto-dealership-cre-2026`
+- Replaced 40 em dashes with `, `
+- Updated dateModified: "2026-11-02" -> "2026-11-17"
+
+### 4. `/blog/echelon-city-center-north-st-pete-cre-2026`
+- Replaced 42 em dashes and 2 en dashes with `, ` / ` - `
+- Updated dateModified: "2026-11-01" -> "2026-11-17"
+- Updated footer: "October 2026" -> "November 2026"
+
+### 5. `/blog/port-tampa-bay-fourth-cruise-terminal-channel-district-cre`
+- Replaced 32 em dashes with `, `
+- Updated dateModified: "2026-11-07" -> "2026-11-17"
+- Updated footer: "October 2026" -> "November 2026"
+
+### 6. `/blog/parrish-fl-commercial-real-estate-2026`
+- Replaced 23 em dashes with `, `
+- Updated dateModified: "2026-11-07" -> "2026-11-17"
+
+### 7. `/blog/tampa-bay-ev-charging-commercial-real-estate-2026`
+- Replaced 42 em dashes with `, `
+- Updated dateModified: "2026-11-02" -> "2026-11-17"
+
+### 8. `/blog/land-o-lakes-pasco-county-commercial-real-estate-2026`
+- Replaced 20 em dashes and 1 en dash with `, ` / ` - `
+- Updated dateModified: "2026-10-22" -> "2026-11-17"
+
+### 9. `/blog/seminole-heights-commercial-real-estate-2026`
+- Replaced 1 em dash with `, `
+- Updated dateModified: "2026-10-30" -> "2026-11-17"
+- Updated footer: "October 2026" -> "November 2026"
+
+### 10. `/blog/crystal-river-citrus-county-nnn-retail-investment-2026`
+- Replaced 4 em dashes with `, `
+- Updated dateModified: "2026-11-03" -> "2026-11-17"
+
+---
+
 ## Batch 91 — 2026-11-16
 
 **Commit:** `0b232a1` | **Build:** clean (0 errors) | **Pages improved:** 10
