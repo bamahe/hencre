@@ -4,6 +4,57 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 93 — 2026-11-18
+
+**Commit:** `89084fb` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-tenant-improvement-allowance-guide-2026`
+- First full audit of this page
+- Fixed 20+ em/en dashes throughout article and FAQ sections
+- Replaced external fastselleasysale.com link with internal `/services/dispositions`
+- Updated dateModified to "2026-11-18"
+
+### 2. `/blog/land-o-lakes-pasco-county-commercial-real-estate-2026`
+- Merged dual articleSchema + faqSchema into single @graph schema constant
+- Fixed 15 `<a href>` → `<Link href>` conversions in article body
+- Corrected REMAX branding: "REMAX Commercial Real Estate" → "REMAX Collective"
+- Corrected body text to "Broker Associate at REMAX Collective with 23+ years"
+- Removed irrelevant HUD/FHA/HOPE "Free Resources" section
+- Added "Home" as first breadcrumb item
+- Updated dateModified to "2026-11-18"
+
+### 3. `/blog/tampa-bay-franchise-commercial-real-estate-2026`
+- Replaced external fastselleasysale.com link with internal `/services/dispositions`
+- Added TI guide link and Riverview retail leasing guide link (10+ internal links)
+- Updated dateModified to "2026-11-18"
+
+### 4. `/blog/tampa-bay-ev-charging-commercial-real-estate-2026`
+- Replaced external bestbayservices.com link with TI guide internal link
+- Added Land O' Lakes market link, office market link, NNN cap rates link (10+ internal links)
+- Updated dateModified to "2026-11-18"
+
+### 5. `/blog/tampa-bay-convenience-store-fuel-retail-nnn-investment-2026`
+- Added EV charging impact link and Land O' Lakes market link (10+ internal links)
+- Updated dateModified to "2026-11-18"
+
+### 6. `/blog/parrish-fl-commercial-real-estate-2026`
+- Added investment-sales, tenant-representation, NNN cap rates, and cre-valuation links (10+ internal links)
+- Updated dateModified to "2026-11-18"
+
+### 7. `/blog/tampa-bay-auto-dealership-cre-2026`
+- Updated dateModified to "2026-11-18"
+
+### 8. `/blog/echelon-city-center-north-st-pete-cre-2026`
+- Updated dateModified to "2026-11-18"
+
+### 9. `/blog/port-tampa-bay-fourth-cruise-terminal-channel-district-cre`
+- Updated dateModified to "2026-11-18"
+
+### 10. `/blog/seminole-heights-commercial-real-estate-2026`
+- Updated dateModified to "2026-11-18"
+
+---
+
 ## Batch 92 — 2026-11-17
 
 **Commit:** `f7cb194` | **Build:** clean (0 errors) | **Pages improved:** 10
