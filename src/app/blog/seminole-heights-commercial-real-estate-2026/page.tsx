@@ -86,7 +86,7 @@ const schema = {
       description:
         "Seminole Heights is Tampa's most authentic neighborhood commercial district with walkable storefronts, independent restaurants, breweries, and rising investor interest along N Florida Avenue. A complete guide for tenants and investors in 2026.",
       datePublished: "2026-09-06",
-      dateModified: "2026-11-17",
+      dateModified: "2026-11-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

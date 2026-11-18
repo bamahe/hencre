@@ -86,7 +86,7 @@ const schema = {
       description:
         "Franchisees expanding in Tampa Bay in 2026 face a tight market, selective landlords, and high-stakes site selection decisions. This guide covers lease structure, submarket strategy, and the most common mistakes franchise operators make.",
       datePublished: "2026-11-15",
-      dateModified: "2026-11-17",
+      dateModified: "2026-11-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -233,7 +233,7 @@ export default function TampaBayFranchiseCREPage() {
           covers the specific corridors and development pipeline in this submarket.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Riverview and Brandon.</strong> Hillsborough County&apos;s southeastern growth corridor offers a compelling combination of high residential density, above-average household income, and retail vacancy below 4%. Franchise operators in food, fitness, healthcare, and personal services have all opened successful locations here, and the ongoing residential development in Riverview continues to extend the trade area. Rents for Class A inline and end-cap space run $28 to $38 per square foot NNN ,  meaningfully lower than Wesley Chapel&apos;s premium corridor.
+          <strong>Riverview and Brandon.</strong> Hillsborough County&apos;s southeastern growth corridor offers a compelling combination of high residential density, above-average household income, and retail vacancy below 4%. Franchise operators in food, fitness, healthcare, and personal services have all opened successful locations here, and the ongoing residential development in Riverview continues to extend the trade area. See our <Link href="/blog/riverview-fl-retail-leasing-guide" className="text-accent underline">Riverview retail leasing guide</Link>{" "}for specific corridor data. Rents for Class A inline and end-cap space run $28 to $38 per square foot NNN ,  meaningfully lower than Wesley Chapel&apos;s premium corridor.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>South Tampa and Dale Mabry.</strong> The highest-volume established corridor in the metro, with the strongest average unit volumes for food-and-beverage concepts. Vacancy below 2% and rents of $35 to $50 per square foot NNN for quality inline space mean this submarket is best suited to franchise operators with proven unit economics, a willingness to pay for prime real estate, and the brand recognition to generate immediate traffic at opening. First-time franchisees often find that the South Tampa market is too competitive and too expensive to be the right starting point.
@@ -271,7 +271,7 @@ export default function TampaBayFranchiseCREPage() {
           <strong>Underestimating full occupancy cost.</strong> Base rent is the visible number. Total NNN occupancy cost ,  base rent plus taxes, insurance, CAM, plus utilities ,  is what actually determines whether the location pencils. Franchisees who underwrite their sites on base rent alone consistently find that actual occupancy cost is 20% to 35% higher than their initial model assumed.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <strong>Accepting the first TI offer.</strong> Tenant improvement allowances (TI) are a negotiable component of the lease, and landlords in competitive markets routinely offer below their actual flexibility. For a well-qualified franchise tenant signing a 10-year NNN lease, TI allowances of $30 to $75 per square foot are achievable in many Tampa Bay retail centers. Franchisees who do not push back on the initial offer leave real money on the table.
+          <strong>Accepting the first TI offer.</strong> Tenant improvement allowances (TI) are a negotiable component of the lease, and landlords in competitive markets routinely offer below their actual flexibility. For a well-qualified franchise tenant signing a 10-year NNN lease, TI allowances of $30 to $75 per square foot are achievable in many Tampa Bay retail centers; our <Link href="/blog/tampa-bay-tenant-improvement-allowance-guide-2026" className="text-accent underline">Tampa Bay tenant improvement allowance guide</Link>{" "}details how the negotiation works. Franchisees who do not push back on the initial offer leave real money on the table.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           <strong>Signing without adequate protection provisions.</strong> Exclusivity clauses, co-tenancy requirements, renewal option rent structures, and assignment rights are provisions that determine whether a franchise lease is a long-term asset or liability. A lease signed without adequate protection in these areas can cost a franchisee significant money at renewal, limit flexibility to sell the franchise, or expose the location to competitive incursion within the same center.
@@ -285,9 +285,9 @@ export default function TampaBayFranchiseCREPage() {
           If you are a franchise operator evaluating your first Tampa Bay location or expanding an existing multi-unit presence across the metro, the market conditions in 2026 reward preparation and penalize delay. The best sites in the best corridors are going to operators who started their search earlier, prepared better, and understood the market more clearly than their competitors. If you are ready to begin that process, I am ready to help.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Franchisees who are also considering ownership of the real estate underlying their location can explore{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">FastSellEasySale.com</Link>{" "}
-          for perspectives on when and how business owners can structure a sale-leaseback or convert an existing owned location to free up capital for franchise growth ,  a strategy that makes sense in certain multi-unit scenarios.
+          Franchisees who are also considering ownership of the real estate underlying their location can explore Barrett Henry&apos;s{" "}
+          <Link href="/services/dispositions" className="text-accent underline">commercial property dispositions service</Link>{" "}
+          for perspectives on when and how business owners can structure a sale-leaseback or convert an existing owned location to free up capital for franchise growth, a strategy that makes sense in certain multi-unit scenarios.
         </p>
 
         <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>

@@ -104,7 +104,7 @@ const schema = {
       description:
         "Auto dealership properties are one of the most distinctive asset classes in Tampa Bay commercial real estate. From Dale Mabry's traditional auto row to Tesla and Rivian's new EV footprint, here is what investors and owners need to know in 2026.",
       datePublished: "2026-10-14",
-      dateModified: "2026-11-17",
+      dateModified: "2026-11-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

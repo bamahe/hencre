@@ -34,17 +34,17 @@ const faqItems = [
   {
     question: "What is a tenant improvement allowance (TIA)?",
     answer:
-      "A tenant improvement allowance — also called a TIA or TI allowance — is money provided by the landlord to cover the cost of building out or renovating a commercial space to fit the tenant's specific needs. It is typically expressed as a dollar amount per square foot and is included in the lease terms. The landlord pays contractors directly or reimburses the tenant after construction is complete, depending on the lease structure.",
+      "A tenant improvement allowance, also called a TIA or TI allowance, is money provided by the landlord to cover the cost of building out or renovating a commercial space to fit the tenant's specific needs. It is typically expressed as a dollar amount per square foot and is included in the lease terms. The landlord pays contractors directly or reimburses the tenant after construction is complete, depending on the lease structure.",
   },
   {
     question: "How much TI allowance is typical in Tampa Bay in 2026?",
     answer:
-      "Tampa Bay TI allowances vary by property type and market conditions. Class A office tenants on five-plus-year leases can expect roughly $50 to $85 per square foot. Class B office typically ranges from $25 to $50 per square foot. Strip-center retail runs $20 to $50 per square foot, while new-development retail can be $40 to $80 per square foot. Industrial and flex space is lower, typically $15 to $40 per square foot. Restaurant and medical tenants often need $100 or more per square foot due to specialized systems. These are ranges — your actual allowance depends on lease term, your credit, the landlord's current occupancy, and market conditions at the time.",
+      "Tampa Bay TI allowances vary by property type and market conditions. Class A office tenants on five-plus-year leases can expect roughly $50 to $85 per square foot. Class B office typically ranges from $25 to $50 per square foot. Strip-center retail runs $20 to $50 per square foot, while new-development retail can be $40 to $80 per square foot. Industrial and flex space is lower, typically $15 to $40 per square foot. Restaurant and medical tenants often need $100 or more per square foot due to specialized systems. These are ranges; your actual allowance depends on lease term, your credit, the landlord's current occupancy, and market conditions at the time.",
   },
   {
     question: "Who owns the improvements when the lease ends?",
     answer:
-      "In most commercial leases, the improvements become the landlord's property at the end of the lease term. This is an important point: you are building into someone else's building, and the landlord will recapture that value when the next tenant moves in. Some leases include a 'removal clause' requiring the tenant to restore the space to its original condition at lease expiration — especially for specialized buildouts like dental offices or restaurant kitchens. Review this provision carefully before signing.",
+      "In most commercial leases, the improvements become the landlord's property at the end of the lease term. This is an important point: you are building into someone else's building, and the landlord will recapture that value when the next tenant moves in. Some leases include a 'removal clause' requiring the tenant to restore the space to its original condition at lease expiration, especially for specialized buildouts like dental offices or restaurant kitchens. Review this provision carefully before signing.",
   },
   {
     question: "What is the difference between a TI allowance and a turnkey buildout?",
@@ -80,7 +80,7 @@ const schema = {
       description:
         "TI allowance ranges by property type, how to negotiate, and what Tampa Bay landlords are offering in 2026.",
       datePublished: "2026-11-16",
-      dateModified: "2026-11-16",
+      dateModified: "2026-11-18",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -137,7 +137,7 @@ const relatedLinks = [
   {
     title: "Tenant Representation Services",
     href: "/services/tenant-representation",
-    description: "How Barrett negotiates leases — including TI allowances — on behalf of tenants.",
+    description: "How Barrett negotiates leases, including TI allowances, on behalf of tenants.",
   },
   {
     title: "Tampa Bay Office Market Q4 2026",
@@ -172,34 +172,34 @@ export default function TenantImprovementAllowanceGuidePage() {
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&h=900&fit=crop"
         title="Tenant Improvement Allowance in Tampa Bay: 2026 Guide"
-        subtitle="The landlord is offering a TI allowance — but is it enough? Here is how TI allowances work, what Tampa Bay tenants should expect, and how to negotiate a better deal."
+        subtitle="The landlord is offering a TI allowance. Here is how TI allowances work, what Tampa Bay tenants should expect, and how to negotiate a better deal."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          When you lease commercial space that needs to be built out for your business — whether that is an{" "}
+          When you lease commercial space that needs to be built out for your business, whether that is an{" "}
           <Link href="/commercial/office-space" className="text-accent underline">office</Link>,{" "}
           <Link href="/commercial/retail-space" className="text-accent underline">retail storefront</Link>, or{" "}
-          <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial facility</Link>{" "}
-          — the landlord will typically offer a tenant improvement allowance to help cover construction costs. Understanding what TI allowances cover, how much to expect in Tampa Bay, and how to negotiate effectively is one of the most valuable things you can do before signing a lease. Getting this wrong can cost your business tens of thousands of dollars over the lease term. Working with a{" "}
+          <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial facility</Link>,{" "}
+          the landlord will typically offer a tenant improvement allowance to help cover construction costs. Understanding what TI allowances cover, how much to expect in Tampa Bay, and how to negotiate effectively is one of the most valuable things you can do before signing a lease. Getting this wrong can cost your business tens of thousands of dollars over the lease term. Working with a{" "}
           <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link>{" "}
           who negotiates leases in this market daily is the fastest way to know if what you are being offered is competitive.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Exactly Is a Tenant Improvement Allowance?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          A tenant improvement allowance — commonly called a TI allowance or TIA — is money provided by the landlord to build out or renovate a space for your specific use. It is expressed as a dollar amount per square foot. For example, a landlord offering a $40/SF TI allowance on a 3,000 square foot space is contributing $120,000 toward your buildout.
+          A tenant improvement allowance, commonly called a TI allowance or TIA, is money provided by the landlord to build out or renovate a space for your specific use. It is expressed as a dollar amount per square foot. For example, a landlord offering a $40/SF TI allowance on a 3,000 square foot space is contributing $120,000 toward your buildout.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           TI allowances exist because commercial spaces are rarely ready for a new tenant's specific use. An office tenant needs walls, ceilings, lighting, and IT infrastructure. A restaurant needs kitchen equipment, hood systems, and grease traps. A medical practice needs plumbing for exam rooms and specialized HVAC. The landlord uses the TI allowance as a tool to attract tenants who would otherwise face prohibitive upfront costs.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Crucially, the allowance is usually not a gift with no strings attached. It is embedded in the economics of the deal — landlords who offer higher TI allowances often adjust base rent to recover that investment over the lease term. This is why comparing the total occupancy cost of deals with different TI structures matters more than focusing on allowance alone.
+          Crucially, the allowance is usually not a gift with no strings attached. It is embedded in the economics of the deal: landlords who offer higher TI allowances often adjust base rent to recover that investment over the lease term. This is why comparing the total occupancy cost of deals with different TI structures matters more than focusing on allowance alone.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Are Typical TI Allowances in Tampa Bay in 2026?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Tampa Bay&apos;s tight market conditions — particularly in retail and industrial — mean tenants have less leverage than they did during the pandemic-era vacancies. That said, the office market still has available space, and landlords are competing for quality tenants with term and credit. Here are current benchmarks across property types:
+          Tampa Bay&apos;s tight market conditions, particularly in retail and industrial, mean tenants have less leverage than they did during the pandemic-era vacancies. That said, the office market still has available space, and landlords are competing for quality tenants with term and credit. Here are current benchmarks across property types:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-3">
           <li>
@@ -209,7 +209,7 @@ export default function TenantImprovementAllowanceGuidePage() {
             <strong>Class B office:</strong> $25 to $50 per square foot. Second-generation space with existing improvements typically receives lower allowances because less work is needed.
           </li>
           <li>
-            <strong>Strip center and inline retail:</strong> $20 to $50 per square foot for second-generation space. Retail vacancy in Tampa Bay sat near 3.8 percent in Q3 2026 — well below the national average — which limits landlord motivation to offer aggressive concessions in the most desirable corridors.
+            <strong>Strip center and inline retail:</strong> $20 to $50 per square foot for second-generation space. Retail vacancy in Tampa Bay sat near 3.8 percent in Q3 2026, well below the national average, which limits landlord motivation to offer aggressive concessions in the most desirable corridors.
           </li>
           <li>
             <strong>New-development retail (white box or cold dark shell):</strong> $40 to $80 per square foot. Building from a cold dark shell with no existing utilities or partitions requires significantly more investment.
@@ -234,7 +234,7 @@ export default function TenantImprovementAllowanceGuidePage() {
             className="rounded-lg w-full"
           />
           <p className="mt-2 text-sm text-[#666666] italic">
-            Tenant improvement buildouts can range from basic paint and carpet to full gut-renovation with custom systems — and the allowance range reflects that spread.
+            Tenant improvement buildouts can range from basic paint and carpet to full gut-renovation with custom systems, and the allowance range reflects that spread.
           </p>
         </div>
 
@@ -252,12 +252,12 @@ export default function TenantImprovementAllowanceGuidePage() {
           <li><strong>Painting and millwork.</strong> Built-in cabinetry, reception desks, and similar finishes.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Items that TI allowances typically do not cover include furniture, fixtures and equipment (FF&amp;E) that the tenant removes at lease end, moving costs, signage (sometimes billed separately), and telecom/data equipment. Negotiating what qualifies as a reimbursable TI expense matters — especially for tenants who want to apply the allowance toward higher-spec finishes that benefit both the tenant and the landlord&apos;s future re-leasing.
+          Items that TI allowances typically do not cover include furniture, fixtures and equipment (FF&amp;E) that the tenant removes at lease end, moving costs, signage (sometimes billed separately), and telecom/data equipment. Negotiating what qualifies as a reimbursable TI expense matters, especially for tenants who want to apply the allowance toward higher-spec finishes that benefit both the tenant and the landlord&apos;s future re-leasing.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Happens If Your Buildout Costs Exceed the Allowance?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          This is the conversation most tenants are not fully prepared for. In Tampa Bay&apos;s current construction environment — where material costs remain elevated and labor is tight — a $40/SF allowance on a cold dark shell often covers only a portion of a full buildout, which may run $80 to $150/SF or more depending on the finish level and use.
+          This is the conversation most tenants are not fully prepared for. In Tampa Bay&apos;s current construction environment, where material costs remain elevated and labor is tight, a $40/SF allowance on a cold dark shell often covers only a portion of a full buildout, which may run $80 to $150/SF or more depending on the finish level and use.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           When buildout costs exceed the TI allowance, your options include:
@@ -283,13 +283,13 @@ export default function TenantImprovementAllowanceGuidePage() {
             className="rounded-lg w-full"
           />
           <p className="mt-2 text-sm text-[#666666] italic">
-            A finished buildout reflects the combined investment of the TI allowance and the tenant&apos;s out-of-pocket contribution — understanding both sides of that equation before signing protects your business.
+            A finished buildout reflects the combined investment of the TI allowance and the tenant&apos;s out-of-pocket contribution; understanding both sides of that equation before signing protects your business.
           </p>
         </div>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do You Negotiate a Better TI Allowance?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          TI allowances are negotiable, and business owners who negotiate without a broker often leave money on the table. With 23+ years of real estate experience, Barrett Henry helps tenants structure deals where the TI allowance reflects the full economics of the lease — not just the number on the term sheet.
+          TI allowances are negotiable, and business owners who negotiate without a broker often leave money on the table. With 23+ years of real estate experience, Barrett Henry helps tenants structure deals where the TI allowance reflects the full economics of the lease, not just the number on the term sheet.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Effective strategies include:
@@ -298,7 +298,7 @@ export default function TenantImprovementAllowanceGuidePage() {
           <li><strong>Get a contractor estimate first.</strong> Walk into lease negotiations knowing your actual buildout cost. This positions the conversation around a real number, not a guess.</li>
           <li><strong>Offer a longer term in exchange for more allowance.</strong> A landlord who can recover a $60/SF allowance over a seven-year lease is in a different position than one recovering it over three years. Longer terms unlock larger allowances.</li>
           <li><strong>Demonstrate creditworthiness.</strong> Landlords give larger allowances to tenants who are unlikely to default. Providing financial statements, strong references from prior landlords, or offering a personal guarantee can unlock better terms.</li>
-          <li><strong>Ask for free rent instead of or in addition to TI.</strong> In submarkets with higher vacancy — particularly some Tampa Bay office submarkets — free rent during the construction period is a low-cost concession for a landlord who is not collecting rent from an empty space anyway.</li>
+          <li><strong>Ask for free rent instead of or in addition to TI.</strong> In submarkets with higher vacancy, particularly some Tampa Bay office submarkets, free rent during the construction period is a low-cost concession for a landlord who is not collecting rent from an empty space anyway.</li>
           <li><strong>Know the landlord&apos;s occupancy position.</strong> A landlord with a 30-percent-vacant building has more incentive to offer concessions than one at 95 percent. Your broker knows this before you walk in the door.</li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
@@ -316,33 +316,33 @@ export default function TenantImprovementAllowanceGuidePage() {
             <strong>Landlord-managed construction.</strong> The landlord hires and pays contractors directly. You provide input on the design, but the landlord controls the process. This is common for smaller tenants or when the landlord has in-house construction capabilities.
           </li>
           <li>
-            <strong>Tenant-managed construction with reimbursement.</strong> You hire your own general contractor, manage the project, and submit receipts to the landlord for reimbursement up to the allowance amount. This gives you more control over quality, timing, and contractor selection — but also more risk if costs overrun or the landlord delays reimbursement. Review the lease closely for reimbursement timing, lien waiver requirements, and approval processes.
+            <strong>Tenant-managed construction with reimbursement.</strong> You hire your own general contractor, manage the project, and submit receipts to the landlord for reimbursement up to the allowance amount. This gives you more control over quality, timing, and contractor selection, but also more risk if costs overrun or the landlord delays reimbursement. Review the lease closely for reimbursement timing, lien waiver requirements, and approval processes.
           </li>
         </ul>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Business owners considering a commercial purchase instead of a lease — especially those making a long-term commitment to a location — may find that{" "}
+          Business owners considering a commercial purchase instead of a lease, especially those making a long-term commitment to a location, may find that{" "}
           <Link href="/blog/tampa-bay-owner-user-commercial-real-estate-buy-vs-lease" className="text-accent underline">buying versus leasing</Link>{" "}
           changes the TI conversation entirely. When you own the building, any improvement you make builds equity rather than a landlord&apos;s asset. Owners who eventually want to exit their business or property can explore options through{" "}
-          <a href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">Fast Sell Easy Sale</a>,
+          our <Link href="/services/dispositions" className="text-accent underline">commercial property dispositions service</Link>,
           which works with business and property owners considering a sale.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line for Tampa Bay Tenants</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          A tenant improvement allowance is not free money — it is a tool embedded in the economics of a lease deal. Understanding what Tampa Bay landlords are offering in 2026, knowing your actual buildout cost before negotiating, and structuring the deal to reflect total occupancy cost rather than just base rent puts you in a fundamentally stronger position. With 23+ years of real estate experience serving businesses across{" "}
+          A tenant improvement allowance is not free money; it is a tool embedded in the economics of a lease deal. Understanding what Tampa Bay landlords are offering in 2026, knowing your actual buildout cost before negotiating, and structuring the deal to reflect total occupancy cost rather than just base rent puts you in a fundamentally stronger position. With 23+ years of real estate experience serving businesses across{" "}
           <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>,{" "}
           <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>,{" "}
           <Link href="/markets/pasco" className="text-accent underline">Pasco</Link>, and surrounding counties,
           Barrett Henry helps tenants navigate TI allowance negotiations as part of a comprehensive{" "}
           <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link>{" "}
-          process — at no cost to the tenant, since the landlord pays the broker fee.
+          process, at no cost to the tenant, since the landlord pays the broker fee.
         </p>
       </article>
 
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Tenant Improvement Allowance — Frequently Asked Questions</h2>
+          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Tenant Improvement Allowance: Frequently Asked Questions</h2>
           <FAQAccordion items={faqItems} />
         </div>
       </section>
