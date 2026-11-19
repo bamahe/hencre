@@ -4,6 +4,54 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 94 — 2026-11-19
+
+**Commit:** `950f225` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/brooksville-hernando-county-commercial-real-estate-investor-guide`
+- First full audit of this page
+- Merged dual articleSchema + faqSchema into single @graph schema
+- Fixed metadata title (83 chars -> 64 chars): removed colon and subtitle
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Fixed 5 relatedLinks hrefs (missing /blog/ prefix)
+- Removed irrelevant HUD/FHA/HOPE "Free Resources" section
+- Added "Home" as first breadcrumb item
+- Added dateModified: "2026-11-19"
+- Added 3 more related links (brooksville-2026, nnn-cap-rates, investment-sales)
+
+### 2. `/blog/citrus-park-odessa-carrollwood-commercial-real-estate-2026`
+- First audit of this page
+- Updated dateModified: "2026-11-17" -> "2026-11-19"
+
+### 3. `/blog/tampa-bay-commercial-lease-renewal-strategy-2026`
+- First audit of this page
+- Replaced external fastselleasysale.com link with internal /services/dispositions
+- Updated dateModified: "2026-11-12" -> "2026-11-19"
+
+### 4. `/blog/understanding-cam-charges-tenants-guide`
+- Fixed 14 em/en dashes throughout FAQ and article body
+- Updated dateModified: "2026-11-08" -> "2026-11-19"
+
+### 5. `/blog/south-tampa-commercial-real-estate-2026`
+- Updated dateModified: "2026-11-08" -> "2026-11-19"
+
+### 6. `/blog/termite-damage-investment-property-florida`
+- Updated dateModified: "2026-10-18" -> "2026-11-19"
+
+### 7. `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Updated dateModified: "2026-10-12" -> "2026-11-19"
+
+### 8. `/blog/tampa-bay-data-center-cre-2026`
+- Updated dateModified: "2026-11-06" -> "2026-11-19"
+
+### 9. `/blog/what-makes-a-good-commercial-investment`
+- Updated dateModified: "2026-11-08" -> "2026-11-19"
+
+### 10. `/blog/why-tampa-bay-cre-is-booming`
+- Updated dateModified: "2026-11-16" -> "2026-11-19"
+
+---
+
 ## Batch 93 — 2026-11-18
 
 **Commit:** `89084fb` | **Build:** clean (0 errors) | **Pages improved:** 10
