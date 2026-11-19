@@ -79,7 +79,7 @@ const schema = {
       description:
         "WDO findings on Florida investment properties trigger mandatory lender repair requirements that can consume years of rental income. Here is how to evaluate the repair-vs-sell decision.",
       datePublished: "2026-06-24",
-      dateModified: "2026-10-18",
+      dateModified: "2026-11-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

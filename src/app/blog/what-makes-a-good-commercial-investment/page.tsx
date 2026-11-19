@@ -85,7 +85,7 @@ const schema = {
       description:
         "Learn what experienced investors look for in commercial real estate - tenant quality, lease terms, location fundamentals, and more.",
       datePublished: "2026-05-15",
-      dateModified: "2026-11-08",
+      dateModified: "2026-11-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

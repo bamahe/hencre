@@ -39,17 +39,17 @@ const faqItems = [
   {
     question: "What is a CAM cap and how does it protect tenants?",
     answer:
-      "A CAM cap limits the annual increase in your CAM charges — typically to 3 to 5 percent per year. Without a cap, landlords can pass through any expense increases, including major capital improvements and spiking insurance costs. A CAM cap protects your budget predictability over the life of the lease. Not all landlords will agree to a cap, but a skilled tenant representative can often negotiate one.",
+      "A CAM cap limits the annual increase in your CAM charges, typically 3 to 5 percent per year. Without a cap, landlords can pass through any expense increases, including major capital improvements and spiking insurance costs. A CAM cap protects your budget predictability over the life of the lease. Not all landlords will agree to a cap, but a skilled tenant representative can often negotiate one.",
   },
   {
     question: "What should be excluded from CAM?",
     answer:
-      "Expenses that should typically be excluded from CAM include capital expenditures (roof replacements, structural repairs), leasing costs (broker commissions, tenant improvement allowances), landlord's legal and accounting fees, expenses for vacant spaces, and landlord financing costs. Review the CAM exclusion list in your lease carefully — what is excluded is as important as what is included.",
+      "Expenses that should typically be excluded from CAM include capital expenditures (roof replacements, structural repairs), leasing costs (broker commissions, tenant improvement allowances), landlord's legal and accounting fees, expenses for vacant spaces, and landlord financing costs. Review the CAM exclusion list in your lease carefully; what is excluded is as important as what is included.",
   },
   {
     question: "Can I audit my CAM charges?",
     answer:
-      "Most commercial leases include an audit right that allows tenants to review the landlord's CAM expense documentation. Many tenants never exercise this right, but audits frequently uncover overcharges. If your annual CAM reconciliation shows unexpected increases, requesting an audit is reasonable — especially if you are paying significant CAM amounts annually.",
+      "Most commercial leases include an audit right that allows tenants to review the landlord's CAM expense documentation. Many tenants never exercise this right, but audits frequently uncover overcharges. If your annual CAM reconciliation shows unexpected increases, requesting an audit is reasonable, especially if you are paying significant CAM amounts annually.",
   },
   {
     question: "How do CAM charges differ between retail, office, and industrial leases?",
@@ -80,7 +80,7 @@ const schema = {
       description:
         "What CAM charges cover, how they are calculated, and how to negotiate better terms.",
       datePublished: "2026-06-03",
-      dateModified: "2026-11-08",
+      dateModified: "2026-11-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -177,18 +177,18 @@ export default function CAMChargesGuidePage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Common area maintenance charges — usually called CAM — are one of the most misunderstood costs in commercial real estate. If you are leasing{" "}
+          Common area maintenance charges (usually called CAM) are one of the most misunderstood costs in commercial real estate. If you are leasing{" "}
           <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>,{" "}
           <Link href="/commercial/office-space" className="text-accent underline">office</Link>, or{" "}
           <Link href="/commercial/industrial-warehouse" className="text-accent underline">industrial space</Link>,
-          understanding CAM is essential because it directly affects your total occupancy cost. Many tenants focus on base rent during negotiations and overlook CAM charges — a mistake that can cost thousands of dollars per year. Working with a{" "}
+          understanding CAM is essential because it directly affects your total occupancy cost. Many tenants focus on base rent during negotiations and overlook CAM charges, a mistake that can cost thousands of dollars per year. Working with a{" "}
           <Link href="/services/tenant-representation" className="text-accent underline">tenant representative</Link>{" "}
           who understands lease economics is the most effective way to protect your budget.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Do CAM Charges Actually Cover?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          CAM charges cover the costs of maintaining and operating the common areas of a commercial property — the spaces shared by all tenants and their customers. Typical CAM expenses include:
+          CAM charges cover the costs of maintaining and operating the common areas of a commercial property: the spaces shared by all tenants and their customers. Typical CAM expenses include:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>Parking lot maintenance.</strong> Repaving, restriping, lighting, and cleaning.</li>
@@ -214,7 +214,7 @@ export default function CAMChargesGuidePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Are CAM Charges Calculated?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          CAM charges are typically calculated on a pro rata basis — your share of the total CAM expenses is proportional to the percentage of the building&apos;s total leasable square footage that you occupy.
+          CAM charges are typically calculated on a pro rata basis: your share of the total CAM expenses is proportional to the percentage of the building&apos;s total leasable square footage that you occupy.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Example: If the total building is 20,000 square feet and you lease 2,000 square feet, your pro rata share is 10 percent. If total annual CAM expenses are $60,000, your share is $6,000 per year, or $500 per month on top of your base rent.
@@ -227,7 +227,7 @@ export default function CAMChargesGuidePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is a CAM Cap and Why Should You Negotiate One?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          A CAM cap limits how much your CAM charges can increase each year — typically 3 to 5 percent annually. Without a cap, your CAM charges can spike if the landlord undertakes major capital improvements, hires a more expensive management company, or if insurance costs jump (a real concern in Florida).
+          A CAM cap limits how much your CAM charges can increase each year, typically 3 to 5 percent annually. Without a cap, your CAM charges can spike if the landlord undertakes major capital improvements, hires a more expensive management company, or if insurance costs jump (a real concern in Florida).
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Negotiating a CAM cap is one of the most important lease provisions for tenants. It gives you budget predictability and protects against unexpected cost increases. Some landlords resist caps, but a good{" "}
@@ -255,7 +255,7 @@ export default function CAMChargesGuidePage() {
           Not all property expenses should be passed through to tenants as CAM. Watch for these items that should typically be excluded:
         </p>
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
-          <li><strong>Capital expenditures.</strong> Roof replacements, structural repairs, and major building systems should be the landlord&apos;s responsibility, not CAM. Some landlords try to amortize these through CAM — push back.</li>
+          <li><strong>Capital expenditures.</strong> Roof replacements, structural repairs, and major building systems should be the landlord&apos;s responsibility, not CAM. Some landlords try to amortize these through CAM; push back.</li>
           <li><strong>Leasing costs.</strong> Broker commissions, tenant improvement allowances, and marketing costs for vacant space are the landlord&apos;s cost of doing business.</li>
           <li><strong>Landlord&apos;s legal and accounting fees.</strong> Unless they directly benefit tenants, these should not be in CAM.</li>
           <li><strong>Expenses for vacant spaces.</strong> The landlord should not increase your pro rata share because other spaces are vacant.</li>
@@ -264,7 +264,7 @@ export default function CAMChargesGuidePage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Do You Audit CAM Charges?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Your lease should include an audit right — the ability to review the landlord&apos;s CAM expense records. Most tenants never exercise this right, but audits frequently uncover overcharges. Common issues include expenses charged to CAM that should be excluded, mathematical errors in pro rata calculations, and expenses billed to your property that belong to another property owned by the same landlord.
+          Your lease should include an audit right: the ability to review the landlord&apos;s CAM expense records. Most tenants never exercise this right, but audits frequently uncover overcharges. Common issues include expenses charged to CAM that should be excluded, mathematical errors in pro rata calculations, and expenses billed to your property that belong to another property owned by the same landlord.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If you are in a multi-tenant property paying more than $5,000 annually in CAM, an audit is worth considering, especially if your year-end reconciliation shows significant increases from the estimates. Before leasing,{" "}
@@ -280,9 +280,9 @@ export default function CAMChargesGuidePage() {
           <Link href="/commercial/office-space" className="text-accent underline">Office buildings</Link>{" "}
           include elevator maintenance, lobby upkeep, and common restroom maintenance.{" "}
           <Link href="/commercial/industrial-warehouse" className="text-accent underline">Industrial properties</Link>{" "}
-          tend to have lower CAM charges because common areas are minimal. Understanding the lease structure — gross, net, or{" "}
+          tend to have lower CAM charges because common areas are minimal. Understanding the lease structure (gross, net, or{" "}
           <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple net (NNN)</Link>{" "}
-          — determines how CAM is handled in your specific situation.
+          ) determines how CAM is handled in your specific situation.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
@@ -296,7 +296,7 @@ export default function CAMChargesGuidePage() {
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">CAM Charges — Frequently Asked Questions</h2>
+          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">CAM Charges: Frequently Asked Questions</h2>
           <FAQAccordion items={faqItems} />
         </div>
       </section>
@@ -326,7 +326,7 @@ export default function CAMChargesGuidePage() {
 
       <CTASection
         heading="Confused by CAM Charges on Your Lease?"
-        body="Barrett reviews lease terms and negotiates CAM provisions for tenants across Florida. Tenant representation is typically free — the landlord pays the broker fee."
+        body="Barrett reviews lease terms and negotiates CAM provisions for tenants across Florida. Tenant representation is typically free; the landlord pays the broker fee."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

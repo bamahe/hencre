@@ -12,113 +12,120 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Brooksville & Hernando County Commercial Real Estate: The Investor's Inside Guide",
+  title: "Brooksville Hernando County Commercial Real Estate Investor Guide",
   description: "Discover why Brooksville and Hernando County, FL are emerging as top commercial real estate investment targets in 2026. Learn about market drivers, property types, and opportunities.",
   alternates: { canonical: "https://hencre.com/blog/brooksville-hernando-county-commercial-real-estate-investor-guide" },
   openGraph: {
-    title: "Brooksville & Hernando County Commercial Real Estate: The Investor's Inside Guide",
+    title: "Brooksville Hernando County Commercial Real Estate Investor Guide",
     description: "Discover why Brooksville and Hernando County, FL are emerging as top commercial real estate investment targets in 2026. Learn about market drivers, property types, and opportunities.",
     url: "https://hencre.com/blog/brooksville-hernando-county-commercial-real-estate-investor-guide",
     type: "article",
-    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "Brooksville & Hernando County Commercial Real Estate: The Investor's Inside Guide" }],
+    images: [{ url: "https://hencre.com/og-image.png", width: 1200, height: 630, alt: "Brooksville Hernando County Commercial Real Estate Investor Guide 2026" }],
   },
 };
 
-const articleSchema = {
+const schema = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "Brooksville & Hernando County Commercial Real Estate: The Investor's Inside Guide",
-  description: "Discover why Brooksville and Hernando County, FL are emerging as top commercial real estate investment targets in 2026. Learn about market drivers, property types, and opportunities.",
-  datePublished: "2026-11-18",
-  author: {
-    "@type": "Person",
-    name: "Barrett Henry",
-    jobTitle: "Commercial Real Estate Advisor",
-    image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-    sameAs: [
-      "https://hencre.com/about",
-      "https://nowtb.com",
-      "https://barretthenry.remax.com",
-    ],
-    worksFor: { "@type": "Organization", name: "REMAX Collective" },
-  },
-  publisher: { "@type": "Organization", name: "REMAX Commercial Real Estate", url: "https://hencre.com" },
-  url: "https://hencre.com/blog/brooksville-hernando-county-commercial-real-estate-investor-guide",
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
+  "@graph": [
     {
-      "@type": "Question",
-      name: "What types of commercial real estate are most in demand in Brooksville and Hernando County?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Industrial, flex, medical office, and retail NNN properties along major corridors like SR-50 and US-19 are currently seeing the strongest demand. Healthcare-related real estate is also experiencing significant growth driven by the county's aging and expanding population.",
-      },
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        { "@type": "ListItem", position: 3, name: "Brooksville Hernando County Commercial Real Estate Investor Guide", item: "https://hencre.com/blog/brooksville-hernando-county-commercial-real-estate-investor-guide" },
+      ],
     },
     {
-      "@type": "Question",
-      name: "Is Hernando County a good market for NNN investment properties?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. Hernando County offers NNN cap rates that are often 50 to 100 basis points higher than comparable Tampa Bay submarkets, while still featuring national and regional tenants. The combination of yield and growth potential makes it attractive for income-focused investors.",
+      "@type": "BlogPosting",
+      headline: "Brooksville Hernando County Commercial Real Estate Investor Guide",
+      description: "Discover why Brooksville and Hernando County, FL are emerging as top commercial real estate investment targets in 2026. Learn about market drivers, property types, and opportunities.",
+      datePublished: "2026-11-18",
+      dateModified: "2026-11-19",
+      author: {
+        "@type": "Person",
+        name: "Barrett Henry",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
+        image: "https://hencre.com/images/barrett-henry-headshot.jpg",
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
+      publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
+      url: "https://hencre.com/blog/brooksville-hernando-county-commercial-real-estate-investor-guide",
     },
     {
-      "@type": "Question",
-      name: "How does Brooksville compare to other Tampa Bay area commercial markets?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Brooksville and Hernando County offer lower entry prices, higher yields, and meaningful upside potential compared to more established Tampa Bay submarkets. The trade-off is a less liquid market, which makes working with a knowledgeable local broker especially important.",
-      },
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What types of commercial real estate are most in demand in Brooksville and Hernando County?",
+          acceptedAnswer: { "@type": "Answer", text: "Industrial, flex, medical office, and retail NNN properties along major corridors like SR-50 and US-19 are currently seeing the strongest demand. Healthcare-related real estate is also experiencing significant growth driven by the county's aging and expanding population." },
+        },
+        {
+          "@type": "Question",
+          name: "Is Hernando County a good market for NNN investment properties?",
+          acceptedAnswer: { "@type": "Answer", text: "Yes. Hernando County offers NNN cap rates that are often 50 to 100 basis points higher than comparable Tampa Bay submarkets, while still featuring national and regional tenants. The combination of yield and growth potential makes it attractive for income-focused investors." },
+        },
+        {
+          "@type": "Question",
+          name: "How does Brooksville compare to other Tampa Bay area commercial markets?",
+          acceptedAnswer: { "@type": "Answer", text: "Brooksville and Hernando County offer lower entry prices, higher yields, and meaningful upside potential compared to more established Tampa Bay submarkets. The trade-off is a less liquid market, which makes working with a knowledgeable local broker especially important." },
+        },
+        {
+          "@type": "Question",
+          name: "What industries are driving commercial real estate demand in Hernando County?",
+          acceptedAnswer: { "@type": "Answer", text: "Healthcare, logistics and distribution, light manufacturing, food-and-beverage retail, and automotive services are the primary demand drivers. The county's growing residential base continues to attract service-oriented businesses across virtually every category." },
+        },
+        {
+          "@type": "Question",
+          name: "Do I need a local commercial real estate broker to invest in Hernando County?",
+          acceptedAnswer: { "@type": "Answer", text: "Local market expertise is critical in a market like Hernando County, where off-market opportunities, zoning nuances, and corridor-specific dynamics significantly impact investment outcomes. A broker with direct Hernando County experience can help you avoid overpaying and identify opportunities that never reach public listing platforms." },
+        },
+      ],
     },
-    {
-      "@type": "Question",
-      name: "What industries are driving commercial real estate demand in Hernando County?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Healthcare, logistics and distribution, light manufacturing, food-and-beverage retail, and automotive services are the primary demand drivers. The county's growing residential base continues to attract service-oriented businesses across virtually every category.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do I need a local commercial real estate broker to invest in Hernando County?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Local market expertise is critical in a market like Hernando County, where off-market opportunities, zoning nuances, and corridor-specific dynamics significantly impact investment outcomes. A broker with direct Hernando County experience can help you avoid overpaying and identify opportunities that never reach public listing platforms.",
-      },
-    }
   ],
 };
 
 const relatedLinks = [
   {
     title: "Crystal River & Citrus County CRE Market Guide",
-    href: "/crystal-river-citrus-county-cre-market-guide-2026",
+    href: "/blog/crystal-river-citrus-county-cre-market-guide-2026",
     description: "Explore commercial real estate opportunities along Florida's Nature Coast, just north of Hernando County.",
   },
   {
     title: "Commercial Property Zoning in Florida: The Basics",
-    href: "/commercial-property-zoning-florida-basics",
+    href: "/blog/commercial-property-zoning-florida-basics",
     description: "Understand Florida's commercial zoning classifications before you invest in any market, including Hernando County.",
   },
   {
     title: "Commercial Property Due Diligence Timeline",
-    href: "/commercial-property-due-diligence-timeline",
+    href: "/blog/commercial-property-due-diligence-timeline",
     description: "Learn the critical steps and timelines involved in due diligence for Florida commercial property acquisitions.",
   },
   {
     title: "Do You Need a Commercial Real Estate Broker?",
-    href: "/do-you-need-a-commercial-real-estate-broker",
+    href: "/blog/do-you-need-a-commercial-real-estate-broker",
     description: "Understand when and why working with a CRE broker delivers measurable value for buyers, sellers, and tenants.",
   },
   {
     title: "Bradenton & Manatee County CRE Market 2026",
-    href: "/bradenton-manatee-county-commercial-real-estate-2026",
+    href: "/blog/bradenton-manatee-county-commercial-real-estate-2026",
     description: "Compare Hernando County dynamics with the growing Bradenton and Manatee County commercial market.",
-  }
+  },
+  {
+    title: "Brooksville Hernando County CRE 2026",
+    href: "/blog/brooksville-hernando-county-commercial-real-estate-2026",
+    description: "Current market overview for Brooksville and Hernando County commercial real estate in 2026.",
+  },
+  {
+    title: "Tampa Bay NNN Cap Rates 2026",
+    href: "/blog/tampa-bay-nnn-cap-rates-2026",
+    description: "Current cap rate benchmarks for NNN investments across the Tampa Bay and surrounding markets.",
+  },
+  {
+    title: "Investment Sales Services",
+    href: "/services/investment-sales",
+    description: "Barrett Henry handles acquisition and disposition of investment properties throughout Florida.",
+  },
 ];
 
 const faqItems = [
@@ -147,18 +154,18 @@ const faqItems = [
 export default function BlogPost() {
   return (
     <>
-      <SchemaOrg schema={articleSchema} />
-      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={schema} />
 
       <Breadcrumbs
         items={[
+          { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: "Brooksville & Hernando County Commercial Real Estate: The Investor's Inside Guide", href: "/blog/brooksville-hernando-county-commercial-real-estate-investor-guide" },
+          { label: "Brooksville Hernando County CRE Investor Guide", href: "/blog/brooksville-hernando-county-commercial-real-estate-investor-guide" },
         ]}
       />
 
       <Hero
-        title="Brooksville & Hernando County Commercial Real Estate: The Investor's Inside Guide"
+        title="Brooksville Hernando County Commercial Real Estate Investor Guide"
         subtitle="Discover why Brooksville and Hernando County, FL are emerging as top commercial real estate investment targets in 2026. Learn about market drivers, property types, and opportunities."
       />
 
@@ -200,18 +207,6 @@ export default function BlogPost() {
               Barrett has 23+ years of real estate experience and operates under the REMAX Commercial\u00AE division for commercial transactions. He serves all 67 Florida counties from offices in Tampa, Largo, and Brandon.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* ---- Free Resources ---- */}
-      <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
-        <div className="rounded-lg bg-[#F5F5F5] p-6 text-sm text-[#666666]">
-          <p className="font-semibold text-black">Free Resources</p>
-          <ul className="mt-2 space-y-1">
-            <li>HUD Housing Counseling: <a href="tel:18005694287" className="underline">1-800-569-4287</a></li>
-            <li>FHA Resource Center: <a href="tel:18002255342" className="underline">1-800-225-5342</a></li>
-            <li>HOPE Hotline: <a href="tel:18889954673" className="underline">1-888-995-4673</a></li>
-          </ul>
         </div>
       </section>
 

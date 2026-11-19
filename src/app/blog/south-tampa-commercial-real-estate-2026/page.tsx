@@ -42,7 +42,7 @@ const schema = {
       headline: "South Tampa Commercial Real Estate: Market Guide 2026",
       description: "South Tampa commands premium rents, tight vacancy, and strong investor demand. Here is a complete market guide for office, retail, and medical commercial property in one of Tampa Bay's most affluent submarkets.",
       datePublished: "2026-08-09",
-      dateModified: "2026-11-08",
+      dateModified: "2026-11-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

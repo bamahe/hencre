@@ -85,7 +85,7 @@ const schema = {
       description:
         "A practical guide for Tampa Bay business tenants navigating commercial lease renewals — when to start, how to negotiate TI allowances, holdover clause risks, and whether to stay or relocate in a tight market.",
       datePublished: "2026-11-12",
-      dateModified: "2026-11-12",
+      dateModified: "2026-11-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -240,8 +240,8 @@ export default function Page() {
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           If you are a business owner evaluating whether to sell rather than renew, the intersection of commercial and residential real estate decisions is worth examining separately. Barrett also works with business owners making broader property decisions, including situations where selling a property (rather than leasing) may serve the business better. For quick exit options on commercial properties, the team at{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">Fast Sell Easy Sale</a>{" "}
-          specializes in rapid commercial and business property transactions when speed matters more than maximizing price.
+          our <a href="/services/dispositions" className="text-accent underline">commercial property dispositions service</a>{" "}
+          can help evaluate rapid-exit options when speed matters more than maximizing price.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should You Inspect Before Signing a Commercial Lease Renewal?</h2>

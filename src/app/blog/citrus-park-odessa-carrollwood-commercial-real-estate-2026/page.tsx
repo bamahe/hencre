@@ -92,7 +92,7 @@ const schema = {
       description:
         "Northwest Tampa's Veterans Expressway corridor combines high household incomes, limited new commercial supply, and sustained residential growth -- creating durable opportunities for tenants, landlords, and investors in 2026.",
       datePublished: "2026-11-17",
-      dateModified: "2026-11-17",
+      dateModified: "2026-11-19",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
