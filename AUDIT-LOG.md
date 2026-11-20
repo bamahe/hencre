@@ -6887,3 +6887,59 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### 10. `/blog/understanding-cam-charges-tenants-guide`
 - Fixed jobTitle to full credentials
 - Updated dateModified to "2026-11-08", last updated text to November 2026
+
+---
+
+## Batch 85 — 2026-11-20
+
+**Commit:** `63b4bf1` | **Build:** clean (0 errors, 382 pages) | **Pages improved:** 10
+
+### 1. `/blog/citrus-park-odessa-carrollwood-commercial-real-estate-2026`
+- Fixed 33 em dashes (-- replacement with commas)
+- Replaced fastselleasysale.com external `<a>` with internal `<Link href="/services/dispositions">`
+- Replaced nowtb.com external `<a>` with internal `<Link href="/blog/why-tampa-bay-cre-is-booming">`
+- Updated dateModified to "2026-11-20"
+
+### 2. `/blog/lutz-fl-commercial-real-estate-2026`
+- Fixed 31 em dashes (-- replacement with commas)
+- Fixed jobTitle from "Broker Associate" to full credentials format
+- Updated dateModified to "2026-11-20"
+
+### 3. `/blog/florida-insurance-crisis-investment-properties`
+- Fixed 16 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-20"
+
+### 4. `/blog/brandon-nnn-landlord-investment-strategy-hillsborough`
+- Fixed 12 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-20"
+
+### 5. `/blog/lakeland-polk-county-commercial-real-estate-2026`
+- Fixed 11 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-20"
+
+### 6. `/blog/brandon-commercial-real-estate-guide-2026`
+- Fixed 10 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-20"
+
+### 7. `/blog/brandon-hillsborough-commercial-real-estate-market-2026`
+- Fixed 10 em dashes (-- replacement with commas)
+- Fixed jobTitle from "Broker Associate" to full credentials format
+- Updated dateModified to "2026-11-20"
+
+### 8. `/blog/largo-fl-commercial-real-estate-hidden-gem-pinellas`
+- Fixed 7 em dashes (-- replacement with commas)
+- Fixed jobTitle from "Broker Associate" to full credentials format
+- Updated dateModified to "2026-11-20"
+
+### 9. `/blog/riverview-fl-retail-leasing-guide`
+- Fixed 7 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-20"
+
+### 10. `/blog/florida-business-rent-tax-repeal-tampa-bay`
+- Fixed 6 em dashes (-- replacement with commas)
+- Fixed jobTitle from "Broker Associate" to full credentials format
+- Updated dateModified to "2026-11-20"
+
+### Bonus fix: `/blog/tampa-bay-cre-year-end-planning-2026`
+- Fixed pre-existing TypeScript build error: added `href` to last Breadcrumbs item
+- Fixed CTASection props: `title` -> `heading`, `description` -> `body`, `ctaText` -> `buttonText`, removed invalid `phone` prop
