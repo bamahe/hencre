@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title:
       "Citrus Park, Odessa & Carrollwood Commercial Real Estate 2026",
     description:
-      "Northwest Tampa's Veterans Expressway corridor combines high household incomes, limited new commercial supply, and sustained residential growth -- creating durable opportunities for tenants, landlords, and investors in 2026.",
+      "Northwest Tampa's Veterans Expressway corridor combines high household incomes, limited new commercial supply, and sustained residential growth, creating durable opportunities for tenants, landlords, and investors in 2026.",
     url: "https://hencre.com/blog/citrus-park-odessa-carrollwood-commercial-real-estate-2026",
     type: "article",
     images: [
@@ -45,27 +45,27 @@ const faqItems = [
     question:
       "Is Citrus Park a good market for commercial real estate investment in 2026?",
     answer:
-      "Citrus Park is one of the most underappreciated commercial submarkets in northwest Tampa in 2026. It combines the highest household income demographics in the northwest Hillsborough County corridor with a Westfield mall anchor that drives sustained retail traffic and limits the need for investors to build demand from scratch. The core retail nodes along the Veterans Expressway, Gunn Highway, and Citrus Park Drive have benefited from years of limited new competition -- the land constraints around the existing centers make material new supply difficult to deliver. For investors, that supply-demand gap means strong occupancy, durable rents, and a tenant mix that is difficult to displace. For tenants, it means you will face competition for quality space, and waiting rarely produces better options.",
+      "Citrus Park is one of the most underappreciated commercial submarkets in northwest Tampa in 2026. It combines the highest household income demographics in the northwest Hillsborough County corridor with a Westfield mall anchor that drives sustained retail traffic and limits the need for investors to build demand from scratch. The core retail nodes along the Veterans Expressway, Gunn Highway, and Citrus Park Drive have benefited from years of limited new competition, the land constraints around the existing centers make material new supply difficult to deliver. For investors, that supply-demand gap means strong occupancy, durable rents, and a tenant mix that is difficult to displace. For tenants, it means you will face competition for quality space, and waiting rarely produces better options.",
   },
   {
     question: "What are the key commercial corridors in Citrus Park, Odessa, and Carrollwood?",
     answer:
-      "The Veterans Expressway (SR-589) is the defining infrastructure of this submarket, running north-south and connecting northwest Tampa to downtown Tampa and the airport corridor to the south, and extending into Pasco County to the north. The commercial activity concentrated near Veterans Expressway interchanges -- particularly Ehrlich Road, Gunn Highway, and Linebaugh Avenue -- captures the highest traffic counts and most national tenant demand. Gunn Highway (SR-580) is the primary east-west artery connecting Carrollwood through Citrus Park and into Odessa, anchoring a service-oriented commercial strip with consistent neighborhood retail demand. Sheldon Road connects north from Citrus Park toward Land O' Lakes with an emerging commercial node at the SR-54 intersection. Dale Mabry Highway marks the eastern boundary of Carrollwood and carries significant traffic to and from the broader Tampa market, though the most commercially intensive Dale Mabry nodes are south of the Carrollwood community itself.",
+      "The Veterans Expressway (SR-589) is the defining infrastructure of this submarket, running north-south and connecting northwest Tampa to downtown Tampa and the airport corridor to the south, and extending into Pasco County to the north. The commercial activity concentrated near Veterans Expressway interchanges, particularly Ehrlich Road, Gunn Highway, and Linebaugh Avenue, captures the highest traffic counts and most national tenant demand. Gunn Highway (SR-580) is the primary east-west artery connecting Carrollwood through Citrus Park and into Odessa, anchoring a service-oriented commercial strip with consistent neighborhood retail demand. Sheldon Road connects north from Citrus Park toward Land O' Lakes with an emerging commercial node at the SR-54 intersection. Dale Mabry Highway marks the eastern boundary of Carrollwood and carries significant traffic to and from the broader Tampa market, though the most commercially intensive Dale Mabry nodes are south of the Carrollwood community itself.",
   },
   {
     question: "What types of businesses succeed in Carrollwood, Citrus Park, and Odessa?",
     answer:
-      "The demographic profile of this corridor -- dual-income professional households, aging-in-place homeowners, and families in established suburban communities -- drives predictable commercial demand. Medical and dental practices consistently perform well: the household incomes support premium out-of-pocket care, and the population age distribution creates demand across pediatric, adult primary, dental, dermatology, and senior care categories. Specialty fitness, yoga, and wellness studios have established strong footprints in the area and continue to generate solid lease demand. Financial services, insurance, mortgage, wealth management, and legal offices find a natural client base in the established professional households. Quick-service and fast-casual food remains chronically undersupplied relative to rooftop counts in the northwest corridor, particularly in Odessa, which still lacks the density of QSR options that comparable income-and-rooftop areas of Tampa carry. Boutique childcare, tutoring centers, and enrichment programs also perform above market given the family-oriented residential base.",
+      "The demographic profile of this corridor, dual-income professional households, aging-in-place homeowners, and families in established suburban communities, drives predictable commercial demand. Medical and dental practices consistently perform well: the household incomes support premium out-of-pocket care, and the population age distribution creates demand across pediatric, adult primary, dental, dermatology, and senior care categories. Specialty fitness, yoga, and wellness studios have established strong footprints in the area and continue to generate solid lease demand. Financial services, insurance, mortgage, wealth management, and legal offices find a natural client base in the established professional households. Quick-service and fast-casual food remains chronically undersupplied relative to rooftop counts in the northwest corridor, particularly in Odessa, which still lacks the density of QSR options that comparable income-and-rooftop areas of Tampa carry. Boutique childcare, tutoring centers, and enrichment programs also perform above market given the family-oriented residential base.",
   },
   {
     question: "How does the Citrus Park Mall affect nearby commercial real estate?",
     answer:
-      "Westfield Citrus Park Mall functions as the dominant retail anchor for the northwest Hillsborough County trade area and shapes commercial demand in ways that extend well beyond its property boundaries. The mall's presence concentrates consumer traffic on the Veterans Expressway interchange nodes, supports a dense outparcel and strip center ecosystem on Citrus Park Drive and adjacent parcels, and establishes the northwest Tampa submarket as a destination rather than a pass-through corridor. For landlords and tenants in the immediate trade area, the mall means higher baseline foot traffic than raw residential density alone would generate. For investors, the mall provides demand anchoring that reduces leasing risk for adjacent retail. The surrounding retail ecosystem -- anchored by Best Buy, Ross, PetSmart, Five Below, and Old Navy at the Plaza at Citrus Park -- has demonstrated durability through multiple retail cycles. The critical strategic question for investors in 2026 is how the mall's ongoing transformation toward experience-based retail, food-and-beverage, and entertainment affects the demand profile for the surrounding strip centers: the shift toward destination uses that draw longer dwell times is generally positive for adjacent food and service tenants.",
+      "Westfield Citrus Park Mall functions as the dominant retail anchor for the northwest Hillsborough County trade area and shapes commercial demand in ways that extend well beyond its property boundaries. The mall's presence concentrates consumer traffic on the Veterans Expressway interchange nodes, supports a dense outparcel and strip center ecosystem on Citrus Park Drive and adjacent parcels, and establishes the northwest Tampa submarket as a destination rather than a pass-through corridor. For landlords and tenants in the immediate trade area, the mall means higher baseline foot traffic than raw residential density alone would generate. For investors, the mall provides demand anchoring that reduces leasing risk for adjacent retail. The surrounding retail ecosystem, anchored by Best Buy, Ross, PetSmart, Five Below, and Old Navy at the Plaza at Citrus Park, has demonstrated durability through multiple retail cycles. The critical strategic question for investors in 2026 is how the mall's ongoing transformation toward experience-based retail, food-and-beverage, and entertainment affects the demand profile for the surrounding strip centers: the shift toward destination uses that draw longer dwell times is generally positive for adjacent food and service tenants.",
   },
   {
     question: "Should business owners buy or lease commercial space in Citrus Park or Odessa in 2026?",
     answer:
-      "Owner-user purchase economics in the Citrus Park-Odessa-Carrollwood corridor have become increasingly attractive compared to leasing in 2026 as asking rents have continued to rise and available leasable space has tightened. For medical practices, professional offices, and service businesses that expect to occupy space for seven or more years, owning eliminates rent escalation exposure and builds equity in an asset that tends to appreciate with the demographic strength of the trade area. The corridor has sufficient commercial condo and owner-user sale inventory to make buying feasible for businesses in the 2,000 to 10,000 square foot range. SBA 504 financing, which requires only 10% down for owner-occupied commercial acquisitions, makes the capital barrier manageable for established practices and businesses. The primary risk for owner-users is liquidity -- commercial properties in this corridor do transact, but not with the speed of residential real estate, so business owners should be confident in their five-to-ten-year location commitment before converting from lease to ownership.",
+      "Owner-user purchase economics in the Citrus Park-Odessa-Carrollwood corridor have become increasingly attractive compared to leasing in 2026 as asking rents have continued to rise and available leasable space has tightened. For medical practices, professional offices, and service businesses that expect to occupy space for seven or more years, owning eliminates rent escalation exposure and builds equity in an asset that tends to appreciate with the demographic strength of the trade area. The corridor has sufficient commercial condo and owner-user sale inventory to make buying feasible for businesses in the 2,000 to 10,000 square foot range. SBA 504 financing, which requires only 10% down for owner-occupied commercial acquisitions, makes the capital barrier manageable for established practices and businesses. The primary risk for owner-users is liquidity, commercial properties in this corridor do transact, but not with the speed of residential real estate, so business owners should be confident in their five-to-ten-year location commitment before converting from lease to ownership.",
   },
 ];
 
@@ -90,9 +90,9 @@ const schema = {
       headline:
         "Citrus Park, Odessa & Carrollwood Commercial Real Estate 2026",
       description:
-        "Northwest Tampa's Veterans Expressway corridor combines high household incomes, limited new commercial supply, and sustained residential growth -- creating durable opportunities for tenants, landlords, and investors in 2026.",
+        "Northwest Tampa's Veterans Expressway corridor combines high household incomes, limited new commercial supply, and sustained residential growth, creating durable opportunities for tenants, landlords, and investors in 2026.",
       datePublished: "2026-11-17",
-      dateModified: "2026-11-19",
+      dateModified: "2026-11-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -121,7 +121,7 @@ const relatedLinks = [
     title: "Dale Mabry Corridor Commercial Real Estate Tampa 2026",
     href: "/blog/dale-mabry-corridor-commercial-real-estate-tampa-2026",
     description:
-      "The major north-south arterial immediately east of Carrollwood -- the region's highest-traffic commercial corridor.",
+      "The major north-south arterial immediately east of Carrollwood, the region's highest-traffic commercial corridor.",
   },
   {
     title: "North Tampa USF Corridor Commercial Real Estate 2026",
@@ -145,7 +145,7 @@ const relatedLinks = [
     title: "Tampa Bay Medical Office Real Estate 2026",
     href: "/blog/tampa-bay-medical-office-real-estate-2026",
     description:
-      "Regional overview of medical office demand -- directly relevant to the northwest Tampa healthcare tenant base.",
+      "Regional overview of medical office demand, directly relevant to the northwest Tampa healthcare tenant base.",
   },
   {
     title: "Owner-User Commercial Real Estate: Buy vs. Lease",
@@ -175,7 +175,7 @@ const relatedLinks = [
     title: "Florida Property Insurance and Investment Properties",
     href: "/blog/florida-insurance-crisis-investment-properties",
     description:
-      "Insurance cost exposure across all Hillsborough County commercial assets -- essential underwriting input.",
+      "Insurance cost exposure across all Hillsborough County commercial assets, essential underwriting input.",
   },
 ];
 
@@ -222,8 +222,8 @@ export default function BlogPost() {
           Carrollwood neighborhoods rank among the highest in Hillsborough County. Yet the
           buildable land along the core commercial corridors was substantially absorbed in earlier
           development cycles, leaving a commercial inventory that has not grown as fast as the
-          residential base it serves. That structural undersupply -- strong demographics, limited
-          new supply -- is a durable advantage for landlords and a genuine challenge for tenants
+          residential base it serves. That structural undersupply, strong demographics, limited
+          new supply, is a durable advantage for landlords and a genuine challenge for tenants
           seeking quality space in a first-call location.
         </p>
         <p>
@@ -256,7 +256,7 @@ export default function BlogPost() {
           tenants and regional operators. QSR drive-throughs, gas station and convenience retail,
           hotel properties, and national retail brands prioritize expressway adjacency above all
           other site criteria in this submarket. Available land at or near these nodes is
-          essentially non-existent -- the development economics were solved years ago, and what
+          essentially non-existent, the development economics were solved years ago, and what
           remains is an acquisition or lease market, not a development market.
         </p>
 
@@ -264,13 +264,13 @@ export default function BlogPost() {
           <strong>Citrus Park Drive and Westfield Citrus Park Mall trade area:</strong> Westfield
           Citrus Park Mall anchors the most commercially dense node in the submarket, surrounded
           by a mature ecosystem of outparcels, power centers, and inline strip retail. The Plaza
-          at Citrus Park -- anchored by Best Buy, Ross, PetSmart, Five Below, and Old Navy --
+          at Citrus Park, anchored by Best Buy, Ross, PetSmart, Five Below, and Old Navy --
           occupies the high-traffic retail position across from the mall on Citrus Park Drive.
           This node generates the highest retail traffic counts in the submarket and supports a
           tenant mix that includes national brands, regional chains, and service retail that
           captures the daily needs of the dense residential population within a three-to-five-mile
           radius. For investors, the Citrus Park Drive corridor offers the most liquid commercial
-          market in northwest Tampa -- properties trade more frequently and are easier to
+          market in northwest Tampa, properties trade more frequently and are easier to
           underwrite than secondary streets. For tenants, the challenge is simply finding available
           space; the most desirable positions are typically occupied with little turnover.
         </p>
@@ -323,9 +323,9 @@ export default function BlogPost() {
 
         <h2>Which Business Types Are Best Positioned in This Market?</h2>
         <p>
-          The Citrus Park-Odessa-Carrollwood corridor&apos;s demographic profile -- established
+          The Citrus Park-Odessa-Carrollwood corridor&apos;s demographic profile, established
           professional households, dual-income families, and a significant retiree and
-          near-retiree population -- creates specific commercial demand patterns that investors
+          near-retiree population, creates specific commercial demand patterns that investors
           and tenants should understand before evaluating the market.
         </p>
 
@@ -367,14 +367,14 @@ export default function BlogPost() {
         </p>
 
         <p>
-          <strong>Specialty fitness and wellness:</strong> Boutique fitness -- Pilates, barre,
-          cycling, yoga, specialty performance training, and recovery-focused concepts -- has
+          <strong>Specialty fitness and wellness:</strong> Boutique fitness, Pilates, barre,
+          cycling, yoga, specialty performance training, and recovery-focused concepts, has
           found consistent demand in this corridor. The demographics support premium price points
           and generate the membership retention rates that make boutique fitness economically
           viable. For landlords, fitness tenants in this submarket tend to be sticky: build-out
           costs and community relationships anchor them in place, and the foot traffic they
-          generate benefits adjacent retail. Wellness extensions -- IV therapy, cryotherapy,
-          med spa, and aesthetics -- are the fastest-growing segment of the category and are
+          generate benefits adjacent retail. Wellness extensions, IV therapy, cryotherapy,
+          med spa, and aesthetics, are the fastest-growing segment of the category and are
           seeking well-located retail space in the same corridors.
         </p>
 
@@ -388,15 +388,13 @@ export default function BlogPost() {
           space in the broader Gunn Highway and Sheldon Road corridors remains underexploited.
           If you are thinking about selling a commercial building near a food and beverage
           tenant that is relocating or winding down,{" "}
-          <a
-            href="https://fastselleasysale.com"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/services/dispositions"
             className="text-accent underline"
           >
-            FastSellEasySale
-          </a>{" "}
-          offers a fast cash path for owners who need to move quickly without a traditional
+            dispositions services
+          </Link>{" "}
+          can provide a path for owners who need to move quickly without a traditional
           listing process.
         </p>
 
@@ -404,8 +402,8 @@ export default function BlogPost() {
           <strong>Childcare and education:</strong> Quality childcare in northwest Tampa is
           chronically undersupplied. The dual-income household base generates persistent
           unmet demand for infant and toddler care, preschool, and afterschool enrichment.
-          Nationally branded childcare operators -- the same names investors target for NNN
-          acquisitions -- are actively seeking sites in this corridor. For investors, a
+          Nationally branded childcare operators, the same names investors target for NNN
+          acquisitions, are actively seeking sites in this corridor. For investors, a
           well-located childcare NNN asset in Citrus Park or Carrollwood offers a combination
           of tenant credit, long lease terms, and demographic anchoring that is difficult to
           find in lower-income markets. Our dedicated guide to{" "}
@@ -429,7 +427,7 @@ export default function BlogPost() {
         <p>
           <strong>Generational asset ownership:</strong> A meaningful portion of the established
           commercial inventory in Carrollwood and older Citrus Park nodes is held by long-term
-          owners -- some of it by families who have owned the same strip center or office building
+          owners, some of it by families who have owned the same strip center or office building
           for 20 to 30 years. This creates both opportunity and complication. Opportunity because
           long-held assets often have below-market rents that have not been reset at lease renewal,
           creating mark-to-market upside that a disciplined buyer can extract. Complication
@@ -449,8 +447,8 @@ export default function BlogPost() {
           <strong>Insurance cost exposure:</strong> Northwest Hillsborough County is fully within
           the Florida insurance market, and commercial property insurance costs have remained
           elevated after years of hurricane and weather-related losses. Older commercial
-          buildings along Gunn Highway and Sheldon Road -- particularly properties built before
-          2000 with aging roofs and electrical systems -- carry higher insurance premiums than
+          buildings along Gunn Highway and Sheldon Road, particularly properties built before
+          2000 with aging roofs and electrical systems, carry higher insurance premiums than
           newer construction. Underwrite insurance costs at current renewal rates, not at the
           seller&apos;s last-year cost, and factor deductibles explicitly into your operating
           expense model. Our analysis of{" "}
@@ -489,7 +487,7 @@ export default function BlogPost() {
         <p>
           <strong>Pasco County growth as a demand driver:</strong> Odessa&apos;s western corridor
           and the Sheldon Road northern extension are increasingly influenced by residential
-          growth on the Pasco County side of the line -- in Land O&apos; Lakes, Lutz, and the
+          growth on the Pasco County side of the line, in Land O&apos; Lakes, Lutz, and the
           communities northwest of Odessa. That growth creates household demand that flows into
           Odessa commercial nodes even when the customers technically reside in Pasco County.
           Understanding the full trade area requires examining the population data on both sides
@@ -509,7 +507,7 @@ export default function BlogPost() {
           Retail asking rents in the Citrus Park-Odessa-Carrollwood submarket range broadly
           based on location quality, building condition, and visibility. The highest positions --
           outparcels and end-caps at the Citrus Park Drive nodes and Veterans Expressway
-          interchange retail -- are asking $32 to $48 per square foot NNN for the most visible
+          interchange retail, are asking $32 to $48 per square foot NNN for the most visible
           drive-through-capable pad sites. Inline space in the Westfield-adjacent power centers
           ranges from $26 to $36 per square foot NNN for quality in-line positions. The Gunn
           Highway and Sheldon Road corridors offer a wide range from $18 to $28 per square foot
@@ -539,7 +537,7 @@ export default function BlogPost() {
 
         <h2>How Does the Northwest Tampa Market Connect to the Rest of Tampa Bay?</h2>
         <p>
-          The Citrus Park-Odessa-Carrollwood submarket does not exist in isolation -- it is
+          The Citrus Park-Odessa-Carrollwood submarket does not exist in isolation, it is
           connected to the broader Tampa Bay CRE ecosystem through the arterials and consumer
           behavior patterns of the northwest quadrant. Dale Mabry runs south from Carrollwood
           directly into the Westshore and South Tampa corridors, one of the highest-rent and
@@ -554,17 +552,14 @@ export default function BlogPost() {
           Buyers relocating to Tampa Bay from other markets who are looking at northwest Tampa
           as a place to live while also establishing or acquiring a business presence will find
           value in seeing the full picture of what the broader region offers. The{" "}
-          <a
-            href="https://nowtb.com"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/blog/why-tampa-bay-cre-is-booming"
             className="text-accent underline"
           >
-            Now Tampa Bay
-          </a>{" "}
-          site provides comprehensive neighborhood guides and home search for the northwest Tampa
-          residential market, which is directly relevant to business owners evaluating the trade
-          area customer base.
+            Tampa Bay CRE boom article
+          </Link>{" "}
+          provides insights into the broader regional market directly relevant to business owners
+          evaluating the northwest Tampa trade area.
         </p>
 
         <h2>Barrett Henry&apos;s Northwest Tampa Commercial Market Coverage</h2>
@@ -579,8 +574,8 @@ export default function BlogPost() {
         </p>
         <p>
           For tenants, Barrett&apos;s knowledge of which northwest Tampa landlords are approaching
-          lease expiration decisions -- and which will entertain an early renewal or space
-          restructuring -- is often the difference between securing quality space and spending
+          lease expiration decisions, and which will entertain an early renewal or space
+          restructuring, is often the difference between securing quality space and spending
           months on a waiting list. For investors, his two decades of market presence means he
           has watched the same buildings trade multiple times and understands the specific
           factors that determine which northwest Tampa commercial assets hold value and which
@@ -589,7 +584,7 @@ export default function BlogPost() {
         <p>
           REMAX Collective&apos;s Tampa Bay platform gives Barrett the transaction data and
           analytical resources to price northwest Tampa commercial opportunities against the
-          full regional context -- essential when evaluating whether a Citrus Park cap rate
+          full regional context, essential when evaluating whether a Citrus Park cap rate
           is justified relative to comparable assets in Westshore, Wesley Chapel, or Brandon.
         </p>
         <p>
@@ -676,7 +671,7 @@ export default function BlogPost() {
       </section>
 
       <CTASection
-        heading="Northwest Tampa Commercial Real Estate -- Citrus Park, Odessa & Carrollwood"
+        heading="Northwest Tampa Commercial Real Estate, Citrus Park, Odessa & Carrollwood"
         body="Limited commercial inventory in a high-income corridor means the best opportunities move fast. Call Barrett Henry at (813) 733-7907 or reach out through hencre.com for a no-cost consultation on available space and investment property in the northwest Tampa corridor."
         buttonText="Contact Barrett"
         buttonHref="/contact"

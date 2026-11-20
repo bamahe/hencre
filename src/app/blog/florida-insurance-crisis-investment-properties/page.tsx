@@ -16,7 +16,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Florida Insurance Crisis & Your Investment Property | HenCRE",
   description:
-    "Florida property insurance premiums have doubled or tripled since 2020. Here's how the crisis is reshaping ROI for Tampa Bay landlords -- and the exit options available.",
+    "Florida property insurance premiums have doubled or tripled since 2020. Here's how the crisis is reshaping ROI for Tampa Bay landlords, and the exit options available.",
   alternates: { canonical: "https://hencre.com/blog/florida-insurance-crisis-investment-properties" },
   openGraph: {
     title: "Florida Insurance Crisis & Your Investment Property",
@@ -50,7 +50,7 @@ const faqItems = [
   },
   {
     question: "What is the best exit strategy for a Florida investment property with high insurance costs?",
-    answer: "The right strategy depends on the specific property and your financial position. A 1031 exchange lets you defer capital gains taxes by reinvesting proceeds into a like-kind property -- potentially a commercial asset where tenants carry insurance obligations through a triple-net lease structure. A straight sale and capital redeployment into commercial investments (industrial, NNN retail, self-storage) can generate better risk-adjusted returns without owner-level insurance exposure. In some cases -- newer construction, properties not in flood zones, or assets with below-market rents that can be adjusted -- holding and optimizing still makes financial sense.",
+    answer: "The right strategy depends on the specific property and your financial position. A 1031 exchange lets you defer capital gains taxes by reinvesting proceeds into a like-kind property, potentially a commercial asset where tenants carry insurance obligations through a triple-net lease structure. A straight sale and capital redeployment into commercial investments (industrial, NNN retail, self-storage) can generate better risk-adjusted returns without owner-level insurance exposure. In some cases, newer construction, properties not in flood zones, or assets with below-market rents that can be adjusted, holding and optimizing still makes financial sense.",
   },
   {
     question: "How does a 1031 exchange help Florida landlords manage insurance-related losses?",
@@ -58,7 +58,7 @@ const faqItems = [
   },
   {
     question: "Should I run updated numbers before deciding to hold or sell my Florida investment property?",
-    answer: "Absolutely -- this is the essential first step. Many investors are making hold-or-sell decisions based on 2021 assumptions that no longer reflect reality. The calculation needs to account for current insurance costs (not what you paid three years ago), current comparable sales at today's cap rates, and current rental rates net of vacancy and collection loss. If the updated numbers show your property is cash-flow neutral or negative, that changes the analysis fundamentally. Contact Barrett Henry at (813) 733-7907 for a current hold-versus-sell analysis using actual market data for your property.",
+    answer: "Absolutely, this is the essential first step. Many investors are making hold-or-sell decisions based on 2021 assumptions that no longer reflect reality. The calculation needs to account for current insurance costs (not what you paid three years ago), current comparable sales at today's cap rates, and current rental rates net of vacancy and collection loss. If the updated numbers show your property is cash-flow neutral or negative, that changes the analysis fundamentally. Contact Barrett Henry at (813) 733-7907 for a current hold-versus-sell analysis using actual market data for your property.",
   },
 ];
 
@@ -76,9 +76,9 @@ const schema = {
     {
       "@type": "BlogPosting",
       headline: "Florida's Insurance Crisis and Your Investment Property",
-      description: "How surging property insurance premiums are reshaping ROI for Tampa Bay landlords -- and exit options.",
+      description: "How surging property insurance premiums are reshaping ROI for Tampa Bay landlords, and exit options.",
       datePublished: "2026-06-17",
-      dateModified: "2026-11-07",
+      dateModified: "2026-11-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -170,7 +170,7 @@ export default function InsuranceCrisisInvestmentPage() {
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&h=900&fit=crop"
         title="Florida's Insurance Crisis and Your Investment Property"
-        subtitle="How surging premiums are eliminating cash flow -- and what Tampa Bay landlords can do about it."
+        subtitle="How surging premiums are eliminating cash flow, and what Tampa Bay landlords can do about it."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
@@ -178,7 +178,7 @@ export default function InsuranceCrisisInvestmentPage() {
           Florida&apos;s property insurance market has undergone a structural shift that is directly
           eroding investment property returns across <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough</Link>, <Link href="/markets/pinellas" className="text-accent underline">Pinellas</Link>, Manatee, and Sarasota
           counties. Premiums that were manageable three years ago have doubled or tripled for many
-          investors -- and several major carriers have exited Florida entirely, pushing property owners
+          investors, and several major carriers have exited Florida entirely, pushing property owners
           into the state-backed Citizens Insurance at higher rates and restricted coverage. For
           landlords and investors, the hold-versus-sell calculation has changed fundamentally.
         </p>
@@ -195,7 +195,7 @@ export default function InsuranceCrisisInvestmentPage() {
           </li>
           <li>
             <strong>FEMA Risk Rating 2.0.</strong> The revised flood insurance pricing model --
-            fully in effect since 2023 -- has increased NFIP premiums significantly for high-risk
+            fully in effect since 2023, has increased NFIP premiums significantly for high-risk
             Tampa Bay properties. Annual flood insurance on some AE-zone investment properties
             now exceeds $8,000 to $12,000.
           </li>
@@ -211,7 +211,7 @@ export default function InsuranceCrisisInvestmentPage() {
         <div className="my-10 overflow-hidden rounded-lg">
           <Image
             src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=900&q=80"
-            alt="Florida investment property -- understanding insurance costs before you buy"
+            alt="Florida investment property, understanding insurance costs before you buy"
             width={900}
             height={500}
             className="w-full object-cover"
@@ -223,7 +223,7 @@ export default function InsuranceCrisisInvestmentPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           Consider a Tampa Bay single-family rental property worth $350,000 generating $24,000 per
           year in gross rent. Three years ago, insurance might have cost $1,800/year. Today, the
-          same property -- especially if it is in or near a flood zone -- may cost $5,000 to $9,000/year
+          same property, especially if it is in or near a flood zone, may cost $5,000 to $9,000/year
           in combined homeowner&apos;s and flood insurance. That $3,200 to $7,200 increase comes directly
           off net operating income. A property that generated positive cash flow in 2021 may now be
           cash-flow neutral or negative.
@@ -232,7 +232,7 @@ export default function InsuranceCrisisInvestmentPage() {
           For multi-unit properties, the amplification is proportional. A 4-unit coastal Pinellas
           County property that insured for $6,000/year may now cost $18,000 to $22,000 annually.
           Those numbers materially change what the property is worth to a long-term hold investor
-          -- and whether the <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rate</Link> still justifies the equity locked in the asset. Use our <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">commercial property ROI calculator guide</Link> to model your updated pro forma with current insurance costs.
+         , and whether the <Link href="/insights/what-is-a-cap-rate" className="text-accent underline">cap rate</Link> still justifies the equity locked in the asset. Use our <Link href="/blog/how-to-calculate-commercial-property-roi" className="text-accent underline">commercial property ROI calculator guide</Link> to model your updated pro forma with current insurance costs.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Exit Options for Florida Investment Property Owners</h2>
@@ -241,15 +241,15 @@ export default function InsuranceCrisisInvestmentPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           A <Link href="/blog/florida-1031-exchange-what-investors-need-to-know" className="text-accent underline">1031 exchange</Link> allows
           you to defer capital gains taxes by reinvesting proceeds into a like-kind property. This
-          can be used to reposition from a Florida residential rental -- where you carry all insurance
-          obligations -- into a <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net commercial property</Link> where
+          can be used to reposition from a Florida residential rental, where you carry all insurance
+          obligations, into a <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">triple-net commercial property</Link> where
           tenants carry property insurance as part of their lease obligations.
         </p>
 
         <h3 className="mt-8 text-xl font-bold text-black">Straight Sale and Capital Redeployment</h3>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For investors ready to exit landlord responsibilities entirely, selling and redeploying
-          capital into commercial investments -- industrial, NNN retail, or self-storage -- can
+          capital into commercial investments, industrial, NNN retail, or self-storage, can
           generate better risk-adjusted returns without insurance exposure at the owner level.
           Barrett Henry at REMAX Collective specializes in evaluating this trade-off for Tampa
           Bay investment property owners. Our <Link href="/services/investment-sales" className="text-accent underline">investment sales services</Link> team helps you model both paths with current market data.
@@ -257,8 +257,8 @@ export default function InsuranceCrisisInvestmentPage() {
 
         <h3 className="mt-8 text-xl font-bold text-black">Hold and Optimize</h3>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In some cases -- newer construction, properties not in flood zones, or assets with
-          below-market rents that can be adjusted -- holding still makes financial sense. The
+          In some cases, newer construction, properties not in flood zones, or assets with
+          below-market rents that can be adjusted, holding still makes financial sense. The
           key is running current numbers, not 2021 assumptions. Review our <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">framework for evaluating commercial investments</Link> to stress-test your hold thesis against today&apos;s insurance environment.
         </p>
 
@@ -322,7 +322,7 @@ export default function InsuranceCrisisInvestmentPage() {
 
       <CTASection
         heading="Ready to Evaluate Your Investment Property?"
-        body="Get a current hold-versus-sell analysis from Barrett Henry -- Broker Associate at REMAX Collective with 23+ years of Florida real estate experience."
+        body="Get a current hold-versus-sell analysis from Barrett Henry, Broker Associate at REMAX Collective with 23+ years of Florida real estate experience."
         buttonText="Schedule a Consultation"
         buttonHref="/contact"
       />

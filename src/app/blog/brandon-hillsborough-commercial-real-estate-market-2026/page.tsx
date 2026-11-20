@@ -46,11 +46,11 @@ const schema = {
       headline: "Brandon FL Commercial Real Estate: 2026 Market Guide",
       description: "Brandon&apos;s CRE market is moving fast. Discover what investors and tenants need to know about retail, medical office, industrial, and NNN investment in this established Hillsborough County submarket.",
       datePublished: "2026-08-31",
-      dateModified: "2026-10-20",
+      dateModified: "2026-11-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -90,7 +90,7 @@ const schema = {
           name: "Do I need a commercial real estate broker to lease space in Brandon?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Tenant representation in commercial real estate is typically paid by the landlord, meaning it costs tenants nothing to have a professional broker negotiate on their behalf -- and the guidance on lease terms, market comparables, and buildout allowances can save significant money over the life of a lease.",
+            text: "Tenant representation in commercial real estate is typically paid by the landlord, meaning it costs tenants nothing to have a professional broker negotiate on their behalf, and the guidance on lease terms, market comparables, and buildout allowances can save significant money over the life of a lease.",
           },
         },
         {
@@ -130,7 +130,7 @@ const relatedLinks = [
   {
     title: "Hillsborough County Commercial Real Estate",
     href: "/markets/hillsborough",
-    description: "Brandon is one piece of the Hillsborough County commercial puzzle -- see the full market picture.",
+    description: "Brandon is one piece of the Hillsborough County commercial puzzle, see the full market picture.",
   },
   {
     title: "Industrial and Warehouse Space",
@@ -150,7 +150,7 @@ const relatedLinks = [
   {
     title: "NNN Net Lease Properties",
     href: "/commercial/nnn-net-lease",
-    description: "Brandon has active NNN inventory along its major corridors -- explore available single-tenant net-lease assets.",
+    description: "Brandon has active NNN inventory along its major corridors, explore available single-tenant net-lease assets.",
   },
   {
     title: "What Is a Triple-Net Lease and Why Investors Love It",
@@ -174,7 +174,7 @@ const faqItems = [
   },
   {
     question: "Do I need a commercial real estate broker to lease space in Brandon?",
-    answer: "Tenant representation in commercial real estate is typically paid by the landlord, meaning it costs tenants nothing to have a professional broker negotiate on their behalf -- and the guidance on lease terms, market comparables, and buildout allowances can save significant money over the life of a lease.",
+    answer: "Tenant representation in commercial real estate is typically paid by the landlord, meaning it costs tenants nothing to have a professional broker negotiate on their behalf, and the guidance on lease terms, market comparables, and buildout allowances can save significant money over the life of a lease.",
   },
   {
     question: "How does Brandon compare to Riverview or Valrico for commercial investment?",
@@ -197,7 +197,7 @@ export default function BlogPost() {
 
       <Hero
         title="Brandon FL Commercial Real Estate: 2026 Market Guide"
-        subtitle="Brandon&apos;s CRE market is moving fast. Discover what investors and tenants need to know -- then call Barrett Henry at (813) 733-7907."
+        subtitle="Brandon&apos;s CRE market is moving fast. Discover what investors and tenants need to know, then call Barrett Henry at (813) 733-7907."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
@@ -264,7 +264,7 @@ export default function BlogPost() {
         </p>
 
         <h2>What Should Investors Know Before Buying Commercial Property in Brandon?</h2>
-        <p>Brandon is not a speculative bet -- it&apos;s an established submarket with proven demand. That said, investors need to understand a few realities before committing capital:</p>
+        <p>Brandon is not a speculative bet, it&apos;s an established submarket with proven demand. That said, investors need to understand a few realities before committing capital:</p>
         <ul>
           <li>
             <strong>Competition is real.</strong> Institutional buyers and 1031 exchange investors have identified Brandon as a stable suburban market. Well-located NNN assets along SR-60 move quickly. Learn more about{" "}
@@ -293,7 +293,7 @@ export default function BlogPost() {
           <li>
             Understand your lease type before you sign. Gross, modified gross, and NNN leases all have different cost implications. The{" "}
             <Link href="/blog/how-commercial-leases-differ-from-residential" className="text-accent underline">differences between commercial and residential leases</Link>{" "}
-            matter, and so do CAM charges -- read up on{" "}
+            matter, and so do CAM charges, read up on{" "}
             <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">how CAM charges work</Link>{" "}
             before you budget.
           </li>
@@ -301,7 +301,7 @@ export default function BlogPost() {
             Tenant improvement allowances vary widely depending on landlord, property age, and lease term length. Don&apos;t assume every landlord will contribute equally to your buildout.
           </li>
           <li>
-            Parking ratios matter in Brandon&apos;s suburban environment. Customers drive here -- inadequate parking is a deal-breaker for most retail and medical concepts.
+            Parking ratios matter in Brandon&apos;s suburban environment. Customers drive here, inadequate parking is a deal-breaker for most retail and medical concepts.
           </li>
           <li>
             Having{" "}
@@ -375,8 +375,8 @@ export default function BlogPost() {
       </section>
 
       <CTASection
-        heading="Brandon Has the Demand -- Do You Have the Right Advisor?"
-        body="Established submarkets like Brandon move fast, and the best-located retail pads, medical office buildings, and NNN assets rarely sit available for long. Barrett Henry has 23+ years of commercial real estate experience across all 67 Florida counties and operates with offices in Tampa, Brandon, and Largo -- call (813) 733-7907 today or visit hencre.com to get ahead of what&apos;s available before the next qualified buyer or tenant does."
+        heading="Brandon Has the Demand, Do You Have the Right Advisor?"
+        body="Established submarkets like Brandon move fast, and the best-located retail pads, medical office buildings, and NNN assets rarely sit available for long. Barrett Henry has 23+ years of commercial real estate experience across all 67 Florida counties and operates with offices in Tampa, Brandon, and Largo, call (813) 733-7907 today or visit hencre.com to get ahead of what&apos;s available before the next qualified buyer or tenant does."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />

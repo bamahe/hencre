@@ -86,11 +86,11 @@ const schema = {
       description:
         "Florida eliminated its Business Rent Tax on commercial leases effective October 1, 2025. Here is exactly how much Tampa Bay tenants are saving and what to do if your landlord is still charging the tax.",
       datePublished: "2026-07-30",
-      dateModified: "2026-10-27",
+      dateModified: "2026-11-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -158,7 +158,7 @@ const relatedLinks = [
   {
     title: "Pinellas County Commercial Real Estate",
     href: "/markets/pinellas",
-    description: "Pinellas County market overview -- where tenants are saving the most from the rent tax repeal.",
+    description: "Pinellas County market overview, where tenants are saving the most from the rent tax repeal.",
   },
 ];
 
@@ -191,7 +191,7 @@ export default function FloridaBusinessRentTaxRepealPage() {
           <Link href="/commercial/industrial-warehouse" className="text-accent underline">warehouse operator</Link>{" "}
           paying rent in Florida had a line item on their invoice that no competitor in Texas, Georgia, North Carolina, or any other state had to deal with. That changed permanently on October 1, 2025, when House Bill 7031 took effect and eliminated the Florida Business Rent Tax entirely. Nine months later, a surprising number of{" "}
           <Link href="/markets/hillsborough" className="text-accent underline">Tampa Bay</Link>{" "}
-          commercial tenants still have not fully absorbed what that repeal means for their occupancy costs, their lease negotiations, and -- in some cases -- their right to a refund.
+          commercial tenants still have not fully absorbed what that repeal means for their occupancy costs, their lease negotiations, and, in some cases, their right to a refund.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Was Florida&apos;s Business Rent Tax?</h2>
@@ -199,7 +199,7 @@ export default function FloridaBusinessRentTaxRepealPage() {
           The Florida Business Rent Tax — formally the tax on commercial real property leases under § 212.031 of the Florida Statutes — was a state sales tax imposed on the total rent paid under any lease of commercial real property. It applied to office space, retail storefronts, industrial buildings, warehouses, medical offices, flex space, and mixed-use commercial property. Residential leases were already exempt. Short-term transient accommodations — hotels, Airbnb rentals under six months — remained (and still remain) taxable under a separate statute, but standard commercial leases paid to a landlord were the primary target of the law.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The state rate had been cut several times in recent years as part of a deliberate phase-out. By the time HB 7031 repealed it entirely, the state component was 2.0%. In practice, tenants across Tampa Bay were also paying applicable county surtaxes on top of that state rate -- 0.5% in{" "}
+          The state rate had been cut several times in recent years as part of a deliberate phase-out. By the time HB 7031 repealed it entirely, the state component was 2.0%. In practice, tenants across Tampa Bay were also paying applicable county surtaxes on top of that state rate, 0.5% in{" "}
           <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link>,
           1.0% in{" "}
           <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>,
@@ -248,9 +248,9 @@ export default function FloridaBusinessRentTaxRepealPage() {
           Tenants approaching lease renewals in 2026 are finding that the effective-rent-per-square-foot conversation is more favorable than it was two years ago, even if asking rents themselves have moved up. A landlord quoting $30/SF NNN in 2023 was effectively quoting $30.75/SF all-in (before CAM) when you added the tax. The same $30/SF in 2026 is $30.00 — full stop. That sounds like a small distinction, but it matters when you are evaluating whether a space fits your budget and when you are comparing options across multiple submarkets.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In segments where landlords are competing for tenants -- office being the most obvious in Tampa Bay right now, where vacancy remains elevated -- the repeal gives tenants one more reason to push for concessions. The savings have already improved your economics; now you can direct that leverage toward a larger tenant improvement allowance, a longer free rent period, or a cap on annual{" "}
+          In segments where landlords are competing for tenants, office being the most obvious in Tampa Bay right now, where vacancy remains elevated, the repeal gives tenants one more reason to push for concessions. The savings have already improved your economics; now you can direct that leverage toward a larger tenant improvement allowance, a longer free rent period, or a cap on annual{" "}
           <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM escalations</Link>.
-          If you are a tenant comparing your current location to a competitor property, the all-in occupancy cost comparison no longer needs a tax line item -- and that simplifies the analysis in your favor. Use our{" "}
+          If you are a tenant comparing your current location to a competitor property, the all-in occupancy cost comparison no longer needs a tax line item, and that simplifies the analysis in your favor. Use our{" "}
           <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link>{" "}
           to model the economics before committing to any space.
         </p>
@@ -291,7 +291,7 @@ export default function FloridaBusinessRentTaxRepealPage() {
           Florida&apos;s Business Rent Tax repeal is one of the most straightforward wins commercial tenants in this state have seen in years. The savings are real, they are permanent, and they accrue every single month. Most tenants are already receiving the benefit automatically. Some may not be — and if you have been paying the tax on invoices dated after September 30, 2025, you should act on it now.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Beyond the immediate savings, the repeal is a piece of the larger Tampa Bay CRE picture that Barrett Henry tracks closely. Florida&apos;s commercial lease tax had long been cited as a headwind for business recruitment and retention, particularly for tenants comparing Tampa Bay to competitor markets in Texas and North Carolina. With that headwind removed, the region&apos;s case to business occupiers is stronger -- and that ultimately supports the demand fundamentals that make{" "}
+          Beyond the immediate savings, the repeal is a piece of the larger Tampa Bay CRE picture that Barrett Henry tracks closely. Florida&apos;s commercial lease tax had long been cited as a headwind for business recruitment and retention, particularly for tenants comparing Tampa Bay to competitor markets in Texas and North Carolina. With that headwind removed, the region&apos;s case to business occupiers is stronger, and that ultimately supports the demand fundamentals that make{" "}
           <Link href="/blog/why-tampa-bay-cre-is-booming" className="text-accent underline">Tampa Bay&apos;s commercial market</Link>{" "}
           worth investing in and operating in. For tenants evaluating specific property types, explore our guides on{" "}
           <Link href="/commercial/retail-space" className="text-accent underline">retail space</Link>,{" "}

@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
- * Blog post -- Lakeland FL Commercial Real Estate Market 2026
+ * Blog post, Lakeland FL Commercial Real Estate Market 2026
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
@@ -41,7 +41,7 @@ const schema = {
       headline: "Lakeland FL Commercial Real Estate Market 2026 | HenCRE",
       description: "Lakeland, Polk County CRE is booming. Discover what investors and tenants need to know, then call Barrett Henry at (813) 733-7907.",
       datePublished: "2026-09-21",
-      dateModified: "2026-10-31",
+      dateModified: "2026-11-20",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -88,7 +88,7 @@ const schema = {
           name: "How does Lakeland's commercial market compare to Tampa or Orlando?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Lakeland generally offers lower base rents, more available land for development, and competitive operating costs compared to Tampa and Orlando, while still providing direct I-4 access to both metro areas -- a combination that continues to attract regional and national tenants.",
+            text: "Lakeland generally offers lower base rents, more available land for development, and competitive operating costs compared to Tampa and Orlando, while still providing direct I-4 access to both metro areas, a combination that continues to attract regional and national tenants.",
           },
         },
         {
@@ -96,7 +96,7 @@ const schema = {
           name: "Do I need a commercial real estate broker to lease or buy in Lakeland?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Working with an experienced commercial real estate broker in Lakeland gives you access to off-market opportunities, lease negotiation expertise, and local market knowledge that a general search portal simply cannot provide -- especially in a market where good space moves quickly.",
+            text: "Working with an experienced commercial real estate broker in Lakeland gives you access to off-market opportunities, lease negotiation expertise, and local market knowledge that a general search portal simply cannot provide, especially in a market where good space moves quickly.",
           },
         },
       ],
@@ -172,11 +172,11 @@ const faqItems = [
   },
   {
     question: "How does Lakeland&apos;s commercial market compare to Tampa or Orlando?",
-    answer: "Lakeland generally offers lower base rents, more available land for development, and competitive operating costs compared to Tampa and Orlando, while still providing direct I-4 access to both metro areas -- a combination that continues to attract regional and national tenants.",
+    answer: "Lakeland generally offers lower base rents, more available land for development, and competitive operating costs compared to Tampa and Orlando, while still providing direct I-4 access to both metro areas, a combination that continues to attract regional and national tenants.",
   },
   {
     question: "Do I need a commercial real estate broker to lease or buy in Lakeland?",
-    answer: "Working with an experienced commercial real estate broker in Lakeland gives you access to off-market opportunities, lease negotiation expertise, and local market knowledge that a general search portal simply cannot provide -- especially in a market where good space moves quickly.",
+    answer: "Working with an experienced commercial real estate broker in Lakeland gives you access to off-market opportunities, lease negotiation expertise, and local market knowledge that a general search portal simply cannot provide, especially in a market where good space moves quickly.",
   },
 ];
 
@@ -203,8 +203,8 @@ export default function BlogPost() {
         <h2>Why Is Lakeland, Florida Attracting So Much Commercial Real Estate Attention?</h2>
         <p>
           Lakeland sits at the geographic center of Florida&apos;s I-4 corridor, giving businesses direct highway
-          access to both Tampa and Orlando within an hour. That positioning -- combined with lower land costs, a
-          growing workforce, and Polk County&apos;s business-friendly environment -- has made Lakeland one of the
+          access to both Tampa and Orlando within an hour. That positioning, combined with lower land costs, a
+          growing workforce, and Polk County&apos;s business-friendly environment, has made Lakeland one of the
           most active secondary commercial markets in Central Florida. Investors and tenants who got priced out of
           Tampa or couldn&apos;t find available space are finding real opportunities here.
         </p>
@@ -273,8 +273,8 @@ export default function BlogPost() {
         <h2>Why Are Businesses Choosing Lakeland Over Tampa or Orlando?</h2>
         <p>
           The math is straightforward. Lakeland offers I-4 corridor access at a meaningful cost discount compared to
-          Tampa&apos;s Westshore district or Orlando&apos;s I-Drive corridor. Operating costs -- from base rent to
-          labor -- tend to be lower, and available land for build-to-suit or ground-up development is more accessible
+          Tampa&apos;s Westshore district or Orlando&apos;s I-Drive corridor. Operating costs, from base rent to
+          labor, tend to be lower, and available land for build-to-suit or ground-up development is more accessible
           than in fully built-out urban cores.
         </p>
         <p>
@@ -325,7 +325,7 @@ export default function BlogPost() {
         <p>
           Lakeland&apos;s commercial market moves faster than most people expect. Barrett Henry is a Broker Associate
           at REMAX Collective with more than 23 years of real estate experience. He operates from three offices
-          serving all 67 Florida counties -- including Tampa, Largo, and Brandon -- and works with tenants, buyers,
+          serving all 67 Florida counties, including Tampa, Largo, and Brandon, and works with tenants, buyers,
           landlords, and investors across Polk County and beyond. Whether you need{" "}
           <Link href="/services/tenant-representation" className="text-accent underline">tenant representation</Link>,{" "}
           <Link href="/services/investment-sales" className="text-accent underline">investment property acquisition</Link>,
@@ -383,7 +383,7 @@ export default function BlogPost() {
       </section>
 
       <CTASection
-        heading="Lakeland Is Moving Fast -- Don&apos;t Miss the Window"
+        heading="Lakeland Is Moving Fast, Don&apos;t Miss the Window"
         body="Industrial space, quality retail pads, and NNN investment properties in Lakeland are not sitting on the market the way they were two years ago. Call Barrett Henry at (813) 733-7907 or visit hencre.com to get ahead of the competition before the next round of deals closes."
         buttonText="Contact Barrett"
         buttonHref="/contact"

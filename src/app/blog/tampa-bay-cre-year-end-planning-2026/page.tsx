@@ -145,7 +145,7 @@ export default function TampaBayCREYearEndPlanning2026() {
         items={[
           { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: "Tampa Bay CRE Year-End Planning 2026" },
+          { label: "Tampa Bay CRE Year-End Planning 2026", href: "/blog/tampa-bay-cre-year-end-planning-2026" },
         ]}
       />
       <Hero
@@ -380,10 +380,10 @@ export default function TampaBayCREYearEndPlanning2026() {
       </main>
 
       <CTASection
-        title="Ready to Review Your CRE Position Before Year-End?"
-        description="Barrett Henry has 23+ years of Tampa Bay commercial real estate experience. Call now for a complimentary year-end portfolio review, broker opinion of value, or lease strategy consultation — before the December window closes."
-        phone="813-317-4009"
-        ctaText="Call Barrett: 813-317-4009"
+        heading="Ready to Review Your CRE Position Before Year-End?"
+        body="Barrett Henry has 23+ years of Tampa Bay commercial real estate experience. Call now for a complimentary year-end portfolio review, broker opinion of value, or lease strategy consultation before the December window closes."
+        buttonText="Call Barrett: 813-317-4009"
+        buttonHref="tel:8133174009"
       />
     </>
   );
