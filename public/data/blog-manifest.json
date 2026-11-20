@@ -2606,5 +2606,16 @@
     "county": "Hernando",
     "businessType": "commercial property management",
     "image": null
+  },
+  {
+    "slug": "winter-haven-polk-county-commercial-real-estate-investor-tenant-guide",
+    "title": "Winter Haven CRE: What Investors & Tenants Should Know",
+    "excerpt": "Winter Haven is one of Polk County's most active commercial real estate submarkets, drawing businesses and investors with its affordable land, strong population growth, and strategic position between Lakeland and Orlando.",
+    "date": "2026-11-20",
+    "category": "city-market",
+    "city": "Winter Haven",
+    "county": "Polk",
+    "businessType": null,
+    "image": null
   }
 ]
