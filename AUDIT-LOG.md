@@ -4,6 +4,60 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 95 — 2026-11-21
+
+**Commit:** `78eca51` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/winter-haven-polk-county-commercial-real-estate-investor-tenant-guide`
+- First full audit of this page (auto-generated 2026-11-20)
+- Merged dual articleSchema + faqSchema into single @graph schema
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Added dateModified: "2026-11-21"
+- Converted all 13 <a> internal links to Next.js <Link> components
+- Replaced <img> with <Image> component (added import)
+- Added import for Link and Image
+- Added "Home" as first breadcrumb item
+- Fixed author bio: updated title, added Links to /about and /services
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Replaced em dashes with hyphens throughout article body
+- Escaped all apostrophes in JSX text content (&apos;)
+
+### 2. `/blog/tampa-bay-ghost-kitchen-commissary-cre-2026`
+- Shortened metadata title: "Tampa Bay Ghost Kitchen & Commissary Kitchen Commercial Real Estate 2026 | HenCRE" -> "Tampa Bay Ghost Kitchen & Commissary Kitchen CRE 2026 | HenCRE"
+- Replaced external fastselleasysale.com link with internal /services/dispositions
+- Replaced external bestbayservices.com link with internal /blog/commercial-property-due-diligence-timeline
+- Added internal link to /services/investment-sales in food truck commissary section
+- Updated dateModified: "2026-11-19" -> "2026-11-21"
+
+### 3. `/blog/south-tampa-commercial-real-estate-2026`
+- Fixed em dash in auto-generated comment
+- Updated dateModified: "2026-11-19" -> "2026-11-21"
+
+### 4. `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Extended jobTitle to full credential string: "Broker Associate" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Updated dateModified: "2026-11-19" -> "2026-11-21"
+
+### 5. `/blog/tampa-bay-data-center-cre-2026`
+- Updated dateModified to "2026-11-21"
+
+### 6. `/blog/what-makes-a-good-commercial-investment`
+- Updated dateModified to "2026-11-21"
+
+### 7. `/blog/why-tampa-bay-cre-is-booming`
+- Updated dateModified to "2026-11-21"
+
+### 8. `/blog/tampa-bay-auto-dealership-cre-2026`
+- Updated dateModified to "2026-11-21"
+
+### 9. `/blog/echelon-city-center-north-st-pete-cre-2026`
+- Updated dateModified to "2026-11-21"
+
+### 10. `/blog/tampa-hillsborough-commercial-real-estate-guide-2026`
+- Updated dateModified to "2026-11-21"
+
+---
+
 ## Batch 94 — 2026-11-19
 
 **Commit:** `950f225` | **Build:** clean (0 errors) | **Pages improved:** 10
