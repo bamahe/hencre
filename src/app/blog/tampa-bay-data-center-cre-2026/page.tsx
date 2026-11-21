@@ -86,7 +86,7 @@ const schema = {
       description:
         "Private equity and hyperscalers are pouring billions into Tampa Bay data center and AI infrastructure projects in 2026. What it means for commercial real estate owners, investors, and landowners.",
       datePublished: "2026-09-22",
-      dateModified: "2026-11-19",
+      dateModified: "2026-11-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

@@ -80,11 +80,11 @@ const schema = {
       description:
         "How NNN leases work, why investors favor them, and key risks to evaluate.",
       datePublished: "2026-05-22",
-      dateModified: "2026-11-19",
+      dateModified: "2026-11-21",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
