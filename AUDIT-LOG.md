@@ -6997,3 +6997,50 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### Bonus fix: `/blog/tampa-bay-cre-year-end-planning-2026`
 - Fixed pre-existing TypeScript build error: added `href` to last Breadcrumbs item
 - Fixed CTASection props: `title` -> `heading`, `description` -> `body`, `ctaText` -> `buttonText`, removed invalid `phone` prop
+
+---
+
+## Batch 86 -- 2026-11-22
+
+**Commit:** `25b2cdc` | **Build:** clean (0 errors, 385 pages) | **Pages improved:** 10
+
+### 1. `/blog/westshore-plaza-redevelopment-cre-impact-tampa-2026`
+- Fixed 36 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-22"
+
+### 2. `/blog/east-tampa-us-301-industrial-corridor-2026`
+- Fixed 24 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-22"
+
+### 3. `/blog/tampa-hillsborough-commercial-real-estate-guide-2026`
+- Fixed 24 em dashes (-- replacement with commas)
+- Fixed jobTitle from "Broker Associate" to full credentials format
+- Updated dateModified to "2026-11-22"
+
+### 4. `/blog/inverness-citrus-county-commercial-real-estate-2026`
+- Fixed 16 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-22"
+
+### 5. `/blog/winter-haven-polk-county-commercial-real-estate-2026`
+- Fixed 16 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-22"
+
+### 6. `/blog/tampa-bay-auto-parts-service-nnn-investment-2026`
+- Fixed 5 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-22"
+
+### 7. `/blog/st-petersburg-office-market-2026`
+- Fixed 4 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-22"
+
+### 8. `/blog/gasworx-tampa-ybor-office-commercial-2026`
+- Fixed 4 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-22"
+
+### 9. `/blog/pinellas-county-industrial-cre-2026`
+- Fixed 4 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-22"
+
+### 10. `/blog/dale-mabry-corridor-commercial-real-estate-tampa-2026`
+- Fixed 4 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-22"
