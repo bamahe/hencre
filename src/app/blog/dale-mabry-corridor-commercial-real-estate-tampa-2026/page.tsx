@@ -85,7 +85,7 @@ const schema = {
       description:
         "Britton Plaza is clearing out. WestShore Plaza sold for $135M. Dale Mabry Highway - Tampa's primary commercial spine - is in the middle of a generational redevelopment cycle. Here is what investors and tenants need to know.",
       datePublished: "2026-09-05",
-      dateModified: "2026-11-03",
+      dateModified: "2026-11-22",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -285,7 +285,7 @@ export default function DaleMabryCorridorCRE2026Page() {
         <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
-      {/* ---- FAQ ---- */}
+      {/* , ,  FAQ , ,  */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">

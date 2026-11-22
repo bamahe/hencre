@@ -88,7 +88,7 @@ const schema = {
       description:
         "Fortune 500 Ferguson signed a 50,570-square-foot office lease at Gasworx in Ybor City, filling the first Class A office building to 100% occupancy. What Tampa Bay tenants and commercial real estate investors need to know.",
       datePublished: "2026-08-15",
-      dateModified: "2026-11-01",
+      dateModified: "2026-11-22",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -295,7 +295,7 @@ export default function GasworxTampaCommercialPage() {
         <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
-      {/* ---- FAQ ---- */}
+      {/* , ,  FAQ , ,  */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">

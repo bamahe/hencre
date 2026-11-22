@@ -103,7 +103,7 @@ const schema = {
       description:
         "AutoZone, O'Reilly Auto Parts, Jiffy Lube, and Mavis Tire are among the most resilient NNN tenants in Tampa Bay. This guide covers cap rates, lease structures, environmental due diligence, and why auto-service commercial real estate is a strong portfolio addition for investors in 2026.",
       datePublished: "2026-09-29",
-      dateModified: "2026-11-09",
+      dateModified: "2026-11-22",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -442,7 +442,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
         </h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
           Tampa Bay&apos;s population exceeded 3.2 million people in 2026, with
-          net in-migration from higher-cost states continuing to add households --
+          net in-migration from higher-cost states continuing to add households , 
           and vehicles, at a pace that directly supports auto parts and service
           demand. Both AutoZone and O&apos;Reilly Auto Parts have opened
           multiple new Tampa Bay locations over the past three years, with the
@@ -674,7 +674,7 @@ export default function TampaBayAutoPartsServiceNNNPage() {
         <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
-      {/* ---- FAQ ---- */}
+      {/* , ,  FAQ , ,  */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">

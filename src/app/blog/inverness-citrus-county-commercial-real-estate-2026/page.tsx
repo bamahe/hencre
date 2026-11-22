@@ -41,7 +41,7 @@ const schema = {
       headline: "Inverness FL Commercial Real Estate 2026",
       description: "Explore commercial real estate opportunities in Inverness, Citrus County FL. Discover retail, office, and investment property trends driving growth in this emerging Central Florida market.",
       datePublished: "2026-09-04",
-      dateModified: "2026-11-16",
+      dateModified: "2026-11-22",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -207,7 +207,7 @@ export default function BlogPost() {
         <p>The Florida commercial real estate conversation often gravitates toward Tampa, Orlando, and Miami. But opportunity is not exclusive to those markets. Inverness offers what many investors are actively seeking: a growing population base, affordable entry points, and a market where supply has not yet caught up to demand. For investors, that gap represents potential. For tenants, it can mean favorable lease terms and the chance to establish a foothold before competition intensifies.</p>
         <p>Citrus County&apos;s commitment to infrastructure investment and its proximity to the Nature Coast, one of Florida&apos;s most celebrated recreational areas, continues to attract new residents and businesses. Inverness, as the county&apos;s commercial and governmental hub, is positioned to benefit directly from that growth trajectory heading into 2026 and beyond. Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of experience helping clients evaluate commercial real estate opportunities across all 67 Florida counties, including Inverness and Citrus County.</p>
 
-        {/* ---- Mid-article CTA ---- */}
+        {/* , ,  Mid-article CTA , ,  */}
         <div className="my-10 rounded-lg bg-[#1a1a1a] p-8 text-center text-white">
           <p className="text-lg font-bold">Talk to a Commercial Real Estate Broker</p>
           <p className="mt-2 text-white/80">
@@ -219,7 +219,7 @@ export default function BlogPost() {
         <p className="mt-10 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
-      {/* ---- FAQ Section ---- */}
+      {/* , ,  FAQ Section , ,  */}
       <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
         <h2 className="mb-6 text-2xl font-bold text-black">Frequently Asked Questions</h2>
         <FAQAccordion items={faqItems} />
@@ -227,7 +227,7 @@ export default function BlogPost() {
 
       <RelatedLinks heading="Keep Reading" links={relatedLinks} />
 
-      {/* ---- Author Bio ---- */}
+      {/* , ,  Author Bio , ,  */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
           <Image
@@ -247,7 +247,7 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* ---- Legal Disclaimer ---- */}
+      {/* , ,  Legal Disclaimer , ,  */}
       <section className="mx-auto max-w-3xl px-4 pb-12 sm:px-6 lg:px-8">
         <p className="text-xs text-[#999999]">
           Disclaimer: This article is for informational purposes only and does not constitute legal, financial, or investment advice. Consult qualified professionals before making real estate decisions.
