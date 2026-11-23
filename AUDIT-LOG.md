@@ -6,7 +6,7 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ## Batch 96 -- 2026-11-23
 
-**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+**Commit:** `7ef1496` | **Build:** clean (0 errors) | **Pages improved:** 10
 
 ### 1. `/blog/commercial-property-zoning-florida-basics`
 - Fixed 17 em dashes (replaced with commas)
