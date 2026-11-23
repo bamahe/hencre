@@ -4,6 +4,58 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 96 -- 2026-11-23
+
+**Commit:** TBD | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/commercial-property-zoning-florida-basics`
+- Fixed 17 em dashes (replaced with commas)
+- Updated jobTitle to full credentials format
+- Updated dateModified to "2026-11-23"
+
+### 2. `/blog/florida-live-local-act-tampa-bay-cre-2026`
+- Fixed 24 em dashes (replaced with commas)
+- Updated jobTitle to full credentials format
+- Updated dateModified to "2026-11-23"
+
+### 3. `/blog/tampa-bay-hotel-hospitality-cre-2026`
+- Fixed 23 em dashes (replaced with commas)
+- Updated jobTitle to full credentials format
+- Updated dateModified to "2026-11-23"
+
+### 4. `/blog/tampa-bay-owner-user-commercial-real-estate-buy-vs-lease`
+- Fixed 32 em dashes (replaced with commas)
+- Updated jobTitle to full credentials format
+- Updated dateModified to "2026-11-23"
+
+### 5. `/blog/tampa-bay-restaurant-food-beverage-space-2026`
+- Fixed 24 em dashes (replaced with commas)
+- Updated jobTitle to full credentials format
+- Updated dateModified to "2026-11-23"
+
+### 6. `/blog/tampa-bay-life-sciences-cre-2026`
+- Fixed 30 em dashes (replaced with commas)
+- Updated jobTitle to full credentials format
+- Updated dateModified to "2026-11-23"
+
+### 7. `/blog/clearwater-pinellas-county-commercial-real-estate-2026`
+- Fixed 1 em dash (replaced with comma)
+- Updated dateModified to "2026-11-23"
+
+### 8. `/blog/bradenton-manatee-county-commercial-real-estate-2026`
+- Updated jobTitle to full credentials format
+- Updated dateModified to "2026-11-23"
+
+### 9. `/blog/palm-harbor-pinellas-county-commercial-real-estate-2026`
+- Fixed 5 em dashes (replaced with commas)
+- Updated jobTitle to full credentials format
+- Updated dateModified to "2026-11-23"
+
+### 10. `/blog/riverview-fl-commercial-real-estate-2026`
+- Updated dateModified to "2026-11-23"
+
+---
+
 ## Batch 95 — 2026-11-21
 
 **Commit:** `78eca51` | **Build:** clean (0 errors) | **Pages improved:** 10

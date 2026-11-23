@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /* -------------------------------------------------------------------
- * Auto-generated blog post  --  2026-10-05
+ * Auto-generated blog post ,  2026-10-05
  * Palm Harbor, Pinellas County FL: Commercial Real Estate Opportunities in 2026
  * ----------------------------------------------------------------- */
 
@@ -32,11 +32,11 @@ const articleSchema = {
   headline: "Palm Harbor, Pinellas County FL: Commercial Real Estate Opportunities in 2026",
   description: "Explore Palm Harbor's commercial real estate market in 2026. From retail corridors to medical office space, discover why this Pinellas County gem is attracting savvy investors and tenants.",
   datePublished: "2026-10-05",
-  dateModified: "2026-10-24",
+  dateModified: "2026-11-23",
   author: {
     "@type": "Person",
     name: "Barrett Henry",
-    jobTitle: "Broker Associate",
+    jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
     image: "https://hencre.com/images/barrett-henry-headshot.jpg",
     sameAs: [
       "https://hencre.com/about",
@@ -169,10 +169,10 @@ export default function BlogPost() {
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         
         <h2>Palm Harbor: Pinellas County&apos;s Hidden Commercial Real Estate Gem</h2>
-        <p>When commercial real estate professionals think of Pinellas County, Clearwater and St. Petersburg often dominate the conversation. But savvy investors and tenants are increasingly turning their attention to Palm Harbor -- an unincorporated community that punches well above its weight class when it comes to commercial opportunity. Positioned along the northern stretch of US-19 and the scenic Alt-19 corridor, Palm Harbor offers a unique blend of affluent demographics, healthcare infrastructure, and retail demand that makes it one of the most compelling CRE markets on Florida&apos;s Gulf Coast heading into 2026. For broader Pinellas County context, see our <Link href="/blog/clearwater-pinellas-county-commercial-real-estate-2026" className="text-accent underline">Clearwater and Pinellas County commercial real estate guide</Link>.</p>
+        <p>When commercial real estate professionals think of Pinellas County, Clearwater and St. Petersburg often dominate the conversation. But savvy investors and tenants are increasingly turning their attention to Palm Harbor, an unincorporated community that punches well above its weight class when it comes to commercial opportunity. Positioned along the northern stretch of US-19 and the scenic Alt-19 corridor, Palm Harbor offers a unique blend of affluent demographics, healthcare infrastructure, and retail demand that makes it one of the most compelling CRE markets on Florida&apos;s Gulf Coast heading into 2026. For broader Pinellas County context, see our <Link href="/blog/clearwater-pinellas-county-commercial-real-estate-2026" className="text-accent underline">Clearwater and Pinellas County commercial real estate guide</Link>.</p>
 
         <h2>Understanding Palm Harbor&apos;s Market Position</h2>
-        <p>Palm Harbor is not an incorporated city -- it operates as an unincorporated community under Pinellas County jurisdiction. That distinction matters for commercial real estate investors and tenants because zoning decisions, permitting, and land use approvals all run through Pinellas County rather than a municipal government. This can streamline certain processes, but it also means understanding county-level <Link href="/blog/commercial-property-zoning-florida-basics" className="text-accent underline">Florida commercial zoning codes</Link> and comprehensive plan designations before moving forward on any acquisition or lease.</p>
+        <p>Palm Harbor is not an incorporated city, it operates as an unincorporated community under Pinellas County jurisdiction. That distinction matters for commercial real estate investors and tenants because zoning decisions, permitting, and land use approvals all run through Pinellas County rather than a municipal government. This can streamline certain processes, but it also means understanding county-level <Link href="/blog/commercial-property-zoning-florida-basics" className="text-accent underline">Florida commercial zoning codes</Link> and comprehensive plan designations before moving forward on any acquisition or lease.</p>
         <p>The community spans roughly 25 square miles and is home to more than 60,000 residents. Household incomes in Palm Harbor consistently rank among the highest in Pinellas County, with median household income well above the county average. This affluent consumer base creates durable demand for service retail, medical office, professional services, and food and beverage concepts that serve discretionary spending.</p>
 
         <h2>Key Commercial Corridors and Submarkets</h2>
@@ -181,7 +181,7 @@ export default function BlogPost() {
         <p>East Lake Road and Curlew Road serve as important east-west connectors that feed commercial activity into neighborhood retail nodes and medical office clusters. The areas near Palm Harbor University High School and surrounding residential subdivisions generate consistent demand for service retail, tutoring centers, urgent care facilities, and quick-service restaurants.</p>
 
         <h2>Healthcare and Medical Office Demand</h2>
-        <p>One of the most compelling stories in Palm Harbor&apos;s commercial real estate market is the sustained demand for medical office and healthcare-adjacent space. The community&apos;s aging demographic profile -- with a significant percentage of residents over 55 -- creates structural demand for primary care, specialty medicine, physical therapy, dental services, and ancillary healthcare uses. Review our analysis of <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">Tampa Bay medical office real estate trends</Link> for the regional picture.</p>
+        <p>One of the most compelling stories in Palm Harbor&apos;s commercial real estate market is the sustained demand for medical office and healthcare-adjacent space. The community&apos;s aging demographic profile, with a significant percentage of residents over 55, creates structural demand for primary care, specialty medicine, physical therapy, dental services, and ancillary healthcare uses. Review our analysis of <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">Tampa Bay medical office real estate trends</Link> for the regional picture.</p>
         <p>HCA Florida Northside Hospital and the broader healthcare ecosystem in northern Pinellas County support a network of outpatient facilities, specialist offices, and diagnostic centers that continue to expand. Palm Harbor&apos;s suburban setting, abundant surface parking, and proximity to residential neighborhoods make it an ideal location for outpatient medical campuses and single-tenant healthcare buildings. Investors looking at net-leased medical assets should have Palm Harbor on their radar.</p>
 
         <h2>Retail and Restaurant Fundamentals</h2>
@@ -189,7 +189,7 @@ export default function BlogPost() {
         <p>The restaurant sector in Palm Harbor is particularly active. Independent operators and regional chains alike are drawn to the area&apos;s high traffic counts, strong average unit volumes, and a consumer base that eats out frequently. Pad sites and end-cap positions in established retail centers are in high demand, and landlords with quality assets are fielding multiple letters of intent on available spaces.</p>
 
         <h2>Investment Outlook for 2026</h2>
-        <p>For commercial real estate investors, Palm Harbor offers several attractive characteristics heading into 2026. Cap rates in the market remain generally attractive relative to Tampa and Clearwater proper, while the fundamentals -- income growth, population stability, and limited new supply -- support durable asset performance. Value-add retail acquisitions, <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">medical office investments</Link>, and <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">single-tenant net-leased properties</Link> are among the most active deal types in the market.</p>
+        <p>For commercial real estate investors, Palm Harbor offers several attractive characteristics heading into 2026. Cap rates in the market remain generally attractive relative to Tampa and Clearwater proper, while the fundamentals, income growth, population stability, and limited new supply, support durable asset performance. Value-add retail acquisitions, <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">medical office investments</Link>, and <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it" className="text-accent underline">single-tenant net-leased properties</Link> are among the most active deal types in the market.</p>
         <p>Florida&apos;s broader economic momentum, continued in-migration from high-cost states, and the relative affordability of Pinellas County compared to South Florida continue to drive demand for commercial space across all product types. Palm Harbor, with its strong demographics and constrained supply, is well-positioned to capture that demand. Use our <Link href="/calculators/cap-rate" className="text-accent underline">cap rate calculator</Link> to evaluate Palm Harbor investment opportunities.</p>
 
         <h2>Working with a Local Expert</h2>

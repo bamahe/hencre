@@ -11,7 +11,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Commercial Property Zoning Florida Basics | HenCRE",
   description:
-    "Florida commercial property zoning explained — zoning categories, permitted uses, variances, rezoning, and how zoning affects your CRE investment or business.",
+    "Florida commercial property zoning explained, zoning categories, permitted uses, variances, rezoning, and how zoning affects your CRE investment or business.",
   alternates: { canonical: "https://hencre.com/blog/commercial-property-zoning-florida-basics" },
   openGraph: {
     title: "Commercial Property Zoning Florida Basics",
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
 
 const faqItems = [
   {
-    question: "Who controls zoning in Florida — the state or local government?",
+    question: "Who controls zoning in Florida, the state or local government?",
     answer:
       "Zoning in Florida is controlled at the county and municipal level. Each county and city maintains its own zoning code, land development regulations, and future land use map under the authority granted by Florida's Growth Management Act. The state sets the overall framework through Chapter 163, Florida Statutes, but local governments adopt and enforce the specific rules. Always verify zoning with the jurisdiction where the property is located.",
   },
   {
     question: "What is the difference between zoning and future land use?",
     answer:
-      "Future land use (FLU) is a long-range policy designation in the local comprehensive plan that establishes how land should be used over time. Zoning implements that policy through specific regulations. A property's zoning must be consistent with its FLU designation. If you want to rezone a property, the FLU designation must support it — otherwise a comprehensive plan amendment is also required, which is a longer and more difficult process.",
+      "Future land use (FLU) is a long-range policy designation in the local comprehensive plan that establishes how land should be used over time. Zoning implements that policy through specific regulations. A property's zoning must be consistent with its FLU designation. If you want to rezone a property, the FLU designation must support it, otherwise a comprehensive plan amendment is also required, which is a longer and more difficult process.",
   },
   {
     question: "How do I find the zoning for a specific property in Florida?",
@@ -59,7 +59,7 @@ const faqItems = [
   {
     question: "Does zoning affect commercial property value in Florida?",
     answer:
-      "Yes, significantly. Commercial zoning typically makes a parcel more valuable than residential zoning because it supports higher income-generating uses. Within commercial categories, more permissive zoning that allows a wider range of uses increases value by providing flexibility. Properties zoned for higher density or intensity — more units or more square footage — are worth more because they can generate more income per acre.",
+      "Yes, significantly. Commercial zoning typically makes a parcel more valuable than residential zoning because it supports higher income-generating uses. Within commercial categories, more permissive zoning that allows a wider range of uses increases value by providing flexibility. Properties zoned for higher density or intensity, more units or more square footage, are worth more because they can generate more income per acre.",
   },
 ];
 
@@ -80,11 +80,11 @@ const schema = {
       description:
         "Florida commercial zoning explained: categories, uses, variances, and impact on CRE decisions.",
       datePublished: "2026-06-10",
-      dateModified: "2026-10-23",
+      dateModified: "2026-11-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -177,19 +177,19 @@ export default function ZoningBasicsPage() {
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-[#666666]">
-          Zoning is the system local governments use to regulate how land and buildings can be used. In commercial real estate, zoning determines whether you can open a restaurant, operate a warehouse, build an apartment complex, or run a medical office on a specific parcel. Getting zoning wrong can derail a deal, cost you months of delays, or leave you with a property you cannot use as intended. Understanding the basics before you lease, buy, or develop is essential — and verifying zoning is a non-negotiable step in any{" "}
+          Zoning is the system local governments use to regulate how land and buildings can be used. In commercial real estate, zoning determines whether you can open a restaurant, operate a warehouse, build an apartment complex, or run a medical office on a specific parcel. Getting zoning wrong can derail a deal, cost you months of delays, or leave you with a property you cannot use as intended. Understanding the basics before you lease, buy, or develop is essential, and verifying zoning is a non-negotiable step in any{" "}
           <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">commercial due diligence process</Link>.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does Zoning Work in Florida?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          In Florida, zoning is controlled at the county and municipal level — not the state level. Each county and city has its own zoning code, land development regulations, and future land use map. This means the zoning rules in{" "}
+          In Florida, zoning is controlled at the county and municipal level, not the state level. Each county and city has its own zoning code, land development regulations, and future land use map. This means the zoning rules in{" "}
           <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link>{" "}
           are different from those in the City of Tampa, which are different from{" "}
           <Link href="/markets/pinellas" className="text-accent underline">Pinellas County</Link>{" "}
           or{" "}
           <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link>.
-          Always verify zoning with the specific jurisdiction — not just the county — where the property is located.
+          Always verify zoning with the specific jurisdiction, not just the county, where the property is located.
         </p>
 
         <div className="my-8">
@@ -200,7 +200,7 @@ export default function ZoningBasicsPage() {
             height={600}
             className="rounded-lg w-full"
           />
-          <p className="mt-2 text-sm text-[#666666] italic">Florida zoning is administered at the county and municipal level — the rules vary significantly between jurisdictions even within the same metro area.</p>
+          <p className="mt-2 text-sm text-[#666666] italic">Florida zoning is administered at the county and municipal level, the rules vary significantly between jurisdictions even within the same metro area.</p>
         </div>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Are the Common Commercial Zoning Categories?</h2>
@@ -210,20 +210,20 @@ export default function ZoningBasicsPage() {
         <ul className="mt-4 list-disc pl-6 text-[#666666] leading-relaxed space-y-2">
           <li><strong>C-1 / CN (Neighborhood Commercial).</strong> Small-scale{" "}
             <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>{" "}
-            and services serving surrounding neighborhoods — convenience stores, dry cleaners, small restaurants, professional offices.</li>
+            and services serving surrounding neighborhoods, convenience stores, dry cleaners, small restaurants, professional offices.</li>
           <li><strong>C-2 / CG (General Commercial).</strong> Broader range of commercial uses including larger retail, restaurants, auto services, hotels, and general business operations.</li>
           <li><strong>C-3 / CI (Intensive Commercial).</strong> Higher-intensity commercial uses, sometimes including light industrial, outdoor storage, and uses that generate more traffic or noise.</li>
           <li><strong>I-1 / IL (Light Industrial).</strong>{" "}
             <Link href="/commercial/industrial-warehouse" className="text-accent underline">Warehousing, distribution, light manufacturing</Link>, and flex space. Limited outdoor storage and processing.</li>
           <li><strong>I-2 / IH (Heavy Industrial).</strong> Manufacturing, processing, heavy equipment, and uses with significant environmental impact.</li>
           <li><strong>PD (Planned Development).</strong> Mixed-use districts with customized zoning that combines commercial, residential, and sometimes industrial uses under a master plan.</li>
-          <li><strong>M / MF (Multifamily Residential).</strong> Zones that permit apartment buildings and higher-density residential development — relevant to investors evaluating the{" "}
+          <li><strong>M / MF (Multifamily Residential).</strong> Zones that permit apartment buildings and higher-density residential development, relevant to investors evaluating the{" "}
             <Link href="/blog/multifamily-investment-tampa-bay-guide" className="text-accent underline">multifamily investment market</Link>.</li>
         </ul>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is the Difference Between Zoning and Future Land Use?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Zoning and future land use (FLU) are related but different. The future land use map is part of the county or city&apos;s comprehensive plan and sets the broad policy for how land should be used long-term. Zoning implements that policy with specific regulations. A property&apos;s zoning must be consistent with its future land use designation. If you want to rezone a property, the FLU designation must support the proposed zoning — otherwise you need a comprehensive plan amendment, which is a longer and more difficult process.
+          Zoning and future land use (FLU) are related but different. The future land use map is part of the county or city&apos;s comprehensive plan and sets the broad policy for how land should be used long-term. Zoning implements that policy with specific regulations. A property&apos;s zoning must be consistent with its future land use designation. If you want to rezone a property, the FLU designation must support the proposed zoning, otherwise you need a comprehensive plan amendment, which is a longer and more difficult process.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Are Permitted, Conditional, and Prohibited Uses?</h2>
@@ -249,12 +249,12 @@ export default function ZoningBasicsPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Is a Variance and When Do You Need One?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          A variance is an exception to a specific zoning requirement — not the use itself, but requirements like setbacks, building height, parking ratios, or signage size. Variances are granted by local zoning boards when strict compliance creates a hardship. They are not guaranteed and can add weeks or months to your timeline. Common variance requests include reduced parking requirements, increased building height, and reduced setback distances.
+          A variance is an exception to a specific zoning requirement, not the use itself, but requirements like setbacks, building height, parking ratios, or signage size. Variances are granted by local zoning boards when strict compliance creates a hardship. They are not guaranteed and can add weeks or months to your timeline. Common variance requests include reduced parking requirements, increased building height, and reduced setback distances.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How Does Zoning Affect Property Value?</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Zoning has a direct impact on commercial property value. A parcel zoned for commercial use is typically worth more than the same parcel zoned residential because it can generate higher income. Within commercial categories, more permissive zoning (allowing a wider range of uses) generally increases value because it provides flexibility for current and future tenants or owners. Properties with zoning that allows higher density — more units, more square footage — are worth more because they can generate more income per acre. This is why zoning analysis is a key component of{" "}
+          Zoning has a direct impact on commercial property value. A parcel zoned for commercial use is typically worth more than the same parcel zoned residential because it can generate higher income. Within commercial categories, more permissive zoning (allowing a wider range of uses) generally increases value because it provides flexibility for current and future tenants or owners. Properties with zoning that allows higher density, more units, more square footage, are worth more because they can generate more income per acre. This is why zoning analysis is a key component of{" "}
           <Link href="/services/cre-valuation" className="text-accent underline">commercial property valuation</Link>.
         </p>
 
@@ -273,7 +273,7 @@ export default function ZoningBasicsPage() {
         <p className="mt-4 text-[#666666] leading-relaxed">
           This zoning verification is a critical part of your{" "}
           <Link href="/blog/commercial-property-due-diligence-timeline" className="text-accent underline">due diligence process</Link>.
-          Do not rely on the seller&apos;s or landlord&apos;s representations — verify directly with the local planning and zoning department. Tenants should also verify zoning when negotiating a lease, since a change in your business operations could affect your permitted-use status. For land acquisitions in growth markets like{" "}
+          Do not rely on the seller&apos;s or landlord&apos;s representations, verify directly with the local planning and zoning department. Tenants should also verify zoning when negotiating a lease, since a change in your business operations could affect your permitted-use status. For land acquisitions in growth markets like{" "}
           <Link href="/markets/hernando" className="text-accent underline">Hernando</Link>{" "}
           or{" "}
           <Link href="/markets/pasco" className="text-accent underline">Pasco County</Link>,
@@ -288,12 +288,12 @@ export default function ZoningBasicsPage() {
             height={600}
             className="rounded-lg w-full"
           />
-          <p className="mt-2 text-sm text-[#666666] italic">Before leasing or purchasing commercial space in Florida, verify that your specific use is permitted in the zoning district — not just that the area looks commercial.</p>
+          <p className="mt-2 text-sm text-[#666666] italic">Before leasing or purchasing commercial space in Florida, verify that your specific use is permitted in the zoning district, not just that the area looks commercial.</p>
         </div>
 
         <h2 className="mt-10 text-2xl font-bold text-black">The Bottom Line</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Zoning is foundational to every commercial real estate decision. It determines what you can do with a property, how much it is worth, and whether your business plan is viable. With 23+ years of real estate experience, Barrett Henry helps clients navigate zoning issues across Florida — from verifying permitted uses to evaluating rezoning potential. Understanding zoning before you commit saves time, money, and headaches. Explore available{" "}
+          Zoning is foundational to every commercial real estate decision. It determines what you can do with a property, how much it is worth, and whether your business plan is viable. With 23+ years of real estate experience, Barrett Henry helps clients navigate zoning issues across Florida, from verifying permitted uses to evaluating rezoning potential. Understanding zoning before you commit saves time, money, and headaches. Explore available{" "}
           <Link href="/commercial/land-development" className="text-accent underline">land and development opportunities</Link>{" "}
           or browse{" "}
           <Link href="/commercial/retail-space" className="text-accent underline">retail</Link>{" "}
@@ -306,7 +306,7 @@ export default function ZoningBasicsPage() {
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Florida Commercial Zoning — Frequently Asked Questions</h2>
+          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Florida Commercial Zoning, Frequently Asked Questions</h2>
           <FAQAccordion items={faqItems} />
         </div>
       </section>

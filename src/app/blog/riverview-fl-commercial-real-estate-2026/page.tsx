@@ -42,7 +42,7 @@ const schema = {
       headline: "Riverview FL Commercial Real Estate 2026: Market Guide",
       description: "Riverview is south Hillsborough's fastest-growing commercial submarket. Find out what's available, what's trading, and how Barrett Henry can help.",
       datePublished: "2026-07-29",
-      dateModified: "2026-10-29",
+      dateModified: "2026-11-23",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
