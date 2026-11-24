@@ -2617,5 +2617,21 @@
     "county": "Polk",
     "businessType": null,
     "image": null
+  },
+  {
+    "slug": "crystal-river-citrus-county-commercial-real-estate-investor-2026",
+    "title": "Crystal River & Citrus County Commercial Real Estate: Investing in Florida's Nature Coast",
+    "excerpt": "Crystal River and Citrus County are attracting savvy commercial real estate investors looking beyond Tampa Bay's saturated markets. Here's what you need to know about this growing Nature Coast opportunity.",
+    "date": "2026-11-24",
+    "category": "business-guide",
+    "city": "Crystal River",
+    "county": "Citrus",
+    "businessType": "commercial leasing",
+    "image": {
+      "url": "/images/blog/crystal-river-citrus-county-commercial-real-estate-investor-2026.jpg",
+      "alt": "an aerial view of a small town by the water",
+      "photographer": "Anita Denunzio",
+      "link": "https://unsplash.com/@dronepilot"
+    }
   }
 ]
