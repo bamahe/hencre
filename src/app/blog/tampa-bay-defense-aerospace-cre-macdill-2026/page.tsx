@@ -90,7 +90,7 @@ const schema = {
       description:
         "MacDill Air Force Base hosts SOCOM and CENTCOM and anchors Florida's $34.8B defense economy. Learn how defense spending shapes Tampa Bay office, flex, and industrial commercial real estate demand.",
       datePublished: "2026-11-20",
-      dateModified: "2026-11-20",
+      dateModified: "2026-11-24",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

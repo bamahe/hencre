@@ -86,7 +86,7 @@ const schema = {
       description:
         "Tampa Bay industrial vacancy held at 7.4% entering Q3 2026 - flat for the second consecutive quarter. CoStar ranked Tampa #1 nationally for small-bay industrial performance. New construction starts are falling, setting up a tighter 2027. A full update for tenants and investors.",
       datePublished: "2026-09-26",
-      dateModified: "2026-10-29",
+      dateModified: "2026-11-24",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

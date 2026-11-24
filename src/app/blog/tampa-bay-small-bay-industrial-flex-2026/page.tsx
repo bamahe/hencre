@@ -86,7 +86,7 @@ const schema = {
       description:
         "A joint venture paid $23.15M for a 169,055-sq-ft small bay industrial portfolio in Tampa. Here is what small bay industrial is, why investors love it, and what the deal means for the market in 2026.",
       datePublished: "2026-07-27",
-      dateModified: "2026-10-11",
+      dateModified: "2026-11-24",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

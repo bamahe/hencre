@@ -93,7 +93,7 @@ const schema = {
       description:
         "GLOVIS America's 80-acre expansion at Port Tampa Bay's Hooker's Point terminal and its impact on industrial and logistics commercial real estate along the Port Sutton and US-41 South corridor.",
       datePublished: "2026-11-21",
-      dateModified: "2026-11-21",
+      dateModified: "2026-11-24",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

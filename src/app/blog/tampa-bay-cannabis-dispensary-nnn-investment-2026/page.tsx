@@ -89,7 +89,7 @@ const schema = {
       description:
         "Medical marijuana dispensaries have become a growing single-tenant NNN investment class in Tampa Bay. What investors need to know about cap rates, tenant credit, zoning, and the unique risks of cannabis-occupied commercial real estate.",
       datePublished: "2026-11-22",
-      dateModified: "2026-11-22",
+      dateModified: "2026-11-24",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
