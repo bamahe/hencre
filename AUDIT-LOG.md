@@ -4,6 +4,59 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 97 -- 2026-11-24
+
+**Commit:** `8e5b0d8` | **Build:** clean (0 errors, 388 pages) | **Pages improved:** 10
+
+### 1. `/blog/crystal-river-citrus-county-commercial-real-estate-investor-2026`
+- First full audit (auto-generated 2026-11-24)
+- Added `import Image from "next/image"`
+- Merged dual articleSchema + faqSchema into single @graph schema
+- Fixed jobTitle: "Commercial Real Estate Advisor" -> "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame"
+- Removed nowtb.com from author sameAs array
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Added dateModified: "2026-11-24"
+- Fixed relatedLinks hrefs (added /blog/ prefix to all 5 links)
+- Added "Home" as first breadcrumb item
+- Replaced `<img>` with `<Image>` component
+- Updated author bio title to full credentials format
+- Removed HUD/FHA/HOPE "Free Resources" section
+- Fixed em dash in article body ("-- but sophisticated investors" -> ", but")
+- Fixed 7 JSX apostrophes in article body (Florida&apos;s, county&apos;s, you&apos;ll, etc.)
+- Shortened metadata title to under 70 chars
+
+### 2. `/blog/tampa-bay-automotive-logistics-port-hookerspoint-cre-2026`
+- Updated dateModified to "2026-11-24"
+
+### 3. `/blog/tampa-bay-cannabis-dispensary-nnn-investment-2026`
+- Updated dateModified to "2026-11-24"
+
+### 4. `/blog/tampa-bay-defense-aerospace-cre-macdill-2026`
+- Updated dateModified to "2026-11-24"
+
+### 5. `/blog/tampa-bay-ground-lease-nnn-investment-2026`
+- Fixed 32 em dashes (-- replacement with commas)
+- Updated dateModified: "2026-10-06" -> "2026-11-24"
+
+### 6. `/blog/tampa-bay-urgent-care-medical-clinic-nnn-investment-2026`
+- Fixed 4 em dashes (-- replacement with commas)
+- Updated dateModified: "2026-10-07" -> "2026-11-24"
+
+### 7. `/blog/tampa-bay-dollar-store-nnn-investment-2026`
+- Fixed 1 em dash (-- replacement with comma)
+- Updated dateModified: "2026-10-28" -> "2026-11-24"
+
+### 8. `/blog/tampa-bay-industrial-market-q3-2026`
+- Updated dateModified: "2026-10-29" -> "2026-11-24"
+
+### 9. `/blog/tampa-bay-small-bay-industrial-flex-2026`
+- Updated dateModified: "2026-10-11" -> "2026-11-24"
+
+### 10. `/blog/tampa-bay-office-sublease-market-2026`
+- Updated dateModified: "2026-10-11" -> "2026-11-24"
+
+---
+
 ## Batch 96 -- 2026-11-23
 
 **Commit:** `7ef1496` | **Build:** clean (0 errors) | **Pages improved:** 10
