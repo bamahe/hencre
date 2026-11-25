@@ -153,7 +153,7 @@ export default function Page() {
             />
           </div>
           <p>
-            The commercial market reflects this residential character. Vero Beach&apos;s retail environment is quality-oriented
+            The commercial market reflects this residential character. Vero Beach&apos;s <Link href="/commercial/retail-space">retail environment</Link> is quality-oriented
             without the mass-market density of a larger metro. Healthcare is the fastest-growing commercial sector as the
             county&apos;s population ages. Sebastian, on the northern end of the county near Brevard, adds a more
             working-class and marine-oriented commercial dimension. Compare this to the growth-driven commercial environment
@@ -247,7 +247,7 @@ export default function Page() {
             The Indian River Citrus District is one of the most recognized geographic appellations in American agriculture.
             While greening disease has significantly reduced active production, the land underlying former groves retains
             value, and the Indian River brand remains commercially relevant for operators who can sustain or restore
-            production. Agricultural land buyers should evaluate current grove health and disease management programs carefully.
+            production. Agricultural land buyers should evaluate current grove health and disease management programs carefully, and can use a <Link href="/calculators/cap-rate">cap rate calculator</Link> to model returns on productive acreage.
           </p>
 
           <h3>Tourism and Coastal Recreation</h3>
@@ -255,7 +255,7 @@ export default function Page() {
             Vero Beach&apos;s beaches, the Indian River Lagoon (one of Florida&apos;s most biodiverse estuaries), and
             recreational fishing generate visitor traffic that supports hospitality, dining, and marine-related commerce.
             The market is quieter than Fort Lauderdale or Miami Beach but attracts a consistent and higher-spending visitor
-            profile drawn by the area&apos;s natural character.
+            profile drawn by the area&apos;s natural character. Investors considering a sale or exchange of a Vero Beach property should review the <Link href="/blog/florida-1031-exchange-what-investors-need-to-know">Florida 1031 exchange guide</Link> for tax deferral strategies.
           </p>
         </section>
 

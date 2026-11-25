@@ -256,9 +256,9 @@ export default function Page() {
 
           <h3>Agricultural Land Investment</h3>
           <p>
-            Citrus and cattle land in Highlands County represents an accessible entry point for agricultural land investors
+            Citrus and cattle land in Highlands County represents an accessible entry point for <Link href="/blog/how-to-calculate-commercial-property-roi">agricultural land investors</Link>{" "}
             who want central Florida exposure at lower per-acre costs than coastal or Tampa Bay corridor markets. Greening
-            disease has changed the citrus calculus significantly — buyers should conduct thorough due diligence on any
+            disease has changed the citrus calculus significantly — buyers should conduct thorough <Link href="/blog/commercial-property-due-diligence-timeline">due diligence</Link> on any
             grove properties. Pastoral land for cattle is generally more straightforward to underwrite.
           </p>
         </section>

@@ -4,6 +4,53 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 98 -- 2026-11-25
+
+**Build:** clean (0 errors) | **Pages improved:** 9
+
+### 1. `/blog/tampa-bay-cre-year-end-planning-2026`
+- Updated dateModified to "2026-11-25"
+- Added internal Link: 1031 exchange identification/exchange period -> `/blog/1031-exchange-tampa-bay-commercial-real-estate-2026`
+- Added internal Link: NNN retail -> `/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it`
+- Added internal Link: tenant representation broker -> `/services/tenant-representation`
+- Added internal Link: CAM reconciliation -> `/blog/understanding-cam-charges-tenants-guide`
+- Added internal Link: Florida commercial property insurance -> `/blog/florida-property-insurance-tampa-bay-cre-2026`
+- Replaced external nowtb.com + fastselleasysale.com links with internal `/services/dispositions`
+
+### 2. `/blog/trinity-pasco-county-commercial-real-estate-2026`
+- Updated dateModified to "2026-11-25"
+- Replaced fastselleasysale.com external link with internal `/services/dispositions`
+
+### 3. `/markets/dixie`
+- Fixed 15 em dashes (` -- ` -> `, `) throughout JSX
+
+### 4. `/markets/hendry`
+- Fixed 15 em dashes (` -- ` -> `, `) throughout JSX
+
+### 5. `/markets/holmes`
+- Fixed 22 em dashes (` -- ` -> `, `) throughout JSX
+
+### 6. `/markets/highlands`
+- Added internal Link: due diligence -> `/blog/commercial-property-due-diligence-timeline`
+- Added internal Link: agricultural land investors -> `/blog/how-to-calculate-commercial-property-roi`
+- Now at 10 inline JSX links
+
+### 7. `/markets/hardee`
+- Added internal Link: due diligence -> `/blog/commercial-property-due-diligence-timeline`
+- Now at 10 inline JSX links
+
+### 8. `/markets/hamilton`
+- Added internal Link: what makes a good commercial investment -> `/blog/what-makes-a-good-commercial-investment`
+- Now at 10 inline JSX links
+
+### 9. `/markets/indian-river`
+- Added internal Link: Florida 1031 exchange guide -> `/blog/florida-1031-exchange-what-investors-need-to-know`
+- Added internal Link: cap rate calculator -> `/calculators/cap-rate`
+- Added internal Link: retail environment -> `/commercial/retail-space`
+- Now at 10 inline JSX links
+
+---
+
 ## Batch 97 -- 2026-11-24
 
 **Commit:** `8e5b0d8` | **Build:** clean (0 errors, 388 pages) | **Pages improved:** 10

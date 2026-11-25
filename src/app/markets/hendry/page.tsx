@@ -12,12 +12,12 @@ import RelatedLinks from "@/components/RelatedLinks";
 export const metadata: Metadata = {
   title: "Hendry County Commercial Real Estate | HenCRE",
   description:
-    "Commercial real estate in Hendry County, FL -- LaBelle, Clewiston, sugarcane agriculture, solar energy land leases, and agricultural support commercial. Barrett Henry, REMAX Collective.",
+    "Commercial real estate in Hendry County, FL, LaBelle, Clewiston, sugarcane agriculture, solar energy land leases, and agricultural support commercial. Barrett Henry, REMAX Collective.",
   alternates: { canonical: "https://hencre.com/markets/hendry" },
   openGraph: {
     title: "Hendry County Commercial Real Estate | HenCRE",
     description:
-      "Commercial real estate in Hendry County, FL -- LaBelle, Clewiston, sugarcane, solar land leases, and agricultural support commercial. Barrett Henry, REMAX Collective.",
+      "Commercial real estate in Hendry County, FL, LaBelle, Clewiston, sugarcane, solar land leases, and agricultural support commercial. Barrett Henry, REMAX Collective.",
     url: "https://hencre.com/markets/hendry",
     siteName: "HenCRE",
     type: "article",
@@ -28,12 +28,12 @@ const faqItems = [
   {
     question: "Is Hendry County worth considering for commercial real estate investment?",
     answer:
-      "Yes, but only if your strategy aligns with the market&apos;s fundamentals. Hendry County rewards agricultural investors, solar energy developers, long-term land value investors, and owner-operators in agribusiness. It is not a market for quick appreciation, high-velocity retail, or institutional-grade income property. The market is relationship-driven, patient, and fundamentals-based -- deals happen through local networks and verified agricultural need, not MLS listings.",
+      "Yes, but only if your strategy aligns with the market&apos;s fundamentals. Hendry County rewards agricultural investors, solar energy developers, long-term land value investors, and owner-operators in agribusiness. It is not a market for quick appreciation, high-velocity retail, or institutional-grade income property. The market is relationship-driven, patient, and fundamentals-based, deals happen through local networks and verified agricultural need, not MLS listings.",
   },
   {
     question: "What types of commercial properties are available in Hendry County?",
     answer:
-      "The market is dominated by agricultural support retail and service space, typically 2,000 to 10,000 SF properties designed for farm equipment dealers, fertilizer distribution, and agricultural consulting offices. LaBelle holds most of the small-scale professional service and retail inventory. Solar energy land leases are an emerging category -- utility-scale solar projects create long-term land revenue and ancillary commercial demand for staging and logistics space. Owner-occupied agricultural operations form the largest sector but rarely become available for outside investors.",
+      "The market is dominated by agricultural support retail and service space, typically 2,000 to 10,000 SF properties designed for farm equipment dealers, fertilizer distribution, and agricultural consulting offices. LaBelle holds most of the small-scale professional service and retail inventory. Solar energy land leases are an emerging category, utility-scale solar projects create long-term land revenue and ancillary commercial demand for staging and logistics space. Owner-occupied agricultural operations form the largest sector but rarely become available for outside investors.",
   },
   {
     question: "How does the solar energy boom affect commercial real estate in Hendry County?",
@@ -43,7 +43,7 @@ const faqItems = [
   {
     question: "What should I know before investing in Hendry County commercial real estate?",
     answer:
-      "First, understand that this is a relationship market. Most commercial deals happen through local agricultural networks, not public marketing platforms. Second, agricultural knowledge matters -- if you do not understand sugar production, cattle operations, or row crop economics, you will struggle to evaluate opportunities correctly. Third, be patient. Hendry County is not a flip market. Properties move slowly but are backed by solid fundamentals when they do sell. Working with a broker who knows the territory and has established relationships with local operators is essential.",
+      "First, understand that this is a relationship market. Most commercial deals happen through local agricultural networks, not public marketing platforms. Second, agricultural knowledge matters, if you do not understand sugar production, cattle operations, or row crop economics, you will struggle to evaluate opportunities correctly. Third, be patient. Hendry County is not a flip market. Properties move slowly but are backed by solid fundamentals when they do sell. Working with a broker who knows the territory and has established relationships with local operators is essential.",
   },
   {
     question: "How does Barrett Henry approach commercial real estate in Hendry County?",
@@ -65,7 +65,7 @@ const schema = {
     },
     {
       "@type": "Service",
-      name: "Commercial Real Estate Services -- Hendry County, FL",
+      name: "Commercial Real Estate Services, Hendry County, FL",
       description:
         "Commercial real estate brokerage in Hendry County, Florida. Agricultural land, solar energy land leases, agribusiness support commercial, and rural commercial in LaBelle and Clewiston from Barrett Henry, REMAX Collective.",
       provider: {
@@ -137,7 +137,7 @@ export default function Page() {
         <section>
           <h2>Hendry County Commercial Real Estate Market Overview</h2>
           <p>
-            Hendry County&apos;s economy is built on sugar production centered around Lake Okeechobee -- the most concentrated
+            Hendry County&apos;s economy is built on sugar production centered around Lake Okeechobee, the most concentrated
             sugarcane growing region in the United States. US Sugar Corporation has its headquarters in Clewiston, which has earned
             the nickname "The Sweetest Town in America." That agricultural foundation generates consistent demand for equipment
             dealers, fertilizer distribution, processing and logistics facilities, and specialized retail serving the agricultural
@@ -156,7 +156,7 @@ export default function Page() {
             What makes Hendry County worth watching right now is the emergence of utility-scale solar energy development. Florida&apos;s
             push toward renewable energy has identified South Florida&apos;s flat, sunny agricultural land as ideal for solar arrays.
             Land lease opportunities tied to utility-scale solar projects are creating a new long-term revenue stream for agricultural
-            landowners -- and opening ancillary commercial needs during construction and operations phases. For comparison of
+            landowners, and opening ancillary commercial needs during construction and operations phases. For comparison of
             how agricultural and rural commercial markets differ across South Florida, see <Link href="/markets/glades">Glades County</Link>{" "}
             to the east and <Link href="/markets/collier">Collier County</Link> to the south.
           </p>
@@ -166,16 +166,16 @@ export default function Page() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">Active Commercial Areas</h2>
           <div className="space-y-4">
             <div>
-              <h3 className="font-semibold text-gray-800">LaBelle -- County Seat and Service Hub</h3>
+              <h3 className="font-semibold text-gray-800">LaBelle, County Seat and Service Hub</h3>
               <p className="text-gray-700 text-sm mt-1">
                 LaBelle is Hendry County&apos;s primary commercial hub for professional services, small retail, and local business.
                 You will find attorneys, medical offices, farm supply retailers, and small restaurants along the main commercial
-                corridors. Vacancy is low because supply is genuinely limited -- quality commercial space moves steadily when
+                corridors. Vacancy is low because supply is genuinely limited, quality commercial space moves steadily when
                 it becomes available, typically to established local operators.
               </p>
             </div>
             <div>
-              <h3 className="font-semibold text-gray-800">Clewiston -- Agricultural Operations Center</h3>
+              <h3 className="font-semibold text-gray-800">Clewiston, Agricultural Operations Center</h3>
               <p className="text-gray-700 text-sm mt-1">
                 Clewiston serves as the secondary commercial node and the heart of Hendry&apos;s agricultural economy. Agricultural
                 equipment dealers, farm supply operations, and businesses serving the sugar industry concentrate here. The
@@ -199,7 +199,7 @@ export default function Page() {
             {[
               {
                 title: "Agricultural Support Retail and Service Space",
-                desc: "Small, specialized retail and service properties from 2,000 to 10,000 SF serving farm equipment dealers, fertilizer distribution, and agricultural consulting. Tenant rollover is extremely low -- established operators stay put for decades.",
+                desc: "Small, specialized retail and service properties from 2,000 to 10,000 SF serving farm equipment dealers, fertilizer distribution, and agricultural consulting. Tenant rollover is extremely low, established operators stay put for decades.",
               },
               {
                 title: "Agricultural Land and Solar Lease Parcels",
@@ -227,7 +227,7 @@ export default function Page() {
 
           <h3>Sugar Industry and Agricultural Production</h3>
           <p>
-            The sugar industry is not just Hendry County&apos;s past -- it is its present and likely its future. US Sugar Corporation,
+            The sugar industry is not just Hendry County&apos;s past, it is its present and likely its future. US Sugar Corporation,
             Florida Crystals, and smaller agricultural operations generate consistent commercial demand for equipment services,
             transportation logistics, and agricultural support retail. That demand is stable and locally rooted, not dependent
             on economic cycles the way retail or office markets are. For investors evaluating{" "}
@@ -248,7 +248,7 @@ export default function Page() {
           <h3>Population Service Needs in LaBelle</h3>
           <p>
             LaBelle&apos;s resident population requires basic retail, healthcare access, and professional services. Demand is steady
-            and stable but modest in scale -- the right environment for a local operator or investor seeking low-volatility
+            and stable but modest in scale, the right environment for a local operator or investor seeking low-volatility
             income with limited competition. Compare the more robust retail demand in neighboring{" "}
             <Link href="/markets/lee">Lee County</Link> or <Link href="/markets/collier">Collier County</Link> if scale matters
             to your underwriting.
@@ -260,7 +260,7 @@ export default function Page() {
           <p>
             Barrett approaches Hendry County as part of his statewide Florida commercial practice, with 23+ years of experience
             as a Broker Associate at <Link href="/remax-commercial-florida">REMAX Collective</Link>. He covers the market with
-            the same diligence and market intelligence he applies to high-velocity Tampa Bay submarkets -- the scale is different,
+            the same diligence and market intelligence he applies to high-velocity Tampa Bay submarkets, the scale is different,
             but the commitment to honest assessment is not.
           </p>
           <ul>

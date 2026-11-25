@@ -86,7 +86,7 @@ const schema = {
       description:
         "What Tampa Bay commercial real estate owners, investors, and tenants need to complete before December 31: 1031 exchange deadlines, lease renewal timing, tax elections, insurance reviews, and disposition strategy.",
       datePublished: "2026-11-18",
-      dateModified: "2026-11-18",
+      dateModified: "2026-11-25",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -173,7 +173,7 @@ export default function TampaBayCREYearEndPlanning2026() {
           <h2>What Year-End Deadlines Do Tampa Bay CRE Investors Face in 2026?</h2>
           <p>
             The most consequential year-end deadline for investors is the{" "}
-            <strong>1031 exchange identification and exchange period.</strong> If you sold a commercial property in
+            <strong><Link href="/blog/1031-exchange-tampa-bay-commercial-real-estate-2026">1031 exchange identification and exchange period</Link>.</strong> If you sold a commercial property in
             2026 and are deferring capital gains through a like-kind exchange, your 45-day identification clock is
             running from the date of your sale — not from December 31. The 180-day exchange period runs concurrently.
             Missing either deadline triggers recognition of the full deferred gain. If you are currently inside a
@@ -184,7 +184,7 @@ export default function TampaBayCREYearEndPlanning2026() {
             For investors who are <em>not</em> in an active exchange, the year-end decision point centers on whether
             to initiate a sale before year-end or position for a 2027 disposition. Buyers deploying year-end
             allocations — particularly institutional capital and 1031 exchange buyers with identified replacement
-            property needs — can close quickly on well-priced NNN retail, multi-tenant industrial, and medical office
+            property needs — can close quickly on well-priced <Link href="/blog/what-is-triple-net-nnn-lease-and-why-investors-love-it">NNN retail</Link>, multi-tenant industrial, and medical office
             assets. If your property is market-ready and priced correctly, launching a process now gives you a
             realistic path to a year-end or early-January close.
           </p>
@@ -239,14 +239,14 @@ export default function TampaBayCREYearEndPlanning2026() {
           </p>
           <ol>
             <li>
-              <strong>Lease audit.</strong> CAM reconciliation letters for 2026 are due to tenants within 60 to 90
+              <strong>Lease audit.</strong> <Link href="/blog/understanding-cam-charges-tenants-guide">CAM reconciliation</Link> letters for 2026 are due to tenants within 60 to 90
               days of year-end in most Florida commercial leases. Confirm your property management team has the actual
               expense data ready to reconcile. Also flag any lease renewal option notice windows that require landlord
               response in Q1 2027, rent escalation triggers taking effect January 1, and any personal guarantee or
               LOC burn-down provisions that change in the new year.
             </li>
             <li>
-              <strong>Insurance review.</strong> Florida commercial property insurance has continued to reprice
+              <strong>Insurance review.</strong> <Link href="/blog/florida-property-insurance-tampa-bay-cre-2026">Florida commercial property insurance</Link> has continued to reprice
               materially. Review your policy at renewal for replacement cost accuracy — insurers may be using
               outdated construction cost benchmarks that leave you underinsured. Flood coverage is essential for any
               property in a FEMA Special Flood Hazard Area, and Tampa Bay&apos;s flood zone maps expanded after
@@ -346,7 +346,7 @@ export default function TampaBayCREYearEndPlanning2026() {
           <h2>How Do I Work with a Tampa Bay Commercial Real Estate Broker Before Year-End?</h2>
           <p>
             Engaging a broker before year-end — rather than waiting until January — has measurable advantages. For
-            tenants, a tenant representation broker can survey available options, deliver market comparables, and
+            tenants, a <Link href="/services/tenant-representation">tenant representation broker</Link> can survey available options, deliver market comparables, and
             begin LOI negotiations in December so you enter 2027 with leverage and a clear path. For sellers,
             launching a listing in mid-November captures buyer attention before the holiday slowdown and positions
             the asset for January-to-March closing activity. For investors, a broker can deliver a broker opinion of
@@ -361,17 +361,8 @@ export default function TampaBayCREYearEndPlanning2026() {
             <strong>813-317-4009</strong> to discuss your year-end needs.
           </p>
           <p>
-            If your situation also involves residential property — selling a home to free up capital for a
-            commercial investment, or evaluating a mixed-use asset — visit{" "}
-            <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer">
-              nowtb.com
-            </a>{" "}
-            for the full Tampa Bay residential market. Owners looking for a fast, simplified sale of commercial
-            property, land, or a business can also explore{" "}
-            <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer">
-              fastselleasysale.com
-            </a>{" "}
-            for cash offer options.
+            Owners looking for a fast, simplified sale of commercial property, land, or a business can explore{" "}
+            <Link href="/services/dispositions">Barrett&apos;s disposition services</Link> for off-market and cash offer exit options.
           </p>
         </div>
 

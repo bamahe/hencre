@@ -274,7 +274,7 @@ export default function Page() {
           </ul>
           <p>
             Barrett works across <Link href="/markets">all of Florida&apos;s commercial real estate markets</Link> and brings
-            statewide context to every transaction. Contact him at (813) 733-7907 or through the{" "}
+            statewide context to every transaction. See his guide on <Link href="/blog/what-makes-a-good-commercial-investment">what makes a good commercial investment</Link> for the evaluation framework he applies here. Contact him at (813) 733-7907 or through the{" "}
             <Link href="/contact">contact page</Link>.
           </p>
         </section>

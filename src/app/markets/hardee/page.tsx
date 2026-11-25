@@ -231,7 +231,7 @@ export default function Page() {
             Citrus greening has reduced active grove acreage significantly across Florida, including Hardee County. Former
             grove land is transitioning to cattle, row crops, or long-term investment holding. This transition creates both
             challenges and opportunities — land may be priced at former productive value or at discounts reflecting current
-            reduced production. Thorough due diligence on any citrus property is essential.
+            reduced production. Thorough <Link href="/blog/commercial-property-due-diligence-timeline">due diligence</Link> on any citrus property is essential.
           </p>
 
           <h3>Local Population Services</h3>

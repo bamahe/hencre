@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "How does Dixie County compare to Citrus and Columbia counties for rural land investment?",
     answer:
-      "Dixie County is smaller and less active than either Citrus or Columbia counties. Citrus benefits from the Suncoast Parkway extension and stronger retail demand around Crystal River. Columbia County has a more established commercial base in Lake City along the I-75 corridor. Dixie is the most rural and niche of the three -- better suited to land and conservation strategies than operational commercial real estate.",
+      "Dixie County is smaller and less active than either Citrus or Columbia counties. Citrus benefits from the Suncoast Parkway extension and stronger retail demand around Crystal River. Columbia County has a more established commercial base in Lake City along the I-75 corridor. Dixie is the most rural and niche of the three, better suited to land and conservation strategies than operational commercial real estate.",
   },
 ];
 
@@ -75,7 +75,7 @@ const schema = {
       },
       areaServed: { "@type": "County", name: "Dixie County", containedIn: { "@type": "State", name: "Florida" } },
       description:
-        "Commercial real estate advisory, referral partnerships, and land investment guidance for Dixie County, Florida -- serving Cross City, Old Town, and the Nature Coast corridor.",
+        "Commercial real estate advisory, referral partnerships, and land investment guidance for Dixie County, Florida, serving Cross City, Old Town, and the Nature Coast corridor.",
     },
     {
       "@type": "FAQPage",
@@ -97,7 +97,7 @@ const relatedLinks = [
   {
     title: "Columbia County Commercial Real Estate",
     href: "/markets/columbia",
-    description: "Lake City and the I-75 corridor -- a more active rural commercial market north of Dixie.",
+    description: "Lake City and the I-75 corridor, a more active rural commercial market north of Dixie.",
   },
   {
     title: "Land and Development Advisory",
@@ -136,7 +136,7 @@ export default function DixieMarketPage() {
 
       <Hero
         title="Dixie County Commercial Real Estate"
-        subtitle="Florida&apos;s Nature Coast land market -- timber parcels, rural commercial, and conservation-eligible acreage served by Barrett Henry, Broker Associate at REMAX Collective."
+        subtitle="Florida&apos;s Nature Coast land market, timber parcels, rural commercial, and conservation-eligible acreage served by Barrett Henry, Broker Associate at REMAX Collective."
         ctaText="Start the Conversation"
         ctaHref="/contact"
       />
@@ -146,7 +146,7 @@ export default function DixieMarketPage() {
         <div className="rounded-lg border-l-4 border-black bg-gray-50 p-6">
           <p className="text-lg font-semibold text-black">Quick Answer</p>
           <p className="mt-2 text-[#666666]">
-            Dixie County is one of Florida&apos;s smallest and most rural commercial real estate markets. Cross City and Old Town serve as primary population centers, but transaction volume is minimal compared to Florida&apos;s major metros. The primary opportunity here is land -- timber parcels, conservation acreage, and rural property for patient-capital investors. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Dixie County through referral partnerships with verified local brokers.
+            Dixie County is one of Florida&apos;s smallest and most rural commercial real estate markets. Cross City and Old Town serve as primary population centers, but transaction volume is minimal compared to Florida&apos;s major metros. The primary opportunity here is land, timber parcels, conservation acreage, and rural property for patient-capital investors. Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, works Dixie County through referral partnerships with verified local brokers.
           </p>
         </div>
       </section>
@@ -156,7 +156,7 @@ export default function DixieMarketPage() {
         <h2 className="text-2xl font-bold sm:text-3xl">Dixie County Commercial Real Estate Market Overview</h2>
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
-            Dixie County sits on Florida&apos;s Nature Coast -- one of the state&apos;s most sparsely populated and least-developed regions.
+            Dixie County sits on Florida&apos;s Nature Coast, one of the state&apos;s most sparsely populated and least-developed regions.
             This is a market built on timber, commercial fishing, and government employment rather than corporate relocations or
             industrial logistics. If you are looking at Dixie County CRE, you are either a land investor building a conservation or
             timber portfolio, or you are a local operator with a specific need in the community. Barrett Henry will give you straight
@@ -194,17 +194,17 @@ export default function DixieMarketPage() {
           <h2 className="text-2xl font-bold sm:text-3xl">Primary Commercial Corridors</h2>
           <div className="mt-6 space-y-8 text-lg leading-relaxed text-[#666666]">
             <div>
-              <h3 className="text-xl font-bold text-black">Cross City -- US 19 Corridor</h3>
+              <h3 className="text-xl font-bold text-black">Cross City, US 19 Corridor</h3>
               <p className="mt-2">
                 The primary retail and service hub. Small-footprint commercial, limited vacancies, mostly owner-occupied or local operators.
                 Unlike coastal markets, you will not find spec development or national tenant expansion here. What you will find is
                 owner-occupied businesses and family-held properties serving the local population. The{" "}
                 <Link href="/commercial/retail-space" className="font-semibold text-black underline">retail</Link>{" "}
-                that exists here is functional -- service stations, grocery, healthcare, and government-adjacent services.
+                that exists here is functional, service stations, grocery, healthcare, and government-adjacent services.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-bold text-black">Old Town -- Secondary Population Center</h3>
+              <h3 className="text-xl font-bold text-black">Old Town, Secondary Population Center</h3>
               <p className="mt-2">
                 Minimal retail space. Government services dominate the employment landscape. Small{" "}
                 <Link href="/commercial/office-space" className="font-semibold text-black underline">professional office</Link>{" "}
@@ -213,7 +213,7 @@ export default function DixieMarketPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-bold text-black">Timber and Agricultural Land -- The Primary Opportunity</h3>
+              <h3 className="text-xl font-bold text-black">Timber and Agricultural Land, The Primary Opportunity</h3>
               <p className="mt-2">
                 The real estate story in Dixie County is land. Large acreage holdings, forestry operations, and rural property dominate
                 deal flow. Timber parcels, conservation-eligible land, and agricultural acreage are where most investment and transaction
@@ -242,7 +242,7 @@ export default function DixieMarketPage() {
             },
             {
               title: "Professional and Medical Office",
-              body: "Government offices, dental, medical, and legal practices. Limited and typically owner-occupied. Owner-user buyers in particular can find value here -- purchasing your own building rather than leasing is often the right strategy in this thin market.",
+              body: "Government offices, dental, medical, and legal practices. Limited and typically owner-occupied. Owner-user buyers in particular can find value here, purchasing your own building rather than leasing is often the right strategy in this thin market.",
             },
             {
               title: "Eco-Tourism and Hospitality",
@@ -272,11 +272,11 @@ export default function DixieMarketPage() {
             </li>
             <li>
               <strong className="text-black">Government Employment:</strong> County and municipal jobs provide the most stable employer base.
-              Schools, courts, and county services are the largest employers -- the anti-cyclical anchor of the local economy.
+              Schools, courts, and county services are the largest employers, the anti-cyclical anchor of the local economy.
             </li>
             <li>
               <strong className="text-black">Nature Coast Tourism:</strong> Eco-tourism, fishing charters, and outdoor recreation are
-              growing demand drivers. The Nature Coast brand attracts visitors seeking springs, wildlife, and Gulf access -- creating
+              growing demand drivers. The Nature Coast brand attracts visitors seeking springs, wildlife, and Gulf access, creating
               niche retail and service opportunities at a scale appropriate to this market.
             </li>
           </ul>
@@ -289,7 +289,7 @@ export default function DixieMarketPage() {
         <div className="mt-6 space-y-4 text-lg leading-relaxed text-[#666666]">
           <p>
             Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of Florida CRE experience, holding designations
-            including e-PRO, MRP, SRS, and REMAX Hall of Fame. Dixie County is a referral territory -- he does not maintain a daily
+            including e-PRO, MRP, SRS, and REMAX Hall of Fame. Dixie County is a referral territory, he does not maintain a daily
             presence there, but he has professional relationships with local brokers in Cross City and Old Town who do.
           </p>
           <p>
@@ -333,7 +333,7 @@ export default function DixieMarketPage() {
 
       <CTASection
         heading="Ready to Talk Dixie County Commercial Real Estate?"
-        body="Whether you are evaluating Nature Coast land, exploring a rural property sale, or need guidance on what this thin market can realistically deliver -- Barrett Henry has the network and 23+ years of Florida CRE experience to give you straight answers and connect you with the right specialists."
+        body="Whether you are evaluating Nature Coast land, exploring a rural property sale, or need guidance on what this thin market can realistically deliver, Barrett Henry has the network and 23+ years of Florida CRE experience to give you straight answers and connect you with the right specialists."
         buttonText="Get in Touch"
         buttonHref="/contact"
       />
