@@ -90,7 +90,7 @@ const schema = {
       description:
         "MacDill Air Force Base hosts SOCOM and CENTCOM and anchors Florida's $34.8B defense economy. Learn how defense spending shapes Tampa Bay office, flex, and industrial commercial real estate demand.",
       datePublished: "2026-11-20",
-      dateModified: "2026-11-24",
+      dateModified: "2026-11-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -281,16 +281,7 @@ export default function TampaBayDefenseAerospaceCREPage() {
           Defense workers are, as a group, relatively recession-resistant tenants for residential properties and reliable customers for the retail and food-and-beverage commercial spaces near their homes and offices. Retail investors evaluating properties in South Tampa and the Westshore area benefit from this demand floor in a way that is not fully captured by conventional retail market analysis, which focuses on private-sector employment trends.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you are selling a commercial property in a defense-adjacent corridor and want to understand how defense-workforce demand factors into your property&apos;s value positioning,{" "}
-          <a
-            href="https://fastselleasysale.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent underline"
-          >
-            Fast Sell Easy Sale
-          </a>{" "}
-          offers a fast-close option for commercial and mixed-use properties where a quick, certain transaction is a priority.
+          If you are selling a commercial property in a defense-adjacent corridor and want to understand how defense-workforce demand factors into your property&apos;s value positioning, explore <Link href="/services/dispositions" className="text-accent underline">Barrett&apos;s disposition advisory services</Link> for a structured, expert-guided path to market.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">

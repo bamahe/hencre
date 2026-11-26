@@ -86,7 +86,7 @@ const schema = {
       description:
         "The pending Innisbrook Resort sale to Concert Golf Partners highlights why Tampa Bay golf course real estate is drawing serious investor attention. Investment models, land value, conversion potential, and exit strategies for owners.",
       datePublished: "2026-11-10",
-      dateModified: "2026-11-12",
+      dateModified: "2026-11-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -259,9 +259,7 @@ export default function TampaBayGolfCourseCREPage() {
           The land value as a development site is established by comparison to adjacent residential or commercial land sales, discounted for the entitlement risk and carrying cost of converting from golf course to alternative use. In Hillsborough County suburban growth corridors where residential lots trade at $80,000 to $120,000 each, a 150-acre course that could support 300 to 400 lots carries theoretical development land value of $24 million to $48 million ,  before entitlement costs, infrastructure, demolition, and developer profit margin. After those deductions, the developer&apos;s land residual for the raw golf course parcel might be $8 million to $18 million, which only exceeds the going-concern value if the golf operation is significantly underperforming. This calculation ,  comparing going-concern value to development land residual ,  is the fundamental decision framework for any golf course owner evaluating an exit.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Owners of large commercial parcels in Tampa Bay ,  including golf courses and other large-acreage assets ,  who are evaluating a faster exit can also explore the{" "}
-          <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fast sale options at fastselleasysale.com</Link>,{" "}
-          which connects sellers of businesses, land, and commercial properties with cash buyers across Florida.
+          Owners of large commercial parcels in Tampa Bay, including golf courses and other large-acreage assets, who are evaluating a faster exit can also explore <Link href="/services/dispositions" className="text-accent underline">Barrett&apos;s disposition advisory services</Link>, which help sellers of businesses, land, and commercial properties structure a transaction efficiently.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Should Sellers of Golf Courses or Country Clubs Know About the Current Market?</h2>

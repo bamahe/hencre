@@ -87,7 +87,7 @@ const schema = {
       description:
         "Trinity's SR-54 corridor is one of the strongest commercial real estate growth stories in Pasco County. St. John Properties acquired 93 acres for Mitchell Business Park, the Marketplace at Trinity is breaking ground, and industrial supply is delivering. Here is what tenants and investors need to know in 2026.",
       datePublished: "2026-11-23",
-      dateModified: "2026-11-23",
+      dateModified: "2026-11-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -220,11 +220,7 @@ export default function TrinityPascoCountyCommercialRealEstatePage() {
           , or into suburban office parks that do not serve their operational needs well. Mitchell Business Park creates a retention mechanism for these tenants within the Trinity trade area, which benefits the broader commercial ecosystem by keeping high-income employees and their spending local.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For tenants evaluating space at Mitchell Business Park, the competitive positioning relative to Wesley Chapel flex product will be a central consideration. Trinity&apos;s labor market, dominated by healthcare, professional, and technical workers, is a genuine differentiator for employers who need to attract skilled workers. If you are considering a business relocation or expansion and your workforce is concentrated in western Pasco County, the access and demographics argument for Trinity over Wesley Chapel or the North Tampa market deserves serious consideration. Those interested in purchasing commercial land or business properties in this corridor can also find more resources at{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">
-            fastselleasysale.com
-          </a>
-          , which works with business and commercial property owners considering a sale or transition.
+          For tenants evaluating space at Mitchell Business Park, the competitive positioning relative to Wesley Chapel flex product will be a central consideration. Trinity&apos;s labor market, dominated by healthcare, professional, and technical workers, is a genuine differentiator for employers who need to attract skilled workers. If you are considering a business relocation or expansion and your workforce is concentrated in western Pasco County, the access and demographics argument for Trinity over Wesley Chapel or the North Tampa market deserves serious consideration. Owners of commercial land or properties in this corridor who are considering a sale can explore <Link href="/services/dispositions" className="text-accent underline">Barrett&apos;s disposition advisory services</Link> to understand their options and structure an efficient exit.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Will the Marketplace at Trinity Mean for the Retail Market?</h2>

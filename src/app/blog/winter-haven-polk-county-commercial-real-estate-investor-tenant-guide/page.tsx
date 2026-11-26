@@ -47,15 +47,14 @@ const schema = {
       headline: "Winter Haven CRE: What Investors & Tenants Should Know",
       description: "Winter Haven, FL commercial real estate is growing fast. Discover what&apos;s driving demand, top corridors, and why now is the time to act. Call Barrett today.",
       datePublished: "2026-11-20",
-      dateModified: "2026-11-21",
+      dateModified: "2026-11-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: [
           "https://hencre.com/about",
-          "https://nowtb.com",
           "https://barretthenry.remax.com",
         ],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },

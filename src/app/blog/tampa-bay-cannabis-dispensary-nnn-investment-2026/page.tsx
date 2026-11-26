@@ -89,7 +89,7 @@ const schema = {
       description:
         "Medical marijuana dispensaries have become a growing single-tenant NNN investment class in Tampa Bay. What investors need to know about cap rates, tenant credit, zoning, and the unique risks of cannabis-occupied commercial real estate.",
       datePublished: "2026-11-22",
-      dateModified: "2026-11-24",
+      dateModified: "2026-11-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -274,7 +274,7 @@ export default function TampaBayCannabisDispensaryNNNPage() {
           <strong>Tenant quality</strong> means more than brand recognition. Multi-state publicly traded operators — Curaleaf, Trulieve, Cresco Labs — offer audited financials and a level of institutional oversight that privately held single-state operators do not. The number of active licenses, years of Florida operations, and total revenue base are more predictive of lease durability than brand marketing. <strong>Location fundamentals</strong> are the best hedge against any single tenant&apos;s failure: a dispensary on a 50,000 vehicle-per-day corridor in a dense Tampa Bay suburb will find a replacement tenant faster and at stronger rents than one in a secondary location. <strong>Lease structure</strong> should be absolute NNN, with landlord obligations limited to structural items (foundation, exterior walls, roof structure), tenant-responsible for HVAC, plumbing, electrical, taxes, and insurance. Annual bumps of at least 2% protect purchasing power over a 10- to 15-year hold. <strong>Re-tenanting potential</strong> is the downside protection: a 3,000-square-foot freestanding pad with ample parking on a high-traffic corridor can accommodate urgent care, quick-service food, traditional retail, or personal services — the cannabis use does not permanently limit the building&apos;s utility. Buildings with drive-through lanes add another layer of re-tenanting flexibility. <strong>Insurance and financing viability</strong> must be confirmed before closing — not assumed. A buyer who discovers post-closing that insurance is unavailable or that refinancing is impossible has limited recourse.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          If you currently own a cannabis-occupied or general commercial investment property in Tampa Bay and are considering a sale or exchange, <Link href="https://fastselleasysale.com" className="text-accent underline" target="_blank" rel="noopener noreferrer">fastselleasysale.com</Link> offers a direct, fast-closing option for owners who need liquidity without a traditional listing process.
+          If you currently own a cannabis-occupied or general commercial investment property in Tampa Bay and are considering a sale or exchange, explore <Link href="/services/dispositions" className="text-accent underline">Barrett&apos;s disposition advisory services</Link> for a direct, structured path to market that protects your interests throughout the transaction.
         </p>
 
         <FAQAccordion items={faqItems} />

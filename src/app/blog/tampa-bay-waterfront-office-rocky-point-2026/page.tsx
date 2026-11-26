@@ -15,7 +15,7 @@ import SchemaOrg from "@/components/SchemaOrg";
  * ----------------------------------------------------------------- */
 
 export const metadata: Metadata = {
-  title: "Tampa Bay Waterfront Office Market 2026: Rocky Point & the Bay Corridor | HenCRE",
+  title: "Tampa Bay Waterfront Office 2026: Rocky Point Guide | HenCRE",
   description:
     "Tampa Bay's waterfront office corridor — Rocky Point, Harbour Island, and the bay-view buildings ringing Old Tampa Bay — commands a premium over standard Class A. Here is what tenants and investors need to know about Tampa's most distinctive office addresses in 2026.",
   alternates: { canonical: "https://hencre.com/blog/tampa-bay-waterfront-office-rocky-point-2026" },
@@ -86,7 +86,7 @@ const schema = {
       description:
         "Rocky Point's Class A waterfront office buildings, the $39.5M Harborview Plaza repositioning by Banyan Street Capital, Venture X coworking, and what the bay-view premium means for tenants and investors in Tampa Bay's most distinctive office addresses.",
       datePublished: "2026-11-24",
-      dateModified: "2026-11-24",
+      dateModified: "2026-11-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

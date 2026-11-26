@@ -86,7 +86,7 @@ const schema = {
       description:
         "What Tampa Bay commercial real estate owners, investors, and tenants need to complete before December 31: 1031 exchange deadlines, lease renewal timing, tax elections, insurance reviews, and disposition strategy.",
       datePublished: "2026-11-18",
-      dateModified: "2026-11-18",
+      dateModified: "2026-11-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -361,17 +361,11 @@ export default function TampaBayCREYearEndPlanning2026() {
             <strong>813-317-4009</strong> to discuss your year-end needs.
           </p>
           <p>
-            If your situation also involves residential property — selling a home to free up capital for a
-            commercial investment, or evaluating a mixed-use asset — visit{" "}
-            <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer">
-              nowtb.com
-            </a>{" "}
-            for the full Tampa Bay residential market. Owners looking for a fast, simplified sale of commercial
-            property, land, or a business can also explore{" "}
-            <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer">
-              fastselleasysale.com
-            </a>{" "}
-            for cash offer options.
+            If your situation involves commercial property you are ready to exit, Barrett&apos;s{" "}
+            <Link href="/services/dispositions" className="text-accent underline">
+              disposition advisory services
+            </Link>{" "}
+            can help you structure an efficient sale before year-end.
           </p>
         </div>
 

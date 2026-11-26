@@ -93,7 +93,7 @@ const schema = {
       description:
         "GLOVIS America's 80-acre expansion at Port Tampa Bay's Hooker's Point terminal and its impact on industrial and logistics commercial real estate along the Port Sutton and US-41 South corridor.",
       datePublished: "2026-11-21",
-      dateModified: "2026-11-24",
+      dateModified: "2026-11-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -346,13 +346,9 @@ export default function TampaBayAutomotiveLogisticsPortHookersPointCRE2026() {
             </p>
             <p>
               Owners of industrial property in the Hooker&apos;s Point, Port Sutton, or Gibsonton corridor who
-              are considering a sale — including land parcels suited for port-related development — can explore
-              both traditional listings and cash-offer options through{" "}
-              <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer">
-                fastselleasysale.com
-              </a>
-              , which specializes in quick commercial and land transactions for sellers who value speed and
-              certainty over maximum price.
+              are considering a sale, including land parcels suited for port-related development, can explore
+              <Link href="/services/dispositions" className="text-accent underline"> Barrett&apos;s disposition advisory services</Link>,
+              which help sellers understand market value and structure a transaction efficiently.
             </p>
 
             <h2>How Do Tariffs and Global Supply Chain Shifts Affect Tampa Bay Automotive Logistics?</h2>

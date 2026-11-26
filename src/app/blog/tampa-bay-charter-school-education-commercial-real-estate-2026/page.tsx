@@ -88,7 +88,7 @@ const schema = {
       description:
         "Charter schools, private academies, and faith-based education operators are actively acquiring commercial property across Tampa Bay. Recent deals topped $12M–$14M. Here is what investors and buyers need to know.",
       datePublished: "2026-11-13",
-      dateModified: "2026-11-16",
+      dateModified: "2026-11-26",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -282,15 +282,7 @@ export default function TampaBayCharterschoolCREPage() {
           Education buyers are also often less price-sensitive on a per-square-foot basis than traditional commercial buyers, particularly when a property has specific site characteristics, location relative to the school&apos;s existing enrollment base, or facility features, gymnasiums, commercial kitchens, outdoor fields, that would be expensive to replicate. A property that is difficult to re-tenant as retail or office because of configuration or location may trade at a significant premium to a school buyer who values exactly those characteristics.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For sellers with under-utilized commercial properties in residential-adjacent Tampa Bay submarkets, the education buyer market is worth exploring before defaulting to a traditional commercial marketing process. If the property needs pre-sale repairs or systems updates to meet the inspection requirements that education buyers and their lenders typically require,{" "}
-          <a href="https://bestbayservices.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">
-            Best Bay Services
-          </a>{" "}
-          provides handyman and HVAC services across Tampa Bay that can address deferred maintenance before listing. If the goal is a faster sale without traditional listing timelines,{" "}
-          <a href="https://fastselleasysale.com" target="_blank" rel="noopener noreferrer" className="text-accent underline">
-            FastSellEasySale.com
-          </a>{" "}
-          provides direct acquisition options for commercial properties, land, and businesses across the Tampa Bay region.
+          For sellers with under-utilized commercial properties in residential-adjacent Tampa Bay submarkets, the education buyer market is worth exploring before defaulting to a traditional commercial marketing process. Barrett&apos;s <Link href="/services/dispositions" className="text-accent underline">disposition advisory services</Link> help commercial property owners evaluate all buyer categories, including education and institutional users, and structure a sale that maximizes value for the seller&apos;s specific timeline and goals.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">
