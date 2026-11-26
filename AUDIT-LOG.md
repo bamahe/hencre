@@ -4,6 +4,62 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 98 -- 2026-11-26
+
+**Commit:** `8ee5747` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/sarasota-nnn-landlord-investment-strategy-sarasota-county`
+- Full rewrite: merged dual SchemaOrg calls into single @graph schema
+- Fixed jobTitle to full credentials string (e-PRO, MRP, SRS, REMAX Hall of Fame)
+- Removed nowtb.com from author sameAs array
+- Fixed publisher: "REMAX Commercial Real Estate" -> "HenCRE"
+- Added dateModified: "2026-11-26"
+- Added "Home" as first breadcrumb item
+- Escaped all apostrophes (react/no-unescaped-entities)
+- Replaced `<img>` with `<Image>` component, `<a>` with `<Link>`
+- Removed HUD/FHA/HOPE Free Resources section (inaccurate content)
+
+### 2. `/blog/tampa-bay-waterfront-office-rocky-point-2026`
+- Shortened metadata title from 80 chars to 54 chars (under 70-char limit)
+- Updated dateModified to "2026-11-26"
+
+### 3. `/blog/trinity-pasco-county-commercial-real-estate-2026`
+- Replaced fastselleasysale.com external link with `/services/dispositions` internal Link
+- Updated dateModified to "2026-11-26"
+
+### 4. `/blog/tampa-bay-automotive-logistics-port-hookerspoint-cre-2026`
+- Replaced fastselleasysale.com external link with `/services/dispositions` internal Link
+- Updated dateModified to "2026-11-26"
+
+### 5. `/blog/tampa-bay-cannabis-dispensary-nnn-investment-2026`
+- Replaced fastselleasysale.com external Link with `/services/dispositions` internal Link
+- Updated dateModified to "2026-11-26"
+
+### 6. `/blog/tampa-bay-defense-aerospace-cre-macdill-2026`
+- Replaced fastselleasysale.com external link with `/services/dispositions` internal Link
+- Updated dateModified to "2026-11-26"
+
+### 7. `/blog/tampa-bay-golf-course-country-club-cre-2026`
+- Replaced fastselleasysale.com external Link with `/services/dispositions` internal Link
+- Fixed spacing artifacts around commas (` ,  ` -> `, `)
+- Updated dateModified from "2026-11-12" to "2026-11-26"
+
+### 8. `/blog/tampa-bay-charter-school-education-commercial-real-estate-2026`
+- Replaced both bestbayservices.com and fastselleasysale.com external links with single `/services/dispositions` Link
+- Updated dateModified from "2026-11-16" to "2026-11-26"
+
+### 9. `/blog/tampa-bay-cre-year-end-planning-2026`
+- Replaced nowtb.com external link with internal text referencing Tampa Bay residential market
+- Replaced fastselleasysale.com external link with `/services/dispositions` internal Link
+- Updated dateModified from "2026-11-18" to "2026-11-26"
+
+### 10. `/blog/winter-haven-polk-county-commercial-real-estate-investor-tenant-guide`
+- Removed nowtb.com from author sameAs array
+- Fixed jobTitle: "Broker Associate" -> full credentials string
+- Updated dateModified from "2026-11-21" to "2026-11-26"
+
+---
+
 ## Batch 97 -- 2026-11-24
 
 **Commit:** `8e5b0d8` | **Build:** clean (0 errors, 388 pages) | **Pages improved:** 10
