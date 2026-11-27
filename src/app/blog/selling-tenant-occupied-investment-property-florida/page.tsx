@@ -84,7 +84,7 @@ const schema = {
       description:
         "Practical guide for Florida landlords navigating the sale of tenant-occupied properties.",
       datePublished: "2026-06-17",
-      dateModified: "2026-11-02",
+      dateModified: "2026-11-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",

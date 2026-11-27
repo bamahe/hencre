@@ -80,11 +80,11 @@ const schema = {
       description:
         "Land O' Lakes is one of Pasco County's fastest-growing commercial real estate markets. Retail, medical office, flex, and investment opportunities along US-41 and SR-54.",
       datePublished: "2026-08-17",
-      dateModified: "2026-10-22",
+      dateModified: "2026-11-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -172,7 +172,7 @@ export default function LandOLakesPascoPage() {
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&h=900&fit=crop"
         title="Land O' Lakes Commercial Real Estate"
-        subtitle="One of Pasco County's fastest-growing commercial markets -- retail, medical office, flex space, and investment opportunities along US-41 and SR-54."
+        subtitle="One of Pasco County's fastest-growing commercial markets, retail, medical office, flex space, and investment opportunities along US-41 and SR-54."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
@@ -182,7 +182,7 @@ export default function LandOLakesPascoPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Population Growth Fueling Commercial Demand</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The foundation of any strong commercial real estate market is rooftops -- and Land O&apos; Lakes has them in abundance. Pasco County has consistently ranked among the fastest-growing counties in Florida, with Land O&apos; Lakes serving as one of its most densely populated nodes. The community&apos;s population has surged well past 70,000 residents, supported by a steady influx of families priced out of <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> and remote workers seeking more space without sacrificing proximity to Tampa.
+          The foundation of any strong commercial real estate market is rooftops, and Land O&apos; Lakes has them in abundance. Pasco County has consistently ranked among the fastest-growing counties in Florida, with Land O&apos; Lakes serving as one of its most densely populated nodes. The community&apos;s population has surged well past 70,000 residents, supported by a steady influx of families priced out of <Link href="/markets/hillsborough" className="text-accent underline">Hillsborough County</Link> and remote workers seeking more space without sacrificing proximity to Tampa.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           This population density translates directly into commercial opportunity. <Link href="/commercial/retail-space" className="text-accent underline">Retailers</Link>, restaurants, <Link href="/commercial/office-space" className="text-accent underline">medical offices</Link>, and personal service businesses all thrive in markets where daytime and evening foot traffic is consistent.
@@ -201,7 +201,7 @@ export default function LandOLakesPascoPage() {
           The US-41 corridor remains the spine of commercial activity in Land O&apos; Lakes. Stretching north from the Hillsborough County border through the heart of the community, US-41 hosts a diverse mix of strip centers, freestanding retail, automotive services, and <Link href="/commercial/office-space" className="text-accent underline">medical offices</Link>. Vacancy rates along this corridor have remained relatively tight compared to broader market averages, reflecting strong underlying demand from local consumers and businesses alike.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          SR-54 and SR-56 -- which serve as major east-west connectors linking Land O&apos; Lakes to <Link href="/blog/wesley-chapel-commercial-real-estate-2026" className="text-accent underline">Wesley Chapel</Link> and <Link href="/blog/new-port-richey-commercial-real-estate-investors" className="text-accent underline">New Port Richey</Link> -- are also emerging as significant commercial addresses. The SR-54/SR-56 interchange area has become a regional retail hub with national anchor tenants drawing traffic from a wide geographic radius.
+          SR-54 and SR-56, which serve as major east-west connectors linking Land O&apos; Lakes to <Link href="/blog/wesley-chapel-commercial-real-estate-2026" className="text-accent underline">Wesley Chapel</Link> and <Link href="/blog/new-port-richey-commercial-real-estate-investors" className="text-accent underline">New Port Richey</Link>, are also emerging as significant commercial addresses. The SR-54/SR-56 interchange area has become a regional retail hub with national anchor tenants drawing traffic from a wide geographic radius.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Retail and Restaurant Opportunities</h2>
@@ -247,7 +247,7 @@ export default function LandOLakesPascoPage() {
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-8 text-center text-2xl font-bold text-black sm:text-3xl">
-            Land O&apos; Lakes CRE -- Frequently Asked Questions
+            Land O&apos; Lakes CRE, Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqItems} />
         </div>
@@ -293,7 +293,7 @@ export default function LandOLakesPascoPage() {
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        <p className="text-xs text-[#666666]">Last updated: September 2026</p>
+        <p className="text-xs text-[#666666]">Last updated: November 2026</p>
       </div>
     </>
   );

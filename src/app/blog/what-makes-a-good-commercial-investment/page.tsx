@@ -85,7 +85,7 @@ const schema = {
       description:
         "Learn what experienced investors look for in commercial real estate - tenant quality, lease terms, location fundamentals, and more.",
       datePublished: "2026-05-15",
-      dateModified: "2026-11-21",
+      dateModified: "2026-11-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -277,7 +277,7 @@ export default function GoodInvestmentPage() {
       {/* ---- FAQ ---- */}
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Commercial Real Estate Investment -- Frequently Asked Questions</h2>
+          <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">Commercial Real Estate Investment: Frequently Asked Questions</h2>
           <FAQAccordion items={faqItems} />
         </div>
       </section>

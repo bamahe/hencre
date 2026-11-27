@@ -79,11 +79,11 @@ const schema = {
       description:
         "WDO findings on Florida investment properties trigger mandatory lender repair requirements that can consume years of rental income. Here is how to evaluate the repair-vs-sell decision.",
       datePublished: "2026-06-24",
-      dateModified: "2026-11-19",
+      dateModified: "2026-11-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
-        jobTitle: "Broker Associate",
+        jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
         sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
         worksFor: { "@type": "Organization", name: "REMAX Collective" },
@@ -296,7 +296,7 @@ export default function TermiteDamageInvestmentPropertyPage() {
           </p>
         </div>
 
-        <p className="mt-6 text-xs text-[#666666]">Last updated: October 2026</p>
+        <p className="mt-6 text-xs text-[#666666]">Last updated: November 2026</p>
       </article>
 
       {/* ---- FAQ Section ---- */}
