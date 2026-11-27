@@ -4,6 +4,64 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 
 ---
 
+## Batch 99 -- 2026-11-27
+
+**Commit:** `210692f` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/tampa-bay-manufacturing-space-cre-2026`
+- First audit of this page (previously unaudited)
+- Fixed jobTitle to full credentials string (Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame)
+- Added image and sameAs fields to schema author object
+- Replaced `<img>` with `<Image>` component
+- Updated dateModified to "2026-11-27"
+
+### 2. `/blog/sba-504-loan-commercial-real-estate-tampa-bay`
+- Fixed 28 em dashes (` -- ` -> `, `)
+- Fixed FAQ h2 heading punctuation (comma -> colon)
+- Updated dateModified to "2026-11-27"
+- Updated "Last updated" to November 2026
+
+### 3. `/blog/multifamily-investment-tampa-bay-guide`
+- Fixed 19 em dashes (` -- ` -> `, `)
+- Fixed FAQ h2 heading punctuation (comma -> colon)
+- Updated dateModified to "2026-11-27"
+- Updated "Last updated" to November 2026
+
+### 4. `/blog/how-to-calculate-commercial-property-roi`
+- Fixed 6 em dashes (` -- ` -> `, `)
+- Fixed FAQ h2 heading punctuation (comma -> colon)
+- Updated dateModified to "2026-11-27"
+- Updated "Last updated" to November 2026
+
+### 5. `/blog/valrico-commercial-real-estate-guide`
+- Fixed 6 em dashes (` -- ` -> `, `)
+- Updated dateModified to "2026-11-27"
+- Updated "Last updated" to November 2026
+
+### 6. `/blog/land-o-lakes-pasco-county-commercial-real-estate`
+- Fixed 4 em dashes (` -- ` -> `, `)
+- Fixed jobTitle to full credentials string
+- Updated dateModified to "2026-11-27"
+- Updated "Last updated" to November 2026
+
+### 7. `/blog/termite-damage-investment-property-florida`
+- Fixed jobTitle to full credentials string
+- Updated dateModified to "2026-11-27"
+- Updated "Last updated" to November 2026
+
+### 8. `/blog/crystal-river-citrus-county-commercial-real-estate`
+- Updated dateModified to "2026-11-27" (was 2026-10-18, oldest on site)
+- Updated "Last updated" to November 2026
+
+### 9. `/blog/what-makes-a-good-commercial-investment`
+- Fixed 1 em dash in FAQ h2 heading (` -- ` -> `: `)
+- Updated dateModified to "2026-11-27"
+
+### 10. `/blog/selling-tenant-occupied-investment-property-florida`
+- Updated dateModified to "2026-11-27"
+
+---
+
 ## Batch 98 -- 2026-11-26
 
 **Commit:** `8ee5747` | **Build:** clean (0 errors) | **Pages improved:** 10
