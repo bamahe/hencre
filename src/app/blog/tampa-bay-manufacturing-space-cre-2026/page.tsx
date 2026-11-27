@@ -1,11 +1,98 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Hero from "@/components/Hero";
+import CTASection from "@/components/CTASection";
+import FAQAccordion from "@/components/FAQAccordion";
+import RelatedLinks from "@/components/RelatedLinks";
+import SchemaOrg from "@/components/SchemaOrg";
+
+/* -------------------------------------------------------------------
+ * Blog: Tampa Bay Manufacturing Space & Light Industrial CRE 2026
+ * Manufacturing vacancy at 4.2% and rents up 15.6% YOY — the tightest
+ * CRE subtype in Tampa Bay that most investors still overlook.
+ * ----------------------------------------------------------------- */
+
+export const metadata: Metadata = {
+  title: "Tampa Bay Manufacturing Space CRE 2026 | HenCRE",
+  description:
+    "Manufacturing vacancy in Tampa Bay hit 4.2% in Q3 2026 — tighter than any other industrial product — while rents climbed 15.6% year-over-year to $11.46/SF. Here is what that means for tenants, owner-users, and investors.",
+  alternates: { canonical: "https://hencre.com/blog/tampa-bay-manufacturing-space-cre-2026" },
+  openGraph: {
+    title: "Tampa Bay Manufacturing Space CRE 2026",
+    description:
+      "At 4.2% vacancy and 15.6% rent growth, Tampa Bay manufacturing space is the tightest industrial product in the region. Here is what tenants, owner-users, and investors need to know.",
+    url: "https://hencre.com/blog/tampa-bay-manufacturing-space-cre-2026",
+    type: "article",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&h=630&fit=crop",
+        width: 1200,
+        height: 630,
+        alt: "Manufacturing facility interior in Tampa Bay Florida",
+      },
+    ],
+  },
+};
+
+const faqItems = [
+  {
+    question: "How tight is the Tampa Bay manufacturing space market right now?",
+    answer:
+      "Extremely tight. As of Q3 2026, Cushman & Wakefield reported manufacturing product vacancy at 4.2% across Tampa Bay — the lowest of any industrial subtype in the region. For context, the broader warehouse and distribution segment sat at 9.5%, more than twice as high. Quality manufacturing buildings near Tampa Airport, the Port, and in East Tampa frequently carry vacancy below 3%, and available suites in well-maintained multi-tenant manufacturing buildings move within weeks of listing. Tenants who wait until their lease expires before searching routinely find they have no good options and must either renew on the landlord's terms or accept a suboptimal location.",
+  },
+  {
+    question: "Why are manufacturing rents rising faster than warehouse rents in Tampa Bay?",
+    answer:
+      "Manufacturing space rents led all industrial subtypes in Tampa Bay with 15.6% year-over-year growth through Q3 2026, reaching $11.46 per square foot (NNN) on average. The core driver is a supply-demand mismatch that has built up over the past decade. Developers focused on large-format warehouse and distribution buildings during the e-commerce build-out cycle, leaving manufacturing space inventory largely static. At the same time, demand from defense contractors near MacDill AFB, food and beverage manufacturers serving a growing population, medical device producers, and light assembly operations has expanded steadily. When supply is flat and demand grows, rents go up — and in Tampa Bay's manufacturing segment, the gap is wide enough to sustain above-market rent growth for the foreseeable future.",
+  },
+  {
+    question: "What are the best submarkets for manufacturing space in Tampa Bay?",
+    answer:
+      "The Tampa Airport corridor — bounded by Veterans Expressway, I-275, and I-4 — has historically been the most coveted manufacturing submarket because of its proximity to Port Tampa Bay, CSX Intermodal, and Tampa International Airport. East Tampa along the US-301 corridor offers newer product at slightly lower rents, with direct access to I-4 and I-75. In Hillsborough County, the Plant City and Brandon areas have attracted food processing and distribution-related manufacturing. In Pinellas County, Largo, Clearwater, and Pinellas Park carry an older but functional manufacturing inventory that serves defense electronics, marine products, and light assembly tenants. Pasco County's Land O' Lakes and Wesley Chapel submarkets are emerging for newer flex-manufacturing product as land costs inland remain favorable.",
+  },
+  {
+    question: "What lease terms should manufacturing tenants expect in Tampa Bay in 2026?",
+    answer:
+      "Manufacturing leases in Tampa Bay are almost universally triple-net (NNN), meaning tenants pay base rent plus their proportionate share of property taxes, insurance, and common area maintenance. Base rents for quality manufacturing space range from $9 to $14 per square foot depending on submarket, clear height, power, and dock access — with CAM and NNN expenses adding $2.50 to $4 per square foot on top. Annual rent escalations of 3% to 4% are standard; some landlords in tight buildings are pushing to 4% given their negotiating leverage. Lease terms typically run five to seven years for larger manufacturing users and three to five years for smaller tenants under 10,000 square feet. Tenant improvement allowances are modest — most manufacturing space is delivered in a functional state, and landlords offer limited build-out assistance beyond basic HVAC and electrical upgrades.",
+  },
+  {
+    question: "Should a manufacturing business in Tampa Bay buy or lease its space?",
+    answer:
+      "With rents rising and vacancy this tight, the lease-versus-buy question deserves serious analysis rather than a default assumption. Buying through an SBA 504 loan allows a manufacturing business to lock in a long-term occupancy cost below current market rents, build equity in appreciating industrial real estate, and eliminate the risk of lease non-renewal in a supply-constrained market. The tradeoff is capital and management responsibility. Owner-users who bought Tampa Bay manufacturing space five to ten years ago have seen substantial appreciation. Those who plan to operate in the same location for five or more years and can qualify for SBA financing should model the numbers carefully before signing another lease. Businesses looking to sell their current property quickly before transitioning to a new facility can explore fast-closing sale options — a conversation worth having with a broker before committing to a new lease.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://hencre.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://hencre.com/blog" },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Tampa Bay Manufacturing Space CRE 2026",
+          item: "https://hencre.com/blog/tampa-bay-manufacturing-space-cre-2026",
+        },
+      ],
+    },
+    {
+      "@type": "BlogPosting",
+      headline: "Tampa Bay Manufacturing Space 2026: 4.2% Vacancy, 15.6% Rent Growth, and What It Means for Tenants and Investors",
+      description:
+        "Manufacturing vacancy in Tampa Bay hit 4.2% in Q3 2026 while rents climbed 15.6% year-over-year. Here is what that means for manufacturing tenants searching for space, owner-users evaluating a purchase, and investors underwriting this undersupplied CRE segment.",
+      datePublished: "2026-11-25",
       dateModified: "2026-11-27",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
         jobTitle: "Broker Associate at REMAX Collective | e-PRO, MRP, SRS | REMAX Hall of Fame",
         image: "https://hencre.com/images/barrett-henry-headshot.jpg",
-        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],        worksFor: { "@type": "Organization", name: "REMAX Collective" },
+        sameAs: ["https://hencre.com/about", "https://barretthenry.remax.com"],
+        worksFor: { "@type": "Organization", name: "REMAX Collective" },
       },
       publisher: { "@type": "Organization", name: "HenCRE", url: "https://hencre.com" },
       url: "https://hencre.com/blog/tampa-bay-manufacturing-space-cre-2026",
@@ -257,7 +344,8 @@ export default function TampaBayManufacturingSpaceCRE2026Page() {
       {/* ---- Author Bio ---- */}
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex items-start gap-6 rounded-lg border border-[#E5E5E5] p-6">
-          <Image            src="/images/barrett-henry-headshot.jpg"
+          <img
+            src="/images/barrett-henry-headshot.jpg"
             alt="Barrett Henry, Broker Associate at REMAX Collective"
             width={80}
             height={80}
