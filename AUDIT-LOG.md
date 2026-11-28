@@ -7263,3 +7263,51 @@ Pages improved by the daily SEO agent. Each entry lists the date, page path, and
 ### 10. `/blog/dale-mabry-corridor-commercial-real-estate-tampa-2026`
 - Fixed 4 em dashes (-- replacement with commas)
 - Updated dateModified to "2026-11-22"
+
+---
+
+## Batch 87 -- 2026-11-28
+
+**Commit:** `794ba7c` | **Build:** clean (0 errors) | **Pages improved:** 10
+
+### 1. `/blog/historic-gas-plant-district-st-pete-cre-2026`
+- Fixed 35 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-28"
+
+### 2. `/blog/tampa-bay-veterinary-clinic-nnn-investment-2026`
+- Fixed 32 em dashes (-- replacement with commas)
+- Fixed jobTitle from "Broker Associate" to full credentials format
+- Updated dateModified to "2026-11-28"
+
+### 3. `/blog/sarasota-memorial-manatee-campus-medical-cre-2026`
+- Fixed 32 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-28"
+
+### 4. `/blog/tampa-bay-dst-delaware-statutory-trust-cre-2026`
+- Fixed 29 em dashes (-- replacement with commas)
+- Fixed jobTitle from "Broker Associate" to full credentials format
+- Updated dateModified to "2026-11-28"
+
+### 5. `/blog/tampa-bay-residential-slowdown-cre-opportunity-2026`
+- Fixed 28 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-28"
+
+### 6. `/blog/naples-collier-county-commercial-real-estate-2026`
+- Fixed 18 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-28"
+
+### 7. `/blog/clearwater-office-space-professional-services-firms`
+- Fixed 18 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-28"
+
+### 8. `/blog/st-petersburg-nnn-landlord-investment-strategy-pinellas`
+- Fixed 17 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-28"
+
+### 9. `/blog/valrico-commercial-real-estate-market-guide`
+- Fixed 15 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-28"
+
+### 10. `/blog/lakeland-polk-county-nnn-cap-rate-investor-strategy-2026`
+- Fixed 13 em dashes (-- replacement with commas)
+- Updated dateModified to "2026-11-28"
