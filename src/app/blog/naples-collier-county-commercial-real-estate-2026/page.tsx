@@ -11,7 +11,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 export const metadata: Metadata = {
   title: "Naples Commercial Real Estate 2026: Collier County Guide | HenCRE",
   description:
-    "Naples and Collier County commercial real estate guide for 2026 -- luxury retail on Fifth Avenue South, Class A office, medical real estate, and investment opportunities in Southwest Florida.",
+    "Naples and Collier County commercial real estate guide for 2026, luxury retail on Fifth Avenue South, Class A office, medical real estate, and investment opportunities in Southwest Florida.",
   alternates: { canonical: "https://hencre.com/blog/naples-collier-county-commercial-real-estate-2026" },
   openGraph: {
     title: "Naples Commercial Real Estate 2026: Collier County Guide",
@@ -34,17 +34,17 @@ const faqItems = [
   {
     question: "What makes Naples commercial real estate different from other Florida markets?",
     answer:
-      "Naples and Collier County operate at the premium end of Florida&apos;s commercial real estate spectrum. The market is defined by high barriers to entry -- limited land availability, strict development regulations, and affluent property owners who are not distressed sellers -- and by exceptional demand fundamentals driven by one of the wealthiest retirement and second-home populations in the United States. Quality assets trade at cap rates that reflect this premium positioning. Entry pricing is high, but so is the stability of the tenant and consumer base.",
+      "Naples and Collier County operate at the premium end of Florida&apos;s commercial real estate spectrum. The market is defined by high barriers to entry, limited land availability, strict development regulations, and affluent property owners who are not distressed sellers, and by exceptional demand fundamentals driven by one of the wealthiest retirement and second-home populations in the United States. Quality assets trade at cap rates that reflect this premium positioning. Entry pricing is high, but so is the stability of the tenant and consumer base.",
   },
   {
     question: "Is Fifth Avenue South retail a good investment?",
     answer:
-      "Fifth Avenue South in downtown Naples is one of Florida&apos;s most iconic luxury retail corridors -- comparable to Worth Avenue in Palm Beach for positioning, if smaller in scale. Vacancy on Fifth Avenue South is structurally low because supply is fixed and demand from high-end retail and dining operators remains strong. When a space does become available, it attracts significant competition from national luxury brands and sophisticated local operators. This is not a high-yield investment play; it is a wealth-preservation, premium-positioning acquisition for investors who value stability and prestige over yield.",
+      "Fifth Avenue South in downtown Naples is one of Florida&apos;s most iconic luxury retail corridors, comparable to Worth Avenue in Palm Beach for positioning, if smaller in scale. Vacancy on Fifth Avenue South is structurally low because supply is fixed and demand from high-end retail and dining operators remains strong. When a space does become available, it attracts significant competition from national luxury brands and sophisticated local operators. This is not a high-yield investment play; it is a wealth-preservation, premium-positioning acquisition for investors who value stability and prestige over yield.",
   },
   {
     question: "What are the investment opportunities in eastern Collier County?",
     answer:
-      "Eastern Collier County -- the corridor stretching from Ave Maria toward Immokalee -- represents Florida&apos;s most significant large-tract agricultural and development land market. Investors seeking long-duration optionality on Southwest Florida growth are acquiring agricultural land in this corridor, betting on infrastructure maturation and residential absorption over the coming decade and beyond. This is patient capital territory with meaningful upside if Florida&apos;s growth trajectory continues, but it requires tolerance for long hold periods and illiquidity during the development cycle.",
+      "Eastern Collier County, the corridor stretching from Ave Maria toward Immokalee, represents Florida&apos;s most significant large-tract agricultural and development land market. Investors seeking long-duration optionality on Southwest Florida growth are acquiring agricultural land in this corridor, betting on infrastructure maturation and residential absorption over the coming decade and beyond. This is patient capital territory with meaningful upside if Florida&apos;s growth trajectory continues, but it requires tolerance for long hold periods and illiquidity during the development cycle.",
   },
   {
     question: "How strong is the medical real estate market in Naples?",
@@ -78,9 +78,9 @@ const schema = {
       "@type": "BlogPosting",
       headline: "Naples Commercial Real Estate 2026: Collier County Investor and Tenant Guide",
       description:
-        "Naples and Collier County commercial real estate in 2026 -- Fifth Avenue South retail, Class A office, medical real estate, Marco Island, and eastern Collier development land.",
+        "Naples and Collier County commercial real estate in 2026, Fifth Avenue South retail, Class A office, medical real estate, Marco Island, and eastern Collier development land.",
       datePublished: "2026-08-17",
-      dateModified: "2026-11-05",
+      dateModified: "2026-11-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -107,17 +107,17 @@ const relatedLinks = [
   {
     title: "Collier County Commercial Real Estate Market",
     href: "/markets/collier",
-    description: "Barrett Henry&apos;s Collier County market overview -- active areas, property types, and investment approach.",
+    description: "Barrett Henry&apos;s Collier County market overview, active areas, property types, and investment approach.",
   },
   {
     title: "Lee County Commercial Real Estate",
     href: "/markets/lee",
-    description: "Fort Myers and Cape Coral -- the adjacent Southwest Florida market with strong industrial and retail demand.",
+    description: "Fort Myers and Cape Coral, the adjacent Southwest Florida market with strong industrial and retail demand.",
   },
   {
     title: "Charlotte County Commercial Real Estate",
     href: "/markets/charlotte",
-    description: "Port Charlotte and Punta Gorda -- the growing mid-market between Fort Myers and Sarasota.",
+    description: "Port Charlotte and Punta Gorda, the growing mid-market between Fort Myers and Sarasota.",
   },
   {
     title: "Sarasota Office Market Trends 2026",
@@ -172,7 +172,7 @@ export default function NaplesCollierCommercialPage() {
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&h=900&fit=crop"
         title="Naples Commercial Real Estate 2026"
-        subtitle="Collier County&apos;s luxury retail, Class A office, healthcare real estate, and investment land -- what tenants and investors need to know about Southwest Florida&apos;s most premium CRE market."
+        subtitle="Collier County&apos;s luxury retail, Class A office, healthcare real estate, and investment land, what tenants and investors need to know about Southwest Florida&apos;s most premium CRE market."
       />
 
       <article className="prose-hencre mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
@@ -180,7 +180,7 @@ export default function NaplesCollierCommercialPage() {
           Naples and Collier County operate at the premium end of Florida&apos;s commercial real estate spectrum. While markets like Tampa Bay and Miami attract more transaction volume and institutional capital, Naples occupies a distinctive niche: a supply-constrained, affluent market with one of the wealthiest residential populations in the United States and a commercial real estate landscape defined by scarcity and stability rather than growth and volatility.
         </p>
         <p className="mt-4 text-lg leading-relaxed text-[#666666]">
-          This guide covers what tenants and investors need to know about Naples and Collier County commercial real estate in 2026 -- the key submarkets, property types, investment fundamentals, and how Collier County fits into a broader Southwest Florida or statewide Florida CRE strategy.
+          This guide covers what tenants and investors need to know about Naples and Collier County commercial real estate in 2026, the key submarkets, property types, investment fundamentals, and how Collier County fits into a broader Southwest Florida or statewide Florida CRE strategy.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">What Defines the Naples Commercial Real Estate Market</h2>
@@ -188,7 +188,7 @@ export default function NaplesCollierCommercialPage() {
           Three factors define Collier County&apos;s commercial market and distinguish it from other Florida metros. First, the wealth of the consumer base: Collier County consistently ranks among the highest-income counties in the United States, and that affluence flows through to both retail demand and office tenant quality. Second, supply constraints: Collier County&apos;s development regulations are strict, coastal buildable land is exhausted, and the county has historically been resistant to the kind of sprawl development that has reshaped other Florida markets. Third, the seasonal demand dynamic: Naples sees significant seasonal population surges from November through April, which benefits hospitality and high-end retail but requires retailers and restaurants to underwrite their economics carefully against the summer pullback.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The result is a market that rewards patient, quality-focused investors and tenants who understand the local dynamics, and punishes those who underwrite based on generic Florida metrics. Cap rates in Collier County are lower than most other Florida markets because the quality premium is real -- but so is the stability of the assets that trade at those tight yields.
+          The result is a market that rewards patient, quality-focused investors and tenants who understand the local dynamics, and punishes those who underwrite based on generic Florida metrics. Cap rates in Collier County are lower than most other Florida markets because the quality premium is real, but so is the stability of the assets that trade at those tight yields.
         </p>
 
         <div className="my-8 overflow-hidden rounded-lg">
@@ -203,13 +203,13 @@ export default function NaplesCollierCommercialPage() {
 
         <h2 className="mt-10 text-2xl font-bold text-black">Fifth Avenue South and the Downtown Naples Retail Market</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Fifth Avenue South is the commercial heart of Naples and one of Florida&apos;s most recognizable luxury retail corridors. The district features a concentration of fine dining, luxury boutiques, art galleries, and professional services within a walkable, landscaped streetscape that is meticulously maintained by the city and property owners. This is the kind of retail environment that operates more like a curated marketplace than a traditional shopping center -- tenant mix matters enormously, and the corridor has historically resisted the national chain homogenization that has diminished other Florida retail destinations.
+          Fifth Avenue South is the commercial heart of Naples and one of Florida&apos;s most recognizable luxury retail corridors. The district features a concentration of fine dining, luxury boutiques, art galleries, and professional services within a walkable, landscaped streetscape that is meticulously maintained by the city and property owners. This is the kind of retail environment that operates more like a curated marketplace than a traditional shopping center, tenant mix matters enormously, and the corridor has historically resisted the national chain homogenization that has diminished other Florida retail destinations.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For <Link href="/commercial/retail-space" className="text-accent underline">retail tenants</Link> evaluating Fifth Avenue South, the barriers to entry are real. Space availability is limited and irregular -- when vacancies occur, they are quickly competed for by qualified operators. Rents are among the highest in Southwest Florida. The consumer base is exceptional in terms of spending power, but it is seasonal: year-round occupancy costs must be underwritten against seasonal revenue curves that peak from November through April.
+          For <Link href="/commercial/retail-space" className="text-accent underline">retail tenants</Link> evaluating Fifth Avenue South, the barriers to entry are real. Space availability is limited and irregular, when vacancies occur, they are quickly competed for by qualified operators. Rents are among the highest in Southwest Florida. The consumer base is exceptional in terms of spending power, but it is seasonal: year-round occupancy costs must be underwritten against seasonal revenue curves that peak from November through April.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Investors in Fifth Avenue South retail are buying scarcity and stability, not yield. Cap rates for quality assets on the corridor are compressed relative to other Florida retail markets, but vacancy risk is genuinely lower than comparable positions in higher-cap-rate markets. Understanding the full cost of ownership -- including <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charges</Link> and property management costs specific to the downtown Naples context -- is essential for underwriting any acquisition here.
+          Investors in Fifth Avenue South retail are buying scarcity and stability, not yield. Cap rates for quality assets on the corridor are compressed relative to other Florida retail markets, but vacancy risk is genuinely lower than comparable positions in higher-cap-rate markets. Understanding the full cost of ownership, including <Link href="/blog/understanding-cam-charges-tenants-guide" className="text-accent underline">CAM charges</Link> and property management costs specific to the downtown Naples context, is essential for underwriting any acquisition here.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Naples and North Naples Office Market</h2>
@@ -217,7 +217,7 @@ export default function NaplesCollierCommercialPage() {
           Collier County&apos;s office market is anchored by professional services firms that cater to the county&apos;s affluent population: wealth management, estate law, accounting, insurance, and medical specialties. The supply of quality <Link href="/commercial/office-space" className="text-accent underline">office space</Link> is limited relative to the demand from these tenant categories, which has historically kept vacancy rates in quality suburban office buildings lower than many other Florida markets.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          The US 41 corridor through Naples and North Naples is the primary office and medical corridor -- well-located suburban office buildings here attract the professional services base that serves the county&apos;s residential community. Vanderbilt Beach Road and the Immokalee Road corridor in North Naples have seen continued suburban office and medical development as the residential base has expanded northward.
+          The US 41 corridor through Naples and North Naples is the primary office and medical corridor, well-located suburban office buildings here attract the professional services base that serves the county&apos;s residential community. Vanderbilt Beach Road and the Immokalee Road corridor in North Naples have seen continued suburban office and medical development as the residential base has expanded northward.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           For investors evaluating Collier County office assets, the key underwriting question is tenant quality and lease term. Given the market&apos;s reliance on smaller professional services tenants rather than large corporate anchor tenants, lease rollover risk requires careful management. Assets with credit medical or professional services tenants on longer lease terms command significant premiums.
@@ -231,18 +231,18 @@ export default function NaplesCollierCommercialPage() {
           NCH Healthcare System and HCA Healthcare both operate significant facilities in the Naples area, and the competitive healthcare landscape has driven ongoing investment in medical campus real estate. Medical office buildings near major hospital campuses and along the primary US 41 and Immokalee Road corridors are among the most actively sought commercial assets in the county.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors evaluating healthcare real estate, the <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">medical office investment framework</Link> that applies in Tampa Bay -- tenant credit, healthcare system relationships, lease term, and location relative to patient traffic generators -- applies directly in Collier County as well. The difference is that entry cap rates are lower in Naples, reflecting the market&apos;s premium positioning and lower vacancy risk.
+          For investors evaluating healthcare real estate, the <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">medical office investment framework</Link> that applies in Tampa Bay, tenant credit, healthcare system relationships, lease term, and location relative to patient traffic generators, applies directly in Collier County as well. The difference is that entry cap rates are lower in Naples, reflecting the market&apos;s premium positioning and lower vacancy risk.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Eastern Collier County: Development Land and Long-Duration Investment</h2>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          Eastern Collier County -- extending from Ave Maria east toward Immokalee and beyond -- represents one of Florida&apos;s most significant remaining large-tract agricultural and development land markets. Ave Maria, the master-planned community developed by the Ave Maria Development LLLP, has created a residential and commercial nucleus in eastern Collier that has attracted both permanent residents and commercial activity that would otherwise be absent from this rural corridor.
+          Eastern Collier County, extending from Ave Maria east toward Immokalee and beyond, represents one of Florida&apos;s most significant remaining large-tract agricultural and development land markets. Ave Maria, the master-planned community developed by the Ave Maria Development LLLP, has created a residential and commercial nucleus in eastern Collier that has attracted both permanent residents and commercial activity that would otherwise be absent from this rural corridor.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors considering eastern Collier land acquisitions, this is patient capital territory. Agricultural land in this corridor trades at prices that reflect optionality on long-term residential and commercial absorption -- the thesis is that Florida&apos;s continued population growth will eventually push development pressure eastward, making today&apos;s agricultural land tomorrow&apos;s development land. That thesis has played out in other Florida corridors, but the timeline is genuinely uncertain and requires tolerance for illiquidity.
+          For investors considering eastern Collier land acquisitions, this is patient capital territory. Agricultural land in this corridor trades at prices that reflect optionality on long-term residential and commercial absorption, the thesis is that Florida&apos;s continued population growth will eventually push development pressure eastward, making today&apos;s agricultural land tomorrow&apos;s development land. That thesis has played out in other Florida corridors, but the timeline is genuinely uncertain and requires tolerance for illiquidity.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          <Link href="/commercial/land-development" className="text-accent underline">Land development investment</Link> in Florida requires specific due diligence around zoning, environmental, and infrastructure -- particularly water/sewer availability -- that is different from improved commercial property acquisition. Engaging a broker with land transaction experience and the appropriate environmental and engineering consultants is essential before committing capital to eastern Collier land.
+          <Link href="/commercial/land-development" className="text-accent underline">Land development investment</Link> in Florida requires specific due diligence around zoning, environmental, and infrastructure, particularly water/sewer availability, that is different from improved commercial property acquisition. Engaging a broker with land transaction experience and the appropriate environmental and engineering consultants is essential before committing capital to eastern Collier land.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">Marco Island: Florida&apos;s Premium Island Commercial Market</h2>
@@ -250,7 +250,7 @@ export default function NaplesCollierCommercialPage() {
           Marco Island sits at the southern edge of Collier County and operates as a distinct commercial submarket. The island is primarily residential and hospitality-oriented, with a commercial base consisting of restaurants, specialty retail, personal services, and medical facilities serving the island&apos;s affluent year-round and seasonal population. Commercial space on Marco Island is genuinely scarce, and supply will never increase meaningfully given the island&apos;s geography.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For retail and restaurant tenants evaluating Marco Island space, the seasonal demand dynamic is even more pronounced than in Naples proper. The island&apos;s consumer base peaks sharply in winter months and contracts significantly in summer. Tenants who can manage this seasonality -- or whose business model benefits from it -- find Marco Island a compelling location. Those who need year-round volume should evaluate the seasonality carefully before committing to a lease.
+          For retail and restaurant tenants evaluating Marco Island space, the seasonal demand dynamic is even more pronounced than in Naples proper. The island&apos;s consumer base peaks sharply in winter months and contracts significantly in summer. Tenants who can manage this seasonality, or whose business model benefits from it, find Marco Island a compelling location. Those who need year-round volume should evaluate the seasonality carefully before committing to a lease.
         </p>
 
         <h2 className="mt-10 text-2xl font-bold text-black">How to Work with a Florida Broker on Collier County CRE</h2>
@@ -258,7 +258,7 @@ export default function NaplesCollierCommercialPage() {
           As a <Link href="/about" className="text-accent underline">Broker Associate at REMAX Collective</Link> with 23+ years of Florida commercial real estate experience, I work with Collier County opportunities through established referral partnerships with qualified local brokers who have direct relationships in the Naples and Marco Island markets.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
-          For investors comparing Collier County options to <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link>, <Link href="/markets/charlotte" className="text-accent underline">Charlotte County</Link>, or Tampa Bay alternatives -- or building a multi-market Southwest Florida portfolio -- I provide strategic consultation that draws on firsthand experience across Florida&apos;s major commercial markets. The key questions when comparing these markets are yield, growth potential, liquidity at exit, and tolerance for seasonal demand dynamics.
+          For investors comparing Collier County options to <Link href="/markets/sarasota" className="text-accent underline">Sarasota</Link>, <Link href="/markets/charlotte" className="text-accent underline">Charlotte County</Link>, or Tampa Bay alternatives, or building a multi-market Southwest Florida portfolio, I provide strategic consultation that draws on firsthand experience across Florida&apos;s major commercial markets. The key questions when comparing these markets are yield, growth potential, liquidity at exit, and tolerance for seasonal demand dynamics.
         </p>
         <p className="mt-4 text-[#666666] leading-relaxed">
           My <Link href="/services/investment-sales" className="text-accent underline">investment sales services</Link> include market analysis, deal sourcing strategy, broker introductions, and transaction facilitation across Florida&apos;s major commercial markets. If you are evaluating a Naples or Collier County commercial real estate acquisition or lease in 2026, let&apos;s discuss what the market can offer and what the right approach looks like for your specific situation.
@@ -270,7 +270,7 @@ export default function NaplesCollierCommercialPage() {
       <section className="bg-[#F5F5F5] px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-2xl font-bold text-black sm:text-3xl">
-            Naples CRE -- Frequently Asked Questions
+            Naples CRE, Frequently Asked Questions
           </h2>
           <FAQAccordion items={faqItems} />
         </div>

@@ -28,7 +28,7 @@ const faqItems = [
   },
   {
     question: "How do cap rates in St. Petersburg compare to other Pinellas County markets?",
-    answer: "St. Petersburg NNN assets typically carry a tighter cap rate than suburban Pinellas markets like Largo or Pinellas Park due to the infill scarcity premium and stronger tenant demand. The exact spread depends on lease term remaining, tenant credit quality, and rent structure -- which is why a property-level underwriting review with an experienced advisor matters before making an offer.",
+    answer: "St. Petersburg NNN assets typically carry a tighter cap rate than suburban Pinellas markets like Largo or Pinellas Park due to the infill scarcity premium and stronger tenant demand. The exact spread depends on lease term remaining, tenant credit quality, and rent structure, which is why a property-level underwriting review with an experienced advisor matters before making an offer.",
   },
   {
     question: "Does Florida&apos;s insurance market affect NNN lease underwriting in St. Petersburg?",
@@ -60,7 +60,7 @@ const schema = {
       headline: "St. Petersburg NNN Investment Strategy 2026",
       description: "St. Petersburg NNN retail investment opportunities, cap rate trends, and landlord strategies for Pinellas County. Call Barrett Henry at (813) 733-7907.",
       datePublished: "2026-11-13",
-      dateModified: "2026-11-16",
+      dateModified: "2026-11-28",
       author: {
         "@type": "Person",
         name: "Barrett Henry",
@@ -165,7 +165,7 @@ export default function BlogPost() {
           County, and NNN retail is driving much of that attention. The city&apos;s combination of dense
           residential population, limited developable land, and an ongoing downtown transformation has created
           a supply-constrained environment where well-positioned retail properties hold strong tenancy and
-          consistent cash flow -- exactly what net lease investors look for. If you&apos;re evaluating{" "}
+          consistent cash flow, exactly what net lease investors look for. If you&apos;re evaluating{" "}
           <Link href="/commercial/nnn-net-lease" className="text-accent underline">NNN net lease opportunities</Link>{" "}
           in Florida, St. Pete deserves a serious look.
         </p>
@@ -194,34 +194,34 @@ export default function BlogPost() {
 
         <h2>What Types of NNN Tenants Perform Well in This Market?</h2>
         <p>
-          St. Petersburg&apos;s consumer base skews toward service-dependent retail -- tenants that can&apos;t
+          St. Petersburg&apos;s consumer base skews toward service-dependent retail, tenants that can&apos;t
           be displaced by e-commerce. That makes the city a strong candidate for several NNN tenant categories:
         </p>
         <ul>
           <li>
-            <strong>Quick-service restaurants and drive-throughs</strong> -- High-traffic corridors near the
+            <strong>Quick-service restaurants and drive-throughs</strong>, High-traffic corridors near the
             beaches and downtown support QSR volume. See how these assets are priced in our{" "}
             <Link href="/blog/tampa-bay-qsr-drive-thru-nnn-investment-2026" className="text-accent underline">QSR and drive-thru NNN investment guide</Link>.
           </li>
           <li>
-            <strong>Urgent care and medical clinics</strong> -- The demographics skew older than most Florida
+            <strong>Urgent care and medical clinics</strong>, The demographics skew older than most Florida
             metros, supporting healthcare-adjacent retail. Review the broader case in our{" "}
             <Link href="/blog/tampa-bay-medical-office-real-estate-2026" className="text-accent underline">medical office real estate analysis</Link>.
           </li>
           <li>
-            <strong>Auto parts and service</strong> -- Dense neighborhoods with aging vehicle fleets support
+            <strong>Auto parts and service</strong>, Dense neighborhoods with aging vehicle fleets support
             strong locations for auto service tenants. Our{" "}
             <Link href="/blog/tampa-bay-auto-parts-service-nnn-investment-2026" className="text-accent underline">auto service NNN overview</Link>{" "}
             covers underwriting considerations.
           </li>
           <li>
-            <strong>Dollar and value retail</strong> -- Value-oriented tenants continue to expand into infill
+            <strong>Dollar and value retail</strong>, Value-oriented tenants continue to expand into infill
             urban locations across Florida. See our{" "}
             <Link href="/blog/tampa-bay-dollar-store-nnn-investment-2026" className="text-accent underline">dollar store NNN investment breakdown</Link>{" "}
             for context on lease structure and risk.
           </li>
           <li>
-            <strong>Car washes</strong> -- Tunnel car wash operators have been aggressive buyers and tenants in
+            <strong>Car washes</strong>, Tunnel car wash operators have been aggressive buyers and tenants in
             coastal Florida markets. Our{" "}
             <Link href="/blog/tampa-bay-car-wash-cre-investment-2026" className="text-accent underline">car wash CRE guide</Link>{" "}
             explains the investment thesis.
@@ -236,7 +236,7 @@ export default function BlogPost() {
           rates climbed, because investor demand for durable cash flow assets has remained elevated.
         </p>
         <p>
-          That said, the gap between asking and achievable cap rates in St. Pete can be wide -- especially
+          That said, the gap between asking and achievable cap rates in St. Pete can be wide, especially
           for properties with near-term lease expirations or below-market rent structures. This is where
           working with an experienced advisor matters. Barrett Henry at REMAX Collective has 23+ years of
           real estate experience and can help you model realistic NOI, evaluate rent bumps against market
@@ -259,7 +259,7 @@ export default function BlogPost() {
         </p>
         <p>
           Structuring annual rent escalations of 2-3% compounding into new leases has become the baseline
-          expectation for institutional-quality NNN assets. Flat rent structures -- common in legacy leases --
+          expectation for institutional-quality NNN assets. Flat rent structures, common in legacy leases --
           will discount your asset&apos;s value at sale. If you&apos;re a landlord planning an exit within
           the next three to five years, the lease structure you negotiate today directly affects what a buyer
           will pay tomorrow. Our{" "}
@@ -275,7 +275,7 @@ export default function BlogPost() {
 
         <h2>Are There Redevelopment Angles That Affect NNN Underwriting in St. Pete?</h2>
         <p>
-          Yes -- and this is where local market knowledge becomes a material advantage. Several corridors
+          Yes, and this is where local market knowledge becomes a material advantage. Several corridors
           adjacent to Downtown St. Petersburg are experiencing significant mixed-use redevelopment pressure.
           Projects like those covered in our{" "}
           <Link href="/blog/historic-gas-plant-district-st-pete-cre-2026" className="text-accent underline">Historic Gas Plant District CRE analysis</Link>{" "}
@@ -285,7 +285,7 @@ export default function BlogPost() {
           An older single-tenant building on a large lot near a redevelopment zone may be worth more for its
           land value than its in-place NOI. Alternatively, a property locked into a long NNN lease in a
           rapidly appreciating corridor could limit your upside if you need rezoning flexibility later.
-          Several commercial corridors are actively being studied for density increases -- information a buyer
+          Several commercial corridors are actively being studied for density increases, information a buyer
           or landlord should have before signing a 10- or 15-year lease.
         </p>
 
@@ -293,7 +293,7 @@ export default function BlogPost() {
         <p>
           Florida&apos;s insurance market adds a cost layer that changes NNN underwriting compared to other
           states. Commercial property insurance premiums in coastal Pinellas County have increased
-          significantly in recent cycles, and in a true NNN structure, that cost passes to the tenant -- but
+          significantly in recent cycles, and in a true NNN structure, that cost passes to the tenant, but
           only if the lease is drafted correctly. Poorly structured leases with insurance caps or carve-outs
           can leave landlords absorbing costs that were supposed to be a tenant obligation. Our post on{" "}
           <Link href="/blog/florida-insurance-crisis-investment-properties" className="text-accent underline">Florida&apos;s insurance crisis and investment properties</Link>{" "}
@@ -303,7 +303,7 @@ export default function BlogPost() {
           Out-of-market buyers also benefit from understanding the{" "}
           <Link href="/blog/what-makes-a-good-commercial-investment" className="text-accent underline">fundamentals of what makes a commercial investment viable</Link>{" "}
           in Florida&apos;s specific legal and market environment before submitting offers. Barrett serves all
-          67 Florida counties from offices in Tampa, Largo, and Brandon -- and his Largo office puts him
+          67 Florida counties from offices in Tampa, Largo, and Brandon, and his Largo office puts him
           directly in the Pinellas County market on a regular basis.
         </p>
 
@@ -373,7 +373,7 @@ export default function BlogPost() {
 
       <CTASection
         heading="Your St. Petersburg NNN Investment Window Is Narrower Than You Think"
-        body="Well-located NNN assets in St. Petersburg&apos;s infill corridors move fast, and the landlords and buyers who act with accurate market data and experienced representation consistently outperform those who wait. Call Barrett Henry at (813) 733-7907 or reach out through hencre.com -- he works across all of Pinellas County and can help you evaluate, structure, or exit a St. Petersburg investment."
+        body="Well-located NNN assets in St. Petersburg&apos;s infill corridors move fast, and the landlords and buyers who act with accurate market data and experienced representation consistently outperform those who wait. Call Barrett Henry at (813) 733-7907 or reach out through hencre.com, he works across all of Pinellas County and can help you evaluate, structure, or exit a St. Petersburg investment."
         buttonText="Contact Barrett"
         buttonHref="/contact"
       />
